@@ -20,13 +20,13 @@ openai = OpenAI(api_key=OPENAI_API_KEY)
 # 1) FETCH ESPN ARTICLES WITH LINKS
 # ─────────────────────────────────────────────────────────────────────────────
 def fetch_espn_articles(league: str):
-    """Pull the top 8 news items (with URLs) from ESPN’s JSON endpoint."""
+    """Pull the top 10 news items (with URLs) from ESPN’s JSON endpoint."""
     if league == "NFL":
         url = "http://site.api.espn.com/apis/site/v2/sports/football/nfl/news"
     else:
         url = "http://site.api.espn.com/apis/site/v2/sports/football/college-football/news"
 
-    resp = requests.get(url, params={"limit": 8})
+    resp = requests.get(url, params={"limit": 10})
     resp.raise_for_status()
     data = resp.json().get("articles", [])
     articles = []
