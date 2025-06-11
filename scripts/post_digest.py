@@ -1,109 +1,101 @@
-import os
-import requests
-import textwrap
-from openai import OpenAI, RateLimitError
+import os, requests, textwrap
 from datetime import datetime, timedelta
+from openai import OpenAI, RateLimitError
 
-# -------------------------------------------------------------------
-# 1) Load config from environment
-# -------------------------------------------------------------------
-LEAGUE = os.getenv('LEAGUE', 'NFL').upper()  
-WEBHOOK_ENV = f"DISCORD_WEBHOOK_{LEAGUE}"
-DISCORD_WEBHOOK = os.getenv(WEBHOOK_ENV)
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-if not DISCORD_WEBHOOK:
-    raise ValueError(f"No webhook set for league {LEAGUE} (env var {WEBHOOK_ENV})")
-if not OPENAI_API_KEY:
-    raise ValueError("Missing OPENAI_API_KEY environment variable")
+# ─────────────────────────────────────────────────────────────────────────────
+# CONFIG & CLIENTS
+# ─────────────────────────────────────────────────────────────────────────────
+LEAGUE            = os.getenv('LEAGUE', 'NFL').upper()
+WEBHOOK_ENV       = f"DISCORD_WEBHOOK_{LEAGUE}"
+DISCORD_WEBHOOK   = os.getenv(WEBHOOK_ENV)
+OPENAI_API_KEY    = os.getenv('OPENAI_API_KEY')
+MAX_DISCORD_CHARS = 2000
 
-# -------------------------------------------------------------------
-# 2) Initialize OpenAI client
-# -------------------------------------------------------------------
-client = OpenAI(api_key=OPENAI_API_KEY)
+if not DISCORD_WEBHOOK or not OPENAI_API_KEY:
+    raise ValueError("Make sure DISCORD_WEBHOOK_<LEAGUE> and OPENAI_API_KEY are set")
 
-# -------------------------------------------------------------------
-# 3) Build the dynamic prompt for each league
-# -------------------------------------------------------------------
-def build_prompt(league: str) -> str:
+openai = OpenAI(api_key=OPENAI_API_KEY)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 1) FETCH ESPN ARTICLES
+# ─────────────────────────────────────────────────────────────────────────────
+def fetch_espn_articles(league: str):
+    """Pull the top 10 news items from ESPN’s JSON endpoint for NFL or CFB."""
     if league == "NFL":
-        return (
-            "You’re a professional sports news editor. "
-            "Give me a bullet-point NFL news digest covering the last 24 hours, "
-            "including: general news summary, signings, minicamp holdouts, contract updates, and injuries. "
-            "Only report factual events—do not invent or fictionalize."
-        )
-    elif league in ("CFB", "NCAAF"):
-        return (
-            "You’re a professional sports news editor. "
-            "Give me a bullet-point College Football news digest covering the last 24 hours, "
-            "including: general news summary, portal transfers, injuries, and NIL money updates. "
-            "Only report factual events—do not invent or fictionalize."
-        )
+        url = "http://site.api.espn.com/apis/site/v2/sports/football/nfl/news"
     else:
-        return (
-            f"You’re a professional sports news editor. "
-            f"Summarize the last 24 hours of {league} news in bullet points. "
-            "Only report factual events—do not invent or fictionalize."
-        )
+        url = "http://site.api.espn.com/apis/site/v2/sports/football/college-football/news"
 
-# -------------------------------------------------------------------
-# 4) Fetch the digest from OpenAI
-# -------------------------------------------------------------------
+    resp = requests.get(url, params={"limit": 10})
+    resp.raise_for_status()
+    data = resp.json().get("articles", [])
+    articles = []
+    for art in data:
+        title = art.get("headline") or art.get("title")
+        desc  = art.get("description") or art.get("summary") or ""
+        src   = "ESPN"
+        if title and desc:
+            articles.append({"title": title.strip(), "src": src, "desc": desc.strip()})
+    return articles
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 2) BUILD THE PROMPT FROM ESPN ARTICLES
+# ─────────────────────────────────────────────────────────────────────────────
+def build_prompt(league: str, articles: list) -> str:
+    header = (
+        "You’re a professional sports news editor. "
+        "Here are today’s top headlines. Summarize them under these headings:"
+    )
+    if league == "NFL":
+        header += " General News, Signings, Minicamp Holdouts, Contract Updates, Injuries."
+    else:
+        header += " General News, Portal Transfers, Injuries, NIL Money Updates."
+    header += " Only use the information provided—do not invent anything.\n\n"
+
+    lines = []
+    for art in articles:
+        lines.append(f"- **{art['title']}** ({art['src']}): {art['desc']}")
+    return header + "\n".join(lines)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 3) FETCH & SUMMARIZE
+# ─────────────────────────────────────────────────────────────────────────────
 def fetch_digest(league: str) -> str:
-    prompt = build_prompt(league)
-    messages = [
-        {
-            "role": "system",
-            "content": (
-                "You are a professional sports news editor. "
-                "Summarize only factual events from reputable sources—do not invent or fictionalize anything. "
-                "If you’re unsure, say you don’t know."
-            )
-        },
-        {"role": "user", "content": prompt}
-    ]
+    arts = fetch_espn_articles(league)
+    if not arts:
+        return f"⚠️ No recent {league} articles found."
 
+    prompt = build_prompt(league, arts)
     try:
-        resp = client.chat.completions.create(
+        resp = openai.chat.completions.create(
             model=os.getenv("OPENAI_MODEL", "gpt-3.5-turbo"),
-            messages=messages
+            messages=[
+                {"role":"system","content":"You are a concise, factual sports news editor."},
+                {"role":"user",  "content":prompt}
+            ]
         )
         return resp.choices[0].message.content.strip()
     except RateLimitError:
         return f"⚠️ Could not generate {league} digest today: quota exceeded."
 
-# -------------------------------------------------------------------
-# 5) Post content to Discord, handling length & errors
-# -------------------------------------------------------------------
-MAX_DISCORD_CHARS = 2000
-
+# ─────────────────────────────────────────────────────────────────────────────
+# 4) DISCORD POSTING (with chunking)
+# ─────────────────────────────────────────────────────────────────────────────
 def post_to_discord(content: str):
-    # Validate webhook URL
+    if not content.strip():
+        raise ValueError("Empty content")
     if not DISCORD_WEBHOOK.startswith("https://discord.com/api/webhooks/"):
-        raise ValueError(f"Invalid Discord webhook URL: {DISCORD_WEBHOOK}")
+        raise ValueError("Invalid webhook URL")
 
-    # Prevent empty posts
-    if not content or not content.strip():
-        raise ValueError("Cannot send empty content to Discord")
-
-    # Split into <=2000-char chunks, preserving line breaks
-    chunks = textwrap.wrap(content, MAX_DISCORD_CHARS, 
+    chunks = textwrap.wrap(content, MAX_DISCORD_CHARS,
                            break_long_words=False, replace_whitespace=False)
+    for chunk in chunks:
+        r = requests.post(DISCORD_WEBHOOK, json={"content": chunk})
+        r.raise_for_status()
 
-    for idx, chunk in enumerate(chunks, start=1):
-        payload = {"content": chunk}
-        resp = requests.post(DISCORD_WEBHOOK, json=payload)
-        try:
-            resp.raise_for_status()
-        except requests.exceptions.HTTPError as e:
-            # Include Discord’s error message for debugging
-            raise RuntimeError(
-                f"Discord returned {resp.status_code} on chunk {idx}: {resp.text}"
-            ) from e
-
-# -------------------------------------------------------------------
-# 6) Main execution: fetch & post
-# -------------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
+# MAIN
+# ─────────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    digest = fetch_digest(LEAGUE)
-    post_to_discord(digest)
+    summary = fetch_digest(LEAGUE)
+    post_to_discord(summary)
