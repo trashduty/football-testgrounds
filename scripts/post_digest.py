@@ -56,7 +56,6 @@ def fetch_espn_articles(league: str):
 # 2) FETCH RAPIDAPI HEADLINES WITH LINKS
 # ─────────────────────────────────────────────────────────────────────────────
 def fetch_rapidapi_articles(league: str):
-    """Fetch the top 5 sports headlines from RapidAPI’s /top-headlines endpoint, including URLs."""
     host = RAPIDAPI_HOST
     url  = f"https://{host}/top-headlines"
     headers = {
@@ -69,20 +68,33 @@ def fetch_rapidapi_articles(league: str):
     }
     resp = requests.get(url, headers=headers, params=params)
     resp.raise_for_status()
+    payload = resp.json()
 
-    items = resp.json()  # expect a list of dicts
+    # Debug
+    print("RapidAPI raw payload type:", type(payload))
+    if isinstance(payload, dict):
+        # Try common wrapper keys
+        for key in ("articles", "data", "items"):
+            if key in payload and isinstance(payload[key], list):
+                items = payload[key]
+                print(f"Using payload['{key}'] with {len(items)} entries")
+                break
+        else:
+            # No array found
+            print("Warning: no 'articles', 'data' or 'items' list in RapidAPI response")
+            items = []
+    elif isinstance(payload, list):
+        items = payload
+        print(f"Using top-level list with {len(items)} entries")
+    else:
+        print("Unexpected payload structure:", payload)
+        items = []
+
     articles = []
     for art in items:
         title = art.get("title") or art.get("headline")
         desc  = art.get("description") or art.get("summary") or ""
-        # try multiple possible URL fields
-        link  = (
-            art.get("url")
-            or art.get("link")
-            or art.get("articleUrl")
-            or art.get("sourceUrl")
-            or ""
-        )
+        link  = art.get("url") or art.get("link") or art.get("articleUrl") or ""
         src   = art.get("source", {}).get("name", "RapidAPI")
         if title and desc and link:
             articles.append({
@@ -91,7 +103,10 @@ def fetch_rapidapi_articles(league: str):
                 "desc":  desc.strip(),
                 "url":   link.strip()
             })
+
+    print(f"Parsed {len(articles)} valid RapidAPI articles")
     return articles
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 3) COMBINE & DEDUPE ARTICLES
