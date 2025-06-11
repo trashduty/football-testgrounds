@@ -1,0 +1,40 @@
+name: Daily Sports Digests
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # 15:00 UTC → 08:00 MST
+
+jobs:
+  nfl_digest:
+    name: Send NFL Digest
+    runs-on: ubuntu-latest
+    env:
+      LEAGUE: "NFL"
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      DISCORD_WEBHOOK_NFL: ${{ secrets.DISCORD_WEBHOOK_NFL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install --upgrade pip
+          pip install openai requests
+      - run: python scripts/post_digest.py
+
+  cfb_digest:
+    name: Send College Football Digest
+    runs-on: ubuntu-latest
+    env:
+      LEAGUE: "CFB"
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      DISCORD_WEBHOOK_CFB: ${{ secrets.DISCORD_WEBHOOK_CFB }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: |
+          pip install --upgrade pip
+          pip install openai requests
+      - run: python scripts/post_digest.py
