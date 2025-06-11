@@ -37,9 +37,33 @@ def fetch_digest(league: str) -> str:
     )
     return resp.choices[0].message.content
 
+import requests
+import textwrap
+
+MAX_DISCORD_CHARS = 2000
+
 def post_to_discord(content: str):
-    r = requests.post(DISCORD_WEBHOOK, json={"content": content})
-    r.raise_for_status()
+    """
+    Posts content to the Discord webhook, splitting into multiple messages
+    if it exceeds Discord's 2,000-character limit.
+    """
+    if not DISCORD_WEBHOOK.startswith("https://discord.com/api/webhooks/"):
+        raise ValueError(f"Invalid webhook URL: {DISCORD_WEBHOOK}")
+
+    if not content or not content.strip():
+        raise ValueError("Cannot send empty content to Discord")
+
+    # Split into chunks under the character limit, splitting on newlines when possible
+    chunks = textwrap.wrap(content, MAX_DISCORD_CHARS, break_long_words=False, replace_whitespace=False)
+    for i, chunk in enumerate(chunks, 1):
+        payload = {"content": chunk}
+        resp = requests.post(DISCORD_WEBHOOK, json=payload)
+        try:
+            resp.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            # Include the response body in the error for debugging
+            raise RuntimeError(f"Discord returned {resp.status_code}: {resp.text}") from e
+
 
 if __name__ == "__main__":
     digest = fetch_digest(LEAGUE)
