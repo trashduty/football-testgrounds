@@ -53,10 +53,10 @@ def fetch_espn_articles(league: str):
     return articles
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 2) FETCH RAPIDAPI HEADLINES
+# 2) FETCH RAPIDAPI HEADLINES WITH LINKS
 # ─────────────────────────────────────────────────────────────────────────────
 def fetch_rapidapi_articles(league: str):
-    """Fetch the top 5 sports headlines from RapidAPI’s /top-headlines endpoint."""
+    """Fetch the top 5 sports headlines from RapidAPI’s /top-headlines endpoint, including URLs."""
     host = RAPIDAPI_HOST
     url  = f"https://{host}/top-headlines"
     headers = {
@@ -70,13 +70,19 @@ def fetch_rapidapi_articles(league: str):
     resp = requests.get(url, headers=headers, params=params)
     resp.raise_for_status()
 
-    # The response is a list of article dicts
-    items = resp.json()  
+    items = resp.json()  # expect a list of dicts
     articles = []
     for art in items:
         title = art.get("title") or art.get("headline")
         desc  = art.get("description") or art.get("summary") or ""
-        link  = art.get("url") or art.get("link")
+        # try multiple possible URL fields
+        link  = (
+            art.get("url")
+            or art.get("link")
+            or art.get("articleUrl")
+            or art.get("sourceUrl")
+            or ""
+        )
         src   = art.get("source", {}).get("name", "RapidAPI")
         if title and desc and link:
             articles.append({
@@ -87,9 +93,8 @@ def fetch_rapidapi_articles(league: str):
             })
     return articles
 
-
 # ─────────────────────────────────────────────────────────────────────────────
-# 3) COMBINE & DEDUPE
+# 3) COMBINE & DEDUPE ARTICLES
 # ─────────────────────────────────────────────────────────────────────────────
 def fetch_combined_articles(league: str):
     espn = fetch_espn_articles(league)
@@ -109,7 +114,7 @@ def fetch_combined_articles(league: str):
 def build_prompt(league: str, articles: list) -> str:
     header = (
         "You’re a professional sports news editor. "
-        "Below are today’s top headlines—include title, source, description, and URL.  "
+        "Below are today’s top headlines—title, source, description, and URL.  "
         "Summarize them in bullet points under these headings:"
     )
     if league == "NFL":
@@ -147,7 +152,7 @@ def fetch_digest(league: str) -> str:
         return f"⚠️ Could not generate {league} digest today: quota exceeded."
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 6) POST TO DISCORD (with chunking)
+# 6) POST TO DISCORD (with chunking and validation)
 # ─────────────────────────────────────────────────────────────────────────────
 def post_to_discord(content: str):
     if not content.strip():
