@@ -69,9 +69,11 @@ def fetch_rapidapi_articles(league: str):
     }
     resp = requests.get(url, headers=headers, params=params)
     resp.raise_for_status()
-    data = resp.json().get("articles", [])
+
+    # The response is a list of article dicts
+    items = resp.json()  
     articles = []
-    for art in data:
+    for art in items:
         title = art.get("title") or art.get("headline")
         desc  = art.get("description") or art.get("summary") or ""
         link  = art.get("url") or art.get("link")
@@ -84,6 +86,7 @@ def fetch_rapidapi_articles(league: str):
                 "url":   link.strip()
             })
     return articles
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 3) COMBINE & DEDUPE
