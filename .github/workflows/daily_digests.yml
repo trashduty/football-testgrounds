@@ -1,7 +1,6 @@
 name: Daily Sports Digests
 
 on:
-  # Allow manual runs from the Actions tab
   workflow_dispatch:
   schedule:
     - cron: '0 15 * * *'  # 15:00 UTC → 08:00 MST
@@ -12,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LEAGUE: "NFL"
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
       DISCORD_WEBHOOK_NFL: ${{ secrets.DISCORD_WEBHOOK_NFL }}
+      RAPIDAPI_KEY:      ${{ secrets.RAPIDAPI_KEY }}
+      RAPIDAPI_HOST:     ${{ secrets.RAPIDAPI_HOST }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
@@ -29,8 +30,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LEAGUE: "CFB"
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
       DISCORD_WEBHOOK_CFB: ${{ secrets.DISCORD_WEBHOOK_CFB }}
+      RAPIDAPI_KEY:      ${{ secrets.RAPIDAPI_KEY }}
+      RAPIDAPI_HOST:     ${{ secrets.RAPIDAPI_HOST }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
