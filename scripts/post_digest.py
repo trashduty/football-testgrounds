@@ -30,12 +30,28 @@ def build_prompt(league: str) -> str:
         return f"Summarize {league} news from {yesterday} in bullet points."
 
 def fetch_digest(league: str) -> str:
-    prompt = build_prompt(league)
+    """Ask GPT for a factual, real‐world digest—no fictional examples or disclaimers."""
+    yesterday = (datetime.utcnow() - timedelta(days=1)).strftime('%Y-%m-%d')
+    user_prompt = build_prompt(league)
+    
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "You are a professional sports news editor. "
+                "Summarize only factual events from reputable sources—do not invent or fictionalize anything. "
+                "If you’re unsure, say you don’t know."
+            )
+        },
+        {"role": "user", "content": user_prompt}
+    ]
+    
     resp = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "user", "content": prompt}]
+        model=os.getenv("OPENAI_MODEL", "gpt-3.5-turbo"),
+        messages=messages
     )
     return resp.choices[0].message.content
+
 
 import requests
 import textwrap
