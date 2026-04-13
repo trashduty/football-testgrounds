@@ -2,8 +2,6 @@ name: Daily Sports Digests
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 15 * * *'  # 15:00 UTC → 08:00 MST
 
 jobs:
   nfl_digest:
