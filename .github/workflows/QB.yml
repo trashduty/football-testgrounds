@@ -3,6 +3,9 @@ name: Run 2025 QB starter inference
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -10,6 +13,8 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -19,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install pandas nfl_data_py pyarrow
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run QB starter script
@@ -26,10 +32,11 @@ jobs:
           mkdir -p output
           python scripts/qb_starters_2025.py
 
-      - name: Upload CSV outputs
-        uses: actions/upload-artifact@v4
-        with:
-          name: qb-starter-csvs
-          path: |
-            output/*.csv
-            *.csv
+      - name: Commit generated CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/*.csv *.csv || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Add generated QB starter CSVs"
+          git push
