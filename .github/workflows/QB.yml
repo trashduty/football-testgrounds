@@ -29,14 +29,22 @@ jobs:
 
       - name: Run QB starter script
         run: |
-          mkdir -p output
-          python scripts/qb_starters_2025.py
+          python scripts/qb_starters_2025.py --output-dir outputs
+          echo "Generated files:"
+          find outputs -maxdepth 1 -type f | sort || true
 
       - name: Commit generated CSVs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/*.csv *.csv || true
+
+          files=$(find outputs -maxdepth 1 -name "*.csv" -type f 2>/dev/null)
+          if [ -z "$files" ]; then
+            echo "No CSV files found in outputs/"
+            exit 0
+          fi
+
+          git add outputs/*.csv
           git diff --cached --quiet && exit 0
           git commit -m "Add generated QB starter CSVs"
           git push
