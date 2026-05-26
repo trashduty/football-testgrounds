@@ -1,4 +1,4 @@
-name: Generate QB comparison visuals
+name: Cards QB comparison visuals
 
 on:
   workflow_dispatch:
@@ -42,7 +42,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
       - name: Resolve run variables
         id: vars
