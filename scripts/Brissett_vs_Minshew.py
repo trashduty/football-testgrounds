@@ -19,13 +19,11 @@ Default comparison seasons:
 from __future__ import annotations
 
 import argparse
-import io
 from pathlib import Path
 from typing import Dict, Iterable, List
 
 import matplotlib
 matplotlib.use("Agg")
-
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
@@ -33,28 +31,11 @@ from PIL import Image
 
 try:
     import nfl_data_py as nfl
-except ImportError as exc:  # pragma: no cover
+except ImportError as exc:
     raise SystemExit(
         "nfl_data_py is required. Install with: pip install pandas nfl_data_py matplotlib requests pillow pyarrow"
     ) from exc
 
-
-DEFAULT_QBS = [
-    {
-        "player_name": "Jacoby Brissett",
-        "player_display": "Jacoby Brissett",
-        "season": 2025,
-        "headshot_url": "https://a.espncdn.com/i/headshots/nfl/players/full/2573309.png",
-        "color": "#97233F",
-    },
-    {
-        "player_name": "Gardner Minshew",
-        "player_display": "Gardner Minshew II",
-        "season": 2024,
-        "headshot_url": "https://a.espncdn.com/i/headshots/nfl/players/full/4038524.png",
-        "color": "#FFB612",
-    },
-]
 
 METRIC_ORDER = [
     "epa_per_play",
