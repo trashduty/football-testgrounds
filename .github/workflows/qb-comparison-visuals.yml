@@ -32,6 +32,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
 
       - name: Resolve run variables
         id: vars
@@ -46,7 +48,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas nfl_data_py matplotlib requests pillow pyarrow
+          pip install -r requirements.txt
 
       - name: Generate comparison outputs
         run: |

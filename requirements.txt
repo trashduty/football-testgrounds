@@ -1,0 +1,6 @@
+pandas
+nfl_data_py
+matplotlib
+requests
+pillow
+pyarrow
