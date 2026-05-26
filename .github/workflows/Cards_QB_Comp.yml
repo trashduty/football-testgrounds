@@ -1,4 +1,4 @@
-name: Cards QB comparison visuals
+name: Generate QB comparison visuals
 
 on:
   workflow_dispatch:
@@ -7,16 +7,6 @@ on:
         description: "Directory to write outputs into"
         required: false
         default: "outputs/qb_comparison"
-        type: string
-      brissett_season:
-        description: "Season to use for Jacoby Brissett"
-        required: false
-        default: "2025"
-        type: string
-      minshew_season:
-        description: "Season to use for Gardner Minshew"
-        required: false
-        default: "2024"
         type: string
   schedule:
     - cron: "0 13 * * 2"
@@ -48,24 +38,10 @@ jobs:
         shell: bash
         run: |
           OUTPUT_DIR="${{ github.event.inputs.output_dir }}"
-          BRISSETT_SEASON="${{ github.event.inputs.brissett_season }}"
-          MINSHEW_SEASON="${{ github.event.inputs.minshew_season }}"
-
           if [ -z "$OUTPUT_DIR" ]; then
             OUTPUT_DIR="outputs/qb_comparison"
           fi
-
-          if [ -z "$BRISSETT_SEASON" ]; then
-            BRISSETT_SEASON="2025"
-          fi
-
-          if [ -z "$MINSHEW_SEASON" ]; then
-            MINSHEW_SEASON="2024"
-          fi
-
           echo "output_dir=$OUTPUT_DIR" >> "$GITHUB_OUTPUT"
-          echo "brissett_season=$BRISSETT_SEASON" >> "$GITHUB_OUTPUT"
-          echo "minshew_season=$MINSHEW_SEASON" >> "$GITHUB_OUTPUT"
 
       - name: Install dependencies
         run: |
@@ -74,10 +50,7 @@ jobs:
 
       - name: Generate comparison outputs
         run: |
-          python scripts/qb_comparison_visuals.py \
-            --output-dir "${{ steps.vars.outputs.output_dir }}" \
-            --brissett-season "${{ steps.vars.outputs.brissett_season }}" \
-            --minshew-season "${{ steps.vars.outputs.minshew_season }}"
+          python scripts/qb_comparison_visuals.py --output-dir "${{ steps.vars.outputs.output_dir }}"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
