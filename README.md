@@ -13,7 +13,7 @@ This repository now includes a reproducible script to infer likely starting quar
 ### Install
 
 ```bash
-pip install pandas nfl_data_py matplotlib requests pillow
+pip install -r /home/runner/work/football-testgrounds/football-testgrounds/requirements.txt
 ```
 
 ### Run
@@ -42,4 +42,11 @@ The QB comparison script writes:
 
 - Uses the most recent substantial season samples specified in the script: Jacoby Brissett 2025 and Gardner Minshew 2024.
 - Metrics are pass-play based from nflverse play-by-play data via `nfl_data_py`.
-- Headshots are downloaded from ESPN-hosted player image URLs specified in the script.
+- Headshots are resolved from nflverse roster metadata (`headshot_url`) when available.
+- If a headshot URL is missing or fails to download, the script continues and renders a placeholder in the headshot panel.
+
+### GitHub Actions workflow
+
+- Workflow file: `/home/runner/work/football-testgrounds/football-testgrounds/.github/workflows/qb-comparison-visuals.yml`
+- Trigger manually from Actions (**Generate QB comparison visuals**) or via scheduled run.
+- Generated files are uploaded as run artifacts and committed back when outputs changed.

@@ -1,62 +1,53 @@
 #!/usr/bin/env python3
-"""Generate Jacoby Brissett vs Gardner Minshew comparison data and visuals.
-
-Pulls nflverse/nflfastr-style play-by-play data via nfl_data_py, computes:
-- EPA/play
-- CPOE
-- TD rate
-- INT rate
-- 3rd down EPA/play
-
-It also downloads player headshots and renders simple comparison visuals inspired by
-nflplotR guidance (clean labels, direct annotation, minimalist bars/cards).
-"""
+"""Generate Jacoby Brissett vs Gardner Minshew comparison data and visuals."""
 
 from __future__ import annotations
 
 import argparse
-import io
 from pathlib import Path
 from typing import Dict, Iterable, List
 
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
+from PIL import Image
 
 try:
     import nfl_data_py as nfl
-except ImportError as exc:  # pragma: no cover
+except ImportError as exc:
     raise SystemExit(
-        "nfl_data_py is required. Install with: pip install nfl_data_py pandas matplotlib requests pillow"
+        "nfl_data_py is required. Install with: pip install pandas nfl_data_py matplotlib requests pillow pyarrow"
     ) from exc
 
-from PIL import Image
 
-
-QBS = [
-    {
-        "player_name": "Jacoby Brissett",
-        "player_display": "Jacoby Brissett",
-        "season": 2025,
-        "headshot_url": "https://a.espncdn.com/i/headshots/nfl/players/full/2573309.png",
-        "color": "#97233F",
-    },
-    {
-        "player_name": "Gardner Minshew",
-        "player_display": "Gardner Minshew II",
-        "season": 2024,
-        "headshot_url": "https://a.espncdn.com/i/headshots/nfl/players/full/4038524.png",
-        "color": "#FFB612",
-    },
+METRIC_ORDER = [
+    "epa_per_play",
+    "cpoe",
+    "td_rate",
+    "int_rate",
+    "third_down_epa_per_play",
 ]
 
-METRIC_ORDER = ["epa_per_play", "cpoe", "td_rate", "int_rate", "third_down_epa_per_play"]
 METRIC_LABELS = {
     "epa_per_play": "EPA/Play",
     "cpoe": "CPOE",
     "td_rate": "TD Rate",
     "int_rate": "INT Rate",
     "third_down_epa_per_play": "3rd Down EPA/Play",
+}
+
+REQUIRED_COLUMNS = {
+    "season",
+    "down",
+    "play_type",
+    "pass_attempt",
+    "interception",
+    "touchdown",
+    "epa",
+    "cpoe",
+    "passer_player_name",
 }
 
 
@@ -68,6 +59,32 @@ def parse_args() -> argparse.Namespace:
         help="Directory where CSVs, images, and headshots will be saved.",
     )
     return parser.parse_args()
+
+
+def build_qbs() -> List[Dict[str, object]]:
+    return [
+        {
+            "player_name": "Jacoby Brissett",
+            "player_display": "Jacoby Brissett",
+            "season": 2025,
+            "color": "#97233F",
+        },
+        {
+            "player_name": "Gardner Minshew",
+            "player_display": "Gardner Minshew II",
+            "season": 2024,
+            "color": "#FFB612",
+        },
+    ]
+
+
+def validate_columns(df: pd.DataFrame) -> None:
+    missing = REQUIRED_COLUMNS - set(df.columns)
+    if missing:
+        raise ValueError(
+            "Play-by-play data is missing required columns: "
+            + ", ".join(sorted(missing))
+        )
 
 
 def load_pbp(seasons: Iterable[int]) -> pd.DataFrame:
@@ -84,15 +101,61 @@ def load_pbp(seasons: Iterable[int]) -> pd.DataFrame:
         "incomplete_pass",
         "interception",
         "touchdown",
-        "air_epa",
         "epa",
         "cpoe",
         "passer_player_name",
-        "rusher_player_name",
         "desc",
     ]
     pbp = nfl.import_pbp_data(list(seasons), columns=cols)
+    validate_columns(pbp)
     return pbp
+
+
+def load_rosters(seasons: Iterable[int]) -> pd.DataFrame:
+    required = {"season", "player_name", "headshot_url"}
+    empty_rosters = pd.DataFrame(columns=sorted(required))
+    try:
+        rosters = nfl.import_seasonal_rosters(list(seasons))
+    except Exception as exc:  # noqa: BLE001
+        print(f"Warning: could not load roster metadata for headshots: {exc}")
+        return empty_rosters
+
+    if rosters.empty:
+        print("Warning: roster metadata is empty; headshots may be unavailable.")
+        return empty_rosters
+
+    missing = required - set(rosters.columns)
+    if missing:
+        print(
+            "Warning: roster metadata missing headshot fields: "
+            + ", ".join(sorted(missing))
+        )
+        return empty_rosters
+
+    return rosters
+
+
+def attach_headshots(metrics_df: pd.DataFrame, rosters: pd.DataFrame) -> pd.DataFrame:
+    if rosters.empty:
+        merged = metrics_df.copy()
+        merged["headshot_url"] = pd.NA
+        return merged
+
+    roster_qb = (
+        rosters[["season", "player_name", "headshot_url"]]
+        .dropna(subset=["player_name"])
+        .drop_duplicates(subset=["season", "player_name"], keep="first")
+    )
+
+    merged = metrics_df.merge(
+        roster_qb,
+        how="left",
+        left_on=["lookup_name", "season"],
+        right_on=["player_name", "season"],
+        suffixes=("", "_roster"),
+    )
+    merged = merged.drop(columns=["player_name_roster"], errors="ignore")
+    return merged
 
 
 def qb_pass_plays(pbp: pd.DataFrame, qb_name: str, season: int) -> pd.DataFrame:
@@ -111,70 +174,112 @@ def compute_metrics(df: pd.DataFrame) -> Dict[str, float]:
         return {k: float("nan") for k in METRIC_ORDER} | {"attempts": 0}
 
     third = df[df["down"] == 3]
+
     return {
         "attempts": attempts,
         "epa_per_play": df["epa"].mean(),
         "cpoe": df["cpoe"].mean(),
-        "td_rate": df["touchdown"].fillna(0).mean(),
-        "int_rate": df["interception"].fillna(0).mean(),
+        "td_rate": df["touchdown"].fillna(0).astype(float).mean(),
+        "int_rate": df["interception"].fillna(0).astype(float).mean(),
         "third_down_epa_per_play": third["epa"].mean() if not third.empty else float("nan"),
     }
 
 
-def build_metrics_table(pbp: pd.DataFrame) -> pd.DataFrame:
-    rows: List[Dict[str, float]] = []
-    for qb in QBS:
-        plays = qb_pass_plays(pbp, qb["player_name"], qb["season"])
+def build_metrics_table(pbp: pd.DataFrame, qbs: List[Dict[str, object]]) -> pd.DataFrame:
+    rows: List[Dict[str, object]] = []
+
+    for qb in qbs:
+        plays = qb_pass_plays(pbp, str(qb["player_name"]), int(qb["season"]))
         metrics = compute_metrics(plays)
         metrics.update(
             {
                 "player": qb["player_display"],
+                "lookup_name": qb["player_name"],
                 "season": qb["season"],
-                "headshot_url": qb["headshot_url"],
                 "color": qb["color"],
             }
         )
         rows.append(metrics)
+
     return pd.DataFrame(rows)
 
 
-def save_headshots(metrics_df: pd.DataFrame, out_dir: Path) -> None:
-    headshot_dir = out_dir / "headshots"
-    headshot_dir.mkdir(parents=True, exist_ok=True)
-    for _, row in metrics_df.iterrows():
-        filename = row["player"].lower().replace(" ", "_").replace(".", "") + ".png"
-        target = headshot_dir / filename
-        response = requests.get(row["headshot_url"], timeout=30)
+def safe_filename(name: str) -> str:
+    return name.lower().replace(" ", "_").replace(".", "").replace("/", "_")
+
+
+def download_headshot(url: str, target: Path) -> bool:
+    if not url or pd.isna(url):
+        return False
+    try:
+        response = requests.get(url, timeout=30)
         response.raise_for_status()
         target.write_bytes(response.content)
+        return True
+    except requests.RequestException:
+        return False
+
+
+def save_headshots(metrics_df: pd.DataFrame, out_dir: Path) -> pd.DataFrame:
+    headshot_dir = out_dir / "headshots"
+    headshot_dir.mkdir(parents=True, exist_ok=True)
+
+    local_paths = []
+    headshot_ok = []
+
+    for _, row in metrics_df.iterrows():
+        filename = safe_filename(str(row["player"])) + ".png"
+        target = headshot_dir / filename
+        ok = download_headshot(row.get("headshot_url"), target)
+        local_paths.append(str(target))
+        headshot_ok.append(ok)
+
+    updated = metrics_df.copy()
+    updated["headshot_path"] = local_paths
+    updated["headshot_downloaded"] = headshot_ok
+    return updated
 
 
 def render_metric_bars(metrics_df: pd.DataFrame, out_dir: Path) -> None:
     fig, axes = plt.subplots(len(METRIC_ORDER), 1, figsize=(10, 14), constrained_layout=True)
+
+    if len(METRIC_ORDER) == 1:
+        axes = [axes]
+
     for ax, metric in zip(axes, METRIC_ORDER):
         values = metrics_df[metric]
-        colors = metrics_df["color"]
         labels = [f"{p} ({s})" for p, s in zip(metrics_df["player"], metrics_df["season"])]
-        ax.barh(labels, values, color=colors)
+        ax.barh(labels, values, color=metrics_df["color"])
         ax.set_title(METRIC_LABELS[metric], loc="left", fontweight="bold")
         ax.axvline(0, color="#999999", linewidth=0.8)
+
         for i, v in enumerate(values):
             label = f"{v:.3f}" if pd.notna(v) else "NA"
-            x = v if pd.notna(v) else 0
+            x = float(v) if pd.notna(v) else 0.0
             ax.text(x, i, f"  {label}", va="center", ha="left", fontsize=10)
-        ax.spines[["top", "right"]].set_visible(False)
-    fig.suptitle("Jacoby Brissett vs Gardner Minshew: QB Efficiency Snapshot", fontsize=16, fontweight="bold")
+
+        ax.spines["top"].set_visible(False)
+        ax.spines["right"].set_visible(False)
+        ax.grid(axis="x", linestyle="--", alpha=0.25)
+
+    fig.suptitle(
+        "Jacoby Brissett vs Gardner Minshew: QB Efficiency Snapshot",
+        fontsize=16,
+        fontweight="bold",
+    )
     fig.savefig(out_dir / "qb_metric_bars.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 
 def render_summary_table(metrics_df: pd.DataFrame, out_dir: Path) -> None:
     display_df = metrics_df[["player", "season", "attempts"] + METRIC_ORDER].copy()
+
     for col in METRIC_ORDER:
         display_df[col] = display_df[col].map(lambda x: f"{x:.3f}" if pd.notna(x) else "NA")
 
-    fig, ax = plt.subplots(figsize=(12, 2.5))
+    fig, ax = plt.subplots(figsize=(12, 2.8))
     ax.axis("off")
+
     table = ax.table(
         cellText=display_df.values,
         colLabels=["Player", "Season", "Att"] + [METRIC_LABELS[m] for m in METRIC_ORDER],
@@ -184,20 +289,35 @@ def render_summary_table(metrics_df: pd.DataFrame, out_dir: Path) -> None:
     table.auto_set_font_size(False)
     table.set_fontsize(10)
     table.scale(1, 1.7)
+
+    for (row, col), cell in table.get_celld().items():
+        if row == 0:
+            cell.set_text_props(weight="bold")
+            cell.set_facecolor("#ECECEC")
+
     ax.set_title("QB comparison table", loc="left", fontweight="bold")
     fig.savefig(out_dir / "qb_metrics_table.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 
 def render_headshot_card(metrics_df: pd.DataFrame, out_dir: Path) -> None:
-    fig, axes = plt.subplots(1, 2, figsize=(10, 5), constrained_layout=True)
+    fig, axes = plt.subplots(1, len(metrics_df), figsize=(10, 5), constrained_layout=True)
+
+    if len(metrics_df) == 1:
+        axes = [axes]
+
     for ax, (_, row) in zip(axes, metrics_df.iterrows()):
-        response = requests.get(row["headshot_url"], timeout=30)
-        response.raise_for_status()
-        image = Image.open(io.BytesIO(response.content)).convert("RGBA")
-        ax.imshow(image)
         ax.axis("off")
+        path = Path(str(row["headshot_path"]))
+
+        if bool(row["headshot_downloaded"]) and path.exists():
+            image = Image.open(path).convert("RGBA")
+            ax.imshow(image)
+        else:
+            ax.text(0.5, 0.5, "Headshot unavailable", ha="center", va="center", fontsize=12, fontweight="bold")
+
         ax.set_title(f"{row['player']}\nSeason used: {row['season']}", fontweight="bold")
+
     fig.suptitle("Headshots for video package", fontsize=16, fontweight="bold")
     fig.savefig(out_dir / "qb_headshots_panel.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
@@ -208,12 +328,22 @@ def main() -> None:
     out_dir = Path(args.output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    seasons = sorted({qb["season"] for qb in QBS})
+    qbs = build_qbs()
+    seasons = sorted({int(qb["season"]) for qb in qbs})
+
+    print(f"Loading play-by-play data for seasons: {seasons}")
     pbp = load_pbp(seasons)
-    metrics_df = build_metrics_table(pbp)
+
+    print(f"Loading roster data for seasons: {seasons}")
+    rosters = load_rosters(seasons)
+
+    print("Building metrics table")
+    metrics_df = build_metrics_table(pbp, qbs)
+    metrics_df = attach_headshots(metrics_df, rosters)
+    metrics_df = save_headshots(metrics_df, out_dir)
     metrics_df.to_csv(out_dir / "qb_comparison_metrics.csv", index=False)
 
-    save_headshots(metrics_df, out_dir)
+    print("Rendering visuals")
     render_metric_bars(metrics_df, out_dir)
     render_summary_table(metrics_df, out_dir)
     render_headshot_card(metrics_df, out_dir)
