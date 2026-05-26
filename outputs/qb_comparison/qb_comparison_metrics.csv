@@ -1,3 +1,3 @@
-epa_per_play,cpoe,td_rate,int_rate,third_down_epa_per_play,attempts,player,lookup_name,season,color,player_name,headshot_url,headshot_path,headshot_downloaded
-,,,,,0,Jacoby Brissett,Jacoby Brissett,2025,#97233F,Jacoby Brissett,"https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rdxowm5dvpbb8p3aazbc",outputs/qb_comparison/headshots/jacoby_brissett.png,True
-,,,,,0,Gardner Minshew II,Gardner Minshew,2024,#FFB612,Gardner Minshew,"https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zn2kvriijuixffqfx7ob",outputs/qb_comparison/headshots/gardner_minshew_ii.png,True
+player,lookup_name,season,attempts,epa_per_play,cpoe,td_rate,int_rate,third_down_epa_per_play,headshot_url,color,headshot_path,headshot_downloaded
+Jacoby Brissett,Jacoby Brissett,2025,0,,,,,,"https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rdxowm5dvpbb8p3aazbc",#97233F,outputs/qb_comparison/headshots/jacoby_brissett.png,True
+Gardner Minshew II,Gardner Minshew,2024,0,,,,,,"https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zn2kvriijuixffqfx7ob",#FFB612,outputs/qb_comparison/headshots/gardner_minshew_ii.png,True
