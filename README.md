@@ -58,3 +58,41 @@ The QB comparison script writes:
   - `nflreadr::dictionary_team_stats`
   - `nflfastR::field_descriptions`
 - Use `/tmp/workspace/trashduty/football-testgrounds/data-raw/build_combined_data_dictionary.R` to refresh the local combined dictionary from upstream package datasets.
+
+## Weekly matchup article generator
+
+This repository now includes a reusable weekly matchup article workflow in `/tmp/workspace/trashduty/football-testgrounds/scripts/weekly_matchup_articles.py`.
+
+### Inputs and source choices
+
+- Weekly schedule, lines, and best-book context come from `NFL_Odds/Data/spreads_odds.csv` in `trashduty/trash-schedule`.
+- Weekly model blurbs and team abbreviations for ESPN team URLs come from `Week {week} model pred_updated.csv` in `trashduty/trash-schedule`.
+- nflverse / nflfastR data powers records, weather fallback, play-by-play team stats, and `special_teams_tds`.
+- ESPN team injuries and depth-chart pages are matched together so only starter injuries are included.
+
+### Run locally
+
+```bash
+python /tmp/workspace/trashduty/football-testgrounds/scripts/weekly_matchup_articles.py \
+  --week 1 \
+  --season 2026 \
+  --output-dir /tmp/workspace/trashduty/football-testgrounds/outputs/matchup_articles
+```
+
+Optional flags:
+
+- `--teams KC BUF` to limit output to selected games
+- `--espn-debug` to include the exact ESPN URLs used plus exact fetch/parse failures in the generated markdown/JSON
+- `--trash-schedule-dir /path/to/trash-schedule` to read model/odds CSVs from a local checkout instead of GitHub
+
+### Outputs
+
+- `outputs/matchup_articles/week_<week>/weekly_matchup_articles.md`
+- `outputs/matchup_articles/week_<week>/<away>_at_<home>.md`
+- `outputs/matchup_articles/week_<week>/weekly_matchup_articles.json`
+
+### Assumptions
+
+- Stats are season-to-date through the prior week; week 1 falls back to the previous regular season because there is no current-season sample yet.
+- “Offensive/Defensive Eckel” is sourced from the weekly model CSV because the shared local nflverse dictionary does not currently expose an Eckel field.
+- Weather blurbs use nflverse schedule data when `wind > 20`; if ESPN injury or depth-chart fetch/parsing fails, `--espn-debug` exposes the exact URL and exact failure reason.
