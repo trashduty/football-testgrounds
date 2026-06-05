@@ -1,0 +1,475 @@
+field,description,data_type,source
+aborted_play,"Binary indicator if the play description indicates ""Aborted"".",,nflfastR::field_descriptions
+air_epa,EPA from the air yards alone. For completions this represents the actual value provided through the air. For incompletions this represents the hypothetical value that could've been added through the air if the pass was completed.,,nflfastR::field_descriptions
+air_wpa,WPA through the air (same logic as air_epa).,,nflfastR::field_descriptions
+air_yards,Numeric value for distance in yards perpendicular to the line of scrimmage at where the targeted receiver either caught or didn't catch the ball.,,nflfastR::field_descriptions
+assist_tackle,Binary indicator for if an assist tackle occurred.,,nflfastR::field_descriptions
+assist_tackle_1_player_id,Unique identifier of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_1_player_name,String name of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_1_team,Team of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_2_player_id,Unique identifier of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_2_player_name,String name of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_2_team,Team of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_3_player_id,Unique identifier of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_3_player_name,String name of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_3_team,Team of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_4_player_id,Unique identifier of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_4_player_name,String name of one of the players with a tackle assist.,,nflfastR::field_descriptions
+assist_tackle_4_team,Team of one of the players with a tackle assist.,,nflfastR::field_descriptions
+away_coach,First and last name of the away team coach. (Source: Pro-Football-Reference),,nflfastR::field_descriptions
+away_score,Total points scored by the away team.,,nflfastR::field_descriptions
+away_team,String abbreviation for the away team.,,nflfastR::field_descriptions
+away_timeouts_remaining,Numeric timeouts remaining in the half for the away team.,,nflfastR::field_descriptions
+away_wp,Estimated win probability for the away team.,,nflfastR::field_descriptions
+away_wp_post,Estimated win probability for the away team at the end of the play.,,nflfastR::field_descriptions
+blocked_player_id,Unique identifier for the player that blocked the punt or FG.,,nflfastR::field_descriptions
+blocked_player_name,String name for the player that blocked the punt or FG.,,nflfastR::field_descriptions
+comp_air_epa,EPA from the air yards alone only for completions.,,nflfastR::field_descriptions
+comp_air_wpa,The air_wpa for completions only.,,nflfastR::field_descriptions
+comp_yac_epa,EPA from the yards after catch alone only for completions.,,nflfastR::field_descriptions
+comp_yac_wpa,The yac_wpa for completions only.,,nflfastR::field_descriptions
+complete_pass,Binary indicator for if the pass was completed.,,nflfastR::field_descriptions
+cp,Numeric value indicating the probability for a complete pass based on comparable game situations.,,nflfastR::field_descriptions
+cpoe,For a single pass play this is 1 - cp when the pass was completed or 0 - cp when the pass was incomplete. Analyzed for a whole game or season an indicator for the passer how much over or under expectation his completion percentage was.,,nflfastR::field_descriptions
+def_wp,Estimated win probability for the defteam.,,nflfastR::field_descriptions
+defensive_extra_point_attempt,"Binary indicator whether or not the defense was able to have an attempt on an extra point attempt, this results following a blocked attempt that the defense recovers the ball.",,nflfastR::field_descriptions
+defensive_extra_point_conv,Binary indicator whether or not the defense successfully scored on an extra point attempt.,,nflfastR::field_descriptions
+defensive_two_point_attempt,"Binary indicator whether or not the defense was able to have an attempt on a two point conversion, this results following a turnover.",,nflfastR::field_descriptions
+defensive_two_point_conv,Binary indicator whether or not the defense successfully scored on the two point conversion.,,nflfastR::field_descriptions
+defteam,String abbreviation for the team on defense.,,nflfastR::field_descriptions
+defteam_score,Score the defteam at the start of the play.,,nflfastR::field_descriptions
+defteam_score_post,Score for the defteam at the end of the play.,,nflfastR::field_descriptions
+defteam_timeouts_remaining,Number of timeouts remaining for the team on defense.,,nflfastR::field_descriptions
+desc,Detailed string description for the given play.,,nflfastR::field_descriptions
+div_game,Binary indicator for if the given game was a division game.,,nflfastR::field_descriptions
+down,The down for the given play.,,nflfastR::field_descriptions
+drive,Numeric drive number in the game.,,nflfastR::field_descriptions
+drive_end_transition,String indicating how the offense lost the ball.,,nflfastR::field_descriptions
+drive_end_yard_line,String indicating where a given drive ended consisting of team half and yard line number.,,nflfastR::field_descriptions
+drive_ended_with_score,Binary indicator the drive ended with a score.,,nflfastR::field_descriptions
+drive_first_downs,Number of first downs in a given drive.,,nflfastR::field_descriptions
+drive_game_clock_end,Game time at the end of a given drive.,,nflfastR::field_descriptions
+drive_game_clock_start,Game time at the beginning of a given drive.,,nflfastR::field_descriptions
+drive_inside20,Binary indicator if the offense was able to get inside the opponents 20 yard line.,,nflfastR::field_descriptions
+drive_play_count,Numeric value of how many regular plays happened in a given drive.,,nflfastR::field_descriptions
+drive_play_id_ended,Play_id of the last play in the given drive.,,nflfastR::field_descriptions
+drive_play_id_started,Play_id of the first play in the given drive.,,nflfastR::field_descriptions
+drive_quarter_end,Numeric value indicating in which quarter the given drive has ended.,,nflfastR::field_descriptions
+drive_quarter_start,Numeric value indicating in which quarter the given drive has started.,,nflfastR::field_descriptions
+drive_real_start_time,Local day time when the drive started (currently not used by the NFL and therefore mostly 'NA').,,nflfastR::field_descriptions
+drive_start_transition,String indicating how the offense got the ball.,,nflfastR::field_descriptions
+drive_start_yard_line,String indicating where a given drive started consisting of team half and yard line number.,,nflfastR::field_descriptions
+drive_time_of_possession,Time of possession in a given drive.,,nflfastR::field_descriptions
+drive_yards_penalized,Numeric value of how many yards the offense gained or lost through penalties in the given drive.,,nflfastR::field_descriptions
+end_clock_time,Game time at the end of a given play.,,nflfastR::field_descriptions
+end_yard_line,String indicating the yardline at the end of the given play consisting of team half and yard line number.,,nflfastR::field_descriptions
+ep,"Using the scoring event probabilities, the estimated expected points with respect to the possession team for the given play.",,nflfastR::field_descriptions
+epa,Expected points added (EPA) by the posteam for the given play.,,nflfastR::field_descriptions
+extra_point_attempt,Binary indicator for extra point attempt.,,nflfastR::field_descriptions
+extra_point_prob,Predicted probability of the posteam scoring an extra point.,,nflfastR::field_descriptions
+extra_point_result,"String indicator for the result of the extra point attempt: good, failed, blocked, safety (touchback in defensive endzone is 1 point apparently), or aborted.",,nflfastR::field_descriptions
+fantasy,Name of the rusher on rush plays or receiver on pass plays.,,nflfastR::field_descriptions
+fantasy_id,ID of the rusher on rush plays or receiver on pass plays.,,nflfastR::field_descriptions
+fantasy_player_id,ID of the rusher on rush plays or receiver on pass plays (from official stats).,,nflfastR::field_descriptions
+fantasy_player_name,Name of the rusher on rush plays or receiver on pass plays (from official stats).,,nflfastR::field_descriptions
+fg_prob,Predicted probability of the posteam scoring a FG next.,,nflfastR::field_descriptions
+field_goal_attempt,Binary indicator for field goal attempt.,,nflfastR::field_descriptions
+field_goal_result,"String indicator for result of field goal attempt: made, missed, or blocked.",,nflfastR::field_descriptions
+first_down,Binary indicator if the play ended in a first down.,,nflfastR::field_descriptions
+first_down_pass,Binary indicator for if a passing play converted the first down.,,nflfastR::field_descriptions
+first_down_penalty,Binary indicator for if a penalty converted the first down.,,nflfastR::field_descriptions
+first_down_rush,Binary indicator for if a running play converted the first down.,,nflfastR::field_descriptions
+fixed_drive,Manually created drive number in a game.,,nflfastR::field_descriptions
+fixed_drive_result,Manually created drive result.,,nflfastR::field_descriptions
+forced_fumble_player_1_player_id,Unique identifier of one of the players with a forced fumble.,,nflfastR::field_descriptions
+forced_fumble_player_1_player_name,String name of one of the players with a forced fumble.,,nflfastR::field_descriptions
+forced_fumble_player_1_team,Team of one of the players with a forced fumble.,,nflfastR::field_descriptions
+forced_fumble_player_2_player_id,Unique identifier of one of the players with a forced fumble.,,nflfastR::field_descriptions
+forced_fumble_player_2_player_name,String name of one of the players with a forced fumble.,,nflfastR::field_descriptions
+forced_fumble_player_2_team,Team of one of the players with a forced fumble.,,nflfastR::field_descriptions
+fourth_down_converted,Binary indicator for if the first down was converted on fourth down.,,nflfastR::field_descriptions
+fourth_down_failed,Binary indicator for if the posteam failed to convert first down on fourth down.,,nflfastR::field_descriptions
+fumble,Binary indicator for if a fumble occurred.,,nflfastR::field_descriptions
+fumble_forced,Binary indicator for if the fumble was forced.,,nflfastR::field_descriptions
+fumble_lost,Binary indicator for if the fumble was lost.,,nflfastR::field_descriptions
+fumble_not_forced,Binary indicator for if the fumble was not forced.,,nflfastR::field_descriptions
+fumble_out_of_bounds,Binary indicator for if the fumble went out of bounds.,,nflfastR::field_descriptions
+fumble_recovery_1_player_id,Unique identifier of one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumble_recovery_1_player_name,String name of one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumble_recovery_1_team,Team of one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumble_recovery_1_yards,Yards gained by one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumble_recovery_2_player_id,Unique identifier of one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumble_recovery_2_player_name,String name of one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumble_recovery_2_team,Team of one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumble_recovery_2_yards,Yards gained by one of the players with a fumble recovery.,,nflfastR::field_descriptions
+fumbled_1_player_id,Unique identifier of the first player who fumbled on the play.,,nflfastR::field_descriptions
+fumbled_1_player_name,String name of one of the first player who fumbled on the play.,,nflfastR::field_descriptions
+fumbled_1_team,Team of one of the first player with a fumble.,,nflfastR::field_descriptions
+fumbled_2_player_id,Unique identifier of the second player who fumbled on the play.,,nflfastR::field_descriptions
+fumbled_2_player_name,String name of one of the second player who fumbled on the play.,,nflfastR::field_descriptions
+fumbled_2_team,Team of one of the second player with a fumble.,,nflfastR::field_descriptions
+game_date,Date of the game.,,nflfastR::field_descriptions
+game_half,"String indicating which half the play is in, either Half1, Half2, or Overtime.",,nflfastR::field_descriptions
+game_id,Ten digit identifier for NFL game.,,nflfastR::field_descriptions
+game_seconds_remaining,Numeric seconds remaining in the game.,,nflfastR::field_descriptions
+game_stadium,Name of the stadium the game was played in. (Source: Pro-Football-Reference),,nflfastR::field_descriptions
+goal_to_go,Binary indicator for whether or not the posteam is in a goal down situation.,,nflfastR::field_descriptions
+half_sack_1_player_id,Unique identifier of the first player who recorded half a sack.,,nflfastR::field_descriptions
+half_sack_1_player_name,String name of the first player who recorded half a sack.,,nflfastR::field_descriptions
+half_sack_2_player_id,Unique identifier of the second player who recorded half a sack.,,nflfastR::field_descriptions
+half_sack_2_player_name,String name of the second player who recorded half a sack.,,nflfastR::field_descriptions
+half_seconds_remaining,Numeric seconds remaining in the half.,,nflfastR::field_descriptions
+home_coach,First and last name of the home team coach. (Source: Pro-Football-Reference),,nflfastR::field_descriptions
+home_opening_kickoff,"= 1 if the home team received the opening kickoff, 0 otherwise.",,nflfastR::field_descriptions
+home_score,Total points scored by the home team.,,nflfastR::field_descriptions
+home_team,String abbreviation for the home team.,,nflfastR::field_descriptions
+home_timeouts_remaining,Numeric timeouts remaining in the half for the home team.,,nflfastR::field_descriptions
+home_wp,Estimated win probability for the home team.,,nflfastR::field_descriptions
+home_wp_post,Estimated win probability for the home team at the end of the play.,,nflfastR::field_descriptions
+id,ID of the player in the 'name' column.,,nflfastR::field_descriptions
+incomplete_pass,Binary indicator for if the pass was incomplete.,,nflfastR::field_descriptions
+interception,Binary indicator for if the pass was intercepted.,,nflfastR::field_descriptions
+interception_player_id,Unique identifier for the player that intercepted the pass.,,nflfastR::field_descriptions
+interception_player_name,String name for the player that intercepted the pass.,,nflfastR::field_descriptions
+jersey_number,Jersey number of the player listed in the 'name' column.,,nflfastR::field_descriptions
+kick_distance,"Numeric distance in yards for kickoffs, field goals, and punts.",,nflfastR::field_descriptions
+kicker_player_id,Unique identifier for the kicker on FG or kickoff.,,nflfastR::field_descriptions
+kicker_player_name,String name for the kicker on FG or kickoff.,,nflfastR::field_descriptions
+kickoff_attempt,Binary indicator for kickoff.,,nflfastR::field_descriptions
+kickoff_downed,Binary indicator for if the kickoff was downed.,,nflfastR::field_descriptions
+kickoff_fair_catch,Binary indicator for if the kickoff was caught with a fair catch.,,nflfastR::field_descriptions
+kickoff_in_endzone,Binary indicator for if the kickoff was in the endzone.,,nflfastR::field_descriptions
+kickoff_inside_twenty,Binary indicator for if the kickoff ended inside the twenty yard line.,,nflfastR::field_descriptions
+kickoff_out_of_bounds,Binary indicator for if the kickoff went out of bounds.,,nflfastR::field_descriptions
+kickoff_returner_player_id,Unique identifier for the kickoff returner.,,nflfastR::field_descriptions
+kickoff_returner_player_name,String name for the kickoff returner.,,nflfastR::field_descriptions
+lateral_interception_player_id,Unique indentifier for the player that received the lateral on an interception.,,nflfastR::field_descriptions
+lateral_interception_player_name,String name for the player that received the lateral on an interception.,,nflfastR::field_descriptions
+lateral_kickoff_returner_player_id,Unique identifier for the player that received the lateral on a kickoff return.,,nflfastR::field_descriptions
+lateral_kickoff_returner_player_name,String name for the player that received the lateral on a kickoff return.,,nflfastR::field_descriptions
+lateral_punt_returner_player_id,Unique identifier for the player that received the lateral on a punt return.,,nflfastR::field_descriptions
+lateral_punt_returner_player_name,String name for the player that received the lateral on a punt return.,,nflfastR::field_descriptions
+lateral_receiver_player_id,Unique identifier for the player that received the last(!) lateral on a pass play.,,nflfastR::field_descriptions
+lateral_receiver_player_name,"String name for the player that received the last(!) lateral on a pass play. If there were multiple laterals in the same play, this will only be the last player who received a lateral. Please see <https://github.com/mrcaseb/nfl-data/tree/master/data/lateral_yards> for a list of plays where multiple players recorded lateral receiving yards.",,nflfastR::field_descriptions
+lateral_receiving_yards,Numeric yards by the `lateral_receiver_player_name` in pass plays with laterals. Please see the description of `lateral_receiver_player_name` for further information.,,nflfastR::field_descriptions
+lateral_reception,Binary indicator for if a lateral occurred on the reception.,,nflfastR::field_descriptions
+lateral_recovery,Binary indicator for if a lateral occurred on a fumble recovery.,,nflfastR::field_descriptions
+lateral_return,Binary indicator for if a lateral occurred on a return.,,nflfastR::field_descriptions
+lateral_rush,Binary indicator for if a lateral occurred on a run.,,nflfastR::field_descriptions
+lateral_rusher_player_id,Unique identifier for the player that received the last(!) lateral on a run play.,,nflfastR::field_descriptions
+lateral_rusher_player_name,"String name for the player that received the last(!) lateral on a run play. If there were multiple laterals in the same play, this will only be the last player who received a lateral. Please see <https://github.com/mrcaseb/nfl-data/tree/master/data/lateral_yards> for a list of plays where multiple players recorded lateral rushing yards.",,nflfastR::field_descriptions
+lateral_rushing_yards,Numeric yards by the `lateral_rusher_player_name` in run plays with laterals. Please see the description of `lateral_rusher_player_name` for further information.,,nflfastR::field_descriptions
+lateral_sack_player_id,Unique identifier for the player that received the lateral on a sack.,,nflfastR::field_descriptions
+lateral_sack_player_name,String name for the player that received the lateral on a sack.,,nflfastR::field_descriptions
+location,Either 'Home' o 'Neutral' indicating if the home team played at home or at a neutral site.,,nflfastR::field_descriptions
+name,"Name of the 'passer' if it is not 'NA', or name of the 'rusher' otherwise.",,nflfastR::field_descriptions
+nfl_api_id,UUID of the game in the new NFL API.,,nflfastR::field_descriptions
+no_huddle,Binary indicator for whether or not the play was in no_huddle formation.,,nflfastR::field_descriptions
+no_score_prob,Predicted probability of no score occurring for the rest of the half based on the expected points model.,,nflfastR::field_descriptions
+old_game_id,Legacy NFL game ID.,,nflfastR::field_descriptions
+opp_fg_prob,Predicted probability of the defteam scoring a FG next.,,nflfastR::field_descriptions
+opp_safety_prob,Predicted probability of the defteam scoring a safety next.,,nflfastR::field_descriptions
+opp_td_prob,Predicted probability of the defteam scoring a TD next.,,nflfastR::field_descriptions
+order_sequence,"Column provided by NFL to fix out-of-order plays. Available 2011 and beyond with source ""nfl"".",,nflfastR::field_descriptions
+out_of_bounds,"1 if play description contains ran ob, pushed ob, or sacked ob; 0 otherwise.",,nflfastR::field_descriptions
+own_kickoff_recovery,Binary indicator for if the kicking team recovered the kickoff.,,nflfastR::field_descriptions
+own_kickoff_recovery_player_id,Unique identifier for the player that recovered their own kickoff.,,nflfastR::field_descriptions
+own_kickoff_recovery_player_name,String name for the player that recovered their own kickoff.,,nflfastR::field_descriptions
+own_kickoff_recovery_td,Binary indicator for if the kicking team recovered the kickoff and scored a TD.,,nflfastR::field_descriptions
+pass,Binary indicator if the play was a pass play (sacks and scrambles included).,,nflfastR::field_descriptions
+pass_attempt,Binary indicator for if the play was a pass attempt (includes sacks).,,nflfastR::field_descriptions
+pass_defense_1_player_id,Unique identifier of one of the players with a pass defense.,,nflfastR::field_descriptions
+pass_defense_1_player_name,String name of one of the players with a pass defense.,,nflfastR::field_descriptions
+pass_defense_2_player_id,Unique identifier of one of the players with a pass defense.,,nflfastR::field_descriptions
+pass_defense_2_player_name,String name of one of the players with a pass defense.,,nflfastR::field_descriptions
+pass_length,String indicator for pass length: short or deep.,,nflfastR::field_descriptions
+pass_location,"String indicator for pass location: left, middle, or right.",,nflfastR::field_descriptions
+pass_oe,Dropback percent over expected on a given play scaled from 0 to 100.,,nflfastR::field_descriptions
+pass_touchdown,Binary indicator for if the play resulted in a passing TD.,,nflfastR::field_descriptions
+passer,Name of the dropback player (scrambles included) including plays with penalties.,,nflfastR::field_descriptions
+passer_id,ID of the player in the 'passer' column.,,nflfastR::field_descriptions
+passer_jersey_number,Jersey number of the passer.,,nflfastR::field_descriptions
+passer_player_id,Unique identifier for the player that attempted the pass.,,nflfastR::field_descriptions
+passer_player_name,String name for the player that attempted the pass.,,nflfastR::field_descriptions
+passing_yards,"Numeric yards by the passer_player_name, including yards gained in pass plays with laterals. This should equal official passing statistics.",,nflfastR::field_descriptions
+penalty,Binary indicator for whether or not a penalty occurred.,,nflfastR::field_descriptions
+penalty_player_id,Unique identifier for the player with the penalty.,,nflfastR::field_descriptions
+penalty_player_name,String name for the player with the penalty.,,nflfastR::field_descriptions
+penalty_team,String abbreviation of the team with the penalty.,,nflfastR::field_descriptions
+penalty_type,String indicating the penalty type of the first penalty in the given play. Will be `NA` if `desc` is missing the type.,,nflfastR::field_descriptions
+penalty_yards,Yards gained (or lost) by the posteam from the penalty.,,nflfastR::field_descriptions
+play,"Binary indicator: 1 if the play was a 'normal' play (including penalties), 0 otherwise.",,nflfastR::field_descriptions
+play_clock,Time on the playclock when the ball was snapped.,,nflfastR::field_descriptions
+play_deleted,Binary indicator for deleted plays.,,nflfastR::field_descriptions
+play_id,Numeric play id that when used with game_id and drive provides the unique identifier for a single play.,,nflfastR::field_descriptions
+play_type,"String indicating the type of play: pass (includes sacks), run (includes scrambles), punt, field_goal, kickoff, extra_point, qb_kneel, qb_spike, no_play (timeouts and penalties), and missing for rows indicating end of play.",,nflfastR::field_descriptions
+play_type_nfl,Play type as listed in the NFL source. Slightly different to the regular play_type variable.,,nflfastR::field_descriptions
+posteam,String abbreviation for the team with possession.,,nflfastR::field_descriptions
+posteam_score,Score the posteam at the start of the play.,,nflfastR::field_descriptions
+posteam_score_post,Score for the posteam at the end of the play.,,nflfastR::field_descriptions
+posteam_timeouts_remaining,Number of timeouts remaining for the possession team.,,nflfastR::field_descriptions
+posteam_type,String indicating whether the posteam team is home or away.,,nflfastR::field_descriptions
+punt_attempt,Binary indicator for punts.,,nflfastR::field_descriptions
+punt_blocked,Binary indicator for if the punt was blocked.,,nflfastR::field_descriptions
+punt_downed,Binary indicator for if the punt was downed.,,nflfastR::field_descriptions
+punt_fair_catch,Binary indicator for if the punt was caught with a fair catch.,,nflfastR::field_descriptions
+punt_in_endzone,Binary indicator for if the punt was in the endzone.,,nflfastR::field_descriptions
+punt_inside_twenty,Binary indicator for if the punt ended inside the twenty yard line.,,nflfastR::field_descriptions
+punt_out_of_bounds,Binary indicator for if the punt went out of bounds.,,nflfastR::field_descriptions
+punt_returner_player_id,Unique identifier for the punt returner.,,nflfastR::field_descriptions
+punt_returner_player_name,String name for the punt returner.,,nflfastR::field_descriptions
+punter_player_id,Unique identifier for the punter.,,nflfastR::field_descriptions
+punter_player_name,String name for the punter.,,nflfastR::field_descriptions
+qb_dropback,"Binary indicator for whether or not the QB dropped back on the play (pass attempt, sack, or scrambled).",,nflfastR::field_descriptions
+qb_epa,Gives QB credit for EPA for up to the point where a receiver lost a fumble after a completed catch and makes EPA work more like passing yards on plays with fumbles.,,nflfastR::field_descriptions
+qb_hit,Binary indicator if the QB was hit on the play.,,nflfastR::field_descriptions
+qb_hit_1_player_id,Unique identifier for one of the potential players that hit the QB. No sack as the QB was not the ball carrier. For sacks please see `sack_player` or `half_sack_*_player`.,,nflfastR::field_descriptions
+qb_hit_1_player_name,String name for one of the potential players that hit the QB. No sack as the QB was not the ball carrier. For sacks please see `sack_player` or `half_sack_*_player`.,,nflfastR::field_descriptions
+qb_hit_2_player_id,Unique identifier for one of the potential players that hit the QB. No sack as the QB was not the ball carrier. For sacks please see `sack_player` or `half_sack_*_player`.,,nflfastR::field_descriptions
+qb_hit_2_player_name,String name for one of the potential players that hit the QB. No sack as the QB was not the ball carrier. For sacks please see `sack_player` or `half_sack_*_player`.,,nflfastR::field_descriptions
+qb_kneel,Binary indicator for whether or not the QB took a knee.,,nflfastR::field_descriptions
+qb_scramble,Binary indicator for whether or not the QB scrambled.,,nflfastR::field_descriptions
+qb_spike,Binary indicator for whether or not the QB spiked the ball.,,nflfastR::field_descriptions
+qtr,Quarter of the game (5 is overtime).,,nflfastR::field_descriptions
+quarter_end,Binary indicator for whether or not the row of the data is marking the end of a quarter.,,nflfastR::field_descriptions
+quarter_seconds_remaining,Numeric seconds remaining in the quarter.,,nflfastR::field_descriptions
+receiver,Name of the receiver including plays with penalties.,,nflfastR::field_descriptions
+receiver_id,ID of the player in the 'receiver' column.,,nflfastR::field_descriptions
+receiver_jersey_number,Jersey number of the receiver.,,nflfastR::field_descriptions
+receiver_player_id,Unique identifier for the receiver that was targeted on the pass.,,nflfastR::field_descriptions
+receiver_player_name,String name for the targeted receiver.,,nflfastR::field_descriptions
+receiving_yards,"Numeric yards by the receiver_player_name, excluding yards gained in pass plays with laterals. This should equal official receiving statistics but could miss yards gained in pass plays with laterals. Please see the description of `lateral_receiver_player_name` for further information.",,nflfastR::field_descriptions
+replay_or_challenge,Binary indicator for whether or not a replay or challenge.,,nflfastR::field_descriptions
+replay_or_challenge_result,String indicating the result of the replay or challenge.,,nflfastR::field_descriptions
+result,Equals home_score - away_score and means the game outcome from the perspective of the home team.,,nflfastR::field_descriptions
+return_team,String abbreviation of the return team.,,nflfastR::field_descriptions
+return_touchdown,Binary indicator for if the play resulted in a return TD.,,nflfastR::field_descriptions
+return_yards,Yards gained by the return team.,,nflfastR::field_descriptions
+roof,"One of 'dome', 'outdoors', 'closed', 'open' indicating indicating the roof status of the stadium the game was played in. (Source: Pro-Football-Reference)",,nflfastR::field_descriptions
+run_gap,"String indicator for line gap of run: end, guard, or tackle",,nflfastR::field_descriptions
+run_location,"String indicator for location of run: left, middle, or right.",,nflfastR::field_descriptions
+rush,Binary indicator if the play was a rushing play.,,nflfastR::field_descriptions
+rush_attempt,Binary indicator for if the play was a run.,,nflfastR::field_descriptions
+rush_touchdown,Binary indicator for if the play resulted in a rushing TD.,,nflfastR::field_descriptions
+rusher,Name of the rusher (no scrambles) including plays with penalties.,,nflfastR::field_descriptions
+rusher_id,ID of the player in the 'rusher' column.,,nflfastR::field_descriptions
+rusher_jersey_number,Jersey number of the rusher.,,nflfastR::field_descriptions
+rusher_player_id,Unique identifier for the player that attempted the run.,,nflfastR::field_descriptions
+rusher_player_name,String name for the player that attempted the run.,,nflfastR::field_descriptions
+rushing_yards,"Numeric yards by the rusher_player_name, excluding yards gained in rush plays with laterals. This should equal official rushing statistics but could miss yards gained in rush plays with laterals. Please see the description of `lateral_rusher_player_name` for further information.",,nflfastR::field_descriptions
+sack,Binary indicator for if the play ended in a sack.,,nflfastR::field_descriptions
+sack_player_id,Unique identifier of the player who recorded a solo sack.,,nflfastR::field_descriptions
+sack_player_name,String name of the player who recorded a solo sack.,,nflfastR::field_descriptions
+safety,Binary indicator for whether or not a safety occurred.,,nflfastR::field_descriptions
+safety_player_id,Unique identifier for the player who scored a safety.,,nflfastR::field_descriptions
+safety_player_name,String name for the player who scored a safety.,,nflfastR::field_descriptions
+safety_prob,Predicted probability of the posteam scoring a safety next.,,nflfastR::field_descriptions
+score_differential,Score differential between the posteam and defteam at the start of the play.,,nflfastR::field_descriptions
+score_differential_post,Score differential between the posteam and defteam at the end of the play.,,nflfastR::field_descriptions
+season,4 digit number indicating to which season the game belongs to.,,nflfastR::field_descriptions
+season_type,'REG' or 'POST' indicating if the game belongs to regular or post season.,,nflfastR::field_descriptions
+series,"Starts at 1, each new first down increments, numbers shared across both teams NA: kickoffs, extra point/two point conversion attempts, non-plays, no posteam",,nflfastR::field_descriptions
+series_result,"Possible values: First down, Touchdown, Opp touchdown, Field goal, Missed field goal, Safety, Turnover, Punt, Turnover on downs, QB kneel, End of half",,nflfastR::field_descriptions
+series_success,"1: scored touchdown, gained enough yards for first down.",,nflfastR::field_descriptions
+shotgun,Binary indicator for whether or not the play was in shotgun formation.,,nflfastR::field_descriptions
+side_of_field,String abbreviation for which team's side of the field the team with possession is currently on.,,nflfastR::field_descriptions
+solo_tackle,Binary indicator if the play had a solo tackle (could be multiple due to fumbles).,,nflfastR::field_descriptions
+solo_tackle_1_player_id,Unique identifier of one of the players with a solo tackle.,,nflfastR::field_descriptions
+solo_tackle_1_player_name,String name of one of the players with a solo tackle.,,nflfastR::field_descriptions
+solo_tackle_1_team,Team of one of the players with a solo tackle.,,nflfastR::field_descriptions
+solo_tackle_2_player_id,Unique identifier of one of the players with a solo tackle.,,nflfastR::field_descriptions
+solo_tackle_2_player_name,String name of one of the players with a solo tackle.,,nflfastR::field_descriptions
+solo_tackle_2_team,Team of one of the players with a solo tackle.,,nflfastR::field_descriptions
+sp,Binary indicator for whether or not a score occurred on the play.,,nflfastR::field_descriptions
+special,Binary indicator if the play was a special teams play.,,nflfastR::field_descriptions
+special_teams_play,"Binary indicator for whether play is special teams play from NFL source. Available 2011 and beyond with source ""nfl"".",,nflfastR::field_descriptions
+spread_line,"The closing spread line for the game. A positive number means the home team was favored by that many points, a negative number means the away team was favored by that many points. (Source: Pro-Football-Reference)",,nflfastR::field_descriptions
+st_play_type,"Type of special teams play from NFL source. Available 2011 and beyond with source ""nfl"".",,nflfastR::field_descriptions
+stadium,Game site name.,,nflfastR::field_descriptions
+stadium_id,ID of the stadium the game was played in. (Source: Pro-Football-Reference),,nflfastR::field_descriptions
+start_time,Kickoff time in eastern time zone.,,nflfastR::field_descriptions
+success,Binary indicator wheter epa > 0 in the given play.,,nflfastR::field_descriptions
+surface,What type of ground the game was played on. (Source: Pro-Football-Reference),,nflfastR::field_descriptions
+tackle_for_loss_1_player_id,Unique identifier for one of the potential players with the tackle for loss.,,nflfastR::field_descriptions
+tackle_for_loss_1_player_name,String name for one of the potential players with the tackle for loss.,,nflfastR::field_descriptions
+tackle_for_loss_2_player_id,Unique identifier for one of the potential players with the tackle for loss.,,nflfastR::field_descriptions
+tackle_for_loss_2_player_name,String name for one of the potential players with the tackle for loss.,,nflfastR::field_descriptions
+tackle_with_assist,Binary indicator for if there has been a tackle with assist.,,nflfastR::field_descriptions
+tackle_with_assist_1_player_id,Unique identifier of one of the players with a tackle with assist.,,nflfastR::field_descriptions
+tackle_with_assist_1_player_name,String name of one of the players with a tackle with assist.,,nflfastR::field_descriptions
+tackle_with_assist_1_team,Team of one of the players with a tackle with assist.,,nflfastR::field_descriptions
+tackle_with_assist_2_player_id,Unique identifier of one of the players with a tackle with assist.,,nflfastR::field_descriptions
+tackle_with_assist_2_player_name,String name of one of the players with a tackle with assist.,,nflfastR::field_descriptions
+tackle_with_assist_2_team,Team of one of the players with a tackle with assist.,,nflfastR::field_descriptions
+tackled_for_loss,Binary indicator for whether or not a tackle for loss on a run play occurred.,,nflfastR::field_descriptions
+td_player_id,Unique identifier of the player who scored a touchdown.,,nflfastR::field_descriptions
+td_player_name,String name of the player who scored a touchdown.,,nflfastR::field_descriptions
+td_prob,Predicted probability of the posteam scoring a TD next.,,nflfastR::field_descriptions
+td_team,String abbreviation for which team scored the touchdown.,,nflfastR::field_descriptions
+temp,The temperature at the stadium only for 'roof' = 'outdoors' or 'open'.(Source: Pro-Football-Reference),,nflfastR::field_descriptions
+third_down_converted,Binary indicator for if the first down was converted on third down.,,nflfastR::field_descriptions
+third_down_failed,Binary indicator for if the posteam failed to convert first down on third down.,,nflfastR::field_descriptions
+time,Time at start of play provided in string format as minutes:seconds remaining in the quarter.,,nflfastR::field_descriptions
+time_of_day,"Time of day of play in UTC ""HH:MM:SS"" format. Available 2011 and beyond with source ""nfl"".",,nflfastR::field_descriptions
+timeout,Binary indicator for whether or not a timeout was called by either team.,,nflfastR::field_descriptions
+timeout_team,String abbreviation for which team called the timeout.,,nflfastR::field_descriptions
+total,Equals home_score + away_score and means the total points scored in the given game.,,nflfastR::field_descriptions
+total_away_comp_air_epa,Cumulative total completions air EPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_comp_air_wpa,Cumulative total completions air WPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_comp_yac_epa,Cumulative total completions yac EPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_comp_yac_wpa,Cumulative total completions yac WPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_epa,Cumulative total EPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_pass_epa,Cumulative total passing EPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_pass_wpa,Cumulative total passing WPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_raw_air_epa,Cumulative total raw air EPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_raw_air_wpa,Cumulative total raw air WPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_raw_yac_epa,Cumulative total raw yac EPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_raw_yac_wpa,Cumulative total raw yac WPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_rush_epa,Cumulative total rushing EPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_rush_wpa,Cumulative total rushing WPA for the away team in the game so far.,,nflfastR::field_descriptions
+total_away_score,Score for the away team at the end of the play.,,nflfastR::field_descriptions
+total_home_comp_air_epa,Cumulative total completions air EPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_comp_air_wpa,Cumulative total completions air WPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_comp_yac_epa,Cumulative total completions yac EPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_comp_yac_wpa,Cumulative total completions yac WPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_epa,Cumulative total EPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_pass_epa,Cumulative total passing EPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_pass_wpa,Cumulative total passing WPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_raw_air_epa,Cumulative total raw air EPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_raw_air_wpa,Cumulative total raw air WPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_raw_yac_epa,Cumulative total raw yac EPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_raw_yac_wpa,Cumulative total raw yac WPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_rush_epa,Cumulative total rushing EPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_rush_wpa,Cumulative total rushing WPA for the home team in the game so far.,,nflfastR::field_descriptions
+total_home_score,Score for the home team at the end of the play.,,nflfastR::field_descriptions
+total_line,The closing total line for the game. (Source: Pro-Football-Reference),,nflfastR::field_descriptions
+touchback,Binary indicator for if a touchback occurred on the play.,,nflfastR::field_descriptions
+touchdown,Binary indicator for if the play resulted in a TD.,,nflfastR::field_descriptions
+two_point_attempt,Binary indicator for two point conversion attempt.,,nflfastR::field_descriptions
+two_point_conv_result,"String indicator for result of two point conversion attempt: success, failure, safety (touchback in defensive endzone is 1 point apparently), or return.",,nflfastR::field_descriptions
+two_point_conversion_prob,Predicted probability of the posteam scoring the two point conversion.,,nflfastR::field_descriptions
+vegas_home_wp,Estimated win probability for the home team incorporating pre-game Vegas line.,,nflfastR::field_descriptions
+vegas_home_wpa,Win probability added (WPA) for the home team: spread_adjusted model.,,nflfastR::field_descriptions
+vegas_wp,"Estimated win probabiity for the posteam given the current situation at the start of the given play, incorporating pre-game Vegas line.",,nflfastR::field_descriptions
+vegas_wpa,Win probability added (WPA) for the posteam: spread_adjusted model.,,nflfastR::field_descriptions
+weather,"String describing the weather including temperature, humidity and wind (direction and speed). Doesn't change during the game!",,nflfastR::field_descriptions
+week,Season week.,,nflfastR::field_descriptions
+wind,The speed of the wind in miles/hour only for 'roof' = 'outdoors' or 'open'. (Source: Pro-Football-Reference),,nflfastR::field_descriptions
+wp,Estimated win probabiity for the posteam given the current situation at the start of the given play.,,nflfastR::field_descriptions
+wpa,Win probability added (WPA) for the posteam.,,nflfastR::field_descriptions
+xpass,Probability of dropback scaled from 0 to 1.,,nflfastR::field_descriptions
+xyac_epa,"Expected value of EPA gained after the catch, starting from where the catch was made. Zero yards after the catch would be listed as zero EPA.",,nflfastR::field_descriptions
+xyac_fd,Probability play earns a first down based on where the ball was caught.,,nflfastR::field_descriptions
+xyac_mean_yardage,Average expected yards after the catch based on where the ball was caught.,,nflfastR::field_descriptions
+xyac_median_yardage,Median expected yards after the catch based on where the ball was caught.,,nflfastR::field_descriptions
+xyac_success,Probability play earns positive EPA (relative to where play started) based on where ball was caught.,,nflfastR::field_descriptions
+yac_epa,EPA from the yards after catch alone. For completions this represents the actual value provided after the catch. For incompletions this represents the difference between the hypothetical air_epa and the play's raw observed EPA (how much the incomplete pass cost the posteam).,,nflfastR::field_descriptions
+yac_wpa,WPA from yards after the catch (same logic as yac_epa).,,nflfastR::field_descriptions
+yardline_100,Numeric distance in the number of yards from the opponent's endzone for the posteam.,,nflfastR::field_descriptions
+yards_after_catch,Numeric value for distance in yards perpendicular to the yard line where the receiver made the reception to where the play ended.,,nflfastR::field_descriptions
+yards_gained,"Numeric yards gained (or lost) by the possessing team, excluding yards gained via fumble recoveries and laterals.",,nflfastR::field_descriptions
+ydsnet,Numeric value for total yards gained on the given drive.,,nflfastR::field_descriptions
+ydstogo,Numeric yards in distance from either the first down marker or the endzone in goal down situations.,,nflfastR::field_descriptions
+yrdln,String indicating the current field position for a given play.,,nflfastR::field_descriptions
+attempts,The number of pass attempts as defined by the NFL.,numeric,nflreadr::dictionary_team_stats
+carries,The number of official rush attempts (incl. scrambles and kneel downs). Rushes after a lateral reception don't count as carry.,numeric,nflreadr::dictionary_team_stats
+completions,The number of completed passes.,numeric,nflreadr::dictionary_team_stats
+def_fumbles,Number of fumbles forced by this team,numeric,nflreadr::dictionary_team_stats
+def_fumbles_forced,Number of times a fumble was forced by this team,numeric,nflreadr::dictionary_team_stats
+def_interception_yards,yards gained/lost on interception returns by this team,numeric,nflreadr::dictionary_team_stats
+def_interceptions,Number of interceptions forced by this team,numeric,nflreadr::dictionary_team_stats
+def_pass_defended,Number of passes defended/broken up by this team,numeric,nflreadr::dictionary_team_stats
+def_qb_hits,Number of QB hits by this team (should not include plays where the QB was sacked),numeric,nflreadr::dictionary_team_stats
+def_sack_yards,Yards lost from sacks forced by this team,numeric,nflreadr::dictionary_team_stats
+def_sacks,Number of sacks by this team,numeric,nflreadr::dictionary_team_stats
+def_safeties,Number of safeties forced by this team,numeric,nflreadr::dictionary_team_stats
+def_tackle_assists,Number of assisted tackles for this team,numeric,nflreadr::dictionary_team_stats
+def_tackles_for_loss,Number of tackles for loss (TFL) for this team,numeric,nflreadr::dictionary_team_stats
+def_tackles_for_loss_yards,Yards lost from TFLs involving this team,numeric,nflreadr::dictionary_team_stats
+def_tackles_solo,Total number of solo tackles for this team,numeric,nflreadr::dictionary_team_stats
+def_tackles_with_assist,Number of tackles this team had with an assisted tackle,numeric,nflreadr::dictionary_team_stats
+def_tds,Number of defensive touchdowns scored by this team,numeric,nflreadr::dictionary_team_stats
+fg_att,Count of field goals attempted by this team,numeric,nflreadr::dictionary_team_stats
+fg_blocked,Count of field goals attempted by this team that were blocked,numeric,nflreadr::dictionary_team_stats
+fg_blocked_distance,Total distance on field goals blocked,numeric,nflreadr::dictionary_team_stats
+fg_blocked_list,Comma-separated string listing lengths of field goals blocked,character,nflreadr::dictionary_team_stats
+fg_long,Longest successful field goal made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made,Count of field goals made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made_0_19,Count of field goals within 0-19 yards made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made_20_29,Count of field goals within 20-29 yards made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made_30_39,Count of field goals within 30-39 yards made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made_40_49,Count of field goals within 40-49 yards made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made_50_59,Count of field goals within 50-59 yards made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made_60_,Count of field goals over 60 yards made by this team,numeric,nflreadr::dictionary_team_stats
+fg_made_distance,Total distance on field goals made,numeric,nflreadr::dictionary_team_stats
+fg_made_list,Comma-separated string listing lengths of field goals made,character,nflreadr::dictionary_team_stats
+fg_missed,Count of field goals missed by this team,numeric,nflreadr::dictionary_team_stats
+fg_missed_0_19,Count of field goals missed between 0-19 yards by this team,numeric,nflreadr::dictionary_team_stats
+fg_missed_20_29,Count of field goals missed between 20-29 yards by this team,numeric,nflreadr::dictionary_team_stats
+fg_missed_30_39,Count of field goals missed between 30-39 yards by this team,numeric,nflreadr::dictionary_team_stats
+fg_missed_40_49,Count of field goals missed between 40-49 yards by this team,numeric,nflreadr::dictionary_team_stats
+fg_missed_50_59,Count of field goals missed between 50-59 yards by this team,numeric,nflreadr::dictionary_team_stats
+fg_missed_60_,Count of field goals missed over 60 yards by this team,numeric,nflreadr::dictionary_team_stats
+fg_missed_distance,Total distance on field goals missed,numeric,nflreadr::dictionary_team_stats
+fg_missed_list,Comma-separated string listing lengths of field goals missed,character,nflreadr::dictionary_team_stats
+fg_pct,Percentage of field goals successfully made,numeric,nflreadr::dictionary_team_stats
+fumble_recovery_opp,Number of the opponent's fumbles recovered,numeric,nflreadr::dictionary_team_stats
+fumble_recovery_own,Number of the player's own team fumbles recovered,numeric,nflreadr::dictionary_team_stats
+fumble_recovery_tds,Fumbles recovered and advanced for a touchdown,numeric,nflreadr::dictionary_team_stats
+fumble_recovery_yards_opp,Yardage on opponent fumble recoveries,numeric,nflreadr::dictionary_team_stats
+fumble_recovery_yards_own,Yards gained/lost on own fumble recoveries,numeric,nflreadr::dictionary_team_stats
+gwfg_att,Count of game winning field goals attempted,numeric,nflreadr::dictionary_team_stats
+gwfg_blocked,Count of game winning field goals blocked,numeric,nflreadr::dictionary_team_stats
+gwfg_distance,Total distance on game winning field goals completed,numeric,nflreadr::dictionary_team_stats
+gwfg_made,Count of game winning field goals made,numeric,nflreadr::dictionary_team_stats
+gwfg_missed,Count of game winning field goals missed,numeric,nflreadr::dictionary_team_stats
+kickoff_return_yards,Yards gained on kick returns by this team,numeric,nflreadr::dictionary_team_stats
+kickoff_returns,Count of kick returns by this team,numeric,nflreadr::dictionary_team_stats
+misc_yards,Miscellaneous yards attributed to this team,numeric,nflreadr::dictionary_team_stats
+opponent_team,Abbreviation of opponent team,character,nflreadr::dictionary_team_stats
+passing_2pt_conversions,Two-point conversion passes.,numeric,nflreadr::dictionary_team_stats
+passing_air_yards,Passing air yards (includes incomplete passes).,numeric,nflreadr::dictionary_team_stats
+passing_cpoe,Completion percentage over expected for this team.,numeric,nflreadr::dictionary_team_stats
+passing_epa,"Total expected points added on pass attempts and sacks. NOTE: this uses the variable `qb_epa`, which gives QB credit for EPA for up to the point where a receiver lost a fumble after a completed catch and makes EPA work more like passing yards on plays with fumbles.",numeric,nflreadr::dictionary_team_stats
+passing_first_downs,First downs on pass attempts.,numeric,nflreadr::dictionary_team_stats
+passing_interceptions,Number of passing interceptions,numeric,nflreadr::dictionary_team_stats
+passing_tds,The number of passing touchdowns.,numeric,nflreadr::dictionary_team_stats
+passing_yards,Yards gained on pass plays.,numeric,nflreadr::dictionary_team_stats
+passing_yards_after_catch,Yards after the catch gained on plays in which player was the passer (this is an unofficial stat and may differ slightly between different sources).,numeric,nflreadr::dictionary_team_stats
+pat_att,Count of extra point kicks attempted,numeric,nflreadr::dictionary_team_stats
+pat_blocked,Count of extra point kicks blocked,numeric,nflreadr::dictionary_team_stats
+pat_made,Count of extra point kicks made,numeric,nflreadr::dictionary_team_stats
+pat_missed,Count of extra point kicks missed,numeric,nflreadr::dictionary_team_stats
+pat_pct,Percentage of extra point kicks successfully completed,numeric,nflreadr::dictionary_team_stats
+penalties,Number of penalties attributed to this team,numeric,nflreadr::dictionary_team_stats
+penalty_yards,Penalty yardage on penalties attributed to this team,numeric,nflreadr::dictionary_team_stats
+punt_return_yards,Yards gained on punts returned by this team,numeric,nflreadr::dictionary_team_stats
+punt_returns,Count of punt returns by this team,numeric,nflreadr::dictionary_team_stats
+receiving_2pt_conversions,Two-point conversion receptions,numeric,nflreadr::dictionary_team_stats
+receiving_air_yards,Receiving air yards (incl. incomplete passes).,numeric,nflreadr::dictionary_team_stats
+receiving_epa,Total EPA on plays where this receiver was targeted,numeric,nflreadr::dictionary_team_stats
+receiving_first_downs,Total number of first downs gained on receptions,numeric,nflreadr::dictionary_team_stats
+receiving_fumbles,The number of fumbles after a pass reception.,numeric,nflreadr::dictionary_team_stats
+receiving_fumbles_lost,The number of fumbles lost after a pass reception.,numeric,nflreadr::dictionary_team_stats
+receiving_tds,The number of touchdowns following a pass reception. Also includes touchdowns after receiving a lateral on a play that started as a pass play.,numeric,nflreadr::dictionary_team_stats
+receiving_yards,Yards gained after a pass reception. Includes yards gained after receiving a lateral on a play that started as a pass play.,numeric,nflreadr::dictionary_team_stats
+receiving_yards_after_catch,Yards after the catch gained on plays in which player was receiver (this is an unofficial stat and may differ slightly between different sources).,numeric,nflreadr::dictionary_team_stats
+receptions,The number of pass receptions. Lateral receptions officially don't count as reception.,numeric,nflreadr::dictionary_team_stats
+rushing_2pt_conversions,Two-point conversion rushes,numeric,nflreadr::dictionary_team_stats
+rushing_epa,Expected points added on rush attempts (incl. scrambles and kneel downs).,numeric,nflreadr::dictionary_team_stats
+rushing_first_downs,First downs on rush attempts (incl. scrambles).,numeric,nflreadr::dictionary_team_stats
+rushing_fumbles,The number of rushes with a fumble.,numeric,nflreadr::dictionary_team_stats
+rushing_fumbles_lost,The number of rushes with a lost fumble.,numeric,nflreadr::dictionary_team_stats
+rushing_tds,The number of rushing touchdowns (incl. scrambles). Also includes touchdowns after obtaining a lateral on a play that started with a rushing attempt.,numeric,nflreadr::dictionary_team_stats
+rushing_yards,Yards gained when rushing with the ball (incl. scrambles and kneel downs). Also includes yards gained after obtaining a lateral on a play that started with a rushing attempt.,numeric,nflreadr::dictionary_team_stats
+sack_fumbles,The number of sacks suffered with a fumble.,numeric,nflreadr::dictionary_team_stats
+sack_fumbles_lost,The number of sacks suffered with a lost fumble.,numeric,nflreadr::dictionary_team_stats
+sack_yards_lost,Yards lost from sacks suffered by this team,numeric,nflreadr::dictionary_team_stats
+sacks_suffered,Number of sacks taken as a QB,numeric,nflreadr::dictionary_team_stats
+season,Official NFL season,numeric,nflreadr::dictionary_team_stats
+season_type,"`REG` for regular season, `POST` for postseason",character,nflreadr::dictionary_team_stats
+special_teams_tds,Total number of kick/punt return touchdowns,numeric,nflreadr::dictionary_team_stats
+targets,The number of pass plays where the player was the targeted receiver.,numeric,nflreadr::dictionary_team_stats
+team,Abbreviation of team,character,nflreadr::dictionary_team_stats
+timeouts,Number of timeouts used by this team,numeric,nflreadr::dictionary_team_stats
+week,Game week number,numeric,nflreadr::dictionary_team_stats

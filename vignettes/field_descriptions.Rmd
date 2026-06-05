@@ -1,0 +1,47 @@
+---
+title: "Field Descriptions"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Field Descriptions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  comment = "#>"
+)
+
+read_combined_dictionary <- function() {
+  candidate_paths <- c(
+    file.path("inst", "extdata", "combined_data_dictionary.csv"),
+    file.path("..", "inst", "extdata", "combined_data_dictionary.csv")
+  )
+
+  dictionary_path <- candidate_paths[file.exists(candidate_paths)][1]
+  if (is.na(dictionary_path)) {
+    stop("Missing shared dictionary file at inst/extdata/combined_data_dictionary.csv. Run data-raw/build_combined_data_dictionary.R to refresh it.")
+  }
+
+  utils::read.csv(dictionary_path, stringsAsFactors = FALSE)
+}
+
+shared_dictionary <- read_combined_dictionary()
+field_dictionary <- subset(shared_dictionary, source == "nflfastR::field_descriptions")
+use_dt <- requireNamespace("DT", quietly = TRUE)
+```
+
+```{r eval = use_dt}
+DT::datatable(
+  field_dictionary,
+  options = list(scrollX = TRUE, pageLength = 25),
+  filter = "top",
+  rownames = FALSE,
+  style = "bootstrap4"
+)
+```
+
+```{r eval = !use_dt}
+knitr::kable(field_dictionary)
+```
