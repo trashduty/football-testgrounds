@@ -1,0 +1,117 @@
+name: Generate weekly matchup articles
+
+on:
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "Optional week override"
+        required: false
+        type: string
+      season:
+        description: "Optional season override"
+        required: false
+        type: string
+      teams:
+        description: "Optional space-delimited team filters (e.g. KC BUF)"
+        required: false
+        type: string
+      output_dir:
+        description: "Directory to write matchup article outputs into"
+        required: false
+        default: "outputs/matchup_articles"
+        type: string
+      espn_debug:
+        description: "Include exact ESPN URLs and failures in output"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "0 15 * * 5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-matchup-articles
+  cancel-in-progress: false
+
+jobs:
+  generate-matchup-articles:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      - name: Resolve run variables
+        id: vars
+        shell: bash
+        run: |
+          OUTPUT_DIR="${{ github.event.inputs.output_dir }}"
+          if [ -z "$OUTPUT_DIR" ]; then
+            OUTPUT_DIR="outputs/matchup_articles"
+          fi
+          echo "output_dir=$OUTPUT_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate weekly matchup articles
+        shell: bash
+        run: |
+          args=(scripts/weekly_matchup_articles.py --output-dir "${{ steps.vars.outputs.output_dir }}")
+
+          if [ -n "${{ github.event.inputs.week }}" ]; then
+            args+=(--week "${{ github.event.inputs.week }}")
+          fi
+
+          if [ -n "${{ github.event.inputs.season }}" ]; then
+            args+=(--season "${{ github.event.inputs.season }}")
+          fi
+
+          if [ "${{ github.event.inputs.espn_debug }}" = "true" ]; then
+            args+=(--espn-debug)
+          fi
+
+          if [ -n "${{ github.event.inputs.teams }}" ]; then
+            read -r -a team_args <<< "${{ github.event.inputs.teams }}"
+            args+=(--teams "${team_args[@]}")
+          fi
+
+          python "${args[@]}"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-matchup-articles
+          path: ${{ steps.vars.outputs.output_dir }}
+          if-no-files-found: error
+
+      - name: Commit generated outputs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "${{ steps.vars.outputs.output_dir }}"
+
+          if git diff --cached --quiet; then
+            echo "No output changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update weekly matchup articles"
+          git push
