@@ -50,3 +50,11 @@ The QB comparison script writes:
 - Workflow file: `/home/runner/work/football-testgrounds/football-testgrounds/.github/workflows/qb-comparison-visuals.yml`
 - Trigger manually from Actions (**Generate QB comparison visuals**) or via scheduled run.
 - Generated files are uploaded as run artifacts and committed back when outputs changed.
+
+## Shared data dictionary for vignettes
+
+- Canonical dictionary asset: `/tmp/workspace/trashduty/football-testgrounds/inst/extdata/combined_data_dictionary.csv`
+- Upstream sources included in the canonical file:
+  - `nflreadr::dictionary_team_stats`
+  - `nflfastR::field_descriptions`
+- Use `/tmp/workspace/trashduty/football-testgrounds/data-raw/build_combined_data_dictionary.R` to refresh the local combined dictionary from upstream package datasets.
