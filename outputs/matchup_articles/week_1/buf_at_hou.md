@@ -18,12 +18,6 @@
 - Buffalo Bills: No starter injuries identified from ESPN injury/depth-chart matching.
 - Houston Texans: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- BUF injuries: `https://www.espn.com/nfl/team/injuries/_/name/buf` -> Injuries page fetched, but no injury table rows were parsed.
-- BUF depth: `https://www.espn.com/nfl/team/depth/_/name/buf` -> Depth chart page fetched, but no starters were parsed.
-- HOU injuries: `https://www.espn.com/nfl/team/injuries/_/name/hou` -> Injuries page fetched, but no injury table rows were parsed.
-- HOU depth: `https://www.espn.com/nfl/team/depth/_/name/hou` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but BUF still owns the best local lean at 51.85% cover probability and a -0.53% edge.
 

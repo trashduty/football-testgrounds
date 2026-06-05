@@ -19,12 +19,6 @@
 - Dallas Cowboys: No starter injuries identified from ESPN injury/depth-chart matching.
 - New York Giants: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- DAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/dal` -> Injuries page fetched, but no injury table rows were parsed.
-- DAL depth: `https://www.espn.com/nfl/team/depth/_/name/dal` -> Depth chart page fetched, but no starters were parsed.
-- NYG injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyg` -> Injuries page fetched, but no injury table rows were parsed.
-- NYG depth: `https://www.espn.com/nfl/team/depth/_/name/nyg` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward DAL with a 59.92% cover probability and a 7.54% edge.
 

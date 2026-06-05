@@ -18,12 +18,6 @@
 - Arizona Cardinals: No starter injuries identified from ESPN injury/depth-chart matching.
 - Los Angeles Chargers: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- ARI injuries: `https://www.espn.com/nfl/team/injuries/_/name/ari` -> Injuries page fetched, but no injury table rows were parsed.
-- ARI depth: `https://www.espn.com/nfl/team/depth/_/name/ari` -> Depth chart page fetched, but no starters were parsed.
-- LAC injuries: `https://www.espn.com/nfl/team/injuries/_/name/lac` -> Injuries page fetched, but no injury table rows were parsed.
-- LAC depth: `https://www.espn.com/nfl/team/depth/_/name/lac` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but LAC still owns the best local lean at 51.79% cover probability and a -0.59% edge.
 

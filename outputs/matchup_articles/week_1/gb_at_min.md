@@ -18,12 +18,6 @@
 - Green Bay Packers: No starter injuries identified from ESPN injury/depth-chart matching.
 - Minnesota Vikings: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- GB injuries: `https://www.espn.com/nfl/team/injuries/_/name/gb` -> Injuries page fetched, but no injury table rows were parsed.
-- GB depth: `https://www.espn.com/nfl/team/depth/_/name/gb` -> Depth chart page fetched, but no starters were parsed.
-- MIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/min` -> Injuries page fetched, but no injury table rows were parsed.
-- MIN depth: `https://www.espn.com/nfl/team/depth/_/name/min` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but GB still owns the best local lean at 51.85% cover probability and a -0.53% edge.
 

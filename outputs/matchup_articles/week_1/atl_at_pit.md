@@ -19,12 +19,6 @@
 - Atlanta Falcons: No starter injuries identified from ESPN injury/depth-chart matching.
 - Pittsburgh Steelers: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- ATL injuries: `https://www.espn.com/nfl/team/injuries/_/name/atl` -> Injuries page fetched, but no injury table rows were parsed.
-- ATL depth: `https://www.espn.com/nfl/team/depth/_/name/atl` -> Depth chart page fetched, but no starters were parsed.
-- PIT injuries: `https://www.espn.com/nfl/team/injuries/_/name/pit` -> Injuries page fetched, but no injury table rows were parsed.
-- PIT depth: `https://www.espn.com/nfl/team/depth/_/name/pit` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward PIT with a 60.99% cover probability and a 8.61% edge.
 

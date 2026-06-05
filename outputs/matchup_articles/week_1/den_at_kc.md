@@ -17,12 +17,6 @@
 - Denver Broncos: No starter injuries identified from ESPN injury/depth-chart matching.
 - Kansas City Chiefs: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- DEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/den` -> Injuries page fetched, but no injury table rows were parsed.
-- DEN depth: `https://www.espn.com/nfl/team/depth/_/name/den` -> Depth chart page fetched, but no starters were parsed.
-- KC injuries: `https://www.espn.com/nfl/team/injuries/_/name/kc` -> Injuries page fetched, but no injury table rows were parsed.
-- KC depth: `https://www.espn.com/nfl/team/depth/_/name/kc` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward KC with a 59.92% cover probability and a 7.54% edge.
 

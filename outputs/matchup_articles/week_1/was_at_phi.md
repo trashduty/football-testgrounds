@@ -17,12 +17,6 @@
 - Washington Commanders: No starter injuries identified from ESPN injury/depth-chart matching.
 - Philadelphia Eagles: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- WAS injuries: `https://www.espn.com/nfl/team/injuries/_/name/was` -> Injuries page fetched, but no injury table rows were parsed.
-- WAS depth: `https://www.espn.com/nfl/team/depth/_/name/was` -> Depth chart page fetched, but no starters were parsed.
-- PHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/phi` -> Injuries page fetched, but no injury table rows were parsed.
-- PHI depth: `https://www.espn.com/nfl/team/depth/_/name/phi` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward PHI with a 60.13% cover probability and a 7.75% edge.
 

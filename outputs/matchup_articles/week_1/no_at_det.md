@@ -19,12 +19,6 @@
 - New Orleans Saints: No starter injuries identified from ESPN injury/depth-chart matching.
 - Detroit Lions: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- NO injuries: `https://www.espn.com/nfl/team/injuries/_/name/no` -> Injuries page fetched, but no injury table rows were parsed.
-- NO depth: `https://www.espn.com/nfl/team/depth/_/name/no` -> Depth chart page fetched, but no starters were parsed.
-- DET injuries: `https://www.espn.com/nfl/team/injuries/_/name/det` -> Injuries page fetched, but no injury table rows were parsed.
-- DET depth: `https://www.espn.com/nfl/team/depth/_/name/det` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but DET still owns the best local lean at 51.86% cover probability and a -0.52% edge.
 

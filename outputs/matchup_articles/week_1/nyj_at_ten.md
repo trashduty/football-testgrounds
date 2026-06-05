@@ -19,12 +19,6 @@
 - New York Jets: No starter injuries identified from ESPN injury/depth-chart matching.
 - Tennessee Titans: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- NYJ injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyj` -> Injuries page fetched, but no injury table rows were parsed.
-- NYJ depth: `https://www.espn.com/nfl/team/depth/_/name/nyj` -> Depth chart page fetched, but no starters were parsed.
-- TEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/ten` -> Injuries page fetched, but no injury table rows were parsed.
-- TEN depth: `https://www.espn.com/nfl/team/depth/_/name/ten` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but NYJ still owns the best local lean at 53.46% cover probability and a 1.08% edge.
 

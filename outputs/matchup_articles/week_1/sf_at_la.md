@@ -19,12 +19,6 @@
 - San Francisco 49ers: No starter injuries identified from ESPN injury/depth-chart matching.
 - Los Angeles Rams: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- SF injuries: `https://www.espn.com/nfl/team/injuries/_/name/sf` -> Injuries page fetched, but no injury table rows were parsed.
-- SF depth: `https://www.espn.com/nfl/team/depth/_/name/sf` -> Depth chart page fetched, but no starters were parsed.
-- LA injuries: `https://www.espn.com/nfl/team/injuries/_/name/la` -> Injuries page fetched, but no injury table rows were parsed.
-- LA depth: `https://www.espn.com/nfl/team/depth/_/name/la` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but SF still owns the best local lean at 53.46% cover probability and a 1.08% edge.
 

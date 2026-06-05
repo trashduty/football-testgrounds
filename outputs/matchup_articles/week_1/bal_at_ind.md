@@ -18,12 +18,6 @@
 - Baltimore Ravens: No starter injuries identified from ESPN injury/depth-chart matching.
 - Indianapolis Colts: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- BAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/bal` -> Injuries page fetched, but no injury table rows were parsed.
-- BAL depth: `https://www.espn.com/nfl/team/depth/_/name/bal` -> Depth chart page fetched, but no starters were parsed.
-- IND injuries: `https://www.espn.com/nfl/team/injuries/_/name/ind` -> Injuries page fetched, but no injury table rows were parsed.
-- IND depth: `https://www.espn.com/nfl/team/depth/_/name/ind` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but BAL still owns the best local lean at 52.85% cover probability and a 0.47% edge.
 

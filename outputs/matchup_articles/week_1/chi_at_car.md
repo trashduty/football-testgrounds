@@ -18,12 +18,6 @@
 - Chicago Bears: No starter injuries identified from ESPN injury/depth-chart matching.
 - Carolina Panthers: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- CHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/chi` -> Injuries page fetched, but no injury table rows were parsed.
-- CHI depth: `https://www.espn.com/nfl/team/depth/_/name/chi` -> Depth chart page fetched, but no starters were parsed.
-- CAR injuries: `https://www.espn.com/nfl/team/injuries/_/name/car` -> Injuries page fetched, but no injury table rows were parsed.
-- CAR depth: `https://www.espn.com/nfl/team/depth/_/name/car` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but CAR still owns the best local lean at 51.85% cover probability and a -0.53% edge.
 

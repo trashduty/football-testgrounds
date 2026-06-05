@@ -19,12 +19,6 @@
 - New England Patriots: No starter injuries identified from ESPN injury/depth-chart matching.
 - Seattle Seahawks: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- NE injuries: `https://www.espn.com/nfl/team/injuries/_/name/ne` -> Injuries page fetched, but no injury table rows were parsed.
-- NE depth: `https://www.espn.com/nfl/team/depth/_/name/ne` -> Depth chart page fetched, but no starters were parsed.
-- SEA injuries: `https://www.espn.com/nfl/team/injuries/_/name/sea` -> Injuries page fetched, but no injury table rows were parsed.
-- SEA depth: `https://www.espn.com/nfl/team/depth/_/name/sea` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward NE with a 59.25% cover probability and a 6.87% edge.
 

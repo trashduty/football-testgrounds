@@ -18,12 +18,6 @@
 - Arizona Cardinals: No starter injuries identified from ESPN injury/depth-chart matching.
 - Los Angeles Chargers: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- ARI injuries: `https://www.espn.com/nfl/team/injuries/_/name/ari` -> Injuries page fetched, but no injury table rows were parsed.
-- ARI depth: `https://www.espn.com/nfl/team/depth/_/name/ari` -> Depth chart page fetched, but no starters were parsed.
-- LAC injuries: `https://www.espn.com/nfl/team/injuries/_/name/lac` -> Injuries page fetched, but no injury table rows were parsed.
-- LAC depth: `https://www.espn.com/nfl/team/depth/_/name/lac` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but LAC still owns the best local lean at 51.79% cover probability and a -0.59% edge.
 
@@ -54,12 +48,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 - Atlanta Falcons: No starter injuries identified from ESPN injury/depth-chart matching.
 - Pittsburgh Steelers: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- ATL injuries: `https://www.espn.com/nfl/team/injuries/_/name/atl` -> Injuries page fetched, but no injury table rows were parsed.
-- ATL depth: `https://www.espn.com/nfl/team/depth/_/name/atl` -> Depth chart page fetched, but no starters were parsed.
-- PIT injuries: `https://www.espn.com/nfl/team/injuries/_/name/pit` -> Injuries page fetched, but no injury table rows were parsed.
-- PIT depth: `https://www.espn.com/nfl/team/depth/_/name/pit` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward PIT with a 60.99% cover probability and a 8.61% edge.
 
@@ -88,12 +76,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. For this matchu
 ## Injury report
 - Baltimore Ravens: No starter injuries identified from ESPN injury/depth-chart matching.
 - Indianapolis Colts: No starter injuries identified from ESPN injury/depth-chart matching.
-
-## ESPN debug
-- BAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/bal` -> Injuries page fetched, but no injury table rows were parsed.
-- BAL depth: `https://www.espn.com/nfl/team/depth/_/name/bal` -> Depth chart page fetched, but no starters were parsed.
-- IND injuries: `https://www.espn.com/nfl/team/injuries/_/name/ind` -> Injuries page fetched, but no injury table rows were parsed.
-- IND depth: `https://www.espn.com/nfl/team/depth/_/name/ind` -> Depth chart page fetched, but no starters were parsed.
 
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but BAL still owns the best local lean at 52.85% cover probability and a 0.47% edge.
@@ -124,12 +106,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 - Buffalo Bills: No starter injuries identified from ESPN injury/depth-chart matching.
 - Houston Texans: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- BUF injuries: `https://www.espn.com/nfl/team/injuries/_/name/buf` -> Injuries page fetched, but no injury table rows were parsed.
-- BUF depth: `https://www.espn.com/nfl/team/depth/_/name/buf` -> Depth chart page fetched, but no starters were parsed.
-- HOU injuries: `https://www.espn.com/nfl/team/injuries/_/name/hou` -> Injuries page fetched, but no injury table rows were parsed.
-- HOU depth: `https://www.espn.com/nfl/team/depth/_/name/hou` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but BUF still owns the best local lean at 51.85% cover probability and a -0.53% edge.
 
@@ -158,12 +134,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 ## Injury report
 - Chicago Bears: No starter injuries identified from ESPN injury/depth-chart matching.
 - Carolina Panthers: No starter injuries identified from ESPN injury/depth-chart matching.
-
-## ESPN debug
-- CHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/chi` -> Injuries page fetched, but no injury table rows were parsed.
-- CHI depth: `https://www.espn.com/nfl/team/depth/_/name/chi` -> Depth chart page fetched, but no starters were parsed.
-- CAR injuries: `https://www.espn.com/nfl/team/injuries/_/name/car` -> Injuries page fetched, but no injury table rows were parsed.
-- CAR depth: `https://www.espn.com/nfl/team/depth/_/name/car` -> Depth chart page fetched, but no starters were parsed.
 
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but CAR still owns the best local lean at 51.85% cover probability and a -0.53% edge.
@@ -195,12 +165,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 - Cleveland Browns: No starter injuries identified from ESPN injury/depth-chart matching.
 - Jacksonville Jaguars: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- CLE injuries: `https://www.espn.com/nfl/team/injuries/_/name/cle` -> Injuries page fetched, but no injury table rows were parsed.
-- CLE depth: `https://www.espn.com/nfl/team/depth/_/name/cle` -> Depth chart page fetched, but no starters were parsed.
-- JAX injuries: `https://www.espn.com/nfl/team/injuries/_/name/jax` -> Injuries page fetched, but no injury table rows were parsed.
-- JAX depth: `https://www.espn.com/nfl/team/depth/_/name/jax` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but JAX still owns the best local lean at 44.76% cover probability and a -7.62% edge.
 
@@ -231,12 +195,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 - Dallas Cowboys: No starter injuries identified from ESPN injury/depth-chart matching.
 - New York Giants: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- DAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/dal` -> Injuries page fetched, but no injury table rows were parsed.
-- DAL depth: `https://www.espn.com/nfl/team/depth/_/name/dal` -> Depth chart page fetched, but no starters were parsed.
-- NYG injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyg` -> Injuries page fetched, but no injury table rows were parsed.
-- NYG depth: `https://www.espn.com/nfl/team/depth/_/name/nyg` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward DAL with a 59.92% cover probability and a 7.54% edge.
 
@@ -264,12 +222,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. For this matchu
 ## Injury report
 - Denver Broncos: No starter injuries identified from ESPN injury/depth-chart matching.
 - Kansas City Chiefs: No starter injuries identified from ESPN injury/depth-chart matching.
-
-## ESPN debug
-- DEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/den` -> Injuries page fetched, but no injury table rows were parsed.
-- DEN depth: `https://www.espn.com/nfl/team/depth/_/name/den` -> Depth chart page fetched, but no starters were parsed.
-- KC injuries: `https://www.espn.com/nfl/team/injuries/_/name/kc` -> Injuries page fetched, but no injury table rows were parsed.
-- KC depth: `https://www.espn.com/nfl/team/depth/_/name/kc` -> Depth chart page fetched, but no starters were parsed.
 
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward KC with a 59.92% cover probability and a 7.54% edge.
@@ -300,12 +252,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. For this matchu
 - Green Bay Packers: No starter injuries identified from ESPN injury/depth-chart matching.
 - Minnesota Vikings: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- GB injuries: `https://www.espn.com/nfl/team/injuries/_/name/gb` -> Injuries page fetched, but no injury table rows were parsed.
-- GB depth: `https://www.espn.com/nfl/team/depth/_/name/gb` -> Depth chart page fetched, but no starters were parsed.
-- MIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/min` -> Injuries page fetched, but no injury table rows were parsed.
-- MIN depth: `https://www.espn.com/nfl/team/depth/_/name/min` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but GB still owns the best local lean at 51.85% cover probability and a -0.53% edge.
 
@@ -333,12 +279,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 ## Injury report
 - Miami Dolphins: No starter injuries identified from ESPN injury/depth-chart matching.
 - Las Vegas Raiders: No starter injuries identified from ESPN injury/depth-chart matching.
-
-## ESPN debug
-- MIA injuries: `https://www.espn.com/nfl/team/injuries/_/name/mia` -> Injuries page fetched, but no injury table rows were parsed.
-- MIA depth: `https://www.espn.com/nfl/team/depth/_/name/mia` -> Depth chart page fetched, but no starters were parsed.
-- LV injuries: `https://www.espn.com/nfl/team/injuries/_/name/lv` -> Injuries page fetched, but no injury table rows were parsed.
-- LV depth: `https://www.espn.com/nfl/team/depth/_/name/lv` -> Depth chart page fetched, but no starters were parsed.
 
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but MIA still owns the best local lean at 53.46% cover probability and a 1.08% edge.
@@ -370,12 +310,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 - New England Patriots: No starter injuries identified from ESPN injury/depth-chart matching.
 - Seattle Seahawks: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- NE injuries: `https://www.espn.com/nfl/team/injuries/_/name/ne` -> Injuries page fetched, but no injury table rows were parsed.
-- NE depth: `https://www.espn.com/nfl/team/depth/_/name/ne` -> Depth chart page fetched, but no starters were parsed.
-- SEA injuries: `https://www.espn.com/nfl/team/injuries/_/name/sea` -> Injuries page fetched, but no injury table rows were parsed.
-- SEA depth: `https://www.espn.com/nfl/team/depth/_/name/sea` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward NE with a 59.25% cover probability and a 6.87% edge.
 
@@ -405,12 +339,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. For this matchu
 ## Injury report
 - New Orleans Saints: No starter injuries identified from ESPN injury/depth-chart matching.
 - Detroit Lions: No starter injuries identified from ESPN injury/depth-chart matching.
-
-## ESPN debug
-- NO injuries: `https://www.espn.com/nfl/team/injuries/_/name/no` -> Injuries page fetched, but no injury table rows were parsed.
-- NO depth: `https://www.espn.com/nfl/team/depth/_/name/no` -> Depth chart page fetched, but no starters were parsed.
-- DET injuries: `https://www.espn.com/nfl/team/injuries/_/name/det` -> Injuries page fetched, but no injury table rows were parsed.
-- DET depth: `https://www.espn.com/nfl/team/depth/_/name/det` -> Depth chart page fetched, but no starters were parsed.
 
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but DET still owns the best local lean at 51.86% cover probability and a -0.52% edge.
@@ -442,12 +370,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 - New York Jets: No starter injuries identified from ESPN injury/depth-chart matching.
 - Tennessee Titans: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- NYJ injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyj` -> Injuries page fetched, but no injury table rows were parsed.
-- NYJ depth: `https://www.espn.com/nfl/team/depth/_/name/nyj` -> Depth chart page fetched, but no starters were parsed.
-- TEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/ten` -> Injuries page fetched, but no injury table rows were parsed.
-- TEN depth: `https://www.espn.com/nfl/team/depth/_/name/ten` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but NYJ still owns the best local lean at 53.46% cover probability and a 1.08% edge.
 
@@ -477,12 +399,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 ## Injury report
 - San Francisco 49ers: No starter injuries identified from ESPN injury/depth-chart matching.
 - Los Angeles Rams: No starter injuries identified from ESPN injury/depth-chart matching.
-
-## ESPN debug
-- SF injuries: `https://www.espn.com/nfl/team/injuries/_/name/sf` -> Injuries page fetched, but no injury table rows were parsed.
-- SF depth: `https://www.espn.com/nfl/team/depth/_/name/sf` -> Depth chart page fetched, but no starters were parsed.
-- LA injuries: `https://www.espn.com/nfl/team/injuries/_/name/la` -> Injuries page fetched, but no injury table rows were parsed.
-- LA depth: `https://www.espn.com/nfl/team/depth/_/name/la` -> Depth chart page fetched, but no starters were parsed.
 
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but SF still owns the best local lean at 53.46% cover probability and a 1.08% edge.
@@ -514,12 +430,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. This matchup do
 - Tampa Bay Buccaneers: No starter injuries identified from ESPN injury/depth-chart matching.
 - Cincinnati Bengals: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- TB injuries: `https://www.espn.com/nfl/team/injuries/_/name/tb` -> Injuries page fetched, but no injury table rows were parsed.
-- TB depth: `https://www.espn.com/nfl/team/depth/_/name/tb` -> Depth chart page fetched, but no starters were parsed.
-- CIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/cin` -> Injuries page fetched, but no injury table rows were parsed.
-- CIN depth: `https://www.espn.com/nfl/team/depth/_/name/cin` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward TB with a 59.25% cover probability and a 6.87% edge.
 
@@ -547,12 +457,6 @@ The model shows edges of at least 4% in 6 of 16 games this week. For this matchu
 ## Injury report
 - Washington Commanders: No starter injuries identified from ESPN injury/depth-chart matching.
 - Philadelphia Eagles: No starter injuries identified from ESPN injury/depth-chart matching.
-
-## ESPN debug
-- WAS injuries: `https://www.espn.com/nfl/team/injuries/_/name/was` -> Injuries page fetched, but no injury table rows were parsed.
-- WAS depth: `https://www.espn.com/nfl/team/depth/_/name/was` -> Depth chart page fetched, but no starters were parsed.
-- PHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/phi` -> Injuries page fetched, but no injury table rows were parsed.
-- PHI depth: `https://www.espn.com/nfl/team/depth/_/name/phi` -> Depth chart page fetched, but no starters were parsed.
 
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward PHI with a 60.13% cover probability and a 7.75% edge.

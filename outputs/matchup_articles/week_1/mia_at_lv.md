@@ -17,12 +17,6 @@
 - Miami Dolphins: No starter injuries identified from ESPN injury/depth-chart matching.
 - Las Vegas Raiders: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- MIA injuries: `https://www.espn.com/nfl/team/injuries/_/name/mia` -> Injuries page fetched, but no injury table rows were parsed.
-- MIA depth: `https://www.espn.com/nfl/team/depth/_/name/mia` -> Depth chart page fetched, but no starters were parsed.
-- LV injuries: `https://www.espn.com/nfl/team/injuries/_/name/lv` -> Injuries page fetched, but no injury table rows were parsed.
-- LV depth: `https://www.espn.com/nfl/team/depth/_/name/lv` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but MIA still owns the best local lean at 53.46% cover probability and a 1.08% edge.
 

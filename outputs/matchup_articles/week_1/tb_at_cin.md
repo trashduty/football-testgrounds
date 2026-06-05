@@ -19,12 +19,6 @@
 - Tampa Bay Buccaneers: No starter injuries identified from ESPN injury/depth-chart matching.
 - Cincinnati Bengals: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- TB injuries: `https://www.espn.com/nfl/team/injuries/_/name/tb` -> Injuries page fetched, but no injury table rows were parsed.
-- TB depth: `https://www.espn.com/nfl/team/depth/_/name/tb` -> Depth chart page fetched, but no starters were parsed.
-- CIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/cin` -> Injuries page fetched, but no injury table rows were parsed.
-- CIN depth: `https://www.espn.com/nfl/team/depth/_/name/cin` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. For this matchup it leans toward TB with a 59.25% cover probability and a 6.87% edge.
 

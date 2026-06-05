@@ -19,12 +19,6 @@
 - Cleveland Browns: No starter injuries identified from ESPN injury/depth-chart matching.
 - Jacksonville Jaguars: No starter injuries identified from ESPN injury/depth-chart matching.
 
-## ESPN debug
-- CLE injuries: `https://www.espn.com/nfl/team/injuries/_/name/cle` -> Injuries page fetched, but no injury table rows were parsed.
-- CLE depth: `https://www.espn.com/nfl/team/depth/_/name/cle` -> Depth chart page fetched, but no starters were parsed.
-- JAX injuries: `https://www.espn.com/nfl/team/injuries/_/name/jax` -> Injuries page fetched, but no injury table rows were parsed.
-- JAX depth: `https://www.espn.com/nfl/team/depth/_/name/jax` -> Depth chart page fetched, but no starters were parsed.
-
 ## Model edge blurb
 The model shows edges of at least 4% in 6 of 16 games this week. This matchup does not clear that threshold, but JAX still owns the best local lean at 44.76% cover probability and a -7.62% edge.
 
