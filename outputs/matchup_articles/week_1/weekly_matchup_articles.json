@@ -1,0 +1,849 @@
+{
+  "generated_at_utc": "2026-06-05T05:43:32.699205+00:00",
+  "season": 2026,
+  "week": 1,
+  "games_with_edges_at_or_above_0_04": 6,
+  "total_games": 16,
+  "field_provenance": {
+    "epa": "Expected points added (EPA) by the posteam for the given play.",
+    "passing_yards": "Yards gained on pass plays.",
+    "rushing_yards": "Yards gained when rushing with the ball (incl. scrambles and kneel downs). Also includes yards gained after obtaining a lateral on a play that started with a rushing attempt.",
+    "sack": "Binary indicator for if the play ended in a sack.",
+    "wind": "The speed of the wind in miles/hour only for 'roof' = 'outdoors' or 'open'. (Source: Pro-Football-Reference)",
+    "special_teams_tds": "Total number of kick/punt return touchdowns"
+  },
+  "articles": [
+    {
+      "game": "ARI@LAC",
+      "away_team": "ARI",
+      "home_team": "LAC",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "04:25 PM",
+      "location": "SoFi Stadium (Los Angeles Chargers)",
+      "line_summary": "LAC -10.5 / ARI +10.5",
+      "best_book_summary": "LAC -9.5 at BetRivers; ARI +11.5 at DraftKings",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "ARI": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "ARI",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ari",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "ARI",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ari",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "LAC": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "LAC",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/lac",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "LAC",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/lac",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "ari_at_lac.md"
+    },
+    {
+      "game": "ATL@PIT",
+      "away_team": "ATL",
+      "home_team": "PIT",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "Acrisure Stadium (Pittsburgh Steelers)",
+      "line_summary": "PIT -2.5 / ATL +2.5",
+      "best_book_summary": "PIT -2.5 at BetRivers; ATL +3.0 at DraftKings",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "ATL": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "ATL",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/atl",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "ATL",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/atl",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "PIT": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "PIT",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/pit",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "PIT",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/pit",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "atl_at_pit.md"
+    },
+    {
+      "game": "BAL@IND",
+      "away_team": "BAL",
+      "home_team": "IND",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "Lucas Oil Stadium (Indianapolis Colts)",
+      "line_summary": "BAL -3.5 / IND +3.5",
+      "best_book_summary": "BAL -3.5 at DraftKings; IND +3.5 at FanDuel",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "BAL": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "BAL",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/bal",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "BAL",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/bal",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "IND": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "IND",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ind",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "IND",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ind",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "bal_at_ind.md"
+    },
+    {
+      "game": "BUF@HOU",
+      "away_team": "BUF",
+      "home_team": "HOU",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "Reliant Stadium (Houston Texans)",
+      "line_summary": "BUF -1.5 / HOU +1.5",
+      "best_book_summary": "BUF -1.5 at DraftKings; HOU +0.5 at Fanatics",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "BUF": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "BUF",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/buf",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "BUF",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/buf",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "HOU": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "HOU",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/hou",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "HOU",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/hou",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "buf_at_hou.md"
+    },
+    {
+      "game": "CHI@CAR",
+      "away_team": "CHI",
+      "home_team": "CAR",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "Bank of America Stadium (Carolina Panthers)",
+      "line_summary": "CHI -2.5 / CAR +2.5",
+      "best_book_summary": "CHI -2.5 at DraftKings; CAR +2.5 at FanDuel",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "CHI": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "CHI",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/chi",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CHI",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/chi",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "CAR": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "CAR",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/car",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CAR",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/car",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "chi_at_car.md"
+    },
+    {
+      "game": "CLE@JAX",
+      "away_team": "CLE",
+      "home_team": "JAX",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "EverBank Stadium (Jacksonville Jaguars)",
+      "line_summary": "JAX -7.0 / CLE +7.5",
+      "best_book_summary": "JAX -7.5 at FanDuel; CLE +7.5 at BetMGM",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "CLE": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "CLE",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/cle",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CLE",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/cle",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "JAX": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "JAX",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/jax",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "JAX",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/jax",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "cle_at_jax.md"
+    },
+    {
+      "game": "DAL@NYG",
+      "away_team": "DAL",
+      "home_team": "NYG",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "08:20 PM",
+      "location": "MetLife Stadium (New York Giants)",
+      "line_summary": "DAL -2.0 / NYG +2.5",
+      "best_book_summary": "DAL -2.5 at DraftKings; NYG +2.5 at FanDuel",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "DAL": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "DAL",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/dal",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "DAL",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/dal",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "NYG": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "NYG",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/nyg",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NYG",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/nyg",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "dal_at_nyg.md"
+    },
+    {
+      "game": "DEN@KC",
+      "away_team": "DEN",
+      "home_team": "KC",
+      "kickoff_date": "2026-09-14",
+      "kickoff_time_et": "08:15 PM",
+      "location": "GEHA Field at Arrowhead Stadium (Kansas City Chiefs)",
+      "line_summary": "KC -2.5 / DEN +2.5",
+      "best_book_summary": "KC -2.5 at FanDuel; DEN +2.5 at DraftKings",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "DEN": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "DEN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/den",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "DEN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/den",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "KC": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "KC",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/kc",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "KC",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/kc",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "den_at_kc.md"
+    },
+    {
+      "game": "GB@MIN",
+      "away_team": "GB",
+      "home_team": "MIN",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "04:25 PM",
+      "location": "U.S. Bank Stadium (Minnesota Vikings)",
+      "line_summary": "GB -1.5 / MIN +1.5",
+      "best_book_summary": "GB -1.5 at BetMGM; MIN +1.5 at FanDuel",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "GB": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "GB",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/gb",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "GB",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/gb",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "MIN": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "MIN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/min",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "MIN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/min",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "gb_at_min.md"
+    },
+    {
+      "game": "MIA@LV",
+      "away_team": "MIA",
+      "home_team": "LV",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "04:25 PM",
+      "location": "Allegiant Stadium (Las Vegas Raiders)",
+      "line_summary": "LV -3.0 / MIA +3.0",
+      "best_book_summary": "LV -3.5 at BetMGM; MIA +3.5 at BetMGM",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "MIA": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "MIA",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/mia",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "MIA",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/mia",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "LV": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "LV",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/lv",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "LV",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/lv",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "mia_at_lv.md"
+    },
+    {
+      "game": "NE@SEA",
+      "away_team": "NE",
+      "home_team": "SEA",
+      "kickoff_date": "2026-09-09",
+      "kickoff_time_et": "08:15 PM",
+      "location": "Lumen Field (Seattle Seahawks)",
+      "line_summary": "SEA -4.5 / NE +4.5",
+      "best_book_summary": "SEA -3.5 at DraftKings; NE +4.5 at BetMGM",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "NE": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "NE",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ne",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NE",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ne",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "SEA": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "SEA",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/sea",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "SEA",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/sea",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "ne_at_sea.md"
+    },
+    {
+      "game": "NO@DET",
+      "away_team": "NO",
+      "home_team": "DET",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "Ford Field (Detroit Lions)",
+      "line_summary": "DET -7.0 / NO +7.0",
+      "best_book_summary": "DET -7.5 at BetRivers; NO +7.5 at BetRivers",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "NO": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "NO",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/no",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NO",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/no",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "DET": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "DET",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/det",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "DET",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/det",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "no_at_det.md"
+    },
+    {
+      "game": "NYJ@TEN",
+      "away_team": "NYJ",
+      "home_team": "TEN",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "Nissan Stadium (Tennessee Titans)",
+      "line_summary": "TEN -2.5 / NYJ +2.5",
+      "best_book_summary": "TEN -2.5 at FanDuel; NYJ +3.0 at DraftKings",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "NYJ": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "NYJ",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/nyj",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NYJ",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/nyj",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "TEN": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "TEN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ten",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "TEN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ten",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "nyj_at_ten.md"
+    },
+    {
+      "game": "SF@LA",
+      "away_team": "SF",
+      "home_team": "LA",
+      "kickoff_date": "2026-09-10",
+      "kickoff_time_et": "08:35 PM",
+      "location": "Melbourne Cricket Ground (Los Angeles Rams)",
+      "line_summary": "LA -2.5 / SF +2.5",
+      "best_book_summary": "LA -2.5 at FanDuel; SF +2.5 at DraftKings",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "SF": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "SF",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/sf",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "SF",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/sf",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "LA": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "LA",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/la",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "LA",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/la",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "sf_at_la.md"
+    },
+    {
+      "game": "TB@CIN",
+      "away_team": "TB",
+      "home_team": "CIN",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "01:00 PM",
+      "location": "Paycor Stadium (Cincinnati Bengals)",
+      "line_summary": "CIN -3.5 / TB +3.5",
+      "best_book_summary": "CIN -3.5 at DraftKings; TB +3.5 at DraftKings",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "TB": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "TB",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/tb",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "TB",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/tb",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "CIN": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "CIN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/cin",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CIN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/cin",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "tb_at_cin.md"
+    },
+    {
+      "game": "WAS@PHI",
+      "away_team": "WAS",
+      "home_team": "PHI",
+      "kickoff_date": "2026-09-13",
+      "kickoff_time_et": "04:25 PM",
+      "location": "Lincoln Financial Field (Philadelphia Eagles)",
+      "line_summary": "PHI -4.5 / WAS +4.5",
+      "best_book_summary": "PHI -4.5 at FanDuel; WAS +5.5 at DraftKings",
+      "stat_context": {
+        "season": 2024,
+        "through_week": null,
+        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+      },
+      "injury_reports": {
+        "WAS": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "WAS",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/was",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "WAS",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/was",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        },
+        "PHI": {
+          "starters": [],
+          "debug": [
+            {
+              "team": "PHI",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/phi",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "PHI",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/phi",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
+        }
+      },
+      "article_path": "was_at_phi.md"
+    }
+  ]
+}
