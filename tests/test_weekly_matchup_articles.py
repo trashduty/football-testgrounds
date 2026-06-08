@@ -150,6 +150,105 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
         self.assertIsNone(context.through_week)
         self.assertIn("fall back to the 2025 regular season", context.note)
 
+    def test_load_stat_inputs_with_fallback_keeps_2025_when_weekly_file_missing(self) -> None:
+        original_read = wma.read_remote_parquet
+
+        def fake_read(url, columns):
+            if "play_by_play_2025.parquet" in url:
+                row = {column: None for column in columns}
+                row.update(
+                    {
+                        "game_id": "2025_01_ARI_SEA",
+                        "season": 2025,
+                        "week": 1,
+                        "season_type": "REG",
+                        "posteam": "ARI",
+                        "defteam": "SEA",
+                        "home_team": "SEA",
+                        "away_team": "ARI",
+                        "pass": 1,
+                        "rush": 0,
+                        "sack": 0,
+                        "passing_yards": 10,
+                        "rushing_yards": 0,
+                        "epa": 0.1,
+                        "field_goal_attempt": 0,
+                        "touchdown": 0,
+                        "special": 0,
+                        "td_team": "",
+                    }
+                )
+                return pd.DataFrame([row], columns=columns)
+            if "player_stats_2025.parquet" in url:
+                raise RuntimeError("404")
+            raise AssertionError(f"Unexpected url: {url}")
+
+        try:
+            wma.read_remote_parquet = fake_read
+            context, pbp, weekly = wma.load_stat_inputs_with_fallback(2026, 1)
+        finally:
+            wma.read_remote_parquet = original_read
+
+        self.assertEqual(context.season, 2025)
+        self.assertFalse(pbp.empty)
+        self.assertTrue(weekly.empty)
+
+    def test_compute_team_metrics_derives_special_teams_tds_from_pbp(self) -> None:
+        pbp = pd.DataFrame(
+            [
+                {
+                    "game_id": "g1",
+                    "season": 2025,
+                    "week": 1,
+                    "season_type": "REG",
+                    "posteam": "ARI",
+                    "defteam": "SEA",
+                    "home_team": "SEA",
+                    "away_team": "ARI",
+                    "pass": 1,
+                    "rush": 0,
+                    "sack": 0,
+                    "passing_yards": 8,
+                    "rushing_yards": 0,
+                    "epa": 0.2,
+                    "field_goal_attempt": 0,
+                    "field_goal_result": "",
+                    "kick_distance": None,
+                    "kicker_player_name": None,
+                    "touchdown": 1,
+                    "special": 1,
+                    "td_team": "ARI",
+                },
+                {
+                    "game_id": "g1",
+                    "season": 2025,
+                    "week": 1,
+                    "season_type": "REG",
+                    "posteam": "SEA",
+                    "defteam": "ARI",
+                    "home_team": "SEA",
+                    "away_team": "ARI",
+                    "pass": 1,
+                    "rush": 0,
+                    "sack": 1,
+                    "passing_yards": 12,
+                    "rushing_yards": 0,
+                    "epa": -0.1,
+                    "field_goal_attempt": 0,
+                    "field_goal_result": "",
+                    "kick_distance": None,
+                    "kicker_player_name": None,
+                    "touchdown": 0,
+                    "special": 0,
+                    "td_team": "",
+                },
+            ]
+        )
+
+        metrics = wma.compute_team_metrics(pbp, pd.DataFrame())
+        ari_row = metrics.set_index("team").loc["ARI"]
+        self.assertEqual(int(ari_row["special_teams_tds"]), 1)
+
     def test_format_line_positive(self) -> None:
         self.assertEqual(wma.format_line(11.5), "+11.5")
 
@@ -166,6 +265,109 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
     def test_extract_team_logo_returns_none_when_absent(self) -> None:
         row = pd.Series({"team": "ARI"})
         self.assertIsNone(wma.extract_team_logo(row))
+
+    def test_build_article_uses_longform_section_headers(self) -> None:
+        game_rows = pd.DataFrame(
+            [
+                {
+                    "team": "ARI",
+                    "game": "ARI@SEA",
+                    "game_date_est": pd.Timestamp("2026-09-10"),
+                    "game_time_est": "8:20",
+                    "market_line": -3.5,
+                    "best_line": -3.0,
+                    "best_book": "DraftKings",
+                    "best_cover_probability": None,
+                    "model_cover_probability": 0.56,
+                    "best_price": -110,
+                    "edge_numeric": 0.05,
+                    "Offensive Eckel Rate Over Expected (%)": 2.0,
+                    "Defensive Eckel Rate Over Expected (%)": -1.0,
+                },
+                {
+                    "team": "SEA",
+                    "game": "ARI@SEA",
+                    "game_date_est": pd.Timestamp("2026-09-10"),
+                    "game_time_est": "8:20",
+                    "market_line": 3.5,
+                    "best_line": 3.0,
+                    "best_book": "FanDuel",
+                    "best_cover_probability": None,
+                    "model_cover_probability": 0.44,
+                    "best_price": -110,
+                    "edge_numeric": -0.05,
+                    "Offensive Eckel Rate Over Expected (%)": -1.0,
+                    "Defensive Eckel Rate Over Expected (%)": 1.5,
+                },
+            ]
+        )
+        metrics = pd.DataFrame(
+            [
+                {
+                    "team": "ARI",
+                    "off_rush_yards_pg": 130.0,
+                    "off_rush_rank": 5,
+                    "off_pass_yards_pg": 220.0,
+                    "off_pass_rank": 11,
+                    "off_epa_per_play": 0.12,
+                    "off_epa_rank": 4,
+                    "off_sacks_pg": 1.8,
+                    "off_sacks_rank": 3,
+                    "def_rush_yards_pg_allowed": 105.0,
+                    "def_rush_rank": 8,
+                    "def_pass_yards_pg_allowed": 210.0,
+                    "def_pass_rank": 10,
+                    "def_epa_allowed": -0.08,
+                    "def_epa_rank": 6,
+                    "def_sacks_pg": 2.6,
+                    "def_sacks_rank": 4,
+                },
+                {
+                    "team": "SEA",
+                    "off_rush_yards_pg": 98.0,
+                    "off_rush_rank": 20,
+                    "off_pass_yards_pg": 245.0,
+                    "off_pass_rank": 7,
+                    "off_epa_per_play": 0.01,
+                    "off_epa_rank": 15,
+                    "off_sacks_pg": 2.9,
+                    "off_sacks_rank": 29,
+                    "def_rush_yards_pg_allowed": 126.0,
+                    "def_rush_rank": 21,
+                    "def_pass_yards_pg_allowed": 234.0,
+                    "def_pass_rank": 24,
+                    "def_epa_allowed": 0.06,
+                    "def_epa_rank": 23,
+                    "def_sacks_pg": 1.7,
+                    "def_sacks_rank": 25,
+                },
+            ]
+        )
+        records = {"ARI": {"wins": 10, "losses": 7, "ties": 0}, "SEA": {"wins": 9, "losses": 8, "ties": 0}}
+        team_names = {"ARI": "Arizona Cardinals", "SEA": "Seattle Seahawks"}
+        injuries = {
+            "ARI": wma.TeamInjuryReport(team="ARI", status="ok_no_injuries"),
+            "SEA": wma.TeamInjuryReport(team="SEA", status="ok_no_injuries"),
+        }
+        article, _ = wma.build_article(
+            "ARI@SEA",
+            game_rows,
+            metrics,
+            records,
+            team_names,
+            None,
+            wma.StatContext(season=2025, through_week=None, note="Using 2025 regular-season baselines."),
+            {},
+            injuries,
+            edge_game_count=4,
+        )
+
+        self.assertIn("## Matchup Context", article)
+        self.assertIn("## When Arizona Cardinals Have the Ball", article)
+        self.assertIn("## When Seattle Seahawks Have the Ball", article)
+        self.assertIn("## Prediction and Betting Lean", article)
+        self.assertIn("## Data Context", article)
+        self.assertNotIn("## Matchup Info", article)
 
     def test_build_model_prediction_sentence_with_price(self) -> None:
         game_rows = pd.DataFrame([
