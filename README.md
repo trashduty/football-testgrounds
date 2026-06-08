@@ -93,6 +93,7 @@ Optional flags:
 
 ### Assumptions
 
-- Stats are season-to-date through the prior week; week 1 falls back to the previous regular season because there is no current-season sample yet.
+- Stats are season-to-date through the prior week; week 1 falls back to the immediately previous regular season (for example, 2026 week 1 uses 2025 baselines).
+- If nflverse weekly player stats are unavailable for a season, the workflow still keeps that season and derives `special_teams_tds` directly from nflverse play-by-play (`special == 1`, `touchdown == 1`, grouped by `td_team`) instead of dropping back another year.
 - “Offensive/Defensive Eckel” is sourced from the weekly model CSV because the shared local nflverse dictionary does not currently expose an Eckel field.
 - Weather blurbs use nflverse schedule data when `wind > 20`; if ESPN injury or depth-chart fetch/parsing fails, `--espn-debug` exposes the exact URL and exact failure reason.

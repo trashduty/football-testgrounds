@@ -364,13 +364,19 @@ def load_stat_inputs(stat_context: StatContext) -> Tuple[pd.DataFrame, pd.DataFr
         "field_goal_result",
         "kick_distance",
         "kicker_player_name",
+        "touchdown",
+        "special",
+        "td_team",
     ]
     weekly_columns = ["season", "week", "season_type", "recent_team", "special_teams_tds"]
 
     pbp = read_remote_parquet(NFLVERSE_PBP_URL.format(season=stat_context.season), pbp_columns)
-    weekly = read_remote_parquet(
-        NFLVERSE_WEEKLY_URL.format(season=stat_context.season), weekly_columns
-    )
+    try:
+        weekly = read_remote_parquet(
+            NFLVERSE_WEEKLY_URL.format(season=stat_context.season), weekly_columns
+        )
+    except Exception:  # noqa: BLE001
+        weekly = pd.DataFrame(columns=weekly_columns)
 
     pbp["posteam"] = pbp["posteam"].fillna("").str.upper()
     pbp["defteam"] = pbp["defteam"].fillna("").str.upper()
@@ -381,11 +387,12 @@ def load_stat_inputs(stat_context: StatContext) -> Tuple[pd.DataFrame, pd.DataFr
     if stat_context.through_week is not None:
         pbp = pbp[pbp["week"] <= stat_context.through_week].copy()
 
-    weekly["recent_team"] = weekly["recent_team"].fillna("").str.upper()
-    weekly["season_type"] = weekly["season_type"].fillna("")
-    weekly = weekly[weekly["season_type"] == "REG"].copy()
-    if stat_context.through_week is not None:
-        weekly = weekly[weekly["week"] <= stat_context.through_week].copy()
+    if not weekly.empty:
+        weekly["recent_team"] = weekly["recent_team"].fillna("").str.upper()
+        weekly["season_type"] = weekly["season_type"].fillna("")
+        weekly = weekly[weekly["season_type"] == "REG"].copy()
+        if stat_context.through_week is not None:
+            weekly = weekly[weekly["week"] <= stat_context.through_week].copy()
 
     return pbp, weekly
 
@@ -409,8 +416,8 @@ def load_stat_inputs_with_fallback(target_season: int, target_week: int) -> Tupl
     for context in candidate_contexts:
         try:
             pbp, weekly = load_stat_inputs(context)
-            if pbp.empty or weekly.empty:
-                raise ValueError("No nflverse rows returned.")
+            if pbp.empty:
+                raise ValueError("No nflverse play-by-play rows returned.")
             return context, pbp, weekly
         except Exception as exc:  # noqa: BLE001
             attempted.append(f"{context.season}: {type(exc).__name__}: {exc}")
@@ -536,12 +543,30 @@ def compute_team_metrics(pbp: pd.DataFrame, weekly: pd.DataFrame) -> pd.DataFram
             kicker_summary["blocked_fg"].rank(method="min", ascending=False).astype("Int64")
         )
 
-    weekly_summary = (
-        weekly.groupby("recent_team")["special_teams_tds"]
-        .sum(min_count=1)
-        .reset_index()
-        .rename(columns={"recent_team": "team"})
-    )
+    if (
+        not weekly.empty
+        and "recent_team" in weekly.columns
+        and "special_teams_tds" in weekly.columns
+    ):
+        weekly_summary = (
+            weekly.groupby("recent_team")["special_teams_tds"]
+            .sum(min_count=1)
+            .reset_index()
+            .rename(columns={"recent_team": "team"})
+        )
+    else:
+        special_tds = pbp[
+            pbp["special"].fillna(0).eq(1)
+            & pbp["touchdown"].fillna(0).eq(1)
+            & pbp["td_team"].fillna("").ne("")
+        ]
+        weekly_summary = (
+            special_tds.groupby("td_team")
+            .size()
+            .rename("special_teams_tds")
+            .reset_index()
+            .rename(columns={"td_team": "team"})
+        )
     if weekly_summary.empty:
         weekly_summary = pd.DataFrame(columns=["team", "special_teams_tds"])
     weekly_summary["special_teams_tds_rank"] = (
@@ -630,53 +655,43 @@ def summarize_rank(
 
 
 def build_offense_sentence(team_name: str, row: pd.Series, total_teams: int, model_row: pd.Series) -> str:
-    pieces = [
-        (
-            f"{team_name} averages {format_float(row.get('off_rush_yards_pg'))} rushing yards per game"
-            + (
-                f" ({summarize_rank(row.get('off_rush_rank'), total_teams, top_n=TOP_10, high_is_good=True, noun='rushing offense')})"
-                if summarize_rank(
-                    row.get("off_rush_rank"),
-                    total_teams,
-                    top_n=TOP_10,
-                    high_is_good=True,
-                    noun="rushing offense",
-                )
-                else ""
-            )
-        ),
-        (
-            f"{format_float(row.get('off_pass_yards_pg'))} passing yards per game"
-            + (
-                f" ({summarize_rank(row.get('off_pass_rank'), total_teams, top_n=TOP_10, high_is_good=True, noun='passing offense')})"
-                if summarize_rank(
-                    row.get("off_pass_rank"),
-                    total_teams,
-                    top_n=TOP_10,
-                    high_is_good=True,
-                    noun="passing offense",
-                )
-                else ""
-            )
-        ),
-        (
-            f"and {format_float(row.get('off_epa_per_play'), 3)} EPA per play"
-            + (
-                f" ({summarize_rank(row.get('off_epa_rank'), total_teams, top_n=TOP_10, high_is_good=True, noun='offensive EPA/play')})"
-                if summarize_rank(
-                    row.get("off_epa_rank"),
-                    total_teams,
-                    top_n=TOP_10,
-                    high_is_good=True,
-                    noun="offensive EPA/play",
-                )
-                else ""
-            )
-        ),
-    ]
-    sentence = ", ".join(pieces[:-1]) + ", " + pieces[-1] + "."
+    rush_rank_note = summarize_rank(
+        row.get("off_rush_rank"),
+        total_teams,
+        top_n=TOP_10,
+        high_is_good=True,
+        noun="rushing offense",
+    )
+    pass_rank_note = summarize_rank(
+        row.get("off_pass_rank"),
+        total_teams,
+        top_n=TOP_10,
+        high_is_good=True,
+        noun="passing offense",
+    )
+    epa_rank_note = summarize_rank(
+        row.get("off_epa_rank"),
+        total_teams,
+        top_n=TOP_10,
+        high_is_good=True,
+        noun="offensive EPA/play",
+    )
+
+    sentence = (
+        f"The {team_name} offense has averaged "
+        f"{format_float(row.get('off_rush_yards_pg'))} rushing yards per game"
+        + (f" ({rush_rank_note})" if rush_rank_note else "")
+        + f", {format_float(row.get('off_pass_yards_pg'))} passing yards per game"
+        + (f" ({pass_rank_note})" if pass_rank_note else "")
+        + f", and {format_float(row.get('off_epa_per_play'), 3)} EPA per play"
+        + (f" ({epa_rank_note})" if epa_rank_note else "")
+        + "."
+    )
     eckel = model_row.get("Offensive Eckel Rate Over Expected (%)")
-    sentence += f" Offensive Eckel ROE from the model file sits at {display_percent(eckel, 2)}."
+    sentence += (
+        f" The model's Offensive Eckel ROE sits at {display_percent(eckel, 2)}, "
+        "which helps frame how often this unit is creating drive-extending or explosive outcomes."
+    )
     sacks_rank = row.get("off_sacks_rank")
     if pd.notna(sacks_rank) and (
         int(sacks_rank) <= TOP_5 or int(sacks_rank) > total_teams - TOP_5
@@ -686,61 +701,47 @@ def build_offense_sentence(team_name: str, row: pd.Series, total_teams: int, mod
             if int(sacks_rank) <= TOP_5
             else f"{ordinal(int(sacks_rank))}-most sacks taken"
         )
-        sentence += (
-            f" They have taken {format_float(row.get('off_sacks_pg'), 2)} sacks per game, "
-            f"which ranks {qualifier}."
-        )
+        sentence += f" In pass protection, they have allowed {format_float(row.get('off_sacks_pg'), 2)} sacks per game, ranking {qualifier}."
     return sentence
 
 
 def build_defense_sentence(team_name: str, row: pd.Series, total_teams: int, model_row: pd.Series) -> str:
-    pieces = [
-        (
-            f"{team_name} allows {format_float(row.get('def_rush_yards_pg_allowed'))} rushing yards per game"
-            + (
-                f" ({summarize_rank(row.get('def_rush_rank'), total_teams, top_n=TOP_10, high_is_good=False, noun='rush defense')})"
-                if summarize_rank(
-                    row.get("def_rush_rank"),
-                    total_teams,
-                    top_n=TOP_10,
-                    high_is_good=False,
-                    noun="rush defense",
-                )
-                else ""
-            )
-        ),
-        (
-            f"{format_float(row.get('def_pass_yards_pg_allowed'))} passing yards per game"
-            + (
-                f" ({summarize_rank(row.get('def_pass_rank'), total_teams, top_n=TOP_10, high_is_good=False, noun='pass defense')})"
-                if summarize_rank(
-                    row.get("def_pass_rank"),
-                    total_teams,
-                    top_n=TOP_10,
-                    high_is_good=False,
-                    noun="pass defense",
-                )
-                else ""
-            )
-        ),
-        (
-            f"and {format_float(row.get('def_epa_allowed'), 3)} EPA allowed per play"
-            + (
-                f" ({summarize_rank(row.get('def_epa_rank'), total_teams, top_n=TOP_10, high_is_good=False, noun='defensive EPA/play')})"
-                if summarize_rank(
-                    row.get("def_epa_rank"),
-                    total_teams,
-                    top_n=TOP_10,
-                    high_is_good=False,
-                    noun="defensive EPA/play",
-                )
-                else ""
-            )
-        ),
-    ]
-    sentence = ", ".join(pieces[:-1]) + ", " + pieces[-1] + "."
+    rush_rank_note = summarize_rank(
+        row.get("def_rush_rank"),
+        total_teams,
+        top_n=TOP_10,
+        high_is_good=False,
+        noun="rush defense",
+    )
+    pass_rank_note = summarize_rank(
+        row.get("def_pass_rank"),
+        total_teams,
+        top_n=TOP_10,
+        high_is_good=False,
+        noun="pass defense",
+    )
+    epa_rank_note = summarize_rank(
+        row.get("def_epa_rank"),
+        total_teams,
+        top_n=TOP_10,
+        high_is_good=False,
+        noun="defensive EPA/play",
+    )
+
+    sentence = (
+        f"On the other side, the {team_name} defense is allowing "
+        f"{format_float(row.get('def_rush_yards_pg_allowed'))} rushing yards per game"
+        + (f" ({rush_rank_note})" if rush_rank_note else "")
+        + f", {format_float(row.get('def_pass_yards_pg_allowed'))} passing yards per game"
+        + (f" ({pass_rank_note})" if pass_rank_note else "")
+        + f", and {format_float(row.get('def_epa_allowed'), 3)} EPA allowed per play"
+        + (f" ({epa_rank_note})" if epa_rank_note else "")
+        + "."
+    )
     eckel = model_row.get("Defensive Eckel Rate Over Expected (%)")
-    sentence += f" Defensive Eckel ROE from the model file sits at {display_percent(eckel, 2)}."
+    sentence += (
+        f" Their Defensive Eckel ROE is {display_percent(eckel, 2)}, giving context for how frequently opponents finish drives in high-value situations."
+    )
     sacks_rank = row.get("def_sacks_rank")
     if pd.notna(sacks_rank) and (
         int(sacks_rank) <= TOP_5 or int(sacks_rank) > total_teams - TOP_5
@@ -750,10 +751,7 @@ def build_defense_sentence(team_name: str, row: pd.Series, total_teams: int, mod
             if int(sacks_rank) <= TOP_5
             else f"{ordinal(int(sacks_rank))} in sacks"
         )
-        sentence += (
-            f" Their defense is producing {format_float(row.get('def_sacks_pg'), 2)} sacks per game, "
-            f"which ranks {qualifier}."
-        )
+        sentence += f" Up front, this defense is generating {format_float(row.get('def_sacks_pg'), 2)} sacks per game, which ranks {qualifier}."
     return sentence
 
 
@@ -1118,7 +1116,7 @@ def build_article(
     kickoff = away_row["game_date_est"]
     kickoff_label = kickoff.strftime("%Y-%m-%d") if pd.notna(kickoff) else "N/A"
     time_label = away_row.get("game_time_est", "N/A")
-    location = f"at {home_name}"
+    location: Optional[str] = None
     if schedule_row is not None:
         stadium = schedule_row.get("stadium")
         if isinstance(stadium, str) and stadium.strip():
@@ -1175,16 +1173,21 @@ def build_article(
         sections.append("  ".join(logo_parts))
         sections.append("")
 
+    venue_sentence = f" The game will be played at {location}." if location else ""
+
     sections.extend([
         f"# {away_name} at {home_name}",
         "",
-        "## Matchup Info",
+        "## Matchup Context",
         (
             f"The {away_name} ({format_record(records.get(away_team))}) travel to face the "
-            f"{home_name} ({format_record(records.get(home_team))}) on {kickoff_label} at "
-            f"{time_label} ET {location}. "
-            f"**Line:** {lines_summary}. "
-            f"**Best book:** {best_book_summary}."
+            f"{home_name} ({format_record(records.get(home_team))}) on {kickoff_label} at {time_label} ET. "
+            f"{venue_sentence}"
+            f"The market opens this one with {lines_summary}, and the best current prices are {best_book_summary}."
+        ),
+        (
+            f"From a game-script standpoint, {favorite_name} are being priced as the side expected to control most neutral possessions, "
+            f"while {dog_name} profile as the comeback script if this game gets volatile in the second half."
         ),
     ])
 
@@ -1192,25 +1195,23 @@ def build_article(
         sections.append("")
         sections.append(weather_sentence)
 
-    # ── Statistical matchup ───────────────────────────────────────────────────
-    # Eckel ROE definition — shown once, inline before the stat sections.
-    eckel_definition = (
-        "_Eckel ROE (Rate Over Expected): how often an offense generates — or a defense allows — "
-        "a big-play touchdown or a first down inside the 40 on any given drive, "
-        "relative to the expected rate._"
-    )
-
     sections.extend([
         "",
-        eckel_definition,
+        "_Eckel ROE (Rate Over Expected) measures how often an offense creates — or a defense allows — drive-extending outcomes versus expectation._",
         "",
-        f"## {favorite_name} offense vs {dog_name} defense",
+        f"## When {favorite_name} Have the Ball",
         build_offense_sentence(favorite_name, favorite_metrics, total_teams, favorite_row),
         build_defense_sentence(dog_name, dog_metrics, total_teams, dog_row),
+        (
+            f"If {favorite_name} stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance."
+        ),
         "",
-        f"## {favorite_name} defense vs {dog_name} offense",
-        build_defense_sentence(favorite_name, favorite_metrics, total_teams, favorite_row),
+        f"## When {dog_name} Have the Ball",
         build_offense_sentence(dog_name, dog_metrics, total_teams, dog_row),
+        build_defense_sentence(favorite_name, favorite_metrics, total_teams, favorite_row),
+        (
+            f"For {dog_name}, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in."
+        ),
     ])
 
     # Special teams — only rendered when at least one team meets the criteria.
@@ -1218,7 +1219,7 @@ def build_article(
     home_st = build_special_teams_sentence(home_name, home_metrics, total_teams)
     if away_st or home_st:
         sections.append("")
-        sections.append("## Special teams")
+        sections.append("## Special Teams X-Factors")
         if away_st:
             sections.append(away_st)
         if home_st:
@@ -1261,11 +1262,11 @@ def build_article(
     sections.extend(
         [
             "",
-            "## Model Prediction",
+            "## Prediction and Betting Lean",
             build_model_prediction(game_rows, edge_game_count, team_names),
             "",
-            "## Notes",
-            f"- {stat_context.note}",
+            "## Data Context",
+            stat_context.note,
         ]
     )
 
