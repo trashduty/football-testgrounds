@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-08T02:35:59.021592+00:00",
+  "generated_at_utc": "2026-06-08T03:18:22.617882+00:00",
   "season": 2026,
   "week": 1,
   "games_with_edges_at_or_above_0_04": 6,
@@ -23,20 +23,46 @@
       "line_summary": "LAC -10.5 / ARI +10.5",
       "best_book_summary": "LAC -9.5 at BetRivers; ARI +11.5 at DraftKings",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "ARI": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "ARI",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ari",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "ARI",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ari",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "LAC": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "LAC",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/lac",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "LAC",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/lac",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "ari_at_lac.md"
@@ -51,20 +77,46 @@
       "line_summary": "PIT -2.5 / ATL +2.5",
       "best_book_summary": "PIT -2.5 at BetRivers; ATL +3.0 at DraftKings",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "ATL": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "ATL",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/atl",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "ATL",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/atl",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "PIT": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "PIT",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/pit",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "PIT",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/pit",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "atl_at_pit.md"
@@ -79,20 +131,46 @@
       "line_summary": "BAL -3.5 / IND +3.5",
       "best_book_summary": "BAL -3.5 at DraftKings; IND +3.5 at FanDuel",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "BAL": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "BAL",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/bal",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "BAL",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/bal",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "IND": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "IND",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ind",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "IND",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ind",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "bal_at_ind.md"
@@ -107,20 +185,46 @@
       "line_summary": "BUF -1.5 / HOU +1.5",
       "best_book_summary": "BUF -1.5 at DraftKings; HOU +0.5 at Fanatics",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "BUF": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "BUF",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/buf",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "BUF",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/buf",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "HOU": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "HOU",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/hou",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "HOU",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/hou",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "buf_at_hou.md"
@@ -135,20 +239,46 @@
       "line_summary": "CHI -2.5 / CAR +2.5",
       "best_book_summary": "CHI -2.5 at DraftKings; CAR +2.5 at FanDuel",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "CHI": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "CHI",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/chi",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CHI",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/chi",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "CAR": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "CAR",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/car",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CAR",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/car",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "chi_at_car.md"
@@ -163,20 +293,46 @@
       "line_summary": "JAX -7.0 / CLE +7.5",
       "best_book_summary": "JAX -7.5 at FanDuel; CLE +7.5 at BetMGM",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "CLE": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "CLE",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/cle",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CLE",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/cle",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "JAX": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "JAX",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/jax",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "JAX",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/jax",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "cle_at_jax.md"
@@ -191,20 +347,46 @@
       "line_summary": "DAL -2.0 / NYG +2.5",
       "best_book_summary": "DAL -2.5 at DraftKings; NYG +2.5 at FanDuel",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "DAL": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "DAL",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/dal",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "DAL",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/dal",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "NYG": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "NYG",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/nyg",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NYG",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/nyg",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "dal_at_nyg.md"
@@ -219,20 +401,46 @@
       "line_summary": "KC -2.5 / DEN +2.5",
       "best_book_summary": "KC -2.5 at FanDuel; DEN +2.5 at DraftKings",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "DEN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "DEN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/den",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "DEN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/den",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "KC": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "KC",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/kc",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "KC",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/kc",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "den_at_kc.md"
@@ -247,20 +455,46 @@
       "line_summary": "GB -1.5 / MIN +1.5",
       "best_book_summary": "GB -1.5 at BetMGM; MIN +1.5 at FanDuel",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "GB": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "GB",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/gb",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "GB",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/gb",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "MIN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "MIN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/min",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "MIN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/min",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "gb_at_min.md"
@@ -275,20 +509,46 @@
       "line_summary": "LV -3.0 / MIA +3.0",
       "best_book_summary": "LV -3.5 at BetMGM; MIA +3.5 at BetMGM",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "MIA": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "MIA",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/mia",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "MIA",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/mia",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "LV": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "LV",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/lv",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "LV",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/lv",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "mia_at_lv.md"
@@ -303,20 +563,46 @@
       "line_summary": "SEA -4.5 / NE +4.5",
       "best_book_summary": "SEA -3.5 at DraftKings; NE +4.5 at BetMGM",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "NE": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "NE",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ne",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NE",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ne",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "SEA": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "SEA",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/sea",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "SEA",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/sea",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "ne_at_sea.md"
@@ -331,20 +617,46 @@
       "line_summary": "DET -7.0 / NO +7.0",
       "best_book_summary": "DET -7.5 at BetRivers; NO +7.5 at BetRivers",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "NO": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "NO",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/no",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NO",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/no",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "DET": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "DET",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/det",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "DET",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/det",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "no_at_det.md"
@@ -359,20 +671,46 @@
       "line_summary": "TEN -2.5 / NYJ +2.5",
       "best_book_summary": "TEN -2.5 at FanDuel; NYJ +3.0 at DraftKings",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "NYJ": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "NYJ",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/nyj",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "NYJ",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/nyj",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "TEN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "TEN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/ten",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "TEN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/ten",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "nyj_at_ten.md"
@@ -387,20 +725,46 @@
       "line_summary": "LA -2.5 / SF +2.5",
       "best_book_summary": "LA -2.5 at FanDuel; SF +2.5 at DraftKings",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "SF": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "SF",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/sf",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "SF",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/sf",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "LA": {
-          "status": "injury_fetch_failed",
+          "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "LA",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/la",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "LA",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/la",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "sf_at_la.md"
@@ -415,20 +779,46 @@
       "line_summary": "CIN -3.5 / TB +3.5",
       "best_book_summary": "CIN -3.5 at DraftKings; TB +3.5 at DraftKings",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "TB": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "TB",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/tb",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "TB",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/tb",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "CIN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "CIN",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/cin",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "CIN",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/cin",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "tb_at_cin.md"
@@ -443,20 +833,46 @@
       "line_summary": "PHI -4.5 / WAS +4.5",
       "best_book_summary": "PHI -4.5 at FanDuel; WAS +5.5 at DraftKings",
       "stat_context": {
-        "season": 2024,
+        "season": 2025,
         "through_week": null,
-        "note": "Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season."
+        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
       },
       "injury_reports": {
         "WAS": {
-          "status": "injury_fetch_failed",
+          "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "WAS",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/was",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "WAS",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/was",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         },
         "PHI": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": []
+          "debug": [
+            {
+              "team": "PHI",
+              "source": "injuries",
+              "url": "https://www.espn.com/nfl/team/injuries/_/name/phi",
+              "failure": "Injuries page fetched, but no injury table rows were parsed."
+            },
+            {
+              "team": "PHI",
+              "source": "depth",
+              "url": "https://www.espn.com/nfl/team/depth/_/name/phi",
+              "failure": "Depth chart page fetched, but no starters were parsed."
+            }
+          ]
         }
       },
       "article_path": "was_at_phi.md"

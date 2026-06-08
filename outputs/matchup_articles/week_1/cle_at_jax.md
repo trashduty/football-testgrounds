@@ -1,31 +1,39 @@
 # Cleveland Browns at Jacksonville Jaguars
 
-## Matchup Info
-The Cleveland Browns (0-0) travel to face the Jacksonville Jaguars (0-0) on 2026-09-13 at 01:00 PM ET EverBank Stadium (Jacksonville Jaguars). **Line:** JAX -7.0 / CLE +7.5. **Best book:** JAX -7.5 at FanDuel; CLE +7.5 at BetMGM.
+## Matchup Context
+The Cleveland Browns (0-0) travel to face the Jacksonville Jaguars (0-0) on 2026-09-13 at 01:00 PM ET.  The game will be played at EverBank Stadium (Jacksonville Jaguars).The market opens this one with JAX -7.0 / CLE +7.5, and the best current prices are JAX -7.5 at FanDuel; CLE +7.5 at BetMGM.
+From a game-script standpoint, Jacksonville Jaguars are being priced as the side expected to control most neutral possessions, while Cleveland Browns profile as the comeback script if this game gets volatile in the second half.
 
-_Eckel ROE (Rate Over Expected): how often an offense generates — or a defense allows — a big-play touchdown or a first down inside the 40 on any given drive, relative to the expected rate._
+_Eckel ROE (Rate Over Expected) measures how often an offense creates — or a defense allows — drive-extending outcomes versus expectation._
 
-## Jacksonville Jaguars offense vs Cleveland Browns defense
-Jacksonville Jaguars averages 91.1 rushing yards per game (24th in the league in rushing offense), 218.6 passing yards per game (24th in the league in passing offense), and -0.022 EPA per play. Offensive Eckel ROE from the model file sits at 52.98%.
-Cleveland Browns allows 112.8 rushing yards per game, 228.1 passing yards per game, and 0.017 EPA allowed per play. Defensive Eckel ROE from the model file sits at 43.40%.
+## When Jacksonville Jaguars Have the Ball
+The Jacksonville Jaguars offense has averaged 97.9 rushing yards per game, 236.8 passing yards per game, and 0.037 EPA per play. The model's Offensive Eckel ROE sits at 52.98%, which helps frame how often this unit is creating drive-extending or explosive outcomes.
+On the other side, the Cleveland Browns defense is allowing 106.9 rushing yards per game, 189.4 passing yards per game (3rd in the league in pass defense), and -0.085 EPA allowed per play (4th in the league in defensive EPA/play). Their Defensive Eckel ROE is 43.40%, giving context for how frequently opponents finish drives in high-value situations. Up front, this defense is generating 3.12 sacks per game, which ranks 3rd in sacks.
+If Jacksonville Jaguars stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance.
 
-## Jacksonville Jaguars defense vs Cleveland Browns offense
-Jacksonville Jaguars allows 112.6 rushing yards per game, 270.9 passing yards per game (32nd in the league in pass defense), and 0.127 EPA allowed per play (31st in the league in defensive EPA/play). Defensive Eckel ROE from the model file sits at 45.64%. Their defense is producing 2.00 sacks per game, which ranks 28th in sacks.
-Cleveland Browns averages 81.9 rushing yards per game (28th in the league in rushing offense), 228.2 passing yards per game, and -0.175 EPA per play (32nd in the league in offensive EPA/play). Offensive Eckel ROE from the model file sits at 34.57%. They have taken 3.88 sacks per game, which ranks 31st-most sacks taken.
+## When Cleveland Browns Have the Ball
+The Cleveland Browns offense has averaged 81.3 rushing yards per game (28th in the league in rushing offense), 185.4 passing yards per game (31st in the league in passing offense), and -0.177 EPA per play (31st in the league in offensive EPA/play). The model's Offensive Eckel ROE sits at 34.57%, which helps frame how often this unit is creating drive-extending or explosive outcomes.
+On the other side, the Jacksonville Jaguars defense is allowing 70.8 rushing yards per game (1st in the league in rush defense), 231.4 passing yards per game, and -0.080 EPA allowed per play (5th in the league in defensive EPA/play). Their Defensive Eckel ROE is 45.64%, giving context for how frequently opponents finish drives in high-value situations.
+For Cleveland Browns, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in.
 
-## Special teams
-Special teams: D.Hopkins is hitting 66.7% of field goals (31st among kickers with attempts); Cleveland Browns has 1 kick/punt return touchdown(s), tied for 4th.
-Special teams: C.Little is hitting 93.1% of field goals (5th among kickers with attempts); Jacksonville Jaguars has 1 kick/punt return touchdown(s), tied for 4th.
+## Special Teams X-Factors
+Special teams: C.Little has already connected from 60-plus yards; Jacksonville Jaguars has 2 kick/punt return touchdown(s), tied for 4th.
 
 ## Injury report
 **Cleveland Browns:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Jacksonville Jaguars:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## Model Prediction
+## ESPN debug
+- CLE injuries: `https://www.espn.com/nfl/team/injuries/_/name/cle` -> Injuries page fetched, but no injury table rows were parsed.
+- CLE depth: `https://www.espn.com/nfl/team/depth/_/name/cle` -> Depth chart page fetched, but no starters were parsed.
+- JAX injuries: `https://www.espn.com/nfl/team/injuries/_/name/jax` -> Injuries page fetched, but no injury table rows were parsed.
+- JAX depth: `https://www.espn.com/nfl/team/depth/_/name/jax` -> Depth chart page fetched, but no starters were parsed.
+
+## Prediction and Betting Lean
 The model gives the Cleveland Browns a 51.50% chance of covering +7.5 which at -110 odds is a -7.66% edge which does not meet our threshold of 4% to bet.  
 The model gives the Jacksonville Jaguars a 48.51% chance of covering -7.5 which at -105 odds is a -7.62% edge which does not meet our threshold of 4% to bet.
 
 Our model shows edges of at least 4% on 6 games this week. To view all of our predictions and bets for the week, go to btb-analytics.com/member-access today!
 
-## Notes
-- Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season.
+## Data Context
+Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season.

@@ -1,27 +1,40 @@
 # Miami Dolphins at Las Vegas Raiders
 
-## Matchup Info
-The Miami Dolphins (0-0) travel to face the Las Vegas Raiders (0-0) on 2026-09-13 at 04:25 PM ET Allegiant Stadium (Las Vegas Raiders). **Line:** LV -3.0 / MIA +3.0. **Best book:** LV -3.5 at BetMGM; MIA +3.5 at BetMGM.
+## Matchup Context
+The Miami Dolphins (0-0) travel to face the Las Vegas Raiders (0-0) on 2026-09-13 at 04:25 PM ET.  The game will be played at Allegiant Stadium (Las Vegas Raiders).The market opens this one with LV -3.0 / MIA +3.0, and the best current prices are LV -3.5 at BetMGM; MIA +3.5 at BetMGM.
+From a game-script standpoint, Las Vegas Raiders are being priced as the side expected to control most neutral possessions, while Miami Dolphins profile as the comeback script if this game gets volatile in the second half.
 
-_Eckel ROE (Rate Over Expected): how often an offense generates — or a defense allows — a big-play touchdown or a first down inside the 40 on any given drive, relative to the expected rate._
+_Eckel ROE (Rate Over Expected) measures how often an offense creates — or a defense allows — drive-extending outcomes versus expectation._
 
-## Las Vegas Raiders offense vs Miami Dolphins defense
-Las Vegas Raiders averages 73.7 rushing yards per game (32nd in the league in rushing offense), 242.2 passing yards per game (9th in the league in passing offense), and -0.131 EPA per play (31st in the league in offensive EPA/play). Offensive Eckel ROE from the model file sits at 34.72%.
-Miami Dolphins allows 95.9 rushing yards per game, 225.2 passing yards per game (9th in the league in pass defense), and -0.021 EPA allowed per play (8th in the league in defensive EPA/play). Defensive Eckel ROE from the model file sits at 52.21%.
+## When Las Vegas Raiders Have the Ball
+The Las Vegas Raiders offense has averaged 69.6 rushing yards per game (32nd in the league in rushing offense), 195.0 passing yards per game (26th in the league in passing offense), and -0.192 EPA per play (32nd in the league in offensive EPA/play). The model's Offensive Eckel ROE sits at 34.72%, which helps frame how often this unit is creating drive-extending or explosive outcomes. In pass protection, they have allowed 3.76 sacks per game, ranking 32nd-most sacks taken.
+On the other side, the Miami Dolphins defense is allowing 114.1 rushing yards per game (25th in the league in rush defense), 230.6 passing yards per game, and 0.086 EPA allowed per play (25th in the league in defensive EPA/play). Their Defensive Eckel ROE is 52.21%, giving context for how frequently opponents finish drives in high-value situations.
+If Las Vegas Raiders stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance.
 
-## Las Vegas Raiders defense vs Miami Dolphins offense
-Las Vegas Raiders allows 104.9 rushing yards per game, 234.6 passing yards per game, and 0.014 EPA allowed per play. Defensive Eckel ROE from the model file sits at 56.52%.
-Miami Dolphins averages 95.4 rushing yards per game, 237.4 passing yards per game, and -0.040 EPA per play. Offensive Eckel ROE from the model file sits at 49.28%.
+## When Miami Dolphins Have the Ball
+The Miami Dolphins offense has averaged 116.6 rushing yards per game (8th in the league in rushing offense), 195.4 passing yards per game (25th in the league in passing offense), and -0.022 EPA per play (25th in the league in offensive EPA/play). The model's Offensive Eckel ROE sits at 49.28%, which helps frame how often this unit is creating drive-extending or explosive outcomes.
+On the other side, the Las Vegas Raiders defense is allowing 108.0 rushing yards per game, 214.4 passing yards per game, and 0.028 EPA allowed per play. Their Defensive Eckel ROE is 56.52%, giving context for how frequently opponents finish drives in high-value situations.
+For Miami Dolphins, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in.
+
+## Special Teams X-Factors
+Special teams: R.Patterson is hitting 93.1% of field goals (4th among kickers with attempts).
+Special teams: D.Carlson has already connected from 60-plus yards.
 
 ## Injury report
 **Miami Dolphins:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Las Vegas Raiders:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## Model Prediction
+## ESPN debug
+- MIA injuries: `https://www.espn.com/nfl/team/injuries/_/name/mia` -> Injuries page fetched, but no injury table rows were parsed.
+- MIA depth: `https://www.espn.com/nfl/team/depth/_/name/mia` -> Depth chart page fetched, but no starters were parsed.
+- LV injuries: `https://www.espn.com/nfl/team/injuries/_/name/lv` -> Injuries page fetched, but no injury table rows were parsed.
+- LV depth: `https://www.espn.com/nfl/team/depth/_/name/lv` -> Depth chart page fetched, but no starters were parsed.
+
+## Prediction and Betting Lean
 The model gives the Las Vegas Raiders a 39.87% chance of covering -3.5 which at -110 odds is a -12.51% edge which does not meet our threshold of 4% to bet.  
 The model gives the Miami Dolphins a 60.11% chance of covering +3.5 which at -110 odds is a 1.08% edge which does not meet our threshold of 4% to bet.
 
 Our model shows edges of at least 4% on 6 games this week. To view all of our predictions and bets for the week, go to btb-analytics.com/member-access today!
 
-## Notes
-- Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season.
+## Data Context
+Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season.

@@ -1,31 +1,40 @@
 # New York Jets at Tennessee Titans
 
-## Matchup Info
-The New York Jets (0-0) travel to face the Tennessee Titans (0-0) on 2026-09-13 at 01:00 PM ET Nissan Stadium (Tennessee Titans). **Line:** TEN -2.5 / NYJ +2.5. **Best book:** TEN -2.5 at FanDuel; NYJ +3.0 at DraftKings.
+## Matchup Context
+The New York Jets (0-0) travel to face the Tennessee Titans (0-0) on 2026-09-13 at 01:00 PM ET.  The game will be played at Nissan Stadium (Tennessee Titans).The market opens this one with TEN -2.5 / NYJ +2.5, and the best current prices are TEN -2.5 at FanDuel; NYJ +3.0 at DraftKings.
+From a game-script standpoint, Tennessee Titans are being priced as the side expected to control most neutral possessions, while New York Jets profile as the comeback script if this game gets volatile in the second half.
 
-_Eckel ROE (Rate Over Expected): how often an offense generates — or a defense allows — a big-play touchdown or a first down inside the 40 on any given drive, relative to the expected rate._
+_Eckel ROE (Rate Over Expected) measures how often an offense creates — or a defense allows — drive-extending outcomes versus expectation._
 
-## Tennessee Titans offense vs New York Jets defense
-Tennessee Titans averages 95.6 rushing yards per game, 213.0 passing yards per game (25th in the league in passing offense), and -0.101 EPA per play (30th in the league in offensive EPA/play). Offensive Eckel ROE from the model file sits at 36.73%.
-New York Jets allows 106.4 rushing yards per game, 211.1 passing yards per game (5th in the league in pass defense), and 0.046 EPA allowed per play. Defensive Eckel ROE from the model file sits at 49.66%.
+## When Tennessee Titans Have the Ball
+The Tennessee Titans offense has averaged 85.2 rushing yards per game (27th in the league in rushing offense), 190.6 passing yards per game (29th in the league in passing offense), and -0.148 EPA per play (30th in the league in offensive EPA/play). The model's Offensive Eckel ROE sits at 36.73%, which helps frame how often this unit is creating drive-extending or explosive outcomes.
+On the other side, the New York Jets defense is allowing 121.5 rushing yards per game (29th in the league in rush defense), 226.4 passing yards per game, and 0.147 EPA allowed per play (30th in the league in defensive EPA/play). Their Defensive Eckel ROE is 49.66%, giving context for how frequently opponents finish drives in high-value situations. Up front, this defense is generating 1.53 sacks per game, which ranks 31st in sacks.
+If Tennessee Titans stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance.
 
-## Tennessee Titans defense vs New York Jets offense
-Tennessee Titans allows 116.9 rushing yards per game (24th in the league in rush defense), 189.2 passing yards per game (1st in the league in pass defense), and 0.050 EPA allowed per play (24th in the league in defensive EPA/play). Defensive Eckel ROE from the model file sits at 52.38%. Their defense is producing 1.88 sacks per game, which ranks 29th in sacks.
-New York Jets averages 85.2 rushing yards per game (27th in the league in rushing offense), 236.2 passing yards per game, and 0.001 EPA per play. Offensive Eckel ROE from the model file sits at 38.51%.
+## When New York Jets Have the Ball
+The New York Jets offense has averaged 98.5 rushing yards per game, 163.8 passing yards per game (32nd in the league in passing offense), and -0.124 EPA per play (29th in the league in offensive EPA/play). The model's Offensive Eckel ROE sits at 38.51%, which helps frame how often this unit is creating drive-extending or explosive outcomes. In pass protection, they have allowed 3.53 sacks per game, ranking 29th-most sacks taken.
+On the other side, the Tennessee Titans defense is allowing 97.9 rushing yards per game, 248.3 passing yards per game (26th in the league in pass defense), and 0.104 EPA allowed per play (28th in the league in defensive EPA/play). Their Defensive Eckel ROE is 52.38%, giving context for how frequently opponents finish drives in high-value situations.
+For New York Jets, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in.
 
-## Special teams
-Special teams: G.Zuerlein is hitting 60.0% of field goals (32nd among kickers with attempts); New York Jets has 1 kick/punt return touchdown(s), tied for 4th.
-Special teams: N.Folk is hitting 95.5% of field goals (1st among kickers with attempts).
+## Special Teams X-Factors
+Special teams: N.Folk is hitting 96.6% of field goals (1st among kickers with attempts); New York Jets has 4 kick/punt return touchdown(s), tied for 1st.
+Special teams: Tennessee Titans has 2 kick/punt return touchdown(s), tied for 4th.
 
 ## Injury report
 **New York Jets:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Tennessee Titans:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## Model Prediction
+## ESPN debug
+- NYJ injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyj` -> Injuries page fetched, but no injury table rows were parsed.
+- NYJ depth: `https://www.espn.com/nfl/team/depth/_/name/nyj` -> Depth chart page fetched, but no starters were parsed.
+- TEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/ten` -> Injuries page fetched, but no injury table rows were parsed.
+- TEN depth: `https://www.espn.com/nfl/team/depth/_/name/ten` -> Depth chart page fetched, but no starters were parsed.
+
+## Prediction and Betting Lean
 The model gives the New York Jets a 53.46% chance of covering +3.0 which at -105 odds is a 1.08% edge which does not meet our threshold of 4% to bet.  
 The model gives the Tennessee Titans a 46.53% chance of covering -2.5 which at -110 odds is a -5.85% edge which does not meet our threshold of 4% to bet.
 
 Our model shows edges of at least 4% on 6 games this week. To view all of our predictions and bets for the week, go to btb-analytics.com/member-access today!
 
-## Notes
-- Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season.
+## Data Context
+Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season.

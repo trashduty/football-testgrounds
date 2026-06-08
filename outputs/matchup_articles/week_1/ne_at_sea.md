@@ -1,31 +1,40 @@
 # New England Patriots at Seattle Seahawks
 
-## Matchup Info
-The New England Patriots (0-0) travel to face the Seattle Seahawks (0-0) on 2026-09-09 at 08:15 PM ET Lumen Field (Seattle Seahawks). **Line:** SEA -4.5 / NE +4.5. **Best book:** SEA -3.5 at DraftKings; NE +4.5 at BetMGM.
+## Matchup Context
+The New England Patriots (0-0) travel to face the Seattle Seahawks (0-0) on 2026-09-09 at 08:15 PM ET.  The game will be played at Lumen Field (Seattle Seahawks).The market opens this one with SEA -4.5 / NE +4.5, and the best current prices are SEA -3.5 at DraftKings; NE +4.5 at BetMGM.
+From a game-script standpoint, Seattle Seahawks are being priced as the side expected to control most neutral possessions, while New England Patriots profile as the comeback script if this game gets volatile in the second half.
 
-_Eckel ROE (Rate Over Expected): how often an offense generates — or a defense allows — a big-play touchdown or a first down inside the 40 on any given drive, relative to the expected rate._
+_Eckel ROE (Rate Over Expected) measures how often an offense creates — or a defense allows — drive-extending outcomes versus expectation._
 
-## Seattle Seahawks offense vs New England Patriots defense
-Seattle Seahawks averages 81.4 rushing yards per game (29th in the league in rushing offense), 257.6 passing yards per game (5th in the league in passing offense), and -0.016 EPA per play. Offensive Eckel ROE from the model file sits at 51.68%. They have taken 3.18 sacks per game, which ranks 29th-most sacks taken.
-New England Patriots allows 121.4 rushing yards per game (29th in the league in rush defense), 220.5 passing yards per game (6th in the league in pass defense), and 0.084 EPA allowed per play (30th in the league in defensive EPA/play). Defensive Eckel ROE from the model file sits at 44.20%. Their defense is producing 1.65 sacks per game, which ranks 32nd in sacks.
+## When Seattle Seahawks Have the Ball
+The Seattle Seahawks offense has averaged 119.1 rushing yards per game (6th in the league in rushing offense), 239.0 passing yards per game (9th in the league in passing offense), and 0.039 EPA per play. The model's Offensive Eckel ROE sits at 51.68%, which helps frame how often this unit is creating drive-extending or explosive outcomes. In pass protection, they have allowed 1.59 sacks per game, ranking 5th-fewest sacks taken.
+On the other side, the New England Patriots defense is allowing 90.5 rushing yards per game (8th in the league in rush defense), 206.6 passing yards per game (9th in the league in pass defense), and -0.041 EPA allowed per play. Their Defensive Eckel ROE is 44.20%, giving context for how frequently opponents finish drives in high-value situations.
+If Seattle Seahawks stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance.
 
-## Seattle Seahawks defense vs New England Patriots offense
-Seattle Seahawks allows 110.0 rushing yards per game, 231.2 passing yards per game, and -0.018 EPA allowed per play (10th in the league in defensive EPA/play). Defensive Eckel ROE from the model file sits at 42.76%.
-New England Patriots averages 87.7 rushing yards per game (25th in the league in rushing offense), 196.6 passing yards per game (32nd in the league in passing offense), and -0.079 EPA per play (27th in the league in offensive EPA/play). Offensive Eckel ROE from the model file sits at 56.30%.
+## When New England Patriots Have the Ball
+The New England Patriots offense has averaged 105.5 rushing yards per game, 262.3 passing yards per game (4th in the league in passing offense), and 0.157 EPA per play (1st in the league in offensive EPA/play). The model's Offensive Eckel ROE sits at 56.30%, which helps frame how often this unit is creating drive-extending or explosive outcomes.
+On the other side, the Seattle Seahawks defense is allowing 75.5 rushing yards per game (3rd in the league in rush defense), 212.9 passing yards per game, and -0.111 EPA allowed per play (1st in the league in defensive EPA/play). Their Defensive Eckel ROE is 42.76%, giving context for how frequently opponents finish drives in high-value situations.
+For New England Patriots, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in.
 
-## Special teams
-Special teams: J.Slye has already connected from 60-plus yards.
-Special teams: Seattle Seahawks has 1 kick/punt return touchdown(s), tied for 4th.
+## Special Teams X-Factors
+Special teams: New England Patriots has 3 kick/punt return touchdown(s), tied for 3rd.
+Special teams: Seattle Seahawks has 4 kick/punt return touchdown(s), tied for 1st.
 
 ## Injury report
 **New England Patriots:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Seattle Seahawks:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## Model Prediction
+## ESPN debug
+- NE injuries: `https://www.espn.com/nfl/team/injuries/_/name/ne` -> Injuries page fetched, but no injury table rows were parsed.
+- NE depth: `https://www.espn.com/nfl/team/depth/_/name/ne` -> Depth chart page fetched, but no starters were parsed.
+- SEA injuries: `https://www.espn.com/nfl/team/injuries/_/name/sea` -> Injuries page fetched, but no injury table rows were parsed.
+- SEA depth: `https://www.espn.com/nfl/team/depth/_/name/sea` -> Depth chart page fetched, but no starters were parsed.
+
+## Prediction and Betting Lean
 The model gives the New England Patriots a 61.92% chance of covering +4.5 which at -105 odds is a 6.87% edge which meets our threshold of 4% to bet.  
 The model gives the Seattle Seahawks a 42.08% chance of covering -3.5 which at -115 odds is a -15.00% edge which does not meet our threshold of 4% to bet.
 
 Our model shows edges of at least 4% on 6 games this week. To view all of our predictions and bets for the week, go to btb-analytics.com/member-access today!
 
-## Notes
-- Requested 2026 week 1 data was unavailable. Matchup stats fall back to the 2024 regular season.
+## Data Context
+Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season.
