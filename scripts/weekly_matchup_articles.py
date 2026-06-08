@@ -813,12 +813,12 @@ def format_line(value: object) -> str:
 def extract_team_logo(row: pd.Series) -> Optional[str]:
     """Return a logo URL from a spreads row when the CSV includes one.
 
-    Assumption: if spreads_odds.csv contains a logo column it will be named
-    one of: logo, team_logo, logo_url.  Column names are lower-cased during
-    load.  Returns None when no recognisable logo column is present or the
-    value is not an http URL.
+    Prefer `team_logo_espn` from spreads_odds.csv when present.
+    Falls back to legacy logo columns for compatibility.
+    Returns None when no recognisable logo column is present or the value is
+    not an http URL.
     """
-    for col in ("logo", "team_logo", "logo_url"):
+    for col in ("team_logo_espn", "logo", "team_logo", "logo_url"):
         val = row.get(col)
         if isinstance(val, str) and val.strip().lower().startswith("http"):
             return val.strip()
@@ -838,7 +838,7 @@ def build_model_prediction(game_rows: pd.DataFrame, edge_game_count: int, team_n
                     then model_cover_probability (from model CSV)
       line        → best_line (spreads CSV)
       price/odds  → best_price (spreads CSV, optional)
-      edge        → edge_numeric (model CSV, stored as decimal e.g. 0.04)
+      edge        → best_edge (spreads CSV), then edge_numeric (model CSV)
     """
     sentences: List[str] = []
     for _, row in game_rows.iterrows():
@@ -863,11 +863,13 @@ def build_model_prediction(game_rows: pd.DataFrame, edge_game_count: int, team_n
         else:
             price_str = None
 
-        # Edge — use signed display so negative edges are clearly identified
-        edge_numeric = row.get("edge_numeric")
+        # Edge — source from spreads best_edge when available.
+        edge_numeric = row.get("best_edge")
+        if edge_numeric is None or pd.isna(edge_numeric):
+            edge_numeric = row.get("edge_numeric")
         has_edge = edge_numeric is not None and not pd.isna(edge_numeric)
         if has_edge:
-            edge_f = float(edge_numeric)
+            edge_f = parse_percent(edge_numeric)
             edge_pct_str = f"{edge_f * 100:.2f}%"
             meets = edge_f >= 0.04
             threshold_phrase = (

@@ -262,6 +262,16 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
         row = pd.Series({"logo": "https://example.com/logo.png", "team": "ARI"})
         self.assertEqual(wma.extract_team_logo(row), "https://example.com/logo.png")
 
+    def test_extract_team_logo_prefers_team_logo_espn(self) -> None:
+        row = pd.Series(
+            {
+                "team_logo_espn": "https://a.espncdn.com/ari.png",
+                "logo": "https://example.com/fallback.png",
+                "team": "ARI",
+            }
+        )
+        self.assertEqual(wma.extract_team_logo(row), "https://a.espncdn.com/ari.png")
+
     def test_extract_team_logo_returns_none_when_absent(self) -> None:
         row = pd.Series({"team": "ARI"})
         self.assertIsNone(wma.extract_team_logo(row))
@@ -422,6 +432,23 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
         team_names = {"KC": "Kansas City Chiefs"}
         result = wma.build_model_prediction(game_rows, 2, team_names)
         self.assertIn("meets our threshold of 4% to bet", result)
+
+    def test_build_model_prediction_uses_best_edge_over_model_edge(self) -> None:
+        game_rows = pd.DataFrame([
+            {
+                "team": "ARI",
+                "model_cover_probability": 0.5577,
+                "best_cover_probability": 0.5577,
+                "best_line": 11.5,
+                "best_price": -110,
+                "best_edge": 0.0339,
+                "edge_numeric": -0.0418,
+            }
+        ])
+        team_names = {"ARI": "Arizona Cardinals"}
+        result = wma.build_model_prediction(game_rows, 1, team_names)
+        self.assertIn("3.39%", result)
+        self.assertNotIn("-4.18%", result)
 
     def test_build_model_prediction_best_cover_probability_takes_precedence(self) -> None:
         game_rows = pd.DataFrame([
