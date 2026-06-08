@@ -68,6 +68,11 @@ class TeamInjuryReport:
     team: str
     starters: List[StarterInjury] = field(default_factory=list)
     debug: List[EspnDebugEvent] = field(default_factory=list)
+    # Always-populated status that distinguishes outcome even without --espn-debug:
+    # "ok_starters_found" | "ok_no_injuries" | "no_slug" | "injury_fetch_failed"
+    # | "injury_parse_failed" | "depth_fetch_failed" | "depth_parse_failed"
+    # | "no_starter_match"
+    status: str = "ok_no_injuries"
 
 
 @dataclass
@@ -799,22 +804,104 @@ def build_weather_sentence(schedule_row: Optional[pd.Series], provenance: Dict[s
     )
 
 
-def build_model_edge_blurb(game_rows: pd.DataFrame, edge_game_count: int, total_games: int) -> str:
-    ordered = game_rows.sort_values("edge_numeric", ascending=False)
-    lead = ordered.iloc[0]
-    team = lead["team"]
-    if float(lead["edge_numeric"]) >= 0.04:
-        return (
-            f"The model shows edges of at least 4% in {edge_game_count} of {total_games} games this week. "
-            f"For this matchup it leans toward {team} with a {display_percent(lead['model_cover_probability'], 2)} "
-            f"cover probability and a {display_edge(lead['edge_numeric'])} edge."
-        )
-    return (
-        f"The model shows edges of at least 4% in {edge_game_count} of {total_games} games this week. "
-        f"This matchup does not clear that threshold, but {team} still owns the best local lean at "
-        f"{display_percent(lead['model_cover_probability'], 2)} cover probability and a "
-        f"{display_edge(lead['edge_numeric'])} edge."
+def format_line(value: object) -> str:
+    """Return a signed line string, e.g. '-3.5' or '+11.5'."""
+    if value is None or pd.isna(value):
+        return "N/A"
+    f = float(value)
+    return f"+{f:.1f}" if f > 0 else f"{f:.1f}"
+
+
+def extract_team_logo(row: pd.Series) -> Optional[str]:
+    """Return a logo URL from a spreads row when the CSV includes one.
+
+    Assumption: if spreads_odds.csv contains a logo column it will be named
+    one of: logo, team_logo, logo_url.  Column names are lower-cased during
+    load.  Returns None when no recognisable logo column is present or the
+    value is not an http URL.
+    """
+    for col in ("logo", "team_logo", "logo_url"):
+        val = row.get(col)
+        if isinstance(val, str) and val.strip().lower().startswith("http"):
+            return val.strip()
+    return None
+
+
+def build_model_prediction(game_rows: pd.DataFrame, edge_game_count: int, team_names: Dict[str, str]) -> str:
+    """Return the Model Prediction section body.
+
+    Opening sentences: one per team, formatted like –
+      "The model gives the Arizona Cardinals a 55.77% chance of covering +11.5
+       which at -110 odds is a 3.39% edge which does not meet our threshold of
+       4% to bet."
+
+    Columns consulted (in priority order):
+      cover prob  → best_cover_probability (from spreads CSV if present),
+                    then model_cover_probability (from model CSV)
+      line        → best_line (spreads CSV)
+      price/odds  → best_price (spreads CSV, optional)
+      edge        → edge_numeric (model CSV, stored as decimal e.g. 0.04)
+    """
+    sentences: List[str] = []
+    for _, row in game_rows.iterrows():
+        team_abbr = row.get("team", "")
+        team_name = team_names.get(str(team_abbr).upper(), str(team_abbr))
+
+        # Cover probability
+        cover_raw = row.get("best_cover_probability")
+        if cover_raw is None or pd.isna(cover_raw):
+            cover_raw = row.get("model_cover_probability")
+        cover_pct = display_percent(cover_raw, 2)
+
+        # Line
+        line_display = format_line(row.get("best_line"))
+
+        # Price / odds (American format, e.g. -110)
+        price_val = row.get("best_price")
+        has_price = price_val is not None and not pd.isna(price_val)
+        if has_price:
+            price_f = float(price_val)
+            price_str = f"{price_f:+.0f}" if price_f > 0 else f"{price_f:.0f}"
+        else:
+            price_str = None
+
+        # Edge — use signed display so negative edges are clearly identified
+        edge_numeric = row.get("edge_numeric")
+        has_edge = edge_numeric is not None and not pd.isna(edge_numeric)
+        if has_edge:
+            edge_f = float(edge_numeric)
+            edge_pct_str = f"{edge_f * 100:.2f}%"
+            meets = edge_f >= 0.04
+            threshold_phrase = (
+                "meets our threshold of 4% to bet"
+                if meets
+                else "does not meet our threshold of 4% to bet"
+            )
+        else:
+            edge_pct_str = "N/A"
+            threshold_phrase = "does not meet our threshold of 4% to bet"
+
+        if has_price and has_edge:
+            sentence = (
+                f"The model gives the {team_name} a {cover_pct} chance of covering {line_display} "
+                f"which at {price_str} odds is a {edge_pct_str} edge which {threshold_phrase}."
+            )
+        elif has_edge:
+            sentence = (
+                f"The model gives the {team_name} a {cover_pct} chance of covering {line_display}, "
+                f"representing a {edge_pct_str} edge which {threshold_phrase}."
+            )
+        else:
+            sentence = (
+                f"The model gives the {team_name} a {cover_pct} chance of covering {line_display}."
+            )
+        sentences.append(sentence)
+
+    cta = (
+        f"Our model shows edges of at least 4% on {edge_game_count} games this week. "
+        "To view all of our predictions and bets for the week, go to btb-analytics.com/member-access today!"
     )
+    return "  \n".join(sentences) + "\n\n" + cta
 
 
 def parse_table_headers(table: BeautifulSoup) -> List[str]:
@@ -880,7 +967,10 @@ def fetch_espn_starter_injuries(
     debug_enabled: bool,
 ) -> TeamInjuryReport:
     report = TeamInjuryReport(team=team)
+
+    # ── URL construction failure ──────────────────────────────────────────────
     if not slug:
+        report.status = "no_slug"
         if debug_enabled:
             report.debug.append(
                 EspnDebugEvent(
@@ -895,20 +985,26 @@ def fetch_espn_starter_injuries(
     injuries_url = f"https://www.espn.com/nfl/team/injuries/_/name/{slug}"
     depth_url = f"https://www.espn.com/nfl/team/depth/_/name/{slug}"
 
+    # ── Injury-page fetch / parse ─────────────────────────────────────────────
     try:
         injuries_html = session.get(injuries_url, timeout=REQUEST_TIMEOUT)
         injuries_html.raise_for_status()
         injury_rows = parse_injuries(injuries_html.text)
-        if not injury_rows and debug_enabled:
-            report.debug.append(
-                EspnDebugEvent(
-                    team=team,
-                    source="injuries",
-                    url=injuries_url,
-                    failure="Injuries page fetched, but no injury table rows were parsed.",
+        if not injury_rows:
+            # Fetched successfully but nothing parsed — log always so article
+            # can say "no injury rows parsed" rather than "no injuries".
+            report.status = "injury_parse_failed"
+            if debug_enabled:
+                report.debug.append(
+                    EspnDebugEvent(
+                        team=team,
+                        source="injuries",
+                        url=injuries_url,
+                        failure="Injuries page fetched, but no injury table rows were parsed.",
+                    )
                 )
-            )
     except Exception as exc:  # noqa: BLE001
+        report.status = "injury_fetch_failed"
         if debug_enabled:
             report.debug.append(
                 EspnDebugEvent(
@@ -920,20 +1016,24 @@ def fetch_espn_starter_injuries(
             )
         return report
 
+    # ── Depth-chart fetch / parse ─────────────────────────────────────────────
     try:
         depth_html = session.get(depth_url, timeout=REQUEST_TIMEOUT)
         depth_html.raise_for_status()
         starters = parse_depth_chart_starters(depth_html.text)
-        if not starters and debug_enabled:
-            report.debug.append(
-                EspnDebugEvent(
-                    team=team,
-                    source="depth",
-                    url=depth_url,
-                    failure="Depth chart page fetched, but no starters were parsed.",
+        if not starters:
+            report.status = "depth_parse_failed"
+            if debug_enabled:
+                report.debug.append(
+                    EspnDebugEvent(
+                        team=team,
+                        source="depth",
+                        url=depth_url,
+                        failure="Depth chart page fetched, but no starters were parsed.",
+                    )
                 )
-            )
     except Exception as exc:  # noqa: BLE001
+        report.status = "depth_fetch_failed"
         if debug_enabled:
             report.debug.append(
                 EspnDebugEvent(
@@ -945,12 +1045,18 @@ def fetch_espn_starter_injuries(
             )
         return report
 
+    # ── Cross-match injury list against depth-chart starters ─────────────────
     starter_keys = {normalize_name(name) for name in starters}
     report.starters = [
         injury
         for injury in injury_rows
         if normalize_name(injury.player) in starter_keys
     ]
+    if report.starters:
+        report.status = "ok_starters_found"
+    elif report.status not in ("injury_parse_failed", "depth_parse_failed"):
+        # Both pages parsed fine but no injures matched a starter
+        report.status = "no_starter_match"
     return report
 
 
@@ -995,7 +1101,6 @@ def build_article(
     provenance: Dict[str, str],
     injury_reports: Dict[str, TeamInjuryReport],
     edge_game_count: int,
-    total_games: int,
 ) -> Tuple[str, Dict[str, object]]:
     away_team, home_team = game.split("@")
     rows_by_team = {row["team"]: row for _, row in game_rows.iterrows()}
@@ -1019,9 +1124,26 @@ def build_article(
         if isinstance(stadium, str) and stadium.strip():
             location = f"{stadium} ({home_name})"
 
+    # ── Determine favorite / underdog from market_line ────────────────────────
+    # Most-negative market_line → favorite; most-positive → underdog.
     favorite_row = game_rows.sort_values("market_line").iloc[0]
     dog_row = game_rows.sort_values("market_line").iloc[-1]
+    favorite_team = favorite_row["team"]
+    dog_team = dog_row["team"]
+    favorite_name = team_names.get(favorite_team, favorite_team)
+    dog_name = team_names.get(dog_team, dog_team)
+    favorite_metrics = (
+        metrics_indexed.loc[favorite_team]
+        if favorite_team in metrics_indexed.index
+        else pd.Series()
+    )
+    dog_metrics = (
+        metrics_indexed.loc[dog_team]
+        if dog_team in metrics_indexed.index
+        else pd.Series()
+    )
 
+    # ── Line / book summaries ─────────────────────────────────────────────────
     lines_summary = (
         f"{favorite_row['team']} {format_float(favorite_row['market_line'])} / "
         f"{dog_row['team']} +{format_float(abs(dog_row['market_line']))}"
@@ -1033,33 +1155,86 @@ def build_article(
 
     weather_sentence = build_weather_sentence(schedule_row, provenance)
 
-    sections = [
+    # ── Logos ─────────────────────────────────────────────────────────────────
+    # Logo URLs are extracted from the spreads rows when the CSV includes a
+    # logo / team_logo / logo_url column.  If the column is absent or empty the
+    # logo lines are simply omitted.
+    away_logo = extract_team_logo(away_row)
+    home_logo = extract_team_logo(home_row)
+
+    # ── Article sections ──────────────────────────────────────────────────────
+    sections: List[str] = []
+
+    # Optional logo header (markdown image syntax)
+    if away_logo or home_logo:
+        logo_parts = []
+        if away_logo:
+            logo_parts.append(f"![{away_name}]({away_logo})")
+        if home_logo:
+            logo_parts.append(f"![{home_name}]({home_logo})")
+        sections.append("  ".join(logo_parts))
+        sections.append("")
+
+    sections.extend([
         f"# {away_name} at {home_name}",
         "",
-        "## Matchup info",
-        f"- Teams: {away_name} ({format_record(records.get(away_team))}) at {home_name} ({format_record(records.get(home_team))})",
-        f"- Kickoff: {kickoff_label} {time_label} ET",
-        f"- Location: {location}",
-        f"- Line context from `NFL_Odds/Data/spreads_odds.csv`: {lines_summary}",
-        f"- Best book from `NFL_Odds/Data/spreads_odds.csv`: {best_book_summary}",
-        "",
-        "## Statistical matchup",
-        f"- {build_offense_sentence(away_name, away_metrics, total_teams, away_row)}",
-        f"- {build_defense_sentence(home_name, home_metrics, total_teams, home_row)}",
-        f"- {build_offense_sentence(home_name, home_metrics, total_teams, home_row)}",
-        f"- {build_defense_sentence(away_name, away_metrics, total_teams, away_row)}",
-    ]
-
-    for team, team_name, row in [
-        (away_team, away_name, away_metrics),
-        (home_team, home_name, home_metrics),
-    ]:
-        special_teams_sentence = build_special_teams_sentence(team_name, row, total_teams)
-        if special_teams_sentence:
-            sections.append(f"- {special_teams_sentence}")
+        "## Matchup Info",
+        (
+            f"The {away_name} ({format_record(records.get(away_team))}) travel to face the "
+            f"{home_name} ({format_record(records.get(home_team))}) on {kickoff_label} at "
+            f"{time_label} ET {location}. "
+            f"**Line:** {lines_summary}. "
+            f"**Best book:** {best_book_summary}."
+        ),
+    ])
 
     if weather_sentence:
-        sections.append(f"- {weather_sentence}")
+        sections.append("")
+        sections.append(weather_sentence)
+
+    # ── Statistical matchup ───────────────────────────────────────────────────
+    # Eckel ROE definition — shown once, inline before the stat sections.
+    eckel_definition = (
+        "_Eckel ROE (Rate Over Expected): how often an offense generates — or a defense allows — "
+        "a big-play touchdown or a first down inside the 40 on any given drive, "
+        "relative to the expected rate._"
+    )
+
+    sections.extend([
+        "",
+        eckel_definition,
+        "",
+        f"## {favorite_name} offense vs {dog_name} defense",
+        build_offense_sentence(favorite_name, favorite_metrics, total_teams, favorite_row),
+        build_defense_sentence(dog_name, dog_metrics, total_teams, dog_row),
+        "",
+        f"## {favorite_name} defense vs {dog_name} offense",
+        build_defense_sentence(favorite_name, favorite_metrics, total_teams, favorite_row),
+        build_offense_sentence(dog_name, dog_metrics, total_teams, dog_row),
+    ])
+
+    # Special teams — only rendered when at least one team meets the criteria.
+    away_st = build_special_teams_sentence(away_name, away_metrics, total_teams)
+    home_st = build_special_teams_sentence(home_name, home_metrics, total_teams)
+    if away_st or home_st:
+        sections.append("")
+        sections.append("## Special teams")
+        if away_st:
+            sections.append(away_st)
+        if home_st:
+            sections.append(home_st)
+
+    # ── Injury report ─────────────────────────────────────────────────────────
+    _INJURY_STATUS_LABELS = {
+        "ok_starters_found": None,  # handled below via report.starters
+        "ok_no_injuries": "No starter injuries found on ESPN.",
+        "no_slug": "Injury data unavailable: team slug could not be resolved.",
+        "injury_fetch_failed": "Injury data unavailable: ESPN injuries page could not be fetched.",
+        "injury_parse_failed": "Injury data unavailable: ESPN injuries page fetched but no rows parsed.",
+        "depth_fetch_failed": "Depth-chart data unavailable: ESPN depth-chart page could not be fetched.",
+        "depth_parse_failed": "Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.",
+        "no_starter_match": "No starter injuries found after cross-matching the depth chart.",
+    }
 
     sections.extend(["", "## Injury report"])
     for team, team_name in [(away_team, away_name), (home_team, home_name)]:
@@ -1069,9 +1244,10 @@ def build_article(
                 f"{injury.player} ({injury.status or 'status unavailable'}: {injury.detail or 'detail unavailable'})"
                 for injury in report.starters
             ]
-            sections.append(f"- {team_name}: " + "; ".join(entries))
+            sections.append(f"**{team_name}:** " + "; ".join(entries) + ".")
         else:
-            sections.append(f"- {team_name}: No starter injuries identified from ESPN injury/depth-chart matching.")
+            label = _INJURY_STATUS_LABELS.get(report.status, f"Status unknown ({report.status}).")
+            sections.append(f"**{team_name}:** {label}")
 
     debug_events = [asdict(event) for report in injury_reports.values() for event in report.debug]
     if debug_events:
@@ -1081,18 +1257,15 @@ def build_article(
                 f"- {event['team']} {event['source']}: `{event['url']}` -> {event['failure']}"
             )
 
+    # ── Model Prediction ──────────────────────────────────────────────────────
     sections.extend(
         [
             "",
-            "## Model edge blurb",
-            build_model_edge_blurb(game_rows, edge_game_count, total_games),
+            "## Model Prediction",
+            build_model_prediction(game_rows, edge_game_count, team_names),
             "",
             "## Notes",
             f"- {stat_context.note}",
-            (
-                "- Offensive and defensive Eckel values are sourced from the weekly model CSV because "
-                "no local shared nflverse dictionary field currently names an Eckel metric."
-            ),
         ]
     )
 
@@ -1108,6 +1281,7 @@ def build_article(
         "stat_context": asdict(stat_context),
         "injury_reports": {
             team: {
+                "status": report.status,
                 "starters": [asdict(injury) for injury in report.starters],
                 "debug": [asdict(event) for event in report.debug],
             }
@@ -1177,7 +1351,6 @@ def main() -> None:
             provenance,
             injury_reports,
             games_with_edges,
-            game_count,
         )
         combined_articles.append(article.rstrip())
         article_payload["article_path"] = f"{slugify_game(game)}.md"
