@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-05T16:02:32.007694+00:00",
+  "generated_at_utc": "2026-06-08T02:35:59.021592+00:00",
   "season": 2026,
   "week": 1,
   "games_with_edges_at_or_above_0_04": 6,
@@ -29,10 +29,12 @@
       },
       "injury_reports": {
         "ARI": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "LAC": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -55,10 +57,12 @@
       },
       "injury_reports": {
         "ATL": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "PIT": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -81,10 +85,12 @@
       },
       "injury_reports": {
         "BAL": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "IND": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -107,10 +113,12 @@
       },
       "injury_reports": {
         "BUF": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "HOU": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -133,10 +141,12 @@
       },
       "injury_reports": {
         "CHI": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "CAR": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -159,10 +169,12 @@
       },
       "injury_reports": {
         "CLE": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "JAX": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -185,10 +197,12 @@
       },
       "injury_reports": {
         "DAL": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "NYG": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -211,10 +225,12 @@
       },
       "injury_reports": {
         "DEN": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "KC": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -237,10 +253,12 @@
       },
       "injury_reports": {
         "GB": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "MIN": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -263,10 +281,12 @@
       },
       "injury_reports": {
         "MIA": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "LV": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -289,10 +309,12 @@
       },
       "injury_reports": {
         "NE": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "SEA": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -315,10 +337,12 @@
       },
       "injury_reports": {
         "NO": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "DET": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -341,10 +365,12 @@
       },
       "injury_reports": {
         "NYJ": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "TEN": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -367,10 +393,12 @@
       },
       "injury_reports": {
         "SF": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "LA": {
+          "status": "injury_fetch_failed",
           "starters": [],
           "debug": []
         }
@@ -393,10 +421,12 @@
       },
       "injury_reports": {
         "TB": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         },
         "CIN": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
@@ -419,10 +449,12 @@
       },
       "injury_reports": {
         "WAS": {
+          "status": "injury_fetch_failed",
           "starters": [],
           "debug": []
         },
         "PHI": {
+          "status": "depth_parse_failed",
           "starters": [],
           "debug": []
         }
