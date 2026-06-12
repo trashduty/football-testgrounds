@@ -24,12 +24,6 @@ Special teams: J.Bates is tied for 2nd in blocked field goals.
 **New Orleans Saints:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Detroit Lions:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- NO injuries: `https://www.espn.com/nfl/team/injuries/_/name/no` -> Injuries page fetched, but no injury table rows were parsed.
-- NO depth: `https://www.espn.com/nfl/team/depth/_/name/no` -> Depth chart page fetched, but no starters were parsed.
-- DET injuries: `https://www.espn.com/nfl/team/injuries/_/name/det` -> Injuries page fetched, but no injury table rows were parsed.
-- DET depth: `https://www.espn.com/nfl/team/depth/_/name/det` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Detroit Lions a 48.51% chance of covering -7.5 which at -105 odds is a -0.52% edge which does not meet our threshold of 4% to bet.  
 The model gives the New Orleans Saints a 51.50% chance of covering +7.5 which at -120 odds is a -12.26% edge which does not meet our threshold of 4% to bet.

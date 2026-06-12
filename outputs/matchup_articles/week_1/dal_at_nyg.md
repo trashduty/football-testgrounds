@@ -23,12 +23,6 @@ Special teams: B.Aubrey has already connected from 60-plus yards.
 **Dallas Cowboys:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **New York Giants:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- DAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/dal` -> Injuries page fetched, but no injury table rows were parsed.
-- DAL depth: `https://www.espn.com/nfl/team/depth/_/name/dal` -> Depth chart page fetched, but no starters were parsed.
-- NYG injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyg` -> Injuries page fetched, but no injury table rows were parsed.
-- NYG depth: `https://www.espn.com/nfl/team/depth/_/name/nyg` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Dallas Cowboys a 51.50% chance of covering -2.5 which at -105 odds is a 7.54% edge which meets our threshold of 4% to bet.  
 The model gives the New York Giants a 48.50% chance of covering +2.5 which at -102 odds is a -12.31% edge which does not meet our threshold of 4% to bet.

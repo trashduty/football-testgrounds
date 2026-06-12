@@ -20,12 +20,6 @@ For Denver Broncos, the path to flipping the game is surviving the early possess
 **Denver Broncos:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Kansas City Chiefs:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- DEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/den` -> Injuries page fetched, but no injury table rows were parsed.
-- DEN depth: `https://www.espn.com/nfl/team/depth/_/name/den` -> Depth chart page fetched, but no starters were parsed.
-- KC injuries: `https://www.espn.com/nfl/team/injuries/_/name/kc` -> Injuries page fetched, but no injury table rows were parsed.
-- KC depth: `https://www.espn.com/nfl/team/depth/_/name/kc` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Denver Broncos a 41.76% chance of covering +2.5 which at +100 odds is a -12.31% edge which does not meet our threshold of 4% to bet.  
 The model gives the Kansas City Chiefs a 58.23% chance of covering -2.5 which at -110 odds is a 7.54% edge which meets our threshold of 4% to bet.

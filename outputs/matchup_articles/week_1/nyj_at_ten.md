@@ -24,12 +24,6 @@ Special teams: Tennessee Titans has 2 kick/punt return touchdown(s), tied for 4t
 **New York Jets:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Tennessee Titans:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- NYJ injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyj` -> Injuries page fetched, but no injury table rows were parsed.
-- NYJ depth: `https://www.espn.com/nfl/team/depth/_/name/nyj` -> Depth chart page fetched, but no starters were parsed.
-- TEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/ten` -> Injuries page fetched, but no injury table rows were parsed.
-- TEN depth: `https://www.espn.com/nfl/team/depth/_/name/ten` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the New York Jets a 53.46% chance of covering +3.0 which at -105 odds is a 1.08% edge which does not meet our threshold of 4% to bet.  
 The model gives the Tennessee Titans a 46.53% chance of covering -2.5 which at -110 odds is a -5.85% edge which does not meet our threshold of 4% to bet.

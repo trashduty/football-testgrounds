@@ -23,12 +23,6 @@ Special teams: S.Shrader is hitting 92.9% of field goals (5th among kickers with
 **Baltimore Ravens:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Indianapolis Colts:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- BAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/bal` -> Injuries page fetched, but no injury table rows were parsed.
-- BAL depth: `https://www.espn.com/nfl/team/depth/_/name/bal` -> Depth chart page fetched, but no starters were parsed.
-- IND injuries: `https://www.espn.com/nfl/team/injuries/_/name/ind` -> Injuries page fetched, but no injury table rows were parsed.
-- IND depth: `https://www.espn.com/nfl/team/depth/_/name/ind` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Baltimore Ravens a 55.91% chance of covering -3.5 which at -110 odds is a 0.47% edge which does not meet our threshold of 4% to bet.  
 The model gives the Indianapolis Colts a 44.02% chance of covering +3.5 which at -105 odds is a -8.36% edge which does not meet our threshold of 4% to bet.

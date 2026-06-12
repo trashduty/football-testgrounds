@@ -24,12 +24,6 @@ Special teams: D.Carlson has already connected from 60-plus yards.
 **Miami Dolphins:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Las Vegas Raiders:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- MIA injuries: `https://www.espn.com/nfl/team/injuries/_/name/mia` -> Injuries page fetched, but no injury table rows were parsed.
-- MIA depth: `https://www.espn.com/nfl/team/depth/_/name/mia` -> Depth chart page fetched, but no starters were parsed.
-- LV injuries: `https://www.espn.com/nfl/team/injuries/_/name/lv` -> Injuries page fetched, but no injury table rows were parsed.
-- LV depth: `https://www.espn.com/nfl/team/depth/_/name/lv` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Las Vegas Raiders a 39.87% chance of covering -3.5 which at -110 odds is a -12.51% edge which does not meet our threshold of 4% to bet.  
 The model gives the Miami Dolphins a 60.11% chance of covering +3.5 which at -110 odds is a 1.08% edge which does not meet our threshold of 4% to bet.

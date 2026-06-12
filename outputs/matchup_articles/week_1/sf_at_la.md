@@ -24,12 +24,6 @@ Special teams: J.Karty is hitting 66.7% of field goals (32nd among kickers with 
 **San Francisco 49ers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Los Angeles Rams:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- SF injuries: `https://www.espn.com/nfl/team/injuries/_/name/sf` -> Injuries page fetched, but no injury table rows were parsed.
-- SF depth: `https://www.espn.com/nfl/team/depth/_/name/sf` -> Depth chart page fetched, but no starters were parsed.
-- LA injuries: `https://www.espn.com/nfl/team/injuries/_/name/la` -> Injuries page fetched, but no injury table rows were parsed.
-- LA depth: `https://www.espn.com/nfl/team/depth/_/name/la` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Los Angeles Rams a 46.53% chance of covering -2.5 which at -110 odds is a -5.85% edge which does not meet our threshold of 4% to bet.  
 The model gives the San Francisco 49ers a 53.46% chance of covering +2.5 which at +100 odds is a 1.08% edge which does not meet our threshold of 4% to bet.

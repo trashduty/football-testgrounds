@@ -20,12 +20,6 @@ For Carolina Panthers, the path to flipping the game is surviving the early poss
 **Chicago Bears:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Carolina Panthers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- CHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/chi` -> Injuries page fetched, but no injury table rows were parsed.
-- CHI depth: `https://www.espn.com/nfl/team/depth/_/name/chi` -> Depth chart page fetched, but no starters were parsed.
-- CAR injuries: `https://www.espn.com/nfl/team/injuries/_/name/car` -> Injuries page fetched, but no injury table rows were parsed.
-- CAR depth: `https://www.espn.com/nfl/team/depth/_/name/car` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Carolina Panthers a 51.85% chance of covering +2.5 which at -105 odds is a -0.53% edge which does not meet our threshold of 4% to bet.  
 The model gives the Chicago Bears a 48.15% chance of covering -2.5 which at -110 odds is a -4.23% edge which does not meet our threshold of 4% to bet.

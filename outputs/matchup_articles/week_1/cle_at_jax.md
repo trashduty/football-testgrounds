@@ -23,12 +23,6 @@ Special teams: C.Little has already connected from 60-plus yards; Jacksonville J
 **Cleveland Browns:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Jacksonville Jaguars:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- CLE injuries: `https://www.espn.com/nfl/team/injuries/_/name/cle` -> Injuries page fetched, but no injury table rows were parsed.
-- CLE depth: `https://www.espn.com/nfl/team/depth/_/name/cle` -> Depth chart page fetched, but no starters were parsed.
-- JAX injuries: `https://www.espn.com/nfl/team/injuries/_/name/jax` -> Injuries page fetched, but no injury table rows were parsed.
-- JAX depth: `https://www.espn.com/nfl/team/depth/_/name/jax` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Cleveland Browns a 51.50% chance of covering +7.5 which at -110 odds is a -7.66% edge which does not meet our threshold of 4% to bet.  
 The model gives the Jacksonville Jaguars a 48.51% chance of covering -7.5 which at -105 odds is a -7.62% edge which does not meet our threshold of 4% to bet.

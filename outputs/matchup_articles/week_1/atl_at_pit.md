@@ -24,12 +24,6 @@ Special teams: C.Boswell has already connected from 60-plus yards.
 **Atlanta Falcons:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Pittsburgh Steelers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- ATL injuries: `https://www.espn.com/nfl/team/injuries/_/name/atl` -> Injuries page fetched, but no injury table rows were parsed.
-- ATL depth: `https://www.espn.com/nfl/team/depth/_/name/atl` -> Depth chart page fetched, but no starters were parsed.
-- PIT injuries: `https://www.espn.com/nfl/team/injuries/_/name/pit` -> Injuries page fetched, but no injury table rows were parsed.
-- PIT depth: `https://www.espn.com/nfl/team/depth/_/name/pit` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Atlanta Falcons a 38.99% chance of covering +3.0 which at +100 odds is a -13.39% edge which does not meet our threshold of 4% to bet.  
 The model gives the Pittsburgh Steelers a 60.99% chance of covering -2.5 which at -110 odds is a 8.61% edge which meets our threshold of 4% to bet.

@@ -23,12 +23,6 @@ Special teams: W.Reichard has already connected from 60-plus yards; W.Reichard i
 **Green Bay Packers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Minnesota Vikings:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- GB injuries: `https://www.espn.com/nfl/team/injuries/_/name/gb` -> Injuries page fetched, but no injury table rows were parsed.
-- GB depth: `https://www.espn.com/nfl/team/depth/_/name/gb` -> Depth chart page fetched, but no starters were parsed.
-- MIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/min` -> Injuries page fetched, but no injury table rows were parsed.
-- MIN depth: `https://www.espn.com/nfl/team/depth/_/name/min` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Green Bay Packers a 51.85% chance of covering -1.5 which at +100 odds is a -0.53% edge which does not meet our threshold of 4% to bet.  
 The model gives the Minnesota Vikings a 48.15% chance of covering +1.5 which at -108 odds is a -4.23% edge which does not meet our threshold of 4% to bet.

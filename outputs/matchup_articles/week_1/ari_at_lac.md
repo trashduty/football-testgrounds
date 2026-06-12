@@ -23,12 +23,6 @@ Special teams: C.Ryland is hitting 75.8% of field goals (28th among kickers with
 **Arizona Cardinals:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Los Angeles Chargers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- ARI injuries: `https://www.espn.com/nfl/team/injuries/_/name/ari` -> Injuries page fetched, but no injury table rows were parsed.
-- ARI depth: `https://www.espn.com/nfl/team/depth/_/name/ari` -> Depth chart page fetched, but no starters were parsed.
-- LAC injuries: `https://www.espn.com/nfl/team/injuries/_/name/lac` -> Injuries page fetched, but no injury table rows were parsed.
-- LAC depth: `https://www.espn.com/nfl/team/depth/_/name/lac` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Arizona Cardinals a 55.77% chance of covering +11.5 which at -110 odds is a -4.18% edge which does not meet our threshold of 4% to bet.  
 The model gives the Los Angeles Chargers a 57.88% chance of covering -9.5 which at -115 odds is a -0.59% edge which does not meet our threshold of 4% to bet.

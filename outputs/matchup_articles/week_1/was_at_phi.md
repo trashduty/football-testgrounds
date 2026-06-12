@@ -24,12 +24,6 @@ Special teams: J.Elliott is hitting 74.1% of field goals (29th among kickers wit
 **Washington Commanders:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Philadelphia Eagles:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- WAS injuries: `https://www.espn.com/nfl/team/injuries/_/name/was` -> Injuries page fetched, but no injury table rows were parsed.
-- WAS depth: `https://www.espn.com/nfl/team/depth/_/name/was` -> Depth chart page fetched, but no starters were parsed.
-- PHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/phi` -> Injuries page fetched, but no injury table rows were parsed.
-- PHI depth: `https://www.espn.com/nfl/team/depth/_/name/phi` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Philadelphia Eagles a 52.85% chance of covering -4.5 which at -105 odds is a 7.75% edge which meets our threshold of 4% to bet.  
 The model gives the Washington Commanders a 48.18% chance of covering +5.5 which at -110 odds is a -13.62% edge which does not meet our threshold of 4% to bet.

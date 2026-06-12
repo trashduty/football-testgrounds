@@ -24,12 +24,6 @@ Special teams: E.McPherson has already connected from 60-plus yards.
 **Tampa Bay Buccaneers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Cincinnati Bengals:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- TB injuries: `https://www.espn.com/nfl/team/injuries/_/name/tb` -> Injuries page fetched, but no injury table rows were parsed.
-- TB depth: `https://www.espn.com/nfl/team/depth/_/name/tb` -> Depth chart page fetched, but no starters were parsed.
-- CIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/cin` -> Injuries page fetched, but no injury table rows were parsed.
-- CIN depth: `https://www.espn.com/nfl/team/depth/_/name/cin` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Cincinnati Bengals a 42.08% chance of covering -3.5 which at -110 odds is a -11.65% edge which does not meet our threshold of 4% to bet.  
 The model gives the Tampa Bay Buccaneers a 57.90% chance of covering +3.5 which at -110 odds is a 6.87% edge which meets our threshold of 4% to bet.

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-08T03:18:22.617882+00:00",
+  "generated_at_utc": "2026-06-12T16:06:28.459943+00:00",
   "season": 2026,
   "week": 1,
   "games_with_edges_at_or_above_0_04": 6,
@@ -31,38 +31,12 @@
         "ARI": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "ARI",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/ari",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "ARI",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/ari",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "LAC": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "LAC",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/lac",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "LAC",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/lac",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "ari_at_lac.md"
@@ -85,38 +59,12 @@
         "ATL": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "ATL",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/atl",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "ATL",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/atl",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "PIT": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "PIT",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/pit",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "PIT",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/pit",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "atl_at_pit.md"
@@ -139,38 +87,12 @@
         "BAL": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "BAL",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/bal",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "BAL",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/bal",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "IND": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "IND",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/ind",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "IND",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/ind",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "bal_at_ind.md"
@@ -193,38 +115,12 @@
         "BUF": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "BUF",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/buf",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "BUF",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/buf",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "HOU": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "HOU",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/hou",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "HOU",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/hou",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "buf_at_hou.md"
@@ -247,38 +143,12 @@
         "CHI": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "CHI",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/chi",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "CHI",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/chi",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "CAR": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "CAR",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/car",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "CAR",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/car",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "chi_at_car.md"
@@ -301,38 +171,12 @@
         "CLE": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "CLE",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/cle",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "CLE",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/cle",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "JAX": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "JAX",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/jax",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "JAX",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/jax",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "cle_at_jax.md"
@@ -355,38 +199,12 @@
         "DAL": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "DAL",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/dal",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "DAL",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/dal",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "NYG": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "NYG",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/nyg",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "NYG",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/nyg",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "dal_at_nyg.md"
@@ -409,38 +227,12 @@
         "DEN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "DEN",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/den",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "DEN",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/den",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "KC": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "KC",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/kc",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "KC",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/kc",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "den_at_kc.md"
@@ -463,38 +255,12 @@
         "GB": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "GB",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/gb",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "GB",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/gb",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "MIN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "MIN",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/min",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "MIN",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/min",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "gb_at_min.md"
@@ -517,38 +283,12 @@
         "MIA": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "MIA",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/mia",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "MIA",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/mia",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "LV": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "LV",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/lv",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "LV",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/lv",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "mia_at_lv.md"
@@ -571,38 +311,12 @@
         "NE": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "NE",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/ne",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "NE",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/ne",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "SEA": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "SEA",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/sea",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "SEA",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/sea",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "ne_at_sea.md"
@@ -625,38 +339,12 @@
         "NO": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "NO",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/no",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "NO",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/no",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "DET": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "DET",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/det",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "DET",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/det",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "no_at_det.md"
@@ -679,38 +367,12 @@
         "NYJ": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "NYJ",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/nyj",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "NYJ",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/nyj",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "TEN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "TEN",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/ten",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "TEN",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/ten",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "nyj_at_ten.md"
@@ -733,38 +395,12 @@
         "SF": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "SF",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/sf",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "SF",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/sf",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "LA": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "LA",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/la",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "LA",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/la",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "sf_at_la.md"
@@ -787,38 +423,12 @@
         "TB": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "TB",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/tb",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "TB",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/tb",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "CIN": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "CIN",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/cin",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "CIN",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/cin",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "tb_at_cin.md"
@@ -841,38 +451,12 @@
         "WAS": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "WAS",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/was",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "WAS",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/was",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         },
         "PHI": {
           "status": "depth_parse_failed",
           "starters": [],
-          "debug": [
-            {
-              "team": "PHI",
-              "source": "injuries",
-              "url": "https://www.espn.com/nfl/team/injuries/_/name/phi",
-              "failure": "Injuries page fetched, but no injury table rows were parsed."
-            },
-            {
-              "team": "PHI",
-              "source": "depth",
-              "url": "https://www.espn.com/nfl/team/depth/_/name/phi",
-              "failure": "Depth chart page fetched, but no starters were parsed."
-            }
-          ]
+          "debug": []
         }
       },
       "article_path": "was_at_phi.md"

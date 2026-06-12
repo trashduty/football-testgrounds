@@ -23,12 +23,6 @@ Special teams: C.Ryland is hitting 75.8% of field goals (28th among kickers with
 **Arizona Cardinals:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Los Angeles Chargers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- ARI injuries: `https://www.espn.com/nfl/team/injuries/_/name/ari` -> Injuries page fetched, but no injury table rows were parsed.
-- ARI depth: `https://www.espn.com/nfl/team/depth/_/name/ari` -> Depth chart page fetched, but no starters were parsed.
-- LAC injuries: `https://www.espn.com/nfl/team/injuries/_/name/lac` -> Injuries page fetched, but no injury table rows were parsed.
-- LAC depth: `https://www.espn.com/nfl/team/depth/_/name/lac` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Arizona Cardinals a 55.77% chance of covering +11.5 which at -110 odds is a -4.18% edge which does not meet our threshold of 4% to bet.  
 The model gives the Los Angeles Chargers a 57.88% chance of covering -9.5 which at -115 odds is a -0.59% edge which does not meet our threshold of 4% to bet.
@@ -66,12 +60,6 @@ Special teams: C.Boswell has already connected from 60-plus yards.
 **Atlanta Falcons:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Pittsburgh Steelers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- ATL injuries: `https://www.espn.com/nfl/team/injuries/_/name/atl` -> Injuries page fetched, but no injury table rows were parsed.
-- ATL depth: `https://www.espn.com/nfl/team/depth/_/name/atl` -> Depth chart page fetched, but no starters were parsed.
-- PIT injuries: `https://www.espn.com/nfl/team/injuries/_/name/pit` -> Injuries page fetched, but no injury table rows were parsed.
-- PIT depth: `https://www.espn.com/nfl/team/depth/_/name/pit` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Atlanta Falcons a 38.99% chance of covering +3.0 which at +100 odds is a -13.39% edge which does not meet our threshold of 4% to bet.  
 The model gives the Pittsburgh Steelers a 60.99% chance of covering -2.5 which at -110 odds is a 8.61% edge which meets our threshold of 4% to bet.
@@ -108,12 +96,6 @@ Special teams: S.Shrader is hitting 92.9% of field goals (5th among kickers with
 **Baltimore Ravens:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Indianapolis Colts:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- BAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/bal` -> Injuries page fetched, but no injury table rows were parsed.
-- BAL depth: `https://www.espn.com/nfl/team/depth/_/name/bal` -> Depth chart page fetched, but no starters were parsed.
-- IND injuries: `https://www.espn.com/nfl/team/injuries/_/name/ind` -> Injuries page fetched, but no injury table rows were parsed.
-- IND depth: `https://www.espn.com/nfl/team/depth/_/name/ind` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Baltimore Ravens a 55.91% chance of covering -3.5 which at -110 odds is a 0.47% edge which does not meet our threshold of 4% to bet.  
 The model gives the Indianapolis Colts a 44.02% chance of covering +3.5 which at -105 odds is a -8.36% edge which does not meet our threshold of 4% to bet.
@@ -147,12 +129,6 @@ For Houston Texans, the path to flipping the game is surviving the early possess
 **Buffalo Bills:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Houston Texans:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- BUF injuries: `https://www.espn.com/nfl/team/injuries/_/name/buf` -> Injuries page fetched, but no injury table rows were parsed.
-- BUF depth: `https://www.espn.com/nfl/team/depth/_/name/buf` -> Depth chart page fetched, but no starters were parsed.
-- HOU injuries: `https://www.espn.com/nfl/team/injuries/_/name/hou` -> Injuries page fetched, but no injury table rows were parsed.
-- HOU depth: `https://www.espn.com/nfl/team/depth/_/name/hou` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Buffalo Bills a 51.85% chance of covering -1.5 which at +102 odds is a -0.53% edge which does not meet our threshold of 4% to bet.  
 The model gives the Houston Texans a 46.99% chance of covering +0.5 which at -110 odds is a -4.23% edge which does not meet our threshold of 4% to bet.
@@ -185,12 +161,6 @@ For Carolina Panthers, the path to flipping the game is surviving the early poss
 ## Injury report
 **Chicago Bears:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Carolina Panthers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
-
-## ESPN debug
-- CHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/chi` -> Injuries page fetched, but no injury table rows were parsed.
-- CHI depth: `https://www.espn.com/nfl/team/depth/_/name/chi` -> Depth chart page fetched, but no starters were parsed.
-- CAR injuries: `https://www.espn.com/nfl/team/injuries/_/name/car` -> Injuries page fetched, but no injury table rows were parsed.
-- CAR depth: `https://www.espn.com/nfl/team/depth/_/name/car` -> Depth chart page fetched, but no starters were parsed.
 
 ## Prediction and Betting Lean
 The model gives the Carolina Panthers a 51.85% chance of covering +2.5 which at -105 odds is a -0.53% edge which does not meet our threshold of 4% to bet.  
@@ -228,12 +198,6 @@ Special teams: C.Little has already connected from 60-plus yards; Jacksonville J
 **Cleveland Browns:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Jacksonville Jaguars:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- CLE injuries: `https://www.espn.com/nfl/team/injuries/_/name/cle` -> Injuries page fetched, but no injury table rows were parsed.
-- CLE depth: `https://www.espn.com/nfl/team/depth/_/name/cle` -> Depth chart page fetched, but no starters were parsed.
-- JAX injuries: `https://www.espn.com/nfl/team/injuries/_/name/jax` -> Injuries page fetched, but no injury table rows were parsed.
-- JAX depth: `https://www.espn.com/nfl/team/depth/_/name/jax` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Cleveland Browns a 51.50% chance of covering +7.5 which at -110 odds is a -7.66% edge which does not meet our threshold of 4% to bet.  
 The model gives the Jacksonville Jaguars a 48.51% chance of covering -7.5 which at -105 odds is a -7.62% edge which does not meet our threshold of 4% to bet.
@@ -270,12 +234,6 @@ Special teams: B.Aubrey has already connected from 60-plus yards.
 **Dallas Cowboys:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **New York Giants:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- DAL injuries: `https://www.espn.com/nfl/team/injuries/_/name/dal` -> Injuries page fetched, but no injury table rows were parsed.
-- DAL depth: `https://www.espn.com/nfl/team/depth/_/name/dal` -> Depth chart page fetched, but no starters were parsed.
-- NYG injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyg` -> Injuries page fetched, but no injury table rows were parsed.
-- NYG depth: `https://www.espn.com/nfl/team/depth/_/name/nyg` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Dallas Cowboys a 51.50% chance of covering -2.5 which at -105 odds is a 7.54% edge which meets our threshold of 4% to bet.  
 The model gives the New York Giants a 48.50% chance of covering +2.5 which at -102 odds is a -12.31% edge which does not meet our threshold of 4% to bet.
@@ -308,12 +266,6 @@ For Denver Broncos, the path to flipping the game is surviving the early possess
 ## Injury report
 **Denver Broncos:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Kansas City Chiefs:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
-
-## ESPN debug
-- DEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/den` -> Injuries page fetched, but no injury table rows were parsed.
-- DEN depth: `https://www.espn.com/nfl/team/depth/_/name/den` -> Depth chart page fetched, but no starters were parsed.
-- KC injuries: `https://www.espn.com/nfl/team/injuries/_/name/kc` -> Injuries page fetched, but no injury table rows were parsed.
-- KC depth: `https://www.espn.com/nfl/team/depth/_/name/kc` -> Depth chart page fetched, but no starters were parsed.
 
 ## Prediction and Betting Lean
 The model gives the Denver Broncos a 41.76% chance of covering +2.5 which at +100 odds is a -12.31% edge which does not meet our threshold of 4% to bet.  
@@ -350,12 +302,6 @@ Special teams: W.Reichard has already connected from 60-plus yards; W.Reichard i
 ## Injury report
 **Green Bay Packers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Minnesota Vikings:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
-
-## ESPN debug
-- GB injuries: `https://www.espn.com/nfl/team/injuries/_/name/gb` -> Injuries page fetched, but no injury table rows were parsed.
-- GB depth: `https://www.espn.com/nfl/team/depth/_/name/gb` -> Depth chart page fetched, but no starters were parsed.
-- MIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/min` -> Injuries page fetched, but no injury table rows were parsed.
-- MIN depth: `https://www.espn.com/nfl/team/depth/_/name/min` -> Depth chart page fetched, but no starters were parsed.
 
 ## Prediction and Betting Lean
 The model gives the Green Bay Packers a 51.85% chance of covering -1.5 which at +100 odds is a -0.53% edge which does not meet our threshold of 4% to bet.  
@@ -394,12 +340,6 @@ Special teams: D.Carlson has already connected from 60-plus yards.
 **Miami Dolphins:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Las Vegas Raiders:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- MIA injuries: `https://www.espn.com/nfl/team/injuries/_/name/mia` -> Injuries page fetched, but no injury table rows were parsed.
-- MIA depth: `https://www.espn.com/nfl/team/depth/_/name/mia` -> Depth chart page fetched, but no starters were parsed.
-- LV injuries: `https://www.espn.com/nfl/team/injuries/_/name/lv` -> Injuries page fetched, but no injury table rows were parsed.
-- LV depth: `https://www.espn.com/nfl/team/depth/_/name/lv` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Las Vegas Raiders a 39.87% chance of covering -3.5 which at -110 odds is a -12.51% edge which does not meet our threshold of 4% to bet.  
 The model gives the Miami Dolphins a 60.11% chance of covering +3.5 which at -110 odds is a 1.08% edge which does not meet our threshold of 4% to bet.
@@ -436,12 +376,6 @@ Special teams: Seattle Seahawks has 4 kick/punt return touchdown(s), tied for 1s
 ## Injury report
 **New England Patriots:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Seattle Seahawks:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
-
-## ESPN debug
-- NE injuries: `https://www.espn.com/nfl/team/injuries/_/name/ne` -> Injuries page fetched, but no injury table rows were parsed.
-- NE depth: `https://www.espn.com/nfl/team/depth/_/name/ne` -> Depth chart page fetched, but no starters were parsed.
-- SEA injuries: `https://www.espn.com/nfl/team/injuries/_/name/sea` -> Injuries page fetched, but no injury table rows were parsed.
-- SEA depth: `https://www.espn.com/nfl/team/depth/_/name/sea` -> Depth chart page fetched, but no starters were parsed.
 
 ## Prediction and Betting Lean
 The model gives the New England Patriots a 61.92% chance of covering +4.5 which at -105 odds is a 6.87% edge which meets our threshold of 4% to bet.  
@@ -480,12 +414,6 @@ Special teams: J.Bates is tied for 2nd in blocked field goals.
 **New Orleans Saints:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Detroit Lions:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- NO injuries: `https://www.espn.com/nfl/team/injuries/_/name/no` -> Injuries page fetched, but no injury table rows were parsed.
-- NO depth: `https://www.espn.com/nfl/team/depth/_/name/no` -> Depth chart page fetched, but no starters were parsed.
-- DET injuries: `https://www.espn.com/nfl/team/injuries/_/name/det` -> Injuries page fetched, but no injury table rows were parsed.
-- DET depth: `https://www.espn.com/nfl/team/depth/_/name/det` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Detroit Lions a 48.51% chance of covering -7.5 which at -105 odds is a -0.52% edge which does not meet our threshold of 4% to bet.  
 The model gives the New Orleans Saints a 51.50% chance of covering +7.5 which at -120 odds is a -12.26% edge which does not meet our threshold of 4% to bet.
@@ -522,12 +450,6 @@ Special teams: Tennessee Titans has 2 kick/punt return touchdown(s), tied for 4t
 ## Injury report
 **New York Jets:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Tennessee Titans:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
-
-## ESPN debug
-- NYJ injuries: `https://www.espn.com/nfl/team/injuries/_/name/nyj` -> Injuries page fetched, but no injury table rows were parsed.
-- NYJ depth: `https://www.espn.com/nfl/team/depth/_/name/nyj` -> Depth chart page fetched, but no starters were parsed.
-- TEN injuries: `https://www.espn.com/nfl/team/injuries/_/name/ten` -> Injuries page fetched, but no injury table rows were parsed.
-- TEN depth: `https://www.espn.com/nfl/team/depth/_/name/ten` -> Depth chart page fetched, but no starters were parsed.
 
 ## Prediction and Betting Lean
 The model gives the New York Jets a 53.46% chance of covering +3.0 which at -105 odds is a 1.08% edge which does not meet our threshold of 4% to bet.  
@@ -566,12 +488,6 @@ Special teams: J.Karty is hitting 66.7% of field goals (32nd among kickers with 
 **San Francisco 49ers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Los Angeles Rams:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- SF injuries: `https://www.espn.com/nfl/team/injuries/_/name/sf` -> Injuries page fetched, but no injury table rows were parsed.
-- SF depth: `https://www.espn.com/nfl/team/depth/_/name/sf` -> Depth chart page fetched, but no starters were parsed.
-- LA injuries: `https://www.espn.com/nfl/team/injuries/_/name/la` -> Injuries page fetched, but no injury table rows were parsed.
-- LA depth: `https://www.espn.com/nfl/team/depth/_/name/la` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Los Angeles Rams a 46.53% chance of covering -2.5 which at -110 odds is a -5.85% edge which does not meet our threshold of 4% to bet.  
 The model gives the San Francisco 49ers a 53.46% chance of covering +2.5 which at +100 odds is a 1.08% edge which does not meet our threshold of 4% to bet.
@@ -609,12 +525,6 @@ Special teams: E.McPherson has already connected from 60-plus yards.
 **Tampa Bay Buccaneers:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Cincinnati Bengals:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- TB injuries: `https://www.espn.com/nfl/team/injuries/_/name/tb` -> Injuries page fetched, but no injury table rows were parsed.
-- TB depth: `https://www.espn.com/nfl/team/depth/_/name/tb` -> Depth chart page fetched, but no starters were parsed.
-- CIN injuries: `https://www.espn.com/nfl/team/injuries/_/name/cin` -> Injuries page fetched, but no injury table rows were parsed.
-- CIN depth: `https://www.espn.com/nfl/team/depth/_/name/cin` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Cincinnati Bengals a 42.08% chance of covering -3.5 which at -110 odds is a -11.65% edge which does not meet our threshold of 4% to bet.  
 The model gives the Tampa Bay Buccaneers a 57.90% chance of covering +3.5 which at -110 odds is a 6.87% edge which meets our threshold of 4% to bet.
@@ -651,12 +561,6 @@ Special teams: J.Elliott is hitting 74.1% of field goals (29th among kickers wit
 ## Injury report
 **Washington Commanders:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Philadelphia Eagles:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
-
-## ESPN debug
-- WAS injuries: `https://www.espn.com/nfl/team/injuries/_/name/was` -> Injuries page fetched, but no injury table rows were parsed.
-- WAS depth: `https://www.espn.com/nfl/team/depth/_/name/was` -> Depth chart page fetched, but no starters were parsed.
-- PHI injuries: `https://www.espn.com/nfl/team/injuries/_/name/phi` -> Injuries page fetched, but no injury table rows were parsed.
-- PHI depth: `https://www.espn.com/nfl/team/depth/_/name/phi` -> Depth chart page fetched, but no starters were parsed.
 
 ## Prediction and Betting Lean
 The model gives the Philadelphia Eagles a 52.85% chance of covering -4.5 which at -105 odds is a 7.75% edge which meets our threshold of 4% to bet.  

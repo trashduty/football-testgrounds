@@ -20,12 +20,6 @@ For Houston Texans, the path to flipping the game is surviving the early possess
 **Buffalo Bills:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Houston Texans:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- BUF injuries: `https://www.espn.com/nfl/team/injuries/_/name/buf` -> Injuries page fetched, but no injury table rows were parsed.
-- BUF depth: `https://www.espn.com/nfl/team/depth/_/name/buf` -> Depth chart page fetched, but no starters were parsed.
-- HOU injuries: `https://www.espn.com/nfl/team/injuries/_/name/hou` -> Injuries page fetched, but no injury table rows were parsed.
-- HOU depth: `https://www.espn.com/nfl/team/depth/_/name/hou` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the Buffalo Bills a 51.85% chance of covering -1.5 which at +102 odds is a -0.53% edge which does not meet our threshold of 4% to bet.  
 The model gives the Houston Texans a 46.99% chance of covering +0.5 which at -110 odds is a -4.23% edge which does not meet our threshold of 4% to bet.

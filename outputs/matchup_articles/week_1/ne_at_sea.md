@@ -24,12 +24,6 @@ Special teams: Seattle Seahawks has 4 kick/punt return touchdown(s), tied for 1s
 **New England Patriots:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 **Seattle Seahawks:** Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.
 
-## ESPN debug
-- NE injuries: `https://www.espn.com/nfl/team/injuries/_/name/ne` -> Injuries page fetched, but no injury table rows were parsed.
-- NE depth: `https://www.espn.com/nfl/team/depth/_/name/ne` -> Depth chart page fetched, but no starters were parsed.
-- SEA injuries: `https://www.espn.com/nfl/team/injuries/_/name/sea` -> Injuries page fetched, but no injury table rows were parsed.
-- SEA depth: `https://www.espn.com/nfl/team/depth/_/name/sea` -> Depth chart page fetched, but no starters were parsed.
-
 ## Prediction and Betting Lean
 The model gives the New England Patriots a 61.92% chance of covering +4.5 which at -105 odds is a 6.87% edge which meets our threshold of 4% to bet.  
 The model gives the Seattle Seahawks a 42.08% chance of covering -3.5 which at -115 odds is a -15.00% edge which does not meet our threshold of 4% to bet.
