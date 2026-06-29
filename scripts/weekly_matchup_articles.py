@@ -655,20 +655,6 @@ def summarize_rank(
 
 
 def build_offense_sentence(team_name: str, row: pd.Series, total_teams: int, model_row: pd.Series) -> str:
-    rush_rank_note = summarize_rank(
-        row.get("off_rush_rank"),
-        total_teams,
-        top_n=TOP_10,
-        high_is_good=True,
-        noun="rushing offense",
-    )
-    pass_rank_note = summarize_rank(
-        row.get("off_pass_rank"),
-        total_teams,
-        top_n=TOP_10,
-        high_is_good=True,
-        noun="passing offense",
-    )
     epa_rank_note = summarize_rank(
         row.get("off_epa_rank"),
         total_teams,
@@ -676,22 +662,21 @@ def build_offense_sentence(team_name: str, row: pd.Series, total_teams: int, mod
         high_is_good=True,
         noun="offensive EPA/play",
     )
-
+    epa_value = row.get("off_epa_per_play")
     sentence = (
-        f"The {team_name} offense has averaged "
-        f"{format_float(row.get('off_rush_yards_pg'))} rushing yards per game"
-        + (f" ({rush_rank_note})" if rush_rank_note else "")
-        + f", {format_float(row.get('off_pass_yards_pg'))} passing yards per game"
-        + (f" ({pass_rank_note})" if pass_rank_note else "")
-        + f", and {format_float(row.get('off_epa_per_play'), 3)} EPA per play"
+        f"The {team_name} offense has been "
+        f"{'efficient' if pd.notna(epa_value) and float(epa_value) >= 0 else 'inconsistent'} "
+        f"with {format_float(epa_value, 3)} EPA per play"
         + (f" ({epa_rank_note})" if epa_rank_note else "")
-        + "."
+        + f", plus {format_float(row.get('off_rush_yards_pg'))} rushing and "
+        f"{format_float(row.get('off_pass_yards_pg'))} passing yards per game."
     )
     eckel = model_row.get("Offensive Eckel Rate Over Expected (%)")
-    sentence += (
-        f" The model's Offensive Eckel ROE sits at {display_percent(eckel, 2)}, "
-        "which helps frame how often this unit is creating drive-extending or explosive outcomes."
-    )
+    if pd.notna(eckel):
+        sentence += (
+            f" Offensive Eckel ROE is {display_percent(eckel, 2)} — a read on how often this offense "
+            "creates big-play touchdowns or first downs inside the 40 over expected."
+        )
     sacks_rank = row.get("off_sacks_rank")
     if pd.notna(sacks_rank) and (
         int(sacks_rank) <= TOP_5 or int(sacks_rank) > total_teams - TOP_5
@@ -706,20 +691,6 @@ def build_offense_sentence(team_name: str, row: pd.Series, total_teams: int, mod
 
 
 def build_defense_sentence(team_name: str, row: pd.Series, total_teams: int, model_row: pd.Series) -> str:
-    rush_rank_note = summarize_rank(
-        row.get("def_rush_rank"),
-        total_teams,
-        top_n=TOP_10,
-        high_is_good=False,
-        noun="rush defense",
-    )
-    pass_rank_note = summarize_rank(
-        row.get("def_pass_rank"),
-        total_teams,
-        top_n=TOP_10,
-        high_is_good=False,
-        noun="pass defense",
-    )
     epa_rank_note = summarize_rank(
         row.get("def_epa_rank"),
         total_teams,
@@ -727,21 +698,21 @@ def build_defense_sentence(team_name: str, row: pd.Series, total_teams: int, mod
         high_is_good=False,
         noun="defensive EPA/play",
     )
-
+    epa_allowed = row.get("def_epa_allowed")
     sentence = (
-        f"On the other side, the {team_name} defense is allowing "
-        f"{format_float(row.get('def_rush_yards_pg_allowed'))} rushing yards per game"
-        + (f" ({rush_rank_note})" if rush_rank_note else "")
-        + f", {format_float(row.get('def_pass_yards_pg_allowed'))} passing yards per game"
-        + (f" ({pass_rank_note})" if pass_rank_note else "")
-        + f", and {format_float(row.get('def_epa_allowed'), 3)} EPA allowed per play"
+        f"On defense, {team_name} has been "
+        f"{'stingy' if pd.notna(epa_allowed) and float(epa_allowed) <= 0 else 'attackable'} "
+        f"at {format_float(epa_allowed, 3)} EPA allowed per play"
         + (f" ({epa_rank_note})" if epa_rank_note else "")
-        + "."
+        + f", while giving up {format_float(row.get('def_rush_yards_pg_allowed'))} rushing and "
+        f"{format_float(row.get('def_pass_yards_pg_allowed'))} passing yards per game."
     )
     eckel = model_row.get("Defensive Eckel Rate Over Expected (%)")
-    sentence += (
-        f" Their Defensive Eckel ROE is {display_percent(eckel, 2)}, giving context for how frequently opponents finish drives in high-value situations."
-    )
+    if pd.notna(eckel):
+        sentence += (
+            f" Defensive Eckel ROE is {display_percent(eckel, 2)}, which indicates how often this unit "
+            "allows drive-extending explosive outcomes over expected."
+        )
     sacks_rank = row.get("def_sacks_rank")
     if pd.notna(sacks_rank) and (
         int(sacks_rank) <= TOP_5 or int(sacks_rank) > total_teams - TOP_5
@@ -823,6 +794,23 @@ def extract_team_logo(row: pd.Series) -> Optional[str]:
         if isinstance(val, str) and val.strip().lower().startswith("http"):
             return val.strip()
     return None
+
+
+def resolve_edge_numeric(row: pd.Series) -> Optional[float]:
+    edge_numeric = row.get("best_edge")
+    if edge_numeric is None or pd.isna(edge_numeric):
+        edge_numeric = row.get("edge_numeric")
+    if edge_numeric is None or pd.isna(edge_numeric):
+        return None
+    return float(parse_percent(edge_numeric))
+
+
+def edge_confidence_label(edge: Optional[float]) -> str:
+    if edge is None or edge < 0.04:
+        return "Pass"
+    if edge >= 0.07:
+        return "Strong"
+    return "Lean"
 
 
 def build_model_prediction(game_rows: pd.DataFrame, edge_game_count: int, team_names: Dict[str, str]) -> str:
@@ -1155,6 +1143,40 @@ def build_article(
 
     weather_sentence = build_weather_sentence(schedule_row, provenance)
 
+    favored_edge = resolve_edge_numeric(favorite_row)
+    dog_edge = resolve_edge_numeric(dog_row)
+    verdict_row = (
+        favorite_row
+        if favored_edge is not None and (dog_edge is None or favored_edge >= dog_edge)
+        else dog_row
+    )
+    verdict_edge = resolve_edge_numeric(verdict_row)
+    verdict_team = verdict_row["team"]
+    verdict_name = team_names.get(verdict_team, verdict_team)
+    verdict_line = format_line(verdict_row.get("best_line"))
+    verdict_confidence = edge_confidence_label(verdict_edge)
+    has_bet = verdict_edge is not None and verdict_edge >= 0.04
+    verdict_label = "Bet" if has_bet else "No Bet"
+    verdict_reason = (
+        f"{verdict_name} carries the largest model edge at {verdict_edge * 100:.2f}%."
+        if verdict_edge is not None
+        else "No clear model edge is available from the current market inputs."
+    )
+
+    epa_gap = float(favorite_metrics.get("off_epa_per_play", 0) - dog_metrics.get("def_epa_allowed", 0))
+    mismatch_points = [
+        (
+            f"{favorite_name} offense vs {dog_name} defense: "
+            f"{format_float(favorite_metrics.get('off_epa_per_play'), 3)} offensive EPA/play vs "
+            f"{format_float(dog_metrics.get('def_epa_allowed'), 3)} EPA/play allowed."
+        ),
+        (
+            f"{favorite_name} pass rush pressure setup: {favorite_name} averages "
+            f"{format_float(favorite_metrics.get('def_sacks_pg'), 2)} sacks per game while {dog_name} allows "
+            f"{format_float(dog_metrics.get('off_sacks_pg'), 2)}."
+        ),
+    ]
+
     # ── Logos ─────────────────────────────────────────────────────────────────
     # Logo URLs are extracted from the spreads rows when the CSV includes a
     # logo / team_logo / logo_url column.  If the column is absent or empty the
@@ -1175,23 +1197,46 @@ def build_article(
         sections.append("  ".join(logo_parts))
         sections.append("")
 
-    venue_sentence = f" The game will be played at {location}." if location else ""
-
-    sections.extend([
-        f"# {away_name} at {home_name}",
-        "",
-        "## Matchup Context",
-        (
-            f"The {away_name} ({format_record(records.get(away_team))}) travel to face the "
-            f"{home_name} ({format_record(records.get(home_team))}) on {kickoff_label} at {time_label} ET. "
-            f"{venue_sentence}"
-            f"The market opens this one with {lines_summary}, and the best current prices are {best_book_summary}."
-        ),
-        (
-            f"From a game-script standpoint, {favorite_name} are being priced as the side expected to control most neutral possessions, "
-            f"while {dog_name} profile as the comeback script if this game gets volatile in the second half."
-        ),
-    ])
+    title = (
+        f"# {away_name} at {home_name}: {verdict_name} {verdict_line} ({verdict_confidence})"
+        if has_bet
+        else f"# {away_name} at {home_name}: No clear betting edge"
+    )
+    sections.extend([title, "", "## Verdict"])
+    sections.append(f"- **Is there a bet?** {verdict_label}")
+    sections.append(f"- **Which side?** {verdict_name} {verdict_line}" if has_bet else "- **Which side?** None")
+    sections.append(f"- **Confidence:** {verdict_confidence}")
+    sections.append(f"- **Why:** {verdict_reason}")
+    sections.extend(
+        [
+            "",
+            "## The Why",
+            (
+                f"{favorite_name} enter as the market favorite, but this preview is model-led: "
+                f"{verdict_reason} EPA and pressure profiles suggest the likely game script leans "
+                f"toward {favorite_name if epa_gap >= 0 else dog_name}, while volatility risk stays live."
+            ),
+            "",
+            "## The Mismatch",
+            f"- {mismatch_points[0]}",
+            f"- {mismatch_points[1]}",
+            "",
+            "## The Number",
+            f"Current market line: {lines_summary}.",
+            f"Best available prices: {best_book_summary}.",
+            (
+                f"Line movement check: the favorite moved from {format_line(favorite_row.get('market_line'))} "
+                f"to {format_line(favorite_row.get('best_line'))}, while the underdog moved from "
+                f"{format_line(dog_row.get('market_line'))} to {format_line(dog_row.get('best_line'))}."
+            ),
+            "",
+            "## The Risk",
+            (
+                f"The risk to this read is game-state variance: if {dog_name} wins early-down efficiency or "
+                "creates short fields, the pregame edge can evaporate quickly."
+            ),
+        ]
+    )
 
     if weather_sentence:
         sections.append("")
@@ -1199,18 +1244,18 @@ def build_article(
 
     sections.extend([
         "",
-        "_Eckel ROE (Rate Over Expected) measures how often an offense creates — or a defense allows — drive-extending outcomes versus expectation._",
+        "_Eckel ROE (Rate Over Expected) tracks how often an offense creates, or a defense allows, big-play touchdowns or first downs inside the 40 over expected._",
         "",
-        f"## When {favorite_name} Have the Ball",
+        f"## {favorite_name} offense vs {dog_name} defense",
         build_offense_sentence(favorite_name, favorite_metrics, total_teams, favorite_row),
         build_defense_sentence(dog_name, dog_metrics, total_teams, dog_row),
         (
             f"If {favorite_name} stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance."
         ),
         "",
-        f"## When {dog_name} Have the Ball",
-        build_offense_sentence(dog_name, dog_metrics, total_teams, dog_row),
+        f"## {favorite_name} defense vs {dog_name} offense",
         build_defense_sentence(favorite_name, favorite_metrics, total_teams, favorite_row),
+        build_offense_sentence(dog_name, dog_metrics, total_teams, dog_row),
         (
             f"For {dog_name}, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in."
         ),
@@ -1221,25 +1266,14 @@ def build_article(
     home_st = build_special_teams_sentence(home_name, home_metrics, total_teams)
     if away_st or home_st:
         sections.append("")
-        sections.append("## Special Teams X-Factors")
+        sections.append("## Special teams")
         if away_st:
             sections.append(away_st)
         if home_st:
             sections.append(home_st)
 
     # ── Injury report ─────────────────────────────────────────────────────────
-    _INJURY_STATUS_LABELS = {
-        "ok_starters_found": None,  # handled below via report.starters
-        "ok_no_injuries": "No starter injuries found on ESPN.",
-        "no_slug": "Injury data unavailable: team slug could not be resolved.",
-        "injury_fetch_failed": "Injury data unavailable: ESPN injuries page could not be fetched.",
-        "injury_parse_failed": "Injury data unavailable: ESPN injuries page fetched but no rows parsed.",
-        "depth_fetch_failed": "Depth-chart data unavailable: ESPN depth-chart page could not be fetched.",
-        "depth_parse_failed": "Depth-chart data unavailable: ESPN depth-chart fetched but no starters parsed.",
-        "no_starter_match": "No starter injuries found after cross-matching the depth chart.",
-    }
-
-    sections.extend(["", "## Injury report"])
+    injury_lines: List[str] = []
     for team, team_name in [(away_team, away_name), (home_team, home_name)]:
         report = injury_reports[team]
         if report.starters:
@@ -1247,28 +1281,24 @@ def build_article(
                 f"{injury.player} ({injury.status or 'status unavailable'}: {injury.detail or 'detail unavailable'})"
                 for injury in report.starters
             ]
-            sections.append(f"**{team_name}:** " + "; ".join(entries) + ".")
-        else:
-            label = _INJURY_STATUS_LABELS.get(report.status, f"Status unknown ({report.status}).")
-            sections.append(f"**{team_name}:** {label}")
-
-    debug_events = [asdict(event) for report in injury_reports.values() for event in report.debug]
-    if debug_events:
-        sections.extend(["", "## ESPN debug"])
-        for event in debug_events:
-            sections.append(
-                f"- {event['team']} {event['source']}: `{event['url']}` -> {event['failure']}"
-            )
+            injury_lines.append(f"**{team_name}:** " + "; ".join(entries) + ".")
+    if injury_lines:
+        sections.extend(["", "## Injury report"])
+        sections.extend(injury_lines)
+    else:
+        sections.extend(["", "## Injury report", "No confirmed starter injuries are currently listed for either side."])
 
     # ── Model Prediction ──────────────────────────────────────────────────────
     sections.extend(
         [
             "",
-            "## Prediction and Betting Lean",
+            "## Model Prediction",
             build_model_prediction(game_rows, edge_game_count, team_names),
             "",
-            "## Data Context",
-            stat_context.note,
+            "## Why trust this preview",
+            "- Model edges are compared against market-implied probabilities with a 4% trigger for official bets.",
+            "- Matchup context uses nflverse team efficiency and pressure profiles to explain the number in plain English.",
+            "- Performance and methodology links can be swapped in here for your site-wide E-E-A-T references.",
         ]
     )
 

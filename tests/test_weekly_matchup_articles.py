@@ -276,7 +276,7 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
         row = pd.Series({"team": "ARI"})
         self.assertIsNone(wma.extract_team_logo(row))
 
-    def test_build_article_uses_longform_section_headers(self) -> None:
+    def test_build_article_uses_verdict_first_structure(self) -> None:
         game_rows = pd.DataFrame(
             [
                 {
@@ -372,12 +372,88 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
             edge_game_count=4,
         )
 
-        self.assertIn("## Matchup Context", article)
-        self.assertIn("## When Arizona Cardinals Have the Ball", article)
-        self.assertIn("## When Seattle Seahawks Have the Ball", article)
-        self.assertIn("## Prediction and Betting Lean", article)
-        self.assertIn("## Data Context", article)
-        self.assertNotIn("## Matchup Info", article)
+        self.assertIn("## Verdict", article)
+        self.assertIn("## The Why", article)
+        self.assertIn("## The Mismatch", article)
+        self.assertIn("## The Number", article)
+        self.assertIn("## The Risk", article)
+        self.assertIn("## Arizona Cardinals offense vs Seattle Seahawks defense", article)
+        self.assertIn("## Arizona Cardinals defense vs Seattle Seahawks offense", article)
+        self.assertIn("## Model Prediction", article)
+        self.assertIn("## Why trust this preview", article)
+        self.assertNotIn("## Data Context", article)
+        self.assertNotIn("## ESPN debug", article)
+
+    def test_build_article_hides_injury_fetch_plumbing_from_readers(self) -> None:
+        game_rows = pd.DataFrame(
+            [
+                {
+                    "team": "ARI",
+                    "game": "ARI@SEA",
+                    "game_date_est": pd.Timestamp("2026-09-10"),
+                    "game_time_est": "8:20",
+                    "market_line": -3.5,
+                    "best_line": -3.0,
+                    "best_book": "DraftKings",
+                    "best_cover_probability": 0.56,
+                    "model_cover_probability": 0.56,
+                    "best_price": -110,
+                    "edge_numeric": 0.05,
+                    "Offensive Eckel Rate Over Expected (%)": 2.0,
+                    "Defensive Eckel Rate Over Expected (%)": -1.0,
+                },
+                {
+                    "team": "SEA",
+                    "game": "ARI@SEA",
+                    "game_date_est": pd.Timestamp("2026-09-10"),
+                    "game_time_est": "8:20",
+                    "market_line": 3.5,
+                    "best_line": 3.0,
+                    "best_book": "FanDuel",
+                    "best_cover_probability": 0.44,
+                    "model_cover_probability": 0.44,
+                    "best_price": -110,
+                    "edge_numeric": -0.05,
+                    "Offensive Eckel Rate Over Expected (%)": -1.0,
+                    "Defensive Eckel Rate Over Expected (%)": 1.5,
+                },
+            ]
+        )
+        metrics = pd.DataFrame([{"team": "ARI"}, {"team": "SEA"}])
+        team_names = {"ARI": "Arizona Cardinals", "SEA": "Seattle Seahawks"}
+        injuries = {
+            "ARI": wma.TeamInjuryReport(
+                team="ARI",
+                status="depth_parse_failed",
+                debug=[
+                    wma.EspnDebugEvent(
+                        team="ARI",
+                        source="depth",
+                        url="https://www.espn.com/nfl/team/depth/_/name/ari",
+                        failure="Depth chart page fetched, but no starters were parsed.",
+                    )
+                ],
+            ),
+            "SEA": wma.TeamInjuryReport(team="SEA", status="no_starter_match"),
+        }
+        article, payload = wma.build_article(
+            "ARI@SEA",
+            game_rows,
+            metrics,
+            {},
+            team_names,
+            None,
+            wma.StatContext(season=2025, through_week=None, note="fallback note"),
+            {},
+            injuries,
+            edge_game_count=2,
+        )
+
+        self.assertIn("## Injury report", article)
+        self.assertIn("No confirmed starter injuries are currently listed for either side.", article)
+        self.assertNotIn("Depth-chart data unavailable", article)
+        self.assertNotIn("## ESPN debug", article)
+        self.assertIn("debug", payload["injury_reports"]["ARI"])
 
     def test_build_model_prediction_sentence_with_price(self) -> None:
         game_rows = pd.DataFrame([
