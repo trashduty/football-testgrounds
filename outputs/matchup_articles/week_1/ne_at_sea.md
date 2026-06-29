@@ -9,7 +9,7 @@
 - **Why:** New England Patriots carries the largest model edge at 10.70%.
 
 ## The Why
-Seattle Seahawks enters as the market favorite, but this preview is model-led: New England Patriots carries the largest model edge at 10.70%. EPA and pressure profiles suggest the likely game script leans toward Seattle Seahawks, while volatility risk stays live.
+Seattle Seahawks enter as the market favorite, but this preview is model-led: New England Patriots carries the largest model edge at 10.70%. EPA and pressure profiles suggest the likely game script leans toward Seattle Seahawks, while volatility risk stays live.
 
 ## The Mismatch
 - Seattle Seahawks offense vs New England Patriots defense: 0.039 offensive EPA/play vs -0.041 EPA/play allowed.
@@ -35,7 +35,7 @@ On defense, Seattle Seahawks has been stingy at -0.111 EPA allowed per play (1st
 The New England Patriots offense has been efficient with 0.157 EPA per play (1st in the league in offensive EPA/play), plus 105.5 rushing and 262.3 passing yards per game. Offensive Eckel ROE is 56.30% — a read on how often this offense creates big-play touchdowns or first downs inside the 40 over expected.
 For New England Patriots, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in.
 
-## Special Teams X-Factors
+## Special teams
 Special teams: New England Patriots has 3 kick/punt return touchdown(s), tied for 3rd.
 Special teams: Seattle Seahawks has 4 kick/punt return touchdown(s), tied for 1st.
 
