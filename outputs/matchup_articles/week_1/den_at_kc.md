@@ -1,50 +1,42 @@
 ![Denver Broncos](https://a.espncdn.com/i/teamlogos/nfl/500/den.png)  ![Kansas City Chiefs](https://a.espncdn.com/i/teamlogos/nfl/500/kc.png)
 
-# Denver Broncos at Kansas City Chiefs: Kansas City Chiefs -2.5 (Lean)
+# Kansas City Chiefs -2.5 vs. Denver Broncos: betting Kansas City Chiefs' defense
 
-## Verdict
-- **Is there a bet?** Bet
-- **Which side?** Kansas City Chiefs -2.5
-- **Confidence:** Lean
-- **Why:** Kansas City Chiefs carries the largest model edge at 5.85%.
+## The Bottom Line
+The number doing the work: our model projects **Kansas City Chiefs** a 5.0-point favorite, while the market sits at a 2.5-point favorite. That **2.5 points** of disagreement is the edge.
+That puts **Kansas City Chiefs -2.5** on the card at -110 — a lean, not a hammer.
 
-## The Why
-Kansas City Chiefs enter as the market favorite, but this preview is model-led: Kansas City Chiefs carries the largest model edge at 5.85%. EPA and pressure profiles suggest the likely game script leans toward Kansas City Chiefs, while volatility risk stays live.
+| | Model cover % | Edge | Call |
+|---|---|---|---|
+| **Kansas City Chiefs -2.5** | 58.2% | 5.85% | ✅ Lean |
+| Denver Broncos +2.5 | 41.8% | -8.24% | below 4% |
 
-## The Mismatch
-- Kansas City Chiefs offense vs Denver Broncos defense: 0.043 offensive EPA/play vs -0.060 EPA/play allowed.
-- Kansas City Chiefs pass rush pressure setup: Kansas City Chiefs averages 2.06 sacks per game while Denver Broncos allows 1.35.
+*Model assumes P. Mahomes (Kansas City Chiefs) and B. Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-## The Number
-Current market line: KC -2.5 / DEN +2.5.
-Best available prices: KC -2.5 at FanDuel; DEN +2.5 at DraftKings.
-Line movement check: the favorite moved from -2.5 to -2.5, while the underdog moved from +2.5 to +2.5.
+*Line: opened KC -2.5 / DEN +2.5. Best now: KC -2.5 at FanDuel; DEN +2.5 at DraftKings. The market hasn't moved off the open.*
+
+## Why the Pick
+Kansas City Chiefs' defense (above-average, 13th) should smother Denver Broncos' above-average offense (13th) — that gap is the spine of the number.
+It clears the bar without much room to spare — bet it, but size it like the lean it is.
 
 ## The Risk
-The risk to this read is game-state variance: if Denver Broncos wins early-down efficiency or creates short fields, the pregame edge can evaporate quickly.
+There's no obvious soft spot for Denver Broncos to attack; their 13th-ranked offense is the only lever. Realistically the risk is variance — short fields, a non-offensive score, or a late backdoor cover.
 
-_Eckel ROE (Rate Over Expected) tracks how often an offense creates, or a defense allows, big-play touchdowns or first downs inside the 40 over expected._
+## Quarterback X-Factor
+P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.
 
-## Kansas City Chiefs offense vs Denver Broncos defense
-The Kansas City Chiefs offense has been efficient with 0.043 EPA per play, plus 80.9 rushing and 232.2 passing yards per game. Offensive Eckel ROE is 56.49% — a read on how often this offense creates big-play touchdowns or first downs inside the 40 over expected.
-On defense, Denver Broncos has been stingy at -0.060 EPA allowed per play (8th in the league in defensive EPA/play), while giving up 76.6 rushing and 212.1 passing yards per game. Defensive Eckel ROE is 40.65%, which indicates how often this unit allows drive-extending explosive outcomes over expected. Up front, this defense is generating 4.00 sacks per game, which ranks 1st in sacks.
-If Kansas City Chiefs stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance.
+## Tale of the Tape
 
-## Kansas City Chiefs defense vs Denver Broncos offense
-On defense, Kansas City Chiefs has been stingy at -0.007 EPA allowed per play, while giving up 89.7 rushing and 205.1 passing yards per game. Defensive Eckel ROE is 44.36%, which indicates how often this unit allows drive-extending explosive outcomes over expected.
-The Denver Broncos offense has been efficient with 0.037 EPA per play, plus 101.7 rushing and 231.2 passing yards per game. Offensive Eckel ROE is 44.67% — a read on how often this offense creates big-play touchdowns or first downs inside the 40 over expected. In pass protection, they have allowed 1.35 sacks per game, ranking 1st-fewest sacks taken.
-For Denver Broncos, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in.
+| | Kansas City Chiefs | Denver Broncos |
+|---|---|---|
+| QB, last 10 (EPA rank) | P. Mahomes (1st) | B. Nix (13th) |
+| Offense (success rate) | 7th | 21st |
+| Defense (success rate) | 17th | 2nd |
+| Offensive Eckel ROE | 56.5% | 44.7% |
+| Pass offense | 16th | 17th |
+| Rush defense | 7th | 4th |
 
-## Injury report
-No confirmed starter injuries are currently listed for either side.
+---
+**6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-## Model Prediction
-The model gives the Denver Broncos a 41.76% chance of covering +2.5 which at +100 odds is a -8.24% edge which does not meet our threshold of 4% to bet.  
-The model gives the Kansas City Chiefs a 58.23% chance of covering -2.5 which at -110 odds is a 5.85% edge which meets our threshold of 4% to bet.
-
-Our model shows edges of at least 4% on 6 games this week. To view all of our predictions and bets for the week, go to btb-analytics.com/member-access today!
-
-## Why trust this preview
-- Model edges are compared against market-implied probabilities with a 4% trigger for official bets.
-- Matchup context uses nflverse team efficiency and pressure profiles to explain the number in plain English.
-- Performance and methodology links can be swapped in here for your site-wide E-E-A-T references.
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_

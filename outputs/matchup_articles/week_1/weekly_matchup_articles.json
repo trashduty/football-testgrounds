@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T03:44:28.182988+00:00",
+  "generated_at_utc": "2026-06-30T04:06:55.154122+00:00",
   "season": 2026,
   "week": 1,
   "games_with_edges_at_or_above_0_04": 6,
@@ -20,6 +20,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "04:25 PM",
       "location": "SoFi Stadium (Los Angeles Chargers)",
+      "bet_side": "Los Angeles Chargers -9.5",
+      "confidence": "Lean",
+      "has_bet": true,
+      "governing_storyline": "defense:overall",
       "line_summary": "LAC -10.5 / ARI +10.5",
       "best_book_summary": "LAC -9.5 at BetRivers; ARI +11.5 at DraftKings",
       "stat_context": {
@@ -30,13 +34,11 @@
       "injury_reports": {
         "ARI": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "LAC": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "ari_at_lac.md"
@@ -48,6 +50,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "Acrisure Stadium (Pittsburgh Steelers)",
+      "bet_side": "Pittsburgh Steelers -2.5",
+      "confidence": "Strong",
+      "has_bet": true,
+      "governing_storyline": "defense:overall",
       "line_summary": "PIT -2.5 / ATL +2.5",
       "best_book_summary": "PIT -2.5 at BetRivers; ATL +3.0 at DraftKings",
       "stat_context": {
@@ -58,13 +64,11 @@
       "injury_reports": {
         "ATL": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "PIT": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "atl_at_pit.md"
@@ -76,6 +80,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "Lucas Oil Stadium (Indianapolis Colts)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "offense:overall",
       "line_summary": "BAL -3.5 / IND +3.5",
       "best_book_summary": "BAL -3.5 at DraftKings; IND +3.5 at FanDuel",
       "stat_context": {
@@ -86,13 +94,11 @@
       "injury_reports": {
         "BAL": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "IND": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "bal_at_ind.md"
@@ -104,6 +110,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "Reliant Stadium (Houston Texans)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "defense:overall",
       "line_summary": "BUF -1.5 / HOU +1.5",
       "best_book_summary": "BUF -1.5 at DraftKings; HOU +0.5 at Fanatics",
       "stat_context": {
@@ -114,13 +124,11 @@
       "injury_reports": {
         "BUF": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "HOU": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "buf_at_hou.md"
@@ -132,6 +140,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "Bank of America Stadium (Carolina Panthers)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "offense:overall",
       "line_summary": "CHI -2.5 / CAR +2.5",
       "best_book_summary": "CHI -2.5 at DraftKings; CAR +2.5 at FanDuel",
       "stat_context": {
@@ -142,13 +154,11 @@
       "injury_reports": {
         "CHI": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "CAR": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "chi_at_car.md"
@@ -160,6 +170,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "EverBank Stadium (Jacksonville Jaguars)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "defense:overall",
       "line_summary": "JAX -7.0 / CLE +7.5",
       "best_book_summary": "JAX -7.5 at FanDuel; CLE +7.5 at BetMGM",
       "stat_context": {
@@ -170,13 +184,11 @@
       "injury_reports": {
         "CLE": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "JAX": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "cle_at_jax.md"
@@ -188,6 +200,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "08:20 PM",
       "location": "MetLife Stadium (New York Giants)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "offense:overall",
       "line_summary": "DAL -2.0 / NYG +2.5",
       "best_book_summary": "DAL -2.5 at DraftKings; NYG +2.5 at FanDuel",
       "stat_context": {
@@ -198,13 +214,11 @@
       "injury_reports": {
         "DAL": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "NYG": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "dal_at_nyg.md"
@@ -216,6 +230,10 @@
       "kickoff_date": "2026-09-14",
       "kickoff_time_et": "08:15 PM",
       "location": "GEHA Field at Arrowhead Stadium (Kansas City Chiefs)",
+      "bet_side": "Kansas City Chiefs -2.5",
+      "confidence": "Lean",
+      "has_bet": true,
+      "governing_storyline": "defense:overall",
       "line_summary": "KC -2.5 / DEN +2.5",
       "best_book_summary": "KC -2.5 at FanDuel; DEN +2.5 at DraftKings",
       "stat_context": {
@@ -226,13 +244,11 @@
       "injury_reports": {
         "DEN": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "KC": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "den_at_kc.md"
@@ -244,6 +260,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "04:25 PM",
       "location": "U.S. Bank Stadium (Minnesota Vikings)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "defense:overall",
       "line_summary": "GB -1.5 / MIN +1.5",
       "best_book_summary": "GB -1.5 at BetMGM; MIN +1.5 at FanDuel",
       "stat_context": {
@@ -254,13 +274,11 @@
       "injury_reports": {
         "GB": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "MIN": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "gb_at_min.md"
@@ -272,6 +290,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "04:25 PM",
       "location": "Allegiant Stadium (Las Vegas Raiders)",
+      "bet_side": "Miami Dolphins +3.5",
+      "confidence": "Strong",
+      "has_bet": true,
+      "governing_storyline": "defense:overall",
       "line_summary": "LV -3.0 / MIA +3.0",
       "best_book_summary": "LV -3.5 at BetMGM; MIA +3.5 at BetMGM",
       "stat_context": {
@@ -282,13 +304,11 @@
       "injury_reports": {
         "MIA": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "LV": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "mia_at_lv.md"
@@ -300,6 +320,10 @@
       "kickoff_date": "2026-09-09",
       "kickoff_time_et": "08:15 PM",
       "location": "Lumen Field (Seattle Seahawks)",
+      "bet_side": "New England Patriots +4.5",
+      "confidence": "Strong",
+      "has_bet": true,
+      "governing_storyline": "defense:overall",
       "line_summary": "SEA -4.5 / NE +4.5",
       "best_book_summary": "SEA -3.5 at DraftKings; NE +4.5 at BetMGM",
       "stat_context": {
@@ -310,13 +334,11 @@
       "injury_reports": {
         "NE": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "SEA": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "ne_at_sea.md"
@@ -328,6 +350,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "Ford Field (Detroit Lions)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "defense:overall",
       "line_summary": "DET -7.0 / NO +7.0",
       "best_book_summary": "DET -7.5 at BetRivers; NO +7.5 at BetRivers",
       "stat_context": {
@@ -338,13 +364,11 @@
       "injury_reports": {
         "NO": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "DET": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "no_at_det.md"
@@ -356,6 +380,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "Nissan Stadium (Tennessee Titans)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "defense:overall",
       "line_summary": "TEN -2.5 / NYJ +2.5",
       "best_book_summary": "TEN -2.5 at FanDuel; NYJ +3.0 at DraftKings",
       "stat_context": {
@@ -366,13 +394,11 @@
       "injury_reports": {
         "NYJ": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "TEN": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "nyj_at_ten.md"
@@ -384,6 +410,10 @@
       "kickoff_date": "2026-09-10",
       "kickoff_time_et": "08:35 PM",
       "location": "Melbourne Cricket Ground (Los Angeles Rams)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "offense:overall",
       "line_summary": "LA -2.5 / SF +2.5",
       "best_book_summary": "LA -2.5 at FanDuel; SF +2.5 at DraftKings",
       "stat_context": {
@@ -394,13 +424,11 @@
       "injury_reports": {
         "SF": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "LA": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "sf_at_la.md"
@@ -412,6 +440,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "01:00 PM",
       "location": "Paycor Stadium (Cincinnati Bengals)",
+      "bet_side": "Tampa Bay Buccaneers +3.5",
+      "confidence": "Lean",
+      "has_bet": true,
+      "governing_storyline": "offense:overall",
       "line_summary": "CIN -3.5 / TB +3.5",
       "best_book_summary": "CIN -3.5 at DraftKings; TB +3.5 at DraftKings",
       "stat_context": {
@@ -422,13 +454,11 @@
       "injury_reports": {
         "TB": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "CIN": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "tb_at_cin.md"
@@ -440,6 +470,10 @@
       "kickoff_date": "2026-09-13",
       "kickoff_time_et": "04:25 PM",
       "location": "Lincoln Financial Field (Philadelphia Eagles)",
+      "bet_side": null,
+      "confidence": "Pass",
+      "has_bet": false,
+      "governing_storyline": "offense:overall",
       "line_summary": "PHI -4.5 / WAS +4.5",
       "best_book_summary": "PHI -4.5 at FanDuel; WAS +5.5 at DraftKings",
       "stat_context": {
@@ -450,13 +484,11 @@
       "injury_reports": {
         "WAS": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         },
         "PHI": {
           "status": "depth_parse_failed",
-          "starters": [],
-          "debug": []
+          "starters": []
         }
       },
       "article_path": "was_at_phi.md"

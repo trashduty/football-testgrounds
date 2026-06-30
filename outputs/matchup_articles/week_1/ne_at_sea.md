@@ -1,54 +1,42 @@
 ![New England Patriots](https://a.espncdn.com/i/teamlogos/nfl/500/ne.png)  ![Seattle Seahawks](https://a.espncdn.com/i/teamlogos/nfl/500/sea.png)
 
-# New England Patriots at Seattle Seahawks: New England Patriots +4.5 (Strong)
+# New England Patriots +4.5 vs. Seattle Seahawks: betting New England Patriots' defense
 
-## Verdict
-- **Is there a bet?** Bet
-- **Which side?** New England Patriots +4.5
-- **Confidence:** Strong
-- **Why:** New England Patriots carries the largest model edge at 10.70%.
+## The Bottom Line
+The number doing the work: our model projects **New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
+That puts **New England Patriots +4.5** on the card at -105 — a confident play.
 
-## The Why
-Seattle Seahawks enter as the market favorite, but this preview is model-led: New England Patriots carries the largest model edge at 10.70%. EPA and pressure profiles suggest the likely game script leans toward Seattle Seahawks, while volatility risk stays live.
+| | Model cover % | Edge | Call |
+|---|---|---|---|
+| **New England Patriots +4.5** | 61.9% | 10.70% | ✅ Strong |
+| Seattle Seahawks -3.5 | 42.1% | -11.40% | below 4% |
 
-## The Mismatch
-- Seattle Seahawks offense vs New England Patriots defense: 0.039 offensive EPA/play vs -0.041 EPA/play allowed.
-- Seattle Seahawks pass rush pressure setup: Seattle Seahawks averages 2.76 sacks per game while New England Patriots allows 2.82.
+*Model assumes D. Maye (New England Patriots) and S. Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-## The Number
-Current market line: SEA -4.5 / NE +4.5.
-Best available prices: SEA -3.5 at DraftKings; NE +4.5 at BetMGM.
-Line movement check: the favorite moved from -4.5 to -3.5, while the underdog moved from +4.5 to +4.5.
+*Line: opened SEA -4.5 / NE +4.5. Best now: SEA -3.5 at DraftKings; NE +4.5 at BetMGM. The number has moved toward New England Patriots.*
+
+## Why the Pick
+New England Patriots' defense (elite, 3rd) should smother Seattle Seahawks' one of the league's better offense (9th) — that gap is the spine of the number.
 
 ## The Risk
-The risk to this read is game-state variance: if New England Patriots wins early-down efficiency or creates short fields, the pregame edge can evaporate quickly.
+Seattle Seahawks can lean on the run here — 6th rushing offense into New England Patriots' one of the league's better run defense (8th).
+That's the path that busts this ticket — watch for it early.
 
-_Eckel ROE (Rate Over Expected) tracks how often an offense creates, or a defense allows, big-play touchdowns or first downs inside the 40 over expected._
+## Quarterback X-Factor
+D. Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32) — a real tailwind for New England Patriots.
 
-## Seattle Seahawks offense vs New England Patriots defense
-The Seattle Seahawks offense has been efficient with 0.039 EPA per play, plus 119.1 rushing and 239.0 passing yards per game. Offensive Eckel ROE is 51.68% — a read on how often this offense creates big-play touchdowns or first downs inside the 40 over expected. In pass protection, they have allowed 1.59 sacks per game, ranking 5th-fewest sacks taken.
-On defense, New England Patriots has been stingy at -0.041 EPA allowed per play, while giving up 90.5 rushing and 206.6 passing yards per game. Defensive Eckel ROE is 44.20%, which indicates how often this unit allows drive-extending explosive outcomes over expected.
-If Seattle Seahawks stay on schedule early, this is the matchup phase where they can build separation before the script shifts into late-down variance.
+## Tale of the Tape
 
-## Seattle Seahawks defense vs New England Patriots offense
-On defense, Seattle Seahawks has been stingy at -0.111 EPA allowed per play (1st in the league in defensive EPA/play), while giving up 75.5 rushing and 212.9 passing yards per game. Defensive Eckel ROE is 42.76%, which indicates how often this unit allows drive-extending explosive outcomes over expected.
-The New England Patriots offense has been efficient with 0.157 EPA per play (1st in the league in offensive EPA/play), plus 105.5 rushing and 262.3 passing yards per game. Offensive Eckel ROE is 56.30% — a read on how often this offense creates big-play touchdowns or first downs inside the 40 over expected.
-For New England Patriots, the path to flipping the game is surviving the early possessions and then creating high-leverage drives once adjustments kick in.
+| | New England Patriots | Seattle Seahawks |
+|---|---|---|
+| QB, last 10 (EPA rank) | D. Maye (2nd) | S. Darnold (20th) |
+| Offense (success rate) | 10th | 8th |
+| Defense (success rate) | 19th | 4th |
+| Offensive Eckel ROE | 56.3% | 51.7% |
+| Pass offense | 4th | 9th |
+| Rush defense | 8th | 3rd |
 
-## Special teams
-Special teams: New England Patriots has 3 kick/punt return touchdown(s), tied for 3rd.
-Special teams: Seattle Seahawks has 4 kick/punt return touchdown(s), tied for 1st.
+---
+**6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-## Injury report
-No confirmed starter injuries are currently listed for either side.
-
-## Model Prediction
-The model gives the New England Patriots a 61.92% chance of covering +4.5 which at -105 odds is a 10.70% edge which meets our threshold of 4% to bet.  
-The model gives the Seattle Seahawks a 42.08% chance of covering -3.5 which at -115 odds is a -11.40% edge which does not meet our threshold of 4% to bet.
-
-Our model shows edges of at least 4% on 6 games this week. To view all of our predictions and bets for the week, go to btb-analytics.com/member-access today!
-
-## Why trust this preview
-- Model edges are compared against market-implied probabilities with a 4% trigger for official bets.
-- Matchup context uses nflverse team efficiency and pressure profiles to explain the number in plain English.
-- Performance and methodology links can be swapped in here for your site-wide E-E-A-T references.
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
