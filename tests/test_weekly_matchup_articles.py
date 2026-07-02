@@ -276,6 +276,109 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
         row = pd.Series({"team": "ARI"})
         self.assertIsNone(wma.extract_team_logo(row))
 
+    def test_build_article_matches_requested_matchup_format_updates(self) -> None:
+        game_rows = pd.DataFrame(
+            [
+                {
+                    "team": "ARI",
+                    "game": "ARI@LAC",
+                    "game_date_est": pd.Timestamp("2026-09-12"),
+                    "game_time_est": "4:05",
+                    "market_line": 11.0,
+                    "best_line": 11.5,
+                    "best_book": "DraftKings",
+                    "best_cover_probability": 0.558,
+                    "model_cover_probability": 0.558,
+                    "best_price": -110,
+                    "edge_numeric": 0.025,
+                    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+                },
+                {
+                    "team": "LAC",
+                    "game": "ARI@LAC",
+                    "game_date_est": pd.Timestamp("2026-09-12"),
+                    "game_time_est": "4:05",
+                    "market_line": -11.0,
+                    "best_line": -9.5,
+                    "best_book": "BetRivers",
+                    "best_cover_probability": 0.579,
+                    "model_cover_probability": 0.579,
+                    "best_price": -115,
+                    "edge_numeric": 0.044,
+                    "team_logo_espn": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+                },
+            ]
+        )
+        metrics = pd.DataFrame([{"team": "ARI"}, {"team": "LAC"}])
+        model_frame = pd.DataFrame(
+            [
+                {
+                    "Team": "ARI",
+                    "Offensive Expected Points (Season)": 0.10,
+                    "Defensive Expected Points (Season)": 0.20,
+                    "Offensive Success Rate (%)": 48.2,
+                    "Defensive Success Rate (%)": 42.1,
+                    "QB Expected Points Added (Last 10 games)": 0.02,
+                    "Offensive Eckel Rate Over Expected (%)": 50.0,
+                    "Defensive Eckel Rate Over Expected (%)": 45.5,
+                    "Qbname": "J.Brissett",
+                },
+                {
+                    "Team": "LAC",
+                    "Offensive Expected Points (Season)": 0.35,
+                    "Defensive Expected Points (Season)": -0.10,
+                    "Offensive Success Rate (%)": 52.4,
+                    "Defensive Success Rate (%)": 49.1,
+                    "QB Expected Points Added (Last 10 games)": 0.24,
+                    "Offensive Eckel Rate Over Expected (%)": 53.6,
+                    "Defensive Eckel Rate Over Expected (%)": 47.8,
+                    "Qbname": "J.Herbert",
+                },
+            ]
+        )
+        team_names = {"ARI": "Arizona Cardinals", "LAC": "Los Angeles Chargers"}
+        injuries = {
+            "ARI": wma.TeamInjuryReport(team="ARI", status="ok_no_injuries"),
+            "LAC": wma.TeamInjuryReport(team="LAC", status="ok_no_injuries"),
+        }
+        article, _ = wma.build_article(
+            "ARI@LAC",
+            game_rows,
+            metrics,
+            {},
+            team_names,
+            pd.Series({"stadium": "SoFi Stadium"}),
+            wma.StatContext(season=2026, through_week=1, note="test"),
+            {},
+            injuries,
+            edge_game_count=6,
+            model_ranks_df=wma.model_ranks(model_frame),
+        )
+
+        self.assertLess(
+            article.index("# Arizona Cardinals vs Los Angeles Chargers Prediction For 2026-09-12"),
+            article.index("![Arizona Cardinals]"),
+        )
+        self.assertIn("![Arizona Cardinals](https://a.espncdn.com/i/teamlogos/nfl/500/ari.png)  vs  ![Los Angeles Chargers](https://a.espncdn.com/i/teamlogos/nfl/500/lac.png)", article)
+        self.assertIn("| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |", article)
+        self.assertIn("| Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | 2.50% | Lean – doesn’t meet our edge criteria to fully bet |", article)
+        self.assertIn("| Los Angeles Chargers | -9.5 (-115) | BetRivers | 57.9% | 4.40% | Bet |", article)
+        self.assertLess(article.index("| Team name |"), article.index("## The Bottom Line"))
+        self.assertIn("## The Bottom Line\nArizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and", article)
+        self.assertIn(
+            "Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories",
+            article,
+        )
+        self.assertNotIn("## Tale of the Tape", article)
+        self.assertIn("| Offensive Eckel Rate Over Expected* |", article)
+        self.assertIn("| Defensive Eckel Rate Over Expected |", article)
+        self.assertIn(
+            "*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*",
+            article,
+        )
+        self.assertNotIn("## The Risk", article)
+        self.assertIn("## Best Bets Of The Week", article)
+
     def test_build_article_uses_verdict_first_structure(self) -> None:
         game_rows = pd.DataFrame(
             [
