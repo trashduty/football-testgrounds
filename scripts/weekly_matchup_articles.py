@@ -702,6 +702,14 @@ def edge_confidence_label(edge: Optional[float]) -> str:
     return "Lean"
 
 
+def matchup_call_label(edge: Optional[float]) -> str:
+    if edge is None or edge < 0.01:
+        return "No Bet"
+    if edge < 0.04:
+        return "Lean – doesn’t meet our edge criteria to fully bet"
+    return "Bet"
+
+
 
 
 def parse_table_headers(table: BeautifulSoup) -> List[str]:
@@ -1277,27 +1285,32 @@ def _side_facts(row: pd.Series) -> Dict[str, object]:
 
 
 def build_bottom_line(
-    bet_name, bet_line, confidence, bet_facts, opp_name, opp_line, opp_facts,
+    away_name, home_name, stadium_name, bet_name, bet_line, confidence, bet_facts,
     seed, has_bet, model_lead=None,
 ) -> List[str]:
-    """Human paragraph + a scannable two-row table. Replaces the Q&A 'Verdict'.
+    """Human paragraph only. Replaces the Q&A 'Verdict'.
     `model_lead` (model-line-vs-market sentence) leads when available."""
     out: List[str] = ["## The Bottom Line"]
+    venue = stadium_name or f"{home_name}'s home stadium"
+    opener = f"{away_name} takes on {home_name} at {venue} and "
     if has_bet:
         hammer = (
             "a lean, not a hammer" if confidence == "Lean"
             else "a confident play" if confidence == "Strong" else "a lean"
         )
         if model_lead:
-            out.append(model_lead)
+            out.append(
+                f"{opener}{model_lead[:1].lower() + model_lead[1:]}"
+            )
             out.append(
                 f"That puts **{bet_name} {bet_line}** on the card at "
                 f"{_price(bet_facts['price'])} — {hammer}."
             )
         else:
             out.append(
-                _pick(
-                    [f"The play is **{bet_name} {bet_line}**. At "
+                f"{opener}"
+                + _pick(
+                    [f"the play is **{bet_name} {bet_line}**. At "
                      f"{display_percent(bet_facts['cover'], 1)} to cover, the price "
                      f"({_price(bet_facts['price'])}) leaves a "
                      f"{display_edge(bet_facts['edge'])} edge on the table. Treat it as "
@@ -1307,22 +1320,10 @@ def build_bottom_line(
             )
     else:
         out.append(
-            f"**No play here.** Neither side clears our 4% edge bar, so we're passing "
+            f"{opener}we have **no play here**. Neither side clears our 4% edge bar, so we're passing "
             f"— and that discipline is the point. The closest look is {bet_name} "
             f"{bet_line} at {display_edge(bet_facts['edge'])}, still short of the trigger."
         )
-    out.append("")
-    out.append("| | Model cover % | Edge | Call |")
-    out.append("|---|---|---|---|")
-    call_bet = "✅ " + confidence if has_bet else "below 4%"
-    out.append(
-        f"| **{bet_name} {bet_line}** | {display_percent(bet_facts['cover'], 1)} "
-        f"| {display_edge(bet_facts['edge'])} | {call_bet} |"
-    )
-    out.append(
-        f"| {opp_name} {opp_line} | {display_percent(opp_facts['cover'], 1)} "
-        f"| {display_edge(opp_facts['edge'])} | below 4% |"
-    )
     return out
 
 
@@ -1344,12 +1345,11 @@ def build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams) -> List[st
         return name or "—"
 
     rows = [
-        ("QB, last 10 (EPA rank)", lambda mm: cell_qb(mm)),
-        ("Offense (success rate)", lambda mm: cell_rank(mm, "off_sr_rank")),
-        ("Defense (success rate)", lambda mm: cell_rank(mm, "def_sr_rank")),
-        ("Offensive Eckel ROE", lambda mm: cell_pct(mm, "off_eckel")),
-        ("Pass offense", lambda mm: cell_rank(mm, "off_pass_rank")),
-        ("Rush defense", lambda mm: cell_rank(mm, "def_rush_rank")),
+        ("QB Efficiency (Last 10 Games)", lambda mm: cell_qb(mm)),
+        ("Offensive Success Rate", lambda mm: cell_rank(mm, "off_sr_rank")),
+        ("Defensive Success Rate", lambda mm: cell_rank(mm, "def_sr_rank")),
+        ("Offensive Eckel Rate Over Expected*", lambda mm: cell_pct(mm, "off_eckel")),
+        ("Defensive Eckel Rate Over Expected", lambda mm: cell_pct(mm, "def_eckel")),
     ]
     body = []
     for label, fn in rows:
@@ -1359,10 +1359,7 @@ def build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams) -> List[st
         body.append(f"| {label} | {bcell} | {ocell} |")
     if not body:
         return []
-    return (
-        ["## Tale of the Tape", "", f"| | {bet_name} | {opp_name} |", "|---|---|---|"]
-        + body
-    )
+    return [f"| | {bet_name} | {opp_name} |", "|---|---|---|"] + body
 
 
 def _price(value: object) -> str:
@@ -1384,7 +1381,8 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
             f"threshold this week.** See every one of them, live,"
         )
     return [
-        "---",
+        "## Best Bets Of The Week",
+        "",
         f"{hook} in the member dashboard → "
         "[btb-analytics.com/member-access](https://btb-analytics.com/member-access)",
         "",
@@ -1428,10 +1426,12 @@ def build_article(
     kickoff_label = kickoff.strftime("%Y-%m-%d") if pd.notna(kickoff) else "N/A"
     time_label = away_row.get("game_time_est", "N/A")
     location = None
+    stadium_name = None
     if schedule_row is not None:
         stadium = schedule_row.get("stadium")
         if isinstance(stadium, str) and stadium.strip():
-            location = f"{stadium} ({home_name})"
+            stadium_name = stadium.strip()
+            location = stadium_name
 
     # favorite / underdog by market line (most negative == favorite)
     favorite_row = game_rows.sort_values("market_line").iloc[0]
@@ -1455,11 +1455,10 @@ def build_article(
     bet_name = team_names.get(bet_team, bet_team)
     opp_name = team_names.get(opp_team, opp_team)
     bet_line = format_line(verdict_row.get("best_line"))
-    opp_line = format_line(other_row.get("best_line"))
     bet_m, opp_m = m(bet_team), m(opp_team)
     seed = game  # stable per-matchup seed for phrasing rotation
 
-    support, risk = pick_support_and_risk(bet_name, bet_m, opp_name, opp_m, total_teams)
+    support, _risk = pick_support_and_risk(bet_name, bet_m, opp_name, opp_m, total_teams)
 
     lines_summary = (
         f"{favorite_row['team']} {format_float(favorite_row['market_line'])} / "
@@ -1474,30 +1473,45 @@ def build_article(
     # ── Assemble ──────────────────────────────────────────────────────────────
     sections: List[str] = []
 
-    away_logo, home_logo = extract_team_logo(away_row), extract_team_logo(home_row)
-    if away_logo or home_logo:
-        parts = []
-        if away_logo:
-            parts.append(f"![{away_name}]({away_logo})")
-        if home_logo:
-            parts.append(f"![{home_name}]({home_logo})")
-        sections.extend(["  ".join(parts), ""])
-
-    if has_bet:
-        sections.append(f"# {bet_name} {bet_line} vs. {opp_name}: {headline_tail(support, bet_name)}")
-    else:
-        sections.append(f"# {away_name} at {home_name}: a game we're passing on")
+    sections.append(f"# {away_name} vs {home_name} Prediction For {kickoff_label}")
     sections.append("")
 
-    bet_facts, opp_facts = _side_facts(verdict_row), _side_facts(other_row)
+    away_logo, home_logo = extract_team_logo(away_row), extract_team_logo(home_row)
+    if away_logo and home_logo:
+        sections.extend([f"![{away_name}]({away_logo})  vs  ![{home_name}]({home_logo})", ""])
+    elif away_logo:
+        sections.extend([f"![{away_name}]({away_logo})", ""])
+    elif home_logo:
+        sections.extend([f"![{home_name}]({home_logo})", ""])
+
+    bet_facts = _side_facts(verdict_row)
+    matchup_rows = []
+    for row, team_name in ((away_row, away_name), (home_row, home_name)):
+        edge = resolve_edge_numeric(row)
+        cover = row.get("best_cover_probability")
+        if cover is None or pd.isna(cover):
+            cover = row.get("model_cover_probability")
+        matchup_rows.append(
+            (
+                team_name,
+                f"{format_line(row.get('best_line'))} ({_price(row.get('best_price'))})",
+                row.get("best_book") or "N/A",
+                display_percent(cover, 1),
+                display_edge(edge),
+                matchup_call_label(edge),
+            )
+        )
+    sections.extend(["| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |", "|---|---|---|---|---|---|"])
+    sections.extend([f"| {team} | {spread_odds} | {book} | {cover} | {edge} | {call} |" for team, spread_odds, book, cover, edge, call in matchup_rows])
+
     model_lead = model_vs_market_lead(
         bet_name, verdict_row.get("Model Prediction"),
         verdict_row.get("best_line", verdict_row.get("market_line")), seed,
     ) if has_bet else None
-    sections.extend(
-        build_bottom_line(bet_name, bet_line, confidence, bet_facts,
-                          opp_name, opp_line, opp_facts, seed, has_bet, model_lead)
-    )
+    sections.extend([""] + build_bottom_line(
+        away_name, home_name, stadium_name, bet_name, bet_line, confidence, bet_facts,
+        seed, has_bet, model_lead
+    ))
 
     # Assumed starters — trust line so readers can sanity-check QB news
     starters_note = assumed_starters(bet_name, bet_m, opp_name, opp_m)
@@ -1516,9 +1530,14 @@ def build_article(
     sections.extend(["", f"*Line: opened {lines_summary}. Best now: {best_book_summary}. {move}*"])
 
     # Why — always supports the pick
+    tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams)
     if has_bet and support:
         sections.extend(["", "## Why the Pick",
-                         render_storyline(support[0], support[1], total_teams, seed)])
+                         "Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories"])
+        if tape:
+            sections.extend([""] + tape)
+            sections.extend(["", "*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*"])
+        sections.extend(["", render_storyline(support[0], support[1], total_teams, seed)])
         # one supporting clause about the slimness of a lean, if applicable
         if confidence == "Lean":
             sections.append(
@@ -1535,29 +1554,10 @@ def build_article(
                          render_storyline(support[0], support[1], total_teams, seed),
                          "The lean exists — it just isn't big enough to bet."])
 
-    # Risk — the opponent's real path, or an honest variance read
-    if risk:
-        sections.extend(["", "## The Risk",
-                         render_risk(risk, opp_name, total_teams, seed)])
-        if has_bet and risk[0] == "exploit":
-            sections.append(
-                _pick(
-                    ["If that shows up, the cover gets live late and a slim edge "
-                     "doesn't survive much going wrong.",
-                     "That's the path that busts this ticket — watch for it early."],
-                    seed,
-                )
-            )
-
     # QB X-factor — named callout when a starter's last-10 EPA is extreme
     qb_lines = qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, seed)
     if qb_lines:
         sections.extend(["", "## Quarterback X-Factor"] + qb_lines)
-
-    # Tale of the tape — numbers in a table, not the prose
-    tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams)
-    if tape:
-        sections.extend([""] + tape)
 
     # Injury report — kept, conditional, no null leakage
     injury_lines = []
