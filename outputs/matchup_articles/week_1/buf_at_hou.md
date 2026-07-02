@@ -1,8 +1,8 @@
-# Buffalo Bills vs Houston Texans Prediction For 2026-09-13
+# Buffalo Bills vs Houston Texans Prediction For 09/13/2026
 
-![Buffalo Bills](https://a.espncdn.com/i/teamlogos/nfl/500/buf.png)  vs  ![Houston Texans](https://a.espncdn.com/i/teamlogos/nfl/500/hou.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Buffalo Bills | -1.5 (+102) | DraftKings | 51.8% | 2.35% | Lean – doesn’t meet our edge criteria to fully bet |
 | Houston Texans | +0.5 (-110) | Fanatics | 47.0% | -5.39% | No Bet |
@@ -11,8 +11,6 @@
 Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Buffalo Bills -1.5 at 2.35%, still short of the trigger.
 
 *Model assumes J. Allen (Buffalo Bills) and C. Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
-
-*Line: opened BUF -1.5 / HOU +1.5. Best now: BUF -1.5 at DraftKings; HOU +0.5 at Fanatics. The market hasn't moved off the open.*
 
 ## What the Model Sees
 Buffalo Bills' defense (above-average, 12th) should smother Houston Texans' middling offense (18th) — that gap is the spine of the number.

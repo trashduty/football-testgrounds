@@ -1,8 +1,8 @@
-# Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 2026-09-13
+# Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 09/13/2026
 
-![Tampa Bay Buccaneers](https://a.espncdn.com/i/teamlogos/nfl/500/tb.png)  vs  ![Cincinnati Bengals](https://a.espncdn.com/i/teamlogos/nfl/500/cin.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Tampa Bay Buccaneers | +3.5 (-110) | DraftKings | 57.9% | 5.52% | Bet |
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | -10.30% | No Bet |
@@ -13,9 +13,7 @@ That puts **Tampa Bay Buccaneers +3.5** on the card at -110 — a lean, not a ha
 
 *Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-*Line: opened CIN -3.5 / TB +3.5. Best now: CIN -3.5 at DraftKings; TB +3.5 at DraftKings. The market hasn't moved off the open.*
-
-## Why the Pick
+## Why The Pick
 Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories
 
 | | Tampa Bay Buccaneers | Cincinnati Bengals |
@@ -26,10 +24,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 | Offensive Eckel Rate Over Expected* | 48.3% | 50.0% |
 | Defensive Eckel Rate Over Expected | 49.7% | 57.6% |
 
-*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*
-
-Tampa Bay Buccaneers' offense (below-average, 22nd in efficiency) draws a get-right spot against Cincinnati Bengals' among the league's worst defense (30th).
-The edge is real but slim, so this is a confidence-tier lean, not a number to overload.
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
 B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.

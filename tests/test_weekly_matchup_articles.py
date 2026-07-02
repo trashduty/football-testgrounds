@@ -356,26 +356,34 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
         )
 
         self.assertLess(
-            article.index("# Arizona Cardinals vs Los Angeles Chargers Prediction For 2026-09-12"),
-            article.index("![Arizona Cardinals]"),
+            article.index("# Arizona Cardinals vs Los Angeles Chargers Prediction For 09/12/2026"),
+            article.index("<p align=\"center\">"),
         )
-        self.assertIn("![Arizona Cardinals](https://a.espncdn.com/i/teamlogos/nfl/500/ari.png)  vs  ![Los Angeles Chargers](https://a.espncdn.com/i/teamlogos/nfl/500/lac.png)", article)
-        self.assertIn("| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |", article)
+        self.assertIn(
+            "<p align=\"center\"><img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png\" alt=\"Arizona Cardinals\" width=\"84\" /> <strong>vs</strong> <img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png\" alt=\"Los Angeles Chargers\" width=\"84\" /></p>",
+            article,
+        )
+        self.assertIn("| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |", article)
         self.assertIn("| Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | 2.50% | Lean – doesn’t meet our edge criteria to fully bet |", article)
         self.assertIn("| Los Angeles Chargers | -9.5 (-115) | BetRivers | 57.9% | 4.40% | Bet |", article)
         self.assertLess(article.index("| Team name |"), article.index("## The Bottom Line"))
         self.assertIn("## The Bottom Line\nArizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and", article)
+        self.assertNotIn("*Line: opened", article)
         self.assertIn(
             "Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories",
             article,
         )
+        self.assertIn("## Why The Pick", article)
+        self.assertNotIn("## Why the Pick", article)
         self.assertNotIn("## Tale of the Tape", article)
         self.assertIn("| Offensive Eckel Rate Over Expected* |", article)
         self.assertIn("| Defensive Eckel Rate Over Expected |", article)
         self.assertIn(
-            "*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*",
+            "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line",
             article,
         )
+        self.assertNotIn("This rides on", article)
+        self.assertNotIn("The edge is real but slim", article)
         self.assertNotIn("## The Risk", article)
         self.assertIn("## Best Bets Of The Week", article)
 

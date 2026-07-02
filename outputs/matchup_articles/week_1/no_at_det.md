@@ -1,8 +1,8 @@
-# New Orleans Saints vs Detroit Lions Prediction For 2026-09-13
+# New Orleans Saints vs Detroit Lions Prediction For 09/13/2026
 
-![New Orleans Saints](https://a.espncdn.com/i/teamlogos/nfl/500/no.png)  vs  ![Detroit Lions](https://a.espncdn.com/i/teamlogos/nfl/500/det.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | New Orleans Saints | +7.5 (-120) | BetRivers | 51.5% | -3.04% | No Bet |
 | Detroit Lions | -7.5 (-105) | BetRivers | 48.5% | -2.71% | No Bet |
@@ -11,8 +11,6 @@
 New Orleans Saints takes on Detroit Lions at Ford Field and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Detroit Lions -7.5 at -2.71%, still short of the trigger.
 
 *Model assumes J. Goff (Detroit Lions) and T. Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
-
-*Line: opened DET -7.0 / NO +7.0. Best now: DET -7.5 at BetRivers; NO +7.5 at BetRivers. The number has moved toward Detroit Lions.*
 
 ## What the Model Sees
 New Orleans Saints' offense (27th) runs into Detroit Lions' above-average defense (15th), and the model trusts the defense.
