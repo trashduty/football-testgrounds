@@ -1,14 +1,14 @@
-![Buffalo Bills](https://a.espncdn.com/i/teamlogos/nfl/500/buf.png)  ![Houston Texans](https://a.espncdn.com/i/teamlogos/nfl/500/hou.png)
+# Buffalo Bills vs Houston Texans Prediction For 2026-09-13
 
-# Buffalo Bills at Houston Texans: a game we're passing on
+![Buffalo Bills](https://a.espncdn.com/i/teamlogos/nfl/500/buf.png)  vs  ![Houston Texans](https://a.espncdn.com/i/teamlogos/nfl/500/hou.png)
+
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+|---|---|---|---|---|---|
+| Buffalo Bills | -1.5 (+102) | DraftKings | 51.8% | 2.35% | Lean – doesn’t meet our edge criteria to fully bet |
+| Houston Texans | +0.5 (-110) | Fanatics | 47.0% | -5.39% | No Bet |
 
 ## The Bottom Line
-**No play here.** Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Buffalo Bills -1.5 at 2.35%, still short of the trigger.
-
-| | Model cover % | Edge | Call |
-|---|---|---|---|
-| **Buffalo Bills -1.5** | 51.8% | 2.35% | below 4% |
-| Houston Texans +0.5 | 47.0% | -5.39% | below 4% |
+Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Buffalo Bills -1.5 at 2.35%, still short of the trigger.
 
 *Model assumes J. Allen (Buffalo Bills) and C. Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -18,24 +18,11 @@
 Buffalo Bills' defense (above-average, 12th) should smother Houston Texans' middling offense (18th) — that gap is the spine of the number.
 The lean exists — it just isn't big enough to bet.
 
-## The Risk
-Houston Texans can lean on the run here — 23rd rushing offense into Buffalo Bills' struggling run defense (27th).
-
 ## Quarterback X-Factor
 J. Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) — a real tailwind for Buffalo Bills.
 
-## Tale of the Tape
+## Best Bets Of The Week
 
-| | Buffalo Bills | Houston Texans |
-|---|---|---|
-| QB, last 10 (EPA rank) | J. Allen (5th) | C. Stroud (8th) |
-| Offense (success rate) | 4th | 29th |
-| Defense (success rate) | 13th | 3rd |
-| Offensive Eckel ROE | 54.7% | 50.0% |
-| Pass offense | 13th | 14th |
-| Rush defense | 27th | 2nd |
-
----
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
 _Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_

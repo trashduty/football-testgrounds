@@ -1,38 +1,37 @@
-![Miami Dolphins](https://a.espncdn.com/i/teamlogos/nfl/500/mia.png)  ![Las Vegas Raiders](https://a.espncdn.com/i/teamlogos/nfl/500/lv.png)
+# Miami Dolphins vs Las Vegas Raiders Prediction For 2026-09-13
 
-# Miami Dolphins +3.5 vs. Las Vegas Raiders: betting Miami Dolphins' defense
+![Miami Dolphins](https://a.espncdn.com/i/teamlogos/nfl/500/mia.png)  vs  ![Las Vegas Raiders](https://a.espncdn.com/i/teamlogos/nfl/500/lv.png)
+
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+|---|---|---|---|---|---|
+| Miami Dolphins | +3.5 (-110) | BetMGM | 60.1% | 7.73% | Bet |
+| Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
 
 ## The Bottom Line
-The number doing the work: our model projects **Miami Dolphins** a 2.5-point favorite, while the market sits at a 3.5-point underdog. That **6.0 points** of disagreement is the edge.
+Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and our model makes **Miami Dolphins** a 2.5-point favorite. The market is only pricing them as a 3.5-point underdog — a **6.0-point** gap, and that gap is the bet.
 That puts **Miami Dolphins +3.5** on the card at -110 — a confident play.
-
-| | Model cover % | Edge | Call |
-|---|---|---|---|
-| **Miami Dolphins +3.5** | 60.1% | 7.73% | ✅ Strong |
-| Las Vegas Raiders -3.5 | 39.9% | -12.51% | below 4% |
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 *Line: opened LV -3.0 / MIA +3.0. Best now: LV -3.5 at BetMGM; MIA +3.5 at BetMGM. The number has moved toward Las Vegas Raiders.*
 
 ## Why the Pick
-Miami Dolphins' defense (below-average, 23rd) should smother Las Vegas Raiders' among the league's worst offense (31st) — that gap is the spine of the number.
-
-## The Risk
-There's no obvious soft spot for Las Vegas Raiders to attack; their 26th-ranked offense is the only lever. Realistically the risk is variance — short fields, a non-offensive score, or a late backdoor cover.
-
-## Tale of the Tape
+Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories
 
 | | Miami Dolphins | Las Vegas Raiders |
 |---|---|---|
-| QB, last 10 (EPA rank) | M. Willis (25th) | K. Cousins (27th) |
-| Offense (success rate) | 26th | 30th |
-| Defense (success rate) | 26th | 25th |
-| Offensive Eckel ROE | 49.3% | 34.7% |
-| Pass offense | 25th | 26th |
-| Rush defense | 25th | 22nd |
+| QB Efficiency (Last 10 Games) | M. Willis (25th) | K. Cousins (27th) |
+| Offensive Success Rate | 26th | 30th |
+| Defensive Success Rate | 26th | 25th |
+| Offensive Eckel Rate Over Expected* | 49.3% | 34.7% |
+| Defensive Eckel Rate Over Expected | 52.2% | 56.5% |
 
----
+*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*
+
+Miami Dolphins' defense (below-average, 23rd) should smother Las Vegas Raiders' among the league's worst offense (31st) — that gap is the spine of the number.
+
+## Best Bets Of The Week
+
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
 _Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
