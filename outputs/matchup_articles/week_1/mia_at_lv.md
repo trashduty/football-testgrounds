@@ -1,8 +1,8 @@
-# Miami Dolphins vs Las Vegas Raiders Prediction For 2026-09-13
+# Miami Dolphins vs Las Vegas Raiders Prediction For 09/13/2026
 
-![Miami Dolphins](https://a.espncdn.com/i/teamlogos/nfl/500/mia.png)  vs  ![Las Vegas Raiders](https://a.espncdn.com/i/teamlogos/nfl/500/lv.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Miami Dolphins | +3.5 (-110) | BetMGM | 60.1% | 7.73% | Bet |
 | Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
@@ -13,9 +13,7 @@ That puts **Miami Dolphins +3.5** on the card at -110 — a confident play.
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-*Line: opened LV -3.0 / MIA +3.0. Best now: LV -3.5 at BetMGM; MIA +3.5 at BetMGM. The number has moved toward Las Vegas Raiders.*
-
-## Why the Pick
+## Why The Pick
 Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories
 
 | | Miami Dolphins | Las Vegas Raiders |
@@ -26,9 +24,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 | Offensive Eckel Rate Over Expected* | 49.3% | 34.7% |
 | Defensive Eckel Rate Over Expected | 52.2% | 56.5% |
 
-*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*
-
-Miami Dolphins' defense (below-average, 23rd) should smother Las Vegas Raiders' among the league's worst offense (31st) — that gap is the spine of the number.
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Best Bets Of The Week
 

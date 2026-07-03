@@ -1,8 +1,8 @@
-# Dallas Cowboys vs New York Giants Prediction For 2026-09-13
+# Dallas Cowboys vs New York Giants Prediction For 09/13/2026
 
-![Dallas Cowboys](https://a.espncdn.com/i/teamlogos/nfl/500/dal.png)  vs  ![New York Giants](https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Dallas Cowboys | -2.5 (-105) | DraftKings | 51.5% | 0.28% | No Bet |
 | New York Giants | +2.5 (-102) | FanDuel | 48.5% | -1.99% | No Bet |
@@ -11,8 +11,6 @@
 Dallas Cowboys takes on New York Giants at MetLife Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Dallas Cowboys -2.5 at 0.28%, still short of the trigger.
 
 *Model assumes D. Prescott (Dallas Cowboys) and J. Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
-
-*Line: opened DAL -2.0 / NYG +2.5. Best now: DAL -2.5 at DraftKings; NYG +2.5 at FanDuel. The number has moved toward Dallas Cowboys.*
 
 ## What the Model Sees
 On efficiency alone Dallas Cowboys (2nd) should move the ball on New York Giants (27th).

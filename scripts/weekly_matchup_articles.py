@@ -710,6 +710,33 @@ def matchup_call_label(edge: Optional[float]) -> str:
     return "Bet"
 
 
+def format_title_kickoff_date(kickoff: object) -> str:
+    if kickoff is None or pd.isna(kickoff):
+        return "N/A"
+    return pd.Timestamp(kickoff).strftime("%m/%d/%Y")
+
+
+def render_logo_row(
+    away_name: str,
+    away_logo: Optional[str],
+    home_name: str,
+    home_logo: Optional[str],
+) -> Optional[str]:
+    if away_logo and home_logo:
+        return (
+            "<p align=\"center\">"
+            f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"84\" />"
+            " <strong>vs</strong> "
+            f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"84\" />"
+            "</p>"
+        )
+    if away_logo:
+        return f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"84\" />"
+    if home_logo:
+        return f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"84\" />"
+    return None
+
+
 
 
 def parse_table_headers(table: BeautifulSoup) -> List[str]:
@@ -1424,6 +1451,7 @@ def build_article(
 
     kickoff = away_row["game_date_est"]
     kickoff_label = kickoff.strftime("%Y-%m-%d") if pd.notna(kickoff) else "N/A"
+    kickoff_title_label = format_title_kickoff_date(kickoff)
     time_label = away_row.get("game_time_est", "N/A")
     location = None
     stadium_name = None
@@ -1473,16 +1501,13 @@ def build_article(
     # ── Assemble ──────────────────────────────────────────────────────────────
     sections: List[str] = []
 
-    sections.append(f"# {away_name} vs {home_name} Prediction For {kickoff_label}")
+    sections.append(f"# {away_name} vs {home_name} Prediction For {kickoff_title_label}")
     sections.append("")
 
     away_logo, home_logo = extract_team_logo(away_row), extract_team_logo(home_row)
-    if away_logo and home_logo:
-        sections.extend([f"![{away_name}]({away_logo})  vs  ![{home_name}]({home_logo})", ""])
-    elif away_logo:
-        sections.extend([f"![{away_name}]({away_logo})", ""])
-    elif home_logo:
-        sections.extend([f"![{home_name}]({home_logo})", ""])
+    logo_row = render_logo_row(away_name, away_logo, home_name, home_logo)
+    if logo_row:
+        sections.extend([logo_row, ""])
 
     bet_facts = _side_facts(verdict_row)
     matchup_rows = []
@@ -1501,7 +1526,7 @@ def build_article(
                 matchup_call_label(edge),
             )
         )
-    sections.extend(["| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |", "|---|---|---|---|---|---|"])
+    sections.extend(["| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |", "|---|---|---|---|---|---|"])
     sections.extend([f"| {team} | {spread_odds} | {book} | {cover} | {edge} | {call} |" for team, spread_odds, book, cover, edge, call in matchup_rows])
 
     model_lead = model_vs_market_lead(
@@ -1518,37 +1543,14 @@ def build_article(
     if starters_note:
         sections.extend(["", starters_note])
 
-    # Line + movement, one tight sentence (no boilerplate)
-    fav_open, fav_now = favorite_row.get("market_line"), favorite_row.get("best_line")
-    move = ""
-    if pd.notna(fav_open) and pd.notna(fav_now):
-        if abs(float(fav_now) - float(fav_open)) < 0.5:
-            move = "The market hasn't moved off the open."
-        else:
-            toward = dog_row["team"] if float(fav_now) > float(fav_open) else favorite_row["team"]
-            move = f"The number has moved toward {team_names.get(toward, toward)}."
-    sections.extend(["", f"*Line: opened {lines_summary}. Best now: {best_book_summary}. {move}*"])
-
     # Why — always supports the pick
     tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams)
     if has_bet and support:
-        sections.extend(["", "## Why the Pick",
+        sections.extend(["", "## Why The Pick",
                          "Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories"])
         if tape:
             sections.extend([""] + tape)
-            sections.extend(["", "*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*"])
-        sections.extend(["", render_storyline(support[0], support[1], total_teams, seed)])
-        # one supporting clause about the slimness of a lean, if applicable
-        if confidence == "Lean":
-            sections.append(
-                _pick(
-                    ["The edge is real but slim, so this is a confidence-tier lean, "
-                     "not a number to overload.",
-                     "It clears the bar without much room to spare — bet it, but size "
-                     "it like the lean it is."],
-                    seed,
-                )
-            )
+            sections.extend(["", "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line"])
     elif not has_bet and support:
         sections.extend(["", "## What the Model Sees",
                          render_storyline(support[0], support[1], total_teams, seed),

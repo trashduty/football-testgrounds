@@ -1,8 +1,8 @@
-# Denver Broncos vs Kansas City Chiefs Prediction For 2026-09-14
+# Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
 
-![Denver Broncos](https://a.espncdn.com/i/teamlogos/nfl/500/den.png)  vs  ![Kansas City Chiefs](https://a.espncdn.com/i/teamlogos/nfl/500/kc.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Denver Broncos | +2.5 (+100) | DraftKings | 41.8% | -8.24% | No Bet |
 | Kansas City Chiefs | -2.5 (-110) | FanDuel | 58.2% | 5.85% | Bet |
@@ -13,9 +13,7 @@ That puts **Kansas City Chiefs -2.5** on the card at -110 — a lean, not a hamm
 
 *Model assumes P. Mahomes (Kansas City Chiefs) and B. Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-*Line: opened KC -2.5 / DEN +2.5. Best now: KC -2.5 at FanDuel; DEN +2.5 at DraftKings. The market hasn't moved off the open.*
-
-## Why the Pick
+## Why The Pick
 Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories
 
 | | Kansas City Chiefs | Denver Broncos |
@@ -26,10 +24,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 | Offensive Eckel Rate Over Expected* | 56.5% | 44.7% |
 | Defensive Eckel Rate Over Expected | 44.4% | 40.6% |
 
-*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*
-
-This rides on Kansas City Chiefs' defense (13th, above-average) against Denver Broncos, whose offense ranks just 13th.
-The edge is real but slim, so this is a confidence-tier lean, not a number to overload.
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
 P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.

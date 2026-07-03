@@ -1,8 +1,8 @@
-# Arizona Cardinals vs Los Angeles Chargers Prediction For 2026-09-13
+# Arizona Cardinals vs Los Angeles Chargers Prediction For 09/13/2026
 
-![Arizona Cardinals](https://a.espncdn.com/i/teamlogos/nfl/500/ari.png)  vs  ![Los Angeles Chargers](https://a.espncdn.com/i/teamlogos/nfl/500/lac.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | 3.39% | Lean – doesn’t meet our edge criteria to fully bet |
 | Los Angeles Chargers | -9.5 (-115) | BetRivers | 57.9% | 4.39% | Bet |
@@ -13,9 +13,7 @@ That puts **Los Angeles Chargers -9.5** on the card at -115 — a lean, not a ha
 
 *Model assumes J. Herbert (Los Angeles Chargers) and J. Brissett (Arizona Cardinals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-*Line: opened LAC -10.5 / ARI +10.5. Best now: LAC -9.5 at BetRivers; ARI +11.5 at DraftKings. The number has moved toward Arizona Cardinals.*
-
-## Why the Pick
+## Why The Pick
 Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories
 
 | | Los Angeles Chargers | Arizona Cardinals |
@@ -26,10 +24,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 | Offensive Eckel Rate Over Expected* | 53.6% | 50.0% |
 | Defensive Eckel Rate Over Expected | 46.4% | 56.2% |
 
-*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*
-
-This rides on Los Angeles Chargers' defense (7th, one of the league's better) against Arizona Cardinals, whose offense ranks just 24th.
-The edge is real but slim, so this is a confidence-tier lean, not a number to overload.
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Best Bets Of The Week
 

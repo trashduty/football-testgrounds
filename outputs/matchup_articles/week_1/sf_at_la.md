@@ -1,8 +1,8 @@
-# San Francisco 49ers vs Los Angeles Rams Prediction For 2026-09-10
+# San Francisco 49ers vs Los Angeles Rams Prediction For 09/10/2026
 
-![San Francisco 49ers](https://a.espncdn.com/i/teamlogos/nfl/500/sf.png)  vs  ![Los Angeles Rams](https://a.espncdn.com/i/teamlogos/nfl/500/lar.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | San Francisco 49ers | +2.5 (+100) | DraftKings | 53.5% | 3.46% | Lean – doesn’t meet our edge criteria to fully bet |
 | Los Angeles Rams | -2.5 (-110) | FanDuel | 46.5% | -5.85% | No Bet |
@@ -11,8 +11,6 @@
 San Francisco 49ers takes on Los Angeles Rams at Melbourne Cricket Ground and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is San Francisco 49ers +2.5 at 3.46%, still short of the trigger.
 
 *Model assumes B. Purdy (San Francisco 49ers) and M. Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
-
-*Line: opened LA -2.5 / SF +2.5. Best now: LA -2.5 at FanDuel; SF +2.5 at DraftKings. The market hasn't moved off the open.*
 
 ## What the Model Sees
 San Francisco 49ers' offense (one of the league's better, 7th in efficiency) draws a get-right spot against Los Angeles Rams' one of the league's better defense (10th).

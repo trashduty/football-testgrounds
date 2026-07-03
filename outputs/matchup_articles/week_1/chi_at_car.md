@@ -1,8 +1,8 @@
-# Chicago Bears vs Carolina Panthers Prediction For 2026-09-13
+# Chicago Bears vs Carolina Panthers Prediction For 09/13/2026
 
-![Chicago Bears](https://a.espncdn.com/i/teamlogos/nfl/500/chi.png)  vs  ![Carolina Panthers](https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Chicago Bears | -2.5 (-110) | DraftKings | 48.1% | -4.23% | No Bet |
 | Carolina Panthers | +2.5 (-105) | FanDuel | 51.8% | 0.63% | No Bet |
@@ -11,8 +11,6 @@
 Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Carolina Panthers +2.5 at 0.63%, still short of the trigger.
 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
-
-*Line: opened CHI -2.5 / CAR +2.5. Best now: CHI -2.5 at DraftKings; CAR +2.5 at FanDuel. The market hasn't moved off the open.*
 
 ## What the Model Sees
 On efficiency alone Carolina Panthers (25th) should move the ball on Chicago Bears (19th).

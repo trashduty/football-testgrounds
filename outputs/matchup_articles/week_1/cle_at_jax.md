@@ -1,8 +1,8 @@
-# Cleveland Browns vs Jacksonville Jaguars Prediction For 2026-09-13
+# Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
 
-![Cleveland Browns](https://a.espncdn.com/i/teamlogos/nfl/500/cle.png)  vs  ![Jacksonville Jaguars](https://a.espncdn.com/i/teamlogos/nfl/500/jax.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Cleveland Browns | +7.5 (-110) | BetMGM | 51.5% | -0.88% | No Bet |
 | Jacksonville Jaguars | -7.5 (-105) | FanDuel | 48.5% | -2.71% | No Bet |
@@ -11,8 +11,6 @@
 Cleveland Browns takes on Jacksonville Jaguars at EverBank Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Cleveland Browns +7.5 at -0.88%, still short of the trigger.
 
 *Model assumes D. Watson (Cleveland Browns) and T. Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
-
-*Line: opened JAX -7.0 / CLE +7.5. Best now: JAX -7.5 at FanDuel; CLE +7.5 at BetMGM. The number has moved toward Jacksonville Jaguars.*
 
 ## What the Model Sees
 This rides on Cleveland Browns' defense (6th, one of the league's better) against Jacksonville Jaguars, whose offense ranks just 14th.

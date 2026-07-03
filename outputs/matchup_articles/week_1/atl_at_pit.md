@@ -1,8 +1,8 @@
-# Atlanta Falcons vs Pittsburgh Steelers Prediction For 2026-09-13
+# Atlanta Falcons vs Pittsburgh Steelers Prediction For 09/13/2026
 
-![Atlanta Falcons](https://a.espncdn.com/i/teamlogos/nfl/500/atl.png)  vs  ![Pittsburgh Steelers](https://a.espncdn.com/i/teamlogos/nfl/500/pit.png)
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="84" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | Call |
+| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Atlanta Falcons | +3.0 (+100) | DraftKings | 39.0% | -11.01% | No Bet |
 | Pittsburgh Steelers | -2.5 (-110) | BetRivers | 61.0% | 8.61% | Bet |
@@ -13,9 +13,7 @@ That puts **Pittsburgh Steelers -2.5** on the card at -110 — a confident play.
 
 *Model assumes A. Rodgers (Pittsburgh Steelers) and M. Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-*Line: opened PIT -2.5 / ATL +2.5. Best now: PIT -2.5 at BetRivers; ATL +3.0 at DraftKings. The market hasn't moved off the open.*
-
-## Why the Pick
+## Why The Pick
 Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories
 
 | | Pittsburgh Steelers | Atlanta Falcons |
@@ -26,9 +24,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 | Offensive Eckel Rate Over Expected* | 46.0% | 45.9% |
 | Defensive Eckel Rate Over Expected | 49.7% | 54.6% |
 
-*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line*
-
-This rides on Pittsburgh Steelers' defense (17th, middling) against Atlanta Falcons, whose offense ranks just 23rd.
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
 A. Rodgers sits 28th of 32 in QB value over his last 10 games — the kind of play that caps Pittsburgh Steelers' ceiling.
