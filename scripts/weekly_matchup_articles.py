@@ -1545,7 +1545,7 @@ def build_article(
                          "Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories"])
         if tape:
             sections.extend([""] + tape)
-            sections.extend(["", "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line"])
+            sections.extend(["", "\\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected"])
         if not has_bet:
             sections.append("")
             sections.append("The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.")
