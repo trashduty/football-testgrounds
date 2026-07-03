@@ -1,6 +1,6 @@
 # Miami Dolphins vs Las Vegas Raiders Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="84" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="144" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -8,7 +8,7 @@
 | Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
 
 ## The Bottom Line
-Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and our model makes **Miami Dolphins** a 2.5-point favorite. The market is only pricing them as a 3.5-point underdog — a **6.0-point** gap, and that gap is the bet.
+Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and the number doing the work: our model projects **Miami Dolphins** a 2.5-point favorite, while the market sits at a 3.5-point underdog. That **6.0 points** of disagreement is the edge.
 That puts **Miami Dolphins +3.5** on the card at -110 — a confident play.
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*

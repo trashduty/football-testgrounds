@@ -1,6 +1,6 @@
 # Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="84" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="84" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="144" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -8,7 +8,7 @@
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | -10.30% | No Bet |
 
 ## The Bottom Line
-Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and the number doing the work: our model projects **Tampa Bay Buccaneers** a 0.5-point underdog, while the market sits at a 3.5-point underdog. That **3.0 points** of disagreement is the edge.
+Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and our model makes **Tampa Bay Buccaneers** a 0.5-point underdog. The market is only pricing them as a 3.5-point underdog — a **3.0-point** gap, and that gap is the bet.
 That puts **Tampa Bay Buccaneers +3.5** on the card at -110 — a lean, not a hammer.
 
 *Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
