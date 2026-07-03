@@ -654,14 +654,6 @@ def summarize_rank(
     return None
 
 
-
-
-
-
-
-
-
-
 def format_line(value: object) -> str:
     """Return a signed line string, e.g. '-3.5' or '+11.5'."""
     if value is None or pd.isna(value):
@@ -706,7 +698,7 @@ def matchup_call_label(edge: Optional[float]) -> str:
     if edge is None or edge < 0.01:
         return "No Bet"
     if edge < 0.04:
-        return "Lean – doesn’t meet our edge criteria to fully bet"
+        return "Lean – doesn't meet our edge criteria to fully bet"
     return "Bet"
 
 
@@ -724,19 +716,17 @@ def render_logo_row(
 ) -> Optional[str]:
     if away_logo and home_logo:
         return (
-            "<p align=\"center\">"
-            f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" />"
-            " <span style=\"font-size:72px\"><strong>vs</strong></span> "
-            f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" />"
-            "</p>"
+            "<table align=\"center\"><tr>"
+            f"<td><img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" /></td>"
+            "<td align=\"center\" valign=\"middle\" style=\"font-size:69px\"><strong>vs</strong></td>"
+            f"<td><img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" /></td>"
+            "</tr></table>"
         )
     if away_logo:
         return f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" />"
     if home_logo:
         return f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" />"
     return None
-
-
 
 
 def parse_table_headers(table: BeautifulSoup) -> List[str]:
@@ -826,8 +816,6 @@ def fetch_espn_starter_injuries(
         injuries_html.raise_for_status()
         injury_rows = parse_injuries(injuries_html.text)
         if not injury_rows:
-            # Fetched successfully but nothing parsed — log always so article
-            # can say "no injury rows parsed" rather than "no injuries".
             report.status = "injury_parse_failed"
             if debug_enabled:
                 report.debug.append(
@@ -890,7 +878,6 @@ def fetch_espn_starter_injuries(
     if report.starters:
         report.status = "ok_starters_found"
     elif report.status not in ("injury_parse_failed", "depth_parse_failed"):
-        # Both pages parsed fine but no injures matched a starter
         report.status = "no_starter_match"
     return report
 
@@ -930,9 +917,9 @@ def prepare_games(
 # and build_article. See header notes for the two main() wiring lines.
 # ============================================================================
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 # Plain-English translation: a rank becomes a word a normal bettor understands.
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 def tier(rank: object, total_teams: int = 32) -> Optional[str]:
     """Map a 1-is-best rank to a tier phrase. Returns None if unavailable."""
     if rank is None or pd.isna(rank):
@@ -975,13 +962,13 @@ def poss(name: str) -> str:
     return name + "'" if str(name).endswith("s") else name + "'s"
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 # MODEL-FIELD layer: rank the proprietary columns across the 32-team slate.
 # Directions verified from the data:
 #   Offensive Expected Points / Success Rate -> higher is better
 #   Defensive Expected Points -> LOWER is better ; Defensive Success Rate -> higher
 #   QB EPA (career / last 10) -> higher is better
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 def model_ranks(model_df: pd.DataFrame) -> pd.DataFrame:
     """League-wide ranks + raw values from the model CSV, indexed by team abbr.
 
@@ -1057,9 +1044,9 @@ def model_vs_market_lead(bet_name, model_pred, market_line, seed) -> Optional[st
     )
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 # Salience mismatch engine: find the ONE storyline the data is telling.
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 @dataclass
 class UnitBattle:
     dimension: str   # 'overall' | 'pass' | 'rush' | 'pressure'
@@ -1140,9 +1127,9 @@ def pick_support_and_risk(
     return support, risk
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 # Render a storyline into a sentence (translated + rotated, never raw EPA).
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 def _ord(n: int) -> str:  # local ordinal so this module is self-contained
     if 10 <= n % 100 <= 20:
         suf = "th"
@@ -1297,9 +1284,9 @@ def qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, seed) -> List[str]
     return out
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 # Section builders
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 def _side_facts(row: pd.Series) -> Dict[str, object]:
     cover = row.get("best_cover_probability")
     if cover is None or pd.isna(cover):
@@ -1418,9 +1405,9 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
     ]
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 # REPLACEMENT build_article — assembles the new, narrative structure.
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────
 def build_article(
     game, game_rows, metrics, records, team_names, schedule_row,
     stat_context, provenance, injury_reports, edge_game_count, model_ranks_df=None,
@@ -1547,10 +1534,10 @@ def build_article(
     tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams)
     if has_bet and support:
         sections.extend(["", "## Why The Pick",
-                         "Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories"])
+                         "Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories"])
         if tape:
             sections.extend([""] + tape)
-            sections.extend(["", "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line"])
+            sections.extend(["", "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line"])
     elif not has_bet and support:
         sections.extend(["", "## What the Model Sees",
                          render_storyline(support[0], support[1], total_teams, seed),
@@ -1590,7 +1577,6 @@ def build_article(
         },
     }
     return "\n".join(sections) + "\n", payload
-
 
 
 def main() -> None:
