@@ -8,8 +8,8 @@
 | Seattle Seahawks | -3.5 (-115) | DraftKings | 42.1% | -11.40% | No Bet |
 
 ## The Bottom Line
-New England Patriots takes on Seattle Seahawks at Lumen Field and the number doing the work: our model projects **New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
-That puts **the New England Patriots +4.5** on the card at -105 — a bet.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the number doing the work: our model projects **the New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
+This puts the edge at 10.70%, which at +4.5 for -105 makes the New England Patriots a bet.
 
 *Model assumes D. Maye (New England Patriots) and S. Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -27,10 +27,10 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Quarterback X-Factor
-D. Maye grades out 2nd of 32 in QB value over his last 10 starts; that's the engine behind New England Patriots' number.
+D. Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32)  - a real tailwind for New England Patriots.
 
 ## Best Bets Of The Week
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
