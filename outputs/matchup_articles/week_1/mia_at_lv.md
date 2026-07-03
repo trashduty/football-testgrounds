@@ -1,6 +1,6 @@
 # Miami Dolphins vs Las Vegas Raiders Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="344" /></td></tr></table>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|

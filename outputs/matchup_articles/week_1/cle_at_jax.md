@@ -1,6 +1,6 @@
 # Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -13,11 +13,11 @@ Cleveland Browns takes on Jacksonville Jaguars at EverBank Stadium and we have *
 *Model assumes D. Watson (Cleveland Browns) and T. Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-This rides on Cleveland Browns' defense (6th, one of the league's better) against Jacksonville Jaguars, whose offense ranks just 14th.
+Jacksonville Jaguars' offense (14th) runs into Cleveland Browns' one of the league's better defense (6th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-D. Watson has been among the least productive starters in the league lately (32nd of 32), a real drag on Cleveland Browns.
+D. Watson sits 32nd of 32 in QB value over his last 10 games — the kind of play that caps Cleveland Browns' ceiling.
 
 ## Best Bets Of The Week
 

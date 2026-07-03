@@ -1,6 +1,6 @@
 # Green Bay Packers vs Minnesota Vikings Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></td></tr></table>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@ Green Bay Packers takes on Minnesota Vikings at U.S. Bank Stadium and we have **
 *Model assumes J. Love (Green Bay Packers) and K. Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Green Bay Packers' defense (below-average, 21st) should smother Minnesota Vikings' struggling offense (28th) — that gap is the spine of the number.
+This rides on Green Bay Packers' defense (21st, below-average) against Minnesota Vikings, whose offense ranks just 28th.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor

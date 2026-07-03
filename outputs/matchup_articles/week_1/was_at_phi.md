@@ -1,6 +1,6 @@
 # Washington Commanders vs Philadelphia Eagles Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></td></tr></table>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@ Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field an
 *Model assumes J. Hurts (Philadelphia Eagles) and J. Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-On efficiency alone Philadelphia Eagles (15th) should move the ball on Washington Commanders (32nd).
+Philadelphia Eagles' offense (above-average, 15th in efficiency) draws a get-right spot against Washington Commanders' among the league's worst defense (32nd).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

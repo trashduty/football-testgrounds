@@ -1,6 +1,6 @@
 # New Orleans Saints vs Detroit Lions Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="344" /></td></tr></table>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@ New Orleans Saints takes on Detroit Lions at Ford Field and we have **no play he
 *Model assumes J. Goff (Detroit Lions) and T. Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-This rides on Detroit Lions' defense (15th, above-average) against New Orleans Saints, whose offense ranks just 27th.
+New Orleans Saints' offense (27th) runs into Detroit Lions' above-average defense (15th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

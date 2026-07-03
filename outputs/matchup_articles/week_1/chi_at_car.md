@@ -1,6 +1,6 @@
 # Chicago Bears vs Carolina Panthers Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></td></tr></table>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@ Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Carolina Panthers' offense (struggling, 25th in efficiency) draws a get-right spot against Chicago Bears' below-average defense (19th).
+The unit to attack is Chicago Bears' defense (19th, below-average), and Carolina Panthers (25th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
