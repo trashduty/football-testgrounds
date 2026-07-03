@@ -716,10 +716,11 @@ def render_logo_row(
 ) -> Optional[str]:
     if away_logo and home_logo:
         return (
-            "<table align=\"center\"><tr>"
-            f"<td><img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" /></td>"
-            "<td align=\"center\" valign=\"middle\" style=\"font-size:128px\"><strong>vs</strong></td>"
-            f"<td><img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" /></td>"
+            "<table align=\"center\" border=\"0\" style=\"border-collapse:collapse;border:none;\">"
+            "<tr>"
+            f"<td style=\"border:none;\"><img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" /></td>"
+            "<td align=\"center\" valign=\"middle\" style=\"font-size:69px;border:none;\"><strong>vs</strong></td>"
+            f"<td style=\"border:none;\"><img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" /></td>"
             "</tr></table>"
         )
     if away_logo:
@@ -1537,18 +1538,17 @@ def build_article(
     if starters_note:
         sections.extend(["", starters_note])
 
-    # Why — always supports the pick
+    # Why — always shows the stats table for consistency across all articles
     tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams)
-    if has_bet and support:
+    if support:
         sections.extend(["", "## Why The Pick",
                          "Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories"])
         if tape:
             sections.extend([""] + tape)
             sections.extend(["", "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line"])
-    elif not has_bet and support:
-        sections.extend(["", "## What the Model Sees",
-                         render_storyline(support[0], support[1], total_teams, seed),
-                         "The lean exists — it just isn't big enough to bet."])
+        if not has_bet:
+            sections.append("")
+            sections.append("The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.")
 
     # QB X-factor — named callout when a starter's last-10 EPA is extreme
     qb_lines = qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, seed)
