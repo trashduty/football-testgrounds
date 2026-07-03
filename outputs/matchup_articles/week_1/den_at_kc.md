@@ -1,6 +1,6 @@
 # Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -24,7 +24,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 56.5% | 44.7% |
 | Defensive Eckel Rate Over Expected | 44.4% | 40.6% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
 P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.

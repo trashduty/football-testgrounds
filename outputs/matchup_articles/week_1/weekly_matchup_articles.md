@@ -1,6 +1,6 @@
 # Arizona Cardinals vs Los Angeles Chargers Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -24,7 +24,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 53.6% | 50.0% |
 | Defensive Eckel Rate Over Expected | 46.4% | 56.2% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Best Bets Of The Week
 
@@ -36,7 +36,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Atlanta Falcons vs Pittsburgh Steelers Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -60,7 +60,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 46.0% | 45.9% |
 | Defensive Eckel Rate Over Expected | 49.7% | 54.6% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
 A. Rodgers sits 28th of 32 in QB value over his last 10 games - the kind of play that caps Pittsburgh Steelers' ceiling.
@@ -75,7 +75,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Baltimore Ravens vs Indianapolis Colts Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -98,7 +98,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 50.7% | 55.8% |
 | Defensive Eckel Rate Over Expected | 53.8% | 51.8% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -112,7 +112,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Buffalo Bills vs Houston Texans Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -135,7 +135,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 54.7% | 50.0% |
 | Defensive Eckel Rate Over Expected | 47.9% | 36.2% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -152,7 +152,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Chicago Bears vs Carolina Panthers Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -175,7 +175,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 48.9% | 57.3% |
 | Defensive Eckel Rate Over Expected | 53.5% | 50.0% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -189,7 +189,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -212,7 +212,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 34.6% | 53.0% |
 | Defensive Eckel Rate Over Expected | 43.4% | 45.6% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -229,7 +229,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Dallas Cowboys vs New York Giants Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -252,7 +252,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 55.9% | 51.7% |
 | Defensive Eckel Rate Over Expected | 57.1% | 55.2% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -266,7 +266,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -290,7 +290,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 56.5% | 44.7% |
 | Defensive Eckel Rate Over Expected | 44.4% | 40.6% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
 P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.
@@ -305,7 +305,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Green Bay Packers vs Minnesota Vikings Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -328,7 +328,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 55.7% | 41.1% |
 | Defensive Eckel Rate Over Expected | 48.8% | 49.3% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -345,7 +345,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Miami Dolphins vs Las Vegas Raiders Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -369,7 +369,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 49.3% | 34.7% |
 | Defensive Eckel Rate Over Expected | 52.2% | 56.5% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Best Bets Of The Week
 
@@ -381,7 +381,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # New England Patriots vs Seattle Seahawks Prediction For 09/09/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -405,10 +405,10 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 56.3% | 51.7% |
 | Defensive Eckel Rate Over Expected | 44.2% | 42.8% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
-D. Maye grades out 2nd of 32 in QB value over his last 10 starts; that's the engine behind New England Patriots' number.
+D. Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32)  - a real tailwind for New England Patriots.
 
 ## Best Bets Of The Week
 
@@ -420,7 +420,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # New Orleans Saints vs Detroit Lions Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -443,7 +443,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 56.7% | 45.0% |
 | Defensive Eckel Rate Over Expected | 47.0% | 47.5% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -457,7 +457,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # New York Jets vs Tennessee Titans Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -480,13 +480,13 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 38.5% | 36.7% |
 | Defensive Eckel Rate Over Expected | 49.7% | 52.4% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
-G. Smith sits 31st of 32 in QB value over his last 10 games - the kind of play that caps New York Jets' ceiling.
-C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
+G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
+C. Ward sits 30th of 32 in QB value over his last 10 games - the kind of play that caps Tennessee Titans' ceiling.
 
 ## Best Bets Of The Week
 
@@ -498,7 +498,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # San Francisco 49ers vs Los Angeles Rams Prediction For 09/10/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -521,7 +521,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 56.5% | 60.7% |
 | Defensive Eckel Rate Over Expected | 51.1% | 45.1% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -538,7 +538,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -546,7 +546,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | -10.30% | No Bet |
 
 ## The Bottom Line
-The Tampa Bay Buccaneers take on the Cincinnati Bengals at Paycor Stadium and the number doing the work: our model projects **the Tampa Bay Buccaneers** a 0.5-point underdog, while the market sits at a 3.5-point underdog. That **3.0 points** of disagreement is the edge.
+The Tampa Bay Buccaneers take on the Cincinnati Bengals at Paycor Stadium and our model makes **the Tampa Bay Buccaneers** a 0.5-point underdog. The market is only pricing them as a 3.5-point underdog - a **3.0-point** gap, and that gap is the bet.
 This puts the edge at 5.52%, which at +3.5 for -110 makes the Tampa Bay Buccaneers a bet.
 
 *Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -562,10 +562,10 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 48.3% | 50.0% |
 | Defensive Eckel Rate Over Expected | 49.7% | 57.6% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
-B. Mayfield sits 29th of 32 in QB value over his last 10 games - the kind of play that caps Tampa Bay Buccaneers' ceiling.
+B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
 
 ## Best Bets Of The Week
 
@@ -577,7 +577,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 # Washington Commanders vs Philadelphia Eagles Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -600,7 +600,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 44.1% | 55.0% |
 | Defensive Eckel Rate Over Expected | 51.0% | 56.6% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 

@@ -1,6 +1,6 @@
 # New York Jets vs Tennessee Titans Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -23,13 +23,13 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | Offensive Eckel Rate Over Expected* | 38.5% | 36.7% |
 | Defensive Eckel Rate Over Expected | 49.7% | 52.4% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
-G. Smith sits 31st of 32 in QB value over his last 10 games - the kind of play that caps New York Jets' ceiling.
-C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
+G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
+C. Ward sits 30th of 32 in QB value over his last 10 games - the kind of play that caps Tennessee Titans' ceiling.
 
 ## Best Bets Of The Week
 
