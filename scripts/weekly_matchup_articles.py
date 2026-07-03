@@ -719,7 +719,7 @@ def render_logo_row(
             "<table align=\"center\" border=\"0\" style=\"border-collapse:collapse;border:none;\">"
             "<tr>"
             f"<td style=\"border:none;\"><img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" /></td>"
-            "<td align=\"center\" valign=\"middle\" style=\"font-size:169px;border:none;\"><strong>vs</strong></td>"
+            "<td align=\"center\" valign=\"middle\" style=\"font-size:69px;border:none;\"><strong>vs</strong></td>"
             f"<td style=\"border:none;\"><img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" /></td>"
             "</tr></table>"
         )
