@@ -1,6 +1,6 @@
 # Atlanta Falcons vs Pittsburgh Steelers Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -8,7 +8,7 @@
 | Pittsburgh Steelers | -2.5 (-110) | BetRivers | 61.0% | 8.61% | Bet |
 
 ## The Bottom Line
-Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and the number doing the work: our model projects **Pittsburgh Steelers** a 10.0-point favorite, while the market sits at a 2.5-point favorite. That **7.5 points** of disagreement is the edge.
+Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and our model makes **Pittsburgh Steelers** a 10.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **7.5-point** gap, and that gap is the bet.
 That puts **Pittsburgh Steelers -2.5** on the card at -110 — a confident play.
 
 *Model assumes A. Rodgers (Pittsburgh Steelers) and M. Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*

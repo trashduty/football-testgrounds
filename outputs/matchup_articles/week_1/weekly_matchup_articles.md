@@ -1,6 +1,6 @@
 # Arizona Cardinals vs Los Angeles Chargers Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -36,7 +36,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Atlanta Falcons vs Pittsburgh Steelers Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -44,7 +44,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Pittsburgh Steelers | -2.5 (-110) | BetRivers | 61.0% | 8.61% | Bet |
 
 ## The Bottom Line
-Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and the number doing the work: our model projects **Pittsburgh Steelers** a 10.0-point favorite, while the market sits at a 2.5-point favorite. That **7.5 points** of disagreement is the edge.
+Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and our model makes **Pittsburgh Steelers** a 10.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **7.5-point** gap, and that gap is the bet.
 That puts **Pittsburgh Steelers -2.5** on the card at -110 — a confident play.
 
 *Model assumes A. Rodgers (Pittsburgh Steelers) and M. Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -75,7 +75,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Baltimore Ravens vs Indianapolis Colts Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -88,7 +88,7 @@ Baltimore Ravens takes on Indianapolis Colts at Lucas Oil Stadium and we have **
 *Model assumes L. Jackson (Baltimore Ravens) and D. Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Baltimore Ravens' offense (below-average, 20th in efficiency) draws a get-right spot against Indianapolis Colts' below-average defense (20th).
+The unit to attack is Indianapolis Colts' defense (20th, below-average), and Baltimore Ravens (20th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -101,7 +101,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Buffalo Bills vs Houston Texans Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -114,11 +114,11 @@ Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play h
 *Model assumes J. Allen (Buffalo Bills) and C. Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Buffalo Bills' defense (above-average, 12th) should smother Houston Texans' middling offense (18th) — that gap is the spine of the number.
+Houston Texans' offense (18th) runs into Buffalo Bills' above-average defense (12th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) — a real tailwind for Buffalo Bills.
+J. Allen grades out 5th of 32 in QB value over his last 10 starts; that's the engine behind Buffalo Bills' number.
 
 ## Best Bets Of The Week
 
@@ -130,7 +130,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Chicago Bears vs Carolina Panthers Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -143,7 +143,7 @@ Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-On efficiency alone Carolina Panthers (25th) should move the ball on Chicago Bears (19th).
+The unit to attack is Chicago Bears' defense (19th, below-average), and Carolina Panthers (25th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -156,7 +156,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -169,7 +169,7 @@ Cleveland Browns takes on Jacksonville Jaguars at EverBank Stadium and we have *
 *Model assumes D. Watson (Cleveland Browns) and T. Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Cleveland Browns' defense (one of the league's better, 6th) should smother Jacksonville Jaguars' above-average offense (14th) — that gap is the spine of the number.
+This rides on Cleveland Browns' defense (6th, one of the league's better) against Jacksonville Jaguars, whose offense ranks just 14th.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
@@ -185,7 +185,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Dallas Cowboys vs New York Giants Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -198,7 +198,7 @@ Dallas Cowboys takes on New York Giants at MetLife Stadium and we have **no play
 *Model assumes D. Prescott (Dallas Cowboys) and J. Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is New York Giants' defense (27th, struggling), and Dallas Cowboys (2nd on offense) is equipped to do it.
+Dallas Cowboys' offense (elite, 2nd in efficiency) draws a get-right spot against New York Giants' struggling defense (27th).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -211,7 +211,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -219,7 +219,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Kansas City Chiefs | -2.5 (-110) | FanDuel | 58.2% | 5.85% | Bet |
 
 ## The Bottom Line
-Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the number doing the work: our model projects **Kansas City Chiefs** a 5.0-point favorite, while the market sits at a 2.5-point favorite. That **2.5 points** of disagreement is the edge.
+Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and our model makes **Kansas City Chiefs** a 5.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **2.5-point** gap, and that gap is the bet.
 That puts **Kansas City Chiefs -2.5** on the card at -110 — a lean, not a hammer.
 
 *Model assumes P. Mahomes (Kansas City Chiefs) and B. Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -250,7 +250,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Green Bay Packers vs Minnesota Vikings Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -263,11 +263,11 @@ Green Bay Packers takes on Minnesota Vikings at U.S. Bank Stadium and we have **
 *Model assumes J. Love (Green Bay Packers) and K. Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Green Bay Packers' defense (below-average, 21st) should smother Minnesota Vikings' struggling offense (28th) — that gap is the spine of the number.
+Minnesota Vikings' offense (28th) runs into Green Bay Packers' below-average defense (21st), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32) — a real tailwind for Green Bay Packers.
+J. Love grades out 4th of 32 in QB value over his last 10 starts; that's the engine behind Green Bay Packers' number.
 
 ## Best Bets Of The Week
 
@@ -279,7 +279,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Miami Dolphins vs Las Vegas Raiders Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -315,7 +315,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # New England Patriots vs Seattle Seahawks Prediction For 09/09/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -323,7 +323,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Seattle Seahawks | -3.5 (-115) | DraftKings | 42.1% | -11.40% | No Bet |
 
 ## The Bottom Line
-New England Patriots takes on Seattle Seahawks at Lumen Field and our model makes **New England Patriots** a 1.0-point favorite. The market is only pricing them as a 4.5-point underdog — a **5.5-point** gap, and that gap is the bet.
+New England Patriots takes on Seattle Seahawks at Lumen Field and the number doing the work: our model projects **New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
 That puts **New England Patriots +4.5** on the card at -105 — a confident play.
 
 *Model assumes D. Maye (New England Patriots) and S. Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -354,7 +354,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # New Orleans Saints vs Detroit Lions Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -380,7 +380,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # New York Jets vs Tennessee Titans Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -393,12 +393,12 @@ New York Jets takes on Tennessee Titans at Nissan Stadium and we have **no play 
 *Model assumes G. Smith (New York Jets) and C. Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-New York Jets' defense (struggling, 29th) should smother Tennessee Titans' struggling offense (29th) — that gap is the spine of the number.
+Tennessee Titans' offense (29th) runs into New York Jets' struggling defense (29th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
-C. Ward sits 30th of 32 in QB value over his last 10 games — the kind of play that caps Tennessee Titans' ceiling.
+G. Smith sits 31st of 32 in QB value over his last 10 games — the kind of play that caps New York Jets' ceiling.
+C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
 
 ## Best Bets Of The Week
 
@@ -410,7 +410,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # San Francisco 49ers vs Los Angeles Rams Prediction For 09/10/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -427,7 +427,7 @@ The unit to attack is Los Angeles Rams' defense (10th, one of the league's bette
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-B. Purdy grades out 3rd of 32 in QB value over his last 10 starts; that's the engine behind San Francisco 49ers' number.
+B. Purdy has been one of the most valuable quarterbacks in football over his last 10 games (3rd of 32) — a real tailwind for San Francisco 49ers.
 
 ## Best Bets Of The Week
 
@@ -439,7 +439,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -466,7 +466,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
+B. Mayfield sits 29th of 32 in QB value over his last 10 games — the kind of play that caps Tampa Bay Buccaneers' ceiling.
 
 ## Best Bets Of The Week
 
@@ -478,7 +478,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 # Washington Commanders vs Philadelphia Eagles Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -491,7 +491,7 @@ Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field an
 *Model assumes J. Hurts (Philadelphia Eagles) and J. Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is Washington Commanders' defense (32nd, among the league's worst), and Philadelphia Eagles (15th on offense) is equipped to do it.
+On efficiency alone Philadelphia Eagles (15th) should move the ball on Washington Commanders (32nd).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

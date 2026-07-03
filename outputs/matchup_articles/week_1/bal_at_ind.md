@@ -1,6 +1,6 @@
 # Baltimore Ravens vs Indianapolis Colts Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="144" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="144" /></p>
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="344" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@ Baltimore Ravens takes on Indianapolis Colts at Lucas Oil Stadium and we have **
 *Model assumes L. Jackson (Baltimore Ravens) and D. Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Baltimore Ravens' offense (below-average, 20th in efficiency) draws a get-right spot against Indianapolis Colts' below-average defense (20th).
+The unit to attack is Indianapolis Colts' defense (20th, below-average), and Baltimore Ravens (20th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
