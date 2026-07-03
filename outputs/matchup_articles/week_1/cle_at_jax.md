@@ -17,7 +17,7 @@ This rides on Cleveland Browns' defense (6th, one of the league's better) agains
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-D. Watson has been among the least productive starters in the league lately (32nd of 32), a real drag on Cleveland Browns.
+D. Watson sits 32nd of 32 in QB value over his last 10 games — the kind of play that caps Cleveland Browns' ceiling.
 
 ## Best Bets Of The Week
 

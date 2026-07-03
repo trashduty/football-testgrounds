@@ -8,7 +8,7 @@
 | Los Angeles Chargers | -9.5 (-115) | BetRivers | 57.9% | 4.39% | Bet |
 
 ## The Bottom Line
-Arizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and our model makes **Los Angeles Chargers** a 11.0-point favorite. The market is only pricing them as a 9.5-point favorite — a **1.5-point** gap, and that gap is the bet.
+Arizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and the number doing the work: our model projects **Los Angeles Chargers** a 11.0-point favorite, while the market sits at a 9.5-point favorite. That **1.5 points** of disagreement is the edge.
 That puts **Los Angeles Chargers -9.5** on the card at -115 — a lean, not a hammer.
 
 *Model assumes J. Herbert (Los Angeles Chargers) and J. Brissett (Arizona Cardinals) under center. QB news moves these numbers fast — check inactives before you bet.*

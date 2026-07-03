@@ -8,7 +8,7 @@
 | Los Angeles Chargers | -9.5 (-115) | BetRivers | 57.9% | 4.39% | Bet |
 
 ## The Bottom Line
-Arizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and our model makes **Los Angeles Chargers** a 11.0-point favorite. The market is only pricing them as a 9.5-point favorite — a **1.5-point** gap, and that gap is the bet.
+Arizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and the number doing the work: our model projects **Los Angeles Chargers** a 11.0-point favorite, while the market sits at a 9.5-point favorite. That **1.5 points** of disagreement is the edge.
 That puts **Los Angeles Chargers -9.5** on the card at -115 — a lean, not a hammer.
 
 *Model assumes J. Herbert (Los Angeles Chargers) and J. Brissett (Arizona Cardinals) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -44,7 +44,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Pittsburgh Steelers | -2.5 (-110) | BetRivers | 61.0% | 8.61% | Bet |
 
 ## The Bottom Line
-Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and our model makes **Pittsburgh Steelers** a 10.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **7.5-point** gap, and that gap is the bet.
+Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and the number doing the work: our model projects **Pittsburgh Steelers** a 10.0-point favorite, while the market sits at a 2.5-point favorite. That **7.5 points** of disagreement is the edge.
 That puts **Pittsburgh Steelers -2.5** on the card at -110 — a confident play.
 
 *Model assumes A. Rodgers (Pittsburgh Steelers) and M. Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -63,7 +63,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-A. Rodgers sits 28th of 32 in QB value over his last 10 games — the kind of play that caps Pittsburgh Steelers' ceiling.
+A. Rodgers has been among the least productive starters in the league lately (28th of 32), a real drag on Pittsburgh Steelers.
 
 ## Best Bets Of The Week
 
@@ -88,7 +88,7 @@ Baltimore Ravens takes on Indianapolis Colts at Lucas Oil Stadium and we have **
 *Model assumes L. Jackson (Baltimore Ravens) and D. Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Baltimore Ravens' offense (below-average, 20th in efficiency) draws a get-right spot against Indianapolis Colts' below-average defense (20th).
+On efficiency alone Baltimore Ravens (20th) should move the ball on Indianapolis Colts (20th).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -114,7 +114,7 @@ Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play h
 *Model assumes J. Allen (Buffalo Bills) and C. Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Buffalo Bills' defense (above-average, 12th) should smother Houston Texans' middling offense (18th) — that gap is the spine of the number.
+Houston Texans' offense (18th) runs into Buffalo Bills' above-average defense (12th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
@@ -143,7 +143,7 @@ Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-On efficiency alone Carolina Panthers (25th) should move the ball on Chicago Bears (19th).
+The unit to attack is Chicago Bears' defense (19th, below-average), and Carolina Panthers (25th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -173,7 +173,7 @@ This rides on Cleveland Browns' defense (6th, one of the league's better) agains
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-D. Watson has been among the least productive starters in the league lately (32nd of 32), a real drag on Cleveland Browns.
+D. Watson sits 32nd of 32 in QB value over his last 10 games — the kind of play that caps Cleveland Browns' ceiling.
 
 ## Best Bets Of The Week
 
@@ -238,7 +238,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.
+P. Mahomes has been one of the most valuable quarterbacks in football over his last 10 games (1st of 32) — a real tailwind for Kansas City Chiefs.
 
 ## Best Bets Of The Week
 
@@ -263,11 +263,11 @@ Green Bay Packers takes on Minnesota Vikings at U.S. Bank Stadium and we have **
 *Model assumes J. Love (Green Bay Packers) and K. Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Green Bay Packers' defense (below-average, 21st) should smother Minnesota Vikings' struggling offense (28th) — that gap is the spine of the number.
+This rides on Green Bay Packers' defense (21st, below-average) against Minnesota Vikings, whose offense ranks just 28th.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32) — a real tailwind for Green Bay Packers.
+J. Love grades out 4th of 32 in QB value over his last 10 starts; that's the engine behind Green Bay Packers' number.
 
 ## Best Bets Of The Week
 
@@ -342,7 +342,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-D. Maye grades out 2nd of 32 in QB value over his last 10 starts; that's the engine behind New England Patriots' number.
+D. Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32) — a real tailwind for New England Patriots.
 
 ## Best Bets Of The Week
 
@@ -397,7 +397,7 @@ This rides on New York Jets' defense (29th, struggling) against Tennessee Titans
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-G. Smith sits 31st of 32 in QB value over his last 10 games — the kind of play that caps New York Jets' ceiling.
+G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
 C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
 
 ## Best Bets Of The Week
@@ -423,7 +423,7 @@ San Francisco 49ers takes on Los Angeles Rams at Melbourne Cricket Ground and we
 *Model assumes B. Purdy (San Francisco 49ers) and M. Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-San Francisco 49ers' offense (one of the league's better, 7th in efficiency) draws a get-right spot against Los Angeles Rams' one of the league's better defense (10th).
+The unit to attack is Los Angeles Rams' defense (10th, one of the league's better), and San Francisco 49ers (7th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
@@ -447,7 +447,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | -10.30% | No Bet |
 
 ## The Bottom Line
-Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and our model makes **Tampa Bay Buccaneers** a 0.5-point underdog. The market is only pricing them as a 3.5-point underdog — a **3.0-point** gap, and that gap is the bet.
+Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and the number doing the work: our model projects **Tampa Bay Buccaneers** a 0.5-point underdog, while the market sits at a 3.5-point underdog. That **3.0 points** of disagreement is the edge.
 That puts **Tampa Bay Buccaneers +3.5** on the card at -110 — a lean, not a hammer.
 
 *Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -466,7 +466,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
+B. Mayfield sits 29th of 32 in QB value over his last 10 games — the kind of play that caps Tampa Bay Buccaneers' ceiling.
 
 ## Best Bets Of The Week
 
@@ -491,7 +491,7 @@ Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field an
 *Model assumes J. Hurts (Philadelphia Eagles) and J. Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is Washington Commanders' defense (32nd, among the league's worst), and Philadelphia Eagles (15th on offense) is equipped to do it.
+On efficiency alone Philadelphia Eagles (15th) should move the ball on Washington Commanders (32nd).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

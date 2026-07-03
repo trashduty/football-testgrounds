@@ -13,7 +13,7 @@ Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play h
 *Model assumes J. Allen (Buffalo Bills) and C. Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Buffalo Bills' defense (above-average, 12th) should smother Houston Texans' middling offense (18th) — that gap is the spine of the number.
+Houston Texans' offense (18th) runs into Buffalo Bills' above-average defense (12th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor

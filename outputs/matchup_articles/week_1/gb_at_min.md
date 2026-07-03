@@ -13,11 +13,11 @@ Green Bay Packers takes on Minnesota Vikings at U.S. Bank Stadium and we have **
 *Model assumes J. Love (Green Bay Packers) and K. Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Green Bay Packers' defense (below-average, 21st) should smother Minnesota Vikings' struggling offense (28th) — that gap is the spine of the number.
+This rides on Green Bay Packers' defense (21st, below-average) against Minnesota Vikings, whose offense ranks just 28th.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32) — a real tailwind for Green Bay Packers.
+J. Love grades out 4th of 32 in QB value over his last 10 starts; that's the engine behind Green Bay Packers' number.
 
 ## Best Bets Of The Week
 

@@ -8,7 +8,7 @@
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | -10.30% | No Bet |
 
 ## The Bottom Line
-Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and our model makes **Tampa Bay Buccaneers** a 0.5-point underdog. The market is only pricing them as a 3.5-point underdog — a **3.0-point** gap, and that gap is the bet.
+Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and the number doing the work: our model projects **Tampa Bay Buccaneers** a 0.5-point underdog, while the market sits at a 3.5-point underdog. That **3.0 points** of disagreement is the edge.
 That puts **Tampa Bay Buccaneers +3.5** on the card at -110 — a lean, not a hammer.
 
 *Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -27,7 +27,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
+B. Mayfield sits 29th of 32 in QB value over his last 10 games — the kind of play that caps Tampa Bay Buccaneers' ceiling.
 
 ## Best Bets Of The Week
 

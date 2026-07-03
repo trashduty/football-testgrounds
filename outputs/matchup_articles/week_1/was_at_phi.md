@@ -13,7 +13,7 @@ Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field an
 *Model assumes J. Hurts (Philadelphia Eagles) and J. Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is Washington Commanders' defense (32nd, among the league's worst), and Philadelphia Eagles (15th on offense) is equipped to do it.
+On efficiency alone Philadelphia Eagles (15th) should move the ball on Washington Commanders (32nd).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

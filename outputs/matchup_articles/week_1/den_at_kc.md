@@ -27,7 +27,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.
+P. Mahomes has been one of the most valuable quarterbacks in football over his last 10 games (1st of 32) — a real tailwind for Kansas City Chiefs.
 
 ## Best Bets Of The Week
 

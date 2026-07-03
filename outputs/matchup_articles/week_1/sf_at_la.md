@@ -13,7 +13,7 @@ San Francisco 49ers takes on Los Angeles Rams at Melbourne Cricket Ground and we
 *Model assumes B. Purdy (San Francisco 49ers) and M. Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-San Francisco 49ers' offense (one of the league's better, 7th in efficiency) draws a get-right spot against Los Angeles Rams' one of the league's better defense (10th).
+The unit to attack is Los Angeles Rams' defense (10th, one of the league's better), and San Francisco 49ers (7th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
