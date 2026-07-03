@@ -16,7 +16,7 @@ permalink: /outputs/matchup_articles/week_1/atl_at_pit/
 | Pittsburgh Steelers | -2.5 (-110) | BetRivers | 61.0% | 8.61% | Bet |
 
 ## The Bottom Line
-The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the number doing the work: our model projects **the Pittsburgh Steelers** a 10.0-point favorite, while the market sits at a 2.5-point favorite. That **7.5 points** of disagreement is the edge.
+The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and our model makes **the Pittsburgh Steelers** a 10.0-point favorite. The market is only pricing them as a 2.5-point favorite - a **7.5-point** gap, and that gap is the bet.
 This puts the edge at 8.61%, which at -2.5 for -110 makes the Pittsburgh Steelers a bet.
 
 *Model assumes A. Rodgers (Pittsburgh Steelers) and M. Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -35,7 +35,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
-A. Rodgers has been among the least productive starters in the league lately (28th of 32), a real drag on Pittsburgh Steelers.
+A. Rodgers sits 28th of 32 in QB value over his last 10 games - the kind of play that caps Pittsburgh Steelers' ceiling.
 
 ## Best Bets Of The Week
 

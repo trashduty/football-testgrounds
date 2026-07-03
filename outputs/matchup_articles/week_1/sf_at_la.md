@@ -36,7 +36,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
-B. Purdy grades out 3rd of 32 in QB value over his last 10 starts; that's the engine behind San Francisco 49ers' number.
+B. Purdy has been one of the most valuable quarterbacks in football over his last 10 games (3rd of 32)  - a real tailwind for San Francisco 49ers.
 
 ## Best Bets Of The Week
 

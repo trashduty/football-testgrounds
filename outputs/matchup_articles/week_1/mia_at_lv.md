@@ -16,7 +16,7 @@ permalink: /outputs/matchup_articles/week_1/mia_at_lv/
 | Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
 
 ## The Bottom Line
-The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and our model makes **the Miami Dolphins** a 2.5-point favorite. The market is only pricing them as a 3.5-point underdog - a **6.0-point** gap, and that gap is the bet.
+The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and the number doing the work: our model projects **the Miami Dolphins** a 2.5-point favorite, while the market sits at a 3.5-point underdog. That **6.0 points** of disagreement is the edge.
 This puts the edge at 7.73%, which at +3.5 for -110 makes the Miami Dolphins a bet.
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*

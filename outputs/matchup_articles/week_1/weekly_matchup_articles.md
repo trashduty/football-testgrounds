@@ -44,7 +44,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 | Pittsburgh Steelers | -2.5 (-110) | BetRivers | 61.0% | 8.61% | Bet |
 
 ## The Bottom Line
-The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the number doing the work: our model projects **the Pittsburgh Steelers** a 10.0-point favorite, while the market sits at a 2.5-point favorite. That **7.5 points** of disagreement is the edge.
+The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and our model makes **the Pittsburgh Steelers** a 10.0-point favorite. The market is only pricing them as a 2.5-point favorite - a **7.5-point** gap, and that gap is the bet.
 This puts the edge at 8.61%, which at -2.5 for -110 makes the Pittsburgh Steelers a bet.
 
 *Model assumes A. Rodgers (Pittsburgh Steelers) and M. Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -63,7 +63,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
-A. Rodgers has been among the least productive starters in the league lately (28th of 32), a real drag on Pittsburgh Steelers.
+A. Rodgers sits 28th of 32 in QB value over his last 10 games - the kind of play that caps Pittsburgh Steelers' ceiling.
 
 ## Best Bets Of The Week
 
@@ -274,7 +274,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 | Kansas City Chiefs | -2.5 (-110) | FanDuel | 58.2% | 5.85% | Bet |
 
 ## The Bottom Line
-The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and our model makes **the Kansas City Chiefs** a 5.0-point favorite. The market is only pricing them as a 2.5-point favorite - a **2.5-point** gap, and that gap is the bet.
+The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the number doing the work: our model projects **the Kansas City Chiefs** a 5.0-point favorite, while the market sits at a 2.5-point favorite. That **2.5 points** of disagreement is the edge.
 This puts the edge at 5.85%, which at -2.5 for -110 makes the Kansas City Chiefs a bet.
 
 *Model assumes P. Mahomes (Kansas City Chiefs) and B. Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -293,7 +293,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
-P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.
+P. Mahomes has been one of the most valuable quarterbacks in football over his last 10 games (1st of 32)  - a real tailwind for Kansas City Chiefs.
 
 ## Best Bets Of The Week
 
@@ -353,7 +353,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 | Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
 
 ## The Bottom Line
-The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and our model makes **the Miami Dolphins** a 2.5-point favorite. The market is only pricing them as a 3.5-point underdog - a **6.0-point** gap, and that gap is the bet.
+The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and the number doing the work: our model projects **the Miami Dolphins** a 2.5-point favorite, while the market sits at a 3.5-point underdog. That **6.0 points** of disagreement is the edge.
 This puts the edge at 7.73%, which at +3.5 for -110 makes the Miami Dolphins a bet.
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -408,7 +408,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
-D. Maye grades out 2nd of 32 in QB value over his last 10 starts; that's the engine behind New England Patriots' number.
+D. Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32)  - a real tailwind for New England Patriots.
 
 ## Best Bets Of The Week
 
@@ -485,7 +485,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
-G. Smith sits 31st of 32 in QB value over his last 10 games - the kind of play that caps New York Jets' ceiling.
+G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
 C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
 
 ## Best Bets Of The Week
@@ -526,7 +526,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
-B. Purdy grades out 3rd of 32 in QB value over his last 10 starts; that's the engine behind San Francisco 49ers' number.
+B. Purdy has been one of the most valuable quarterbacks in football over his last 10 games (3rd of 32)  - a real tailwind for San Francisco 49ers.
 
 ## Best Bets Of The Week
 

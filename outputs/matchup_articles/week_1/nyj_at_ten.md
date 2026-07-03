@@ -36,7 +36,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
-G. Smith sits 31st of 32 in QB value over his last 10 games - the kind of play that caps New York Jets' ceiling.
+G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
 C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
 
 ## Best Bets Of The Week
