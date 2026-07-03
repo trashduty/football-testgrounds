@@ -8,8 +8,8 @@
 | Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
 
 ## The Bottom Line
-Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and our model makes **Miami Dolphins** a 2.5-point favorite. The market is only pricing them as a 3.5-point underdog — a **6.0-point** gap, and that gap is the bet.
-That puts **Miami Dolphins +3.5** on the card at -110 — a confident play.
+Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and the number doing the work: our model projects **Miami Dolphins** a 2.5-point favorite, while the market sits at a 3.5-point underdog. That **6.0 points** of disagreement is the edge.
+That puts **the Miami Dolphins +3.5** on the card at -110 — a bet.
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -30,4 +30,4 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._

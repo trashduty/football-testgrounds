@@ -9,7 +9,7 @@
 
 ## The Bottom Line
 Arizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and our model makes **Los Angeles Chargers** a 11.0-point favorite. The market is only pricing them as a 9.5-point favorite — a **1.5-point** gap, and that gap is the bet.
-That puts **Los Angeles Chargers -9.5** on the card at -115 — a lean, not a hammer.
+That puts **the Los Angeles Chargers -9.5** on the card at -115 — a bet.
 
 *Model assumes J. Herbert (Los Angeles Chargers) and J. Brissett (Arizona Cardinals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -30,7 +30,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -44,8 +44,8 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Pittsburgh Steelers | -2.5 (-110) | BetRivers | 61.0% | 8.61% | Bet |
 
 ## The Bottom Line
-Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and the number doing the work: our model projects **Pittsburgh Steelers** a 10.0-point favorite, while the market sits at a 2.5-point favorite. That **7.5 points** of disagreement is the edge.
-That puts **Pittsburgh Steelers -2.5** on the card at -110 — a confident play.
+Atlanta Falcons takes on Pittsburgh Steelers at Acrisure Stadium and our model makes **Pittsburgh Steelers** a 10.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **7.5-point** gap, and that gap is the bet.
+That puts **the Pittsburgh Steelers -2.5** on the card at -110 — a bet.
 
 *Model assumes A. Rodgers (Pittsburgh Steelers) and M. Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -63,13 +63,13 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Quarterback X-Factor
-A. Rodgers has been among the least productive starters in the league lately (28th of 32), a real drag on Pittsburgh Steelers.
+A. Rodgers sits 28th of 32 in QB value over his last 10 games — the kind of play that caps Pittsburgh Steelers' ceiling.
 
 ## Best Bets Of The Week
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -83,7 +83,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | -7.20% | No Bet |
 
 ## The Bottom Line
-Baltimore Ravens takes on Indianapolis Colts at Lucas Oil Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Baltimore Ravens -3.5 at 3.53%, still short of the trigger.
+Baltimore Ravens takes on Indianapolis Colts at Lucas Oil Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Baltimore Ravens -3.5 at 3.53%, still short of the trigger.
 
 *Model assumes L. Jackson (Baltimore Ravens) and D. Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -95,7 +95,7 @@ The lean exists — it just isn't big enough to bet.
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -109,22 +109,22 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Houston Texans | +0.5 (-110) | Fanatics | 47.0% | -5.39% | No Bet |
 
 ## The Bottom Line
-Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Buffalo Bills -1.5 at 2.35%, still short of the trigger.
+Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Buffalo Bills -1.5 at 2.35%, still short of the trigger.
 
 *Model assumes J. Allen (Buffalo Bills) and C. Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-This rides on Buffalo Bills' defense (12th, above-average) against Houston Texans, whose offense ranks just 18th.
+Houston Texans' offense (18th) runs into Buffalo Bills' above-average defense (12th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Allen grades out 5th of 32 in QB value over his last 10 starts; that's the engine behind Buffalo Bills' number.
+J. Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) — a real tailwind for Buffalo Bills.
 
 ## Best Bets Of The Week
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -138,7 +138,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Carolina Panthers | +2.5 (-105) | FanDuel | 51.8% | 0.63% | No Bet |
 
 ## The Bottom Line
-Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Carolina Panthers +2.5 at 0.63%, still short of the trigger.
+Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Carolina Panthers +2.5 at 0.63%, still short of the trigger.
 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -150,7 +150,7 @@ The lean exists — it just isn't big enough to bet.
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -164,22 +164,22 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Jacksonville Jaguars | -7.5 (-105) | FanDuel | 48.5% | -2.71% | No Bet |
 
 ## The Bottom Line
-Cleveland Browns takes on Jacksonville Jaguars at EverBank Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Cleveland Browns +7.5 at -0.88%, still short of the trigger.
+Cleveland Browns takes on Jacksonville Jaguars at EverBank Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Cleveland Browns +7.5 at -0.88%, still short of the trigger.
 
 *Model assumes D. Watson (Cleveland Browns) and T. Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Jacksonville Jaguars' offense (14th) runs into Cleveland Browns' one of the league's better defense (6th), and the model trusts the defense.
+This rides on Cleveland Browns' defense (6th, one of the league's better) against Jacksonville Jaguars, whose offense ranks just 14th.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-D. Watson sits 32nd of 32 in QB value over his last 10 games — the kind of play that caps Cleveland Browns' ceiling.
+D. Watson has been among the least productive starters in the league lately (32nd of 32), a real drag on Cleveland Browns.
 
 ## Best Bets Of The Week
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -193,7 +193,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | New York Giants | +2.5 (-102) | FanDuel | 48.5% | -1.99% | No Bet |
 
 ## The Bottom Line
-Dallas Cowboys takes on New York Giants at MetLife Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Dallas Cowboys -2.5 at 0.28%, still short of the trigger.
+Dallas Cowboys takes on New York Giants at MetLife Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Dallas Cowboys -2.5 at 0.28%, still short of the trigger.
 
 *Model assumes D. Prescott (Dallas Cowboys) and J. Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -205,7 +205,7 @@ The lean exists — it just isn't big enough to bet.
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -219,8 +219,8 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Kansas City Chiefs | -2.5 (-110) | FanDuel | 58.2% | 5.85% | Bet |
 
 ## The Bottom Line
-Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the number doing the work: our model projects **Kansas City Chiefs** a 5.0-point favorite, while the market sits at a 2.5-point favorite. That **2.5 points** of disagreement is the edge.
-That puts **Kansas City Chiefs -2.5** on the card at -110 — a lean, not a hammer.
+Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and our model makes **Kansas City Chiefs** a 5.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **2.5-point** gap, and that gap is the bet.
+That puts **the Kansas City Chiefs -2.5** on the card at -110 — a bet.
 
 *Model assumes P. Mahomes (Kansas City Chiefs) and B. Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -238,13 +238,13 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Quarterback X-Factor
-P. Mahomes has been one of the most valuable quarterbacks in football over his last 10 games (1st of 32) — a real tailwind for Kansas City Chiefs.
+P. Mahomes grades out 1st of 32 in QB value over his last 10 starts; that's the engine behind Kansas City Chiefs' number.
 
 ## Best Bets Of The Week
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -258,7 +258,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Minnesota Vikings | +1.5 (-108) | FanDuel | 48.1% | -3.77% | No Bet |
 
 ## The Bottom Line
-Green Bay Packers takes on Minnesota Vikings at U.S. Bank Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Green Bay Packers -1.5 at 1.85%, still short of the trigger.
+Green Bay Packers takes on Minnesota Vikings at U.S. Bank Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Green Bay Packers -1.5 at 1.85%, still short of the trigger.
 
 *Model assumes J. Love (Green Bay Packers) and K. Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -267,13 +267,13 @@ This rides on Green Bay Packers' defense (21st, below-average) against Minnesota
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32) — a real tailwind for Green Bay Packers.
+J. Love grades out 4th of 32 in QB value over his last 10 starts; that's the engine behind Green Bay Packers' number.
 
 ## Best Bets Of The Week
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -287,8 +287,8 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
 
 ## The Bottom Line
-Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and our model makes **Miami Dolphins** a 2.5-point favorite. The market is only pricing them as a 3.5-point underdog — a **6.0-point** gap, and that gap is the bet.
-That puts **Miami Dolphins +3.5** on the card at -110 — a confident play.
+Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and the number doing the work: our model projects **Miami Dolphins** a 2.5-point favorite, while the market sits at a 3.5-point underdog. That **6.0 points** of disagreement is the edge.
+That puts **the Miami Dolphins +3.5** on the card at -110 — a bet.
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -309,7 +309,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -324,7 +324,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 ## The Bottom Line
 New England Patriots takes on Seattle Seahawks at Lumen Field and the number doing the work: our model projects **New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
-That puts **New England Patriots +4.5** on the card at -105 — a confident play.
+That puts **the New England Patriots +4.5** on the card at -105 — a bet.
 
 *Model assumes D. Maye (New England Patriots) and S. Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -342,13 +342,13 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Quarterback X-Factor
-D. Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32) — a real tailwind for New England Patriots.
+D. Maye grades out 2nd of 32 in QB value over his last 10 starts; that's the engine behind New England Patriots' number.
 
 ## Best Bets Of The Week
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -362,7 +362,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Detroit Lions | -7.5 (-105) | BetRivers | 48.5% | -2.71% | No Bet |
 
 ## The Bottom Line
-New Orleans Saints takes on Detroit Lions at Ford Field and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Detroit Lions -7.5 at -2.71%, still short of the trigger.
+New Orleans Saints takes on Detroit Lions at Ford Field and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Detroit Lions -7.5 at -2.71%, still short of the trigger.
 
 *Model assumes J. Goff (Detroit Lions) and T. Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -374,7 +374,7 @@ The lean exists — it just isn't big enough to bet.
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -388,7 +388,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | -5.85% | No Bet |
 
 ## The Bottom Line
-New York Jets takes on Tennessee Titans at Nissan Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is New York Jets +3.0 at 2.24%, still short of the trigger.
+New York Jets takes on Tennessee Titans at Nissan Stadium and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the New York Jets +3.0 at 2.24%, still short of the trigger.
 
 *Model assumes G. Smith (New York Jets) and C. Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -397,14 +397,14 @@ New York Jets' defense (struggling, 29th) should smother Tennessee Titans' strug
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
-C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
+G. Smith sits 31st of 32 in QB value over his last 10 games — the kind of play that caps New York Jets' ceiling.
+C. Ward sits 30th of 32 in QB value over his last 10 games — the kind of play that caps Tennessee Titans' ceiling.
 
 ## Best Bets Of The Week
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -418,7 +418,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Los Angeles Rams | -2.5 (-110) | FanDuel | 46.5% | -5.85% | No Bet |
 
 ## The Bottom Line
-San Francisco 49ers takes on Los Angeles Rams at Melbourne Cricket Ground and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is San Francisco 49ers +2.5 at 3.46%, still short of the trigger.
+San Francisco 49ers takes on Los Angeles Rams at Melbourne Cricket Ground and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the San Francisco 49ers +2.5 at 3.46%, still short of the trigger.
 
 *Model assumes B. Purdy (San Francisco 49ers) and M. Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -427,13 +427,13 @@ The unit to attack is Los Angeles Rams' defense (10th, one of the league's bette
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-B. Purdy grades out 3rd of 32 in QB value over his last 10 starts; that's the engine behind San Francisco 49ers' number.
+B. Purdy has been one of the most valuable quarterbacks in football over his last 10 games (3rd of 32) — a real tailwind for San Francisco 49ers.
 
 ## Best Bets Of The Week
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -448,7 +448,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 
 ## The Bottom Line
 Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and our model makes **Tampa Bay Buccaneers** a 0.5-point underdog. The market is only pricing them as a 3.5-point underdog — a **3.0-point** gap, and that gap is the bet.
-That puts **Tampa Bay Buccaneers +3.5** on the card at -110 — a lean, not a hammer.
+That puts **the Tampa Bay Buccaneers +3.5** on the card at -110 — a bet.
 
 *Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -466,13 +466,13 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Quarterback X-Factor
-B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
+B. Mayfield sits 29th of 32 in QB value over his last 10 games — the kind of play that caps Tampa Bay Buccaneers' ceiling.
 
 ## Best Bets Of The Week
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
 
 ---
 
@@ -486,16 +486,16 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | 1.63% | Lean – doesn't meet our edge criteria to fully bet |
 
 ## The Bottom Line
-Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Philadelphia Eagles -4.5 at 1.63%, still short of the trigger.
+Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is the Philadelphia Eagles -4.5 at 1.63%, still short of the trigger.
 
 *Model assumes J. Hurts (Philadelphia Eagles) and J. Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Philadelphia Eagles' offense (above-average, 15th in efficiency) draws a get-right spot against Washington Commanders' among the league's worst defense (32nd).
+The unit to attack is Washington Commanders' defense (32nd, among the league's worst), and Philadelphia Eagles (15th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
 
 **This isn't one of our plays — but 6 games clear our 4% threshold this week.** See every one of them, live, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._

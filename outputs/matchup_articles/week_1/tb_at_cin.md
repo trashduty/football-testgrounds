@@ -9,7 +9,7 @@
 
 ## The Bottom Line
 Tampa Bay Buccaneers takes on Cincinnati Bengals at Paycor Stadium and our model makes **Tampa Bay Buccaneers** a 0.5-point underdog. The market is only pricing them as a 3.5-point underdog — a **3.0-point** gap, and that gap is the bet.
-That puts **Tampa Bay Buccaneers +3.5** on the card at -110 — a lean, not a hammer.
+That puts **the Tampa Bay Buccaneers +3.5** on the card at -110 — a bet.
 
 *Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -27,10 +27,10 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Quarterback X-Factor
-B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
+B. Mayfield sits 29th of 32 in QB value over his last 10 games — the kind of play that caps Tampa Bay Buccaneers' ceiling.
 
 ## Best Bets Of The Week
 
 **6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
 
-_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses. [How the model works] · [Our full record]_
+_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._
