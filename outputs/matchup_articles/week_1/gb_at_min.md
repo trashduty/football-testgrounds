@@ -1,3 +1,11 @@
+---
+layout: article
+title: "Green Bay Packers vs Minnesota Vikings"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/gb_at_min/
+---
+
 # Green Bay Packers vs Minnesota Vikings Prediction For 09/13/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></td></tr></table>

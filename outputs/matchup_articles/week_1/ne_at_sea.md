@@ -1,3 +1,11 @@
+---
+layout: article
+title: "New England Patriots vs Seattle Seahawks"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/ne_at_sea/
+---
+
 # New England Patriots vs Seattle Seahawks Prediction For 09/09/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="344" /></td></tr></table>

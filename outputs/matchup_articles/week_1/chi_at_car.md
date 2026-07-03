@@ -1,3 +1,11 @@
+---
+layout: article
+title: "Chicago Bears vs Carolina Panthers"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/chi_at_car/
+---
+
 # Chicago Bears vs Carolina Panthers Prediction For 09/13/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></td></tr></table>

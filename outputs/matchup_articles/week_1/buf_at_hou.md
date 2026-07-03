@@ -1,3 +1,11 @@
+---
+layout: article
+title: "Buffalo Bills vs Houston Texans"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/buf_at_hou/
+---
+
 # Buffalo Bills vs Houston Texans Prediction For 09/13/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="344" /></td></tr></table>
