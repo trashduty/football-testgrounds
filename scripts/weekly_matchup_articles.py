@@ -718,7 +718,7 @@ def render_logo_row(
         return (
             "<table align=\"center\"><tr>"
             f"<td><img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" /></td>"
-            "<td align=\"center\" valign=\"middle\" style=\"font-size:69px\"><strong>vs</strong></td>"
+            "<td align=\"center\" valign=\"middle\" style=\"font-size:128px\"><strong>vs</strong></td>"
             f"<td><img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" /></td>"
             "</tr></table>"
         )
