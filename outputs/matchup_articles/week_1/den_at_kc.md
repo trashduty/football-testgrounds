@@ -8,7 +8,7 @@
 | Kansas City Chiefs | -2.5 (-110) | FanDuel | 58.2% | 5.85% | Bet |
 
 ## The Bottom Line
-Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and our model makes **Kansas City Chiefs** a 5.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **2.5-point** gap, and that gap is the bet.
+Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the number doing the work: our model projects **Kansas City Chiefs** a 5.0-point favorite, while the market sits at a 2.5-point favorite. That **2.5 points** of disagreement is the edge.
 That puts **Kansas City Chiefs -2.5** on the card at -110 — a lean, not a hammer.
 
 *Model assumes P. Mahomes (Kansas City Chiefs) and B. Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*

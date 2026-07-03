@@ -13,7 +13,7 @@ Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is Chicago Bears' defense (19th, below-average), and Carolina Panthers (25th on offense) is equipped to do it.
+Carolina Panthers' offense (struggling, 25th in efficiency) draws a get-right spot against Chicago Bears' below-average defense (19th).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

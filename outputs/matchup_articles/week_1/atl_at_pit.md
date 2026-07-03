@@ -27,7 +27,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-A. Rodgers has been among the least productive starters in the league lately (28th of 32), a real drag on Pittsburgh Steelers.
+A. Rodgers sits 28th of 32 in QB value over his last 10 games — the kind of play that caps Pittsburgh Steelers' ceiling.
 
 ## Best Bets Of The Week
 

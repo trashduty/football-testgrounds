@@ -17,7 +17,7 @@ Houston Texans' offense (18th) runs into Buffalo Bills' above-average defense (1
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) — a real tailwind for Buffalo Bills.
+J. Allen grades out 5th of 32 in QB value over his last 10 starts; that's the engine behind Buffalo Bills' number.
 
 ## Best Bets Of The Week
 

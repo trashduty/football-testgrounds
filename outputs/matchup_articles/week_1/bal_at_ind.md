@@ -13,7 +13,7 @@ Baltimore Ravens takes on Indianapolis Colts at Lucas Oil Stadium and we have **
 *Model assumes L. Jackson (Baltimore Ravens) and D. Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-On efficiency alone Baltimore Ravens (20th) should move the ball on Indianapolis Colts (20th).
+The unit to attack is Indianapolis Colts' defense (20th, below-average), and Baltimore Ravens (20th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

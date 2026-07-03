@@ -8,7 +8,7 @@
 | Seattle Seahawks | -3.5 (-115) | DraftKings | 42.1% | -11.40% | No Bet |
 
 ## The Bottom Line
-New England Patriots takes on Seattle Seahawks at Lumen Field and our model makes **New England Patriots** a 1.0-point favorite. The market is only pricing them as a 4.5-point underdog — a **5.5-point** gap, and that gap is the bet.
+New England Patriots takes on Seattle Seahawks at Lumen Field and the number doing the work: our model projects **New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
 That puts **New England Patriots +4.5** on the card at -105 — a confident play.
 
 *Model assumes D. Maye (New England Patriots) and S. Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*

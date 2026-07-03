@@ -13,7 +13,7 @@ New Orleans Saints takes on Detroit Lions at Ford Field and we have **no play he
 *Model assumes J. Goff (Detroit Lions) and T. Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-New Orleans Saints' offense (27th) runs into Detroit Lions' above-average defense (15th), and the model trusts the defense.
+Detroit Lions' defense (above-average, 15th) should smother New Orleans Saints' struggling offense (27th) — that gap is the spine of the number.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

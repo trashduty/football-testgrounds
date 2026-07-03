@@ -63,7 +63,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-A. Rodgers has been among the least productive starters in the league lately (28th of 32), a real drag on Pittsburgh Steelers.
+A. Rodgers sits 28th of 32 in QB value over his last 10 games — the kind of play that caps Pittsburgh Steelers' ceiling.
 
 ## Best Bets Of The Week
 
@@ -88,7 +88,7 @@ Baltimore Ravens takes on Indianapolis Colts at Lucas Oil Stadium and we have **
 *Model assumes L. Jackson (Baltimore Ravens) and D. Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-On efficiency alone Baltimore Ravens (20th) should move the ball on Indianapolis Colts (20th).
+The unit to attack is Indianapolis Colts' defense (20th, below-average), and Baltimore Ravens (20th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -118,7 +118,7 @@ Houston Texans' offense (18th) runs into Buffalo Bills' above-average defense (1
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) — a real tailwind for Buffalo Bills.
+J. Allen grades out 5th of 32 in QB value over his last 10 starts; that's the engine behind Buffalo Bills' number.
 
 ## Best Bets Of The Week
 
@@ -143,7 +143,7 @@ Chicago Bears takes on Carolina Panthers at Bank of America Stadium and we have 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is Chicago Bears' defense (19th, below-average), and Carolina Panthers (25th on offense) is equipped to do it.
+Carolina Panthers' offense (struggling, 25th in efficiency) draws a get-right spot against Chicago Bears' below-average defense (19th).
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -173,7 +173,7 @@ This rides on Cleveland Browns' defense (6th, one of the league's better) agains
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-D. Watson sits 32nd of 32 in QB value over his last 10 games — the kind of play that caps Cleveland Browns' ceiling.
+D. Watson has been among the least productive starters in the league lately (32nd of 32), a real drag on Cleveland Browns.
 
 ## Best Bets Of The Week
 
@@ -219,7 +219,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Kansas City Chiefs | -2.5 (-110) | FanDuel | 58.2% | 5.85% | Bet |
 
 ## The Bottom Line
-Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and our model makes **Kansas City Chiefs** a 5.0-point favorite. The market is only pricing them as a 2.5-point favorite — a **2.5-point** gap, and that gap is the bet.
+Denver Broncos takes on Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the number doing the work: our model projects **Kansas City Chiefs** a 5.0-point favorite, while the market sits at a 2.5-point favorite. That **2.5 points** of disagreement is the edge.
 That puts **Kansas City Chiefs -2.5** on the card at -110 — a lean, not a hammer.
 
 *Model assumes P. Mahomes (Kansas City Chiefs) and B. Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -267,7 +267,7 @@ This rides on Green Bay Packers' defense (21st, below-average) against Minnesota
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Love grades out 4th of 32 in QB value over his last 10 starts; that's the engine behind Green Bay Packers' number.
+J. Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32) — a real tailwind for Green Bay Packers.
 
 ## Best Bets Of The Week
 
@@ -323,7 +323,7 @@ _Built by the BTB model. We target a 55–57% win rate and publish every result,
 | Seattle Seahawks | -3.5 (-115) | DraftKings | 42.1% | -11.40% | No Bet |
 
 ## The Bottom Line
-New England Patriots takes on Seattle Seahawks at Lumen Field and our model makes **New England Patriots** a 1.0-point favorite. The market is only pricing them as a 4.5-point underdog — a **5.5-point** gap, and that gap is the bet.
+New England Patriots takes on Seattle Seahawks at Lumen Field and the number doing the work: our model projects **New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
 That puts **New England Patriots +4.5** on the card at -105 — a confident play.
 
 *Model assumes D. Maye (New England Patriots) and S. Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -367,7 +367,7 @@ New Orleans Saints takes on Detroit Lions at Ford Field and we have **no play he
 *Model assumes J. Goff (Detroit Lions) and T. Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-New Orleans Saints' offense (27th) runs into Detroit Lions' above-average defense (15th), and the model trusts the defense.
+Detroit Lions' defense (above-average, 15th) should smother New Orleans Saints' struggling offense (27th) — that gap is the spine of the number.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
@@ -393,7 +393,7 @@ New York Jets takes on Tennessee Titans at Nissan Stadium and we have **no play 
 *Model assumes G. Smith (New York Jets) and C. Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-This rides on New York Jets' defense (29th, struggling) against Tennessee Titans, whose offense ranks just 29th.
+Tennessee Titans' offense (29th) runs into New York Jets' struggling defense (29th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
@@ -423,11 +423,11 @@ San Francisco 49ers takes on Los Angeles Rams at Melbourne Cricket Ground and we
 *Model assumes B. Purdy (San Francisco 49ers) and M. Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is Los Angeles Rams' defense (10th, one of the league's better), and San Francisco 49ers (7th on offense) is equipped to do it.
+On efficiency alone San Francisco 49ers (7th) should move the ball on Los Angeles Rams (10th).
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-B. Purdy grades out 3rd of 32 in QB value over his last 10 starts; that's the engine behind San Francisco 49ers' number.
+B. Purdy has been one of the most valuable quarterbacks in football over his last 10 games (3rd of 32) — a real tailwind for San Francisco 49ers.
 
 ## Best Bets Of The Week
 
@@ -466,7 +466,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-B. Mayfield sits 29th of 32 in QB value over his last 10 games — the kind of play that caps Tampa Bay Buccaneers' ceiling.
+B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
 
 ## Best Bets Of The Week
 
@@ -491,7 +491,7 @@ Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field an
 *Model assumes J. Hurts (Philadelphia Eagles) and J. Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-On efficiency alone Philadelphia Eagles (15th) should move the ball on Washington Commanders (32nd).
+The unit to attack is Washington Commanders' defense (32nd, among the league's worst), and Philadelphia Eagles (15th on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week

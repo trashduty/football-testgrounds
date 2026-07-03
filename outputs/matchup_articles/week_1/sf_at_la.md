@@ -13,11 +13,11 @@ San Francisco 49ers takes on Los Angeles Rams at Melbourne Cricket Ground and we
 *Model assumes B. Purdy (San Francisco 49ers) and M. Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-The unit to attack is Los Angeles Rams' defense (10th, one of the league's better), and San Francisco 49ers (7th on offense) is equipped to do it.
+On efficiency alone San Francisco 49ers (7th) should move the ball on Los Angeles Rams (10th).
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-B. Purdy grades out 3rd of 32 in QB value over his last 10 starts; that's the engine behind San Francisco 49ers' number.
+B. Purdy has been one of the most valuable quarterbacks in football over his last 10 games (3rd of 32) — a real tailwind for San Francisco 49ers.
 
 ## Best Bets Of The Week
 

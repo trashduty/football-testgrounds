@@ -13,7 +13,7 @@ New York Jets takes on Tennessee Titans at Nissan Stadium and we have **no play 
 *Model assumes G. Smith (New York Jets) and C. Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-This rides on New York Jets' defense (29th, struggling) against Tennessee Titans, whose offense ranks just 29th.
+Tennessee Titans' offense (29th) runs into New York Jets' struggling defense (29th), and the model trusts the defense.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor

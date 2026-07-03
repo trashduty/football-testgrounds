@@ -17,7 +17,7 @@ This rides on Green Bay Packers' defense (21st, below-average) against Minnesota
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Love grades out 4th of 32 in QB value over his last 10 starts; that's the engine behind Green Bay Packers' number.
+J. Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32) — a real tailwind for Green Bay Packers.
 
 ## Best Bets Of The Week
 

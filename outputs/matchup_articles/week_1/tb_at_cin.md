@@ -27,7 +27,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
 
 ## Quarterback X-Factor
-B. Mayfield sits 29th of 32 in QB value over his last 10 games — the kind of play that caps Tampa Bay Buccaneers' ceiling.
+B. Mayfield has been among the least productive starters in the league lately (29th of 32), a real drag on Tampa Bay Buccaneers.
 
 ## Best Bets Of The Week
 
