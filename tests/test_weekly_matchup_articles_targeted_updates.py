@@ -1,16 +1,122 @@
 import unittest
 
+import pandas as pd
+
 from scripts.weekly_matchup_articles import (
     UnitBattle,
+    build_article,
     build_bottom_line,
     build_cta,
+    model_ranks,
     model_vs_market_lead,
     qb_xfactor,
+    render_logo_row,
     render_risk,
+    StatContext,
+    TeamInjuryReport,
 )
 
 
 class WeeklyMatchupArticlesTargetedUpdatesTest(unittest.TestCase):
+    def test_render_logo_row_uses_borderless_table(self):
+        row = render_logo_row(
+            away_name="Arizona Cardinals",
+            away_logo="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            home_name="Los Angeles Chargers",
+            home_logo="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        )
+
+        self.assertIsNotNone(row)
+        self.assertIn('<table align="center" border="0" style="border-collapse:collapse;border:none;">', row)
+        self.assertIn('style="font-size:69px;border:none;"', row)
+        self.assertIn('style="border:none;"', row)
+
+    def test_build_article_no_bet_still_shows_why_the_pick_and_table(self):
+        game_rows = pd.DataFrame(
+            [
+                {
+                    "team": "ARI",
+                    "game": "ARI@SEA",
+                    "game_date_est": pd.Timestamp("2026-09-10"),
+                    "game_time_est": "8:20",
+                    "market_line": -3.5,
+                    "best_line": -3.0,
+                    "best_book": "DraftKings",
+                    "best_cover_probability": 0.52,
+                    "model_cover_probability": 0.52,
+                    "best_price": -110,
+                    "edge_numeric": 0.02,
+                },
+                {
+                    "team": "SEA",
+                    "game": "ARI@SEA",
+                    "game_date_est": pd.Timestamp("2026-09-10"),
+                    "game_time_est": "8:20",
+                    "market_line": 3.5,
+                    "best_line": 3.0,
+                    "best_book": "FanDuel",
+                    "best_cover_probability": 0.48,
+                    "model_cover_probability": 0.48,
+                    "best_price": -110,
+                    "edge_numeric": -0.02,
+                },
+            ]
+        )
+        metrics = pd.DataFrame([{"team": "ARI"}, {"team": "SEA"}])
+        model_frame = pd.DataFrame(
+            [
+                {
+                    "Team": "ARI",
+                    "Offensive Expected Points (Season)": 0.20,
+                    "Defensive Expected Points (Season)": -0.05,
+                    "Offensive Success Rate (%)": 51.0,
+                    "Defensive Success Rate (%)": 47.0,
+                    "QB Expected Points Added (Last 10 games)": 0.12,
+                    "Offensive Eckel Rate Over Expected (%)": 54.1,
+                    "Defensive Eckel Rate Over Expected (%)": 45.8,
+                    "Qbname": "K.Murray",
+                },
+                {
+                    "Team": "SEA",
+                    "Offensive Expected Points (Season)": 0.05,
+                    "Defensive Expected Points (Season)": 0.04,
+                    "Offensive Success Rate (%)": 48.0,
+                    "Defensive Success Rate (%)": 44.0,
+                    "QB Expected Points Added (Last 10 games)": 0.02,
+                    "Offensive Eckel Rate Over Expected (%)": 48.4,
+                    "Defensive Eckel Rate Over Expected (%)": 50.2,
+                    "Qbname": "G.Smith",
+                },
+            ]
+        )
+        team_names = {"ARI": "Arizona Cardinals", "SEA": "Seattle Seahawks"}
+        injuries = {
+            "ARI": TeamInjuryReport(team="ARI", status="ok_no_injuries"),
+            "SEA": TeamInjuryReport(team="SEA", status="ok_no_injuries"),
+        }
+
+        article, _ = build_article(
+            "ARI@SEA",
+            game_rows,
+            metrics,
+            {},
+            team_names,
+            None,
+            StatContext(season=2026, through_week=1, note="test"),
+            {},
+            injuries,
+            edge_game_count=2,
+            model_ranks_df=model_ranks(model_frame),
+        )
+
+        self.assertIn("## Why The Pick", article)
+        self.assertIn("| | Arizona Cardinals | Seattle Seahawks |", article)
+        self.assertIn(
+            "The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.",
+            article,
+        )
+        self.assertNotIn("## What the Model Sees", article)
+
     def test_build_bottom_line_uses_edge_based_hammer_and_the_bet_name(self):
         lines = build_bottom_line(
             away_name="Away Team",
