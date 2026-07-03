@@ -1308,23 +1308,28 @@ def build_bottom_line(
     venue = stadium_name or f"{home_name}'s home stadium"
     opener = f"{away_name} takes on {home_name} at {venue} and "
     if has_bet:
-        hammer = (
-            "a lean, not a hammer" if confidence == "Lean"
-            else "a confident play" if confidence == "Strong" else "a lean"
-        )
+        edge_val = bet_facts.get("edge")
+        edge_numeric = float(parse_percent(edge_val)) if edge_val is not None and not pd.isna(edge_val) else None
+        if edge_numeric is not None and edge_numeric >= 0.04:
+            hammer = "a bet"
+        elif edge_numeric is not None and edge_numeric >= 0.01:
+            hammer = "a lean"
+        else:
+            hammer = "a lean"
+        the_bet_name = f"the {bet_name}"
         if model_lead:
             out.append(
                 f"{opener}{model_lead[:1].lower() + model_lead[1:]}"
             )
             out.append(
-                f"That puts **{bet_name} {bet_line}** on the card at "
+                f"That puts **{the_bet_name} {bet_line}** on the card at "
                 f"{_price(bet_facts['price'])} — {hammer}."
             )
         else:
             out.append(
                 f"{opener}"
                 + _pick(
-                    [f"the play is **{bet_name} {bet_line}**. At "
+                    [f"the play is **{the_bet_name} {bet_line}**. At "
                      f"{display_percent(bet_facts['cover'], 1)} to cover, the price "
                      f"({_price(bet_facts['price'])}) leaves a "
                      f"{display_edge(bet_facts['edge'])} edge on the table. Treat it as "
@@ -1333,9 +1338,10 @@ def build_bottom_line(
                 )
             )
     else:
+        the_bet_name = f"the {bet_name}"
         out.append(
             f"{opener}we have **no play here**. Neither side clears our 4% edge bar, so we're passing "
-            f"— and that discipline is the point. The closest look is {bet_name} "
+            f"— and that discipline is the point. The closest look is {the_bet_name} "
             f"{bet_line} at {display_edge(bet_facts['edge'])}, still short of the trigger."
         )
     return out
@@ -1400,8 +1406,7 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
         f"{hook} in the member dashboard → "
         "[btb-analytics.com/member-access](https://btb-analytics.com/member-access)",
         "",
-        "_Built by the BTB model. We target a 55–57% win rate and publish every "
-        "result, wins and losses. [How the model works] · [Our full record]_",
+        "_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._",
     ]
 
 
