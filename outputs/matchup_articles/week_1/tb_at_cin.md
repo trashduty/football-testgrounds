@@ -1,3 +1,11 @@
+---
+layout: article
+title: "Tampa Bay Buccaneers vs Cincinnati Bengals"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/tb_at_cin/
+---
+
 # Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 09/13/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="344" /></td></tr></table>

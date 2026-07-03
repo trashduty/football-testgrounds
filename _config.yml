@@ -1,0 +1,22 @@
+title: BTB Analytics
+description: NFL matchup predictions and best bets
+baseurl: "/football-testgrounds"
+url: "https://trashduty.github.io"
+
+# Jekyll settings
+markdown: kramdown
+theme: minima
+
+# Tell Jekyll to process the outputs folder
+include:
+  - outputs
+
+# Exclude non-page files
+exclude:
+  - scripts/
+  - data-raw/
+  - inst/
+  - tests/
+  - vignettes/
+  - requirements.txt
+  - "*.csv"

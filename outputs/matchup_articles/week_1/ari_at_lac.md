@@ -1,3 +1,11 @@
+---
+layout: article
+title: "Arizona Cardinals vs Los Angeles Chargers"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/ari_at_lac/
+---
+
 # Arizona Cardinals vs Los Angeles Chargers Prediction For 09/13/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="344" /></td></tr></table>

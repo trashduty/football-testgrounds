@@ -1649,10 +1649,23 @@ def main() -> None:
             games_with_edges,
             model_rank_lookup,
         )
+        game_slug = slugify_game(game)
+        away_full = team_names.get(away_team, away_team)
+        home_full = team_names.get(home_team, home_team)
+        front_matter = (
+            f"---\n"
+            f"layout: article\n"
+            f"title: \"{away_full} vs {home_full}\"\n"
+            f"week: {week}\n"
+            f"season: {season}\n"
+            f"permalink: /outputs/matchup_articles/week_{week}/{game_slug}/\n"
+            f"---\n\n"
+        )
+        article_with_front_matter = front_matter + article
         combined_articles.append(article.rstrip())
-        article_payload["article_path"] = f"{slugify_game(game)}.md"
+        article_payload["article_path"] = f"{game_slug}.md"
         payload["articles"].append(article_payload)
-        (weekly_dir / f"{slugify_game(game)}.md").write_text(article, encoding="utf-8")
+        (weekly_dir / f"{game_slug}.md").write_text(article_with_front_matter, encoding="utf-8")
 
     combined_path = weekly_dir / "weekly_matchup_articles.md"
     combined_path.write_text("\n\n---\n\n".join(combined_articles) + "\n", encoding="utf-8")

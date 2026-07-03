@@ -1,3 +1,11 @@
+---
+layout: article
+title: "Atlanta Falcons vs Pittsburgh Steelers"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/atl_at_pit/
+---
+
 # Atlanta Falcons vs Pittsburgh Steelers Prediction For 09/13/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="344" /></td></tr></table>

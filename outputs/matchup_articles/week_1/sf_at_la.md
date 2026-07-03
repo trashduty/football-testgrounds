@@ -1,3 +1,11 @@
+---
+layout: article
+title: "San Francisco 49ers vs Los Angeles Rams"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/sf_at_la/
+---
+
 # San Francisco 49ers vs Los Angeles Rams Prediction For 09/10/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="344" /></td></tr></table>

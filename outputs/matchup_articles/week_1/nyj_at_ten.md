@@ -1,3 +1,11 @@
+---
+layout: article
+title: "New York Jets vs Tennessee Titans"
+week: 1
+season: 2026
+permalink: /outputs/matchup_articles/week_1/nyj_at_ten/
+---
+
 # New York Jets vs Tennessee Titans Prediction For 09/13/2026
 
 <table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></td></tr></table>
