@@ -725,15 +725,15 @@ def render_logo_row(
     if away_logo and home_logo:
         return (
             "<p align=\"center\">"
-            f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"144\" />"
-            " <strong>vs</strong> "
-            f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"144\" />"
+            f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" />"
+            " <span style=\"font-size:72px\"><strong>vs</strong></span> "
+            f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" />"
             "</p>"
         )
     if away_logo:
-        return f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"144\" />"
+        return f"<img src=\"{away_logo}\" alt=\"{away_name}\" width=\"344\" />"
     if home_logo:
-        return f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"144\" />"
+        return f"<img src=\"{home_logo}\" alt=\"{home_name}\" width=\"344\" />"
     return None
 
 
