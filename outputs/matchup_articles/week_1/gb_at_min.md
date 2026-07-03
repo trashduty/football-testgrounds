@@ -1,6 +1,6 @@
 # Green Bay Packers vs Minnesota Vikings Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -12,12 +12,23 @@ The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and we 
 
 *Model assumes J. Love (Green Bay Packers) and K. Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-## What the Model Sees
-Minnesota Vikings' offense (28th) runs into Green Bay Packers' below-average defense (21st), and the model trusts the defense.
-The lean exists — it just isn't big enough to bet.
+## Why The Pick
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
+
+| | Green Bay Packers | Minnesota Vikings |
+|---|---|---|
+| QB Efficiency (Last 10 Games) | J. Love (4th) | K. Murray (16th) |
+| Offensive Success Rate | 3rd | 22nd |
+| Defensive Success Rate | 12th | 10th |
+| Offensive Eckel Rate Over Expected* | 55.7% | 41.1% |
+| Defensive Eckel Rate Over Expected | 48.8% | 49.3% |
+
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
-J. Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32)  - a real tailwind for Green Bay Packers.
+J. Love grades out 4th of 32 in QB value over his last 10 starts; that's the engine behind Green Bay Packers' number.
 
 ## Best Bets Of The Week
 

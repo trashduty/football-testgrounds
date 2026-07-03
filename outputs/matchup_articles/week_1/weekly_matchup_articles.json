@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-03T04:21:30.018108+00:00",
+  "generated_at_utc": "2026-07-03T04:47:11.891036+00:00",
   "season": 2026,
   "week": 1,
   "games_with_edges_at_or_above_0_04": 6,
@@ -427,7 +427,7 @@
           "starters": []
         },
         "LA": {
-          "status": "depth_parse_failed",
+          "status": "injury_fetch_failed",
           "starters": []
         }
       },
@@ -483,7 +483,7 @@
       },
       "injury_reports": {
         "WAS": {
-          "status": "depth_parse_failed",
+          "status": "injury_fetch_failed",
           "starters": []
         },
         "PHI": {

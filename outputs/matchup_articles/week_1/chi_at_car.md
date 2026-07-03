@@ -1,6 +1,6 @@
 # Chicago Bears vs Carolina Panthers Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -12,9 +12,20 @@ The Chicago Bears take on the Carolina Panthers at Bank of America Stadium and w
 
 *Model assumes B. Young (Carolina Panthers) and C. Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-## What the Model Sees
-Carolina Panthers' offense (struggling, 25th in efficiency) draws a get-right spot against Chicago Bears' below-average defense (19th).
-The lean exists — it just isn't big enough to bet.
+## Why The Pick
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
+
+| | Carolina Panthers | Chicago Bears |
+|---|---|---|
+| QB Efficiency (Last 10 Games) | B. Young (22nd) | C. Williams (15th) |
+| Offensive Success Rate | 18th | 13th |
+| Defensive Success Rate | 16th | 23rd |
+| Offensive Eckel Rate Over Expected* | 48.9% | 57.3% |
+| Defensive Eckel Rate Over Expected | 53.5% | 50.0% |
+
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Best Bets Of The Week
 

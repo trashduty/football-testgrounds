@@ -1,6 +1,6 @@
 # Washington Commanders vs Philadelphia Eagles Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -12,9 +12,20 @@ The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial F
 
 *Model assumes J. Hurts (Philadelphia Eagles) and J. Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-## What the Model Sees
-The unit to attack is Washington Commanders' defense (32nd, among the league's worst), and Philadelphia Eagles (15th on offense) is equipped to do it.
-The lean exists — it just isn't big enough to bet.
+## Why The Pick
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
+
+| | Philadelphia Eagles | Washington Commanders |
+|---|---|---|
+| QB Efficiency (Last 10 Games) | J. Hurts (14th) | J. Daniels (18th) |
+| Offensive Success Rate | 23rd | 9th |
+| Defensive Success Rate | 7th | 27th |
+| Offensive Eckel Rate Over Expected* | 44.1% | 55.0% |
+| Defensive Eckel Rate Over Expected | 51.0% | 56.6% |
+
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Best Bets Of The Week
 

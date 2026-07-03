@@ -1,6 +1,6 @@
 # Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
 
-<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:128px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -12,9 +12,20 @@ The Cleveland Browns take on the Jacksonville Jaguars at EverBank Stadium and we
 
 *Model assumes D. Watson (Cleveland Browns) and T. Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
 
-## What the Model Sees
-This rides on Cleveland Browns' defense (6th, one of the league's better) against Jacksonville Jaguars, whose offense ranks just 14th.
-The lean exists — it just isn't big enough to bet.
+## Why The Pick
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
+
+| | Cleveland Browns | Jacksonville Jaguars |
+|---|---|---|
+| QB Efficiency (Last 10 Games) | D. Watson (32nd) | T. Lawrence (7th) |
+| Offensive Success Rate | 32nd | 15th |
+| Defensive Success Rate | 1st | 9th |
+| Offensive Eckel Rate Over Expected* | 34.6% | 53.0% |
+| Defensive Eckel Rate Over Expected | 43.4% | 45.6% |
+
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 ## Quarterback X-Factor
 D. Watson sits 32nd of 32 in QB value over his last 10 games - the kind of play that caps Cleveland Browns' ceiling.
