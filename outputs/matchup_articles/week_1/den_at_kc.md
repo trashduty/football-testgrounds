@@ -8,7 +8,7 @@ permalink: /outputs/matchup_articles/week_1/den_at_kc/
 
 # Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|

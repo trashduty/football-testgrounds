@@ -8,7 +8,7 @@ permalink: /outputs/matchup_articles/week_1/cle_at_jax/
 
 # Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|

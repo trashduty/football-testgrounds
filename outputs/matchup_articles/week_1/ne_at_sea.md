@@ -8,7 +8,7 @@ permalink: /outputs/matchup_articles/week_1/ne_at_sea/
 
 # New England Patriots vs Seattle Seahawks Prediction For 09/09/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="344" /></td><td align="center" valign="middle" style="font-size:169px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="344" /></td></tr></table>
+<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -16,7 +16,7 @@ permalink: /outputs/matchup_articles/week_1/ne_at_sea/
 | Seattle Seahawks | -3.5 (-115) | DraftKings | 42.1% | -11.40% | No Bet |
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Lumen Field and our model makes **the New England Patriots** a 1.0-point favorite. The market is only pricing them as a 4.5-point underdog - a **5.5-point** gap, and that gap is the bet.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the number doing the work: our model projects **the New England Patriots** a 1.0-point favorite, while the market sits at a 4.5-point underdog. That **5.5 points** of disagreement is the edge.
 This puts the edge at 10.70%, which at +4.5 for -105 makes the New England Patriots a bet.
 
 *Model assumes D. Maye (New England Patriots) and S. Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
@@ -35,7 +35,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 \*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
 
 ## Quarterback X-Factor
-D. Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32)  - a real tailwind for New England Patriots.
+D. Maye grades out 2nd of 32 in QB value over his last 10 starts; that's the engine behind New England Patriots' number.
 
 ## Best Bets Of The Week
 
