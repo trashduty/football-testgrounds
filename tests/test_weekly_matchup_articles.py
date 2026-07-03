@@ -360,7 +360,7 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
             article.index("<p align=\"center\">"),
         )
         self.assertIn(
-            "<p align=\"center\"><img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png\" alt=\"Arizona Cardinals\" width=\"84\" /> <strong>vs</strong> <img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png\" alt=\"Los Angeles Chargers\" width=\"84\" /></p>",
+            "<p align=\"center\"><img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png\" alt=\"Arizona Cardinals\" width=\"224\" /> " <span style=\"font-size:48px\"><strong>vs</strong></span> " <img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png\" alt=\"Los Angeles Chargers\" width=\"224\" /></p>",
             article,
         )
         self.assertIn("| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |", article)
