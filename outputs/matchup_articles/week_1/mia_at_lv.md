@@ -1,6 +1,6 @@
 # Miami Dolphins vs Las Vegas Raiders Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="344" /></p>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -8,13 +8,13 @@
 | Las Vegas Raiders | -3.5 (-110) | BetMGM | 39.9% | -12.51% | No Bet |
 
 ## The Bottom Line
-Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and the number doing the work: our model projects **Miami Dolphins** a 2.5-point favorite, while the market sits at a 3.5-point underdog. That **6.0 points** of disagreement is the edge.
+Miami Dolphins takes on Las Vegas Raiders at Allegiant Stadium and our model makes **Miami Dolphins** a 2.5-point favorite. The market is only pricing them as a 3.5-point underdog — a **6.0-point** gap, and that gap is the bet.
 That puts **Miami Dolphins +3.5** on the card at -110 — a confident play.
 
 *Model assumes M. Willis (Miami Dolphins) and K. Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## Why The Pick
-Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Miami Dolphins | Las Vegas Raiders |
 |---|---|---|
@@ -24,7 +24,7 @@ Our model uses data points that correlate best with a team covering. Here’s ho
 | Offensive Eckel Rate Over Expected* | 49.3% | 34.7% |
 | Defensive Eckel Rate Over Expected | 52.2% | 56.5% |
 
-\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Best Bets Of The Week
 

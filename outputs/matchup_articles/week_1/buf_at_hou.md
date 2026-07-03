@@ -1,10 +1,10 @@
 # Buffalo Bills vs Houston Texans Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="344" /></p>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
-| Buffalo Bills | -1.5 (+102) | DraftKings | 51.8% | 2.35% | Lean – doesn’t meet our edge criteria to fully bet |
+| Buffalo Bills | -1.5 (+102) | DraftKings | 51.8% | 2.35% | Lean – doesn't meet our edge criteria to fully bet |
 | Houston Texans | +0.5 (-110) | Fanatics | 47.0% | -5.39% | No Bet |
 
 ## The Bottom Line
@@ -13,11 +13,11 @@ Buffalo Bills takes on Houston Texans at Reliant Stadium and we have **no play h
 *Model assumes J. Allen (Buffalo Bills) and C. Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Houston Texans' offense (18th) runs into Buffalo Bills' above-average defense (12th), and the model trusts the defense.
+Buffalo Bills' defense (above-average, 12th) should smother Houston Texans' middling offense (18th) — that gap is the spine of the number.
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-J. Allen grades out 5th of 32 in QB value over his last 10 starts; that's the engine behind Buffalo Bills' number.
+J. Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) — a real tailwind for Buffalo Bills.
 
 ## Best Bets Of The Week
 

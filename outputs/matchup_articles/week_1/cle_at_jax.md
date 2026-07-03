@@ -1,6 +1,6 @@
 # Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></p>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -17,7 +17,7 @@ This rides on Cleveland Browns' defense (6th, one of the league's better) agains
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-D. Watson sits 32nd of 32 in QB value over his last 10 games — the kind of play that caps Cleveland Browns' ceiling.
+D. Watson has been among the least productive starters in the league lately (32nd of 32), a real drag on Cleveland Browns.
 
 ## Best Bets Of The Week
 

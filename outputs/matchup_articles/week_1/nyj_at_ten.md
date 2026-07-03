@@ -1,10 +1,10 @@
 # New York Jets vs Tennessee Titans Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></p>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
-| New York Jets | +3.0 (-105) | DraftKings | 53.5% | 2.24% | Lean – doesn’t meet our edge criteria to fully bet |
+| New York Jets | +3.0 (-105) | DraftKings | 53.5% | 2.24% | Lean – doesn't meet our edge criteria to fully bet |
 | Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | -5.85% | No Bet |
 
 ## The Bottom Line
@@ -17,8 +17,8 @@ Tennessee Titans' offense (29th) runs into New York Jets' struggling defense (29
 The lean exists — it just isn't big enough to bet.
 
 ## Quarterback X-Factor
-G. Smith sits 31st of 32 in QB value over his last 10 games — the kind of play that caps New York Jets' ceiling.
-C. Ward has been among the least productive starters in the league lately (30th of 32), a real drag on Tennessee Titans.
+G. Smith has been among the least productive starters in the league lately (31st of 32), a real drag on New York Jets.
+C. Ward sits 30th of 32 in QB value over his last 10 games — the kind of play that caps Tennessee Titans' ceiling.
 
 ## Best Bets Of The Week
 

@@ -1,11 +1,11 @@
 # Washington Commanders vs Philadelphia Eagles Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></p>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
 | Washington Commanders | +5.5 (-110) | DraftKings | 48.2% | -4.20% | No Bet |
-| Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | 1.63% | Lean – doesn’t meet our edge criteria to fully bet |
+| Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | 1.63% | Lean – doesn't meet our edge criteria to fully bet |
 
 ## The Bottom Line
 Washington Commanders takes on Philadelphia Eagles at Lincoln Financial Field and we have **no play here**. Neither side clears our 4% edge bar, so we're passing — and that discipline is the point. The closest look is Philadelphia Eagles -4.5 at 1.63%, still short of the trigger.

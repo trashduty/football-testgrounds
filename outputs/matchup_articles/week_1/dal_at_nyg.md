@@ -1,6 +1,6 @@
 # Dallas Cowboys vs New York Giants Prediction For 09/13/2026
 
-<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="344" /> <span style="font-size:72px"><strong>vs</strong></span> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="344" /></p>
+<table align="center"><tr><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="344" /></td><td align="center" valign="middle" style="font-size:69px"><strong>vs</strong></td><td><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="344" /></td></tr></table>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@ Dallas Cowboys takes on New York Giants at MetLife Stadium and we have **no play
 *Model assumes D. Prescott (Dallas Cowboys) and J. Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## What the Model Sees
-Dallas Cowboys' offense (elite, 2nd in efficiency) draws a get-right spot against New York Giants' struggling defense (27th).
+The unit to attack is New York Giants' defense (27th, struggling), and Dallas Cowboys (2nd on offense) is equipped to do it.
 The lean exists — it just isn't big enough to bet.
 
 ## Best Bets Of The Week
