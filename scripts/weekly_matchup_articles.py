@@ -1034,9 +1034,9 @@ def model_vs_market_lead(bet_name, model_pred, market_line, seed) -> Optional[st
     market_words = _spread_words(market_line) or format_line(market_line)
     return _pick(
         [
-            f"Our model makes **{bet_name}** {words}. The market is only pricing them "
-            f"as {market_words} — a **{gap:.1f}-point** gap, and that gap is the bet.",
-            f"The number doing the work: our model projects **{bet_name}** {words}, "
+            f"Our model makes **the {bet_name}** {words}. The market is only pricing them "
+            f"as {market_words} - a **{gap:.1f}-point** gap, and that gap is the bet.",
+            f"The number doing the work: our model projects **the {bet_name}** {words}, "
             f"while the market sits at {market_words}. That **{gap:.1f} points** of "
             f"disagreement is the edge.",
         ],
@@ -1222,10 +1222,10 @@ def render_risk(risk: Tuple[str, UnitBattle], opp_name: str,
     return _pick(
         [
             f"{poss(opp_name)} best path is {unit} ({o_ord}), but they're outgunned across "
-            f"the board — so the real threat is variance: a fluky turnover, a "
+            f"the board - so the real threat is variance: a fluky turnover, a "
             f"special-teams swing, or garbage-time points backing them into a cover.",
             f"There's no obvious soft spot for {opp_name} to attack; their {o_ord}-ranked "
-            f"offense is the only lever. Realistically the risk is variance — short "
+            f"offense is the only lever. Realistically the risk is variance - short "
             f"fields, a non-offensive score, or a late backdoor cover.",
         ],
         seed,
@@ -1263,7 +1263,7 @@ def qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, seed) -> List[str]
                 _pick(
                     [f"{name} has been one of the most valuable quarterbacks in "
                      f"football over his last 10 games ({_ord(rank)} of {total_teams}) "
-                     f"— a real tailwind for {team_name}.",
+                     f" - a real tailwind for {team_name}.",
                      f"{name} grades out {_ord(rank)} of {total_teams} in QB value over "
                      f"his last 10 starts; that's the engine behind {poss(team_name)} "
                      f"number."],
@@ -1274,7 +1274,7 @@ def qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, seed) -> List[str]
             out.append(
                 _pick(
                     [f"{name} sits {_ord(rank)} of {total_teams} in QB value over his "
-                     f"last 10 games — the kind of play that caps {poss(team_name)} "
+                     f"last 10 games - the kind of play that caps {poss(team_name)} "
                      f"ceiling.",
                      f"{name} has been among the least productive starters in the league "
                      f"lately ({_ord(rank)} of {total_teams}), a real drag on {team_name}."],
@@ -1305,25 +1305,28 @@ def build_bottom_line(
     """Human paragraph only. Replaces the Q&A 'Verdict'.
     `model_lead` (model-line-vs-market sentence) leads when available."""
     out: List[str] = ["## The Bottom Line"]
-    venue = stadium_name or f"{home_name}'s home stadium"
-    opener = f"{away_name} takes on {home_name} at {venue} and "
+    venue = stadium_name or f"the {home_name}'s home stadium"
+    opener = f"The {away_name} take on the {home_name} at {venue} and "
+    the_bet_name = f"the {bet_name}"
+
+    # Derive label directly from edge, matching matchup_call_label rules
+    edge_val = bet_facts.get("edge")
+    edge_numeric = float(parse_percent(edge_val)) if edge_val is not None and not pd.isna(edge_val) else None
+    if edge_numeric is not None and edge_numeric >= 0.04:
+        hammer = "a bet"
+    elif edge_numeric is not None and edge_numeric >= 0.01:
+        hammer = "a lean"
+    else:
+        hammer = "a lean"
+
     if has_bet:
-        edge_val = bet_facts.get("edge")
-        edge_numeric = float(parse_percent(edge_val)) if edge_val is not None and not pd.isna(edge_val) else None
-        if edge_numeric is not None and edge_numeric >= 0.04:
-            hammer = "a bet"
-        elif edge_numeric is not None and edge_numeric >= 0.01:
-            hammer = "a lean"
-        else:
-            hammer = "a lean"
-        the_bet_name = f"the {bet_name}"
         if model_lead:
             out.append(
                 f"{opener}{model_lead[:1].lower() + model_lead[1:]}"
             )
             out.append(
-                f"That puts **{the_bet_name} {bet_line}** on the card at "
-                f"{_price(bet_facts['price'])} — {hammer}."
+                f"This puts the edge at {display_edge(edge_val)}, which at {bet_line} "
+                f"for {_price(bet_facts['price'])} makes {the_bet_name} {hammer}."
             )
         else:
             out.append(
@@ -1338,10 +1341,9 @@ def build_bottom_line(
                 )
             )
     else:
-        the_bet_name = f"the {bet_name}"
         out.append(
-            f"{opener}we have **no play here**. Neither side clears our 4% edge bar, so we're passing "
-            f"— and that discipline is the point. The closest look is {the_bet_name} "
+            f"{opener}we have **no play here**. Neither side clears our 4% edge bar, so we are passing "
+            f"on this one. The closest look is {the_bet_name} "
             f"{bet_line} at {display_edge(bet_facts['edge'])}, still short of the trigger."
         )
     return out
@@ -1406,7 +1408,7 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
         f"{hook} in the member dashboard → "
         "[btb-analytics.com/member-access](https://btb-analytics.com/member-access)",
         "",
-        "_Built by the BTB model. We target a 55–57% win rate and publish every result, wins and losses._",
+        "_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._",
     ]
 
 
