@@ -1,31 +1,69 @@
-# Install/load packages if needed
-if (!requireNamespace("nflreadr", quietly = TRUE)) install.packages("nflreadr")
+if (!requireNamespace("rvest", quietly = TRUE)) install.packages("rvest")
 if (!requireNamespace("dplyr", quietly = TRUE)) install.packages("dplyr")
+if (!requireNamespace("purrr", quietly = TRUE)) install.packages("purrr")
+if (!requireNamespace("stringr", quietly = TRUE)) install.packages("stringr")
 if (!requireNamespace("readr", quietly = TRUE)) install.packages("readr")
+if (!requireNamespace("janitor", quietly = TRUE)) install.packages("janitor")
+if (!requireNamespace("tibble", quietly = TRUE)) install.packages("tibble")
 
-library(nflreadr)
+library(rvest)
 library(dplyr)
+library(purrr)
+library(stringr)
 library(readr)
+library(janitor)
+library(tibble)
 
-season_year <- 2026
+season <- 2026
 
-# Load play-by-play data for 2026 season
-pbp <- load_pbp(seasons = season_year)
+# NFL team abbreviations used by Pro-Football-Reference URLs
+teams <- c(
+  "crd","atl","rav","buf","car","chi","cin","cle","dal","den","det","gnb",
+  "htx","clt","jax","kan","rai","sdg","ram","mia","min","nwe","nor","nyg",
+  "nyj","phi","pit","sfo","sea","tam","oti","was"
+)
 
-# Extract unique QB names and IDs
-qb_names <- pbp %>%
-  filter(!is.na(passer_player_name), passer_player_name != "") %>%
-  distinct(
-    passer_player_id,
-    passer_player_name
-  ) %>%
-  arrange(passer_player_name)
+scrape_team_qbs <- function(team_code, season) {
+  url <- sprintf("https://www.pro-football-reference.com/teams/%s/%s_roster.htm", team_code, season)
 
-# Ensure output directory exists
+  message("Reading: ", url)
+
+  page <- tryCatch(read_html(url), error = function(e) NULL)
+  if (is.null(page)) return(tibble())
+
+  # PFR roster table id is usually "games_played_team"
+  roster <- page %>%
+    html_element("table#games_played_team") %>%
+    html_table()
+
+  if (is.null(roster) || nrow(roster) == 0) return(tibble())
+
+  roster <- roster %>%
+    clean_names()
+
+  # Position column is usually "pos"
+  if (!"pos" %in% names(roster)) return(tibble())
+
+  qbs <- roster %>%
+    filter(pos == "QB") %>%
+    transmute(
+      season = season,
+      team_code = toupper(team_code),
+      player_name = player,
+      pos = pos,
+      age = suppressWarnings(as.integer(age)),
+      games = suppressWarnings(as.integer(g)),
+      games_started = suppressWarnings(as.integer(gs))
+    )
+
+  qbs
+}
+
+qb_df <- map_dfr(teams, scrape_team_qbs, season = season) %>%
+  distinct(season, team_code, player_name, .keep_all = TRUE) %>%
+  arrange(team_code, player_name)
+
 dir.create("inst/extdata", recursive = TRUE, showWarnings = FALSE)
+write_csv(qb_df, "inst/extdata/qb_names_2026_pfr.csv")
 
-# Write CSV
-write_csv(qb_names, "inst/extdata/qb_names_2026.csv")
-
-cat("✓ CSV saved to inst/extdata/qb_names_2026.csv\n")
-cat("Total QBs found:", nrow(qb_names), "\n")
+message("Saved inst/extdata/qb_names_2026_pfr.csv with ", nrow(qb_df), " rows.")
