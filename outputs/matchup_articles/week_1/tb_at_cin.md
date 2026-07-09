@@ -1,44 +1,21 @@
----
-layout: article
-title: "Tampa Bay Buccaneers vs Cincinnati Bengals"
-week: 1
-season: 2026
-permalink: /outputs/matchup_articles/week_1/tb_at_cin/
----
-
 # Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 09/13/2026
 
-<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="344" /></td><td align="center" valign="middle" style="font-size:69px;border:none;"><strong>vs</strong></td><td style="border:none;"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="344" /></td></tr></table>
+| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+|---|---|---|---|---|
+| Tampa Bay Buccaneers | +3.5 (-110) | DraftKings | 57.9% | Bet |
+| Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |
-|---|---|---|---|---|---|
-| Tampa Bay Buccaneers | +3.5 (-110) | DraftKings | 57.9% | 5.52% | Bet |
-| Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | -10.30% | No Bet |
-
-## The Bottom Line
-The Tampa Bay Buccaneers take on the Cincinnati Bengals at Paycor Stadium and the number doing the work: our model projects **the Tampa Bay Buccaneers** a 0.5-point underdog, while the market sits at a 3.5-point underdog. That **3.0 points** of disagreement is the edge.
-This puts the edge at 5.52%, which at +3.5 for -110 makes the Tampa Bay Buccaneers a bet.
-
-*Model assumes B. Mayfield (Tampa Bay Buccaneers) and J. Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## Why The Pick
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Tampa Bay Buccaneers | Cincinnati Bengals |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | B. Mayfield (29th) | J. Burrow (6th) |
+| QB Efficiency (Last 10 Games) | Baker Mayfield (29th) | Joe Burrow (6th) |
 | Offensive Success Rate | 27th | 17th |
 | Defensive Success Rate | 20th | 32nd |
 | Offensive Eckel Rate Over Expected* | 48.3% | 50.0% |
 | Defensive Eckel Rate Over Expected | 49.7% | 57.6% |
 
-\*The rate of possessions that result in a big play touchdown or a 1st down inside the opponent's 40 yard line, over expected
-
 ## Quarterback X-Factor
-B. Mayfield sits 29th of 32 in QB value over his last 10 games - the kind of play that caps Tampa Bay Buccaneers' ceiling.
-
-## Best Bets Of The Week
-
-**6 games clear our 4% threshold this week — this is one of them.** See all 6, live and updating as the lines move, in the member dashboard → [btb-analytics.com/member-access](https://btb-analytics.com/member-access)
-
-_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+Baker Mayfield sits 29th of 32 in QB value over his last 10 games - the kind of play that caps Tampa Bay Buccaneers's ceiling.

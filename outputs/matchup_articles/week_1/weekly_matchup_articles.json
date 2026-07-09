@@ -1,496 +1,118 @@
 {
-  "generated_at_utc": "2026-07-03T15:41:30.578534+00:00",
+  "generated_at_utc": "2026-07-09T23:43:23.847018+00:00",
   "season": 2026,
   "week": 1,
-  "games_with_edges_at_or_above_0_04": 6,
-  "total_games": 16,
-  "field_provenance": {
-    "epa": "Expected points added (EPA) by the posteam for the given play.",
-    "passing_yards": "Yards gained on pass plays.",
-    "rushing_yards": "Yards gained when rushing with the ball (incl. scrambles and kneel downs). Also includes yards gained after obtaining a lateral on a play that started with a rushing attempt.",
-    "sack": "Binary indicator for if the play ended in a sack.",
-    "wind": "The speed of the wind in miles/hour only for 'roof' = 'outdoors' or 'open'. (Source: Pro-Football-Reference)",
-    "special_teams_tds": "Total number of kick/punt return touchdowns"
-  },
   "articles": [
     {
       "game": "ARI@LAC",
       "away_team": "ARI",
       "home_team": "LAC",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "04:25 PM",
-      "location": "SoFi Stadium",
-      "bet_side": "Los Angeles Chargers -9.5",
-      "confidence": "Lean",
-      "has_bet": true,
-      "governing_storyline": "defense:overall",
-      "line_summary": "LAC -10.5 / ARI +10.5",
-      "best_book_summary": "LAC -9.5 at BetRivers; ARI +11.5 at DraftKings",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "ARI": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "LAC": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
+      "has_bet": false,
       "article_path": "ari_at_lac.md"
     },
     {
       "game": "ATL@PIT",
       "away_team": "ATL",
       "home_team": "PIT",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "Acrisure Stadium",
-      "bet_side": "Pittsburgh Steelers -2.5",
-      "confidence": "Strong",
       "has_bet": true,
-      "governing_storyline": "defense:overall",
-      "line_summary": "PIT -2.5 / ATL +2.5",
-      "best_book_summary": "PIT -2.5 at BetRivers; ATL +3.0 at DraftKings",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "ATL": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "PIT": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "atl_at_pit.md"
     },
     {
       "game": "BAL@IND",
       "away_team": "BAL",
       "home_team": "IND",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "Lucas Oil Stadium",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "offense:overall",
-      "line_summary": "BAL -3.5 / IND +3.5",
-      "best_book_summary": "BAL -3.5 at DraftKings; IND +3.5 at FanDuel",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "BAL": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "IND": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "bal_at_ind.md"
     },
     {
       "game": "BUF@HOU",
       "away_team": "BUF",
       "home_team": "HOU",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "Reliant Stadium",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "defense:overall",
-      "line_summary": "BUF -1.5 / HOU +1.5",
-      "best_book_summary": "BUF -1.5 at DraftKings; HOU +0.5 at Fanatics",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "BUF": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "HOU": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "buf_at_hou.md"
     },
     {
       "game": "CHI@CAR",
       "away_team": "CHI",
       "home_team": "CAR",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "Bank of America Stadium",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "offense:overall",
-      "line_summary": "CHI -2.5 / CAR +2.5",
-      "best_book_summary": "CHI -2.5 at DraftKings; CAR +2.5 at FanDuel",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "CHI": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "CAR": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "chi_at_car.md"
     },
     {
       "game": "CLE@JAX",
       "away_team": "CLE",
       "home_team": "JAX",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "EverBank Stadium",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "defense:overall",
-      "line_summary": "JAX -7.0 / CLE +7.5",
-      "best_book_summary": "JAX -7.5 at FanDuel; CLE +7.5 at BetMGM",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "CLE": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "JAX": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "cle_at_jax.md"
     },
     {
       "game": "DAL@NYG",
       "away_team": "DAL",
       "home_team": "NYG",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "08:20 PM",
-      "location": "MetLife Stadium",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "offense:overall",
-      "line_summary": "DAL -2.0 / NYG +2.5",
-      "best_book_summary": "DAL -2.5 at DraftKings; NYG +2.5 at FanDuel",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "DAL": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "NYG": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "dal_at_nyg.md"
     },
     {
       "game": "DEN@KC",
       "away_team": "DEN",
       "home_team": "KC",
-      "kickoff_date": "2026-09-14",
-      "kickoff_time_et": "08:15 PM",
-      "location": "GEHA Field at Arrowhead Stadium",
-      "bet_side": "Kansas City Chiefs -2.5",
-      "confidence": "Lean",
       "has_bet": true,
-      "governing_storyline": "defense:overall",
-      "line_summary": "KC -2.5 / DEN +2.5",
-      "best_book_summary": "KC -2.5 at FanDuel; DEN +2.5 at DraftKings",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "DEN": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "KC": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "den_at_kc.md"
     },
     {
       "game": "GB@MIN",
       "away_team": "GB",
       "home_team": "MIN",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "04:25 PM",
-      "location": "U.S. Bank Stadium",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "defense:overall",
-      "line_summary": "GB -1.5 / MIN +1.5",
-      "best_book_summary": "GB -1.5 at BetMGM; MIN +1.5 at FanDuel",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "GB": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "MIN": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "gb_at_min.md"
     },
     {
       "game": "MIA@LV",
       "away_team": "MIA",
       "home_team": "LV",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "04:25 PM",
-      "location": "Allegiant Stadium",
-      "bet_side": "Miami Dolphins +3.5",
-      "confidence": "Strong",
       "has_bet": true,
-      "governing_storyline": "defense:overall",
-      "line_summary": "LV -3.0 / MIA +3.0",
-      "best_book_summary": "LV -3.5 at BetMGM; MIA +3.5 at BetMGM",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "MIA": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "LV": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "mia_at_lv.md"
     },
     {
       "game": "NE@SEA",
       "away_team": "NE",
       "home_team": "SEA",
-      "kickoff_date": "2026-09-09",
-      "kickoff_time_et": "08:15 PM",
-      "location": "Lumen Field",
-      "bet_side": "New England Patriots +4.5",
-      "confidence": "Strong",
       "has_bet": true,
-      "governing_storyline": "defense:overall",
-      "line_summary": "SEA -4.5 / NE +4.5",
-      "best_book_summary": "SEA -3.5 at DraftKings; NE +4.5 at BetMGM",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "NE": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "SEA": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "ne_at_sea.md"
     },
     {
       "game": "NO@DET",
       "away_team": "NO",
       "home_team": "DET",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "Ford Field",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "defense:overall",
-      "line_summary": "DET -7.0 / NO +7.0",
-      "best_book_summary": "DET -7.5 at BetRivers; NO +7.5 at BetRivers",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "NO": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "DET": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "no_at_det.md"
     },
     {
       "game": "NYJ@TEN",
       "away_team": "NYJ",
       "home_team": "TEN",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "Nissan Stadium",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "defense:overall",
-      "line_summary": "TEN -2.5 / NYJ +2.5",
-      "best_book_summary": "TEN -2.5 at FanDuel; NYJ +3.0 at DraftKings",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "NYJ": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "TEN": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "nyj_at_ten.md"
     },
     {
       "game": "SF@LA",
       "away_team": "SF",
       "home_team": "LA",
-      "kickoff_date": "2026-09-10",
-      "kickoff_time_et": "08:35 PM",
-      "location": "Melbourne Cricket Ground",
-      "bet_side": null,
-      "confidence": "Pass",
-      "has_bet": false,
-      "governing_storyline": "offense:overall",
-      "line_summary": "LA -2.5 / SF +2.5",
-      "best_book_summary": "LA -2.5 at FanDuel; SF +2.5 at DraftKings",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "SF": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "LA": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
+      "has_bet": true,
       "article_path": "sf_at_la.md"
     },
     {
       "game": "TB@CIN",
       "away_team": "TB",
       "home_team": "CIN",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "01:00 PM",
-      "location": "Paycor Stadium",
-      "bet_side": "Tampa Bay Buccaneers +3.5",
-      "confidence": "Lean",
       "has_bet": true,
-      "governing_storyline": "offense:overall",
-      "line_summary": "CIN -3.5 / TB +3.5",
-      "best_book_summary": "CIN -3.5 at DraftKings; TB +3.5 at DraftKings",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "TB": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "CIN": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "tb_at_cin.md"
     },
     {
       "game": "WAS@PHI",
       "away_team": "WAS",
       "home_team": "PHI",
-      "kickoff_date": "2026-09-13",
-      "kickoff_time_et": "04:25 PM",
-      "location": "Lincoln Financial Field",
-      "bet_side": null,
-      "confidence": "Pass",
       "has_bet": false,
-      "governing_storyline": "offense:overall",
-      "line_summary": "PHI -4.5 / WAS +4.5",
-      "best_book_summary": "PHI -4.5 at FanDuel; WAS +5.5 at DraftKings",
-      "stat_context": {
-        "season": 2025,
-        "through_week": null,
-        "note": "Week 1 has no prior in-season nflverse sample yet, so matchup stats fall back to the 2025 regular season."
-      },
-      "injury_reports": {
-        "WAS": {
-          "status": "depth_parse_failed",
-          "starters": []
-        },
-        "PHI": {
-          "status": "depth_parse_failed",
-          "starters": []
-        }
-      },
       "article_path": "was_at_phi.md"
     }
   ]
