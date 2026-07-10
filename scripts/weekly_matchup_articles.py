@@ -658,20 +658,6 @@ def assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=None) -> Opt
     return f"*Model assumes {' and '.join(parts)} under center. QB news moves these numbers fast — check inactives before you bet.*"
 
 
-def qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, seed, qb_crosswalk=None) -> List[str]:
-    out: List[str] = []
-    for team_name, mm in [(bet_name, bet_m), (opp_name, opp_m)]:
-        name = clean_qb(mm.get("qbname"), qb_crosswalk)
-        rank = _safe_rank(mm, "qb10_rank")
-        if not name or rank is None:
-            continue
-        if rank <= 5:
-            out.append(f"{name} has been one of the most valuable quarterbacks in football over his last 10 games ({_ord(rank)} of {total_teams}) - a real tailwind for {team_name}.")
-        elif rank >= total_teams - 4:
-            out.append(f"{name} sits {_ord(rank)} of {total_teams} in QB value over his last 10 games - the kind of play that caps {team_name}'s ceiling.")
-    return out
-
-
 def build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams, qb_crosswalk=None) -> List[str]:
     def cell_rank(mm, col):
         r = _safe_rank(mm, col)
@@ -804,7 +790,7 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
     lines = ["", "## Best Bets Of The Week", ""]
     if edge_game_count > 0:
         lines.append(
-            f"Our model found edges of at least 4% on {edge_game_count}"
+            f"Our model found edges of at least 4% on **{edge_game_count}**"
             f" game{'s' if edge_game_count != 1 else ''} this week."
         )
     lines.append("_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._")
@@ -895,6 +881,18 @@ def build_article(
     kickoff = away_row["game_date_est"]
     kickoff_title_label = format_title_kickoff_date(kickoff)
 
+    # Lookup stadium from games schedule
+    stadium_name = None
+    games_schedule = load_games_schedule()
+    schedule_match = games_schedule[
+        (games_schedule["season"] == away_row["season"]) &
+        (games_schedule["week"] == away_row["week"]) &
+        (games_schedule["home_team"] == home_team) &
+        (games_schedule["away_team"] == away_team)
+    ]
+    if not schedule_match.empty and "stadium" in schedule_match.columns:
+        stadium_name = schedule_match.iloc[0]["stadium"]
+
     favorite_row = game_rows.sort_values("market_line").iloc[0]
     dog_row = game_rows.sort_values("market_line").iloc[-1]
     fav_edge = resolve_edge_numeric(favorite_row)
@@ -912,9 +910,13 @@ def build_article(
 
     bet_facts = _side_facts(verdict_row)
     bet_line = format_line(verdict_row.get("best_line"))
-    stadium_name = schedule_row["stadium"] if schedule_row is not None and "stadium" in schedule_row.index else None
 
     sections: List[str] = [f"# {away_name} vs {home_name} Prediction For {kickoff_title_label}", ""]
+
+    # BTB Analytics subheader with logo
+    sections.append(f'<p align="center"><img src="https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB Analytics.png" alt="BTB Analytics" width="200" /></p>')
+    sections.append("## Brought to you by BTB Analytics")
+    sections.append("")
 
     # Logo row (new format only – requires logos in game_rows)
     away_logo = extract_team_logo(away_row)
@@ -1005,10 +1007,6 @@ def build_article(
                 " inside the opponent's 40 yard line",
             ])
 
-        qb_lines = qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, game, qb_crosswalk=qb_crosswalk)
-        if qb_lines:
-            sections.extend(["", "## Quarterback X-Factor"] + qb_lines)
-
         sections.extend(build_cta(edge_game_count, has_bet))
 
     else:
@@ -1033,10 +1031,6 @@ def build_article(
         model_pred_text = build_model_prediction(game_rows, edge_game_count, team_names)
         sections.extend(["## Model Prediction", "", model_pred_text, ""])
         sections.extend(["## Why trust this preview", ""])
-
-        qb_lines = qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, game, qb_crosswalk=qb_crosswalk)
-        if qb_lines:
-            sections.extend(["", "## Quarterback X-Factor"] + qb_lines)
 
         # Injury report section
         all_starters: List[str] = []
