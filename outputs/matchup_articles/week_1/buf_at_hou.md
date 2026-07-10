@@ -1,7 +1,6 @@
 # Buffalo Bills vs Houston Texans Prediction For 09/13/2026
 
-<p align="center"><img src="https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB Analytics.png" alt="BTB Analytics" width="200" /></p>
-## Brought to you by BTB Analytics
+<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='200' /><br/><em>Brought to you by BTB Analytics</em></p>
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="224" /></p>
 
@@ -33,5 +32,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6** games this week.
-_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+
+<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
