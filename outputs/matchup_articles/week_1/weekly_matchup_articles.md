@@ -1,11 +1,20 @@
 # Arizona Cardinals vs Los Angeles Chargers Prediction For 09/13/2026
 
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="224" /></p>
+
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | Lean – doesn't meet our edge criteria to fully bet |
 | Los Angeles Chargers | -10.5 (-106) | FanDuel | 48.5% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Jacoby Brissett (Arizona Cardinals) and Justin Herbert (Los Angeles Chargers) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Arizona Cardinals take on the Los Angeles Chargers at their home stadium and the model sees a lean toward Arizona Cardinals +11.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Arizona Cardinals +11.5 for -110.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -17,9 +26,18 @@
 | Offensive Eckel Rate Over Expected* | 50.0% | 53.6% |
 | Defensive Eckel Rate Over Expected | 56.2% | 46.4% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+
 ---
 
 # Atlanta Falcons vs Pittsburgh Steelers Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
@@ -27,6 +45,12 @@
 | Pittsburgh Steelers | -2.5 (-120) | FanDuel | 61.2% | Bet |
 
 *Model assumes Aaron Rodgers (Pittsburgh Steelers) and Michael Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Atlanta Falcons take on the Pittsburgh Steelers at their home stadium and the model favors **the Pittsburgh Steelers** at -2.5 vs. the market at -3.
+This puts the edge at 6.64%, which at -2.5 for -120 makes the Pittsburgh Steelers a bet.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -38,19 +62,35 @@
 | Offensive Eckel Rate Over Expected* | 46.0% | 45.9% |
 | Defensive Eckel Rate Over Expected | 49.7% | 54.6% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Aaron Rodgers sits 28th of 32 in QB value over his last 10 games - the kind of play that caps Pittsburgh Steelers's ceiling.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # Baltimore Ravens vs Indianapolis Colts Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Baltimore Ravens | -3.5 (-110) | DraftKings | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
 | Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Lamar Jackson (Baltimore Ravens) and Daniel Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Baltimore Ravens take on the Indianapolis Colts at their home stadium and the model sees a lean toward Baltimore Ravens -3.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Baltimore Ravens -3.5 for -110.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -62,16 +102,32 @@ Aaron Rodgers sits 28th of 32 in QB value over his last 10 games - the kind of p
 | Offensive Eckel Rate Over Expected* | 50.7% | 55.8% |
 | Defensive Eckel Rate Over Expected | 53.8% | 51.8% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+
 ---
 
 # Buffalo Bills vs Houston Texans Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Buffalo Bills | -1.5 (+100) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
 | Houston Texans | +1.0 (-110) | BetRivers | 47.2% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Josh Allen (Buffalo Bills) and CJ Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Buffalo Bills take on the Houston Texans at their home stadium and the model sees a lean toward Buffalo Bills -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Buffalo Bills -1.5 for 100.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -83,19 +139,35 @@ Aaron Rodgers sits 28th of 32 in QB value over his last 10 games - the kind of p
 | Offensive Eckel Rate Over Expected* | 54.7% | 50.0% |
 | Defensive Eckel Rate Over Expected | 47.9% | 36.2% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Josh Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) - a real tailwind for Buffalo Bills.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # Chicago Bears vs Carolina Panthers Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Chicago Bears | -2.5 (-110) | DraftKings | 48.1% | No Bet |
 | Carolina Panthers | +2.5 (-105) | FanDuel | 51.8% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Bryce Young (Carolina Panthers) and Caleb Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Chicago Bears take on the Carolina Panthers at their home stadium and the model sees a lean toward Carolina Panthers +2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Carolina Panthers +2.5 for -105.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -107,16 +179,32 @@ Josh Allen has been one of the most valuable quarterbacks in football over his l
 | Offensive Eckel Rate Over Expected* | 48.9% | 57.3% |
 | Defensive Eckel Rate Over Expected | 53.5% | 50.0% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+
 ---
 
 # Cleveland Browns vs Jacksonville Jaguars Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Cleveland Browns | +7.5 (-105) | FanDuel | 51.5% | No Bet |
 | Jacksonville Jaguars | -7.5 (-109) | BetRivers | 48.5% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes D. Watson (Cleveland Browns) and Trevor Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Cleveland Browns take on the Jacksonville Jaguars at their home stadium and the model sees a lean toward Cleveland Browns +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Cleveland Browns +7.5 for -105.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -128,19 +216,35 @@ Josh Allen has been one of the most valuable quarterbacks in football over his l
 | Offensive Eckel Rate Over Expected* | 34.6% | 53.0% |
 | Defensive Eckel Rate Over Expected | 43.4% | 45.6% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 D. Watson sits 32nd of 32 in QB value over his last 10 games - the kind of play that caps Cleveland Browns's ceiling.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # Dallas Cowboys vs New York Giants Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Dallas Cowboys | -2.5 (-110) | DraftKings | 51.5% | No Bet |
 | New York Giants | +2.5 (-102) | FanDuel | 48.5% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Dak Prescott (Dallas Cowboys) and Jaxson Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Dallas Cowboys take on the New York Giants at their home stadium and the model sees a lean toward Dallas Cowboys -2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Dallas Cowboys -2.5 for -110.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -152,9 +256,18 @@ D. Watson sits 32nd of 32 in QB value over his last 10 games - the kind of play 
 | Offensive Eckel Rate Over Expected* | 55.9% | 51.7% |
 | Defensive Eckel Rate Over Expected | 57.1% | 55.2% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+
 ---
 
 # Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
@@ -162,6 +275,12 @@ D. Watson sits 32nd of 32 in QB value over his last 10 games - the kind of play 
 | Kansas City Chiefs | -2.5 (-115) | Fanatics | 58.2% | Bet |
 
 *Model assumes Patrick Mahomes (Kansas City Chiefs) and Bo Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Denver Broncos take on the Kansas City Chiefs at their home stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
+This puts the edge at 4.74%, which at -2.5 for -115 makes the Kansas City Chiefs a bet.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -173,19 +292,35 @@ D. Watson sits 32nd of 32 in QB value over his last 10 games - the kind of play 
 | Offensive Eckel Rate Over Expected* | 56.5% | 44.7% |
 | Defensive Eckel Rate Over Expected | 44.4% | 40.6% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Patrick Mahomes has been one of the most valuable quarterbacks in football over his last 10 games (1st of 32) - a real tailwind for Kansas City Chiefs.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # Green Bay Packers vs Minnesota Vikings Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Green Bay Packers | -1.5 (+105) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
 | Minnesota Vikings | +0.5 (-110) | Fanatics | 47.0% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Green Bay Packers take on the Minnesota Vikings at their home stadium and the model sees a lean toward Green Bay Packers -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Green Bay Packers -1.5 for 105.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -197,12 +332,21 @@ Patrick Mahomes has been one of the most valuable quarterbacks in football over 
 | Offensive Eckel Rate Over Expected* | 55.7% | 41.1% |
 | Defensive Eckel Rate Over Expected | 48.8% | 49.3% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Jordan Love has been one of the most valuable quarterbacks in football over his last 10 games (4th of 32) - a real tailwind for Green Bay Packers.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # Miami Dolphins vs Las Vegas Raiders Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
@@ -210,6 +354,12 @@ Jordan Love has been one of the most valuable quarterbacks in football over his 
 | Las Vegas Raiders | -3.5 (-105) | Fanatics | 40.1% | No Bet |
 
 *Model assumes Malik Willis (Miami Dolphins) and Kirk Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Miami Dolphins take on the Las Vegas Raiders at their home stadium and the model favors **the Miami Dolphins** at +3.5 vs. the market at +3.5.
+This puts the edge at 9.40%, which at +3.5 for -102 makes the Miami Dolphins a bet.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -221,9 +371,18 @@ Jordan Love has been one of the most valuable quarterbacks in football over his 
 | Offensive Eckel Rate Over Expected* | 49.3% | 34.7% |
 | Defensive Eckel Rate Over Expected | 52.2% | 56.5% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+
 ---
 
 # New England Patriots vs Seattle Seahawks Prediction For 09/09/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
@@ -231,6 +390,12 @@ Jordan Love has been one of the most valuable quarterbacks in football over his 
 | Seattle Seahawks | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The New England Patriots take on the Seattle Seahawks at their home stadium and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
+This puts the edge at 9.09%, which at +4.5 for -112 makes the New England Patriots a bet.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -242,19 +407,35 @@ Jordan Love has been one of the most valuable quarterbacks in football over his 
 | Offensive Eckel Rate Over Expected* | 56.3% | 51.7% |
 | Defensive Eckel Rate Over Expected | 44.2% | 42.8% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Drake Maye has been one of the most valuable quarterbacks in football over his last 10 games (2nd of 32) - a real tailwind for New England Patriots.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # New Orleans Saints vs Detroit Lions Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | New Orleans Saints | +7.5 (-117) | BetRivers | 51.5% | No Bet |
 | Detroit Lions | -7.5 (-107) | BetRivers | 48.5% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Tyler Shough (New Orleans Saints) and Jared Goff (Detroit Lions) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The New Orleans Saints take on the Detroit Lions at their home stadium and the model sees a lean toward New Orleans Saints +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the New Orleans Saints +7.5 for -117.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -266,16 +447,32 @@ Drake Maye has been one of the most valuable quarterbacks in football over his l
 | Offensive Eckel Rate Over Expected* | 45.0% | 56.7% |
 | Defensive Eckel Rate Over Expected | 47.5% | 47.0% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+
 ---
 
 # New York Jets vs Tennessee Titans Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | New York Jets | +2.5 (+100) | BetMGM | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
 | Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | No Bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Geno Smith (New York Jets) and Cam Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The New York Jets take on the Tennessee Titans at their home stadium and the model sees a lean toward New York Jets +2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the New York Jets +2.5 for 100.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -287,13 +484,22 @@ Drake Maye has been one of the most valuable quarterbacks in football over his l
 | Offensive Eckel Rate Over Expected* | 38.5% | 36.7% |
 | Defensive Eckel Rate Over Expected | 49.7% | 52.4% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Geno Smith sits 31st of 32 in QB value over his last 10 games - the kind of play that caps New York Jets's ceiling.
 Cam Ward sits 30th of 32 in QB value over his last 10 games - the kind of play that caps Tennessee Titans's ceiling.
 
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
+
 ---
 
 # San Francisco 49ers vs Los Angeles Rams Prediction For 09/10/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
@@ -301,6 +507,12 @@ Cam Ward sits 30th of 32 in QB value over his last 10 games - the kind of play t
 | Los Angeles Rams | -3.5 (-110) | BetMGM | 40.7% | No Bet |
 
 *Model assumes Brock Purdy (San Francisco 49ers) and Matthew Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The San Francisco 49ers take on the Los Angeles Rams at their home stadium and the model favors **the San Francisco 49ers** at +3.5 vs. the market at +3.5.
+This puts the edge at 6.87%, which at +3.5 for -110 makes the San Francisco 49ers a bet.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -312,12 +524,21 @@ Cam Ward sits 30th of 32 in QB value over his last 10 games - the kind of play t
 | Offensive Eckel Rate Over Expected* | 56.5% | 60.7% |
 | Defensive Eckel Rate Over Expected | 51.1% | 45.1% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Brock Purdy has been one of the most valuable quarterbacks in football over his last 10 games (3rd of 32) - a real tailwind for San Francisco 49ers.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # Tampa Bay Buccaneers vs Cincinnati Bengals Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
@@ -325,6 +546,12 @@ Brock Purdy has been one of the most valuable quarterbacks in football over his 
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
 *Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Tampa Bay Buccaneers take on the Cincinnati Bengals at their home stadium and the model favors **the Tampa Bay Buccaneers** at +3.5 vs. the market at +3.5.
+This puts the edge at 5.52%, which at +3.5 for -110 makes the Tampa Bay Buccaneers a bet.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -336,19 +563,35 @@ Brock Purdy has been one of the most valuable quarterbacks in football over his 
 | Offensive Eckel Rate Over Expected* | 48.3% | 50.0% |
 | Defensive Eckel Rate Over Expected | 49.7% | 57.6% |
 
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
 ## Quarterback X-Factor
 Baker Mayfield sits 29th of 32 in QB value over his last 10 games - the kind of play that caps Tampa Bay Buccaneers's ceiling.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
 
 ---
 
 # Washington Commanders vs Philadelphia Eagles Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
 |---|---|---|---|---|
 | Washington Commanders | +5.5 (-110) | DraftKings | 48.2% | No Bet |
 | Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | Lean – doesn't meet our edge criteria to fully bet |
 
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+
 *Model assumes Jalen Hurts (Philadelphia Eagles) and Jayden Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
+
+## The Bottom Line
+The Washington Commanders take on the Philadelphia Eagles at their home stadium and the model sees a lean toward Philadelphia Eagles -4.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Philadelphia Eagles -4.5 for -105.
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 ## Why The Pick
 
@@ -359,3 +602,10 @@ Baker Mayfield sits 29th of 32 in QB value over his last 10 games - the kind of 
 | Defensive Success Rate | 7th | 27th |
 | Offensive Eckel Rate Over Expected* | 44.1% | 55.0% |
 | Defensive Eckel Rate Over Expected | 51.0% | 56.6% |
+
+\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on 6 games this week.
+_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
