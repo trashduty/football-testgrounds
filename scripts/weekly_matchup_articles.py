@@ -993,6 +993,8 @@ def build_article(
 
         sections.extend([
             "",
+            "## Why The Pick",
+            "",
             "Our model uses data points that correlate best with a team covering."
             " Here's how these two teams stack up in some of those categories",
             "",
@@ -1000,7 +1002,7 @@ def build_article(
 
         tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams, qb_crosswalk=qb_crosswalk)
         if tape:
-            sections.extend(["## Why The Pick", ""] + tape)
+            sections.extend(tape)
             sections.extend([
                 "",
                 "\\*The rate of possessions that result in a big play touchdown or 1st down"
