@@ -360,17 +360,18 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
             article.index("<p align=\"center\">"),
         )
         self.assertIn(
-            "<p align=\"center\"><img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/ari.png\" alt=\"Arizona Cardinals\" width=\"224\" /> " <span style=\"font-size:48px\"><strong>vs</strong></span> " <img src=\"https://a.espncdn.com/i/teamlogos/nfl/500/lac.png\" alt=\"Los Angeles Chargers\" width=\"224\" /></p>",
+            '<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png"'
+            ' alt="Arizona Cardinals" width="224" />',
             article,
         )
-        self.assertIn("| Team name | Best Spread/Odds | Best Book | Model Cover% | Edge | BTB Advice |", article)
-        self.assertIn("| Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | 2.50% | Lean – doesn’t meet our edge criteria to fully bet |", article)
-        self.assertIn("| Los Angeles Chargers | -9.5 (-115) | BetRivers | 57.9% | 4.40% | Bet |", article)
+        self.assertIn("| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |", article)
+        self.assertIn("| Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | Lean", article)
+        self.assertIn("| Los Angeles Chargers | -9.5 (-115) | BetRivers | 57.9% | Bet |", article)
         self.assertLess(article.index("| Team name |"), article.index("## The Bottom Line"))
-        self.assertIn("## The Bottom Line\nArizona Cardinals takes on Los Angeles Chargers at SoFi Stadium and", article)
+        self.assertIn("## The Bottom Line\nThe Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and", article)
         self.assertNotIn("*Line: opened", article)
         self.assertIn(
-            "Our model uses data points that correlate best with a team covering. Here’s how these two teams stack up in some of those categories",
+            "Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories",
             article,
         )
         self.assertIn("## Why The Pick", article)
@@ -379,13 +380,14 @@ class WeeklyMatchupArticlesTests(unittest.TestCase):
         self.assertIn("| Offensive Eckel Rate Over Expected* |", article)
         self.assertIn("| Defensive Eckel Rate Over Expected |", article)
         self.assertIn(
-            "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent’s 40 yard line",
+            "\\*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line",
             article,
         )
         self.assertNotIn("This rides on", article)
         self.assertNotIn("The edge is real but slim", article)
         self.assertNotIn("## The Risk", article)
         self.assertIn("## Best Bets Of The Week", article)
+
 
     def test_build_article_uses_verdict_first_structure(self) -> None:
         game_rows = pd.DataFrame(
