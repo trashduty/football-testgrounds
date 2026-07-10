@@ -790,10 +790,10 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
     lines = ["", "## Best Bets Of The Week", ""]
     if edge_game_count > 0:
         lines.append(
-            f"Our model found edges of at least 4% on **{edge_game_count}**"
-            f" game{'s' if edge_game_count != 1 else ''} this week."
+            f"Our model found edges of at least 4% on **{edge_game_count} game{'s' if edge_game_count != 1 else ''}** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access."
         )
-    lines.append("_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._")
+    lines.append("")
+    lines.append("<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>")
     return lines
 
 
@@ -915,8 +915,7 @@ def build_article(
     sections: List[str] = [f"# {away_name} vs {home_name} Prediction For {kickoff_title_label}", ""]
 
     # BTB Analytics subheader with logo
-    sections.append(f'<p align="center"><img src="https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB Analytics.png" alt="BTB Analytics" width="200" /></p>')
-    sections.append("## Brought to you by BTB Analytics")
+    sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='200' /><br/><em>Brought to you by BTB Analytics</em></p>")
     sections.append("")
 
     # Logo row (new format only – requires logos in game_rows)
