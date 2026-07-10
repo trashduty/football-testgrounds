@@ -15,9 +15,9 @@
 The San Francisco 49ers take on the Los Angeles Rams at Melbourne Cricket Ground and the model favors **the San Francisco 49ers** at +3.5 vs. the market at +3.5.
 This puts the edge at 6.87%, which at +3.5 for -110 makes the San Francisco 49ers a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | San Francisco 49ers | Los Angeles Rams |
 |---|---|---|

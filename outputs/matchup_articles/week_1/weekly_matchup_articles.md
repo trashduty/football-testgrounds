@@ -16,9 +16,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +11.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Arizona Cardinals +11.5 for -110.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Arizona Cardinals | Los Angeles Chargers |
 |---|---|---|
@@ -55,9 +55,9 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model favors **the Pittsburgh Steelers** at -2.5 vs. the market at -3.
 This puts the edge at 6.64%, which at -2.5 for -120 makes the Pittsburgh Steelers a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Pittsburgh Steelers | Atlanta Falcons |
 |---|---|---|
@@ -95,9 +95,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model sees a lean toward Baltimore Ravens -3.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Baltimore Ravens -3.5 for -110.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Baltimore Ravens | Indianapolis Colts |
 |---|---|---|
@@ -135,9 +135,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Buffalo Bills -1.5 for 100.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Buffalo Bills | Houston Texans |
 |---|---|---|
@@ -175,9 +175,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Chicago Bears take on the Carolina Panthers at Bank of America Stadium and the model sees a lean toward Carolina Panthers +2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Carolina Panthers +2.5 for -105.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Carolina Panthers | Chicago Bears |
 |---|---|---|
@@ -215,9 +215,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Cleveland Browns take on the Jacksonville Jaguars at EverBank Stadium and the model sees a lean toward Cleveland Browns +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Cleveland Browns +7.5 for -105.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Cleveland Browns | Jacksonville Jaguars |
 |---|---|---|
@@ -255,9 +255,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Dallas Cowboys -2.5 for -110.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Dallas Cowboys | New York Giants |
 |---|---|---|
@@ -294,9 +294,9 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
 This puts the edge at 4.74%, which at -2.5 for -115 makes the Kansas City Chiefs a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Kansas City Chiefs | Denver Broncos |
 |---|---|---|
@@ -334,9 +334,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Green Bay Packers -1.5 for 105.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Green Bay Packers | Minnesota Vikings |
 |---|---|---|
@@ -373,9 +373,9 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and the model favors **the Miami Dolphins** at +3.5 vs. the market at +3.5.
 This puts the edge at 9.40%, which at +3.5 for -102 makes the Miami Dolphins a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Miami Dolphins | Las Vegas Raiders |
 |---|---|---|
@@ -412,9 +412,9 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
 This puts the edge at 9.09%, which at +4.5 for -112 makes the New England Patriots a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | New England Patriots | Seattle Seahawks |
 |---|---|---|
@@ -452,9 +452,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward New Orleans Saints +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the New Orleans Saints +7.5 for -117.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | New Orleans Saints | Detroit Lions |
 |---|---|---|
@@ -492,9 +492,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the New York Jets +2.5 for 100.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | New York Jets | Tennessee Titans |
 |---|---|---|
@@ -531,9 +531,9 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 The San Francisco 49ers take on the Los Angeles Rams at Melbourne Cricket Ground and the model favors **the San Francisco 49ers** at +3.5 vs. the market at +3.5.
 This puts the edge at 6.87%, which at +3.5 for -110 makes the San Francisco 49ers a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | San Francisco 49ers | Los Angeles Rams |
 |---|---|---|
@@ -570,9 +570,9 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 The Tampa Bay Buccaneers take on the Cincinnati Bengals at Paycor Stadium and the model favors **the Tampa Bay Buccaneers** at +3.5 vs. the market at +3.5.
 This puts the edge at 5.52%, which at +3.5 for -110 makes the Tampa Bay Buccaneers a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Tampa Bay Buccaneers | Cincinnati Bengals |
 |---|---|---|
@@ -610,9 +610,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model sees a lean toward Philadelphia Eagles -4.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Philadelphia Eagles -4.5 for -105.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Philadelphia Eagles | Washington Commanders |
 |---|---|---|

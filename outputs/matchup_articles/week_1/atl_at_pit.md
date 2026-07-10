@@ -15,9 +15,9 @@
 The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model favors **the Pittsburgh Steelers** at -2.5 vs. the market at -3.
 This puts the edge at 6.64%, which at -2.5 for -120 makes the Pittsburgh Steelers a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Pittsburgh Steelers | Atlanta Falcons |
 |---|---|---|

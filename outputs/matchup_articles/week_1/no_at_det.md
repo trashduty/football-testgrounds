@@ -16,9 +16,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward New Orleans Saints +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the New Orleans Saints +7.5 for -117.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | New Orleans Saints | Detroit Lions |
 |---|---|---|

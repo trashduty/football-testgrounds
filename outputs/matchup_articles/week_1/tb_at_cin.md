@@ -15,9 +15,9 @@
 The Tampa Bay Buccaneers take on the Cincinnati Bengals at Paycor Stadium and the model favors **the Tampa Bay Buccaneers** at +3.5 vs. the market at +3.5.
 This puts the edge at 5.52%, which at +3.5 for -110 makes the Tampa Bay Buccaneers a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Tampa Bay Buccaneers | Cincinnati Bengals |
 |---|---|---|

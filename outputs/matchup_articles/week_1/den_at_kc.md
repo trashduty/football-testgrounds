@@ -15,9 +15,9 @@
 The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
 This puts the edge at 4.74%, which at -2.5 for -115 makes the Kansas City Chiefs a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Kansas City Chiefs | Denver Broncos |
 |---|---|---|

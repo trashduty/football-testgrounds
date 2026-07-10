@@ -15,9 +15,9 @@
 The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and the model favors **the Miami Dolphins** at +3.5 vs. the market at +3.5.
 This puts the edge at 9.40%, which at +3.5 for -102 makes the Miami Dolphins a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Miami Dolphins | Las Vegas Raiders |
 |---|---|---|

@@ -16,9 +16,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Dallas Cowboys -2.5 for -110.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Dallas Cowboys | New York Giants |
 |---|---|---|

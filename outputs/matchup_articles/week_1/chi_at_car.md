@@ -16,9 +16,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Chicago Bears take on the Carolina Panthers at Bank of America Stadium and the model sees a lean toward Carolina Panthers +2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Carolina Panthers +2.5 for -105.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Carolina Panthers | Chicago Bears |
 |---|---|---|

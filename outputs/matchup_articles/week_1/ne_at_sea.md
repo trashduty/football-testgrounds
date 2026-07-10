@@ -15,9 +15,9 @@
 The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
 This puts the edge at 9.09%, which at +4.5 for -112 makes the New England Patriots a bet.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | New England Patriots | Seattle Seahawks |
 |---|---|---|

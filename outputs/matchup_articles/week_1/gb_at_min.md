@@ -16,9 +16,9 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 ## The Bottom Line
 The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Green Bay Packers -1.5 for 105.
 
-Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
-
 ## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
 | | Green Bay Packers | Minnesota Vikings |
 |---|---|---|
