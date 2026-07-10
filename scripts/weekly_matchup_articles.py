@@ -914,11 +914,7 @@ def build_article(
 
     sections: List[str] = [f"# {away_name} vs {home_name} Prediction For {kickoff_title_label}", ""]
 
-    # BTB Analytics subheader with logo
-    sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='200' /><br/><em>Brought to you by BTB Analytics</em></p>")
-    sections.append("")
-
-    # Logo row (new format only – requires logos in game_rows)
+    # Logo row (team logos underneath title)
     away_logo = extract_team_logo(away_row)
     home_logo = extract_team_logo(home_row)
     if mr is not None and away_logo and home_logo:
@@ -931,7 +927,11 @@ def build_article(
         )
         sections.append("")
 
-    # Summary table (Edge column removed, "Model Cover%" changed to "Cover Probability")
+    # BTB Analytics subheader with logo (underneath team logos, above table)
+    sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='200' /><br/><em>Brought to you by BTB Analytics</em></p>")
+    sections.append("")
+
+    # Summary table
     matchup_rows = []
     for row, team_name in ((away_row, away_name), (home_row, home_name)):
         edge = resolve_edge_numeric(row)
