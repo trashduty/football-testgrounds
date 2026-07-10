@@ -929,7 +929,7 @@ def build_article(
         )
         sections.append("")
 
-    # Summary table (Edge column removed)
+    # Summary table (Edge column removed, "Model Cover%" changed to "Cover Probability")
     matchup_rows = []
     for row, team_name in ((away_row, away_name), (home_row, home_name)):
         edge = resolve_edge_numeric(row)
@@ -947,7 +947,7 @@ def build_article(
         )
     sections.extend(
         [
-            "| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |",
+            "| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |",
             "|---|---|---|---|---|",
         ]
     )
@@ -961,7 +961,7 @@ def build_article(
         if not has_bet:
             sections.extend([
                 "",
-                "The model sees a lean here \u2014 but the edge does not clear our 4% threshold,"
+                "The model sees a lean here — but the edge does not clear our 4% threshold,"
                 " so there is no play.",
             ])
 
