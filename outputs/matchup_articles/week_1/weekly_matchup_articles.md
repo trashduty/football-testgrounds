@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | Lean – doesn't meet our edge criteria to fully bet |
 | Los Angeles Chargers | -10.5 (-106) | FanDuel | 48.5% | No Bet |
@@ -39,7 +39,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/atl.png" alt="Atlanta Falcons" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Pittsburgh Steelers" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Atlanta Falcons | +3.0 (+100) | DraftKings | 38.7% | No Bet |
 | Pittsburgh Steelers | -2.5 (-120) | FanDuel | 61.2% | Bet |
@@ -78,7 +78,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Baltimore Ravens | -3.5 (-110) | DraftKings | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
 | Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | No Bet |
@@ -115,7 +115,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Buffalo Bills | -1.5 (+100) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
 | Houston Texans | +1.0 (-110) | BetRivers | 47.2% | No Bet |
@@ -155,7 +155,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/chi.png" alt="Chicago Bears" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png" alt="Carolina Panthers" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Chicago Bears | -2.5 (-110) | DraftKings | 48.1% | No Bet |
 | Carolina Panthers | +2.5 (-105) | FanDuel | 51.8% | No Bet |
@@ -192,7 +192,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/cle.png" alt="Cleveland Browns" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/jax.png" alt="Jacksonville Jaguars" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Cleveland Browns | +7.5 (-105) | FanDuel | 51.5% | No Bet |
 | Jacksonville Jaguars | -7.5 (-109) | BetRivers | 48.5% | No Bet |
@@ -232,7 +232,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Dallas Cowboys | -2.5 (-110) | DraftKings | 51.5% | No Bet |
 | New York Giants | +2.5 (-102) | FanDuel | 48.5% | No Bet |
@@ -269,7 +269,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Denver Broncos | +2.5 (-102) | DraftKings | 41.8% | No Bet |
 | Kansas City Chiefs | -2.5 (-115) | Fanatics | 58.2% | Bet |
@@ -308,7 +308,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Green Bay Packers | -1.5 (+105) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
 | Minnesota Vikings | +0.5 (-110) | Fanatics | 47.0% | No Bet |
@@ -348,7 +348,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/mia.png" alt="Miami Dolphins" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lv.png" alt="Las Vegas Raiders" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Miami Dolphins | +3.5 (-102) | FanDuel | 59.9% | Bet |
 | Las Vegas Raiders | -3.5 (-105) | Fanatics | 40.1% | No Bet |
@@ -384,7 +384,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | New England Patriots | +4.5 (-112) | BetRivers | 61.9% | Bet |
 | Seattle Seahawks | -3.5 (-110) | DraftKings | 42.1% | No Bet |
@@ -423,7 +423,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/no.png" alt="New Orleans Saints" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/det.png" alt="Detroit Lions" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | New Orleans Saints | +7.5 (-117) | BetRivers | 51.5% | No Bet |
 | Detroit Lions | -7.5 (-107) | BetRivers | 48.5% | No Bet |
@@ -460,7 +460,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png" alt="New York Jets" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ten.png" alt="Tennessee Titans" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | New York Jets | +2.5 (+100) | BetMGM | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
 | Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | No Bet |
@@ -501,7 +501,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | San Francisco 49ers | +3.5 (-110) | BetMGM | 59.2% | Bet |
 | Los Angeles Rams | -3.5 (-110) | BetMGM | 40.7% | No Bet |
@@ -540,7 +540,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/tb.png" alt="Tampa Bay Buccaneers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/cin.png" alt="Cincinnati Bengals" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Tampa Bay Buccaneers | +3.5 (-110) | DraftKings | 57.9% | Bet |
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
@@ -579,7 +579,7 @@ _Built by the BTB model. We target a 55-57% win rate and publish every result, w
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Washington Commanders | +5.5 (-110) | DraftKings | 48.2% | No Bet |
 | Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | Lean – doesn't meet our edge criteria to fully bet |

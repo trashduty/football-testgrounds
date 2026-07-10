@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png" alt="Washington Commanders" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/phi.png" alt="Philadelphia Eagles" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Washington Commanders | +5.5 (-110) | DraftKings | 48.2% | No Bet |
 | Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | Lean – doesn't meet our edge criteria to fully bet |

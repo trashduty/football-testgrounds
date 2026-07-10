@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/sf.png" alt="San Francisco 49ers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lar.png" alt="Los Angeles Rams" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | San Francisco 49ers | +3.5 (-110) | BetMGM | 59.2% | Bet |
 | Los Angeles Rams | -3.5 (-110) | BetMGM | 40.7% | No Bet |

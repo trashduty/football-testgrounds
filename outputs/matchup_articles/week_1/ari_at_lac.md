@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ari.png" alt="Arizona Cardinals" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/lac.png" alt="Los Angeles Chargers" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | Lean – doesn't meet our edge criteria to fully bet |
 | Los Angeles Chargers | -10.5 (-106) | FanDuel | 48.5% | No Bet |

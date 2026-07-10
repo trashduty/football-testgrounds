@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Dallas Cowboys" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png" alt="New York Giants" width="224" /></p>
 
-| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Dallas Cowboys | -2.5 (-110) | DraftKings | 51.5% | No Bet |
 | New York Giants | +2.5 (-102) | FanDuel | 48.5% | No Bet |
