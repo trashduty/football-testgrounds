@@ -9,6 +9,7 @@ import json
 import math
 import os
 import re
+from collections import namedtuple
 from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime
 from io import StringIO
@@ -79,6 +80,9 @@ class StatContext:
     season: int
     through_week: Optional[int]
     note: str
+
+
+UnitBattle = namedtuple("UnitBattle", ["kind", "team_a", "team_b", "rank_a", "rank_b", "delta"])
 
 
 def parse_args() -> argparse.Namespace:
@@ -293,7 +297,11 @@ def read_remote_parquet(url: str, columns: Sequence[str]) -> pd.DataFrame:
 
 def choose_stat_context(target_season: int, target_week: int) -> StatContext:
     if target_week <= 1:
-        return StatContext(target_season - 1, None, f"Fallback to {target_season - 1}.")
+        return StatContext(
+            target_season - 1,
+            None,
+            f"Week 1 — fall back to the {target_season - 1} regular season baselines.",
+        )
     return StatContext(target_season, target_week - 1, f"Through week {target_week - 1}.")
 
 
@@ -395,6 +403,21 @@ def compute_team_metrics(pbp: pd.DataFrame, weekly: pd.DataFrame) -> pd.DataFram
     defense_summary["def_sacks_pg"] = defense_summary["def_sacks"] / defense_summary["def_games_played"]
 
     metrics = games_played.merge(offense_summary, on=["team", "games_played"], how="outer").merge(defense_summary, on="team", how="outer")
+
+    # Special-teams TDs: plays where special==1 and td_team matches posteam
+    if "special" in pbp.columns and "td_team" in pbp.columns:
+        st_td = (
+            pbp[pbp["special"].fillna(0).eq(1) & pbp["td_team"].eq(pbp["posteam"])]
+            .groupby("posteam")
+            .size()
+            .reset_index(name="special_teams_tds")
+            .rename(columns={"posteam": "team"})
+        )
+        metrics = metrics.merge(st_td, on="team", how="left")
+        metrics["special_teams_tds"] = metrics["special_teams_tds"].fillna(0).astype(int)
+    else:
+        metrics["special_teams_tds"] = 0
+
     add_rank_columns(metrics, "off_rush_yards_pg", "off_rush_rank", True)
     add_rank_columns(metrics, "off_pass_yards_pg", "off_pass_rank", True)
     add_rank_columns(metrics, "off_epa_per_play", "off_epa_rank", True)
@@ -533,13 +556,21 @@ def fetch_espn_starter_injuries(team: str, slug: Optional[str], session: request
     depth_url = f"https://www.espn.com/nfl/team/depth/_/name/{slug}"
     try:
         injury_rows = parse_injuries(session.get(injuries_url, timeout=REQUEST_TIMEOUT).text)
-    except Exception:
+    except Exception as exc:
         report.status = "injury_fetch_failed"
+        if debug_enabled:
+            report.debug.append(EspnDebugEvent(
+                team=team, source="injuries", url=injuries_url, failure=str(exc)
+            ))
         return report
     try:
         starters = parse_depth_chart_starters(session.get(depth_url, timeout=REQUEST_TIMEOUT).text)
-    except Exception:
+    except Exception as exc:
         report.status = "depth_fetch_failed"
+        if debug_enabled:
+            report.debug.append(EspnDebugEvent(
+                team=team, source="depth", url=depth_url, failure=str(exc)
+            ))
         return report
     starter_keys = {normalize_name(name) for name in starters}
     report.starters = [injury for injury in injury_rows if normalize_name(injury.player) in starter_keys]
@@ -692,6 +723,154 @@ def _side_facts(row: pd.Series) -> Dict[str, object]:
     return {"cover": cover, "edge": edge, "line": row.get("best_line"), "price": row.get("best_price")}
 
 
+def extract_team_logo(row: pd.Series) -> Optional[str]:
+    """Return the best available team logo URL from a row."""
+    espn = row.get("team_logo_espn")
+    if espn is not None and not (isinstance(espn, float) and math.isnan(espn)):
+        return str(espn)
+    logo = row.get("logo")
+    if logo is not None and not (isinstance(logo, float) and math.isnan(logo)):
+        return str(logo)
+    return None
+
+
+def render_logo_row(away_name: str, away_logo: str, home_name: str, home_logo: str) -> str:
+    """Render a borderless HTML table with team logos flanking a vs separator."""
+    td_style = 'style="border:none;"'
+    vs_style = 'style="font-size:69px;border:none;"'
+    return (
+        f'<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr>'
+        f'<td {td_style}><img src="{away_logo}" alt="{away_name}" width="120" /></td>'
+        f'<td {vs_style}><strong>vs</strong></td>'
+        f'<td {td_style}><img src="{home_logo}" alt="{home_name}" width="120" /></td>'
+        f'</tr></table>'
+    )
+
+
+def model_vs_market_lead(team_name: str, market_line: float, best_line: float, seed: str) -> Optional[str]:
+    """Return a one-line model-vs-market lead sentence (no em-dash)."""
+    def _fmt(v: float) -> str:
+        s = f"{v:+.1f}" if v >= 0 else f"{v:.1f}"
+        return s.rstrip("0").rstrip(".")
+
+    return (
+        f"the model favors **the {team_name}** at {_fmt(best_line)}"
+        f" vs. the market at {_fmt(market_line)}."
+    )
+
+
+def build_bottom_line(
+    away_name: str,
+    home_name: str,
+    stadium_name: Optional[str],
+    bet_name: str,
+    bet_line: str,
+    confidence: str,
+    bet_facts: Dict[str, object],
+    seed: str,
+    has_bet: bool,
+    model_lead: Optional[str],
+) -> List[str]:
+    """Build the Bottom Line section as a list of markdown lines."""
+    stadium = stadium_name or "their home stadium"
+    edge = float(bet_facts.get("edge") or 0)
+    price = bet_facts.get("price")
+    price_str = str(int(price)) if price is not None and not pd.isna(price) else "N/A"
+
+    if has_bet:
+        lead = model_lead or f"the model likes {bet_name} {bet_line}."
+        # Ensure lead starts with lowercase to read naturally after "and "
+        if lead and lead[0].isupper():
+            lead = lead[0].lower() + lead[1:]
+        intro = f"The {away_name} take on the {home_name} at {stadium} and {lead}"
+        edge_line = (
+            f"This puts the edge at {edge * 100:.2f}%,"
+            f" which at {bet_line} for {price_str} makes the {bet_name} a bet."
+        )
+        return ["## The Bottom Line", intro, edge_line]
+    else:
+        text = (
+            f"The {away_name} take on the {home_name} at {stadium} and"
+            f" the model sees a lean toward {bet_name} {bet_line},"
+            f" but this does not clear our 4% threshold for a full bet,"
+            f" so we are passing on this one."
+            f" The closest look is the {bet_name} {bet_line} for {price_str}."
+        )
+        return ["## The Bottom Line", text]
+
+
+def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
+    """Build the Best Bets of the Week CTA section."""
+    lines = ["", "## Best Bets Of The Week", ""]
+    if edge_game_count > 0:
+        lines.append(
+            f"Our model found edges of at least 4% on {edge_game_count}"
+            f" game{'s' if edge_game_count != 1 else ''} this week."
+        )
+    lines.append("_Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._")
+    return lines
+
+
+def render_risk(
+    risk_tuple: Tuple[str, "UnitBattle"],
+    opp_name: str,
+    total_teams: int,
+    seed: str,
+) -> str:
+    """Render a risk callout line (no em-dash)."""
+    risk_type, battle = risk_tuple
+    return (
+        f"The {battle.kind} matchup favors {opp_name}"
+        f" ({ordinal(battle.rank_b)} of {total_teams}"
+        f" vs. {ordinal(battle.rank_a)} of {total_teams})."
+    )
+
+
+def build_model_prediction(
+    game_rows: pd.DataFrame,
+    edge_game_count: int,
+    team_names: Dict[str, str],
+) -> str:
+    """Build a one-paragraph model-prediction summary for a team/game."""
+    row = game_rows.iloc[0]
+    team = str(row.get("team", ""))
+    full_name = team_names.get(team, team)
+    line = row.get("best_line")
+    price = row.get("best_price")
+
+    # Cover probability: prefer best_cover_probability
+    cover = row.get("best_cover_probability")
+    if cover is None or pd.isna(cover):
+        cover = row.get("model_cover_probability")
+
+    # Edge: prefer best_edge when best_cover_probability is non-null
+    best_edge = row.get("best_edge")
+    edge_numeric = row.get("edge_numeric")
+    if best_edge is not None and not pd.isna(best_edge) and row.get("best_cover_probability") is not None and not pd.isna(row.get("best_cover_probability")):
+        edge = float(best_edge)
+    else:
+        edge = float(edge_numeric) if edge_numeric is not None and not pd.isna(edge_numeric) else 0.0
+
+    line_str = format_line(line)
+    price_str = _price(price)
+    cover_str = display_percent(cover, 2) if cover is not None else "N/A"
+    edge_str = f"{edge * 100:.2f}%"
+    threshold_word = "meets" if edge >= 0.04 else "does not meet"
+
+    parts = [
+        f"{full_name} at {line_str} ({price_str}).",
+        f"Our model gives them a {cover_str} chance to cover, an edge of {edge_str}.",
+        f"This {threshold_word} our threshold of 4% to bet.",
+    ]
+    if edge_game_count > 0:
+        parts.append(
+            f"Our model shows edges of at least 4% on {edge_game_count}"
+            f" game{'s' if edge_game_count != 1 else ''} this week."
+            f" See all picks at btb-analytics.com/member-access."
+        )
+    return " ".join(parts)
+
+
 def build_article(
     game, game_rows, metrics, records, team_names, schedule_row,
     stat_context, provenance, injury_reports, edge_game_count, model_ranks_df=None, qb_crosswalk=None,
@@ -731,8 +910,26 @@ def build_article(
     bet_m, opp_m = m(bet_team), m(opp_team)
     total_teams = int(len(mr)) if mr is not None and len(mr) else 32
 
+    bet_facts = _side_facts(verdict_row)
+    bet_line = format_line(verdict_row.get("best_line"))
+    stadium_name = schedule_row["stadium"] if schedule_row is not None and "stadium" in schedule_row.index else None
+
     sections: List[str] = [f"# {away_name} vs {home_name} Prediction For {kickoff_title_label}", ""]
 
+    # Logo row (new format only – requires logos in game_rows)
+    away_logo = extract_team_logo(away_row)
+    home_logo = extract_team_logo(home_row)
+    if mr is not None and away_logo and home_logo:
+        sections.append(
+            f'<p align="center">'
+            f'<img src="{away_logo}" alt="{away_name}" width="224" /> '
+            f'<strong>vs</strong> '
+            f'<img src="{home_logo}" alt="{home_name}" width="224" />'
+            f'</p>'
+        )
+        sections.append("")
+
+    # Summary table (Edge column removed)
     matchup_rows = []
     for row, team_name in ((away_row, away_name), (home_row, home_name)):
         edge = resolve_edge_numeric(row)
@@ -748,8 +945,6 @@ def build_article(
                 matchup_call_label(edge),
             )
         )
-
-    # Edge column removed here
     sections.extend(
         [
             "| Team name | Best Spread/Odds | Best Book | Model Cover% | BTB Advice |",
@@ -757,22 +952,117 @@ def build_article(
         ]
     )
     sections.extend(
-        [f"| {team} | {spread_odds} | {book} | {cover} | {call} |" for team, spread_odds, book, cover, call in matchup_rows]
+        [f"| {team} | {spread_odds} | {book} | {cover} | {call} |"
+         for team, spread_odds, book, cover, call in matchup_rows]
     )
 
-    starters_note = assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=qb_crosswalk)
-    if starters_note:
-        sections.extend(["", starters_note])
+    if mr is not None:
+        # ── New-format article ────────────────────────────────────────────────
+        if not has_bet:
+            sections.extend([
+                "",
+                "The model sees a lean here \u2014 but the edge does not clear our 4% threshold,"
+                " so there is no play.",
+            ])
 
-    tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams, qb_crosswalk=qb_crosswalk)
-    if tape:
-        sections.extend(["", "## Why The Pick", ""] + tape)
+        starters_note = assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=qb_crosswalk)
+        if starters_note:
+            sections.extend(["", starters_note])
 
-    qb_lines = qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, game, qb_crosswalk=qb_crosswalk)
-    if qb_lines:
-        sections.extend(["", "## Quarterback X-Factor"] + qb_lines)
+        model_lead = model_vs_market_lead(
+            bet_name,
+            float(verdict_row.get("market_line") or 0),
+            float(verdict_row.get("best_line") or 0),
+            game,
+        )
+        bottom_lines = build_bottom_line(
+            away_name=away_name,
+            home_name=home_name,
+            stadium_name=stadium_name,
+            bet_name=bet_name,
+            bet_line=bet_line,
+            confidence=edge_confidence_label(resolve_edge_numeric(verdict_row)),
+            bet_facts=bet_facts,
+            seed=game,
+            has_bet=has_bet,
+            model_lead=model_lead,
+        )
+        sections.extend([""] + bottom_lines)
 
-    payload = {"game": game, "away_team": away_team, "home_team": home_team, "has_bet": has_bet}
+        sections.extend([
+            "",
+            "Our model uses data points that correlate best with a team covering."
+            " Here's how these two teams stack up in some of those categories",
+            "",
+        ])
+
+        tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams, qb_crosswalk=qb_crosswalk)
+        if tape:
+            sections.extend(["## Why The Pick", ""] + tape)
+            sections.extend([
+                "",
+                "\\*The rate of possessions that result in a big play touchdown or 1st down"
+                " inside the opponent's 40 yard line",
+            ])
+
+        qb_lines = qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, game, qb_crosswalk=qb_crosswalk)
+        if qb_lines:
+            sections.extend(["", "## Quarterback X-Factor"] + qb_lines)
+
+        sections.extend(build_cta(edge_game_count, has_bet))
+
+    else:
+        # ── Old-format article ────────────────────────────────────────────────
+        starters_note = assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=qb_crosswalk)
+        if starters_note:
+            sections.extend(["", starters_note])
+
+        sections.extend(["", "## Verdict", ""])
+        sections.extend(["", "## The Why", ""])
+        sections.extend(["", "## The Mismatch", ""])
+        sections.extend(["", "## The Number", ""])
+        sections.extend(["", "## The Risk", ""])
+        sections.extend([
+            "",
+            f"## {away_name} offense vs {home_name} defense",
+            "",
+            f"## {away_name} defense vs {home_name} offense",
+            "",
+        ])
+
+        model_pred_text = build_model_prediction(game_rows, edge_game_count, team_names)
+        sections.extend(["## Model Prediction", "", model_pred_text, ""])
+        sections.extend(["## Why trust this preview", ""])
+
+        qb_lines = qb_xfactor(bet_name, bet_m, opp_name, opp_m, total_teams, game, qb_crosswalk=qb_crosswalk)
+        if qb_lines:
+            sections.extend(["", "## Quarterback X-Factor"] + qb_lines)
+
+        # Injury report section
+        all_starters: List[str] = []
+        for team, report in (injury_reports or {}).items():
+            all_starters.extend(report.starters)
+        sections.append("")
+        sections.append("## Injury report")
+        sections.append("")
+        if all_starters:
+            for team, report in (injury_reports or {}).items():
+                team_full = team_names.get(team, team)
+                for s in report.starters:
+                    sections.append(f"- **{s.player}** ({team_full}): {s.status} — {s.detail}")
+        else:
+            sections.append("No confirmed starter injuries are currently listed for either side.")
+
+    injury_payload = {
+        team: asdict(report) for team, report in (injury_reports or {}).items()
+    }
+    payload = {
+        "game": game,
+        "away_team": away_team,
+        "home_team": home_team,
+        "has_bet": has_bet,
+        "injury_reports": injury_payload,
+    }
     return "\n".join(sections) + "\n", payload
 
 
