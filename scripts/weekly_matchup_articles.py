@@ -881,17 +881,18 @@ def build_article(
     kickoff = away_row["game_date_est"]
     kickoff_title_label = format_title_kickoff_date(kickoff)
 
-    # Lookup stadium from games schedule
+    # Lookup stadium from games schedule by date and teams
     stadium_name = None
     games_schedule = load_games_schedule()
-    schedule_match = games_schedule[
-        (games_schedule["season"] == away_row["season"]) &
-        (games_schedule["week"] == away_row["week"]) &
-        (games_schedule["home_team"] == home_team) &
-        (games_schedule["away_team"] == away_team)
-    ]
-    if not schedule_match.empty and "stadium" in schedule_match.columns:
-        stadium_name = schedule_match.iloc[0]["stadium"]
+    kickoff_date = pd.to_datetime(kickoff).date() if kickoff is not None and not pd.isna(kickoff) else None
+    if kickoff_date is not None:
+        schedule_match = games_schedule[
+            (pd.to_datetime(games_schedule["gameday"]).dt.date == kickoff_date) &
+            (games_schedule["home_team"] == home_team) &
+            (games_schedule["away_team"] == away_team)
+        ]
+        if not schedule_match.empty and "stadium" in schedule_match.columns:
+            stadium_name = schedule_match.iloc[0]["stadium"]
 
     favorite_row = game_rows.sort_values("market_line").iloc[0]
     dog_row = game_rows.sort_values("market_line").iloc[-1]
