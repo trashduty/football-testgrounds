@@ -1,5 +1,8 @@
 # Buffalo Bills vs Houston Texans Prediction For 09/13/2026
 
+<p align="center"><img src="https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB Analytics.png" alt="BTB Analytics" width="200" /></p>
+## Brought to you by BTB Analytics
+
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/buf.png" alt="Buffalo Bills" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/hou.png" alt="Houston Texans" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
@@ -12,7 +15,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Josh Allen (Buffalo Bills) and CJ Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Buffalo Bills take on the Houston Texans at their home stadium and the model sees a lean toward Buffalo Bills -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Buffalo Bills -1.5 for 100.
+The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Buffalo Bills -1.5 for 100.
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
@@ -28,10 +31,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
-## Quarterback X-Factor
-Josh Allen has been one of the most valuable quarterbacks in football over his last 10 games (5th of 32) - a real tailwind for Buffalo Bills.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on 6 games this week.
+Our model found edges of at least 4% on **6** games this week.
 _Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._

@@ -1,5 +1,8 @@
 # Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
 
+<p align="center"><img src="https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB Analytics.png" alt="BTB Analytics" width="200" /></p>
+## Brought to you by BTB Analytics
+
 <p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="224" /></p>
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
@@ -10,7 +13,7 @@
 *Model assumes Patrick Mahomes (Kansas City Chiefs) and Bo Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Denver Broncos take on the Kansas City Chiefs at their home stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
+The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
 This puts the edge at 4.74%, which at -2.5 for -115 makes the Kansas City Chiefs a bet.
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
@@ -27,10 +30,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
-## Quarterback X-Factor
-Patrick Mahomes has been one of the most valuable quarterbacks in football over his last 10 games (1st of 32) - a real tailwind for Kansas City Chiefs.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on 6 games this week.
+Our model found edges of at least 4% on **6** games this week.
 _Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses._
