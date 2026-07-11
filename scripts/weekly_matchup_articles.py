@@ -730,10 +730,6 @@ def determine_current_week_and_season() -> Tuple[int, int]:
 def main():
     args = parse_args()
     
-    # Create output directory if it doesn't exist
-    output_dir = Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
-    
     # Determine season and week if not provided
     season = args.season
     week = args.week
@@ -745,6 +741,13 @@ def main():
             week = current_week
     
     print(f"Generating matchup articles for season {season}, week {week}")
+    
+    # Create output directory with week subdirectory
+    output_base = Path(args.output_dir)
+    output_dir = output_base / f"week_{week}"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    print(f"Output directory: {output_dir}")
     
     try:
         # Load data sources
@@ -859,24 +862,24 @@ def main():
             
             if article_content:
                 # Write article to file
-                away_name = team_names.get(away_team, away_team) if team_names else away_team
-                home_name = team_names.get(home_team, home_team) if team_names else home_team
-                filename = f"{away_name}_vs_{home_name}.md"
+                away_abbr = away_team.lower() if away_team else "unk"
+                home_abbr = home_team.lower() if home_team else "unk"
+                filename = f"{away_abbr}_at_{home_abbr}.md"
                 filepath = output_dir / filename
                 
-                with open(filepath, "w") as f:
+                with open(filepath, "w", encoding="utf-8") as f:
                     f.write(article_content)
                 
-                print(f"Generated article: {filename}")
+                print(f"✓ Generated: {filename}")
                 articles_generated += 1
         
         if articles_generated > 0:
-            print(f"Successfully generated {articles_generated} matchup articles in {output_dir}")
+            print(f"\n✓ Successfully generated {articles_generated} matchup articles in {output_dir}")
         else:
-            print(f"No articles generated for week {week} (may indicate no games with sufficient edge or no model data)")
+            print(f"\n✗ No articles generated for week {week}")
         
     except Exception as e:
-        print(f"Error generating articles: {e}")
+        print(f"✗ Error generating articles: {e}")
         import traceback
         traceback.print_exc()
         raise
