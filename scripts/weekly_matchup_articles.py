@@ -690,7 +690,7 @@ def determine_current_week_and_season() -> Tuple[int, int]:
     
     # NFL season runs from September to early February
     # If current month is before September, we're in the previous season
-    if today.month < 9:
+    if today.month < 7:
         season = current_year - 1
     else:
         season = current_year
