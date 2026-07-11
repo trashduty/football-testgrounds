@@ -757,9 +757,21 @@ def build_bottom_line(
     has_bet: bool,
     model_lead: Optional[str],
 ) -> List[str]:
-    """Build the Bottom Line section as a list of markdown lines."""
+    """Build the Bottom Line section as a list of markdown lines.
+
+    MANDATORY RULES enforced here for every article:
+      1. The numeric edge is ALWAYS stated when discussing whether to bet a
+         team. Both the bet and no-bet return paths include ``edge_pct``.
+      2. A team we are passing on is NEVER re-referenced as a "closest look"
+         (or any equivalent restatement) in a trailing sentence.
+    """
     stadium = stadium_name or "their home stadium"
-    edge = float(bet_facts.get("edge") or 0)
+
+    # Robust edge extraction: treat None / NaN as 0.0 so we never print "nan%".
+    raw_edge = bet_facts.get("edge")
+    edge = float(raw_edge) if raw_edge is not None and not pd.isna(raw_edge) else 0.0
+    edge_pct = f"{edge * 100:.2f}%"
+
     price = bet_facts.get("price")
     price_str = str(int(price)) if price is not None and not pd.isna(price) else "N/A"
 
@@ -770,19 +782,20 @@ def build_bottom_line(
             lead = lead[0].lower() + lead[1:]
         intro = f"The {away_name} take on the {home_name} at {stadium} and {lead}"
         edge_line = (
-            f"This puts the edge at {edge * 100:.2f}%,"
+            f"This puts the edge at {edge_pct},"
             f" which at {bet_line} for {price_str} makes the {bet_name} a bet."
         )
         return ["## The Bottom Line", intro, edge_line]
-    else:
-        text = (
-            f"The {away_name} take on the {home_name} at {stadium} and"
-            f" the model sees a lean toward {bet_name} {bet_line},"
-            f" but this does not clear our 4% threshold for a full bet,"
-            f" so we are passing on this one."
-            f" The closest look is the {bet_name} {bet_line} for {price_str}."
-        )
-        return ["## The Bottom Line", text]
+
+    # No-bet: state the edge (rule 1); do NOT restate the side as a
+    # "closest look" (rule 2).
+    text = (
+        f"The {away_name} take on the {home_name} at {stadium} and"
+        f" the model sees a lean toward {bet_name} {bet_line} with an edge of {edge_pct},"
+        f" but this does not clear our 4% threshold for a full bet,"
+        f" so we are passing on this one."
+    )
+    return ["## The Bottom Line", text]
 
 
 def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
