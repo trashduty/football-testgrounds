@@ -104,135 +104,270 @@ def parse_args() -> argparse.Namespace:
 
 
 def ordinal(rank: Optional[int]) -> str:
-    """Convert a rank to an ordinal string."""
-    if rank is None:
-        return "—"
+    if rank is None or math.isnan(rank):
+        return "unranked"
+    rank = int(rank)
     if 10 <= rank % 100 <= 20:
-        suf = "th"
+        suffix = "th"
     else:
-        suf = {1: "st", 2: "nd", 3: "rd"}.get(rank % 10, "th")
-    return f"{rank}{suf}"
+        suffix = {1: "st", 2: "nd", 3: "rd"}.get(rank % 10, "th")
+    return f"{rank}{suffix}"
 
 
-def display_percent(value: object, decimals: int = 1) -> str:
-    """Format a decimal value as a percentage string."""
+def normalize_name(value: str) -> str:
+    value = re.sub(r"\s+\(.*?\)$", "", str(value or "")).strip()
+    value = re.sub(r"\s+(Jr\.?|Sr\.?|II|III|IV|V)$", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"[^A-Za-z0-9]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip().lower()
+
+
+def slugify_game(game: str) -> str:
+    return game.lower().replace("@", "_at_")
+
+
+def format_float(value: object, digits: int = 1) -> str:
     if value is None or pd.isna(value):
-        return "—"
-    return f"{float(value) * 100:.{decimals}f}%"
+        return "N/A"
+    return f"{float(value):.{digits}f}"
 
 
-def format_line(line: object) -> str:
-    """Format a betting line."""
-    if line is None or pd.isna(line):
-        return "PK"
-    f = float(line)
-    if f > 0:
-        return f"+{f:.1f}".rstrip("0").rstrip(".")
-    else:
-        return f"{f:.1f}".rstrip("0").rstrip(".")
+def parse_percent(value: object) -> float:
+    if value is None or pd.isna(value):
+        return float("nan")
+    if isinstance(value, str):
+        stripped = value.strip()
+        if stripped.endswith("%"):
+            return float(stripped.rstrip("%")) / 100.0
+        value = stripped
+    numeric = float(value)
+    return numeric / 100.0 if numeric > 1 else numeric
 
 
-def resolve_edge_numeric(row: pd.Series) -> Optional[float]:
-    """Resolve edge_numeric from various possible columns."""
-    edge = row.get("best_edge")
-    if edge is None or pd.isna(edge):
-        edge = row.get("edge_numeric")
-    if edge is None or pd.isna(edge):
-        return None
-    return float(edge)
+def display_percent(value: object, digits: int = 1) -> str:
+    if value is None or pd.isna(value):
+        return "N/A"
+    numeric = float(value)
+    if abs(numeric) <= 1:
+        numeric *= 100
+    return f"{numeric:.{digits}f}%"
 
 
-def edge_confidence_label(edge: Optional[float]) -> str:
-    """Translate edge numeric to a confidence label."""
-    if edge is None or edge < 0.04:
-        return "Pass"
-    if edge < 0.06:
-        return "Lean"
-    if edge < 0.08:
-        return "Bet"
-    return "Strong Bet"
+def display_edge(value: object) -> str:
+    if value is None or pd.isna(value):
+        return "N/A"
+    return f"{float(value) * 100:.2f}%"
 
 
-def matchup_call_label(edge: Optional[float]) -> str:
-    """Translate edge numeric to advice for the matchup table."""
-    if edge is None or edge < 0.04:
-        return "No Bet"
-    if edge < 0.06:
-        return "Lean – doesn't meet our edge criteria to fully bet"
-    return "Bet"
+def safe_mkdir(path: Path) -> None:
+    path.mkdir(parents=True, exist_ok=True)
 
 
-def clean_qb(name: Optional[str], qb_crosswalk: Optional[Dict[str, str]] = None) -> Optional[str]:
-    """Clean and standardize QB names."""
-    if not name or not isinstance(name, str):
-        return None
-    if qb_crosswalk and name in qb_crosswalk:
-        return qb_crosswalk[name]
-    return name
+def raw_github_url(owner: str, repo: str, ref: str, path: str) -> str:
+    return f"https://raw.githubusercontent.com/{owner}/{repo}/{ref}/{path}"
 
 
-def get_github_file(
-    owner: str, repo: str, path: str, ref: str = "main", timeout: int = REQUEST_TIMEOUT
-) -> Optional[str]:
-    """Fetch a file from GitHub."""
-    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}?ref={ref}"
-    try:
-        r = requests.get(url, timeout=timeout)
-        r.raise_for_status()
-        return base64.b64decode(r.json()["content"]).decode("utf-8")
-    except Exception as e:
-        print(f"Failed to fetch {path} from {owner}/{repo}: {e}")
-        return None
+def github_contents_url(owner: str, repo: str, ref: str, path: str) -> str:
+    return f"https://api.github.com/repos/{owner}/{repo}/contents/{path}?ref={ref}"
 
 
-def apply_rank_column(metrics: pd.DataFrame, col: str, rank_col: str, ascending: bool = True):
-    """Add rank column to metrics dataframe (inplace)."""
-    metrics[rank_col] = metrics[col].rank(method="min", ascending=ascending).astype("Int64")
-
-
-def add_rank_columns(metrics: pd.DataFrame, col: str, rank_col: str, ascending: bool = True):
-    """Wrapper for apply_rank_column with both ascending and descending."""
-    apply_rank_column(metrics, col, rank_col, ascending=ascending)
-
-
-def load_nflverse_games(season: int) -> pd.DataFrame:
-    """Load NFL games data from nflverse."""
-    return pd.read_csv(NFLVERSE_GAMES_URL)
-
-
-def load_nflverse_pbp(season: int) -> pd.DataFrame:
-    """Load NFL play-by-play data from nflverse."""
-    return pd.read_parquet(NFLVERSE_PBP_URL.format(season=season))
-
-
-def load_nflverse_weekly(season: int) -> pd.DataFrame:
-    """Load NFL weekly player stats from nflverse."""
-    return pd.read_parquet(NFLVERSE_WEEKLY_URL.format(season=season))
-
-
-def load_nflverse_teams() -> pd.DataFrame:
-    """Load NFL team colors and logos from nflverse."""
-    return pd.read_csv(NFLVERSE_TEAMS_URL)
-
-
-def load_injuries_from_espn(team: str, season: int, cache: Dict[str, TeamInjuryReport], debug: bool = False) -> TeamInjuryReport:
-    """Fetch injury report from ESPN."""
-    if team in cache:
-        return cache[team]
-    
-    # Implementation would load from ESPN
-    return TeamInjuryReport(team=team, status="ok_no_injuries")
-
-
-def build_pbp_metrics(pbp: pd.DataFrame) -> pd.DataFrame:
-    """Build offensive and defensive metrics from play-by-play data."""
-    offense = pbp[pbp["posteam"] != ""].copy()
-    games_played = (
-        offense.groupby("posteam")
-        .agg(games_played=("game_id", "nunique"))
-        .reset_index()
-        .rename(columns={"posteam": "team"})
+def fetch_text(
+    path: str,
+    *,
+    local_root: Optional[Path] = None,
+    owner: Optional[str] = None,
+    repo: Optional[str] = None,
+    ref: Optional[str] = None,
+    session: Optional[requests.Session] = None,
+) -> str:
+    if local_root is not None:
+        return (local_root / path).read_text(encoding="utf-8")
+    if not owner or not repo or not ref:
+        raise ValueError("owner, repo, and ref are required for remote fetches")
+    session = session or requests.Session()
+    raw_url = raw_github_url(owner, repo, ref, path)
+    response = session.get(raw_url, timeout=REQUEST_TIMEOUT)
+    if response.ok:
+        response.encoding = response.encoding or "utf-8"
+        return response.text
+    token = session.headers.get("Authorization") or (
+        f"token {token}" if (token := os.getenv("GITHUB_TOKEN")) else None
     )
+    if token:
+        headers = {"Accept": "application/vnd.github+json", "Authorization": token}
+        api_response = session.get(
+            github_contents_url(owner, repo, ref, path), headers=headers, timeout=REQUEST_TIMEOUT
+        )
+        api_response.raise_for_status()
+        payload = api_response.json()
+        content = payload.get("content")
+        if content:
+            return base64.b64decode(content).decode("utf-8")
+    response.raise_for_status()
+    return response.text
+
+
+def read_repo_csv(
+    path: str,
+    *,
+    local_root: Optional[Path] = None,
+    owner: Optional[str] = None,
+    repo: Optional[str] = None,
+    ref: Optional[str] = None,
+    session: Optional[requests.Session] = None,
+) -> pd.DataFrame:
+    return pd.read_csv(
+        StringIO(
+            fetch_text(
+                path, local_root=local_root, owner=owner, repo=repo, ref=ref, session=session
+            )
+        )
+    )
+
+
+def load_qb_crosswalk() -> Dict[str, str]:
+    if not QB_CROSSWALK_PATH.exists():
+        return {}
+    crosswalk = pd.read_csv(QB_CROSSWALK_PATH)
+    if "starter_player_name" not in crosswalk.columns or "Full Name" not in crosswalk.columns:
+        return {}
+    valid = crosswalk[["starter_player_name", "Full Name"]].dropna().copy()
+    valid["starter_player_name"] = valid["starter_player_name"].astype(str).str.strip()
+    valid["Full Name"] = valid["Full Name"].astype(str).str.strip()
+    return dict(zip(valid["starter_player_name"], valid["Full Name"]))
+
+
+def load_spreads_and_target_context(
+    args: argparse.Namespace, session: requests.Session
+) -> Tuple[pd.DataFrame, int, int, Optional[Path]]:
+    local_root = Path(args.trash_schedule_dir).resolve() if args.trash_schedule_dir else None
+    spreads = read_repo_csv(
+        TRASH_SCHEDULE_SPREADS_PATH,
+        local_root=local_root,
+        owner=args.trash_schedule_owner,
+        repo=args.trash_schedule_repo,
+        ref=args.trash_schedule_ref,
+        session=session,
+    )
+    spreads.columns = spreads.columns.str.strip().str.lower()
+    spreads["team"] = spreads["team"].str.upper()
+    spreads["week"] = spreads["week"].astype(int)
+    spreads["game_date_est"] = pd.to_datetime(spreads["game_date_est"], errors="coerce")
+    week = args.week or int(spreads["week"].max())
+    week_spreads = spreads[spreads["week"] == week].copy()
+    if week_spreads.empty:
+        raise ValueError(f"No spreads_odds.csv rows found for week {week}")
+    season = args.season or int(week_spreads["game_date_est"].dt.year.mode().iloc[0])
+    return week_spreads, week, season, local_root
+
+
+def load_model_data(
+    week: int, args: argparse.Namespace, local_root: Optional[Path], session: requests.Session
+) -> pd.DataFrame:
+    model = read_repo_csv(
+        TRASH_SCHEDULE_MODEL_TEMPLATE.format(week=week),
+        local_root=local_root,
+        owner=args.trash_schedule_owner,
+        repo=args.trash_schedule_repo,
+        ref=args.trash_schedule_ref,
+        session=session,
+    )
+    model.columns = model.columns.str.strip()
+    model["Team"] = model["Team"].str.upper()
+    model["model_cover_probability"] = model["Cover Probability (%)"].map(parse_percent)
+    model["edge_numeric"] = model["Edge"].astype(float)
+    return model
+
+
+def load_games_schedule() -> pd.DataFrame:
+    games = pd.read_csv(NFLVERSE_GAMES_URL)
+    games["game_type"] = games["game_type"].fillna("")
+    games["home_team"] = games["home_team"].str.upper()
+    games["away_team"] = games["away_team"].str.upper()
+    return games
+
+
+def load_team_names() -> Dict[str, str]:
+    teams = pd.read_csv(NFLVERSE_TEAMS_URL)
+    return dict(zip(teams["team_abbr"].str.upper(), teams["team_name"]))
+
+
+def read_remote_parquet(url: str, columns: Sequence[str]) -> pd.DataFrame:
+    return pd.read_parquet(url, columns=list(columns))
+
+
+def choose_stat_context(target_season: int, target_week: int) -> StatContext:
+    if target_week <= 1:
+        return StatContext(
+            target_season - 1,
+            None,
+            f"Week 1 — fall back to the {target_season - 1} regular season baselines.",
+        )
+    return StatContext(target_season, target_week - 1, f"Through week {target_week - 1}.")
+
+
+def load_stat_inputs(stat_context: StatContext) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    pbp_columns = [
+        "game_id","season","week","season_type","posteam","defteam","home_team","away_team",
+        "pass","rush","sack","passing_yards","rushing_yards","epa","field_goal_attempt",
+        "field_goal_result","kick_distance","kicker_player_name","touchdown","special","td_team",
+    ]
+    weekly_columns = ["season", "week", "season_type", "recent_team", "special_teams_tds"]
+    pbp = read_remote_parquet(NFLVERSE_PBP_URL.format(season=stat_context.season), pbp_columns)
+    try:
+        weekly = read_remote_parquet(NFLVERSE_WEEKLY_URL.format(season=stat_context.season), weekly_columns)
+    except Exception:
+        weekly = pd.DataFrame(columns=weekly_columns)
+
+    pbp["posteam"] = pbp["posteam"].fillna("").str.upper()
+    pbp["defteam"] = pbp["defteam"].fillna("").str.upper()
+    pbp["home_team"] = pbp["home_team"].fillna("").str.upper()
+    pbp["away_team"] = pbp["away_team"].fillna("").str.upper()
+    pbp["season_type"] = pbp["season_type"].fillna("")
+    pbp = pbp[pbp["season_type"] == "REG"].copy()
+    if stat_context.through_week is not None:
+        pbp = pbp[pbp["week"] <= stat_context.through_week].copy()
+
+    if not weekly.empty:
+        weekly["recent_team"] = weekly["recent_team"].fillna("").str.upper()
+        weekly["season_type"] = weekly["season_type"].fillna("")
+        weekly = weekly[weekly["season_type"] == "REG"].copy()
+        if stat_context.through_week is not None:
+            weekly = weekly[weekly["week"] <= stat_context.through_week].copy()
+    return pbp, weekly
+
+
+def load_stat_inputs_with_fallback(target_season: int, target_week: int) -> Tuple[StatContext, pd.DataFrame, pd.DataFrame]:
+    attempted: List[str] = []
+    primary = choose_stat_context(target_season, target_week)
+    candidate_contexts = [primary] + [
+        StatContext(season=s, through_week=None, note=f"Fallback to {s}.")
+        for s in range(primary.season - 1, max(primary.season - 4, 1998), -1)
+    ]
+    for context in candidate_contexts:
+        try:
+            pbp, weekly = load_stat_inputs(context)
+            if pbp.empty:
+                raise ValueError("No nflverse play-by-play rows returned.")
+            return context, pbp, weekly
+        except Exception as exc:
+            attempted.append(f"{context.season}: {type(exc).__name__}: {exc}")
+    raise RuntimeError("Unable to load nflverse stat data. Attempts: " + " | ".join(attempted))
+
+
+def add_rank_columns(frame: pd.DataFrame, column: str, rank_column: str, higher_better: bool) -> None:
+    frame[rank_column] = frame[column].rank(method="min", ascending=not higher_better).astype("Int64")
+
+
+def compute_team_metrics(pbp: pd.DataFrame, weekly: pd.DataFrame) -> pd.DataFrame:
+    offense = pbp[pbp["posteam"] != ""].copy()
+    offense["is_off_play"] = (
+        offense["pass"].fillna(0).eq(1)
+        | offense["rush"].fillna(0).eq(1)
+        | offense["sack"].fillna(0).eq(1)
+    )
+    offense = offense[offense["is_off_play"]].copy()
+
+    games_played = offense.groupby("posteam")["game_id"].nunique().rename("games_played").reset_index().rename(columns={"posteam": "team"})
 
     offense_summary = (
         offense.groupby("posteam")
@@ -244,6 +379,7 @@ def build_pbp_metrics(pbp: pd.DataFrame) -> pd.DataFrame:
         )
         .reset_index()
         .rename(columns={"posteam": "team"})
+        .merge(games_played, on="team", how="left")
     )
     offense_summary["off_rush_yards_pg"] = offense_summary["off_rush_yards"] / offense_summary["games_played"]
     offense_summary["off_pass_yards_pg"] = offense_summary["off_pass_yards"] / offense_summary["games_played"]
@@ -297,45 +433,201 @@ def build_records(games: pd.DataFrame, season: int, week: int) -> Dict[str, Dict
     records: Dict[str, Dict[str, int]] = {}
     history = games[
         (games["season"] == season) & (games["game_type"] == "REG") & (games["week"] < week)
-    ]
-    for team in pd.concat([history["home_team"], history["away_team"]]).unique():
-        wins = len(history[(history["home_team"] == team) & (history["result"] > 0)]) + len(
-            history[(history["away_team"] == team) & (history["result"] < 0)]
-        )
-        losses = len(history[(history["home_team"] == team) & (history["result"] < 0)]) + len(
-            history[(history["away_team"] == team) & (history["result"] > 0)]
-        )
-        ties = len(history[(history["home_team"] == team) & (history["result"] == 0)]) + len(
-            history[(history["away_team"] == team) & (history["result"] == 0)]
-        )
-        records[team] = {"W": wins, "L": losses, "T": ties}
+        & games["home_score"].notna() & games["away_score"].notna()
+    ].copy()
+    for _, row in history.iterrows():
+        home, away = row["home_team"], row["away_team"]
+        records.setdefault(home, {"wins": 0, "losses": 0, "ties": 0})
+        records.setdefault(away, {"wins": 0, "losses": 0, "ties": 0})
+        if row["home_score"] > row["away_score"]:
+            records[home]["wins"] += 1
+            records[away]["losses"] += 1
+        elif row["home_score"] < row["away_score"]:
+            records[away]["wins"] += 1
+            records[home]["losses"] += 1
+        else:
+            records[home]["ties"] += 1
+            records[away]["ties"] += 1
     return records
 
 
-def model_ranks(model_frame: pd.DataFrame) -> pd.DataFrame:
-    """Convert model metrics into rank columns."""
-    metrics = model_frame.copy()
-    if metrics.empty:
-        return metrics
-    metrics = metrics.rename(
-        columns={
-            "Team": "team",
-            "Offensive Expected Points (Season)": "off_ep",
-            "Defensive Expected Points (Season)": "def_ep",
-            "Offensive Success Rate (%)": "off_sr",
-            "Defensive Success Rate (%)": "def_sr",
-            "QB Expected Points Added (Last 10 games)": "qb10_ep",
-            "Offensive Eckel Rate Over Expected (%)": "off_eckel",
-            "Defensive Eckel Rate Over Expected (%)": "def_eckel",
-            "Qbname": "qbname",
-        }
-    )
-    apply_rank_column(metrics, "off_ep", "off_sr_rank", ascending=False)
-    apply_rank_column(metrics, "def_ep", "def_sr_rank", ascending=False)
-    apply_rank_column(metrics, "qb10_ep", "qb10_rank", ascending=False)
-    return metrics[
-        ["team", "off_sr_rank", "def_sr_rank", "qb10_rank", "qbname", "off_eckel", "def_eckel"]
-    ]
+def load_field_provenance() -> Dict[str, str]:
+    if not COMBINED_DICTIONARY_PATH.exists():
+        return {}
+    dictionary = pd.read_csv(COMBINED_DICTIONARY_PATH)
+    needed = {"wind", "special_teams_tds", "epa", "passing_yards", "rushing_yards", "sack"}
+    subset = dictionary[dictionary["field"].astype(str).isin(needed)]
+    return dict(zip(subset["field"].astype(str), subset["description"].astype(str)))
+
+
+def format_line(value: object) -> str:
+    if value is None or pd.isna(value):
+        return "N/A"
+    f = float(value)
+    return f"+{f:.1f}" if f > 0 else f"{f:.1f}"
+
+
+def resolve_edge_numeric(row: pd.Series) -> Optional[float]:
+    edge_numeric = row.get("best_edge")
+    if edge_numeric is None or pd.isna(edge_numeric):
+        edge_numeric = row.get("edge_numeric")
+    if edge_numeric is None or pd.isna(edge_numeric):
+        return None
+    return float(parse_percent(edge_numeric))
+
+
+def edge_confidence_label(edge: Optional[float]) -> str:
+    if edge is None or edge < 0.04:
+        return "Pass"
+    if edge >= 0.07:
+        return "Strong"
+    return "Lean"
+
+
+def matchup_call_label(edge: Optional[float]) -> str:
+    if edge is None or edge < 0.01:
+        return "No Bet"
+    if edge < 0.04:
+        return "Lean – doesn't meet our edge criteria to fully bet"
+    return "Bet"
+
+
+def format_title_kickoff_date(kickoff: object) -> str:
+    return "N/A" if kickoff is None or pd.isna(kickoff) else pd.Timestamp(kickoff).strftime("%m/%d/%Y")
+
+
+def parse_table_headers(table: BeautifulSoup) -> List[str]:
+    return [cell.get_text(" ", strip=True) for cell in table.find_all("th")]
+
+
+def parse_depth_chart_starters(html: str) -> List[str]:
+    soup = BeautifulSoup(html, "html.parser")
+    starters: List[str] = []
+    for table in soup.find_all("table"):
+        for row in table.find_all("tr"):
+            cells = row.find_all("td")
+            texts = [cell.get_text(" ", strip=True) for cell in cells]
+            if len(texts) < 2:
+                continue
+            position = texts[0].upper()
+            if not re.match(r"^[A-Z0-9/+-]{1,5}$", position):
+                continue
+            for candidate in texts[1:]:
+                cleaned = re.sub(r"\s+\d+$", "", candidate).strip()
+                if len(cleaned) >= 3 and any(ch.isalpha() for ch in cleaned):
+                    starters.append(cleaned)
+                    break
+    deduped, seen = [], set()
+    for starter in starters:
+        key = normalize_name(starter)
+        if key and key not in seen:
+            deduped.append(starter)
+            seen.add(key)
+    return deduped
+
+
+def parse_injuries(html: str) -> List[StarterInjury]:
+    soup = BeautifulSoup(html, "html.parser")
+    injuries: List[StarterInjury] = []
+    for table in soup.find_all("table"):
+        headers = [header.lower() for header in parse_table_headers(table)]
+        if not headers or not any("name" in h or "player" in h for h in headers):
+            continue
+        for row in table.find_all("tr")[1:]:
+            cells = [cell.get_text(" ", strip=True) for cell in row.find_all("td")]
+            if len(cells) != len(headers):
+                continue
+            payload = dict(zip(headers, cells))
+            player = payload.get("name") or payload.get("player")
+            if not player:
+                continue
+            status = payload.get("status") or payload.get("game status") or ""
+            detail = payload.get("injury") or payload.get("comment") or payload.get("details") or ""
+            injuries.append(StarterInjury(player=player, status=status, detail=detail))
+    return injuries
+
+
+def fetch_espn_starter_injuries(team: str, slug: Optional[str], session: requests.Session, debug_enabled: bool) -> TeamInjuryReport:
+    report = TeamInjuryReport(team=team)
+    if not slug:
+        report.status = "no_slug"
+        return report
+    injuries_url = f"https://www.espn.com/nfl/team/injuries/_/name/{slug}"
+    depth_url = f"https://www.espn.com/nfl/team/depth/_/name/{slug}"
+    try:
+        injury_rows = parse_injuries(session.get(injuries_url, timeout=REQUEST_TIMEOUT).text)
+    except Exception as exc:
+        report.status = "injury_fetch_failed"
+        if debug_enabled:
+            report.debug.append(EspnDebugEvent(
+                team=team, source="injuries", url=injuries_url, failure=str(exc)
+            ))
+        return report
+    try:
+        starters = parse_depth_chart_starters(session.get(depth_url, timeout=REQUEST_TIMEOUT).text)
+    except Exception as exc:
+        report.status = "depth_fetch_failed"
+        if debug_enabled:
+            report.debug.append(EspnDebugEvent(
+                team=team, source="depth", url=depth_url, failure=str(exc)
+            ))
+        return report
+    starter_keys = {normalize_name(name) for name in starters}
+    report.starters = [injury for injury in injury_rows if normalize_name(injury.player) in starter_keys]
+    report.status = "ok_starters_found" if report.starters else "no_starter_match"
+    return report
+
+
+def prepare_games(spreads: pd.DataFrame, model: pd.DataFrame, requested_teams: Optional[Iterable[str]]) -> pd.DataFrame:
+    merged = spreads.merge(model, left_on="team", right_on="Team", how="left", validate="one_to_one")
+    if requested_teams:
+        requested = {team.upper() for team in requested_teams}
+        eligible_games = merged[merged["team"].isin(requested)]["game"].unique()
+        merged = merged[merged["game"].isin(eligible_games)].copy()
+    if merged.empty:
+        raise ValueError("No matchup rows remain after filtering")
+    return merged
+
+
+def model_ranks(model_df: pd.DataFrame) -> pd.DataFrame:
+    df = model_df.copy()
+    df.columns = [c.strip() for c in df.columns]
+
+    def rk(col: str, higher_better: bool) -> pd.Series:
+        if col not in df.columns:
+            return pd.Series([pd.NA] * len(df), index=df.index, dtype="Int64")
+        return df[col].rank(method="min", ascending=not higher_better).astype("Int64")
+
+    out = pd.DataFrame({"team": df["Team"].astype(str).str.upper()})
+    out["off_rank"] = rk("Offensive Expected Points (Season)", True)
+    out["def_rank"] = rk("Defensive Expected Points (Season)", False)
+    out["off_sr_rank"] = rk("Offensive Success Rate (%)", True)
+    out["def_sr_rank"] = rk("Defensive Success Rate (%)", True)
+    out["qb10_rank"] = rk("QB Expected Points Added (Last 10 games)", True)
+    for src, dst in [
+        ("Model Prediction", "model_pred"),
+        ("QB Expected Points Added (Last 10 games)", "qb10"),
+        ("QB Expected Points Added (Career)", "qb_career"),
+        ("Offensive Eckel Rate Over Expected (%)", "off_eckel"),
+        ("Defensive Eckel Rate Over Expected (%)", "def_eckel"),
+        ("Qbname", "qbname"),
+        ("PROE", "proe"),
+    ]:
+        out[dst] = df[src].values if src in df.columns else pd.NA
+    return out.set_index("team")
+
+
+def clean_qb(value: object, qb_crosswalk: Optional[Dict[str, str]] = None) -> Optional[str]:
+    if value is None or (isinstance(value, float) and pd.isna(value)):
+        return None
+    s = str(value).strip()
+    if not s or s.lower() == "nan":
+        return None
+    if qb_crosswalk:
+        mapped = qb_crosswalk.get(s)
+        if mapped:
+            return mapped
+    return re.sub(r"^([A-Za-z])\.([A-Za-z])", r"\1. \2", s)
 
 
 def _safe_rank(metrics: pd.Series, col: str) -> Optional[int]:
@@ -430,14 +722,15 @@ def extract_team_logo(row: pd.Series) -> Optional[str]:
 
 def render_logo_row(away_name: str, away_logo: str, home_name: str, home_logo: str) -> str:
     """Render a borderless HTML table with team logos flanking a vs separator."""
-    html = (
-        f'<p align="center">'
-        f'<img src="{away_logo}" alt="{away_name}" width="224" /> '
-        f"<strong>vs</strong> "
-        f'<img src="{home_logo}" alt="{home_name}" width="224" />'
-        f"</p>"
+    td_style = 'style="border:none;"'
+    vs_style = 'style="font-size:69px;border:none;"'
+    return (
+        f'<table align="center" border="0" style="border-collapse:collapse;border:none;"><tr>'
+        f'<td {td_style}><img src="{away_logo}" alt="{away_name}" width="120" /></td>'
+        f'<td {vs_style}><strong>vs</strong></td>'
+        f'<td {td_style}><img src="{home_logo}" alt="{home_name}" width="120" /></td>'
+        f'</tr></table>'
     )
-    return html
 
 
 def model_vs_market_lead(team_name: str, market_line: float, best_line: float, seed: str) -> Optional[str]:
@@ -482,12 +775,12 @@ def build_bottom_line(
         )
         return ["## The Bottom Line", intro, edge_line]
     else:
-        # For no-bet scenarios, mention the edge and avoid redundancy
         text = (
             f"The {away_name} take on the {home_name} at {stadium} and"
-            f" the model sees a lean toward {bet_name} {bet_line} with an edge of {edge * 100:.2f}%,"
-            f" but this does not clear our 6% threshold for a full bet,"
+            f" the model sees a lean toward {bet_name} {bet_line},"
+            f" but this does not clear our 4% threshold for a full bet,"
             f" so we are passing on this one."
+            f" The closest look is the {bet_name} {bet_line} for {price_str}."
         )
         return ["## The Bottom Line", text]
 
@@ -511,53 +804,111 @@ def render_risk(
     seed: str,
 ) -> str:
     """Render a risk callout line (no em-dash)."""
-    risk_name, ub = risk_tuple
-    if ub.rank_a is None or ub.rank_b is None:
-        return None
-    
-    if ub.delta < 0:
-        return f"**{risk_name} Edge**: {opp_name} has a {_ord(ub.rank_b)} {ub.kind}, vs {_ord(ub.rank_a)} for {ub.team_a}."
+    risk_type, battle = risk_tuple
+    return (
+        f"The {battle.kind} matchup favors {opp_name}"
+        f" ({ordinal(battle.rank_b)} of {total_teams}"
+        f" vs. {ordinal(battle.rank_a)} of {total_teams})."
+    )
+
+
+def build_model_prediction(
+    game_rows: pd.DataFrame,
+    edge_game_count: int,
+    team_names: Dict[str, str],
+) -> str:
+    """Build a one-paragraph model-prediction summary for a team/game."""
+    row = game_rows.iloc[0]
+    team = str(row.get("team", ""))
+    full_name = team_names.get(team, team)
+    line = row.get("best_line")
+    price = row.get("best_price")
+
+    # Cover probability: prefer best_cover_probability
+    cover = row.get("best_cover_probability")
+    if cover is None or pd.isna(cover):
+        cover = row.get("model_cover_probability")
+
+    # Edge: prefer best_edge when best_cover_probability is non-null
+    best_edge = row.get("best_edge")
+    edge_numeric = row.get("edge_numeric")
+    if best_edge is not None and not pd.isna(best_edge) and row.get("best_cover_probability") is not None and not pd.isna(row.get("best_cover_probability")):
+        edge = float(best_edge)
     else:
-        return f"**{risk_name} Edge**: {ub.team_a} has a {_ord(ub.rank_a)} {ub.kind}, vs {_ord(ub.rank_b)} for {opp_name}."
+        edge = float(edge_numeric) if edge_numeric is not None and not pd.isna(edge_numeric) else 0.0
+
+    line_str = format_line(line)
+    price_str = _price(price)
+    cover_str = display_percent(cover, 2) if cover is not None else "N/A"
+    edge_str = f"{edge * 100:.2f}%"
+    threshold_word = "meets" if edge >= 0.04 else "does not meet"
+
+    parts = [
+        f"{full_name} at {line_str} ({price_str}).",
+        f"Our model gives them a {cover_str} chance to cover, an edge of {edge_str}.",
+        f"This {threshold_word} our threshold of 4% to bet.",
+    ]
+    if edge_game_count > 0:
+        parts.append(
+            f"Our model shows edges of at least 4% on {edge_game_count}"
+            f" game{'s' if edge_game_count != 1 else ''} this week."
+            f" See all picks at btb-analytics.com/member-access."
+        )
+    return " ".join(parts)
 
 
 def build_article(
-    seed: str,
-    game_rows: Sequence[pd.Series],
-    metrics: pd.DataFrame,
-    records: Dict[str, Dict[str, int]],
-    team_names: Dict[str, str],
-    mr: Optional[pd.DataFrame],
-    stat_context: StatContext,
-    qb_crosswalk: Dict[str, str],
-    injuries: Dict[str, TeamInjuryReport],
-    edge_game_count: int,
-    model_ranks_df: Optional[pd.DataFrame] = None,
-) -> Tuple[str, Optional[str]]:
-    """Build a single matchup article."""
-    if not game_rows or len(game_rows) < 2:
-        return None, None
+    game, game_rows, metrics, records, team_names, schedule_row,
+    stat_context, provenance, injury_reports, edge_game_count, model_ranks_df=None, qb_crosswalk=None,
+) -> Tuple[str, Dict[str, object]]:
+    away_team, home_team = game.split("@")
+    rows_by_team = {row["team"]: row for _, row in game_rows.iterrows()}
+    away_row, home_row = rows_by_team[away_team], rows_by_team[home_team]
+    metrics_indexed = metrics.set_index("team")
+    mr = model_ranks_df
 
-    away_row, home_row = game_rows[0], game_rows[1]
-    away_team = away_row.get("away_team")
-    home_team = home_row.get("home_team")
+    def m(team):
+        base = metrics_indexed.loc[team] if team in metrics_indexed.index else pd.Series(dtype="float64")
+        if mr is not None and team in mr.index:
+            base = pd.concat([base, mr.loc[team]])
+        if "off_rank" not in base.index and "off_epa_rank" in base.index:
+            base["off_rank"] = base.get("off_epa_rank")
+            base["def_rank"] = base.get("def_epa_rank")
+        return base
 
     away_name = team_names.get(away_team, away_team)
     home_name = team_names.get(home_team, home_team)
+    kickoff = away_row["game_date_est"]
+    kickoff_title_label = format_title_kickoff_date(kickoff)
 
-    # Extract required fields
-    kickoff = away_row.get("kickoff_time")
-    kickoff_title_label = None
-    if kickoff:
-        try:
-            dt = pd.to_datetime(kickoff)
-            kickoff_title_label = dt.strftime("%m/%d/%Y")
-        except:
-            pass
+    # Lookup stadium from games schedule by date and teams
+    stadium_name = None
+    games_schedule = load_games_schedule()
+    kickoff_date = pd.to_datetime(kickoff).date() if kickoff is not None and not pd.isna(kickoff) else None
+    if kickoff_date is not None:
+        schedule_match = games_schedule[
+            (pd.to_datetime(games_schedule["gameday"]).dt.date == kickoff_date) &
+            (games_schedule["home_team"] == home_team) &
+            (games_schedule["away_team"] == away_team)
+        ]
+        if not schedule_match.empty and "stadium" in schedule_match.columns:
+            stadium_name = schedule_match.iloc[0]["stadium"]
 
-    stadium_name = away_row.get("location") or home_row.get("location")
+    favorite_row = game_rows.sort_values("market_line").iloc[0]
+    dog_row = game_rows.sort_values("market_line").iloc[-1]
+    fav_edge = resolve_edge_numeric(favorite_row)
+    dog_edge = resolve_edge_numeric(dog_row)
+    verdict_row = favorite_row if fav_edge is not None and (dog_edge is None or fav_edge >= dog_edge) else dog_row
+    other_row = dog_row if verdict_row is favorite_row else favorite_row
+    has_bet = (resolve_edge_numeric(verdict_row) or 0) >= 0.04
 
-    verdict_row = away_row if away_row.get("edge_numeric") or away_row.get("best_edge") else home_row
+    bet_team = verdict_row["team"]
+    opp_team = other_row["team"]
+    bet_name = team_names.get(bet_team, bet_team)
+    opp_name = team_names.get(opp_team, opp_team)
+    bet_m, opp_m = m(bet_team), m(opp_team)
+    total_teams = int(len(mr)) if mr is not None and len(mr) else 32
+
     bet_facts = _side_facts(verdict_row)
     bet_line = format_line(verdict_row.get("best_line"))
 
@@ -575,14 +926,6 @@ def build_article(
             f'</p>'
         )
         sections.append("")
-
-    has_bet = (resolve_edge_numeric(verdict_row) or 0) >= 0.06
-
-    bet_name = away_name if verdict_row.equals(away_row) else home_name
-    opp_name = home_name if bet_name == away_name else away_name
-
-    bet_m = model_ranks_df[model_ranks_df["team"] == away_team].iloc[0] if (model_ranks_df is not None and not model_ranks_df.empty) else None
-    opp_m = model_ranks_df[model_ranks_df["team"] == home_team].iloc[0] if (model_ranks_df is not None and not model_ranks_df.empty) else None
 
     # BTB Analytics subheader with logo (underneath team logos, above table)
     sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>")
@@ -620,7 +963,7 @@ def build_article(
         if not has_bet:
             sections.extend([
                 "",
-                "The model sees a lean here — but the edge does not clear our 6% threshold,"
+                "The model sees a lean here — but the edge does not clear our 4% threshold,"
                 " so there is no play.",
             ])
 
@@ -632,7 +975,7 @@ def build_article(
             bet_name,
             float(verdict_row.get("market_line") or 0),
             float(verdict_row.get("best_line") or 0),
-            seed,
+            game,
         )
         bottom_lines = build_bottom_line(
             away_name=away_name,
@@ -642,7 +985,7 @@ def build_article(
             bet_line=bet_line,
             confidence=edge_confidence_label(resolve_edge_numeric(verdict_row)),
             bet_facts=bet_facts,
-            seed=seed,
+            seed=game,
             has_bet=has_bet,
             model_lead=model_lead,
         )
@@ -657,7 +1000,7 @@ def build_article(
             "",
         ])
 
-        tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, len(model_ranks_df) if model_ranks_df is not None else 0, qb_crosswalk=qb_crosswalk)
+        tape = build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams, qb_crosswalk=qb_crosswalk)
         if tape:
             sections.extend(tape)
             sections.extend([
@@ -679,210 +1022,107 @@ def build_article(
         sections.extend(["", "## The Mismatch", ""])
         sections.extend(["", "## The Number", ""])
         sections.extend(["", "## The Risk", ""])
+        sections.extend([
+            "",
+            f"## {away_name} offense vs {home_name} defense",
+            "",
+            f"## {away_name} defense vs {home_name} offense",
+            "",
+        ])
 
-    return "\n".join(sections), seed
+        model_pred_text = build_model_prediction(game_rows, edge_game_count, team_names)
+        sections.extend(["## Model Prediction", "", model_pred_text, ""])
+        sections.extend(["## Why trust this preview", ""])
 
+        # Injury report section
+        all_starters: List[str] = []
+        for team, report in (injury_reports or {}).items():
+            all_starters.extend(report.starters)
+        sections.append("")
+        sections.append("## Injury report")
+        sections.append("")
+        if all_starters:
+            for team, report in (injury_reports or {}).items():
+                team_full = team_names.get(team, team)
+                for s in report.starters:
+                    sections.append(f"- **{s.player}** ({team_full}): {s.status} — {s.detail}")
+        else:
+            sections.append("No confirmed starter injuries are currently listed for either side.")
 
-def determine_current_week_and_season() -> Tuple[int, int]:
-    """Determine the current NFL week and season based on today's date."""
-    today = datetime.now(UTC).date()
-    current_year = today.year
-    
-    # NFL season runs from September to early February
-    # If current month is before September, we're in the previous season
-    if today.month < 7:
-        season = current_year - 1
-    else:
-        season = current_year
-    
-    # Load games to find current week
-    try:
-        games = load_nflverse_games(season)
-        # Try different column names for date
-        date_col = None
-        for col in ["gameday", "game_date", "kickoff_time"]:
-            if col in games.columns:
-                date_col = col
-                break
-        
-        if date_col:
-            games["game_date"] = pd.to_datetime(games[date_col])
-            
-            # Find games for this season and sort by date
-            season_games = games[games["season"] == season].sort_values("game_date")
-            
-            # Find the first game that hasn't happened yet or is today
-            for _, game in season_games.iterrows():
-                if game["game_date"].date() >= today:
-                    return int(game["week"]), season
-            
-            # If no future games found, return last week + 1
-            if not season_games.empty:
-                last_week = season_games.iloc[-1]["week"]
-                return int(last_week) + 1, season
-    except Exception as e:
-        print(f"Error determining current week/season: {e}")
-    
-    # Fallback: assume week 1
-    return 1, season
+    injury_payload = {
+        team: asdict(report) for team, report in (injury_reports or {}).items()
+    }
+    payload = {
+        "game": game,
+        "away_team": away_team,
+        "home_team": home_team,
+        "has_bet": has_bet,
+        "injury_reports": injury_payload,
+    }
+    return "\n".join(sections) + "\n", payload
 
 
-def main():
+def main() -> None:
     args = parse_args()
-    
-    # Determine season and week if not provided
-    season = args.season
-    week = args.week
-    if season is None or week is None:
-        current_week, current_season = determine_current_week_and_season()
-        if season is None:
-            season = current_season
-        if week is None:
-            week = current_week
-    
-    print(f"Generating matchup articles for season {season}, week {week}")
-    
-    # Create output directory with week subdirectory
-    output_base = Path(args.output_dir)
-    output_dir = output_base / f"week_{week}"
-    output_dir.mkdir(parents=True, exist_ok=True)
-    
-    print(f"Output directory: {output_dir}")
-    
-    try:
-        # Load data sources
-        print("Loading nflverse games data...")
-        games = load_nflverse_games(season)
-        
-        print("Loading nflverse teams data...")
-        teams_df = load_nflverse_teams()
-        # Handle different possible column names
-        team_abbr_col = next((col for col in ["team_abbr", "abbr", "team", "team_code"] if col in teams_df.columns), None)
-        team_name_col = next((col for col in ["team_name", "full_name", "name"] if col in teams_df.columns), None)
-        
-        if team_abbr_col and team_name_col:
-            team_names = dict(zip(teams_df[team_abbr_col], teams_df[team_name_col]))
-        else:
-            team_names = {}
-        
-        # Load model data from trash-schedule repo if available
-        print(f"Loading model data for week {week}...")
-        model_data = None
-        model_ranks_df = None
-        
-        if args.trash_schedule_dir:
-            model_path = Path(args.trash_schedule_dir) / TRASH_SCHEDULE_MODEL_TEMPLATE.format(week=week)
-            if model_path.exists():
-                print(f"Loading model from {model_path}")
-                model_data = pd.read_csv(model_path)
-                model_ranks_df = model_ranks(model_data)
-        else:
-            model_csv = get_github_file(
-                args.trash_schedule_owner,
-                args.trash_schedule_repo,
-                TRASH_SCHEDULE_MODEL_TEMPLATE.format(week=week),
-                args.trash_schedule_ref
-            )
-            if model_csv:
-                print("Loaded model data from GitHub")
-                model_data = pd.read_csv(StringIO(model_csv))
-                model_ranks_df = model_ranks(model_data)
-        
-        # Load QB crosswalk if available
-        qb_crosswalk = {}
-        if QB_CROSSWALK_PATH.exists():
-            try:
-                qb_df = pd.read_csv(QB_CROSSWALK_PATH)
-                qb_crosswalk = dict(zip(qb_df.iloc[:, 0], qb_df.iloc[:, 1])) if len(qb_df.columns) >= 2 else {}
-            except Exception as e:
-                print(f"Could not load QB crosswalk: {e}")
-        
-        # Filter games for this week
-        week_games = games[(games["season"] == season) & (games["week"] == week)]
-        if week_games.empty:
-            print(f"No games found for season {season}, week {week}")
-            return
-        
-        print(f"Found {len(week_games)} games for this week")
-        
-        # Build records for context
-        records = build_records(games, season, week)
-        
-        # Count games with edges
-        edge_game_count = 0
-        if model_data is not None:
-            edge_mask = (
-                (model_data.get("edge_numeric", pd.Series()) >= 0.04) | 
-                (model_data.get("best_edge", pd.Series()) >= 0.04)
-            )
-            edge_game_count = edge_mask.sum() if hasattr(edge_mask, 'sum') else 0
-        
-        # Create stat context
-        stat_context = StatContext(season=season, through_week=week, note="Current season")
-        
-        # Generate articles for each game
-        articles_generated = 0
-        for _, game in week_games.iterrows():
-            away_team = game.get("away_team")
-            home_team = game.get("home_team")
-            
-            # Apply team filters if provided
-            if args.teams and away_team not in args.teams and home_team not in args.teams:
-                continue
-            
-            # Get model data for this matchup if available
-            matchup_model = None
-            if model_data is not None and not model_data.empty:
-                matchup_filter = (
-                    ((model_data.get("away_team") == away_team) & (model_data.get("home_team") == home_team)) |
-                    ((model_data.get("Team") == away_team) | (model_data.get("Team") == home_team))
-                )
-                if hasattr(matchup_filter, 'any') and matchup_filter.any():
-                    matchup_rows = model_data[matchup_filter]
-                    if not matchup_rows.empty:
-                        matchup_model = matchup_rows
-            
-            # Prepare game rows for article builder
-            game_rows = [game, game]  # Away and home rows
-            
-            # Build article
-            article_content, seed = build_article(
-                seed=f"week_{week}_season_{season}",
-                game_rows=game_rows,
-                metrics=pd.DataFrame(),  # Would be populated with pbp metrics if available
-                records=records,
-                team_names=team_names,
-                mr=matchup_model,
-                stat_context=stat_context,
-                qb_crosswalk=qb_crosswalk,
-                injuries={},  # Would be populated with injury reports if available
-                edge_game_count=edge_game_count,
-                model_ranks_df=model_ranks_df,
-            )
-            
-            if article_content:
-                # Write article to file
-                away_abbr = away_team.lower() if away_team else "unk"
-                home_abbr = home_team.lower() if home_team else "unk"
-                filename = f"{away_abbr}_at_{home_abbr}.md"
-                filepath = output_dir / filename
-                
-                with open(filepath, "w", encoding="utf-8") as f:
-                    f.write(article_content)
-                
-                print(f"✓ Generated: {filename}")
-                articles_generated += 1
-        
-        if articles_generated > 0:
-            print(f"\n✓ Successfully generated {articles_generated} matchup articles in {output_dir}")
-        else:
-            print(f"\n✗ No articles generated for week {week}")
-        
-    except Exception as e:
-        print(f"✗ Error generating articles: {e}")
-        import traceback
-        traceback.print_exc()
-        raise
+    output_root = Path(args.output_dir).resolve()
+    safe_mkdir(output_root)
+
+    session = requests.Session()
+    session.headers["User-Agent"] = "football-testgrounds-matchup-articles/1.0"
+
+    spreads, week, season, local_root = load_spreads_and_target_context(args, session)
+    model = load_model_data(week, args, local_root, session)
+    model_rank_lookup = model_ranks(model)
+    qb_crosswalk = load_qb_crosswalk()
+
+    weekly_merged = spreads.merge(model, left_on="team", right_on="Team", how="left", validate="one_to_one")
+    merged = prepare_games(spreads, model, args.teams)
+
+    team_names = load_team_names()
+    games_schedule = load_games_schedule()
+    records = build_records(games_schedule, season, week)
+    stat_context, pbp, weekly = load_stat_inputs_with_fallback(season, week)
+    metrics = compute_team_metrics(pbp, weekly)
+    provenance = load_field_provenance()
+
+    games_with_edges = int(weekly_merged[weekly_merged["edge_numeric"] >= 0.04]["game"].nunique())
+
+    team_slug_map = {team: str(team).lower() for team in model["Team"].dropna().unique()}
+    weekly_dir = output_root / f"week_{week}"
+    safe_mkdir(weekly_dir)
+
+    combined_articles: List[str] = []
+    payload = {"generated_at_utc": datetime.now(UTC).isoformat(), "season": season, "week": week, "articles": []}
+
+    for game, game_rows in merged.groupby("game", sort=True):
+        away_team, home_team = game.split("@")
+        injury_reports = {
+            team: fetch_espn_starter_injuries(team, team_slug_map.get(team), session, debug_enabled=args.espn_debug)
+            for team in (away_team, home_team)
+        }
+        article, article_payload = build_article(
+            game,
+            game_rows.copy(),
+            metrics.copy(),
+            records,
+            team_names,
+            None,
+            stat_context,
+            provenance,
+            injury_reports,
+            games_with_edges,
+            model_rank_lookup,
+            qb_crosswalk=qb_crosswalk,
+        )
+        game_slug = slugify_game(game)
+        (weekly_dir / f"{game_slug}.md").write_text(article, encoding="utf-8")
+        combined_articles.append(article.rstrip())
+        article_payload["article_path"] = f"{game_slug}.md"
+        payload["articles"].append(article_payload)
+
+    (weekly_dir / "weekly_matchup_articles.md").write_text("\n\n---\n\n".join(combined_articles) + "\n", encoding="utf-8")
+    (weekly_dir / "weekly_matchup_articles.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    print(f"Generated {len(combined_articles)} matchup article(s) for week {week} in {weekly_dir}")
 
 
 if __name__ == "__main__":
