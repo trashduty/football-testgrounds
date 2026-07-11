@@ -532,7 +532,7 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
     lines = ["", "## Best Bets Of The Week", ""]
     if edge_game_count > 0:
         lines.append(
-            f"Our model found edges of at least 4% on **{edge_game_count} game{'s' if edge_game_count != 1 else ''}** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access."
+            f"Our model found edges of at least 4% on **{edge_game_count} game{'s' if edge_game_count != 1 else ''}** this week. See the model output for every NFL and CFB game at btb-analytics.com"
         )
     lines.append("")
     lines.append("<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>")
@@ -620,7 +620,7 @@ def build_article(
     opp_m = model_ranks_df[model_ranks_df["team"] == home_team].iloc[0] if (model_ranks_df is not None and not model_ranks_df.empty) else None
 
     # BTB Analytics subheader with logo (underneath team logos, above table)
-    sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>")
+    sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by</em></p>")
     sections.append("")
 
     # Summary table
@@ -718,9 +718,179 @@ def build_article(
     return "\n".join(sections), seed
 
 
+def determine_current_week_and_season() -> Tuple[int, int]:
+    """Determine the current NFL week and season based on today's date."""
+    today = datetime.now(UTC).date()
+    current_year = today.year
+    
+    # NFL season runs from September to early February
+    # If current month is before September, we're in the previous season
+    if today.month < 9:
+        season = current_year - 1
+    else:
+        season = current_year
+    
+    # Load games to find current week
+    try:
+        games = load_nflverse_games(season)
+        games["game_date"] = pd.to_datetime(games.get("gameday") or games.get("game_date"))
+        
+        # Find games for this season and sort by date
+        season_games = games[games["season"] == season].sort_values("game_date")
+        
+        # Find the first game that hasn't happened yet or is today
+        for _, game in season_games.iterrows():
+            if game["game_date"].date() >= today:
+                return int(game["week"]), season
+        
+        # If no future games found, return last week + 1
+        if not season_games.empty:
+            last_week = season_games.iloc[-1]["week"]
+            return int(last_week) + 1, season
+    except Exception as e:
+        print(f"Error determining current week/season: {e}")
+    
+    # Fallback: assume week 1
+    return 1, season
+
+
 def main():
     args = parse_args()
-    print("Build article complete")
+    
+    # Create output directory if it doesn't exist
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Determine season and week if not provided
+    season = args.season
+    week = args.week
+    if season is None or week is None:
+        current_week, current_season = determine_current_week_and_season()
+        if season is None:
+            season = current_season
+        if week is None:
+            week = current_week
+    
+    print(f"Generating matchup articles for season {season}, week {week}")
+    
+    try:
+        # Load data sources
+        print("Loading nflverse games data...")
+        games = load_nflverse_games(season)
+        
+        print("Loading nflverse teams data...")
+        teams_df = load_nflverse_teams()
+        team_names = dict(zip(teams_df.get("team_abbr") or teams_df.get("abbr"), 
+                              teams_df.get("team_name") or teams_df.get("full_name")))
+        
+        # Load model data from trash-schedule repo if available
+        print(f"Loading model data for week {week}...")
+        model_data = None
+        model_ranks_df = None
+        
+        if args.trash_schedule_dir:
+            model_path = Path(args.trash_schedule_dir) / TRASH_SCHEDULE_MODEL_TEMPLATE.format(week=week)
+            if model_path.exists():
+                print(f"Loading model from {model_path}")
+                model_data = pd.read_csv(model_path)
+                model_ranks_df = model_ranks(model_data)
+        else:
+            model_csv = get_github_file(
+                args.trash_schedule_owner,
+                args.trash_schedule_repo,
+                TRASH_SCHEDULE_MODEL_TEMPLATE.format(week=week),
+                args.trash_schedule_ref
+            )
+            if model_csv:
+                print("Loaded model data from GitHub")
+                model_data = pd.read_csv(StringIO(model_csv))
+                model_ranks_df = model_ranks(model_data)
+        
+        # Load QB crosswalk if available
+        qb_crosswalk = {}
+        if QB_CROSSWALK_PATH.exists():
+            qb_df = pd.read_csv(QB_CROSSWALK_PATH)
+            qb_crosswalk = dict(zip(qb_df.iloc[:, 0], qb_df.iloc[:, 1])) if len(qb_df.columns) >= 2 else {}
+        
+        # Filter games for this week
+        week_games = games[(games["season"] == season) & (games["week"] == week)]
+        if week_games.empty:
+            print(f"No games found for season {season}, week {week}")
+            return
+        
+        print(f"Found {len(week_games)} games for this week")
+        
+        # Build records for context
+        records = build_records(games, season, week)
+        
+        # Count games with edges
+        edge_game_count = 0
+        if model_data is not None:
+            edge_game_count = len(model_data[(model_data.get("edge_numeric") >= LEAN_EDGE_THRESHOLD) | 
+                                             (model_data.get("best_edge") >= LEAN_EDGE_THRESHOLD)])
+        
+        # Create stat context
+        stat_context = StatContext(season=season, through_week=week, note="Current season")
+        
+        # Generate articles for each game
+        articles_generated = 0
+        for _, game in week_games.iterrows():
+            away_team = game.get("away_team")
+            home_team = game.get("home_team")
+            
+            # Apply team filters if provided
+            if args.teams and away_team not in args.teams and home_team not in args.teams:
+                continue
+            
+            # Get model data for this matchup if available
+            matchup_model = None
+            if model_data is not None:
+                matchup_filter = (
+                    ((model_data.get("away_team") == away_team) & (model_data.get("home_team") == home_team)) |
+                    ((model_data.get("Team") == away_team) | (model_data.get("Team") == home_team))
+                )
+                matchup_rows = model_data[matchup_filter]
+                if not matchup_rows.empty:
+                    matchup_model = matchup_rows
+            
+            # Prepare game rows for article builder
+            game_rows = [game, game]  # Away and home rows
+            
+            # Build article
+            article_content, seed = build_article(
+                seed=f"week_{week}_season_{season}",
+                game_rows=game_rows,
+                metrics={},  # Would be populated with pbp metrics if available
+                records=records,
+                team_names=team_names,
+                mr=matchup_model,
+                stat_context=stat_context,
+                qb_crosswalk=qb_crosswalk,
+                injuries={},  # Would be populated with injury reports if available
+                edge_game_count=edge_game_count,
+                model_ranks_df=model_ranks_df,
+            )
+            
+            if article_content:
+                # Write article to file
+                away_name = team_names.get(away_team, away_team)
+                home_name = team_names.get(home_team, home_team)
+                filename = f"{away_name}_vs_{home_name}.md"
+                filepath = output_dir / filename
+                
+                with open(filepath, "w") as f:
+                    f.write(article_content)
+                
+                print(f"Generated article: {filename}")
+                articles_generated += 1
+        
+        print(f"Generated {articles_generated} matchup articles in {output_dir}")
+        
+    except Exception as e:
+        print(f"Error generating articles: {e}")
+        import traceback
+        traceback.print_exc()
+        raise
 
 
 if __name__ == "__main__":
