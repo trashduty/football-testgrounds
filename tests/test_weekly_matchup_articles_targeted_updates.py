@@ -9,7 +9,6 @@ from scripts.weekly_matchup_articles import (
     build_cta,
     model_ranks,
     model_vs_market_lead,
-    qb_xfactor,
     render_logo_row,
     render_risk,
     StatContext,
@@ -156,7 +155,12 @@ class WeeklyMatchupArticlesTargetedUpdatesTest(unittest.TestCase):
 
         self.assertIn("The Away Team take on the Home Team at Test Stadium and", lines[1])
         self.assertIn("so we are passing on this one.", lines[1])
-        self.assertIn("The closest look is the Away Team +2.5", lines[1])
+        # Rule 1: edge percentage must be explicitly stated
+        self.assertIn("with an edge of 0.90%", lines[1])
+        # Rule 2: no-bet team must not be mentioned as "closest look"
+        self.assertNotIn("closest look", lines[1])
+        # Only two elements: header and text (no extra "closest look" sentence)
+        self.assertEqual(2, len(lines))
 
     def test_build_cta_footer_removes_links(self):
         lines = build_cta(edge_game_count=5, has_bet=True)
@@ -179,18 +183,6 @@ class WeeklyMatchupArticlesTargetedUpdatesTest(unittest.TestCase):
             seed="risk-seed",
         )
         self.assertNotIn("—", line)
-
-    def test_qb_xfactor_removes_em_dash(self):
-        lines = qb_xfactor(
-            bet_name="Los Angeles Chargers",
-            bet_m={"qbname": "J.Herbert", "qb10_rank": 3},
-            opp_name="Seattle Seahawks",
-            opp_m={"qbname": "G.Smith", "qb10_rank": 30},
-            total_teams=32,
-            seed="qb-seed",
-        )
-        self.assertTrue(lines)
-        self.assertTrue(all("—" not in line for line in lines))
 
 
 if __name__ == "__main__":
