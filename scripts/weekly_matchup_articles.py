@@ -51,6 +51,13 @@ TOP_10 = 10
 TOP_5 = 5
 TOP_3 = 3
 
+# Edge thresholds. Single source of truth for every bet/lean/pass decision in
+# this module. Keep the label functions, has_bet, and build_bottom_line all
+# reading from these so the table and the Bottom Line can never disagree.
+LEAN_EDGE_THRESHOLD = 0.04  # Minimum model edge to register as a lean.
+BET_EDGE_THRESHOLD = 0.06  # Minimum model edge for a full bet.
+STRONG_BET_EDGE_THRESHOLD = 0.08  # Minimum model edge for a strong bet.
+
 
 @dataclass
 class EspnDebugEvent:
@@ -144,20 +151,20 @@ def resolve_edge_numeric(row: pd.Series) -> Optional[float]:
 
 def edge_confidence_label(edge: Optional[float]) -> str:
     """Translate edge numeric to a confidence label."""
-    if edge is None or edge < 0.04:
+    if edge is None or edge < LEAN_EDGE_THRESHOLD:
         return "Pass"
-    if edge < 0.06:
+    if edge < BET_EDGE_THRESHOLD:
         return "Lean"
-    if edge < 0.08:
+    if edge < STRONG_BET_EDGE_THRESHOLD:
         return "Bet"
     return "Strong Bet"
 
 
 def matchup_call_label(edge: Optional[float]) -> str:
     """Translate edge numeric to advice for the matchup table."""
-    if edge is None or edge < 0.04:
+    if edge is None or edge < LEAN_EDGE_THRESHOLD:
         return "No Bet"
-    if edge < 0.06:
+    if edge < BET_EDGE_THRESHOLD:
         return "Lean – doesn't meet our edge criteria to fully bet"
     return "Bet"
 
@@ -363,7 +370,7 @@ def assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=None) -> Opt
         parts.append(f"{a} ({bet_name})")
     if b:
         parts.append(f"{b} ({opp_name})")
-    return f"*Model assumes {' and '.join(parts)} under center. QB news moves these numbers fast — check inactives before you bet.*"
+    return f"*Model assumes {' and '.join(parts)} under center. QB news moves these numbers fast, so check inactives before you bet.*"
 
 
 def build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams, qb_crosswalk=None) -> List[str]:
@@ -464,32 +471,60 @@ def build_bottom_line(
     has_bet: bool,
     model_lead: Optional[str],
 ) -> List[str]:
-    """Build the Bottom Line section as a list of markdown lines."""
+    """Build the Bottom Line section as a list of markdown lines.
+
+    MANDATORY RULES enforced here for every article:
+      1. The numeric edge is ALWAYS stated when discussing whether to bet a
+         team. Every return path below includes ``edge_pct``.
+      2. A team we are passing on is NEVER re-referenced as a "closest look"
+         (or any equivalent redundant callout) in a trailing sentence.
+
+    Tiering is driven by the same thresholds as ``matchup_call_label`` so the
+    Bottom Line can never contradict the summary table two paragraphs above.
+    """
     stadium = stadium_name or "their home stadium"
-    edge = float(bet_facts.get("edge") or 0)
+
+    # Robust edge extraction: treat None / NaN as 0.0 so we never print "nan%".
+    raw_edge = bet_facts.get("edge")
+    edge = float(raw_edge) if raw_edge is not None and not pd.isna(raw_edge) else 0.0
+    edge_pct = f"{edge * 100:.2f}%"
+
     price = bet_facts.get("price")
     price_str = str(int(price)) if price is not None and not pd.isna(price) else "N/A"
 
-    if has_bet:
+    intro_prefix = f"The {away_name} take on the {home_name} at {stadium} and"
+
+    if edge >= BET_EDGE_THRESHOLD:
+        # Full bet.
         lead = model_lead or f"the model likes {bet_name} {bet_line}."
-        # Ensure lead starts with lowercase to read naturally after "and "
+        # Ensure lead starts with lowercase to read naturally after "and ".
         if lead and lead[0].isupper():
             lead = lead[0].lower() + lead[1:]
-        intro = f"The {away_name} take on the {home_name} at {stadium} and {lead}"
+        intro = f"{intro_prefix} {lead}"
         edge_line = (
-            f"This puts the edge at {edge * 100:.2f}%,"
-            f" which at {bet_line} for {price_str} makes the {bet_name} a bet."
+            f"This puts the edge at {edge_pct}, which at {bet_line} for {price_str}"
+            f" clears our {BET_EDGE_THRESHOLD * 100:.0f}% full-bet threshold and makes"
+            f" the {bet_name} a bet."
         )
         return ["## The Bottom Line", intro, edge_line]
-    else:
-        # For no-bet scenarios, mention the edge and avoid redundancy
+
+    if edge >= LEAN_EDGE_THRESHOLD:
+        # Lean: a real edge, but short of a full bet. State the edge; no
+        # "closest look" restatement of the side we are not fully backing.
         text = (
-            f"The {away_name} take on the {home_name} at {stadium} and"
-            f" the model sees a lean toward {bet_name} {bet_line} with an edge of {edge * 100:.2f}%,"
-            f" but this does not clear our 4% threshold for a full bet,"
-            f" so we are passing on this one."
+            f"{intro_prefix} the model leans {bet_name} {bet_line} with an edge of"
+            f" {edge_pct}. That is short of our {BET_EDGE_THRESHOLD * 100:.0f}%"
+            f" full-bet threshold, so this is a lean, not a play."
         )
         return ["## The Bottom Line", text]
+
+    # Pass: edge below the lean floor. State the edge; no "closest look".
+    text = (
+        f"{intro_prefix} the model's slight lean is {bet_name} {bet_line}, but at an"
+        f" edge of {edge_pct} it does not clear our {LEAN_EDGE_THRESHOLD * 100:.0f}%"
+        f" minimum, so we are passing on this one."
+    )
+    return ["## The Bottom Line", text]
 
 
 def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
@@ -576,7 +611,7 @@ def build_article(
         )
         sections.append("")
 
-    has_bet = (resolve_edge_numeric(verdict_row) or 0) >= 0.04
+    has_bet = (resolve_edge_numeric(verdict_row) or 0) >= BET_EDGE_THRESHOLD
 
     bet_name = away_name if verdict_row.equals(away_row) else home_name
     opp_name = home_name if bet_name == away_name else away_name
@@ -620,8 +655,8 @@ def build_article(
         if not has_bet:
             sections.extend([
                 "",
-                "The model sees a lean here — but the edge does not clear our 4% threshold,"
-                " so there is no play.",
+                "The edge here does not clear our"
+                f" {BET_EDGE_THRESHOLD * 100:.0f}% full-bet threshold, so there is no play.",
             ])
 
         starters_note = assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=qb_crosswalk)
