@@ -1,18 +1,20 @@
-# Green Bay Packers vs Minnesota Vikings Prediction For None
+# Green Bay Packers vs Minnesota Vikings Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/gb.png" alt="Green Bay Packers" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/min.png" alt="Minnesota Vikings" width="224" /></p>
 
 <p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | PK (-110) | N/A | — | No Bet |
-| Minnesota Vikings | PK (-110) | N/A | — | No Bet |
+| Green Bay Packers | -1.5 (+105) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
+| Minnesota Vikings | +0.5 (-110) | Fanatics | 47.0% | No Bet |
 
-The model sees a lean here — but the edge does not clear our 6% threshold, so there is no play.
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Green Bay Packers take on the Minnesota Vikings at Home and the model sees a lean toward Green Bay Packers PK with an edge of 0.00%, but this does not clear our 6% threshold for a full bet, so we are passing on this one.
+The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Green Bay Packers -1.5 for 105.
 
 ## Why The Pick
 
@@ -21,8 +23,8 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | | Green Bay Packers | Minnesota Vikings |
 |---|---|---|
 | QB Efficiency (Last 10 Games) | Jordan Love (4th) | Kyler Murray (16th) |
-| Offensive Success Rate | 5th | 28th |
-| Defensive Success Rate | 12th | 28th |
+| Offensive Success Rate | 3rd | 22nd |
+| Defensive Success Rate | 12th | 10th |
 | Offensive Eckel Rate Over Expected* | 55.7% | 41.1% |
 | Defensive Eckel Rate Over Expected | 48.8% | 49.3% |
 
@@ -30,5 +32,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
+Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -1,18 +1,20 @@
-# Baltimore Ravens vs Indianapolis Colts Prediction For None
+# Baltimore Ravens vs Indianapolis Colts Prediction For 09/13/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/bal.png" alt="Baltimore Ravens" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ind.png" alt="Indianapolis Colts" width="224" /></p>
 
 <p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baltimore Ravens | PK (-110) | N/A | — | No Bet |
-| Indianapolis Colts | PK (-110) | N/A | — | No Bet |
+| Baltimore Ravens | -3.5 (-110) | DraftKings | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
+| Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | No Bet |
 
-The model sees a lean here — but the edge does not clear our 6% threshold, so there is no play.
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Lamar Jackson (Baltimore Ravens) and Daniel Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Baltimore Ravens take on the Indianapolis Colts at Home and the model sees a lean toward Baltimore Ravens PK with an edge of 0.00%, but this does not clear our 6% threshold for a full bet, so we are passing on this one.
+The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model sees a lean toward Baltimore Ravens -3.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Baltimore Ravens -3.5 for -110.
 
 ## Why The Pick
 
@@ -21,8 +23,8 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | | Baltimore Ravens | Indianapolis Colts |
 |---|---|---|
 | QB Efficiency (Last 10 Games) | Lamar Jackson (23rd) | Daniel Jones (11th) |
-| Offensive Success Rate | 20th | 8th |
-| Defensive Success Rate | 17th | 13th |
+| Offensive Success Rate | 19th | 5th |
+| Defensive Success Rate | 8th | 21st |
 | Offensive Eckel Rate Over Expected* | 50.7% | 55.8% |
 | Defensive Eckel Rate Over Expected | 53.8% | 51.8% |
 
@@ -30,5 +32,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
+Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

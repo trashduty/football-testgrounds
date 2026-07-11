@@ -1,34 +1,36 @@
-# Denver Broncos vs Kansas City Chiefs Prediction For None
+# Denver Broncos vs Kansas City Chiefs Prediction For 09/14/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/den.png" alt="Denver Broncos" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/kc.png" alt="Kansas City Chiefs" width="224" /></p>
 
 <p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Denver Broncos | PK (-110) | N/A | — | No Bet |
-| Kansas City Chiefs | PK (-110) | N/A | — | No Bet |
+| Denver Broncos | +2.5 (-102) | DraftKings | 41.8% | No Bet |
+| Kansas City Chiefs | -2.5 (-115) | Fanatics | 58.2% | Bet |
 
-The model sees a lean here — but the edge does not clear our 6% threshold, so there is no play.
-
-*Model assumes Bo Nix (Denver Broncos) and Patrick Mahomes (Kansas City Chiefs) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Patrick Mahomes (Kansas City Chiefs) and Bo Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Denver Broncos take on the Kansas City Chiefs at Home and the model sees a lean toward Denver Broncos PK with an edge of 0.00%, but this does not clear our 6% threshold for a full bet, so we are passing on this one.
+The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
+This puts the edge at 4.74%, which at -2.5 for -115 makes the Kansas City Chiefs a bet.
 
 ## Why The Pick
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
-| | Denver Broncos | Kansas City Chiefs |
+| | Kansas City Chiefs | Denver Broncos |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Bo Nix (13th) | Patrick Mahomes (1st) |
-| Offensive Success Rate | 13th | 11th |
-| Defensive Success Rate | 24th | 20th |
-| Offensive Eckel Rate Over Expected* | 44.7% | 56.5% |
-| Defensive Eckel Rate Over Expected | 40.6% | 44.4% |
+| QB Efficiency (Last 10 Games) | Patrick Mahomes (1st) | Bo Nix (13th) |
+| Offensive Success Rate | 7th | 21st |
+| Defensive Success Rate | 17th | 2nd |
+| Offensive Eckel Rate Over Expected* | 56.5% | 44.7% |
+| Defensive Eckel Rate Over Expected | 44.4% | 40.6% |
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
 ## Best Bets Of The Week
 
+Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

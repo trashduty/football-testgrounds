@@ -1,18 +1,19 @@
-# New England Patriots vs Seattle Seahawks Prediction For None
+# New England Patriots vs Seattle Seahawks Prediction For 09/09/2026
+
+<p align="center"><img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" alt="New England Patriots" width="224" /> <strong>vs</strong> <img src="https://a.espncdn.com/i/teamlogos/nfl/500/sea.png" alt="Seattle Seahawks" width="224" /></p>
 
 <p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New England Patriots | PK (-110) | N/A | — | No Bet |
-| Seattle Seahawks | PK (-110) | N/A | — | No Bet |
-
-The model sees a lean here — but the edge does not clear our 6% threshold, so there is no play.
+| New England Patriots | +4.5 (-112) | BetRivers | 61.9% | Bet |
+| Seattle Seahawks | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Home and the model sees a lean toward New England Patriots PK with an edge of 0.00%, but this does not clear our 6% threshold for a full bet, so we are passing on this one.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
+This puts the edge at 9.09%, which at +4.5 for -112 makes the New England Patriots a bet.
 
 ## Why The Pick
 
@@ -21,8 +22,8 @@ Our model uses data points that correlate best with a team covering. Here's how 
 | | New England Patriots | Seattle Seahawks |
 |---|---|---|
 | QB Efficiency (Last 10 Games) | Drake Maye (2nd) | Sam Darnold (20th) |
-| Offensive Success Rate | 4th | 9th |
-| Defensive Success Rate | 30th | 32nd |
+| Offensive Success Rate | 10th | 8th |
+| Defensive Success Rate | 19th | 4th |
 | Offensive Eckel Rate Over Expected* | 56.3% | 51.7% |
 | Defensive Eckel Rate Over Expected | 44.2% | 42.8% |
 
@@ -30,5 +31,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
+Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
