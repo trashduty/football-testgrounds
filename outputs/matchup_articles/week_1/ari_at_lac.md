@@ -14,7 +14,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Jacoby Brissett (Arizona Cardinals) and Justin Herbert (Los Angeles Chargers) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +11.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Arizona Cardinals +11.5 for -110.
+The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +11.5 with an edge of 3.39%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

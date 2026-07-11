@@ -14,7 +14,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Lamar Jackson (Baltimore Ravens) and Daniel Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model sees a lean toward Baltimore Ravens -3.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Baltimore Ravens -3.5 for -110.
+The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model sees a lean toward Baltimore Ravens -3.5 with an edge of 3.53%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

@@ -14,7 +14,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Josh Allen (Buffalo Bills) and CJ Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Buffalo Bills -1.5 for 100.
+The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5 with an edge of 1.85%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

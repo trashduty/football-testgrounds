@@ -14,7 +14,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Jacoby Brissett (Arizona Cardinals) and Justin Herbert (Los Angeles Chargers) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +11.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Arizona Cardinals +11.5 for -110.
+The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +11.5 with an edge of 3.39%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -93,7 +93,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Lamar Jackson (Baltimore Ravens) and Daniel Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model sees a lean toward Baltimore Ravens -3.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Baltimore Ravens -3.5 for -110.
+The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model sees a lean toward Baltimore Ravens -3.5 with an edge of 3.53%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -133,7 +133,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Josh Allen (Buffalo Bills) and CJ Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Buffalo Bills -1.5 for 100.
+The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5 with an edge of 1.85%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -173,7 +173,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Bryce Young (Carolina Panthers) and Caleb Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Chicago Bears take on the Carolina Panthers at Bank of America Stadium and the model sees a lean toward Carolina Panthers +2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Carolina Panthers +2.5 for -105.
+The Chicago Bears take on the Carolina Panthers at Bank of America Stadium and the model sees a lean toward Carolina Panthers +2.5 with an edge of 0.63%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -213,7 +213,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes D. Watson (Cleveland Browns) and Trevor Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Cleveland Browns take on the Jacksonville Jaguars at EverBank Stadium and the model sees a lean toward Cleveland Browns +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Cleveland Browns +7.5 for -105.
+The Cleveland Browns take on the Jacksonville Jaguars at EverBank Stadium and the model sees a lean toward Cleveland Browns +7.5 with an edge of 0.28%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -253,7 +253,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Dak Prescott (Dallas Cowboys) and Jaxson Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Dallas Cowboys -2.5 for -110.
+The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5 with an edge of -0.88%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -324,15 +324,15 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | -1.5 (+105) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Minnesota Vikings | +0.5 (-110) | Fanatics | 47.0% | No Bet |
+| Green Bay Packers | -1.5 (+105) | DraftKings | 50.0% | Lean – doesn't meet our edge criteria to fully bet |
+| Minnesota Vikings | -1.5 (+100) | BetMGM | 48.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Green Bay Packers -1.5 for 105.
+The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of 1.20%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -403,14 +403,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New England Patriots | +4.5 (-112) | BetRivers | 61.9% | Bet |
-| Seattle Seahawks | -3.5 (-110) | DraftKings | 42.1% | No Bet |
+| New England Patriots | +4.5 (-112) | BetRivers | 62.6% | Bet |
+| Seattle Seahawks | -3.5 (-110) | DraftKings | 40.7% | No Bet |
 
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
-This puts the edge at 9.09%, which at +4.5 for -112 makes the New England Patriots a bet.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +3.5.
+This puts the edge at 9.76%, which at +4.5 for -112 makes the New England Patriots a bet.
 
 ## Why The Pick
 
@@ -450,7 +450,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Tyler Shough (New Orleans Saints) and Jared Goff (Detroit Lions) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward New Orleans Saints +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the New Orleans Saints +7.5 for -117.
+The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward New Orleans Saints +7.5 with an edge of -2.41%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -490,7 +490,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Geno Smith (New York Jets) and Cam Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the New York Jets +2.5 for 100.
+The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5 with an edge of 3.46%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -608,7 +608,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Jalen Hurts (Philadelphia Eagles) and Jayden Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model sees a lean toward Philadelphia Eagles -4.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Philadelphia Eagles -4.5 for -105.
+The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model sees a lean toward Philadelphia Eagles -4.5 with an edge of 1.63%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

@@ -6,15 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | -1.5 (+105) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Minnesota Vikings | +0.5 (-110) | Fanatics | 47.0% | No Bet |
+| Green Bay Packers | -1.5 (+105) | DraftKings | 50.0% | Lean – doesn't meet our edge criteria to fully bet |
+| Minnesota Vikings | -1.5 (+100) | BetMGM | 48.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Green Bay Packers -1.5 for 105.
+The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of 1.20%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

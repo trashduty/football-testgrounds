@@ -14,7 +14,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes D. Watson (Cleveland Browns) and Trevor Lawrence (Jacksonville Jaguars) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Cleveland Browns take on the Jacksonville Jaguars at EverBank Stadium and the model sees a lean toward Cleveland Browns +7.5, but this does not clear our 4% threshold for a full bet, so we are passing on this one. The closest look is the Cleveland Browns +7.5 for -105.
+The Cleveland Browns take on the Jacksonville Jaguars at EverBank Stadium and the model sees a lean toward Cleveland Browns +7.5 with an edge of 0.28%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

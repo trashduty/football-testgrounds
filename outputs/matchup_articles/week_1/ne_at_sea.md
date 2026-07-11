@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New England Patriots | +4.5 (-112) | BetRivers | 61.9% | Bet |
-| Seattle Seahawks | -3.5 (-110) | DraftKings | 42.1% | No Bet |
+| New England Patriots | +4.5 (-112) | BetRivers | 62.6% | Bet |
+| Seattle Seahawks | -3.5 (-110) | DraftKings | 40.7% | No Bet |
 
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
-This puts the edge at 9.09%, which at +4.5 for -112 makes the New England Patriots a bet.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +3.5.
+This puts the edge at 9.76%, which at +4.5 for -112 makes the New England Patriots a bet.
 
 ## Why The Pick
 
