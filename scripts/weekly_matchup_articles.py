@@ -51,13 +51,6 @@ TOP_10 = 10
 TOP_5 = 5
 TOP_3 = 3
 
-# Edge thresholds. Single source of truth for every bet/lean/pass decision in
-# this module. Keep the label functions, has_bet, and build_bottom_line all
-# reading from these so the table and the Bottom Line can never disagree.
-LEAN_EDGE_THRESHOLD = 0.04  # Minimum model edge to register as a lean.
-BET_EDGE_THRESHOLD = 0.06  # Minimum model edge for a full bet.
-STRONG_BET_EDGE_THRESHOLD = 0.08  # Minimum model edge for a strong bet.
-
 
 @dataclass
 class EspnDebugEvent:
@@ -151,20 +144,20 @@ def resolve_edge_numeric(row: pd.Series) -> Optional[float]:
 
 def edge_confidence_label(edge: Optional[float]) -> str:
     """Translate edge numeric to a confidence label."""
-    if edge is None or edge < LEAN_EDGE_THRESHOLD:
+    if edge is None or edge < 0.04:
         return "Pass"
-    if edge < BET_EDGE_THRESHOLD:
+    if edge < 0.06:
         return "Lean"
-    if edge < STRONG_BET_EDGE_THRESHOLD:
+    if edge < 0.08:
         return "Bet"
     return "Strong Bet"
 
 
 def matchup_call_label(edge: Optional[float]) -> str:
     """Translate edge numeric to advice for the matchup table."""
-    if edge is None or edge < LEAN_EDGE_THRESHOLD:
+    if edge is None or edge < 0.04:
         return "No Bet"
-    if edge < BET_EDGE_THRESHOLD:
+    if edge < 0.06:
         return "Lean – doesn't meet our edge criteria to fully bet"
     return "Bet"
 
@@ -370,7 +363,7 @@ def assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=None) -> Opt
         parts.append(f"{a} ({bet_name})")
     if b:
         parts.append(f"{b} ({opp_name})")
-    return f"*Model assumes {' and '.join(parts)} under center. QB news moves these numbers fast, so check inactives before you bet.*"
+    return f"*Model assumes {' and '.join(parts)} under center. QB news moves these numbers fast — check inactives before you bet.*"
 
 
 def build_tale_of_tape(bet_name, bet_m, opp_name, opp_m, total_teams, qb_crosswalk=None) -> List[str]:
@@ -471,60 +464,32 @@ def build_bottom_line(
     has_bet: bool,
     model_lead: Optional[str],
 ) -> List[str]:
-    """Build the Bottom Line section as a list of markdown lines.
-
-    MANDATORY RULES enforced here for every article:
-      1. The numeric edge is ALWAYS stated when discussing whether to bet a
-         team. Every return path below includes ``edge_pct``.
-      2. A team we are passing on is NEVER re-referenced as a "closest look"
-         (or any equivalent redundant callout) in a trailing sentence.
-
-    Tiering is driven by the same thresholds as ``matchup_call_label`` so the
-    Bottom Line can never contradict the summary table two paragraphs above.
-    """
+    """Build the Bottom Line section as a list of markdown lines."""
     stadium = stadium_name or "their home stadium"
-
-    # Robust edge extraction: treat None / NaN as 0.0 so we never print "nan%".
-    raw_edge = bet_facts.get("edge")
-    edge = float(raw_edge) if raw_edge is not None and not pd.isna(raw_edge) else 0.0
-    edge_pct = f"{edge * 100:.2f}%"
-
+    edge = float(bet_facts.get("edge") or 0)
     price = bet_facts.get("price")
     price_str = str(int(price)) if price is not None and not pd.isna(price) else "N/A"
 
-    intro_prefix = f"The {away_name} take on the {home_name} at {stadium} and"
-
-    if edge >= BET_EDGE_THRESHOLD:
-        # Full bet.
+    if has_bet:
         lead = model_lead or f"the model likes {bet_name} {bet_line}."
-        # Ensure lead starts with lowercase to read naturally after "and ".
+        # Ensure lead starts with lowercase to read naturally after "and "
         if lead and lead[0].isupper():
             lead = lead[0].lower() + lead[1:]
-        intro = f"{intro_prefix} {lead}"
+        intro = f"The {away_name} take on the {home_name} at {stadium} and {lead}"
         edge_line = (
-            f"This puts the edge at {edge_pct}, which at {bet_line} for {price_str}"
-            f" clears our {BET_EDGE_THRESHOLD * 100:.0f}% full-bet threshold and makes"
-            f" the {bet_name} a bet."
+            f"This puts the edge at {edge * 100:.2f}%,"
+            f" which at {bet_line} for {price_str} makes the {bet_name} a bet."
         )
         return ["## The Bottom Line", intro, edge_line]
-
-    if edge >= LEAN_EDGE_THRESHOLD:
-        # Lean: a real edge, but short of a full bet. State the edge; no
-        # "closest look" restatement of the side we are not fully backing.
+    else:
+        # For no-bet scenarios, mention the edge and avoid redundancy
         text = (
-            f"{intro_prefix} the model leans {bet_name} {bet_line} with an edge of"
-            f" {edge_pct}. That is short of our {BET_EDGE_THRESHOLD * 100:.0f}%"
-            f" full-bet threshold, so this is a lean, not a play."
+            f"The {away_name} take on the {home_name} at {stadium} and"
+            f" the model sees a lean toward {bet_name} {bet_line} with an edge of {edge * 100:.2f}%,"
+            f" but this does not clear our 6% threshold for a full bet,"
+            f" so we are passing on this one."
         )
         return ["## The Bottom Line", text]
-
-    # Pass: edge below the lean floor. State the edge; no "closest look".
-    text = (
-        f"{intro_prefix} the model's slight lean is {bet_name} {bet_line}, but at an"
-        f" edge of {edge_pct} it does not clear our {LEAN_EDGE_THRESHOLD * 100:.0f}%"
-        f" minimum, so we are passing on this one."
-    )
-    return ["## The Bottom Line", text]
 
 
 def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
@@ -532,7 +497,7 @@ def build_cta(edge_game_count: int, has_bet: bool) -> List[str]:
     lines = ["", "## Best Bets Of The Week", ""]
     if edge_game_count > 0:
         lines.append(
-            f"Our model found edges of at least 4% on **{edge_game_count} game{'s' if edge_game_count != 1 else ''}** this week. See the model output for every NFL and CFB game at btb-analytics.com"
+            f"Our model found edges of at least 4% on **{edge_game_count} game{'s' if edge_game_count != 1 else ''}** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access."
         )
     lines.append("")
     lines.append("<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>")
@@ -611,7 +576,7 @@ def build_article(
         )
         sections.append("")
 
-    has_bet = (resolve_edge_numeric(verdict_row) or 0) >= BET_EDGE_THRESHOLD
+    has_bet = (resolve_edge_numeric(verdict_row) or 0) >= 0.06
 
     bet_name = away_name if verdict_row.equals(away_row) else home_name
     opp_name = home_name if bet_name == away_name else away_name
@@ -620,7 +585,7 @@ def build_article(
     opp_m = model_ranks_df[model_ranks_df["team"] == home_team].iloc[0] if (model_ranks_df is not None and not model_ranks_df.empty) else None
 
     # BTB Analytics subheader with logo (underneath team logos, above table)
-    sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by</em></p>")
+    sections.append("<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>")
     sections.append("")
 
     # Summary table
@@ -655,8 +620,8 @@ def build_article(
         if not has_bet:
             sections.extend([
                 "",
-                "The edge here does not clear our"
-                f" {BET_EDGE_THRESHOLD * 100:.0f}% full-bet threshold, so there is no play.",
+                "The model sees a lean here — but the edge does not clear our 6% threshold,"
+                " so there is no play.",
             ])
 
         starters_note = assumed_starters(bet_name, bet_m, opp_name, opp_m, qb_crosswalk=qb_crosswalk)
@@ -733,20 +698,28 @@ def determine_current_week_and_season() -> Tuple[int, int]:
     # Load games to find current week
     try:
         games = load_nflverse_games(season)
-        games["game_date"] = pd.to_datetime(games.get("gameday") or games.get("game_date"))
+        # Try different column names for date
+        date_col = None
+        for col in ["gameday", "game_date", "kickoff_time"]:
+            if col in games.columns:
+                date_col = col
+                break
         
-        # Find games for this season and sort by date
-        season_games = games[games["season"] == season].sort_values("game_date")
-        
-        # Find the first game that hasn't happened yet or is today
-        for _, game in season_games.iterrows():
-            if game["game_date"].date() >= today:
-                return int(game["week"]), season
-        
-        # If no future games found, return last week + 1
-        if not season_games.empty:
-            last_week = season_games.iloc[-1]["week"]
-            return int(last_week) + 1, season
+        if date_col:
+            games["game_date"] = pd.to_datetime(games[date_col])
+            
+            # Find games for this season and sort by date
+            season_games = games[games["season"] == season].sort_values("game_date")
+            
+            # Find the first game that hasn't happened yet or is today
+            for _, game in season_games.iterrows():
+                if game["game_date"].date() >= today:
+                    return int(game["week"]), season
+            
+            # If no future games found, return last week + 1
+            if not season_games.empty:
+                last_week = season_games.iloc[-1]["week"]
+                return int(last_week) + 1, season
     except Exception as e:
         print(f"Error determining current week/season: {e}")
     
@@ -780,8 +753,14 @@ def main():
         
         print("Loading nflverse teams data...")
         teams_df = load_nflverse_teams()
-        team_names = dict(zip(teams_df.get("team_abbr") or teams_df.get("abbr"), 
-                              teams_df.get("team_name") or teams_df.get("full_name")))
+        # Handle different possible column names
+        team_abbr_col = next((col for col in ["team_abbr", "abbr", "team", "team_code"] if col in teams_df.columns), None)
+        team_name_col = next((col for col in ["team_name", "full_name", "name"] if col in teams_df.columns), None)
+        
+        if team_abbr_col and team_name_col:
+            team_names = dict(zip(teams_df[team_abbr_col], teams_df[team_name_col]))
+        else:
+            team_names = {}
         
         # Load model data from trash-schedule repo if available
         print(f"Loading model data for week {week}...")
@@ -809,8 +788,11 @@ def main():
         # Load QB crosswalk if available
         qb_crosswalk = {}
         if QB_CROSSWALK_PATH.exists():
-            qb_df = pd.read_csv(QB_CROSSWALK_PATH)
-            qb_crosswalk = dict(zip(qb_df.iloc[:, 0], qb_df.iloc[:, 1])) if len(qb_df.columns) >= 2 else {}
+            try:
+                qb_df = pd.read_csv(QB_CROSSWALK_PATH)
+                qb_crosswalk = dict(zip(qb_df.iloc[:, 0], qb_df.iloc[:, 1])) if len(qb_df.columns) >= 2 else {}
+            except Exception as e:
+                print(f"Could not load QB crosswalk: {e}")
         
         # Filter games for this week
         week_games = games[(games["season"] == season) & (games["week"] == week)]
@@ -826,8 +808,11 @@ def main():
         # Count games with edges
         edge_game_count = 0
         if model_data is not None:
-            edge_game_count = len(model_data[(model_data.get("edge_numeric") >= LEAN_EDGE_THRESHOLD) | 
-                                             (model_data.get("best_edge") >= LEAN_EDGE_THRESHOLD)])
+            edge_mask = (
+                (model_data.get("edge_numeric", pd.Series()) >= 0.04) | 
+                (model_data.get("best_edge", pd.Series()) >= 0.04)
+            )
+            edge_game_count = edge_mask.sum() if hasattr(edge_mask, 'sum') else 0
         
         # Create stat context
         stat_context = StatContext(season=season, through_week=week, note="Current season")
@@ -844,14 +829,15 @@ def main():
             
             # Get model data for this matchup if available
             matchup_model = None
-            if model_data is not None:
+            if model_data is not None and not model_data.empty:
                 matchup_filter = (
                     ((model_data.get("away_team") == away_team) & (model_data.get("home_team") == home_team)) |
                     ((model_data.get("Team") == away_team) | (model_data.get("Team") == home_team))
                 )
-                matchup_rows = model_data[matchup_filter]
-                if not matchup_rows.empty:
-                    matchup_model = matchup_rows
+                if hasattr(matchup_filter, 'any') and matchup_filter.any():
+                    matchup_rows = model_data[matchup_filter]
+                    if not matchup_rows.empty:
+                        matchup_model = matchup_rows
             
             # Prepare game rows for article builder
             game_rows = [game, game]  # Away and home rows
@@ -860,7 +846,7 @@ def main():
             article_content, seed = build_article(
                 seed=f"week_{week}_season_{season}",
                 game_rows=game_rows,
-                metrics={},  # Would be populated with pbp metrics if available
+                metrics=pd.DataFrame(),  # Would be populated with pbp metrics if available
                 records=records,
                 team_names=team_names,
                 mr=matchup_model,
@@ -873,8 +859,8 @@ def main():
             
             if article_content:
                 # Write article to file
-                away_name = team_names.get(away_team, away_team)
-                home_name = team_names.get(home_team, home_team)
+                away_name = team_names.get(away_team, away_team) if team_names else away_team
+                home_name = team_names.get(home_team, home_team) if team_names else home_team
                 filename = f"{away_name}_vs_{home_name}.md"
                 filepath = output_dir / filename
                 
@@ -884,7 +870,10 @@ def main():
                 print(f"Generated article: {filename}")
                 articles_generated += 1
         
-        print(f"Generated {articles_generated} matchup articles in {output_dir}")
+        if articles_generated > 0:
+            print(f"Successfully generated {articles_generated} matchup articles in {output_dir}")
+        else:
+            print(f"No articles generated for week {week} (may indicate no games with sufficient edge or no model data)")
         
     except Exception as e:
         print(f"Error generating articles: {e}")
