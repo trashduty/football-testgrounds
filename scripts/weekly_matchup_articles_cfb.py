@@ -41,7 +41,7 @@ TRASH_SCHEDULE_REF = "main"
 TRASH_SCHEDULE_SPREADS_PATH = "CFB_Odds/Data/spreads_odds.csv"
 TRASH_SCHEDULE_CROSSWALK_PATH = "CFB_Odds/Data/CFB Teams Full Crosswalk.csv"
 
-FULL_BET_THRESHOLD = 0.04  # matches matchup_call_label and the spreads model
+FULL_BET_THRESHOLD = 0.03  # matches matchup_call_label and the spreads model
 ET = ZoneInfo("America/New_York")
 REQUEST_TIMEOUT = 30
 
@@ -244,7 +244,7 @@ def build_bottom_line(away_name: str, home_name: str, stadium_name: Optional[str
 
     text = (f"The {away_name} take on the {home_name} at {stadium} and the model sees a lean"
             f" toward {bet_name} {bet_line} with an edge of {edge_pct}, but this does not clear"
-            f" our 4% threshold for a full bet, so we are passing on this one.")
+            f" our 3% threshold for a full bet, so we are passing on this one.")
     return ["## The Bottom Line", text]
 
 
@@ -252,7 +252,7 @@ def build_cta(edge_game_count: int) -> List[str]:
     lines = ["", "## Best Bets Of The Week", ""]
     if edge_game_count > 0:
         lines.append(
-            f"Our model found edges of at least 4% on **{edge_game_count} "
+            f"Our model found edges of at least 3% on **{edge_game_count} "
             f"game{'s' if edge_game_count != 1 else ''}** this week. See the model output for"
             f" every NFL and CFB game at btb-analytics.com/member-access.")
     lines.append("")
@@ -318,7 +318,7 @@ def build_article(game: str, game_rows: pd.DataFrame, week: int, crosswalk: pd.D
             f" | {row.get('best_book') or 'N/A'} | {display_percent(cover, 1)} | {matchup_call_label(edge)} |")
 
     if not has_bet:
-        sections.extend(["", "The model sees a lean here, but the edge does not clear our 4%"
+        sections.extend(["", "The model sees a lean here, but the edge does not clear our 3%"
                          " threshold, so there is no play."])
 
     model_lead = model_vs_market_lead(bet_name, float(verdict_row.get("market_line") or 0),
