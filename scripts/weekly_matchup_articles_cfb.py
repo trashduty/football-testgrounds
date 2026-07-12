@@ -55,7 +55,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--week", type=int)
     parser.add_argument("--season", type=int)
     parser.add_argument("--teams", nargs="*")
-    parser.add_argument("--crosswalk", default="CFB_Teams_Full_Crosswalk.csv",
+    parser.add_argument("--crosswalk", default="CFB_Odds/Data/CFB Teams Full Crosswalk.csv",
                         help="Path to the team crosswalk CSV (committed in the repo).")
     parser.add_argument("--trash-schedule-dir")
     parser.add_argument("--trash-schedule-owner", default=TRASH_SCHEDULE_OWNER)
