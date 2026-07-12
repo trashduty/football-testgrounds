@@ -9,10 +9,10 @@
 | Akron Zips | +22.5 (-105) | FanDuel | 53.0% | Lean – doesn't meet our edge criteria to fully bet |
 | Wake Forest Demon Deacons | -22.5 (-108) | DraftKings | 46.8% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Akron Zips take on the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium and the model sees a lean toward Akron Zips +22.5 with an edge of 1.82%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Akron Zips take on the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium and the model sees a lean toward Akron Zips +22.5 with an edge of 1.82%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -31,7 +31,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -48,10 +48,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Arkansas State Red Wolves | +10.5 (-110) | DraftKings | 45.9% | No Bet |
 | Memphis Tigers | -10.5 (-110) | DraftKings | 54.7% | Lean – doesn't meet our edge criteria to fully bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Arkansas State Red Wolves take on the Memphis Tigers at Simmons Bank Liberty Stadium and the model sees a lean toward Memphis Tigers -10.5 with an edge of 2.28%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Arkansas State Red Wolves take on the Memphis Tigers at Simmons Bank Liberty Stadium and the model sees a lean toward Memphis Tigers -10.5 with an edge of 2.28%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -70,7 +70,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -87,10 +87,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Ball State Cardinals | +50.5 (-110) | BetMGM | 46.1% | No Bet |
 | Ohio State Buckeyes | -50.5 (-105) | FanDuel | 53.7% | Lean – doesn't meet our edge criteria to fully bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Ball State Cardinals take on the Ohio State Buckeyes at Ohio Stadium and the model sees a lean toward Ohio State Buckeyes -50.5 with an edge of 2.47%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Ball State Cardinals take on the Ohio State Buckeyes at Ohio Stadium and the model sees a lean toward Ohio State Buckeyes -50.5 with an edge of 2.47%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -109,7 +109,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -126,10 +126,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Baylor Bears | +7.5 (-110) | FanDuel | 50.7% | No Bet |
 | Auburn Tigers | -7.0 (-105) | Fanatics | 49.9% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Baylor Bears take on the Auburn Tigers at Mercedes-Benz Stadium and the model sees a lean toward Auburn Tigers -7.0 with an edge of -1.31%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Baylor Bears take on the Auburn Tigers at Mercedes-Benz Stadium and the model sees a lean toward Auburn Tigers -7.0 with an edge of -1.31%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -148,7 +148,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -165,10 +165,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Boise State Broncos | +24.5 (-105) | DraftKings | 48.3% | No Bet |
 | Oregon Ducks | -24.5 (-110) | FanDuel | 51.7% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Boise State Broncos take on the Oregon Ducks at Autzen Stadium and the model sees a lean toward Oregon Ducks -24.5 with an edge of -0.68%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Boise State Broncos take on the Oregon Ducks at Autzen Stadium and the model sees a lean toward Oregon Ducks -24.5 with an edge of -0.68%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -187,7 +187,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -204,10 +204,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Boston College Eagles | +7.5 (-105) | DraftKings | 50.7% | No Bet |
 | Cincinnati Bearcats | -7.5 (+100) | FanDuel | 49.9% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Boston College Eagles take on the Cincinnati Bearcats at Nippert Stadium and the model sees a lean toward Cincinnati Bearcats -7.5 with an edge of -0.10%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Boston College Eagles take on the Cincinnati Bearcats at Nippert Stadium and the model sees a lean toward Cincinnati Bearcats -7.5 with an edge of -0.10%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -226,7 +226,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -264,7 +264,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -281,10 +281,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Coastal Carolina Chanticleers | +17.5 (-108) | DraftKings | 49.9% | No Bet |
 | West Virginia Mountaineers | -17.5 (-110) | BetMGM | 50.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Coastal Carolina Chanticleers take on the West Virginia Mountaineers at Milan Puskar Stadium and the model sees a lean toward Coastal Carolina Chanticleers +17.5 with an edge of -1.99%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Coastal Carolina Chanticleers take on the West Virginia Mountaineers at Milan Puskar Stadium and the model sees a lean toward Coastal Carolina Chanticleers +17.5 with an edge of -1.99%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -303,7 +303,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -320,10 +320,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Colorado Buffaloes | +7.5 (-112) | DraftKings | 53.3% | No Bet |
 | Georgia Tech Yellow Jackets | -7.5 (+100) | BetMGM | 47.3% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Colorado Buffaloes take on the Georgia Tech Yellow Jackets at Bobby Dodd Stadium and the model sees a lean toward Colorado Buffaloes +7.5 with an edge of 0.47%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Colorado Buffaloes take on the Georgia Tech Yellow Jackets at Bobby Dodd Stadium and the model sees a lean toward Colorado Buffaloes +7.5 with an edge of 0.47%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -342,7 +342,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -359,10 +359,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | East Carolina Pirates | +26.5 (-108) | DraftKings | 53.1% | Lean – doesn't meet our edge criteria to fully bet |
 | Alabama Crimson Tide | -25.5 (-115) | FanDuel | 48.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The East Carolina Pirates take on the Alabama Crimson Tide at Bryant-Denny Stadium and the model sees a lean toward East Carolina Pirates +26.5 with an edge of 1.21%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The East Carolina Pirates take on the Alabama Crimson Tide at Bryant-Denny Stadium and the model sees a lean toward East Carolina Pirates +26.5 with an edge of 1.21%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -381,7 +381,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -398,10 +398,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Florida Atlantic Owls | +26.5 (-110) | BetMGM | 50.4% | No Bet |
 | Florida Gators | -26.5 (-105) | DraftKings | 49.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Florida Atlantic Owls take on the Florida Gators at Ben Hill Griffin Stadium and the model sees a lean toward Florida Atlantic Owls +26.5 with an edge of -1.94%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Florida Atlantic Owls take on the Florida Gators at Ben Hill Griffin Stadium and the model sees a lean toward Florida Atlantic Owls +26.5 with an edge of -1.94%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -420,7 +420,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -458,7 +458,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -475,10 +475,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Fresno State Bulldogs | +23.5 (-105) | FanDuel | 52.7% | Lean – doesn't meet our edge criteria to fully bet |
 | USC Trojans | -23.5 (-108) | DraftKings | 47.4% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Fresno State Bulldogs take on the USC Trojans at Los Angeles Memorial Coliseum and the model sees a lean toward Fresno State Bulldogs +23.5 with an edge of 1.44%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Fresno State Bulldogs take on the USC Trojans at Los Angeles Memorial Coliseum and the model sees a lean toward Fresno State Bulldogs +23.5 with an edge of 1.44%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -497,7 +497,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -514,10 +514,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Kent State Golden Flashes | +34.5 (-105) | FanDuel | 48.2% | No Bet |
 | South Carolina Gamecocks | -34.5 (-110) | DraftKings | 50.9% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Kent State Golden Flashes take on the South Carolina Gamecocks at Williams-Brice Stadium and the model sees a lean toward South Carolina Gamecocks -34.5 with an edge of -1.46%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Kent State Golden Flashes take on the South Carolina Gamecocks at Williams-Brice Stadium and the model sees a lean toward South Carolina Gamecocks -34.5 with an edge of -1.46%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -536,7 +536,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -574,7 +574,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -591,10 +591,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Louisville Cardinals | +6.5 (-108) | DraftKings | 45.2% | No Bet |
 | Ole Miss Rebels | -6.5 (-110) | FanDuel | 54.5% | Lean – doesn't meet our edge criteria to fully bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Louisville Cardinals take on the Ole Miss Rebels at Nissan Stadium and the model sees a lean toward Ole Miss Rebels -6.5 with an edge of 2.15%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Louisville Cardinals take on the Ole Miss Rebels at Nissan Stadium and the model sees a lean toward Ole Miss Rebels -6.5 with an edge of 2.15%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -613,7 +613,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -628,12 +628,11 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Marshall Thundering Herd | +23.5 (-110) | FanDuel | 44.6% | No Bet |
-| Penn State Nittany Lions | -23.5 (-108) | DraftKings | 55.4% | Lean – doesn't meet our edge criteria to fully bet |
-
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+| Penn State Nittany Lions | -23.5 (-108) | DraftKings | 55.4% | Bet |
 
 ## The Bottom Line
-The Marshall Thundering Herd take on the Penn State Nittany Lions at Beaver Stadium and the model sees a lean toward Penn State Nittany Lions -23.5 with an edge of 3.46%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Marshall Thundering Herd take on the Penn State Nittany Lions at Beaver Stadium and the model favors **the Penn State Nittany Lions** at -23.5 vs. the market at -23.5.
+This puts the edge at 3.46%, which at -23.5 for -108 makes the Penn State Nittany Lions a bet.
 
 ## Why The Pick
 
@@ -652,7 +651,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -669,10 +668,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Miami (OH) RedHawks | +15.5 (-105) | DraftKings | 51.1% | No Bet |
 | Pittsburgh Panthers | -15.5 (-113) | BetRivers | 49.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Miami (OH) RedHawks take on the Pittsburgh Panthers at Acrisure Stadium and the model sees a lean toward Miami (OH) RedHawks +15.5 with an edge of -0.08%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Miami (OH) RedHawks take on the Pittsburgh Panthers at Acrisure Stadium and the model sees a lean toward Miami (OH) RedHawks +15.5 with an edge of -0.08%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -691,7 +690,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -708,10 +707,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Miami Hurricanes | -21.5 (-105) | FanDuel | 49.8% | No Bet |
 | Stanford Cardinal | +22.5 (-110) | DraftKings | 52.0% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Miami Hurricanes take on the Stanford Cardinal at Stanford Stadium and the model sees a lean toward Stanford Cardinal +22.5 with an edge of -0.37%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Miami Hurricanes take on the Stanford Cardinal at Stanford Stadium and the model sees a lean toward Stanford Cardinal +22.5 with an edge of -0.37%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -730,7 +729,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -747,10 +746,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Missouri State Bears | +39.5 (-110) | FanDuel | 52.0% | No Bet |
 | Texas A&M Aggies | -38.5 (-110) | DraftKings | 49.1% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Missouri State Bears take on the Texas A&M Aggies at Kyle Field and the model sees a lean toward Missouri State Bears +39.5 with an edge of -0.42%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Missouri State Bears take on the Texas A&M Aggies at Kyle Field and the model sees a lean toward Missouri State Bears +39.5 with an edge of -0.42%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -769,7 +768,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -807,7 +806,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -845,7 +844,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -883,7 +882,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -921,7 +920,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -938,10 +937,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Oregon State Beavers | +18.5 (-110) | DraftKings | 50.5% | No Bet |
 | Houston Cougars | -18.5 (-109) | BetRivers | 49.5% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Oregon State Beavers take on the Houston Cougars at TDECU Stadium and the model sees a lean toward Oregon State Beavers +18.5 with an edge of -1.86%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Oregon State Beavers take on the Houston Cougars at TDECU Stadium and the model sees a lean toward Oregon State Beavers +18.5 with an edge of -1.86%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -960,7 +959,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -977,10 +976,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | SMU Mustangs | -2.5 (-105) | FanDuel | 51.0% | No Bet |
 | Florida State Seminoles | +2.5 (-105) | DraftKings | 48.7% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The SMU Mustangs take on the Florida State Seminoles at Doak Campbell Stadium and the model sees a lean toward SMU Mustangs -2.5 with an edge of -0.20%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The SMU Mustangs take on the Florida State Seminoles at Doak Campbell Stadium and the model sees a lean toward SMU Mustangs -2.5 with an edge of -0.20%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -999,7 +998,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1016,10 +1015,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Sam Houston State Bearkats | +17.5 (-110) | FanDuel | 48.1% | No Bet |
 | Troy Trojans | -17.5 (-105) | DraftKings | 52.0% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Sam Houston State Bearkats take on the Troy Trojans at Veterans Memorial Stadium (AL) and the model sees a lean toward Troy Trojans -17.5 with an edge of 0.74%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Sam Houston State Bearkats take on the Troy Trojans at Veterans Memorial Stadium (AL) and the model sees a lean toward Troy Trojans -17.5 with an edge of 0.74%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1038,7 +1037,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1055,10 +1054,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | San Jose State Spartans | +4.5 (-112) | BetRivers | 54.3% | Lean – doesn't meet our edge criteria to fully bet |
 | Eastern Michigan Eagles | -3.5 (-106) | FanDuel | 47.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The San Jose State Spartans take on the Eastern Michigan Eagles at Rynearson Stadium and the model sees a lean toward San Jose State Spartans +4.5 with an edge of 1.49%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The San Jose State Spartans take on the Eastern Michigan Eagles at Rynearson Stadium and the model sees a lean toward San Jose State Spartans +4.5 with an edge of 1.49%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1077,7 +1076,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1115,7 +1114,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1153,7 +1152,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1191,7 +1190,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1229,7 +1228,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1244,12 +1243,11 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UCLA Bruins | +1.5 (-110) | FanDuel | 44.6% | No Bet |
-| California Golden Bears | -1.5 (-105) | BetMGM | 55.1% | Lean – doesn't meet our edge criteria to fully bet |
-
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+| California Golden Bears | -1.5 (-105) | BetMGM | 55.1% | Bet |
 
 ## The Bottom Line
-The UCLA Bruins take on the California Golden Bears at California Memorial Stadium and the model sees a lean toward California Golden Bears -1.5 with an edge of 3.87%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The UCLA Bruins take on the California Golden Bears at California Memorial Stadium and the model favors **the California Golden Bears** at -1.5 vs. the market at -1.5.
+This puts the edge at 3.87%, which at -1.5 for -105 makes the California Golden Bears a bet.
 
 ## Why The Pick
 
@@ -1268,7 +1266,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1285,10 +1283,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | UL Monroe Warhawks | +29.5 (-105) | FanDuel | 54.0% | Lean – doesn't meet our edge criteria to fully bet |
 | Mississippi State Bulldogs | -28.5 (-108) | DraftKings | 47.1% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The UL Monroe Warhawks take on the Mississippi State Bulldogs at Davis Wade Stadium and the model sees a lean toward UL Monroe Warhawks +29.5 with an edge of 2.78%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The UL Monroe Warhawks take on the Mississippi State Bulldogs at Davis Wade Stadium and the model sees a lean toward UL Monroe Warhawks +29.5 with an edge of 2.78%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1307,7 +1305,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1324,10 +1322,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | UNLV Rebels | -1.5 (-110) | DraftKings | 50.8% | No Bet |
 | Hawaii Rainbow Warriors | +2.5 (-110) | FanDuel | 50.4% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The UNLV Rebels take on the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex and the model sees a lean toward UNLV Rebels -1.5 with an edge of -1.56%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The UNLV Rebels take on the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex and the model sees a lean toward UNLV Rebels -1.5 with an edge of -1.56%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1346,7 +1344,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1363,10 +1361,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | UTEP Miners | +40.5 (-110) | DraftKings | 51.8% | No Bet |
 | Oklahoma Sooners | -39.5 (-115) | FanDuel | 49.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The UTEP Miners take on the Oklahoma Sooners at Memorial Stadium (Norman, OK) and the model sees a lean toward UTEP Miners +40.5 with an edge of -0.54%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The UTEP Miners take on the Oklahoma Sooners at Memorial Stadium (Norman, OK) and the model sees a lean toward UTEP Miners +40.5 with an edge of -0.54%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1385,7 +1383,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1402,10 +1400,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Washington State Cougars | +21.5 (-110) | BetMGM | 51.3% | No Bet |
 | Washington Huskies | -21.5 (-105) | FanDuel | 48.8% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Washington State Cougars take on the Washington Huskies at Husky Stadium and the model sees a lean toward Washington State Cougars +21.5 with an edge of -1.12%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Washington State Cougars take on the Washington Huskies at Husky Stadium and the model sees a lean toward Washington State Cougars +21.5 with an edge of -1.12%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1424,7 +1422,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1441,10 +1439,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Western Kentucky Hilltoppers | -2.5 (-122) | FanDuel | 50.2% | No Bet |
 | Nevada Wolf Pack | +2.5 (+100) | FanDuel | 49.5% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Western Kentucky Hilltoppers take on the Nevada Wolf Pack at Mackay Stadium and the model sees a lean toward Nevada Wolf Pack +2.5 with an edge of -0.47%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Western Kentucky Hilltoppers take on the Nevada Wolf Pack at Mackay Stadium and the model sees a lean toward Nevada Wolf Pack +2.5 with an edge of -0.47%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1463,7 +1461,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1480,10 +1478,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Western Michigan Broncos | +26.5 (-110) | DraftKings | 51.4% | No Bet |
 | Michigan Wolverines | -25.5 (-112) | FanDuel | 49.9% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Western Michigan Broncos take on the Michigan Wolverines at Michigan Stadium and the model sees a lean toward Western Michigan Broncos +26.5 with an edge of -0.94%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Western Michigan Broncos take on the Michigan Wolverines at Michigan Stadium and the model sees a lean toward Western Michigan Broncos +26.5 with an edge of -0.94%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1502,7 +1500,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1519,10 +1517,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Wisconsin Badgers | +20.5 (-108) | DraftKings | 47.8% | No Bet |
 | Notre Dame Fighting Irish | -20.5 (-110) | FanDuel | 52.1% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Wisconsin Badgers take on the Notre Dame Fighting Irish at Lambeau Field and the model sees a lean toward Notre Dame Fighting Irish -20.5 with an edge of -0.27%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Wisconsin Badgers take on the Notre Dame Fighting Irish at Lambeau Field and the model sees a lean toward Notre Dame Fighting Irish -20.5 with an edge of -0.27%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1541,7 +1539,7 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
 
@@ -1558,10 +1556,10 @@ Our model found edges of at least 4% on **11 games** this week. See the model ou
 | Wyoming Cowboys | +3.5 (-105) | FanDuel | 50.6% | No Bet |
 | Colorado State Rams | -3.5 (-110) | BetMGM | 49.5% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Wyoming Cowboys take on the Colorado State Rams at Canvas Stadium and the model sees a lean toward Wyoming Cowboys +3.5 with an edge of -0.61%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Wyoming Cowboys take on the Colorado State Rams at Canvas Stadium and the model sees a lean toward Wyoming Cowboys +3.5 with an edge of -0.61%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1580,6 +1578,6 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

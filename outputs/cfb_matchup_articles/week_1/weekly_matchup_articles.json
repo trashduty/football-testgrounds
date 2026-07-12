@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-12T22:26:29.441725+00:00",
+  "generated_at_utc": "2026-07-12T22:34:12.124650+00:00",
   "season": 2026,
   "week": 1,
   "articles": [
@@ -153,7 +153,7 @@
       "home_team": "Penn State Nittany Lions",
       "away_id": 276,
       "home_id": 213,
-      "has_bet": false,
+      "has_bet": true,
       "article_path": "marshall thundering herd_at_penn state nittany lions.md"
     },
     {
@@ -297,7 +297,7 @@
       "home_team": "California Golden Bears",
       "away_id": 26,
       "home_id": 25,
-      "has_bet": false,
+      "has_bet": true,
       "article_path": "ucla bruins_at_california golden bears.md"
     },
     {

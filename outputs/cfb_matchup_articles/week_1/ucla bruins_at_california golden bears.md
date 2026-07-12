@@ -7,12 +7,11 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UCLA Bruins | +1.5 (-110) | FanDuel | 44.6% | No Bet |
-| California Golden Bears | -1.5 (-105) | BetMGM | 55.1% | Lean – doesn't meet our edge criteria to fully bet |
-
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+| California Golden Bears | -1.5 (-105) | BetMGM | 55.1% | Bet |
 
 ## The Bottom Line
-The UCLA Bruins take on the California Golden Bears at California Memorial Stadium and the model sees a lean toward California Golden Bears -1.5 with an edge of 3.87%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The UCLA Bruins take on the California Golden Bears at California Memorial Stadium and the model favors **the California Golden Bears** at -1.5 vs. the market at -1.5.
+This puts the edge at 3.87%, which at -1.5 for -105 makes the California Golden Bears a bet.
 
 ## Why The Pick
 
@@ -31,6 +30,6 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

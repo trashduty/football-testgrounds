@@ -9,10 +9,10 @@
 | San Jose State Spartans | +4.5 (-112) | BetRivers | 54.3% | Lean – doesn't meet our edge criteria to fully bet |
 | Eastern Michigan Eagles | -3.5 (-106) | FanDuel | 47.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The San Jose State Spartans take on the Eastern Michigan Eagles at Rynearson Stadium and the model sees a lean toward San Jose State Spartans +4.5 with an edge of 1.49%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The San Jose State Spartans take on the Eastern Michigan Eagles at Rynearson Stadium and the model sees a lean toward San Jose State Spartans +4.5 with an edge of 1.49%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -31,6 +31,6 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -9,10 +9,10 @@
 | Fresno State Bulldogs | +23.5 (-105) | FanDuel | 52.7% | Lean – doesn't meet our edge criteria to fully bet |
 | USC Trojans | -23.5 (-108) | DraftKings | 47.4% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Fresno State Bulldogs take on the USC Trojans at Los Angeles Memorial Coliseum and the model sees a lean toward Fresno State Bulldogs +23.5 with an edge of 1.44%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Fresno State Bulldogs take on the USC Trojans at Los Angeles Memorial Coliseum and the model sees a lean toward Fresno State Bulldogs +23.5 with an edge of 1.44%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -31,6 +31,6 @@ Ranks are across FBS over each team's last 10 games. Eckel rate is the share of 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 3% on **13 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
