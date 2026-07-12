@@ -39,6 +39,7 @@ TRASH_SCHEDULE_OWNER = "trashduty"
 TRASH_SCHEDULE_REPO = "trash-schedule"
 TRASH_SCHEDULE_REF = "main"
 TRASH_SCHEDULE_SPREADS_PATH = "CFB_Odds/Data/spreads_odds.csv"
+TRASH_SCHEDULE_CROSSWALK_PATH = "CFB_Odds/Data/CFB Teams Full Crosswalk.csv"
 
 FULL_BET_THRESHOLD = 0.04  # matches matchup_call_label and the spreads model
 ET = ZoneInfo("America/New_York")
@@ -55,8 +56,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--week", type=int)
     parser.add_argument("--season", type=int)
     parser.add_argument("--teams", nargs="*")
-    parser.add_argument("--crosswalk", default="CFB_Odds/Data/CFB Teams Full Crosswalk.csv",
-                        help="Path to the team crosswalk CSV (committed in the repo).")
+    parser.add_argument("--crosswalk", default=None,
+                        help="Path to the team crosswalk CSV. If not provided, fetches from trash-schedule repo.")
     parser.add_argument("--trash-schedule-dir")
     parser.add_argument("--trash-schedule-owner", default=TRASH_SCHEDULE_OWNER)
     parser.add_argument("--trash-schedule-repo", default=TRASH_SCHEDULE_REPO)
@@ -205,6 +206,18 @@ def load_spreads(args: argparse.Namespace, session: requests.Session) -> Tuple[p
     return week_spreads, week, season
 
 
+def load_crosswalk(args: argparse.Namespace, session: requests.Session) -> pd.DataFrame:
+    if args.crosswalk:
+        # User provided a local path
+        return pd.read_csv(args.crosswalk)
+    # Fetch from trash-schedule repo
+    local_root = Path(args.trash_schedule_dir).resolve() if args.trash_schedule_dir else None
+    raw = fetch_text(TRASH_SCHEDULE_CROSSWALK_PATH, local_root=local_root,
+                     owner=args.trash_schedule_owner, repo=args.trash_schedule_repo,
+                     ref=args.trash_schedule_ref, session=session)
+    return pd.read_csv(StringIO(raw))
+
+
 # --------------------------------------------------------------------------- #
 # Bottom line (both mandatory rules enforced here)
 # --------------------------------------------------------------------------- #
@@ -336,7 +349,7 @@ def main() -> None:
     session.headers["User-Agent"] = "football-testgrounds-cfb-articles/1.0"
 
     spreads, week, season = load_spreads(args, session)
-    crosswalk = cfb_stats.load_crosswalk(args.crosswalk)
+    crosswalk = load_crosswalk(args, session)
 
     # Rolling window needs the prior season to fill 10 games early in the year.
     stats_years = [season - 1, season]
