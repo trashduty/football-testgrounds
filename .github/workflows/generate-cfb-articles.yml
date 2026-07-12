@@ -1,0 +1,70 @@
+name: Generate CFB Matchup Articles
+
+on:
+  workflow_dispatch:
+    inputs:
+      week:
+        description: 'Week number'
+        required: false
+        type: number
+      season:
+        description: 'Season year'
+        required: false
+        type: number
+      teams:
+        description: 'Specific teams to generate articles for (comma-separated, optional)'
+        required: false
+        type: string
+
+jobs:
+  generate-articles:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: trashduty/trash-schedule
+          path: trash-schedule
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - uses: actions/checkout@v4
+        with:
+          path: football-testgrounds
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        working-directory: football-testgrounds
+        run: |
+          pip install pandas requests cfbd
+      
+      - name: Generate articles
+        working-directory: football-testgrounds
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/weekly_matchup_articles_cfb.py \
+            --output-dir outputs/cfb_matchup_articles \
+            --trash-schedule-dir ../trash-schedule \
+            ${{ inputs.week && format('--week {0}', inputs.week) || '' }} \
+            ${{ inputs.season && format('--season {0}', inputs.season) || '' }} \
+            ${{ inputs.teams && format('--teams {0}', inputs.teams) || '' }}
+      
+      - name: Commit and push outputs
+        working-directory: football-testgrounds
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if [[ -n $(git status -s) ]]; then
+            git add outputs/
+            git commit -m "Generate CFB matchup articles"
+            git push
+          else
+            echo "No changes to commit"
+          fi
