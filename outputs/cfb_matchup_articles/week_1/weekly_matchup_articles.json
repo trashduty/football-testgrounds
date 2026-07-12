@@ -1,0 +1,376 @@
+{
+  "generated_at_utc": "2026-07-12T22:26:29.441725+00:00",
+  "season": 2026,
+  "week": 1,
+  "articles": [
+    {
+      "game": "Akron Zips@Wake Forest Demon Deacons",
+      "away_team": "Akron Zips",
+      "home_team": "Wake Forest Demon Deacons",
+      "away_id": 2006,
+      "home_id": 154,
+      "has_bet": false,
+      "article_path": "akron zips_at_wake forest demon deacons.md"
+    },
+    {
+      "game": "Arkansas State Red Wolves@Memphis Tigers",
+      "away_team": "Arkansas State Red Wolves",
+      "home_team": "Memphis Tigers",
+      "away_id": 2032,
+      "home_id": 235,
+      "has_bet": false,
+      "article_path": "arkansas state red wolves_at_memphis tigers.md"
+    },
+    {
+      "game": "Ball State Cardinals@Ohio State Buckeyes",
+      "away_team": "Ball State Cardinals",
+      "home_team": "Ohio State Buckeyes",
+      "away_id": 2050,
+      "home_id": 194,
+      "has_bet": false,
+      "article_path": "ball state cardinals_at_ohio state buckeyes.md"
+    },
+    {
+      "game": "Baylor Bears@Auburn Tigers",
+      "away_team": "Baylor Bears",
+      "home_team": "Auburn Tigers",
+      "away_id": 239,
+      "home_id": 2,
+      "has_bet": false,
+      "article_path": "baylor bears_at_auburn tigers.md"
+    },
+    {
+      "game": "Boise State Broncos@Oregon Ducks",
+      "away_team": "Boise State Broncos",
+      "home_team": "Oregon Ducks",
+      "away_id": 68,
+      "home_id": 2483,
+      "has_bet": false,
+      "article_path": "boise state broncos_at_oregon ducks.md"
+    },
+    {
+      "game": "Boston College Eagles@Cincinnati Bearcats",
+      "away_team": "Boston College Eagles",
+      "home_team": "Cincinnati Bearcats",
+      "away_id": 103,
+      "home_id": 2132,
+      "has_bet": false,
+      "article_path": "boston college eagles_at_cincinnati bearcats.md"
+    },
+    {
+      "game": "Clemson Tigers@LSU Tigers",
+      "away_team": "Clemson Tigers",
+      "home_team": "LSU Tigers",
+      "away_id": 228,
+      "home_id": 99,
+      "has_bet": true,
+      "article_path": "clemson tigers_at_lsu tigers.md"
+    },
+    {
+      "game": "Coastal Carolina Chanticleers@West Virginia Mountaineers",
+      "away_team": "Coastal Carolina Chanticleers",
+      "home_team": "West Virginia Mountaineers",
+      "away_id": 324,
+      "home_id": 277,
+      "has_bet": false,
+      "article_path": "coastal carolina chanticleers_at_west virginia mountaineers.md"
+    },
+    {
+      "game": "Colorado Buffaloes@Georgia Tech Yellow Jackets",
+      "away_team": "Colorado Buffaloes",
+      "home_team": "Georgia Tech Yellow Jackets",
+      "away_id": 38,
+      "home_id": 59,
+      "has_bet": false,
+      "article_path": "colorado buffaloes_at_georgia tech yellow jackets.md"
+    },
+    {
+      "game": "East Carolina Pirates@Alabama Crimson Tide",
+      "away_team": "East Carolina Pirates",
+      "home_team": "Alabama Crimson Tide",
+      "away_id": 151,
+      "home_id": 333,
+      "has_bet": false,
+      "article_path": "east carolina pirates_at_alabama crimson tide.md"
+    },
+    {
+      "game": "Florida Atlantic Owls@Florida Gators",
+      "away_team": "Florida Atlantic Owls",
+      "home_team": "Florida Gators",
+      "away_id": 2226,
+      "home_id": 57,
+      "has_bet": false,
+      "article_path": "florida atlantic owls_at_florida gators.md"
+    },
+    {
+      "game": "Florida International Panthers@South Florida Bulls",
+      "away_team": "Florida International Panthers",
+      "home_team": "South Florida Bulls",
+      "away_id": 2229,
+      "home_id": 58,
+      "has_bet": true,
+      "article_path": "florida international panthers_at_south florida bulls.md"
+    },
+    {
+      "game": "Fresno State Bulldogs@USC Trojans",
+      "away_team": "Fresno State Bulldogs",
+      "home_team": "USC Trojans",
+      "away_id": 278,
+      "home_id": 30,
+      "has_bet": false,
+      "article_path": "fresno state bulldogs_at_usc trojans.md"
+    },
+    {
+      "game": "Kent State Golden Flashes@South Carolina Gamecocks",
+      "away_team": "Kent State Golden Flashes",
+      "home_team": "South Carolina Gamecocks",
+      "away_id": 2309,
+      "home_id": 2579,
+      "has_bet": false,
+      "article_path": "kent state golden flashes_at_south carolina gamecocks.md"
+    },
+    {
+      "game": "Liberty Flames@James Madison Dukes",
+      "away_team": "Liberty Flames",
+      "home_team": "James Madison Dukes",
+      "away_id": 2335,
+      "home_id": 256,
+      "has_bet": true,
+      "article_path": "liberty flames_at_james madison dukes.md"
+    },
+    {
+      "game": "Louisville Cardinals@Ole Miss Rebels",
+      "away_team": "Louisville Cardinals",
+      "home_team": "Ole Miss Rebels",
+      "away_id": 97,
+      "home_id": 145,
+      "has_bet": false,
+      "article_path": "louisville cardinals_at_ole miss rebels.md"
+    },
+    {
+      "game": "Marshall Thundering Herd@Penn State Nittany Lions",
+      "away_team": "Marshall Thundering Herd",
+      "home_team": "Penn State Nittany Lions",
+      "away_id": 276,
+      "home_id": 213,
+      "has_bet": false,
+      "article_path": "marshall thundering herd_at_penn state nittany lions.md"
+    },
+    {
+      "game": "Miami (OH) RedHawks@Pittsburgh Panthers",
+      "away_team": "Miami (OH) RedHawks",
+      "home_team": "Pittsburgh Panthers",
+      "away_id": 193,
+      "home_id": 221,
+      "has_bet": false,
+      "article_path": "miami (oh) redhawks_at_pittsburgh panthers.md"
+    },
+    {
+      "game": "Miami Hurricanes@Stanford Cardinal",
+      "away_team": "Miami Hurricanes",
+      "home_team": "Stanford Cardinal",
+      "away_id": 2390,
+      "home_id": 24,
+      "has_bet": false,
+      "article_path": "miami hurricanes_at_stanford cardinal.md"
+    },
+    {
+      "game": "Missouri State Bears@Texas A&M Aggies",
+      "away_team": "Missouri State Bears",
+      "home_team": "Texas A&M Aggies",
+      "away_id": 2623,
+      "home_id": 245,
+      "has_bet": false,
+      "article_path": "missouri state bears_at_texas a&m aggies.md"
+    },
+    {
+      "game": "North Texas Mean Green@Indiana Hoosiers",
+      "away_team": "North Texas Mean Green",
+      "home_team": "Indiana Hoosiers",
+      "away_id": 249,
+      "home_id": 84,
+      "has_bet": true,
+      "article_path": "north texas mean green_at_indiana hoosiers.md"
+    },
+    {
+      "game": "Northern Illinois Huskies@Iowa Hawkeyes",
+      "away_team": "Northern Illinois Huskies",
+      "home_team": "Iowa Hawkeyes",
+      "away_id": 2459,
+      "home_id": 2294,
+      "has_bet": true,
+      "article_path": "northern illinois huskies_at_iowa hawkeyes.md"
+    },
+    {
+      "game": "Ohio Bobcats@Nebraska Cornhuskers",
+      "away_team": "Ohio Bobcats",
+      "home_team": "Nebraska Cornhuskers",
+      "away_id": 195,
+      "home_id": 158,
+      "has_bet": true,
+      "article_path": "ohio bobcats_at_nebraska cornhuskers.md"
+    },
+    {
+      "game": "Oklahoma State Cowboys@Tulsa Golden Hurricane",
+      "away_team": "Oklahoma State Cowboys",
+      "home_team": "Tulsa Golden Hurricane",
+      "away_id": 197,
+      "home_id": 202,
+      "has_bet": true,
+      "article_path": "oklahoma state cowboys_at_tulsa golden hurricane.md"
+    },
+    {
+      "game": "Oregon State Beavers@Houston Cougars",
+      "away_team": "Oregon State Beavers",
+      "home_team": "Houston Cougars",
+      "away_id": 204,
+      "home_id": 248,
+      "has_bet": false,
+      "article_path": "oregon state beavers_at_houston cougars.md"
+    },
+    {
+      "game": "SMU Mustangs@Florida State Seminoles",
+      "away_team": "SMU Mustangs",
+      "home_team": "Florida State Seminoles",
+      "away_id": 2567,
+      "home_id": 52,
+      "has_bet": false,
+      "article_path": "smu mustangs_at_florida state seminoles.md"
+    },
+    {
+      "game": "Sam Houston State Bearkats@Troy Trojans",
+      "away_team": "Sam Houston State Bearkats",
+      "home_team": "Troy Trojans",
+      "away_id": 2534,
+      "home_id": 2653,
+      "has_bet": false,
+      "article_path": "sam houston state bearkats_at_troy trojans.md"
+    },
+    {
+      "game": "San Jose State Spartans@Eastern Michigan Eagles",
+      "away_team": "San Jose State Spartans",
+      "home_team": "Eastern Michigan Eagles",
+      "away_id": 23,
+      "home_id": 2199,
+      "has_bet": false,
+      "article_path": "san jose state spartans_at_eastern michigan eagles.md"
+    },
+    {
+      "game": "Texas State Bobcats@Texas Longhorns",
+      "away_team": "Texas State Bobcats",
+      "home_team": "Texas Longhorns",
+      "away_id": 326,
+      "home_id": 251,
+      "has_bet": true,
+      "article_path": "texas state bobcats_at_texas longhorns.md"
+    },
+    {
+      "game": "Toledo Rockets@Michigan State Spartans",
+      "away_team": "Toledo Rockets",
+      "home_team": "Michigan State Spartans",
+      "away_id": 2649,
+      "home_id": 127,
+      "has_bet": true,
+      "article_path": "toledo rockets_at_michigan state spartans.md"
+    },
+    {
+      "game": "Tulane Green Wave@Duke Blue Devils",
+      "away_team": "Tulane Green Wave",
+      "home_team": "Duke Blue Devils",
+      "away_id": 2655,
+      "home_id": 150,
+      "has_bet": true,
+      "article_path": "tulane green wave_at_duke blue devils.md"
+    },
+    {
+      "game": "UAB Blazers@Illinois Fighting Illini",
+      "away_team": "UAB Blazers",
+      "home_team": "Illinois Fighting Illini",
+      "away_id": 5,
+      "home_id": 356,
+      "has_bet": true,
+      "article_path": "uab blazers_at_illinois fighting illini.md"
+    },
+    {
+      "game": "UCLA Bruins@California Golden Bears",
+      "away_team": "UCLA Bruins",
+      "home_team": "California Golden Bears",
+      "away_id": 26,
+      "home_id": 25,
+      "has_bet": false,
+      "article_path": "ucla bruins_at_california golden bears.md"
+    },
+    {
+      "game": "UL Monroe Warhawks@Mississippi State Bulldogs",
+      "away_team": "UL Monroe Warhawks",
+      "home_team": "Mississippi State Bulldogs",
+      "away_id": 2433,
+      "home_id": 344,
+      "has_bet": false,
+      "article_path": "ul monroe warhawks_at_mississippi state bulldogs.md"
+    },
+    {
+      "game": "UNLV Rebels@Hawaii Rainbow Warriors",
+      "away_team": "UNLV Rebels",
+      "home_team": "Hawaii Rainbow Warriors",
+      "away_id": 2439,
+      "home_id": 62,
+      "has_bet": false,
+      "article_path": "unlv rebels_at_hawaii rainbow warriors.md"
+    },
+    {
+      "game": "UTEP Miners@Oklahoma Sooners",
+      "away_team": "UTEP Miners",
+      "home_team": "Oklahoma Sooners",
+      "away_id": 2638,
+      "home_id": 201,
+      "has_bet": false,
+      "article_path": "utep miners_at_oklahoma sooners.md"
+    },
+    {
+      "game": "Washington State Cougars@Washington Huskies",
+      "away_team": "Washington State Cougars",
+      "home_team": "Washington Huskies",
+      "away_id": 265,
+      "home_id": 264,
+      "has_bet": false,
+      "article_path": "washington state cougars_at_washington huskies.md"
+    },
+    {
+      "game": "Western Kentucky Hilltoppers@Nevada Wolf Pack",
+      "away_team": "Western Kentucky Hilltoppers",
+      "home_team": "Nevada Wolf Pack",
+      "away_id": 98,
+      "home_id": 2440,
+      "has_bet": false,
+      "article_path": "western kentucky hilltoppers_at_nevada wolf pack.md"
+    },
+    {
+      "game": "Western Michigan Broncos@Michigan Wolverines",
+      "away_team": "Western Michigan Broncos",
+      "home_team": "Michigan Wolverines",
+      "away_id": 2711,
+      "home_id": 130,
+      "has_bet": false,
+      "article_path": "western michigan broncos_at_michigan wolverines.md"
+    },
+    {
+      "game": "Wisconsin Badgers@Notre Dame Fighting Irish",
+      "away_team": "Wisconsin Badgers",
+      "home_team": "Notre Dame Fighting Irish",
+      "away_id": 275,
+      "home_id": 87,
+      "has_bet": false,
+      "article_path": "wisconsin badgers_at_notre dame fighting irish.md"
+    },
+    {
+      "game": "Wyoming Cowboys@Colorado State Rams",
+      "away_team": "Wyoming Cowboys",
+      "home_team": "Colorado State Rams",
+      "away_id": 2751,
+      "home_id": 36,
+      "has_bet": false,
+      "article_path": "wyoming cowboys_at_colorado state rams.md"
+    }
+  ]
+}

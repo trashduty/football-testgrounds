@@ -1,0 +1,36 @@
+# Boise State Broncos vs Oregon Ducks Prediction For 09/05/2026
+
+<p align="center"><img src="http://a.espncdn.com/i/teamlogos/ncaa/500/68.png" alt="Boise State Broncos" width="224" /> <strong>vs</strong> <img src="http://a.espncdn.com/i/teamlogos/ncaa/500/2483.png" alt="Oregon Ducks" width="224" /></p>
+
+<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
+
+| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
+|---|---|---|---|---|
+| Boise State Broncos | +24.5 (-105) | DraftKings | 48.3% | No Bet |
+| Oregon Ducks | -24.5 (-110) | FanDuel | 51.7% | No Bet |
+
+The model sees a lean here, but the edge does not clear our 4% threshold, so there is no play.
+
+## The Bottom Line
+The Boise State Broncos take on the Oregon Ducks at Autzen Stadium and the model sees a lean toward Oregon Ducks -24.5 with an edge of -0.68%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+
+## Why The Pick
+
+Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
+
+| | Oregon Ducks | Boise State Broncos |
+|---|---|---|
+| Offensive Pass EPA | 35th | 129th |
+| Offensive Rush EPA | 14th | 71st |
+| Defensive Pass EPA | 24th | 5th |
+| Defensive Rush EPA | 97th | 189th |
+| Offensive Eckel Rate | 33rd | 157th |
+| Defensive Eckel Rate | 18th | 16th |
+
+Ranks are across FBS over each team's last 10 games. Eckel rate is the share of drives that end in a touchdown or reach a first down inside the opponent's 40 yard line.
+
+## Best Bets Of The Week
+
+Our model found edges of at least 4% on **11 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+
+<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
