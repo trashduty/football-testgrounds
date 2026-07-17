@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Denver Broncos | +2.5 (-102) | DraftKings | 41.8% | No Bet |
-| Kansas City Chiefs | -2.5 (-115) | Fanatics | 58.2% | Bet |
+| Denver Broncos | +2.5 (-104) | FanDuel | 41.8% | No Bet |
+| Kansas City Chiefs | -2.5 (-115) | DraftKings | 58.2% | Bet |
 
 *Model assumes Patrick Mahomes (Kansas City Chiefs) and Bo Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 

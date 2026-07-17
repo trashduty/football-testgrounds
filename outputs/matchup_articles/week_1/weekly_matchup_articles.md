@@ -285,8 +285,8 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Denver Broncos | +2.5 (-102) | DraftKings | 41.8% | No Bet |
-| Kansas City Chiefs | -2.5 (-115) | Fanatics | 58.2% | Bet |
+| Denver Broncos | +2.5 (-104) | FanDuel | 41.8% | No Bet |
+| Kansas City Chiefs | -2.5 (-115) | DraftKings | 58.2% | Bet |
 
 *Model assumes Patrick Mahomes (Kansas City Chiefs) and Bo Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -522,14 +522,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| San Francisco 49ers | +3.5 (-110) | BetMGM | 59.2% | Bet |
+| San Francisco 49ers | +3.5 (-105) | FanDuel | 59.2% | Bet |
 | Los Angeles Rams | -3.5 (-110) | BetMGM | 40.7% | No Bet |
 
 *Model assumes Brock Purdy (San Francisco 49ers) and Matthew Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The San Francisco 49ers take on the Los Angeles Rams at Melbourne Cricket Ground and the model favors **the San Francisco 49ers** at +3.5 vs. the market at +3.5.
-This puts the edge at 6.87%, which at +3.5 for -110 makes the San Francisco 49ers a bet.
+This puts the edge at 8.03%, which at +3.5 for -105 makes the San Francisco 49ers a bet.
 
 ## Why The Pick
 
@@ -561,14 +561,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tampa Bay Buccaneers | +3.5 (-110) | DraftKings | 57.9% | Bet |
+| Tampa Bay Buccaneers | +3.5 (-105) | FanDuel | 57.9% | Bet |
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
 *Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The Tampa Bay Buccaneers take on the Cincinnati Bengals at Paycor Stadium and the model favors **the Tampa Bay Buccaneers** at +3.5 vs. the market at +3.5.
-This puts the edge at 5.52%, which at +3.5 for -110 makes the Tampa Bay Buccaneers a bet.
+This puts the edge at 6.69%, which at +3.5 for -105 makes the Tampa Bay Buccaneers a bet.
 
 ## Why The Pick
 

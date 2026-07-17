@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tampa Bay Buccaneers | +3.5 (-110) | DraftKings | 57.9% | Bet |
+| Tampa Bay Buccaneers | +3.5 (-105) | FanDuel | 57.9% | Bet |
 | Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
 *Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The Tampa Bay Buccaneers take on the Cincinnati Bengals at Paycor Stadium and the model favors **the Tampa Bay Buccaneers** at +3.5 vs. the market at +3.5.
-This puts the edge at 5.52%, which at +3.5 for -110 makes the Tampa Bay Buccaneers a bet.
+This puts the edge at 6.69%, which at +3.5 for -105 makes the Tampa Bay Buccaneers a bet.
 
 ## Why The Pick
 
