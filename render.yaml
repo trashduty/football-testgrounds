@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cfb-stats-api
+    runtime: python
+    repo: https://github.com/trashduty/football-testgrounds
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: PYTHONPATH=scripts gunicorn api:app --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    plan: free
+    envVars:
+      - key: CFBD_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+    autoDeploy: true

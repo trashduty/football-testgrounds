@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CFB Stats Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🏈 CFB Stats Search</h1>
+      <p class="subtitle">Search college football game data &amp; advanced stats</p>
+    </header>
+
+    <!-- Search controls -->
+    <div class="search-section">
+      <div class="search-row">
+        <input
+          type="text"
+          id="searchBox"
+          class="search-input"
+          placeholder="Search team, conference, venue…"
+          autocomplete="off"
+        />
+        <button id="searchBtn" class="btn btn-primary">Search</button>
+        <button id="clearBtn" class="btn btn-secondary">Clear</button>
+      </div>
+
+      <div class="filter-row">
+        <label>
+          Week
+          <input type="number" id="weekFilter" min="1" max="20" placeholder="All" class="filter-input" />
+        </label>
+        <label>
+          Season
+          <input type="number" id="seasonFilter" min="2014" max="2030" placeholder="All" class="filter-input" />
+        </label>
+        <label>
+          Min EPA/play
+          <input type="number" id="minEpaFilter" step="0.01" placeholder="—" class="filter-input epa-filter" />
+        </label>
+        <label>
+          Source
+          <select id="sourceSelect" class="filter-input">
+            <option value="precomputed">Pre-computed (fast)</option>
+            <option value="live">Live CFBD API</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <!-- Status bar -->
+    <div id="statusBar" class="status-bar hidden"></div>
+
+    <!-- Results table -->
+    <div id="resultsContainer" class="results-container">
+      <div id="placeholder" class="placeholder">
+        <span class="placeholder-icon">🔍</span>
+        <p>Enter a team name or search term to find games.</p>
+        <p class="hint">Data updates Mon / Wed / Fri via the R pipeline.</p>
+      </div>
+      <table id="resultsTable" class="results-table hidden">
+        <thead>
+          <tr>
+            <th>Week</th>
+            <th>Away</th>
+            <th>Home</th>
+            <th>Score</th>
+            <th>Away EPA</th>
+            <th>Home EPA</th>
+            <th>Spread</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+      </table>
+    </div>
+
+    <!-- Load indicator -->
+    <div id="loadingSpinner" class="spinner hidden">Loading…</div>
+
+    <footer>
+      <p>
+        Data via
+        <a href="https://collegefootballdata.com" target="_blank" rel="noopener">
+          CollegeFootballData.com
+        </a>
+        &middot;
+        <a href="https://github.com/trashduty/football-testgrounds" target="_blank" rel="noopener">
+          GitHub
+        </a>
+      </p>
+      <p id="metaLine" class="meta-line"></p>
+    </footer>
+  </div>
+
+  <script>
+    // -------------------------------------------------------------------------
+    // Configuration
+    // -------------------------------------------------------------------------
+    const RENDER_API = 'https://cfb-stats-api.onrender.com';   // update after Render deploy
+    const LOCAL_JSON  = './data/cfb-stats.json';
+    const LOCAL_META  = './data/cfb-meta.json';
+
+    // -------------------------------------------------------------------------
+    // State
+    // -------------------------------------------------------------------------
+    let precomputedData = [];   // full dataset loaded from JSON
+    let dataLoaded = false;
+
+    // -------------------------------------------------------------------------
+    // DOM helpers
+    // -------------------------------------------------------------------------
+    const $ = id => document.getElementById(id);
+
+    function show(el)  { el.classList.remove('hidden'); }
+    function hide(el)  { el.classList.add('hidden'); }
+
+    function setStatus(msg, type = 'info') {
+      const bar = $('statusBar');
+      bar.textContent = msg;
+      bar.className = `status-bar status-${type}`;
+      show(bar);
+    }
+
+    // -------------------------------------------------------------------------
+    // Load metadata
+    // -------------------------------------------------------------------------
+    async function loadMeta() {
+      try {
+        const res = await fetch(LOCAL_META);
+        if (!res.ok) return;
+        const meta = await res.json();
+        $('metaLine').textContent =
+          `Last updated: ${meta.generated_at || '—'} · ` +
+          `Season ${meta.season || '—'}, Week ${meta.current_week || '—'} · ` +
+          `${(meta.total_games || 0).toLocaleString()} games`;
+      } catch (_) { /* no meta file yet */ }
+    }
+
+    // -------------------------------------------------------------------------
+    // Pre-load data into memory (on page load)
+    // -------------------------------------------------------------------------
+    async function loadLocalData() {
+      try {
+        const res = await fetch(LOCAL_JSON);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        precomputedData = await res.json();
+        dataLoaded = true;
+        setStatus(`✓ ${precomputedData.length.toLocaleString()} games loaded`, 'success');
+        setTimeout(() => hide($('statusBar')), 3000);
+      } catch (err) {
+        setStatus(`Data file not yet available (pipeline hasn't run). Live API still works.`, 'warn');
+      }
+    }
+
+    // -------------------------------------------------------------------------
+    // In-browser search (pre-computed data)
+    // -------------------------------------------------------------------------
+    function searchLocal(q, team, week, season, minEpa) {
+      const ql = q.toLowerCase();
+      return precomputedData.filter(g => {
+        if (week   && g.week   !== +week)   return false;
+        if (season && g.season !== +season) return false;
+        if (team) {
+          const tl = team.toLowerCase();
+          const ht = (g.home_team || '').toLowerCase();
+          const at = (g.away_team || '').toLowerCase();
+          if (!ht.includes(tl) && !at.includes(tl)) return false;
+        }
+        if (minEpa !== '') {
+          const thresh = parseFloat(minEpa);
+          const he = g.home_off_epa_play ?? -Infinity;
+          const ae = g.away_off_epa_play ?? -Infinity;
+          if (he < thresh && ae < thresh) return false;
+        }
+        if (ql) {
+          const blob = Object.values(g).join(' ').toLowerCase();
+          if (!blob.includes(ql)) return false;
+        }
+        return true;
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // Live API search (Render)
+    // -------------------------------------------------------------------------
+    async function searchLive(q, team, week, season, minEpa) {
+      const params = new URLSearchParams();
+      if (q)      params.set('q',       q);
+      if (team)   params.set('team',    team);
+      if (week)   params.set('week',    week);
+      if (season) params.set('season',  season);
+      if (minEpa) params.set('min_epa', minEpa);
+      params.set('limit', '100');
+
+      const res = await fetch(`${RENDER_API}/search?${params}`);
+      if (!res.ok) throw new Error(`API error ${res.status}`);
+      const data = await res.json();
+      return data.results || [];
+    }
+
+    // -------------------------------------------------------------------------
+    // Render results
+    // -------------------------------------------------------------------------
+    function fmt(v, decimals = 2) {
+      if (v === null || v === undefined) return '—';
+      if (typeof v === 'number') return v.toFixed(decimals);
+      return v;
+    }
+
+    function epaCell(val) {
+      const n = parseFloat(val);
+      if (isNaN(n)) return '<td>—</td>';
+      const cls = n > 0 ? 'epa-pos' : n < 0 ? 'epa-neg' : '';
+      return `<td class="${cls}">${n.toFixed(3)}</td>`;
+    }
+
+    function renderResults(results) {
+      const tbody = $('resultsBody');
+      const table = $('resultsTable');
+
+      if (!results.length) {
+        hide(table);
+        $('placeholder').innerHTML =
+          '<span class="placeholder-icon">🚫</span><p>No games found matching your query.</p>';
+        show($('placeholder'));
+        return;
+      }
+
+      hide($('placeholder'));
+      tbody.innerHTML = results.slice(0, 200).map(g => `
+        <tr>
+          <td>${fmt(g.week, 0)}</td>
+          <td class="team-cell">${g.away_team || '—'}</td>
+          <td class="team-cell">${g.home_team || '—'}</td>
+          <td class="score-cell">
+            ${g.away_points !== null && g.away_points !== undefined
+              ? `${g.away_points}–${g.home_points}`
+              : '<span class="scheduled">sched.</span>'}
+          </td>
+          ${epaCell(g.away_off_epa_play)}
+          ${epaCell(g.home_off_epa_play)}
+          <td>${g.formatted_spread || fmt(g.spread, 1)}</td>
+          <td class="date-cell">${(g.start_date || '').slice(0, 10)}</td>
+        </tr>
+      `).join('');
+
+      show(table);
+    }
+
+    // -------------------------------------------------------------------------
+    // Main search handler
+    // -------------------------------------------------------------------------
+    async function doSearch() {
+      const q       = $('searchBox').value.trim();
+      const team    = '';   // team embedded in q for simplicity
+      const week    = $('weekFilter').value.trim();
+      const season  = $('seasonFilter').value.trim();
+      const minEpa  = $('minEpaFilter').value.trim();
+      const source  = $('sourceSelect').value;
+
+      if (!q && !week && !season && !minEpa) {
+        setStatus('Enter a search term or filter to begin.', 'warn');
+        return;
+      }
+
+      show($('loadingSpinner'));
+      hide($('statusBar'));
+
+      const t0 = performance.now();
+
+      try {
+        let results;
+        if (source === 'live') {
+          results = await searchLive(q, team, week, season, minEpa);
+        } else {
+          if (!dataLoaded) {
+            setStatus('Pre-computed data not yet loaded. Switching to Live API…', 'warn');
+            results = await searchLive(q, team, week, season, minEpa);
+          } else {
+            results = searchLocal(q, team, week, season, minEpa);
+          }
+        }
+
+        const elapsed = Math.round(performance.now() - t0);
+        setStatus(
+          `${results.length} result${results.length !== 1 ? 's' : ''} (${elapsed} ms)`,
+          'success'
+        );
+        renderResults(results);
+      } catch (err) {
+        setStatus(`Search error: ${err.message}`, 'error');
+        console.error(err);
+      } finally {
+        hide($('loadingSpinner'));
+      }
+    }
+
+    // -------------------------------------------------------------------------
+    // Event listeners
+    // -------------------------------------------------------------------------
+    $('searchBtn').addEventListener('click', doSearch);
+
+    $('searchBox').addEventListener('keydown', e => {
+      if (e.key === 'Enter') doSearch();
+    });
+
+    $('clearBtn').addEventListener('click', () => {
+      $('searchBox').value = '';
+      $('weekFilter').value = '';
+      $('seasonFilter').value = '';
+      $('minEpaFilter').value = '';
+      hide($('resultsTable'));
+      hide($('statusBar'));
+      show($('placeholder'));
+      $('placeholder').innerHTML =
+        '<span class="placeholder-icon">🔍</span>' +
+        '<p>Enter a team name or search term to find games.</p>' +
+        '<p class="hint">Data updates Mon / Wed / Fri via the R pipeline.</p>';
+    });
+
+    // -------------------------------------------------------------------------
+    // Init
+    // -------------------------------------------------------------------------
+    loadMeta();
+    loadLocalData();
+  </script>
+</body>
+</html>
