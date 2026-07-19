@@ -254,7 +254,7 @@ def live_games():
         return jsonify([g.to_dict() for g in games_list])
     except Exception as exc:
         log.error("CFBD live games error: %s", exc)
-        return jsonify({"error": str(exc)}), 502
+        return jsonify({"error": "Failed to retrieve live game data from CFBD API"}), 502
 
 
 @app.get("/live/stats")
@@ -287,7 +287,7 @@ def live_stats():
         return jsonify([s.to_dict() for s in stats])
     except Exception as exc:
         log.error("CFBD live stats error: %s", exc)
-        return jsonify({"error": str(exc)}), 502
+        return jsonify({"error": "Failed to retrieve live team stats from CFBD API"}), 502
 
 
 @app.get("/live/epa")
@@ -323,7 +323,7 @@ def live_epa():
         return jsonify([e.to_dict() for e in epa_data])
     except Exception as exc:
         log.error("CFBD live EPA error: %s", exc)
-        return jsonify({"error": str(exc)}), 502
+        return jsonify({"error": "Failed to retrieve live EPA data from CFBD API"}), 502
 
 
 @app.get("/meta")
