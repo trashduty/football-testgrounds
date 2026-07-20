@@ -1,3 +1,20 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Large historical data files downloaded at runtime from Google Drive
+# (do NOT commit these — they exceed GitHub's file size limit)
+data/pbp_2014_2025.RDS
+data/games_2014_2025.RDS
+data/CFB_GAMEDATA_2026_WEEK1.csv
+data/*.RDS
+data/*.rds
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# Local env / secrets
+.env
+.env.*

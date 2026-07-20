@@ -5,3 +5,8 @@ requests
 pillow
 pyarrow
 beautifulsoup4
+# CFB API + Flask search server
+flask
+flask-cors
+cfbd
+gunicorn
