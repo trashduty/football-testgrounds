@@ -19,29 +19,11 @@ jobs:
           r-version: '4.3'
           use-public-rspm: true
 
-      - name: Cache R packages
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-R-cfb-pipeline-v1
-          restore-keys: |
-            ${{ runner.os }}-R-cfb-pipeline-
-
-      - name: Install R dependencies
-        shell: Rscript {0}
-        run: |
-          pkgs <- c(
-            "tidyverse", "cfbfastR", "jsonlite", "lubridate",
-            "zoo", "data.table", "httr", "janitor", "stringr"
-          )
-          install.packages(pkgs[!pkgs %in% installed.packages()[,"Package"]],
-                           repos = "https://cloud.r-project.org/")
+      - name: Create directories
+        run: mkdir -p data output docs/data
 
       - name: Install gdown for Google Drive downloads
         run: pip install gdown
-
-      - name: Create directories
-        run: mkdir -p data output docs/data
 
       - name: Download historical data from Google Drive
         env:
@@ -60,6 +42,16 @@ jobs:
           
           echo "Verifying downloads..."
           ls -lh data/
+
+      - name: Install R dependencies
+        run: |
+          # Install dependencies first
+          install.packages(c(
+            "remotes", "tidyverse", "cfbfastR", "jsonlite", "lubridate",
+            "zoo", "data.table", "janitor", "stringr", "rvest", "stringdist",
+            "foreach", "doParallel", "future", "furrr", "readxl"
+          ), repos = "https://cloud.r-project.org/", dependencies = TRUE)
+        shell: Rscript {0}
 
       - name: Run CFB pipeline
         env:
