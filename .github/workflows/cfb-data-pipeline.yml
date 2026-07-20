@@ -19,6 +19,44 @@ jobs:
           r-version: '4.3'
           use-public-rspm: true
 
+      - name: Install Linux system libs for R packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libfreetype6-dev \
+            libpng-dev \
+            libtiff5-dev \
+            libjpeg-dev \
+            libcairo2-dev \
+            libfontconfig1-dev \
+            libgit2-dev
+
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::tidyverse
+            any::cfbfastR
+            any::jsonlite
+            any::lubridate
+            any::zoo
+            any::data.table
+            any::janitor
+            any::stringr
+            any::rvest
+            any::stringdist
+            any::foreach
+            any::doParallel
+            any::future
+            any::furrr
+            any::readxl
+          cache: true
+
       - name: Cache downloaded data files
         uses: actions/cache@v4
         with:
@@ -69,25 +107,6 @@ jobs:
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
         run: |
-          # Install packages inside R to ensure correct library path
-          Rscript -e "
-          # Install packages if needed
-          required_pkgs <- c(
-            'tidyverse', 'cfbfastR', 'jsonlite', 'lubridate',
-            'zoo', 'data.table', 'janitor', 'stringr', 'rvest', 'stringdist',
-            'foreach', 'doParallel', 'future', 'furrr', 'readxl'
-          )
-          
-          missing_pkgs <- required_pkgs[!required_pkgs %in% installed.packages()[,'Package']]
-          if (length(missing_pkgs) > 0) {
-            cat('Installing missing packages:', paste(missing_pkgs, collapse=', '), '\n')
-            install.packages(missing_pkgs, repos='https://cloud.r-project.org/', dependencies=TRUE)
-          } else {
-            cat('All packages already installed\n')
-          }
-          "
-          
-          # Now run the pipeline
           Rscript scripts/cfb_data_pipeline.R
 
       - name: Commit outputs
