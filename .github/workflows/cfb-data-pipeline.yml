@@ -19,44 +19,76 @@ jobs:
           r-version: '4.3'
           use-public-rspm: true
 
+      - name: Cache downloaded data files
+        uses: actions/cache@v4
+        with:
+          path: data/*.RDS
+          key: cfb-data-files-${{ hashFiles('**/cfb-data-pipeline.yml') }}
+          restore-keys: |
+            cfb-data-files-
+
       - name: Create directories
         run: mkdir -p data output docs/data
 
       - name: Install gdown for Google Drive downloads
         run: pip install gdown
 
-      - name: Download historical data from Google Drive
+      - name: Download historical data from Google Drive (if not cached)
         env:
           GDRIVE_PBP_ID: ${{ secrets.GDRIVE_PBP_ID }}
           GDRIVE_GAMES_ID: ${{ secrets.GDRIVE_GAMES_ID }}
           GDRIVE_GAMEDATA_ID: ${{ secrets.GDRIVE_GAMEDATA_ID }}
         run: |
-          echo "Downloading PBP data..."
-          gdown "https://drive.google.com/uc?id=${GDRIVE_PBP_ID}" -O data/pbp_2014_2025.RDS
+          echo "Checking for cached files..."
           
-          echo "Downloading Games data..."
-          gdown "https://drive.google.com/uc?id=${GDRIVE_GAMES_ID}" -O data/games_2014_2025.RDS
+          if [ ! -f "data/pbp_2014_2025.RDS" ]; then
+            echo "Downloading PBP data..."
+            gdown "https://drive.google.com/uc?id=${GDRIVE_PBP_ID}" -O data/pbp_2014_2025.RDS
+          else
+            echo "PBP data found in cache, skipping download"
+          fi
           
-          echo "Downloading Historical Master..."
-          gdown "https://drive.google.com/uc?id=${GDRIVE_GAMEDATA_ID}" -O data/CFB_GAMEDATA_2026_WEEK1.csv
+          if [ ! -f "data/games_2014_2025.RDS" ]; then
+            echo "Downloading Games data..."
+            gdown "https://drive.google.com/uc?id=${GDRIVE_GAMES_ID}" -O data/games_2014_2025.RDS
+          else
+            echo "Games data found in cache, skipping download"
+          fi
+          
+          if [ ! -f "data/CFB_GAMEDATA_2026_WEEK1.csv" ]; then
+            echo "Downloading Historical Master..."
+            gdown "https://drive.google.com/uc?id=${GDRIVE_GAMEDATA_ID}" -O data/CFB_GAMEDATA_2026_WEEK1.csv
+          else
+            echo "Historical Master found in cache, skipping download"
+          fi
           
           echo "Verifying downloads..."
           ls -lh data/
 
-      - name: Install R dependencies
-        run: |
-          # Install dependencies first
-          install.packages(c(
-            "remotes", "tidyverse", "cfbfastR", "jsonlite", "lubridate",
-            "zoo", "data.table", "janitor", "stringr", "rvest", "stringdist",
-            "foreach", "doParallel", "future", "furrr", "readxl"
-          ), repos = "https://cloud.r-project.org/", dependencies = TRUE)
-        shell: Rscript {0}
-
       - name: Run CFB pipeline
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
-        run: Rscript scripts/cfb_data_pipeline.R
+        run: |
+          # Install packages inside R to ensure correct library path
+          Rscript -e "
+          # Install packages if needed
+          required_pkgs <- c(
+            'tidyverse', 'cfbfastR', 'jsonlite', 'lubridate',
+            'zoo', 'data.table', 'janitor', 'stringr', 'rvest', 'stringdist',
+            'foreach', 'doParallel', 'future', 'furrr', 'readxl'
+          )
+          
+          missing_pkgs <- required_pkgs[!required_pkgs %in% installed.packages()[,'Package']]
+          if (length(missing_pkgs) > 0) {
+            cat('Installing missing packages:', paste(missing_pkgs, collapse=', '), '\n')
+            install.packages(missing_pkgs, repos='https://cloud.r-project.org/', dependencies=TRUE)
+          } else {
+            cat('All packages already installed\n')
+          }
+          "
+          
+          # Now run the pipeline
+          Rscript scripts/cfb_data_pipeline.R
 
       - name: Commit outputs
         run: |
