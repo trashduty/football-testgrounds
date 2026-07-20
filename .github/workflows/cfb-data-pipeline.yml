@@ -49,9 +49,17 @@ jobs:
           GDRIVE_GAMES_ID: ${{ secrets.GDRIVE_GAMES_ID }}
           GDRIVE_GAMEDATA_ID: ${{ secrets.GDRIVE_GAMEDATA_ID }}
         run: |
-          gdown --fuzzy "https://drive.google.com/uc?id=${GDRIVE_PBP_ID}" -O data/pbp_2014_2025.RDS
-          gdown --fuzzy "https://drive.google.com/uc?id=${GDRIVE_GAMES_ID}" -O data/games_2014_2025.RDS
-          gdown --fuzzy "https://drive.google.com/uc?id=${GDRIVE_GAMEDATA_ID}" -O data/CFB_GAMEDATA_2026_WEEK1.csv
+          echo "Downloading PBP data..."
+          gdown "https://drive.google.com/uc?id=${GDRIVE_PBP_ID}" -O data/pbp_2014_2025.RDS
+          
+          echo "Downloading Games data..."
+          gdown "https://drive.google.com/uc?id=${GDRIVE_GAMES_ID}" -O data/games_2014_2025.RDS
+          
+          echo "Downloading Historical Master..."
+          gdown "https://drive.google.com/uc?id=${GDRIVE_GAMEDATA_ID}" -O data/CFB_GAMEDATA_2026_WEEK1.csv
+          
+          echo "Verifying downloads..."
+          ls -lh data/
 
       - name: Run CFB pipeline
         env:
