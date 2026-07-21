@@ -131,10 +131,12 @@ jobs:
           echo "PBP bytes:   $PBP_BYTES"
           echo "Games bytes: $GAMES_BYTES"
 
-          # The expected PBP file is approximately 4.2 GB. This catches an HTML
-          # error page, incomplete download, or Drive quota response.
-          if [ "$PBP_BYTES" -lt 3500000000 ]; then
-            echo "PBP download is unexpectedly smaller than 3.5 GB."
+          # The downloaded .RDS is compressed. Although the loaded R object may
+          # occupy about 4.2 GB in memory, the file stored in Google Drive is
+          # approximately 881 MB. This threshold catches HTML error pages or
+          # obviously incomplete downloads without rejecting the valid RDS.
+          if [ "$PBP_BYTES" -lt 500000000 ]; then
+            echo "PBP download is unexpectedly smaller than 500 MB."
             exit 1
           fi
 
