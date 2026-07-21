@@ -1,12 +1,13 @@
-pandas
+pandas>=2.2,<3.0
 nfl_data_py
 matplotlib
-requests
+requests>=2.32,<3.0
 pillow
-pyarrow
+pyarrow>=16,<22
 beautifulsoup4
 # CFB API + Flask search server
 flask
 flask-cors
 cfbd
 gunicorn
+numpy>=1.26,<3.0
