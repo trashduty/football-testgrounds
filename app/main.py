@@ -3,6 +3,7 @@ from pathlib import Path
 import duckdb
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
 
 from app.database import (
     RANKINGS_FILE,
@@ -18,7 +19,13 @@ app = FastAPI(
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 INDEX_FILE = BASE_DIR / "app" / "templates" / "index.html"
+STATIC_DIR = BASE_DIR / "app" / "static"
 
+app.mount(
+    "/static",
+    StaticFiles(directory=STATIC_DIR),
+    name="static",
+)
 
 def get_available_teams() -> list[str]:
     if not RANKINGS_FILE.exists():
