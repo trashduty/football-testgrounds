@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-21T05:11:43Z",
+  "season": 2026,
+  "current_week": 0,
+  "talent_year_used": 2025,
+  "total_games": 26471,
+  "columns": ["game_id", "season", "week", "season_type", "home_team", "away_team", "home_conference", "away_conference", "home_points", "away_points", "result", "point_diff", "total_points", "start_date", "neutral_site", "conference_game", "venue", "home_talent", "away_talent", "home_talent_year", "away_talent_year", "home_prior_rolling_epa", "away_prior_rolling_epa", "provider", "spread", "spread_open", "over_under", "over_under_open", "formatted_spread", "home_moneyline", "away_moneyline"]
+}
