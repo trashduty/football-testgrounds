@@ -1,0 +1,197 @@
+name: Build Historical CFB Database
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: build-historical-cfb-database
+  cancel-in-progress: false
+
+jobs:
+  build-historical-database:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    permissions:
+      contents: write
+
+    env:
+      TZ: America/Phoenix
+      PBP_RDS_PATH: data/downloads/pbp_2014_2025.RDS
+      GAMES_RDS_PATH: data/downloads/games_2014_2025.RDS
+      OUTPUT_DIR: data/processed
+      MIN_SEASON: "2014"
+      MAX_SEASON: "2025"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Show runner disk space
+        run: df -h
+
+      - name: Set up Python for Google Drive downloads
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install gdown
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install gdown
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.3.3"
+          use-public-rspm: true
+
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::data.table
+            any::arrow
+            any::jsonlite
+          cache: true
+
+      - name: Create working directories
+        run: |
+          mkdir -p data/downloads
+          mkdir -p data/processed
+          mkdir -p scripts
+
+      - name: Verify required secrets
+        env:
+          GDRIVE_PBP_ID: ${{ secrets.GDRIVE_PBP_ID }}
+          GDRIVE_GAMES_ID: ${{ secrets.GDRIVE_GAMES_ID }}
+        run: |
+          if [ -z "$GDRIVE_PBP_ID" ]; then
+            echo "GDRIVE_PBP_ID secret is missing."
+            exit 1
+          fi
+
+          if [ -z "$GDRIVE_GAMES_ID" ]; then
+            echo "GDRIVE_GAMES_ID secret is missing."
+            exit 1
+          fi
+
+      - name: Download historical RDS files from Google Drive
+        env:
+          GDRIVE_PBP_ID: ${{ secrets.GDRIVE_PBP_ID }}
+          GDRIVE_GAMES_ID: ${{ secrets.GDRIVE_GAMES_ID }}
+        run: |
+          set -euo pipefail
+
+          download_with_retry() {
+            local file_id="$1"
+            local output_path="$2"
+            local label="$3"
+
+            for attempt in 1 2 3; do
+              echo "Downloading ${label}; attempt ${attempt} of 3 ..."
+              rm -f "${output_path}"
+
+              if gdown --fuzzy \
+                "https://drive.google.com/uc?id=${file_id}" \
+                --output "${output_path}"; then
+                echo "Downloaded ${label}."
+                return 0
+              fi
+
+              sleep $((attempt * 15))
+            done
+
+            echo "Failed to download ${label} after 3 attempts."
+            return 1
+          }
+
+          download_with_retry \
+            "$GDRIVE_PBP_ID" \
+            "$PBP_RDS_PATH" \
+            "historical PBP RDS"
+
+          download_with_retry \
+            "$GDRIVE_GAMES_ID" \
+            "$GAMES_RDS_PATH" \
+            "historical games RDS"
+
+          ls -lh data/downloads/
+
+      - name: Validate downloaded files
+        run: |
+          set -euo pipefail
+
+          test -f "$PBP_RDS_PATH"
+          test -f "$GAMES_RDS_PATH"
+
+          PBP_BYTES=$(stat -c%s "$PBP_RDS_PATH")
+          GAMES_BYTES=$(stat -c%s "$GAMES_RDS_PATH")
+
+          echo "PBP bytes:   $PBP_BYTES"
+          echo "Games bytes: $GAMES_BYTES"
+
+          # The expected PBP file is approximately 4.2 GB. This catches an HTML
+          # error page, incomplete download, or Drive quota response.
+          if [ "$PBP_BYTES" -lt 3500000000 ]; then
+            echo "PBP download is unexpectedly smaller than 3.5 GB."
+            exit 1
+          fi
+
+          if [ "$GAMES_BYTES" -lt 100000 ]; then
+            echo "Games download is unexpectedly smaller than 100 KB."
+            exit 1
+          fi
+
+          df -h
+
+      - name: Build historical statistics database
+        run: |
+          Rscript scripts/build_historical_stats.R
+
+      - name: Validate generated outputs
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            "data/processed/historical_team_game_stats.parquet"
+            "data/processed/historical_team_season_stats.parquet"
+            "data/processed/historical_league_season_stats.parquet"
+            "data/processed/historical_team_rankings.parquet"
+            "data/processed/historical_data_metadata.json"
+          )
+
+          for file in "${required_files[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "Missing or empty output: $file"
+              exit 1
+            fi
+          done
+
+          echo "Generated files:"
+          ls -lh data/processed/
+
+      - name: Remove downloaded source files
+        if: always()
+        run: |
+          rm -f "$PBP_RDS_PATH" "$GAMES_RDS_PATH"
+          rmdir data/downloads 2>/dev/null || true
+          df -h
+
+      - name: Commit processed historical database
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/processed/
+
+          if git diff --cached --quiet; then
+            echo "No processed data changes to commit."
+          else
+            git commit -m "Build historical CFB statistics database"
+            git push
+          fi
