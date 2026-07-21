@@ -1,0 +1,120 @@
+name: Update Current CFB Season
+
+on:
+  workflow_dispatch:
+  # Enable the schedule when you want automatic in-season updates.
+  # This runs daily at 4:17 AM Arizona time during standard time.
+  # schedule:
+  #   - cron: "17 11 * * *"
+
+concurrency:
+  group: update-current-cfb-season
+  cancel-in-progress: false
+
+jobs:
+  update-current-season:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    permissions:
+      contents: write
+
+    env:
+      TZ: America/Phoenix
+      CURRENT_SEASON: "2026"
+      PROCESSED_DIR: data/processed
+      CURRENT_DIR: data/current
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Verify required files and secret
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$CFBD_API_KEY" ]; then
+            echo "CFBD_API_KEY secret is missing."
+            exit 1
+          fi
+
+          required_files=(
+            "scripts/update_current_season.py"
+            "data/processed/historical_team_game_stats.parquet"
+            "data/processed/historical_team_season_stats.parquet"
+            "data/processed/historical_league_season_stats.parquet"
+            "data/processed/historical_team_rankings.parquet"
+          )
+
+          for file in "${required_files[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "Missing or empty required file: $file"
+              exit 1
+            fi
+          done
+
+      - name: Update current-season statistics
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          python scripts/update_current_season.py
+
+      - name: Validate generated query files
+        run: |
+          set -euo pipefail
+
+          required_outputs=(
+            "data/processed/combined_team_game_stats.parquet"
+            "data/processed/combined_team_season_stats.parquet"
+            "data/processed/combined_league_season_stats.parquet"
+            "data/processed/combined_team_rankings.parquet"
+            "data/processed/current_update_metadata.json"
+          )
+
+          for file in "${required_outputs[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "Missing or empty output: $file"
+              exit 1
+            fi
+          done
+
+          echo "Processed outputs:"
+          ls -lh data/processed/
+
+          if [ -d data/current ]; then
+            echo "Current-season weekly files:"
+            ls -lh data/current/ || true
+          fi
+
+      - name: Commit updated statistics database
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/current/ data/processed/
+
+          if git diff --cached --quiet; then
+            echo "No current-season data changes to commit."
+          else
+            git commit -m "Update 2026 CFB statistics database $(date +%Y-%m-%d)"
+            git push
+          fi
