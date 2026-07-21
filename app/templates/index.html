@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>CFB Statistics Query</title>
+
+  <meta
+    name="description"
+    content="Search historical and current college football team statistics, including EPA, success rate, league averages, and national rankings."
+  >
+
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">College Football Analytics</p>
+
+        <h1>CFB Statistics Query</h1>
+
+        <p class="hero-description">
+          Ask a question about a team's EPA, success rate, national rank,
+          or performance compared with the FBS average.
+        </p>
+      </div>
+
+      <div class="status-links">
+        <a href="/health" target="_blank" rel="noopener noreferrer">
+          System status
+        </a>
+
+        <a href="/docs" target="_blank" rel="noopener noreferrer">
+          API documentation
+        </a>
+      </div>
+    </section>
+
+    <section class="search-panel" aria-labelledby="search-heading">
+      <h2 id="search-heading">Search team statistics</h2>
+
+      <form id="search-form">
+        <label for="search-input">
+          Ask a college football statistics question
+        </label>
+
+        <div class="search-row">
+          <input
+            id="search-input"
+            name="query"
+            type="search"
+            placeholder="What is Alabama's EPA/rush and how does that rank against the league average?"
+            autocomplete="off"
+            spellcheck="false"
+            required
+          >
+
+          <button id="search-button" type="submit">
+            Search
+          </button>
+        </div>
+      </form>
+
+      <div class="examples" aria-label="Example searches">
+        <p>Try an example:</p>
+
+        <div class="example-buttons">
+          <button
+            class="example-button"
+            type="button"
+            data-query="What is Alabama's EPA/rush and how does that rank against the league average?"
+          >
+            Alabama EPA/rush
+          </button>
+
+          <button
+            class="example-button"
+            type="button"
+            data-query="What was Arizona's rush success rate in 2024?"
+          >
+            Arizona rush success rate
+          </button>
+
+          <button
+            class="example-button"
+            type="button"
+            data-query="How does Georgia rank in EPA per pass?"
+          >
+            Georgia passing EPA
+          </button>
+
+          <button
+            class="example-button"
+            type="button"
+            data-query="What is Ohio State's EPA per play?"
+          >
+            Ohio State EPA/play
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="loading-message"
+        class="loading-message hidden"
+        role="status"
+        aria-live="polite"
+      >
+        Searching the statistics database…
+      </div>
+
+      <div
+        id="error-message"
+        class="error-message hidden"
+        role="alert"
+      ></div>
+    </section>
+
+    <section
+      id="results-section"
+      class="results-section hidden"
+      aria-labelledby="results-heading"
+    >
+      <div class="result-heading-row">
+        <div>
+          <p class="eyebrow">Search result</p>
+          <h2 id="results-heading">Team performance</h2>
+        </div>
+
+        <span id="result-season" class="season-badge"></span>
+      </div>
+
+      <p id="answer-text" class="answer-text"></p>
+
+      <div class="metric-grid">
+        <article class="metric-card">
+          <span class="metric-label">Team value</span>
+          <strong id="team-value" class="metric-value">—</strong>
+          <span id="metric-name" class="metric-detail"></span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-label">FBS rank</span>
+          <strong id="team-rank" class="metric-value">—</strong>
+          <span id="teams-ranked" class="metric-detail"></span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-label">FBS average</span>
+          <strong id="league-average" class="metric-value">—</strong>
+          <span class="metric-detail">Play-weighted average</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-label">Difference</span>
+          <strong id="difference-value" class="metric-value">—</strong>
+          <span class="metric-detail">Compared with FBS average</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-label">Percentile</span>
+          <strong id="percentile-value" class="metric-value">—</strong>
+          <span class="metric-detail">Among ranked FBS teams</span>
+        </article>
+
+        <article class="metric-card">
+          <span class="metric-label">Sample size</span>
+          <strong id="sample-size" class="metric-value">—</strong>
+          <span class="metric-detail">Qualifying plays</span>
+        </article>
+      </div>
+
+      <details class="technical-details">
+        <summary>View parsed query and raw response</summary>
+
+        <pre id="raw-response"></pre>
+      </details>
+    </section>
+
+    <footer>
+      <p>
+        Historical statistics are derived from play-by-play data.
+        Current-season results update as new CFBD data becomes available.
+      </p>
+    </footer>
+  </main>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
