@@ -94,9 +94,7 @@ jobs:
               echo "Downloading ${label}; attempt ${attempt} of 3 ..."
               rm -f "${output_path}"
 
-              if gdown --fuzzy \
-                "https://drive.google.com/uc?id=${file_id}" \
-                --output "${output_path}"; then
+              if gdown "${file_id}" --output "${output_path}"; then
                 echo "Downloaded ${label}."
                 return 0
               fi
