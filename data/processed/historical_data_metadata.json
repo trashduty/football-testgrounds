@@ -1,0 +1,49 @@
+{
+  "generated_at_utc": "2026-07-21T06:34:42Z",
+  "min_season": 2014,
+  "max_season": 2025,
+  "definitions": {
+    "play_universe": "Plays with non-missing EPA, an identified offense and defense, no accepted no-play flag, and either a rush or pass indicator.",
+    "pass_definition": "Pass flag, pass-attempt flag, or sack flag when available.",
+    "epa_per_rush": "Total EPA on qualifying rush plays divided by qualifying rush plays.",
+    "league_average": "Play-weighted FBS average, not an unweighted average of team averages.",
+    "offensive_ranking": "Higher is better.",
+    "defensive_epa_allowed_ranking": "Lower is better.",
+    "minimum_samples": {
+      "off_epa_per_play": 100,
+      "off_epa_per_rush": 50,
+      "off_epa_per_pass": 50,
+      "off_success_rate": 100,
+      "off_rush_success_rate": 50,
+      "off_pass_success_rate": 50,
+      "def_epa_allowed_per_play": 100,
+      "def_epa_allowed_per_rush": 50,
+      "def_epa_allowed_per_pass": 50,
+      "def_success_rate_allowed": 100,
+      "def_rush_success_rate_allowed": 50,
+      "def_pass_success_rate_allowed": 50
+    }
+  },
+  "source_columns": {
+    "epa": "epa",
+    "offense_team": "pos_team",
+    "defense_team": "def_pos_team",
+    "pass": "pass",
+    "rush": "rush",
+    "sack": "sack",
+    "success": "success",
+    "no_play": "penalty_no_play"
+  },
+  "row_counts": {
+    "team_game": 25010,
+    "team_season": 2811,
+    "league_season": 12,
+    "team_rankings": 18780
+  },
+  "files": {
+    "team_game": "historical_team_game_stats.parquet",
+    "team_season": "historical_team_season_stats.parquet",
+    "league_season": "historical_league_season_stats.parquet",
+    "team_rankings": "historical_team_rankings.parquet"
+  }
+}
