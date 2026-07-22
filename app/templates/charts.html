@@ -1,1 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Internal college football situational analytics dashboard."
+  >
+
+  <title>CFB Analytics Dashboard</title>
+
+  <link
+    rel="stylesheet"
+    href="/static/charts.css"
+  >
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div>
+        <p class="eyebrow">
+          BTB Analytics
+        </p>
+
+        <h1>
+          CFB Analytics Dashboard
+        </h1>
+
+        <p class="header-description">
+          Generate filtered college football team-tier
+          graphics from historical play-by-play data.
+        </p>
+      </div>
+
+      <nav class="header-nav" aria-label="Primary navigation">
+        <a href="/">
+          Stat Search
+        </a>
+
+        <a
+          href="/charts"
+          aria-current="page"
+        >
+          Charts
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="dashboard-shell">
+    <aside class="filter-panel">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">
+            Chart settings
+          </p>
+
+          <h2>
+            Filters
+          </h2>
+        </div>
+
+        <button
+          id="reset-filters"
+          class="text-button"
+          type="button"
+        >
+          Reset
+        </button>
+      </div>
+
+      <form id="chart-filter-form">
+        <section class="filter-section">
+          <h3>
+            Season and weeks
+          </h3>
+
+          <div class="form-grid">
+            <label class="form-field">
+              <span>
+                Season
+              </span>
+
+              <select
+                id="season"
+                name="season"
+                required
+              >
+                <option value="">
+                  Loading…
+                </option>
+              </select>
+            </label>
+
+            <label class="form-field">
+              <span>
+                Starting week
+              </span>
+
+              <input
+                id="week-start"
+                name="week_start"
+                type="number"
+                min="0"
+                max="30"
+                value="1"
+                required
+              >
+            </label>
+
+            <label class="form-field">
+              <span>
+                Ending week
+              </span>
+
+              <input
+                id="week-end"
+                name="week_end"
+                type="number"
+                min="0"
+                max="30"
+                value="20"
+                required
+              >
+            </label>
+
+            <label class="form-field">
+              <span>
+                Conference
+              </span>
+
+              <select
+                id="conference"
+                name="conference"
+              >
+                <option value="">
+                  All conferences
+                </option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="filter-section">
+          <h3>
+            Play type
+          </h3>
+
+          <div
+            class="segmented-control"
+            role="radiogroup"
+            aria-label="Play type"
+          >
+            <label>
+              <input
+                type="radio"
+                name="play_type"
+                value="all"
+                checked
+              >
+
+              <span>
+                All plays
+              </span>
+            </label>
+
+            <label>
+              <input
+                type="radio"
+                name="play_type"
+                value="rush"
+              >
+
+              <span>
+                Rush
+              </span>
+            </label>
+
+            <label>
+              <input
+                type="radio"
+                name="play_type"
+                value="pass"
+              >
+
+              <span>
+                Pass
+              </span>
+            </label>
+          </div>
+        </section>
+
+        <section class="filter-section">
+          <h3>
+            Downs
+          </h3>
+
+          <div class="checkbox-grid">
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="downs"
+                value="1"
+                checked
+              >
+
+              <span>
+                1st down
+              </span>
+            </label>
+
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="downs"
+                value="2"
+                checked
+              >
+
+              <span>
+                2nd down
+              </span>
+            </label>
+
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="downs"
+                value="3"
+                checked
+              >
+
+              <span>
+                3rd down
+              </span>
+            </label>
+
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="downs"
+                value="4"
+                checked
+              >
+
+              <span>
+                4th down
+              </span>
+            </label>
+          </div>
+        </section>
+
+        <section class="filter-section">
+          <h3>
+            Quarters
+          </h3>
+
+          <div class="checkbox-grid checkbox-grid-five">
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="periods"
+                value="1"
+                checked
+              >
+
+              <span>
+                Q1
+              </span>
+            </label>
+
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="periods"
+                value="2"
+                checked
+              >
+
+              <span>
+                Q2
+              </span>
+            </label>
+
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="periods"
+                value="3"
+                checked
+              >
+
+              <span>
+                Q3
+              </span>
+            </label>
+
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="periods"
+                value="4"
+                checked
+              >
+
+              <span>
+                Q4
+              </span>
+            </label>
+
+            <label class="checkbox-card">
+              <input
+                type="checkbox"
+                name="periods"
+                value="5"
+              >
+
+              <span>
+                OT
+              </span>
+            </label>
+          </div>
+        </section>
+
+        <section class="filter-section">
+          <h3>
+            Situational filters
+          </h3>
+
+          <div class="switch-list">
+            <label class="switch-row">
+              <span>
+                <strong>
+                  Exclude garbage time
+                </strong>
+
+                <small>
+                  Excludes plays below 5% or above
+                  95% pre-play win probability.
+                </small>
+              </span>
+
+              <input
+                id="exclude-garbage-time"
+                type="checkbox"
+                name="exclude_garbage_time"
+                checked
+              >
+            </label>
+
+            <label class="switch-row">
+              <span>
+                <strong>
+                  Red zone only
+                </strong>
+
+                <small>
+                  Limit results to plays inside the
+                  opponent's 20-yard line.
+                </small>
+              </span>
+
+              <input
+                id="red-zone-only"
+                type="checkbox"
+                name="red_zone_only"
+              >
+            </label>
+
+            <label class="switch-row">
+              <span>
+                <strong>
+                  Goal-to-go only
+                </strong>
+
+                <small>
+                  Limit results to goal-to-go situations.
+                </small>
+              </span>
+
+              <input
+                id="goal-to-go-only"
+                type="checkbox"
+                name="goal_to_go_only"
+              >
+            </label>
+          </div>
+        </section>
+
+        <section class="filter-section">
+          <h3>
+            Sample requirement
+          </h3>
+
+          <label class="form-field">
+            <span>
+              Minimum plays per unit
+            </span>
+
+            <input
+              id="minimum-plays"
+              name="minimum_plays"
+              type="number"
+              min="1"
+              max="5000"
+              step="1"
+              value="100"
+              required
+            >
+
+            <small>
+              Teams must have at least this many offensive
+              and defensive qualifying plays.
+            </small>
+          </label>
+        </section>
+
+        <div class="form-actions">
+          <button
+            id="generate-chart"
+            class="primary-button"
+            type="submit"
+          >
+            Generate chart
+          </button>
+
+          <button
+            id="download-chart"
+            class="secondary-button"
+            type="button"
+            disabled
+          >
+            Download PNG
+          </button>
+        </div>
+      </form>
+    </aside>
+
+    <section class="chart-workspace">
+      <div class="chart-toolbar">
+        <div>
+          <p class="eyebrow">
+            Team tiers
+          </p>
+
+          <h2>
+            Offensive vs. defensive EPA
+          </h2>
+
+          <p id="chart-summary">
+            Select filters and generate the chart.
+          </p>
+        </div>
+
+        <div
+          id="chart-status"
+          class="status-badge"
+          role="status"
+          aria-live="polite"
+        >
+          Ready
+        </div>
+      </div>
+
+      <div
+        id="error-message"
+        class="error-message"
+        role="alert"
+        hidden
+      ></div>
+
+      <div class="chart-frame">
+        <div
+          id="chart-placeholder"
+          class="chart-placeholder"
+        >
+          <div class="placeholder-icon">
+            ↗
+          </div>
+
+          <h3>
+            Generate a Team Tiers graphic
+          </h3>
+
+          <p>
+            The server will calculate the selected filters
+            and return a downloadable PNG using team logos.
+          </p>
+        </div>
+
+        <div
+          id="chart-loading"
+          class="chart-loading"
+          hidden
+        >
+          <div class="spinner"></div>
+
+          <p>
+            Querying play-by-play data and rendering logos…
+          </p>
+        </div>
+
+        <img
+          id="chart-image"
+          alt="Filtered CFB Team Tiers chart"
+          hidden
+        >
+      </div>
+
+      <div class="chart-note">
+        <strong>
+          Reading the chart:
+        </strong>
+
+        Better offenses appear farther right. Because lower
+        defensive EPA allowed is better, stronger defenses
+        appear higher.
+      </div>
+    </section>
+  </main>
+
+  <script
+    src="/static/charts.js"
+    defer
+  ></script>
+</body>
+</html>
