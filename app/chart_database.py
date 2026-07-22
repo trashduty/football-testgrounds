@@ -130,6 +130,32 @@ def get_available_chart_seasons() -> list[int]:
 
     return [int(row[0]) for row in rows]
 
+def get_available_chart_teams() -> list[str]:
+    """Return all teams available in the situational dataset."""
+
+    if not SITUATIONAL_FILE.exists():
+        return []
+
+    connection = duckdb.connect(database=":memory:")
+
+    try:
+        rows = connection.execute(
+            """
+            SELECT DISTINCT trim(team) AS team
+            FROM read_parquet(?)
+            WHERE team IS NOT NULL
+              AND trim(team) <> ''
+            ORDER BY team
+            """,
+            [str(SITUATIONAL_FILE)],
+        ).fetchall()
+    finally:
+        connection.close()
+
+    return [
+        str(row[0])
+        for row in rows
+    ]
 
 def get_available_conferences(
     season: int | None = None,
