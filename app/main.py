@@ -13,6 +13,7 @@ from app.chart_database import (
     SITUATIONAL_FILE,
     dataframe_to_records,
     get_available_chart_seasons,
+    get_available_chart_teams,
     get_available_conferences,
     get_situational_metadata,
     get_team_tiers_data,
@@ -21,17 +22,20 @@ from app.charts import (
     TeamTiersChartOptions,
     render_team_tiers_image,
 )
-from app.database import RANKINGS_FILE, get_team_metric
+from app.database import (
+    RANKINGS_FILE,
+    get_team_metric,
+)
 from app.query_parser import parse_query
 
 
-# ==============================================================================
+# =============================================================================
 # Application configuration
-# ==============================================================================
+# =============================================================================
 
 app = FastAPI(
     title="CFB Statistics Query",
-    version="1.3.0",
+    version="1.4.0",
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -76,12 +80,27 @@ app.mount(
 )
 
 
-# ==============================================================================
-# Shared data helpers
-# ==============================================================================
+SUPPORTED_CHART_METRICS = {
+    "epa",
+    "success_rate",
+    "yards_per_play",
+    "explosive_rate",
+}
+
+SUPPORTED_LOGO_SIZES = {
+    "auto",
+    "standard",
+    "large",
+    "extra_large",
+}
+
+
+# =============================================================================
+# General data helpers
+# =============================================================================
 
 def get_available_teams() -> list[str]:
-    """Return every team available in the rankings dataset."""
+    """Return teams available in the rankings dataset."""
 
     if not RANKINGS_FILE.exists():
         return []
@@ -91,7 +110,7 @@ def get_available_teams() -> list[str]:
     try:
         rows = connection.execute(
             """
-            SELECT DISTINCT team
+            SELECT DISTINCT trim(team) AS team
             FROM read_parquet(?)
             WHERE team IS NOT NULL
               AND trim(team) <> ''
@@ -109,7 +128,7 @@ def get_available_teams() -> list[str]:
 
 
 def get_latest_season() -> int:
-    """Return the latest season available in the rankings dataset."""
+    """Return the latest season in the rankings dataset."""
 
     if not RANKINGS_FILE.exists():
         return 2025
@@ -134,7 +153,7 @@ def get_latest_season() -> int:
 
 
 def get_logo_metadata() -> dict[str, Any]:
-    """Return metadata about downloaded team logos."""
+    """Return metadata for local team-logo assets."""
 
     png_count = 0
 
@@ -157,16 +176,9 @@ def get_logo_metadata() -> dict[str, Any]:
 
             mapping_rows = len(mapping)
 
-            team_column = None
-
             if "team" in mapping.columns:
-                team_column = "team"
-            elif "cfbfastr_team" in mapping.columns:
-                team_column = "cfbfastr_team"
-
-            if team_column is not None:
                 mapped_teams = sorted(
-                    mapping[team_column]
+                    mapping["team"]
                     .dropna()
                     .astype(str)
                     .str.strip()
@@ -183,9 +195,7 @@ def get_logo_metadata() -> dict[str, Any]:
             mapped_teams = []
 
     return {
-        "logo_directory_exists": (
-            LOGO_DIRECTORY.exists()
-        ),
+        "logo_directory_exists": LOGO_DIRECTORY.exists(),
         "logo_directory": str(LOGO_DIRECTORY),
         "logo_png_count": png_count,
         "logo_map_exists": LOGO_MAP_FILE.exists(),
@@ -196,12 +206,12 @@ def get_logo_metadata() -> dict[str, Any]:
     }
 
 
-# ==============================================================================
-# Natural-language statistic helpers
-# ==============================================================================
+# =============================================================================
+# Natural-language response helpers
+# =============================================================================
 
 def humanize_metric(metric: str) -> str:
-    """Convert internal metric names to user-facing labels."""
+    """Convert an internal metric name to readable text."""
 
     labels = {
         "off_epa_per_play": "EPA per play",
@@ -243,7 +253,7 @@ def humanize_metric(metric: str) -> str:
 def format_answer(
     result: dict[str, Any],
 ) -> str:
-    """Create a readable response from a structured metric result."""
+    """Create a readable answer from a metric result."""
 
     metric = str(result["metric"])
     metric_label = humanize_metric(metric)
@@ -297,16 +307,16 @@ def format_answer(
     )
 
 
-# ==============================================================================
+# =============================================================================
 # Chart parameter helpers
-# ==============================================================================
+# =============================================================================
 
 def parse_integer_csv(
     raw_value: str,
     *,
     field_name: str,
 ) -> list[int]:
-    """Parse a comma-separated query value into integers."""
+    """Parse comma-separated integers."""
 
     try:
         values = [
@@ -332,6 +342,52 @@ def parse_integer_csv(
     return values
 
 
+def parse_team_csv(
+    raw_value: str | None,
+) -> list[str]:
+    """Parse comma-separated team names."""
+
+    if raw_value is None:
+        return []
+
+    teams = [
+        part.strip()
+        for part in raw_value.split(",")
+        if part.strip()
+    ]
+
+    # Remove duplicates while preserving order.
+    return list(dict.fromkeys(teams))
+
+
+def validate_selected_teams(
+    selected_teams: list[str],
+) -> None:
+    """Ensure selected teams exist in the FBS dataset."""
+
+    if not selected_teams:
+        return
+
+    available = set(
+        get_available_chart_teams()
+    )
+
+    unknown = [
+        team
+        for team in selected_teams
+        if team not in available
+    ]
+
+    if unknown:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "Unknown team selection: "
+                + ", ".join(unknown)
+            ),
+        )
+
+
 def build_chart_options(
     *,
     season: int,
@@ -342,7 +398,10 @@ def build_chart_options(
     periods: list[int],
     exclude_garbage_time: bool,
     minimum_plays: int,
+    metric: str,
     conference: str | None,
+    selected_teams: list[str],
+    logo_size: str,
     red_zone_only: bool,
     goal_to_go_only: bool,
     season_type: str | None,
@@ -358,16 +417,59 @@ def build_chart_options(
         periods=periods,
         exclude_garbage_time=exclude_garbage_time,
         minimum_plays=minimum_plays,
+        metric=metric,
         conference=conference,
+        selected_teams=selected_teams,
+        logo_size=logo_size,
         red_zone_only=red_zone_only,
         goal_to_go_only=goal_to_go_only,
         season_type=season_type,
     )
 
 
-# ==============================================================================
+def filter_display_dataframe(
+    benchmark_dataframe: pd.DataFrame,
+    *,
+    conference: str | None,
+    selected_teams: list[str],
+) -> pd.DataFrame:
+    """
+    Filter displayed teams while preserving the full benchmark data.
+
+    Selected teams take precedence over conference filtering so that
+    cross-conference comparisons remain possible.
+    """
+
+    display_dataframe = benchmark_dataframe.copy()
+
+    if selected_teams:
+        display_dataframe = display_dataframe[
+            display_dataframe["team"].isin(
+                selected_teams
+            )
+        ].copy()
+
+    elif conference:
+        if "conference" not in display_dataframe.columns:
+            raise HTTPException(
+                status_code=500,
+                detail=(
+                    "The chart dataset does not contain "
+                    "conference information."
+                ),
+            )
+
+        display_dataframe = display_dataframe[
+            display_dataframe["conference"]
+            == conference
+        ].copy()
+
+    return display_dataframe
+
+
+# =============================================================================
 # Page routes
-# ==============================================================================
+# =============================================================================
 
 @app.get(
     "/",
@@ -379,7 +481,9 @@ def home() -> str:
     if not INDEX_FILE.exists():
         raise HTTPException(
             status_code=404,
-            detail="The main page template was not found.",
+            detail=(
+                "The main page template was not found."
+            ),
         )
 
     return INDEX_FILE.read_text(
@@ -392,12 +496,14 @@ def home() -> str:
     response_class=HTMLResponse,
 )
 def charts_page() -> str:
-    """Serve the interactive CFB charts dashboard."""
+    """Serve the CFB charts dashboard."""
 
     if not CHARTS_INDEX_FILE.exists():
         raise HTTPException(
             status_code=404,
-            detail="The charts page template was not found.",
+            detail=(
+                "The charts page template was not found."
+            ),
         )
 
     return CHARTS_INDEX_FILE.read_text(
@@ -405,13 +511,13 @@ def charts_page() -> str:
     )
 
 
-# ==============================================================================
+# =============================================================================
 # Health and metadata routes
-# ==============================================================================
+# =============================================================================
 
 @app.get("/health")
 def health() -> dict[str, Any]:
-    """Return application and dataset health information."""
+    """Return application and dataset health."""
 
     logo_metadata = get_logo_metadata()
 
@@ -426,9 +532,16 @@ def health() -> dict[str, Any]:
         ),
         "situational_file": str(SITUATIONAL_FILE),
         "latest_season": get_latest_season(),
-        "team_count": len(get_available_teams()),
+        "team_count": len(
+            get_available_teams()
+        ),
+        "chart_team_count": len(
+            get_available_chart_teams()
+        ),
         "logo_directory_exists": (
-            logo_metadata["logo_directory_exists"]
+            logo_metadata[
+                "logo_directory_exists"
+            ]
         ),
         "logo_png_count": (
             logo_metadata["logo_png_count"]
@@ -444,14 +557,14 @@ def health() -> dict[str, Any]:
 
 @app.get("/api/logos")
 def logos() -> dict[str, Any]:
-    """Return downloaded team-logo metadata."""
+    """Return team-logo metadata."""
 
     return get_logo_metadata()
 
 
 @app.get("/api/teams")
 def teams() -> dict[str, Any]:
-    """Return teams available to the query application."""
+    """Return teams available for natural-language queries."""
 
     available_teams = get_available_teams()
 
@@ -461,9 +574,21 @@ def teams() -> dict[str, Any]:
     }
 
 
+@app.get("/api/charts/teams")
+def chart_teams() -> dict[str, Any]:
+    """Return FBS teams available for chart filtering."""
+
+    available_teams = get_available_chart_teams()
+
+    return {
+        "count": len(available_teams),
+        "teams": available_teams,
+    }
+
+
 @app.get("/api/charts/metadata")
 def chart_metadata() -> dict[str, Any]:
-    """Return chart data and available filter values."""
+    """Return chart dataset and filter metadata."""
 
     logo_metadata = get_logo_metadata()
 
@@ -471,6 +596,42 @@ def chart_metadata() -> dict[str, Any]:
         "dataset": get_situational_metadata(),
         "seasons": get_available_chart_seasons(),
         "conferences": get_available_conferences(),
+        "metrics": [
+            {
+                "value": "epa",
+                "label": "EPA per play",
+            },
+            {
+                "value": "success_rate",
+                "label": "Success rate",
+            },
+            {
+                "value": "yards_per_play",
+                "label": "Yards per play",
+            },
+            {
+                "value": "explosive_rate",
+                "label": "Explosive-play rate",
+            },
+        ],
+        "logo_sizes": [
+            {
+                "value": "auto",
+                "label": "Automatic",
+            },
+            {
+                "value": "standard",
+                "label": "Standard",
+            },
+            {
+                "value": "large",
+                "label": "Large",
+            },
+            {
+                "value": "extra_large",
+                "label": "Extra large",
+            },
+        ],
         "logos": {
             key: value
             for key, value in logo_metadata.items()
@@ -495,18 +656,30 @@ def chart_metadata() -> dict[str, Any]:
                 4,
                 5,
             ],
-            "garbage_time": True,
+            "metrics": sorted(
+                SUPPORTED_CHART_METRICS
+            ),
+            "logo_sizes": sorted(
+                SUPPORTED_LOGO_SIZES
+            ),
             "conference": True,
+            "multiple_teams": True,
+            "garbage_time": True,
             "red_zone": True,
             "goal_to_go": True,
             "season_type": True,
         },
+        "benchmark_behavior": {
+            "population": "All qualifying FBS teams",
+            "conference_affects_display_only": True,
+            "team_selection_affects_display_only": True,
+        },
     }
 
 
-# ==============================================================================
-# Natural-language query routes
-# ==============================================================================
+# =============================================================================
+# Natural-language statistic routes
+# =============================================================================
 
 @app.get("/api/team-stat")
 def team_stat(
@@ -524,7 +697,7 @@ def team_stat(
         le=2030,
     ),
 ) -> dict[str, Any]:
-    """Return one structured team-season statistic."""
+    """Return one team-season statistic."""
 
     selected_season = (
         season
@@ -571,7 +744,7 @@ def search(
         min_length=3,
     ),
 ) -> dict[str, Any]:
-    """Parse and answer a natural-language statistics question."""
+    """Parse and answer a natural-language statistic query."""
 
     available_teams = get_available_teams()
 
@@ -594,8 +767,8 @@ def search(
         raise HTTPException(
             status_code=400,
             detail=(
-                "I could not identify a team in that question. "
-                "Include the full team name."
+                "I could not identify a team in that "
+                "question. Include the full team name."
             ),
         )
 
@@ -646,9 +819,9 @@ def search(
     }
 
 
-# ==============================================================================
-# Team tiers data route
-# ==============================================================================
+# =============================================================================
+# Team Tiers JSON route
+# =============================================================================
 
 @app.get("/api/charts/team-tiers/data")
 def team_tiers_data(
@@ -670,6 +843,15 @@ def team_tiers_data(
             pattern="^(all|rush|pass)$"
         ),
     ] = "all",
+    metric: Annotated[
+        str,
+        Query(
+            pattern=(
+                "^(epa|success_rate|"
+                "yards_per_play|explosive_rate)$"
+            )
+        ),
+    ] = "epa",
     downs: str = Query(
         default="1,2,3,4"
     ),
@@ -686,6 +868,17 @@ def team_tiers_data(
     conference: str | None = Query(
         default=None
     ),
+    teams: str | None = Query(
+        default=None
+    ),
+    logo_size: Annotated[
+        str,
+        Query(
+            pattern=(
+                "^(auto|standard|large|extra_large)$"
+            )
+        ),
+    ] = "auto",
     red_zone_only: bool = Query(
         default=False
     ),
@@ -696,7 +889,11 @@ def team_tiers_data(
         default=None
     ),
 ) -> dict[str, Any]:
-    """Return team-tiers chart data as JSON."""
+    """
+    Return all-FBS benchmark data and displayed-team data.
+
+    Conference and selected-team filters affect displayed teams only.
+    """
 
     selected_downs = parse_integer_csv(
         downs,
@@ -708,8 +905,17 @@ def team_tiers_data(
         field_name="periods",
     )
 
+    selected_teams = parse_team_csv(
+        teams
+    )
+
+    validate_selected_teams(
+        selected_teams
+    )
+
     try:
-        dataframe = get_team_tiers_data(
+        # Always retain the complete all-FBS population.
+        benchmark_dataframe = get_team_tiers_data(
             season=season,
             week_start=week_start,
             week_end=week_end,
@@ -720,7 +926,7 @@ def team_tiers_data(
                 exclude_garbage_time
             ),
             minimum_plays=minimum_plays,
-            conference=conference,
+            conference=None,
             red_zone_only=red_zone_only,
             goal_to_go_only=goal_to_go_only,
             season_type=season_type,
@@ -738,17 +944,33 @@ def team_tiers_data(
             detail=str(error),
         ) from error
 
-    if dataframe.empty:
+    if benchmark_dataframe.empty:
         raise HTTPException(
             status_code=404,
             detail=(
-                "No teams met the selected chart filters "
+                "No FBS teams met the selected filters "
+                "and minimum-play requirement."
+            ),
+        )
+
+    display_dataframe = filter_display_dataframe(
+        benchmark_dataframe,
+        conference=conference,
+        selected_teams=selected_teams,
+    )
+
+    if display_dataframe.empty:
+        raise HTTPException(
+            status_code=404,
+            detail=(
+                "No displayed teams met the selected filters "
                 "and minimum-play requirement."
             ),
         )
 
     return {
         "chart": "team_tiers",
+        "metric": metric,
         "filters": {
             "season": season,
             "week_start": week_start,
@@ -761,20 +983,37 @@ def team_tiers_data(
             ),
             "minimum_plays": minimum_plays,
             "conference": conference,
+            "selected_teams": selected_teams,
+            "logo_size": logo_size,
             "red_zone_only": red_zone_only,
             "goal_to_go_only": goal_to_go_only,
             "season_type": season_type,
         },
-        "team_count": len(dataframe),
-        "teams": dataframe_to_records(
-            dataframe
-        ),
+        "benchmark": {
+            "population": (
+                "All qualifying FBS teams"
+            ),
+            "team_count": len(
+                benchmark_dataframe
+            ),
+            "teams": dataframe_to_records(
+                benchmark_dataframe
+            ),
+        },
+        "display": {
+            "team_count": len(
+                display_dataframe
+            ),
+            "teams": dataframe_to_records(
+                display_dataframe
+            ),
+        },
     }
 
 
-# ==============================================================================
-# Team tiers PNG route
-# ==============================================================================
+# =============================================================================
+# Team Tiers PNG route
+# =============================================================================
 
 @app.get(
     "/api/charts/team-tiers.png",
@@ -799,6 +1038,15 @@ def team_tiers_png(
             pattern="^(all|rush|pass)$"
         ),
     ] = "all",
+    metric: Annotated[
+        str,
+        Query(
+            pattern=(
+                "^(epa|success_rate|"
+                "yards_per_play|explosive_rate)$"
+            )
+        ),
+    ] = "epa",
     downs: str = Query(
         default="1,2,3,4"
     ),
@@ -815,6 +1063,17 @@ def team_tiers_png(
     conference: str | None = Query(
         default=None
     ),
+    teams: str | None = Query(
+        default=None
+    ),
+    logo_size: Annotated[
+        str,
+        Query(
+            pattern=(
+                "^(auto|standard|large|extra_large)$"
+            )
+        ),
+    ] = "auto",
     red_zone_only: bool = Query(
         default=False
     ),
@@ -840,7 +1099,7 @@ def team_tiers_png(
         default=False
     ),
 ) -> Response:
-    """Render the filtered Team Tiers chart as a PNG."""
+    """Render a Team Tiers chart as PNG."""
 
     selected_downs = parse_integer_csv(
         downs,
@@ -852,8 +1111,17 @@ def team_tiers_png(
         field_name="periods",
     )
 
+    selected_teams = parse_team_csv(
+        teams
+    )
+
+    validate_selected_teams(
+        selected_teams
+    )
+
     try:
-        dataframe = get_team_tiers_data(
+        # The renderer needs the complete all-FBS benchmark population.
+        benchmark_dataframe = get_team_tiers_data(
             season=season,
             week_start=week_start,
             week_end=week_end,
@@ -864,17 +1132,17 @@ def team_tiers_png(
                 exclude_garbage_time
             ),
             minimum_plays=minimum_plays,
-            conference=conference,
+            conference=None,
             red_zone_only=red_zone_only,
             goal_to_go_only=goal_to_go_only,
             season_type=season_type,
         )
 
-        if dataframe.empty:
+        if benchmark_dataframe.empty:
             raise HTTPException(
                 status_code=404,
                 detail=(
-                    "No teams met the selected chart filters "
+                    "No FBS teams met the selected filters "
                     "and minimum-play requirement."
                 ),
             )
@@ -890,14 +1158,17 @@ def team_tiers_png(
                 exclude_garbage_time
             ),
             minimum_plays=minimum_plays,
+            metric=metric,
             conference=conference,
+            selected_teams=selected_teams,
+            logo_size=logo_size,
             red_zone_only=red_zone_only,
             goal_to_go_only=goal_to_go_only,
             season_type=season_type,
         )
 
         image_bytes = render_team_tiers_image(
-            dataframe=dataframe,
+            dataframe=benchmark_dataframe,
             options=options,
             image_format="png",
             width=width,
@@ -936,7 +1207,7 @@ def team_tiers_png(
     )
 
     filename = (
-        f"cfb-team-tiers-{season}-"
+        f"cfb-{metric}-{season}-"
         f"weeks-{week_start}-{week_end}.png"
     )
 
