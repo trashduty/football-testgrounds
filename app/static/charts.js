@@ -3,10 +3,13 @@
 
 const elements = {
   form: document.getElementById("chart-filter-form"),
+
   season: document.getElementById("season"),
   weekStart: document.getElementById("week-start"),
   weekEnd: document.getElementById("week-end"),
   conference: document.getElementById("conference"),
+  chartMetric: document.getElementById("chart-metric"),
+  logoSize: document.getElementById("logo-size"),
   minimumPlays: document.getElementById("minimum-plays"),
 
   excludeGarbageTime: document.getElementById(
@@ -20,6 +23,12 @@ const elements = {
   goalToGoOnly: document.getElementById(
     "goal-to-go-only"
   ),
+
+  teamSearch: document.getElementById("team-search"),
+  teamOptions: document.getElementById("team-options"),
+  selectedTeams: document.getElementById("selected-teams"),
+  addTeamButton: document.getElementById("add-team"),
+  clearTeamsButton: document.getElementById("clear-teams"),
 
   resetButton: document.getElementById("reset-filters"),
   generateButton: document.getElementById("generate-chart"),
@@ -35,6 +44,8 @@ const elements = {
 
 
 let currentChartUrl = null;
+let availableTeams = [];
+let selectedTeams = [];
 
 
 function getCheckedValues(name) {
@@ -96,20 +107,97 @@ function setLoading(isLoading) {
 }
 
 
+function normalizeTeamName(value) {
+  const normalized = value.trim().toLowerCase();
+
+  return availableTeams.find(
+    (team) => team.toLowerCase() === normalized
+  ) || null;
+}
+
+
+function renderSelectedTeams() {
+  elements.selectedTeams.innerHTML = "";
+
+  if (selectedTeams.length === 0) {
+    const empty = document.createElement("span");
+
+    empty.className = "empty-team-message";
+    empty.textContent = "No teams selected";
+
+    elements.selectedTeams.appendChild(empty);
+    return;
+  }
+
+  selectedTeams.forEach((team) => {
+    const chip = document.createElement("span");
+
+    chip.className = "team-chip";
+
+    const label = document.createElement("span");
+    label.textContent = team;
+
+    const removeButton = document.createElement("button");
+
+    removeButton.type = "button";
+    removeButton.setAttribute(
+      "aria-label",
+      `Remove ${team}`
+    );
+
+    removeButton.textContent = "×";
+
+    removeButton.addEventListener(
+      "click",
+      () => {
+        selectedTeams = selectedTeams.filter(
+          (selectedTeam) => selectedTeam !== team
+        );
+
+        renderSelectedTeams();
+      }
+    );
+
+    chip.appendChild(label);
+    chip.appendChild(removeButton);
+
+    elements.selectedTeams.appendChild(chip);
+  });
+}
+
+
+function addTeam() {
+  clearError();
+
+  const matchedTeam = normalizeTeamName(
+    elements.teamSearch.value
+  );
+
+  if (!matchedTeam) {
+    showError(
+      "Select a valid FBS team from the search suggestions."
+    );
+
+    return;
+  }
+
+  if (!selectedTeams.includes(matchedTeam)) {
+    selectedTeams.push(matchedTeam);
+  }
+
+  elements.teamSearch.value = "";
+
+  renderSelectedTeams();
+}
+
+
 function validateFilters() {
   const weekStart = Number(elements.weekStart.value);
   const weekEnd = Number(elements.weekEnd.value);
   const minimumPlays = Number(elements.minimumPlays.value);
 
-  const downs = getCheckedValues("downs");
-  const periods = getCheckedValues("periods");
-
   if (!elements.season.value) {
     throw new Error("Select a season.");
-  }
-
-  if (!Number.isFinite(weekStart) || !Number.isFinite(weekEnd)) {
-    throw new Error("Enter valid starting and ending weeks.");
   }
 
   if (weekStart > weekEnd) {
@@ -118,12 +206,14 @@ function validateFilters() {
     );
   }
 
-  if (downs.length === 0) {
+  if (getCheckedValues("downs").length === 0) {
     throw new Error("Select at least one down.");
   }
 
-  if (periods.length === 0) {
-    throw new Error("Select at least one quarter or overtime.");
+  if (getCheckedValues("periods").length === 0) {
+    throw new Error(
+      "Select at least one quarter or overtime."
+    );
   }
 
   if (!Number.isFinite(minimumPlays) || minimumPlays < 1) {
@@ -152,6 +242,16 @@ function buildChartParameters({ download = false } = {}) {
   parameters.set(
     "week_end",
     elements.weekEnd.value
+  );
+
+  parameters.set(
+    "metric",
+    elements.chartMetric.value
+  );
+
+  parameters.set(
+    "logo_size",
+    elements.logoSize.value
   );
 
   parameters.set(
@@ -189,7 +289,12 @@ function buildChartParameters({ download = false } = {}) {
     String(elements.goalToGoOnly.checked)
   );
 
-  if (elements.conference.value) {
+  if (selectedTeams.length > 0) {
+    parameters.set(
+      "teams",
+      selectedTeams.join(",")
+    );
+  } else if (elements.conference.value) {
     parameters.set(
       "conference",
       elements.conference.value
@@ -204,7 +309,6 @@ function buildChartParameters({ download = false } = {}) {
     parameters.set("download", "true");
   }
 
-  // Prevent the browser from displaying a previously cached image.
   parameters.set(
     "_",
     String(Date.now())
@@ -215,45 +319,33 @@ function buildChartParameters({ download = false } = {}) {
 
 
 function buildChartUrl({ download = false } = {}) {
-  const parameters = buildChartParameters({ download });
-
   return (
     "/api/charts/team-tiers.png?"
-    + parameters.toString()
+    + buildChartParameters({ download }).toString()
   );
 }
 
 
 function createFilterSummary() {
-  const season = elements.season.value;
-
-  const weekStart = elements.weekStart.value;
-  const weekEnd = elements.weekEnd.value;
-
-  const weekText = (
-    weekStart === weekEnd
-      ? `Week ${weekStart}`
-      : `Weeks ${weekStart}–${weekEnd}`
+  const metricLabel = (
+    elements.chartMetric
+      .options[elements.chartMetric.selectedIndex]
+      .textContent.trim()
   );
 
-  const playType = getSelectedPlayType();
-
-  const playText = (
-    playType === "all"
-      ? "all plays"
-      : `${playType} plays`
-  );
-
-  const conference = (
-    elements.conference.value
-      ? elements.conference.value
-      : "all conferences"
+  const displayText = (
+    selectedTeams.length > 0
+      ? selectedTeams.join(" vs. ")
+      : (
+          elements.conference.value
+            ? `${elements.conference.value} teams`
+            : "All FBS teams"
+        )
   );
 
   return (
-    `${season} | ${weekText} | ${playText} | `
-    + `${conference} | minimum `
-    + `${elements.minimumPlays.value} plays`
+    `${metricLabel} | ${displayText} | `
+    + `all-FBS axes and averages`
   );
 }
 
@@ -266,7 +358,7 @@ async function extractApiError(response) {
       return String(payload.detail);
     }
   } catch (error) {
-    // The response might not be JSON.
+    // The response might not contain JSON.
   }
 
   return (
@@ -281,19 +373,17 @@ async function generateChart() {
   setLoading(true);
 
   try {
-    const chartUrl = buildChartUrl();
-
     const response = await fetch(
-      chartUrl,
+      buildChartUrl(),
       {
-        method: "GET",
         cache: "no-store",
       }
     );
 
     if (!response.ok) {
-      const message = await extractApiError(response);
-      throw new Error(message);
+      throw new Error(
+        await extractApiError(response)
+      );
     }
 
     const imageBlob = await response.blob();
@@ -308,13 +398,17 @@ async function generateChart() {
       URL.revokeObjectURL(currentChartUrl);
     }
 
-    currentChartUrl = URL.createObjectURL(imageBlob);
+    currentChartUrl = URL.createObjectURL(
+      imageBlob
+    );
 
     elements.chartImage.src = currentChartUrl;
     elements.chartImage.hidden = false;
     elements.chartPlaceholder.hidden = true;
 
-    elements.chartSummary.textContent = createFilterSummary();
+    elements.chartSummary.textContent = (
+      createFilterSummary()
+    );
 
     elements.downloadButton.disabled = false;
 
@@ -338,14 +432,11 @@ async function generateChart() {
 
 function downloadChart() {
   try {
-    const downloadUrl = buildChartUrl({
-      download: true,
-    });
-
     const link = document.createElement("a");
 
-    link.href = downloadUrl;
-    link.download = "";
+    link.href = buildChartUrl({
+      download: true,
+    });
 
     document.body.appendChild(link);
     link.click();
@@ -361,118 +452,50 @@ function downloadChart() {
 }
 
 
-function setCheckboxGroup(name, values) {
-  const allowed = new Set(
-    values.map(String)
-  );
+function populateOptions(
+  select,
+  values,
+  allLabel = null,
+) {
+  select.innerHTML = "";
 
-  document.querySelectorAll(
-    `input[name="${name}"]`
-  ).forEach((input) => {
-    input.checked = allowed.has(input.value);
-  });
-}
+  if (allLabel !== null) {
+    const allOption = document.createElement("option");
 
+    allOption.value = "";
+    allOption.textContent = allLabel;
 
-function resetFilters() {
-  clearError();
-
-  const firstSeasonOption = (
-    elements.season.options[0]
-  );
-
-  if (firstSeasonOption) {
-    elements.season.value = firstSeasonOption.value;
+    select.appendChild(allOption);
   }
 
-  elements.weekStart.value = "1";
-  elements.weekEnd.value = "20";
-  elements.conference.value = "";
-  elements.minimumPlays.value = "100";
-
-  const allPlayInput = document.querySelector(
-    'input[name="play_type"][value="all"]'
-  );
-
-  if (allPlayInput) {
-    allPlayInput.checked = true;
-  }
-
-  setCheckboxGroup(
-    "downs",
-    ["1", "2", "3", "4"]
-  );
-
-  setCheckboxGroup(
-    "periods",
-    ["1", "2", "3", "4"]
-  );
-
-  elements.excludeGarbageTime.checked = true;
-  elements.redZoneOnly.checked = false;
-  elements.goalToGoOnly.checked = false;
-
-  elements.chartSummary.textContent = (
-    "Select filters and generate the chart."
-  );
-
-  elements.downloadButton.disabled = true;
-  elements.chartImage.hidden = true;
-  elements.chartPlaceholder.hidden = false;
-
-  setStatus("Ready", "ready");
-}
-
-
-function populateSeasons(seasons) {
-  elements.season.innerHTML = "";
-
-  if (!Array.isArray(seasons) || seasons.length === 0) {
+  values.forEach((value, index) => {
     const option = document.createElement("option");
 
-    option.value = "";
-    option.textContent = "No seasons available";
+    option.value = String(value);
+    option.textContent = String(value);
 
-    elements.season.appendChild(option);
-    return;
-  }
-
-  seasons.forEach((season, index) => {
-    const option = document.createElement("option");
-
-    option.value = String(season);
-    option.textContent = String(season);
-
-    if (index === 0) {
+    if (allLabel === null && index === 0) {
       option.selected = true;
     }
 
-    elements.season.appendChild(option);
+    select.appendChild(option);
   });
 }
 
 
-function populateConferences(conferences) {
-  elements.conference.innerHTML = "";
+function populateTeamSearch(teams) {
+  availableTeams = Array.isArray(teams)
+    ? teams
+    : [];
 
-  const allOption = document.createElement("option");
+  elements.teamOptions.innerHTML = "";
 
-  allOption.value = "";
-  allOption.textContent = "All conferences";
-
-  elements.conference.appendChild(allOption);
-
-  if (!Array.isArray(conferences)) {
-    return;
-  }
-
-  conferences.forEach((conference) => {
+  availableTeams.forEach((team) => {
     const option = document.createElement("option");
 
-    option.value = String(conference);
-    option.textContent = String(conference);
+    option.value = team;
 
-    elements.conference.appendChild(option);
+    elements.teamOptions.appendChild(option);
   });
 }
 
@@ -481,33 +504,56 @@ async function loadMetadata() {
   setStatus("Loading", "loading");
 
   try {
-    const response = await fetch(
-      "/api/charts/metadata",
-      {
-        cache: "no-store",
-      }
-    );
+    const [metadataResponse, teamsResponse] = await Promise.all([
+      fetch(
+        "/api/charts/metadata",
+        { cache: "no-store" }
+      ),
+      fetch(
+        "/api/charts/teams",
+        { cache: "no-store" }
+      ),
+    ]);
 
-    if (!response.ok) {
-      const message = await extractApiError(response);
-      throw new Error(message);
+    if (!metadataResponse.ok) {
+      throw new Error(
+        await extractApiError(metadataResponse)
+      );
     }
 
-    const metadata = await response.json();
+    if (!teamsResponse.ok) {
+      throw new Error(
+        await extractApiError(teamsResponse)
+      );
+    }
 
-    populateSeasons(metadata.seasons);
-    populateConferences(metadata.conferences);
+    const metadata = await metadataResponse.json();
+    const teamPayload = await teamsResponse.json();
+
+    populateOptions(
+      elements.season,
+      metadata.seasons
+    );
+
+    populateOptions(
+      elements.conference,
+      metadata.conferences,
+      "All FBS conferences"
+    );
+
+    populateTeamSearch(
+      teamPayload.teams
+    );
 
     setStatus("Ready", "ready");
 
-    // Generate the default chart automatically.
     await generateChart();
 
   } catch (error) {
     showError(
       error instanceof Error
         ? error.message
-        : "Chart metadata could not be loaded."
+        : "Dashboard metadata could not be loaded."
     );
   }
 }
@@ -522,6 +568,32 @@ elements.form.addEventListener(
 );
 
 
+elements.addTeamButton.addEventListener(
+  "click",
+  addTeam
+);
+
+
+elements.teamSearch.addEventListener(
+  "keydown",
+  (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      addTeam();
+    }
+  }
+);
+
+
+elements.clearTeamsButton.addEventListener(
+  "click",
+  () => {
+    selectedTeams = [];
+    renderSelectedTeams();
+  }
+);
+
+
 elements.downloadButton.addEventListener(
   "click",
   downloadChart
@@ -530,7 +602,27 @@ elements.downloadButton.addEventListener(
 
 elements.resetButton.addEventListener(
   "click",
-  resetFilters
+  () => {
+    selectedTeams = [];
+    renderSelectedTeams();
+
+    elements.weekStart.value = "1";
+    elements.weekEnd.value = "20";
+    elements.minimumPlays.value = "100";
+    elements.conference.value = "";
+    elements.chartMetric.value = "epa";
+    elements.logoSize.value = "auto";
+
+    elements.excludeGarbageTime.checked = true;
+    elements.redZoneOnly.checked = false;
+    elements.goalToGoOnly.checked = false;
+
+    elements.downloadButton.disabled = true;
+    elements.chartImage.hidden = true;
+    elements.chartPlaceholder.hidden = false;
+
+    setStatus("Ready", "ready");
+  }
 );
 
 
