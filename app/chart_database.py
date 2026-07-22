@@ -36,7 +36,7 @@ FBS_CROSSWALK_FILE = (
 
 
 # =============================================================================
-# Expected output columns
+# Final chart-data structure
 # =============================================================================
 
 TEAM_TIERS_OUTPUT_COLUMNS = [
@@ -54,29 +54,27 @@ TEAM_TIERS_OUTPUT_COLUMNS = [
     "defensive_plays",
 ]
 
-OFFENSIVE_METRIC_COLUMNS = [
-    "off_epa_per_play",
-    "off_success_rate",
-    "off_yards_per_play",
-    "off_explosive_rate",
-]
-
-DEFENSIVE_METRIC_COLUMNS = [
-    "def_epa_allowed_per_play",
-    "def_success_rate_allowed",
-    "def_yards_allowed_per_play",
-    "def_explosive_rate_allowed",
-]
-
 
 # =============================================================================
 # General helpers
 # =============================================================================
 
-def _normalize_text_series(
+def _require_file(
+    path: Path,
+    description: str,
+) -> None:
+    """Raise a readable error when a required file is missing."""
+
+    if not path.exists():
+        raise FileNotFoundError(
+            f"{description} was not found at {path}."
+        )
+
+
+def _normalize_text(
     series: pd.Series,
 ) -> pd.Series:
-    """Normalize a text column without changing capitalization."""
+    """Strip whitespace while preserving capitalization."""
 
     return (
         series
@@ -86,14 +84,14 @@ def _normalize_text_series(
     )
 
 
-def _normalize_key_series(
+def _normalize_team_key(
     series: pd.Series,
 ) -> pd.Series:
     """
-    Build a normalized matching key.
+    Create a case-insensitive team-matching key.
 
-    This allows harmless differences in capitalization and spacing
-    between the parquet data and the team crosswalk.
+    This handles harmless capitalization and spacing differences
+    between the parquet data and the FBS crosswalk.
     """
 
     return (
@@ -110,20 +108,35 @@ def _normalize_key_series(
     )
 
 
-def _require_file(
-    path: Path,
-    description: str,
-) -> None:
-    """Raise a readable error when a required file is missing."""
+def _safe_rate(
+    numerator: pd.Series,
+    denominator: pd.Series,
+) -> pd.Series:
+    """Calculate a rate without dividing by zero."""
 
-    if not path.exists():
-        raise FileNotFoundError(
-            f"{description} was not found at {path}."
-        )
+    numerator_values = pd.to_numeric(
+        numerator,
+        errors="coerce",
+    )
+
+    denominator_values = pd.to_numeric(
+        denominator,
+        errors="coerce",
+    )
+
+    return pd.Series(
+        np.where(
+            denominator_values > 0,
+            numerator_values / denominator_values,
+            np.nan,
+        ),
+        index=numerator.index,
+        dtype="float64",
+    )
 
 
 def _get_parquet_columns() -> list[str]:
-    """Return the columns present in the situational parquet file."""
+    """Return columns in the situational parquet."""
 
     _require_file(
         SITUATIONAL_FILE,
@@ -135,7 +148,7 @@ def _get_parquet_columns() -> list[str]:
     )
 
     try:
-        description = connection.execute(
+        rows = connection.execute(
             """
             DESCRIBE
             SELECT *
@@ -148,91 +161,20 @@ def _get_parquet_columns() -> list[str]:
 
     return [
         str(row[0])
-        for row in description
+        for row in rows
     ]
 
 
-def _first_existing_column(
-    available_columns: set[str],
-    candidates: list[str],
-) -> str | None:
-    """Return the first candidate present in a dataset."""
-
-    for candidate in candidates:
-        if candidate in available_columns:
-            return candidate
-
-    return None
-
-
-def _coerce_numeric_columns(
-    dataframe: pd.DataFrame,
-    columns: list[str],
-) -> pd.DataFrame:
-    """Convert requested columns to numeric values."""
-
-    result = dataframe.copy()
-
-    for column in columns:
-        if column in result.columns:
-            result[column] = pd.to_numeric(
-                result[column],
-                errors="coerce",
-            )
-
-    return result
-
-
-def _weighted_average(
-    values: pd.Series,
-    weights: pd.Series,
-) -> float:
-    """Calculate a weighted mean while safely handling missing data."""
-
-    numeric_values = pd.to_numeric(
-        values,
-        errors="coerce",
-    )
-
-    numeric_weights = pd.to_numeric(
-        weights,
-        errors="coerce",
-    )
-
-    valid = (
-        numeric_values.notna()
-        & numeric_weights.notna()
-        & (numeric_weights > 0)
-    )
-
-    if valid.any():
-        return float(
-            np.average(
-                numeric_values.loc[valid],
-                weights=numeric_weights.loc[valid],
-            )
-        )
-
-    valid_values = numeric_values.dropna()
-
-    if valid_values.empty:
-        return float("nan")
-
-    return float(
-        valid_values.mean()
-    )
-
-
 # =============================================================================
-# FBS crosswalk
+# Authoritative FBS crosswalk
 # =============================================================================
 
 def get_fbs_crosswalk() -> pd.DataFrame:
     """
-    Load the authoritative FBS crosswalk.
+    Return the authoritative FBS team and conference crosswalk.
 
-    The file contains only FBS teams. Its btb_team_short value is
-    matched to the team value used by the situational dataset.
+    The crosswalk contains only FBS teams. Its btb_team_short
+    column matches the short school names in the situational data.
     """
 
     _require_file(
@@ -262,48 +204,27 @@ def get_fbs_crosswalk() -> pd.DataFrame:
             )
         )
 
-    selected_columns = [
-        "btb_team_short",
-        "conference",
-    ]
-
-    optional_columns = [
-        "team_id",
-        "btb_team",
-        "cfbfastr_team",
-        "api_team",
-        "mascot",
-        "logo",
-    ]
-
-    for column in optional_columns:
-        if column in crosswalk.columns:
-            selected_columns.append(column)
-
     crosswalk = crosswalk[
-        selected_columns
+        [
+            "btb_team_short",
+            "conference",
+        ]
     ].copy()
 
-    crosswalk["btb_team_short"] = (
-        _normalize_text_series(
-            crosswalk["btb_team_short"]
-        )
+    crosswalk["btb_team_short"] = _normalize_text(
+        crosswalk["btb_team_short"]
     )
 
-    crosswalk["conference"] = (
-        _normalize_text_series(
-            crosswalk["conference"]
-        )
+    crosswalk["conference"] = _normalize_text(
+        crosswalk["conference"]
     )
 
     crosswalk = crosswalk[
         crosswalk["btb_team_short"] != ""
     ].copy()
 
-    crosswalk["team_key"] = (
-        _normalize_key_series(
-            crosswalk["btb_team_short"]
-        )
+    crosswalk["team_key"] = _normalize_team_key(
+        crosswalk["btb_team_short"]
     )
 
     crosswalk = crosswalk.drop_duplicates(
@@ -317,13 +238,19 @@ def get_fbs_crosswalk() -> pd.DataFrame:
         }
     )
 
-    return crosswalk.reset_index(
+    return crosswalk[
+        [
+            "team_key",
+            "team",
+            "conference",
+        ]
+    ].reset_index(
         drop=True
     )
 
 
 def get_fbs_team_names() -> list[str]:
-    """Return every team in the authoritative FBS crosswalk."""
+    """Return all FBS teams listed in the crosswalk."""
 
     crosswalk = get_fbs_crosswalk()
 
@@ -345,11 +272,9 @@ def filter_to_fbs(
     dataframe: pd.DataFrame,
 ) -> pd.DataFrame:
     """
-    Restrict a dataframe to teams in the FBS crosswalk.
+    Retain only teams found in the FBS crosswalk.
 
-    Conference values from the crosswalk replace conference values
-    from the play-by-play source. This ensures FCS teams cannot affect
-    displayed teams, benchmarks, axis ranges, or average intercepts.
+    The crosswalk's team and conference values become authoritative.
     """
 
     if dataframe.empty:
@@ -364,39 +289,29 @@ def filter_to_fbs(
 
     if "team" not in dataframe.columns:
         raise ValueError(
-            "The chart dataframe does not contain a team column."
+            "The dataframe does not contain a team column."
         )
 
     crosswalk = get_fbs_crosswalk()
 
     filtered = dataframe.copy()
 
-    filtered["team"] = (
-        _normalize_text_series(
-            filtered["team"]
-        )
+    filtered["team"] = _normalize_text(
+        filtered["team"]
     )
 
-    filtered["team_key"] = (
-        _normalize_key_series(
-            filtered["team"]
-        )
+    filtered["team_key"] = _normalize_team_key(
+        filtered["team"]
     )
 
-    # The crosswalk is the authoritative source of conference names.
+    # Remove any source conference field. The crosswalk is authoritative.
     if "conference" in filtered.columns:
         filtered = filtered.drop(
             columns=["conference"]
         )
 
-    crosswalk_columns = [
-        "team_key",
-        "team",
-        "conference",
-    ]
-
     filtered = filtered.merge(
-        crosswalk[crosswalk_columns],
+        crosswalk,
         how="inner",
         on="team_key",
         suffixes=("_source", ""),
@@ -418,11 +333,11 @@ def filter_to_fbs(
 
 
 # =============================================================================
-# Metadata
+# Metadata functions
 # =============================================================================
 
 def get_situational_metadata() -> dict[str, Any]:
-    """Load metadata created with the situational parquet dataset."""
+    """Return metadata for the situational dataset."""
 
     if not SITUATIONAL_METADATA_FILE.exists():
         return {
@@ -440,9 +355,10 @@ def get_situational_metadata() -> dict[str, Any]:
             metadata = json.load(
                 metadata_file
             )
+
     except (
-        json.JSONDecodeError,
         OSError,
+        json.JSONDecodeError,
     ) as error:
         return {
             "file_exists": True,
@@ -461,35 +377,20 @@ def get_situational_metadata() -> dict[str, Any]:
             "metadata": metadata,
         }
 
-    metadata = dict(metadata)
+    result = dict(metadata)
 
-    metadata["file_exists"] = True
-    metadata["file"] = str(
+    result["file_exists"] = True
+    result["file"] = str(
         SITUATIONAL_METADATA_FILE
     )
 
-    return metadata
+    return result
 
 
 def get_available_chart_seasons() -> list[int]:
-    """Return seasons available in the situational parquet file."""
+    """Return seasons available in the situational dataset."""
 
     if not SITUATIONAL_FILE.exists():
-        return []
-
-    available_columns = set(
-        _get_parquet_columns()
-    )
-
-    season_column = _first_existing_column(
-        available_columns,
-        [
-            "season",
-            "year",
-        ],
-    )
-
-    if season_column is None:
         return []
 
     connection = duckdb.connect(
@@ -498,11 +399,11 @@ def get_available_chart_seasons() -> list[int]:
 
     try:
         rows = connection.execute(
-            f"""
+            """
             SELECT DISTINCT
-                CAST("{season_column}" AS INTEGER) AS season
+                CAST(season AS INTEGER) AS season
             FROM read_parquet(?)
-            WHERE "{season_column}" IS NOT NULL
+            WHERE season IS NOT NULL
             ORDER BY season DESC
             """,
             [str(SITUATIONAL_FILE)],
@@ -521,26 +422,10 @@ def get_available_chart_teams() -> list[str]:
     """
     Return FBS teams found in the situational dataset.
 
-    FCS teams in the parquet file are excluded because only teams
-    found in the crosswalk are returned.
+    A team can appear as an offense, an opponent, or both.
     """
 
     if not SITUATIONAL_FILE.exists():
-        return []
-
-    available_columns = set(
-        _get_parquet_columns()
-    )
-
-    team_column = _first_existing_column(
-        available_columns,
-        [
-            "team",
-            "school",
-        ],
-    )
-
-    if team_column is None:
         return []
 
     connection = duckdb.connect(
@@ -549,17 +434,28 @@ def get_available_chart_teams() -> list[str]:
 
     try:
         parquet_teams = connection.execute(
-            f"""
-            SELECT DISTINCT
-                trim(CAST("{team_column}" AS VARCHAR)) AS team
-            FROM read_parquet(?)
-            WHERE "{team_column}" IS NOT NULL
-              AND trim(
-                    CAST("{team_column}" AS VARCHAR)
-                  ) <> ''
+            """
+            SELECT DISTINCT team
+            FROM (
+                SELECT
+                    trim(CAST(team AS VARCHAR)) AS team
+                FROM read_parquet(?)
+                WHERE team IS NOT NULL
+
+                UNION
+
+                SELECT
+                    trim(CAST(opponent AS VARCHAR)) AS team
+                FROM read_parquet(?)
+                WHERE opponent IS NOT NULL
+            )
+            WHERE team <> ''
             ORDER BY team
             """,
-            [str(SITUATIONAL_FILE)],
+            [
+                str(SITUATIONAL_FILE),
+                str(SITUATIONAL_FILE),
+            ],
         ).df()
     finally:
         connection.close()
@@ -567,12 +463,12 @@ def get_available_chart_teams() -> list[str]:
     if parquet_teams.empty:
         return []
 
-    filtered = filter_to_fbs(
+    fbs_teams = filter_to_fbs(
         parquet_teams
     )
 
     return sorted(
-        filtered["team"]
+        fbs_teams["team"]
         .dropna()
         .astype(str)
         .str.strip()
@@ -586,7 +482,7 @@ def get_available_chart_teams() -> list[str]:
 
 
 def get_available_conferences() -> list[str]:
-    """Return FBS conferences from the authoritative crosswalk."""
+    """Return conferences from the FBS crosswalk only."""
 
     crosswalk = get_fbs_crosswalk()
 
@@ -605,231 +501,8 @@ def get_available_conferences() -> list[str]:
 
 
 # =============================================================================
-# Query construction
+# Situational row query
 # =============================================================================
-
-def _build_where_clause(
-    *,
-    available_columns: set[str],
-    season: int,
-    week_start: int,
-    week_end: int,
-    play_type: str,
-    downs: list[int],
-    periods: list[int],
-    exclude_garbage_time: bool,
-    red_zone_only: bool,
-    goal_to_go_only: bool,
-    season_type: str | None,
-) -> tuple[str, list[Any]]:
-    """
-    Build a filter clause using the column names present in the parquet.
-
-    Several likely aliases are supported so the function remains tolerant
-    of small naming differences between generated parquet versions.
-    """
-
-    conditions: list[str] = []
-    parameters: list[Any] = []
-
-    season_column = _first_existing_column(
-        available_columns,
-        [
-            "season",
-            "year",
-        ],
-    )
-
-    if season_column is None:
-        raise ValueError(
-            "The situational dataset does not contain a season column."
-        )
-
-    conditions.append(
-        f'CAST("{season_column}" AS INTEGER) = ?'
-    )
-
-    parameters.append(
-        int(season)
-    )
-
-    week_column = _first_existing_column(
-        available_columns,
-        [
-            "week",
-            "week_number",
-        ],
-    )
-
-    if week_column is not None:
-        conditions.append(
-            f'CAST("{week_column}" AS INTEGER) BETWEEN ? AND ?'
-        )
-
-        parameters.extend(
-            [
-                int(week_start),
-                int(week_end),
-            ]
-        )
-
-    play_type_column = _first_existing_column(
-        available_columns,
-        [
-            "play_type",
-            "play_category",
-        ],
-    )
-
-    if (
-        play_type != "all"
-        and play_type_column is not None
-    ):
-        conditions.append(
-            f'lower(trim(CAST("{play_type_column}" AS VARCHAR))) = ?'
-        )
-
-        parameters.append(
-            play_type.lower()
-        )
-
-    down_column = _first_existing_column(
-        available_columns,
-        [
-            "down",
-            "downs",
-        ],
-    )
-
-    if down_column is not None and downs:
-        placeholders = ", ".join(
-            "?"
-            for _ in downs
-        )
-
-        conditions.append(
-            f'CAST("{down_column}" AS INTEGER) IN ({placeholders})'
-        )
-
-        parameters.extend(
-            int(value)
-            for value in downs
-        )
-
-    period_column = _first_existing_column(
-        available_columns,
-        [
-            "period",
-            "quarter",
-            "qtr",
-        ],
-    )
-
-    if period_column is not None and periods:
-        placeholders = ", ".join(
-            "?"
-            for _ in periods
-        )
-
-        conditions.append(
-            f'CAST("{period_column}" AS INTEGER) IN ({placeholders})'
-        )
-
-        parameters.extend(
-            int(value)
-            for value in periods
-        )
-
-    garbage_column = _first_existing_column(
-        available_columns,
-        [
-            "garbage_time",
-            "is_garbage_time",
-        ],
-    )
-
-    if (
-        exclude_garbage_time
-        and garbage_column is not None
-    ):
-        conditions.append(
-            f"""
-            coalesce(
-                try_cast(
-                    "{garbage_column}" AS BOOLEAN
-                ),
-                FALSE
-            ) = FALSE
-            """
-        )
-
-    red_zone_column = _first_existing_column(
-        available_columns,
-        [
-            "red_zone",
-            "is_red_zone",
-        ],
-    )
-
-    if red_zone_only and red_zone_column is not None:
-        conditions.append(
-            f"""
-            coalesce(
-                try_cast(
-                    "{red_zone_column}" AS BOOLEAN
-                ),
-                FALSE
-            ) = TRUE
-            """
-        )
-
-    goal_to_go_column = _first_existing_column(
-        available_columns,
-        [
-            "goal_to_go",
-            "is_goal_to_go",
-        ],
-    )
-
-    if (
-        goal_to_go_only
-        and goal_to_go_column is not None
-    ):
-        conditions.append(
-            f"""
-            coalesce(
-                try_cast(
-                    "{goal_to_go_column}" AS BOOLEAN
-                ),
-                FALSE
-            ) = TRUE
-            """
-        )
-
-    season_type_column = _first_existing_column(
-        available_columns,
-        [
-            "season_type",
-        ],
-    )
-
-    if (
-        season_type
-        and season_type_column is not None
-    ):
-        conditions.append(
-            f'lower(trim(CAST("{season_type_column}" AS VARCHAR))) = ?'
-        )
-
-        parameters.append(
-            season_type.lower().strip()
-        )
-
-    return (
-        "\nAND ".join(conditions),
-        parameters,
-    )
-
 
 def _load_filtered_rows(
     *,
@@ -844,7 +517,7 @@ def _load_filtered_rows(
     goal_to_go_only: bool,
     season_type: str | None,
 ) -> pd.DataFrame:
-    """Load situational rows after applying requested game filters."""
+    """Load raw situational rows using the requested filters."""
 
     _require_file(
         SITUATIONAL_FILE,
@@ -855,18 +528,157 @@ def _load_filtered_rows(
         _get_parquet_columns()
     )
 
-    where_clause, parameters = _build_where_clause(
-        available_columns=available_columns,
-        season=season,
-        week_start=week_start,
-        week_end=week_end,
-        play_type=play_type,
-        downs=downs,
-        periods=periods,
-        exclude_garbage_time=exclude_garbage_time,
-        red_zone_only=red_zone_only,
-        goal_to_go_only=goal_to_go_only,
-        season_type=season_type,
+    required_columns = {
+        "season",
+        "week",
+        "team",
+        "opponent",
+        "period",
+        "down",
+        "play_type",
+        "red_zone",
+        "goal_to_go",
+        "garbage_time",
+        "plays",
+        "epa_total",
+        "successes",
+        "yards_total",
+        "explosive_plays",
+    }
+
+    missing_columns = required_columns.difference(
+        available_columns
+    )
+
+    if missing_columns:
+        raise ValueError(
+            "The situational dataset is missing required columns: "
+            + ", ".join(
+                sorted(missing_columns)
+            )
+        )
+
+    conditions = [
+        "CAST(season AS INTEGER) = ?",
+        "CAST(week AS INTEGER) BETWEEN ? AND ?",
+    ]
+
+    parameters: list[Any] = [
+        int(season),
+        int(week_start),
+        int(week_end),
+    ]
+
+    if play_type != "all":
+        conditions.append(
+            """
+            lower(
+                trim(
+                    CAST(play_type AS VARCHAR)
+                )
+            ) = ?
+            """
+        )
+
+        parameters.append(
+            play_type.lower().strip()
+        )
+
+    if downs:
+        down_placeholders = ", ".join(
+            "?"
+            for _ in downs
+        )
+
+        conditions.append(
+            f"""
+            CAST(down AS INTEGER)
+            IN ({down_placeholders})
+            """
+        )
+
+        parameters.extend(
+            int(value)
+            for value in downs
+        )
+
+    if periods:
+        period_placeholders = ", ".join(
+            "?"
+            for _ in periods
+        )
+
+        conditions.append(
+            f"""
+            CAST(period AS INTEGER)
+            IN ({period_placeholders})
+            """
+        )
+
+        parameters.extend(
+            int(value)
+            for value in periods
+        )
+
+    if exclude_garbage_time:
+        conditions.append(
+            """
+            coalesce(
+                try_cast(
+                    garbage_time AS BOOLEAN
+                ),
+                FALSE
+            ) = FALSE
+            """
+        )
+
+    if red_zone_only:
+        conditions.append(
+            """
+            coalesce(
+                try_cast(
+                    red_zone AS BOOLEAN
+                ),
+                FALSE
+            ) = TRUE
+            """
+        )
+
+    if goal_to_go_only:
+        conditions.append(
+            """
+            coalesce(
+                try_cast(
+                    goal_to_go AS BOOLEAN
+                ),
+                FALSE
+            ) = TRUE
+            """
+        )
+
+    if season_type:
+        if "season_type" not in available_columns:
+            raise ValueError(
+                "The situational dataset does not contain "
+                "a season_type column."
+            )
+
+        conditions.append(
+            """
+            lower(
+                trim(
+                    CAST(season_type AS VARCHAR)
+                )
+            ) = ?
+            """
+        )
+
+        parameters.append(
+            season_type.lower().strip()
+        )
+
+    where_clause = "\nAND ".join(
+        conditions
     )
 
     connection = duckdb.connect(
@@ -876,7 +688,26 @@ def _load_filtered_rows(
     try:
         dataframe = connection.execute(
             f"""
-            SELECT *
+            SELECT
+                season,
+                week,
+                game_id,
+                trim(CAST(team AS VARCHAR)) AS team,
+                trim(CAST(opponent AS VARCHAR)) AS opponent,
+                offense_conference,
+                defense_conference,
+                season_type,
+                period,
+                down,
+                play_type,
+                red_zone,
+                goal_to_go,
+                garbage_time,
+                plays,
+                epa_total,
+                successes,
+                yards_total,
+                explosive_plays
             FROM read_parquet(?)
             WHERE {where_clause}
             """,
@@ -892,23 +723,23 @@ def _load_filtered_rows(
 
 
 # =============================================================================
-# Team aggregation
+# Offense and defense aggregation
 # =============================================================================
 
 def _aggregate_team_rows(
     dataframe: pd.DataFrame,
 ) -> pd.DataFrame:
     """
-    Aggregate filtered situational rows into one offense/defense row per team.
+    Create one chart row per team.
 
-    Raw situational rows are stored from the offense's perspective:
+    The raw situational data is offense-oriented:
 
     - team is the offensive team;
     - opponent is the defensive team;
-    - plays and metric totals describe the offense's performance.
+    - plays and totals describe the offense's results.
 
-    Offensive statistics are therefore grouped by team, while defensive
-    statistics allowed are grouped by opponent.
+    Offensive statistics are grouped by team.
+    Defensive statistics allowed are grouped by opponent.
     """
 
     if dataframe.empty:
@@ -932,7 +763,7 @@ def _aggregate_team_rows(
 
     if missing_columns:
         raise ValueError(
-            "The situational dataset is missing required "
+            "The situational data is missing required "
             "aggregation columns: "
             + ", ".join(
                 sorted(missing_columns)
@@ -941,18 +772,12 @@ def _aggregate_team_rows(
 
     working = dataframe.copy()
 
-    working["team"] = (
+    working["team"] = _normalize_text(
         working["team"]
-        .fillna("")
-        .astype(str)
-        .str.strip()
     )
 
-    working["opponent"] = (
+    working["opponent"] = _normalize_text(
         working["opponent"]
-        .fillna("")
-        .astype(str)
-        .str.strip()
     )
 
     numeric_columns = [
@@ -981,7 +806,7 @@ def _aggregate_team_rows(
         )
 
     # -------------------------------------------------------------------------
-    # Offensive aggregation
+    # Offensive statistics
     # -------------------------------------------------------------------------
 
     offense = (
@@ -1014,40 +839,24 @@ def _aggregate_team_rows(
         )
     )
 
-    offense["off_epa_per_play"] = np.where(
-        offense["offensive_plays"] > 0,
-        (
-            offense["offensive_epa_total"]
-            / offense["offensive_plays"]
-        ),
-        np.nan,
+    offense["off_epa_per_play"] = _safe_rate(
+        offense["offensive_epa_total"],
+        offense["offensive_plays"],
     )
 
-    offense["off_success_rate"] = np.where(
-        offense["offensive_plays"] > 0,
-        (
-            offense["offensive_successes"]
-            / offense["offensive_plays"]
-        ),
-        np.nan,
+    offense["off_success_rate"] = _safe_rate(
+        offense["offensive_successes"],
+        offense["offensive_plays"],
     )
 
-    offense["off_yards_per_play"] = np.where(
-        offense["offensive_plays"] > 0,
-        (
-            offense["offensive_yards_total"]
-            / offense["offensive_plays"]
-        ),
-        np.nan,
+    offense["off_yards_per_play"] = _safe_rate(
+        offense["offensive_yards_total"],
+        offense["offensive_plays"],
     )
 
-    offense["off_explosive_rate"] = np.where(
-        offense["offensive_plays"] > 0,
-        (
-            offense["offensive_explosive_plays"]
-            / offense["offensive_plays"]
-        ),
-        np.nan,
+    offense["off_explosive_rate"] = _safe_rate(
+        offense["offensive_explosive_plays"],
+        offense["offensive_plays"],
     )
 
     offense = offense[
@@ -1062,10 +871,7 @@ def _aggregate_team_rows(
     ].copy()
 
     # -------------------------------------------------------------------------
-    # Defensive aggregation
-    #
-    # The opponent is the team playing defense. The offensive totals in each
-    # row therefore become values allowed by that opponent's defense.
+    # Defensive statistics allowed
     # -------------------------------------------------------------------------
 
     defense = (
@@ -1103,40 +909,24 @@ def _aggregate_team_rows(
         )
     )
 
-    defense["def_epa_allowed_per_play"] = np.where(
-        defense["defensive_plays"] > 0,
-        (
-            defense["defensive_epa_allowed_total"]
-            / defense["defensive_plays"]
-        ),
-        np.nan,
+    defense["def_epa_allowed_per_play"] = _safe_rate(
+        defense["defensive_epa_allowed_total"],
+        defense["defensive_plays"],
     )
 
-    defense["def_success_rate_allowed"] = np.where(
-        defense["defensive_plays"] > 0,
-        (
-            defense["defensive_successes_allowed"]
-            / defense["defensive_plays"]
-        ),
-        np.nan,
+    defense["def_success_rate_allowed"] = _safe_rate(
+        defense["defensive_successes_allowed"],
+        defense["defensive_plays"],
     )
 
-    defense["def_yards_allowed_per_play"] = np.where(
-        defense["defensive_plays"] > 0,
-        (
-            defense["defensive_yards_allowed_total"]
-            / defense["defensive_plays"]
-        ),
-        np.nan,
+    defense["def_yards_allowed_per_play"] = _safe_rate(
+        defense["defensive_yards_allowed_total"],
+        defense["defensive_plays"],
     )
 
-    defense["def_explosive_rate_allowed"] = np.where(
-        defense["defensive_plays"] > 0,
-        (
-            defense["defensive_explosive_plays_allowed"]
-            / defense["defensive_plays"]
-        ),
-        np.nan,
+    defense["def_explosive_rate_allowed"] = _safe_rate(
+        defense["defensive_explosive_plays_allowed"],
+        defense["defensive_plays"],
     )
 
     defense = defense[
@@ -1151,7 +941,7 @@ def _aggregate_team_rows(
     ].copy()
 
     # -------------------------------------------------------------------------
-    # Combine offense and defense
+    # Merge offense and defense
     # -------------------------------------------------------------------------
 
     combined = offense.merge(
@@ -1161,11 +951,8 @@ def _aggregate_team_rows(
         validate="one_to_one",
     )
 
-    combined["team"] = (
+    combined["team"] = _normalize_text(
         combined["team"]
-        .fillna("")
-        .astype(str)
-        .str.strip()
     )
 
     combined = combined[
@@ -1190,8 +977,9 @@ def _aggregate_team_rows(
         drop=True
     )
 
+
 # =============================================================================
-# Public chart query
+# Public chart-data function
 # =============================================================================
 
 def get_team_tiers_data(
@@ -1210,22 +998,15 @@ def get_team_tiers_data(
     season_type: str | None = None,
 ) -> pd.DataFrame:
     """
-    Return one row per qualifying FBS team.
+    Return one offense-versus-defense row per qualifying FBS team.
 
-    FBS filtering occurs before the result is returned, ensuring FCS
-    teams do not affect:
+    All raw games remain eligible, including games played against FCS
+    opponents. The final chart population itself is restricted to FBS
+    teams using the authoritative crosswalk.
 
-    - benchmark counts;
-    - average intercepts;
-    - axis ranges;
-    - conference lists;
-    - team-search options;
-    - chart logos.
-
-    The conference argument remains available for callers that want
-    the database function itself to return one conference. The current
-    chart endpoints pass conference=None so the renderer can preserve
-    the full-FBS benchmark population.
+    This means an FBS team's season statistics can still include its
+    performance in an FBS-versus-FCS game, while the FCS team itself
+    cannot appear as a chart team or influence FBS benchmark membership.
     """
 
     if week_start > week_end:
@@ -1240,6 +1021,16 @@ def get_team_tiers_data(
     }:
         raise ValueError(
             "play_type must be all, rush, or pass."
+        )
+
+    if not downs:
+        raise ValueError(
+            "At least one down must be selected."
+        )
+
+    if not periods:
+        raise ValueError(
+            "At least one period must be selected."
         )
 
     if minimum_plays < 1:
@@ -1264,7 +1055,7 @@ def get_team_tiers_data(
         raw_rows
     )
 
-    # This inner join is the critical FBS-only step.
+    # This inner join removes FCS teams from the chart population.
     fbs_data = filter_to_fbs(
         aggregated
     )
@@ -1272,22 +1063,22 @@ def get_team_tiers_data(
     fbs_data = fbs_data[
         (
             fbs_data["offensive_plays"]
-            >= minimum_plays
+            >= int(minimum_plays)
         )
         & (
             fbs_data["defensive_plays"]
-            >= minimum_plays
+            >= int(minimum_plays)
         )
     ].copy()
 
     if conference:
-        normalized_conference = (
-            str(conference).strip()
-        )
+        conference_value = str(
+            conference
+        ).strip()
 
         fbs_data = fbs_data[
             fbs_data["conference"]
-            == normalized_conference
+            == conference_value
         ].copy()
 
     for column in TEAM_TIERS_OUTPUT_COLUMNS:
@@ -1298,11 +1089,15 @@ def get_team_tiers_data(
         TEAM_TIERS_OUTPUT_COLUMNS
     ].copy()
 
-    return fbs_data.sort_values(
-        by="team",
-        ascending=True,
-    ).reset_index(
-        drop=True
+    return (
+        fbs_data
+        .sort_values(
+            by="team",
+            ascending=True,
+        )
+        .reset_index(
+            drop=True
+        )
     )
 
 
@@ -1313,36 +1108,27 @@ def get_team_tiers_data(
 def dataframe_to_records(
     dataframe: pd.DataFrame,
 ) -> list[dict[str, Any]]:
-    """Convert a DataFrame to JSON-safe records."""
+    """Convert a DataFrame into JSON-safe dictionaries."""
 
     if dataframe.empty:
         return []
 
-    safe_dataframe = dataframe.copy()
+    records: list[dict[str, Any]] = []
 
-    safe_dataframe = safe_dataframe.replace(
-        {
-            np.nan: None,
-            np.inf: None,
-            -np.inf: None,
-        }
-    )
-
-    records = safe_dataframe.to_dict(
+    for raw_record in dataframe.to_dict(
         orient="records"
-    )
+    ):
+        record: dict[str, Any] = {}
 
-    json_safe_records: list[dict[str, Any]] = []
+        for key, value in raw_record.items():
+            if value is None:
+                record[key] = None
 
-    for record in records:
-        safe_record: dict[str, Any] = {}
-
-        for key, value in record.items():
-            if isinstance(
+            elif isinstance(
                 value,
                 np.integer,
             ):
-                safe_record[key] = int(value)
+                record[key] = int(value)
 
             elif isinstance(
                 value,
@@ -1350,7 +1136,7 @@ def dataframe_to_records(
             ):
                 numeric_value = float(value)
 
-                safe_record[key] = (
+                record[key] = (
                     numeric_value
                     if np.isfinite(numeric_value)
                     else None
@@ -1358,20 +1144,28 @@ def dataframe_to_records(
 
             elif isinstance(
                 value,
-                pd.Timestamp,
+                float,
             ):
-                safe_record[key] = (
-                    value.isoformat()
+                record[key] = (
+                    value
+                    if np.isfinite(value)
+                    else None
                 )
 
+            elif isinstance(
+                value,
+                pd.Timestamp,
+            ):
+                record[key] = value.isoformat()
+
             elif pd.isna(value):
-                safe_record[key] = None
+                record[key] = None
 
             else:
-                safe_record[key] = value
+                record[key] = value
 
-        json_safe_records.append(
-            safe_record
+        records.append(
+            record
         )
 
-    return json_safe_records
+    return records
