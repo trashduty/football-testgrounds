@@ -151,6 +151,15 @@ jobs:
         run: |
           Rscript scripts/build_historical_stats.R
 
+      - name: Build historical situational statistics
+        env:
+          PBP_RDS_PATH: data/downloads/pbp_2014_2025.RDS
+          OUTPUT_DIR: data/processed
+          MIN_SEASON: "2014"
+          MAX_SEASON: "2025"
+        run: |
+           Rscript scripts/build_historical_situational_stats.R
+      
       - name: Validate generated outputs
         run: |
           set -euo pipefail
