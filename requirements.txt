@@ -18,3 +18,5 @@ starlette>=0.40,<1.0
 rapidfuzz>=3.9,<4.0
 python-dateutil>=2.9,<3.0
 duckdb>=1.1,<2.0
+plotly>=6.0,<7.0
+kaleido>=1.0,<2.0
