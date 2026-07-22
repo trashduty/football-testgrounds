@@ -5,31 +5,27 @@ Download and standardize college-football team logos.
 Input:
     CFB Teams Full Crosswalk.csv
 
-Required columns:
-    cfbfastr_team
-    logo
+Matching logic:
+    btb_team_short is the chart/PBP team name:
+        Alabama
+        Ohio State
+        Arizona State
 
-Optional columns:
-    team_id
-    conference
-    btb_team
-    btb_team_short
-    mascot
-    api_team
+    cfbfastr_team is retained as the full team name:
+        Alabama Crimson Tide
+        Ohio State Buckeyes
+        Arizona State Sun Devils
 
 Outputs:
-    assets/team_logos/<team-slug>.png
+    assets/team_logos/<short-team-slug>.png
     data/processed/team_logo_map.csv
     data/processed/team_logo_download_report.csv
 
-Examples:
+Usage:
     python scripts/build_team_logo_assets.py
 
+Force every logo to redownload:
     python scripts/build_team_logo_assets.py --refresh
-
-    python scripts/build_team_logo_assets.py \
-        --crosswalk "CFB Teams Full Crosswalk.csv" \
-        --max-size 500
 """
 
 from __future__ import annotations
@@ -40,7 +36,7 @@ import logging
 import re
 import sys
 import time
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from io import BytesIO
 from pathlib import Path
 from typing import Any
@@ -56,9 +52,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_CROSSWALK = REPO_ROOT / "CFB Teams Full Crosswalk.csv"
 DEFAULT_LOGO_DIRECTORY = REPO_ROOT / "assets" / "team_logos"
+
 DEFAULT_MAPPING_FILE = (
-    REPO_ROOT / "data" / "processed" / "team_logo_map.csv"
+    REPO_ROOT
+    / "data"
+    / "processed"
+    / "team_logo_map.csv"
 )
+
 DEFAULT_REPORT_FILE = (
     REPO_ROOT
     / "data"
@@ -66,7 +67,8 @@ DEFAULT_REPORT_FILE = (
     / "team_logo_download_report.csv"
 )
 
-TEAM_COLUMN = "cfbfastr_team"
+CHART_TEAM_COLUMN = "btb_team_short"
+FULL_TEAM_COLUMN = "cfbfastr_team"
 LOGO_URL_COLUMN = "logo"
 TEAM_ID_COLUMN = "team_id"
 
@@ -75,17 +77,18 @@ REQUEST_DELAY_SECONDS = 0.05
 DEFAULT_MAX_LOGO_SIZE = 500
 
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; "
-    "BTB-Analytics-CFB-Logo-Downloader/1.0)"
+    "Mozilla/5.0 "
+    "(compatible; BTB-Analytics-CFB-Logo-Downloader/1.0)"
 )
 
 
 @dataclass
 class LogoResult:
-    """One logo-download result."""
-
     team: str
+    cfbfastr_team: str | None
     team_id: str | None
+    conference: str | None
+    mascot: str | None
     logo_url: str
     logo_filename: str | None
     logo_path: str | None
@@ -96,9 +99,7 @@ class LogoResult:
     bytes_written: int | None = None
 
 
-def configure_logging(verbose: bool = False) -> None:
-    """Configure console logging."""
-
+def configure_logging(verbose: bool) -> None:
     level = logging.DEBUG if verbose else logging.INFO
 
     logging.basicConfig(
@@ -108,12 +109,10 @@ def configure_logging(verbose: bool = False) -> None:
 
 
 def parse_arguments() -> argparse.Namespace:
-    """Read command-line arguments."""
-
     parser = argparse.ArgumentParser(
         description=(
-            "Download CFB team logos from the full crosswalk "
-            "and store them as local PNG files."
+            "Download CFB team logos and create a chart-team "
+            "to local-logo mapping."
         )
     )
 
@@ -121,71 +120,48 @@ def parse_arguments() -> argparse.Namespace:
         "--crosswalk",
         type=Path,
         default=DEFAULT_CROSSWALK,
-        help=(
-            "Path to CFB Teams Full Crosswalk.csv. "
-            f"Default: {DEFAULT_CROSSWALK}"
-        ),
     )
 
     parser.add_argument(
         "--logo-directory",
         type=Path,
         default=DEFAULT_LOGO_DIRECTORY,
-        help=(
-            "Directory where PNG logos will be stored. "
-            f"Default: {DEFAULT_LOGO_DIRECTORY}"
-        ),
     )
 
     parser.add_argument(
         "--mapping-file",
         type=Path,
         default=DEFAULT_MAPPING_FILE,
-        help=(
-            "Output team-to-logo mapping CSV. "
-            f"Default: {DEFAULT_MAPPING_FILE}"
-        ),
     )
 
     parser.add_argument(
         "--report-file",
         type=Path,
         default=DEFAULT_REPORT_FILE,
-        help=(
-            "Output download report CSV. "
-            f"Default: {DEFAULT_REPORT_FILE}"
-        ),
     )
 
     parser.add_argument(
         "--max-size",
         type=int,
         default=DEFAULT_MAX_LOGO_SIZE,
-        help=(
-            "Maximum PNG width or height in pixels. "
-            f"Default: {DEFAULT_MAX_LOGO_SIZE}"
-        ),
     )
 
     parser.add_argument(
         "--refresh",
         action="store_true",
-        help="Redownload logos even when local files already exist.",
+        help="Redownload logos even when a valid local PNG exists.",
     )
 
     parser.add_argument(
         "--verbose",
         action="store_true",
-        help="Show additional diagnostic logging.",
     )
 
     return parser.parse_args()
 
 
 def build_requests_session() -> requests.Session:
-    """Create a retry-capable HTTP session."""
-
-    retry_policy = Retry(
+    retries = Retry(
         total=4,
         connect=4,
         read=4,
@@ -204,12 +180,13 @@ def build_requests_session() -> requests.Session:
     )
 
     adapter = HTTPAdapter(
-        max_retries=retry_policy,
+        max_retries=retries,
         pool_connections=10,
         pool_maxsize=10,
     )
 
     session = requests.Session()
+
     session.headers.update(
         {
             "User-Agent": USER_AGENT,
@@ -227,46 +204,35 @@ def build_requests_session() -> requests.Session:
 
 
 def clean_text(value: Any) -> str | None:
-    """Convert a CSV value to clean text or None."""
-
     if value is None or pd.isna(value):
         return None
 
     cleaned = str(value).strip()
 
-    if not cleaned:
+    if not cleaned or cleaned.lower() == "nan":
         return None
 
     return cleaned
 
 
 def clean_team_id(value: Any) -> str | None:
-    """Normalize numeric-looking team IDs."""
-
     cleaned = clean_text(value)
 
     if cleaned is None:
         return None
 
     if re.fullmatch(r"\d+\.0", cleaned):
-        cleaned = cleaned[:-2]
+        return cleaned[:-2]
 
     return cleaned
 
 
-def slugify_team_name(team_name: str) -> str:
-    """
-    Convert a team name into a filesystem-safe slug.
-
-    Examples:
-        Alabama Crimson Tide -> alabama-crimson-tide
-        Hawai'i Rainbow Warriors -> hawaii-rainbow-warriors
-    """
-
-    normalized = team_name.lower()
+def slugify(value: str) -> str:
+    normalized = value.lower()
 
     normalized = (
-        normalized.replace("’", "")
+        normalized
+        .replace("’", "")
         .replace("'", "")
         .replace("&", " and ")
     )
@@ -275,53 +241,42 @@ def slugify_team_name(team_name: str) -> str:
         r"[^a-z0-9]+",
         "-",
         normalized,
-    )
-
-    normalized = normalized.strip("-")
+    ).strip("-")
 
     if normalized:
         return normalized
 
     digest = hashlib.sha256(
-        team_name.encode("utf-8")
+        value.encode("utf-8")
     ).hexdigest()[:12]
 
     return f"team-{digest}"
 
 
 def relative_repo_path(path: Path) -> str:
-    """
-    Return a portable repository-relative path when possible.
-    """
-
-    resolved_path = path.resolve()
+    resolved = path.resolve()
 
     try:
-        return resolved_path.relative_to(
+        return resolved.relative_to(
             REPO_ROOT.resolve()
         ).as_posix()
     except ValueError:
-        return resolved_path.as_posix()
+        return resolved.as_posix()
 
 
-def validate_crosswalk(
-    crosswalk: pd.DataFrame,
-) -> None:
-    """Confirm the required crosswalk columns exist."""
-
-    required_columns = {
-        TEAM_COLUMN,
+def validate_crosswalk(crosswalk: pd.DataFrame) -> None:
+    required = {
+        CHART_TEAM_COLUMN,
+        FULL_TEAM_COLUMN,
         LOGO_URL_COLUMN,
     }
 
-    missing_columns = required_columns.difference(
-        crosswalk.columns
-    )
+    missing = required.difference(crosswalk.columns)
 
-    if missing_columns:
+    if missing:
         raise ValueError(
             "Crosswalk is missing required columns: "
-            + ", ".join(sorted(missing_columns))
+            + ", ".join(sorted(missing))
         )
 
 
@@ -329,55 +284,40 @@ def open_downloaded_image(
     content: bytes,
     source_url: str,
 ) -> Image.Image:
-    """Open downloaded image bytes using Pillow."""
-
     try:
         image = Image.open(BytesIO(content))
         image.load()
         return image
     except UnidentifiedImageError as error:
         raise ValueError(
-            "Downloaded content was not a Pillow-compatible "
-            f"image: {source_url}"
+            "Downloaded content was not a recognized image: "
+            f"{source_url}"
         ) from error
 
 
 def standardize_logo(
     image: Image.Image,
-    *,
     max_size: int,
 ) -> Image.Image:
-    """
-    Standardize an image for consistent transparent PNG output.
-
-    The aspect ratio is preserved. The logo is not stretched.
-    """
-
     if max_size < 50 or max_size > 2000:
         raise ValueError(
-            "max_size must be between 50 and 2000 pixels."
+            "max_size must be between 50 and 2000."
         )
 
-    # Preserve transparency when present.
-    if image.mode not in {"RGBA", "LA"}:
-        image = image.convert("RGBA")
-    else:
-        image = image.convert("RGBA")
+    standardized = image.convert("RGBA")
 
-    image.thumbnail(
+    standardized.thumbnail(
         (max_size, max_size),
         Image.Resampling.LANCZOS,
     )
 
-    return image
+    return standardized
 
 
 def save_png(
     image: Image.Image,
     output_path: Path,
 ) -> int:
-    """Save an image atomically as an optimized PNG."""
-
     output_path.parent.mkdir(
         parents=True,
         exist_ok=True,
@@ -398,41 +338,60 @@ def save_png(
     return output_path.stat().st_size
 
 
+def inspect_existing_png(
+    output_path: Path,
+) -> tuple[int, int, int] | None:
+    if not output_path.exists():
+        return None
+
+    try:
+        with Image.open(output_path) as image:
+            image.load()
+
+            return (
+                int(image.width),
+                int(image.height),
+                int(output_path.stat().st_size),
+            )
+    except Exception:
+        return None
+
+
 def download_logo(
     *,
     session: requests.Session,
     team: str,
+    cfbfastr_team: str | None,
     team_id: str | None,
+    conference: str | None,
+    mascot: str | None,
     logo_url: str,
     output_path: Path,
     max_size: int,
     refresh: bool,
 ) -> LogoResult:
-    """Download one logo and save it as a local PNG."""
-
     relative_path = relative_repo_path(output_path)
 
-    if output_path.exists() and not refresh:
-        try:
-            with Image.open(output_path) as existing:
-                existing.load()
+    if not refresh:
+        existing = inspect_existing_png(output_path)
 
-                return LogoResult(
-                    team=team,
-                    team_id=team_id,
-                    logo_url=logo_url,
-                    logo_filename=output_path.name,
-                    logo_path=relative_path,
-                    status="existing",
-                    message="Existing valid PNG retained.",
-                    width=int(existing.width),
-                    height=int(existing.height),
-                    bytes_written=output_path.stat().st_size,
-                )
-        except Exception:
-            logging.warning(
-                "%s has an invalid local logo; redownloading.",
-                team,
+        if existing is not None:
+            width, height, bytes_written = existing
+
+            return LogoResult(
+                team=team,
+                cfbfastr_team=cfbfastr_team,
+                team_id=team_id,
+                conference=conference,
+                mascot=mascot,
+                logo_url=logo_url,
+                logo_filename=output_path.name,
+                logo_path=relative_path,
+                status="existing",
+                message="Existing valid PNG retained.",
+                width=width,
+                height=height,
+                bytes_written=bytes_written,
             )
 
     try:
@@ -444,38 +403,42 @@ def download_logo(
         if response.status_code != 200:
             return LogoResult(
                 team=team,
+                cfbfastr_team=cfbfastr_team,
                 team_id=team_id,
+                conference=conference,
+                mascot=mascot,
                 logo_url=logo_url,
                 logo_filename=None,
                 logo_path=None,
                 status="failed",
                 message=(
-                    f"HTTP {response.status_code} returned "
-                    "by logo server."
+                    f"Logo server returned HTTP "
+                    f"{response.status_code}."
                 ),
             )
 
-        content = response.content
-
-        if not content:
+        if not response.content:
             return LogoResult(
                 team=team,
+                cfbfastr_team=cfbfastr_team,
                 team_id=team_id,
+                conference=conference,
+                mascot=mascot,
                 logo_url=logo_url,
                 logo_filename=None,
                 logo_path=None,
                 status="failed",
-                message="Logo response contained no data.",
+                message="Logo response was empty.",
             )
 
         image = open_downloaded_image(
-            content,
+            response.content,
             logo_url,
         )
 
         standardized = standardize_logo(
             image,
-            max_size=max_size,
+            max_size,
         )
 
         bytes_written = save_png(
@@ -485,7 +448,10 @@ def download_logo(
 
         return LogoResult(
             team=team,
+            cfbfastr_team=cfbfastr_team,
             team_id=team_id,
+            conference=conference,
+            mascot=mascot,
             logo_url=logo_url,
             logo_filename=output_path.name,
             logo_path=relative_path,
@@ -497,85 +463,40 @@ def download_logo(
         )
 
     except requests.RequestException as error:
-        return LogoResult(
-            team=team,
-            team_id=team_id,
-            logo_url=logo_url,
-            logo_filename=None,
-            logo_path=None,
-            status="failed",
-            message=f"Request failed: {error}",
-        )
+        message = f"Request failed: {error}"
 
     except Exception as error:
-        return LogoResult(
-            team=team,
-            team_id=team_id,
-            logo_url=logo_url,
-            logo_filename=None,
-            logo_path=None,
-            status="failed",
-            message=f"Image processing failed: {error}",
-        )
+        message = f"Image processing failed: {error}"
 
-
-def build_mapping_row(
-    source_row: pd.Series,
-    result: LogoResult,
-) -> dict[str, Any]:
-    """Create one cleaned team-to-logo mapping record."""
-
-    mapping = {
-        "cfbfastr_team": result.team,
-        "team_id": result.team_id,
-        "logo_path": result.logo_path,
-        "logo_filename": result.logo_filename,
-        "logo_url": result.logo_url,
-        "logo_status": result.status,
-        "logo_width": result.width,
-        "logo_height": result.height,
-        "logo_bytes": result.bytes_written,
-    }
-
-    optional_columns = [
-        "btb_team_short",
-        "mascot",
-        "btb_team",
-        "api_team",
-        "conference",
-    ]
-
-    for column in optional_columns:
-        if column in source_row.index:
-            mapping[column] = clean_text(
-                source_row[column]
-            )
-
-    return mapping
+    return LogoResult(
+        team=team,
+        cfbfastr_team=cfbfastr_team,
+        team_id=team_id,
+        conference=conference,
+        mascot=mascot,
+        logo_url=logo_url,
+        logo_filename=None,
+        logo_path=None,
+        status="failed",
+        message=message,
+    )
 
 
 def main() -> int:
-    """Run the complete logo-download pipeline."""
+    args = parse_arguments()
+    configure_logging(args.verbose)
 
-    arguments = parse_arguments()
-    configure_logging(arguments.verbose)
-
-    crosswalk_path = arguments.crosswalk.resolve()
-    logo_directory = arguments.logo_directory.resolve()
-    mapping_file = arguments.mapping_file.resolve()
-    report_file = arguments.report_file.resolve()
+    crosswalk_path = args.crosswalk.resolve()
+    logo_directory = args.logo_directory.resolve()
+    mapping_file = args.mapping_file.resolve()
+    report_file = args.report_file.resolve()
 
     if not crosswalk_path.exists():
         logging.error(
-            "Crosswalk file was not found: %s",
+            "Crosswalk file not found: %s",
             crosswalk_path,
         )
         return 1
-
-    logging.info(
-        "Reading crosswalk: %s",
-        crosswalk_path,
-    )
 
     crosswalk = pd.read_csv(
         crosswalk_path,
@@ -588,49 +509,46 @@ def main() -> int:
         logging.error("%s", error)
         return 1
 
-    # Remove rows without a team or URL.
-    crosswalk[TEAM_COLUMN] = (
-        crosswalk[TEAM_COLUMN]
-        .astype("string")
-        .str.strip()
-    )
-
-    crosswalk[LOGO_URL_COLUMN] = (
-        crosswalk[LOGO_URL_COLUMN]
-        .astype("string")
-        .str.strip()
-    )
+    for column in crosswalk.columns:
+        crosswalk[column] = (
+            crosswalk[column]
+            .astype("string")
+            .str.strip()
+        )
 
     usable = crosswalk[
-        crosswalk[TEAM_COLUMN].notna()
+        crosswalk[CHART_TEAM_COLUMN].notna()
         & crosswalk[LOGO_URL_COLUMN].notna()
-        & (crosswalk[TEAM_COLUMN] != "")
+        & (crosswalk[CHART_TEAM_COLUMN] != "")
         & (crosswalk[LOGO_URL_COLUMN] != "")
     ].copy()
 
     duplicate_count = int(
         usable.duplicated(
-            subset=[TEAM_COLUMN],
+            subset=[CHART_TEAM_COLUMN],
             keep="first",
         ).sum()
     )
 
     if duplicate_count:
         logging.warning(
-            "Found %d duplicate cfbfastr_team rows. "
-            "The first logo URL for each team will be used.",
+            "Found %d duplicate chart-team names. "
+            "The first row for each team will be used.",
             duplicate_count,
         )
 
-    usable = usable.drop_duplicates(
-        subset=[TEAM_COLUMN],
-        keep="first",
+    usable = (
+        usable
+        .drop_duplicates(
+            subset=[CHART_TEAM_COLUMN],
+            keep="first",
+        )
+        .sort_values(
+            CHART_TEAM_COLUMN,
+            kind="stable",
+        )
+        .reset_index(drop=True)
     )
-
-    usable = usable.sort_values(
-        TEAM_COLUMN,
-        kind="stable",
-    ).reset_index(drop=True)
 
     logo_directory.mkdir(
         parents=True,
@@ -652,38 +570,44 @@ def main() -> int:
         len(usable),
     )
 
-    logging.info(
-        "Logo directory: %s",
-        logo_directory,
-    )
-
     session = build_requests_session()
-
     results: list[LogoResult] = []
-    mapping_rows: list[dict[str, Any]] = []
 
     total = len(usable)
 
-    for index, source_row in usable.iterrows():
+    for index, row in usable.iterrows():
         team = clean_text(
-            source_row[TEAM_COLUMN]
+            row.get(CHART_TEAM_COLUMN)
+        )
+
+        full_team = clean_text(
+            row.get(FULL_TEAM_COLUMN)
         )
 
         logo_url = clean_text(
-            source_row[LOGO_URL_COLUMN]
+            row.get(LOGO_URL_COLUMN)
         )
 
-        team_id = (
-            clean_team_id(source_row[TEAM_ID_COLUMN])
-            if TEAM_ID_COLUMN in usable.columns
-            else None
+        team_id = clean_team_id(
+            row.get(TEAM_ID_COLUMN)
+        )
+
+        conference = clean_text(
+            row.get("conference")
+        )
+
+        mascot = clean_text(
+            row.get("mascot")
         )
 
         if team is None or logo_url is None:
             continue
 
-        slug = slugify_team_name(team)
-        output_path = logo_directory / f"{slug}.png"
+        # Filename is based on the chart/PBP team name.
+        output_path = (
+            logo_directory
+            / f"{slugify(team)}.png"
+        )
 
         logging.info(
             "[%d/%d] %s",
@@ -695,25 +619,21 @@ def main() -> int:
         result = download_logo(
             session=session,
             team=team,
+            cfbfastr_team=full_team,
             team_id=team_id,
+            conference=conference,
+            mascot=mascot,
             logo_url=logo_url,
             output_path=output_path,
-            max_size=arguments.max_size,
-            refresh=arguments.refresh,
+            max_size=args.max_size,
+            refresh=args.refresh,
         )
 
         results.append(result)
 
-        mapping_rows.append(
-            build_mapping_row(
-                source_row,
-                result,
-            )
-        )
-
         if result.status == "failed":
             logging.warning(
-                "Failed: %s — %s",
+                "%s: %s",
                 team,
                 result.message,
             )
@@ -723,67 +643,52 @@ def main() -> int:
     session.close()
 
     report = pd.DataFrame(
-        [
-            {
-                "cfbfastr_team": result.team,
-                "team_id": result.team_id,
-                "logo_url": result.logo_url,
-                "logo_filename": result.logo_filename,
-                "logo_path": result.logo_path,
-                "status": result.status,
-                "message": result.message,
-                "width": result.width,
-                "height": result.height,
-                "bytes_written": result.bytes_written,
-            }
-            for result in results
-        ]
+        [asdict(result) for result in results]
     )
 
-    mapping = pd.DataFrame(mapping_rows)
-
-    if not mapping.empty:
-        successful_statuses = {
-            "downloaded",
-            "existing",
-        }
-
-        mapping = mapping[
-            mapping["logo_status"].isin(
-                successful_statuses
-            )
-            & mapping["logo_path"].notna()
-        ].copy()
-
-        preferred_columns = [
-            "cfbfastr_team",
-            "team_id",
-            "conference",
-            "btb_team",
-            "btb_team_short",
-            "mascot",
-            "api_team",
-            "logo_path",
-            "logo_filename",
-            "logo_url",
-            "logo_status",
-            "logo_width",
-            "logo_height",
-            "logo_bytes",
-        ]
-
-        existing_columns = [
-            column
-            for column in preferred_columns
-            if column in mapping.columns
-        ]
-
-        mapping = mapping[existing_columns]
-
-        mapping = mapping.sort_values(
-            "cfbfastr_team",
-            kind="stable",
+    successful = report[
+        report["status"].isin(
+            ["downloaded", "existing"]
         )
+        & report["logo_path"].notna()
+    ].copy()
+
+    mapping_columns = [
+        "team",
+        "cfbfastr_team",
+        "team_id",
+        "conference",
+        "mascot",
+        "logo_path",
+        "logo_filename",
+        "logo_url",
+        "status",
+        "width",
+        "height",
+        "bytes_written",
+    ]
+
+    mapping = successful[
+        [
+            column
+            for column in mapping_columns
+            if column in successful.columns
+        ]
+    ].copy()
+
+    mapping = mapping.rename(
+        columns={
+            "status": "logo_status",
+            "width": "logo_width",
+            "height": "logo_height",
+            "bytes_written": "logo_bytes",
+        }
+    )
+
+    mapping = mapping.sort_values(
+        "team",
+        kind="stable",
+    )
 
     mapping.to_csv(
         mapping_file,
@@ -795,19 +700,16 @@ def main() -> int:
         index=False,
     )
 
-    downloaded_count = sum(
-        result.status == "downloaded"
-        for result in results
+    downloaded_count = int(
+        (report["status"] == "downloaded").sum()
     )
 
-    existing_count = sum(
-        result.status == "existing"
-        for result in results
+    existing_count = int(
+        (report["status"] == "existing").sum()
     )
 
-    failed_count = sum(
-        result.status == "failed"
-        for result in results
+    failed_count = int(
+        (report["status"] == "failed").sum()
     )
 
     logging.info("")
@@ -815,9 +717,9 @@ def main() -> int:
     logging.info("Downloaded: %d", downloaded_count)
     logging.info("Existing: %d", existing_count)
     logging.info("Failed: %d", failed_count)
-    logging.info("Mapping rows: %d", len(mapping))
-    logging.info("Mapping file: %s", mapping_file)
-    logging.info("Report file: %s", report_file)
+    logging.info("Mapped teams: %d", len(mapping))
+    logging.info("Mapping: %s", mapping_file)
+    logging.info("Report: %s", report_file)
 
     return 0 if failed_count == 0 else 2
 
