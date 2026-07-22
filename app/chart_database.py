@@ -36,6 +36,21 @@ FBS_CROSSWALK_FILE = (
 
 
 # =============================================================================
+# Known name differences between the parquet and crosswalk
+# =============================================================================
+
+RAW_TEAM_ALIASES = {
+    "uconn": "Connecticut",
+    "massachusetts": "UMass",
+    "utsa": "UT San Antonio",
+    "ul monroe": "Louisiana Monroe",
+    "sam houston": "Sam Houston State",
+    "san josé state": "San Jose State",
+    "southern miss": "Southern Mississippi",
+}
+
+
+# =============================================================================
 # Final chart-data structure
 # =============================================================================
 
@@ -88,23 +103,32 @@ def _normalize_team_key(
     series: pd.Series,
 ) -> pd.Series:
     """
-    Create a case-insensitive team-matching key.
+    Create a standardized team-matching key and apply known aliases.
 
-    This handles harmless capitalization and spacing differences
-    between the parquet data and the FBS crosswalk.
+    The returned key is case-insensitive and collapses repeated spaces.
+    Parquet aliases are converted to their matching crosswalk names.
     """
 
-    return (
+    normalized = (
         series
         .fillna("")
         .astype(str)
         .str.strip()
-        .str.lower()
+        .str.casefold()
         .str.replace(
             r"\s+",
             " ",
             regex=True,
         )
+    )
+
+    alias_lookup = {
+        raw_name.casefold(): crosswalk_name.casefold()
+        for raw_name, crosswalk_name in RAW_TEAM_ALIASES.items()
+    }
+
+    return normalized.replace(
+        alias_lookup
     )
 
 
@@ -174,7 +198,7 @@ def get_fbs_crosswalk() -> pd.DataFrame:
     Return the authoritative FBS team and conference crosswalk.
 
     The crosswalk contains only FBS teams. Its btb_team_short
-    column matches the short school names in the situational data.
+    column provides the chart-facing team name.
     """
 
     _require_file(
@@ -304,7 +328,7 @@ def filter_to_fbs(
         filtered["team"]
     )
 
-    # Remove any source conference field. The crosswalk is authoritative.
+    # The crosswalk is the authoritative conference source.
     if "conference" in filtered.columns:
         filtered = filtered.drop(
             columns=["conference"]
@@ -423,6 +447,7 @@ def get_available_chart_teams() -> list[str]:
     Return FBS teams found in the situational dataset.
 
     A team can appear as an offense, an opponent, or both.
+    Known parquet aliases are normalized before the FBS join.
     """
 
     if not SITUATIONAL_FILE.exists():
@@ -732,11 +757,11 @@ def _aggregate_team_rows(
     """
     Create one chart row per team.
 
-    The raw situational data is offense-oriented:
+    Raw data is offense-oriented:
 
     - team is the offensive team;
     - opponent is the defensive team;
-    - plays and totals describe the offense's results.
+    - totals describe the offensive team's performance.
 
     Offensive statistics are grouped by team.
     Defensive statistics allowed are grouped by opponent.
@@ -1000,13 +1025,9 @@ def get_team_tiers_data(
     """
     Return one offense-versus-defense row per qualifying FBS team.
 
-    All raw games remain eligible, including games played against FCS
-    opponents. The final chart population itself is restricted to FBS
-    teams using the authoritative crosswalk.
-
-    This means an FBS team's season statistics can still include its
-    performance in an FBS-versus-FCS game, while the FCS team itself
-    cannot appear as a chart team or influence FBS benchmark membership.
+    Raw games against FCS opponents remain part of each FBS team's
+    statistics. Only the final chart population is restricted to FBS
+    teams using the crosswalk.
     """
 
     if week_start > week_end:
@@ -1055,7 +1076,8 @@ def get_team_tiers_data(
         raw_rows
     )
 
-    # This inner join removes FCS teams from the chart population.
+    # Known aliases are normalized inside filter_to_fbs().
+    # This join removes FCS teams from the chart population.
     fbs_data = filter_to_fbs(
         aggregated
     )
