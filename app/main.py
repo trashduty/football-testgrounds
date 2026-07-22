@@ -1,17 +1,32 @@
+from __future__ import annotations
+
 from pathlib import Path
+from typing import Annotated
 
 import duckdb
 from fastapi import FastAPI, HTTPException, Query
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
 
+from app.chart_database import (
+    SITUATIONAL_FILE,
+    dataframe_to_records,
+    get_available_chart_seasons,
+    get_available_conferences,
+    get_situational_metadata,
+    get_team_tiers_data,
+)
+from app.charts import (
+    TeamTiersChartOptions,
+    render_team_tiers_image,
+)
 from app.database import RANKINGS_FILE, get_team_metric
 from app.query_parser import parse_query
 
 
 app = FastAPI(
     title="CFB Statistics Query",
-    version="1.0.0",
+    version="1.1.0",
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,9 +41,7 @@ app.mount(
 
 
 def get_available_teams() -> list[str]:
-    """
-    Return all distinct team names available in the rankings file.
-    """
+    """Return all team names available in the rankings file."""
     if not RANKINGS_FILE.exists():
         return []
 
@@ -52,10 +65,7 @@ def get_available_teams() -> list[str]:
 
 
 def get_latest_season() -> int:
-    """
-    Return the latest season available in the rankings file.
-    Falls back to 2025 if the file is unavailable or empty.
-    """
+    """Return the latest season represented in the rankings file."""
     if not RANKINGS_FILE.exists():
         return 2025
 
@@ -79,9 +89,7 @@ def get_latest_season() -> int:
 
 
 def humanize_metric(metric: str) -> str:
-    """
-    Convert internal metric names into user-facing labels.
-    """
+    """Convert internal metric identifiers to readable labels."""
     labels = {
         "off_epa_per_play": "EPA per play",
         "off_epa_per_rush": "EPA per rush",
@@ -89,49 +97,63 @@ def humanize_metric(metric: str) -> str:
         "off_success_rate": "success rate",
         "off_rush_success_rate": "rushing success rate",
         "off_pass_success_rate": "passing success rate",
-        "def_epa_allowed_per_play": "defensive EPA allowed per play",
-        "def_epa_allowed_per_rush": "defensive EPA allowed per rush",
-        "def_epa_allowed_per_pass": "defensive EPA allowed per pass",
+        "def_epa_allowed_per_play": (
+            "defensive EPA allowed per play"
+        ),
+        "def_epa_allowed_per_rush": (
+            "defensive EPA allowed per rush"
+        ),
+        "def_epa_allowed_per_pass": (
+            "defensive EPA allowed per pass"
+        ),
         "def_success_rate_allowed": "success rate allowed",
-        "def_rush_success_rate_allowed": "rushing success rate allowed",
-        "def_pass_success_rate_allowed": "passing success rate allowed",
+        "def_rush_success_rate_allowed": (
+            "rushing success rate allowed"
+        ),
+        "def_pass_success_rate_allowed": (
+            "passing success rate allowed"
+        ),
     }
 
-    return labels.get(metric, metric.replace("_", " "))
+    return labels.get(
+        metric,
+        metric.replace("_", " "),
+    )
 
 
 def format_answer(result: dict) -> str:
-    """
-    Build a readable answer from a statistics result.
-    """
+    """Build a readable natural-language statistics response."""
     metric = str(result["metric"])
     metric_label = humanize_metric(metric)
 
     value = float(result["value"])
     average = float(result["league_average"])
-    difference = float(result["difference_from_average"])
+    difference = float(
+        result["difference_from_average"]
+    )
 
     if "success_rate" in metric:
         value_text = f"{value:.1%}"
         average_text = f"{average:.1%}"
-        absolute_difference_text = f"{abs(difference):.1%}"
+        difference_text = f"{abs(difference):.1%}"
     else:
         value_text = f"{value:.3f}"
         average_text = f"{average:.3f}"
-        absolute_difference_text = f"{abs(difference):.3f}"
+        difference_text = f"{abs(difference):.3f}"
 
     if difference > 0:
         comparison_text = (
-            f"{absolute_difference_text} above the FBS average"
+            f"{difference_text} above the FBS average"
         )
     elif difference < 0:
         comparison_text = (
-            f"{absolute_difference_text} below the FBS average"
+            f"{difference_text} below the FBS average"
         )
     else:
         comparison_text = "equal to the FBS average"
 
     sample_size = result.get("sample_size")
+
     sample_text = (
         f"{int(sample_size):,}"
         if sample_size is not None
@@ -139,21 +161,87 @@ def format_answer(result: dict) -> str:
     )
 
     return (
-        f"{result['team']} posted {value_text} {metric_label} "
-        f"in {result['season']}. "
+        f"{result['team']} posted {value_text} "
+        f"{metric_label} in {result['season']}. "
         f"That ranked {result['rank']} of "
         f"{result['teams_ranked']} teams. "
         f"The FBS average was {average_text}, putting "
         f"{result['team']} {comparison_text}. "
-        f"The calculation included {sample_text} qualifying plays."
+        f"The calculation included {sample_text} "
+        f"qualifying plays."
+    )
+
+
+def parse_integer_csv(
+    raw_value: str,
+    *,
+    field_name: str,
+) -> list[int]:
+    """
+    Convert a comma-separated query parameter into integers.
+
+    Example:
+        "1,2,3,4" -> [1, 2, 3, 4]
+    """
+    try:
+        values = [
+            int(part.strip())
+            for part in raw_value.split(",")
+            if part.strip()
+        ]
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                f"{field_name} must contain comma-separated "
+                "integers."
+            ),
+        ) from error
+
+    if not values:
+        raise HTTPException(
+            status_code=400,
+            detail=f"{field_name} cannot be empty.",
+        )
+
+    return values
+
+
+def build_chart_options(
+    *,
+    season: int,
+    week_start: int,
+    week_end: int,
+    play_type: str,
+    downs: list[int],
+    periods: list[int],
+    exclude_garbage_time: bool,
+    minimum_plays: int,
+    conference: str | None,
+    red_zone_only: bool,
+    goal_to_go_only: bool,
+    season_type: str | None,
+) -> TeamTiersChartOptions:
+    """Create one chart-options object for rendering."""
+    return TeamTiersChartOptions(
+        season=season,
+        week_start=week_start,
+        week_end=week_end,
+        play_type=play_type,
+        downs=downs,
+        periods=periods,
+        exclude_garbage_time=exclude_garbage_time,
+        minimum_plays=minimum_plays,
+        conference=conference,
+        red_zone_only=red_zone_only,
+        goal_to_go_only=goal_to_go_only,
+        season_type=season_type,
     )
 
 
 @app.get("/", response_class=HTMLResponse)
 def home() -> str:
-    """
-    Serve the main search webpage.
-    """
+    """Serve the existing statistics-search interface."""
     if not INDEX_FILE.exists():
         return """
         <!DOCTYPE html>
@@ -168,7 +256,9 @@ def home() -> str:
         </head>
         <body>
             <h1>CFB Statistics Query</h1>
-            <p>The API is running, but index.html was not found.</p>
+            <p>
+                The API is running, but index.html was not found.
+            </p>
         </body>
         </html>
         """
@@ -178,13 +268,13 @@ def home() -> str:
 
 @app.get("/health")
 def health() -> dict:
-    """
-    Return a simple application and data-file health check.
-    """
+    """Return application and dataset health information."""
     return {
         "status": "ok",
         "rankings_file_exists": RANKINGS_FILE.exists(),
         "rankings_file": str(RANKINGS_FILE),
+        "situational_file_exists": SITUATIONAL_FILE.exists(),
+        "situational_file": str(SITUATIONAL_FILE),
         "latest_season": get_latest_season(),
         "team_count": len(get_available_teams()),
     }
@@ -192,9 +282,7 @@ def health() -> dict:
 
 @app.get("/api/teams")
 def teams() -> dict:
-    """
-    Return the list of available teams.
-    """
+    """Return teams available to the natural-language query app."""
     available_teams = get_available_teams()
 
     return {
@@ -207,11 +295,13 @@ def teams() -> dict:
 def team_stat(
     team: str = Query(..., min_length=2),
     metric: str = Query(..., min_length=3),
-    season: int | None = Query(default=None, ge=2014, le=2030),
+    season: int | None = Query(
+        default=None,
+        ge=2014,
+        le=2030,
+    ),
 ) -> dict:
-    """
-    Retrieve a structured team statistic.
-    """
+    """Retrieve a structured team-season statistic."""
     selected_season = season or get_latest_season()
 
     try:
@@ -241,7 +331,6 @@ def team_stat(
         )
 
     result["answer"] = format_answer(result)
-
     return result
 
 
@@ -249,9 +338,7 @@ def team_stat(
 def search(
     q: str = Query(..., min_length=3),
 ) -> dict:
-    """
-    Parse a natural-language question and return a team statistic.
-    """
+    """Parse a natural-language question and return a statistic."""
     available_teams = get_available_teams()
 
     if not available_teams:
@@ -263,12 +350,10 @@ def search(
             ),
         )
 
-    latest_season = get_latest_season()
-
     parsed = parse_query(
         query=q,
         team_names=available_teams,
-        default_season=latest_season,
+        default_season=get_latest_season(),
     )
 
     if parsed["team"] is None:
@@ -322,3 +407,278 @@ def search(
         "result": result,
         "answer": format_answer(result),
     }
+
+
+@app.get("/api/charts/metadata")
+def chart_metadata() -> dict:
+    """Return situational data availability and filter options."""
+    metadata = get_situational_metadata()
+
+    return {
+        "dataset": metadata,
+        "seasons": get_available_chart_seasons(),
+        "conferences": get_available_conferences(),
+        "supported_filters": {
+            "play_types": ["all", "rush", "pass"],
+            "downs": [1, 2, 3, 4],
+            "periods": [1, 2, 3, 4, 5],
+            "garbage_time": True,
+            "conference": True,
+            "red_zone": True,
+            "goal_to_go": True,
+            "season_type": True,
+        },
+    }
+
+
+@app.get("/api/charts/team-tiers/data")
+def team_tiers_data(
+    season: Annotated[
+        int,
+        Query(ge=2014, le=2030),
+    ] = 2025,
+    week_start: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 1,
+    week_end: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 20,
+    play_type: Annotated[
+        str,
+        Query(pattern="^(all|rush|pass)$"),
+    ] = "all",
+    downs: str = Query(default="1,2,3,4"),
+    periods: str = Query(default="1,2,3,4"),
+    exclude_garbage_time: bool = Query(default=True),
+    minimum_plays: Annotated[
+        int,
+        Query(ge=1, le=5000),
+    ] = 100,
+    conference: str | None = Query(default=None),
+    red_zone_only: bool = Query(default=False),
+    goal_to_go_only: bool = Query(default=False),
+    season_type: str | None = Query(default=None),
+) -> dict:
+    """Return the team-tiers calculation as JSON."""
+    selected_downs = parse_integer_csv(
+        downs,
+        field_name="downs",
+    )
+
+    selected_periods = parse_integer_csv(
+        periods,
+        field_name="periods",
+    )
+
+    try:
+        dataframe = get_team_tiers_data(
+            season=season,
+            week_start=week_start,
+            week_end=week_end,
+            play_type=play_type,
+            downs=selected_downs,
+            periods=selected_periods,
+            exclude_garbage_time=exclude_garbage_time,
+            minimum_plays=minimum_plays,
+            conference=conference,
+            red_zone_only=red_zone_only,
+            goal_to_go_only=goal_to_go_only,
+            season_type=season_type,
+        )
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=503,
+            detail=str(error),
+        ) from error
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        ) from error
+
+    if dataframe.empty:
+        raise HTTPException(
+            status_code=404,
+            detail=(
+                "No teams met the selected chart filters and "
+                "minimum-play requirement."
+            ),
+        )
+
+    return {
+        "chart": "team_tiers",
+        "filters": {
+            "season": season,
+            "week_start": week_start,
+            "week_end": week_end,
+            "play_type": play_type,
+            "downs": selected_downs,
+            "periods": selected_periods,
+            "exclude_garbage_time": (
+                exclude_garbage_time
+            ),
+            "minimum_plays": minimum_plays,
+            "conference": conference,
+            "red_zone_only": red_zone_only,
+            "goal_to_go_only": goal_to_go_only,
+            "season_type": season_type,
+        },
+        "team_count": len(dataframe),
+        "teams": dataframe_to_records(dataframe),
+    }
+
+
+@app.get(
+    "/api/charts/team-tiers.png",
+    response_class=Response,
+    responses={
+        200: {
+            "content": {
+                "image/png": {},
+            },
+            "description": "Rendered team-tiers PNG.",
+        }
+    },
+)
+def team_tiers_png(
+    season: Annotated[
+        int,
+        Query(ge=2014, le=2030),
+    ] = 2025,
+    week_start: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 1,
+    week_end: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 20,
+    play_type: Annotated[
+        str,
+        Query(pattern="^(all|rush|pass)$"),
+    ] = "all",
+    downs: str = Query(default="1,2,3,4"),
+    periods: str = Query(default="1,2,3,4"),
+    exclude_garbage_time: bool = Query(default=True),
+    minimum_plays: Annotated[
+        int,
+        Query(ge=1, le=5000),
+    ] = 100,
+    conference: str | None = Query(default=None),
+    red_zone_only: bool = Query(default=False),
+    goal_to_go_only: bool = Query(default=False),
+    season_type: str | None = Query(default=None),
+    width: Annotated[
+        int,
+        Query(ge=800, le=3000),
+    ] = 1600,
+    height: Annotated[
+        int,
+        Query(ge=600, le=2400),
+    ] = 1000,
+    scale: Annotated[
+        float,
+        Query(gt=0, le=3),
+    ] = 1.0,
+    download: bool = Query(default=False),
+) -> Response:
+    """Render the filtered team-tiers chart as a PNG."""
+    selected_downs = parse_integer_csv(
+        downs,
+        field_name="downs",
+    )
+
+    selected_periods = parse_integer_csv(
+        periods,
+        field_name="periods",
+    )
+
+    try:
+        dataframe = get_team_tiers_data(
+            season=season,
+            week_start=week_start,
+            week_end=week_end,
+            play_type=play_type,
+            downs=selected_downs,
+            periods=selected_periods,
+            exclude_garbage_time=exclude_garbage_time,
+            minimum_plays=minimum_plays,
+            conference=conference,
+            red_zone_only=red_zone_only,
+            goal_to_go_only=goal_to_go_only,
+            season_type=season_type,
+        )
+
+        if dataframe.empty:
+            raise HTTPException(
+                status_code=404,
+                detail=(
+                    "No teams met the selected chart filters "
+                    "and minimum-play requirement."
+                ),
+            )
+
+        options = build_chart_options(
+            season=season,
+            week_start=week_start,
+            week_end=week_end,
+            play_type=play_type,
+            downs=selected_downs,
+            periods=selected_periods,
+            exclude_garbage_time=exclude_garbage_time,
+            minimum_plays=minimum_plays,
+            conference=conference,
+            red_zone_only=red_zone_only,
+            goal_to_go_only=goal_to_go_only,
+            season_type=season_type,
+        )
+
+        image_bytes = render_team_tiers_image(
+            dataframe=dataframe,
+            options=options,
+            image_format="png",
+            width=width,
+            height=height,
+            scale=scale,
+        )
+    except HTTPException:
+        raise
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=503,
+            detail=str(error),
+        ) from error
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        ) from error
+    except Exception as error:
+        raise HTTPException(
+            status_code=500,
+            detail=(
+                "The chart could not be rendered. Confirm that "
+                "Plotly, Kaleido, and Chrome are installed. "
+                f"Technical detail: {error}"
+            ),
+        ) from error
+
+    disposition = "attachment" if download else "inline"
+
+    filename = (
+        f"cfb-team-tiers-{season}-"
+        f"weeks-{week_start}-{week_end}.png"
+    )
+
+    return Response(
+        content=image_bytes,
+        media_type="image/png",
+        headers={
+            "Content-Disposition": (
+                f'{disposition}; filename="{filename}"'
+            ),
+            "Cache-Control": "public, max-age=300",
+        },
+    )
