@@ -34,12 +34,16 @@
         </h1>
 
         <p class="header-description">
-          Generate filtered college football team-tier
-          graphics from historical play-by-play data.
+          Compare college football teams using configurable
+          play-by-play metrics, situations, conferences, and
+          all-FBS benchmarks.
         </p>
       </div>
 
-      <nav class="header-nav" aria-label="Primary navigation">
+      <nav
+        class="header-nav"
+        aria-label="Primary navigation"
+      >
         <a href="/">
           Stat Search
         </a>
@@ -79,6 +83,73 @@
       <form id="chart-filter-form">
         <section class="filter-section">
           <h3>
+            Metric and display
+          </h3>
+
+          <div class="form-grid">
+            <label class="form-field">
+              <span>
+                Chart metric
+              </span>
+
+              <select
+                id="chart-metric"
+                name="metric"
+              >
+                <option value="epa">
+                  EPA per play
+                </option>
+
+                <option value="success_rate">
+                  Success rate
+                </option>
+
+                <option value="yards_per_play">
+                  Yards per play
+                </option>
+
+                <option value="explosive_rate">
+                  Explosive-play rate
+                </option>
+              </select>
+            </label>
+
+            <label class="form-field">
+              <span>
+                Logo size
+              </span>
+
+              <select
+                id="logo-size"
+                name="logo_size"
+              >
+                <option value="auto">
+                  Automatic
+                </option>
+
+                <option value="standard">
+                  Standard
+                </option>
+
+                <option value="large">
+                  Large
+                </option>
+
+                <option value="extra_large">
+                  Extra large
+                </option>
+              </select>
+
+              <small>
+                Automatic enlarges logos when fewer teams
+                are displayed.
+              </small>
+            </label>
+          </div>
+        </section>
+
+        <section class="filter-section">
+          <h3>
             Season and weeks
           </h3>
 
@@ -97,6 +168,26 @@
                   Loading…
                 </option>
               </select>
+            </label>
+
+            <label class="form-field">
+              <span>
+                Conference display
+              </span>
+
+              <select
+                id="conference"
+                name="conference"
+              >
+                <option value="">
+                  All FBS conferences
+                </option>
+              </select>
+
+              <small>
+                This changes displayed teams only. Axes and
+                dashed averages continue to use all FBS teams.
+              </small>
             </label>
 
             <label class="form-field">
@@ -130,22 +221,73 @@
                 required
               >
             </label>
+          </div>
+        </section>
 
-            <label class="form-field">
+        <section class="filter-section">
+          <div class="team-filter-heading">
+            <div>
+              <h3>
+                Teams to display
+              </h3>
+
+              <p>
+                Add multiple teams for a direct comparison.
+                Axes and dashed averages remain based on every
+                qualifying FBS team.
+              </p>
+            </div>
+
+            <button
+              id="clear-teams"
+              class="text-button"
+              type="button"
+            >
+              Clear
+            </button>
+          </div>
+
+          <div class="team-search-row">
+            <label class="form-field team-search-field">
               <span>
-                Conference
+                Search teams
               </span>
 
-              <select
-                id="conference"
-                name="conference"
+              <input
+                id="team-search"
+                type="search"
+                list="team-options"
+                placeholder="Start typing a team name"
+                autocomplete="off"
               >
-                <option value="">
-                  All conferences
-                </option>
-              </select>
+
+              <datalist id="team-options"></datalist>
             </label>
+
+            <button
+              id="add-team"
+              class="secondary-button team-add-button"
+              type="button"
+            >
+              Add team
+            </button>
           </div>
+
+          <div
+            id="selected-teams"
+            class="selected-team-list"
+            aria-live="polite"
+          >
+            <span class="empty-team-message">
+              No teams selected
+            </span>
+          </div>
+
+          <p class="filter-help">
+            Selected teams take precedence over the conference
+            display filter, allowing comparisons between teams
+            from different conferences.
+          </p>
         </section>
 
         <section class="filter-section">
@@ -342,8 +484,8 @@
                 </strong>
 
                 <small>
-                  Excludes plays below 5% or above
-                  95% pre-play win probability.
+                  Excludes plays below 5% or above 95%
+                  pre-play win probability.
                 </small>
               </span>
 
@@ -416,8 +558,8 @@
             >
 
             <small>
-              Teams must have at least this many offensive
-              and defensive qualifying plays.
+              A team must have at least this many qualifying
+              offensive plays and defensive plays.
             </small>
           </label>
         </section>
@@ -451,7 +593,7 @@
           </p>
 
           <h2>
-            Offensive vs. defensive EPA
+            Offensive vs. defensive performance
           </h2>
 
           <p id="chart-summary">
@@ -464,9 +606,20 @@
           class="status-badge"
           role="status"
           aria-live="polite"
+          data-state="ready"
         >
           Ready
         </div>
+      </div>
+
+      <div class="benchmark-notice">
+        <strong>
+          Benchmark behavior:
+        </strong>
+
+        Conference and team selections control which logos are
+        displayed. Axis ranges and dashed averages continue to
+        represent every qualifying FBS team.
       </div>
 
       <div
@@ -490,8 +643,9 @@
           </h3>
 
           <p>
-            The server will calculate the selected filters
-            and return a downloadable PNG using team logos.
+            Choose a metric and situation, select a conference
+            or individual teams, and generate a downloadable
+            team-logo chart.
           </p>
         </div>
 
@@ -503,12 +657,13 @@
           <div class="spinner"></div>
 
           <p>
-            Querying play-by-play data and rendering logos…
+            Querying play-by-play data and rendering team logos…
           </p>
         </div>
 
         <img
           id="chart-image"
+          class="chart-image"
           alt="Filtered CFB Team Tiers chart"
           hidden
         >
@@ -519,9 +674,10 @@
           Reading the chart:
         </strong>
 
-        Better offenses appear farther right. Because lower
-        defensive EPA allowed is better, stronger defenses
-        appear higher.
+        Better offenses appear farther right. Lower defensive
+        EPA, success rate allowed, yards allowed, and explosive
+        rate allowed are better, so stronger defenses appear
+        higher.
       </div>
     </section>
   </main>
