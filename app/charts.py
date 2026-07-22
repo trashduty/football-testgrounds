@@ -69,7 +69,7 @@ METRIC_CONFIG = {
     "yards_per_play": {
         "label": "Yards per Play",
         "offense_column": "off_yards_per_play",
-        "defense_column": "def_yards_allowed_per_play,
+        "defense_column": "def_yards_allowed_per_play",
         "offense_axis": "Offensive yards per play → better offense",
         "defense_axis": (
             "Better defense ← defensive yards per play allowed"
