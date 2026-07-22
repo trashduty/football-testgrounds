@@ -1,20 +1,40 @@
 from __future__ import annotations
 
-import base64
-import os
-from dataclasses import dataclass
-from io import BytesIO
 from pathlib import Path
-from typing import Literal
+from typing import Annotated, Any
 
+import duckdb
 import pandas as pd
-import plotly.graph_objects as go
-import plotly.io as pio
-from PIL import Image
+from fastapi import FastAPI, HTTPException, Query
+from fastapi.responses import HTMLResponse, Response
+from fastapi.staticfiles import StaticFiles
 
+from app.chart_database import (
+    SITUATIONAL_FILE,
+    dataframe_to_records,
+    get_available_chart_seasons,
+    get_available_conferences,
+    get_situational_metadata,
+    get_team_tiers_data,
+)
+from app.charts import (
+    TeamTiersChartOptions,
+    render_team_tiers_image,
+)
+from app.database import RANKINGS_FILE, get_team_metric
+from app.query_parser import parse_query
+
+
+app = FastAPI(
+    title="CFB Statistics Query",
+    version="1.2.0",
+)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+INDEX_FILE = BASE_DIR / "app" / "templates" / "index.html"
+STATIC_DIR = BASE_DIR / "app" / "static"
 
+LOGO_DIRECTORY = BASE_DIR / "assets" / "team_logos"
 LOGO_MAP_FILE = (
     BASE_DIR
     / "data"
@@ -22,769 +42,757 @@ LOGO_MAP_FILE = (
     / "team_logo_map.csv"
 )
 
-DEFAULT_CHROME_PATH = Path(
-    "/home/codespace/.local/share/choreographer/"
-    "deps/chrome-linux64/chrome"
+app.mount(
+    "/static",
+    StaticFiles(directory=STATIC_DIR),
+    name="static",
 )
 
-if (
-    not os.environ.get("BROWSER_PATH")
-    and DEFAULT_CHROME_PATH.exists()
-):
-    os.environ["BROWSER_PATH"] = str(DEFAULT_CHROME_PATH)
+
+def get_available_teams() -> list[str]:
+    """Return all teams available in the rankings file."""
+
+    if not RANKINGS_FILE.exists():
+        return []
+
+    connection = duckdb.connect(database=":memory:")
+
+    try:
+        rows = connection.execute(
+            """
+            SELECT DISTINCT team
+            FROM read_parquet(?)
+            WHERE team IS NOT NULL
+              AND trim(team) <> ''
+            ORDER BY team
+            """,
+            [str(RANKINGS_FILE)],
+        ).fetchall()
+    finally:
+        connection.close()
+
+    return [str(row[0]) for row in rows]
 
 
-ImageFormat = Literal["png", "svg", "pdf"]
+def get_latest_season() -> int:
+    """Return the latest season in the rankings file."""
+
+    if not RANKINGS_FILE.exists():
+        return 2025
+
+    connection = duckdb.connect(database=":memory:")
+
+    try:
+        result = connection.execute(
+            """
+            SELECT MAX(season)
+            FROM read_parquet(?)
+            """,
+            [str(RANKINGS_FILE)],
+        ).fetchone()
+    finally:
+        connection.close()
+
+    if not result or result[0] is None:
+        return 2025
+
+    return int(result[0])
 
 
-@dataclass(frozen=True)
-class TeamTiersChartOptions:
-    season: int
-    week_start: int
-    week_end: int
-    play_type: str
-    downs: list[int]
-    periods: list[int]
-    exclude_garbage_time: bool
-    minimum_plays: int
-    conference: str | None = None
-    red_zone_only: bool = False
-    goal_to_go_only: bool = False
-    season_type: str | None = None
+def get_logo_metadata() -> dict[str, Any]:
+    """Return local team-logo asset information."""
 
+    png_count = 0
 
-def _format_list(
-    values: list[int],
-    prefix: str,
-) -> str:
-    """Format active numeric filters for the chart subtitle."""
-
-    sorted_values = sorted(set(values))
-
-    if (
-        prefix == "Downs"
-        and sorted_values == [1, 2, 3, 4]
-    ):
-        return "All downs"
-
-    if (
-        prefix == "Quarters"
-        and sorted_values == [1, 2, 3, 4]
-    ):
-        return "Regulation"
-
-    joined = ", ".join(
-        str(value)
-        for value in sorted_values
-    )
-
-    return f"{prefix}: {joined}"
-
-
-def _build_subtitle(
-    options: TeamTiersChartOptions,
-) -> str:
-    """Create a readable summary of active filters."""
-
-    parts = [
-        (
-            f"Weeks {options.week_start}–{options.week_end}"
-            if options.week_start != options.week_end
-            else f"Week {options.week_start}"
-        ),
-        (
-            "All plays"
-            if options.play_type == "all"
-            else f"{options.play_type.title()} plays"
-        ),
-        _format_list(
-            options.downs,
-            "Downs",
-        ),
-        _format_list(
-            options.periods,
-            "Quarters",
-        ),
-        (
-            "Competitive plays only"
-            if options.exclude_garbage_time
-            else "Includes extreme win-probability plays"
-        ),
-        (
-            f"Minimum {options.minimum_plays} "
-            "plays per unit"
-        ),
-    ]
-
-    if options.conference:
-        parts.append(options.conference)
-
-    if options.red_zone_only:
-        parts.append("Red zone only")
-
-    if options.goal_to_go_only:
-        parts.append("Goal-to-go only")
-
-    if options.season_type:
-        parts.append(
-            f"{options.season_type.title()} season"
+    if LOGO_DIRECTORY.exists():
+        png_count = sum(
+            1
+            for path in LOGO_DIRECTORY.glob("*.png")
+            if path.is_file()
         )
 
-    return " | ".join(parts)
+    mapping_rows = 0
+    mapped_teams: list[str] = []
 
+    if LOGO_MAP_FILE.exists():
+        try:
+            mapping = pd.read_csv(LOGO_MAP_FILE)
 
-def _load_logo_map() -> dict[str, Path]:
-    """
-    Load cfbfastr team names and local logo paths.
+            mapping_rows = len(mapping)
 
-    Returns:
-        {
-            "Alabama": Path(...),
-            "Ohio State": Path(...),
-        }
-    """
+            if "cfbfastr_team" in mapping.columns:
+                mapped_teams = sorted(
+                    mapping["cfbfastr_team"]
+                    .dropna()
+                    .astype(str)
+                    .str.strip()
+                    .loc[lambda values: values != ""]
+                    .unique()
+                    .tolist()
+                )
+        except Exception:
+            mapping_rows = 0
+            mapped_teams = []
 
-    if not LOGO_MAP_FILE.exists():
-        return {}
-
-    mapping = pd.read_csv(
-        LOGO_MAP_FILE,
-        dtype=str,
-    )
-
-    required_columns = {
-        "cfbfastr_team",
-        "logo_path",
+    return {
+        "logo_directory_exists": LOGO_DIRECTORY.exists(),
+        "logo_directory": str(LOGO_DIRECTORY),
+        "logo_png_count": png_count,
+        "logo_map_exists": LOGO_MAP_FILE.exists(),
+        "logo_map_file": str(LOGO_MAP_FILE),
+        "logo_map_rows": mapping_rows,
+        "mapped_team_count": len(mapped_teams),
+        "mapped_teams": mapped_teams,
     }
 
-    missing = required_columns.difference(
-        mapping.columns
+
+def humanize_metric(metric: str) -> str:
+    """Convert internal metric names to readable labels."""
+
+    labels = {
+        "off_epa_per_play": "EPA per play",
+        "off_epa_per_rush": "EPA per rush",
+        "off_epa_per_pass": "EPA per pass",
+        "off_success_rate": "success rate",
+        "off_rush_success_rate": (
+            "rushing success rate"
+        ),
+        "off_pass_success_rate": (
+            "passing success rate"
+        ),
+        "def_epa_allowed_per_play": (
+            "defensive EPA allowed per play"
+        ),
+        "def_epa_allowed_per_rush": (
+            "defensive EPA allowed per rush"
+        ),
+        "def_epa_allowed_per_pass": (
+            "defensive EPA allowed per pass"
+        ),
+        "def_success_rate_allowed": (
+            "success rate allowed"
+        ),
+        "def_rush_success_rate_allowed": (
+            "rushing success rate allowed"
+        ),
+        "def_pass_success_rate_allowed": (
+            "passing success rate allowed"
+        ),
+    }
+
+    return labels.get(
+        metric,
+        metric.replace("_", " "),
     )
 
-    if missing:
-        raise ValueError(
-            "Logo map is missing required columns: "
-            + ", ".join(sorted(missing))
+
+def format_answer(result: dict[str, Any]) -> str:
+    """Create a readable answer from a team metric."""
+
+    metric = str(result["metric"])
+    metric_label = humanize_metric(metric)
+
+    value = float(result["value"])
+    average = float(result["league_average"])
+
+    difference = float(
+        result["difference_from_average"]
+    )
+
+    if "success_rate" in metric:
+        value_text = f"{value:.1%}"
+        average_text = f"{average:.1%}"
+        difference_text = f"{abs(difference):.1%}"
+    else:
+        value_text = f"{value:.3f}"
+        average_text = f"{average:.3f}"
+        difference_text = f"{abs(difference):.3f}"
+
+    if difference > 0:
+        comparison_text = (
+            f"{difference_text} above the FBS average"
+        )
+    elif difference < 0:
+        comparison_text = (
+            f"{difference_text} below the FBS average"
+        )
+    else:
+        comparison_text = "equal to the FBS average"
+
+    sample_size = result.get("sample_size")
+
+    sample_text = (
+        f"{int(sample_size):,}"
+        if sample_size is not None
+        else "an unavailable number of"
+    )
+
+    return (
+        f"{result['team']} posted {value_text} "
+        f"{metric_label} in {result['season']}. "
+        f"That ranked {result['rank']} of "
+        f"{result['teams_ranked']} teams. "
+        f"The FBS average was {average_text}, putting "
+        f"{result['team']} {comparison_text}. "
+        f"The calculation included {sample_text} "
+        f"qualifying plays."
+    )
+
+
+def parse_integer_csv(
+    raw_value: str,
+    *,
+    field_name: str,
+) -> list[int]:
+    """Parse comma-separated integers from a query parameter."""
+
+    try:
+        values = [
+            int(part.strip())
+            for part in raw_value.split(",")
+            if part.strip()
+        ]
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                f"{field_name} must contain "
+                "comma-separated integers."
+            ),
+        ) from error
+
+    if not values:
+        raise HTTPException(
+            status_code=400,
+            detail=f"{field_name} cannot be empty.",
         )
 
-    result: dict[str, Path] = {}
+    return values
 
-    for _, row in mapping.iterrows():
-        team = str(
-            row["cfbfastr_team"]
-        ).strip()
 
-        logo_path_raw = str(
-            row["logo_path"]
-        ).strip()
+def build_chart_options(
+    *,
+    season: int,
+    week_start: int,
+    week_end: int,
+    play_type: str,
+    downs: list[int],
+    periods: list[int],
+    exclude_garbage_time: bool,
+    minimum_plays: int,
+    conference: str | None,
+    red_zone_only: bool,
+    goal_to_go_only: bool,
+    season_type: str | None,
+) -> TeamTiersChartOptions:
+    """Create chart-rendering options."""
 
-        if not team or not logo_path_raw:
-            continue
+    return TeamTiersChartOptions(
+        season=season,
+        week_start=week_start,
+        week_end=week_end,
+        play_type=play_type,
+        downs=downs,
+        periods=periods,
+        exclude_garbage_time=exclude_garbage_time,
+        minimum_plays=minimum_plays,
+        conference=conference,
+        red_zone_only=red_zone_only,
+        goal_to_go_only=goal_to_go_only,
+        season_type=season_type,
+    )
 
-        logo_path = Path(logo_path_raw)
 
-        if not logo_path.is_absolute():
-            logo_path = BASE_DIR / logo_path
+@app.get("/", response_class=HTMLResponse)
+def home() -> str:
+    """Serve the current statistics search interface."""
 
-        if logo_path.exists():
-            result[team] = logo_path
+    if not INDEX_FILE.exists():
+        return """
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            >
+            <title>CFB Statistics Query</title>
+        </head>
+        <body>
+            <h1>CFB Statistics Query</h1>
+            <p>
+                The API is running, but index.html was not found.
+            </p>
+        </body>
+        </html>
+        """
+
+    return INDEX_FILE.read_text(
+        encoding="utf-8"
+    )
+
+
+@app.get("/health")
+def health() -> dict[str, Any]:
+    """Return application, dataset, and logo health."""
+
+    logo_metadata = get_logo_metadata()
+
+    return {
+        "status": "ok",
+        "rankings_file_exists": (
+            RANKINGS_FILE.exists()
+        ),
+        "rankings_file": str(RANKINGS_FILE),
+        "situational_file_exists": (
+            SITUATIONAL_FILE.exists()
+        ),
+        "situational_file": str(SITUATIONAL_FILE),
+        "latest_season": get_latest_season(),
+        "team_count": len(get_available_teams()),
+        "logo_directory_exists": (
+            logo_metadata["logo_directory_exists"]
+        ),
+        "logo_png_count": (
+            logo_metadata["logo_png_count"]
+        ),
+        "logo_map_exists": (
+            logo_metadata["logo_map_exists"]
+        ),
+        "logo_map_rows": (
+            logo_metadata["logo_map_rows"]
+        ),
+    }
+
+
+@app.get("/api/logos")
+def logos() -> dict[str, Any]:
+    """Return local team-logo metadata."""
+
+    return get_logo_metadata()
+
+
+@app.get("/api/teams")
+def teams() -> dict[str, Any]:
+    """Return teams available to the query app."""
+
+    available_teams = get_available_teams()
+
+    return {
+        "count": len(available_teams),
+        "teams": available_teams,
+    }
+
+
+@app.get("/api/team-stat")
+def team_stat(
+    team: str = Query(..., min_length=2),
+    metric: str = Query(..., min_length=3),
+    season: int | None = Query(
+        default=None,
+        ge=2014,
+        le=2030,
+    ),
+) -> dict[str, Any]:
+    """Return one structured team-season statistic."""
+
+    selected_season = season or get_latest_season()
+
+    try:
+        result = get_team_metric(
+            team=team,
+            season=selected_season,
+            metric=metric,
+        )
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        ) from error
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=503,
+            detail=str(error),
+        ) from error
+
+    if result is None:
+        raise HTTPException(
+            status_code=404,
+            detail=(
+                "No matching team statistic was found for "
+                f"{team}, {selected_season}, and {metric}."
+            ),
+        )
+
+    result["answer"] = format_answer(result)
 
     return result
 
 
-def _image_to_data_uri(
-    image_path: Path,
-) -> str:
-    """
-    Convert a local PNG into an embedded data URI.
+@app.get("/api/search")
+def search(
+    q: str = Query(..., min_length=3),
+) -> dict[str, Any]:
+    """Parse a natural-language statistics question."""
 
-    Embedding avoids file-resolution problems when Kaleido launches
-    a separate browser process.
-    """
+    available_teams = get_available_teams()
 
-    with Image.open(image_path) as image:
-        image = image.convert("RGBA")
-
-        buffer = BytesIO()
-
-        image.save(
-            buffer,
-            format="PNG",
-            optimize=True,
+    if not available_teams:
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "No teams are available. Confirm that "
+                "combined_team_rankings.parquet exists."
+            ),
         )
 
-    encoded = base64.b64encode(
-        buffer.getvalue()
-    ).decode("ascii")
+    parsed = parse_query(
+        query=q,
+        team_names=available_teams,
+        default_season=get_latest_season(),
+    )
 
-    return f"data:image/png;base64,{encoded}"
+    if parsed["team"] is None:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "I could not identify a team in that "
+                "question. Include the full team name."
+            ),
+        )
 
+    if parsed["metric"] is None:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "I could not identify a supported statistic. "
+                "Try EPA per rush, EPA per pass, EPA per play, "
+                "or success rate."
+            ),
+        )
 
-def _prepare_chart_data(
-    dataframe: pd.DataFrame,
-) -> pd.DataFrame:
-    """Validate and clean the team-tiers data."""
+    try:
+        result = get_team_metric(
+            team=parsed["team"],
+            season=parsed["season"],
+            metric=parsed["metric"],
+        )
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        ) from error
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=503,
+            detail=str(error),
+        ) from error
 
-    required_columns = {
-        "team",
-        "off_epa_per_play",
-        "def_epa_allowed_per_play",
-        "offensive_plays",
-        "defensive_plays",
+    if result is None:
+        raise HTTPException(
+            status_code=404,
+            detail=(
+                "No matching statistic was found for "
+                f"{parsed['team']} in "
+                f"{parsed['season']}."
+            ),
+        )
+
+    return {
+        "query": q,
+        "parsed": parsed,
+        "result": result,
+        "answer": format_answer(result),
     }
 
-    missing_columns = required_columns.difference(
-        dataframe.columns
+
+@app.get("/api/charts/metadata")
+def chart_metadata() -> dict[str, Any]:
+    """Return chart-data and filter metadata."""
+
+    return {
+        "dataset": get_situational_metadata(),
+        "seasons": get_available_chart_seasons(),
+        "conferences": get_available_conferences(),
+        "logos": {
+            key: value
+            for key, value in get_logo_metadata().items()
+            if key != "mapped_teams"
+        },
+        "supported_filters": {
+            "play_types": [
+                "all",
+                "rush",
+                "pass",
+            ],
+            "downs": [1, 2, 3, 4],
+            "periods": [1, 2, 3, 4, 5],
+            "garbage_time": True,
+            "conference": True,
+            "red_zone": True,
+            "goal_to_go": True,
+            "season_type": True,
+        },
+    }
+
+
+@app.get("/api/charts/team-tiers/data")
+def team_tiers_data(
+    season: Annotated[
+        int,
+        Query(ge=2014, le=2030),
+    ] = 2025,
+    week_start: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 1,
+    week_end: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 20,
+    play_type: Annotated[
+        str,
+        Query(pattern="^(all|rush|pass)$"),
+    ] = "all",
+    downs: str = Query(default="1,2,3,4"),
+    periods: str = Query(default="1,2,3,4"),
+    exclude_garbage_time: bool = Query(
+        default=True
+    ),
+    minimum_plays: Annotated[
+        int,
+        Query(ge=1, le=5000),
+    ] = 100,
+    conference: str | None = Query(default=None),
+    red_zone_only: bool = Query(default=False),
+    goal_to_go_only: bool = Query(default=False),
+    season_type: str | None = Query(default=None),
+) -> dict[str, Any]:
+    """Return team-tiers chart calculations as JSON."""
+
+    selected_downs = parse_integer_csv(
+        downs,
+        field_name="downs",
     )
 
-    if missing_columns:
-        raise ValueError(
-            "Chart data is missing required columns: "
-            + ", ".join(sorted(missing_columns))
-        )
-
-    chart_data = dataframe.dropna(
-        subset=[
-            "off_epa_per_play",
-            "def_epa_allowed_per_play",
-        ]
-    ).copy()
-
-    if chart_data.empty:
-        raise ValueError(
-            "No teams met the selected chart filters."
-        )
-
-    return chart_data
-
-
-def _calculate_logo_sizes(
-    chart_data: pd.DataFrame,
-) -> tuple[float, float]:
-    """
-    Calculate logo size in chart-axis units.
-
-    Plotly layout images use axis coordinates when xref/yref are "x"/"y",
-    so sizex and sizey must scale to the data ranges.
-    """
-
-    x_min = float(
-        chart_data["off_epa_per_play"].min()
+    selected_periods = parse_integer_csv(
+        periods,
+        field_name="periods",
     )
 
-    x_max = float(
-        chart_data["off_epa_per_play"].max()
-    )
-
-    y_min = float(
-        chart_data[
-            "def_epa_allowed_per_play"
-        ].min()
-    )
-
-    y_max = float(
-        chart_data[
-            "def_epa_allowed_per_play"
-        ].max()
-    )
-
-    x_range = max(
-        x_max - x_min,
-        0.01,
-    )
-
-    y_range = max(
-        y_max - y_min,
-        0.01,
-    )
-
-    # Roughly 3.5% of the total plotting range.
-    logo_width = x_range * 0.035
-    logo_height = y_range * 0.050
-
-    return logo_width, logo_height
-
-
-def build_team_tiers_figure(
-    dataframe: pd.DataFrame,
-    options: TeamTiersChartOptions,
-) -> go.Figure:
-    """
-    Build the Team Tiers chart using team logos.
-
-    The invisible scatter trace preserves hover information.
-    Logos are overlaid at each team's EPA coordinates.
-    """
-
-    chart_data = _prepare_chart_data(
-        dataframe
-    )
-
-    logo_map = _load_logo_map()
-
-    offense_average = float(
-        chart_data[
-            "off_epa_per_play"
-        ].mean()
-    )
-
-    defense_average = float(
-        chart_data[
-            "def_epa_allowed_per_play"
-        ].mean()
-    )
-
-    x_min = float(
-        chart_data[
-            "off_epa_per_play"
-        ].min()
-    )
-
-    x_max = float(
-        chart_data[
-            "off_epa_per_play"
-        ].max()
-    )
-
-    y_min = float(
-        chart_data[
-            "def_epa_allowed_per_play"
-        ].min()
-    )
-
-    y_max = float(
-        chart_data[
-            "def_epa_allowed_per_play"
-        ].max()
-    )
-
-    x_padding = max(
-        (x_max - x_min) * 0.10,
-        0.015,
-    )
-
-    y_padding = max(
-        (y_max - y_min) * 0.10,
-        0.015,
-    )
-
-    logo_width, logo_height = (
-        _calculate_logo_sizes(
-            chart_data
-        )
-    )
-
-    chart_data["hover_text"] = (
-        chart_data.apply(
-            lambda row: (
-                f"<b>{row['team']}</b><br>"
-                f"Conference: "
-                f"{row.get('conference') or 'Unknown'}<br>"
-                f"Offensive EPA/play: "
-                f"{row['off_epa_per_play']:.3f}<br>"
-                f"Defensive EPA allowed/play: "
-                f"{row['def_epa_allowed_per_play']:.3f}<br>"
-                f"Offensive plays: "
-                f"{int(row['offensive_plays']):,}<br>"
-                f"Defensive plays: "
-                f"{int(row['defensive_plays']):,}"
+    try:
+        dataframe = get_team_tiers_data(
+            season=season,
+            week_start=week_start,
+            week_end=week_end,
+            play_type=play_type,
+            downs=selected_downs,
+            periods=selected_periods,
+            exclude_garbage_time=(
+                exclude_garbage_time
             ),
-            axis=1,
+            minimum_plays=minimum_plays,
+            conference=conference,
+            red_zone_only=red_zone_only,
+            goal_to_go_only=goal_to_go_only,
+            season_type=season_type,
         )
-    )
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=503,
+            detail=str(error),
+        ) from error
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        ) from error
 
-    figure = go.Figure()
-
-    # Invisible points retain the Plotly hover layer.
-    figure.add_trace(
-        go.Scatter(
-            x=chart_data[
-                "off_epa_per_play"
-            ],
-            y=chart_data[
-                "def_epa_allowed_per_play"
-            ],
-            mode="markers",
-            customdata=chart_data[
-                "hover_text"
-            ],
-            hovertemplate=(
-                "%{customdata}<extra></extra>"
+    if dataframe.empty:
+        raise HTTPException(
+            status_code=404,
+            detail=(
+                "No teams met the selected chart filters "
+                "and minimum-play requirement."
             ),
-            marker={
-                "size": 30,
-                "opacity": 0.001,
-            },
-            showlegend=False,
-            name="Teams",
         )
+
+    return {
+        "chart": "team_tiers",
+        "filters": {
+            "season": season,
+            "week_start": week_start,
+            "week_end": week_end,
+            "play_type": play_type,
+            "downs": selected_downs,
+            "periods": selected_periods,
+            "exclude_garbage_time": (
+                exclude_garbage_time
+            ),
+            "minimum_plays": minimum_plays,
+            "conference": conference,
+            "red_zone_only": red_zone_only,
+            "goal_to_go_only": goal_to_go_only,
+            "season_type": season_type,
+        },
+        "team_count": len(dataframe),
+        "teams": dataframe_to_records(dataframe),
+    }
+
+
+@app.get(
+    "/api/charts/team-tiers.png",
+    response_class=Response,
+)
+def team_tiers_png(
+    season: Annotated[
+        int,
+        Query(ge=2014, le=2030),
+    ] = 2025,
+    week_start: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 1,
+    week_end: Annotated[
+        int,
+        Query(ge=0, le=30),
+    ] = 20,
+    play_type: Annotated[
+        str,
+        Query(pattern="^(all|rush|pass)$"),
+    ] = "all",
+    downs: str = Query(default="1,2,3,4"),
+    periods: str = Query(default="1,2,3,4"),
+    exclude_garbage_time: bool = Query(
+        default=True
+    ),
+    minimum_plays: Annotated[
+        int,
+        Query(ge=1, le=5000),
+    ] = 100,
+    conference: str | None = Query(default=None),
+    red_zone_only: bool = Query(default=False),
+    goal_to_go_only: bool = Query(default=False),
+    season_type: str | None = Query(default=None),
+    width: Annotated[
+        int,
+        Query(ge=800, le=3000),
+    ] = 1600,
+    height: Annotated[
+        int,
+        Query(ge=600, le=2400),
+    ] = 1000,
+    scale: Annotated[
+        float,
+        Query(gt=0, le=3),
+    ] = 1.0,
+    download: bool = Query(default=False),
+) -> Response:
+    """Render the filtered team-tiers PNG."""
+
+    selected_downs = parse_integer_csv(
+        downs,
+        field_name="downs",
     )
 
-    missing_logo_teams: list[str] = []
+    selected_periods = parse_integer_csv(
+        periods,
+        field_name="periods",
+    )
 
-    for _, row in chart_data.iterrows():
-        team = str(row["team"]).strip()
+    try:
+        dataframe = get_team_tiers_data(
+            season=season,
+            week_start=week_start,
+            week_end=week_end,
+            play_type=play_type,
+            downs=selected_downs,
+            periods=selected_periods,
+            exclude_garbage_time=(
+                exclude_garbage_time
+            ),
+            minimum_plays=minimum_plays,
+            conference=conference,
+            red_zone_only=red_zone_only,
+            goal_to_go_only=goal_to_go_only,
+            season_type=season_type,
+        )
 
-        logo_path = logo_map.get(team)
-
-        if logo_path is None:
-            missing_logo_teams.append(team)
-
-            # Fallback marker for teams without a logo.
-            figure.add_trace(
-                go.Scatter(
-                    x=[
-                        row[
-                            "off_epa_per_play"
-                        ]
-                    ],
-                    y=[
-                        row[
-                            "def_epa_allowed_per_play"
-                        ]
-                    ],
-                    mode="markers+text",
-                    text=[team],
-                    textposition="top center",
-                    marker={
-                        "size": 12,
-                        "opacity": 0.75,
-                    },
-                    textfont={
-                        "size": 9,
-                    },
-                    hoverinfo="skip",
-                    showlegend=False,
-                )
+        if dataframe.empty:
+            raise HTTPException(
+                status_code=404,
+                detail=(
+                    "No teams met the selected chart filters "
+                    "and minimum-play requirement."
+                ),
             )
 
-            continue
-
-        try:
-            source = _image_to_data_uri(
-                logo_path
-            )
-        except Exception:
-            missing_logo_teams.append(team)
-            continue
-
-        figure.add_layout_image(
-            {
-                "source": source,
-                "xref": "x",
-                "yref": "y",
-                "x": float(
-                    row["off_epa_per_play"]
-                ),
-                "y": float(
-                    row[
-                        "def_epa_allowed_per_play"
-                    ]
-                ),
-                "sizex": logo_width,
-                "sizey": logo_height,
-                "xanchor": "center",
-                "yanchor": "middle",
-                "sizing": "contain",
-                "opacity": 1.0,
-                "layer": "above",
-            }
-        )
-
-    figure.add_vline(
-        x=offense_average,
-        line_width=1.5,
-        line_dash="dash",
-        line_color=(
-            "rgba(60, 70, 90, 0.65)"
-        ),
-    )
-
-    figure.add_hline(
-        y=defense_average,
-        line_width=1.5,
-        line_dash="dash",
-        line_color=(
-            "rgba(60, 70, 90, 0.65)"
-        ),
-    )
-
-    subtitle = _build_subtitle(
-        options
-    )
-
-    figure.update_layout(
-        title={
-            "text": (
-                f"<b>{options.season} "
-                "CFB Team Tiers</b>"
-                f"<br><sup>{subtitle}</sup>"
+        options = build_chart_options(
+            season=season,
+            week_start=week_start,
+            week_end=week_end,
+            play_type=play_type,
+            downs=selected_downs,
+            periods=selected_periods,
+            exclude_garbage_time=(
+                exclude_garbage_time
             ),
-            "x": 0.03,
-            "xanchor": "left",
-            "y": 0.97,
-            "yanchor": "top",
-            "font": {
-                "size": 27,
-            },
-        },
-        width=1600,
-        height=1000,
-        margin={
-            "l": 110,
-            "r": 80,
-            "t": 130,
-            "b": 105,
-        },
-        paper_bgcolor="white",
-        plot_bgcolor="rgb(248, 250, 253)",
-        font={
-            "family": (
-                "Arial, Helvetica, sans-serif"
+            minimum_plays=minimum_plays,
+            conference=conference,
+            red_zone_only=red_zone_only,
+            goal_to_go_only=goal_to_go_only,
+            season_type=season_type,
+        )
+
+        image_bytes = render_team_tiers_image(
+            dataframe=dataframe,
+            options=options,
+            image_format="png",
+            width=width,
+            height=height,
+            scale=scale,
+        )
+
+    except HTTPException:
+        raise
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=503,
+            detail=str(error),
+        ) from error
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        ) from error
+    except Exception as error:
+        raise HTTPException(
+            status_code=500,
+            detail=(
+                "The chart could not be rendered. "
+                f"Technical detail: {error}"
             ),
-            "color": "rgb(25, 35, 55)",
-        },
-        showlegend=False,
-        hoverlabel={
-            "bgcolor": "white",
-            "font_size": 13,
-            "font_family": "Arial",
-        },
+        ) from error
+
+    disposition = (
+        "attachment"
+        if download
+        else "inline"
     )
 
-    figure.update_xaxes(
-        title={
-            "text": (
-                "Offensive EPA per play "
-                "→ better offense"
+    filename = (
+        f"cfb-team-tiers-{season}-"
+        f"weeks-{week_start}-{week_end}.png"
+    )
+
+    return Response(
+        content=image_bytes,
+        media_type="image/png",
+        headers={
+            "Content-Disposition": (
+                f'{disposition}; filename="{filename}"'
             ),
-            "font": {
-                "size": 17,
-            },
+            "Cache-Control": "public, max-age=300",
         },
-        range=[
-            x_min - x_padding,
-            x_max + x_padding,
-        ],
-        zeroline=True,
-        zerolinewidth=1,
-        zerolinecolor=(
-            "rgba(80, 90, 110, 0.35)"
-        ),
-        gridcolor=(
-            "rgba(120, 130, 150, 0.16)"
-        ),
-        tickformat=".3f",
-        tickfont={
-            "size": 12,
-        },
-    )
-
-    # Lower defensive EPA is better, so reverse the axis.
-    figure.update_yaxes(
-        title={
-            "text": (
-                "Better defense ← "
-                "defensive EPA allowed per play"
-            ),
-            "font": {
-                "size": 17,
-            },
-        },
-        range=[
-            y_max + y_padding,
-            y_min - y_padding,
-        ],
-        zeroline=True,
-        zerolinewidth=1,
-        zerolinecolor=(
-            "rgba(80, 90, 110, 0.35)"
-        ),
-        gridcolor=(
-            "rgba(120, 130, 150, 0.16)"
-        ),
-        tickformat=".3f",
-        tickfont={
-            "size": 12,
-        },
-    )
-
-    figure.add_annotation(
-        x=0.5,
-        y=-0.13,
-        xref="paper",
-        yref="paper",
-        text=(
-            "Source: CFBD historical play-by-play | "
-            "Dashed lines represent displayed-team averages"
-        ),
-        showarrow=False,
-        font={
-            "size": 12,
-            "color": "rgb(90, 100, 120)",
-        },
-    )
-
-    figure.add_annotation(
-        x=0.99,
-        y=0.99,
-        xref="paper",
-        yref="paper",
-        text=(
-            "Strong offense / strong defense"
-        ),
-        xanchor="right",
-        yanchor="top",
-        showarrow=False,
-        font={
-            "size": 12,
-            "color": "rgb(70, 80, 100)",
-        },
-        bgcolor="rgba(255,255,255,0.72)",
-        borderpad=5,
-    )
-
-    figure.add_annotation(
-        x=0.01,
-        y=0.99,
-        xref="paper",
-        yref="paper",
-        text=(
-            "Weak offense / strong defense"
-        ),
-        xanchor="left",
-        yanchor="top",
-        showarrow=False,
-        font={
-            "size": 12,
-            "color": "rgb(70, 80, 100)",
-        },
-        bgcolor="rgba(255,255,255,0.72)",
-        borderpad=5,
-    )
-
-    figure.add_annotation(
-        x=0.99,
-        y=0.01,
-        xref="paper",
-        yref="paper",
-        text=(
-            "Strong offense / weak defense"
-        ),
-        xanchor="right",
-        yanchor="bottom",
-        showarrow=False,
-        font={
-            "size": 12,
-            "color": "rgb(70, 80, 100)",
-        },
-        bgcolor="rgba(255,255,255,0.72)",
-        borderpad=5,
-    )
-
-    figure.add_annotation(
-        x=0.01,
-        y=0.01,
-        xref="paper",
-        yref="paper",
-        text=(
-            "Weak offense / weak defense"
-        ),
-        xanchor="left",
-        yanchor="bottom",
-        showarrow=False,
-        font={
-            "size": 12,
-            "color": "rgb(70, 80, 100)",
-        },
-        bgcolor="rgba(255,255,255,0.72)",
-        borderpad=5,
-    )
-
-    if missing_logo_teams:
-        print(
-            "Missing or unreadable logos:",
-            ", ".join(
-                sorted(
-                    set(missing_logo_teams)
-                )
-            ),
-        )
-
-    return figure
-
-
-def render_figure_bytes(
-    figure: go.Figure,
-    *,
-    image_format: ImageFormat = "png",
-    width: int = 1600,
-    height: int = 1000,
-    scale: float = 1.0,
-) -> bytes:
-    """Render a Plotly figure through Kaleido."""
-
-    if image_format not in {
-        "png",
-        "svg",
-        "pdf",
-    }:
-        raise ValueError(
-            "image_format must be png, svg, or pdf."
-        )
-
-    if width < 400 or width > 4000:
-        raise ValueError(
-            "width must be between 400 and 4000."
-        )
-
-    if height < 300 or height > 4000:
-        raise ValueError(
-            "height must be between 300 and 4000."
-        )
-
-    if scale <= 0 or scale > 4:
-        raise ValueError(
-            "scale must be greater than 0 "
-            "and at most 4."
-        )
-
-    image = pio.to_image(
-        figure,
-        format=image_format,
-        width=width,
-        height=height,
-        scale=scale,
-    )
-
-    if not image:
-        raise RuntimeError(
-            "Kaleido returned an empty image."
-        )
-
-    return image
-
-
-def render_team_tiers_image(
-    dataframe: pd.DataFrame,
-    options: TeamTiersChartOptions,
-    *,
-    image_format: ImageFormat = "png",
-    width: int = 1600,
-    height: int = 1000,
-    scale: float = 1.0,
-) -> bytes:
-    """Build and render a Team Tiers image."""
-
-    figure = build_team_tiers_figure(
-        dataframe=dataframe,
-        options=options,
-    )
-
-    return render_figure_bytes(
-        figure,
-        image_format=image_format,
-        width=width,
-        height=height,
-        scale=scale,
     )
