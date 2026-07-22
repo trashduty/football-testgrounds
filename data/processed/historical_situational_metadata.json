@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-07-22T03:18:54Z",
+  "source_file": "pbp_2014_2025.RDS",
+  "min_season": 2014,
+  "max_season": 2025,
+  "source_rows": 2281669,
+  "qualifying_plays": 1643328,
+  "aggregated_rows": 1552033,
+  "teams": 378,
+  "output_file": "historical_situational_stats.parquet",
+  "output_bytes": 34898036,
+  "epa_source_column": "epa",
+  "offense_source_column": "pos_team",
+  "defense_source_column": "def_pos_team",
+  "garbage_time_definition": "Offense pre-play win probability below 5% or above 95%",
+  "explosive_rush_definition": "10 or more yards",
+  "explosive_pass_definition": "20 or more yards",
+  "pass_definition": "Pass flag, pass-attempt flag, or sack flag; sacks are treated as passing plays",
+  "dimensions": ["season", "week", "game_id", "team", "opponent", "offense_conference", "defense_conference", "home_away", "neutral_site", "season_type", "period", "half", "clock_bucket", "down", "distance_bucket", "field_position_bucket", "score_state", "wp_bucket", "play_type", "red_zone", "goal_to_go", "garbage_time"],
+  "additive_measures": ["plays", "epa_total", "successes", "yards_total", "explosive_plays", "first_downs", "turnovers", "sacks", "pass_attempts", "completions", "rush_attempts", "stuffed_runs", "touchdowns", "points", "scoring_opportunity_plays"]
+}
