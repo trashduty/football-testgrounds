@@ -222,6 +222,101 @@ button {
   background: var(--accent-soft);
 }
 
+.team-filter-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.team-filter-heading h3 {
+  margin-bottom: 5px;
+}
+
+.team-filter-heading p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
+.team-search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: end;
+}
+
+.team-add-button {
+  min-height: 42px;
+}
+
+.selected-team-list {
+  min-height: 46px;
+  margin-top: 12px;
+  padding: 9px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-small);
+}
+
+.empty-team-message {
+  color: var(--text-subtle);
+  font-size: 0.78rem;
+}
+
+.team-chip {
+  padding: 6px 7px 6px 10px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  background: var(--accent-soft);
+  border: 1px solid #aac0ff;
+  border-radius: 999px;
+
+  color: var(--accent);
+
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.team-chip button {
+  width: 21px;
+  height: 21px;
+  padding: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(30, 94, 255, 0.12);
+  border: 0;
+  border-radius: 50%;
+
+  color: var(--accent);
+
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.team-chip button:hover {
+  background: rgba(30, 94, 255, 0.22);
+}
+
+@media (max-width: 700px) {
+  .team-search-row {
+    grid-template-columns: 1fr;
+  }
+}
 
 .filter-section {
   padding: 21px 0;
