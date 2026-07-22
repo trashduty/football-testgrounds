@@ -899,10 +899,16 @@ def _aggregate_team_rows(
     dataframe: pd.DataFrame,
 ) -> pd.DataFrame:
     """
-    Aggregate filtered situational rows to one row per team.
+    Aggregate filtered situational rows into one offense/defense row per team.
 
-    Metric values are weighted by the appropriate offensive or
-    defensive play count.
+    Raw situational rows are stored from the offense's perspective:
+
+    - team is the offensive team;
+    - opponent is the defensive team;
+    - plays and metric totals describe the offense's performance.
+
+    Offensive statistics are therefore grouped by team, while defensive
+    statistics allowed are grouped by opponent.
     """
 
     if dataframe.empty:
@@ -910,155 +916,279 @@ def _aggregate_team_rows(
             columns=TEAM_TIERS_OUTPUT_COLUMNS
         )
 
-    available_columns = set(
+    required_columns = {
+        "team",
+        "opponent",
+        "plays",
+        "epa_total",
+        "successes",
+        "yards_total",
+        "explosive_plays",
+    }
+
+    missing_columns = required_columns.difference(
         dataframe.columns
     )
 
-    team_column = _first_existing_column(
-        available_columns,
-        [
-            "team",
-            "school",
-        ],
-    )
-
-    if team_column is None:
-        raise ValueError(
-            "The situational dataset does not contain a team column."
-        )
-
-    offensive_plays_column = _first_existing_column(
-        available_columns,
-        [
-            "offensive_plays",
-            "off_plays",
-            "offense_plays",
-        ],
-    )
-
-    defensive_plays_column = _first_existing_column(
-        available_columns,
-        [
-            "defensive_plays",
-            "def_plays",
-            "defense_plays",
-        ],
-    )
-
-    if offensive_plays_column is None:
-        raise ValueError(
-            "The situational dataset does not contain "
-            "an offensive play-count column."
-        )
-
-    if defensive_plays_column is None:
-        raise ValueError(
-            "The situational dataset does not contain "
-            "a defensive play-count column."
-        )
-
-    required_metrics = (
-        OFFENSIVE_METRIC_COLUMNS
-        + DEFENSIVE_METRIC_COLUMNS
-    )
-
-    missing_metrics = [
-        column
-        for column in required_metrics
-        if column not in dataframe.columns
-    ]
-
-    if missing_metrics:
+    if missing_columns:
         raise ValueError(
             "The situational dataset is missing required "
-            "chart metric columns: "
+            "aggregation columns: "
             + ", ".join(
-                sorted(missing_metrics)
+                sorted(missing_columns)
             )
         )
 
     working = dataframe.copy()
 
     working["team"] = (
-        _normalize_text_series(
-            working[team_column]
-        )
+        working["team"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
     )
 
-    working["offensive_plays"] = pd.to_numeric(
-        working[offensive_plays_column],
-        errors="coerce",
-    ).fillna(0)
-
-    working["defensive_plays"] = pd.to_numeric(
-        working[defensive_plays_column],
-        errors="coerce",
-    ).fillna(0)
-
-    working = _coerce_numeric_columns(
-        working,
-        required_metrics,
+    working["opponent"] = (
+        working["opponent"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
     )
 
-    aggregated_rows: list[dict[str, Any]] = []
+    numeric_columns = [
+        "plays",
+        "epa_total",
+        "successes",
+        "yards_total",
+        "explosive_plays",
+    ]
 
-    for team, group in working.groupby(
-        "team",
-        sort=True,
-        dropna=False,
-    ):
-        team_name = str(team).strip()
+    for column in numeric_columns:
+        working[column] = pd.to_numeric(
+            working[column],
+            errors="coerce",
+        ).fillna(0)
 
-        if not team_name:
-            continue
+    working = working[
+        (working["team"] != "")
+        & (working["opponent"] != "")
+        & (working["plays"] > 0)
+    ].copy()
 
-        row: dict[str, Any] = {
-            "team": team_name,
-            "offensive_plays": int(
-                round(
-                    float(
-                        group[
-                            "offensive_plays"
-                        ].sum()
-                    )
-                )
-            ),
-            "defensive_plays": int(
-                round(
-                    float(
-                        group[
-                            "defensive_plays"
-                        ].sum()
-                    )
-                )
-            ),
-        }
-
-        for metric in OFFENSIVE_METRIC_COLUMNS:
-            row[metric] = _weighted_average(
-                group[metric],
-                group["offensive_plays"],
-            )
-
-        for metric in DEFENSIVE_METRIC_COLUMNS:
-            row[metric] = _weighted_average(
-                group[metric],
-                group["defensive_plays"],
-            )
-
-        aggregated_rows.append(
-            row
-        )
-
-    if not aggregated_rows:
+    if working.empty:
         return pd.DataFrame(
             columns=TEAM_TIERS_OUTPUT_COLUMNS
         )
 
-    return pd.DataFrame(
-        aggregated_rows
+    # -------------------------------------------------------------------------
+    # Offensive aggregation
+    # -------------------------------------------------------------------------
+
+    offense = (
+        working.groupby(
+            "team",
+            as_index=False,
+            sort=True,
+        )
+        .agg(
+            offensive_plays=(
+                "plays",
+                "sum",
+            ),
+            offensive_epa_total=(
+                "epa_total",
+                "sum",
+            ),
+            offensive_successes=(
+                "successes",
+                "sum",
+            ),
+            offensive_yards_total=(
+                "yards_total",
+                "sum",
+            ),
+            offensive_explosive_plays=(
+                "explosive_plays",
+                "sum",
+            ),
+        )
     )
 
+    offense["off_epa_per_play"] = np.where(
+        offense["offensive_plays"] > 0,
+        (
+            offense["offensive_epa_total"]
+            / offense["offensive_plays"]
+        ),
+        np.nan,
+    )
+
+    offense["off_success_rate"] = np.where(
+        offense["offensive_plays"] > 0,
+        (
+            offense["offensive_successes"]
+            / offense["offensive_plays"]
+        ),
+        np.nan,
+    )
+
+    offense["off_yards_per_play"] = np.where(
+        offense["offensive_plays"] > 0,
+        (
+            offense["offensive_yards_total"]
+            / offense["offensive_plays"]
+        ),
+        np.nan,
+    )
+
+    offense["off_explosive_rate"] = np.where(
+        offense["offensive_plays"] > 0,
+        (
+            offense["offensive_explosive_plays"]
+            / offense["offensive_plays"]
+        ),
+        np.nan,
+    )
+
+    offense = offense[
+        [
+            "team",
+            "off_epa_per_play",
+            "off_success_rate",
+            "off_yards_per_play",
+            "off_explosive_rate",
+            "offensive_plays",
+        ]
+    ].copy()
+
+    # -------------------------------------------------------------------------
+    # Defensive aggregation
+    #
+    # The opponent is the team playing defense. The offensive totals in each
+    # row therefore become values allowed by that opponent's defense.
+    # -------------------------------------------------------------------------
+
+    defense = (
+        working.groupby(
+            "opponent",
+            as_index=False,
+            sort=True,
+        )
+        .agg(
+            defensive_plays=(
+                "plays",
+                "sum",
+            ),
+            defensive_epa_allowed_total=(
+                "epa_total",
+                "sum",
+            ),
+            defensive_successes_allowed=(
+                "successes",
+                "sum",
+            ),
+            defensive_yards_allowed_total=(
+                "yards_total",
+                "sum",
+            ),
+            defensive_explosive_plays_allowed=(
+                "explosive_plays",
+                "sum",
+            ),
+        )
+        .rename(
+            columns={
+                "opponent": "team",
+            }
+        )
+    )
+
+    defense["def_epa_allowed_per_play"] = np.where(
+        defense["defensive_plays"] > 0,
+        (
+            defense["defensive_epa_allowed_total"]
+            / defense["defensive_plays"]
+        ),
+        np.nan,
+    )
+
+    defense["def_success_rate_allowed"] = np.where(
+        defense["defensive_plays"] > 0,
+        (
+            defense["defensive_successes_allowed"]
+            / defense["defensive_plays"]
+        ),
+        np.nan,
+    )
+
+    defense["def_yards_allowed_per_play"] = np.where(
+        defense["defensive_plays"] > 0,
+        (
+            defense["defensive_yards_allowed_total"]
+            / defense["defensive_plays"]
+        ),
+        np.nan,
+    )
+
+    defense["def_explosive_rate_allowed"] = np.where(
+        defense["defensive_plays"] > 0,
+        (
+            defense["defensive_explosive_plays_allowed"]
+            / defense["defensive_plays"]
+        ),
+        np.nan,
+    )
+
+    defense = defense[
+        [
+            "team",
+            "def_epa_allowed_per_play",
+            "def_success_rate_allowed",
+            "def_yards_allowed_per_play",
+            "def_explosive_rate_allowed",
+            "defensive_plays",
+        ]
+    ].copy()
+
+    # -------------------------------------------------------------------------
+    # Combine offense and defense
+    # -------------------------------------------------------------------------
+
+    combined = offense.merge(
+        defense,
+        how="outer",
+        on="team",
+        validate="one_to_one",
+    )
+
+    combined["team"] = (
+        combined["team"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
+    )
+
+    combined = combined[
+        combined["team"] != ""
+    ].copy()
+
+    for column in [
+        "offensive_plays",
+        "defensive_plays",
+    ]:
+        combined[column] = (
+            pd.to_numeric(
+                combined[column],
+                errors="coerce",
+            )
+            .fillna(0)
+            .round()
+            .astype(int)
+        )
+
+    return combined.reset_index(
+        drop=True
+    )
 
 # =============================================================================
 # Public chart query
