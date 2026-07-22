@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, Any
 
 import duckdb
+import pandas as pd
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
@@ -26,12 +27,20 @@ from app.query_parser import parse_query
 
 app = FastAPI(
     title="CFB Statistics Query",
-    version="1.1.0",
+    version="1.2.0",
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 INDEX_FILE = BASE_DIR / "app" / "templates" / "index.html"
 STATIC_DIR = BASE_DIR / "app" / "static"
+
+LOGO_DIRECTORY = BASE_DIR / "assets" / "team_logos"
+LOGO_MAP_FILE = (
+    BASE_DIR
+    / "data"
+    / "processed"
+    / "team_logo_map.csv"
+)
 
 app.mount(
     "/static",
@@ -41,7 +50,8 @@ app.mount(
 
 
 def get_available_teams() -> list[str]:
-    """Return all team names available in the rankings file."""
+    """Return all teams available in the rankings file."""
+
     if not RANKINGS_FILE.exists():
         return []
 
@@ -65,7 +75,8 @@ def get_available_teams() -> list[str]:
 
 
 def get_latest_season() -> int:
-    """Return the latest season represented in the rankings file."""
+    """Return the latest season in the rankings file."""
+
     if not RANKINGS_FILE.exists():
         return 2025
 
@@ -88,15 +99,67 @@ def get_latest_season() -> int:
     return int(result[0])
 
 
+def get_logo_metadata() -> dict[str, Any]:
+    """Return local team-logo asset information."""
+
+    png_count = 0
+
+    if LOGO_DIRECTORY.exists():
+        png_count = sum(
+            1
+            for path in LOGO_DIRECTORY.glob("*.png")
+            if path.is_file()
+        )
+
+    mapping_rows = 0
+    mapped_teams: list[str] = []
+
+    if LOGO_MAP_FILE.exists():
+        try:
+            mapping = pd.read_csv(LOGO_MAP_FILE)
+
+            mapping_rows = len(mapping)
+
+            if "cfbfastr_team" in mapping.columns:
+                mapped_teams = sorted(
+                    mapping["cfbfastr_team"]
+                    .dropna()
+                    .astype(str)
+                    .str.strip()
+                    .loc[lambda values: values != ""]
+                    .unique()
+                    .tolist()
+                )
+        except Exception:
+            mapping_rows = 0
+            mapped_teams = []
+
+    return {
+        "logo_directory_exists": LOGO_DIRECTORY.exists(),
+        "logo_directory": str(LOGO_DIRECTORY),
+        "logo_png_count": png_count,
+        "logo_map_exists": LOGO_MAP_FILE.exists(),
+        "logo_map_file": str(LOGO_MAP_FILE),
+        "logo_map_rows": mapping_rows,
+        "mapped_team_count": len(mapped_teams),
+        "mapped_teams": mapped_teams,
+    }
+
+
 def humanize_metric(metric: str) -> str:
-    """Convert internal metric identifiers to readable labels."""
+    """Convert internal metric names to readable labels."""
+
     labels = {
         "off_epa_per_play": "EPA per play",
         "off_epa_per_rush": "EPA per rush",
         "off_epa_per_pass": "EPA per pass",
         "off_success_rate": "success rate",
-        "off_rush_success_rate": "rushing success rate",
-        "off_pass_success_rate": "passing success rate",
+        "off_rush_success_rate": (
+            "rushing success rate"
+        ),
+        "off_pass_success_rate": (
+            "passing success rate"
+        ),
         "def_epa_allowed_per_play": (
             "defensive EPA allowed per play"
         ),
@@ -106,7 +169,9 @@ def humanize_metric(metric: str) -> str:
         "def_epa_allowed_per_pass": (
             "defensive EPA allowed per pass"
         ),
-        "def_success_rate_allowed": "success rate allowed",
+        "def_success_rate_allowed": (
+            "success rate allowed"
+        ),
         "def_rush_success_rate_allowed": (
             "rushing success rate allowed"
         ),
@@ -121,13 +186,15 @@ def humanize_metric(metric: str) -> str:
     )
 
 
-def format_answer(result: dict) -> str:
-    """Build a readable natural-language statistics response."""
+def format_answer(result: dict[str, Any]) -> str:
+    """Create a readable answer from a team metric."""
+
     metric = str(result["metric"])
     metric_label = humanize_metric(metric)
 
     value = float(result["value"])
     average = float(result["league_average"])
+
     difference = float(
         result["difference_from_average"]
     )
@@ -177,12 +244,8 @@ def parse_integer_csv(
     *,
     field_name: str,
 ) -> list[int]:
-    """
-    Convert a comma-separated query parameter into integers.
+    """Parse comma-separated integers from a query parameter."""
 
-    Example:
-        "1,2,3,4" -> [1, 2, 3, 4]
-    """
     try:
         values = [
             int(part.strip())
@@ -193,8 +256,8 @@ def parse_integer_csv(
         raise HTTPException(
             status_code=400,
             detail=(
-                f"{field_name} must contain comma-separated "
-                "integers."
+                f"{field_name} must contain "
+                "comma-separated integers."
             ),
         ) from error
 
@@ -222,7 +285,8 @@ def build_chart_options(
     goal_to_go_only: bool,
     season_type: str | None,
 ) -> TeamTiersChartOptions:
-    """Create one chart-options object for rendering."""
+    """Create chart-rendering options."""
+
     return TeamTiersChartOptions(
         season=season,
         week_start=week_start,
@@ -241,7 +305,8 @@ def build_chart_options(
 
 @app.get("/", response_class=HTMLResponse)
 def home() -> str:
-    """Serve the existing statistics-search interface."""
+    """Serve the current statistics search interface."""
+
     if not INDEX_FILE.exists():
         return """
         <!DOCTYPE html>
@@ -263,26 +328,55 @@ def home() -> str:
         </html>
         """
 
-    return INDEX_FILE.read_text(encoding="utf-8")
+    return INDEX_FILE.read_text(
+        encoding="utf-8"
+    )
 
 
 @app.get("/health")
-def health() -> dict:
-    """Return application and dataset health information."""
+def health() -> dict[str, Any]:
+    """Return application, dataset, and logo health."""
+
+    logo_metadata = get_logo_metadata()
+
     return {
         "status": "ok",
-        "rankings_file_exists": RANKINGS_FILE.exists(),
+        "rankings_file_exists": (
+            RANKINGS_FILE.exists()
+        ),
         "rankings_file": str(RANKINGS_FILE),
-        "situational_file_exists": SITUATIONAL_FILE.exists(),
+        "situational_file_exists": (
+            SITUATIONAL_FILE.exists()
+        ),
         "situational_file": str(SITUATIONAL_FILE),
         "latest_season": get_latest_season(),
         "team_count": len(get_available_teams()),
+        "logo_directory_exists": (
+            logo_metadata["logo_directory_exists"]
+        ),
+        "logo_png_count": (
+            logo_metadata["logo_png_count"]
+        ),
+        "logo_map_exists": (
+            logo_metadata["logo_map_exists"]
+        ),
+        "logo_map_rows": (
+            logo_metadata["logo_map_rows"]
+        ),
     }
 
 
+@app.get("/api/logos")
+def logos() -> dict[str, Any]:
+    """Return local team-logo metadata."""
+
+    return get_logo_metadata()
+
+
 @app.get("/api/teams")
-def teams() -> dict:
-    """Return teams available to the natural-language query app."""
+def teams() -> dict[str, Any]:
+    """Return teams available to the query app."""
+
     available_teams = get_available_teams()
 
     return {
@@ -300,8 +394,9 @@ def team_stat(
         ge=2014,
         le=2030,
     ),
-) -> dict:
-    """Retrieve a structured team-season statistic."""
+) -> dict[str, Any]:
+    """Return one structured team-season statistic."""
+
     selected_season = season or get_latest_season()
 
     try:
@@ -331,14 +426,16 @@ def team_stat(
         )
 
     result["answer"] = format_answer(result)
+
     return result
 
 
 @app.get("/api/search")
 def search(
     q: str = Query(..., min_length=3),
-) -> dict:
-    """Parse a natural-language question and return a statistic."""
+) -> dict[str, Any]:
+    """Parse a natural-language statistics question."""
+
     available_teams = get_available_teams()
 
     if not available_teams:
@@ -360,8 +457,8 @@ def search(
         raise HTTPException(
             status_code=400,
             detail=(
-                "I could not identify a team in that question. "
-                "Try including the full team name."
+                "I could not identify a team in that "
+                "question. Include the full team name."
             ),
         )
 
@@ -397,7 +494,8 @@ def search(
             status_code=404,
             detail=(
                 "No matching statistic was found for "
-                f"{parsed['team']} in {parsed['season']}."
+                f"{parsed['team']} in "
+                f"{parsed['season']}."
             ),
         )
 
@@ -410,16 +508,24 @@ def search(
 
 
 @app.get("/api/charts/metadata")
-def chart_metadata() -> dict:
-    """Return situational data availability and filter options."""
-    metadata = get_situational_metadata()
+def chart_metadata() -> dict[str, Any]:
+    """Return chart-data and filter metadata."""
 
     return {
-        "dataset": metadata,
+        "dataset": get_situational_metadata(),
         "seasons": get_available_chart_seasons(),
         "conferences": get_available_conferences(),
+        "logos": {
+            key: value
+            for key, value in get_logo_metadata().items()
+            if key != "mapped_teams"
+        },
         "supported_filters": {
-            "play_types": ["all", "rush", "pass"],
+            "play_types": [
+                "all",
+                "rush",
+                "pass",
+            ],
             "downs": [1, 2, 3, 4],
             "periods": [1, 2, 3, 4, 5],
             "garbage_time": True,
@@ -451,7 +557,9 @@ def team_tiers_data(
     ] = "all",
     downs: str = Query(default="1,2,3,4"),
     periods: str = Query(default="1,2,3,4"),
-    exclude_garbage_time: bool = Query(default=True),
+    exclude_garbage_time: bool = Query(
+        default=True
+    ),
     minimum_plays: Annotated[
         int,
         Query(ge=1, le=5000),
@@ -460,8 +568,9 @@ def team_tiers_data(
     red_zone_only: bool = Query(default=False),
     goal_to_go_only: bool = Query(default=False),
     season_type: str | None = Query(default=None),
-) -> dict:
-    """Return the team-tiers calculation as JSON."""
+) -> dict[str, Any]:
+    """Return team-tiers chart calculations as JSON."""
+
     selected_downs = parse_integer_csv(
         downs,
         field_name="downs",
@@ -480,7 +589,9 @@ def team_tiers_data(
             play_type=play_type,
             downs=selected_downs,
             periods=selected_periods,
-            exclude_garbage_time=exclude_garbage_time,
+            exclude_garbage_time=(
+                exclude_garbage_time
+            ),
             minimum_plays=minimum_plays,
             conference=conference,
             red_zone_only=red_zone_only,
@@ -502,8 +613,8 @@ def team_tiers_data(
         raise HTTPException(
             status_code=404,
             detail=(
-                "No teams met the selected chart filters and "
-                "minimum-play requirement."
+                "No teams met the selected chart filters "
+                "and minimum-play requirement."
             ),
         )
 
@@ -533,14 +644,6 @@ def team_tiers_data(
 @app.get(
     "/api/charts/team-tiers.png",
     response_class=Response,
-    responses={
-        200: {
-            "content": {
-                "image/png": {},
-            },
-            "description": "Rendered team-tiers PNG.",
-        }
-    },
 )
 def team_tiers_png(
     season: Annotated[
@@ -561,7 +664,9 @@ def team_tiers_png(
     ] = "all",
     downs: str = Query(default="1,2,3,4"),
     periods: str = Query(default="1,2,3,4"),
-    exclude_garbage_time: bool = Query(default=True),
+    exclude_garbage_time: bool = Query(
+        default=True
+    ),
     minimum_plays: Annotated[
         int,
         Query(ge=1, le=5000),
@@ -584,7 +689,8 @@ def team_tiers_png(
     ] = 1.0,
     download: bool = Query(default=False),
 ) -> Response:
-    """Render the filtered team-tiers chart as a PNG."""
+    """Render the filtered team-tiers PNG."""
+
     selected_downs = parse_integer_csv(
         downs,
         field_name="downs",
@@ -603,7 +709,9 @@ def team_tiers_png(
             play_type=play_type,
             downs=selected_downs,
             periods=selected_periods,
-            exclude_garbage_time=exclude_garbage_time,
+            exclude_garbage_time=(
+                exclude_garbage_time
+            ),
             minimum_plays=minimum_plays,
             conference=conference,
             red_zone_only=red_zone_only,
@@ -627,7 +735,9 @@ def team_tiers_png(
             play_type=play_type,
             downs=selected_downs,
             periods=selected_periods,
-            exclude_garbage_time=exclude_garbage_time,
+            exclude_garbage_time=(
+                exclude_garbage_time
+            ),
             minimum_plays=minimum_plays,
             conference=conference,
             red_zone_only=red_zone_only,
@@ -643,6 +753,7 @@ def team_tiers_png(
             height=height,
             scale=scale,
         )
+
     except HTTPException:
         raise
     except FileNotFoundError as error:
@@ -659,13 +770,16 @@ def team_tiers_png(
         raise HTTPException(
             status_code=500,
             detail=(
-                "The chart could not be rendered. Confirm that "
-                "Plotly, Kaleido, and Chrome are installed. "
+                "The chart could not be rendered. "
                 f"Technical detail: {error}"
             ),
         ) from error
 
-    disposition = "attachment" if download else "inline"
+    disposition = (
+        "attachment"
+        if download
+        else "inline"
+    )
 
     filename = (
         f"cfb-team-tiers-{season}-"
