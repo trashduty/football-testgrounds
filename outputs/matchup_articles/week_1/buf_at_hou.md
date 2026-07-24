@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bills | -1.5 (+100) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Houston Texans | +1.0 (-110) | BetRivers | 47.2% | No Bet |
+| Buffalo Bills | -1.5 (+100) | FanDuel | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
+| Houston Texans | +1.5 (-112) | DraftKings | 48.1% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 

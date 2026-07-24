@@ -86,7 +86,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Baltimore Ravens | -3.5 (-110) | DraftKings | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
-| Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | No Bet |
+| Indianapolis Colts | +3.5 (-105) | BetMGM | 44.0% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -125,8 +125,8 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bills | -1.5 (+100) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Houston Texans | +1.0 (-110) | BetRivers | 47.2% | No Bet |
+| Buffalo Bills | -1.5 (+100) | FanDuel | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
+| Houston Texans | +1.5 (-112) | DraftKings | 48.1% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -285,14 +285,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Denver Broncos | +2.5 (-104) | FanDuel | 41.8% | No Bet |
-| Kansas City Chiefs | -2.5 (-115) | DraftKings | 58.2% | Bet |
+| Denver Broncos | +2.5 (+100) | Fanatics | 41.8% | No Bet |
+| Kansas City Chiefs | -2.5 (-118) | FanDuel | 58.2% | Bet |
 
 *Model assumes Patrick Mahomes (Kansas City Chiefs) and Bo Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
-This puts the edge at 4.74%, which at -2.5 for -115 makes the Kansas City Chiefs a bet.
+The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -3.
+This puts the edge at 4.10%, which at -2.5 for -118 makes the Kansas City Chiefs a bet.
 
 ## Why The Pick
 
@@ -324,7 +324,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | -1.5 (+105) | DraftKings | 50.0% | Lean – doesn't meet our edge criteria to fully bet |
+| Green Bay Packers | -1.5 (+100) | DraftKings | 50.0% | No Bet |
 | Minnesota Vikings | -1.5 (+100) | BetMGM | 48.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
@@ -332,7 +332,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of 1.20%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of -0.02%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -365,7 +365,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Miami Dolphins | +3.5 (-102) | FanDuel | 59.9% | Bet |
-| Las Vegas Raiders | -3.5 (-105) | Fanatics | 40.1% | No Bet |
+| Las Vegas Raiders | -3.5 (-110) | DraftKings | 40.1% | No Bet |
 
 *Model assumes Malik Willis (Miami Dolphins) and Kirk Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -409,7 +409,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +3.5.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.
 This puts the edge at 9.76%, which at +4.5 for -112 makes the New England Patriots a bet.
 
 ## Why The Pick
@@ -482,15 +482,15 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New York Jets | +2.5 (+100) | BetMGM | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
-| Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | No Bet |
+| New York Jets | +2.5 (-105) | BetMGM | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
+| Tennessee Titans | -2.5 (-110) | DraftKings | 46.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Geno Smith (New York Jets) and Cam Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5 with an edge of 3.46%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5 with an edge of 2.24%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -523,7 +523,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | San Francisco 49ers | +3.5 (-105) | FanDuel | 59.2% | Bet |
-| Los Angeles Rams | -3.5 (-110) | BetMGM | 40.7% | No Bet |
+| Los Angeles Rams | -3.5 (-105) | DraftKings | 40.7% | No Bet |
 
 *Model assumes Brock Purdy (San Francisco 49ers) and Matthew Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -600,7 +600,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Commanders | +5.5 (-110) | DraftKings | 48.2% | No Bet |
+| Washington Commanders | +4.5 (-110) | DraftKings | 47.1% | No Bet |
 | Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | Lean – doesn't meet our edge criteria to fully bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.

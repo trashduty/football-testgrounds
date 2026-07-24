@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Baltimore Ravens | -3.5 (-110) | DraftKings | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
-| Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | No Bet |
+| Indianapolis Colts | +3.5 (-105) | BetMGM | 44.0% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 

@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Commanders | +5.5 (-110) | DraftKings | 48.2% | No Bet |
+| Washington Commanders | +4.5 (-110) | DraftKings | 47.1% | No Bet |
 | Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | Lean – doesn't meet our edge criteria to fully bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.

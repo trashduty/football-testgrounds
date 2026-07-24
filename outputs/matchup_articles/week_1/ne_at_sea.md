@@ -12,7 +12,7 @@
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +3.5.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.
 This puts the edge at 9.76%, which at +4.5 for -112 makes the New England Patriots a bet.
 
 ## Why The Pick
