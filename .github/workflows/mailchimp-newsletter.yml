@@ -1,80 +1,79 @@
-name: Notify Mailchimp Newsletter Subscribers
+name: Notify Newsletter Subscribers
 
 on:
+  workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - 'outputs/matchup_articles/**'
-  workflow_dispatch: 
+    branches: [ main ]
+
 jobs:
   send_email:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 1
+      - uses: actions/checkout@v4
 
-      - name: Create and Send Mailchimp Campaign
+      - name: Build and send Mailchimp campaign with full article body
         env:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
           MAILCHIMP_AUDIENCE_ID: ${{ secrets.MAILCHIMP_AUDIENCE_ID }}
           MAILCHIMP_SERVER: ${{ secrets.MAILCHIMP_SERVER }}
         run: |
-          # Find the first .md article file (excluding weekly_matchup_articles.md and test files)
-          ARTICLE_FILE=$(find outputs/matchup_articles -name "*.md" -type f ! -name "weekly_matchup_articles.md" ! -name "test" | head -1)
-          
-          if [ -z "$ARTICLE_FILE" ]; then
-            echo "No article file found"
-            exit 1
-          fi
-          
-          echo "Found article: $ARTICLE_FILE"
-          
-          # Read the article content
-          ARTICLE_CONTENT=$(cat "$ARTICLE_FILE")
-          
-          # Convert markdown to basic HTML (simple approach)
-          # For more complex markdown, consider using a tool like pandoc
-          ARTICLE_HTML=$(echo "$ARTICLE_CONTENT" | sed 's/^# /\n<h1>/g; s/^## /\n<h2>/g; s/^### /\n<h3>/g; s/$/\n/g')
-          
-          # Get commit info
-          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
-          COMMIT_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA"
-          
-          # Extract article title from filename
-          ARTICLE_TITLE=$(basename "$ARTICLE_FILE" .md | tr '_' ' ' | sed 's/\b\(.\)/\u\1/g')
-          
-          # Step 1: Create a campaign
-          CAMPAIGN_RESPONSE=$(curl -s -X POST "https://${MAILCHIMP_SERVER}.api.mailchimp.com/3.0/campaigns" \
-            -u "anystring:${MAILCHIMP_API_KEY}" \
-            -H "Content-Type: application/json" \
-            -d '{
-              "type": "regular",
-              "recipients": {"list_id": "'${MAILCHIMP_AUDIENCE_ID}'"},
-              "settings": {
-                "subject_line": "New NFL Article: '"${ARTICLE_TITLE}"'",
-                "title": "NFL Newsletter - '"${ARTICLE_TITLE}"'",
-                "from_name": "BTB Analytics",
-                "reply_to": "bullytheboard@gmail.com"
+          set -euo pipefail
+
+          # 1) Pick the exact article you want for now
+          ARTICLE_FILE="outputs/matchup_articles/week_1/atl_at_pit.md"
+          test -f "$ARTICLE_FILE"
+
+          # 2) Build safe HTML from markdown (keeps full text visible)
+          python3 - <<'PY'
+          from pathlib import Path
+          import html
+          md = Path("outputs/matchup_articles/week_1/atl_at_pit.md").read_text(encoding="utf-8")
+          # Simple reliable rendering: show entire article in pre-wrap block
+          body = f"""<h1>ATL at PIT</h1>
+          <div style="font-family:Arial,sans-serif;line-height:1.6;white-space:pre-wrap;">{html.escape(md)}</div>"""
+          Path("mailchimp_body.html").write_text(body, encoding="utf-8")
+          PY
+
+          # 3) Create campaign
+          CREATE_JSON=$(jq -n \
+            --arg list "$MAILCHIMP_AUDIENCE_ID" \
+            '{
+              type:"regular",
+              recipients:{list_id:$list},
+              settings:{
+                subject_line:"New NFL Article: ATL at PIT",
+                title:"NFL Newsletter - ATL at PIT",
+                from_name:"BTB Analytics",
+                reply_to:"bullytheboard@gmail.com"
               }
             }')
-          
-          CAMPAIGN_ID=$(echo $CAMPAIGN_RESPONSE | jq -r '.id')
-          echo "Created campaign: $CAMPAIGN_ID"
-          
-          # Step 2: Set campaign content with the article
-          curl -s -X PUT "https://${MAILCHIMP_SERVER}.api.mailchimp.com/3.0/campaigns/${CAMPAIGN_ID}/content" \
+
+          CAMPAIGN_RESPONSE=$(curl -sS -X POST "https://${MAILCHIMP_SERVER}.api.mailchimp.com/3.0/campaigns" \
             -u "anystring:${MAILCHIMP_API_KEY}" \
             -H "Content-Type: application/json" \
-            -d '{
-              "html": "<h2>'"${ARTICLE_TITLE}"'</h2><div style=\"line-height: 1.6; font-family: Arial, sans-serif;\">'"$(echo "$ARTICLE_CONTENT" | jq -Rs .)"'</div><hr/><p><a href=\"'"${COMMIT_URL}"'\">View all articles in repository</a></p>"
-            }'
-          
-          # Step 3: Send the campaign
-          SEND_RESPONSE=$(curl -s -X POST "https://${MAILCHIMP_SERVER}.api.mailchimp.com/3.0/campaigns/${CAMPAIGN_ID}/actions/send" \
+            -d "$CREATE_JSON")
+
+          CAMPAIGN_ID=$(echo "$CAMPAIGN_RESPONSE" | jq -r '.id')
+          if [ -z "${CAMPAIGN_ID}" ] || [ "${CAMPAIGN_ID}" = "null" ]; then
+            echo "Campaign creation failed:"
+            echo "$CAMPAIGN_RESPONSE"
+            exit 1
+          fi
+
+          # 4) Set campaign content (THIS is the key fix)
+          CONTENT_JSON=$(jq -n --rawfile html mailchimp_body.html '{html:$html}')
+
+          CONTENT_RESPONSE=$(curl -sS -X PUT "https://${MAILCHIMP_SERVER}.api.mailchimp.com/3.0/campaigns/${CAMPAIGN_ID}/content" \
+            -u "anystring:${MAILCHIMP_API_KEY}" \
+            -H "Content-Type: application/json" \
+            -d "$CONTENT_JSON")
+
+          # sanity check
+          echo "$CONTENT_RESPONSE" | jq .
+
+          # 5) Send campaign
+          SEND_RESPONSE=$(curl -sS -X POST "https://${MAILCHIMP_SERVER}.api.mailchimp.com/3.0/campaigns/${CAMPAIGN_ID}/actions/send" \
             -u "anystring:${MAILCHIMP_API_KEY}" \
             -H "Content-Type: application/json")
-          
-          echo "Campaign sent. Response: $SEND_RESPONSE"
+
+          echo "$SEND_RESPONSE" | jq .
