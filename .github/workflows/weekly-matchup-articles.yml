@@ -1,4 +1,4 @@
-name: Generate weekly matchup articles
+name: Generate NFL matchup articles
 
 on:
   workflow_dispatch:
