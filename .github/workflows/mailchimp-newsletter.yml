@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'outputs/matchup_articles/**'
-
+  workflow_dispatch: 
 jobs:
   send_email:
     runs-on: ubuntu-latest
