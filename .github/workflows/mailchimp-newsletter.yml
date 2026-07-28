@@ -1,4 +1,4 @@
-name: Notify Newsletter Subscribers
+name: Notify Mailchimp Newsletter Subscribers
 
 on:
   push:
