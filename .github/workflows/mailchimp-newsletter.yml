@@ -1,6 +1,6 @@
 name: Notify Newsletter Subscribers
 
-on:
+
   workflow_dispatch:
   push:
     branches: [ main ]
