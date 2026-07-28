@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Dallas Cowboys | -2.5 (-110) | DraftKings | 51.5% | No Bet |
+| Dallas Cowboys | -2.5 (-110) | BetMGM | 51.5% | No Bet |
 | New York Giants | +2.5 (-102) | FanDuel | 48.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.

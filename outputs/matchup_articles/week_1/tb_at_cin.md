@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Tampa Bay Buccaneers | +3.5 (-105) | FanDuel | 57.9% | Bet |
-| Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
+| Cincinnati Bengals | -3.5 (-105) | Fanatics | 42.1% | No Bet |
 
 *Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 

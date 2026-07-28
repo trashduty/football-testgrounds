@@ -6,27 +6,27 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Orleans Saints | +7.5 (-117) | BetRivers | 51.5% | No Bet |
-| Detroit Lions | -7.5 (-107) | BetRivers | 48.5% | No Bet |
+| New Orleans Saints | +7.0 (-105) | FanDuel | 41.8% | No Bet |
+| Detroit Lions | -7.0 (-110) | DraftKings | 48.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
-*Model assumes Tyler Shough (New Orleans Saints) and Jared Goff (Detroit Lions) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Jared Goff (Detroit Lions) and Tyler Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward New Orleans Saints +7.5 with an edge of -2.41%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward Detroit Lions -7.0 with an edge of -3.87%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
-| | New Orleans Saints | Detroit Lions |
+| | Detroit Lions | New Orleans Saints |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Tyler Shough (26th) | Jared Goff (19th) |
-| Offensive Success Rate | 25th | 12th |
-| Defensive Success Rate | 15th | 11th |
-| Offensive Eckel Rate Over Expected* | 45.0% | 56.7% |
-| Defensive Eckel Rate Over Expected | 47.5% | 47.0% |
+| QB Efficiency (Last 10 Games) | Jared Goff (19th) | Tyler Shough (26th) |
+| Offensive Success Rate | 12th | 25th |
+| Defensive Success Rate | 11th | 15th |
+| Offensive Eckel Rate Over Expected* | 56.7% | 45.0% |
+| Defensive Eckel Rate Over Expected | 47.0% | 47.5% |
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
