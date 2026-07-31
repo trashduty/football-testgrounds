@@ -6,15 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Orleans Saints | +7.0 (-105) | FanDuel | 41.8% | No Bet |
-| Detroit Lions | -7.0 (-110) | DraftKings | 48.5% | No Bet |
-
-The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+| New Orleans Saints | +6.5 (-105) | FanDuel | 41.8% | No Bet |
+| Detroit Lions | -6.5 (-115) | FanDuel | 58.1% | Bet |
 
 *Model assumes Jared Goff (Detroit Lions) and Tyler Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward Detroit Lions -7.0 with an edge of -3.87%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The New Orleans Saints take on the Detroit Lions at Ford Field and the model favors **the Detroit Lions** at -6.5 vs. the market at -7.
+This puts the edge at 4.65%, which at -6.5 for -115 makes the Detroit Lions a bet.
 
 ## Why The Pick
 

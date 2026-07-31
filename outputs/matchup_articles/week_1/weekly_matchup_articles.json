@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-28T05:25:45.344473+00:00",
+  "generated_at_utc": "2026-07-31T15:45:02.408174+00:00",
   "season": 2026,
   "week": 1,
   "articles": [
@@ -238,7 +238,7 @@
       "game": "NO@DET",
       "away_team": "NO",
       "home_team": "DET",
-      "has_bet": false,
+      "has_bet": true,
       "injury_reports": {
         "NO": {
           "team": "NO",

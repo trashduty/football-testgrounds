@@ -86,7 +86,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Baltimore Ravens | -3.5 (-110) | DraftKings | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
-| Indianapolis Colts | +3.5 (-105) | BetMGM | 44.0% | No Bet |
+| Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -206,7 +206,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Cleveland Browns | +7.5 (-105) | FanDuel | 51.5% | No Bet |
-| Jacksonville Jaguars | -7.5 (-105) | Fanatics | 48.5% | No Bet |
+| Jacksonville Jaguars | -7.5 (-109) | BetRivers | 48.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
@@ -245,7 +245,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Dallas Cowboys | -2.5 (-110) | BetMGM | 51.5% | No Bet |
+| Dallas Cowboys | -2.5 (-115) | DraftKings | 51.5% | No Bet |
 | New York Giants | +2.5 (-102) | FanDuel | 48.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
@@ -253,7 +253,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Dak Prescott (Dallas Cowboys) and Jaxson Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5 with an edge of -0.88%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5 with an edge of -1.99%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -324,15 +324,15 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | -1.5 (+100) | DraftKings | 50.0% | No Bet |
-| Minnesota Vikings | -1.5 (+100) | BetMGM | 48.2% | No Bet |
+| Green Bay Packers | -1.5 (+100) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
+| Minnesota Vikings | +1.0 (-113) | BetRivers | 47.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of -0.02%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of 1.85%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -403,14 +403,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New England Patriots | +4.5 (-114) | FanDuel | 62.6% | Bet |
-| Seattle Seahawks | -3.5 (-110) | DraftKings | 40.7% | No Bet |
+| New England Patriots | +4.5 (-114) | FanDuel | 61.9% | Bet |
+| Seattle Seahawks | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.
-This puts the edge at 9.32%, which at +4.5 for -114 makes the New England Patriots a bet.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
+This puts the edge at 8.65%, which at +4.5 for -114 makes the New England Patriots a bet.
 
 ## Why The Pick
 
@@ -442,15 +442,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Orleans Saints | +7.0 (-105) | FanDuel | 41.8% | No Bet |
-| Detroit Lions | -7.0 (-110) | DraftKings | 48.5% | No Bet |
-
-The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+| New Orleans Saints | +6.5 (-105) | FanDuel | 41.8% | No Bet |
+| Detroit Lions | -6.5 (-115) | FanDuel | 58.1% | Bet |
 
 *Model assumes Jared Goff (Detroit Lions) and Tyler Shough (New Orleans Saints) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New Orleans Saints take on the Detroit Lions at Ford Field and the model sees a lean toward Detroit Lions -7.0 with an edge of -3.87%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The New Orleans Saints take on the Detroit Lions at Ford Field and the model favors **the Detroit Lions** at -6.5 vs. the market at -7.
+This puts the edge at 4.65%, which at -6.5 for -115 makes the Detroit Lions a bet.
 
 ## Why The Pick
 
@@ -482,7 +481,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New York Jets | +2.5 (+100) | Fanatics | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
+| New York Jets | +2.5 (-105) | BetMGM | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
 | Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
@@ -490,7 +489,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Geno Smith (New York Jets) and Cam Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5 with an edge of 3.46%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5 with an edge of 2.24%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -562,7 +561,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Tampa Bay Buccaneers | +3.5 (-105) | FanDuel | 57.9% | Bet |
-| Cincinnati Bengals | -3.5 (-105) | Fanatics | 42.1% | No Bet |
+| Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
 
 *Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
