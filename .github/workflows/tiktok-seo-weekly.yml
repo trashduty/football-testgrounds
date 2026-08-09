@@ -1,0 +1,52 @@
+name: Weekly TikTok SEO Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 8:00 AM Arizona time (America/Phoenix) every Monday.
+    - cron: "0 15 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  build-tiktok-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-tiktok-seo.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-tiktok-seo.txt
+
+      - name: Generate TikTok SEO report
+        env:
+          KEYWORDTOOL_API_KEY: ${{ secrets.KEYWORDTOOL_API_KEY }}
+        run: python scripts/tiktok_seo/weekly_tiktok_seo.py
+
+      - name: Commit report data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tiktok/
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "Update weekly TikTok SEO report"
+            git push
+          fi
+
+      - name: Email TikTok SEO report
+        env:
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python scripts/tiktok_seo/email_report.py
