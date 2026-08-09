@@ -1,0 +1,140 @@
+# BTB TikTok Search Report — 2026-08-09
+
+> Source: KeywordTool.io TikTok estimated search volume and TikTok keyword suggestions.
+> Search volume is estimated; use it primarily for relative demand and trend comparison.
+
+## Top 20 Search Opportunities
+
+| Rank | Sport | Search query | Avg monthly volume | Latest month | MoM | 3-mo momentum | Score |
+|---:|---|---|---:|---:|---:|---:|---:|
+| 1 | NFL | nfl 2026 draft | 655,000 | 72,100 | -45% | +420% | **72.3** |
+| 2 | NFL | nfl power rankings 2026 | 1,900 | 7,900 | +0% | +650% | **70.8** |
+| 3 | NFL | nfl picks draft | 32,400 | 1,900 | -64% | +991% | **70.1** |
+| 4 | NFL | nfl 2026 draft picks | 580 | 110 | -58% | +310% | **66.5** |
+| 5 | NFL | nfl power rankings | 197,000 | 17,800 | -18% | -40% | **64.7** |
+| 6 | NFL | nfl power rankings post draft | 660 | 260 | -89% | +26433% | **62.5** |
+| 7 | CFB | cfb rankings | 360,000 | 3,500 | -34% | -82% | **61.9** |
+| 8 | NFL | nfl game today | 3,276,000 | 11,900 | -45% | -100% | **59.4** |
+| 9 | NFL | nfl hall of fame game 2026 | 850 | 4,300 | +79% | +232% | **59.3** |
+| 10 | CFB | cfb rankings 2026 | 470 | 850 | -29% | +189% | **59.0** |
+| 11 | NFL | nfl 2026 schedule | 11,900 | 9,700 | -80% | +83% | **58.6** |
+| 12 | NFL | nfl picks today | 32,400 | 210 | -19% | -91% | **58.0** |
+| 13 | CFB | college football picks | 26,500 | 310 | +0% | -91% | **58.0** |
+| 14 | NFL | nfl picks | 48,500 | 1,200 | -50% | -75% | **57.4** |
+| 15 | NFL | nfl predictions | 32,400 | 7,900 | -19% | -70% | **57.3** |
+| 16 | NFL | nfl power rankings 2025 | 14,500 | 140 | -33% | -85% | **57.1** |
+| 17 | NFL | 'nfl | 24,370,000 | 1,795,000 | -18% | -91% | **56.8** |
+| 18 | NFL | nfl | 24,370,000 | 1,795,000 | -18% | -91% | **56.8** |
+| 19 | NFL | nfl's | 24,370,000 | 1,795,000 | -18% | -91% | **56.8** |
+| 20 | NFL | draft nfl 2026 | 1,900 | 210 | -55% | +193% | **56.5** |
+
+## Recommended TikToks This Week
+
+### 1. nfl 2026 draft
+
+- **Opportunity score:** 72.3/100
+- **Estimated avg. monthly searches:** 655,000
+- **Latest monthly estimate:** 72,100
+- **Suggested on-screen title:** Nfl 2026 Draft: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for nfl 2026 draft, here's what our model says and where it differs from the market.
+- **Hashtags:** #Nfl2026Draft #NFL #NFLFootball #Football #SportsAnalytics
+
+### 2. nfl power rankings 2026
+
+- **Opportunity score:** 70.8/100
+- **Estimated avg. monthly searches:** 1,900
+- **Latest monthly estimate:** 7,900
+- **Suggested on-screen title:** Nfl Power Rankings 2026: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for nfl power rankings 2026, here's what our model says and where it differs from the market.
+- **Hashtags:** #NflPowerRankings2026 #NFL #NFLFootball #Football #SportsAnalytics
+
+### 3. nfl picks draft
+
+- **Opportunity score:** 70.1/100
+- **Estimated avg. monthly searches:** 32,400
+- **Latest monthly estimate:** 1,900
+- **Suggested on-screen title:** Nfl Picks Draft — Model-Based Breakdown
+- **Suggested opening:** If you're searching for nfl picks draft, here's what our model says and where it differs from the market.
+- **Hashtags:** #NflPicksDraft #NFL #NFLFootball #Football #SportsAnalytics
+
+### 4. nfl 2026 draft picks
+
+- **Opportunity score:** 66.5/100
+- **Estimated avg. monthly searches:** 580
+- **Latest monthly estimate:** 110
+- **Suggested on-screen title:** Nfl 2026 Draft Picks — Model-Based Breakdown
+- **Suggested opening:** If you're searching for nfl 2026 draft picks, here's what our model says and where it differs from the market.
+- **Hashtags:** #Nfl2026DraftPicks #NFL #NFLFootball #Football #SportsAnalytics
+
+### 5. nfl power rankings
+
+- **Opportunity score:** 64.7/100
+- **Estimated avg. monthly searches:** 197,000
+- **Latest monthly estimate:** 17,800
+- **Suggested on-screen title:** Nfl Power Rankings: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for nfl power rankings, here's what our model says and where it differs from the market.
+- **Hashtags:** #NflPowerRankings #NFL #NFLFootball #Football #SportsAnalytics
+
+### 6. nfl power rankings post draft
+
+- **Opportunity score:** 62.5/100
+- **Estimated avg. monthly searches:** 660
+- **Latest monthly estimate:** 260
+- **Suggested on-screen title:** Nfl Power Rankings Post Draft: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for nfl power rankings post draft, here's what our model says and where it differs from the market.
+- **Hashtags:** #NflPowerRankingsPostDraft #NflPowerRankingsPost #NFL #NFLFootball #Football
+
+### 7. cfb rankings
+
+- **Opportunity score:** 61.9/100
+- **Estimated avg. monthly searches:** 360,000
+- **Latest monthly estimate:** 3,500
+- **Suggested on-screen title:** Cfb Rankings: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for cfb rankings, here's what our model says and where it differs from the market.
+- **Hashtags:** #CfbRankings #CollegeFootball #CFB #Football #SportsAnalytics
+
+### 8. nfl game today
+
+- **Opportunity score:** 59.4/100
+- **Estimated avg. monthly searches:** 3,276,000
+- **Latest monthly estimate:** 11,900
+- **Suggested on-screen title:** Nfl Game Today: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for nfl game today, here's what our model says and where it differs from the market.
+- **Hashtags:** #NflGameToday #NFL #NFLFootball #Football #SportsAnalytics
+
+### 9. nfl hall of fame game 2026
+
+- **Opportunity score:** 59.3/100
+- **Estimated avg. monthly searches:** 850
+- **Latest monthly estimate:** 4,300
+- **Suggested on-screen title:** Nfl Hall Of Fame Game 2026: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for nfl hall of fame game 2026, here's what our model says and where it differs from the market.
+- **Hashtags:** #NflHallOfFameGame2026 #NflHallOfFame #NFL #NFLFootball #Football
+
+### 10. cfb rankings 2026
+
+- **Opportunity score:** 59.0/100
+- **Estimated avg. monthly searches:** 470
+- **Latest monthly estimate:** 850
+- **Suggested on-screen title:** Cfb Rankings 2026: Data-Driven Breakdown
+- **Suggested opening:** If you're searching for cfb rankings 2026, here's what our model says and where it differs from the market.
+- **Hashtags:** #CfbRankings2026 #CollegeFootball #CFB #Football #SportsAnalytics
+
+## Fastest-Rising Searches
+
+| Search query | Sport | MoM | 3-mo momentum | Avg monthly volume | Score |
+|---|---|---:|---:|---:|---:|
+| nfl picks tonight | NFL | +400% | -43% | 850 | 55.0 |
+| nfl power rankings update | NFL | +100% | +25% | 260 | 55.9 |
+| cfb rankings prediction | CFB | +100% | -64% | 660 | 51.0 |
+| nfl hall of fame game 2026 | NFL | +79% | +232% | 850 | 59.3 |
+| cfb picks | CFB | +67% | -95% | 3,500 | 51.4 |
+| cfb predictions | CFB | +52% | -49% | 2,400 | 51.7 |
+| cfb rankings today | CFB | +50% | -85% | 2,400 | 55.2 |
+| college football betting | CFB | +49% | -54% | 3,500 | 51.3 |
+| cfb rankings 2025 | CFB | -18% | -59% | 6,500 | 53.9 |
+| nfl power rankings | NFL | -18% | -40% | 197,000 | 64.7 |
+
+## How to Use This Report
+
+Prioritize search phrases that combine meaningful volume, positive momentum, and clear football intent. Use the target phrase naturally in the spoken hook, on-screen text, and caption. Hashtags are supplemental.
