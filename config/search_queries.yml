@@ -1,0 +1,51 @@
+queries:
+
+  cfb_general:
+    enabled: true
+    sport: CFB
+    query: >
+      ("college football" OR CFB)
+      (playoff OR rankings OR underrated OR overrated OR "win total")
+      lang:en
+      -is:retweet
+      -is:reply
+
+  cfb_futures:
+    enabled: true
+    sport: CFB
+    query: >
+      ("college football" OR CFB)
+      ("win total" OR "win totals" OR futures OR playoff)
+      lang:en
+      -is:retweet
+      -is:reply
+
+  cfb_news:
+    enabled: true
+    sport: CFB
+    query: >
+      ("college football" OR CFB)
+      (injury OR quarterback OR transfer OR suspended OR starter)
+      lang:en
+      -is:retweet
+      -is:reply
+
+  nfl_general:
+    enabled: true
+    sport: NFL
+    query: >
+      (NFL OR "National Football League")
+      ("win total" OR underrated OR overrated OR "power rankings")
+      lang:en
+      -is:retweet
+      -is:reply
+
+  nfl_news:
+    enabled: true
+    sport: NFL
+    query: >
+      NFL
+      (injury OR quarterback OR starter OR suspended OR signing)
+      lang:en
+      -is:retweet
+      -is:reply
