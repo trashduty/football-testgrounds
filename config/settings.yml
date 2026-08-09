@@ -1,0 +1,15 @@
+x_api:
+  max_results_per_query: 10
+  lookback_minutes: 45
+  request_timeout_seconds: 30
+
+alerts:
+  score_threshold: 70
+  high_priority_threshold: 88
+  max_alerts_per_run: 3
+
+state:
+  keep_alerted_days: 7
+
+logging:
+  max_log_rows: 5000
