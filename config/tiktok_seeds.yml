@@ -1,0 +1,100 @@
+# TikTok SEO seed configuration for BTB Analytics.
+# Add/remove seeds at any time without changing Python code.
+
+country: US
+language: en
+
+# Maximum suggestion seeds queried on each run.
+# Each seed consumes one suggestions API request.
+max_seed_requests: 24
+
+# Maximum suggestions retained from each seed after cleaning.
+max_suggestions_per_seed: 150
+
+# Keywords below this estimated average monthly volume are omitted
+# from the ranked report, but can still be stored in raw output.
+min_report_volume: 50
+
+# Number of ranked opportunities to show in the Markdown report.
+top_n: 50
+
+# Generic evergreen discovery seeds.
+evergreen_seeds:
+  - college football
+  - college football predictions
+  - college football picks
+  - college football rankings
+  - college football odds
+  - college football spreads
+  - college football betting
+  - college football futures
+  - college football win totals
+  - cfb predictions
+  - cfb picks
+  - cfb rankings
+  - nfl
+  - nfl predictions
+  - nfl picks
+  - nfl odds
+  - nfl spreads
+  - nfl betting
+  - nfl futures
+  - nfl win totals
+  - nfl power rankings
+  - fantasy football
+
+# Optional weekly/event seeds.
+# Edit this list before a Monday run if there are specific games/topics
+# you want emphasized. These are queried before evergreen_seeds.
+priority_seeds:
+  - college football week 1
+  - college football 2026
+  - nfl 2026
+
+# Terms that strongly indicate search intent relevant to BTB.
+intent_terms:
+  - prediction
+  - predictions
+  - pick
+  - picks
+  - odds
+  - spread
+  - spreads
+  - total
+  - totals
+  - over under
+  - win total
+  - win totals
+  - ranking
+  - rankings
+  - best bet
+  - betting
+  - preview
+  - model
+  - projection
+  - projections
+  - futures
+
+# Terms that can make a keyword less relevant to BTB.
+negative_terms:
+  - highlights
+  - jersey
+  - tickets
+  - wallpaper
+  - fight
+  - cheerleader
+  - mascot costume
+  - video game
+  - madden rating
+
+# Hashtags always eligible to supplement keyword-derived tags.
+base_hashtags:
+  cfb:
+    - CollegeFootball
+    - CFB
+  nfl:
+    - NFL
+    - NFLFootball
+  generic:
+    - Football
+    - SportsAnalytics
