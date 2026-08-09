@@ -1410,7 +1410,7 @@ def main() -> int:
     max_seed_requests = int(
         cfg.get(
             "max_seed_requests",
-            24,
+            22,
         )
     )
 
