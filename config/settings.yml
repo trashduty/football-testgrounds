@@ -6,6 +6,11 @@ x_api:
   # Recent Search query-length ceiling.
   max_query_characters: 475
 
+data:
+
+  cfb_crosswalk:
+    path: "config/cfb_team_crosswalk.csv"
+
 alerts:
 
   # Different opportunities deserve different thresholds.
