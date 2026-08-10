@@ -1,26 +1,37 @@
 from __future__ import annotations
 
 import requests
-from datetime import datetime, timedelta, timezone
+
+from datetime import (
+    datetime,
+    timedelta,
+    timezone,
+)
+
 from typing import Any
 
 
-X_RECENT_SEARCH_URL = "https://api.x.com/2/tweets/search/recent"
+X_RECENT_SEARCH_URL = (
+    "https://api.x.com/2/tweets/search/recent"
+)
 
 
 class XAPIError(RuntimeError):
-    """Raised when the X API request fails."""
+    pass
 
 
-def _utc_iso(dt: datetime) -> str:
-    """
-    Convert a datetime to the ISO-8601 format expected by X.
-    """
+def _utc_iso(
+    dt: datetime,
+) -> str:
+
     return (
         dt.astimezone(timezone.utc)
         .replace(microsecond=0)
         .isoformat()
-        .replace("+00:00", "Z")
+        .replace(
+            "+00:00",
+            "Z",
+        )
     )
 
 
@@ -29,53 +40,76 @@ def search_recent_posts(
     query: str,
     query_name: str,
     sport: str,
+    conversation_type_hint: str,
     max_results: int = 10,
-    lookback_minutes: int = 45,
+    lookback_minutes: int = 40,
     timeout_seconds: int = 30,
 ) -> list[dict[str, Any]]:
-    """
-    Search X Recent Search and return normalized posts.
-
-    Uses app-only Bearer authentication.
-    """
 
     if not bearer_token:
-        raise ValueError("X bearer token is missing.")
+        raise ValueError(
+            "X bearer token is missing."
+        )
 
-    if max_results < 10:
-        max_results = 10
+    max_results = max(
+        10,
+        min(
+            int(max_results),
+            100,
+        ),
+    )
 
-    if max_results > 100:
-        max_results = 100
+    now = datetime.now(
+        timezone.utc
+    )
 
-    now = datetime.now(timezone.utc)
-    start_time = now - timedelta(minutes=lookback_minutes)
+    start_time = (
+        now
+        - timedelta(
+            minutes=lookback_minutes
+        )
+    )
 
     headers = {
-        "Authorization": f"Bearer {bearer_token}",
-        "User-Agent": "BTB-X-Growth-Radar/1.0",
+        "Authorization": (
+            f"Bearer {bearer_token}"
+        ),
+        "User-Agent": (
+            "BTB-X-Growth-Radar/1.5"
+        ),
     }
 
     params = {
-        "query": " ".join(query.split()),
+
+        "query": " ".join(
+            query.split()
+        ),
+
         "max_results": max_results,
-        "start_time": _utc_iso(start_time),
+
+        "start_time": _utc_iso(
+            start_time
+        ),
+
         "sort_order": "recency",
 
-        # Post fields
         "tweet.fields": ",".join(
             [
                 "created_at",
                 "public_metrics",
                 "lang",
                 "conversation_id",
+                "attachments",
             ]
         ),
 
-        # Return author information in the same response
-        "expansions": "author_id",
+        "expansions": ",".join(
+            [
+                "author_id",
+                "attachments.media_keys",
+            ]
+        ),
 
-        # Author fields
         "user.fields": ",".join(
             [
                 "username",
@@ -83,6 +117,15 @@ def search_recent_posts(
                 "verified",
                 "verified_type",
                 "public_metrics",
+            ]
+        ),
+
+        "media.fields": ",".join(
+            [
+                "media_key",
+                "type",
+                "url",
+                "preview_image_url",
             ]
         ),
     }
@@ -95,20 +138,45 @@ def search_recent_posts(
     )
 
     if response.status_code != 200:
-        message = response.text[:1500]
 
         raise XAPIError(
-            f"X API request failed.\n"
-            f"Query: {query_name}\n"
-            f"HTTP status: {response.status_code}\n"
-            f"Response: {message}"
+            "\n".join(
+                [
+                    "X API request failed.",
+                    f"Query: {query_name}",
+                    (
+                        "HTTP status: "
+                        f"{response.status_code}"
+                    ),
+                    (
+                        "Response: "
+                        f"{response.text[:2000]}"
+                    ),
+                ]
+            )
         )
 
     payload = response.json()
 
-    posts = payload.get("data", [])
-    includes = payload.get("includes", {})
-    users = includes.get("users", [])
+    posts = payload.get(
+        "data",
+        [],
+    )
+
+    includes = payload.get(
+        "includes",
+        {},
+    )
+
+    users = includes.get(
+        "users",
+        [],
+    )
+
+    media = includes.get(
+        "media",
+        [],
+    )
 
     user_lookup = {
         str(user["id"]): user
@@ -116,80 +184,224 @@ def search_recent_posts(
         if user.get("id")
     }
 
+    media_lookup = {
+        item.get("media_key"): item
+        for item in media
+        if item.get("media_key")
+    }
+
     normalized_posts = []
 
     for post in posts:
 
-        post_id = str(post.get("id", ""))
-        author_id = str(post.get("author_id", ""))
+        post_id = str(
+            post.get(
+                "id",
+                "",
+            )
+        )
 
-        author = user_lookup.get(author_id, {})
+        author_id = str(
+            post.get(
+                "author_id",
+                "",
+            )
+        )
 
-        post_metrics = post.get("public_metrics") or {}
-        user_metrics = author.get("public_metrics") or {}
+        author = user_lookup.get(
+            author_id,
+            {},
+        )
 
-        username = author.get("username") or "unknown"
+        post_metrics = (
+            post.get(
+                "public_metrics"
+            )
+            or {}
+        )
 
-        normalized = {
-            "id": post_id,
-            "query_name": query_name,
-            "sport": sport,
+        user_metrics = (
+            author.get(
+                "public_metrics"
+            )
+            or {}
+        )
 
-            "text": post.get("text", ""),
-            "created_at": post.get("created_at"),
+        username = (
+            author.get(
+                "username"
+            )
+            or "unknown"
+        )
 
-            "author_id": author_id,
-            "author_name": author.get("name", username),
-            "username": username,
+        attachments = (
+            post.get(
+                "attachments"
+            )
+            or {}
+        )
 
-            "verified": bool(author.get("verified", False)),
-            "verified_type": author.get("verified_type"),
+        media_keys = attachments.get(
+            "media_keys",
+            [],
+        )
 
-            "followers": int(
-                user_metrics.get("followers_count", 0) or 0
-            ),
+        attached_media = [
+            media_lookup[key]
+            for key in media_keys
+            if key in media_lookup
+        ]
 
-            "following": int(
-                user_metrics.get("following_count", 0) or 0
-            ),
+        media_types = [
+            item.get("type")
+            for item in attached_media
+            if item.get("type")
+        ]
 
-            "author_post_count": int(
-                user_metrics.get("post_count", 0) or 0
-            ),
+        normalized_posts.append(
+            {
+                "id": post_id,
 
-            "likes": int(
-                post_metrics.get("like_count", 0) or 0
-            ),
+                "query_name": query_name,
 
-            "replies": int(
-                post_metrics.get("reply_count", 0) or 0
-            ),
+                "sport": sport,
 
-            "reposts": int(
-                post_metrics.get("repost_count", 0) or 0
-            ),
+                "conversation_type_hint": (
+                    conversation_type_hint
+                ),
 
-            "quotes": int(
-                post_metrics.get("quote_count", 0) or 0
-            ),
+                "text": post.get(
+                    "text",
+                    "",
+                ),
 
-            "bookmarks": int(
-                post_metrics.get("bookmark_count", 0) or 0
-            ),
+                "created_at": post.get(
+                    "created_at"
+                ),
 
-            "impressions": int(
-                post_metrics.get("impression_count", 0) or 0
-            ),
+                "author_id": author_id,
 
-            "conversation_id": post.get("conversation_id"),
+                "author_name": (
+                    author.get(
+                        "name",
+                        username,
+                    )
+                ),
 
-            "url": (
-                f"https://x.com/{username}/status/{post_id}"
-                if username != "unknown" and post_id
-                else f"https://x.com/i/web/status/{post_id}"
-            ),
-        }
+                "username": username,
 
-        normalized_posts.append(normalized)
+                "verified": bool(
+                    author.get(
+                        "verified",
+                        False,
+                    )
+                ),
+
+                "verified_type": (
+                    author.get(
+                        "verified_type"
+                    )
+                ),
+
+                "followers": int(
+                    user_metrics.get(
+                        "followers_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "following": int(
+                    user_metrics.get(
+                        "following_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "likes": int(
+                    post_metrics.get(
+                        "like_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "replies": int(
+                    post_metrics.get(
+                        "reply_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "reposts": int(
+                    post_metrics.get(
+                        "repost_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "quotes": int(
+                    post_metrics.get(
+                        "quote_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "bookmarks": int(
+                    post_metrics.get(
+                        "bookmark_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "impressions": int(
+                    post_metrics.get(
+                        "impression_count",
+                        0,
+                    )
+                    or 0
+                ),
+
+                "conversation_id": (
+                    post.get(
+                        "conversation_id"
+                    )
+                ),
+
+                "media_types": (
+                    media_types
+                ),
+
+                "has_video": (
+                    "video"
+                    in media_types
+                ),
+
+                "has_image": (
+                    "photo"
+                    in media_types
+                ),
+
+                "url": (
+                    "https://x.com/"
+                    f"{username}/status/"
+                    f"{post_id}"
+                    if (
+                        username
+                        != "unknown"
+                        and post_id
+                    )
+                    else (
+                        "https://x.com/i/web/"
+                        f"status/{post_id}"
+                    )
+                ),
+            }
+        )
 
     return normalized_posts
