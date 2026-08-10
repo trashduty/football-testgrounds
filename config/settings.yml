@@ -11,6 +11,23 @@ data:
   cfb_crosswalk:
     path: "config/cfb_team_crosswalk.csv"
 
+openai:
+  model: gpt-5-mini
+  timeout_seconds: 45
+
+  generate_alternative: true
+
+  # If the generator decides BTB has nothing genuinely
+  # useful to add, don't send the Discord alert.
+  require_useful_reply: true
+
+reply_generation:
+  max_context_rows_per_source: 3
+  max_note_characters: 4500
+
+  preferred_max_characters: 500
+  alternative_max_characters: 500
+
 alerts:
 
   # Different opportunities deserve different thresholds.
