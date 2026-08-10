@@ -1,0 +1,112 @@
+sources:
+
+  # =========================================================
+  # LIVE WEEKLY MODEL / MARKET DATA
+  # =========================================================
+
+  cfb_live_spreads:
+    enabled: true
+    sport: CFB
+    type: csv
+    path: external/trash-schedule/CFB_Odds/Data/spreads_odds.csv
+    team_column: team
+    category: current_matchup
+
+  nfl_live_spreads:
+    enabled: true
+    sport: NFL
+    type: csv
+    path: external/trash-schedule/NFL_Odds/Data/spreads_odds.csv
+    team_column: team
+    category: current_matchup
+
+
+  # =========================================================
+  # FUTURES
+  # =========================================================
+
+  cfb_futures:
+    enabled: true
+    sport: CFB
+    type: html
+    path: data/futures/cfb_futures.html
+
+    # The parser will try these possible column names.
+    team_columns:
+      - Team
+      - team
+      - TEAM
+      - School
+      - school
+
+    category: futures
+
+
+  nfl_futures:
+    enabled: true
+    sport: NFL
+    type: html
+    path: data/futures/nfl_futures.html
+
+    team_columns:
+      - Team
+      - team
+      - TEAM
+
+    category: futures
+
+
+  # =========================================================
+  # EXISTING BTB MATCHUP ARTICLES / ANALYSIS
+  #
+  # These are optional. If they don't exist yet, Phase 2
+  # simply skips them.
+  # =========================================================
+
+  cfb_matchup_articles:
+    enabled: true
+    sport: CFB
+    type: text_glob
+    glob: outputs/cfb_matchup_articles/**/*.md
+    category: analysis_notes
+
+  nfl_matchup_articles:
+    enabled: true
+    sport: NFL
+    type: text_glob
+    glob: outputs/matchup_articles/**/*.md
+    category: analysis_notes
+
+
+  # =========================================================
+  # CFB CURRENT-SEASON STATS
+  #
+  # Optional until these files exist.
+  # =========================================================
+
+  cfb_season_stats:
+    enabled: true
+    sport: CFB
+    type: parquet
+    path: data/processed/combined_team_season_stats.parquet
+    category: season_stats
+
+    team_columns:
+      - team
+      - team_name
+      - school
+      - btb_team_short
+
+
+  cfb_rankings:
+    enabled: true
+    sport: CFB
+    type: parquet
+    path: data/processed/combined_team_rankings.parquet
+    category: rankings
+
+    team_columns:
+      - team
+      - team_name
+      - school
+      - btb_team_short
