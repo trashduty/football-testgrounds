@@ -3,7 +3,9 @@ from __future__ import annotations
 import requests
 
 
-class DiscordWebhookError(RuntimeError):
+class DiscordWebhookError(
+    RuntimeError
+):
     pass
 
 
@@ -14,12 +16,15 @@ def send_discord_alert(
 ):
 
     if not webhook_url:
+
         raise ValueError(
             "Discord webhook URL is missing."
         )
 
     payload = {
-        "username": "BTB X Growth Radar",
+
+        "username":
+            "BTB X Growth Radar",
 
         "allowed_mentions": {
             "parse": []
@@ -42,7 +47,17 @@ def send_discord_alert(
     ):
 
         raise DiscordWebhookError(
-            f"Discord webhook failed.\n"
-            f"HTTP status: {response.status_code}\n"
-            f"Response: {response.text[:1000]}"
+            "\n".join(
+                [
+                    "Discord webhook failed.",
+                    (
+                        "HTTP status: "
+                        f"{response.status_code}"
+                    ),
+                    (
+                        "Response: "
+                        f"{response.text[:1000]}"
+                    ),
+                ]
+            )
         )
