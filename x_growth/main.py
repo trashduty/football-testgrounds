@@ -3,13 +3,27 @@ from __future__ import annotations
 import csv
 import os
 import sys
+
 from pathlib import Path
 
 import yaml
 
+
 from x_growth.search_x import (
     search_recent_posts,
     XAPIError,
+)
+
+from x_growth.query_builder import (
+    build_all_queries,
+)
+
+from x_growth.team_matcher import (
+    identify_teams,
+)
+
+from x_growth.classify_conversation import (
+    classify_conversation,
 )
 
 from x_growth.score_opportunities import (
@@ -24,21 +38,20 @@ from x_growth.send_discord import (
     send_discord_alert,
 )
 
-from x_growth.state import AlertState
-
-
-ROOT = Path(__file__).resolve().parents[1]
-
-QUERY_CONFIG = (
-    ROOT
-    / "config"
-    / "search_queries.yml"
+from x_growth.state import (
+    RadarState,
 )
 
-SETTINGS_CONFIG = (
+
+ROOT = (
+    Path(__file__)
+    .resolve()
+    .parents[1]
+)
+
+CONFIG_DIR = (
     ROOT
     / "config"
-    / "settings.yml"
 )
 
 STATE_DIR = (
@@ -47,38 +60,106 @@ STATE_DIR = (
     / "state"
 )
 
-ALERTED_STATE = (
-    STATE_DIR
-    / "alerted_ids.json"
-)
-
 LOG_FILE = (
     STATE_DIR
     / "opportunities.csv"
 )
 
 
-def load_yaml(path: Path) -> dict:
+def load_yaml(
+    path: Path,
+) -> dict:
 
     with path.open(
         "r",
         encoding="utf-8",
     ) as f:
 
-        return yaml.safe_load(f) or {}
+        return (
+            yaml.safe_load(f)
+            or {}
+        )
 
 
-def require_env(name: str) -> str:
+def require_env(
+    name: str,
+) -> str:
 
-    value = os.environ.get(name)
+    value = os.environ.get(
+        name
+    )
 
     if not value:
+
         raise RuntimeError(
             f"Required environment variable "
             f"{name} is not set."
         )
 
     return value
+
+
+def merge_duplicate_post(
+    existing: dict,
+    new_post: dict,
+) -> dict:
+
+    #
+    # One post may be returned from several query
+    # buckets. Preserve all matched sources.
+    #
+
+    query_names = set(
+        existing.get(
+            "matched_queries",
+            [
+                existing.get(
+                    "query_name",
+                    "",
+                )
+            ],
+        )
+    )
+
+    query_names.add(
+        new_post.get(
+            "query_name",
+            "",
+        )
+    )
+
+    existing[
+        "matched_queries"
+    ] = sorted(
+        item
+        for item in query_names
+        if item
+    )
+
+    hints = set(
+        existing.get(
+            "conversation_hints",
+            [
+                existing.get(
+                    "conversation_type_hint",
+                    "GENERAL",
+                )
+            ],
+        )
+    )
+
+    hints.add(
+        new_post.get(
+            "conversation_type_hint",
+            "GENERAL",
+        )
+    )
+
+    existing[
+        "conversation_hints"
+    ] = list(hints)
+
+    return existing
 
 
 def log_opportunity(
@@ -92,25 +173,39 @@ def log_opportunity(
     )
 
     columns = [
+
         "id",
         "sport",
+        "conversation_type",
         "query_name",
         "score",
         "created_at",
         "age_minutes",
+
         "username",
         "author_name",
         "followers",
+
         "likes",
         "replies",
         "reposts",
         "quotes",
+
         "engagement_velocity",
+
+        "freshness_score",
+        "reach_score",
+        "velocity_score",
+        "relevance_score",
+        "team_priority_score",
+        "source_priority_score",
+
+        "teams",
         "url",
         "text",
     ]
 
-    file_exists = LOG_FILE.exists()
+    exists = LOG_FILE.exists()
 
     with LOG_FILE.open(
         "a",
@@ -123,67 +218,211 @@ def log_opportunity(
             fieldnames=columns,
         )
 
-        if not file_exists:
+        if not exists:
             writer.writeheader()
 
-        writer.writerow(
-            {
-                column: opportunity.get(
-                    column,
-                    "",
+        row = {}
+
+        for column in columns:
+
+            value = opportunity.get(
+                column,
+                "",
+            )
+
+            if column == "teams":
+
+                value = "; ".join(
+                    team.get(
+                        "team",
+                        ""
+                    )
+                    for team
+                    in opportunity.get(
+                        "teams",
+                        [],
+                    )
                 )
-                for column in columns
-            }
-        )
 
-    trim_log(max_rows)
+            row[column] = value
+
+        writer.writerow(row)
+
+    trim_log(
+        max_rows
+    )
 
 
-def trim_log(max_rows: int):
+def trim_log(
+    max_rows: int,
+):
 
     if not LOG_FILE.exists():
         return
 
     with LOG_FILE.open(
         "r",
-        encoding="utf-8",
         newline="",
+        encoding="utf-8",
     ) as f:
 
         rows = list(
             csv.reader(f)
         )
 
-    if len(rows) <= max_rows + 1:
+    if (
+        len(rows)
+        <= max_rows + 1
+    ):
         return
 
     header = rows[0]
-    data = rows[-max_rows:]
+
+    data = rows[
+        -max_rows:
+    ]
 
     with LOG_FILE.open(
         "w",
-        encoding="utf-8",
         newline="",
+        encoding="utf-8",
     ) as f:
 
         writer = csv.writer(f)
 
         writer.writerow(header)
+
         writer.writerows(data)
+
+
+def choose_hint(
+    post: dict,
+) -> str:
+
+    hints = post.get(
+        "conversation_hints",
+        []
+    )
+
+    if not hints:
+
+        return post.get(
+            "conversation_type_hint",
+            "GENERAL",
+        )
+
+    priority = [
+
+        "TEAM_VIDEO",
+        "INJURY",
+        "STAR_PLAYER_NEWS",
+        "NFL_CAMP",
+        "TEAM_HYPE",
+        "FUTURES",
+        "RANKINGS",
+        "POWER_RATINGS",
+        "MATCHUP",
+        "GENERAL",
+    ]
+
+    for item in priority:
+
+        if item in hints:
+            return item
+
+    return hints[0]
+
+
+def get_threshold(
+    conversation_type: str,
+    alert_settings: dict,
+) -> float:
+
+    thresholds = (
+        alert_settings.get(
+            "thresholds",
+            {},
+        )
+    )
+
+    return float(
+        thresholds.get(
+            conversation_type,
+            thresholds.get(
+                "GENERAL",
+                72,
+            ),
+        )
+    )
+
+
+def select_alerts(
+    opportunities: list[dict],
+    max_alerts: int,
+    max_per_team: int,
+) -> list[dict]:
+
+    selected = []
+
+    team_counts = {}
+
+    for opportunity in opportunities:
+
+        teams = opportunity.get(
+            "teams",
+            [],
+        )
+
+        primary_team = (
+            teams[0]["team"]
+            if teams
+            else None
+        )
+
+        if primary_team:
+
+            current = team_counts.get(
+                primary_team,
+                0,
+            )
+
+            if current >= max_per_team:
+                continue
+
+        selected.append(
+            opportunity
+        )
+
+        if primary_team:
+
+            team_counts[
+                primary_team
+            ] = (
+                team_counts.get(
+                    primary_team,
+                    0,
+                )
+                + 1
+            )
+
+        if len(selected) >= max_alerts:
+            break
+
+    return selected
 
 
 def main():
 
     print(
-        "===================================="
+        "=" * 55
     )
 
     print(
-        "BTB X Growth Radar"
+        "BTB X Growth Radar — Phase 1.5"
     )
 
     print(
-        "===================================="
+        "=" * 55
     )
 
     bearer_token = require_env(
@@ -194,12 +433,24 @@ def main():
         "DISCORD_WEBHOOK_URL"
     )
 
-    search_config = load_yaml(
-        QUERY_CONFIG
+    settings = load_yaml(
+        CONFIG_DIR
+        / "settings.yml"
     )
 
-    settings = load_yaml(
-        SETTINGS_CONFIG
+    configured_queries = load_yaml(
+        CONFIG_DIR
+        / "search_queries.yml"
+    )
+
+    team_config = load_yaml(
+        CONFIG_DIR
+        / "team_priorities.yml"
+    )
+
+    account_config = load_yaml(
+        CONFIG_DIR
+        / "priority_accounts.yml"
     )
 
     x_settings = settings.get(
@@ -229,13 +480,6 @@ def main():
         )
     )
 
-    lookback_minutes = int(
-        x_settings.get(
-            "lookback_minutes",
-            45,
-        )
-    )
-
     timeout_seconds = int(
         x_settings.get(
             "request_timeout_seconds",
@@ -243,24 +487,31 @@ def main():
         )
     )
 
-    score_threshold = float(
-        alert_settings.get(
-            "score_threshold",
-            70,
-        )
-    )
-
-    high_priority_threshold = float(
-        alert_settings.get(
-            "high_priority_threshold",
-            88,
+    max_query_chars = int(
+        x_settings.get(
+            "max_query_characters",
+            475,
         )
     )
 
     max_alerts = int(
         alert_settings.get(
             "max_alerts_per_run",
-            3,
+            4,
+        )
+    )
+
+    max_per_team = int(
+        alert_settings.get(
+            "max_alerts_per_team_per_run",
+            2,
+        )
+    )
+
+    high_priority_threshold = float(
+        alert_settings.get(
+            "high_priority_threshold",
+            86,
         )
     )
 
@@ -274,169 +525,352 @@ def main():
     max_log_rows = int(
         logging_settings.get(
             "max_log_rows",
-            5000,
+            10000,
         )
     )
 
-    state = AlertState(
-        str(ALERTED_STATE),
+    state = RadarState(
+        str(STATE_DIR),
         keep_days=keep_days,
     )
 
-    query_groups = search_config.get(
-        "queries",
-        {},
+    #
+    # -----------------------------------------------
+    # BUILD SEARCH UNIVERSE
+    # -----------------------------------------------
+    #
+
+    search_jobs = build_all_queries(
+
+        configured_queries,
+
+        team_config,
+
+        account_config,
+
+        max_query_chars,
+    )
+
+    print(
+        f"Configured search buckets: "
+        f"{len(search_jobs)}"
     )
 
     #
-    # ------------------------------------------------
+    # -----------------------------------------------
     # SEARCH X
-    # ------------------------------------------------
+    # -----------------------------------------------
     #
 
     posts_by_id = {}
 
-    query_count = 0
+    searches_run = 0
 
-    for query_name, query_info in query_groups.items():
+    searches_skipped = 0
 
-        if not query_info.get(
-            "enabled",
-            True,
+    raw_results = 0
+
+    for job in search_jobs:
+
+        name = job["name"]
+
+        cadence = int(
+            job.get(
+                "cadence_minutes",
+                20,
+            )
+        )
+
+        if not state.should_run_query(
+            name,
+            cadence,
         ):
+
+            searches_skipped += 1
             continue
-
-        query = query_info.get(
-            "query"
-        )
-
-        sport = query_info.get(
-            "sport",
-            "Unknown",
-        )
-
-        if not query:
-            continue
-
-        query_count += 1
 
         print()
+
         print(
-            f"Searching: {query_name}"
+            f"Searching: {name}"
+        )
+
+        print(
+            f"Type: "
+            f"{job.get('conversation_type')}"
+        )
+
+        print(
+            f"Cadence: "
+            f"{cadence} min"
         )
 
         try:
 
             posts = search_recent_posts(
-                bearer_token=bearer_token,
-                query=query,
-                query_name=query_name,
-                sport=sport,
-                max_results=max_results,
-                lookback_minutes=lookback_minutes,
-                timeout_seconds=timeout_seconds,
+
+                bearer_token=(
+                    bearer_token
+                ),
+
+                query=job["query"],
+
+                query_name=name,
+
+                sport=job.get(
+                    "sport",
+                    "Unknown",
+                ),
+
+                conversation_type_hint=(
+                    job.get(
+                        "conversation_type",
+                        "GENERAL",
+                    )
+                ),
+
+                max_results=(
+                    max_results
+                ),
+
+                lookback_minutes=int(
+                    job.get(
+                        "lookback_minutes",
+                        40,
+                    )
+                ),
+
+                timeout_seconds=(
+                    timeout_seconds
+                ),
             )
 
         except XAPIError as exc:
 
             print(
-                f"X API error:\n{exc}",
+                str(exc),
                 file=sys.stderr,
             )
 
+            #
+            # Don't mark failed searches as run.
+            #
             continue
 
+        state.mark_query_run(
+            name
+        )
+
+        searches_run += 1
+
+        raw_results += len(
+            posts
+        )
+
         print(
-            f"Returned {len(posts)} posts."
+            f"Returned "
+            f"{len(posts)} posts."
         )
 
         for post in posts:
 
-            post_id = post.get("id")
+            post_id = post.get(
+                "id"
+            )
 
             if not post_id:
                 continue
 
-            #
-            # A post may appear in multiple searches.
-            # Only score it once per run.
-            #
-            if post_id not in posts_by_id:
-                posts_by_id[post_id] = post
+            if post_id in posts_by_id:
+
+                posts_by_id[
+                    post_id
+                ] = (
+                    merge_duplicate_post(
+                        posts_by_id[
+                            post_id
+                        ],
+                        post,
+                    )
+                )
+
+            else:
+
+                post[
+                    "matched_queries"
+                ] = [
+                    post.get(
+                        "query_name"
+                    )
+                ]
+
+                post[
+                    "conversation_hints"
+                ] = [
+                    post.get(
+                        "conversation_type_hint",
+                        "GENERAL",
+                    )
+                ]
+
+                posts_by_id[
+                    post_id
+                ] = post
 
     print()
+
     print(
-        f"Queries executed: {query_count}"
+        f"Searches executed: "
+        f"{searches_run}"
     )
 
     print(
-        f"Unique posts scanned: "
+        f"Searches skipped by cadence: "
+        f"{searches_skipped}"
+    )
+
+    print(
+        f"Raw X results: "
+        f"{raw_results}"
+    )
+
+    print(
+        f"Unique posts: "
         f"{len(posts_by_id)}"
     )
 
     #
-    # ------------------------------------------------
-    # SCORE OPPORTUNITIES
-    # ------------------------------------------------
+    # -----------------------------------------------
+    # IDENTIFY / CLASSIFY / SCORE
+    # -----------------------------------------------
     #
 
-    scored = []
+    opportunities = []
 
     for post in posts_by_id.values():
 
-        opportunity = score_post(
+        teams = identify_teams(
+
+            post.get(
+                "text",
+                "",
+            ),
+
+            team_config,
+
+            sport_hint=post.get(
+                "sport"
+            ),
+        )
+
+        hint = choose_hint(
             post
         )
 
-        if opportunity["score"] >= score_threshold:
+        conversation_type = (
+            classify_conversation(
+                post,
+                hint=hint,
+            )
+        )
 
-            scored.append(
+        opportunity = score_post(
+
+            post,
+
+            teams,
+
+            conversation_type,
+
+            account_config,
+        )
+
+        threshold = get_threshold(
+
+            conversation_type,
+
+            alert_settings,
+        )
+
+        opportunity[
+            "alert_threshold"
+        ] = threshold
+
+        if (
+            opportunity["score"]
+            >= threshold
+        ):
+
+            opportunities.append(
                 opportunity
             )
 
-    scored.sort(
-        key=lambda x: x["score"],
+    #
+    # Highest opportunity first.
+    #
+    opportunities.sort(
+
+        key=lambda item: (
+
+            item["score"],
+
+            item.get(
+                "engagement_velocity",
+                0,
+            ),
+
+        ),
+
         reverse=True,
     )
 
     print(
-        f"Posts above threshold: "
-        f"{len(scored)}"
+        f"Posts above contextual threshold: "
+        f"{len(opportunities)}"
     )
 
     #
-    # ------------------------------------------------
-    # REMOVE PREVIOUSLY ALERTED POSTS
-    # ------------------------------------------------
+    # -----------------------------------------------
+    # REMOVE ALREADY ALERTED
+    # -----------------------------------------------
     #
 
     new_opportunities = [
-        item
-        for item in scored
+
+        opportunity
+
+        for opportunity
+        in opportunities
+
         if not state.has_alerted(
-            item["id"]
+            opportunity["id"]
         )
     ]
 
     print(
-        f"New alert candidates: "
+        f"New candidates: "
         f"{len(new_opportunities)}"
     )
 
     #
-    # ------------------------------------------------
-    # LIMIT ALERT VOLUME
-    # ------------------------------------------------
+    # -----------------------------------------------
+    # CONTROL ALERT VOLUME
+    # -----------------------------------------------
     #
 
-    selected = new_opportunities[
-        :max_alerts
-    ]
+    selected = select_alerts(
+
+        new_opportunities,
+
+        max_alerts=max_alerts,
+
+        max_per_team=max_per_team,
+    )
 
     #
-    # ------------------------------------------------
-    # SEND DISCORD ALERTS
-    # ------------------------------------------------
+    # -----------------------------------------------
+    # DISCORD
+    # -----------------------------------------------
     #
 
     sent_count = 0
@@ -444,6 +878,7 @@ def main():
     for opportunity in selected:
 
         print()
+
         print(
             "Sending alert:"
         )
@@ -452,6 +887,26 @@ def main():
             f"  Score: "
             f"{opportunity['score']}"
         )
+
+        print(
+            f"  Type: "
+            f"{opportunity['conversation_type']}"
+        )
+
+        if opportunity.get(
+            "teams"
+        ):
+
+            print(
+                "  Team: "
+                + ", ".join(
+                    item["team"]
+                    for item
+                    in opportunity[
+                        "teams"
+                    ]
+                )
+            )
 
         print(
             f"  Account: "
@@ -463,32 +918,42 @@ def main():
             f"{opportunity['url']}"
         )
 
-        embed = generate_discord_embed(
-            opportunity,
-            high_priority_threshold=(
-                high_priority_threshold
-            ),
+        embed = (
+            generate_discord_embed(
+
+                opportunity,
+
+                high_priority_threshold=(
+                    high_priority_threshold
+                ),
+            )
         )
 
         try:
 
             send_discord_alert(
-                webhook_url=discord_webhook,
+
+                webhook_url=(
+                    discord_webhook
+                ),
+
                 embed=embed,
-                timeout_seconds=timeout_seconds,
+
+                timeout_seconds=(
+                    timeout_seconds
+                ),
             )
 
         except Exception as exc:
 
             print(
-                f"Discord error: {exc}",
+                (
+                    "Discord error: "
+                    f"{exc}"
+                ),
                 file=sys.stderr,
             )
 
-            #
-            # Do NOT mark as alerted if
-            # Discord delivery failed.
-            #
             continue
 
         state.mark_alerted(
@@ -496,7 +961,9 @@ def main():
         )
 
         log_opportunity(
+
             opportunity,
+
             max_rows=max_log_rows,
         )
 
@@ -505,12 +972,14 @@ def main():
     state.save()
 
     print()
+
     print(
-        "===================================="
+        "=" * 55
     )
 
     print(
-        f"Alerts sent: {sent_count}"
+        f"Alerts sent: "
+        f"{sent_count}"
     )
 
     print(
@@ -518,7 +987,7 @@ def main():
     )
 
     print(
-        "===================================="
+        "=" * 55
     )
 
 
