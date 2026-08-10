@@ -2,37 +2,30 @@ name: BTB X Growth Radar
 
 on:
 
-  # Allows you to run the workflow manually
-  # from the GitHub Actions tab.
   workflow_dispatch:
 
   schedule:
 
     # -------------------------------------------------
-    # NORMAL DAYTIME
-    # 6 AM - 2:59 PM Phoenix
-    # Every 20 minutes
+    # 6 AM through 10 PM Phoenix
+    #
+    # Run controller every 10 minutes.
+    # Individual search buckets have their own cadence.
     # -------------------------------------------------
 
-    - cron: "7,27,47 6-14 * * *"
+    - cron: "3,13,23,33,43,53 6-21 * * *"
+      timezone: "America/Phoenix"
+
+    # 10 PM
+    - cron: "3,13,23,33,43,53 22 * * *"
       timezone: "America/Phoenix"
 
     # -------------------------------------------------
-    # PEAK EVENING
-    # 3 PM - 9:59 PM Phoenix
-    # Every 10 minutes
+    # Overnight
+    # One controller run per hour.
     # -------------------------------------------------
 
-    - cron: "3,13,23,33,43,53 15-21 * * *"
-      timezone: "America/Phoenix"
-
-    # -------------------------------------------------
-    # OVERNIGHT / LOW ACTIVITY
-    # 10 PM - 5:59 AM Phoenix
-    # Once per hour
-    # -------------------------------------------------
-
-    - cron: "17 22-23,0-5 * * *"
+    - cron: "17 23,0-5 * * *"
       timezone: "America/Phoenix"
 
 
@@ -44,8 +37,6 @@ concurrency:
 
   group: btb-x-growth-radar
 
-  # We do not want two Growth Radar jobs
-  # running at the same time.
   cancel-in-progress: false
 
 
@@ -57,10 +48,11 @@ jobs:
 
     timeout-minutes: 10
 
+
     steps:
 
       # ------------------------------------------------
-      # CHECK OUT REPOSITORY
+      # CHECKOUT
       # ------------------------------------------------
 
       - name: Checkout repository
@@ -73,52 +65,71 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v6
+
         with:
+
           python-version: "3.13"
+
           cache: "pip"
 
 
       # ------------------------------------------------
-      # INSTALL DEPENDENCIES
+      # DEPENDENCIES
       # ------------------------------------------------
 
       - name: Install dependencies
+
         run: |
+
           python -m pip install --upgrade pip
+
           pip install -r requirements.txt
 
 
       # ------------------------------------------------
-      # RESTORE PREVIOUS ALERT STATE
+      # RESTORE STATE
       #
-      # This lets us remember which X posts
-      # have already produced Discord alerts.
+      # Contains:
+      #
+      # alerted_ids.json
+      # search_runs.json
+      # opportunities.csv
+      #
       # ------------------------------------------------
 
       - name: Restore Growth Radar state
+
         id: restore-growth-state
+
         uses: actions/cache/restore@v4
+
         with:
+
           path: x_growth/state
+
           key: x-growth-state-${{ github.run_id }}
+
           restore-keys: |
             x-growth-state-
 
 
       # ------------------------------------------------
-      # ENSURE STATE DIRECTORY EXISTS
+      # STATE DIRECTORY
       # ------------------------------------------------
 
       - name: Create state directory
+
         run: |
+
           mkdir -p x_growth/state
 
 
       # ------------------------------------------------
-      # RUN GROWTH RADAR
+      # RUN RADAR
       # ------------------------------------------------
 
       - name: Run X Growth Radar
+
         env:
 
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
@@ -126,19 +137,22 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
         run: |
+
           python -m x_growth.main
 
 
       # ------------------------------------------------
-      # SAVE UPDATED STATE
-      #
-      # Unique run ID means a new state snapshot is
-      # saved after every run.
+      # SAVE STATE
       # ------------------------------------------------
 
       - name: Save Growth Radar state
+
         if: always()
+
         uses: actions/cache/save@v4
+
         with:
+
           path: x_growth/state
+
           key: x-growth-state-${{ github.run_id }}
