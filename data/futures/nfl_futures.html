@@ -1,0 +1,1038 @@
+<!-- Paste this entire snippet into one Squarespace Code Block -->
+<div id="btb-nfl-futures-widget">
+<div class="container">
+        <div class="widget-header">
+            <div class="header-layout">
+                <div class="header-copy">
+                    <div class="eyebrow">NFL Futures Analysis</div>
+                    <h1 class="widget-title">2026-27 NFL Futures</h1>
+                    <p class="subtitle">Interactive table to find the best edges for win totals, make playoffs, and division, conference, and Super Bowl winner. Hover over team percentages to find minimum odds that you can bet to have value</p>
+                </div>
+                <div class="education-note">
+                    <span class="education-note-label">BTB BETTING GUIDES</span>
+                    <span>To see our write-ups on why we bet the teams we did and learn how to best use this table, </span>
+                    <a href="https://www.btb-analytics.com/education/equvtz0ipctgzhdtoydmb3v4a7wjux" target="_blank" rel="noopener noreferrer">view our educational articles</a>.
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="searchInput" placeholder="Search one or more teams (comma separated)...">
+            <select class="filter-select" id="divisionFilter">
+                <option value="">All Divisions</option>
+                <option value="AFC East">AFC East</option>
+                <option value="AFC West">AFC West</option>
+                <option value="AFC North">AFC North</option>
+                <option value="AFC South">AFC South</option>
+                <option value="NFC East">NFC East</option>
+                <option value="NFC West">NFC West</option>
+                <option value="NFC North">NFC North</option>
+                <option value="NFC South">NFC South</option>
+            </select>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-button active" data-tab="win-totals">Win Totals</button>
+            <button class="tab-button" data-tab="futures">Futures</button>
+            <button class="tab-button" data-tab="official-bets">BTB Official Bets</button>
+        </div>
+
+        <div class="info-section">
+            ℹ️ Click column headers to sort (ascending/descending). Use search to find one or more teams by name; separate multiple teams with commas. Hover over percentage values for American odds conversion.
+        </div>
+
+        <!-- Win Totals Tab -->
+        <div id="win-totals" class="tab-content active">
+            <div class="table-wrapper">
+                <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable table. Use left and right arrow keys to scroll horizontally.">
+                    <table id="winTotalsTable">
+                        <thead>
+                            <tr>
+                                <th class="sortable">Team</th>
+                                <th class="sortable">Division</th>
+                                <th class="sortable">Market Win Total</th>
+                                <th class="sortable">BTB Projected Wins</th>
+                                <th class="sortable">BTB Over True Odds</th>
+                                <th class="sortable">Best Odds for Over</th>
+                                <th class="sortable">BTB Under True Odds</th>
+                                <th class="sortable">Best Odds for Under</th>
+                                <th class="sortable">Edge Over</th>
+                                <th class="sortable">Edge Under</th>
+                            </tr>
+                        </thead>
+                        <tbody id="winTotalsTableBody">
+                        </tbody>
+                    </table>
+                    <div id="winTotalsNoResults" class="no-results" style="display: none;">
+                        No teams found matching your filters.
+                    </div>
+                </div>
+                <div id="winTotalsResultCount" class="result-count"></div>
+            </div>
+        </div>
+
+        <!-- Futures Tab -->
+        <div id="futures" class="tab-content">
+            <div class="table-wrapper">
+                <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable table. Use left and right arrow keys to scroll horizontally.">
+                    <table id="futuresTable">
+                        <thead>
+                            <tr>
+                                <th class="sortable">Team</th>
+                                <th class="sortable">Division</th>
+                                <th class="sortable">Make Playoffs</th>
+                                <th class="sortable">Win Division</th>
+                                <th class="sortable">Div Odds</th>
+                                <th class="sortable">Div Edge</th>
+                                <th class="sortable">Win Conference</th>
+                                <th class="sortable">Conf Odds</th>
+                                <th class="sortable">Conf Edge</th>
+                                <th class="sortable">Win Super Bowl</th>
+                                <th class="sortable">SB Odds</th>
+                                <th class="sortable">SB Edge</th>
+                            </tr>
+                        </thead>
+                        <tbody id="futuresTableBody">
+                        </tbody>
+                    </table>
+                    <div id="futuresNoResults" class="no-results" style="display: none;">
+                        No teams found matching your filters.
+                    </div>
+                </div>
+                <div id="futuresResultCount" class="result-count"></div>
+            </div>
+        </div>
+
+        <!-- BTB Official Bets Tab -->
+        <div id="official-bets" class="tab-content">
+            <div class="table-wrapper official-bets-wrapper">
+                <div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable BTB official bets table. Use left and right arrow keys to scroll horizontally.">
+                    <table id="officialBetsTable" class="official-bets-table">
+                        <thead>
+                            <tr>
+                                <th class="sortable">Bet Type</th>
+                                <th class="sortable">Team</th>
+                                <th class="sortable">Bet</th>
+                                <th class="sortable">Odds</th>
+                            </tr>
+                        </thead>
+                        <tbody id="officialBetsTableBody"></tbody>
+                    </table>
+                    <div id="officialBetsNoResults" class="no-results" style="display: none;">
+                        No official bets found matching your search.
+                    </div>
+                </div>
+                <div id="officialBetsResultCount" class="result-count"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+#btb-nfl-futures-widget {
+--bg: #071016;
+            --panel: #0d1a22;
+            --panel-2: #101f29;
+            --line: #233641;
+            --text: #f3f7f8;
+            --muted: #9eb0ba;
+            --green: #5ce1a7;
+            --green-dark: #1aa16f;
+            --red: #ff7474;
+            --gold: #f5c66a;
+            --blue: #71b7ff;
+            --shadow: 0 18px 55px rgba(0,0,0,.28);
+    background:
+        radial-gradient(circle at 12% -10%, rgba(92,225,167,.11), transparent 30%),
+        radial-gradient(circle at 95% 5%, rgba(113,183,255,.08), transparent 26%),
+        var(--bg);
+    color: var(--text);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+#btb-nfl-futures-widget,
+#btb-nfl-futures-widget * {
+    box-sizing: border-box;
+}
+
+#btb-nfl-futures-widget button,
+#btb-nfl-futures-widget input,
+#btb-nfl-futures-widget select {
+    font: inherit;
+}
+
+#btb-nfl-futures-widget img {
+    max-width: none;
+}
+
+#btb-nfl-futures-widget .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+#btb-nfl-futures-widget .widget-header {
+            margin-bottom: 32px;
+        }
+#btb-nfl-futures-widget .header-layout {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 32px;
+        }
+#btb-nfl-futures-widget .header-copy {
+            flex: 1 1 700px;
+            min-width: 0;
+        }
+#btb-nfl-futures-widget .education-note {
+            flex: 0 1 520px;
+            min-height: 132px;
+            margin-top: 20px;
+            padding: 22px 24px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            gap: 0 4px;
+            background: linear-gradient(135deg, rgba(92,225,167,0.16), rgba(113,183,255,0.10));
+            border: 1px solid rgba(92,225,167,0.48);
+            border-left: 5px solid var(--green);
+            border-radius: 14px;
+            box-shadow: 0 12px 32px rgba(0,0,0,.22);
+            color: var(--text);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+#btb-nfl-futures-widget .education-note-label {
+            display: block;
+            flex-basis: 100%;
+            margin-bottom: 7px;
+            color: var(--green);
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+#btb-nfl-futures-widget .education-note a {
+            color: var(--green);
+            font-weight: 700;
+            text-decoration: none;
+        }
+#btb-nfl-futures-widget .education-note a:hover {
+            text-decoration: underline;
+        }
+#btb-nfl-futures-widget .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            color: var(--green);
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+#btb-nfl-futures-widget .eyebrow:before {
+            content: "";
+            width: 30px;
+            height: 2px;
+            background: var(--green);
+        }
+#btb-nfl-futures-widget .widget-title {
+            font-size: clamp(2.2rem, 5vw, 3rem);
+            font-weight: 800;
+            line-height: 1.02;
+            margin-bottom: 8px;
+            letter-spacing: -0.055em;
+            color: var(--text);
+        }
+#btb-nfl-futures-widget .subtitle {
+            color: var(--muted);
+            font-size: clamp(1rem, 1.8vw, 1.1rem);
+            max-width: 700px;
+        }
+#btb-nfl-futures-widget .controls {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+#btb-nfl-futures-widget .search-box, #btb-nfl-futures-widget .filter-select {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            color: var(--text);
+            border-radius: 9px;
+            padding: 12px 16px;
+            font-family: inherit;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+#btb-nfl-futures-widget .search-box::placeholder, #btb-nfl-futures-widget .filter-select {
+            color: var(--muted);
+        }
+#btb-nfl-futures-widget .search-box:focus, #btb-nfl-futures-widget .filter-select:focus {
+            border-color: var(--green);
+        }
+#btb-nfl-futures-widget .search-box {
+            min-width: 280px;
+            flex: 1;
+            min-width: 200px;
+        }
+#btb-nfl-futures-widget .filter-select {
+            min-width: 180px;
+        }
+#btb-nfl-futures-widget .tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--line);
+        }
+#btb-nfl-futures-widget .tab-button {
+            background: none;
+            border: none;
+            color: var(--muted);
+            padding: 12px 20px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+#btb-nfl-futures-widget .tab-button:hover {
+            color: var(--text);
+        }
+#btb-nfl-futures-widget .tab-button.active {
+            color: var(--green);
+            border-bottom-color: var(--green);
+        }
+#btb-nfl-futures-widget .tab-content {
+            display: none;
+        }
+#btb-nfl-futures-widget .tab-content.active {
+            display: block;
+        }
+#btb-nfl-futures-widget .info-section {
+            margin-bottom: 24px;
+            padding: 16px;
+            background: rgba(16,31,41,0.6);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+#btb-nfl-futures-widget .table-wrapper {
+            background: linear-gradient(180deg, rgba(16,31,41,.96), rgba(11,24,32,.96));
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+#btb-nfl-futures-widget .table-scroll {
+            overflow-x: auto;
+        }
+#btb-nfl-futures-widget table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1200px;
+        }
+#btb-nfl-futures-widget thead {
+            background: rgba(0,0,0,0.3);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+#btb-nfl-futures-widget th {
+            padding: 16px 12px;
+            text-align: left;
+            font-size: 0.73rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.075em;
+            color: var(--green);
+            border-bottom: 1px solid var(--line);
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+            background: rgba(0,0,0,0.2);
+            transition: background 0.2s;
+            position: relative;
+        }
+#btb-nfl-futures-widget th:hover {
+            background: rgba(92,225,167,0.1);
+        }
+#btb-nfl-futures-widget th.sortable:after {
+            content: " ⇅";
+            opacity: 0.5;
+            font-size: 0.9em;
+            margin-left: 4px;
+        }
+#btb-nfl-futures-widget th.sort-asc:after {
+            content: " ↑";
+            opacity: 1;
+            color: var(--green);
+        }
+#btb-nfl-futures-widget th.sort-desc:after {
+            content: " ↓";
+            opacity: 1;
+            color: var(--green);
+        }
+#btb-nfl-futures-widget td {
+            padding: 14px 12px;
+            border-bottom: 1px solid var(--line);
+            font-size: 0.9rem;
+            color: var(--text);
+        }
+#btb-nfl-futures-widget tbody tr {
+            transition: background-color 0.2s;
+        }
+#btb-nfl-futures-widget tbody tr:hover {
+            background-color: rgba(92,225,167,0.05);
+        }
+#btb-nfl-futures-widget .team-cell {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            min-width: 220px;
+        }
+#btb-nfl-futures-widget .team-logo {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            flex-shrink: 0;
+        }
+#btb-nfl-futures-widget .team-name {
+            flex: 1;
+        }
+/* Division badge colors */
+#btb-nfl-futures-widget .division-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            white-space: nowrap;
+            border: 1px solid;
+        }
+/* AFC divisions - blue family */
+#btb-nfl-futures-widget .div-afc-east, #btb-nfl-futures-widget .div-afc-west, #btb-nfl-futures-widget .div-afc-north, #btb-nfl-futures-widget .div-afc-south {
+            background: rgba(255,116,116,0.15);
+            color: var(--red);
+            border-color: rgba(255,116,116,0.3);
+        }
+/* NFC divisions - green/gold family */
+#btb-nfl-futures-widget .div-nfc-east {
+            background: rgba(113,183,255,0.15);
+            color: var(--blue);
+            border-color: rgba(113,183,255,0.3);
+        }
+#btb-nfl-futures-widget .div-nfc-west {
+            background: rgba(113,183,255,0.15);
+            color: var(--blue);
+            border-color: rgba(113,183,255,0.3);
+        }
+#btb-nfl-futures-widget .div-nfc-north {
+            background: rgba(113,183,255,0.15);
+            color: var(--blue);
+            border-color: rgba(113,183,255,0.3);
+        }
+#btb-nfl-futures-widget .div-nfc-south {
+            background: rgba(113,183,255,0.15);
+            color: var(--blue);
+            border-color: rgba(113,183,255,0.3);
+        }
+#btb-nfl-futures-widget .percentage {
+            font-variant-numeric: tabular-nums;
+            font-weight: 600;
+            text-align: center;
+            cursor: help;
+            position: relative;
+        }
+#btb-nfl-futures-widget .odds {
+            font-variant-numeric: tabular-nums;
+            font-weight: 600;
+            color: var(--blue);
+            text-align: center;
+        }
+#btb-nfl-futures-widget .positive {
+            color: var(--green);
+            font-weight: 700;
+            text-align: center;
+        }
+#btb-nfl-futures-widget .negative {
+            color: var(--red);
+            font-weight: 700;
+            text-align: center;
+        }
+#btb-nfl-futures-widget .edge-value {
+            font-variant-numeric: tabular-nums;
+            font-weight: 600;
+            text-align: center;
+        }
+#btb-nfl-futures-widget .win-total {
+            font-variant-numeric: tabular-nums;
+            font-weight: 600;
+            color: var(--gold);
+            text-align: center;
+        }
+#btb-nfl-futures-widget .btb-win-total {
+            font-variant-numeric: tabular-nums;
+            font-weight: 600;
+            color: var(--gold);
+            text-align: center;
+        }
+#btb-nfl-futures-widget .no-results {
+            text-align: center;
+            padding: 48px 24px;
+            color: var(--muted);
+            font-size: 1rem;
+        }
+#btb-nfl-futures-widget .result-count {
+            padding: 12px 24px;
+            color: var(--muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--line);
+            text-align: right;
+            background: rgba(16,31,41,0.6);
+        }
+#btb-nfl-futures-widget .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+#btb-nfl-futures-widget .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: var(--green);
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 12px;
+            position: absolute;
+            z-index: 1000;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid var(--green);
+            white-space: normal;
+            pointer-events: none;
+        }
+#btb-nfl-futures-widget .tooltip .tooltiptext:after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.9) transparent transparent transparent;
+        }
+#btb-nfl-futures-widget .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+#btb-nfl-futures-widget .official-bets-table {
+    min-width: 760px;
+}
+
+#btb-nfl-futures-widget .official-bets-table th:nth-child(1),
+#btb-nfl-futures-widget .official-bets-table td:nth-child(1) {
+    min-width: 190px;
+}
+
+#btb-nfl-futures-widget .official-bets-table th:nth-child(3),
+#btb-nfl-futures-widget .official-bets-table td:nth-child(3) {
+    min-width: 190px;
+}
+
+#btb-nfl-futures-widget .bet-type {
+    color: var(--gold);
+    font-weight: 700;
+}
+
+#btb-nfl-futures-widget .official-bet {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+#btb-nfl-futures-widget .header-layout {
+                flex-direction: column;
+                gap: 18px;
+            }
+#btb-nfl-futures-widget .education-note {
+                flex-basis: auto;
+                width: 100%;
+                margin-top: 0;
+            }
+#btb-nfl-futures-widget .controls {
+                flex-direction: column;
+            }
+#btb-nfl-futures-widget .search-box, #btb-nfl-futures-widget .filter-select {
+                width: 100%;
+            }
+#btb-nfl-futures-widget th, #btb-nfl-futures-widget td {
+                padding: 10px 8px;
+                font-size: 0.8rem;
+            }
+#btb-nfl-futures-widget .team-cell {
+                gap: 8px;
+                min-width: 150px;
+            }
+#btb-nfl-futures-widget .team-logo {
+                width: 28px;
+                height: 28px;
+            }
+#btb-nfl-futures-widget .widget-title {
+                font-size: 1.8rem;
+            }
+#btb-nfl-futures-widget .percentage, #btb-nfl-futures-widget .odds, #btb-nfl-futures-widget .positive, #btb-nfl-futures-widget .negative, #btb-nfl-futures-widget .edge-value, #btb-nfl-futures-widget .win-total {
+                font-size: 0.85rem;
+            }
+#btb-nfl-futures-widget .tabs {
+                overflow-x: auto;
+            }
+#btb-nfl-futures-widget .tab-button {
+                padding: 10px 16px;
+                font-size: 0.85rem;
+            }
+}
+
+#btb-nfl-futures-widget .table-scroll:focus {
+    outline: none;
+}
+
+#btb-nfl-futures-widget .table-scroll:focus-visible {
+    box-shadow: inset 0 0 0 1px var(--green);
+}
+
+
+/* Freeze the Team column during horizontal scrolling */
+#btb-nfl-futures-widget th:first-child,
+#btb-nfl-futures-widget td:first-child {
+    position: sticky;
+    left: 0;
+}
+
+#btb-nfl-futures-widget th:first-child {
+    z-index: 14;
+    background: #0b151c;
+    box-shadow: 1px 0 0 var(--line);
+}
+
+#btb-nfl-futures-widget td:first-child {
+    z-index: 6;
+    background: #0f1d26;
+    box-shadow: 1px 0 0 var(--line);
+}
+
+#btb-nfl-futures-widget tbody tr:hover td:first-child {
+    background: #12252d;
+}
+
+</style>
+
+<script>
+(function () {
+    try {
+    const root = document.getElementById('btb-nfl-futures-widget');
+    if (!root || root.dataset.initialized === 'true') return;
+    root.dataset.initialized = 'true';
+
+const teamsData = [
+            { team: "Arizona Cardinals", division: "NFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png", winTotal: 4.5, btbProjectedWins: 6.1, overTrueOdds: -187, overPrice: 150, underTrueOdds: 187, underPrice: -140, edgeOver: 25.13, edgeUnder: -23.46, makePlayoffs: 9.7, winDivision: 0.6, divOdds: 10000, divEdge: -0.4, winConference: 0.4, confOdds: 20000, confEdge: -0.1, superBowl: 0.2, sbOdds: 100000, sbEdge: 0.1 },
+            { team: "Atlanta Falcons", division: "NFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png", winTotal: 7.5, btbProjectedWins: 7.6, overTrueOdds: 102, overPrice: 105, underTrueOdds: -102, underPrice: -120, edgeOver: 0.8, edgeUnder: -4.2, makePlayoffs: 25.8, winDivision: 21.1, divOdds: 425, divEdge: 2.0, winConference: 1.3, confOdds: 5500, confEdge: -0.5, superBowl: 0.5, sbOdds: 13000, sbEdge: -0.3 },
+            { team: "Baltimore Ravens", division: "AFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png", winTotal: 11.5, btbProjectedWins: 10.3, overTrueOdds: 193, overPrice: 126, underTrueOdds: -193, underPrice: -140, edgeOver: -10.1, edgeUnder: 7.5, makePlayoffs: 67.9, winDivision: 48.4, divOdds: -110, divEdge: -4.0, winConference: 10.9, confOdds: 500, confEdge: -5.8, superBowl: 5.1, sbOdds: 1100, sbEdge: -3.2 },
+            { team: "Buffalo Bills", division: "AFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png", winTotal: 10.5, btbProjectedWins: 10.8, overTrueOdds: -111, overPrice: -125, underTrueOdds: 111, underPrice: 118, edgeOver: -2.9, edgeUnder: 1.5, makePlayoffs: 79.6, winDivision: 64.8, divOdds: -125, divEdge: 9.3, winConference: 18.1, confOdds: 510, confEdge: 1.7, superBowl: 9.0, sbOdds: 1000, sbEdge: -0.1 },
+            { team: "Carolina Panthers", division: "NFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500-dark/car.png", winTotal: 7.5, btbProjectedWins: 6.9, overTrueOdds: 137, overPrice: 115, underTrueOdds: -137, underPrice: -130, edgeOver: -4.3, edgeUnder: 1.2, makePlayoffs: 25.1, winDivision: 16.0, divOdds: 310, divEdge: -8.4, winConference: 1.4, confOdds: 5000, confEdge: -0.6, superBowl: 0.5, sbOdds: 10000, sbEdge: -0.4 },
+            { team: "Chicago Bears", division: "NFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png", winTotal: 9.5, btbProjectedWins: 9.1, overTrueOdds: 137, overPrice: 110, underTrueOdds: -137, underPrice: -120, edgeOver: -5.3, edgeUnder: 3.2, makePlayoffs: 41.8, winDivision: 17.9, divOdds: 310, divEdge: -6.5, winConference: 4.8, confOdds: 1300, confEdge: -2.4, superBowl: 2.4, sbOdds: 2700, sbEdge: -1.2 },
+            { team: "Cincinnati Bengals", division: "AFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png", winTotal: 10.5, btbProjectedWins: 9.6, overTrueOdds: 151, overPrice: 115, underTrueOdds: -151, underPrice: -125, edgeOver: -6.7, edgeUnder: 4.7, makePlayoffs: 58.0, winDivision: 31.8, divOdds: 200, divEdge: -1.5, winConference: 6.3, confOdds: 1025, confEdge: -2.5, superBowl: 2.7, sbOdds: 2200, sbEdge: -1.6 },
+            { team: "Cleveland Browns", division: "AFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png", winTotal: 5.5, btbProjectedWins: 5.9, overTrueOdds: -140, overPrice: -110, underTrueOdds: 140, underPrice: 115, edgeOver: 5.9, edgeUnder: -4.8, makePlayoffs: 9.0, winDivision: 3.5, divOdds: 2200, divEdge: -0.8, winConference: 0.3, confOdds: 8600, confEdge: -0.9, superBowl: 0.1, sbOdds: 35000, sbEdge: -0.2 },
+            { team: "Dallas Cowboys", division: "NFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png", winTotal: 9.5, btbProjectedWins: 8.9, overTrueOdds: 137, overPrice: 110, underTrueOdds: -137, underPrice: -130, edgeOver: -5.4, edgeUnder: 1.3, makePlayoffs: 45.3, winDivision: 27.7, divOdds: 235, divEdge: -2.2, winConference: 4.8, confOdds: 1300, confEdge: -2.3, superBowl: 2.4, sbOdds: 2500, sbEdge: -1.5 },
+            { team: "Denver Broncos", division: "AFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/den.png", winTotal: 9.5, btbProjectedWins: 9.6, overTrueOdds: -103, overPrice: -125, underTrueOdds: 103, underPrice: 105, edgeOver: -4.8, edgeUnder: 0.5, makePlayoffs: 62.1, winDivision: 34.1, divOdds: 225, divEdge: 3.4, winConference: 9.0, confOdds: 1025, confEdge: 0.1, superBowl: 3.9, sbOdds: 2000, sbEdge: -0.9 },
+            { team: "Detroit Lions", division: "NFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/det.png", winTotal: 10.5, btbProjectedWins: 10.5, overTrueOdds: 121, overPrice: -110, underTrueOdds: -121, underPrice: 120, edgeOver: -7.2, edgeUnder: 9.4, makePlayoffs: 59.9, winDivision: 27.6, divOdds: 180, divEdge: -8.1, winConference: 9.1, confOdds: 930, confEdge: -0.7, superBowl: 4.8, sbOdds: 1900, sbEdge: -0.2 },
+            { team: "Green Bay Packers", division: "NFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png", winTotal: 9.5, btbProjectedWins: 9.7, overTrueOdds: -110, overPrice: -140, underTrueOdds: 110, underPrice: 115, edgeOver: -6.0, edgeUnder: 1.2, makePlayoffs: 61.0, winDivision: 39.5, divOdds: 270, divEdge: 12.5, winConference: 9.0, confOdds: 1000, confEdge: -0.1, superBowl: 5.0, sbOdds: 2200, sbEdge: 0.7 },
+            { team: "Houston Texans", division: "AFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png", winTotal: 9.5, btbProjectedWins: 9.7, overTrueOdds: -123, overPrice: -125, underTrueOdds: 123, underPrice: 110, edgeOver: -0.5, edgeUnder: -2.7, makePlayoffs: 69.3, winDivision: 39.1, divOdds: 135, divEdge: -3.5, winConference: 15.4, confOdds: 1000, confEdge: 6.3, superBowl: 7.6, sbOdds: 2000, sbEdge: 2.8 },
+            { team: "Indianapolis Colts", division: "AFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png", winTotal: 7.5, btbProjectedWins: 8.6, overTrueOdds: -161, overPrice: -125, underTrueOdds: 161, underPrice: 115, edgeOver: 6.1, edgeUnder: -8.2, makePlayoffs: 42.4, winDivision: 18.0, divOdds: 400, divEdge: -2.0, winConference: 3.8, confOdds: 2900, confEdge: 0.5, superBowl: 1.5, sbOdds: 6600, sbEdge: 0.0 },
+            { team: "Jacksonville Jaguars", division: "AFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png", winTotal: 9.5, btbProjectedWins: 9.2, overTrueOdds: 108, overPrice: 110, underTrueOdds: -108, underPrice: -130, edgeOver: 0.5, edgeUnder: -4.7, makePlayoffs: 57.2, winDivision: 38.1, divOdds: 245, divEdge: 9.1, winConference: 7.4, confOdds: 1500, confEdge: 1.1, superBowl: 3.3, sbOdds: 3000, sbEdge: 0.1 },
+            { team: "Kansas City Chiefs", division: "AFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png", winTotal: 10.5, btbProjectedWins: 9.3, overTrueOdds: 171, overPrice: 120, underTrueOdds: -171, underPrice: -140, edgeOver: -8.5, edgeUnder: 4.7, makePlayoffs: 52.8, winDivision: 24.8, divOdds: 180, divEdge: -10.9, winConference: 7.7, confOdds: 770, confEdge: -3.8, superBowl: 3.5, sbOdds: 1600, sbEdge: -2.4 },
+            { team: "Las Vegas Raiders", division: "AFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png", winTotal: 5.5, btbProjectedWins: 6.1, overTrueOdds: -154, overPrice: -135, underTrueOdds: 154, underPrice: 135, edgeOver: 3.2, edgeUnder: -3.2, makePlayoffs: 14.1, winDivision: 4.2, divOdds: 2200, divEdge: -0.2, winConference: 0.5, confOdds: 7600, confEdge: -0.8, superBowl: 0.2, sbOdds: 15000, sbEdge: -0.5 },
+            { team: "Los Angeles Chargers", division: "AFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png", winTotal: 9.5, btbProjectedWins: 9.5, overTrueOdds: 108, overPrice: -135, underTrueOdds: -108, underPrice: 115, edgeOver: -9.4, edgeUnder: 5.5, makePlayoffs: 58.2, winDivision: 36.9, divOdds: 190, divEdge: 2.4, winConference: 8.1, confOdds: 830, confEdge: -2.7, superBowl: 3.6, sbOdds: 1700, sbEdge: -2.0 },
+            { team: "Los Angeles Rams", division: "NFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png", winTotal: 11.5, btbProjectedWins: 11.1, overTrueOdds: 121, overPrice: -120, underTrueOdds: -121, underPrice: 105, edgeOver: -9.3, edgeUnder: 6.0, makePlayoffs: 79.8, winDivision: 45.9, divOdds: 100, divEdge: -4.1, winConference: 23.1, confOdds: 300, confEdge: -1.9, superBowl: 14.0, sbOdds: 550, sbEdge: -1.4 },
+            { team: "Miami Dolphins", division: "AFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png", winTotal: 4.5, btbProjectedWins: 5.3, overTrueOdds: -144, overPrice: 110, underTrueOdds: 144, underPrice: -130, edgeOver: 11.3, edgeUnder: -15.5, makePlayoffs: 7.9, winDivision: 1.2, divOdds: 4000, divEdge: -1.3, winConference: 0.3, confOdds: 15000, confEdge: -0.3, superBowl: 0.1, sbOdds: 60000, sbEdge: 0.0 },
+            { team: "Minnesota Vikings", division: "NFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/min.png", winTotal: 8.5, btbProjectedWins: 8.3, overTrueOdds: 103, overPrice: 100, underTrueOdds: -103, underPrice: 110, edgeOver: -0.8, edgeUnder: 3.2, makePlayoffs: 34.7, winDivision: 14.9, divOdds: 550, divEdge: -0.5, winConference: 2.8, confOdds: 2400, confEdge: -1.2, superBowl: 1.4, sbOdds: 5000, sbEdge: -0.6 },
+            { team: "New England Patriots", division: "AFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png", winTotal: 10.5, btbProjectedWins: 9.7, overTrueOdds: 150, overPrice: 115, underTrueOdds: -150, underPrice: -140, edgeOver: -6.5, edgeUnder: 1.6, makePlayoffs: 63.9, winDivision: 31.7, divOdds: 145, divEdge: -9.1, winConference: 8.7, confOdds: 850, confEdge: -1.9, superBowl: 3.8, sbOdds: 2000, sbEdge: -0.9 },
+            { team: "New Orleans Saints", division: "NFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/no.png", winTotal: 7.5, btbProjectedWins: 7.2, overTrueOdds: 123, overPrice: -120, underTrueOdds: -123, underPrice: 105, edgeOver: -9.7, edgeUnder: 6.4, makePlayoffs: 20.4, winDivision: 18.2, divOdds: 280, divEdge: -8.2, winConference: 0.8, confOdds: 5000, confEdge: -1.1, superBowl: 0.3, sbOdds: 10000, sbEdge: -0.6 },
+            { team: "New York Giants", division: "NFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png", winTotal: 7.5, btbProjectedWins: 7.1, overTrueOdds: 126, overPrice: -120, underTrueOdds: -126, underPrice: 100, edgeOver: -10.2, edgeUnder: 5.7, makePlayoffs: 16.5, winDivision: 8.1, divOdds: 600, divEdge: -6.2, winConference: 0.9, confOdds: 3500, confEdge: -1.9, superBowl: 0.3, sbOdds: 7000, sbEdge: -1.1 },
+            { team: "New York Jets", division: "AFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png", winTotal: 5.5, btbProjectedWins: 5.5, overTrueOdds: -106, overPrice: -120, underTrueOdds: 106, underPrice: 100, edgeOver: -3.0, edgeUnder: -1.5, makePlayoffs: 8.7, winDivision: 2.3, divOdds: 2200, divEdge: -2.1, winConference: 0.2, confOdds: 12500, confEdge: -0.6, superBowl: 0.1, sbOdds: 40000, sbEdge: -0.2 },
+            { team: "Philadelphia Eagles", division: "NFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png", winTotal: 10.5, btbProjectedWins: 9.7, overTrueOdds: 147, overPrice: 125, underTrueOdds: -147, underPrice: -140, edgeOver: -4.0, edgeUnder: 1.3, makePlayoffs: 60.7, winDivision: 47.2, divOdds: 130, divEdge: 3.7, winConference: 8.7, confOdds: 1000, confEdge: -0.4, superBowl: 4.4, sbOdds: 1800, sbEdge: -0.9 },
+            { team: "Pittsburgh Steelers", division: "AFC North", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png", winTotal: 8.5, btbProjectedWins: 8.3, overTrueOdds: 102, overPrice: 118, underTrueOdds: -102, underPrice: -120, edgeOver: 3.5, edgeUnder: -3.9, makePlayoffs: 35.8, winDivision: 16.2, divOdds: 600, divEdge: 1.9, winConference: 2.8, confOdds: 3500, confEdge: 0.0, superBowl: 1.0, sbOdds: 8000, sbEdge: -0.3 },
+            { team: "San Francisco 49ers", division: "NFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png", winTotal: 10.5, btbProjectedWins: 9.7, overTrueOdds: 147, overPrice: 105, underTrueOdds: -147, underPrice: -125, edgeOver: -8.2, edgeUnder: 3.9, makePlayoffs: 58.3, winDivision: 24.5, divOdds: 325, divEdge: 0.9, winConference: 7.8, confOdds: 960, confEdge: -1.6, superBowl: 4.0, sbOdds: 1900, sbEdge: -1.0 },
+            { team: "Seattle Seahawks", division: "NFC West", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png", winTotal: 10.5, btbProjectedWins: 10.6, overTrueOdds: 106, overPrice: -115, underTrueOdds: -106, underPrice: -105, edgeOver: -4.9, edgeUnder: 0.2, makePlayoffs: 74.5, winDivision: 29.0, divOdds: 210, divEdge: -3.3, winConference: 18.1, confOdds: 600, confEdge: 3.8, superBowl: 11.3, sbOdds: 1200, sbEdge: 3.6 },
+            { team: "Tampa Bay Buccaneers", division: "NFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png", winTotal: 8.5, btbProjectedWins: 8.6, overTrueOdds: -110, overPrice: 105, underTrueOdds: 110, underPrice: -125, edgeOver: 3.5, edgeUnder: -7.9, makePlayoffs: 54.5, winDivision: 44.8, divOdds: 185, divEdge: 9.7, winConference: 4.7, confOdds: 2500, confEdge: 0.9, superBowl: 2.0, sbOdds: 6000, sbEdge: 0.4 },
+            { team: "Tennessee Titans", division: "AFC South", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png", winTotal: 6.5, btbProjectedWins: 6.4, overTrueOdds: 115, overPrice: 100, underTrueOdds: -115, underPrice: -115, edgeOver: -3.4, edgeUnder: 0.0, makePlayoffs: 12.9, winDivision: 4.8, divOdds: 850, divEdge: -5.7, winConference: 0.5, confOdds: 6600, confEdge: -1.0, superBowl: 0.1, sbOdds: 25000, sbEdge: -0.3 },
+            { team: "Washington Commanders", division: "NFC East", logo: "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png", winTotal: 7.5, btbProjectedWins: 7.7, overTrueOdds: -119, overPrice: -120, underTrueOdds: 119, underPrice: 105, edgeOver: -0.1, edgeUnder: -3.2, makePlayoffs: 31.9, winDivision: 17.0, divOdds: 525, divEdge: 1.0, winConference: 2.5, confOdds: 3000, confEdge: -0.8, superBowl: 1.1, sbOdds: 6600, sbEdge: -0.4 }
+        ];
+
+        const officialBetsData = [
+            { betType: "Season Win Totals", team: "Baltimore Ravens", bet: "Under 11.5 wins", odds: -140 },
+            { betType: "Season Win Totals", team: "Cincinnati Bengals", bet: "Under 10.5 wins", odds: -120 },
+            { betType: "Season Win Totals", team: "Indianapolis Colts", bet: "Over 7.5 wins", odds: -125 },
+            { betType: "Season Win Totals", team: "Kansas City Chiefs", bet: "Under 10.5 wins", odds: -140 }
+        ].map(bet => {
+            const team = teamsData.find(item => item.team === bet.team);
+            return { ...bet, logo: team ? team.logo : "" };
+        });
+
+        let currentData = [...teamsData];
+        let currentOfficialBets = [...officialBetsData];
+        let sortConfig = { key: null, direction: 'asc', tab: 'win-totals' };
+
+        // Tab switching
+        root.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const tabName = button.getAttribute('data-tab');
+                
+                // Update active button
+                root.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+                button.classList.add('active');
+                
+                // Update active content
+                root.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                root.querySelector('#' + tabName).classList.add('active');
+                
+                sortConfig.tab = tabName;
+                const divisionFilter = root.querySelector('#divisionFilter');
+                divisionFilter.style.display = tabName === 'official-bets' ? 'none' : '';
+                filterData();
+            });
+        });
+
+        function convertToAmericanOdds(probability) {
+            if (probability <= 0.5) {
+                const odds = Math.round(100 / probability - 100);
+                return '+' + odds;
+            } else {
+                const odds = Math.round(probability / (1 - probability) * -100);
+                return odds.toString();
+            }
+        }
+
+        function formatPercentage(value) {
+            return value.toFixed(1) + '%';
+        }
+
+        function formatPrice(value) {
+            const num = parseFloat(value);
+            const prefix = num >= 0 ? '+' : '';
+            return prefix + value;
+        }
+
+        function formatOdds(value) {
+            const num = parseFloat(value);
+            const prefix = num >= 0 ? '+' : '';
+            return prefix + value;
+        }
+
+        function getDivisionClass(division) {
+            return 'div-' + division.toLowerCase().replace(' ', '-');
+        }
+
+        function createTeamCell(team, logo) {
+            return `
+                <div class="team-cell">
+                    <img src="${logo}" alt="${team}" class="team-logo">
+                    <span class="team-name">${team}</span>
+                </div>
+            `;
+        }
+
+        function createPercentageCell(value) {
+            const probability = value / 100;
+            const americanOdds = convertToAmericanOdds(probability);
+            return `
+                <div class="tooltip">
+                    <span class="percentage">${formatPercentage(value)}</span>
+                    <span class="tooltiptext">Bet if you can find odds better than ${americanOdds}</span>
+                </div>
+            `;
+        }
+
+        function renderWinTotalsTable(data) {
+            const tableBody = root.querySelector('#winTotalsTableBody');
+            const noResults = root.querySelector('#winTotalsNoResults');
+            const resultCount = root.querySelector('#winTotalsResultCount');
+            const table = root.querySelector('#winTotalsTable');
+
+            tableBody.innerHTML = '';
+
+            if (data.length === 0) {
+                noResults.style.display = 'block';
+                resultCount.innerHTML = '';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            resultCount.innerHTML = `Showing ${data.length} of ${teamsData.length} teams`;
+
+            data.forEach(row => {
+                const tr = document.createElement('tr');
+                const isPositiveEdgeOver = parseFloat(row.edgeOver) >= 0;
+                const isPositiveEdgeUnder = parseFloat(row.edgeUnder) >= 0;
+
+                tr.innerHTML = `
+                    <td>${createTeamCell(row.team, row.logo)}</td>
+                    <td><span class="division-badge ${getDivisionClass(row.division)}">${row.division}</span></td>
+                    <td class="win-total">${row.winTotal}</td>
+                    <td class="btb-win-total">${row.btbProjectedWins}</td>
+                    <td class="odds">${formatPrice(row.overTrueOdds)}</td>
+                    <td class="odds">${formatPrice(row.overPrice)}</td>
+                    <td class="odds">${formatPrice(row.underTrueOdds)}</td>
+                    <td class="odds">${formatPrice(row.underPrice)}</td>
+                    <td class="${isPositiveEdgeOver ? 'positive' : 'negative'} edge-value">${formatPercentage(row.edgeOver)}</td>
+                    <td class="${isPositiveEdgeUnder ? 'positive' : 'negative'} edge-value">${formatPercentage(row.edgeUnder)}</td>
+                `;
+                tableBody.appendChild(tr);
+            });
+
+            // Attach sort listeners for win totals table
+            attachSortListeners('win-totals');
+        }
+
+        function renderFuturesTable(data) {
+            const tableBody = root.querySelector('#futuresTableBody');
+            const noResults = root.querySelector('#futuresNoResults');
+            const resultCount = root.querySelector('#futuresResultCount');
+
+            tableBody.innerHTML = '';
+
+            if (data.length === 0) {
+                noResults.style.display = 'block';
+                resultCount.innerHTML = '';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            resultCount.innerHTML = `Showing ${data.length} of ${teamsData.length} teams`;
+
+            data.forEach(row => {
+                const tr = document.createElement('tr');
+                const isPositiveDivEdge = parseFloat(row.divEdge) >= 0;
+                const isPositiveConfEdge = parseFloat(row.confEdge) >= 0;
+                const isPositiveSBEdge = parseFloat(row.sbEdge) >= 0;
+
+                tr.innerHTML = `
+                    <td>${createTeamCell(row.team, row.logo)}</td>
+                    <td><span class="division-badge ${getDivisionClass(row.division)}">${row.division}</span></td>
+                    <td>${createPercentageCell(row.makePlayoffs)}</td>
+                    <td>${createPercentageCell(row.winDivision)}</td>
+                    <td class="odds">${formatOdds(row.divOdds)}</td>
+                    <td class="${isPositiveDivEdge ? 'positive' : 'negative'} edge-value">${formatPercentage(row.divEdge)}</td>
+                    <td>${createPercentageCell(row.winConference)}</td>
+                    <td class="odds">${formatOdds(row.confOdds)}</td>
+                    <td class="${isPositiveConfEdge ? 'positive' : 'negative'} edge-value">${formatPercentage(row.confEdge)}</td>
+                    <td>${createPercentageCell(row.superBowl)}</td>
+                    <td class="odds">${formatOdds(row.sbOdds)}</td>
+                    <td class="${isPositiveSBEdge ? 'positive' : 'negative'} edge-value">${formatPercentage(row.sbEdge)}</td>
+                `;
+                tableBody.appendChild(tr);
+            });
+
+            // Attach sort listeners for futures table
+            attachSortListeners('futures');
+        }
+
+        function renderOfficialBetsTable(data) {
+            const tableBody = root.querySelector('#officialBetsTableBody');
+            const noResults = root.querySelector('#officialBetsNoResults');
+            const resultCount = root.querySelector('#officialBetsResultCount');
+
+            tableBody.innerHTML = '';
+
+            if (data.length === 0) {
+                noResults.style.display = 'block';
+                resultCount.innerHTML = '';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            resultCount.innerHTML = `Showing ${data.length} of ${officialBetsData.length} official bets`;
+
+            data.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td class="bet-type">${row.betType}</td>
+                    <td>${createTeamCell(row.team, row.logo)}</td>
+                    <td class="official-bet">${row.bet}</td>
+                    <td class="odds">${formatOdds(row.odds)}</td>
+                `;
+                tableBody.appendChild(tr);
+            });
+
+            attachSortListeners('official-bets');
+        }
+
+        function attachSortListeners(tab) {
+            const tableId = tab === 'win-totals' ? 'winTotalsTable' : tab === 'futures' ? 'futuresTable' : 'officialBetsTable';
+            const table = root.querySelector('#' + tableId);
+            const headers = table.querySelectorAll('th.sortable');
+            
+            headers.forEach((header, index) => {
+                header.onclick = () => {
+                    const keyMaps = {
+                        'win-totals': ['team', 'division', 'winTotal', 'btbProjectedWins', 'overTrueOdds', 'overPrice', 'underTrueOdds', 'underPrice', 'edgeOver', 'edgeUnder'],
+                        'futures': ['team', 'division', 'makePlayoffs', 'winDivision', 'divOdds', 'divEdge', 'winConference', 'confOdds', 'confEdge', 'superBowl', 'sbOdds', 'sbEdge'],
+                        'official-bets': ['betType', 'team', 'bet', 'odds']
+                    };
+                    sortData(keyMaps[tab][index], tab);
+                };
+            });
+        }
+
+        function sortData(key, tab) {
+            if (sortConfig.key === key && sortConfig.tab === tab) {
+                sortConfig.direction = sortConfig.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortConfig.key = key;
+                sortConfig.direction = 'asc';
+            }
+
+            const tableId = tab === 'win-totals' ? 'winTotalsTable' : tab === 'futures' ? 'futuresTable' : 'officialBetsTable';
+            const table = root.querySelector('#' + tableId);
+            const headers = table.querySelectorAll('th');
+            headers.forEach(h => {
+                h.classList.remove('sort-asc', 'sort-desc');
+            });
+
+            const keyMaps = {
+                'win-totals': ['team', 'division', 'winTotal', 'btbProjectedWins', 'overTrueOdds', 'overPrice', 'underTrueOdds', 'underPrice', 'edgeOver', 'edgeUnder'],
+                'futures': ['team', 'division', 'makePlayoffs', 'winDivision', 'divOdds', 'divEdge', 'winConference', 'confOdds', 'confEdge', 'superBowl', 'sbOdds', 'sbEdge'],
+                        'official-bets': ['betType', 'team', 'bet', 'odds']
+            };
+            
+            const keyMap = keyMaps[tab];
+            let sortHeader = null;
+            keyMap.forEach((k, idx) => {
+                if (k === key) sortHeader = Array.from(headers)[idx];
+            });
+
+            if (sortHeader) {
+                sortHeader.classList.add(sortConfig.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+            }
+
+            const dataToSort = tab === 'official-bets' ? currentOfficialBets : currentData;
+
+            dataToSort.sort((a, b) => {
+                let aVal = a[key];
+                let bVal = b[key];
+
+                // Convert to numbers for comparison
+                if (typeof aVal === 'string') {
+                    const numA = parseFloat(aVal);
+                    const numB = parseFloat(bVal);
+                    if (!isNaN(numA) && !isNaN(numB)) {
+                        aVal = numA;
+                        bVal = numB;
+                    } else {
+                        aVal = aVal.toLowerCase();
+                        bVal = bVal.toLowerCase();
+                    }
+                }
+
+                if (aVal < bVal) return sortConfig.direction === 'asc' ? -1 : 1;
+                if (aVal > bVal) return sortConfig.direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            if (tab === 'win-totals') {
+                renderWinTotalsTable(currentData);
+            } else if (tab === 'futures') {
+                renderFuturesTable(currentData);
+            } else {
+                renderOfficialBetsTable(currentOfficialBets);
+            }
+        }
+
+        function filterData() {
+            const rawSearch = root.querySelector('#searchInput').value.toLowerCase();
+            const searchTerms = rawSearch
+                .split(',')
+                .map(term => term.trim())
+                .filter(Boolean);
+            const selectedDivision = root.querySelector('#divisionFilter').value;
+
+            currentData = teamsData.filter(row => {
+                const teamName = row.team.toLowerCase();
+                const matchesSearch = searchTerms.length === 0 ||
+                    searchTerms.some(term => teamName.includes(term));
+                const matchesDivision = !selectedDivision || row.division === selectedDivision;
+                return matchesSearch && matchesDivision;
+            });
+
+            currentOfficialBets = officialBetsData.filter(row => {
+                const searchableText = `${row.betType} ${row.team} ${row.bet} ${row.odds}`.toLowerCase();
+                return searchTerms.length === 0 ||
+                    searchTerms.some(term => searchableText.includes(term));
+            });
+
+            if (sortConfig.tab === 'win-totals') {
+                renderWinTotalsTable(currentData);
+            } else if (sortConfig.tab === 'futures') {
+                renderFuturesTable(currentData);
+            } else {
+                renderOfficialBetsTable(currentOfficialBets);
+            }
+        }
+
+        // Event listeners
+        root.querySelector('#searchInput').addEventListener('input', filterData);
+        root.querySelector('#divisionFilter').addEventListener('change', filterData);
+
+        // Initial render
+        renderWinTotalsTable(currentData);
+
+    root.querySelectorAll('.table-scroll').forEach(scrollArea => {
+        scrollArea.addEventListener('keydown', event => {
+            const scrollAmount = event.shiftKey ? 320 : 110;
+
+            if (event.key === 'ArrowLeft') {
+                event.preventDefault();
+                scrollArea.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else if (event.key === 'ArrowRight') {
+                event.preventDefault();
+                scrollArea.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            } else if (event.key === 'Home') {
+                event.preventDefault();
+                scrollArea.scrollTo({ left: 0, behavior: 'smooth' });
+            } else if (event.key === 'End') {
+                event.preventDefault();
+                scrollArea.scrollTo({ left: scrollArea.scrollWidth, behavior: 'smooth' });
+            }
+        });
+
+        scrollArea.addEventListener('pointerdown', () => {
+            scrollArea.focus({ preventScroll: true });
+        });
+    });
+
+    } catch (error) {
+        console.error('BTB NFL Futures widget error:', error);
+    }
+})();
+</script>
