@@ -6,24 +6,8 @@ on:
 
   schedule:
 
-    # -------------------------------------------------
-    # 6 AM through 10 PM Phoenix
-    #
-    # Run controller every 10 minutes.
-    # Individual search buckets have their own cadence.
-    # -------------------------------------------------
-
-    - cron: "3,13,23,33,43,53 6-21 * * *"
+    - cron: "3,13,23,33,43,53 6-22 * * *"
       timezone: "America/Phoenix"
-
-    # 10 PM
-    - cron: "3,13,23,33,43,53 22 * * *"
-      timezone: "America/Phoenix"
-
-    # -------------------------------------------------
-    # Overnight
-    # One controller run per hour.
-    # -------------------------------------------------
 
     - cron: "17 23,0-5 * * *"
       timezone: "America/Phoenix"
@@ -46,22 +30,38 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    timeout-minutes: 10
+    timeout-minutes: 15
 
 
     steps:
 
-      # ------------------------------------------------
-      # CHECKOUT
-      # ------------------------------------------------
+      # ======================================================
+      # MAIN REPOSITORY
+      # ======================================================
 
-      - name: Checkout repository
+      - name: Checkout football-testgrounds
         uses: actions/checkout@v7
 
 
-      # ------------------------------------------------
+      # ======================================================
+      # LIVE BTB MODEL / MARKET DATA
+      #
+      # This is checked out fresh every radar run.
+      # ======================================================
+
+      - name: Checkout trash-schedule
+        uses: actions/checkout@v7
+
+        with:
+
+          repository: trashduty/trash-schedule
+
+          path: external/trash-schedule
+
+
+      # ======================================================
       # PYTHON
-      # ------------------------------------------------
+      # ======================================================
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -73,9 +73,9 @@ jobs:
           cache: "pip"
 
 
-      # ------------------------------------------------
+      # ======================================================
       # DEPENDENCIES
-      # ------------------------------------------------
+      # ======================================================
 
       - name: Install dependencies
 
@@ -86,16 +86,9 @@ jobs:
           pip install -r requirements.txt
 
 
-      # ------------------------------------------------
-      # RESTORE STATE
-      #
-      # Contains:
-      #
-      # alerted_ids.json
-      # search_runs.json
-      # opportunities.csv
-      #
-      # ------------------------------------------------
+      # ======================================================
+      # RESTORE RADAR STATE
+      # ======================================================
 
       - name: Restore Growth Radar state
 
@@ -113,10 +106,6 @@ jobs:
             x-growth-state-
 
 
-      # ------------------------------------------------
-      # STATE DIRECTORY
-      # ------------------------------------------------
-
       - name: Create state directory
 
         run: |
@@ -124,9 +113,9 @@ jobs:
           mkdir -p x_growth/state
 
 
-      # ------------------------------------------------
-      # RUN RADAR
-      # ------------------------------------------------
+      # ======================================================
+      # RUN PHASE 2
+      # ======================================================
 
       - name: Run X Growth Radar
 
@@ -136,14 +125,16 @@ jobs:
 
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
         run: |
 
           python -m x_growth.main
 
 
-      # ------------------------------------------------
+      # ======================================================
       # SAVE STATE
-      # ------------------------------------------------
+      # ======================================================
 
       - name: Save Growth Radar state
 
