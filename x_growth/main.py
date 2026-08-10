@@ -8,7 +8,6 @@ from pathlib import Path
 
 import yaml
 
-
 from x_growth.search_x import (
     search_recent_posts,
     XAPIError,
@@ -20,6 +19,7 @@ from x_growth.query_builder import (
 
 from x_growth.team_matcher import (
     identify_teams,
+    load_cfb_crosswalk,
 )
 
 from x_growth.classify_conversation import (
@@ -42,6 +42,10 @@ from x_growth.state import (
     RadarState,
 )
 
+
+# ============================================================
+# PATHS
+# ============================================================
 
 ROOT = (
     Path(__file__)
@@ -66,9 +70,21 @@ LOG_FILE = (
 )
 
 
+# ============================================================
+# HELPERS
+# ============================================================
+
 def load_yaml(
     path: Path,
 ) -> dict:
+    """
+    Load a YAML configuration file.
+    """
+
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Config file not found: {path}"
+        )
 
     with path.open(
         "r",
@@ -84,6 +100,9 @@ def load_yaml(
 def require_env(
     name: str,
 ) -> str:
+    """
+    Require an environment variable.
+    """
 
     value = os.environ.get(
         name
@@ -103,11 +122,12 @@ def merge_duplicate_post(
     existing: dict,
     new_post: dict,
 ) -> dict:
+    """
+    A post may be returned by multiple X searches.
 
-    #
-    # One post may be returned from several query
-    # buckets. Preserve all matched sources.
-    #
+    Preserve all matching query names and conversation
+    hints instead of scoring the same post several times.
+    """
 
     query_names = set(
         existing.get(
@@ -157,7 +177,11 @@ def merge_duplicate_post(
 
     existing[
         "conversation_hints"
-    ] = list(hints)
+    ] = sorted(
+        item
+        for item in hints
+        if item
+    )
 
     return existing
 
@@ -166,6 +190,9 @@ def log_opportunity(
     opportunity: dict,
     max_rows: int,
 ):
+    """
+    Append an alerted opportunity to the rolling CSV log.
+    """
 
     STATE_DIR.mkdir(
         parents=True,
@@ -173,12 +200,13 @@ def log_opportunity(
     )
 
     columns = [
-
         "id",
         "sport",
         "conversation_type",
         "query_name",
+        "matched_queries",
         "score",
+        "alert_threshold",
         "created_at",
         "age_minutes",
 
@@ -201,11 +229,16 @@ def log_opportunity(
         "source_priority_score",
 
         "teams",
+        "team_match_confidence",
+        "team_match_reason",
+
         "url",
         "text",
     ]
 
-    exists = LOG_FILE.exists()
+    file_exists = (
+        LOG_FILE.exists()
+    )
 
     with LOG_FILE.open(
         "a",
@@ -218,35 +251,101 @@ def log_opportunity(
             fieldnames=columns,
         )
 
-        if not exists:
+        if not file_exists:
             writer.writeheader()
+
+        teams = opportunity.get(
+            "teams",
+            [],
+        )
+
+        team_names = "; ".join(
+            team.get(
+                "team",
+                ""
+            )
+            for team in teams
+            if team.get(
+                "team"
+            )
+        )
+
+        if teams:
+
+            primary_team = (
+                teams[0]
+            )
+
+            confidence = (
+                primary_team.get(
+                    "match_confidence",
+                    "",
+                )
+            )
+
+            match_reason = (
+                primary_team.get(
+                    "match_reason",
+                    "",
+                )
+            )
+
+        else:
+
+            confidence = ""
+            match_reason = ""
+
+        matched_queries = "; ".join(
+            opportunity.get(
+                "matched_queries",
+                [],
+            )
+        )
 
         row = {}
 
         for column in columns:
 
-            value = opportunity.get(
-                column,
-                "",
-            )
-
             if column == "teams":
 
-                value = "; ".join(
-                    team.get(
-                        "team",
-                        ""
-                    )
-                    for team
-                    in opportunity.get(
-                        "teams",
-                        [],
+                value = (
+                    team_names
+                )
+
+            elif column == (
+                "team_match_confidence"
+            ):
+
+                value = confidence
+
+            elif column == (
+                "team_match_reason"
+            ):
+
+                value = match_reason
+
+            elif column == (
+                "matched_queries"
+            ):
+
+                value = (
+                    matched_queries
+                )
+
+            else:
+
+                value = (
+                    opportunity.get(
+                        column,
+                        "",
                     )
                 )
 
             row[column] = value
 
-        writer.writerow(row)
+        writer.writerow(
+            row
+        )
 
     trim_log(
         max_rows
@@ -256,6 +355,9 @@ def log_opportunity(
 def trim_log(
     max_rows: int,
 ):
+    """
+    Keep the opportunity CSV from growing indefinitely.
+    """
 
     if not LOG_FILE.exists():
         return
@@ -276,11 +378,13 @@ def trim_log(
     ):
         return
 
-    header = rows[0]
+    header = (
+        rows[0]
+    )
 
-    data = rows[
-        -max_rows:
-    ]
+    data = (
+        rows[-max_rows:]
+    )
 
     with LOG_FILE.open(
         "w",
@@ -288,20 +392,30 @@ def trim_log(
         encoding="utf-8",
     ) as f:
 
-        writer = csv.writer(f)
+        writer = (
+            csv.writer(f)
+        )
 
-        writer.writerow(header)
+        writer.writerow(
+            header
+        )
 
-        writer.writerows(data)
+        writer.writerows(
+            data
+        )
 
 
 def choose_hint(
     post: dict,
 ) -> str:
+    """
+    If the same X post matched multiple search buckets,
+    choose the most useful conversation-type hint.
+    """
 
     hints = post.get(
         "conversation_hints",
-        []
+        [],
     )
 
     if not hints:
@@ -312,7 +426,6 @@ def choose_hint(
         )
 
     priority = [
-
         "TEAM_VIDEO",
         "INJURY",
         "STAR_PLAYER_NEWS",
@@ -322,6 +435,7 @@ def choose_hint(
         "RANKINGS",
         "POWER_RATINGS",
         "MATCHUP",
+        "DEPTH_CHART",
         "GENERAL",
     ]
 
@@ -330,13 +444,19 @@ def choose_hint(
         if item in hints:
             return item
 
-    return hints[0]
+    return (
+        hints[0]
+    )
 
 
 def get_threshold(
     conversation_type: str,
     alert_settings: dict,
 ) -> float:
+    """
+    Different opportunity types use different Discord
+    alert thresholds.
+    """
 
     thresholds = (
         alert_settings.get(
@@ -361,6 +481,9 @@ def select_alerts(
     max_alerts: int,
     max_per_team: int,
 ) -> list[dict]:
+    """
+    Prevent one team from taking over all alerts in a run.
+    """
 
     selected = []
 
@@ -368,9 +491,11 @@ def select_alerts(
 
     for opportunity in opportunities:
 
-        teams = opportunity.get(
-            "teams",
-            [],
+        teams = (
+            opportunity.get(
+                "teams",
+                [],
+            )
         )
 
         primary_team = (
@@ -381,12 +506,17 @@ def select_alerts(
 
         if primary_team:
 
-            current = team_counts.get(
-                primary_team,
-                0,
+            current = (
+                team_counts.get(
+                    primary_team,
+                    0,
+                )
             )
 
-            if current >= max_per_team:
+            if (
+                current
+                >= max_per_team
+            ):
                 continue
 
         selected.append(
@@ -405,16 +535,48 @@ def select_alerts(
                 + 1
             )
 
-        if len(selected) >= max_alerts:
+        if (
+            len(selected)
+            >= max_alerts
+        ):
             break
 
     return selected
 
 
+def print_team_matches(
+    teams: list[dict],
+):
+    """
+    Helpful GitHub Actions debugging output.
+    """
+
+    if not teams:
+        print(
+            "  Team match: none"
+        )
+        return
+
+    for team in teams[:3]:
+
+        print(
+            "  Team match: "
+            f"{team.get('team')} "
+            f"| confidence="
+            f"{team.get('match_confidence')} "
+            f"| reason="
+            f"{team.get('match_reason')}"
+        )
+
+
+# ============================================================
+# MAIN
+# ============================================================
+
 def main():
 
     print(
-        "=" * 55
+        "=" * 60
     )
 
     print(
@@ -422,55 +584,129 @@ def main():
     )
 
     print(
-        "=" * 55
+        "=" * 60
     )
 
-    bearer_token = require_env(
-        "X_BEARER_TOKEN"
+    # --------------------------------------------------------
+    # SECRETS
+    # --------------------------------------------------------
+
+    bearer_token = (
+        require_env(
+            "X_BEARER_TOKEN"
+        )
     )
 
-    discord_webhook = require_env(
-        "DISCORD_WEBHOOK_URL"
+    discord_webhook = (
+        require_env(
+            "DISCORD_WEBHOOK_URL"
+        )
     )
 
-    settings = load_yaml(
-        CONFIG_DIR
-        / "settings.yml"
+    # --------------------------------------------------------
+    # CONFIG
+    # --------------------------------------------------------
+
+    settings = (
+        load_yaml(
+            CONFIG_DIR
+            / "settings.yml"
+        )
     )
 
-    configured_queries = load_yaml(
-        CONFIG_DIR
-        / "search_queries.yml"
+    configured_queries = (
+        load_yaml(
+            CONFIG_DIR
+            / "search_queries.yml"
+        )
     )
 
-    team_config = load_yaml(
-        CONFIG_DIR
-        / "team_priorities.yml"
+    team_config = (
+        load_yaml(
+            CONFIG_DIR
+            / "team_priorities.yml"
+        )
     )
 
-    account_config = load_yaml(
-        CONFIG_DIR
-        / "priority_accounts.yml"
+    account_config = (
+        load_yaml(
+            CONFIG_DIR
+            / "priority_accounts.yml"
+        )
     )
 
-    x_settings = settings.get(
-        "x_api",
-        {},
+    # --------------------------------------------------------
+    # LOAD CFB CROSSWALK
+    # --------------------------------------------------------
+
+    data_settings = (
+        settings.get(
+            "data",
+            {},
+        )
     )
 
-    alert_settings = settings.get(
-        "alerts",
-        {},
+    crosswalk_settings = (
+        data_settings.get(
+            "cfb_crosswalk",
+            {},
+        )
     )
 
-    state_settings = settings.get(
-        "state",
-        {},
+    crosswalk_relative_path = (
+        crosswalk_settings.get(
+            "path",
+            "config/cfb_team_crosswalk.csv",
+        )
     )
 
-    logging_settings = settings.get(
-        "logging",
-        {},
+    cfb_crosswalk_path = (
+        ROOT
+        / crosswalk_relative_path
+    )
+
+    cfb_crosswalk = (
+        load_cfb_crosswalk(
+            cfb_crosswalk_path
+        )
+    )
+
+    print(
+        f"Loaded "
+        f"{len(cfb_crosswalk)} "
+        f"CFB teams from crosswalk."
+    )
+
+    # --------------------------------------------------------
+    # SETTINGS
+    # --------------------------------------------------------
+
+    x_settings = (
+        settings.get(
+            "x_api",
+            {},
+        )
+    )
+
+    alert_settings = (
+        settings.get(
+            "alerts",
+            {},
+        )
+    )
+
+    state_settings = (
+        settings.get(
+            "state",
+            {},
+        )
+    )
+
+    logging_settings = (
+        settings.get(
+            "logging",
+            {},
+        )
     )
 
     max_results = int(
@@ -529,26 +765,36 @@ def main():
         )
     )
 
+    # --------------------------------------------------------
+    # STATE
+    # --------------------------------------------------------
+
     state = RadarState(
-        str(STATE_DIR),
+        str(
+            STATE_DIR
+        ),
         keep_days=keep_days,
     )
 
-    #
-    # -----------------------------------------------
+    # ========================================================
     # BUILD SEARCH UNIVERSE
-    # -----------------------------------------------
-    #
+    # ========================================================
 
-    search_jobs = build_all_queries(
-
-        configured_queries,
-
-        team_config,
-
-        account_config,
-
-        max_query_chars,
+    search_jobs = (
+        build_all_queries(
+            configured_queries=(
+                configured_queries
+            ),
+            team_config=(
+                team_config
+            ),
+            account_config=(
+                account_config
+            ),
+            max_chars=(
+                max_query_chars
+            ),
+        )
     )
 
     print(
@@ -556,11 +802,9 @@ def main():
         f"{len(search_jobs)}"
     )
 
-    #
-    # -----------------------------------------------
+    # ========================================================
     # SEARCH X
-    # -----------------------------------------------
-    #
+    # ========================================================
 
     posts_by_id = {}
 
@@ -568,11 +812,15 @@ def main():
 
     searches_skipped = 0
 
+    searches_failed = 0
+
     raw_results = 0
 
     for job in search_jobs:
 
-        name = job["name"]
+        name = (
+            job["name"]
+        )
 
         cadence = int(
             job.get(
@@ -587,6 +835,7 @@ def main():
         ):
 
             searches_skipped += 1
+
             continue
 
         print()
@@ -601,48 +850,55 @@ def main():
         )
 
         print(
+            f"Sport: "
+            f"{job.get('sport')}"
+        )
+
+        print(
             f"Cadence: "
             f"{cadence} min"
         )
 
         try:
 
-            posts = search_recent_posts(
-
-                bearer_token=(
-                    bearer_token
-                ),
-
-                query=job["query"],
-
-                query_name=name,
-
-                sport=job.get(
-                    "sport",
-                    "Unknown",
-                ),
-
-                conversation_type_hint=(
-                    job.get(
-                        "conversation_type",
-                        "GENERAL",
-                    )
-                ),
-
-                max_results=(
-                    max_results
-                ),
-
-                lookback_minutes=int(
-                    job.get(
-                        "lookback_minutes",
-                        40,
-                    )
-                ),
-
-                timeout_seconds=(
-                    timeout_seconds
-                ),
+            posts = (
+                search_recent_posts(
+                    bearer_token=(
+                        bearer_token
+                    ),
+                    query=(
+                        job["query"]
+                    ),
+                    query_name=(
+                        name
+                    ),
+                    sport=(
+                        job.get(
+                            "sport",
+                            "Unknown",
+                        )
+                    ),
+                    conversation_type_hint=(
+                        job.get(
+                            "conversation_type",
+                            "GENERAL",
+                        )
+                    ),
+                    max_results=(
+                        max_results
+                    ),
+                    lookback_minutes=(
+                        int(
+                            job.get(
+                                "lookback_minutes",
+                                40,
+                            )
+                        )
+                    ),
+                    timeout_seconds=(
+                        timeout_seconds
+                    ),
+                )
             )
 
         except XAPIError as exc:
@@ -652,9 +908,10 @@ def main():
                 file=sys.stderr,
             )
 
-            #
-            # Don't mark failed searches as run.
-            #
+            searches_failed += 1
+
+            # Do not mark a failed
+            # query as successfully run.
             continue
 
         state.mark_query_run(
@@ -663,8 +920,8 @@ def main():
 
         searches_run += 1
 
-        raw_results += len(
-            posts
+        raw_results += (
+            len(posts)
         )
 
         print(
@@ -674,14 +931,19 @@ def main():
 
         for post in posts:
 
-            post_id = post.get(
-                "id"
+            post_id = (
+                post.get(
+                    "id"
+                )
             )
 
             if not post_id:
                 continue
 
-            if post_id in posts_by_id:
+            if (
+                post_id
+                in posts_by_id
+            ):
 
                 posts_by_id[
                     post_id
@@ -730,6 +992,11 @@ def main():
     )
 
     print(
+        f"Searches failed: "
+        f"{searches_failed}"
+    )
+
+    print(
         f"Raw X results: "
         f"{raw_results}"
     )
@@ -739,32 +1006,73 @@ def main():
         f"{len(posts_by_id)}"
     )
 
-    #
-    # -----------------------------------------------
-    # IDENTIFY / CLASSIFY / SCORE
-    # -----------------------------------------------
-    #
+    # ========================================================
+    # IDENTIFY TEAMS / CLASSIFY / SCORE
+    # ========================================================
 
     opportunities = []
 
-    for post in posts_by_id.values():
+    rejected_below_threshold = 0
 
-        teams = identify_teams(
+    posts_with_team_match = 0
 
-            post.get(
-                "text",
-                "",
-            ),
+    posts_without_team_match = 0
 
-            team_config,
+    for post in (
+        posts_by_id.values()
+    ):
 
-            sport_hint=post.get(
-                "sport"
-            ),
+        # ----------------------------------------------------
+        # TEAM MATCHING
+        #
+        # CFB now uses:
+        #
+        # btb_team
+        # btb_team_short
+        # mascot
+        # football context
+        #
+        # from cfb_team_crosswalk.csv.
+        # ----------------------------------------------------
+
+        teams = (
+            identify_teams(
+                text=(
+                    post.get(
+                        "text",
+                        "",
+                    )
+                ),
+                team_config=(
+                    team_config
+                ),
+                cfb_crosswalk=(
+                    cfb_crosswalk
+                ),
+                sport_hint=(
+                    post.get(
+                        "sport"
+                    )
+                ),
+            )
         )
 
-        hint = choose_hint(
-            post
+        if teams:
+
+            posts_with_team_match += 1
+
+        else:
+
+            posts_without_team_match += 1
+
+        # ----------------------------------------------------
+        # CONVERSATION TYPE
+        # ----------------------------------------------------
+
+        hint = (
+            choose_hint(
+                post
+            )
         )
 
         conversation_type = (
@@ -774,27 +1082,74 @@ def main():
             )
         )
 
-        opportunity = score_post(
+        # ----------------------------------------------------
+        # SCORE
+        # ----------------------------------------------------
 
-            post,
-
-            teams,
-
-            conversation_type,
-
-            account_config,
+        opportunity = (
+            score_post(
+                post=post,
+                teams=teams,
+                conversation_type=(
+                    conversation_type
+                ),
+                priority_accounts=(
+                    account_config
+                ),
+            )
         )
 
-        threshold = get_threshold(
-
-            conversation_type,
-
-            alert_settings,
+        threshold = (
+            get_threshold(
+                conversation_type=(
+                    conversation_type
+                ),
+                alert_settings=(
+                    alert_settings
+                ),
+            )
         )
 
         opportunity[
             "alert_threshold"
         ] = threshold
+
+        # Helpful terminal logging for posts
+        # that are close to or above threshold.
+        if (
+            opportunity["score"]
+            >= threshold - 5
+        ):
+
+            print()
+
+            print(
+                "Candidate:"
+            )
+
+            print(
+                f"  Score: "
+                f"{opportunity['score']}"
+            )
+
+            print(
+                f"  Threshold: "
+                f"{threshold}"
+            )
+
+            print(
+                f"  Type: "
+                f"{conversation_type}"
+            )
+
+            print(
+                f"  Account: "
+                f"@{post.get('username')}"
+            )
+
+            print_team_matches(
+                teams
+            )
 
         if (
             opportunity["score"]
@@ -805,23 +1160,40 @@ def main():
                 opportunity
             )
 
-    #
-    # Highest opportunity first.
-    #
+        else:
+
+            rejected_below_threshold += 1
+
+    # Highest-quality opportunity first.
     opportunities.sort(
-
         key=lambda item: (
-
-            item["score"],
-
+            item.get(
+                "score",
+                0,
+            ),
             item.get(
                 "engagement_velocity",
                 0,
             ),
-
         ),
-
         reverse=True,
+    )
+
+    print()
+
+    print(
+        f"Posts with identified team: "
+        f"{posts_with_team_match}"
+    )
+
+    print(
+        f"Posts without identified team: "
+        f"{posts_without_team_match}"
+    )
+
+    print(
+        f"Posts below threshold: "
+        f"{rejected_below_threshold}"
     )
 
     print(
@@ -829,53 +1201,60 @@ def main():
         f"{len(opportunities)}"
     )
 
-    #
-    # -----------------------------------------------
-    # REMOVE ALREADY ALERTED
-    # -----------------------------------------------
-    #
+    # ========================================================
+    # REMOVE PREVIOUSLY ALERTED POSTS
+    # ========================================================
 
     new_opportunities = [
-
         opportunity
 
         for opportunity
         in opportunities
 
         if not state.has_alerted(
-            opportunity["id"]
+            opportunity[
+                "id"
+            ]
         )
     ]
 
     print(
-        f"New candidates: "
+        f"New alert candidates: "
         f"{len(new_opportunities)}"
     )
 
-    #
-    # -----------------------------------------------
+    # ========================================================
     # CONTROL ALERT VOLUME
-    # -----------------------------------------------
-    #
+    # ========================================================
 
-    selected = select_alerts(
-
-        new_opportunities,
-
-        max_alerts=max_alerts,
-
-        max_per_team=max_per_team,
+    selected = (
+        select_alerts(
+            opportunities=(
+                new_opportunities
+            ),
+            max_alerts=(
+                max_alerts
+            ),
+            max_per_team=(
+                max_per_team
+            ),
+        )
     )
 
-    #
-    # -----------------------------------------------
-    # DISCORD
-    # -----------------------------------------------
-    #
+    print(
+        f"Selected for Discord: "
+        f"{len(selected)}"
+    )
+
+    # ========================================================
+    # SEND DISCORD ALERTS
+    # ========================================================
 
     sent_count = 0
 
-    for opportunity in selected:
+    for opportunity in (
+        selected
+    ):
 
         print()
 
@@ -897,15 +1276,31 @@ def main():
             "teams"
         ):
 
+            primary = (
+                opportunity[
+                    "teams"
+                ][0]
+            )
+
             print(
-                "  Team: "
-                + ", ".join(
-                    item["team"]
-                    for item
-                    in opportunity[
-                        "teams"
-                    ]
-                )
+                f"  Team: "
+                f"{primary.get('team')}"
+            )
+
+            print(
+                f"  Match confidence: "
+                f"{primary.get('match_confidence')}"
+            )
+
+            print(
+                f"  Match reason: "
+                f"{primary.get('match_reason')}"
+            )
+
+        else:
+
+            print(
+                "  Team: none"
             )
 
         print(
@@ -920,9 +1315,7 @@ def main():
 
         embed = (
             generate_discord_embed(
-
                 opportunity,
-
                 high_priority_threshold=(
                     high_priority_threshold
                 ),
@@ -932,13 +1325,12 @@ def main():
         try:
 
             send_discord_alert(
-
                 webhook_url=(
                     discord_webhook
                 ),
-
-                embed=embed,
-
+                embed=(
+                    embed
+                ),
                 timeout_seconds=(
                     timeout_seconds
                 ),
@@ -954,27 +1346,74 @@ def main():
                 file=sys.stderr,
             )
 
+            # Do not mark the post alerted
+            # if Discord failed.
             continue
 
         state.mark_alerted(
-            opportunity["id"]
+            opportunity[
+                "id"
+            ]
         )
 
         log_opportunity(
-
-            opportunity,
-
-            max_rows=max_log_rows,
+            opportunity=(
+                opportunity
+            ),
+            max_rows=(
+                max_log_rows
+            ),
         )
 
         sent_count += 1
 
+    # ========================================================
+    # SAVE STATE
+    # ========================================================
+
     state.save()
+
+    # ========================================================
+    # SUMMARY
+    # ========================================================
 
     print()
 
     print(
-        "=" * 55
+        "=" * 60
+    )
+
+    print(
+        "RUN SUMMARY"
+    )
+
+    print(
+        "-" * 60
+    )
+
+    print(
+        f"Searches run: "
+        f"{searches_run}"
+    )
+
+    print(
+        f"Raw results: "
+        f"{raw_results}"
+    )
+
+    print(
+        f"Unique posts: "
+        f"{len(posts_by_id)}"
+    )
+
+    print(
+        f"Team-matched posts: "
+        f"{posts_with_team_match}"
+    )
+
+    print(
+        f"Above threshold: "
+        f"{len(opportunities)}"
     )
 
     print(
@@ -983,11 +1422,7 @@ def main():
     )
 
     print(
-        "Growth Radar run complete."
-    )
-
-    print(
-        "=" * 55
+        "=" * 60
     )
 
 
