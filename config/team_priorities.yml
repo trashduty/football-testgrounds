@@ -1,0 +1,280 @@
+cfb:
+
+  Ohio State:
+    priority: 10
+    rank: 1
+    aliases:
+      - Ohio State
+      - Buckeyes
+      - OSU
+
+  Oregon:
+    priority: 10
+    rank: 2
+    aliases:
+      - Oregon
+      - Ducks
+      - Oregon Ducks
+
+  Georgia:
+    priority: 10
+    rank: 3
+    aliases:
+      - Georgia
+      - Bulldogs
+      - Georgia Bulldogs
+      - UGA
+
+  Texas:
+    priority: 10
+    rank: 4
+    aliases:
+      - Texas
+      - Longhorns
+      - Texas Longhorns
+
+  Notre Dame:
+    priority: 10
+    rank: 5
+    aliases:
+      - Notre Dame
+      - Fighting Irish
+
+  Indiana:
+    priority: 10
+    rank: 6
+    aliases:
+      - Indiana
+      - Hoosiers
+      - Indiana Hoosiers
+
+  Miami:
+    priority: 10
+    rank: 7
+    aliases:
+      - Miami
+      - Miami Hurricanes
+      - Hurricanes
+      - Canes
+
+  Texas A&M:
+    priority: 10
+    rank: 8
+    aliases:
+      - Texas A&M
+      - Texas A and M
+      - Aggies
+
+  Oklahoma:
+    priority: 10
+    rank: 9
+    aliases:
+      - Oklahoma
+      - Sooners
+      - Oklahoma Sooners
+
+  Ole Miss:
+    priority: 10
+    rank: 10
+    aliases:
+      - Ole Miss
+      - Rebels
+      - Ole Miss Rebels
+
+
+nfl:
+
+  Baltimore Ravens:
+    priority: 8
+    aliases:
+      - Baltimore Ravens
+      - Ravens
+
+  Buffalo Bills:
+    priority: 8
+    aliases:
+      - Buffalo Bills
+      - Bills
+
+  Cincinnati Bengals:
+    priority: 10
+    aliases:
+      - Cincinnati Bengals
+      - Bengals
+
+  Cleveland Browns:
+    priority: 7
+    aliases:
+      - Cleveland Browns
+      - Browns
+
+  Pittsburgh Steelers:
+    priority: 8
+    aliases:
+      - Pittsburgh Steelers
+      - Steelers
+
+  Houston Texans:
+    priority: 8
+    aliases:
+      - Houston Texans
+      - Texans
+
+  Indianapolis Colts:
+    priority: 10
+    aliases:
+      - Indianapolis Colts
+      - Colts
+
+  Jacksonville Jaguars:
+    priority: 7
+    aliases:
+      - Jacksonville Jaguars
+      - Jaguars
+      - Jags
+
+  Tennessee Titans:
+    priority: 7
+    aliases:
+      - Tennessee Titans
+      - Titans
+
+  Denver Broncos:
+    priority: 8
+    aliases:
+      - Denver Broncos
+      - Broncos
+
+  Kansas City Chiefs:
+    priority: 10
+    aliases:
+      - Kansas City Chiefs
+      - Chiefs
+
+  Las Vegas Raiders:
+    priority: 7
+    aliases:
+      - Las Vegas Raiders
+      - Raiders
+
+  Los Angeles Chargers:
+    priority: 8
+    aliases:
+      - Los Angeles Chargers
+      - Chargers
+
+  Dallas Cowboys:
+    priority: 9
+    aliases:
+      - Dallas Cowboys
+      - Cowboys
+
+  New York Giants:
+    priority: 8
+    aliases:
+      - New York Giants
+      - Giants
+
+  Philadelphia Eagles:
+    priority: 9
+    aliases:
+      - Philadelphia Eagles
+      - Eagles
+
+  Washington Commanders:
+    priority: 8
+    aliases:
+      - Washington Commanders
+      - Commanders
+
+  Chicago Bears:
+    priority: 9
+    aliases:
+      - Chicago Bears
+      - Bears
+
+  Detroit Lions:
+    priority: 9
+    aliases:
+      - Detroit Lions
+      - Lions
+
+  Green Bay Packers:
+    priority: 9
+    aliases:
+      - Green Bay Packers
+      - Packers
+
+  Minnesota Vikings:
+    priority: 8
+    aliases:
+      - Minnesota Vikings
+      - Vikings
+
+  Atlanta Falcons:
+    priority: 7
+    aliases:
+      - Atlanta Falcons
+      - Falcons
+
+  Carolina Panthers:
+    priority: 7
+    aliases:
+      - Carolina Panthers
+      - Panthers
+
+  New Orleans Saints:
+    priority: 7
+    aliases:
+      - New Orleans Saints
+      - Saints
+
+  Tampa Bay Buccaneers:
+    priority: 8
+    aliases:
+      - Tampa Bay Buccaneers
+      - Buccaneers
+      - Bucs
+
+  Arizona Cardinals:
+    priority: 7
+    aliases:
+      - Arizona Cardinals
+      - Cardinals
+
+  Los Angeles Rams:
+    priority: 8
+    aliases:
+      - Los Angeles Rams
+      - Rams
+
+  San Francisco 49ers:
+    priority: 9
+    aliases:
+      - San Francisco 49ers
+      - 49ers
+      - Niners
+
+  Seattle Seahawks:
+    priority: 8
+    aliases:
+      - Seattle Seahawks
+      - Seahawks
+
+  New England Patriots:
+    priority: 8
+    aliases:
+      - New England Patriots
+      - Patriots
+
+  New York Jets:
+    priority: 8
+    aliases:
+      - New York Jets
+      - Jets
+
+  Miami Dolphins:
+    priority: 8
+    aliases:
+      - Miami Dolphins
+      - Dolphins
