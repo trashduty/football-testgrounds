@@ -8,13 +8,11 @@ def _format_number(
 ) -> str:
 
     if number >= 1_000_000:
-
         return (
             f"{number / 1_000_000:.1f}M"
         )
 
     if number >= 1_000:
-
         return (
             f"{number / 1_000:.1f}K"
         )
@@ -24,17 +22,21 @@ def _format_number(
 
 def _truncate(
     text: str,
-    length: int = 750,
+    length: int = 700,
 ) -> str:
 
-    text = text.strip()
+    text = (
+        str(text)
+        .strip()
+    )
 
     if len(text) <= length:
         return text
 
     return (
-        text[: length - 3]
-        .rstrip()
+        text[
+            :length - 3
+        ].rstrip()
         + "..."
     )
 
@@ -44,16 +46,25 @@ def _team_text(
 ) -> str:
 
     if not teams:
-        return "Not identified"
+        return (
+            "Not identified"
+        )
 
     output = []
 
     for team in teams[:3]:
 
-        label = team["team"]
+        label = str(
+            team.get(
+                "team",
+                ""
+            )
+        )
 
-        rank = team.get(
-            "rank"
+        rank = (
+            team.get(
+                "rank"
+            )
         )
 
         if rank:
@@ -62,92 +73,93 @@ def _team_text(
                 f" (Preseason #{rank})"
             )
 
-        output.append(label)
+        confidence = (
+            team.get(
+                "match_confidence"
+            )
+        )
 
-    return ", ".join(output)
+        if confidence is not None:
+
+            label += (
+                f" [{confidence}% match]"
+            )
+
+        output.append(
+            label
+        )
+
+    return ", ".join(
+        output
+    )
 
 
-def _opportunity_angle(
-    conversation_type: str,
+def _context_summary(
+    btb_context: dict,
 ) -> str:
 
-    angles = {
+    sources = (
+        btb_context.get(
+            "sources",
+            {}
+        )
+    )
 
-        "TEAM_VIDEO":
-            (
-                "Team hype is already attracting "
-                "attention. Look for a natural way "
-                "to add BTB's futures perspective."
-            ),
+    if not sources:
 
-        "TEAM_HYPE":
-            (
-                "Audience sentiment around this team "
-                "creates an opening for BTB's projection "
-                "or futures outlook."
-            ),
+        return (
+            "No proprietary BTB context "
+            "was found for this team."
+        )
 
-        "INJURY":
-            (
-                "Potentially meaningful team/player news. "
-                "Consider whether this changes or supports "
-                "BTB's existing outlook."
-            ),
+    lines = []
 
-        "NFL_CAMP":
-            (
-                "Training-camp discussion is building. "
-                "Look for a model or futures angle rather "
-                "than simply repeating the camp update."
-            ),
+    for (
+        source_name,
+        source,
+    ) in sources.items():
 
-        "STAR_PLAYER_NEWS":
-            (
-                "Star-player discussion can create a "
-                "high-interest entry point for the team's "
-                "season outlook."
-            ),
+        category = (
+            source.get(
+                "category",
+                ""
+            )
+        )
 
-        "RANKINGS":
-            (
-                "Ranking discussion is an ideal place "
-                "to compare public perception with "
-                "BTB's numbers."
-            ),
+        records = (
+            source.get(
+                "records",
+                []
+            )
+        )
 
-        "POWER_RATINGS":
-            (
-                "Power-rating discussion is highly "
-                "aligned with BTB's analytical positioning."
-            ),
+        lines.append(
+            f"• **{source_name}** "
+            f"({category}): "
+            f"{len(records)} relevant record(s)"
+        )
 
-        "FUTURES":
-            (
-                "Directly relevant to existing "
-                "BTB futures content."
-            ),
-
-        "MATCHUP":
-            (
-                "Game-specific discussion can be compared "
-                "with BTB's ratings and projections."
-            ),
-    }
-
-    return angles.get(
-        conversation_type,
-        (
-            "Potential football conversation "
-            "where BTB may have a differentiated "
-            "analytical angle."
-        ),
+    return "\n".join(
+        lines
     )
 
 
 def generate_discord_embed(
     opportunity: dict[str, Any],
+    btb_context: dict | None = None,
+    generated_reply: dict | None = None,
     high_priority_threshold: float = 86,
 ) -> dict:
+
+    btb_context = (
+        btb_context
+        or {}
+    )
+
+    generated_reply = (
+        generated_reply
+        or {}
+    )
 
     score = float(
         opportunity.get(
@@ -171,25 +183,29 @@ def generate_discord_embed(
     if high_priority:
 
         title = (
-            "🔥 HIGH PRIORITY "
-            f"X OPPORTUNITY — {score:.0f}/100"
+            "🔥 HIGH PRIORITY X OPPORTUNITY "
+            f"— {score:.0f}/100"
         )
 
     else:
 
         title = (
-            "X Opportunity — "
-            f"{score:.0f}/100"
+            "X Opportunity "
+            f"— {score:.0f}/100"
         )
 
-    username = opportunity.get(
-        "username",
-        "unknown",
+    username = (
+        opportunity.get(
+            "username",
+            "unknown",
+        )
     )
 
-    author_name = opportunity.get(
-        "author_name",
-        username,
+    author_name = (
+        opportunity.get(
+            "author_name",
+            username,
+        )
     )
 
     followers = int(
@@ -199,234 +215,278 @@ def generate_discord_embed(
         )
     )
 
-    reasons = opportunity.get(
-        "reasons",
-        [],
+    reasons = (
+        opportunity.get(
+            "reasons",
+            [],
+        )
     )
 
     reason_text = (
-        ", ".join(reasons)
+        ", ".join(
+            reasons
+        )
         if reasons
         else "Passed alert threshold"
     )
 
-    post_url = opportunity.get(
-        "url",
-        "https://x.com",
+    post_url = (
+        opportunity.get(
+            "url",
+            "https://x.com",
+        )
     )
 
-    embed = {
+    fields = [
 
-        "title": title,
+        {
+            "name":
+                "Conversation Type",
 
-        "url": post_url,
+            "value":
+                conversation_type,
 
-        "description": (
-            f"**{author_name} "
-            f"(@{username})**\n\n"
-            + _truncate(
-                opportunity.get(
-                    "text",
-                    "",
-                )
-            )
-        ),
+            "inline":
+                True,
+        },
 
-        "fields": [
+        {
+            "name":
+                "Team",
 
-            {
-                "name":
-                    "Conversation Type",
-
-                "value":
-                    conversation_type,
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Team",
-
-                "value":
-                    _team_text(
-                        opportunity.get(
-                            "teams",
-                            [],
-                        )
-                    ),
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Sport",
-
-                "value":
+            "value":
+                _team_text(
                     opportunity.get(
-                        "sport",
-                        "Unknown",
-                    ),
+                        "teams",
+                        [],
+                    )
+                ),
 
-                "inline":
-                    True,
-            },
+            "inline":
+                True,
+        },
 
+        {
+            "name":
+                "Sport",
+
+            "value":
+                opportunity.get(
+                    "sport",
+                    "Unknown",
+                ),
+
+            "inline":
+                True,
+        },
+
+        {
+            "name":
+                "Age",
+
+            "value":
+                (
+                    f"{opportunity.get('age_minutes', 0):.0f} min"
+                ),
+
+            "inline":
+                True,
+        },
+
+        {
+            "name":
+                "Followers",
+
+            "value":
+                _format_number(
+                    followers
+                ),
+
+            "inline":
+                True,
+        },
+
+        {
+            "name":
+                "Engagement Velocity",
+
+            "value":
+                (
+                    f"{opportunity.get('engagement_velocity', 0):.1f}/min"
+                ),
+
+            "inline":
+                True,
+        },
+
+        {
+            "name":
+                "Why It Was Flagged",
+
+            "value":
+                reason_text,
+
+            "inline":
+                False,
+        },
+    ]
+
+    if btb_context:
+
+        fields.append(
             {
                 "name":
-                    "Age",
+                    "BTB Data Retrieved",
 
                 "value":
-                    (
-                        f"{opportunity.get('age_minutes', 0):.0f} min"
-                    ),
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Followers",
-
-                "value":
-                    _format_number(
-                        followers
-                    ),
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Engagement Velocity",
-
-                "value":
-                    (
-                        f"{opportunity.get('engagement_velocity', 0):.1f}/min"
-                    ),
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Likes",
-
-                "value":
-                    _format_number(
-                        int(
-                            opportunity.get(
-                                "likes",
-                                0,
-                            )
-                        )
-                    ),
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Replies",
-
-                "value":
-                    _format_number(
-                        int(
-                            opportunity.get(
-                                "replies",
-                                0,
-                            )
-                        )
-                    ),
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Reposts",
-
-                "value":
-                    _format_number(
-                        int(
-                            opportunity.get(
-                                "reposts",
-                                0,
-                            )
-                        )
-                    ),
-
-                "inline":
-                    True,
-            },
-
-            {
-                "name":
-                    "Why It Was Flagged",
-
-                "value":
-                    reason_text,
-
-                "inline":
-                    False,
-            },
-
-            {
-                "name":
-                    "BTB Opportunity",
-
-                "value":
-                    _opportunity_angle(
-                        conversation_type
+                    _context_summary(
+                        btb_context
                     ),
 
                 "inline":
                     False,
-            },
+            }
+        )
 
+    preferred = (
+        generated_reply.get(
+            "preferred_reply"
+        )
+    )
+
+    alternative = (
+        generated_reply.get(
+            "alternative_reply"
+        )
+    )
+
+    angle = (
+        generated_reply.get(
+            "angle"
+        )
+    )
+
+    if angle:
+
+        fields.append(
             {
                 "name":
-                    "Suggested BTB Reply",
+                    "Recommended Angle",
 
                 "value":
-                    (
-                        "Phase 1.5: Discovery only.\n\n"
-                        "**Phase 2 will automatically "
-                        "retrieve BTB team data and put "
-                        "the copy/paste response here.**"
+                    _truncate(
+                        angle,
+                        500,
                     ),
 
                 "inline":
                     False,
-            },
+            }
+        )
 
+    if preferred:
+
+        fields.append(
             {
                 "name":
-                    "Open on X",
+                    "📋 Suggested BTB Reply — COPY/PASTE",
 
                 "value":
-                    f"[View Post]({post_url})",
+                    _truncate(
+                        preferred,
+                        1000,
+                    ),
 
                 "inline":
                     False,
-            },
-        ],
+            }
+        )
+
+    if alternative:
+
+        fields.append(
+            {
+                "name":
+                    "Alternative Reply",
+
+                "value":
+                    _truncate(
+                        alternative,
+                        1000,
+                    ),
+
+                "inline":
+                    False,
+            }
+        )
+
+    facts_used = (
+        generated_reply.get(
+            "facts_used",
+            [],
+        )
+    )
+
+    if facts_used:
+
+        fields.append(
+            {
+                "name":
+                    "BTB Facts Used",
+
+                "value":
+                    "\n".join(
+                        f"• {fact}"
+                        for fact
+                        in facts_used[:8]
+                    ),
+
+                "inline":
+                    False,
+            }
+        )
+
+    fields.append(
+        {
+            "name":
+                "Open on X",
+
+            "value":
+                f"[View Post]({post_url})",
+
+            "inline":
+                False,
+        }
+    )
+
+    return {
+
+        "title":
+            title,
+
+        "url":
+            post_url,
+
+        "description":
+            (
+                f"**{author_name} "
+                f"(@{username})**\n\n"
+                + _truncate(
+                    opportunity.get(
+                        "text",
+                        "",
+                    )
+                )
+            ),
+
+        "fields":
+            fields,
 
         "footer": {
             "text":
                 (
-                    "BTB Analytics • X Growth Radar • "
-                    f"{opportunity.get('query_name', '')}"
+                    "BTB Analytics • "
+                    "X Growth Radar • Phase 2"
                 )
         },
     }
-
-    return embed
