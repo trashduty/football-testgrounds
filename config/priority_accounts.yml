@@ -1,0 +1,57 @@
+accounts:
+
+  ESPN:
+    priority: 10
+    sport: BOTH
+ 
+  NFL:
+    priority: 10
+    sport: NFL
+  
+  BudElliott3:
+    priority: 10
+    sport: CFB
+  
+  WagerWire:
+    priority: 10
+    sport: BOTH
+
+  NFLNetwork:
+    priority: 10
+    sport: NFL
+  
+  ESPN_BillC:
+    priority: 10
+    sport: CFB
+  
+  AdamSchefter:
+    priority: 10
+    sport: NFL
+
+  RapSheet:
+    priority: 10
+    sport: NFL
+
+  Covers:
+    priority: 10
+    sport: BOTH
+  
+  PatrickE_Vegas:
+    priority: 10
+    sport: BOTH
+    
+  NFLonCBS:
+    priority: 10
+    sport: NFL
+    
+  On3sports:
+    priority: 9
+    sport: CFB
+
+  247Sports:
+    priority: 9
+    sport: CFB
+
+  PFF_College:
+    priority: 9
+    sport: CFB
