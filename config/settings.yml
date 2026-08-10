@@ -25,7 +25,7 @@ alerts:
     RANKINGS: 65
     POWER_RATINGS: 65
     MATCHUP: 65
-    GENERAL: 72
+    GENERAL: 70
 
   high_priority_threshold: 86
 
