@@ -1,15 +1,48 @@
 x_api:
-  max_results_per_query: 10
-  lookback_minutes: 45
+  max_results_per_query: 30
   request_timeout_seconds: 30
 
+  # Keep generated queries below X's standard
+  # Recent Search query-length ceiling.
+  max_query_characters: 475
+
 alerts:
-  score_threshold: 70
-  high_priority_threshold: 88
-  max_alerts_per_run: 3
+
+  # Different opportunities deserve different thresholds.
+  thresholds:
+    TEAM_VIDEO: 58
+    TEAM_HYPE: 62
+    STAR_PLAYER_NEWS: 60
+    NFL_CAMP: 62
+    INJURY: 58
+    DEPTH_CHART: 62
+    FUTURES: 60
+    RANKINGS: 65
+    POWER_RATINGS: 65
+    MATCHUP: 65
+    GENERAL: 72
+
+  high_priority_threshold: 86
+
+  # Maximum Discord messages from one radar run.
+  max_alerts_per_run: 4
+
+  # Avoid having four alerts about the same team
+  # dominate a single run.
+  max_alerts_per_team_per_run: 2
 
 state:
   keep_alerted_days: 7
 
 logging:
-  max_log_rows: 5000
+  max_log_rows: 10000
+
+scoring:
+
+  # Maximum contribution of each component.
+  freshness_max: 20
+  reach_max: 20
+  velocity_max: 25
+  relevance_max: 15
+  team_priority_max: 10
+  source_priority_max: 10
