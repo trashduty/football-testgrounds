@@ -1,11 +1,58 @@
 queries:
 
-  cfb_general:
+  nfl_training_camp:
+    enabled: true
+    sport: NFL
+    conversation_type: NFL_CAMP
+    cadence_minutes: 20
+    lookback_minutes: 35
+    query: >
+      NFL
+      ("training camp" OR practice OR preseason)
+      (quarterback OR QB OR starter OR rookie OR breakout
+      OR impressive OR struggling OR competition)
+      lang:en
+      -is:retweet
+      -is:reply
+
+  nfl_star_news:
+    enabled: true
+    sport: NFL
+    conversation_type: STAR_PLAYER_NEWS
+    cadence_minutes: 20
+    lookback_minutes: 35
+    query: >
+      NFL
+      (injury OR injured OR return OR contract OR holdout
+      OR suspended OR starter OR starting OR benched)
+      lang:en
+      -is:retweet
+      -is:reply
+
+  cfb_rankings:
     enabled: true
     sport: CFB
+    conversation_type: RANKINGS
+    cadence_minutes: 30
+    lookback_minutes: 50
     query: >
       ("college football" OR CFB)
-      (playoff OR rankings OR underrated OR overrated OR "win total")
+      (rankings OR ranking OR "top 25" OR "AP Poll"
+      OR "Coaches Poll" OR overrated OR underrated)
+      lang:en
+      -is:retweet
+      -is:reply
+
+  cfb_power_ratings:
+    enabled: true
+    sport: CFB
+    conversation_type: POWER_RATINGS
+    cadence_minutes: 30
+    lookback_minutes: 50
+    query: >
+      ("college football" OR CFB)
+      ("power rating" OR "power ratings"
+      OR projection OR projections)
       lang:en
       -is:retweet
       -is:reply
@@ -13,39 +60,27 @@ queries:
   cfb_futures:
     enabled: true
     sport: CFB
+    conversation_type: FUTURES
+    cadence_minutes: 20
+    lookback_minutes: 40
     query: >
       ("college football" OR CFB)
-      ("win total" OR "win totals" OR futures OR playoff)
+      ("win total" OR "win totals" OR playoff
+      OR championship OR "national title")
       lang:en
       -is:retweet
       -is:reply
 
-  cfb_news:
-    enabled: true
-    sport: CFB
-    query: >
-      ("college football" OR CFB)
-      (injury OR quarterback OR transfer OR suspended OR starter)
-      lang:en
-      -is:retweet
-      -is:reply
-
-  nfl_general:
+  nfl_futures:
     enabled: true
     sport: NFL
-    query: >
-      (NFL OR "National Football League")
-      ("win total" OR underrated OR overrated OR "power rankings")
-      lang:en
-      -is:retweet
-      -is:reply
-
-  nfl_news:
-    enabled: true
-    sport: NFL
+    conversation_type: FUTURES
+    cadence_minutes: 30
+    lookback_minutes: 50
     query: >
       NFL
-      (injury OR quarterback OR starter OR suspended OR signing)
+      ("win total" OR "win totals" OR playoff
+      OR "Super Bowl" OR division)
       lang:en
       -is:retweet
       -is:reply
