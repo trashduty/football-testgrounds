@@ -263,7 +263,7 @@ def get_threshold(
             conversation_type,
             thresholds.get(
                 "GENERAL",
-                85,
+                72,
             ),
         )
     )
