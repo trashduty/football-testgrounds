@@ -32,17 +32,17 @@ alerts:
 
   # Different opportunities deserve different thresholds.
   thresholds:
-    TEAM_VIDEO: 58
-    TEAM_HYPE: 62
-    STAR_PLAYER_NEWS: 60
-    NFL_CAMP: 62
-    INJURY: 58
-    DEPTH_CHART: 62
-    FUTURES: 60
-    RANKINGS: 65
-    POWER_RATINGS: 65
-    MATCHUP: 65
-    GENERAL: 70
+    TEAM_VIDEO: 80
+    TEAM_HYPE: 78
+    STAR_PLAYER_NEWS: 80
+    NFL_CAMP: 82
+    INJURY: 70
+    DEPTH_CHART: 82
+    FUTURES: 70
+    RANKINGS: 75
+    POWER_RATINGS: 75
+    MATCHUP: 75
+    GENERAL: 80
 
   high_priority_threshold: 86
 
