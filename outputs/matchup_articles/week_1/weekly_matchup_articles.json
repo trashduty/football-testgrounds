@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-31T15:45:02.408174+00:00",
+  "generated_at_utc": "2026-08-14T15:18:54.688693+00:00",
   "season": 2026,
   "week": 1,
   "articles": [
@@ -7,7 +7,7 @@
       "game": "ARI@LAC",
       "away_team": "ARI",
       "home_team": "LAC",
-      "has_bet": false,
+      "has_bet": true,
       "injury_reports": {
         "ARI": {
           "team": "ARI",
@@ -28,7 +28,7 @@
       "game": "ATL@PIT",
       "away_team": "ATL",
       "home_team": "PIT",
-      "has_bet": true,
+      "has_bet": false,
       "injury_reports": {
         "ATL": {
           "team": "ATL",
@@ -49,7 +49,7 @@
       "game": "BAL@IND",
       "away_team": "BAL",
       "home_team": "IND",
-      "has_bet": false,
+      "has_bet": true,
       "injury_reports": {
         "BAL": {
           "team": "BAL",

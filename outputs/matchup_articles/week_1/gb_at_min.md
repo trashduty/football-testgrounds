@@ -6,27 +6,27 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | -1.5 (+100) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Minnesota Vikings | +1.0 (-113) | BetRivers | 47.2% | No Bet |
+| Green Bay Packers | -1.0 (-109) | BetRivers | 49.2% | No Bet |
+| Minnesota Vikings | -1.5 (-102) | DraftKings | 49.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
-*Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Kyler Murray (Minnesota Vikings) and Jordan Love (Green Bay Packers) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of 1.85%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Minnesota Vikings -1.5 with an edge of -1.34%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
-| | Green Bay Packers | Minnesota Vikings |
+| | Minnesota Vikings | Green Bay Packers |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Jordan Love (4th) | Kyler Murray (16th) |
-| Offensive Success Rate | 3rd | 22nd |
-| Defensive Success Rate | 12th | 10th |
-| Offensive Eckel Rate Over Expected* | 55.7% | 41.1% |
-| Defensive Eckel Rate Over Expected | 48.8% | 49.3% |
+| QB Efficiency (Last 10 Games) | Kyler Murray (16th) | Jordan Love (4th) |
+| Offensive Success Rate | 22nd | 3rd |
+| Defensive Success Rate | 10th | 12th |
+| Offensive Eckel Rate Over Expected* | 41.1% | 55.7% |
+| Defensive Eckel Rate Over Expected | 49.3% | 48.8% |
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 

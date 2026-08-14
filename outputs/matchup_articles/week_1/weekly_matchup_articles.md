@@ -6,27 +6,26 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona Cardinals | +11.5 (-110) | DraftKings | 55.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Los Angeles Chargers | -10.5 (-106) | FanDuel | 48.5% | No Bet |
+| Arizona Cardinals | +10.5 (-110) | DraftKings | 51.5% | No Bet |
+| Los Angeles Chargers | -9.5 (-113) | BetRivers | 57.9% | Bet |
 
-The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
-
-*Model assumes Jacoby Brissett (Arizona Cardinals) and Justin Herbert (Los Angeles Chargers) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Justin Herbert (Los Angeles Chargers) and Jacoby Brissett (Arizona Cardinals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +11.5 with an edge of 3.39%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model favors **the Los Angeles Chargers** at -9.5 vs. the market at -10.5.
+This puts the edge at 4.83%, which at -9.5 for -113 makes the Los Angeles Chargers a bet.
 
 ## Why The Pick
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
-| | Arizona Cardinals | Los Angeles Chargers |
+| | Los Angeles Chargers | Arizona Cardinals |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Jacoby Brissett (24th) | Justin Herbert (17th) |
-| Offensive Success Rate | 20th | 16th |
-| Defensive Success Rate | 31st | 6th |
-| Offensive Eckel Rate Over Expected* | 50.0% | 53.6% |
-| Defensive Eckel Rate Over Expected | 56.2% | 46.4% |
+| QB Efficiency (Last 10 Games) | Justin Herbert (17th) | Jacoby Brissett (24th) |
+| Offensive Success Rate | 16th | 20th |
+| Defensive Success Rate | 6th | 31st |
+| Offensive Eckel Rate Over Expected* | 53.6% | 50.0% |
+| Defensive Eckel Rate Over Expected | 46.4% | 56.2% |
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
@@ -47,13 +46,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Atlanta Falcons | +3.0 (+100) | DraftKings | 38.7% | No Bet |
-| Pittsburgh Steelers | -2.5 (-120) | FanDuel | 61.2% | Bet |
+| Pittsburgh Steelers | -3.0 (-105) | BetRivers | 54.2% | Lean – doesn't meet our edge criteria to fully bet |
+
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Aaron Rodgers (Pittsburgh Steelers) and Michael Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model favors **the Pittsburgh Steelers** at -2.5 vs. the market at -3.
-This puts the edge at 6.64%, which at -2.5 for -120 makes the Pittsburgh Steelers a bet.
+The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model sees a lean toward Pittsburgh Steelers -3.0 with an edge of 2.96%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -85,15 +85,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baltimore Ravens | -3.5 (-110) | DraftKings | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
-| Indianapolis Colts | +3.5 (-105) | FanDuel | 44.0% | No Bet |
-
-The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+| Baltimore Ravens | -3.5 (-105) | FanDuel | 55.9% | Bet |
+| Indianapolis Colts | +3.5 (-109) | BetRivers | 44.0% | No Bet |
 
 *Model assumes Lamar Jackson (Baltimore Ravens) and Daniel Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model sees a lean toward Baltimore Ravens -3.5 with an edge of 3.53%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model favors **the Baltimore Ravens** at -3.5 vs. the market at -3.5.
+This puts the edge at 4.69%, which at -3.5 for -105 makes the Baltimore Ravens a bet.
 
 ## Why The Pick
 
@@ -125,15 +124,15 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bills | -1.5 (+100) | FanDuel | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Houston Texans | +1.5 (-112) | DraftKings | 48.1% | No Bet |
+| Buffalo Bills | -1.5 (-108) | DraftKings | 50.0% | No Bet |
+| Houston Texans | -1.5 (-102) | FanDuel | 48.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Josh Allen (Buffalo Bills) and CJ Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5 with an edge of 1.85%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5 with an edge of -1.94%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -165,7 +164,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Chicago Bears | -2.5 (-110) | BetRivers | 48.1% | No Bet |
+| Chicago Bears | -2.5 (-118) | DraftKings | 48.1% | No Bet |
 | Carolina Panthers | +2.5 (-102) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
@@ -324,27 +323,27 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | -1.5 (+100) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
-| Minnesota Vikings | +1.0 (-113) | BetRivers | 47.2% | No Bet |
+| Green Bay Packers | -1.0 (-109) | BetRivers | 49.2% | No Bet |
+| Minnesota Vikings | -1.5 (-102) | DraftKings | 49.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
-*Model assumes Jordan Love (Green Bay Packers) and Kyler Murray (Minnesota Vikings) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Kyler Murray (Minnesota Vikings) and Jordan Love (Green Bay Packers) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Green Bay Packers -1.5 with an edge of 1.85%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Green Bay Packers take on the Minnesota Vikings at U.S. Bank Stadium and the model sees a lean toward Minnesota Vikings -1.5 with an edge of -1.34%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
-| | Green Bay Packers | Minnesota Vikings |
+| | Minnesota Vikings | Green Bay Packers |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Jordan Love (4th) | Kyler Murray (16th) |
-| Offensive Success Rate | 3rd | 22nd |
-| Defensive Success Rate | 12th | 10th |
-| Offensive Eckel Rate Over Expected* | 55.7% | 41.1% |
-| Defensive Eckel Rate Over Expected | 48.8% | 49.3% |
+| QB Efficiency (Last 10 Games) | Kyler Murray (16th) | Jordan Love (4th) |
+| Offensive Success Rate | 22nd | 3rd |
+| Defensive Success Rate | 10th | 12th |
+| Offensive Eckel Rate Over Expected* | 41.1% | 55.7% |
+| Defensive Eckel Rate Over Expected | 49.3% | 48.8% |
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 
@@ -364,14 +363,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Dolphins | +3.5 (-102) | FanDuel | 59.9% | Bet |
+| Miami Dolphins | +3.5 (-104) | FanDuel | 59.9% | Bet |
 | Las Vegas Raiders | -3.5 (-110) | DraftKings | 40.1% | No Bet |
 
 *Model assumes Malik Willis (Miami Dolphins) and Kirk Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and the model favors **the Miami Dolphins** at +3.5 vs. the market at +3.5.
-This puts the edge at 9.40%, which at +3.5 for -102 makes the Miami Dolphins a bet.
+This puts the edge at 8.92%, which at +3.5 for -104 makes the Miami Dolphins a bet.
 
 ## Why The Pick
 
@@ -403,14 +402,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New England Patriots | +4.5 (-114) | FanDuel | 61.9% | Bet |
-| Seattle Seahawks | -3.5 (-110) | DraftKings | 42.1% | No Bet |
+| New England Patriots | +3.5 (-108) | FanDuel | 59.2% | Bet |
+| Seattle Seahawks | -3.5 (-110) | DraftKings | 40.7% | No Bet |
 
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +4.5 vs. the market at +4.5.
-This puts the edge at 8.65%, which at +4.5 for -114 makes the New England Patriots a bet.
+The New England Patriots take on the Seattle Seahawks at Lumen Field and the model favors **the New England Patriots** at +3.5 vs. the market at +3.5.
+This puts the edge at 7.33%, which at +3.5 for -108 makes the New England Patriots a bet.
 
 ## Why The Pick
 
@@ -481,7 +480,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New York Jets | +2.5 (-105) | BetMGM | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
+| New York Jets | +2.5 (-110) | FanDuel | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
 | Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
@@ -489,7 +488,7 @@ The model sees a lean here — but the edge does not clear our 4% threshold, so 
 *Model assumes Geno Smith (New York Jets) and Cam Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5 with an edge of 2.24%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +2.5 with an edge of 1.08%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -522,7 +521,7 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | San Francisco 49ers | +3.5 (-105) | FanDuel | 59.2% | Bet |
-| Los Angeles Rams | -3.5 (-105) | DraftKings | 40.7% | No Bet |
+| Los Angeles Rams | -3.5 (-110) | DraftKings | 40.7% | No Bet |
 
 *Model assumes Brock Purdy (San Francisco 49ers) and Matthew Stafford (Los Angeles Rams) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -560,8 +559,8 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tampa Bay Buccaneers | +3.5 (-105) | FanDuel | 57.9% | Bet |
-| Cincinnati Bengals | -3.5 (-110) | DraftKings | 42.1% | No Bet |
+| Tampa Bay Buccaneers | +3.5 (-105) | DraftKings | 57.9% | Bet |
+| Cincinnati Bengals | -3.5 (-109) | BetRivers | 42.1% | No Bet |
 
 *Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -600,14 +599,14 @@ Our model found edges of at least 4% on **6 games** this week. See the model out
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Washington Commanders | +4.5 (-110) | DraftKings | 47.1% | No Bet |
-| Philadelphia Eagles | -4.5 (-105) | FanDuel | 52.8% | Lean – doesn't meet our edge criteria to fully bet |
+| Philadelphia Eagles | -5.5 (-105) | FanDuel | 51.8% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Jalen Hurts (Philadelphia Eagles) and Jayden Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model sees a lean toward Philadelphia Eagles -4.5 with an edge of 1.63%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model sees a lean toward Philadelphia Eagles -5.5 with an edge of 0.58%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
