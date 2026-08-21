@@ -12,6 +12,16 @@ let currentMeta = {};
 
 const METRICS = {
 
+    power: {
+        title: "BTB Power Rating",
+        x: "off_pts",
+        y: "def_pts",
+        xLabel: "Offensive Rating",
+        yLabel: "Defensive Rating",
+        reverseDefense: false,
+        format: ".1f"
+    },
+
     wepa: {
         title: "Weighted EPA / Play",
         x: "off_wepa",
@@ -70,16 +80,6 @@ const METRICS = {
         yLabel: "Adjusted Defensive Rush EPA / Play",
         reverseDefense: true,
         format: ".3f"
-    },
-
-    power: {
-        title: "BTB Power Rating",
-        x: "off_pts",
-        y: "def_pts",
-        xLabel: "Offensive Rating",
-        yLabel: "Defensive Rating",
-        reverseDefense: false,
-        format: ".1f"
     }
 
 };
@@ -105,9 +105,34 @@ function average(values) {
 }
 
 
+function hasValidPair(row, metric) {
+
+    const x =
+        Number(
+            row[
+                metric.x
+            ]
+        );
+
+    const y =
+        Number(
+            row[
+                metric.y
+            ]
+        );
+
+    return (
+        Number.isFinite(x)
+        &&
+        Number.isFinite(y)
+    );
+}
+
+
 async function loadSeason() {
 
-    const season = seasonSelect.value;
+    const season =
+        seasonSelect.value;
 
     const dataPath =
         `./data/${season}/latest.json`;
@@ -118,11 +143,15 @@ async function loadSeason() {
     try {
 
         const response =
-            await fetch(dataPath, {
-                cache: "no-store"
-            });
+            await fetch(
+                dataPath,
+                {
+                    cache: "no-store"
+                }
+            );
 
         if (!response.ok) {
+
             throw new Error(
                 `Unable to load ${dataPath}`
             );
@@ -132,12 +161,25 @@ async function loadSeason() {
             await response.json();
 
 
+        if (
+            !Array.isArray(currentData)
+        ) {
+
+            throw new Error(
+                `${dataPath} did not contain a JSON array`
+            );
+        }
+
+
         try {
 
             const metaResponse =
-                await fetch(metaPath, {
-                    cache: "no-store"
-                });
+                await fetch(
+                    metaPath,
+                    {
+                        cache: "no-store"
+                    }
+                );
 
             currentMeta =
                 metaResponse.ok
@@ -152,22 +194,50 @@ async function loadSeason() {
 
         populateConferences();
         populateTeams();
+        updateMetricAvailability();
         renderChart();
 
     } catch (error) {
 
         console.error(error);
 
+        currentData = [];
+        currentMeta = {};
+
+        conferenceSelect.innerHTML =
+            `
+            <option value="ALL">
+                All FBS
+            </option>
+            `;
+
+        teamSearchSelect.innerHTML =
+            `
+            <option value="">
+                None
+            </option>
+            `;
+
+        weekLabel.textContent =
+            "Unavailable";
+
+        teamCount.textContent =
+            "0";
+
         document.getElementById(
             "chart"
         ).innerHTML =
-            `<div style="
+            `
+            <div style="
                 color:#111;
                 padding:40px;
                 font-family:Arial;
             ">
                 Data for ${season} is not currently available.
-            </div>`;
+                <br><br>
+                ${error.message}
+            </div>
+            `;
     }
 }
 
@@ -177,19 +247,25 @@ function populateConferences() {
     const existing =
         conferenceSelect.value;
 
-    const conferences = [
-        ...new Set(
-            currentData
-                .map(row => row.conference)
-                .filter(Boolean)
-        )
-    ].sort();
+    const conferences =
+        [
+            ...new Set(
+                currentData
+                    .map(
+                        row =>
+                            row.conference
+                    )
+                    .filter(Boolean)
+            )
+        ].sort();
 
 
     conferenceSelect.innerHTML =
-        `<option value="ALL">
+        `
+        <option value="ALL">
             All FBS
-        </option>`;
+        </option>
+        `;
 
 
     conferences.forEach(
@@ -214,11 +290,16 @@ function populateConferences() {
 
 
     if (
-        conferences.includes(existing)
+        conferences.includes(
+            existing
+        )
     ) {
+
         conferenceSelect.value =
             existing;
+
     } else {
+
         conferenceSelect.value =
             "ALL";
     }
@@ -231,16 +312,24 @@ function populateTeams() {
         teamSearchSelect.value;
 
     const teams =
-        currentData
-            .map(row => row.team)
-            .filter(Boolean)
-            .sort();
+        [
+            ...new Set(
+                currentData
+                    .map(
+                        row =>
+                            row.team
+                    )
+                    .filter(Boolean)
+            )
+        ].sort();
 
 
     teamSearchSelect.innerHTML =
-        `<option value="">
+        `
+        <option value="">
             None
-        </option>`;
+        </option>
+        `;
 
 
     teams.forEach(
@@ -251,8 +340,11 @@ function populateTeams() {
                     "option"
                 );
 
-            option.value = team;
-            option.textContent = team;
+            option.value =
+                team;
+
+            option.textContent =
+                team;
 
             teamSearchSelect.appendChild(
                 option
@@ -261,19 +353,158 @@ function populateTeams() {
     );
 
 
-    if (teams.includes(existing)) {
+    if (
+        teams.includes(
+            existing
+        )
+    ) {
+
         teamSearchSelect.value =
             existing;
     }
 }
 
 
+function updateMetricAvailability() {
+
+    const availability = {};
+
+
+    for (
+        const [
+            metricKey,
+            metric
+        ]
+        of Object.entries(
+            METRICS
+        )
+    ) {
+
+        availability[
+            metricKey
+        ] =
+            currentData.some(
+                row =>
+                    row[
+                        metric.x
+                    ] !== null
+                    &&
+                    row[
+                        metric.x
+                    ] !== undefined
+                    &&
+                    row[
+                        metric.y
+                    ] !== null
+                    &&
+                    row[
+                        metric.y
+                    ] !== undefined
+                    &&
+                    Number.isFinite(
+                        Number(
+                            row[
+                                metric.x
+                            ]
+                        )
+                    )
+                    &&
+                    Number.isFinite(
+                        Number(
+                            row[
+                                metric.y
+                            ]
+                        )
+                    )
+            );
+    }
+
+
+    for (
+        const option
+        of metricSelect.options
+    ) {
+
+        const isAvailable =
+            availability[
+                option.value
+            ] === true;
+
+        option.disabled =
+            !isAvailable;
+    }
+
+
+    const selectedOption =
+        metricSelect.options[
+            metricSelect.selectedIndex
+        ];
+
+
+    if (
+        !selectedOption
+        ||
+        selectedOption.disabled
+    ) {
+
+        const preferredOrder = [
+            "power",
+            "wepa",
+            "pass_epa",
+            "rush_epa",
+            "eckel",
+            "adjusted_pass",
+            "adjusted_rush"
+        ];
+
+        const firstAvailable =
+            preferredOrder.find(
+                key =>
+                    availability[
+                        key
+                    ]
+            );
+
+        if (
+            firstAvailable
+        ) {
+
+            metricSelect.value =
+                firstAvailable;
+        }
+    }
+}
+
+
 function renderChart() {
+
+    const metricKey =
+        metricSelect.value;
 
     const metric =
         METRICS[
-            metricSelect.value
+            metricKey
         ];
+
+
+    if (!metric) {
+
+        document.getElementById(
+            "chart"
+        ).innerHTML =
+            `
+            <div style="
+                color:#111;
+                padding:40px;
+                font-family:Arial;
+            ">
+                No valid metric is selected.
+            </div>
+            `;
+
+        return;
+    }
+
 
     const conference =
         conferenceSelect.value;
@@ -282,15 +513,19 @@ function renderChart() {
         teamSearchSelect.value;
 
 
+    /*
+     * Benchmark data always uses all FBS teams.
+     *
+     * This means conference filtering changes only which
+     * teams are displayed. The average divider lines remain
+     * based on the full FBS population.
+     */
     const benchmark =
         currentData.filter(
             row =>
-                Number.isFinite(
-                    Number(row[metric.x])
-                )
-                &&
-                Number.isFinite(
-                    Number(row[metric.y])
+                hasValidPair(
+                    row,
+                    metric
                 )
         );
 
@@ -304,11 +539,44 @@ function renderChart() {
         );
 
 
+    if (!benchmark.length) {
+
+        Plotly.purge(
+            "chart"
+        );
+
+        document.getElementById(
+            "chart"
+        ).innerHTML =
+            `
+            <div style="
+                color:#111;
+                padding:40px;
+                font-family:Arial;
+            ">
+                ${metric.title} data is not yet available
+                for the selected season.
+            </div>
+            `;
+
+        teamCount.textContent =
+            `0 / ${currentData.length} FBS`;
+
+        updateWeekLabel();
+
+        return;
+    }
+
+
     const benchmarkX =
         average(
             benchmark.map(
                 row =>
-                    Number(row[metric.x])
+                    Number(
+                        row[
+                            metric.x
+                        ]
+                    )
             )
         );
 
@@ -317,7 +585,11 @@ function renderChart() {
         average(
             benchmark.map(
                 row =>
-                    Number(row[metric.y])
+                    Number(
+                        row[
+                            metric.y
+                        ]
+                    )
             )
         );
 
@@ -325,14 +597,16 @@ function renderChart() {
     const normalTeams =
         displayed.filter(
             row =>
-                row.team !== highlightedTeam
+                row.team
+                !== highlightedTeam
         );
 
 
     const highlighted =
         displayed.filter(
             row =>
-                row.team === highlightedTeam
+                row.team
+                === highlightedTeam
         );
 
 
@@ -341,25 +615,36 @@ function renderChart() {
 
     traces.push({
 
-        type: "scatter",
+        type:
+            "scatter",
 
-        mode: "markers+text",
+        mode:
+            "markers+text",
 
         x:
             normalTeams.map(
                 row =>
-                    Number(row[metric.x])
+                    Number(
+                        row[
+                            metric.x
+                        ]
+                    )
             ),
 
         y:
             normalTeams.map(
                 row =>
-                    Number(row[metric.y])
+                    Number(
+                        row[
+                            metric.y
+                        ]
+                    )
             ),
 
         text:
             normalTeams.map(
-                row => row.team
+                row =>
+                    row.team
             ),
 
         textposition:
@@ -381,7 +666,7 @@ function renderChart() {
 
         hovertemplate:
             "<b>%{customdata[0]}</b>"
-            + "<br>%{customdata[1]}"
+            + "<br>Conference: %{customdata[1]}"
             + "<br>Games: %{customdata[2]}"
             + `<br>${metric.xLabel}: %{x:${metric.format}}`
             + `<br>${metric.yLabel}: %{y:${metric.format}}`
@@ -393,38 +678,68 @@ function renderChart() {
     });
 
 
-    if (highlighted.length) {
+    if (
+        highlighted.length
+    ) {
 
         traces.push({
 
-            type: "scatter",
+            type:
+                "scatter",
 
-            mode: "markers+text",
+            mode:
+                "markers+text",
 
             x:
                 highlighted.map(
                     row =>
-                        Number(row[metric.x])
+                        Number(
+                            row[
+                                metric.x
+                            ]
+                        )
                 ),
 
             y:
                 highlighted.map(
                     row =>
-                        Number(row[metric.y])
+                        Number(
+                            row[
+                                metric.y
+                            ]
+                        )
                 ),
 
             text:
                 highlighted.map(
-                    row => row.team
+                    row =>
+                        row.team
                 ),
 
             textposition:
                 "top center",
 
+            customdata:
+                highlighted.map(
+                    row => [
+                        row.team,
+                        row.conference,
+                        row.games
+                    ]
+                ),
+
             marker: {
                 size: 20,
                 symbol: "star"
             },
+
+            hovertemplate:
+                "<b>%{customdata[0]}</b>"
+                + "<br>Conference: %{customdata[1]}"
+                + "<br>Games: %{customdata[2]}"
+                + `<br>${metric.xLabel}: %{x:${metric.format}}`
+                + `<br>${metric.yLabel}: %{y:${metric.format}}`
+                + "<extra></extra>",
 
             name:
                 "Highlighted Team"
@@ -436,35 +751,75 @@ function renderChart() {
     const shapes = [];
 
 
-    if (benchmarkX !== null) {
+    if (
+        benchmarkX !== null
+    ) {
 
         shapes.push({
-            type: "line",
-            x0: benchmarkX,
-            x1: benchmarkX,
-            y0: 0,
-            y1: 1,
-            yref: "paper",
+            type:
+                "line",
+
+            x0:
+                benchmarkX,
+
+            x1:
+                benchmarkX,
+
+            y0:
+                0,
+
+            y1:
+                1,
+
+            yref:
+                "paper",
+
             line: {
-                dash: "dash",
-                width: 1
+                dash:
+                    "dash",
+
+                width:
+                    1,
+
+                color:
+                    "#777777"
             }
         });
     }
 
 
-    if (benchmarkY !== null) {
+    if (
+        benchmarkY !== null
+    ) {
 
         shapes.push({
-            type: "line",
-            y0: benchmarkY,
-            y1: benchmarkY,
-            x0: 0,
-            x1: 1,
-            xref: "paper",
+            type:
+                "line",
+
+            y0:
+                benchmarkY,
+
+            y1:
+                benchmarkY,
+
+            x0:
+                0,
+
+            x1:
+                1,
+
+            xref:
+                "paper",
+
             line: {
-                dash: "dash",
-                width: 1
+                dash:
+                    "dash",
+
+                width:
+                    1,
+
+                color:
+                    "#777777"
             }
         });
     }
@@ -479,7 +834,10 @@ function renderChart() {
         title: {
             text:
                 `${season} ${metric.title}`,
-            x: 0.5
+            x:
+                0.5,
+            xanchor:
+                "center"
         },
 
         paper_bgcolor:
@@ -496,15 +854,28 @@ function renderChart() {
         },
 
         xaxis: {
-            title:
-                metric.xLabel,
+
+            title: {
+                text:
+                    metric.xLabel
+            },
+
             zeroline:
-                false
+                false,
+
+            showgrid:
+                true,
+
+            gridcolor:
+                "rgba(0,0,0,0.10)"
         },
 
         yaxis: {
-            title:
-                metric.yLabel,
+
+            title: {
+                text:
+                    metric.yLabel
+            },
 
             autorange:
                 metric.reverseDefense
@@ -512,7 +883,13 @@ function renderChart() {
                     : true,
 
             zeroline:
-                false
+                false,
+
+            showgrid:
+                true,
+
+            gridcolor:
+                "rgba(0,0,0,0.10)"
         },
 
         shapes:
@@ -527,20 +904,28 @@ function renderChart() {
             ),
 
         margin: {
-            l: 85,
-            r: 40,
-            t: 80,
-            b: 80
-        }
+            l:
+                90,
+            r:
+                40,
+            t:
+                80,
+            b:
+                90
+        },
 
+        autosize:
+            true
     };
 
 
     const config = {
 
-        responsive: true,
+        responsive:
+            true,
 
-        displaylogo: false,
+        displaylogo:
+            false,
 
         modeBarButtonsToRemove: [
             "lasso2d",
@@ -548,12 +933,16 @@ function renderChart() {
         ],
 
         toImageButtonOptions: {
-            format: "png",
-            filename:
-                `btb-${season}-${metricSelect.value}`,
-            scale: 2
-        }
 
+            format:
+                "png",
+
+            filename:
+                `btb-${season}-${metricKey}`,
+
+            scale:
+                2
+        }
     };
 
 
@@ -563,6 +952,20 @@ function renderChart() {
         layout,
         config
     );
+
+
+    updateWeekLabel();
+
+
+    teamCount.textContent =
+        `${displayed.length} / ${benchmark.length} FBS`;
+}
+
+
+function updateWeekLabel() {
+
+    const season =
+        seasonSelect.value;
 
 
     const week =
@@ -575,14 +978,32 @@ function renderChart() {
         );
 
 
-    weekLabel.textContent =
+    if (
+        Number(week) === 0
+    ) {
+
+        weekLabel.textContent =
+            `${season} Preseason`;
+
+        return;
+    }
+
+
+    if (
         week !== null
-            ? `Week ${week}`
-            : season;
+        &&
+        week !== undefined
+    ) {
+
+        weekLabel.textContent =
+            `Week ${week}`;
+
+        return;
+    }
 
 
-    teamCount.textContent =
-        `${displayed.length} / ${benchmark.length} FBS`;
+    weekLabel.textContent =
+        season;
 }
 
 
@@ -591,15 +1012,18 @@ seasonSelect.addEventListener(
     loadSeason
 );
 
+
 metricSelect.addEventListener(
     "change",
     renderChart
 );
 
+
 conferenceSelect.addEventListener(
     "change",
     renderChart
 );
+
 
 teamSearchSelect.addEventListener(
     "change",
@@ -607,4 +1031,7 @@ teamSearchSelect.addEventListener(
 );
 
 
+/*
+ * Load the default season immediately.
+ */
 loadSeason();
