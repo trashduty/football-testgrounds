@@ -130,7 +130,16 @@ msg <- function(...) message(sprintf(...))
 fetch_teams <- function(season) {
   t <- cfbfastR::cfbd_team_info(only_fbs = TRUE, year = season)
   require_cols(t, c("school", "conference"), "cfbd_team_info")
-  t %>% transmute(team = school, conference)
+
+  # cfbd_team_info includes a primary logo URL. Keep it with each team so the
+  # public Plotly chart can render team logos without maintaining a separate
+  # JavaScript name-to-logo crosswalk.
+  t %>%
+    transmute(
+      team = school,
+      conference,
+      logo = if ("logo" %in% names(t)) logo else NA_character_
+    )
 }
 
 fetch_games <- function(season) {
@@ -584,7 +593,7 @@ snapshot_week <- function(w, pbp_aug, drives, games, teams_tbl, prior,
       def_rush_epa_rank   = min_rank(def_rush_epa),
       def_eckel_rate_rank = min_rank(def_eckel_rate)
     ) %>%
-    select(season, week, team, conference, games, prior_weight,
+    select(season, week, team, conference, logo, games, prior_weight,
            power_pts, off_pts, def_pts, power_rank, off_rank, def_rank,
            off_wepa, off_pass_epa, off_rush_epa, off_eckel_rate, off_eckel_rate_oe,
            def_wepa, def_pass_epa, def_rush_epa, def_eckel_rate, def_eckel_rate_oe,
