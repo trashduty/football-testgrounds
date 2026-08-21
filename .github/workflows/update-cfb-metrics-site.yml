@@ -3,7 +3,7 @@ name: Update CFB Metrics Site
 on:
   workflow_dispatch:
 
-  # Enable this once you are ready for automatic in-season updates.
+  # Enable this once the manual test succeeds.
   # Runs daily at 5:17 AM Arizona time.
   #
   # schedule:
@@ -38,7 +38,10 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+          sudo apt-get install -y \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev
 
       - name: Install R packages
         run: |
@@ -53,16 +56,13 @@ jobs:
               "jsonlite",
               "lme4",
               "lubridate",
-              "remotes"
+              "cfbfastR"
             ),
-            repos = "https://cloud.r-project.org"
+            repos = c(
+              "https://sportsdataverse.r-universe.dev",
+              "https://cloud.r-project.org"
+            )
           )'
-
-          Rscript -e '
-            if (!requireNamespace("cfbfastR", quietly = TRUE)) {
-              remotes::install_github("sportsdataverse/cfbfastR")
-            }
-          '
 
       - name: Verify required inputs
         run: |
