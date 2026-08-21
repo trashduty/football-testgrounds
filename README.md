@@ -1,6 +1,78 @@
 # btb-discord-digest
 NFL and NCAAF News
 
+## Weekly CFB site update (`weekly_site_update.R`)
+
+### Overview
+
+`weekly_site_update.R` is the standalone R job that generates BTB Power Ratings
+for the public CFB metrics site each week.
+
+### Logo source
+
+Team logo URLs come from **`CFB Teams Full Crosswalk.csv`** (column `logo`).
+The script joins on the `cfbfastr_team` column using normalized team-name keys
+(whitespace-collapsed, diacritics stripped, punctuation unified) so that minor
+name differences (e.g. `"San José State"` vs `"San Jose State"`) resolve
+correctly.  HTTP URLs are automatically upgraded to HTTPS.
+
+### Handling missing logos
+
+After the crosswalk join the script runs a logo-quality check:
+
+- **Valid logo**: non-NA, non-empty, starts with `http://` or `https://`, no
+  surrounding whitespace.
+- Teams without valid logos are counted and listed in the run log.
+- A report of all missing/invalid entries is written to
+  `output/site/<year>/missing_logos.csv` (columns: `team`, `conference`,
+  `logo`).
+- If more than **5 %** of FBS teams are missing valid logos the run **fails**
+  with an explicit diagnostic pointing to the CSV.
+
+### Scatter plot
+
+After writing `latest.csv` the script produces
+`output/site/<year>/btb_scatter.png` — an offensive/defensive scatter of all
+FBS teams.  Team logos are rendered via `ggimage::geom_image()`; a subtle grey
+point layer sits behind the logos as a fallback.  Teams whose logos fail
+validation are shown as text labels so failures are immediately visible.
+
+### New package requirements
+
+| Package   | Purpose                              |
+|-----------|--------------------------------------|
+| `ggplot2` | Base plotting (installed if absent)  |
+| `ggimage` | Raster-image geom for team logos     |
+| `ggrepel` | Optional — non-overlapping labels for teams without logos |
+
+The script installs `ggplot2` and `ggimage` automatically on first run if they
+are absent.  `ggrepel` is used opportunistically; plain `geom_text` is the
+fallback.
+
+### Outputs
+
+| File | Description |
+|------|-------------|
+| `output/site/<year>/latest.csv` | Current power ratings for all FBS teams |
+| `output/site/<year>/latest.json` | Same, JSON format |
+| `output/site/<year>/meta.json` | Run metadata |
+| `output/site/<year>/ratings_history.csv` | All weekly snapshots |
+| `output/site/<year>/weekly/week_XX.csv` | Per-week snapshots |
+| `output/site/<year>/missing_logos.csv` | Teams with missing/invalid logos |
+| `output/site/<year>/btb_scatter.png` | Off/def scatter plot with team logos |
+
+### Run
+
+```bash
+Rscript weekly_site_update.R --year=2026
+Rscript weekly_site_update.R --year=2026 --max-week=6
+```
+
+Requires `CFBD_API_KEY` environment variable and
+`data/preseason_ratings_<year>.csv`.
+
+---
+
 ## 2025 likely starting QB inference (nflfastR/nflverse data)
 
 This repository now includes a reproducible script to infer likely starting quarterbacks by team across the 2025 regular season using nflverse play-by-play data (the Python nfl_data_py client for nflfastR/nflverse data).
