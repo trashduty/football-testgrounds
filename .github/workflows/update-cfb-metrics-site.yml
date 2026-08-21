@@ -1,0 +1,161 @@
+name: Update CFB Metrics Site
+
+on:
+  workflow_dispatch:
+
+  # Enable this once you are ready for automatic in-season updates.
+  # Runs daily at 5:17 AM Arizona time.
+  #
+  # schedule:
+  #   - cron: "17 12 * * *"
+
+concurrency:
+  group: update-cfb-metrics-site
+  cancel-in-progress: false
+
+jobs:
+  update-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write
+
+    env:
+      TZ: America/Phoenix
+      CURRENT_SEASON: "2026"
+      CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(
+            c(
+              "dplyr",
+              "tidyr",
+              "purrr",
+              "readr",
+              "stringr",
+              "tibble",
+              "jsonlite",
+              "lme4",
+              "lubridate",
+              "remotes"
+            ),
+            repos = "https://cloud.r-project.org"
+          )'
+
+          Rscript -e '
+            if (!requireNamespace("cfbfastR", quietly = TRUE)) {
+              remotes::install_github("sportsdataverse/cfbfastR")
+            }
+          '
+
+      - name: Verify required inputs
+        run: |
+          set -euo pipefail
+
+          if [ -z "$CFBD_API_KEY" ]; then
+            echo "CFBD_API_KEY secret is missing."
+            exit 1
+          fi
+
+          required_files=(
+            "weekly_site_update.R"
+            "data/preseason_ratings_${CURRENT_SEASON}.csv"
+          )
+
+          for file in "${required_files[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "Missing or empty required file: $file"
+              exit 1
+            fi
+          done
+
+          if [ -s "models/final_wepa_weights_6_2_24.RDS" ]; then
+            echo "wEPA weights file found."
+          else
+            echo "WARNING: wEPA weights file not found. Script will use fallback."
+          fi
+
+          if [ -s "models/eckel_mod.RDS" ]; then
+            echo "Eckel model found."
+          else
+            echo "WARNING: Eckel model not found. Adjusted Eckel metrics may be unavailable."
+          fi
+
+      - name: Build current metrics
+        run: |
+          set -euo pipefail
+
+          Rscript weekly_site_update.R \
+            --year="${CURRENT_SEASON}"
+
+      - name: Validate generated site data
+        run: |
+          set -euo pipefail
+
+          required_outputs=(
+            "output/site/${CURRENT_SEASON}/latest.json"
+            "output/site/${CURRENT_SEASON}/meta.json"
+            "output/site/${CURRENT_SEASON}/latest.csv"
+            "output/site/${CURRENT_SEASON}/ratings_history.csv"
+          )
+
+          for file in "${required_outputs[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "Missing or empty generated output: $file"
+              exit 1
+            fi
+          done
+
+          echo "Generated files:"
+          ls -lh "output/site/${CURRENT_SEASON}/"
+
+      - name: Publish data to GitHub Pages
+        run: |
+          set -euo pipefail
+
+          mkdir -p "docs/data/${CURRENT_SEASON}"
+
+          cp \
+            "output/site/${CURRENT_SEASON}/latest.json" \
+            "docs/data/${CURRENT_SEASON}/latest.json"
+
+          cp \
+            "output/site/${CURRENT_SEASON}/meta.json" \
+            "docs/data/${CURRENT_SEASON}/meta.json"
+
+          echo "Published site files:"
+          ls -lh "docs/data/${CURRENT_SEASON}/"
+
+      - name: Commit updated metrics
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            "output/site/${CURRENT_SEASON}/" \
+            "docs/data/${CURRENT_SEASON}/"
+
+          if git diff --cached --quiet; then
+            echo "No CFB metrics changes to commit."
+          else
+            git commit -m "Update ${CURRENT_SEASON} CFB metrics $(date +%Y-%m-%d)"
+            git push
+          fi
