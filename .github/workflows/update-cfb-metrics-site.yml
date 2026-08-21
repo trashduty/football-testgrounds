@@ -3,11 +3,10 @@ name: Update CFB Metrics Site
 on:
   workflow_dispatch:
 
-
   # Runs daily at 5:17 AM Arizona time.
-  #
-  # schedule:
-  #   - cron: "17 12 * * *"
+  # Arizona is UTC-7 year-round.
+  schedule:
+    - cron: "17 12 * * *"
 
 concurrency:
   group: update-cfb-metrics-site
@@ -168,6 +167,10 @@ jobs:
           cp \
             "output/site/${CURRENT_SEASON}/meta.json" \
             "docs/data/${CURRENT_SEASON}/meta.json"
+
+          cp \
+            "output/site/${CURRENT_SEASON}/ratings_history.csv" \
+            "docs/data/${CURRENT_SEASON}/ratings_history.csv"
 
           echo "Published site files:"
           ls -lh "docs/data/${CURRENT_SEASON}/"
