@@ -1,6 +1,14 @@
 {
   "season": 2026,
   "thru_week": 0,
-  "generated_utc": "2026-08-21 04:47:24",
-  "note": "preseason prior only"
+  "generated_utc": "2026-08-21 06:51:40",
+  "note": "preseason prior only",
+  "n_teams": 138,
+  "config": {
+    "PLAYS_SCALE": 65,
+    "TARGET_SD": 12,
+    "PRIOR_G_FULL": 8,
+    "PRIOR_POW": 1.5,
+    "RECENCY_DECAY": 0.9
+  }
 }
