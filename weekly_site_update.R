@@ -49,8 +49,14 @@
 #     latest.json
 #     meta.json
 #     ratings_history.csv
+#     missing_logos.csv   -- teams with missing/invalid logos (empty if none)
+#     btb_scatter.png     -- offensive/defensive scatter with team logos
 #     weekly/week_00.csv
 #     weekly/week_XX.csv
+#
+# PLOTTING PACKAGES (auto-installed if absent):
+#   ggplot2, ggimage
+#   ggrepel (optional; used for label fallback when logos are missing)
 # =============================================================================
 
 
@@ -86,6 +92,43 @@ ensure_cfbfastR <- function() {
 }
 
 
+ensure_ggimage <- function() {
+  if (requireNamespace("ggimage", quietly = TRUE) &&
+      requireNamespace("ggplot2", quietly = TRUE)) {
+    return(invisible(TRUE))
+  }
+
+  needed <- character(0)
+  if (!requireNamespace("ggplot2", quietly = TRUE)) {
+    needed <- c(needed, "ggplot2")
+  }
+  if (!requireNamespace("ggimage", quietly = TRUE)) {
+    needed <- c(needed, "ggimage")
+  }
+
+  tryCatch(
+    install.packages(
+      needed,
+      repos = "https://cloud.r-project.org"
+    ),
+    error = function(e) {
+      message(
+        sprintf(
+          "Could not install plotting dependencies (%s): %s",
+          paste(needed, collapse = ", "),
+          conditionMessage(e)
+        )
+      )
+    }
+  )
+
+  invisible(
+    requireNamespace("ggimage", quietly = TRUE) &&
+    requireNamespace("ggplot2", quietly = TRUE)
+  )
+}
+
+
 suppressMessages({
   library(dplyr)
   library(tidyr)
@@ -99,6 +142,46 @@ suppressMessages({
 })
 
 options(dplyr.summarise.inform = FALSE)
+
+
+# ---- Logo helpers -----------------------------------------------------------
+
+#' Test whether a logo URL string is valid (non-NA, non-empty, https?:// prefix,
+#' no surrounding whitespace after normalization).
+is_valid_logo <- function(x) {
+  !is.na(x) &
+    nchar(trimws(x)) > 0 &
+    grepl("^https?://", trimws(x))
+}
+
+
+#' Produce a normalized join key from a team name string: lowercase,
+#' collapse repeated spaces, replace common diacritics, strip non-word
+#' characters except spaces and apostrophes.
+normalize_team_key <- function(x) {
+  x %>%
+    str_trim() %>%
+    str_squish() %>%
+    str_to_lower() %>%
+    str_replace_all(
+      "\u00e9|\u00e8|\u00ea",
+      "e"
+    ) %>%  # é è ê -> e
+    str_replace_all(
+      "\u00e1|\u00e0|\u00e2",
+      "a"
+    ) %>%  # á à â -> a
+    str_replace_all(
+      "[\u02bb\u2018\u2019\u0060']",
+      "'"
+    ) %>%  # normalize apostrophes (ʻ ' ' ` -> ')
+    str_replace_all(
+      "[^a-z0-9 ']",
+      " "
+    ) %>%  # strip remaining punctuation
+    str_squish()
+}
+
 
 
 # ---- Config -----------------------------------------------------------------
@@ -224,7 +307,209 @@ isTRUE_v <- function(x) {
 }
 
 
-# ---- Data acquisition -------------------------------------------------------
+# ---- Logo quality reporting -------------------------------------------------
+
+#' Validate logo coverage in a teams data frame, write missing_logos.csv, and
+#' fail with an explicit error if the missing-logo share exceeds LOGO_MISS_MAX.
+#'
+#' @param teams_df  Data frame with at least columns: team, conference, logo.
+#' @param out_dir   Directory to write missing_logos.csv into.
+#' @param threshold Maximum tolerated missing-logo share (default 0.05 = 5 %).
+report_logo_quality <- function(
+    teams_df,
+    out_dir,
+    threshold = 0.05
+) {
+  require_cols(
+    teams_df,
+    c("team", "conference", "logo"),
+    "report_logo_quality"
+  )
+
+  n_total   <- nrow(teams_df)
+  valid_idx <- is_valid_logo(teams_df$logo)
+  n_valid   <- sum(valid_idx)
+  n_missing <- n_total - n_valid
+  pct       <- if (n_total > 0) n_missing / n_total else 0
+
+  msg(
+    "Logo quality: %d/%d teams have valid logos (%.1f%% missing).",
+    n_valid,
+    n_total,
+    100 * pct
+  )
+
+  missing_df <- teams_df %>%
+    filter(!is_valid_logo(logo)) %>%
+    select(team, conference, logo)
+
+  write_csv(
+    missing_df,
+    file.path(out_dir, "missing_logos.csv")
+  )
+
+  if (n_missing > 0) {
+    msg(
+      "Missing/invalid logos written to %s",
+      file.path(out_dir, "missing_logos.csv")
+    )
+  }
+
+  if (pct > threshold) {
+    stop(
+      sprintf(
+        paste0(
+          "Logo coverage too low: %.1f%% of teams (%d/%d) are missing ",
+          "valid logos (threshold: %.0f%%). ",
+          "Check %s and ensure cfbfastr_team names match the API school names."
+        ),
+        100 * pct,
+        n_missing,
+        n_total,
+        100 * threshold,
+        file.path(out_dir, "missing_logos.csv")
+      ),
+      call. = FALSE
+    )
+  }
+
+  invisible(missing_df)
+}
+
+
+# ---- BTB scatter plot -------------------------------------------------------
+
+#' Render the BTB offensive/defensive scatter plot with team logos.
+#' Uses ggimage::geom_image when available; falls back to labeled points.
+#'
+#' @param df       Data frame containing at least: team, off_pts, def_pts, logo.
+#' @param out_dir  Directory to write btb_scatter.png into.
+#' @param season   Integer season year (used in chart title).
+#' @param width    Plot width in inches.
+#' @param height   Plot height in inches.
+plot_btb_scatter <- function(
+    df,
+    out_dir,
+    season   = NA_integer_,
+    width    = 12,
+    height   = 10
+) {
+  required <- c("team", "off_pts", "def_pts", "logo")
+  if (!all(required %in% names(df))) {
+    msg(
+      "Skipping scatter plot: missing columns (%s).",
+      paste(setdiff(required, names(df)), collapse = ", ")
+    )
+    return(invisible(NULL))
+  }
+
+  can_image <- ensure_ggimage()
+
+  if (!requireNamespace("ggplot2", quietly = TRUE)) {
+    msg("Skipping scatter plot: ggplot2 not available.")
+    return(invisible(NULL))
+  }
+
+  library(ggplot2)
+
+  title_str <- if (!is.na(season)) {
+    sprintf("%d BTB Power Rating", as.integer(season))
+  } else {
+    "BTB Power Rating"
+  }
+
+  df_plot <- df %>%
+    mutate(
+      logo_valid = is_valid_logo(logo),
+      logo_safe  = if_else(logo_valid, logo, NA_character_)
+    )
+
+  p <- ggplot(
+    df_plot,
+    aes(x = off_pts, y = def_pts)
+  ) +
+    geom_point(
+      color = "grey70",
+      size  = 1.5,
+      alpha = 0.4
+    ) +
+    geom_hline(
+      yintercept = 0,
+      linetype   = "dashed",
+      color      = "grey50"
+    ) +
+    geom_vline(
+      xintercept = 0,
+      linetype   = "dashed",
+      color      = "grey50"
+    ) +
+    labs(
+      title = title_str,
+      x     = "Offensive Rating (pts vs avg)",
+      y     = "Defensive Rating (pts prevented vs avg)"
+    ) +
+    theme_minimal(base_size = 14)
+
+  if (can_image) {
+    library(ggimage)
+    p <- p +
+      ggimage::geom_image(
+        data    = df_plot %>% filter(logo_valid),
+        aes(image = logo_safe),
+        size    = 0.05,
+        na.rm   = TRUE
+      )
+  }
+
+  # Label teams without valid logos so failures are visible.
+  no_logo_df <- df_plot %>% filter(!logo_valid)
+  if (nrow(no_logo_df) > 0) {
+    if (!requireNamespace("ggrepel", quietly = TRUE)) {
+      p <- p +
+        geom_text(
+          data  = no_logo_df,
+          aes(label = team),
+          size  = 2.5,
+          color = "grey40"
+        )
+    } else {
+      library(ggrepel)
+      p <- p +
+        ggrepel::geom_text_repel(
+          data  = no_logo_df,
+          aes(label = team),
+          size  = 2.5,
+          color = "grey40"
+        )
+    }
+  }
+
+  out_path <- file.path(out_dir, "btb_scatter.png")
+
+  tryCatch(
+    {
+      ggsave(
+        out_path,
+        plot   = p,
+        width  = width,
+        height = height,
+        dpi    = 150
+      )
+      msg("Scatter plot written to %s", out_path)
+    },
+    error = function(e) {
+      msg(
+        "WARNING: Could not save scatter plot (%s): %s",
+        out_path,
+        conditionMessage(e)
+      )
+    }
+  )
+
+  invisible(p)
+}
+
+
 
 fetch_teams <- function(season) {
   t <- cfbfastR::cfbd_team_info(
@@ -280,17 +565,21 @@ fetch_teams <- function(season) {
         "^http://",
         "https://"
       ),
-      logo = na_if(
+      logo = if_else(
+        is_valid_logo(logo),
         logo,
-        ""
+        NA_character_
       )
     ) %>%
     filter(
       !is.na(team),
       team != ""
     ) %>%
+    mutate(
+      join_key = normalize_team_key(team)
+    ) %>%
     distinct(
-      team,
+      join_key,
       .keep_all = TRUE
     )
 
@@ -300,17 +589,18 @@ fetch_teams <- function(season) {
       conference
     ) %>%
     mutate(
-      team = str_trim(team)
+      team = str_trim(team),
+      join_key = normalize_team_key(team)
     ) %>%
     left_join(
-      crosswalk,
-      by = "team"
-    )
+      crosswalk %>% select(join_key, logo),
+      by = "join_key"
+    ) %>%
+    select(-join_key)
 
   missing_logos <- out %>%
     filter(
-      is.na(logo) |
-        logo == ""
+      !is_valid_logo(logo)
     )
 
   if (nrow(missing_logos) > 0) {
@@ -2252,6 +2542,11 @@ if (run_main) {
     TARGET_SEASON
   )
 
+  report_logo_quality(
+    teams_tbl,
+    out_dir
+  )
+
   games <- fetch_games(
     TARGET_SEASON
   )
@@ -2419,6 +2714,12 @@ if (run_main) {
         out_dir,
         "latest.csv"
       )
+    )
+
+    plot_btb_scatter(
+      snap0,
+      out_dir,
+      season = TARGET_SEASON
     )
 
     write_csv(
@@ -2684,6 +2985,12 @@ if (run_main) {
         out_dir,
         "latest.csv"
       )
+    )
+
+    plot_btb_scatter(
+      latest,
+      out_dir,
+      season = TARGET_SEASON
     )
 
     write_json(
