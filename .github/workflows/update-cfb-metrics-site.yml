@@ -130,8 +130,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          Rscript weekly_site_update.R \
-            --year="${CURRENT_SEASON}"
+          Rscript weekly_site_update.R --year="${CURRENT_SEASON}"
 
       - name: Validate generated site data
         run: |
