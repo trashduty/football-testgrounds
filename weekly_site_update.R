@@ -44,100 +44,54 @@
 #       optional; enables *_eckel_rate_oe.
 #
 # OUTPUTS:
-#
 #   output/site/<year>/
-#
 #     ratings_history.csv
-#       One row per team-week, INCLUDING Week 0.
-#
 #     weekly/week_00.csv
-#       Preseason baseline.
-#
 #     weekly/week_XX.csv
-#       Weekly snapshots.
-#
 #     latest.csv
 #     latest.json
-#       Current week's data.
-#
 #     meta.json
 #
 # WEEK-TO-WEEK MOVEMENT:
+#   power_change = current BTB Power Rating - previous snapshot rating
+#   rank_change  = previous rank - current rank
 #
-#   power_change =
-#       current BTB Power Rating - previous week's BTB Power Rating
-#
-#   rank_change =
-#       previous rank - current rank
-#
-#   Therefore:
-#
-#       rank_change > 0  = moved UP
-#       rank_change < 0  = moved DOWN
-#
+#   rank_change > 0 = moved UP
+#   rank_change < 0 = moved DOWN
 # =============================================================================
 
 
 # ---- Libraries --------------------------------------------------------------
 
 ensure_cfbfastR <- function() {
-
-  if (
-    requireNamespace(
-      "cfbfastR",
-      quietly = TRUE
-    )
-  ) {
+  if (requireNamespace("cfbfastR", quietly = TRUE)) {
     return(invisible(TRUE))
   }
-
 
   tryCatch(
     install.packages(
       "cfbfastR",
       repos = "https://cloud.r-project.org"
     ),
-    error = function(e) {
-      invisible(NULL)
-    }
+    error = function(e) invisible(NULL)
   )
 
-
-  if (
-    !requireNamespace(
-      "cfbfastR",
-      quietly = TRUE
-    )
-  ) {
-
-    if (
-      !requireNamespace(
-        "remotes",
-        quietly = TRUE
-      )
-    ) {
-
+  if (!requireNamespace("cfbfastR", quietly = TRUE)) {
+    if (!requireNamespace("remotes", quietly = TRUE)) {
       install.packages(
         "remotes",
         repos = "https://cloud.r-project.org"
       )
-
     }
 
-
-    remotes::install_github(
-      "sportsdataverse/cfbfastR"
-    )
-
+    remotes::install_github("sportsdataverse/cfbfastR")
   }
-
 
   invisible(TRUE)
 }
 
 
 suppressMessages({
-
   library(dplyr)
   library(tidyr)
   library(purrr)
@@ -147,125 +101,72 @@ suppressMessages({
   library(jsonlite)
   library(lme4)
   library(lubridate)
-
 })
 
-
-options(
-  dplyr.summarise.inform = FALSE
-)
+options(dplyr.summarise.inform = FALSE)
 
 
 # ---- Config -----------------------------------------------------------------
 
-.args <-
-  commandArgs(
-    trailingOnly = TRUE
+.args <- commandArgs(trailingOnly = TRUE)
+
+.get_arg <- function(flag, default) {
+  hit <- grep(
+    paste0("^", flag, "="),
+    .args,
+    value = TRUE
   )
 
-
-.get_arg <- function(
-  flag,
-  default
-) {
-
-  hit <-
-    grep(
-      paste0(
-        "^",
-        flag,
-        "="
-      ),
-      .args,
-      value = TRUE
-    )
-
-
   if (length(hit)) {
-
     sub(
-      paste0(
-        "^",
-        flag,
-        "="
-      ),
+      paste0("^", flag, "="),
       "",
       hit[1]
     )
-
   } else {
-
     default
-
   }
-
 }
 
 
-TARGET_SEASON <-
-  as.integer(
-    .get_arg(
-      "--year",
-      format(
-        Sys.Date(),
-        "%Y"
-      )
-    )
-  )
-
-
-MAX_WEEK_ARG <-
-  suppressWarnings(
-    as.integer(
-      .get_arg(
-        "--max-week",
-        NA
-      )
-    )
-  )
-
-
-OUT_ROOT <-
+TARGET_SEASON <- as.integer(
   .get_arg(
-    "--outdir",
-    "output/site"
+    "--year",
+    format(Sys.Date(), "%Y")
   )
+)
 
-
-MODEL_WEIGHTS_FILE <-
-  "models/final_wepa_weights_6_2_24.RDS"
-
-
-ECKEL_MODEL_FILE <-
-  "models/eckel_mod.RDS"
-
-
-PRESEASON_FILE <-
-  sprintf(
-    "data/preseason_ratings_%d.csv",
-    TARGET_SEASON
+MAX_WEEK_ARG <- suppressWarnings(
+  as.integer(
+    .get_arg("--max-week", NA)
   )
+)
 
+OUT_ROOT <- .get_arg(
+  "--outdir",
+  "output/site"
+)
+
+MODEL_WEIGHTS_FILE <- "models/final_wepa_weights_6_2_24.RDS"
+ECKEL_MODEL_FILE <- "models/eckel_mod.RDS"
+
+PRESEASON_FILE <- sprintf(
+  "data/preseason_ratings_%d.csv",
+  TARGET_SEASON
+)
 
 PLAYS_SCALE <- 65
-
 TARGET_SD <- 12
-
 STANDARDIZE_PRIOR <- TRUE
 
-
-# Preseason prior is completely gone after 8 games.
+# Preseason prior reaches zero after 8 games.
 PRIOR_G_FULL <- 8
-
 PRIOR_POW <- 1.5
 
-
-# Applies to plays INSIDE THE CURRENT SEASON.
+# Recency weighting within the current season.
 RECENCY_DECAY <- 0.90
 
-
 NEW_TEAM_PRIOR_Q <- 0.10
-
 
 GT_THRESH <- c(
   `1` = 28,
@@ -274,143 +175,84 @@ GT_THRESH <- c(
   `4` = 16
 )
 
-
 PRIOR_NAME_RECODE <- c(
-
-  "Louisiana Monroe" =
-    "UL Monroe",
-
-  "Southern Mississippi" =
-    "Southern Miss",
-
-  "Sam Houston State" =
-    "Sam Houston",
-
-  "UMass" =
-    "Massachusetts",
-
-  "UT San Antonio" =
-    "UTSA",
-
-  "Connecticut" =
-    "UConn",
-
-  "San Jose State" =
-    "San José State",
-
-  "Hawaii" =
-    "Hawai'i"
-
+  "Louisiana Monroe" = "UL Monroe",
+  "Southern Mississippi" = "Southern Miss",
+  "Sam Houston State" = "Sam Houston",
+  "UMass" = "Massachusetts",
+  "UT San Antonio" = "UTSA",
+  "Connecticut" = "UConn",
+  "San Jose State" = "San José State",
+  "Hawaii" = "Hawai'i"
 )
 
 
 # ---- Guardrails -------------------------------------------------------------
 
-require_cols <- function(
-  df,
-  cols,
-  where
-) {
-
-  miss <-
-    setdiff(
-      cols,
-      names(df)
-    )
-
+require_cols <- function(df, cols, where) {
+  miss <- setdiff(cols, names(df))
 
   if (length(miss)) {
-
     stop(
       sprintf(
         paste0(
-          "[%s] missing columns ",
-          "(upstream API/schema drift?): %s\n",
+          "[%s] missing columns (upstream API/schema drift?): %s\n",
           "Columns present: %s"
         ),
         where,
-        paste(
-          miss,
-          collapse = ", "
-        ),
-        paste(
-          sort(names(df)),
-          collapse = ", "
-        )
+        paste(miss, collapse = ", "),
+        paste(sort(names(df)), collapse = ", ")
       ),
       call. = FALSE
     )
-
   }
-
 
   invisible(df)
 }
 
 
 msg <- function(...) {
-
-  message(
-    sprintf(...)
-  )
-
+  message(sprintf(...))
 }
 
 
 # ---- Data acquisition -------------------------------------------------------
 
 fetch_teams <- function(season) {
-
-  t <-
-    cfbfastR::cfbd_team_info(
-      only_fbs = TRUE,
-      year = season
-    )
-
+  t <- cfbfastR::cfbd_team_info(
+    only_fbs = TRUE,
+    year = season
+  )
 
   require_cols(
     t,
-    c(
-      "school",
-      "conference"
-    ),
+    c("school", "conference"),
     "cfbd_team_info"
   )
 
+  logo_col <- intersect(
+    c("logo", "logos", "logo_url"),
+    names(t)
+  )[1]
 
   t %>%
     transmute(
-
-      team =
-        school,
-
+      team = school,
       conference,
-
-      # Keep CFBD's primary logo URL when available.
-      # The frontend uses this to draw logos on the Plotly chart
-      # and in downloadable graphics.
-      logo =
-        if (
-          "logo" %in% names(t)
-        ) {
-          logo
-        } else {
-          NA_character_
-        }
-
+      logo = if (!is.na(logo_col)) {
+        as.character(.data[[logo_col]])
+      } else {
+        NA_character_
+      }
     )
-
 }
 
 
 fetch_games <- function(season) {
-
-  g <-
-    cfbfastR::cfbd_game_info(
-      season,
-      season_type = "regular"
-    )
-
+  g <- cfbfastR::cfbd_game_info(
+    season,
+    season_type = "regular"
+  )
 
   require_cols(
     g,
@@ -426,130 +268,83 @@ fetch_games <- function(season) {
     "cfbd_game_info"
   )
 
-
   g %>%
     mutate(
-
       completed =
         !is.na(home_points) &
         !is.na(away_points)
-
     ) %>%
     select(
-
       game_id,
       week,
-
       home_team,
       away_team,
-
       home_points,
       away_points,
-
       neutral_site,
       completed
-
     )
-
 }
 
 
 fetch_pbp <- function(season) {
-
   msg(
     paste0(
       "Downloading play-by-play for %d ",
-      "(~100+ MB; silent and can take several ",
-      "minutes on slow connections)..."
+      "(~100+ MB; silent and can take several minutes on slow connections)..."
     ),
     season
   )
 
-
-  old_to <-
-    options(
-      timeout =
-        max(
-          1800,
-          getOption("timeout")
-        )
+  old_to <- options(
+    timeout = max(
+      1800,
+      getOption("timeout")
     )
-
+  )
 
   on.exit(
     options(old_to),
     add = TRUE
   )
 
+  pbp <- tryCatch(
+    cfbfastR::load_cfb_pbp(season),
+    error = function(e) {
+      msg(
+        paste0(
+          "load_cfb_pbp(%d) unavailable (%s) ",
+          "-- treating as preseason: no PBP."
+        ),
+        season,
+        conditionMessage(e)
+      )
 
-  pbp <-
-    tryCatch(
+      NULL
+    }
+  )
 
-      cfbfastR::load_cfb_pbp(
-        season
-      ),
-
-      error = function(e) {
-
-        msg(
-          paste0(
-            "load_cfb_pbp(%d) unavailable (%s) ",
-            "-- treating as preseason: no PBP."
-          ),
-          season,
-          conditionMessage(e)
-        )
-
-
-        NULL
-
-      }
-
-    )
-
-
-  if (
-    is.null(pbp) ||
-    nrow(pbp) == 0
-  ) {
-
+  if (is.null(pbp) || nrow(pbp) == 0) {
     return(NULL)
-
   }
 
-
-  pbp <-
-    pbp %>%
+  pbp <- pbp %>%
     distinct(
       game_id,
       id_play,
       .keep_all = TRUE
     ) %>%
     mutate(
-
-      season =
-        if (
-          "season" %in% names(.)
-        ) {
-
-          coalesce(
-            season,
-            year
-          )
-
-        } else {
-
-          year
-
-        }
-
+      season = if ("season" %in% names(.)) {
+        coalesce(season, year)
+      } else {
+        year
+      }
     )
-
 
   require_cols(
     pbp,
     c(
-
       "pass",
       "rush",
       "play_type",
@@ -569,7 +364,6 @@ fetch_pbp <- function(season) {
       "pos_team",
       "home",
       "away",
-
       "ppa",
       "offense_play",
       "defense_play",
@@ -585,63 +379,39 @@ fetch_pbp <- function(season) {
       "def_pos_team_timeouts",
       "drive_result",
       "def_pos_team"
-
     ),
     "load_cfb_pbp"
   )
 
-
   msg(
     "Play-by-play loaded: %d plays, weeks %d-%d.",
     nrow(pbp),
-    min(
-      pbp$week,
-      na.rm = TRUE
-    ),
-    max(
-      pbp$week,
-      na.rm = TRUE
-    )
+    min(pbp$week, na.rm = TRUE),
+    max(pbp$week, na.rm = TRUE)
   )
 
-
   pbp
-
 }
 
 
 # ---- wEPA -------------------------------------------------------------------
 
 tag_wepa_features <- function(pbp) {
-
-  tagged <-
-    pbp %>%
+  tagged <- pbp %>%
     mutate(
-
       passing_epa =
-        ifelse(
-          pass == 1,
-          1,
-          0
-        ),
+        ifelse(pass == 1, 1, 0),
 
       passing_ex_int_epa =
         ifelse(
           pass == 1 &
-            !grepl(
-              "Interception",
-              play_type
-            ),
+            !grepl("Interception", play_type),
           1,
           0
         ),
 
       rush_epa =
-        ifelse(
-          rush == 1,
-          1,
-          0
-        ),
+        ifelse(rush == 1, 1, 0),
 
       pos_rush_epa =
         ifelse(
@@ -696,24 +466,21 @@ tag_wepa_features <- function(pbp) {
 
       incompleted_passing_epa =
         ifelse(
-          play_type ==
-            "Pass Incompletion",
+          play_type == "Pass Incompletion",
           1,
           0
         ),
 
       off_holding_epa =
         ifelse(
-          penalty_detail ==
-            "Offensive Holding",
+          penalty_detail == "Offensive Holding",
           1,
           0
         ),
 
       defensive_pi_epa =
         ifelse(
-          penalty_detail ==
-            "Pass Interference" &
+          penalty_detail == "Pass Interference" &
             EPA > 0,
           1,
           0
@@ -721,24 +488,21 @@ tag_wepa_features <- function(pbp) {
 
       false_start_epa =
         ifelse(
-          penalty_detail ==
-            "False Start",
+          penalty_detail == "False Start",
           1,
           0
         ),
 
       roughing_epa =
         ifelse(
-          penalty_detail ==
-            "Roughing the Passer",
+          penalty_detail == "Roughing the Passer",
           1,
           0
         ),
 
       defensive_holding_epa =
         ifelse(
-          penalty_detail ==
-            "Defensive Holding",
+          penalty_detail == "Defensive Holding",
           1,
           0
         ),
@@ -781,8 +545,7 @@ tag_wepa_features <- function(pbp) {
 
       offensive_pi_epa =
         ifelse(
-          penalty_detail ==
-            "Pass Interference" &
+          penalty_detail == "Pass Interference" &
             EPA <= 0,
           1,
           0
@@ -800,18 +563,10 @@ tag_wepa_features <- function(pbp) {
         ),
 
       sack_epa =
-        ifelse(
-          sack == 1,
-          1,
-          0
-        ),
+        ifelse(sack == 1, 1, 0),
 
       fumble_epa =
-        ifelse(
-          fumble_vec == 1,
-          1,
-          0
-        ),
+        ifelse(fumble_vec == 1, 1, 0),
 
       sack_fumble_epa =
         ifelse(
@@ -840,10 +595,7 @@ tag_wepa_features <- function(pbp) {
       int_epa =
         ifelse(
           pass == 1 &
-            grepl(
-              "Interception",
-              play_type
-            ),
+            grepl("Interception", play_type),
           1,
           0
         ),
@@ -851,90 +603,54 @@ tag_wepa_features <- function(pbp) {
       return_td_epa =
         ifelse(
           (
-            grepl(
-              "Return",
-              play_type
-            ) |
-              grepl(
-                "Recovery",
-                play_type
-              )
+            grepl("Return", play_type) |
+              grepl("Recovery", play_type)
           ) &
-            grepl(
-              "Touchdown",
-              play_type
-            ),
+            grepl("Touchdown", play_type),
           1,
           0
         ),
 
       punt_epa =
         ifelse(
-          grepl(
-            "Punt",
-            play_type
-          ),
+          grepl("Punt", play_type),
           1,
           0
         ),
 
       blocked_punt_epa =
         ifelse(
-          grepl(
-            "Blocked Punt",
-            play_type
-          ),
+          grepl("Blocked Punt", play_type),
           1,
           0
         ),
 
       fg_epa =
         ifelse(
-          grepl(
-            "Field Goal",
-            play_type
-          ),
+          grepl("Field Goal", play_type),
           1,
           0
         ),
 
       kickoff_epa =
         ifelse(
-          grepl(
-            "Kickoff",
-            play_type
-          ),
+          grepl("Kickoff", play_type),
           1,
           0
         ),
 
       first_down_epa =
-        ifelse(
-          down == 1,
-          1,
-          0
-        ),
+        ifelse(down == 1, 1, 0),
 
       second_down_epa =
-        ifelse(
-          down == 2,
-          1,
-          0
-        ),
+        ifelse(down == 2, 1, 0),
 
       third_down_epa =
-        ifelse(
-          down == 3,
-          1,
-          0
-        ),
+        ifelse(down == 3, 1, 0),
 
       fourth_down_epa =
         ifelse(
-          (
-            rush == 1 |
-              pass == 1
-          ) &
+          (rush == 1 | pass == 1) &
             down == 4,
           1,
           0
@@ -943,14 +659,8 @@ tag_wepa_features <- function(pbp) {
       third_down_ex_sack_int_epa =
         ifelse(
           down == 3 &
-            !grepl(
-              "Interception",
-              play_type
-            ) &
-            !grepl(
-              "Sack",
-              play_type
-            ),
+            !grepl("Interception", play_type) &
+            !grepl("Sack", play_type),
           1,
           0
         ),
@@ -967,14 +677,8 @@ tag_wepa_features <- function(pbp) {
         ifelse(
           down == 3 &
             distance > 5 &
-            !grepl(
-              "Interception",
-              play_type
-            ) &
-            !grepl(
-              "Sack",
-              play_type
-            ),
+            !grepl("Interception", play_type) &
+            !grepl("Sack", play_type),
           1,
           0
         ),
@@ -1109,30 +813,24 @@ tag_wepa_features <- function(pbp) {
 
       garbage_time_epa =
         ifelse(
-
           (
             score_diff >= GT_THRESH["1"] &
               period == 1
           ) |
-
             (
               score_diff >= GT_THRESH["2"] &
                 period == 2
             ) |
-
             (
               score_diff >= GT_THRESH["3"] &
                 period == 3
             ) |
-
             (
               score_diff >= GT_THRESH["4"] &
                 period == 4
             ),
-
           1,
           0
-
         ),
 
       asym_low_wp_epa =
@@ -1169,15 +867,11 @@ tag_wepa_features <- function(pbp) {
           1,
           0
         )
-
     ) %>%
 
     rename_with(
       ~ paste0(
-        str_remove(
-          .x,
-          "_epa"
-        ),
+        str_remove(.x, "_epa"),
         "_weight"
       ),
       ends_with(
@@ -1195,10 +889,7 @@ tag_wepa_features <- function(pbp) {
     ) %>%
 
     rename_with(
-      ~ paste0(
-        "off_",
-        .x
-      ),
+      ~ paste0("off_", .x),
       (
         ends_with(
           "_weight",
@@ -1215,9 +906,7 @@ tag_wepa_features <- function(pbp) {
       ends_with("_weight")
     )
 
-
   tagged
-
 }
 
 
@@ -1227,65 +916,39 @@ apply_wepa_weights <- function(
   model_weights
 ) {
 
-  if (
-    is.null(model_weights)
-  ) {
-
+  if (is.null(model_weights)) {
     return(
       tibble(
-
-        off_wepa =
-          epa_vec,
-
-        def_wepa =
-          epa_vec
-
+        off_wepa = epa_vec,
+        def_wepa = epa_vec
       )
     )
-
   }
 
-
   if (
-    !is.null(
-      names(model_weights)
-    ) &&
-    all(
-      nzchar(
-        names(model_weights)
-      )
-    )
+    !is.null(names(model_weights)) &&
+    all(nzchar(names(model_weights)))
   ) {
 
-    missing_w <-
-      setdiff(
-        names(tagged),
-        names(model_weights)
-      )
-
+    missing_w <- setdiff(
+      names(tagged),
+      names(model_weights)
+    )
 
     if (length(missing_w)) {
-
       stop(
         "wEPA weights file lacks entries for: ",
-        paste(
-          missing_w,
-          collapse = ", "
-        ),
+        paste(missing_w, collapse = ", "),
         call. = FALSE
       )
-
     }
 
-
-    model_weights <-
-      model_weights[
-        names(tagged)
-      ]
+    model_weights <- model_weights[
+      names(tagged)
+    ]
 
   } else if (
-    length(model_weights) !=
-      ncol(tagged)
+    length(model_weights) != ncol(tagged)
   ) {
 
     stop(
@@ -1305,35 +968,22 @@ apply_wepa_weights <- function(
         "relying on canonical column order."
       )
     )
-
   }
 
-
   tagged %>%
-
     map2(
       model_weights,
       `*`
     ) %>%
-
     bind_cols() %>%
-
     mutate(
-
       across(
         ends_with("_weight"),
         ~ as.numeric(
-          replace_na(
-            .x,
-            0
-          ) +
-            1
+          replace_na(.x, 0) + 1
         )
       ),
-
-      epa =
-        epa_vec,
-
+      epa = epa_vec,
       off_wepa =
         pmap_dbl(
           pick(
@@ -1342,7 +992,6 @@ apply_wepa_weights <- function(
           ),
           prod
         ),
-
       def_wepa =
         pmap_dbl(
           pick(
@@ -1351,14 +1000,11 @@ apply_wepa_weights <- function(
           ),
           prod
         )
-
     ) %>%
-
     select(
       off_wepa,
       def_wepa
     )
-
 }
 
 
@@ -1369,17 +1015,13 @@ build_drives <- function(
   eckel_model = NULL
 ) {
 
-  drives <-
-    pbp %>%
-
+  drives <- pbp %>%
     arrange(
       game_id,
       drive_id,
       id_play
     ) %>%
-
     mutate(
-
       eck_ind_no_td =
         ifelse(
           down == 1 &
@@ -1387,9 +1029,7 @@ build_drives <- function(
           1,
           0
         )
-
     ) %>%
-
     group_by(
       game_id,
       week,
@@ -1397,9 +1037,7 @@ build_drives <- function(
       pos_team,
       def_pos_team
     ) %>%
-
     summarise(
-
       across(
         c(
           new_drive_pts,
@@ -1414,7 +1052,6 @@ build_drives <- function(
         ),
         ~ .[1]
       ),
-
       eck_ind_no_td =
         ifelse(
           sum(
@@ -1424,84 +1061,37 @@ build_drives <- function(
           1,
           0
         ),
-
-      .groups =
-        "drop"
-
+      .groups = "drop"
     ) %>%
-
     rename(
-
-      start_yards_to_goal =
-        yards_to_goal,
-
-      half_secs_rem =
-        TimeSecsRem,
-
-      game_secs_rem =
-        adj_TimeSecsRem,
-
-      drive_start_period =
-        period
-
+      start_yards_to_goal = yards_to_goal,
+      half_secs_rem = TimeSecsRem,
+      game_secs_rem = adj_TimeSecsRem,
+      drive_start_period = period
     ) %>%
-
     filter(
-
       start_yards_to_goal > 40,
-
-      !is.na(
-        pos_team_timeouts
-      ),
-
-      !is.na(
-        def_pos_team_timeouts
-      )
-
+      !is.na(pos_team_timeouts),
+      !is.na(def_pos_team_timeouts)
     ) %>%
-
-    group_by(
-      game_id
-    ) %>%
-
+    group_by(game_id) %>%
     mutate(
-
       prev_drive_result =
-        lag(
-          drive_result
-        )
-
+        lag(drive_result)
     ) %>%
-
     ungroup() %>%
-
     mutate(
-
       eckel =
         case_when(
-
-          new_drive_pts >= 6 ~
-            1,
-
-          eck_ind_no_td == 1 ~
-            1,
-
-          TRUE ~
-            0
-
+          new_drive_pts >= 6 ~ 1,
+          eck_ind_no_td == 1 ~ 1,
+          TRUE ~ 0
         )
-
     )
 
-
-  if (
-    !is.null(eckel_model)
-  ) {
-
-    drives <-
-      drives %>%
+  if (!is.null(eckel_model)) {
+    drives <- drives %>%
       mutate(
-
         eckel_prediction =
           suppressWarnings(
             predict.glm(
@@ -1510,32 +1100,19 @@ build_drives <- function(
               type = "response"
             )
           ),
-
         eckel_oe =
           eckel -
           eckel_prediction
-
       )
-
   } else {
-
-    drives <-
-      drives %>%
+    drives <- drives %>%
       mutate(
-
-        eckel_prediction =
-          NA_real_,
-
-        eckel_oe =
-          NA_real_
-
+        eckel_prediction = NA_real_,
+        eckel_oe = NA_real_
       )
-
   }
 
-
   drives
-
 }
 
 
@@ -1548,172 +1125,110 @@ team_week_stats <- function(
   thru_week
 ) {
 
-  p <-
-    pbp_aug %>%
+  p <- pbp_aug %>%
     filter(
       week <= thru_week,
       !is.na(ppa)
     )
 
-
-  d <-
-    drives %>%
+  d <- drives %>%
     filter(
       week <= thru_week
     )
 
-
-  off <-
-    p %>%
-
+  off <- p %>%
     filter(
-      offense_play %in%
-        fbs_teams
+      offense_play %in% fbs_teams
     ) %>%
-
     group_by(
-      team =
-        offense_play
+      team = offense_play
     ) %>%
-
     summarise(
-
       off_wepa =
         mean(
           off_wepa,
           na.rm = TRUE
         ),
-
       off_pass_epa =
         mean(
-          ppa[
-            pass == 1
-          ],
+          ppa[pass == 1],
           na.rm = TRUE
         ),
-
       off_rush_epa =
         mean(
-          ppa[
-            rush == 1
-          ],
+          ppa[rush == 1],
           na.rm = TRUE
         ),
-
-      .groups =
-        "drop"
-
+      .groups = "drop"
     )
 
-
-  def <-
-    p %>%
-
+  def <- p %>%
     filter(
-      defense_play %in%
-        fbs_teams
+      defense_play %in% fbs_teams
     ) %>%
-
     group_by(
-      team =
-        defense_play
+      team = defense_play
     ) %>%
-
     summarise(
-
       def_wepa =
         mean(
           def_wepa,
           na.rm = TRUE
         ),
-
       def_pass_epa =
         mean(
-          ppa[
-            pass == 1
-          ],
+          ppa[pass == 1],
           na.rm = TRUE
         ),
-
       def_rush_epa =
         mean(
-          ppa[
-            rush == 1
-          ],
+          ppa[rush == 1],
           na.rm = TRUE
         ),
-
-      .groups =
-        "drop"
-
+      .groups = "drop"
     )
 
-
-  eck_off <-
-    d %>%
-
+  eck_off <- d %>%
     filter(
-      pos_team %in%
-        fbs_teams
+      pos_team %in% fbs_teams
     ) %>%
-
     group_by(
-      team =
-        pos_team
+      team = pos_team
     ) %>%
-
     summarise(
-
       off_eckel_rate =
         mean(
           eckel,
           na.rm = TRUE
         ),
-
       off_eckel_rate_oe =
         mean(
           eckel_oe,
           na.rm = TRUE
         ),
-
-      .groups =
-        "drop"
-
+      .groups = "drop"
     )
 
-
-  eck_def <-
-    d %>%
-
+  eck_def <- d %>%
     filter(
-      def_pos_team %in%
-        fbs_teams
+      def_pos_team %in% fbs_teams
     ) %>%
-
     group_by(
-      team =
-        def_pos_team
+      team = def_pos_team
     ) %>%
-
     summarise(
-
       def_eckel_rate =
         mean(
           eckel,
           na.rm = TRUE
         ),
-
       def_eckel_rate_oe =
         mean(
           eckel_oe,
           na.rm = TRUE
         ),
-
-      .groups =
-        "drop"
-
+      .groups = "drop"
     )
-
 
   reduce(
     list(
@@ -1725,7 +1240,6 @@ team_week_stats <- function(
     full_join,
     by = "team"
   )
-
 }
 
 
@@ -1736,211 +1250,126 @@ fit_adjustment <- function(
   label
 ) {
 
-  fit <-
-    tryCatch(
-
-      lmer(
-
-        y ~
-          off_home +
-          (1 | offense) +
-          (1 | defense),
-
-        data =
-          model_df,
-
-        weights =
-          wt,
-
-        REML =
-          TRUE,
-
-        control =
-          lmerControl(
-
-            check.conv.singular =
-              "ignore",
-
-            calc.derivs =
-              FALSE
-
-          )
-
-      ),
-
-      error = function(e) {
-
-        msg(
-          paste0(
-            "[%s] lmer failed (%s); ",
-            "falling back to raw centered means."
-          ),
-          label,
-          conditionMessage(e)
+  fit <- tryCatch(
+    lmer(
+      y ~
+        off_home +
+        (1 | offense) +
+        (1 | defense),
+      data = model_df,
+      weights = wt,
+      REML = TRUE,
+      control =
+        lmerControl(
+          check.conv.singular = "ignore",
+          calc.derivs = FALSE
         )
+    ),
+    error = function(e) {
+      msg(
+        paste0(
+          "[%s] lmer failed (%s); ",
+          "falling back to raw centered means."
+        ),
+        label,
+        conditionMessage(e)
+      )
 
+      NULL
+    }
+  )
 
-        NULL
+  if (is.null(fit)) {
 
-      }
-
-    )
-
-
-  if (
-    is.null(fit)
-  ) {
-
-    off <-
-      model_df %>%
-
-      group_by(
-        offense
-      ) %>%
-
+    off <- model_df %>%
+      group_by(offense) %>%
       summarise(
-
         v =
           weighted.mean(
             y,
             wt,
             na.rm = TRUE
           ),
-
-        .groups =
-          "drop"
-
+        .groups = "drop"
       ) %>%
-
       mutate(
-
         v =
           v -
           mean(
             v,
             na.rm = TRUE
           )
-
       )
 
-
-    def <-
-      model_df %>%
-
-      group_by(
-        defense
-      ) %>%
-
+    def <- model_df %>%
+      group_by(defense) %>%
       summarise(
-
         v =
           weighted.mean(
             y,
             wt,
             na.rm = TRUE
           ),
-
-        .groups =
-          "drop"
-
+        .groups = "drop"
       ) %>%
-
       mutate(
-
         v =
           v -
           mean(
             v,
             na.rm = TRUE
           )
-
       )
-
 
     return(
-
       list(
-
         off =
           off %>%
           transmute(
-            team =
-              offense,
-            off_adj =
-              v
+            team = offense,
+            off_adj = v
           ),
 
         def =
           def %>%
           transmute(
-            team =
-              defense,
-            def_adj =
-              v
+            team = defense,
+            def_adj = v
           ),
 
-        hfa =
-          NA_real_
-
+        hfa = NA_real_
       )
-
     )
-
   }
 
-
-  re <-
-    ranef(fit)
-
+  re <- ranef(fit)
 
   list(
-
     off =
       tibble(
-
         team =
-          rownames(
-            re$offense
-          ),
-
+          rownames(re$offense),
         off_adj =
           re$offense[[1]]
-
       ),
-
 
     def =
       tibble(
-
         team =
-          rownames(
-            re$defense
-          ),
-
+          rownames(re$defense),
         def_adj =
           re$defense[[1]]
-
       ),
-
 
     hfa =
       tryCatch(
-
         unname(
-          fixef(fit)[
-            "off_home"
-          ]
+          fixef(fit)["off_home"]
         ),
-
         error =
-          function(e) {
-            NA_real_
-          }
-
+          function(e) NA_real_
       )
-
   )
-
 }
 
 
@@ -1951,75 +1380,56 @@ load_prior <- function(
   teams_tbl
 ) {
 
-  fbs <-
-    teams_tbl$team
+  fbs <- teams_tbl$team
 
-
-  /*
-   * This is intentionally a HARD FAILURE.
-   *
-   * A missing preseason prior should never silently turn
-   * into a zero baseline, because that would heavily shrink
-   * the first several weeks toward zero.
-   */
-  if (
-    !file.exists(path)
-  ) {
-
+  # Missing preseason data is a hard failure.
+  # A flat zero prior would incorrectly shrink early-season ratings toward zero.
+  if (!file.exists(path)) {
     stop(
       sprintf(
         paste0(
           "Required preseason prior file is missing: %s. ",
-          "Week 0 must be the preseason baseline, and Weeks 1+ ",
-          "blend that baseline with current-season data. ",
-          "Create/commit the file before publishing."
+          "Week 0 must use the preseason baseline, and Weeks 1+ blend ",
+          "that baseline with current-season data. ",
+          "Create or commit the file before publishing."
         ),
         path
       ),
       call. = FALSE
     )
-
   }
 
+  raw <- read_csv(
+    path,
+    show_col_types = FALSE
+  )
 
-  raw <-
-    read_csv(
-      path,
-      show_col_types = FALSE
-    )
+  team_col <- intersect(
+    c(
+      "team",
+      "school",
+      "Team",
+      "TEAM"
+    ),
+    names(raw)
+  )[1]
 
-
-  team_col <-
-    intersect(
-      c(
-        "team",
-        "school",
-        "Team",
-        "TEAM"
-      ),
-      names(raw)
-    )[1]
-
-
-  power_col <-
-    intersect(
-      c(
-        "power_pts",
-        "power",
-        "power_rating",
-        "rating",
-        "btb_power",
-        "preseason_power"
-      ),
-      names(raw)
-    )[1]
-
+  power_col <- intersect(
+    c(
+      "power_pts",
+      "power",
+      "power_rating",
+      "rating",
+      "btb_power",
+      "preseason_power"
+    ),
+    names(raw)
+  )[1]
 
   if (
     is.na(team_col) ||
     is.na(power_col)
   ) {
-
     stop(
       "Preseason file needs a team column and a power column. Found: ",
       paste(
@@ -2028,37 +1438,28 @@ load_prior <- function(
       ),
       call. = FALSE
     )
-
   }
 
+  off_col <- intersect(
+    c(
+      "off_pts",
+      "off",
+      "off_rating"
+    ),
+    names(raw)
+  )[1]
 
-  off_col <-
-    intersect(
-      c(
-        "off_pts",
-        "off",
-        "off_rating"
-      ),
-      names(raw)
-    )[1]
+  def_col <- intersect(
+    c(
+      "def_pts",
+      "def",
+      "def_rating"
+    ),
+    names(raw)
+  )[1]
 
-
-  def_col <-
-    intersect(
-      c(
-        "def_pts",
-        "def",
-        "def_rating"
-      ),
-      names(raw)
-    )[1]
-
-
-  pri <-
-    raw %>%
-
+  pri <- raw %>%
     transmute(
-
       team =
         recode(
           .data[[team_col]],
@@ -2071,9 +1472,7 @@ load_prior <- function(
         ),
 
       off =
-        if (
-          !is.na(off_col)
-        ) {
+        if (!is.na(off_col)) {
           as.numeric(
             .data[[off_col]]
           )
@@ -2082,30 +1481,21 @@ load_prior <- function(
         },
 
       def =
-        if (
-          !is.na(def_col)
-        ) {
+        if (!is.na(def_col)) {
           as.numeric(
             .data[[def_col]]
           )
         } else {
           NA_real_
         }
-
     )
 
+  unmatched <- setdiff(
+    pri$team,
+    fbs
+  )
 
-  unmatched <-
-    setdiff(
-      pri$team,
-      fbs
-    )
-
-
-  if (
-    length(unmatched)
-  ) {
-
+  if (length(unmatched)) {
     msg(
       paste0(
         "PRESEASON TEAMS NOT MATCHED TO CFBD NAMES ",
@@ -2116,131 +1506,78 @@ load_prior <- function(
         collapse = ", "
       )
     )
-
   }
 
-
-  pri <-
-    pri %>%
+  pri <- pri %>%
     filter(
-      team %in%
-        fbs
+      team %in% fbs
     )
 
-
-  # Center preseason power.
-  pri <-
-    pri %>%
+  pri <- pri %>%
     mutate(
-
       power =
         power -
         mean(
           power,
           na.rm = TRUE
         )
-
     )
-
 
   scl <- 1
 
-
-  if (
-    isTRUE(
-      STANDARDIZE_PRIOR
+  if (isTRUE(STANDARDIZE_PRIOR)) {
+    s <- sd(
+      pri$power,
+      na.rm = TRUE
     )
-  ) {
-
-    s <-
-      sd(
-        pri$power,
-        na.rm = TRUE
-      )
-
 
     if (
       is.finite(s) &&
       s > 0
     ) {
-
-      scl <-
-        TARGET_SD /
-        s
-
+      scl <- TARGET_SD / s
     }
-
   }
 
-
-  pri <-
-    pri %>%
-
+  pri <- pri %>%
     mutate(
-
       power =
-        power *
-        scl,
-
+        power * scl,
 
       off =
-        if (
-          all(
-            is.na(off)
-          )
-        ) {
-
+        if (all(is.na(off))) {
           power / 2
-
         } else {
-
           (
             off -
-            mean(
-              off,
-              na.rm = TRUE
-            )
-          ) *
-            scl
-
+              mean(
+                off,
+                na.rm = TRUE
+              )
+          ) * scl
         },
-
 
       def =
-        if (
-          all(
-            is.na(def)
-          )
-        ) {
-
+        if (all(is.na(def))) {
           power / 2
-
         } else {
-
           (
             def -
-            mean(
-              def,
-              na.rm = TRUE
-            )
-          ) *
-            scl
-
+              mean(
+                def,
+                na.rm = TRUE
+              )
+          ) * scl
         },
 
-
       power =
-        off +
-        def
-
+        off + def
     )
-
 
   if (
     is.na(off_col) ||
     is.na(def_col)
   ) {
-
     msg(
       paste0(
         "Preseason file has no off/def split; ",
@@ -2249,29 +1586,21 @@ load_prior <- function(
         "for better early-season off/def ranks."
       )
     )
-
   }
 
+  missing <- setdiff(
+    fbs,
+    pri$team
+  )
 
-  missing <-
-    setdiff(
-      fbs,
-      pri$team
+  if (length(missing)) {
+
+    fill <- quantile(
+      pri$power,
+      NEW_TEAM_PRIOR_Q,
+      na.rm = TRUE,
+      names = FALSE
     )
-
-
-  if (
-    length(missing)
-  ) {
-
-    fill <-
-      quantile(
-        pri$power,
-        NEW_TEAM_PRIOR_Q,
-        na.rm = TRUE,
-        names = FALSE
-      )
-
 
     msg(
       paste0(
@@ -2280,7 +1609,7 @@ load_prior <- function(
       ),
       round(
         100 *
-        NEW_TEAM_PRIOR_Q
+          NEW_TEAM_PRIOR_Q
       ),
       fill,
       paste(
@@ -2289,123 +1618,26 @@ load_prior <- function(
       )
     )
 
-
-    pri <-
-      bind_rows(
-
-        pri,
-
-        tibble(
-
-          team =
-            missing,
-
-          power =
-            fill,
-
-          off =
-            fill / 2,
-
-          def =
-            fill / 2
-
-        )
-
+    pri <- bind_rows(
+      pri,
+      tibble(
+        team = missing,
+        power = fill,
+        off = fill / 2,
+        def = fill / 2
       )
-
+    )
   }
 
-
   pri %>%
-
     transmute(
-
       team,
-
-      prior_power =
-        power,
-
-      prior_off =
-        off,
-
-      prior_def =
-        def
-
+      prior_power = power,
+      prior_off = off,
+      prior_def = def
     )
-
 }
 
-
-# ---- Week 0 -----------------------------------------------------------------
-
-make_week0_snapshot <- function(
-  teams_tbl,
-  prior
-) {
-
-  teams_tbl %>%
-
-    left_join(
-      prior,
-      by = "team"
-    ) %>%
-
-    transmute(
-
-      season =
-        TARGET_SEASON,
-
-      week =
-        0L,
-
-      team,
-
-      conference,
-
-      logo,
-
-      games =
-        0L,
-
-      prior_weight =
-        1,
-
-      power_pts =
-        prior_power,
-
-      off_pts =
-        prior_off,
-
-      def_pts =
-        prior_def,
-
-      power_rank =
-        min_rank(
-          desc(
-            power_pts
-          )
-        ),
-
-      off_rank =
-        min_rank(
-          desc(
-            off_pts
-          )
-        ),
-
-      def_rank =
-        min_rank(
-          desc(
-            def_pts
-          )
-        )
-
-    )
-
-}
-
-
-# ---- Preseason weighting ----------------------------------------------------
 
 prior_weight <- function(
   games_played
@@ -2415,10 +1647,8 @@ prior_weight <- function(
     0,
     1 -
       games_played /
-      PRIOR_G_FULL
-  ) ^
-    PRIOR_POW
-
+        PRIOR_G_FULL
+  ) ^ PRIOR_POW
 }
 
 
@@ -2434,252 +1664,150 @@ snapshot_week <- function(
   have_weights
 ) {
 
-  fbs <-
-    teams_tbl$team
+  fbs <- teams_tbl$team
 
-
-  # Games played through this week.
-  gp <-
-    games %>%
-
+  gp <- games %>%
     filter(
       completed,
       week <= w
     ) %>%
-
     select(
       home_team,
       away_team
     ) %>%
-
     pivot_longer(
       everything(),
       values_to = "team"
     ) %>%
-
     filter(
-      team %in%
-        fbs
+      team %in% fbs
     ) %>%
-
     count(
       team,
       name = "games"
     )
 
-
-  # Rating model:
-  # CURRENT SEASON ONLY, through week w.
-  mdl <-
-    pbp_aug %>%
-
+  mdl <- pbp_aug %>%
     filter(
-
       week <= w,
-
       rush == 1 |
         pass == 1,
-
-      !is.na(
-        off_wepa
-      )
-
+      !is.na(off_wepa)
     ) %>%
-
     transmute(
-
       offense =
         ifelse(
-          offense_play %in%
-            fbs,
+          offense_play %in% fbs,
           offense_play,
           "NON_FBS"
         ),
 
       defense =
         ifelse(
-          defense_play %in%
-            fbs,
+          defense_play %in% fbs,
           defense_play,
           "NON_FBS"
         ),
 
       off_home =
         case_when(
-
-          isTRUE_v(
-            neutral_site
-          ) ~
-            0,
-
-          offense_play ==
-            home ~
-            1,
-
-          TRUE ~
-            -1
-
+          isTRUE_v(neutral_site) ~ 0,
+          offense_play == home ~ 1,
+          TRUE ~ -1
         ),
 
-      y =
-        off_wepa,
+      y = off_wepa,
+      y_epa = ppa,
 
-      y_epa =
-        ppa,
-
-      # Recency weighting applies ONLY inside the current season.
       wt =
         RECENCY_DECAY ^
-        (
-          w -
-          week
-        ),
+          (w - week),
 
-      is_pass =
-        pass == 1,
-
-      is_rush =
-        rush == 1,
-
-      garbage =
-        garbage_flag
-
+      is_pass = pass == 1,
+      is_rush = rush == 1,
+      garbage = garbage_flag
     )
 
-
-  if (
-    !have_weights
-  ) {
-
-    mdl <-
-      mdl %>%
-      filter(
-        !garbage
-      )
-
+  if (!have_weights) {
+    mdl <- mdl %>%
+      filter(!garbage)
   }
 
-
-  # Convert wEPA model scale toward EPA-equivalent units.
   lam <- {
-
     cc <-
       !is.na(mdl$y) &
       !is.na(mdl$y_epa)
 
-
-    s_w <-
-      sd(
-        mdl$y[cc]
-      )
-
-
-    s_e <-
-      sd(
-        mdl$y_epa[cc]
-      )
-
+    s_w <- sd(mdl$y[cc])
+    s_e <- sd(mdl$y_epa[cc])
 
     if (
       is.finite(s_w) &&
       is.finite(s_e) &&
       s_w > 0
     ) {
-
-      s_e /
-        s_w
-
+      s_e / s_w
     } else {
-
       1
-
     }
-
   }
 
-
-  adj_all <-
-    fit_adjustment(
-      mdl,
-      sprintf(
-        "wk%02d all",
-        w
-      )
-    )
-
-
-  adj_rush <-
-    fit_adjustment(
-
-      mdl %>%
-
-        filter(
-          is_rush,
-          !is.na(y_epa)
-        ) %>%
-
-        mutate(
-          y =
-            y_epa
-        ),
-
-      sprintf(
-        "wk%02d rush",
-        w
-      )
-
-    )
-
-
-  adj_pass <-
-    fit_adjustment(
-
-      mdl %>%
-
-        filter(
-          is_pass,
-          !is.na(y_epa)
-        ) %>%
-
-        mutate(
-          y =
-            y_epa
-        ),
-
-      sprintf(
-        "wk%02d pass",
-        w
-      )
-
-    )
-
-
-  # Raw displayed stats remain current-season only.
-  stats <-
-    team_week_stats(
-      pbp_aug,
-      drives,
-      fbs,
+  adj_all <- fit_adjustment(
+    mdl,
+    sprintf(
+      "wk%02d all",
       w
     )
+  )
 
+  adj_rush <- fit_adjustment(
+    mdl %>%
+      filter(
+        is_rush,
+        !is.na(y_epa)
+      ) %>%
+      mutate(
+        y = y_epa
+      ),
+    sprintf(
+      "wk%02d rush",
+      w
+    )
+  )
 
-  out <-
-    teams_tbl %>%
+  adj_pass <- fit_adjustment(
+    mdl %>%
+      filter(
+        is_pass,
+        !is.na(y_epa)
+      ) %>%
+      mutate(
+        y = y_epa
+      ),
+    sprintf(
+      "wk%02d pass",
+      w
+    )
+  )
 
+  stats <- team_week_stats(
+    pbp_aug,
+    drives,
+    fbs,
+    w
+  )
+
+  out <- teams_tbl %>%
     left_join(
       gp,
       by = "team"
     ) %>%
-
     mutate(
-
       games =
         coalesce(
           games,
           0L
         )
-
     ) %>%
 
     left_join(
@@ -2693,55 +1821,39 @@ snapshot_week <- function(
     ) %>%
 
     left_join(
-
       adj_rush$off %>%
-
         rename(
           adj_off_rush_epa =
             off_adj
         ),
-
       by = "team"
-
     ) %>%
 
     left_join(
-
       adj_rush$def %>%
-
         rename(
           adj_def_rush_epa =
             def_adj
         ),
-
       by = "team"
-
     ) %>%
 
     left_join(
-
       adj_pass$off %>%
-
         rename(
           adj_off_pass_epa =
             off_adj
         ),
-
       by = "team"
-
     ) %>%
 
     left_join(
-
       adj_pass$def %>%
-
         rename(
           adj_def_pass_epa =
             def_adj
         ),
-
       by = "team"
-
     ) %>%
 
     left_join(
@@ -2755,194 +1867,140 @@ snapshot_week <- function(
     ) %>%
 
     mutate(
-
       data_off_pts =
         coalesce(
           off_adj,
           0
         ) *
-        lam *
-        PLAYS_SCALE,
+          lam *
+          PLAYS_SCALE,
 
-
-      # Positive defensive rating = points prevented.
       data_def_pts =
         -coalesce(
           def_adj,
           0
         ) *
-        lam *
-        PLAYS_SCALE,
-
+          lam *
+          PLAYS_SCALE,
 
       prior_weight =
-        prior_weight(
-          games
-        ),
-
+        prior_weight(games),
 
       off_pts =
-
         prior_weight *
-        prior_off +
-
-        (
-          1 -
-          prior_weight
-        ) *
-        data_off_pts,
-
+          prior_off +
+          (
+            1 -
+              prior_weight
+          ) *
+            data_off_pts,
 
       def_pts =
-
         prior_weight *
-        prior_def +
-
-        (
-          1 -
-          prior_weight
-        ) *
-        data_def_pts,
-
+          prior_def +
+          (
+            1 -
+              prior_weight
+          ) *
+            data_def_pts,
 
       power_pts =
         off_pts +
-        def_pts,
-
+          def_pts,
 
       season =
         TARGET_SEASON,
 
-
       week =
         w
-
     ) %>%
 
     mutate(
-
       power_rank =
         min_rank(
-          desc(
-            power_pts
-          )
+          desc(power_pts)
         ),
 
       off_rank =
         min_rank(
-          desc(
-            off_pts
-          )
+          desc(off_pts)
         ),
 
       def_rank =
         min_rank(
-          desc(
-            def_pts
-          )
+          desc(def_pts)
         ),
-
 
       off_wepa_rank =
         min_rank(
-          desc(
-            off_wepa
-          )
+          desc(off_wepa)
         ),
 
       off_pass_epa_rank =
         min_rank(
-          desc(
-            off_pass_epa
-          )
+          desc(off_pass_epa)
         ),
 
       off_rush_epa_rank =
         min_rank(
-          desc(
-            off_rush_epa
-          )
+          desc(off_rush_epa)
         ),
 
       off_eckel_rate_rank =
         min_rank(
-          desc(
-            off_eckel_rate
-          )
+          desc(off_eckel_rate)
         ),
-
 
       def_wepa_rank =
-        min_rank(
-          def_wepa
-        ),
+        min_rank(def_wepa),
 
       def_pass_epa_rank =
-        min_rank(
-          def_pass_epa
-        ),
+        min_rank(def_pass_epa),
 
       def_rush_epa_rank =
-        min_rank(
-          def_rush_epa
-        ),
+        min_rank(def_rush_epa),
 
       def_eckel_rate_rank =
-        min_rank(
-          def_eckel_rate
-        )
-
+        min_rank(def_eckel_rate)
     ) %>%
 
     select(
-
       season,
       week,
-
       team,
       conference,
       logo,
-
       games,
       prior_weight,
-
       power_pts,
       off_pts,
       def_pts,
-
       power_rank,
       off_rank,
       def_rank,
-
       off_wepa,
       off_pass_epa,
       off_rush_epa,
       off_eckel_rate,
       off_eckel_rate_oe,
-
       def_wepa,
       def_pass_epa,
       def_rush_epa,
       def_eckel_rate,
       def_eckel_rate_oe,
-
       adj_off_rush_epa,
       adj_def_rush_epa,
       adj_off_pass_epa,
       adj_def_pass_epa,
-
       ends_with("_rank")
-
     )
-
 
   attr(
     out,
     "hfa_epa"
   ) <-
     adj_all$hfa *
-    lam
-
+      lam
 
   attr(
     out,
@@ -2950,43 +2008,29 @@ snapshot_week <- function(
   ) <-
     lam
 
-
   out
-
 }
 
 
-# ---- Vectorized logical helper ---------------------------------------------
-
 isTRUE_v <- function(x) {
-
-  !is.na(x) &
-    x
-
+  !is.na(x) & x
 }
 
 
 # ---- Main -------------------------------------------------------------------
 
-run_main <-
-  !nzchar(
-    Sys.getenv(
-      "BTB_SOURCE_ONLY"
-    )
-  )
+run_main <- !nzchar(
+  Sys.getenv("BTB_SOURCE_ONLY")
+)
 
 
 if (run_main) {
 
-
   if (
     !nzchar(
-      Sys.getenv(
-        "CFBD_API_KEY"
-      )
+      Sys.getenv("CFBD_API_KEY")
     )
   ) {
-
     stop(
       paste0(
         "CFBD_API_KEY is not set. ",
@@ -2995,19 +2039,14 @@ if (run_main) {
       ),
       call. = FALSE
     )
-
   }
-
 
   ensure_cfbfastR()
 
-
-  out_dir <-
-    file.path(
-      OUT_ROOT,
-      TARGET_SEASON
-    )
-
+  out_dir <- file.path(
+    OUT_ROOT,
+    TARGET_SEASON
+  )
 
   dir.create(
     file.path(
@@ -3018,33 +2057,20 @@ if (run_main) {
     showWarnings = FALSE
   )
 
+  teams_tbl <- fetch_teams(
+    TARGET_SEASON
+  )
 
-  # ---------------------------------------------------------------------------
-  # Inputs
-  # ---------------------------------------------------------------------------
+  games <- fetch_games(
+    TARGET_SEASON
+  )
 
-  teams_tbl <-
-    fetch_teams(
-      TARGET_SEASON
-    )
-
-
-  games <-
-    fetch_games(
-      TARGET_SEASON
-    )
-
-
-  # REQUIRED preseason baseline.
-  prior <-
-    load_prior(
-      PRESEASON_FILE,
-      teams_tbl
-    )
-
+  prior <- load_prior(
+    PRESEASON_FILE,
+    teams_tbl
+  )
 
   model_weights <-
-
     if (
       file.exists(
         MODEL_WEIGHTS_FILE
@@ -3066,14 +2092,10 @@ if (run_main) {
         MODEL_WEIGHTS_FILE
       )
 
-
       NULL
-
     }
 
-
   eckel_model <-
-
     if (
       file.exists(
         ECKEL_MODEL_FILE
@@ -3095,92 +2117,49 @@ if (run_main) {
         ECKEL_MODEL_FILE
       )
 
-
       NULL
-
     }
 
+  pbp <- fetch_pbp(
+    TARGET_SEASON
+  )
 
-  # ---------------------------------------------------------------------------
-  # CURRENT-SEASON PBP ONLY.
-  # ---------------------------------------------------------------------------
-
-  pbp <-
-    fetch_pbp(
-      TARGET_SEASON
-    )
-
-
-  completed_wk <-
-    games %>%
-    filter(
-      completed
-    ) %>%
-    pull(
-      week
-    )
-
+  completed_wk <- games %>%
+    filter(completed) %>%
+    pull(week)
 
   max_completed <-
-
-    if (
-      length(completed_wk)
-    ) {
-
-      max(
-        completed_wk
-      )
-
+    if (length(completed_wk)) {
+      max(completed_wk)
     } else {
-
       0L
-
     }
 
-
   max_pbp_wk <-
-
-    if (
-      !is.null(pbp)
-    ) {
-
+    if (!is.null(pbp)) {
       max(
         pbp$week,
         na.rm = TRUE
       )
-
     } else {
-
       0L
-
     }
 
+  thru_week <- min(
+    max_completed,
+    max_pbp_wk
+  )
 
-  thru_week <-
-    min(
-      max_completed,
-      max_pbp_wk
-    )
-
-
-  if (
-    !is.na(
+  if (!is.na(MAX_WEEK_ARG)) {
+    thru_week <- min(
+      thru_week,
       MAX_WEEK_ARG
     )
-  ) {
-
-    thru_week <-
-      min(
-        thru_week,
-        MAX_WEEK_ARG
-      )
-
   }
-
 
   if (
     max_pbp_wk <
-    max_completed
+      max_completed
   ) {
 
     msg(
@@ -3194,42 +2173,90 @@ if (run_main) {
       max_pbp_wk,
       thru_week
     )
-
   }
-
 
   if (
     (
       is.null(pbp) ||
-      max_pbp_wk < 1
+        max_pbp_wk < 1
     ) &&
-    max_completed >= 1
+      max_completed >= 1
   ) {
 
     stop(
       sprintf(
         paste0(
-          "Play-by-play came back empty while %d completed ",
-          "week(s) exist. This is a data-load failure, NOT preseason; ",
-          "refusing to publish a prior-only snapshot mid-season. ",
-          "Most common cause: the large PBP download timing out ",
-          "or dropping. Check the connection and rerun."
+          "Play-by-play came back empty while %d completed week(s) exist. ",
+          "This is a data-load failure, NOT preseason; refusing to ",
+          "publish a prior-only snapshot mid-season. ",
+          "Check the connection and rerun."
         ),
         max_completed
       ),
       call. = FALSE
     )
-
   }
 
 
-  # ===========================================================================
-  # PRESEASON / WEEK 0
-  # ===========================================================================
+  # ---------------------------------------------------------------------------
+  # Week 0
+  # ---------------------------------------------------------------------------
+
+  week0 <- teams_tbl %>%
+    left_join(
+      prior,
+      by = "team"
+    ) %>%
+    transmute(
+      season =
+        TARGET_SEASON,
+
+      week =
+        0L,
+
+      team,
+      conference,
+      logo,
+
+      games =
+        0L,
+
+      prior_weight =
+        1,
+
+      power_pts =
+        prior_power,
+
+      off_pts =
+        prior_off,
+
+      def_pts =
+        prior_def,
+
+      power_rank =
+        min_rank(
+          desc(power_pts)
+        ),
+
+      off_rank =
+        min_rank(
+          desc(off_pts)
+        ),
+
+      def_rank =
+        min_rank(
+          desc(def_pts)
+        )
+    )
+
+
+  # ---------------------------------------------------------------------------
+  # Preseason-only output
+  # ---------------------------------------------------------------------------
 
   if (
     thru_week < 1 ||
-    is.null(pbp)
+      is.null(pbp)
   ) {
 
     msg(
@@ -3239,86 +2266,50 @@ if (run_main) {
       )
     )
 
-
-    snap0 <-
-      make_week0_snapshot(
-        teams_tbl,
-        prior
-      ) %>%
-
+    snap0 <- week0 %>%
       mutate(
-
-        power_change =
-          0,
-
-        rank_change =
-          0L
-
+        power_change = 0,
+        rank_change = 0L
       )
 
-
     write_csv(
-
       snap0,
-
       file.path(
         out_dir,
         "weekly",
         "week_00.csv"
       )
-
     )
 
-
     write_csv(
-
       snap0,
-
       file.path(
         out_dir,
         "latest.csv"
       )
-
     )
 
-
     write_csv(
-
       snap0,
-
       file.path(
         out_dir,
         "ratings_history.csv"
       )
-
     )
 
-
     write_json(
-
       snap0,
-
       file.path(
         out_dir,
         "latest.json"
       ),
-
-      dataframe =
-        "rows",
-
-      pretty =
-        TRUE,
-
-      na =
-        "null"
-
+      dataframe = "rows",
+      pretty = TRUE,
+      na = "null"
     )
 
-
     write_json(
-
       list(
-
         season =
           TARGET_SEASON,
 
@@ -3335,13 +2326,10 @@ if (run_main) {
           "preseason prior only",
 
         n_teams =
-          nrow(
-            teams_tbl
-          ),
+          nrow(teams_tbl),
 
         config =
           list(
-
             PLAYS_SCALE =
               PLAYS_SCALE,
 
@@ -3356,24 +2344,15 @@ if (run_main) {
 
             RECENCY_DECAY =
               RECENCY_DECAY
-
           )
-
       ),
-
       file.path(
         out_dir,
         "meta.json"
       ),
-
-      auto_unbox =
-        TRUE,
-
-      pretty =
-        TRUE
-
+      auto_unbox = TRUE,
+      pretty = TRUE
     )
-
 
     msg(
       "Done. Preseason Week 0 outputs in %s",
@@ -3384,236 +2363,127 @@ if (run_main) {
   } else {
 
 
-    # =========================================================================
-    # IN-SEASON
-    # =========================================================================
+    # -------------------------------------------------------------------------
+    # In-season
+    # -------------------------------------------------------------------------
 
-
-    neutral_lu <-
-      games %>%
+    neutral_lu <- games %>%
       select(
         game_id,
         neutral_site
       )
 
+    tagged <- tag_wepa_features(
+      pbp
+    )
 
-    tagged <-
-      tag_wepa_features(
-        pbp
-      )
+    wepa <- apply_wepa_weights(
+      tagged,
+      pbp$EPA,
+      model_weights
+    )
 
-
-    wepa <-
-      apply_wepa_weights(
-
-        tagged,
-
-        pbp$EPA,
-
-        model_weights
-
-      )
-
-
-    pbp_aug <-
-      bind_cols(
-        pbp,
-        wepa
-      ) %>%
-
+    pbp_aug <- bind_cols(
+      pbp,
+      wepa
+    ) %>%
       select(
-        -any_of(
-          "neutral_site"
-        )
+        -any_of("neutral_site")
       ) %>%
-
       left_join(
         neutral_lu,
         by = "game_id"
       ) %>%
-
       mutate(
-
         garbage_flag =
-
           (
             score_diff >=
               GT_THRESH["1"] &
               period == 1
           ) |
-
-          (
-            score_diff >=
-              GT_THRESH["2"] &
-              period == 2
-          ) |
-
-          (
-            score_diff >=
-              GT_THRESH["3"] &
-              period == 3
-          ) |
-
-          (
-            score_diff >=
-              GT_THRESH["4"] &
-              period == 4
-          )
-
+            (
+              score_diff >=
+                GT_THRESH["2"] &
+                period == 2
+            ) |
+            (
+              score_diff >=
+                GT_THRESH["3"] &
+                period == 3
+            ) |
+            (
+              score_diff >=
+                GT_THRESH["4"] &
+                period == 4
+            )
       )
 
+    drives <- build_drives(
+      pbp,
+      eckel_model
+    )
 
-    drives <-
-      build_drives(
-        pbp,
-        eckel_model
-      )
+    history_list <- map(
+      seq_len(thru_week),
+      function(w) {
 
-
-    # -------------------------------------------------------------------------
-    # Week 0 stays in the history permanently.
-    # -------------------------------------------------------------------------
-
-    week0 <-
-      make_week0_snapshot(
-        teams_tbl,
-        prior
-      )
-
-
-    # -------------------------------------------------------------------------
-    # Rebuild every week on every run.
-    #
-    # Benefits:
-    #   * late PBP corrections propagate
-    #   * stateless
-    #   * self-healing
-    #   * latest data is always generated consistently
-    # -------------------------------------------------------------------------
-
-    inseason_history <-
-      map(
-
-        seq_len(
-          thru_week
-        ),
-
-        function(w) {
-
-          msg(
-            "Snapshot: through week %d",
-            w
-          )
-
-
-          snapshot_week(
-
-            w,
-
-            pbp_aug,
-            drives,
-            games,
-            teams_tbl,
-            prior,
-
-            have_weights =
-              !is.null(
-                model_weights
-              )
-
-          )
-
-        }
-
-      )
-
-
-    hfa_epa <-
-      attr(
-        inseason_history[
-          [length(
-            inseason_history
-          )]
-        ],
-        "hfa_epa"
-      )
-
-
-    wepa_scale <-
-      attr(
-        inseason_history[
-          [length(
-            inseason_history
-          )]
-        ],
-        "wepa_scale"
-      )
-
-
-    # -------------------------------------------------------------------------
-    # Combine Week 0 + all in-season weeks.
-    #
-    # This makes Week 1 movement compare against preseason,
-    # then Week 2 against Week 1, etc.
-    # -------------------------------------------------------------------------
-
-    history <-
-      bind_rows(
-
-        c(
-          list(
-            week0
-          ),
-          inseason_history
+        msg(
+          "Snapshot: through week %d",
+          w
         )
 
-      ) %>%
+        snapshot_week(
+          w,
+          pbp_aug,
+          drives,
+          games,
+          teams_tbl,
+          prior,
+          have_weights =
+            !is.null(
+              model_weights
+            )
+        )
+      }
+    )
 
+    hfa_epa <- attr(
+      history_list[
+        [length(history_list)]
+      ],
+      "hfa_epa"
+    )
+
+    wepa_scale <- attr(
+      history_list[
+        [length(history_list)]
+      ],
+      "wepa_scale"
+    )
+
+    history <- bind_rows(
+      c(
+        list(week0),
+        history_list
+      )
+    ) %>%
       arrange(
         week,
         power_rank
       ) %>%
-
-      group_by(
-        team
-      ) %>%
-
+      group_by(team) %>%
       arrange(
         week,
         .by_group = TRUE
       ) %>%
-
       mutate(
-
         power_change =
-
           power_pts -
-          lag(
-            power_pts
-          ),
-
+            lag(power_pts),
 
         rank_change =
-
-          lag(
-            power_rank
-          ) -
-          power_rank
-
-      ) %>%
-
-      ungroup() %>%
-
-      arrange(
-        week,
-        power_rank
-      )
-
-
-    # Week 0 has no prior observation.
-    history <-
-      history %>%
-      mutate(
+          lag(power_rank) -
+            power_rank,
 
         power_change =
           ifelse(
@@ -3628,29 +2498,20 @@ if (run_main) {
             0L,
             rank_change
           )
-
+      ) %>%
+      ungroup() %>%
+      arrange(
+        week,
+        power_rank
       )
 
-
-    # -------------------------------------------------------------------------
-    # Write full history.
-    # -------------------------------------------------------------------------
-
     write_csv(
-
       history,
-
       file.path(
         out_dir,
         "ratings_history.csv"
       )
-
     )
-
-
-    # -------------------------------------------------------------------------
-    # Write individual weekly snapshots, INCLUDING week_00.csv.
-    # -------------------------------------------------------------------------
 
     for (
       w in unique(
@@ -3659,12 +2520,10 @@ if (run_main) {
     ) {
 
       write_csv(
-
         history %>%
           filter(
             week == w
           ),
-
         file.path(
           out_dir,
           "weekly",
@@ -3673,74 +2532,41 @@ if (run_main) {
             w
           )
         )
-
       )
-
     }
 
-
-    # -------------------------------------------------------------------------
-    # Latest week.
-    # -------------------------------------------------------------------------
-
-    latest <-
-      history %>%
+    latest <- history %>%
       filter(
         week ==
-          max(
-            week
-          )
+          max(week)
       )
 
-
     write_csv(
-
       latest,
-
       file.path(
         out_dir,
         "latest.csv"
       )
-
     )
 
-
     write_json(
-
       latest,
-
       file.path(
         out_dir,
         "latest.json"
       ),
-
-      dataframe =
-        "rows",
-
-      pretty =
-        TRUE,
-
-      na =
-        "null"
-
+      dataframe = "rows",
+      pretty = TRUE,
+      na = "null"
     )
 
-
-    # -------------------------------------------------------------------------
-    # Metadata.
-    # -------------------------------------------------------------------------
-
     write_json(
-
       list(
-
         season =
           TARGET_SEASON,
 
-
         thru_week =
           thru_week,
-
 
         generated_utc =
           format(
@@ -3748,44 +2574,35 @@ if (run_main) {
             tz = "UTC"
           ),
 
-
         games_max_completed_week =
           max_completed,
 
-
         pbp_max_week =
           max_pbp_wk,
-
 
         wepa_weights_loaded =
           !is.null(
             model_weights
           ),
 
-
         eckel_model_loaded =
           !is.null(
             eckel_model
           ),
 
-
         hfa_epa_per_play =
           hfa_epa,
 
-
         wepa_to_epa_scale =
           wepa_scale,
-
 
         n_teams =
           nrow(
             teams_tbl
           ),
 
-
         config =
           list(
-
             PLAYS_SCALE =
               PLAYS_SCALE,
 
@@ -3800,13 +2617,10 @@ if (run_main) {
 
             RECENCY_DECAY =
               RECENCY_DECAY
-
           ),
-
 
         column_notes =
           list(
-
             power_off_def_pts =
               paste0(
                 "points vs average FBS team per game; ",
@@ -3823,16 +2637,12 @@ if (run_main) {
             def_stats =
               paste0(
                 "current-season per-play allowed; ",
-                "lower = better for def_wepa, ",
-                "def_pass_epa, def_rush_epa, ",
-                "and def_eckel_rate"
+                "lower = better for defensive allowed metrics"
               ),
 
             adj_rush_pass =
               paste0(
-                "current-season opponent+venue adjusted ",
-                "EPA/play; offense higher = better; ",
-                "defense lower = better"
+                "current-season opponent+venue adjusted EPA/play"
               ),
 
             prior_weight =
@@ -3852,31 +2662,20 @@ if (run_main) {
                 "national power-rank movement versus ",
                 "the prior snapshot; positive = moved up"
               )
-
           )
-
       ),
-
       file.path(
         out_dir,
         "meta.json"
       ),
-
-      auto_unbox =
-        TRUE,
-
-      pretty =
-        TRUE
-
+      auto_unbox = TRUE,
+      pretty = TRUE
     )
-
 
     msg(
       "Done. Through week %d. Outputs in %s",
       thru_week,
       out_dir
     )
-
   }
-
 }
