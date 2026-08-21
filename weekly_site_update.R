@@ -14,10 +14,12 @@
 #     wepa ~ off_home + (1 | offense) + (1 | defense)
 # Offense/defense BLUPs are shrunken, opponent- and venue-adjusted per-play
 # ratings; scaled to points/game and blended with the preseason prior using a
-# weight that decays with games played (prior fully out by PRIOR_G_FULL games).
+# weight that decays with games played (prior fully out after 8 games by default).
 # Conference strength is NOT hand-adjusted: it is identified by the schedule
 # graph (opponent adjustment) plus the prior early on, which is the correct
 # mechanism and avoids double counting.
+# Only TARGET_SEASON play-by-play enters the in-season component; no prior-season
+# play-by-play is loaded. Week 0 is the preseason baseline.
 #
 # RUN:
 #   Rscript weekly_site_update.R --year=2026
@@ -26,7 +28,7 @@
 #
 # REQUIRES:
 #   * env var CFBD_API_KEY (GitHub Actions: repository secret).
-#   * data/preseason_ratings_<year>.csv with columns:
+#   * data/preseason_ratings_<year>.csv with columns (REQUIRED for Week 0 + power rating):
 #       team, power_pts [, off_pts, def_pts]   (export from preseason system)
 #   * models/final_wepa_weights_6_2_24.RDS  (optional; falls back to raw EPA
 #     with garbage-time plays excluded from the rating model, loudly).
@@ -79,7 +81,7 @@ PRESEASON_FILE     <- sprintf("data/preseason_ratings_%d.csv", TARGET_SEASON)
 PLAYS_SCALE      <- 65    # scrimmage plays/side/game: epa-per-play -> pts/game
 TARGET_SD        <- 12    # points SD the standardized prior is scaled to
 STANDARDIZE_PRIOR <- TRUE # z-score the prior file onto the TARGET_SD scale
-PRIOR_G_FULL     <- 10    # prior weight hits 0 once a team has played this many
+PRIOR_G_FULL     <- 8     # prior weight hits 0 once a team has played this many
 PRIOR_POW        <- 1.5   # decay shape: w = max(0, 1 - g/G_FULL)^POW
 RECENCY_DECAY    <- 0.90  # per-week play weight in the RATING model only:
                           # a play from k weeks ago counts DECAY^k. Season
@@ -410,8 +412,11 @@ fit_adjustment <- function(model_df, label) {
 load_prior <- function(path, teams_tbl) {
   fbs <- teams_tbl$team
   if (!file.exists(path)) {
-    msg("PRIOR FILE MISSING (%s): using flat 0 prior for all teams. Week 1-3 ratings will be data-only and noisy. Fix before season.", path)
-    return(tibble(team = fbs, prior_power = 0, prior_off = 0, prior_def = 0))
+    stop(sprintf(paste0(
+      "Required preseason prior file is missing: %s. ",
+      "Week 0 must be the preseason baseline, and Weeks 1+ blend that baseline ",
+      "with current-season data. Create/commit the file before publishing."), path),
+      call. = FALSE)
   }
   raw <- read_csv(path, show_col_types = FALSE)
   team_col  <- intersect(c("team", "school", "Team", "TEAM"), names(raw))[1]
@@ -467,6 +472,25 @@ load_prior <- function(path, teams_tbl) {
                                  off = fill / 2, def = fill / 2))
   }
   pri %>% transmute(team, prior_power = power, prior_off = off, prior_def = def)
+}
+
+make_week0_snapshot <- function(teams_tbl, prior) {
+  teams_tbl %>%
+    left_join(prior, by = "team") %>%
+    transmute(
+      season = TARGET_SEASON,
+      week = 0L,
+      team,
+      conference,
+      games = 0L,
+      prior_weight = 1,
+      power_pts = prior_power,
+      off_pts = prior_off,
+      def_pts = prior_def,
+      power_rank = min_rank(desc(power_pts)),
+      off_rank = min_rank(desc(off_pts)),
+      def_rank = min_rank(desc(def_pts))
+    )
 }
 
 prior_weight <- function(games_played) {
@@ -627,15 +651,8 @@ if (run_main) {
   if (thru_week < 1 || is.null(pbp)) {
     # Preseason: publish the prior as week 0 so the site has content.
     msg("No completed weeks with PBP. Writing week-0 (preseason prior) snapshot.")
-    snap0 <- teams_tbl %>%
-      left_join(prior, by = "team") %>%
-      transmute(season = TARGET_SEASON, week = 0L, team, conference,
-                games = 0L, prior_weight = 1,
-                power_pts = prior_power, off_pts = prior_off, def_pts = prior_def,
-                power_rank = min_rank(desc(power_pts)),
-                off_rank = min_rank(desc(off_pts)),
-                def_rank = min_rank(desc(def_pts)),
-                power_change = 0, rank_change = 0L)
+    snap0 <- make_week0_snapshot(teams_tbl, prior) %>%
+      mutate(power_change = 0, rank_change = 0L)
     write_csv(snap0, file.path(out_dir, "weekly", "week_00.csv"))
     write_csv(snap0, file.path(out_dir, "latest.csv"))
     write_csv(snap0, file.path(out_dir, "ratings_history.csv"))
@@ -668,14 +685,15 @@ if (run_main) {
 
   # Full consistent history: refit through every week each run so late data
   # corrections propagate. ~seconds per week; stateless and self-healing.
-  history <- map(seq_len(thru_week), function(w) {
+  week0 <- make_week0_snapshot(teams_tbl, prior)
+  inseason_history <- map(seq_len(thru_week), function(w) {
     msg("Snapshot: through week %d", w)
     snapshot_week(w, pbp_aug, drives, games, teams_tbl, prior,
                   have_weights = !is.null(model_weights))
   })
-  hfa_epa <- attr(history[[length(history)]], "hfa_epa")
-  wepa_scale <- attr(history[[length(history)]], "wepa_scale")
-  history <- bind_rows(history) %>%
+  hfa_epa <- attr(inseason_history[[length(inseason_history)]], "hfa_epa")
+  wepa_scale <- attr(inseason_history[[length(inseason_history)]], "wepa_scale")
+  history <- bind_rows(c(list(week0), inseason_history)) %>%
     arrange(week, power_rank) %>%
     group_by(team) %>%
     arrange(week, .by_group = TRUE) %>%
