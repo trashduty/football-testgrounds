@@ -83,7 +83,10 @@ const METRICS = {
 
 function average(values) {
   const valid = values.filter(v => Number.isFinite(v));
-  if (!valid.length) return null;
+
+  if (!valid.length) {
+    return null;
+  }
 
   return valid.reduce((sum, value) => sum + value, 0) / valid.length;
 }
@@ -93,6 +96,72 @@ function hasValidPair(row, metric) {
   const y = Number(row[metric.y]);
 
   return Number.isFinite(x) && Number.isFinite(y);
+}
+
+function finiteExtent(values) {
+  const valid = values.filter(Number.isFinite);
+
+  if (!valid.length) {
+    return null;
+  }
+
+  const min = Math.min(...valid);
+  const max = Math.max(...valid);
+  const span = Math.max(max - min, 1e-9);
+
+  return {
+    min: min - span * 0.06,
+    max: max + span * 0.06,
+    span
+  };
+}
+
+function logoImages(rows, metric, highlightedTeam = "") {
+  const xExtent = finiteExtent(
+    rows.map(row => Number(row[metric.x]))
+  );
+
+  const yExtent = finiteExtent(
+    rows.map(row => Number(row[metric.y]))
+  );
+
+  if (!xExtent || !yExtent) {
+    return [];
+  }
+
+  const sizeX = xExtent.span * 0.035;
+  const sizeY = yExtent.span * 0.055;
+
+  return rows
+    .filter(
+      row =>
+        typeof row.logo === "string" &&
+        row.logo.trim() !== ""
+    )
+    .map(row => ({
+      source: row.logo,
+      xref: "x",
+      yref: "y",
+
+      x: Number(row[metric.x]),
+      y: Number(row[metric.y]),
+
+      sizex:
+        row.team === highlightedTeam
+          ? sizeX * 1.35
+          : sizeX,
+
+      sizey:
+        row.team === highlightedTeam
+          ? sizeY * 1.35
+          : sizeY,
+
+      xanchor: "center",
+      yanchor: "middle",
+      sizing: "contain",
+      opacity: 1,
+      layer: "above"
+    }));
 }
 
 async function loadSeason() {
@@ -107,13 +176,17 @@ async function loadSeason() {
     });
 
     if (!response.ok) {
-      throw new Error(`Unable to load ${dataPath}: HTTP ${response.status}`);
+      throw new Error(
+        `Unable to load ${dataPath}: HTTP ${response.status}`
+      );
     }
 
     currentData = await response.json();
 
     if (!Array.isArray(currentData)) {
-      throw new Error(`${dataPath} did not contain a JSON array`);
+      throw new Error(
+        `${dataPath} did not contain a JSON array`
+      );
     }
 
     try {
@@ -173,14 +246,17 @@ function populateConferences() {
 
   conferences.forEach(conference => {
     const option = document.createElement("option");
+
     option.value = conference;
     option.textContent = conference;
+
     conferenceSelect.appendChild(option);
   });
 
-  conferenceSelect.value = conferences.includes(existing)
-    ? existing
-    : "ALL";
+  conferenceSelect.value =
+    conferences.includes(existing)
+      ? existing
+      : "ALL";
 }
 
 function populateTeams() {
@@ -200,8 +276,10 @@ function populateTeams() {
 
   teams.forEach(team => {
     const option = document.createElement("option");
+
     option.value = team;
     option.textContent = team;
+
     teamSearchSelect.appendChild(option);
   });
 
@@ -213,22 +291,34 @@ function populateTeams() {
 function updateMetricAvailability() {
   const availability = {};
 
-  for (const [metricKey, metric] of Object.entries(METRICS)) {
-    availability[metricKey] = currentData.some(row =>
-      row[metric.x] !== null &&
-      row[metric.x] !== undefined &&
-      row[metric.y] !== null &&
-      row[metric.y] !== undefined &&
-      Number.isFinite(Number(row[metric.x])) &&
-      Number.isFinite(Number(row[metric.y]))
-    );
+  for (
+    const [metricKey, metric]
+    of Object.entries(METRICS)
+  ) {
+    availability[metricKey] =
+      currentData.some(row =>
+        row[metric.x] !== null &&
+        row[metric.x] !== undefined &&
+        row[metric.y] !== null &&
+        row[metric.y] !== undefined &&
+        Number.isFinite(
+          Number(row[metric.x])
+        ) &&
+        Number.isFinite(
+          Number(row[metric.y])
+        )
+      );
   }
 
   for (const option of metricSelect.options) {
-    option.disabled = availability[option.value] !== true;
+    option.disabled =
+      availability[option.value] !== true;
   }
 
-  const selected = metricSelect.options[metricSelect.selectedIndex];
+  const selected =
+    metricSelect.options[
+      metricSelect.selectedIndex
+    ];
 
   if (!selected || selected.disabled) {
     const preferredOrder = [
@@ -241,9 +331,10 @@ function updateMetricAvailability() {
       "adjusted_rush"
     ];
 
-    const firstAvailable = preferredOrder.find(
-      key => availability[key]
-    );
+    const firstAvailable =
+      preferredOrder.find(
+        key => availability[key]
+      );
 
     if (firstAvailable) {
       metricSelect.value = firstAvailable;
@@ -256,15 +347,26 @@ function updateWeekLabel() {
 
   const week =
     currentMeta.thru_week ??
-    (currentData.length ? currentData[0].week : null);
+    (
+      currentData.length
+        ? currentData[0].week
+        : null
+    );
 
   if (Number(week) === 0) {
-    weekLabel.textContent = `${season} Preseason`;
+    weekLabel.textContent =
+      `${season} Preseason`;
+
     return;
   }
 
-  if (week !== null && week !== undefined) {
-    weekLabel.textContent = `Week ${week}`;
+  if (
+    week !== null &&
+    week !== undefined
+  ) {
+    weekLabel.textContent =
+      `Week ${week}`;
+
     return;
   }
 
@@ -279,50 +381,82 @@ function renderChart() {
     return;
   }
 
-  const conference = conferenceSelect.value;
-  const highlightedTeam = teamSearchSelect.value;
+  const conference =
+    conferenceSelect.value;
 
-  const benchmark = currentData.filter(row =>
-    hasValidPair(row, metric)
-  );
+  const highlightedTeam =
+    teamSearchSelect.value;
 
-  const displayed = benchmark.filter(row =>
-    conference === "ALL" ||
-    row.conference === conference
-  );
+  /*
+   * Benchmark always uses all FBS teams.
+   * That means the dashed reference lines remain
+   * the national average even when filtering
+   * to a conference.
+   */
+  const benchmark =
+    currentData.filter(row =>
+      hasValidPair(row, metric)
+    );
+
+  const displayed =
+    benchmark.filter(row =>
+      conference === "ALL" ||
+      row.conference === conference
+    );
 
   if (!benchmark.length) {
-    document.getElementById("chart").innerHTML = `
+    document.getElementById(
+      "chart"
+    ).innerHTML = `
       <div style="
         color:#111;
         padding:40px;
         font-family:Arial;
       ">
-        ${metric.title} data is not yet available for this season.
+        ${metric.title} data is not yet
+        available for this season.
       </div>
     `;
 
-    teamCount.textContent = `0 / ${currentData.length} FBS`;
+    teamCount.textContent =
+      `0 / ${currentData.length} FBS`;
+
     updateWeekLabel();
+
     return;
   }
 
   const benchmarkX = average(
-    benchmark.map(row => Number(row[metric.x]))
+    benchmark.map(
+      row => Number(row[metric.x])
+    )
   );
 
   const benchmarkY = average(
-    benchmark.map(row => Number(row[metric.y]))
+    benchmark.map(
+      row => Number(row[metric.y])
+    )
   );
 
-  const normalTeams = displayed.filter(
-    row => row.team !== highlightedTeam
-  );
+  const normalTeams =
+    displayed.filter(
+      row =>
+        row.team !== highlightedTeam
+    );
 
-  const highlighted = displayed.filter(
-    row => row.team === highlightedTeam
-  );
+  const highlighted =
+    displayed.filter(
+      row =>
+        row.team === highlightedTeam
+    );
 
+  /*
+   * Plotly traces are still used underneath
+   * the logos so hover events continue to work.
+   *
+   * The actual visible team marks are added
+   * later using layout.images.
+   */
   const traces = [
     {
       type: "scatter",
@@ -336,35 +470,81 @@ function renderChart() {
         row => Number(row[metric.y])
       ),
 
+      /*
+       * If a logo exists, hide the text.
+       * If a logo is missing, show the
+       * team name as a fallback.
+       */
       text: normalTeams.map(
-        row => row.team
+        row =>
+          row.logo
+            ? ""
+            : row.team
       ),
 
       textposition: "top center",
 
-      customdata: normalTeams.map(row => [
-        row.team,
-        row.conference,
-        row.games
-      ]),
+      customdata:
+        normalTeams.map(row => [
+          row.team,
+          row.conference,
+          row.games,
+          row.power_pts,
+          row.power_rank
+        ]),
 
       marker: {
-        size: 10,
-        opacity: 0.7
+        size: 28,
+
+        /*
+         * Almost invisible marker when a
+         * logo is available. This preserves
+         * Plotly's hover hitbox.
+         */
+        color:
+          normalTeams.map(row =>
+            row.logo
+              ? "rgba(0,0,0,0.01)"
+              : "rgba(31,119,180,0.70)"
+          ),
+
+        line: {
+          width: 0
+        }
       },
 
       hovertemplate:
         "<b>%{customdata[0]}</b>" +
         "<br>Conference: %{customdata[1]}" +
         "<br>Games: %{customdata[2]}" +
-        `<br>${metric.xLabel}: %{x:${metric.format}}` +
-        `<br>${metric.yLabel}: %{y:${metric.format}}` +
+
+        `<br>${metric.xLabel}: ` +
+        `%{x:${metric.format}}` +
+
+        `<br>${metric.yLabel}: ` +
+        `%{y:${metric.format}}` +
+
+        (
+          metricKey === "power"
+            ? (
+                "<br>BTB Power Rating: " +
+                "%{customdata[3]:.1f}" +
+                "<br>Power Rank: " +
+                "#%{customdata[4]}"
+              )
+            : ""
+        ) +
+
         "<extra></extra>",
 
       name: "FBS Teams"
     }
   ];
 
+  /*
+   * Highlighted team gets a larger logo
+   * plus a visible dark outline behind it.
+   */
   if (highlighted.length) {
     traces.push({
       type: "scatter",
@@ -379,28 +559,57 @@ function renderChart() {
       ),
 
       text: highlighted.map(
-        row => row.team
+        row =>
+          row.logo
+            ? ""
+            : row.team
       ),
 
       textposition: "top center",
 
-      customdata: highlighted.map(row => [
-        row.team,
-        row.conference,
-        row.games
-      ]),
+      customdata:
+        highlighted.map(row => [
+          row.team,
+          row.conference,
+          row.games,
+          row.power_pts,
+          row.power_rank
+        ]),
 
       marker: {
-        size: 20,
-        symbol: "star"
+        size: 38,
+
+        color:
+          "rgba(255,255,255,0.01)",
+
+        line: {
+          width: 3,
+          color: "#111111"
+        }
       },
 
       hovertemplate:
         "<b>%{customdata[0]}</b>" +
         "<br>Conference: %{customdata[1]}" +
         "<br>Games: %{customdata[2]}" +
-        `<br>${metric.xLabel}: %{x:${metric.format}}` +
-        `<br>${metric.yLabel}: %{y:${metric.format}}` +
+
+        `<br>${metric.xLabel}: ` +
+        `%{x:${metric.format}}` +
+
+        `<br>${metric.yLabel}: ` +
+        `%{y:${metric.format}}` +
+
+        (
+          metricKey === "power"
+            ? (
+                "<br>BTB Power Rating: " +
+                "%{customdata[3]:.1f}" +
+                "<br>Power Rank: " +
+                "#%{customdata[4]}"
+              )
+            : ""
+        ) +
+
         "<extra></extra>",
 
       name: "Highlighted Team"
@@ -409,14 +618,132 @@ function renderChart() {
 
   const shapes = [];
 
+  /*
+   * Determine the visible plotting area.
+   * These extents are also used for the
+   * quadrant shading.
+   */
+  const xExtent = finiteExtent(
+    displayed.map(
+      row => Number(row[metric.x])
+    )
+  );
+
+  const yExtent = finiteExtent(
+    displayed.map(
+      row => Number(row[metric.y])
+    )
+  );
+
+  /*
+   * Shade:
+   *
+   * GREEN:
+   * better-than-average offense
+   * +
+   * better-than-average defense
+   *
+   * RED:
+   * worse-than-average offense
+   * +
+   * worse-than-average defense
+   *
+   * For metrics such as defensive EPA allowed,
+   * lower raw values are better. reverseDefense
+   * tells us how to interpret the y-axis.
+   */
+  if (
+    benchmarkX !== null &&
+    benchmarkY !== null &&
+    xExtent &&
+    yExtent
+  ) {
+    const bestY0 =
+      metric.reverseDefense
+        ? yExtent.min
+        : benchmarkY;
+
+    const bestY1 =
+      metric.reverseDefense
+        ? benchmarkY
+        : yExtent.max;
+
+    const worstY0 =
+      metric.reverseDefense
+        ? benchmarkY
+        : yExtent.min;
+
+    const worstY1 =
+      metric.reverseDefense
+        ? yExtent.max
+        : benchmarkY;
+
+    /*
+     * Best quadrant.
+     */
+    shapes.push({
+      type: "rect",
+
+      xref: "x",
+      yref: "y",
+
+      x0: benchmarkX,
+      x1: xExtent.max,
+
+      y0: bestY0,
+      y1: bestY1,
+
+      fillcolor:
+        "rgba(34,197,94,0.10)",
+
+      line: {
+        width: 0
+      },
+
+      layer: "below"
+    });
+
+    /*
+     * Worst quadrant.
+     */
+    shapes.push({
+      type: "rect",
+
+      xref: "x",
+      yref: "y",
+
+      x0: xExtent.min,
+      x1: benchmarkX,
+
+      y0: worstY0,
+      y1: worstY1,
+
+      fillcolor:
+        "rgba(239,68,68,0.09)",
+
+      line: {
+        width: 0
+      },
+
+      layer: "below"
+    });
+  }
+
+  /*
+   * Vertical all-FBS average line.
+   */
   if (benchmarkX !== null) {
     shapes.push({
       type: "line",
+
       x0: benchmarkX,
       x1: benchmarkX,
+
       y0: 0,
       y1: 1,
+
       yref: "paper",
+
       line: {
         dash: "dash",
         width: 1,
@@ -425,14 +752,21 @@ function renderChart() {
     });
   }
 
+  /*
+   * Horizontal all-FBS average line.
+   */
   if (benchmarkY !== null) {
     shapes.push({
       type: "line",
+
       y0: benchmarkY,
       y1: benchmarkY,
+
       x0: 0,
       x1: 1,
+
       xref: "paper",
+
       line: {
         dash: "dash",
         width: 1,
@@ -441,49 +775,92 @@ function renderChart() {
     });
   }
 
-  const season = seasonSelect.value;
+  const season =
+    seasonSelect.value;
 
   const layout = {
     title: {
-      text: `${season} ${metric.title}`,
+      /*
+       * Marketing title preserved:
+       * "2026 BTB Power Rating"
+       */
+      text:
+        `${season} ${metric.title}`,
+
       x: 0.5,
       xanchor: "center"
     },
 
-    paper_bgcolor: "#ffffff",
-    plot_bgcolor: "#ffffff",
+    paper_bgcolor:
+      "#ffffff",
+
+    plot_bgcolor:
+      "#ffffff",
 
     font: {
-      family: "Arial, sans-serif",
-      color: "#111111"
+      family:
+        "Arial, sans-serif",
+
+      color:
+        "#111111"
     },
 
     xaxis: {
       title: {
-        text: metric.xLabel
+        text:
+          metric.xLabel
       },
+
       zeroline: false,
+
       showgrid: true,
-      gridcolor: "rgba(0,0,0,0.10)"
+
+      gridcolor:
+        "rgba(0,0,0,0.10)"
     },
 
     yaxis: {
       title: {
-        text: metric.yLabel
+        text:
+          metric.yLabel
       },
-      autorange: metric.reverseDefense
-        ? "reversed"
-        : true,
+
+      /*
+       * Defensive "allowed" metrics use
+       * reversed axes so better performance
+       * still appears toward the top.
+       */
+      autorange:
+        metric.reverseDefense
+          ? "reversed"
+          : true,
+
       zeroline: false,
+
       showgrid: true,
-      gridcolor: "rgba(0,0,0,0.10)"
+
+      gridcolor:
+        "rgba(0,0,0,0.10)"
     },
 
     shapes: shapes,
 
-    hovermode: "closest",
+    /*
+     * Team logos are placed directly at
+     * each team's x/y coordinates.
+     */
+    images:
+      logoImages(
+        displayed,
+        metric,
+        highlightedTeam
+      ),
 
-    showlegend: Boolean(highlightedTeam),
+    hovermode:
+      "closest",
+
+    showlegend:
+      Boolean(highlightedTeam),
 
     margin: {
       l: 90,
@@ -497,6 +874,7 @@ function renderChart() {
 
   const config = {
     responsive: true,
+
     displaylogo: false,
 
     modeBarButtonsToRemove: [
@@ -506,7 +884,10 @@ function renderChart() {
 
     toImageButtonOptions: {
       format: "png",
-      filename: `btb-${season}-${metricKey}`,
+
+      filename:
+        `btb-${season}-${metricKey}`,
+
       scale: 2
     }
   };
@@ -521,7 +902,8 @@ function renderChart() {
   updateWeekLabel();
 
   teamCount.textContent =
-    `${displayed.length} / ${benchmark.length} FBS`;
+    `${displayed.length} / ` +
+    `${benchmark.length} FBS`;
 }
 
 seasonSelect.addEventListener(
