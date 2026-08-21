@@ -241,31 +241,92 @@ fetch_teams <- function(season) {
     "cfbd_team_info"
   )
 
-  logo_col <- intersect(
-    c(
-      "logo",
-      "logo_url"
-    ),
-    names(t)
-  )[1]
+  crosswalk_file <- "CFB Teams Full Crosswalk.csv"
 
-  if (!is.na(logo_col)) {
-    t %>%
-      transmute(
-        team = school,
-        conference,
-        logo = as.character(.data[[logo_col]])
-      )
-  } else {
-    t %>%
-      transmute(
-        team = school,
-        conference,
-        logo = NA_character_
-      )
+  if (!file.exists(crosswalk_file)) {
+    stop(
+      sprintf(
+        "Required team crosswalk file not found: %s",
+        crosswalk_file
+      ),
+      call. = FALSE
+    )
   }
-}
 
+  crosswalk <- read_csv(
+    crosswalk_file,
+    show_col_types = FALSE
+  )
+
+  require_cols(
+    crosswalk,
+    c(
+      "cfbfastr_team",
+      "logo"
+    ),
+    "CFB Teams Full Crosswalk.csv"
+  )
+
+  crosswalk <- crosswalk %>%
+    transmute(
+      team = as.character(cfbfastr_team),
+      logo = as.character(logo)
+    ) %>%
+    mutate(
+      team = str_trim(team),
+      logo = str_trim(logo),
+      logo = str_replace(
+        logo,
+        "^http://",
+        "https://"
+      ),
+      logo = na_if(
+        logo,
+        ""
+      )
+    ) %>%
+    filter(
+      !is.na(team),
+      team != ""
+    ) %>%
+    distinct(
+      team,
+      .keep_all = TRUE
+    )
+
+  out <- t %>%
+    transmute(
+      team = as.character(school),
+      conference
+    ) %>%
+    mutate(
+      team = str_trim(team)
+    ) %>%
+    left_join(
+      crosswalk,
+      by = "team"
+    )
+
+  missing_logos <- out %>%
+    filter(
+      is.na(logo) |
+        logo == ""
+    )
+
+  if (nrow(missing_logos) > 0) {
+    msg(
+      "WARNING: %d FBS teams do not have a matched logo in %s: %s",
+      nrow(missing_logos),
+      crosswalk_file,
+      paste(
+        missing_logos$team,
+        collapse = ", "
+      )
+    )
+  }
+
+  out
+}
 
 fetch_games <- function(season) {
   g <- cfbfastR::cfbd_game_info(
