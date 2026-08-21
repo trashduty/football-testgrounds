@@ -16,7 +16,14 @@
     href="./style.css"
   >
 
+  <!-- Main charts -->
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+
+  <!-- CSV parsing for ratings_history.csv -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <!-- PNG export -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </head>
 
 <body>
@@ -32,6 +39,10 @@
       </p>
     </header>
 
+
+    <!-- ======================================================
+         CONTROLS
+    ======================================================= -->
 
     <section class="controls">
 
@@ -49,6 +60,7 @@
         <label for="metric">Metric</label>
 
         <select id="metric">
+
           <option value="power">
             Power Rating
           </option>
@@ -76,6 +88,7 @@
           <option value="adjusted_rush">
             Adjusted Rush EPA / Play
           </option>
+
         </select>
       </div>
 
@@ -90,7 +103,9 @@
 
 
       <div class="control-group">
-        <label for="team-search">Highlight Team</label>
+        <label for="team-search">
+          Highlight Team
+        </label>
 
         <select id="team-search">
           <option value="">None</option>
@@ -99,6 +114,10 @@
 
     </section>
 
+
+    <!-- ======================================================
+         DATA INFO
+    ======================================================= -->
 
     <section class="chart-info">
 
@@ -111,7 +130,6 @@
           Loading...
         </strong>
       </div>
-
 
       <div>
         <span class="label">
@@ -126,18 +144,171 @@
     </section>
 
 
+    <!-- ======================================================
+         MAIN SCATTERPLOT
+    ======================================================= -->
+
     <section class="chart-container">
       <div id="chart"></div>
     </section>
 
 
+    <!-- ======================================================
+         WEEKLY MOVERS
+    ======================================================= -->
+
+    <section class="section-card">
+
+      <div class="section-heading">
+        <div>
+          <h2>BTB Weekly Movers</h2>
+
+          <p>
+            Biggest week-to-week changes in the
+            BTB Power Ratings.
+          </p>
+        </div>
+
+        <button
+          class="download-button"
+          id="download-movers"
+        >
+          Download Movers PNG
+        </button>
+      </div>
+
+
+      <div class="movers-grid">
+
+        <div class="mover-column">
+          <h3>Biggest Risers</h3>
+
+          <div id="risers-list">
+            Loading...
+          </div>
+        </div>
+
+
+        <div class="mover-column">
+          <h3>Biggest Fallers</h3>
+
+          <div id="fallers-list">
+            Loading...
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         TEAM RATING HISTORY
+    ======================================================= -->
+
+    <section class="section-card">
+
+      <div class="section-heading">
+
+        <div>
+          <h2>BTB Power Rating History</h2>
+
+          <p>
+            Select a team above to see how its
+            BTB Power Rating has changed throughout
+            the season.
+          </p>
+        </div>
+
+      </div>
+
+      <div id="history-chart"></div>
+
+    </section>
+
+
+    <!-- ======================================================
+         DOWNLOADABLE GRAPHICS
+    ======================================================= -->
+
+    <section class="section-card">
+
+      <div class="section-heading">
+
+        <div>
+          <h2>BTB Power Rating Graphics</h2>
+
+          <p>
+            Export ready-to-use branded graphics for
+            email, social media and weekly content.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="export-buttons">
+
+        <button
+          class="download-button"
+          id="download-top10"
+        >
+          Download Top 10 + Movers PNG
+        </button>
+
+
+        <button
+          class="download-button"
+          id="download-top25"
+        >
+          Download Top 25 PNG
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         HIDDEN EXPORT CARDS
+    ======================================================= -->
+
+    <div
+      id="export-stage"
+      aria-hidden="true"
+    >
+
+      <div
+        id="top10-export-card"
+        class="export-card"
+      ></div>
+
+
+      <div
+        id="top25-export-card"
+        class="export-card export-card-wide"
+      ></div>
+
+
+      <div
+        id="movers-export-card"
+        class="export-card"
+      ></div>
+
+    </div>
+
+
+    <!-- ======================================================
+         FOOTER
+    ======================================================= -->
+
     <footer class="footer">
 
       <p>
         Offensive performance is shown on the x-axis.
-        Defensive metrics are oriented so stronger overall
-        performance generally moves teams toward the
-        upper-right portion of the chart.
+        Defensive metrics are oriented so stronger
+        overall performance generally moves teams
+        toward the upper-right portion of the chart.
       </p>
 
       <p>
