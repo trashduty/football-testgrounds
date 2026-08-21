@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Chicago Bears | -2.5 (-118) | DraftKings | 48.1% | No Bet |
+| Chicago Bears | -2.5 (-115) | BetRivers | 48.1% | No Bet |
 | Carolina Panthers | +2.5 (-102) | DraftKings | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.

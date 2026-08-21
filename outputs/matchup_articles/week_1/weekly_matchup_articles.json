@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-14T15:18:54.688693+00:00",
+  "generated_at_utc": "2026-08-21T15:11:37.056342+00:00",
   "season": 2026,
   "week": 1,
   "articles": [
@@ -7,7 +7,7 @@
       "game": "ARI@LAC",
       "away_team": "ARI",
       "home_team": "LAC",
-      "has_bet": true,
+      "has_bet": false,
       "injury_reports": {
         "ARI": {
           "team": "ARI",
@@ -238,7 +238,7 @@
       "game": "NO@DET",
       "away_team": "NO",
       "home_team": "DET",
-      "has_bet": true,
+      "has_bet": false,
       "injury_reports": {
         "NO": {
           "team": "NO",

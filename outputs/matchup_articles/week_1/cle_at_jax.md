@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Cleveland Browns | +7.5 (-105) | FanDuel | 51.5% | No Bet |
-| Jacksonville Jaguars | -7.5 (-109) | BetRivers | 48.5% | No Bet |
+| Jacksonville Jaguars | -7.5 (-108) | BetRivers | 48.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
