@@ -1,174 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-    <title>BTB Analytics | College Football Metrics</title>
+  <title>BTB Analytics | College Football Metrics</title>
 
-    <link
-        rel="stylesheet"
-        href="./styles.css"
-    >
+  <link
+    rel="stylesheet"
+    href="./style.css"
+  >
 
-    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
 
 <body>
 
-    <main class="page">
+  <main class="page">
 
-        <header class="header">
-            <div>
-                <h1>College Football Team Metrics</h1>
+    <header class="header">
 
-                <p>
-                    Compare FBS teams using BTB Analytics
-                    season-level metrics.
-                </p>
-            </div>
-        </header>
+      <h1>
+        College Football Team Metrics
+      </h1>
 
+      <p>
+        Explore offensive and defensive team performance
+        using BTB Analytics metrics.
+      </p>
 
-        <section class="controls">
-
-            <div class="control-group">
-                <label for="season">
-                    Season
-                </label>
-
-                <select id="season">
-                    <option value="2026">
-                        2026
-                    </option>
-
-                    <option value="2025">
-                        2025
-                    </option>
-                </select>
-            </div>
+    </header>
 
 
-            <div class="control-group">
-                <label for="metric">
-                    Metric
-                </label>
+    <section class="controls">
 
-                <select id="metric">
+      <!-- Season -->
+      <div class="control-group">
 
-                    <option value="power">
-                        Power Rating
-                    </option>
-                    
-                    <option value="wepa">
-                        Weighted EPA / Play
-                    </option>
+        <label for="season">
+          Season
+        </label>
 
-                    <option value="pass_epa">
-                        Pass EPA / Play
-                    </option>
+        <select id="season">
 
-                    <option value="rush_epa">
-                        Rush EPA / Play
-                    </option>
+          <option value="2026">
+            2026
+          </option>
 
-                    <option value="eckel">
-                        Eckel Rate
-                    </option>
+          <option value="2025">
+            2025
+          </option>
 
-                    <option value="adjusted_pass">
-                        Adjusted Pass EPA / Play
-                    </option>
+        </select>
 
-                    <option value="adjusted_rush">
-                        Adjusted Rush EPA / Play
-                    </option>
-
-                </select>
-            </div>
+      </div>
 
 
-            <div class="control-group">
-                <label for="conference">
-                    Conference
-                </label>
+      <!-- Metric -->
+      <div class="control-group">
 
-                <select id="conference">
-                    <option value="ALL">
-                        All FBS
-                    </option>
-                </select>
-            </div>
+        <label for="metric">
+          Metric
+        </label>
 
+        <select id="metric">
 
-            <div class="control-group">
-                <label for="team-search">
-                    Highlight Team
-                </label>
+          <option value="power">
+            Power Rating
+          </option>
 
-                <select id="team-search">
-                    <option value="">
-                        None
-                    </option>
-                </select>
-            </div>
+          <option value="wepa">
+            Weighted EPA / Play
+          </option>
 
-        </section>
+          <option value="pass_epa">
+            Pass EPA / Play
+          </option>
 
+          <option value="rush_epa">
+            Rush EPA / Play
+          </option>
 
-        <section class="chart-info">
+          <option value="eckel">
+            Eckel Rate
+          </option>
 
-            <div>
-                <span class="label">
-                    Data through
-                </span>
+          <option value="adjusted_pass">
+            Adjusted Pass EPA / Play
+          </option>
 
-                <strong id="week-label">
-                    Loading...
-                </strong>
-            </div>
+          <option value="adjusted_rush">
+            Adjusted Rush EPA / Play
+          </option>
 
-            <div>
-                <span class="label">
-                    Teams displayed
-                </span>
+        </select>
 
-                <strong id="team-count">
-                    —
-                </strong>
-            </div>
-
-        </section>
+      </div>
 
 
-        <section class="chart-container">
-            <div id="chart"></div>
-        </section>
+      <!-- Conference -->
+      <div class="control-group">
+
+        <label for="conference">
+          Conference
+        </label>
+
+        <select id="conference">
+
+          <option value="ALL">
+            All FBS
+          </option>
+
+        </select>
+
+      </div>
 
 
-        <footer class="footer">
+      <!-- Team highlight -->
+      <div class="control-group">
 
-            <p>
-                Offensive performance is plotted on the x-axis.
-                Defensive performance is plotted on a reversed y-axis
-                where appropriate so better teams move toward the
-                upper-right quadrant.
-            </p>
+        <label for="team-search">
+          Highlight Team
+        </label>
 
-            <p>
-                BTB Analytics
-            </p>
+        <select id="team-search">
 
-        </footer>
+          <option value="">
+            None
+          </option>
 
-    </main>
+        </select>
+
+      </div>
+
+    </section>
 
 
-    <script src="./app.js"></script>
+    <!-- Dataset information -->
+    <section class="chart-info">
+
+      <div>
+
+        <span class="label">
+          Data through
+        </span>
+
+        <strong id="week-label">
+          Loading...
+        </strong>
+
+      </div>
+
+
+      <div>
+
+        <span class="label">
+          Teams displayed
+        </span>
+
+        <strong id="team-count">
+          —
+        </strong>
+
+      </div>
+
+    </section>
+
+
+    <!-- Chart -->
+    <section class="chart-container">
+
+      <div id="chart"></div>
+
+    </section>
+
+
+    <footer class="footer">
+
+      <p>
+        Offensive performance is shown on the x-axis.
+        Defensive metrics are oriented so stronger overall
+        performance generally moves teams toward the
+        upper-right portion of the chart.
+      </p>
+
+      <p>
+        Dashed lines represent the all-FBS average,
+        even when a conference filter is selected.
+      </p>
+
+      <p>
+        BTB Analytics
+      </p>
+
+    </footer>
+
+  </main>
+
+
+  <script src="./app.js"></script>
 
 </body>
+
 </html>
