@@ -3,8 +3,8 @@ name: Update CFB Metrics Site
 on:
   workflow_dispatch:
 
-  # Runs daily at 5:17 AM Arizona time.
-  # Arizona is UTC-7 year-round.
+  # Runs every day at 5:17 AM Arizona time.
+  # Arizona stays on UTC-7 year-round.
   schedule:
     - cron: "17 12 * * *"
 
@@ -117,13 +117,13 @@ jobs:
           if [ -s "models/final_wepa_weights_6_2_24.RDS" ]; then
             echo "wEPA weights file found."
           else
-            echo "WARNING: wEPA weights file not found. Script will use fallback."
+            echo "WARNING: wEPA weights file not found."
           fi
 
           if [ -s "models/eckel_mod.RDS" ]; then
             echo "Eckel model found."
           else
-            echo "WARNING: Eckel model not found. Adjusted Eckel metrics may be unavailable."
+            echo "WARNING: Eckel model not found."
           fi
 
       - name: Build current metrics
