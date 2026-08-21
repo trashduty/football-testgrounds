@@ -552,36 +552,37 @@ fetch_teams <- function(season) {
     "CFB Teams Full Crosswalk.csv"
   )
 
+  # Normalise the logo column once on the raw crosswalk
   crosswalk <- crosswalk %>%
-    transmute(
-      team = as.character(cfbfastr_team),
-      logo = as.character(logo)
-    ) %>%
     mutate(
-      team = str_trim(team),
+      logo = as.character(logo),
       logo = str_trim(logo),
-      logo = str_replace(
-        logo,
-        "^http://",
-        "https://"
-      ),
-      logo = if_else(
-        is_valid_logo(logo),
-        logo,
-        NA_character_
-      )
-    ) %>%
-    filter(
-      !is.na(team),
-      team != ""
-    ) %>%
-    mutate(
-      join_key = normalize_team_key(team)
-    ) %>%
-    distinct(
-      join_key,
-      .keep_all = TRUE
+      logo = str_replace(logo, "^http://", "https://"),
+      logo = if_else(is_valid_logo(logo), logo, NA_character_)
     )
+
+  # Build an expanded join_key -> logo lookup by trying every candidate name
+  # column in priority order.  This lets teams be matched via cfbfastr_team,
+  # api_team, btb_team, or btb_team_short (whichever normalised key the API
+  # school name resolves to first).
+  candidate_cols <- intersect(
+    c("cfbfastr_team", "api_team", "btb_team", "btb_team_short"),
+    names(crosswalk)
+  )
+
+  crosswalk_lookup <- map_dfr(candidate_cols, function(col) {
+    crosswalk %>%
+      filter(
+        !is.na(.data[[col]]),
+        as.character(.data[[col]]) != "",
+        !is.na(logo)
+      ) %>%
+      transmute(
+        join_key = normalize_team_key(as.character(.data[[col]])),
+        logo     = logo
+      )
+  }) %>%
+    distinct(join_key, .keep_all = TRUE)
 
   out <- t %>%
     transmute(
@@ -593,7 +594,7 @@ fetch_teams <- function(season) {
       join_key = normalize_team_key(team)
     ) %>%
     left_join(
-      crosswalk %>% select(join_key, logo),
+      crosswalk_lookup,
       by = "join_key"
     ) %>%
     select(-join_key)
