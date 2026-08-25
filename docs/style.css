@@ -104,10 +104,6 @@ body {
     line-height: 1.5;
 }
 
-/* ==========================================================
-   NEW BTB FEATURES
-========================================================== */
-
 .section-card {
   margin-top: 30px;
   background: #ffffff;
@@ -132,11 +128,6 @@ body {
   margin: 0;
   color: #666666;
 }
-
-
-/* ==========================================================
-   BUTTONS
-========================================================== */
 
 .download-button {
   appearance: none;
@@ -163,11 +154,6 @@ body {
   flex-wrap: wrap;
 }
 
-
-/* ==========================================================
-   WEEKLY MOVERS
-========================================================== */
-
 .movers-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -185,7 +171,7 @@ body {
 .mover-column h3 {
   margin: 0;
   padding: 15px 18px;
-  background: #f5d400;
+  background: var(--accent);
   color: #050505;
   font-size: 19px;
   font-weight: 900;
@@ -220,7 +206,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: -10px 0 -10px -14px;
-  background: #f5d400;
+  background: var(--accent);
   color: #050505;
   font-size: 29px;
   font-weight: 900;
@@ -301,7 +287,7 @@ body {
 
 .mover-primary-change.positive,
 .mover-secondary-change.positive {
-  color: #63dc83;
+  color: var(--accent);
 }
 
 .mover-primary-change.negative,
@@ -316,19 +302,9 @@ body {
   font-size: 14px;
 }
 
-
-/* ==========================================================
-   POWER RATING HISTORY
-========================================================== */
-
 #history-chart {
   min-height: 420px;
 }
-
-
-/* ==========================================================
-   HIDDEN EXPORT AREA
-========================================================== */
 
 #export-stage {
   position: fixed;
@@ -337,19 +313,11 @@ body {
   pointer-events: none;
 }
 
-
-/* ==========================================================
-   EXPORT GRAPHIC
-========================================================== */
-
 .export-card {
   width: 1080px;
   min-height: 1080px;
-
   box-sizing: border-box;
-
   padding: 48px;
-
   background:
     radial-gradient(
       circle at 80% 40%,
@@ -357,9 +325,7 @@ body {
       #121212 35%,
       #050505 75%
     );
-
   color: #ffffff;
-
   font-family:
     Arial,
     Helvetica,
@@ -372,7 +338,7 @@ body {
 }
 
 .export-header {
-  border-bottom: 6px solid #f5d400;
+  border-bottom: 6px solid var(--accent);
   padding-bottom: 24px;
   margin-bottom: 28px;
 }
@@ -380,50 +346,36 @@ body {
 .export-brand-row {
   display: flex;
   align-items: center;
-  gap: 18px;
+  justify-content: flex-start;
+  min-height: 100px;
 }
 
 .export-brand-logo {
-  width: 74px;
-  height: 74px;
+  display: block;
+  width: 280px;
+  height: 100px;
   object-fit: contain;
-}
-
-.export-brand-name {
-  font-size: 26px;
-  font-weight: 800;
+  object-position: left center;
 }
 
 .export-title {
   margin: 15px 0 0;
-
   font-size: 58px;
   line-height: 1;
-
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .export-subtitle {
   display: inline-block;
-
   margin-top: 15px;
-
   padding: 10px 18px;
-
-  background: #f5d400;
+  background: var(--accent);
   color: #000000;
-
   font-size: 25px;
   font-weight: 900;
-
   text-transform: uppercase;
 }
-
-
-/* ==========================================================
-   EXPORT RANKINGS
-========================================================== */
 
 .export-ranking-list {
   display: flex;
@@ -433,34 +385,26 @@ body {
 
 .export-rank-row {
   display: grid;
-
   grid-template-columns:
     78px
     76px
     minmax(0, 1fr)
     150px;
-
   align-items: center;
-
   min-height: 70px;
-
   background:
     rgba(255, 255, 255, 0.06);
-
   border:
     1px solid rgba(255, 255, 255, 0.15);
 }
 
 .export-rank-number {
   height: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background: #f5d400;
+  background: var(--accent);
   color: #000000;
-
   font-size: 37px;
   font-weight: 900;
 }
@@ -468,9 +412,7 @@ body {
 .export-team-logo {
   width: 55px;
   height: 55px;
-
   object-fit: contain;
-
   margin: auto;
 }
 
@@ -481,37 +423,26 @@ body {
 
 .export-team-meta {
   color: #bbbbbb;
-
   font-size: 15px;
   margin-top: 3px;
 }
 
 .export-power {
   text-align: right;
-
   padding-right: 20px;
-
   font-size: 28px;
   font-weight: 900;
 }
 
 .export-power-label {
   display: block;
-
   font-size: 11px;
   color: #bdbdbd;
-
   text-transform: uppercase;
 }
 
-
-/* ==========================================================
-   TOP 10 WEEKLY MOVEMENT
-========================================================== */
-
 .export-top10-row {
   display: grid;
-
   grid-template-columns:
     72px
     70px
@@ -519,14 +450,11 @@ body {
     122px
     105px
     86px;
-
   align-items: center;
   min-height: 76px;
   overflow: hidden;
-
   background:
     rgba(255, 255, 255, 0.06);
-
   border:
     1px solid rgba(255, 255, 255, 0.15);
 }
@@ -580,24 +508,12 @@ body {
   color: #d0d0d0;
 }
 
-
-/* ==========================================================
-   TOP 25 TWO-COLUMN LAYOUT
-========================================================== */
-
 .export-top25-grid {
   display: grid;
-
   grid-template-columns:
     1fr 1fr;
-
   gap: 24px;
 }
-
-
-/* ==========================================================
-   EXPORT MOVERS
-========================================================== */
 
 #movers-export-card {
   width: 1080px;
@@ -617,7 +533,7 @@ body {
 .export-mover-column-title {
   margin-bottom: 12px;
   padding: 13px 18px;
-  background: #f5d400;
+  background: var(--accent);
   color: #050505;
   font-size: 27px;
   font-weight: 900;
@@ -651,7 +567,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f5d400;
+  background: var(--accent);
   color: #050505;
   font-size: 37px;
   font-weight: 900;
@@ -732,7 +648,7 @@ body {
 }
 
 .export-change-positive {
-  color: #65df85;
+  color: var(--accent);
 }
 
 .export-change-negative {
@@ -747,12 +663,7 @@ body {
   font-size: 18px;
 }
 
-/* ==========================================================
-   RESPONSIVE
-========================================================== */
-
 @media (max-width: 800px) {
-
   .section-heading {
     flex-direction: column;
     align-items: flex-start;
@@ -781,11 +692,9 @@ body {
   .download-button {
     width: 100%;
   }
-
 }
 
 @media (max-width: 700px) {
-
   .header h1 {
     font-size: 25px;
   }
@@ -825,5 +734,4 @@ body {
   .mover-rating {
     font-size: 11px;
   }
-
 }
