@@ -184,6 +184,22 @@ normalize_team_key <- function(x) {
 
 
 
+#' Manual alias fallback for graph-facing team names that do not resolve to a
+#' crosswalk row via the candidate-column join above (e.g. abbreviations or
+#' alternate short names not present in any crosswalk column). Maps the
+#' graph-facing name to the corresponding `btb_team_short` value in
+#' "CFB Teams Full Crosswalk.csv". This does not modify the CSV; it only
+#' provides an additional lookup key used when the primary join fails.
+manual_team_aliases <- c(
+  "UTSA"           = "UT San Antonio",
+  "UConn"          = "Connecticut",
+  "Southern Miss"  = "Southern Mississippi",
+  "Sam Houston"    = "Sam Houston State",
+  "UL Monroe"      = "Louisiana Monroe",
+  "Massachusetts"  = "UMass"
+)
+
+
 # ---- Config -----------------------------------------------------------------
 
 .args <- commandArgs(trailingOnly = TRUE)
@@ -584,6 +600,33 @@ fetch_teams <- function(season) {
   }) %>%
     distinct(join_key, .keep_all = TRUE)
 
+  # Manual alias -> btb_team_short lookup, keyed by normalized alias name, so
+  # it can be used as a fallback when the primary candidate-column join fails.
+  alias_lookup <- tibble(
+    alias_key        = normalize_team_key(names(manual_team_aliases)),
+    btb_team_short_key = normalize_team_key(unname(manual_team_aliases))
+  )
+
+  crosswalk_short_lookup <- crosswalk %>%
+    filter(
+      !is.na(btb_team_short),
+      as.character(btb_team_short) != "",
+      !is.na(logo)
+    ) %>%
+    transmute(
+      btb_team_short_key = normalize_team_key(as.character(btb_team_short)),
+      alias_logo         = logo
+    ) %>%
+    distinct(btb_team_short_key, .keep_all = TRUE)
+
+  alias_lookup <- alias_lookup %>%
+    left_join(
+      crosswalk_short_lookup,
+      by = "btb_team_short_key"
+    ) %>%
+    filter(!is.na(alias_logo)) %>%
+    select(alias_key, alias_logo)
+
   out <- t %>%
     transmute(
       team = as.character(school),
@@ -597,7 +640,14 @@ fetch_teams <- function(season) {
       crosswalk_lookup,
       by = "join_key"
     ) %>%
-    select(-join_key)
+    left_join(
+      alias_lookup,
+      by = c("join_key" = "alias_key")
+    ) %>%
+    mutate(
+      logo = if_else(!is_valid_logo(logo) & is_valid_logo(alias_logo), alias_logo, logo)
+    ) %>%
+    select(-join_key, -alias_logo)
 
   missing_logos <- out %>%
     filter(
