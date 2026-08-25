@@ -27,8 +27,18 @@
 #   rank_change < 0 = moved down
 #
 # RUN:
-#   Rscript weekly_site_update.R --year=2026
-#   Rscript weekly_site_update.R --year=2026 --max-week=6
+#   Production/current season:
+#     Rscript weekly_site_update.R --year=2026
+#     Rscript weekly_site_update.R --year=2026 --max-week=6
+#
+#   Historical QA without a preseason prior:
+#     Rscript weekly_site_update.R --year=2025 --min-week=11 --max-week=12 --test-no-prior
+#
+#   In --test-no-prior mode:
+#     * data/preseason_ratings_<year>.csv is NOT required.
+#     * preseason weight is forced to 0 for every QA snapshot.
+#     * only weeks from --min-week through --max-week are written to history.
+#     * Week 12 movement therefore compares directly with Week 11.
 #
 # REQUIRES:
 #   CFBD_API_KEY
@@ -223,6 +233,11 @@ manual_team_aliases <- c(
 }
 
 
+.has_flag <- function(flag) {
+  flag %in% .args
+}
+
+
 TARGET_SEASON <- as.integer(
   .get_arg(
     "--year",
@@ -237,6 +252,19 @@ MAX_WEEK_ARG <- suppressWarnings(
       NA
     )
   )
+)
+
+MIN_WEEK_ARG <- suppressWarnings(
+  as.integer(
+    .get_arg(
+      "--min-week",
+      1
+    )
+  )
+)
+
+TEST_NO_PRIOR <- .has_flag(
+  "--test-no-prior"
 )
 
 OUT_ROOT <- .get_arg(
@@ -2095,6 +2123,17 @@ load_prior <- function(
 }
 
 
+make_neutral_prior <- function(teams_tbl) {
+  teams_tbl %>%
+    transmute(
+      team,
+      prior_power = 0,
+      prior_off = 0,
+      prior_def = 0
+    )
+}
+
+
 prior_weight <- function(games_played) {
   pmax(
     0,
@@ -2405,9 +2444,13 @@ snapshot_week <- function(
         PLAYS_SCALE,
 
       prior_weight =
-        prior_weight(
-          games
-        ),
+        if (TEST_NO_PRIOR) {
+          0
+        } else {
+          prior_weight(
+            games
+          )
+        },
 
       off_pts =
         prior_weight *
@@ -2602,10 +2645,23 @@ if (run_main) {
     TARGET_SEASON
   )
 
-  prior <- load_prior(
-    PRESEASON_FILE,
-    teams_tbl
-  )
+  prior <- if (TEST_NO_PRIOR) {
+    msg(
+      paste0(
+        "QA MODE: --test-no-prior enabled. ",
+        "Using a neutral zero prior and forcing prior_weight = 0."
+      )
+    )
+
+    make_neutral_prior(
+      teams_tbl
+    )
+  } else {
+    load_prior(
+      PRESEASON_FILE,
+      teams_tbl
+    )
+  }
 
   model_weights <- if (
     file.exists(
@@ -2692,6 +2748,50 @@ if (run_main) {
     )
   }
 
+  start_week <- if (TEST_NO_PRIOR) {
+    MIN_WEEK_ARG
+  } else {
+    1L
+  }
+
+  if (
+    TEST_NO_PRIOR &&
+    (
+      is.na(start_week) ||
+      start_week < 1
+    )
+  ) {
+    stop(
+      "--min-week must be an integer >= 1 in --test-no-prior mode.",
+      call. = FALSE
+    )
+  }
+
+  if (
+    TEST_NO_PRIOR &&
+    start_week > thru_week
+  ) {
+    stop(
+      sprintf(
+        paste0(
+          "QA start week (%d) is later than available thru_week (%d). ",
+          "Choose a smaller --min-week or a larger --max-week."
+        ),
+        start_week,
+        thru_week
+      ),
+      call. = FALSE
+    )
+  }
+
+  if (TEST_NO_PRIOR) {
+    msg(
+      "QA MODE: calculating snapshots for weeks %d-%d only.",
+      start_week,
+      thru_week
+    )
+  }
+
   if (
     max_pbp_wk <
     max_completed
@@ -2737,8 +2837,11 @@ if (run_main) {
   # ---------------------------------------------------------------------------
 
   if (
-    thru_week < 1 ||
-    is.null(pbp)
+    !TEST_NO_PRIOR &&
+    (
+      thru_week < 1 ||
+      is.null(pbp)
+    )
   ) {
     msg(
       "No completed weeks with PBP. Writing Week 0 preseason baseline."
@@ -2905,10 +3008,19 @@ if (run_main) {
       eckel_model
     )
 
-    history_list <- map(
+    snapshot_weeks <- if (TEST_NO_PRIOR) {
+      seq.int(
+        from = start_week,
+        to = thru_week
+      )
+    } else {
       seq_len(
         thru_week
-      ),
+      )
+    }
+
+    history_list <- map(
+      snapshot_weeks,
       function(w) {
         msg(
           "Snapshot: through week %d",
@@ -2940,14 +3052,22 @@ if (run_main) {
       "wepa_scale"
     )
 
-    history <- bind_rows(
-      c(
-        list(
-          week0
-        ),
+    history <- if (TEST_NO_PRIOR) {
+      bind_rows(
         history_list
       )
-    ) %>%
+    } else {
+      bind_rows(
+        c(
+          list(
+            week0
+          ),
+          history_list
+        )
+      )
+    }
+
+    history <- history %>%
       arrange(
         week,
         power_rank
@@ -2976,14 +3096,14 @@ if (run_main) {
       mutate(
         power_change =
           ifelse(
-            week == 0,
+            week == min(week) | is.na(power_change),
             0,
             power_change
           ),
 
         rank_change =
           ifelse(
-            week == 0,
+            week == min(week) | is.na(rank_change),
             0L,
             rank_change
           )
@@ -3059,6 +3179,12 @@ if (run_main) {
       list(
         season =
           TARGET_SEASON,
+
+        qa_test_no_prior =
+          TEST_NO_PRIOR,
+
+        qa_min_week =
+          if (TEST_NO_PRIOR) start_week else 1L,
 
         thru_week =
           thru_week,
