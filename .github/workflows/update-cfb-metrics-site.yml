@@ -2,7 +2,17 @@ name: Update CFB Metrics Site
 
 on:
   workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Metrics build to run"
+        required: true
+        default: "2026 Production"
+        type: choice
+        options:
+          - "2026 Production"
+          - "2025 QA Weeks 11-12"
 
+  # Production automation only.
   # Runs every day at 5:17 AM Arizona time.
   # Arizona stays on UTC-7 year-round.
   schedule:
@@ -21,10 +31,42 @@ jobs:
       contents: write
 
     env:
-      CURRENT_SEASON: "2026"
       CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
 
     steps:
+      - name: Resolve build settings
+        id: settings
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Scheduled runs are always the live 2026 production build.
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "season=2026" >> "$GITHUB_OUTPUT"
+            echo "qa_mode=false" >> "$GITHUB_OUTPUT"
+            echo "min_week=" >> "$GITHUB_OUTPUT"
+            echo "max_week=" >> "$GITHUB_OUTPUT"
+            echo "label=2026 Production" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          case "${{ inputs.run_mode }}" in
+            "2025 QA Weeks 11-12")
+              echo "season=2025" >> "$GITHUB_OUTPUT"
+              echo "qa_mode=true" >> "$GITHUB_OUTPUT"
+              echo "min_week=11" >> "$GITHUB_OUTPUT"
+              echo "max_week=12" >> "$GITHUB_OUTPUT"
+              echo "label=2025 QA Weeks 11-12" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "season=2026" >> "$GITHUB_OUTPUT"
+              echo "qa_mode=false" >> "$GITHUB_OUTPUT"
+              echo "min_week=" >> "$GITHUB_OUTPUT"
+              echo "max_week=" >> "$GITHUB_OUTPUT"
+              echo "label=2026 Production" >> "$GITHUB_OUTPUT"
+              ;;
+          esac
+
       - name: Check out repository
         uses: actions/checkout@v4
         with:
@@ -40,8 +82,7 @@ jobs:
           if [ -f "models/final_wepa_weights_6_2_24.RDS" ]; then
             file models/final_wepa_weights_6_2_24.RDS
 
-            if grep -q "git-lfs.github.com/spec" \
-              models/final_wepa_weights_6_2_24.RDS 2>/dev/null; then
+            if grep -q "git-lfs.github.com/spec"               models/final_wepa_weights_6_2_24.RDS 2>/dev/null; then
               echo "ERROR: final_wepa_weights_6_2_24.RDS is still a Git LFS pointer."
               exit 1
             fi
@@ -52,8 +93,7 @@ jobs:
           if [ -f "models/eckel_mod.RDS" ]; then
             file models/eckel_mod.RDS
 
-            if grep -q "git-lfs.github.com/spec" \
-              models/eckel_mod.RDS 2>/dev/null; then
+            if grep -q "git-lfs.github.com/spec"               models/eckel_mod.RDS 2>/dev/null; then
               echo "ERROR: eckel_mod.RDS is still a Git LFS pointer."
               exit 1
             fi
@@ -67,10 +107,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            libcurl4-openssl-dev \
-            libssl-dev \
-            libxml2-dev
+          sudo apt-get install -y             libcurl4-openssl-dev             libssl-dev             libxml2-dev
 
       - name: Install R packages
         run: |
@@ -85,7 +122,10 @@ jobs:
               "jsonlite",
               "lme4",
               "lubridate",
-              "cfbfastR"
+              "cfbfastR",
+              "ggplot2",
+              "ggimage",
+              "ggrepel"
             ),
             repos = c(
               "https://sportsdataverse.r-universe.dev",
@@ -94,6 +134,9 @@ jobs:
           )'
 
       - name: Verify required inputs
+        env:
+          CURRENT_SEASON: ${{ steps.settings.outputs.season }}
+          QA_MODE: ${{ steps.settings.outputs.qa_mode }}
         run: |
           set -euo pipefail
 
@@ -102,17 +145,22 @@ jobs:
             exit 1
           fi
 
-          required_files=(
-            "weekly_site_update.R"
-            "data/preseason_ratings_${CURRENT_SEASON}.csv"
-          )
+          if [ ! -s "weekly_site_update.R" ]; then
+            echo "Missing or empty required file: weekly_site_update.R"
+            exit 1
+          fi
 
-          for file in "${required_files[@]}"; do
-            if [ ! -s "$file" ]; then
-              echo "Missing or empty required file: $file"
+          # A real preseason file is required only for the production path.
+          if [ "$QA_MODE" != "true" ]; then
+            prior_file="data/preseason_ratings_${CURRENT_SEASON}.csv"
+
+            if [ ! -s "$prior_file" ]; then
+              echo "Missing or empty required file: $prior_file"
               exit 1
             fi
-          done
+          else
+            echo "QA mode: preseason ratings file is intentionally not required."
+          fi
 
           if [ -s "models/final_wepa_weights_6_2_24.RDS" ]; then
             echo "wEPA weights file found."
@@ -126,13 +174,29 @@ jobs:
             echo "WARNING: Eckel model not found."
           fi
 
-      - name: Build current metrics
+      - name: Build metrics
+        env:
+          CURRENT_SEASON: ${{ steps.settings.outputs.season }}
+          QA_MODE: ${{ steps.settings.outputs.qa_mode }}
+          MIN_WEEK: ${{ steps.settings.outputs.min_week }}
+          MAX_WEEK: ${{ steps.settings.outputs.max_week }}
         run: |
           set -euo pipefail
 
-          Rscript weekly_site_update.R --year="${CURRENT_SEASON}"
+          echo "Running: ${{ steps.settings.outputs.label }}"
+
+          if [ "$QA_MODE" = "true" ]; then
+            Rscript weekly_site_update.R               --year="${CURRENT_SEASON}"               --min-week="${MIN_WEEK}"               --max-week="${MAX_WEEK}"               --test-no-prior
+          else
+            Rscript weekly_site_update.R               --year="${CURRENT_SEASON}"
+          fi
 
       - name: Validate generated site data
+        env:
+          CURRENT_SEASON: ${{ steps.settings.outputs.season }}
+          QA_MODE: ${{ steps.settings.outputs.qa_mode }}
+          MIN_WEEK: ${{ steps.settings.outputs.min_week }}
+          MAX_WEEK: ${{ steps.settings.outputs.max_week }}
         run: |
           set -euo pipefail
 
@@ -141,6 +205,7 @@ jobs:
             "output/site/${CURRENT_SEASON}/meta.json"
             "output/site/${CURRENT_SEASON}/latest.csv"
             "output/site/${CURRENT_SEASON}/ratings_history.csv"
+            "output/site/${CURRENT_SEASON}/btb_scatter.png"
           )
 
           for file in "${required_outputs[@]}"; do
@@ -150,44 +215,58 @@ jobs:
             fi
           done
 
+          python3 -m json.tool             "output/site/${CURRENT_SEASON}/latest.json"             > /dev/null
+
+          python3 -m json.tool             "output/site/${CURRENT_SEASON}/meta.json"             > /dev/null
+
+          if [ "$QA_MODE" = "true" ]; then
+            for week in "$MIN_WEEK" "$MAX_WEEK"; do
+              week_file=$(printf "output/site/%s/weekly/week_%02d.csv"                 "$CURRENT_SEASON" "$week")
+
+              if [ ! -s "$week_file" ]; then
+                echo "Missing QA weekly snapshot: $week_file"
+                exit 1
+              fi
+            done
+          fi
+
           echo "Generated files:"
           ls -lh "output/site/${CURRENT_SEASON}/"
 
       - name: Publish data to GitHub Pages
+        env:
+          CURRENT_SEASON: ${{ steps.settings.outputs.season }}
         run: |
           set -euo pipefail
 
           mkdir -p "docs/data/${CURRENT_SEASON}"
 
-          cp \
-            "output/site/${CURRENT_SEASON}/latest.json" \
-            "docs/data/${CURRENT_SEASON}/latest.json"
+          cp             "output/site/${CURRENT_SEASON}/latest.json"             "docs/data/${CURRENT_SEASON}/latest.json"
 
-          cp \
-            "output/site/${CURRENT_SEASON}/meta.json" \
-            "docs/data/${CURRENT_SEASON}/meta.json"
+          cp             "output/site/${CURRENT_SEASON}/meta.json"             "docs/data/${CURRENT_SEASON}/meta.json"
 
-          cp \
-            "output/site/${CURRENT_SEASON}/ratings_history.csv" \
-            "docs/data/${CURRENT_SEASON}/ratings_history.csv"
+          cp             "output/site/${CURRENT_SEASON}/ratings_history.csv"             "docs/data/${CURRENT_SEASON}/ratings_history.csv"
+
+          cp             "output/site/${CURRENT_SEASON}/btb_scatter.png"             "docs/data/${CURRENT_SEASON}/btb_scatter.png"
 
           echo "Published site files:"
           ls -lh "docs/data/${CURRENT_SEASON}/"
 
       - name: Commit updated metrics
+        env:
+          CURRENT_SEASON: ${{ steps.settings.outputs.season }}
+          BUILD_LABEL: ${{ steps.settings.outputs.label }}
         run: |
           set -euo pipefail
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            "output/site/${CURRENT_SEASON}/" \
-            "docs/data/${CURRENT_SEASON}/"
+          git add             "output/site/${CURRENT_SEASON}/"             "docs/data/${CURRENT_SEASON}/"
 
           if git diff --cached --quiet; then
             echo "No CFB metrics changes to commit."
           else
-            git commit -m "Update ${CURRENT_SEASON} CFB metrics $(date +%Y-%m-%d)"
+            git commit -m "${BUILD_LABEL}: $(date +%Y-%m-%d)"
             git push
           fi
