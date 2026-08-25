@@ -1,0 +1,30 @@
+{
+  "season": 2025,
+  "qa_test_no_prior": true,
+  "qa_min_week": 11,
+  "thru_week": 12,
+  "generated_utc": "2026-08-25 01:12:00",
+  "games_max_completed_week": 16,
+  "pbp_max_week": 16,
+  "wepa_weights_loaded": true,
+  "eckel_model_loaded": true,
+  "hfa_epa_per_play": 0.0188,
+  "wepa_to_epa_scale": 0.0896,
+  "n_teams": 136,
+  "config": {
+    "PLAYS_SCALE": 65,
+    "TARGET_SD": 12,
+    "PRIOR_G_FULL": 8,
+    "PRIOR_POW": 1.5,
+    "RECENCY_DECAY": 0.9
+  },
+  "column_notes": {
+    "power_off_def_pts": "points versus average FBS team per game; higher is better; def_pts = points prevented",
+    "off_stats": "current-season offensive metrics; higher is better",
+    "def_stats": "current-season defensive allowed metrics; lower is better",
+    "adj_rush_pass": "current-season opponent- and venue-adjusted EPA/play",
+    "prior_weight": "share of BTB Power Rating still derived from the preseason baseline",
+    "power_change": "change in BTB Power Rating versus the previous weekly snapshot",
+    "rank_change": "national rank movement versus the previous snapshot; positive means the team moved up"
+  }
+}
