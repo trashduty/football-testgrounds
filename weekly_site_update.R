@@ -1068,10 +1068,8 @@ write_ranked_exports <- function(
   }
 
 
-  /*
-   * Top 10:
-   * show BOTH week-to-week rating movement and ranking movement.
-   */
+  # Top 10:
+  # show BOTH week-to-week rating movement and ranking movement.
   top10_secondary <- function(df) {
 
     rank_move <-
