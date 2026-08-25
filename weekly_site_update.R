@@ -27,6 +27,7 @@ ensure_cfbfastR <- function() {
   invisible(TRUE)
 }
 
+
 ensure_ggimage <- function() {
   if (requireNamespace("ggimage", quietly = TRUE) &&
       requireNamespace("ggplot2", quietly = TRUE)) {
@@ -65,6 +66,7 @@ ensure_ggimage <- function() {
   )
 }
 
+
 suppressMessages({
   library(dplyr)
   library(tidyr)
@@ -79,11 +81,13 @@ suppressMessages({
 
 options(dplyr.summarise.inform = FALSE)
 
+
 is_valid_logo <- function(x) {
   !is.na(x) &
     nchar(trimws(x)) > 0 &
     grepl("^https?://", trimws(x))
 }
+
 
 normalize_team_key <- function(x) {
   x %>%
@@ -109,6 +113,7 @@ normalize_team_key <- function(x) {
     str_squish()
 }
 
+
 manual_team_aliases <- c(
   "UTSA"           = "UT San Antonio",
   "UConn"          = "Connecticut",
@@ -118,7 +123,9 @@ manual_team_aliases <- c(
   "Massachusetts"  = "UMass"
 )
 
+
 .args <- commandArgs(trailingOnly = TRUE)
+
 
 .get_arg <- function(flag, default) {
   hit <- grep(
@@ -138,9 +145,11 @@ manual_team_aliases <- c(
   }
 }
 
+
 .has_flag <- function(flag) {
   flag %in% .args
 }
+
 
 TARGET_SEASON <- as.integer(
   .get_arg(
@@ -148,6 +157,7 @@ TARGET_SEASON <- as.integer(
     format(Sys.Date(), "%Y")
   )
 )
+
 
 MAX_WEEK_ARG <- suppressWarnings(
   as.integer(
@@ -158,6 +168,7 @@ MAX_WEEK_ARG <- suppressWarnings(
   )
 )
 
+
 MIN_WEEK_ARG <- suppressWarnings(
   as.integer(
     .get_arg(
@@ -167,34 +178,49 @@ MIN_WEEK_ARG <- suppressWarnings(
   )
 )
 
+
 TEST_NO_PRIOR <- .has_flag(
   "--test-no-prior"
 )
+
 
 OUT_ROOT <- .get_arg(
   "--outdir",
   "output/site"
 )
 
-MODEL_WEIGHTS_FILE <- "models/final_wepa_weights_6_2_24.RDS"
-ECKEL_MODEL_FILE <- "models/eckel_mod.RDS"
+
+MODEL_WEIGHTS_FILE <-
+  "models/final_wepa_weights_6_2_24.RDS"
+
+
+ECKEL_MODEL_FILE <-
+  "models/eckel_mod.RDS"
+
 
 PRESEASON_FILE <- sprintf(
   "data/preseason_ratings_%d.csv",
   TARGET_SEASON
 )
 
+
 PLAYS_SCALE <- 65
 TARGET_SD <- 12
 STANDARDIZE_PRIOR <- TRUE
 
 BRAND_GREEN <- "#4CAF50"
-BRAND_LOGO_FILE <- "btb-logo.png"
+BRAND_RED <- "#E53935"
+
+BRAND_LOGO_FILE <-
+  "btb-logo.png"
 
 PRIOR_G_FULL <- 8
 PRIOR_POW <- 1.5
+
 RECENCY_DECAY <- 0.90
+
 NEW_TEAM_PRIOR_Q <- 0.10
+
 
 GT_THRESH <- c(
   `1` = 28,
@@ -202,6 +228,7 @@ GT_THRESH <- c(
   `3` = 21,
   `4` = 16
 )
+
 
 PRIOR_NAME_RECODE <- c(
   "Louisiana Monroe" = "UL Monroe",
@@ -214,13 +241,16 @@ PRIOR_NAME_RECODE <- c(
   "Hawaii" = "Hawai'i"
 )
 
+
 require_cols <- function(df, cols, where) {
+
   miss <- setdiff(
     cols,
     names(df)
   )
 
   if (length(miss)) {
+
     stop(
       sprintf(
         paste0(
@@ -233,10 +263,12 @@ require_cols <- function(df, cols, where) {
       ),
       call. = FALSE
     )
+
   }
 
   invisible(df)
 }
+
 
 msg <- function(...) {
   message(
@@ -244,25 +276,37 @@ msg <- function(...) {
   )
 }
 
+
 isTRUE_v <- function(x) {
   !is.na(x) & x
 }
+
 
 report_logo_quality <- function(
     teams_df,
     out_dir,
     threshold = 0.05
 ) {
+
   require_cols(
     teams_df,
     c("team", "conference", "logo"),
     "report_logo_quality"
   )
 
-  n_total <- nrow(teams_df)
-  valid_idx <- is_valid_logo(teams_df$logo)
-  n_valid <- sum(valid_idx)
-  n_missing <- n_total - n_valid
+  n_total <-
+    nrow(teams_df)
+
+  valid_idx <-
+    is_valid_logo(
+      teams_df$logo
+    )
+
+  n_valid <-
+    sum(valid_idx)
+
+  n_missing <-
+    n_total - n_valid
 
   pct <-
     if (n_total > 0) {
@@ -271,12 +315,14 @@ report_logo_quality <- function(
       0
     }
 
+
   msg(
     "Logo quality: %d/%d teams have valid logos (%.1f%% missing).",
     n_valid,
     n_total,
     100 * pct
   )
+
 
   missing_df <- teams_df %>%
     filter(
@@ -288,6 +334,7 @@ report_logo_quality <- function(
       logo
     )
 
+
   write_csv(
     missing_df,
     file.path(
@@ -296,7 +343,9 @@ report_logo_quality <- function(
     )
   )
 
+
   if (n_missing > 0) {
+
     msg(
       "Missing/invalid logos written to %s",
       file.path(
@@ -304,9 +353,12 @@ report_logo_quality <- function(
         "missing_logos.csv"
       )
     )
+
   }
 
+
   if (pct > threshold) {
+
     stop(
       sprintf(
         paste0(
@@ -325,10 +377,13 @@ report_logo_quality <- function(
       ),
       call. = FALSE
     )
+
   }
+
 
   invisible(missing_df)
 }
+
 
 plot_btb_scatter <- function(
     df,
@@ -337,6 +392,7 @@ plot_btb_scatter <- function(
     width = 12,
     height = 10
 ) {
+
   required <- c(
     "team",
     "off_pts",
@@ -344,7 +400,9 @@ plot_btb_scatter <- function(
     "logo"
   )
 
+
   if (!all(required %in% names(df))) {
+
     msg(
       "Skipping scatter plot: missing columns (%s).",
       paste(
@@ -357,29 +415,42 @@ plot_btb_scatter <- function(
     )
 
     return(invisible(NULL))
+
   }
 
-  can_image <- ensure_ggimage()
+
+  can_image <-
+    ensure_ggimage()
+
 
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
+
     msg(
       "Skipping scatter plot: ggplot2 not available."
     )
 
     return(invisible(NULL))
+
   }
+
 
   library(ggplot2)
 
+
   title_str <-
     if (!is.na(season)) {
+
       sprintf(
         "%d BTB Power Rating",
         as.integer(season)
       )
+
     } else {
+
       "BTB Power Rating"
+
     }
+
 
   df_plot <- df %>%
     mutate(
@@ -393,6 +464,7 @@ plot_btb_scatter <- function(
           NA_character_
         )
     )
+
 
   p <- ggplot(
     df_plot,
@@ -425,7 +497,9 @@ plot_btb_scatter <- function(
       base_size = 14
     )
 
+
   if (can_image) {
+
     library(ggimage)
 
     p <- p +
@@ -443,15 +517,21 @@ plot_btb_scatter <- function(
         size = 0.05,
         na.rm = TRUE
       )
+
   }
 
-  no_logo_df <- df_plot %>%
+
+  no_logo_df <-
+    df_plot %>%
     filter(
       !logo_valid
     )
 
+
   if (nrow(no_logo_df) > 0) {
+
     if (!requireNamespace("ggrepel", quietly = TRUE)) {
+
       p <- p +
         geom_text(
           data = no_logo_df,
@@ -463,7 +543,9 @@ plot_btb_scatter <- function(
           size = 2.5,
           color = "grey40"
         )
+
     } else {
+
       library(ggrepel)
 
       p <- p +
@@ -477,16 +559,22 @@ plot_btb_scatter <- function(
           size = 2.5,
           color = "grey40"
         )
+
     }
+
   }
 
-  out_path <- file.path(
-    out_dir,
-    "btb_scatter.png"
-  )
+
+  out_path <-
+    file.path(
+      out_dir,
+      "btb_scatter.png"
+    )
+
 
   tryCatch(
     {
+
       ggsave(
         out_path,
         plot = p,
@@ -499,21 +587,29 @@ plot_btb_scatter <- function(
         "Scatter plot written to %s",
         out_path
       )
+
     },
 
     error = function(e) {
+
       msg(
         "WARNING: Could not save scatter plot (%s): %s",
         out_path,
         conditionMessage(e)
       )
+
     }
   )
+
 
   invisible(p)
 }
 
-ranked_graphic_theme <- function() {
+
+ranked_graphic_theme <- function(
+    accent_color = BRAND_GREEN
+) {
+
   ggplot2::theme_void(
     base_family = "sans"
   ) +
@@ -544,7 +640,7 @@ ranked_graphic_theme <- function() {
 
       plot.subtitle =
         ggplot2::element_text(
-          color = BRAND_GREEN,
+          color = accent_color,
           size = 18,
           face = "bold",
 
@@ -562,7 +658,9 @@ ranked_graphic_theme <- function() {
           24
         )
     )
+
 }
+
 
 make_ranked_card_png <- function(
     df,
@@ -574,31 +672,43 @@ make_ranked_card_png <- function(
     secondary_builder = NULL,
     top_n = 10,
     direction = c("desc", "asc"),
-    digits = 1
+    digits = 1,
+    accent_color = BRAND_GREEN,
+    accent_text_color = "#050505"
 ) {
-  direction <- match.arg(
-    direction
-  )
+
+  direction <-
+    match.arg(
+      direction
+    )
+
 
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
+
     msg(
       "Skipping ranked graphic %s: ggplot2 not available.",
       out_path
     )
 
     return(invisible(NULL))
+
   }
 
+
   if (!requireNamespace("ggimage", quietly = TRUE)) {
+
     msg(
       "Skipping ranked graphic %s: ggimage not available.",
       out_path
     )
 
     return(invisible(NULL))
+
   }
 
+
   if (!primary_col %in% names(df)) {
+
     msg(
       "Skipping ranked graphic %s: missing %s.",
       out_path,
@@ -606,7 +716,9 @@ make_ranked_card_png <- function(
     )
 
     return(invisible(NULL))
+
   }
+
 
   rows <- df %>%
     filter(
@@ -617,33 +729,43 @@ make_ranked_card_png <- function(
       )
     )
 
+
   if (direction == "desc") {
+
     rows <- rows %>%
       arrange(
         desc(
           .data[[primary_col]]
         )
       )
+
   } else {
+
     rows <- rows %>%
       arrange(
         .data[[primary_col]]
       )
+
   }
+
 
   rows <- rows %>%
     slice_head(
       n = top_n
     )
 
+
   if (!nrow(rows)) {
+
     msg(
       "Skipping ranked graphic %s: no rows.",
       out_path
     )
 
     return(invisible(NULL))
+
   }
+
 
   rows <- rows %>%
     mutate(
@@ -685,11 +807,15 @@ make_ranked_card_png <- function(
             secondary_builder
           )
         ) {
+
           ""
+
         } else {
+
           secondary_builder(
             cur_data_all()
           )
+
         },
 
       logo_valid =
@@ -698,22 +824,29 @@ make_ranked_card_png <- function(
         )
     )
 
+
   row_height <- 0.82
   xmax <- 14
+
 
   brand_logo_y <-
     nrow(rows) + 1.35
 
+
   p <- ggplot2::ggplot(
     rows
   )
+
 
   for (
     i in seq_len(
       nrow(rows)
     )
   ) {
-    y <- rows$plot_y[i]
+
+    y <-
+      rows$plot_y[i]
+
 
     p <- p +
       ggplot2::annotate(
@@ -754,10 +887,12 @@ make_ranked_card_png <- function(
           y +
           row_height / 2,
 
-        fill = BRAND_GREEN,
+        fill = accent_color,
         color = NA
       )
+
   }
+
 
   p <- p +
     ggplot2::geom_text(
@@ -767,7 +902,7 @@ make_ranked_card_png <- function(
         label = list_rank
       ),
 
-      color = "#050505",
+      color = accent_text_color,
       size = 10,
       fontface = "bold",
       family = "sans"
@@ -825,12 +960,15 @@ make_ranked_card_png <- function(
       family = "sans"
     )
 
+
   logo_rows <- rows %>%
     filter(
       logo_valid
     )
 
+
   if (nrow(logo_rows)) {
+
     p <- p +
       ggimage::geom_image(
         data = logo_rows,
@@ -845,14 +983,18 @@ make_ranked_card_png <- function(
         by = "width",
         asp = 1
       )
+
   }
+
 
   missing_rows <- rows %>%
     filter(
       !logo_valid
     )
 
+
   if (nrow(missing_rows)) {
+
     p <- p +
       ggplot2::geom_text(
         data =
@@ -874,19 +1016,23 @@ make_ranked_card_png <- function(
         size = 4,
         fontface = "bold"
       )
+
   }
+
 
   if (
     file.exists(
       BRAND_LOGO_FILE
     )
   ) {
+
     brand_logo_df <-
       tibble::tibble(
         x = 1.75,
         y = brand_logo_y,
         image = BRAND_LOGO_FILE
       )
+
 
     p <- p +
       ggimage::geom_image(
@@ -900,16 +1046,19 @@ make_ranked_card_png <- function(
           ),
 
         inherit.aes = FALSE,
-        size = 0.15,
-        by = "width",
-        asp = 1
+        size = 0.12,
+        by = "width"
       )
+
   } else {
+
     msg(
       "Brand logo not found at %s; continuing without logo.",
       BRAND_LOGO_FILE
     )
+
   }
+
 
   p <- p +
     ggplot2::coord_cartesian(
@@ -931,7 +1080,10 @@ make_ranked_card_png <- function(
       title = title,
       subtitle = subtitle
     ) +
-    ranked_graphic_theme()
+    ranked_graphic_theme(
+      accent_color
+    )
+
 
   ggplot2::ggsave(
     filename = out_path,
@@ -950,37 +1102,47 @@ make_ranked_card_png <- function(
     bg = "#080808"
   )
 
+
   msg(
     "Ranked graphic written to %s",
     out_path
   )
 
+
   invisible(p)
 }
+
 
 write_ranked_exports <- function(
     latest,
     out_dir,
     season
 ) {
+
   if (!ensure_ggimage()) {
+
     msg(
       "Skipping ranked exports: plotting dependencies unavailable."
     )
 
     return(invisible(NULL))
+
   }
 
+
   top10_secondary <- function(df) {
+
     rank_move <-
       as.numeric(
         df$rank_change
       )
 
+
     point_move <-
       as.numeric(
         df$power_change
       )
+
 
     rank_text <-
       ifelse(
@@ -1013,6 +1175,7 @@ write_ranked_exports <- function(
         )
       )
 
+
     point_text <-
       paste0(
         ifelse(
@@ -1030,19 +1193,24 @@ write_ranked_exports <- function(
         " BTB pts"
       )
 
+
     paste0(
       rank_text,
       "  |  ",
       point_text,
       " vs last week"
     )
+
   }
 
+
   mover_secondary <- function(df) {
+
     rank_move <-
       as.numeric(
         df$rank_change
       )
+
 
     paste0(
       "#",
@@ -1082,7 +1250,9 @@ write_ranked_exports <- function(
         )
       )
     )
+
   }
+
 
   make_ranked_card_png(
     latest,
@@ -1115,8 +1285,15 @@ write_ranked_exports <- function(
       "desc",
 
     digits =
-      1
+      1,
+
+    accent_color =
+      BRAND_GREEN,
+
+    accent_text_color =
+      "#050505"
   )
+
 
   mover_rows <- latest %>%
     filter(
@@ -1129,15 +1306,18 @@ write_ranked_exports <- function(
       week > 0
     )
 
+
   risers <- mover_rows %>%
     filter(
       power_change > 0
     )
 
+
   fallers <- mover_rows %>%
     filter(
       power_change < 0
     )
+
 
   make_ranked_card_png(
     risers,
@@ -1170,8 +1350,15 @@ write_ranked_exports <- function(
       "desc",
 
     digits =
-      1
+      1,
+
+    accent_color =
+      BRAND_GREEN,
+
+    accent_text_color =
+      "#050505"
   )
+
 
   make_ranked_card_png(
     fallers,
@@ -1204,33 +1391,44 @@ write_ranked_exports <- function(
       "asc",
 
     digits =
-      1
+      1,
+
+    accent_color =
+      BRAND_RED,
+
+    accent_text_color =
+      "#FFFFFF"
   )
+
 
   invisible(NULL)
 }
 
+
 fetch_teams <- function(season) {
+
   t <- cfbfastR::cfbd_team_info(
     only_fbs = TRUE,
     year = season
   )
 
+
   require_cols(
     t,
-
     c(
       "school",
       "conference"
     ),
-
     "cfbd_team_info"
   )
+
 
   crosswalk_file <-
     "CFB Teams Full Crosswalk.csv"
 
+
   if (!file.exists(crosswalk_file)) {
+
     stop(
       sprintf(
         "Required team crosswalk file not found: %s",
@@ -1238,23 +1436,25 @@ fetch_teams <- function(season) {
       ),
       call. = FALSE
     )
+
   }
+
 
   crosswalk <- read_csv(
     crosswalk_file,
     show_col_types = FALSE
   )
 
+
   require_cols(
     crosswalk,
-
     c(
       "cfbfastr_team",
       "logo"
     ),
-
     "CFB Teams Full Crosswalk.csv"
   )
+
 
   crosswalk <- crosswalk %>%
     mutate(
@@ -1285,6 +1485,7 @@ fetch_teams <- function(season) {
         )
     )
 
+
   candidate_cols <- intersect(
     c(
       "cfbfastr_team",
@@ -1292,15 +1493,16 @@ fetch_teams <- function(season) {
       "btb_team",
       "btb_team_short"
     ),
-
     names(crosswalk)
   )
+
 
   crosswalk_lookup <-
     map_dfr(
       candidate_cols,
 
       function(col) {
+
         crosswalk %>%
           filter(
             !is.na(
@@ -1326,12 +1528,14 @@ fetch_teams <- function(season) {
             logo =
               logo
           )
+
       }
     ) %>%
     distinct(
       join_key,
       .keep_all = TRUE
     )
+
 
   alias_lookup <- tibble(
     alias_key =
@@ -1349,7 +1553,9 @@ fetch_teams <- function(season) {
       )
   )
 
-  crosswalk_short_lookup <- crosswalk %>%
+
+  crosswalk_short_lookup <-
+    crosswalk %>%
     filter(
       !is.na(
         btb_team_short
@@ -1379,7 +1585,9 @@ fetch_teams <- function(season) {
       .keep_all = TRUE
     )
 
-  alias_lookup <- alias_lookup %>%
+
+  alias_lookup <-
+    alias_lookup %>%
     left_join(
       crosswalk_short_lookup,
       by =
@@ -1394,6 +1602,7 @@ fetch_teams <- function(season) {
       alias_key,
       alias_logo
     )
+
 
   out <- t %>%
     transmute(
@@ -1446,6 +1655,7 @@ fetch_teams <- function(season) {
       -alias_logo
     )
 
+
   missing_logos <- out %>%
     filter(
       !is_valid_logo(
@@ -1453,7 +1663,9 @@ fetch_teams <- function(season) {
       )
     )
 
+
   if (nrow(missing_logos) > 0) {
+
     msg(
       "WARNING: %d FBS teams do not have a matched logo in %s: %s",
       nrow(missing_logos),
@@ -1464,16 +1676,21 @@ fetch_teams <- function(season) {
         collapse = ", "
       )
     )
+
   }
+
 
   out
 }
 
+
 fetch_games <- function(season) {
+
   g <- cfbfastR::cfbd_game_info(
     season,
     season_type = "regular"
   )
+
 
   require_cols(
     g,
@@ -1490,6 +1707,7 @@ fetch_games <- function(season) {
 
     "cfbd_game_info"
   )
+
 
   g %>%
     mutate(
@@ -1511,9 +1729,12 @@ fetch_games <- function(season) {
       neutral_site,
       completed
     )
+
 }
 
+
 fetch_pbp <- function(season) {
+
   msg(
     paste0(
       "Downloading play-by-play for %d ",
@@ -1521,6 +1742,7 @@ fetch_pbp <- function(season) {
     ),
     season
   )
+
 
   old_to <- options(
     timeout =
@@ -1532,6 +1754,7 @@ fetch_pbp <- function(season) {
       )
   )
 
+
   on.exit(
     options(
       old_to
@@ -1539,12 +1762,14 @@ fetch_pbp <- function(season) {
     add = TRUE
   )
 
+
   pbp <- tryCatch(
     cfbfastR::load_cfb_pbp(
       season
     ),
 
     error = function(e) {
+
       msg(
         paste0(
           "load_cfb_pbp(%d) unavailable (%s) ",
@@ -1555,15 +1780,20 @@ fetch_pbp <- function(season) {
       )
 
       NULL
+
     }
   )
+
 
   if (
     is.null(pbp) ||
     nrow(pbp) == 0
   ) {
+
     return(NULL)
+
   }
+
 
   pbp <- pbp %>%
     distinct(
@@ -1577,14 +1807,19 @@ fetch_pbp <- function(season) {
           "season" %in%
             names(.)
         ) {
+
           coalesce(
             season,
             year
           )
+
         } else {
+
           year
+
         }
     )
+
 
   require_cols(
     pbp,
@@ -1629,6 +1864,7 @@ fetch_pbp <- function(season) {
     "load_cfb_pbp"
   )
 
+
   msg(
     "Play-by-play loaded: %d plays, weeks %d-%d.",
     nrow(pbp),
@@ -1644,10 +1880,13 @@ fetch_pbp <- function(season) {
     )
   )
 
+
   pbp
 }
 
+
 tag_wepa_features <- function(pbp) {
+
   tagged <- pbp %>%
     mutate(
       passing_epa =
@@ -2257,15 +2496,19 @@ tag_wepa_features <- function(pbp) {
       )
     )
 
+
   tagged
 }
+
 
 apply_wepa_weights <- function(
     tagged,
     epa_vec,
     model_weights
 ) {
+
   if (is.null(model_weights)) {
+
     return(
       tibble(
         off_wepa =
@@ -2275,7 +2518,9 @@ apply_wepa_weights <- function(
           epa_vec
       )
     )
+
   }
+
 
   if (
     !is.null(
@@ -2291,6 +2536,7 @@ apply_wepa_weights <- function(
         )
       )
   ) {
+
     missing_w <- setdiff(
       names(
         tagged
@@ -2300,7 +2546,9 @@ apply_wepa_weights <- function(
       )
     )
 
+
     if (length(missing_w)) {
+
       stop(
         "wEPA weights file lacks entries for: ",
 
@@ -2311,7 +2559,9 @@ apply_wepa_weights <- function(
 
         call. = FALSE
       )
+
     }
+
 
     model_weights <-
       model_weights[
@@ -2319,6 +2569,7 @@ apply_wepa_weights <- function(
           tagged
         )
       ]
+
 
   } else if (
     length(
@@ -2328,30 +2579,32 @@ apply_wepa_weights <- function(
         tagged
       )
   ) {
+
     stop(
       sprintf(
         "wEPA weights length (%d) != tagged feature count (%d).",
-
         length(
           model_weights
         ),
-
         ncol(
           tagged
         )
       ),
-
       call. = FALSE
     )
 
+
   } else {
+
     warning(
       paste0(
         "wEPA weights are unnamed; ",
         "relying on canonical column order."
       )
     )
+
   }
+
 
   tagged %>%
     map2(
@@ -2404,10 +2657,12 @@ apply_wepa_weights <- function(
     )
 }
 
+
 build_drives <- function(
     pbp,
     eckel_model = NULL
 ) {
+
   drives <- pbp %>%
     arrange(
       game_id,
@@ -2502,7 +2757,9 @@ build_drives <- function(
         )
     )
 
+
   if (!is.null(eckel_model)) {
+
     drives <- drives %>%
       mutate(
         eckel_prediction =
@@ -2518,7 +2775,9 @@ build_drives <- function(
           eckel -
           eckel_prediction
       )
+
   } else {
+
     drives <- drives %>%
       mutate(
         eckel_prediction =
@@ -2527,10 +2786,13 @@ build_drives <- function(
         eckel_oe =
           NA_real_
       )
+
   }
+
 
   drives
 }
+
 
 team_week_stats <- function(
     pbp_aug,
@@ -2538,6 +2800,7 @@ team_week_stats <- function(
     fbs_teams,
     thru_week
 ) {
+
   p <- pbp_aug %>%
     filter(
       week <= thru_week,
@@ -2547,10 +2810,12 @@ team_week_stats <- function(
       )
     )
 
+
   d <- drives %>%
     filter(
       week <= thru_week
     )
+
 
   off <- p %>%
     filter(
@@ -2587,6 +2852,7 @@ team_week_stats <- function(
       .groups = "drop"
     )
 
+
   def <- p %>%
     filter(
       defense_play %in%
@@ -2622,6 +2888,7 @@ team_week_stats <- function(
       .groups = "drop"
     )
 
+
   eck_off <- d %>%
     filter(
       pos_team %in%
@@ -2646,6 +2913,7 @@ team_week_stats <- function(
 
       .groups = "drop"
     )
+
 
   eck_def <- d %>%
     filter(
@@ -2672,6 +2940,7 @@ team_week_stats <- function(
       .groups = "drop"
     )
 
+
   reduce(
     list(
       off,
@@ -2686,10 +2955,12 @@ team_week_stats <- function(
   )
 }
 
+
 fit_adjustment <- function(
     model_df,
     label
 ) {
+
   fit <- tryCatch(
     lmer(
       y ~
@@ -2717,6 +2988,7 @@ fit_adjustment <- function(
     ),
 
     error = function(e) {
+
       msg(
         paste0(
           "[%s] lmer failed (%s); ",
@@ -2727,10 +2999,13 @@ fit_adjustment <- function(
       )
 
       NULL
+
     }
   )
 
+
   if (is.null(fit)) {
+
     off <- model_df %>%
       group_by(
         offense
@@ -2755,6 +3030,7 @@ fit_adjustment <- function(
           )
       )
 
+
     def <- model_df %>%
       group_by(
         defense
@@ -2778,6 +3054,7 @@ fit_adjustment <- function(
             na.rm = TRUE
           )
       )
+
 
     return(
       list(
@@ -2805,11 +3082,14 @@ fit_adjustment <- function(
           NA_real_
       )
     )
+
   }
+
 
   re <- ranef(
     fit
   )
+
 
   list(
     off =
@@ -2852,14 +3132,18 @@ fit_adjustment <- function(
   )
 }
 
+
 load_prior <- function(
     path,
     teams_tbl
 ) {
+
   fbs <-
     teams_tbl$team
 
+
   if (!file.exists(path)) {
+
     stop(
       sprintf(
         paste0(
@@ -2871,12 +3155,15 @@ load_prior <- function(
       ),
       call. = FALSE
     )
+
   }
+
 
   raw <- read_csv(
     path,
     show_col_types = FALSE
   )
+
 
   team_col <- intersect(
     c(
@@ -2885,9 +3172,9 @@ load_prior <- function(
       "Team",
       "TEAM"
     ),
-
     names(raw)
   )[1]
+
 
   power_col <- intersect(
     c(
@@ -2898,14 +3185,15 @@ load_prior <- function(
       "btb_power",
       "preseason_power"
     ),
-
     names(raw)
   )[1]
+
 
   if (
     is.na(team_col) ||
     is.na(power_col)
   ) {
+
     stop(
       "Preseason file needs a team column and a power column. Found: ",
 
@@ -2916,7 +3204,9 @@ load_prior <- function(
 
       call. = FALSE
     )
+
   }
+
 
   off_col <- intersect(
     c(
@@ -2924,9 +3214,9 @@ load_prior <- function(
       "off",
       "off_rating"
     ),
-
     names(raw)
   )[1]
+
 
   def_col <- intersect(
     c(
@@ -2934,9 +3224,9 @@ load_prior <- function(
       "def",
       "def_rating"
     ),
-
     names(raw)
   )[1]
+
 
   pri <- raw %>%
     transmute(
@@ -2953,29 +3243,40 @@ load_prior <- function(
 
       off =
         if (!is.na(off_col)) {
+
           as.numeric(
             .data[[off_col]]
           )
+
         } else {
+
           NA_real_
+
         },
 
       def =
         if (!is.na(def_col)) {
+
           as.numeric(
             .data[[def_col]]
           )
+
         } else {
+
           NA_real_
+
         }
     )
+
 
   unmatched <- setdiff(
     pri$team,
     fbs
   )
 
+
   if (length(unmatched)) {
+
     msg(
       "PRESEASON TEAMS NOT MATCHED TO CFBD NAMES: %s",
 
@@ -2984,13 +3285,16 @@ load_prior <- function(
         collapse = ", "
       )
     )
+
   }
+
 
   pri <- pri %>%
     filter(
       team %in%
         fbs
     )
+
 
   pri <- pri %>%
     mutate(
@@ -3002,23 +3306,31 @@ load_prior <- function(
         )
     )
 
+
   scl <- 1
 
+
   if (isTRUE(STANDARDIZE_PRIOR)) {
+
     s <- sd(
       pri$power,
       na.rm = TRUE
     )
 
+
     if (
       is.finite(s) &&
       s > 0
     ) {
+
       scl <-
         TARGET_SD /
         s
+
     }
+
   }
+
 
   pri <- pri %>%
     mutate(
@@ -3034,8 +3346,11 @@ load_prior <- function(
             )
           )
         ) {
+
           power / 2
+
         } else {
+
           (
             off -
               mean(
@@ -3044,6 +3359,7 @@ load_prior <- function(
               )
           ) *
             scl
+
         },
 
       def =
@@ -3054,8 +3370,11 @@ load_prior <- function(
             )
           )
         ) {
+
           power / 2
+
         } else {
+
           (
             def -
               mean(
@@ -3064,6 +3383,7 @@ load_prior <- function(
               )
           ) *
             scl
+
         },
 
       power =
@@ -3071,30 +3391,37 @@ load_prior <- function(
         def
     )
 
+
   if (
     is.na(off_col) ||
     is.na(def_col)
   ) {
+
     msg(
       paste0(
         "Preseason file has no off/def split; ",
         "splitting the prior 50/50."
       )
     )
+
   }
+
 
   missing <- setdiff(
     fbs,
     pri$team
   )
 
+
   if (length(missing)) {
+
     fill <- quantile(
       pri$power,
       NEW_TEAM_PRIOR_Q,
       na.rm = TRUE,
       names = FALSE
     )
+
 
     msg(
       paste0(
@@ -3115,6 +3442,7 @@ load_prior <- function(
       )
     )
 
+
     pri <- bind_rows(
       pri,
 
@@ -3132,7 +3460,9 @@ load_prior <- function(
           fill / 2
       )
     )
+
   }
+
 
   pri %>%
     transmute(
@@ -3149,9 +3479,11 @@ load_prior <- function(
     )
 }
 
+
 make_neutral_prior <- function(
     teams_tbl
 ) {
+
   teams_tbl %>%
     transmute(
       team,
@@ -3167,9 +3499,11 @@ make_neutral_prior <- function(
     )
 }
 
+
 prior_weight <- function(
     games_played
 ) {
+
   pmax(
     0,
     1 -
@@ -3177,12 +3511,15 @@ prior_weight <- function(
         PRIOR_G_FULL
   ) ^
     PRIOR_POW
+
 }
+
 
 make_week0_snapshot <- function(
     teams_tbl,
     prior
 ) {
+
   teams_tbl %>%
     left_join(
       prior,
@@ -3237,6 +3574,7 @@ make_week0_snapshot <- function(
     )
 }
 
+
 snapshot_week <- function(
     w,
     pbp_aug,
@@ -3246,8 +3584,10 @@ snapshot_week <- function(
     prior,
     have_weights
 ) {
+
   fbs <-
     teams_tbl$team
+
 
   gp <- games %>%
     filter(
@@ -3270,6 +3610,7 @@ snapshot_week <- function(
       team,
       name = "games"
     )
+
 
   mdl <- pbp_aug %>%
     filter(
@@ -3336,14 +3677,19 @@ snapshot_week <- function(
         garbage_flag
     )
 
+
   if (!have_weights) {
+
     mdl <- mdl %>%
       filter(
         !garbage
       )
+
   }
 
+
   lam <- {
+
     cc <-
       !is.na(
         mdl$y
@@ -3352,11 +3698,13 @@ snapshot_week <- function(
         mdl$y_epa
       )
 
+
     s_w <- sd(
       mdl$y[
         cc
       ]
     )
+
 
     s_e <- sd(
       mdl$y_epa[
@@ -3364,16 +3712,23 @@ snapshot_week <- function(
       ]
     )
 
+
     if (
       is.finite(s_w) &&
       is.finite(s_e) &&
       s_w > 0
     ) {
+
       s_e / s_w
+
     } else {
+
       1
+
     }
+
   }
+
 
   adj_all <- fit_adjustment(
     mdl,
@@ -3383,6 +3738,7 @@ snapshot_week <- function(
       w
     )
   )
+
 
   adj_rush <- fit_adjustment(
     mdl %>%
@@ -3404,6 +3760,7 @@ snapshot_week <- function(
     )
   )
 
+
   adj_pass <- fit_adjustment(
     mdl %>%
       filter(
@@ -3424,12 +3781,14 @@ snapshot_week <- function(
     )
   )
 
+
   stats <- team_week_stats(
     pbp_aug,
     drives,
     fbs,
     w
   )
+
 
   out <- teams_tbl %>%
     left_join(
@@ -3510,11 +3869,15 @@ snapshot_week <- function(
 
       prior_weight =
         if (TEST_NO_PRIOR) {
+
           0
+
         } else {
+
           prior_weight(
             games
           )
+
         },
 
       off_pts =
@@ -3654,6 +4017,7 @@ snapshot_week <- function(
       )
     )
 
+
   attr(
     out,
     "hfa_epa"
@@ -3661,14 +4025,17 @@ snapshot_week <- function(
     adj_all$hfa *
       lam
 
+
   attr(
     out,
     "wepa_scale"
   ) <-
     lam
 
+
   out
 }
+
 
 run_main <- !nzchar(
   Sys.getenv(
@@ -3676,7 +4043,9 @@ run_main <- !nzchar(
   )
 )
 
+
 if (run_main) {
+
   if (
     !nzchar(
       Sys.getenv(
@@ -3684,6 +4053,7 @@ if (run_main) {
       )
     )
   ) {
+
     stop(
       paste0(
         "CFBD_API_KEY is not set. ",
@@ -3691,14 +4061,18 @@ if (run_main) {
       ),
       call. = FALSE
     )
+
   }
 
+
   ensure_cfbfastR()
+
 
   out_dir <- file.path(
     OUT_ROOT,
     TARGET_SEASON
   )
+
 
   dir.create(
     file.path(
@@ -3709,21 +4083,26 @@ if (run_main) {
     showWarnings = FALSE
   )
 
+
   teams_tbl <- fetch_teams(
     TARGET_SEASON
   )
+
 
   report_logo_quality(
     teams_tbl,
     out_dir
   )
 
+
   games <- fetch_games(
     TARGET_SEASON
   )
 
+
   prior <-
     if (TEST_NO_PRIOR) {
+
       msg(
         paste0(
           "QA MODE: --test-no-prior enabled. ",
@@ -3734,12 +4113,16 @@ if (run_main) {
       make_neutral_prior(
         teams_tbl
       )
+
     } else {
+
       load_prior(
         PRESEASON_FILE,
         teams_tbl
       )
+
     }
+
 
   model_weights <-
     if (
@@ -3747,10 +4130,13 @@ if (run_main) {
         MODEL_WEIGHTS_FILE
       )
     ) {
+
       read_rds(
         MODEL_WEIGHTS_FILE
       )
+
     } else {
+
       msg(
         paste0(
           "wEPA WEIGHTS FILE MISSING (%s): ",
@@ -3760,7 +4146,9 @@ if (run_main) {
       )
 
       NULL
+
     }
+
 
   eckel_model <-
     if (
@@ -3768,10 +4156,13 @@ if (run_main) {
         ECKEL_MODEL_FILE
       )
     ) {
+
       read_rds(
         ECKEL_MODEL_FILE
       )
+
     } else {
+
       msg(
         paste0(
           "Eckel model file missing (%s): ",
@@ -3781,11 +4172,14 @@ if (run_main) {
       )
 
       NULL
+
     }
+
 
   pbp <- fetch_pbp(
     TARGET_SEASON
   )
+
 
   completed_wk <- games %>%
     filter(
@@ -3795,18 +4189,24 @@ if (run_main) {
       week
     )
 
+
   max_completed <-
     if (
       length(
         completed_wk
       )
     ) {
+
       max(
         completed_wk
       )
+
     } else {
+
       0L
+
     }
+
 
   max_pbp_wk <-
     if (
@@ -3814,32 +4214,46 @@ if (run_main) {
         pbp
       )
     ) {
+
       max(
         pbp$week,
         na.rm = TRUE
       )
+
     } else {
+
       0L
+
     }
+
 
   thru_week <- min(
     max_completed,
     max_pbp_wk
   )
 
+
   if (!is.na(MAX_WEEK_ARG)) {
+
     thru_week <- min(
       thru_week,
       MAX_WEEK_ARG
     )
+
   }
+
 
   start_week <-
     if (TEST_NO_PRIOR) {
+
       MIN_WEEK_ARG
+
     } else {
+
       1L
+
     }
+
 
   if (
     TEST_NO_PRIOR &&
@@ -3850,17 +4264,21 @@ if (run_main) {
           start_week < 1
       )
   ) {
+
     stop(
       "--min-week must be an integer >= 1 in --test-no-prior mode.",
       call. = FALSE
     )
+
   }
+
 
   if (
     TEST_NO_PRIOR &&
       start_week >
         thru_week
   ) {
+
     stop(
       sprintf(
         paste0(
@@ -3872,20 +4290,26 @@ if (run_main) {
       ),
       call. = FALSE
     )
+
   }
 
+
   if (TEST_NO_PRIOR) {
+
     msg(
       "QA MODE: calculating snapshots for weeks %d-%d only.",
       start_week,
       thru_week
     )
+
   }
+
 
   if (
     max_pbp_wk <
       max_completed
   ) {
+
     msg(
       paste0(
         "DATA LAG: games show completed week %d ",
@@ -3896,7 +4320,9 @@ if (run_main) {
       max_pbp_wk,
       thru_week
     )
+
   }
+
 
   if (
     (
@@ -3907,6 +4333,7 @@ if (run_main) {
     ) &&
       max_completed >= 1
   ) {
+
     stop(
       sprintf(
         paste0(
@@ -3917,12 +4344,15 @@ if (run_main) {
       ),
       call. = FALSE
     )
+
   }
+
 
   week0 <- make_week0_snapshot(
     teams_tbl,
     prior
   )
+
 
   if (
     !TEST_NO_PRIOR &&
@@ -3933,9 +4363,11 @@ if (run_main) {
           )
       )
   ) {
+
     msg(
       "No completed weeks with PBP. Writing Week 0 preseason baseline."
     )
+
 
     snap0 <- week0 %>%
       mutate(
@@ -3943,8 +4375,10 @@ if (run_main) {
         rank_change = 0L
       )
 
+
     write_csv(
       snap0,
+
       file.path(
         out_dir,
         "weekly",
@@ -3952,13 +4386,16 @@ if (run_main) {
       )
     )
 
+
     write_csv(
       snap0,
+
       file.path(
         out_dir,
         "latest.csv"
       )
     )
+
 
     plot_btb_scatter(
       snap0,
@@ -3966,30 +4403,37 @@ if (run_main) {
       season = TARGET_SEASON
     )
 
+
     write_ranked_exports(
       snap0,
       out_dir,
       TARGET_SEASON
     )
 
+
     write_csv(
       snap0,
+
       file.path(
         out_dir,
         "ratings_history.csv"
       )
     )
 
+
     write_json(
       snap0,
+
       file.path(
         out_dir,
         "latest.json"
       ),
+
       dataframe = "rows",
       pretty = TRUE,
       na = "null"
     )
+
 
     write_json(
       list(
@@ -4041,27 +4485,34 @@ if (run_main) {
       pretty = TRUE
     )
 
+
     msg(
       "Done. Preseason outputs in %s",
       out_dir
     )
 
+
   } else {
+
+
     neutral_lu <- games %>%
       select(
         game_id,
         neutral_site
       )
 
+
     tagged <- tag_wepa_features(
       pbp
     )
+
 
     wepa <- apply_wepa_weights(
       tagged,
       pbp$EPA,
       model_weights
     )
+
 
     pbp_aug <- bind_cols(
       pbp,
@@ -4100,31 +4551,40 @@ if (run_main) {
             )
       )
 
+
     drives <- build_drives(
       pbp,
       eckel_model
     )
 
+
     snapshot_weeks <-
       if (TEST_NO_PRIOR) {
+
         seq.int(
           from = start_week,
           to = thru_week
         )
+
       } else {
+
         seq_len(
           thru_week
         )
+
       }
+
 
     history_list <- map(
       snapshot_weeks,
 
       function(w) {
+
         msg(
           "Snapshot: through week %d",
           w
         )
+
 
         snapshot_week(
           w,
@@ -4139,25 +4599,32 @@ if (run_main) {
               model_weights
             )
         )
+
       }
     )
+
 
     hfa_epa <- attr(
       history_list[[length(history_list)]],
       "hfa_epa"
     )
 
+
     wepa_scale <- attr(
       history_list[[length(history_list)]],
       "wepa_scale"
     )
 
+
     history <-
       if (TEST_NO_PRIOR) {
+
         bind_rows(
           history_list
         )
+
       } else {
+
         bind_rows(
           c(
             list(
@@ -4166,7 +4633,9 @@ if (run_main) {
             history_list
           )
         )
+
       }
+
 
     history <- history %>%
       arrange(
@@ -4228,19 +4697,23 @@ if (run_main) {
         power_rank
       )
 
+
     write_csv(
       history,
+
       file.path(
         out_dir,
         "ratings_history.csv"
       )
     )
 
+
     for (
       w in unique(
         history$week
       )
     ) {
+
       write_csv(
         history %>%
           filter(
@@ -4257,7 +4730,9 @@ if (run_main) {
           )
         )
       )
+
     }
+
 
     latest <- history %>%
       filter(
@@ -4267,13 +4742,16 @@ if (run_main) {
           )
       )
 
+
     write_csv(
       latest,
+
       file.path(
         out_dir,
         "latest.csv"
       )
     )
+
 
     plot_btb_scatter(
       latest,
@@ -4281,22 +4759,27 @@ if (run_main) {
       season = TARGET_SEASON
     )
 
+
     write_ranked_exports(
       latest,
       out_dir,
       TARGET_SEASON
     )
 
+
     write_json(
       latest,
+
       file.path(
         out_dir,
         "latest.json"
       ),
+
       dataframe = "rows",
       pretty = TRUE,
       na = "null"
     )
+
 
     write_json(
       list(
@@ -4421,10 +4904,13 @@ if (run_main) {
       pretty = TRUE
     )
 
+
     msg(
       "Done. Through week %d. Outputs in %s",
       thru_week,
       out_dir
     )
+
   }
+
 }
