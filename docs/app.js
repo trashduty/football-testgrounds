@@ -560,6 +560,32 @@ async function loadSeason() {
 
       `;
 
+
+    const riserContainer =
+      document.getElementById("risers-list");
+
+    const fallerContainer =
+      document.getElementById("fallers-list");
+
+    const historyContainer =
+      document.getElementById("history-chart");
+
+
+    if (riserContainer) {
+      riserContainer.innerHTML =
+        `<div class="mover-empty">Data unavailable.</div>`;
+    }
+
+    if (fallerContainer) {
+      fallerContainer.innerHTML =
+        `<div class="mover-empty">Data unavailable.</div>`;
+    }
+
+    if (historyContainer) {
+      historyContainer.innerHTML =
+        "<p>Rating history is not currently available.</p>";
+    }
+
   }
 
 }
@@ -1542,6 +1568,9 @@ function getMovers() {
     currentData.filter(
       row =>
         Number.isFinite(
+          Number(row.power_change)
+        ) &&
+        Number.isFinite(
           Number(row.rank_change)
         ) &&
         Number(row.week) > 0
@@ -1552,12 +1581,12 @@ function getMovers() {
     [...valid]
       .filter(
         row =>
-          Number(row.rank_change) > 0
+          Number(row.power_change) > 0
       )
       .sort(
         (a, b) =>
-          Number(b.rank_change) -
-          Number(a.rank_change)
+          Number(b.power_change) -
+          Number(a.power_change)
       );
 
 
@@ -1565,12 +1594,12 @@ function getMovers() {
     [...valid]
       .filter(
         row =>
-          Number(row.rank_change) < 0
+          Number(row.power_change) < 0
       )
       .sort(
         (a, b) =>
-          Number(a.rank_change) -
-          Number(b.rank_change)
+          Number(a.power_change) -
+          Number(b.power_change)
       );
 
 
@@ -1584,68 +1613,107 @@ function getMovers() {
 
 function moverRowHtml(
   row,
-  type
+  listRank
 ) {
 
-  const movement =
+  const ratingChange =
+    Number(row.power_change);
+
+  const rankChange =
     Number(row.rank_change);
+
+  const ratingClass =
+    ratingChange >= 0
+      ? "positive"
+      : "negative";
+
+  const rankClass =
+    rankChange >= 0
+      ? "positive"
+      : "negative";
 
 
   return `
 
     <div class="mover-row">
 
-      <div class="mover-rank">
-        #${escapeHtml(row.power_rank)}
+      <div class="mover-list-rank">
+        ${listRank}
       </div>
 
 
-      ${
-        row.logo
+      <div class="mover-logo-wrap">
 
-        ?
+        ${
+          row.logo
 
-        `
-        <img
-          class="mover-logo"
-          src="${escapeHtml(row.logo)}"
-          alt=""
-        >
-        `
+          ?
 
-        :
+          `
+          <img
+            class="mover-logo"
+            src="${escapeHtml(row.logo)}"
+            alt="${escapeHtml(row.team)} logo"
+            crossorigin="anonymous"
+          >
+          `
 
-        `<div></div>`
-      }
+          :
+
+          `
+          <div class="mover-logo-placeholder">
+            ${escapeHtml(String(row.team || "?").slice(0, 1))}
+          </div>
+          `
+        }
+
+      </div>
 
 
-      <div>
+      <div class="mover-team-block">
 
         <div class="mover-team">
           ${escapeHtml(row.team)}
         </div>
 
         <div class="mover-rating">
-
-          BTB Rating:
+          #${escapeHtml(row.power_rank)}
+          overall
+          &nbsp;·&nbsp;
+          BTB Rating
           ${signed(row.power_pts)}
-
-          &nbsp;|
-
-          Weekly:
-          ${signed(row.power_change)}
-
         </div>
 
       </div>
 
 
-      <div
-        class="mover-change ${type}"
-      >
+      <div class="mover-stat-block">
 
-        ${movementArrow(movement)}
-        ${Math.abs(movement)}
+        <div
+          class="mover-primary-change ${ratingClass}"
+        >
+          ${signed(ratingChange)}
+        </div>
+
+        <div class="mover-stat-label">
+          BTB pts
+        </div>
+
+      </div>
+
+
+      <div class="mover-stat-block mover-rank-move">
+
+        <div
+          class="mover-secondary-change ${rankClass}"
+        >
+          ${movementArrow(rankChange)}
+          ${Math.abs(rankChange)}
+        </div>
+
+        <div class="mover-stat-label">
+          rank
+        </div>
 
       </div>
 
@@ -1677,45 +1745,48 @@ function renderMovers() {
 
 
   if (
-    !risers.length &&
-    !fallers.length
+    !riserContainer ||
+    !fallerContainer
   ) {
-
-    riserContainer.innerHTML =
-      "No weekly movement yet.";
-
-    fallerContainer.innerHTML =
-      "No weekly movement yet.";
-
     return;
-
   }
 
 
+  const emptyHtml = `
+    <div class="mover-empty">
+      No weekly movement yet.
+    </div>
+  `;
+
+
   riserContainer.innerHTML =
-    risers
-      .slice(0, 5)
-      .map(
-        row =>
-          moverRowHtml(
-            row,
-            "riser"
+    risers.length
+      ? risers
+          .slice(0, 5)
+          .map(
+            (row, index) =>
+              moverRowHtml(
+                row,
+                index + 1
+              )
           )
-      )
-      .join("");
+          .join("")
+      : emptyHtml;
 
 
   fallerContainer.innerHTML =
-    fallers
-      .slice(0, 5)
-      .map(
-        row =>
-          moverRowHtml(
-            row,
-            "faller"
+    fallers.length
+      ? fallers
+          .slice(0, 5)
+          .map(
+            (row, index) =>
+              moverRowHtml(
+                row,
+                index + 1
+              )
           )
-      )
-      .join("");
+          .join("")
+      : emptyHtml;
 
 }
 
@@ -2070,46 +2141,34 @@ function rankingRowHtml(row) {
 }
 
 
-function exportMoverBox(
-  label,
-  row
+function exportMoverRowHtml(
+  row,
+  listRank,
+  type
 ) {
 
-  if (!row) {
+  const ratingChange =
+    Number(row.power_change);
 
-    return `
-
-      <div class="export-mover-box">
-
-        <div class="export-mover-label">
-          ${escapeHtml(label)}
-        </div>
-
-        <div class="export-mover-team">
-          No movement yet
-        </div>
-
-      </div>
-
-    `;
-
-  }
-
-
-  const movement =
+  const rankChange =
     Number(row.rank_change);
+
+  const changeClass =
+    type === "riser"
+      ? "export-change-positive"
+      : "export-change-negative";
 
 
   return `
 
-    <div class="export-mover-box">
+    <div class="export-mover-row">
 
-      <div class="export-mover-label">
-        ${escapeHtml(label)}
+      <div class="export-mover-rank">
+        ${listRank}
       </div>
 
 
-      <div class="export-mover-main">
+      <div class="export-mover-logo-cell">
 
         ${
           row.logo
@@ -2118,42 +2177,81 @@ function exportMoverBox(
 
           `
           <img
-            class="export-mover-logo"
+            class="export-mover-list-logo"
             src="${escapeHtml(row.logo)}"
-            alt=""
+            alt="${escapeHtml(row.team)} logo"
+            crossorigin="anonymous"
           >
           `
 
           :
 
-          ""
+          `
+          <div class="export-mover-logo-fallback">
+            ${escapeHtml(String(row.team || "?").slice(0, 3))}
+          </div>
+          `
         }
 
-
-        <div>
-
-          <div class="export-mover-team">
-            ${escapeHtml(row.team)}
-          </div>
+      </div>
 
 
-          <div class="export-mover-change">
+      <div class="export-mover-copy">
 
-            ${movementArrow(movement)}
-            ${Math.abs(movement)}
-            spots
+        <div class="export-mover-list-team">
+          ${escapeHtml(row.team)}
+        </div>
 
-            &nbsp;·&nbsp;
-
-            ${signed(row.power_change)}
-            rating
-
-          </div>
-
+        <div class="export-mover-list-meta">
+          #${escapeHtml(row.power_rank)}
+          overall
+          &nbsp;·&nbsp;
+          BTB Rating
+          ${signed(row.power_pts)}
         </div>
 
       </div>
 
+
+      <div class="export-mover-stat">
+
+        <div class="${changeClass}">
+          ${signed(ratingChange)}
+        </div>
+
+        <span>
+          BTB pts
+        </span>
+
+      </div>
+
+
+      <div class="export-mover-stat export-mover-rank-stat">
+
+        <div class="${changeClass}">
+          ${movementArrow(rankChange)}
+          ${Math.abs(rankChange)}
+        </div>
+
+        <span>
+          rank
+        </span>
+
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+
+function exportMoverEmptyHtml() {
+
+  return `
+
+    <div class="export-mover-empty">
+      No weekly movement yet.
     </div>
 
   `;
@@ -2170,12 +2268,6 @@ function buildTop10Card() {
   const teams =
     getSortedPowerTeams()
       .slice(0, 10);
-
-
-  const {
-    risers,
-    fallers
-  } = getMovers();
 
 
   const card =
@@ -2197,26 +2289,6 @@ function buildTop10Card() {
         teams
           .map(rankingRowHtml)
           .join("")
-      }
-
-    </div>
-
-
-    <div class="export-movers">
-
-      ${
-        exportMoverBox(
-          "Biggest Riser",
-          risers[0]
-        )
-      }
-
-
-      ${
-        exportMoverBox(
-          "Biggest Faller",
-          fallers[0]
-        )
       }
 
     </div>
@@ -2323,14 +2395,28 @@ function buildMoversCard() {
   const riserRows =
     risers
       .slice(0, 5)
-      .map(rankingRowHtml)
+      .map(
+        (row, index) =>
+          exportMoverRowHtml(
+            row,
+            index + 1,
+            "riser"
+          )
+      )
       .join("");
 
 
   const fallerRows =
     fallers
       .slice(0, 5)
-      .map(rankingRowHtml)
+      .map(
+        (row, index) =>
+          exportMoverRowHtml(
+            row,
+            index + 1,
+            "faller"
+          )
+      )
       .join("");
 
 
@@ -2341,40 +2427,38 @@ function buildMoversCard() {
     )}
 
 
-    <div class="export-top25-grid">
+    <div class="export-mover-columns">
 
+      <div class="export-mover-column">
 
-      <div>
-
-        <div class="export-subtitle">
+        <div class="export-mover-column-title">
           Biggest Risers
         </div>
 
-        <div
-          class="export-ranking-list"
-          style="margin-top:16px;"
-        >
-          ${riserRows}
+        <div class="export-mover-list">
+          ${
+            riserRows ||
+            exportMoverEmptyHtml()
+          }
         </div>
 
       </div>
 
 
-      <div>
+      <div class="export-mover-column">
 
-        <div class="export-subtitle">
+        <div class="export-mover-column-title">
           Biggest Fallers
         </div>
 
-        <div
-          class="export-ranking-list"
-          style="margin-top:16px;"
-        >
-          ${fallerRows}
+        <div class="export-mover-list">
+          ${
+            fallerRows ||
+            exportMoverEmptyHtml()
+          }
         </div>
 
       </div>
-
 
     </div>
 
