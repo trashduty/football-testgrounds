@@ -4073,25 +4073,21 @@ if (run_main) {
 
     hfa_epa <-
       attr(
-        history_list[
-          [
+        history_list[[
             length(
               history_list
             )
-          ]
-        ],
+          ]],
         "hfa_epa"
       )
 
     wepa_scale <-
       attr(
-        history_list[
-          [
+        history_list[[
             length(
               history_list
             )
-          ]
-        ],
+          ]],
         "wepa_scale"
       )
 
