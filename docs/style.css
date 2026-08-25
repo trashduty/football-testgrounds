@@ -104,13 +104,6 @@ body {
     line-height: 1.5;
 }
 
-@media (max-width: 700px) {
-    .header h1 {
-        font-size: 25px;
-    }
-
-    #chart {
-        min-height: 600px;
 
 /* ==========================================================
    NEW BTB FEATURES
@@ -122,6 +115,7 @@ body {
   border: 1px solid #dddddd;
   border-radius: 12px;
   padding: 24px;
+  color: #111111;
 }
 
 .section-heading {
@@ -134,6 +128,7 @@ body {
 
 .section-heading h2 {
   margin: 0 0 6px 0;
+  color: #111111;
 }
 
 .section-heading p {
@@ -178,15 +173,16 @@ body {
 
 .movers-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
 }
 
 .mover-column {
-  border: 1px solid #d9d9d9;
-  border-radius: 12px;
+  min-width: 0;
   overflow: hidden;
-  background: #111111;
+  border: 1px solid #343434;
+  border-radius: 12px;
+  background: #101010;
 }
 
 .mover-column h3 {
@@ -194,31 +190,31 @@ body {
   padding: 15px 18px;
   background: #f5d400;
   color: #050505;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.025em;
 }
 
 .mover-row {
   display: grid;
   grid-template-columns:
-    48px
-    58px
-    minmax(150px, 1fr)
-    92px
-    78px;
+    50px
+    60px
+    minmax(145px, 1fr)
+    88px
+    72px;
   gap: 12px;
   align-items: center;
-  min-height: 78px;
+  min-height: 80px;
   padding: 10px 14px;
-  border-top: 1px solid #2e2e2e;
+  border-top: 1px solid #2b2b2b;
   background: #171717;
   color: #ffffff;
 }
 
 .mover-row:first-child {
-  border-top: none;
+  border-top: 0;
 }
 
 .mover-list-rank {
@@ -229,7 +225,7 @@ body {
   margin: -10px 0 -10px -14px;
   background: #f5d400;
   color: #050505;
-  font-size: 28px;
+  font-size: 29px;
   font-weight: 900;
 }
 
@@ -240,20 +236,22 @@ body {
 }
 
 .mover-logo {
-  width: 48px;
-  height: 48px;
+  display: block;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
 
 .mover-logo-placeholder {
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #2d2d2d;
+  background: #303030;
   color: #ffffff;
+  font-size: 16px;
   font-weight: 900;
 }
 
@@ -262,17 +260,20 @@ body {
 }
 
 .mover-team {
+  overflow: hidden;
   color: #ffffff;
   font-size: 17px;
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 1.08;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .mover-rating {
   margin-top: 5px;
-  color: #aeb0b3;
+  color: #b5b5b5;
   font-size: 12px;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .mover-stat-block {
@@ -282,38 +283,39 @@ body {
 
 .mover-primary-change,
 .mover-secondary-change {
+  color: #ffffff;
   font-size: 19px;
-  line-height: 1;
   font-weight: 900;
+  line-height: 1;
 }
 
 .mover-secondary-change {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .mover-stat-label {
   margin-top: 5px;
-  color: #9b9b9b;
+  color: #929292;
   font-size: 10px;
   font-weight: 800;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
 }
 
 .mover-primary-change.positive,
 .mover-secondary-change.positive {
-  color: #61d780;
+  color: #63dc83;
 }
 
 .mover-primary-change.negative,
 .mover-secondary-change.negative {
-  color: #ff7a7a;
+  color: #ff7777;
 }
 
 .mover-empty {
-  padding: 26px 18px;
-  color: #aeb0b3;
+  padding: 30px 18px;
   background: #171717;
+  color: #b5b5b5;
   font-size: 14px;
 }
 
@@ -346,9 +348,7 @@ body {
 .export-card {
   width: 1080px;
   min-height: 1080px;
-
   box-sizing: border-box;
-
   padding: 48px;
 
   background:
@@ -397,27 +397,20 @@ body {
 
 .export-title {
   margin: 15px 0 0;
-
   font-size: 58px;
   line-height: 1;
-
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .export-subtitle {
   display: inline-block;
-
   margin-top: 15px;
-
   padding: 10px 18px;
-
   background: #f5d400;
   color: #000000;
-
   font-size: 25px;
   font-weight: 900;
-
   text-transform: uppercase;
 }
 
@@ -434,34 +427,26 @@ body {
 
 .export-rank-row {
   display: grid;
-
   grid-template-columns:
     78px
     76px
     minmax(0, 1fr)
     150px;
-
   align-items: center;
-
   min-height: 70px;
-
   background:
     rgba(255, 255, 255, 0.06);
-
   border:
     1px solid rgba(255, 255, 255, 0.15);
 }
 
 .export-rank-number {
   height: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   background: #f5d400;
   color: #000000;
-
   font-size: 37px;
   font-weight: 900;
 }
@@ -469,9 +454,7 @@ body {
 .export-team-logo {
   width: 55px;
   height: 55px;
-
   object-fit: contain;
-
   margin: auto;
 }
 
@@ -482,26 +465,21 @@ body {
 
 .export-team-meta {
   color: #bbbbbb;
-
   font-size: 15px;
   margin-top: 3px;
 }
 
 .export-power {
   text-align: right;
-
   padding-right: 20px;
-
   font-size: 28px;
   font-weight: 900;
 }
 
 .export-power-label {
   display: block;
-
   font-size: 11px;
   color: #bdbdbd;
-
   text-transform: uppercase;
 }
 
@@ -512,10 +490,8 @@ body {
 
 .export-top25-grid {
   display: grid;
-
   grid-template-columns:
     1fr 1fr;
-
   gap: 24px;
 }
 
@@ -524,10 +500,15 @@ body {
    EXPORT MOVERS
 ========================================================== */
 
+#movers-export-card {
+  width: 1080px;
+  min-height: 1080px;
+}
+
 .export-mover-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 26px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
 }
 
 .export-mover-column {
@@ -535,14 +516,14 @@ body {
 }
 
 .export-mover-column-title {
-  margin-bottom: 14px;
-  padding: 12px 18px;
+  margin-bottom: 12px;
+  padding: 13px 18px;
   background: #f5d400;
   color: #050505;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 900;
-  text-transform: uppercase;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .export-mover-list {
@@ -554,15 +535,16 @@ body {
 .export-mover-row {
   display: grid;
   grid-template-columns:
+    66px
     72px
-    78px
     minmax(0, 1fr)
-    110px
-    92px;
+    92px
+    70px;
   min-height: 92px;
   align-items: center;
-  background: rgba(255, 255, 255, 0.075);
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.075);
 }
 
 .export-mover-rank {
@@ -572,7 +554,7 @@ body {
   justify-content: center;
   background: #f5d400;
   color: #050505;
-  font-size: 39px;
+  font-size: 37px;
   font-weight: 900;
 }
 
@@ -583,68 +565,87 @@ body {
 }
 
 .export-mover-list-logo {
-  width: 62px;
-  height: 62px;
+  display: block;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
+}
+
+.export-mover-logo-fallback {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #303030;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 900;
 }
 
 .export-mover-copy {
   min-width: 0;
-  padding: 8px 8px 8px 0;
+  padding: 7px 6px 7px 0;
 }
 
 .export-mover-list-team {
+  overflow: hidden;
   color: #ffffff;
-  font-size: 26px;
-  line-height: 1.05;
+  font-size: 24px;
   font-weight: 900;
+  line-height: 1.05;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .export-mover-list-meta {
   margin-top: 6px;
-  color: #bcbcbc;
-  font-size: 13px;
-  line-height: 1.2;
+  color: #bbbbbb;
+  font-size: 12px;
+  line-height: 1.15;
 }
 
 .export-mover-stat {
-  padding-right: 8px;
+  padding-right: 6px;
   text-align: right;
+  white-space: nowrap;
 }
 
 .export-mover-stat > div {
-  font-size: 24px;
-  line-height: 1;
+  font-size: 21px;
   font-weight: 900;
+  line-height: 1;
+}
+
+.export-mover-rank-stat > div {
+  font-size: 17px;
 }
 
 .export-mover-stat span {
   display: block;
   margin-top: 6px;
-  color: #a8a8a8;
-  font-size: 10px;
+  color: #9d9d9d;
+  font-size: 9px;
   font-weight: 800;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
-.export-mover-rank-stat > div {
-  font-size: 21px;
-}
-
 .export-change-positive {
-  color: #64dd83;
+  color: #65df85;
 }
 
 .export-change-negative {
-  color: #ff7777;
+  color: #ff7878;
 }
 
 .export-mover-empty {
   padding: 34px 20px;
-  background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
   color: #c7c7c7;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .export-footer {
@@ -672,13 +673,12 @@ body {
     grid-template-columns: 1fr;
   }
 
-
   .mover-row {
     grid-template-columns:
-      42px
-      48px
+      44px
+      50px
       minmax(120px, 1fr)
-      82px;
+      80px;
   }
 
   .mover-rank-move {
@@ -694,5 +694,47 @@ body {
   }
 
 }
-    }
+
+@media (max-width: 700px) {
+
+  .header h1 {
+    font-size: 25px;
+  }
+
+  #chart {
+    min-height: 600px;
+  }
+
+  .section-card {
+    padding: 16px;
+  }
+
+  .mover-row {
+    grid-template-columns:
+      40px
+      44px
+      minmax(0, 1fr)
+      72px;
+    gap: 8px;
+    padding: 9px 10px;
+  }
+
+  .mover-list-rank {
+    margin: -9px 0 -9px -10px;
+    font-size: 24px;
+  }
+
+  .mover-logo {
+    width: 42px;
+    height: 42px;
+  }
+
+  .mover-team {
+    font-size: 15px;
+  }
+
+  .mover-rating {
+    font-size: 11px;
+  }
+
 }
