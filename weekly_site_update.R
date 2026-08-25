@@ -61,6 +61,9 @@
 #     ratings_history.csv
 #     missing_logos.csv   -- teams with missing/invalid logos (empty if none)
 #     btb_scatter.png     -- offensive/defensive scatter with team logos
+#     top10_power.png      -- ranked Top 10 BTB Power Rating graphic
+#     biggest_risers.png   -- ranked weekly BTB rating gainers graphic
+#     biggest_fallers.png  -- ranked weekly BTB rating decliners graphic
 #     weekly/week_00.csv
 #     weekly/week_XX.csv
 #
@@ -551,6 +554,520 @@ plot_btb_scatter <- function(
   )
 
   invisible(p)
+}
+
+
+
+# ---- Ranked social graphics --------------------------------------------------
+
+ranked_graphic_theme <- function() {
+  ggplot2::theme_void(base_family = "sans") +
+    ggplot2::theme(
+      plot.background =
+        ggplot2::element_rect(
+          fill = "#080808",
+          color = NA
+        ),
+      panel.background =
+        ggplot2::element_rect(
+          fill = "#080808",
+          color = NA
+        ),
+      plot.title =
+        ggplot2::element_text(
+          color = "#FFFFFF",
+          size = 32,
+          face = "bold",
+          margin = ggplot2::margin(
+            b = 4
+          )
+        ),
+      plot.subtitle =
+        ggplot2::element_text(
+          color = "#F5D400",
+          size = 18,
+          face = "bold",
+          margin = ggplot2::margin(
+            b = 18
+          )
+        ),
+      plot.margin =
+        ggplot2::margin(
+          24,
+          24,
+          24,
+          24
+        )
+    )
+}
+
+
+make_ranked_card_png <- function(
+    df,
+    out_path,
+    title,
+    subtitle,
+    primary_col,
+    primary_suffix = "",
+    secondary_builder = NULL,
+    top_n = 10,
+    direction = c("desc", "asc"),
+    digits = 1
+) {
+
+  direction <- match.arg(
+    direction
+  )
+
+  if (!requireNamespace("ggplot2", quietly = TRUE)) {
+    msg(
+      "Skipping ranked graphic %s: ggplot2 not available.",
+      out_path
+    )
+    return(invisible(NULL))
+  }
+
+  if (!requireNamespace("ggimage", quietly = TRUE)) {
+    msg(
+      "Skipping ranked graphic %s: ggimage not available.",
+      out_path
+    )
+    return(invisible(NULL))
+  }
+
+  if (
+    !primary_col %in% names(df)
+  ) {
+    msg(
+      "Skipping ranked graphic %s: missing %s.",
+      out_path,
+      primary_col
+    )
+    return(invisible(NULL))
+  }
+
+  rows <- df %>%
+    filter(
+      is.finite(
+        as.numeric(
+          .data[[primary_col]]
+        )
+      )
+    )
+
+  if (direction == "desc") {
+    rows <- rows %>%
+      arrange(
+        desc(
+          .data[[primary_col]]
+        )
+      )
+  } else {
+    rows <- rows %>%
+      arrange(
+        .data[[primary_col]]
+      )
+  }
+
+  rows <- rows %>%
+    slice_head(
+      n = top_n
+    )
+
+  if (!nrow(rows)) {
+    msg(
+      "Skipping ranked graphic %s: no rows.",
+      out_path
+    )
+    return(invisible(NULL))
+  }
+
+  rows <- rows %>%
+    mutate(
+      list_rank =
+        row_number(),
+
+      plot_y =
+        rev(
+          seq_len(
+            n()
+          )
+        ),
+
+      primary_value =
+        as.numeric(
+          .data[[primary_col]]
+        ),
+
+      primary_text =
+        paste0(
+          ifelse(
+            primary_value > 0,
+            "+",
+            ""
+          ),
+          formatC(
+            primary_value,
+            format = "f",
+            digits = digits
+          ),
+          primary_suffix
+        ),
+
+      secondary_text =
+        if (
+          is.null(
+            secondary_builder
+          )
+        ) {
+          ""
+        } else {
+          secondary_builder(
+            cur_data_all()
+          )
+        },
+
+      logo_valid =
+        is_valid_logo(
+          logo
+        )
+    )
+
+  row_height <- 0.82
+  xmax <- 14
+
+  p <- ggplot2::ggplot(
+    rows
+  )
+
+  for (i in seq_len(nrow(rows))) {
+
+    y <- rows$plot_y[i]
+
+    p <- p +
+      ggplot2::annotate(
+        "rect",
+        xmin = 0.1,
+        xmax = xmax,
+        ymin = y - row_height / 2,
+        ymax = y + row_height / 2,
+        fill =
+          if (i %% 2 == 1) {
+            "#171717"
+          } else {
+            "#111111"
+          },
+        color = "#343434",
+        linewidth = 0.4
+      ) +
+      ggplot2::annotate(
+        "rect",
+        xmin = 0.1,
+        xmax = 1.25,
+        ymin = y - row_height / 2,
+        ymax = y + row_height / 2,
+        fill = "#F5D400",
+        color = NA
+      )
+  }
+
+  p <- p +
+    ggplot2::geom_text(
+      ggplot2::aes(
+        x = 0.675,
+        y = plot_y,
+        label = list_rank
+      ),
+      color = "#050505",
+      size = 10,
+      fontface = "bold",
+      family = "sans"
+    ) +
+    ggplot2::geom_text(
+      ggplot2::aes(
+        x = 3.0,
+        y = plot_y + 0.11,
+        label = team
+      ),
+      color = "#FFFFFF",
+      size = 7.4,
+      fontface = "bold",
+      hjust = 0,
+      family = "sans"
+    ) +
+    ggplot2::geom_text(
+      ggplot2::aes(
+        x = 3.0,
+        y = plot_y - 0.18,
+        label = secondary_text
+      ),
+      color = "#B8B8B8",
+      size = 3.7,
+      hjust = 0,
+      family = "sans"
+    ) +
+    ggplot2::geom_text(
+      ggplot2::aes(
+        x = 13.45,
+        y = plot_y + 0.05,
+        label = primary_text
+      ),
+      color = "#FFFFFF",
+      size = 6.4,
+      fontface = "bold",
+      hjust = 1,
+      family = "sans"
+    )
+
+  logo_rows <- rows %>%
+    filter(
+      logo_valid
+    )
+
+  if (nrow(logo_rows)) {
+    p <- p +
+      ggimage::geom_image(
+        data = logo_rows,
+        ggplot2::aes(
+          x = 2.0,
+          y = plot_y,
+          image = logo
+        ),
+        size = 0.055,
+        by = "width",
+        asp = 1
+      )
+  }
+
+  missing_rows <- rows %>%
+    filter(
+      !logo_valid
+    )
+
+  if (nrow(missing_rows)) {
+    p <- p +
+      ggplot2::geom_text(
+        data = missing_rows,
+        ggplot2::aes(
+          x = 2.0,
+          y = plot_y,
+          label =
+            substr(
+              team,
+              1,
+              3
+            )
+        ),
+        color = "#FFFFFF",
+        size = 4,
+        fontface = "bold"
+      )
+  }
+
+  p <- p +
+    ggplot2::coord_cartesian(
+      xlim = c(
+        0,
+        xmax + 0.2
+      ),
+      ylim = c(
+        0.25,
+        nrow(rows) + 0.75
+      ),
+      clip = "off"
+    ) +
+    ggplot2::labs(
+      title = title,
+      subtitle = subtitle
+    ) +
+    ranked_graphic_theme()
+
+  ggplot2::ggsave(
+    filename = out_path,
+    plot = p,
+    width = 10.8,
+    height =
+      if (nrow(rows) >= 10) {
+        13.5
+      } else {
+        9.0
+      },
+    units = "in",
+    dpi = 150,
+    bg = "#080808"
+  )
+
+  msg(
+    "Ranked graphic written to %s",
+    out_path
+  )
+
+  invisible(
+    p
+  )
+}
+
+
+write_ranked_exports <- function(
+    latest,
+    out_dir,
+    season
+) {
+
+  if (
+    !ensure_ggimage()
+  ) {
+    msg(
+      "Skipping ranked exports: plotting dependencies unavailable."
+    )
+    return(invisible(NULL))
+  }
+
+  top10_secondary <- function(df) {
+    paste0(
+      "Off ",
+      formatC(
+        as.numeric(
+          df$off_pts
+        ),
+        format = "f",
+        digits = 1
+      ),
+      "  |  Def ",
+      formatC(
+        as.numeric(
+          df$def_pts
+        ),
+        format = "f",
+        digits = 1
+      )
+    )
+  }
+
+  mover_secondary <- function(df) {
+
+    rank_move <-
+      as.numeric(
+        df$rank_change
+      )
+
+    paste0(
+      "#",
+      as.integer(
+        df$power_rank
+      ),
+      " overall  |  ",
+      ifelse(
+        rank_move > 0,
+        paste0(
+          "▲ ",
+          abs(
+            as.integer(
+              rank_move
+            )
+          ),
+          " rank"
+        ),
+        ifelse(
+          rank_move < 0,
+          paste0(
+            "▼ ",
+            abs(
+              as.integer(
+                rank_move
+              )
+            ),
+            " rank"
+          ),
+          "— rank"
+        )
+      )
+    )
+  }
+
+  make_ranked_card_png(
+    latest,
+    file.path(
+      out_dir,
+      "top10_power.png"
+    ),
+    sprintf(
+      "BTB'S %d POWER RATINGS",
+      season
+    ),
+    "TOP 10 TEAMS",
+    primary_col = "power_pts",
+    primary_suffix = " BTB",
+    secondary_builder =
+      top10_secondary,
+    top_n = 10,
+    direction = "desc",
+    digits = 1
+  )
+
+  mover_rows <- latest %>%
+    filter(
+      is.finite(
+        as.numeric(
+          power_change
+        )
+      ),
+      week > 0
+    )
+
+  risers <- mover_rows %>%
+    filter(
+      power_change > 0
+    )
+
+  fallers <- mover_rows %>%
+    filter(
+      power_change < 0
+    )
+
+  make_ranked_card_png(
+    risers,
+    file.path(
+      out_dir,
+      "biggest_risers.png"
+    ),
+    sprintf(
+      "BTB'S %d WEEKLY MOVERS",
+      season
+    ),
+    "BIGGEST RISERS",
+    primary_col = "power_change",
+    primary_suffix = " BTB pts",
+    secondary_builder =
+      mover_secondary,
+    top_n = 10,
+    direction = "desc",
+    digits = 1
+  )
+
+  make_ranked_card_png(
+    fallers,
+    file.path(
+      out_dir,
+      "biggest_fallers.png"
+    ),
+    sprintf(
+      "BTB'S %d WEEKLY MOVERS",
+      season
+    ),
+    "BIGGEST FALLERS",
+    primary_col = "power_change",
+    primary_suffix = " BTB pts",
+    secondary_builder =
+      mover_secondary,
+    top_n = 10,
+    direction = "asc",
+    digits = 1
+  )
+
+  invisible(
+    NULL
+  )
 }
 
 
@@ -2876,6 +3393,12 @@ if (run_main) {
       season = TARGET_SEASON
     )
 
+    write_ranked_exports(
+      snap0,
+      out_dir,
+      TARGET_SEASON
+    )
+
     write_csv(
       snap0,
       file.path(
@@ -3162,6 +3685,12 @@ if (run_main) {
       latest,
       out_dir,
       season = TARGET_SEASON
+    )
+
+    write_ranked_exports(
+      latest,
+      out_dir,
+      TARGET_SEASON
     )
 
     write_json(
