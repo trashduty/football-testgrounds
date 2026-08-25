@@ -1290,7 +1290,7 @@ function renderChart() {
         worstY0,
 
       y1:
-        worstY1,
+        benchmarkY,
 
       fillcolor:
         "rgba(239,68,68,0.09)",
@@ -2141,6 +2141,121 @@ function rankingRowHtml(row) {
 }
 
 
+function top10RankingRowHtml(row) {
+
+  const ratingChange =
+    Number(row.power_change);
+
+  const rankChange =
+    Number(row.rank_change);
+
+  const ratingClass =
+    ratingChange > 0
+      ? "export-change-positive"
+      : ratingChange < 0
+        ? "export-change-negative"
+        : "export-change-neutral";
+
+  const rankClass =
+    rankChange > 0
+      ? "export-change-positive"
+      : rankChange < 0
+        ? "export-change-negative"
+        : "export-change-neutral";
+
+
+  return `
+
+    <div class="export-top10-row">
+
+      <div class="export-rank-number">
+        ${escapeHtml(row.power_rank)}
+      </div>
+
+
+      <div class="export-top10-logo-cell">
+
+        ${
+          row.logo
+
+          ?
+
+          `
+          <img
+            class="export-team-logo"
+            src="${escapeHtml(row.logo)}"
+            alt="${escapeHtml(row.team)} logo"
+            crossorigin="anonymous"
+          >
+          `
+
+          :
+
+          ""
+        }
+
+      </div>
+
+
+      <div class="export-top10-team">
+
+        <div class="export-team-name">
+          ${escapeHtml(row.team)}
+        </div>
+
+        <div class="export-team-meta">
+          ${escapeHtml(row.conference || "")}
+        </div>
+
+      </div>
+
+
+      <div class="export-top10-stat">
+
+        <div class="export-top10-stat-value">
+          ${signed(row.power_pts)}
+        </div>
+
+        <span>
+          BTB Rating
+        </span>
+
+      </div>
+
+
+      <div class="export-top10-stat">
+
+        <div class="${ratingClass}">
+          ${signed(ratingChange)}
+        </div>
+
+        <span>
+          BTB pts
+        </span>
+
+      </div>
+
+
+      <div class="export-top10-stat">
+
+        <div class="${rankClass}">
+          ${movementArrow(rankChange)}
+          ${Math.abs(rankChange)}
+        </div>
+
+        <span>
+          rank
+        </span>
+
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+
 function exportMoverRowHtml(
   row,
   listRank,
@@ -2287,7 +2402,7 @@ function buildTop10Card() {
 
       ${
         teams
-          .map(rankingRowHtml)
+          .map(top10RankingRowHtml)
           .join("")
       }
 
