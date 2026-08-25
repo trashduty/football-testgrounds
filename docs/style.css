@@ -368,10 +368,13 @@ body {
 
 .export-brand-logo {
   display: block;
-  width: 210px;
-  height: auto;
-  max-width: 210px;
+
+  height: 72px;
+  width: auto;
+
   max-height: 72px;
+  max-width: none;
+
   object-fit: contain;
   object-position: left center;
 }
