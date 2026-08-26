@@ -7,6 +7,9 @@ const metricSelect =
 const conferenceSelect =
   document.getElementById("conference");
 
+const divisionSelect =
+  document.getElementById("division");
+
 const teamSearchSelect =
   document.getElementById("team-search");
 
@@ -17,27 +20,27 @@ const teamCount =
   document.getElementById("team-count");
 
 
-/*
- * Change this only if your BTB logo lives
- * somewhere else in the docs folder.
- */
 const BTB_LOGO_URL =
-  "./assets/btb-logo.png";
+  "https://raw.githubusercontent.com/trashduty/football-testgrounds/main/btb-logo.png";
 
 
-/*
- * Fixed chart heights are important for Squarespace.
- *
- * Let Plotly respond to changes in WIDTH, but do not
- * allow the chart height to continually recalculate
- * based on the iframe height.
- */
-const MAIN_CHART_HEIGHT = 620;
-const HISTORY_CHART_HEIGHT = 420;
+const IS_SQUARESPACE_EMBED =
+  new URLSearchParams(
+    window.location.search
+  ).get("embed") === "1";
+
+
+const MAIN_CHART_HEIGHT =
+  750;
+
+const HISTORY_CHART_HEIGHT =
+  420;
 
 
 let currentData = [];
+
 let currentMeta = {};
+
 let historyData = [];
 
 
@@ -48,118 +51,312 @@ let historyData = [];
 const METRICS = {
 
   power: {
-    title: "BTB Power Rating",
 
-    x: "off_pts",
-    y: "def_pts",
+    title:
+      "BTB Power Rating",
 
-    xLabel: "Offensive Rating",
-    yLabel: "Defensive Rating",
+    x:
+      "off_rt",
 
-    reverseDefense: false,
+    y:
+      "def_good",
 
-    format: ".1f"
+    xLabel:
+      "Offensive Rating",
+
+    yLabel:
+      "Defensive Rating",
+
+    reverseDefense:
+      false,
+
+    format:
+      ".1f",
+
+    quadrants:
+      true
+
   },
 
 
   wepa: {
-    title: "Weighted EPA / Play",
 
-    x: "off_wepa",
-    y: "def_wepa",
+    title:
+      "Weighted EPA",
 
-    xLabel: "Offensive wEPA / Play",
-    yLabel: "Defensive wEPA Allowed / Play",
+    x:
+      "off_wepa",
 
-    reverseDefense: true,
+    y:
+      "def_wepa",
 
-    format: ".3f"
+    xLabel:
+      "Offensive Weighted EPA",
+
+    yLabel:
+      "Defensive Weighted EPA Allowed",
+
+    reverseDefense:
+      true,
+
+    format:
+      ".2f",
+
+    quadrants:
+      true
+
+  },
+
+
+  epa: {
+
+    title:
+      "EPA / Play",
+
+    x:
+      "off_epa",
+
+    y:
+      "def_epa",
+
+    xLabel:
+      "Offensive EPA / Play",
+
+    yLabel:
+      "Defensive EPA / Play Allowed",
+
+    reverseDefense:
+      true,
+
+    format:
+      ".3f",
+
+    quadrants:
+      true
+
   },
 
 
   pass_epa: {
-    title: "Pass EPA / Play",
 
-    x: "off_pass_epa",
-    y: "def_pass_epa",
+    title:
+      "Pass EPA / Play",
 
-    xLabel: "Offensive Pass EPA / Play",
-    yLabel: "Defensive Pass EPA Allowed / Play",
+    x:
+      "off_pass_epa",
 
-    reverseDefense: true,
+    y:
+      "def_pass_epa",
 
-    format: ".3f"
+    xLabel:
+      "Offensive Pass EPA / Play",
+
+    yLabel:
+      "Defensive Pass EPA / Play Allowed",
+
+    reverseDefense:
+      true,
+
+    format:
+      ".3f",
+
+    quadrants:
+      true
+
   },
 
 
   rush_epa: {
-    title: "Rush EPA / Play",
 
-    x: "off_rush_epa",
-    y: "def_rush_epa",
+    title:
+      "Rush EPA / Play",
 
-    xLabel: "Offensive Rush EPA / Play",
-    yLabel: "Defensive Rush EPA Allowed / Play",
+    x:
+      "off_rush_epa",
 
-    reverseDefense: true,
+    y:
+      "def_rush_epa",
 
-    format: ".3f"
+    xLabel:
+      "Offensive Rush EPA / Play",
+
+    yLabel:
+      "Defensive Rush EPA / Play Allowed",
+
+    reverseDefense:
+      true,
+
+    format:
+      ".3f",
+
+    quadrants:
+      true
+
   },
 
 
   eckel: {
-    title: "Eckel Rate",
 
-    x: "off_eckel_rate",
-    y: "def_eckel_rate",
+    title:
+      "Eckel Rate",
 
-    xLabel: "Offensive Eckel Rate",
-    yLabel: "Defensive Eckel Rate Allowed",
+    x:
+      "off_eckel_rate",
 
-    reverseDefense: true,
+    y:
+      "def_eckel_rate",
 
-    format: ".1%"
+    xLabel:
+      "Offensive Eckel Rate",
+
+    yLabel:
+      "Defensive Eckel Rate Allowed",
+
+    reverseDefense:
+      true,
+
+    format:
+      ".1%",
+
+    quadrants:
+      true
+
   },
 
 
-  adjusted_pass: {
-    title:
-      "Opponent-Adjusted Pass EPA / Play",
+  success: {
 
-    x: "adj_off_pass_epa",
-    y: "adj_def_pass_epa",
+    title:
+      "Success Rate",
+
+    x:
+      "off_success",
+
+    y:
+      "def_success",
 
     xLabel:
-      "Adjusted Offensive Pass EPA / Play",
+      "Offensive Success Rate",
 
     yLabel:
-      "Adjusted Defensive Pass EPA / Play",
+      "Defensive Success Rate Allowed",
 
-    reverseDefense: true,
+    reverseDefense:
+      true,
 
-    format: ".3f"
+    format:
+      ".1%",
+
+    quadrants:
+      true
+
   },
 
 
-  adjusted_rush: {
-    title:
-      "Opponent-Adjusted Rush EPA / Play",
+  proe: {
 
-    x: "adj_off_rush_epa",
-    y: "adj_def_rush_epa",
+    title:
+      "Pass Rate Over Expected",
+
+    x:
+      "proe",
+
+    y:
+      "def_proe",
 
     xLabel:
-      "Adjusted Offensive Rush EPA / Play",
+      "Offensive PROE",
 
     yLabel:
-      "Adjusted Defensive Rush EPA / Play",
+      "Opponent PROE vs Defense",
 
-    reverseDefense: true,
+    reverseDefense:
+      false,
 
-    format: ".3f"
+    format:
+      ".1%",
+
+    quadrants:
+      false
+
   }
 
 };
+
+
+/* ==========================================================
+   SQUARESPACE EMBED
+========================================================== */
+
+function applyEmbedMode() {
+
+  if (!IS_SQUARESPACE_EMBED) {
+    return;
+  }
+
+
+  document.documentElement
+    .classList.add(
+      "squarespace-embed"
+    );
+
+
+  const moversButton =
+    document.getElementById(
+      "download-movers"
+    );
+
+
+  if (moversButton) {
+    moversButton.remove();
+  }
+
+
+  const socialGraphics =
+    document.getElementById(
+      "social-graphics-section"
+    );
+
+
+  if (socialGraphics) {
+    socialGraphics.remove();
+  }
+
+}
+
+
+/*
+ * Send height only when explicitly loaded
+ * with ?embed=1.
+ *
+ * There is intentionally NO ResizeObserver
+ * continually posting new heights.
+ */
+function sendEmbedHeight() {
+
+  if (!IS_SQUARESPACE_EMBED) {
+    return;
+  }
+
+
+  const height =
+    Math.max(
+      document.body.scrollHeight,
+      document.documentElement.scrollHeight
+    );
+
+
+  window.parent.postMessage(
+    {
+      type:
+        "btb-nfl-height",
+
+      height
+    },
+    "*"
+  );
+
+}
 
 
 /* ==========================================================
@@ -170,40 +367,27 @@ function average(values) {
 
   const valid =
     values.filter(
-      value =>
-        Number.isFinite(value)
+      Number.isFinite
     );
+
 
   if (!valid.length) {
     return null;
   }
 
+
   return (
     valid.reduce(
-      (sum, value) =>
+      (
+        sum,
+        value
+      ) =>
         sum + value,
       0
     ) /
     valid.length
   );
-}
 
-
-function hasValidPair(
-  row,
-  metric
-) {
-
-  const x =
-    Number(row[metric.x]);
-
-  const y =
-    Number(row[metric.y]);
-
-  return (
-    Number.isFinite(x) &&
-    Number.isFinite(y)
-  );
 }
 
 
@@ -214,15 +398,23 @@ function finiteExtent(values) {
       Number.isFinite
     );
 
+
   if (!valid.length) {
     return null;
   }
 
+
   const min =
-    Math.min(...valid);
+    Math.min(
+      ...valid
+    );
+
 
   const max =
-    Math.max(...valid);
+    Math.max(
+      ...valid
+    );
+
 
   const span =
     Math.max(
@@ -230,15 +422,45 @@ function finiteExtent(values) {
       1e-9
     );
 
+
   return {
+
     min:
-      min - span * 0.06,
+      min -
+      span * 0.06,
 
     max:
-      max + span * 0.06,
+      max +
+      span * 0.06,
 
     span
+
   };
+
+}
+
+
+function hasValidPair(
+  row,
+  metric
+) {
+
+  return (
+
+    Number.isFinite(
+      Number(
+        row[metric.x]
+      )
+    ) &&
+
+    Number.isFinite(
+      Number(
+        row[metric.y]
+      )
+    )
+
+  );
+
 }
 
 
@@ -247,18 +469,19 @@ function signed(
   digits = 1
 ) {
 
-  const number =
+  const n =
     Number(value);
 
-  if (!Number.isFinite(number)) {
+
+  if (!Number.isFinite(n)) {
     return "—";
   }
 
+
   return (
-    number > 0
-      ? "+"
-      : ""
-  ) + number.toFixed(digits);
+    `${n > 0 ? "+" : ""}${n.toFixed(digits)}`
+  );
+
 }
 
 
@@ -267,57 +490,74 @@ function movementArrow(value) {
   const n =
     Number(value);
 
+
   if (!Number.isFinite(n)) {
     return "";
   }
+
 
   if (n > 0) {
     return "▲";
   }
 
+
   if (n < 0) {
     return "▼";
   }
 
+
   return "—";
+
 }
 
 
 function escapeHtml(value) {
 
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
+  return String(
+    value ?? ""
+  )
+
+    .replaceAll(
+      "&",
+      "&amp;"
+    )
+
+    .replaceAll(
+      "<",
+      "&lt;"
+    )
+
+    .replaceAll(
+      ">",
+      "&gt;"
+    )
+
+    .replaceAll(
+      '"',
+      "&quot;"
+    )
+
+    .replaceAll(
+      "'",
+      "&#039;"
+    );
+
 }
 
 
-/*
- * Force http logo URLs to https.
- *
- * The R pipeline should already do this,
- * but this gives the frontend a second layer
- * of protection.
- */
-function safeLogoUrl(value) {
+function displayName(row) {
 
-  if (!value) {
-    return "";
-  }
+  return (
+    row.team_name ||
+    row.team ||
+    "Unknown Team"
+  );
 
-  return String(value)
-    .trim()
-    .replace(
-      /^http:\/\//i,
-      "https://"
-    );
 }
 
 
 /* ==========================================================
-   LOGOS ON PLOTLY
+   TEAM LOGOS
 ========================================================== */
 
 function logoImages(
@@ -330,39 +570,58 @@ function logoImages(
     finiteExtent(
       rows.map(
         row =>
-          Number(row[metric.x])
+          Number(
+            row[metric.x]
+          )
       )
     );
+
 
   const yExtent =
     finiteExtent(
       rows.map(
         row =>
-          Number(row[metric.y])
+          Number(
+            row[metric.y]
+          )
       )
     );
 
-  if (!xExtent || !yExtent) {
+
+  if (
+    !xExtent ||
+    !yExtent
+  ) {
+
     return [];
+
   }
 
+
   const sizeX =
-    xExtent.span * 0.040;
+    xExtent.span *
+    0.05;
+
 
   const sizeY =
-    yExtent.span * 0.065;
+    yExtent.span *
+    0.08;
 
 
   return rows
+
     .filter(
       row =>
-        safeLogoUrl(row.logo)
+        typeof row.logo ===
+          "string" &&
+        row.logo.trim() !== ""
     )
+
     .map(
       row => ({
 
         source:
-          safeLogoUrl(row.logo),
+          row.logo,
 
         xref:
           "x",
@@ -381,13 +640,19 @@ function logoImages(
           ),
 
         sizex:
-          row.team === highlightedTeam
-            ? sizeX * 1.40
+          row.team ===
+          highlightedTeam
+
+            ? sizeX * 1.6
+
             : sizeX,
 
         sizey:
-          row.team === highlightedTeam
-            ? sizeY * 1.40
+          row.team ===
+          highlightedTeam
+
+            ? sizeY * 1.6
+
             : sizeY,
 
         xanchor:
@@ -407,6 +672,7 @@ function logoImages(
 
       })
     );
+
 }
 
 
@@ -419,11 +685,14 @@ async function loadSeason() {
   const season =
     seasonSelect.value;
 
+
   const dataPath =
     `./data/${season}/latest.json`;
 
+
   const metaPath =
     `./data/${season}/meta.json`;
+
 
   const historyPath =
     `./data/${season}/ratings_history.csv`;
@@ -435,7 +704,8 @@ async function loadSeason() {
       await fetch(
         dataPath,
         {
-          cache: "no-store"
+          cache:
+            "no-store"
         }
       );
 
@@ -453,7 +723,11 @@ async function loadSeason() {
       await response.json();
 
 
-    if (!Array.isArray(currentData)) {
+    if (
+      !Array.isArray(
+        currentData
+      )
+    ) {
 
       throw new Error(
         `${dataPath} did not contain a JSON array`
@@ -462,22 +736,23 @@ async function loadSeason() {
     }
 
 
-    /*
-     * Meta.
-     */
     try {
 
       const metaResponse =
         await fetch(
           metaPath,
           {
-            cache: "no-store"
+            cache:
+              "no-store"
           }
         );
 
+
       currentMeta =
         metaResponse.ok
+
           ? await metaResponse.json()
+
           : {};
 
     } catch {
@@ -487,40 +762,47 @@ async function loadSeason() {
     }
 
 
-    /*
-     * Historical ratings.
-     */
     try {
 
       const historyResponse =
         await fetch(
           historyPath,
           {
-            cache: "no-store"
+            cache:
+              "no-store"
           }
         );
 
 
-      if (historyResponse.ok) {
-
-        const historyText =
-          await historyResponse.text();
-
+      if (
+        historyResponse.ok
+      ) {
 
         const parsed =
           Papa.parse(
-            historyText,
+            await historyResponse.text(),
             {
-              header: true,
-              dynamicTyping: true,
-              skipEmptyLines: true
+
+              header:
+                true,
+
+              dynamicTyping:
+                true,
+
+              skipEmptyLines:
+                true
+
             }
           );
 
 
         historyData =
-          Array.isArray(parsed.data)
+          Array.isArray(
+            parsed.data
+          )
+
             ? parsed.data
+
             : [];
 
       } else {
@@ -529,12 +811,14 @@ async function loadSeason() {
 
       }
 
+
     } catch (error) {
 
       console.warn(
-        "Could not load ratings history:",
+        "Could not load NFL ratings history:",
         error
       );
+
 
       historyData = [];
 
@@ -543,52 +827,102 @@ async function loadSeason() {
 
     populateConferences();
 
+    populateDivisions();
+
     populateTeams();
 
     updateMetricAvailability();
 
     renderAll();
 
+    sendEmbedHeight();
+
 
   } catch (error) {
 
-    console.error(error);
+    console.error(
+      error
+    );
 
 
     currentData = [];
+
     currentMeta = {};
+
     historyData = [];
 
 
     weekLabel.textContent =
       "Unavailable";
 
+
     teamCount.textContent =
       "0";
 
 
     document
-      .getElementById("chart")
+      .getElementById(
+        "chart"
+      )
       .innerHTML = `
 
-        <div
-          style="
-            color:#111;
-            padding:40px;
-            font-family:Arial;
-          "
-        >
+        <div class="chart-error">
 
-          Data for ${escapeHtml(season)}
+          NFL data for
+          ${escapeHtml(season)}
           is not currently available.
 
           <br><br>
 
-          ${escapeHtml(error.message)}
+          ${escapeHtml(
+            error.message
+          )}
 
         </div>
 
       `;
+
+
+    document
+      .getElementById(
+        "risers-list"
+      )
+      .innerHTML = `
+
+        <div class="mover-empty">
+          Data unavailable.
+        </div>
+
+      `;
+
+
+    document
+      .getElementById(
+        "fallers-list"
+      )
+      .innerHTML = `
+
+        <div class="mover-empty">
+          Data unavailable.
+        </div>
+
+      `;
+
+
+    document
+      .getElementById(
+        "history-chart"
+      )
+      .innerHTML = `
+
+        <p>
+          Rating history is not currently available.
+        </p>
+
+      `;
+
+
+    sendEmbedHeight();
 
   }
 
@@ -596,7 +930,7 @@ async function loadSeason() {
 
 
 /* ==========================================================
-   CONTROLS
+   CONFERENCES
 ========================================================== */
 
 function populateConferences() {
@@ -606,22 +940,27 @@ function populateConferences() {
 
 
   const conferences = [
+
     ...new Set(
+
       currentData
+
         .map(
           row =>
             row.conference
         )
-        .filter(Boolean)
+
+        .filter(
+          Boolean
+        )
+
     )
+
   ].sort();
 
 
-  conferenceSelect.innerHTML = `
-    <option value="ALL">
-      All FBS
-    </option>
-  `;
+  conferenceSelect.innerHTML =
+    `<option value="ALL">All NFL</option>`;
 
 
   conferences.forEach(
@@ -632,26 +971,122 @@ function populateConferences() {
           "option"
         );
 
+
       option.value =
         conference;
+
 
       option.textContent =
         conference;
 
+
       conferenceSelect
-        .appendChild(option);
+        .appendChild(
+          option
+        );
 
     }
   );
 
 
   conferenceSelect.value =
-    conferences.includes(existing)
+    conferences.includes(
+      existing
+    )
+
       ? existing
+
       : "ALL";
 
 }
 
+
+/* ==========================================================
+   DIVISIONS
+========================================================== */
+
+function populateDivisions() {
+
+  const existing =
+    divisionSelect.value;
+
+
+  const conference =
+    conferenceSelect.value;
+
+
+  const divisions = [
+
+    ...new Set(
+
+      currentData
+
+        .filter(
+          row =>
+            conference === "ALL" ||
+            row.conference ===
+              conference
+        )
+
+        .map(
+          row =>
+            row.division
+        )
+
+        .filter(
+          Boolean
+        )
+
+    )
+
+  ].sort();
+
+
+  divisionSelect.innerHTML =
+    `<option value="ALL">All Divisions</option>`;
+
+
+  divisions.forEach(
+    division => {
+
+      const option =
+        document.createElement(
+          "option"
+        );
+
+
+      option.value =
+        division;
+
+
+      option.textContent =
+        division;
+
+
+      divisionSelect
+        .appendChild(
+          option
+        );
+
+    }
+  );
+
+
+  divisionSelect.value =
+    divisions.includes(
+      existing
+    )
+
+      ? existing
+
+      : "ALL";
+
+}
+
+
+/* ==========================================================
+   TEAM SELECT
+========================================================== */
 
 function populateTeams() {
 
@@ -659,48 +1094,62 @@ function populateTeams() {
     teamSearchSelect.value;
 
 
-  const teams = [
-    ...new Set(
-      currentData
-        .map(
-          row =>
-            row.team
-        )
-        .filter(Boolean)
-    )
-  ].sort();
+  const teams =
+    [...currentData]
+
+      .filter(
+        row =>
+          row.team
+      )
+
+      .sort(
+        (
+          a,
+          b
+        ) =>
+          displayName(a)
+            .localeCompare(
+              displayName(b)
+            )
+      );
 
 
-  teamSearchSelect.innerHTML = `
-    <option value="">
-      None
-    </option>
-  `;
+  teamSearchSelect.innerHTML =
+    `<option value="">None</option>`;
 
 
   teams.forEach(
-    team => {
+    row => {
 
       const option =
         document.createElement(
           "option"
         );
 
+
       option.value =
-        team;
+        row.team;
+
 
       option.textContent =
-        team;
+        displayName(row);
+
 
       teamSearchSelect
-        .appendChild(option);
+        .appendChild(
+          option
+        );
 
     }
   );
 
 
   if (
-    teams.includes(existing)
+    teams.some(
+      row =>
+        row.team ===
+        existing
+    )
   ) {
 
     teamSearchSelect.value =
@@ -711,17 +1160,27 @@ function populateTeams() {
 }
 
 
+/* ==========================================================
+   METRIC AVAILABILITY
+========================================================== */
+
 function updateMetricAvailability() {
 
-  const availability = {};
+  const availability =
+    {};
 
 
   for (
-    const [metricKey, metric]
-    of Object.entries(METRICS)
+    const [
+      key,
+      metric
+    ]
+    of Object.entries(
+      METRICS
+    )
   ) {
 
-    availability[metricKey] =
+    availability[key] =
       currentData.some(
         row =>
           hasValidPair(
@@ -757,25 +1216,18 @@ function updateMetricAvailability() {
     selected.disabled
   ) {
 
-    const preferredOrder = [
-      "power",
-      "wepa",
-      "pass_epa",
-      "rush_epa",
-      "eckel",
-      "adjusted_pass",
-      "adjusted_rush"
-    ];
-
-
     const firstAvailable =
-      preferredOrder.find(
+      Object.keys(
+        METRICS
+      ).find(
         key =>
           availability[key]
       );
 
 
-    if (firstAvailable) {
+    if (
+      firstAvailable
+    ) {
 
       metricSelect.value =
         firstAvailable;
@@ -787,46 +1239,93 @@ function updateMetricAvailability() {
 }
 
 
+/* ==========================================================
+   WEEK LABEL
+========================================================== */
+
 function updateWeekLabel() {
 
-  const season =
-    seasonSelect.value;
-
-
-  const week =
-    currentMeta.thru_week ??
-    (
-      currentData.length
-        ? currentData[0].week
-        : null
+  const enteringWeek =
+    Number(
+      currentMeta
+        .rating_entering_week
     );
 
 
-  if (Number(week) === 0) {
-
-    weekLabel.textContent =
-      `${season} Preseason`;
-
-    return;
-
-  }
-
-
   if (
-    week !== null &&
-    week !== undefined
+    Number.isFinite(
+      enteringWeek
+    )
   ) {
 
     weekLabel.textContent =
-      `Week ${week}`;
+      `Entering Week ${enteringWeek}`;
 
     return;
 
   }
 
 
+  const rowWeek =
+    currentData.length
+
+      ? Number(
+          currentData[0]
+            .week
+        )
+
+      : NaN;
+
+
   weekLabel.textContent =
-    season;
+    Number.isFinite(
+      rowWeek
+    )
+
+      ? `Entering Week ${rowWeek}`
+
+      : seasonSelect.value;
+
+}
+
+
+/* ==========================================================
+   FILTER ROWS
+========================================================== */
+
+function filteredRows(
+  metric
+) {
+
+  const conference =
+    conferenceSelect.value;
+
+
+  const division =
+    divisionSelect.value;
+
+
+  return currentData.filter(
+    row =>
+
+      hasValidPair(
+        row,
+        metric
+      ) &&
+
+      (
+        conference === "ALL" ||
+        row.conference ===
+          conference
+      ) &&
+
+      (
+        division === "ALL" ||
+        row.division ===
+          division
+      )
+
+  );
 
 }
 
@@ -840,21 +1339,16 @@ function renderChart() {
   const metricKey =
     metricSelect.value;
 
+
   const metric =
-    METRICS[metricKey];
+    METRICS[
+      metricKey
+    ];
 
 
   if (!metric) {
     return;
   }
-
-
-  const conference =
-    conferenceSelect.value;
-
-
-  const highlightedTeam =
-    teamSearchSelect.value;
 
 
   const benchmark =
@@ -868,30 +1362,31 @@ function renderChart() {
 
 
   const displayed =
-    benchmark.filter(
-      row =>
-        conference === "ALL" ||
-        row.conference === conference
+    filteredRows(
+      metric
     );
 
 
-  if (!benchmark.length) {
+  const highlightedTeam =
+    teamSearchSelect.value;
+
+
+  if (
+    !benchmark.length
+  ) {
 
     document
-      .getElementById("chart")
+      .getElementById(
+        "chart"
+      )
       .innerHTML = `
 
-        <div
-          style="
-            color:#111;
-            padding:40px;
-            font-family:Arial;
-          "
-        >
+        <div class="chart-error">
 
-          ${escapeHtml(metric.title)}
-          data is not yet available
-          for this season.
+          ${escapeHtml(
+            metric.title
+          )}
+          data is not available.
 
         </div>
 
@@ -899,7 +1394,7 @@ function renderChart() {
 
 
     teamCount.textContent =
-      `0 / ${currentData.length} FBS`;
+      "0";
 
 
     updateWeekLabel();
@@ -914,7 +1409,9 @@ function renderChart() {
       benchmark.map(
         row =>
           Number(
-            row[metric.x]
+            row[
+              metric.x
+            ]
           )
       )
     );
@@ -925,7 +1422,9 @@ function renderChart() {
       benchmark.map(
         row =>
           Number(
-            row[metric.y]
+            row[
+              metric.y
+            ]
           )
       )
     );
@@ -934,146 +1433,25 @@ function renderChart() {
   const normalTeams =
     displayed.filter(
       row =>
-        row.team !== highlightedTeam
+        row.team !==
+        highlightedTeam
     );
 
 
   const highlighted =
     displayed.filter(
       row =>
-        row.team === highlightedTeam
+        row.team ===
+        highlightedTeam
     );
 
 
-  const traces = [
+  function makeTrace(
+    rows,
+    highlight = false
+  ) {
 
-    {
-
-      type:
-        "scatter",
-
-      mode:
-        "markers+text",
-
-
-      x:
-        normalTeams.map(
-          row =>
-            Number(
-              row[metric.x]
-            )
-        ),
-
-
-      y:
-        normalTeams.map(
-          row =>
-            Number(
-              row[metric.y]
-            )
-        ),
-
-
-      text:
-        normalTeams.map(
-          row =>
-            safeLogoUrl(row.logo)
-              ? ""
-              : row.team
-        ),
-
-
-      textposition:
-        "top center",
-
-
-      customdata:
-        normalTeams.map(
-          row => [
-
-            row.team,
-            row.conference,
-            row.games,
-            row.power_pts,
-            row.power_rank,
-            row.power_change,
-            row.rank_change
-
-          ]
-        ),
-
-
-      /*
-       * Transparent marker maintains a large
-       * hover target behind each logo.
-       */
-      marker: {
-
-        size:
-          30,
-
-        color:
-          normalTeams.map(
-            row =>
-              safeLogoUrl(row.logo)
-                ? "rgba(0,0,0,0.001)"
-                : "rgba(31,119,180,0.70)"
-          ),
-
-        line: {
-          width: 0
-        }
-
-      },
-
-
-      hovertemplate:
-
-        "<b>%{customdata[0]}</b>" +
-
-        "<br>Conference: %{customdata[1]}" +
-
-        "<br>Games: %{customdata[2]}" +
-
-        `<br>${metric.xLabel}: %{x:${metric.format}}` +
-
-        `<br>${metric.yLabel}: %{y:${metric.format}}` +
-
-        (
-          metricKey === "power"
-
-          ?
-
-          "<br>BTB Power Rating: %{customdata[3]:.1f}" +
-
-          "<br>Power Rank: #%{customdata[4]}" +
-
-          "<br>Weekly Rating Change: %{customdata[5]:+.1f}" +
-
-          "<br>Rank Movement: %{customdata[6]:+d}"
-
-          :
-
-          ""
-        ) +
-
-        "<extra></extra>",
-
-
-      name:
-        "FBS Teams"
-
-    }
-
-  ];
-
-
-  /*
-   * Highlighted-team hover target.
-   */
-  if (highlighted.length) {
-
-    traces.push({
+    return {
 
       type:
         "scatter",
@@ -1083,28 +1461,34 @@ function renderChart() {
 
 
       x:
-        highlighted.map(
+        rows.map(
           row =>
             Number(
-              row[metric.x]
+              row[
+                metric.x
+              ]
             )
         ),
 
 
       y:
-        highlighted.map(
+        rows.map(
           row =>
             Number(
-              row[metric.y]
+              row[
+                metric.y
+              ]
             )
         ),
 
 
       text:
-        highlighted.map(
+        rows.map(
           row =>
-            safeLogoUrl(row.logo)
+            row.logo
+
               ? ""
+
               : row.team
         ),
 
@@ -1114,15 +1498,33 @@ function renderChart() {
 
 
       customdata:
-        highlighted.map(
+        rows.map(
           row => [
 
+            displayName(row),
+
             row.team,
+
             row.conference,
+
+            row.division,
+
             row.games,
-            row.power_pts,
+
+            row.power_final,
+
             row.power_rank,
+
+            row.off_rt,
+
+            row.def_good,
+
+            row.qb_value,
+
+            row.QBname,
+
             row.power_change,
+
             row.rank_change
 
           ]
@@ -1132,61 +1534,114 @@ function renderChart() {
       marker: {
 
         size:
-          46,
+          highlight
+
+            ? 42
+
+            : 28,
+
 
         color:
-          "rgba(255,255,255,0.01)",
+          highlight
 
-        line: {
-          width: 3,
-          color: "#111111"
-        }
+            ? "rgba(255,255,255,0.01)"
+
+            : rows.map(
+                row =>
+                  row.logo
+
+                    ? "rgba(0,0,0,0.01)"
+
+                    : "rgba(31,119,180,0.70)"
+              ),
+
+
+        line:
+          highlight
+
+            ? {
+                width:
+                  3,
+
+                color:
+                  "#111111"
+              }
+
+            : {
+                width:
+                  0
+              }
 
       },
 
 
       hovertemplate:
 
-        "<b>%{customdata[0]}</b>" +
+        "<b>%{customdata[0]}</b> (%{customdata[1]})" +
 
-        "<br>Conference: %{customdata[1]}" +
+        "<br>%{customdata[2]} · %{customdata[3]}" +
 
-        "<br>Games: %{customdata[2]}" +
+        "<br>Games entering week: %{customdata[4]}" +
 
         `<br>${metric.xLabel}: %{x:${metric.format}}` +
 
         `<br>${metric.yLabel}: %{y:${metric.format}}` +
 
-        (
-          metricKey === "power"
+        "<br>BTB Power Rating: %{customdata[5]:+.1f}" +
 
-          ?
+        "<br>Power Rank: #%{customdata[6]}" +
 
-          "<br>BTB Power Rating: %{customdata[3]:.1f}" +
+        "<br>Offense: %{customdata[7]:+.1f}" +
 
-          "<br>Power Rank: #%{customdata[4]}" +
+        "<br>Defense: %{customdata[8]:+.1f}" +
 
-          "<br>Weekly Rating Change: %{customdata[5]:+.1f}" +
+        "<br>QB Value: %{customdata[9]:+.1f}" +
 
-          "<br>Rank Movement: %{customdata[6]:+d}"
+        "<br>Starter: %{customdata[10]}" +
 
-          :
+        "<br>Weekly Rating Change: %{customdata[11]:+.1f}" +
 
-          ""
-        ) +
+        "<br>Rank Movement: %{customdata[12]:+d}" +
 
         "<extra></extra>",
 
 
       name:
-        "Highlighted Team"
+        highlight
 
-    });
+          ? "Highlighted Team"
+
+          : "NFL Teams"
+
+    };
 
   }
 
 
-  const shapes = [];
+  const traces =
+    [
+      makeTrace(
+        normalTeams
+      )
+    ];
+
+
+  if (
+    highlighted.length
+  ) {
+
+    traces.push(
+      makeTrace(
+        highlighted,
+        true
+      )
+    );
+
+  }
+
+
+  const shapes =
+    [];
 
 
   const xExtent =
@@ -1194,7 +1649,9 @@ function renderChart() {
       displayed.map(
         row =>
           Number(
-            row[metric.x]
+            row[
+              metric.x
+            ]
           )
       )
     );
@@ -1205,20 +1662,16 @@ function renderChart() {
       displayed.map(
         row =>
           Number(
-            row[metric.y]
+            row[
+              metric.y
+            ]
           )
       )
     );
 
 
-  /*
-   * Green best quadrant and red worst quadrant.
-   *
-   * Defensive "allowed" metrics have a reversed
-   * y-axis, so the underlying coordinates need
-   * to account for that.
-   */
   if (
+    metric.quadrants &&
     benchmarkX !== null &&
     benchmarkY !== null &&
     xExtent &&
@@ -1227,25 +1680,33 @@ function renderChart() {
 
     const bestY0 =
       metric.reverseDefense
+
         ? yExtent.min
+
         : benchmarkY;
 
 
     const bestY1 =
       metric.reverseDefense
+
         ? benchmarkY
+
         : yExtent.max;
 
 
     const worstY0 =
       metric.reverseDefense
+
         ? benchmarkY
+
         : yExtent.min;
 
 
     const worstY1 =
       metric.reverseDefense
+
         ? yExtent.max
+
         : benchmarkY;
 
 
@@ -1276,7 +1737,8 @@ function renderChart() {
         "rgba(34,197,94,0.10)",
 
       line: {
-        width: 0
+        width:
+          0
       },
 
       layer:
@@ -1312,7 +1774,8 @@ function renderChart() {
         "rgba(239,68,68,0.09)",
 
       line: {
-        width: 0
+        width:
+          0
       },
 
       layer:
@@ -1323,10 +1786,9 @@ function renderChart() {
   }
 
 
-  /*
-   * All-FBS average lines.
-   */
-  if (benchmarkX !== null) {
+  if (
+    benchmarkX !== null
+  ) {
 
     shapes.push({
 
@@ -1366,7 +1828,9 @@ function renderChart() {
   }
 
 
-  if (benchmarkY !== null) {
+  if (
+    benchmarkY !== null
+  ) {
 
     shapes.push({
 
@@ -1406,169 +1870,184 @@ function renderChart() {
   }
 
 
-  const season =
-    seasonSelect.value;
+  Plotly.react(
 
+    "chart",
 
-  const layout = {
+    traces,
 
-    title: {
-
-      text:
-        `${season} ${metric.title}`,
-
-      x:
-        0.5,
-
-      xanchor:
-        "center"
-
-    },
-
-
-    paper_bgcolor:
-      "#ffffff",
-
-
-    plot_bgcolor:
-      "#ffffff",
-
-
-    font: {
-
-      family:
-        "Arial, sans-serif",
-
-      color:
-        "#111111"
-
-    },
-
-
-    /*
-     * Critical Squarespace fix:
-     * fixed chart height prevents iframe
-     * auto-height from creating a resize loop.
-     */
-    autosize:
-      true,
-
-    height:
-      MAIN_CHART_HEIGHT,
-
-
-    xaxis: {
+    {
 
       title: {
+
         text:
-          metric.xLabel
+          `${seasonSelect.value} NFL ${metric.title}`,
+
+        x:
+          0.5,
+
+        xanchor:
+          "center"
+
       },
 
-      zeroline:
-        false,
 
-      showgrid:
-        true,
-
-      gridcolor:
-        "rgba(0,0,0,0.10)"
-
-    },
+      paper_bgcolor:
+        "#ffffff",
 
 
-    yaxis: {
+      plot_bgcolor:
+        "#ffffff",
 
-      title: {
-        text:
-          metric.yLabel
+
+      font: {
+
+        family:
+          "Arial, sans-serif",
+
+        color:
+          "#111111"
+
       },
 
-      autorange:
-        metric.reverseDefense
-          ? "reversed"
-          : true,
 
-      zeroline:
-        false,
+      xaxis: {
 
-      showgrid:
-        true,
+        title: {
+          text:
+            metric.xLabel
+        },
 
-      gridcolor:
-        "rgba(0,0,0,0.10)"
+        zeroline:
+          false,
 
-    },
+        showgrid:
+          true,
+
+        gridcolor:
+          "rgba(0,0,0,0.10)"
+
+      },
 
 
-    shapes:
+      yaxis: {
+
+        title: {
+          text:
+            metric.yLabel
+        },
+
+        autorange:
+          metric.reverseDefense
+
+            ? "reversed"
+
+            : true,
+
+        zeroline:
+          false,
+
+        showgrid:
+          true,
+
+        gridcolor:
+          "rgba(0,0,0,0.10)"
+
+      },
+
+
       shapes,
 
 
-    images:
-      logoImages(
-        displayed,
-        metric,
-        highlightedTeam
-      ),
+      images:
+        logoImages(
+          displayed,
+          metric,
+          highlightedTeam
+        ),
 
 
-    hovermode:
-      "closest",
+      hovermode:
+        "closest",
 
 
-    showlegend:
-      Boolean(
-        highlightedTeam
-      ),
+      showlegend:
+        Boolean(
+          highlightedTeam
+        ),
 
 
-    margin: {
-      l: 90,
-      r: 40,
-      t: 80,
-      b: 90
+      margin: {
+
+        l:
+          95,
+
+        r:
+          45,
+
+        t:
+          80,
+
+        b:
+          90
+
+      },
+
+
+      autosize:
+        true,
+
+
+      /*
+       * Fixed height prevents Squarespace
+       * resize feedback.
+       */
+      height:
+        MAIN_CHART_HEIGHT
+
+    },
+
+
+    {
+
+      responsive:
+        true,
+
+
+      displaylogo:
+        false,
+
+
+      modeBarButtonsToRemove:
+        IS_SQUARESPACE_EMBED
+
+          ? [
+              "toImage",
+              "lasso2d",
+              "select2d"
+            ]
+
+          : [
+              "lasso2d",
+              "select2d"
+            ],
+
+
+      toImageButtonOptions: {
+
+        format:
+          "png",
+
+        filename:
+          `btb-${seasonSelect.value}-nfl-${metricKey}`,
+
+        scale:
+          2
+
+      }
+
     }
 
-  };
-
-
-  const config = {
-
-    responsive:
-      true,
-
-
-    displaylogo:
-      false,
-
-
-    modeBarButtonsToRemove: [
-      "lasso2d",
-      "select2d"
-    ],
-
-
-    toImageButtonOptions: {
-
-      format:
-        "png",
-
-      filename:
-        `btb-${season}-${metricKey}`,
-
-      scale:
-        2
-
-    }
-
-  };
-
-
-  Plotly.react(
-    "chart",
-    traces,
-    layout,
-    config
   );
 
 
@@ -1576,7 +2055,10 @@ function renderChart() {
 
 
   teamCount.textContent =
-    `${displayed.length} / ${benchmark.length} FBS`;
+    `${displayed.length} / ${benchmark.length} NFL`;
+
+
+  sendEmbedHeight();
 
 }
 
@@ -1590,152 +2072,220 @@ function getMovers() {
   const valid =
     currentData.filter(
       row =>
+
+        Number.isFinite(
+          Number(
+            row.power_change
+          )
+        ) &&
+
         Number.isFinite(
           Number(
             row.rank_change
           )
         ) &&
-        Number(row.week) > 0
+
+        Number(
+          row.week
+        ) > 1
+
     );
 
 
-  const risers =
-    [...valid]
-      .filter(
-        row =>
-          Number(
-            row.rank_change
-          ) > 0
-      )
-      .sort(
-        (a, b) => {
-
-          const rankDiff =
-            Number(b.rank_change) -
-            Number(a.rank_change);
-
-          if (rankDiff !== 0) {
-            return rankDiff;
-          }
-
-          return (
-            Number(b.power_change) -
-            Number(a.power_change)
-          );
-
-        }
-      );
-
-
-  const fallers =
-    [...valid]
-      .filter(
-        row =>
-          Number(
-            row.rank_change
-          ) < 0
-      )
-      .sort(
-        (a, b) => {
-
-          const rankDiff =
-            Number(a.rank_change) -
-            Number(b.rank_change);
-
-          if (rankDiff !== 0) {
-            return rankDiff;
-          }
-
-          return (
-            Number(a.power_change) -
-            Number(b.power_change)
-          );
-
-        }
-      );
-
-
   return {
-    risers,
-    fallers
+
+    risers:
+      [...valid]
+
+        .filter(
+          row =>
+            Number(
+              row.power_change
+            ) > 0
+        )
+
+        .sort(
+          (
+            a,
+            b
+          ) =>
+            Number(
+              b.power_change
+            ) -
+            Number(
+              a.power_change
+            )
+        ),
+
+
+    fallers:
+      [...valid]
+
+        .filter(
+          row =>
+            Number(
+              row.power_change
+            ) < 0
+        )
+
+        .sort(
+          (
+            a,
+            b
+          ) =>
+            Number(
+              a.power_change
+            ) -
+            Number(
+              b.power_change
+            )
+        )
+
   };
 
 }
 
 
+/* ==========================================================
+   MOVER ROWS
+========================================================== */
+
 function moverRowHtml(
   row,
-  type
+  listRank
 ) {
 
-  const movement =
+  const ratingChange =
+    Number(
+      row.power_change
+    );
+
+
+  const rankChange =
     Number(
       row.rank_change
     );
 
 
-  const logo =
-    safeLogoUrl(
-      row.logo
-    );
+  const ratingClass =
+    ratingChange >= 0
+
+      ? "positive"
+
+      : "negative";
+
+
+  const rankClass =
+    rankChange >= 0
+
+      ? "positive"
+
+      : "negative";
 
 
   return `
 
     <div class="mover-row">
 
-      <div class="mover-rank">
-        #${escapeHtml(row.power_rank)}
+      <div class="mover-list-rank">
+        ${listRank}
       </div>
 
 
-      ${
-        logo
+      <div class="mover-logo-wrap">
 
-        ?
+        ${
+          row.logo
 
-        `
-        <img
-          class="mover-logo"
-          src="${escapeHtml(logo)}"
-          alt=""
-          crossorigin="anonymous"
-        >
-        `
+            ? `
+              <img
+                class="mover-logo"
+                src="${escapeHtml(row.logo)}"
+                alt="${escapeHtml(displayName(row))} logo"
+                crossorigin="anonymous"
+              >
+            `
 
-        :
+            : `
+              <div class="mover-logo-placeholder">
+                ${escapeHtml(row.team || "?")}
+              </div>
+            `
+        }
 
-        `<div></div>`
-      }
+      </div>
 
 
-      <div>
+      <div class="mover-team-block">
 
         <div class="mover-team">
-          ${escapeHtml(row.team)}
+          ${escapeHtml(
+            displayName(row)
+          )}
         </div>
+
 
         <div class="mover-rating">
 
-          BTB Rating:
-          ${signed(row.power_pts)}
+          #${escapeHtml(
+            row.power_rank
+          )}
+          overall
 
-          &nbsp;|&nbsp;
+          ·
 
-          Weekly:
-          ${signed(row.power_change)}
+          BTB Rating
+          ${signed(
+            row.power_final
+          )}
 
+        </div>
+
+      </div>
+
+
+      <div class="mover-stat-block">
+
+        <div
+          class="mover-primary-change ${ratingClass}"
+        >
+
+          ${signed(
+            ratingChange
+          )}
+
+        </div>
+
+
+        <div class="mover-stat-label">
+          BTB pts
         </div>
 
       </div>
 
 
       <div
-        class="mover-change ${type}"
+        class="mover-stat-block mover-rank-move"
       >
 
-        ${movementArrow(movement)}
-        ${Math.abs(movement)}
+        <div
+          class="mover-secondary-change ${rankClass}"
+        >
+
+          ${movementArrow(
+            rankChange
+          )}
+
+          ${Math.abs(
+            rankChange
+          )}
+
+        </div>
+
+
+        <div class="mover-stat-label">
+          rank
+        </div>
 
       </div>
 
@@ -1746,74 +2296,83 @@ function moverRowHtml(
 }
 
 
+/* ==========================================================
+   RENDER MOVERS
+========================================================== */
+
 function renderMovers() {
 
   const {
     risers,
     fallers
-  } = getMovers();
+  } =
+    getMovers();
 
 
-  const riserContainer =
-    document.getElementById(
+  const emptyHtml = `
+
+    <div class="mover-empty">
+      No weekly movement yet.
+    </div>
+
+  `;
+
+
+  document
+    .getElementById(
       "risers-list"
-    );
+    )
+    .innerHTML =
+      risers.length
+
+        ? risers
+            .slice(
+              0,
+              5
+            )
+            .map(
+              (
+                row,
+                index
+              ) =>
+                moverRowHtml(
+                  row,
+                  index + 1
+                )
+            )
+            .join("")
+
+        : emptyHtml;
 
 
-  const fallerContainer =
-    document.getElementById(
+  document
+    .getElementById(
       "fallers-list"
-    );
+    )
+    .innerHTML =
+      fallers.length
+
+        ? fallers
+            .slice(
+              0,
+              5
+            )
+            .map(
+              (
+                row,
+                index
+              ) =>
+                moverRowHtml(
+                  row,
+                  index + 1
+                )
+            )
+            .join("")
+
+        : emptyHtml;
 
 
-  if (
-    !riserContainer ||
-    !fallerContainer
-  ) {
-    return;
-  }
-
-
-  if (
-    !risers.length &&
-    !fallers.length
-  ) {
-
-    riserContainer.innerHTML =
-      "No weekly movement yet.";
-
-    fallerContainer.innerHTML =
-      "No weekly movement yet.";
-
-    return;
-
-  }
-
-
-  riserContainer.innerHTML =
-    risers
-      .slice(0, 5)
-      .map(
-        row =>
-          moverRowHtml(
-            row,
-            "riser"
-          )
-      )
-      .join("");
-
-
-  fallerContainer.innerHTML =
-    fallers
-      .slice(0, 5)
-      .map(
-        row =>
-          moverRowHtml(
-            row,
-            "faller"
-          )
-      )
-      .join("");
+  sendEmbedHeight();
 
 }
 
@@ -1828,25 +2387,24 @@ function renderHistoryChart() {
     "history-chart";
 
 
-  const container =
-    document.getElementById(
-      containerId
-    );
+  if (
+    !historyData.length
+  ) {
+
+    document
+      .getElementById(
+        containerId
+      )
+      .innerHTML = `
+
+        <p>
+          Rating history is not currently available.
+        </p>
+
+      `;
 
 
-  if (!container) {
-    return;
-  }
-
-
-  const selectedTeam =
-    teamSearchSelect.value;
-
-
-  if (!historyData.length) {
-
-    container.innerHTML =
-      "<p>Rating history is not currently available.</p>";
+    sendEmbedHeight();
 
     return;
 
@@ -1854,17 +2412,14 @@ function renderHistoryChart() {
 
 
   let team =
-    selectedTeam;
+    teamSearchSelect.value;
 
 
-  /*
-   * If a team has not been selected,
-   * show the current #1 ranked team.
-   */
   if (!team) {
 
     const topTeam =
       [...currentData]
+
         .filter(
           row =>
             Number.isFinite(
@@ -1873,202 +2428,255 @@ function renderHistoryChart() {
               )
             )
         )
+
         .sort(
-          (a, b) =>
-            Number(a.power_rank) -
-            Number(b.power_rank)
+          (
+            a,
+            b
+          ) =>
+            Number(
+              a.power_rank
+            ) -
+            Number(
+              b.power_rank
+            )
         )[0];
 
 
     team =
-      topTeam?.team || "";
+      topTeam?.team ||
+      "";
 
   }
 
 
   const rows =
     historyData
+
       .filter(
         row =>
-          row.team === team &&
+          row.team ===
+            team &&
+
           Number.isFinite(
             Number(
-              row.power_pts
+              row.power_final
             )
           )
       )
+
       .sort(
-        (a, b) =>
-          Number(a.week) -
-          Number(b.week)
+        (
+          a,
+          b
+        ) =>
+          Number(
+            a.week
+          ) -
+          Number(
+            b.week
+          )
       );
 
 
-  if (!rows.length) {
+  if (
+    !rows.length
+  ) {
 
-    container.innerHTML =
-      "<p>No history available for this team.</p>";
+    document
+      .getElementById(
+        containerId
+      )
+      .innerHTML = `
+
+        <p>
+          No rating history is available for this team.
+        </p>
+
+      `;
+
+
+    sendEmbedHeight();
 
     return;
 
   }
 
 
-  const x =
-    rows.map(
-      row =>
-        Number(row.week) === 0
-          ? "Preseason"
-          : `Week ${row.week}`
-    );
-
-
-  const y =
-    rows.map(
-      row =>
-        Number(
-          row.power_pts
-        )
-    );
-
-
-  const custom =
-    rows.map(
-      row => [
-
-        row.power_rank,
-        row.power_change,
-        row.rank_change
-
-      ]
-    );
-
-
-  const trace = {
-
-    type:
-      "scatter",
-
-    mode:
-      "lines+markers",
-
-    x,
-    y,
-
-    customdata:
-      custom,
-
-
-    hovertemplate:
-
-      "<b>%{x}</b>" +
-
-      "<br>BTB Power Rating: %{y:.1f}" +
-
-      "<br>National Rank: #%{customdata[0]}" +
-
-      "<br>Rating Change: %{customdata[1]:+.1f}" +
-
-      "<br>Rank Movement: %{customdata[2]:+d}" +
-
-      "<extra></extra>"
-
-  };
-
-
-  const layout = {
-
-    title: {
-
-      text:
-        `${team} BTB Power Rating History`,
-
-      x:
-        0.5,
-
-      xanchor:
-        "center"
-
-    },
-
-
-    paper_bgcolor:
-      "#ffffff",
-
-
-    plot_bgcolor:
-      "#ffffff",
-
-
-    /*
-     * Critical Squarespace fix.
-     */
-    autosize:
-      true,
-
-    height:
-      HISTORY_CHART_HEIGHT,
-
-
-    yaxis: {
-
-      title: {
-        text:
-          "BTB Power Rating"
-      },
-
-      gridcolor:
-        "rgba(0,0,0,0.10)"
-
-    },
-
-
-    xaxis: {
-
-      title: {
-        text:
-          "Week"
-      },
-
-      gridcolor:
-        "rgba(0,0,0,0.06)"
-
-    },
-
-
-    margin: {
-      l: 75,
-      r: 30,
-      t: 70,
-      b: 70
-    }
-
-  };
-
-
-  const config = {
-
-    responsive:
-      true,
-
-    displaylogo:
-      false
-
-  };
+  const teamName =
+    rows[
+      rows.length - 1
+    ].team_name ||
+    team;
 
 
   Plotly.react(
+
     containerId,
-    [trace],
-    layout,
-    config
+
+
+    [
+
+      {
+
+        type:
+          "scatter",
+
+        mode:
+          "lines+markers",
+
+
+        x:
+          rows.map(
+            row =>
+              `Entering Week ${row.week}`
+          ),
+
+
+        y:
+          rows.map(
+            row =>
+              Number(
+                row.power_final
+              )
+          ),
+
+
+        customdata:
+          rows.map(
+            row => [
+
+              row.power_rank,
+
+              row.power_change,
+
+              row.rank_change,
+
+              row.QBname,
+
+              row.qb_value
+
+            ]
+          ),
+
+
+        hovertemplate:
+
+          "<b>%{x}</b>" +
+
+          "<br>BTB Power Rating: %{y:+.1f}" +
+
+          "<br>NFL Rank: #%{customdata[0]}" +
+
+          "<br>Rating Change: %{customdata[1]:+.1f}" +
+
+          "<br>Rank Movement: %{customdata[2]:+d}" +
+
+          "<br>Starter: %{customdata[3]}" +
+
+          "<br>QB Value: %{customdata[4]:+.1f}" +
+
+          "<extra></extra>"
+
+      }
+
+    ],
+
+
+    {
+
+      title: {
+
+        text:
+          `${teamName} BTB Power Rating History`,
+
+        x:
+          0.5
+
+      },
+
+
+      paper_bgcolor:
+        "#ffffff",
+
+
+      plot_bgcolor:
+        "#ffffff",
+
+
+      yaxis: {
+
+        title: {
+          text:
+            "BTB Power Rating"
+        },
+
+        gridcolor:
+          "rgba(0,0,0,0.10)"
+
+      },
+
+
+      xaxis: {
+
+        title: {
+          text:
+            "Rating Snapshot"
+        },
+
+        gridcolor:
+          "rgba(0,0,0,0.06)"
+
+      },
+
+
+      margin: {
+
+        l:
+          75,
+
+        r:
+          30,
+
+        t:
+          70,
+
+        b:
+          90
+
+      },
+
+
+      autosize:
+        true,
+
+
+      height:
+        HISTORY_CHART_HEIGHT
+
+    },
+
+
+    {
+
+      responsive:
+        true,
+
+      displaylogo:
+        false
+
+    }
+
   );
+
+
+  sendEmbedHeight();
 
 }
 
 
 /* ==========================================================
-   EXPORT CARD HELPERS
+   SORTED POWER RANKINGS
 ========================================================== */
 
 function getSortedPowerTeams() {
@@ -2077,34 +2685,44 @@ function getSortedPowerTeams() {
 
     .filter(
       row =>
+
         Number.isFinite(
           Number(
             row.power_rank
           )
         ) &&
+
         Number.isFinite(
           Number(
-            row.power_pts
+            row.power_final
           )
         )
+
     )
 
     .sort(
-      (a, b) =>
-        Number(a.power_rank) -
-        Number(b.power_rank)
+      (
+        a,
+        b
+      ) =>
+        Number(
+          a.power_rank
+        ) -
+        Number(
+          b.power_rank
+        )
     );
 
 }
 
 
+/* ==========================================================
+   EXPORT HEADER
+========================================================== */
+
 function exportHeaderHtml(
   subtitle
 ) {
-
-  const season =
-    seasonSelect.value;
-
 
   return `
 
@@ -2114,25 +2732,23 @@ function exportHeaderHtml(
 
         <img
           class="export-brand-logo"
-          src="${escapeHtml(BTB_LOGO_URL)}"
+          src="${BTB_LOGO_URL}"
           alt="BTB Analytics"
           crossorigin="anonymous"
         >
-
-        <div class="export-brand-name">
-          BTB Analytics
-        </div>
 
       </div>
 
 
       <div class="export-title">
-        BTB's ${escapeHtml(season)} Power Ratings
+        BTB's ${seasonSelect.value} NFL Power Ratings
       </div>
 
 
       <div class="export-subtitle">
-        ${escapeHtml(subtitle)}
+        ${escapeHtml(
+          subtitle
+        )}
       </div>
 
     </div>
@@ -2142,42 +2758,40 @@ function exportHeaderHtml(
 }
 
 
-function rankingRowHtml(row) {
+/* ==========================================================
+   STANDARD RANKING ROW
+========================================================== */
 
-  const logo =
-    safeLogoUrl(
-      row.logo
-    );
-
+function rankingRowHtml(
+  row
+) {
 
   return `
 
     <div class="export-rank-row">
 
       <div class="export-rank-number">
-        ${escapeHtml(row.power_rank)}
+        ${escapeHtml(
+          row.power_rank
+        )}
       </div>
 
 
-      <div>
+      <div class="export-logo-cell">
 
         ${
-          logo
+          row.logo
 
-          ?
+            ? `
+              <img
+                class="export-team-logo"
+                src="${escapeHtml(row.logo)}"
+                alt="${escapeHtml(displayName(row))} logo"
+                crossorigin="anonymous"
+              >
+            `
 
-          `
-          <img
-            class="export-team-logo"
-            src="${escapeHtml(logo)}"
-            alt=""
-            crossorigin="anonymous"
-          >
-          `
-
-          :
-
-          ""
+            : ""
         }
 
       </div>
@@ -2186,11 +2800,18 @@ function rankingRowHtml(row) {
       <div>
 
         <div class="export-team-name">
-          ${escapeHtml(row.team)}
+          ${escapeHtml(
+            displayName(row)
+          )}
         </div>
 
+
         <div class="export-team-meta">
-          ${escapeHtml(row.conference || "")}
+          ${escapeHtml(
+            row.division ||
+            row.conference ||
+            ""
+          )}
         </div>
 
       </div>
@@ -2198,7 +2819,9 @@ function rankingRowHtml(row) {
 
       <div class="export-power">
 
-        ${signed(row.power_pts)}
+        ${signed(
+          row.power_final
+        )}
 
         <span class="export-power-label">
           BTB Rating
@@ -2213,96 +2836,156 @@ function rankingRowHtml(row) {
 }
 
 
-function exportMoverBox(
-  label,
+/* ==========================================================
+   TOP 10 RANKING ROW
+========================================================== */
+
+function top10RankingRowHtml(
   row
 ) {
 
-  if (!row) {
-
-    return `
-
-      <div class="export-mover-box">
-
-        <div class="export-mover-label">
-          ${escapeHtml(label)}
-        </div>
-
-        <div class="export-mover-team">
-          No movement yet
-        </div>
-
-      </div>
-
-    `;
-
-  }
+  const ratingChange =
+    Number(
+      row.power_change
+    );
 
 
-  const movement =
+  const rankChange =
     Number(
       row.rank_change
     );
 
 
-  const logo =
-    safeLogoUrl(
-      row.logo
-    );
+  const ratingClass =
+    ratingChange > 0
+
+      ? "export-change-positive"
+
+      : ratingChange < 0
+
+        ? "export-change-negative"
+
+        : "export-change-neutral";
+
+
+  const rankClass =
+    rankChange > 0
+
+      ? "export-change-positive"
+
+      : rankChange < 0
+
+        ? "export-change-negative"
+
+        : "export-change-neutral";
 
 
   return `
 
-    <div class="export-mover-box">
+    <div class="export-top10-row">
 
-      <div class="export-mover-label">
-        ${escapeHtml(label)}
+      <div class="export-rank-number">
+        ${escapeHtml(
+          row.power_rank
+        )}
       </div>
 
 
-      <div class="export-mover-main">
+      <div class="export-top10-logo-cell">
 
         ${
-          logo
+          row.logo
 
-          ?
+            ? `
+              <img
+                class="export-team-logo"
+                src="${escapeHtml(row.logo)}"
+                alt="${escapeHtml(displayName(row))} logo"
+                crossorigin="anonymous"
+              >
+            `
 
-          `
-          <img
-            class="export-mover-logo"
-            src="${escapeHtml(logo)}"
-            alt=""
-            crossorigin="anonymous"
-          >
-          `
-
-          :
-
-          ""
+            : ""
         }
 
-
-        <div>
-
-          <div class="export-mover-team">
-            ${escapeHtml(row.team)}
-          </div>
+      </div>
 
 
-          <div class="export-mover-change">
+      <div class="export-top10-team">
 
-            ${movementArrow(movement)}
-            ${Math.abs(movement)}
-            spots
+        <div class="export-team-name">
+          ${escapeHtml(
+            displayName(row)
+          )}
+        </div>
 
-            &nbsp;·&nbsp;
 
-            ${signed(row.power_change)}
-            rating
+        <div class="export-team-meta">
 
-          </div>
+          ${escapeHtml(
+            row.division ||
+            ""
+          )}
+
+          ·
+
+          ${escapeHtml(
+            row.QBname ||
+            ""
+          )}
 
         </div>
+
+      </div>
+
+
+      <div class="export-top10-stat">
+
+        <div class="export-top10-stat-value">
+          ${signed(
+            row.power_final
+          )}
+        </div>
+
+        <span>
+          BTB Rating
+        </span>
+
+      </div>
+
+
+      <div class="export-top10-stat">
+
+        <div class="${ratingClass}">
+          ${signed(
+            ratingChange
+          )}
+        </div>
+
+        <span>
+          BTB pts
+        </span>
+
+      </div>
+
+
+      <div class="export-top10-stat">
+
+        <div class="${rankClass}">
+
+          ${movementArrow(
+            rankChange
+          )}
+
+          ${Math.abs(
+            rankChange
+          )}
+
+        </div>
+
+        <span>
+          rank
+        </span>
 
       </div>
 
@@ -2314,164 +2997,315 @@ function exportMoverBox(
 
 
 /* ==========================================================
-   TOP 10 + MOVERS CARD
+   EXPORT MOVER ROW
+========================================================== */
+
+function exportMoverRowHtml(
+  row,
+  listRank,
+  type
+) {
+
+  const ratingChange =
+    Number(
+      row.power_change
+    );
+
+
+  const rankChange =
+    Number(
+      row.rank_change
+    );
+
+
+  const changeClass =
+    type === "riser"
+
+      ? "export-change-positive"
+
+      : "export-change-negative";
+
+
+  const rankBackgroundClass =
+    type === "faller"
+
+      ? "negative"
+
+      : "";
+
+
+  return `
+
+    <div class="export-mover-row">
+
+      <div
+        class="export-mover-rank ${rankBackgroundClass}"
+      >
+        ${listRank}
+      </div>
+
+
+      <div class="export-mover-logo-cell">
+
+        ${
+          row.logo
+
+            ? `
+              <img
+                class="export-mover-list-logo"
+                src="${escapeHtml(row.logo)}"
+                alt="${escapeHtml(displayName(row))} logo"
+                crossorigin="anonymous"
+              >
+            `
+
+            : `
+              <div class="export-mover-logo-fallback">
+                ${escapeHtml(
+                  row.team ||
+                  "?"
+                )}
+              </div>
+            `
+        }
+
+      </div>
+
+
+      <div class="export-mover-copy">
+
+        <div class="export-mover-list-team">
+          ${escapeHtml(
+            displayName(row)
+          )}
+        </div>
+
+
+        <div class="export-mover-list-meta">
+
+          #${escapeHtml(
+            row.power_rank
+          )}
+          overall
+
+          ·
+
+          BTB Rating
+          ${signed(
+            row.power_final
+          )}
+
+        </div>
+
+      </div>
+
+
+      <div class="export-mover-stat">
+
+        <div class="${changeClass}">
+          ${signed(
+            ratingChange
+          )}
+        </div>
+
+        <span>
+          BTB pts
+        </span>
+
+      </div>
+
+
+      <div
+        class="export-mover-stat export-mover-rank-stat"
+      >
+
+        <div class="${changeClass}">
+
+          ${movementArrow(
+            rankChange
+          )}
+
+          ${Math.abs(
+            rankChange
+          )}
+
+        </div>
+
+        <span>
+          rank
+        </span>
+
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+
+/* ==========================================================
+   EXPORT EMPTY MOVER
+========================================================== */
+
+function exportMoverEmptyHtml() {
+
+  return `
+
+    <div class="export-mover-empty">
+      No weekly movement yet.
+    </div>
+
+  `;
+
+}
+
+
+/* ==========================================================
+   EXPORT FOOTER
+========================================================== */
+
+function exportFooterHtml() {
+
+  return `
+
+    <div class="export-footer">
+
+      BTB Analytics ·
+      ${escapeHtml(
+        weekLabel.textContent
+      )}
+
+    </div>
+
+  `;
+
+}
+
+
+/* ==========================================================
+   BUILD TOP 10
 ========================================================== */
 
 function buildTop10Card() {
 
   const teams =
     getSortedPowerTeams()
-      .slice(0, 10);
+      .slice(
+        0,
+        10
+      );
 
 
-  const {
-    risers,
-    fallers
-  } = getMovers();
-
-
-  const card =
-    document.getElementById(
+  document
+    .getElementById(
       "top10-export-card"
-    );
+    )
+    .innerHTML = `
 
-
-  if (!card) {
-    return;
-  }
-
-
-  card.innerHTML = `
-
-    ${exportHeaderHtml(
-      "Top 10 Teams"
-    )}
-
-
-    <div class="export-ranking-list">
-
-      ${
-        teams
-          .map(rankingRowHtml)
-          .join("")
-      }
-
-    </div>
-
-
-    <div class="export-movers">
-
-      ${
-        exportMoverBox(
-          "Biggest Riser",
-          risers[0]
-        )
-      }
-
-
-      ${
-        exportMoverBox(
-          "Biggest Faller",
-          fallers[0]
-        )
-      }
-
-    </div>
-
-
-    <div class="export-footer">
-
-      BTB Analytics · Data through
-      ${escapeHtml(
-        weekLabel.textContent
+      ${exportHeaderHtml(
+        "Top 10 Teams"
       )}
 
-    </div>
 
-  `;
+      <div class="export-ranking-list">
+
+        ${
+          teams
+            .map(
+              top10RankingRowHtml
+            )
+            .join("")
+        }
+
+      </div>
+
+
+      ${exportFooterHtml()}
+
+    `;
 
 }
 
 
 /* ==========================================================
-   TOP 25 CARD
+   BUILD TOP 32
 ========================================================== */
 
-function buildTop25Card() {
+function buildTop32Card() {
 
   const teams =
     getSortedPowerTeams()
-      .slice(0, 25);
+      .slice(
+        0,
+        32
+      );
 
 
   const left =
-    teams.slice(0, 13);
-
-
-  const right =
-    teams.slice(13, 25);
-
-
-  const card =
-    document.getElementById(
-      "top25-export-card"
+    teams.slice(
+      0,
+      16
     );
 
 
-  if (!card) {
-    return;
-  }
+  const right =
+    teams.slice(
+      16,
+      32
+    );
 
 
-  card.innerHTML = `
+  document
+    .getElementById(
+      "top32-export-card"
+    )
+    .innerHTML = `
 
-    ${exportHeaderHtml(
-      "Top 25 Overall"
-    )}
-
-
-    <div class="export-top25-grid">
-
-      <div class="export-ranking-list">
-
-        ${
-          left
-            .map(rankingRowHtml)
-            .join("")
-        }
-
-      </div>
-
-
-      <div class="export-ranking-list">
-
-        ${
-          right
-            .map(rankingRowHtml)
-            .join("")
-        }
-
-      </div>
-
-    </div>
-
-
-    <div class="export-footer">
-
-      BTB Analytics · Data through
-      ${escapeHtml(
-        weekLabel.textContent
+      ${exportHeaderHtml(
+        "Full NFL Rankings"
       )}
 
-    </div>
 
-  `;
+      <div class="export-top32-grid">
+
+        <div class="export-ranking-list">
+
+          ${
+            left
+              .map(
+                rankingRowHtml
+              )
+              .join("")
+          }
+
+        </div>
+
+
+        <div class="export-ranking-list">
+
+          ${
+            right
+              .map(
+                rankingRowHtml
+              )
+              .join("")
+          }
+
+        </div>
+
+      </div>
+
+
+      ${exportFooterHtml()}
+
+    `;
 
 }
 
 
 /* ==========================================================
-   MOVERS EXPORT CARD
+   BUILD MOVERS GRAPHIC
 ========================================================== */
 
 function buildMoversCard() {
@@ -2479,99 +3313,116 @@ function buildMoversCard() {
   const {
     risers,
     fallers
-  } = getMovers();
-
-
-  const card =
-    document.getElementById(
-      "movers-export-card"
-    );
-
-
-  if (!card) {
-    return;
-  }
+  } =
+    getMovers();
 
 
   const riserRows =
     risers
-      .slice(0, 5)
-      .map(rankingRowHtml)
+
+      .slice(
+        0,
+        5
+      )
+
+      .map(
+        (
+          row,
+          index
+        ) =>
+          exportMoverRowHtml(
+            row,
+            index + 1,
+            "riser"
+          )
+      )
+
       .join("");
 
 
   const fallerRows =
     fallers
-      .slice(0, 5)
-      .map(rankingRowHtml)
+
+      .slice(
+        0,
+        5
+      )
+
+      .map(
+        (
+          row,
+          index
+        ) =>
+          exportMoverRowHtml(
+            row,
+            index + 1,
+            "faller"
+          )
+      )
+
       .join("");
 
 
-  card.innerHTML = `
+  document
+    .getElementById(
+      "movers-export-card"
+    )
+    .innerHTML = `
 
-    ${exportHeaderHtml(
-      "Weekly Movers"
-    )}
-
-
-    <div class="export-top25-grid">
-
-
-      <div>
-
-        <div class="export-subtitle">
-          Biggest Risers
-        </div>
-
-        <div
-          class="export-ranking-list"
-          style="margin-top:16px;"
-        >
-
-          ${
-            riserRows ||
-            "<div>No movement yet.</div>"
-          }
-
-        </div>
-
-      </div>
-
-
-      <div>
-
-        <div class="export-subtitle">
-          Biggest Fallers
-        </div>
-
-        <div
-          class="export-ranking-list"
-          style="margin-top:16px;"
-        >
-
-          ${
-            fallerRows ||
-            "<div>No movement yet.</div>"
-          }
-
-        </div>
-
-      </div>
-
-
-    </div>
-
-
-    <div class="export-footer">
-
-      BTB Analytics · Data through
-      ${escapeHtml(
-        weekLabel.textContent
+      ${exportHeaderHtml(
+        "Weekly Movers"
       )}
 
-    </div>
 
-  `;
+      <div class="export-mover-columns">
+
+
+        <div class="export-mover-column">
+
+          <div class="export-mover-column-title">
+            Biggest Risers
+          </div>
+
+
+          <div class="export-mover-list">
+
+            ${
+              riserRows ||
+              exportMoverEmptyHtml()
+            }
+
+          </div>
+
+        </div>
+
+
+        <div class="export-mover-column">
+
+          <div
+            class="export-mover-column-title negative"
+          >
+            Biggest Fallers
+          </div>
+
+
+          <div class="export-mover-list">
+
+            ${
+              fallerRows ||
+              exportMoverEmptyHtml()
+            }
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      ${exportFooterHtml()}
+
+    `;
 
 }
 
@@ -2580,19 +3431,21 @@ function buildMoversCard() {
    WAIT FOR EXPORT IMAGES
 ========================================================== */
 
-async function waitForImages(
+async function waitForExportImages(
   element
 ) {
 
   const images =
     [
-      ...element.querySelectorAll(
-        "img"
-      )
+      ...element
+        .querySelectorAll(
+          "img"
+        )
     ];
 
 
   await Promise.all(
+
     images.map(
       img => {
 
@@ -2609,43 +3462,19 @@ async function waitForImages(
         return new Promise(
           resolve => {
 
-            const done =
-              () =>
-                resolve();
+            img.onload =
+              resolve;
 
 
-            img.addEventListener(
-              "load",
-              done,
-              {
-                once: true
-              }
-            );
-
-
-            img.addEventListener(
-              "error",
-              done,
-              {
-                once: true
-              }
-            );
-
-
-            /*
-             * Never allow a failed remote image
-             * to hang the export forever.
-             */
-            setTimeout(
-              done,
-              5000
-            );
+            img.onerror =
+              resolve;
 
           }
         );
 
       }
     )
+
   );
 
 }
@@ -2676,41 +3505,50 @@ async function downloadCard(
     !element ||
     !stage
   ) {
+
     return;
+
   }
 
 
   /*
-   * The export stage is normally collapsed to 1px so
-   * Squarespace does not include the large 1080/1400px
-   * cards in its iframe height calculation.
+   * Temporarily expand the hidden export stage.
    *
-   * Only while generating the PNG do we make the
-   * export area renderable.
+   * It stays fixed and far off screen, so it does not
+   * alter the normal page flow or Squarespace iframe
+   * height while the PNG is rendered.
    */
   stage.style.visibility =
     "visible";
 
+
   stage.style.position =
     "fixed";
+
 
   stage.style.left =
     "-5000px";
 
+
   stage.style.top =
     "0";
+
 
   stage.style.width =
     "auto";
 
+
   stage.style.height =
     "auto";
+
 
   stage.style.maxHeight =
     "none";
 
+
   stage.style.overflow =
     "visible";
+
 
   stage.style.pointerEvents =
     "none";
@@ -2718,23 +3556,27 @@ async function downloadCard(
 
   try {
 
-    await waitForImages(
+    await waitForExportImages(
       element
     );
 
 
     /*
-     * Give the browser one paint cycle after
-     * all of the images have finished.
+     * Allow two browser paint cycles so
+     * logos are fully rendered.
      */
     await new Promise(
-      resolve =>
+      resolve => {
+
         requestAnimationFrame(
           () =>
+
             requestAnimationFrame(
               resolve
             )
-        )
+        );
+
+      }
     );
 
 
@@ -2779,7 +3621,9 @@ async function downloadCard(
 
 
     document.body
-      .appendChild(link);
+      .appendChild(
+        link
+      );
 
 
     link.click();
@@ -2788,49 +3632,43 @@ async function downloadCard(
     link.remove();
 
 
-  } catch (error) {
-
-    console.error(
-      "PNG export failed:",
-      error
-    );
-
-
-    alert(
-      "The PNG could not be generated. Check the browser console for details."
-    );
-
-
   } finally {
 
     /*
-     * Critical Squarespace fix:
-     * collapse the large export cards immediately
-     * after the screenshot is finished.
+     * Immediately collapse the export
+     * area again after rendering.
      */
     stage.style.visibility =
       "hidden";
 
+
     stage.style.position =
       "absolute";
+
 
     stage.style.left =
       "0";
 
+
     stage.style.top =
       "0";
+
 
     stage.style.width =
       "1px";
 
+
     stage.style.height =
       "1px";
+
 
     stage.style.maxHeight =
       "1px";
 
+
     stage.style.overflow =
       "hidden";
+
 
     stage.style.pointerEvents =
       "none";
@@ -2841,80 +3679,105 @@ async function downloadCard(
 
 
 /* ==========================================================
-   EXPORT BUTTONS
+   DOWNLOAD BUTTONS
 ========================================================== */
 
-const top10Button =
-  document.getElementById(
-    "download-top10"
-  );
+function bindDownloadButtons() {
+
+  const downloadTop10Button =
+    document.getElementById(
+      "download-top10"
+    );
 
 
-if (top10Button) {
+  const downloadTop32Button =
+    document.getElementById(
+      "download-top32"
+    );
 
-  top10Button.addEventListener(
-    "click",
-    async () => {
 
-      buildTop10Card();
+  const downloadMoversButton =
+    document.getElementById(
+      "download-movers"
+    );
 
-      await downloadCard(
-        "top10-export-card",
-        `btb-${seasonSelect.value}-power-ratings-top10.png`
+
+  if (
+    downloadTop10Button
+  ) {
+
+    downloadTop10Button
+      .addEventListener(
+        "click",
+        async () => {
+
+          buildTop10Card();
+
+
+          await downloadCard(
+
+            "top10-export-card",
+
+            `btb-${seasonSelect.value}-nfl-power-ratings-top10.png`
+
+          );
+
+        }
       );
 
-    }
-  );
-
-}
+  }
 
 
-const top25Button =
-  document.getElementById(
-    "download-top25"
-  );
+  if (
+    downloadTop32Button
+  ) {
+
+    downloadTop32Button
+      .addEventListener(
+        "click",
+        async () => {
+
+          buildTop32Card();
 
 
-if (top25Button) {
+          await downloadCard(
 
-  top25Button.addEventListener(
-    "click",
-    async () => {
+            "top32-export-card",
 
-      buildTop25Card();
+            `btb-${seasonSelect.value}-nfl-power-ratings-top32.png`
 
-      await downloadCard(
-        "top25-export-card",
-        `btb-${seasonSelect.value}-power-ratings-top25.png`
+          );
+
+        }
       );
 
-    }
-  );
-
-}
+  }
 
 
-const moversButton =
-  document.getElementById(
-    "download-movers"
-  );
+  if (
+    downloadMoversButton
+  ) {
+
+    downloadMoversButton
+      .addEventListener(
+        "click",
+        async () => {
+
+          buildMoversCard();
 
 
-if (moversButton) {
+          await downloadCard(
 
-  moversButton.addEventListener(
-    "click",
-    async () => {
+            "movers-export-card",
 
-      buildMoversCard();
+            `btb-${seasonSelect.value}-nfl-weekly-movers.png`
 
-      await downloadCard(
-        "movers-export-card",
-        `btb-${seasonSelect.value}-weekly-movers.png`
+          );
+
+        }
       );
 
-    }
-  );
+  }
 
 }
 
@@ -2955,6 +3818,19 @@ metricSelect
 conferenceSelect
   .addEventListener(
     "change",
+    () => {
+
+      populateDivisions();
+
+      renderChart();
+
+    }
+  );
+
+
+divisionSelect
+  .addEventListener(
+    "change",
     renderChart
   );
 
@@ -2973,7 +3849,37 @@ teamSearchSelect
 
 
 /* ==========================================================
-   INITIAL LOAD
+   INITIALIZATION
 ========================================================== */
+
+bindDownloadButtons();
+
+applyEmbedMode();
+
+
+if (
+  IS_SQUARESPACE_EMBED
+) {
+
+  window.addEventListener(
+    "load",
+    () => {
+
+      /*
+       * One delayed height message after everything
+       * finishes rendering.
+       *
+       * No continuously firing ResizeObserver.
+       */
+      setTimeout(
+        sendEmbedHeight,
+        300
+      );
+
+    }
+  );
+
+}
+
 
 loadSeason();
