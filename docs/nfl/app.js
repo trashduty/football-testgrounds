@@ -557,6 +557,68 @@ function logoImages(
 
 }
 
+function sendEmbedHeight() {
+
+  if (!IS_SQUARESPACE_EMBED) {
+    return;
+  }
+
+  const height =
+    Math.max(
+      document.body.scrollHeight,
+      document.documentElement.scrollHeight
+    );
+
+  window.parent.postMessage(
+    {
+      type: "btb-nfl-height",
+      height: height
+    },
+    "*"
+  );
+}
+
+
+if (IS_SQUARESPACE_EMBED) {
+
+  window.addEventListener(
+    "load",
+    () => {
+      setTimeout(
+        sendEmbedHeight,
+        300
+      );
+    }
+  );
+
+
+  window.addEventListener(
+    "resize",
+    () => {
+      setTimeout(
+        sendEmbedHeight,
+        100
+      );
+    }
+  );
+
+
+  if ("ResizeObserver" in window) {
+
+    const embedResizeObserver =
+      new ResizeObserver(
+        () => {
+          sendEmbedHeight();
+        }
+      );
+
+    embedResizeObserver.observe(
+      document.body
+    );
+
+  }
+
+}
 
 async function loadSeason() {
 
