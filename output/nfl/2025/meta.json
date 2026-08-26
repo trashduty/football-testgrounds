@@ -1,0 +1,27 @@
+{
+  "season": 2025,
+  "thru_week": 22,
+  "rating_entering_week": 22,
+  "generated_utc": "2026-08-26 02:43:44",
+  "schedules_completed_week": 22,
+  "pbp_max_week": 22,
+  "hfa_points": 2.2926,
+  "wepa_weights_loaded": true,
+  "eckel_model_loaded": true,
+  "verify_register": ["ma15/def_ma15: implemented as the canonical 18-game rolling epa/play (off_ma18/def_ma18); SAS name kept", "epa/pass/rush/proe/eckel carryover week defaulted to 16 pending canonical export diff", "pass_1st_down = pass rate on 1st down; succ_1d_pass = success rate on 1st-down passes (pattern-derived)", "turnovers = interception + fumble_lost on offensive plays (def mirror = takeaways)", "NFL eckel_mod_nfl.RDS uses the five drive-state inputs expected by build_drive_frame()", "display def_wepa attributed by defteam (team's own defense); canonical rolling_def_wepa groups by posteam"],
+  "config": {
+    "HIST_SEASONS": 10,
+    "TEAM_HL": 30,
+    "QB_DROP_FIRST": 14,
+    "QB_HL": 9999,
+    "QB_K": 12,
+    "SNAP_REGRESS": 0.5
+  },
+  "column_notes": {
+    "power_final": "team base rating + starter QB value, points vs average",
+    "power_components": "off_rt + def_good = power before starter QB value",
+    "def_stats": "raw defensive per-play/rate stats: lower = better; ranks encode direction",
+    "wepa": "canonical NFL wEPA: per-game rolling average of clamped game sums",
+    "team_metadata": "team_name, conference, division, and logo are display fields"
+  }
+}
