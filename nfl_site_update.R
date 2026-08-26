@@ -53,7 +53,7 @@ MAX_WEEK_ARG  <- suppressWarnings(as.integer(arg_val("--max-week", NA)))
 OUT_ROOT      <- arg_val("--outdir", "output/nfl")
 
 WEIGHTS_FILE   <- "models/weights_all.csv"      # 15-value NFL wEPA weights
-ECKEL_FILE     <- "models/eckel_mod.RDS"        # drive-state Eckel GLM
+ECKEL_FILE     <- "models/eckel_mod_nfl.RDS"        # drive-state Eckel GLM
 QB_OVERRIDES   <- "data/qb_overrides.csv"       # optional: team,QBID columns
 
 HIST_SEASONS  <- 10     # pbp/stat window; QB careers use full schedule history
