@@ -1,121 +1,55 @@
-:root {
-  --background: #111111;
-  --panel: #1b1b1b;
-  --border: #333333;
-  --text: #ffffff;
-  --muted: #aaaaaa;
-  --accent: #4caf50;
-  --negative: #e53935;
-}
+/* ==========================================================
+   BTB METRICS SITE ADDITIONS
+========================================================== */
 
-* {
-  box-sizing: border-box;
-}
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
+/* ==========================================================
+   PLOTLY CHART SIZING
 
-body {
-  background: var(--background);
-  color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.page {
-  width: min(1500px, 96%);
-  margin: 0 auto;
-  padding: 28px 0 50px;
-}
-
-.header {
-  margin-bottom: 24px;
-}
-
-.header h1 {
-  margin: 0 0 8px;
-  font-size: 32px;
-}
-
-.header p {
-  margin: 0;
-  color: var(--muted);
-}
-
-.controls {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(190px, 1fr)
-  );
-  gap: 14px;
-  padding: 18px;
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-}
-
-.control-group {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.control-group label {
-  font-size: 13px;
-  color: var(--muted);
-}
-
-.control-group select {
-  width: 100%;
-  padding: 10px 12px;
-  background: #111111;
-  color: #ffffff;
-  border: 1px solid #444444;
-  border-radius: 6px;
-  font-size: 15px;
-}
-
-.chart-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 28px;
-  margin: 18px 0 8px;
-}
-
-.chart-info .label {
-  color: var(--muted);
-  margin-right: 6px;
-}
-
-.chart-container {
-  width: 100%;
-  margin-top: 12px;
-  background: #ffffff;
-  border-radius: 10px;
-  overflow: hidden;
-}
+   IMPORTANT FOR SQUARESPACE:
+   These charts have fixed vertical dimensions so responsive
+   Plotly resizing cannot create an iframe-height feedback loop.
+========================================================== */
 
 #chart {
   width: 100%;
-  min-height: 750px;
+  height: 620px;
+  min-height: 0;
+  max-height: 620px;
+  overflow: hidden;
 }
 
-.chart-error {
-  padding: 40px;
-  color: #111111;
-  font-family: Arial, Helvetica, sans-serif;
+#history-chart {
+  width: 100%;
+  height: 420px;
+  min-height: 0;
+  max-height: 420px;
+  overflow: hidden;
 }
+
+#chart .js-plotly-plot,
+#history-chart .js-plotly-plot {
+  width: 100%;
+  height: 100%;
+}
+
+.plot-container,
+.svg-container {
+  max-width: 100%;
+}
+
+
+/* ==========================================================
+   SECTION CARDS
+========================================================== */
 
 .section-card {
   margin-top: 30px;
-  padding: 24px;
   background: #ffffff;
-  color: #111111;
   border: 1px solid #dddddd;
   border-radius: 12px;
+  padding: 24px;
+  box-sizing: border-box;
 }
 
 .section-heading {
@@ -127,14 +61,18 @@ body {
 }
 
 .section-heading h2 {
-  margin: 0 0 6px;
-  color: #111111;
+  margin: 0 0 6px 0;
 }
 
 .section-heading p {
   margin: 0;
   color: #666666;
 }
+
+
+/* ==========================================================
+   BUTTONS
+========================================================== */
 
 .download-button {
   appearance: none;
@@ -145,6 +83,7 @@ body {
   padding: 12px 18px;
   border-radius: 7px;
   cursor: pointer;
+
   transition:
     transform 0.15s ease,
     opacity 0.15s ease;
@@ -161,197 +100,130 @@ body {
   flex-wrap: wrap;
 }
 
+
+/* ==========================================================
+   WEEKLY MOVERS
+========================================================== */
+
 .movers-grid {
   display: grid;
-  grid-template-columns: repeat(
-    2,
-    minmax(0, 1fr)
-  );
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
 
 .mover-column {
-  min-width: 0;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
   overflow: hidden;
-  border: 1px solid #343434;
-  border-radius: 12px;
-  background: #101010;
 }
 
 .mover-column h3 {
   margin: 0;
-  padding: 15px 18px;
-  background: var(--accent);
-  color: #050505;
-  font-size: 19px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-}
+  padding: 14px 16px;
 
-.movers-grid
-.mover-column:nth-child(2)
-h3 {
-  background: var(--negative);
+  background: #111111;
   color: #ffffff;
 }
 
 .mover-row {
   display: grid;
+
   grid-template-columns:
-    50px
-    60px
-    minmax(145px, 1fr)
-    88px
-    72px;
-  gap: 12px;
+    42px
+    46px
+    minmax(120px, 1fr)
+    auto;
+
+  gap: 10px;
+
   align-items: center;
-  min-height: 80px;
-  padding: 10px 14px;
-  border-top: 1px solid #2b2b2b;
-  background: #171717;
-  color: #ffffff;
+
+  padding: 11px 14px;
+
+  border-top: 1px solid #eeeeee;
 }
 
-.mover-row:first-child {
-  border-top: 0;
-}
-
-.mover-list-rank {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: -10px 0 -10px -14px;
-  background: var(--accent);
-  color: #050505;
-  font-size: 29px;
-  font-weight: 900;
-}
-
-#fallers-list
-.mover-list-rank {
-  background: var(--negative);
-  color: #ffffff;
-}
-
-.mover-logo-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mover-rank {
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .mover-logo {
-  display: block;
-  width: 50px;
-  height: 50px;
+  width: 38px;
+  height: 38px;
+
   object-fit: contain;
 }
 
-.mover-logo-placeholder {
-  width: 46px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: #303030;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 900;
-}
-
-.mover-team-block {
-  min-width: 0;
-}
-
 .mover-team {
-  overflow: hidden;
-  color: #ffffff;
-  font-size: 17px;
-  font-weight: 900;
-  line-height: 1.08;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-weight: 700;
 }
 
 .mover-rating {
-  margin-top: 5px;
-  color: #b5b5b5;
   font-size: 12px;
-  line-height: 1.2;
+  color: #666666;
 }
 
-.mover-stat-block {
+.mover-change {
   text-align: right;
-  white-space: nowrap;
-}
 
-.mover-primary-change,
-.mover-secondary-change {
-  color: #ffffff;
-  font-size: 19px;
-  font-weight: 900;
-  line-height: 1;
-}
-
-.mover-secondary-change {
+  font-weight: 800;
   font-size: 16px;
 }
 
-.mover-stat-label {
-  margin-top: 5px;
-  color: #929292;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+.mover-change.riser {
+  color: #15803d;
 }
 
-.mover-primary-change.positive,
-.mover-secondary-change.positive {
-  color: var(--accent);
-}
-
-.mover-primary-change.negative,
-.mover-secondary-change.negative {
-  color: #ff7777;
-}
-
-.mover-empty {
-  padding: 30px 18px;
-  background: #171717;
-  color: #b5b5b5;
-  font-size: 14px;
-}
-
-#history-chart {
-  min-height: 420px;
-}
-
-.footer {
-  margin-top: 18px;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.5;
+.mover-change.faller {
+  color: #b91c1c;
 }
 
 
 /* ==========================================================
-   INTERNAL EXPORT STAGE
+   HIDDEN EXPORT AREA
+
+   CRITICAL:
+   Do NOT leave the 1080px or 1400px export cards sitting
+   offscreen at their full dimensions.
+
+   Squarespace can detect their dimensions and continually
+   increase the enclosing iframe height.
+
+   JavaScript temporarily expands this element only when the
+   user actually requests a PNG.
 ========================================================== */
 
 #export-stage {
-  position: fixed;
-  left: -20000px;
+  position: absolute;
+
+  left: 0;
   top: 0;
+
+  width: 1px;
+  height: 1px;
+  max-height: 1px;
+
+  overflow: hidden;
+
+  visibility: hidden;
+
   pointer-events: none;
+
+  z-index: -9999;
 }
+
+
+/* ==========================================================
+   EXPORT GRAPHIC
+========================================================== */
 
 .export-card {
   width: 1080px;
   min-height: 1080px;
+
   box-sizing: border-box;
+
   padding: 48px;
 
   background:
@@ -372,69 +244,98 @@ h3 {
 
 .export-card-wide {
   width: 1400px;
-  min-height: 1450px;
+  min-height: 1080px;
 }
 
+
+/* ==========================================================
+   EXPORT HEADER
+========================================================== */
+
 .export-header {
-  border-bottom: 6px solid var(--accent);
+  border-bottom: 6px solid #f5d400;
+
   padding-bottom: 24px;
+
   margin-bottom: 28px;
 }
 
 .export-brand-row {
   display: flex;
+
   align-items: center;
-  justify-content: flex-start;
-  min-height: 72px;
+
+  gap: 18px;
 }
 
 .export-brand-logo {
-  display: block;
-
-  height: 72px;
-  width: auto;
-
-  max-height: 72px;
-  max-width: none;
+  width: 74px;
+  height: 74px;
 
   object-fit: contain;
-  object-position: left center;
+}
+
+.export-brand-name {
+  font-size: 26px;
+  font-weight: 800;
 }
 
 .export-title {
   margin: 15px 0 0;
-  font-size: 56px;
+
+  font-size: 58px;
+
   line-height: 1;
+
   font-weight: 900;
+
   text-transform: uppercase;
 }
 
 .export-subtitle {
   display: inline-block;
+
   margin-top: 15px;
+
   padding: 10px 18px;
-  background: var(--accent);
+
+  background: #f5d400;
+
   color: #000000;
+
   font-size: 25px;
+
   font-weight: 900;
+
   text-transform: uppercase;
 }
 
+
+/* ==========================================================
+   EXPORT RANKINGS
+========================================================== */
+
 .export-ranking-list {
   display: flex;
+
   flex-direction: column;
+
   gap: 7px;
 }
 
 .export-rank-row {
   display: grid;
+
   grid-template-columns:
     78px
-    82px
+    76px
     minmax(0, 1fr)
     150px;
+
   align-items: center;
+
   min-height: 70px;
+
   background:
     rgba(
       255,
@@ -442,6 +343,7 @@ h3 {
       255,
       0.06
     );
+
   border:
     1px solid
     rgba(
@@ -454,71 +356,106 @@ h3 {
 
 .export-rank-number {
   height: 100%;
+
   display: flex;
+
   align-items: center;
+
   justify-content: center;
-  background: var(--accent);
+
+  background: #f5d400;
+
   color: #000000;
+
   font-size: 37px;
+
   font-weight: 900;
 }
 
-.export-logo-cell,
-.export-top10-logo-cell,
-.export-mover-logo-cell {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .export-team-logo {
-  width: 62px;
-  height: 62px;
+  width: 55px;
+  height: 55px;
+
   object-fit: contain;
+
   margin: auto;
 }
 
 .export-team-name {
-  font-size: 27px;
+  font-size: 29px;
+
   font-weight: 900;
 }
 
 .export-team-meta {
   color: #bbbbbb;
-  font-size: 14px;
+
+  font-size: 15px;
+
   margin-top: 3px;
 }
 
 .export-power {
   text-align: right;
+
   padding-right: 20px;
+
   font-size: 28px;
+
   font-weight: 900;
 }
 
 .export-power-label {
   display: block;
+
   font-size: 11px;
+
   color: #bdbdbd;
+
   text-transform: uppercase;
 }
 
-.export-top10-row {
+
+/* ==========================================================
+   TOP 25
+========================================================== */
+
+.export-top25-grid {
   display: grid;
 
   grid-template-columns:
-    72px
-    78px
-    minmax(0, 1fr)
-    122px
-    105px
-    86px;
+    1fr 1fr;
 
-  align-items: center;
+  gap: 24px;
+}
 
-  min-height: 76px;
 
-  overflow: hidden;
+/* ==========================================================
+   EXPORT MOVERS
+========================================================== */
+
+.export-movers {
+  margin-top: 26px;
+
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 20px;
+}
+
+.export-mover-box {
+  padding: 20px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.18
+    );
 
   background:
     rgba(
@@ -527,262 +464,52 @@ h3 {
       255,
       0.06
     );
-
-  border:
-    1px solid
-    rgba(
-      255,
-      255,
-      255,
-      0.15
-    );
 }
 
-.export-top10-team {
-  min-width: 0;
-  padding-right: 8px;
-}
+.export-mover-label {
+  font-size: 15px;
 
-.export-top10-row
-.export-team-name {
-  overflow: hidden;
-  font-size: 23px;
-  line-height: 1.05;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
+  text-transform: uppercase;
 
-.export-top10-stat {
-  padding-right: 12px;
-  text-align: right;
-  white-space: nowrap;
-}
+  color: #f5d400;
 
-.export-top10-stat > div {
-  font-size: 22px;
-  line-height: 1;
   font-weight: 900;
 }
 
-.export-top10-stat-value {
-  color: #ffffff;
-}
-
-.export-top10-stat span {
-  display: block;
-  margin-top: 6px;
-  color: #a9a9a9;
-  font-size: 9px;
-  font-weight: 800;
-  letter-spacing: 0.045em;
-  text-transform: uppercase;
-}
-
-.export-top32-grid {
-  display: grid;
-  grid-template-columns:
-    1fr
-    1fr;
-  gap: 24px;
-}
-
-#movers-export-card {
-  width: 1080px;
-  min-height: 1080px;
-}
-
-.export-mover-columns {
-  display: grid;
-  grid-template-columns:
-    repeat(
-      2,
-      minmax(0, 1fr)
-    );
-  gap: 24px;
-}
-
-.export-mover-column {
-  min-width: 0;
-}
-
-.export-mover-column-title {
-  margin-bottom: 12px;
-  padding: 13px 18px;
-  background: var(--accent);
-  color: #050505;
-  font-size: 27px;
-  font-weight: 900;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-.export-mover-column-title.negative {
-  background: var(--negative);
-  color: #ffffff;
-}
-
-.export-mover-list {
+.export-mover-main {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.export-mover-row {
-  display: grid;
-
-  grid-template-columns:
-    66px
-    78px
-    minmax(0, 1fr)
-    92px
-    70px;
-
-  min-height: 92px;
 
   align-items: center;
 
-  overflow: hidden;
+  gap: 14px;
 
-  border:
-    1px solid
-    rgba(
-      255,
-      255,
-      255,
-      0.16
-    );
-
-  background:
-    rgba(
-      255,
-      255,
-      255,
-      0.075
-    );
+  margin-top: 10px;
 }
 
-.export-mover-rank {
-  align-self: stretch;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--accent);
-  color: #050505;
-  font-size: 37px;
-  font-weight: 900;
-}
+.export-mover-logo {
+  width: 62px;
+  height: 62px;
 
-.export-mover-rank.negative {
-  background: var(--negative);
-  color: #ffffff;
-}
-
-.export-mover-list-logo {
-  display: block;
-  width: 64px;
-  height: 64px;
   object-fit: contain;
 }
 
-.export-mover-logo-fallback {
-  width: 52px;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: #303030;
-  color: #ffffff;
-  font-size: 13px;
+.export-mover-team {
+  font-size: 28px;
+
   font-weight: 900;
 }
 
-.export-mover-copy {
-  min-width: 0;
-  padding: 7px 6px 7px 0;
-}
-
-.export-mover-list-team {
-  overflow: hidden;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 900;
-  line-height: 1.05;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.export-mover-list-meta {
-  margin-top: 6px;
-  color: #bbbbbb;
-  font-size: 12px;
-  line-height: 1.15;
-}
-
-.export-mover-stat {
-  padding-right: 6px;
-  text-align: right;
-  white-space: nowrap;
-}
-
-.export-mover-stat > div {
+.export-mover-change {
   font-size: 21px;
-  font-weight: 900;
-  line-height: 1;
-}
 
-.export-mover-rank-stat > div {
-  font-size: 17px;
-}
-
-.export-mover-stat span {
-  display: block;
-  margin-top: 6px;
-  color: #9d9d9d;
-  font-size: 9px;
   font-weight: 800;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
 
-.export-mover-empty {
-  padding: 34px 20px;
-
-  border:
-    1px solid
-    rgba(
-      255,
-      255,
-      255,
-      0.14
-    );
-
-  background:
-    rgba(
-      255,
-      255,
-      255,
-      0.06
-    );
-
-  color: #c7c7c7;
-  font-size: 18px;
-}
-
-.export-change-positive {
-  color: var(--accent);
-}
-
-.export-change-negative {
-  color: #ff7878;
-}
-
-.export-change-neutral {
-  color: #d0d0d0;
+  margin-top: 3px;
 }
 
 .export-footer {
   margin-top: 24px;
+
   padding-top: 16px;
 
   border-top:
@@ -795,45 +522,35 @@ h3 {
     );
 
   color: #aaaaaa;
+
   font-size: 14px;
 }
 
 
 /* ==========================================================
-   SQUARESPACE EMBED MODE
+   RESPONSIVE
 ========================================================== */
-
-.squarespace-embed #download-movers,
-.squarespace-embed #social-graphics-section {
-  display: none !important;
-}
-
-.squarespace-embed .page {
-  width: 100%;
-}
-
 
 @media (max-width: 800px) {
 
+  #chart {
+    height: 520px;
+    max-height: 520px;
+  }
+
+  #history-chart {
+    height: 380px;
+    max-height: 380px;
+  }
+
   .section-heading {
     flex-direction: column;
+
     align-items: flex-start;
   }
 
   .movers-grid {
     grid-template-columns: 1fr;
-  }
-
-  .mover-row {
-    grid-template-columns:
-      44px
-      50px
-      minmax(120px, 1fr)
-      80px;
-  }
-
-  .mover-rank-move {
-    display: none;
   }
 
   .export-buttons {
@@ -842,57 +559,6 @@ h3 {
 
   .download-button {
     width: 100%;
-  }
-
-}
-
-
-@media (max-width: 700px) {
-
-  .page {
-    width: 98%;
-    padding-top: 18px;
-  }
-
-  .header h1 {
-    font-size: 25px;
-  }
-
-  #chart {
-    min-height: 600px;
-  }
-
-  .section-card {
-    padding: 16px;
-  }
-
-  .mover-row {
-    grid-template-columns:
-      40px
-      44px
-      minmax(0, 1fr)
-      72px;
-
-    gap: 8px;
-    padding: 9px 10px;
-  }
-
-  .mover-list-rank {
-    margin: -9px 0 -9px -10px;
-    font-size: 24px;
-  }
-
-  .mover-logo {
-    width: 42px;
-    height: 42px;
-  }
-
-  .mover-team {
-    font-size: 15px;
-  }
-
-  .mover-rating {
-    font-size: 11px;
   }
 
 }
