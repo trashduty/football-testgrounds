@@ -1,41 +1,273 @@
 /* ==========================================================
-   BTB METRICS SITE ADDITIONS
+   GLOBAL
 ========================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f5f5;
+  color: #111111;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+.page {
+  width: 100%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+
+  padding: 24px;
+}
 
 
 /* ==========================================================
-   PLOTLY CHART SIZING
-
-   IMPORTANT FOR SQUARESPACE:
-   These charts have fixed vertical dimensions so responsive
-   Plotly resizing cannot create an iframe-height feedback loop.
+   HEADER
 ========================================================== */
 
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  margin: 0 0 8px 0;
+
+  font-size: 32px;
+  line-height: 1.15;
+
+  color: #111111;
+}
+
+.header p {
+  margin: 0;
+
+  color: #666666;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/* ==========================================================
+   FILTER CONTROLS
+========================================================== */
+
+.controls {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, minmax(160px, 1fr));
+
+  gap: 18px;
+
+  align-items: end;
+
+  margin: 24px 0;
+
+  padding: 20px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 1px 3px
+    rgba(0, 0, 0, 0.04);
+}
+
+.control-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+
+  min-width: 0;
+}
+
+.control-group label {
+  display: block;
+
+  margin: 0;
+
+  color: #111111;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.04em;
+
+  text-transform: uppercase;
+}
+
+.control-group select,
+#season,
+#metric,
+#conference,
+#team-search {
+  display: block;
+
+  width: 100%;
+
+  height: 44px;
+
+  margin: 0;
+
+  padding:
+    0
+    12px;
+
+  border: 1px solid #cfd4dc;
+
+  border-radius: 7px;
+
+  background-color: #ffffff;
+
+  color: #111111;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  line-height: normal;
+
+  cursor: pointer;
+
+  outline: none;
+
+  appearance: auto;
+  -webkit-appearance: auto;
+
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.control-group select:hover,
+#season:hover,
+#metric:hover,
+#conference:hover,
+#team-search:hover {
+  border-color: #8b929c;
+}
+
+.control-group select:focus,
+#season:focus,
+#metric:focus,
+#conference:focus,
+#team-search:focus {
+  border-color: #111111;
+
+  box-shadow:
+    0 0 0 2px
+    rgba(0, 0, 0, 0.08);
+}
+
+
+/* ==========================================================
+   DATA INFO ROW
+========================================================== */
+
+.chart-info {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 20px;
+
+  margin: 0 0 16px;
+
+  padding: 12px 16px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 8px;
+}
+
+.chart-info > div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+}
+
+.chart-info .label {
+  color: #666666;
+
+  font-size: 13px;
+}
+
+.chart-info strong {
+  color: #111111;
+
+  font-size: 13px;
+
+  font-weight: 800;
+}
+
+
+/* ==========================================================
+   MAIN CHART
+========================================================== */
+
+.chart-container {
+  width: 100%;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  padding: 10px;
+
+  box-shadow:
+    0 1px 3px
+    rgba(0, 0, 0, 0.04);
+}
+
+/*
+ * Fixed vertical height prevents Plotly + Squarespace
+ * from creating an iframe resize feedback loop.
+ */
 #chart {
   width: 100%;
+
   height: 620px;
+
   min-height: 0;
+
   max-height: 620px;
-  overflow: hidden;
 }
 
-#history-chart {
+#chart .js-plotly-plot {
   width: 100%;
-  height: 420px;
-  min-height: 0;
-  max-height: 420px;
-  overflow: hidden;
-}
 
-#chart .js-plotly-plot,
-#history-chart .js-plotly-plot {
-  width: 100%;
   height: 100%;
-}
-
-.plot-container,
-.svg-container {
-  max-width: 100%;
 }
 
 
@@ -45,28 +277,48 @@
 
 .section-card {
   margin-top: 30px;
+
   background: #ffffff;
+
   border: 1px solid #dddddd;
+
   border-radius: 12px;
+
   padding: 24px;
-  box-sizing: border-box;
+
+  box-shadow:
+    0 1px 3px
+    rgba(0, 0, 0, 0.04);
 }
 
 .section-heading {
   display: flex;
+
   align-items: center;
+
   justify-content: space-between;
+
   gap: 20px;
+
   margin-bottom: 20px;
 }
 
 .section-heading h2 {
   margin: 0 0 6px 0;
+
+  color: #111111;
+
+  font-size: 23px;
 }
 
 .section-heading p {
   margin: 0;
+
   color: #666666;
+
+  font-size: 14px;
+
+  line-height: 1.5;
 }
 
 
@@ -76,13 +328,22 @@
 
 .download-button {
   appearance: none;
+
   border: none;
+
   background: #111111;
+
   color: #ffffff;
+
   font-weight: 700;
+
   padding: 12px 18px;
+
   border-radius: 7px;
+
   cursor: pointer;
+
+  white-space: nowrap;
 
   transition:
     transform 0.15s ease,
@@ -91,12 +352,19 @@
 
 .download-button:hover {
   transform: translateY(-1px);
+
   opacity: 0.9;
+}
+
+.download-button:active {
+  transform: translateY(0);
 }
 
 .export-buttons {
   display: flex;
+
   gap: 12px;
+
   flex-wrap: wrap;
 }
 
@@ -107,22 +375,33 @@
 
 .movers-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+
+  grid-template-columns:
+    1fr 1fr;
+
   gap: 24px;
 }
 
 .mover-column {
   border: 1px solid #eeeeee;
+
   border-radius: 10px;
+
   overflow: hidden;
+
+  background: #ffffff;
 }
 
 .mover-column h3 {
   margin: 0;
+
   padding: 14px 16px;
 
   background: #111111;
+
   color: #ffffff;
+
+  font-size: 17px;
 }
 
 .mover-row {
@@ -143,13 +422,19 @@
   border-top: 1px solid #eeeeee;
 }
 
+.mover-row:first-child {
+  border-top: none;
+}
+
 .mover-rank {
   font-size: 18px;
+
   font-weight: 800;
 }
 
 .mover-logo {
   width: 38px;
+
   height: 38px;
 
   object-fit: contain;
@@ -157,10 +442,15 @@
 
 .mover-team {
   font-weight: 700;
+
+  color: #111111;
 }
 
 .mover-rating {
+  margin-top: 3px;
+
   font-size: 12px;
+
   color: #666666;
 }
 
@@ -168,6 +458,7 @@
   text-align: right;
 
   font-weight: 800;
+
   font-size: 16px;
 }
 
@@ -181,27 +472,65 @@
 
 
 /* ==========================================================
-   HIDDEN EXPORT AREA
-
-   CRITICAL:
-   Do NOT leave the 1080px or 1400px export cards sitting
-   offscreen at their full dimensions.
-
-   Squarespace can detect their dimensions and continually
-   increase the enclosing iframe height.
-
-   JavaScript temporarily expands this element only when the
-   user actually requests a PNG.
+   POWER RATING HISTORY
 ========================================================== */
 
+/*
+ * Fixed height here is also important for Squarespace.
+ */
+#history-chart {
+  width: 100%;
+
+  height: 420px;
+
+  min-height: 0;
+
+  max-height: 420px;
+}
+
+#history-chart .js-plotly-plot {
+  width: 100%;
+
+  height: 100%;
+}
+
+
+/* ==========================================================
+   PLOTLY SAFETY
+========================================================== */
+
+.plot-container,
+.svg-container {
+  max-width: 100%;
+}
+
+
+/* ==========================================================
+   HIDDEN EXPORT AREA
+========================================================== */
+
+/*
+ * CRITICAL FOR SQUARESPACE:
+ *
+ * The downloadable graphics are 1080-1400px wide/tall.
+ * They must NOT sit offscreen at full size during normal
+ * page viewing because Squarespace can include them when
+ * calculating iframe height.
+ *
+ * app.js temporarily expands this element only while
+ * generating a PNG.
+ */
 #export-stage {
   position: absolute;
 
   left: 0;
+
   top: 0;
 
   width: 1px;
+
   height: 1px;
+
   max-height: 1px;
 
   overflow: hidden;
@@ -220,6 +549,7 @@
 
 .export-card {
   width: 1080px;
+
   min-height: 1080px;
 
   box-sizing: border-box;
@@ -244,6 +574,7 @@
 
 .export-card-wide {
   width: 1400px;
+
   min-height: 1080px;
 }
 
@@ -270,6 +601,7 @@
 
 .export-brand-logo {
   width: 74px;
+
   height: 74px;
 
   object-fit: contain;
@@ -277,6 +609,7 @@
 
 .export-brand-name {
   font-size: 26px;
+
   font-weight: 800;
 }
 
@@ -374,6 +707,7 @@
 
 .export-team-logo {
   width: 55px;
+
   height: 55px;
 
   object-fit: contain;
@@ -488,6 +822,7 @@
 
 .export-mover-logo {
   width: 62px;
+
   height: 62px;
 
   object-fit: contain;
@@ -528,19 +863,44 @@
 
 
 /* ==========================================================
+   FOOTER
+========================================================== */
+
+.footer {
+  margin-top: 30px;
+
+  padding: 18px 4px 30px;
+
+  color: #666666;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+
+/* ==========================================================
    RESPONSIVE
 ========================================================== */
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
-  #chart {
-    height: 520px;
-    max-height: 520px;
+  .controls {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
   }
 
-  #history-chart {
-    height: 380px;
-    max-height: 380px;
+}
+
+
+@media (max-width: 800px) {
+
+  .page {
+    padding: 16px;
   }
 
   .section-heading {
@@ -559,6 +919,85 @@
 
   .download-button {
     width: 100%;
+  }
+
+  #chart {
+    height: 520px;
+
+    max-height: 520px;
+  }
+
+  #history-chart {
+    height: 380px;
+
+    max-height: 380px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .header h1 {
+    font-size: 26px;
+  }
+
+  .controls {
+    grid-template-columns: 1fr;
+
+    gap: 14px;
+
+    padding: 16px;
+  }
+
+  .control-group select,
+  #season,
+  #metric,
+  #conference,
+  #team-search {
+    height: 46px;
+
+    font-size: 16px;
+  }
+
+  .chart-info {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 5px;
+  }
+
+  .chart-container {
+    padding: 4px;
+  }
+
+  #chart {
+    height: 500px;
+
+    max-height: 500px;
+  }
+
+  #history-chart {
+    height: 360px;
+
+    max-height: 360px;
+  }
+
+  .mover-row {
+    grid-template-columns:
+      36px
+      40px
+      minmax(100px, 1fr)
+      auto;
+
+    padding: 10px;
+  }
+
+  .mover-logo {
+    width: 34px;
+
+    height: 34px;
   }
 
 }
