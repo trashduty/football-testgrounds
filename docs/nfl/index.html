@@ -1,1 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="BTB Analytics NFL team metrics, power ratings, efficiency, weekly movers, and historical rating trends."
+  >
+
+  <title>
+    BTB Analytics NFL Team Metrics
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="./style.css"
+  >
+
+</head>
+
+
+<body>
+
+  <main class="page">
+
+    <header class="header">
+
+      <h1>
+        NFL Team Metrics
+      </h1>
+
+      <p>
+        Explore BTB Analytics NFL power ratings and team efficiency metrics.
+      </p>
+
+    </header>
+
+
+    <section
+      class="controls"
+      aria-label="NFL metric filters"
+    >
+
+      <div class="control-group">
+
+        <label for="season">
+          Season
+        </label>
+
+        <select id="season">
+
+          <option
+            value="2026"
+            selected
+          >
+            2026
+          </option>
+
+          <option value="2025">
+            2025
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div class="control-group">
+
+        <label for="metric">
+          Metric
+        </label>
+
+        <select id="metric">
+
+          <option
+            value="power"
+            selected
+          >
+            BTB Power Rating
+          </option>
+
+          <option value="wepa">
+            Weighted EPA
+          </option>
+
+          <option value="epa">
+            EPA / Play
+          </option>
+
+          <option value="pass_epa">
+            Pass EPA / Play
+          </option>
+
+          <option value="rush_epa">
+            Rush EPA / Play
+          </option>
+
+          <option value="eckel">
+            Eckel Rate
+          </option>
+
+          <option value="success">
+            Success Rate
+          </option>
+
+          <option value="proe">
+            Pass Rate Over Expected
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div class="control-group">
+
+        <label for="conference">
+          Conference
+        </label>
+
+        <select id="conference">
+
+          <option value="ALL">
+            All NFL
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div class="control-group">
+
+        <label for="division">
+          Division
+        </label>
+
+        <select id="division">
+
+          <option value="ALL">
+            All Divisions
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div class="control-group">
+
+        <label for="team-search">
+          Highlight Team
+        </label>
+
+        <select id="team-search">
+
+          <option value="">
+            None
+          </option>
+
+        </select>
+
+      </div>
+
+    </section>
+
+
+    <div class="chart-info">
+
+      <div>
+
+        <span class="label">
+          Rating:
+        </span>
+
+        <strong id="week-label">
+          Loading...
+        </strong>
+
+      </div>
+
+
+      <div>
+
+        <span class="label">
+          Teams shown:
+        </span>
+
+        <strong id="team-count">
+          0
+        </strong>
+
+      </div>
+
+    </div>
+
+
+    <section
+      class="chart-container"
+      aria-label="NFL team metric scatter plot"
+    >
+
+      <div id="chart"></div>
+
+    </section>
+
+
+    <section class="section-card">
+
+      <div class="section-heading">
+
+        <div>
+
+          <h2>
+            Weekly Movers
+          </h2>
+
+          <p>
+            Largest week-to-week changes in BTB NFL Power Rating.
+          </p>
+
+        </div>
+
+
+        <button
+          class="download-button"
+          id="download-movers"
+          type="button"
+        >
+          Download Weekly Movers
+        </button>
+
+      </div>
+
+
+      <div class="movers-grid">
+
+        <div class="mover-column">
+
+          <h3>
+            Biggest Risers
+          </h3>
+
+          <div id="risers-list"></div>
+
+        </div>
+
+
+        <div class="mover-column">
+
+          <h3>
+            Biggest Fallers
+          </h3>
+
+          <div id="fallers-list"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section-card">
+
+      <div class="section-heading">
+
+        <div>
+
+          <h2>
+            Power Rating History
+          </h2>
+
+          <p>
+            Select a team above to view its BTB Power Rating over time.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div id="history-chart"></div>
+
+    </section>
+
+
+    <section class="section-card">
+
+      <div class="section-heading">
+
+        <div>
+
+          <h2>
+            Social Graphics
+          </h2>
+
+          <p>
+            Export branded NFL power-rating graphics as PNG files.
+          </p>
+
+        </div>
+
+
+        <div class="export-buttons">
+
+          <button
+            class="download-button"
+            id="download-top10"
+            type="button"
+          >
+            Download Top 10
+          </button>
+
+
+          <button
+            class="download-button"
+            id="download-top25"
+            type="button"
+          >
+            Download Top 25
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <footer class="footer">
+
+      BTB Power Rating includes team offense, defense, and the model's
+      current starting-quarterback adjustment.
+
+      NFL Weighted EPA is the canonical BTB rolling average of game-level
+      weighted EPA totals, while EPA, pass EPA, rush EPA, Eckel Rate,
+      and Success Rate are displayed as into-week team metrics.
+
+    </footer>
+
+  </main>
+
+
+  <div
+    id="export-stage"
+    aria-hidden="true"
+  >
+
+    <div
+      id="top10-export-card"
+      class="export-card"
+    ></div>
+
+
+    <div
+      id="top25-export-card"
+      class="export-card export-card-wide"
+    ></div>
+
+
+    <div
+      id="movers-export-card"
+      class="export-card"
+    ></div>
+
+  </div>
+
+
+  <script
+    src="https://cdn.plot.ly/plotly-2.35.2.min.js"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"
+  ></script>
+
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
