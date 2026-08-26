@@ -1,3 +1,13 @@
+const IS_SQUARESPACE_EMBED =
+  new URLSearchParams(window.location.search)
+    .get("embed") === "1";
+
+if (IS_SQUARESPACE_EMBED) {
+  document.documentElement.classList.add(
+    "squarespace-embed"
+  );
+}
+
 const seasonSelect =
   document.getElementById("season");
 
