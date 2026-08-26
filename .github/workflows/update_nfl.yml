@@ -1,0 +1,190 @@
+name: Weekly NFL site data update
+
+on:
+  schedule:
+    # Tue + Wed 13:00 UTC, Sep-Feb.
+    - cron: "0 13 * 1,2,9-12 2"
+    - cron: "0 13 * 1,2,9-12 3"
+
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Season year (blank = auto; Jan/Feb map to prior season)"
+        required: false
+        default: ""
+
+concurrency:
+  group: nfl-site-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+          fetch-depth: 0
+
+      - name: Verify Git LFS checkout
+        run: |
+          set -euo pipefail
+
+          git lfs pull
+
+          if grep -aq "git-lfs.github.com/spec" models/eckel_mod_nfl.RDS; then
+            echo "ERROR: models/eckel_mod_nfl.RDS is still an LFS pointer."
+            exit 1
+          fi
+
+          echo "NFL Eckel model is materialized."
+          ls -lh models/eckel_mod_nfl.RDS
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        run: |
+          set -euo pipefail
+
+          Rscript -e 'install.packages(c(
+            "dplyr",
+            "tidyr",
+            "purrr",
+            "readr",
+            "stringr",
+            "tibble",
+            "jsonlite",
+            "zoo",
+            "nflreadr"
+          ))'
+
+      - name: Resolve season year
+        id: season
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -n "${{ github.event.inputs.year }}" ]; then
+            YEAR="${{ github.event.inputs.year }}"
+          else
+            YEAR=$(date -u +%Y)
+            MONTH=$(date -u +%m)
+
+            if [ "$MONTH" = "01" ] || [ "$MONTH" = "02" ]; then
+              YEAR=$((YEAR - 1))
+            fi
+          fi
+
+          echo "year=$YEAR" >> "$GITHUB_OUTPUT"
+          echo "NFL season resolved to $YEAR"
+
+      - name: Validate required NFL inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            "nfl_site_update.R"
+            "models/weights_all.csv"
+            "models/eckel_mod_nfl.RDS"
+            "btb-logo.png"
+          )
+
+          for file in "${required_files[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "ERROR: Missing or empty required file: $file"
+              exit 1
+            fi
+          done
+
+      - name: Validate R syntax
+        run: |
+          set -euo pipefail
+
+          Rscript -e "parse(file='nfl_site_update.R'); cat('NFL R SYNTAX VALID\n')"
+
+      - name: Run weekly NFL update
+        run: |
+          set -euo pipefail
+
+          Rscript nfl_site_update.R \
+            --year="${{ steps.season.outputs.year }}"
+
+      - name: Validate generated NFL data
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          YEAR="${{ steps.season.outputs.year }}"
+
+          required_outputs=(
+            "output/nfl/${YEAR}/latest.json"
+            "output/nfl/${YEAR}/meta.json"
+            "output/nfl/${YEAR}/latest.csv"
+            "output/nfl/${YEAR}/ratings_history.csv"
+          )
+
+          for file in "${required_outputs[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "ERROR: Missing or empty generated output: $file"
+              exit 1
+            fi
+          done
+
+          echo "Generated NFL files:"
+          ls -lh "output/nfl/${YEAR}/"
+
+      - name: Publish NFL data to GitHub Pages
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          YEAR="${{ steps.season.outputs.year }}"
+          SITE_DIR="docs/nfl/data/${YEAR}"
+
+          mkdir -p "$SITE_DIR"
+
+          cp \
+            "output/nfl/${YEAR}/latest.json" \
+            "$SITE_DIR/latest.json"
+
+          cp \
+            "output/nfl/${YEAR}/meta.json" \
+            "$SITE_DIR/meta.json"
+
+          cp \
+            "output/nfl/${YEAR}/ratings_history.csv" \
+            "$SITE_DIR/ratings_history.csv"
+
+          echo "Published NFL site files:"
+          ls -lh "$SITE_DIR"
+
+      - name: Commit refreshed NFL data
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          YEAR="${{ steps.season.outputs.year }}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            "output/nfl/${YEAR}/" \
+            "docs/nfl/data/${YEAR}/"
+
+          if git diff --cached --quiet; then
+            echo "No NFL data changes to commit."
+          else
+            git commit -m "Update ${YEAR} NFL metrics $(date -u +%Y-%m-%d)"
+            git push
+          fi
