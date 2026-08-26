@@ -3962,15 +3962,7 @@ if (run_main) {
       )
 
 
-    history[
-      [
-        length(
-          history
-        ) +
-        1
-      ]
-    ] <-
-      snap
+    history[[length(history) + 1]] <- snap
 
 
     msg(
