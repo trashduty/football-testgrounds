@@ -473,12 +473,12 @@ function logoImages(
 
   const sizeX =
     xExtent.span *
-    0.04;
+    0.06;
 
 
   const sizeY =
     yExtent.span *
-    0.065;
+    0.08;
 
 
   return rows
