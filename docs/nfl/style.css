@@ -866,4 +866,19 @@ h3 {
     font-size: 11px;
   }
 
+==========================================================
+   SQUARESPACE EMBED MODE
+==========================================================
+
+.squarespace-embed #download-movers {
+  display: none !important;
+}
+
+.squarespace-embed #social-graphics-section {
+  display: none !important;
+}
+
+.squarespace-embed .page {
+  width: 100%;
+}
 }
