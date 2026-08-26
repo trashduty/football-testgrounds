@@ -12,8 +12,13 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   margin: 0;
+  padding: 0;
+}
+
+body {
   background: var(--background);
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
@@ -41,11 +46,10 @@ body {
 
 .controls {
   display: grid;
-  grid-template-columns:
-    repeat(
-      auto-fit,
-      minmax(190px, 1fr)
-    );
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(190px, 1fr)
+  );
   gap: 14px;
   padding: 18px;
   background: var(--panel);
@@ -68,7 +72,7 @@ body {
   width: 100%;
   padding: 10px 12px;
   background: #111111;
-  color: white;
+  color: #ffffff;
   border: 1px solid #444444;
   border-radius: 6px;
   font-size: 15px;
@@ -88,10 +92,10 @@ body {
 
 .chart-container {
   width: 100%;
-  background: white;
+  margin-top: 12px;
+  background: #ffffff;
   border-radius: 10px;
   overflow: hidden;
-  margin-top: 12px;
 }
 
 #chart {
@@ -100,25 +104,18 @@ body {
 }
 
 .chart-error {
-  color: #111111;
   padding: 40px;
+  color: #111111;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer {
-  margin-top: 18px;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.5;
 }
 
 .section-card {
   margin-top: 30px;
+  padding: 24px;
   background: #ffffff;
+  color: #111111;
   border: 1px solid #dddddd;
   border-radius: 12px;
-  padding: 24px;
-  color: #111111;
 }
 
 .section-heading {
@@ -166,11 +163,10 @@ body {
 
 .movers-grid {
   display: grid;
-  grid-template-columns:
-    repeat(
-      2,
-      minmax(0, 1fr)
-    );
+  grid-template-columns: repeat(
+    2,
+    minmax(0, 1fr)
+  );
   gap: 24px;
 }
 
@@ -333,6 +329,18 @@ h3 {
   min-height: 420px;
 }
 
+.footer {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+/* ==========================================================
+   INTERNAL EXPORT STAGE
+========================================================== */
+
 #export-stage {
   position: fixed;
   left: -20000px;
@@ -364,7 +372,7 @@ h3 {
 
 .export-card-wide {
   width: 1400px;
-  min-height: 1080px;
+  min-height: 1450px;
 }
 
 .export-header {
@@ -422,7 +430,7 @@ h3 {
   display: grid;
   grid-template-columns:
     78px
-    76px
+    82px
     minmax(0, 1fr)
     150px;
   align-items: center;
@@ -464,8 +472,8 @@ h3 {
 }
 
 .export-team-logo {
-  width: 55px;
-  height: 55px;
+  width: 62px;
+  height: 62px;
   object-fit: contain;
   margin: auto;
 }
@@ -500,7 +508,7 @@ h3 {
 
   grid-template-columns:
     72px
-    70px
+    78px
     minmax(0, 1fr)
     122px
     105px
@@ -570,11 +578,7 @@ h3 {
   text-transform: uppercase;
 }
 
-.export-change-neutral {
-  color: #d0d0d0;
-}
-
-.export-top25-grid {
+.export-top32-grid {
   display: grid;
   grid-template-columns:
     1fr
@@ -628,7 +632,7 @@ h3 {
 
   grid-template-columns:
     66px
-    72px
+    78px
     minmax(0, 1fr)
     92px
     70px;
@@ -675,8 +679,8 @@ h3 {
 
 .export-mover-list-logo {
   display: block;
-  width: 58px;
-  height: 58px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
 }
 
@@ -741,14 +745,6 @@ h3 {
   text-transform: uppercase;
 }
 
-.export-change-positive {
-  color: var(--accent);
-}
-
-.export-change-negative {
-  color: #ff7878;
-}
-
 .export-mover-empty {
   padding: 34px 20px;
 
@@ -773,6 +769,18 @@ h3 {
   font-size: 18px;
 }
 
+.export-change-positive {
+  color: var(--accent);
+}
+
+.export-change-negative {
+  color: #ff7878;
+}
+
+.export-change-neutral {
+  color: #d0d0d0;
+}
+
 .export-footer {
   margin-top: 24px;
   padding-top: 16px;
@@ -789,6 +797,21 @@ h3 {
   color: #aaaaaa;
   font-size: 14px;
 }
+
+
+/* ==========================================================
+   SQUARESPACE EMBED MODE
+========================================================== */
+
+.squarespace-embed #download-movers,
+.squarespace-embed #social-graphics-section {
+  display: none !important;
+}
+
+.squarespace-embed .page {
+  width: 100%;
+}
+
 
 @media (max-width: 800px) {
 
@@ -823,7 +846,13 @@ h3 {
 
 }
 
+
 @media (max-width: 700px) {
+
+  .page {
+    width: 98%;
+    padding-top: 18px;
+  }
 
   .header h1 {
     font-size: 25px;
@@ -866,19 +895,4 @@ h3 {
     font-size: 11px;
   }
 
-==========================================================
-   SQUARESPACE EMBED MODE
-==========================================================
-
-.squarespace-embed #download-movers {
-  display: none !important;
-}
-
-.squarespace-embed #social-graphics-section {
-  display: none !important;
-}
-
-.squarespace-embed .page {
-  width: 100%;
-}
 }
