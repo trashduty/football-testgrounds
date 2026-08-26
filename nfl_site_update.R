@@ -1423,7 +1423,12 @@ build_drive_frame <- function(
   if (!is.null(eckel_model)) {
 
     nd <- dd %>%
-      transmute(
+      mutate(
+
+        # Native NFL variable names are retained above.
+
+        # Compatibility aliases for models using the
+        # older/CFB-style drive-state names.
         half_secs_rem =
           half_seconds_remaining,
 
@@ -1439,6 +1444,52 @@ build_drive_frame <- function(
         def_pos_team_timeouts =
           defteam_timeouts_remaining
       )
+
+
+    model_terms <-
+      all.vars(
+        stats::delete.response(
+          stats::terms(
+            eckel_model
+          )
+        )
+      )
+
+
+    missing_terms <-
+      setdiff(
+        model_terms,
+        names(
+          nd
+        )
+      )
+
+
+    if (length(missing_terms)) {
+
+      stop(
+        sprintf(
+          paste0(
+            "NFL Eckel model requires variables not available ",
+            "in the drive frame: %s"
+          ),
+          paste(
+            missing_terms,
+            collapse = ", "
+          )
+        ),
+        call. = FALSE
+      )
+    }
+
+
+    msg(
+      "NFL Eckel model terms: %s",
+      paste(
+        model_terms,
+        collapse = ", "
+      )
+    )
 
 
     dd$expected_eckel_prob <-
@@ -1460,7 +1511,6 @@ build_drive_frame <- function(
 
   dd
 }
-
 
 # ---- Feature table ---------------------------------------------------------
 
