@@ -1,4 +1,4 @@
-name: Weekly NFL site data update
+name: Update NFL Metrics Site
 
 on:
   schedule:
