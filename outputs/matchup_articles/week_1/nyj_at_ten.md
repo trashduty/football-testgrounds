@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | New York Jets | +2.5 (-105) | BetMGM | 53.5% | Lean – doesn't meet our edge criteria to fully bet |
-| Tennessee Titans | -2.5 (-110) | FanDuel | 46.5% | No Bet |
+| Tennessee Titans | -2.5 (-105) | FanDuel | 46.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 

@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Green Bay Packers | +1.0 (-110) | BetMGM | 50.0% | No Bet |
+| Green Bay Packers | +1.0 (-108) | BetMGM | 50.0% | No Bet |
 | Minnesota Vikings | -1.5 (-102) | DraftKings | 49.2% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.

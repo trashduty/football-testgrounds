@@ -6,15 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona Cardinals | +10.5 (-110) | DraftKings | 51.5% | No Bet |
-| Los Angeles Chargers | -10.5 (-106) | BetRivers | 48.5% | No Bet |
+| Arizona Cardinals | +10.5 (-108) | BetMGM | 51.5% | No Bet |
+| Los Angeles Chargers | -10.5 (-106) | FanDuel | 48.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Jacoby Brissett (Arizona Cardinals) and Justin Herbert (Los Angeles Chargers) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +10.5 with an edge of -0.88%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +10.5 with an edge of -0.42%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

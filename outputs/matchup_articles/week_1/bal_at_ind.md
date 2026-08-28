@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baltimore Ravens | -3.5 (-105) | FanDuel | 55.9% | Bet |
-| Indianapolis Colts | +3.5 (-108) | BetRivers | 44.0% | No Bet |
+| Baltimore Ravens | -3.5 (-102) | BetMGM | 55.9% | Bet |
+| Indianapolis Colts | +3.5 (-108) | FanDuel | 44.0% | No Bet |
 
 *Model assumes Lamar Jackson (Baltimore Ravens) and Daniel Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model favors **the Baltimore Ravens** at -3.5 vs. the market at -3.5.
-This puts the edge at 4.69%, which at -3.5 for -105 makes the Baltimore Ravens a bet.
+This puts the edge at 5.41%, which at -3.5 for -102 makes the Baltimore Ravens a bet.
 
 ## Why The Pick
 

@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | New England Patriots | +3.5 (-108) | FanDuel | 59.2% | Bet |
-| Seattle Seahawks | -3.5 (-110) | DraftKings | 40.7% | No Bet |
+| Seattle Seahawks | -3.5 (-105) | DraftKings | 40.7% | No Bet |
 
 *Model assumes Drake Maye (New England Patriots) and Sam Darnold (Seattle Seahawks) under center. QB news moves these numbers fast — check inactives before you bet.*
 

@@ -6,15 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bills | -1.5 (-105) | DraftKings | 49.6% | No Bet |
-| Houston Texans | -1.5 (-102) | FanDuel | 48.7% | No Bet |
+| Buffalo Bills | -1.0 (-102) | BetMGM | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
+| Houston Texans | +1.5 (-112) | BetRivers | 48.1% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Josh Allen (Buffalo Bills) and CJ Stroud (Houston Texans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.5 with an edge of -1.62%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Buffalo Bills take on the Houston Texans at Reliant Stadium and the model sees a lean toward Buffalo Bills -1.0 with an edge of 1.35%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
