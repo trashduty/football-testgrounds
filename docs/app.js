@@ -309,10 +309,10 @@ function logoImages(
   }
 
   const sizeX =
-    xExtent.span * 0.035;
+    xExtent.span * 0.07;
 
   const sizeY =
-    yExtent.span * 0.055;
+    yExtent.span * 0.09;
 
   return rows
     .filter(
