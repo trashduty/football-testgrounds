@@ -6,15 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Commanders | +4.5 (-109) | BetRivers | 47.1% | No Bet |
-| Philadelphia Eagles | -4.5 (-108) | BetMGM | 52.8% | No Bet |
-
-The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+| Washington Commanders | +5.5 (-113) | BetRivers | 44.1% | No Bet |
+| Philadelphia Eagles | -5.5 (-105) | DraftKings | 55.9% | Bet |
 
 *Model assumes Jalen Hurts (Philadelphia Eagles) and Jayden Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model sees a lean toward Philadelphia Eagles -4.5 with an edge of 0.93%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model favors **the Philadelphia Eagles** at -5.5 vs. the market at -5.5.
+This puts the edge at 4.64%, which at -5.5 for -105 makes the Philadelphia Eagles a bet.
 
 ## Why The Pick
 

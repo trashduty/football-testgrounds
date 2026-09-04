@@ -6,27 +6,27 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona Cardinals | +10.5 (-108) | BetMGM | 51.5% | No Bet |
-| Los Angeles Chargers | -10.5 (-106) | FanDuel | 48.5% | No Bet |
+| Arizona Cardinals | +10.5 (-110) | DraftKings | 51.5% | No Bet |
+| Los Angeles Chargers | -9.5 (-118) | FanDuel | 57.9% | Lean – doesn't meet our edge criteria to fully bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
-*Model assumes Jacoby Brissett (Arizona Cardinals) and Justin Herbert (Los Angeles Chargers) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Justin Herbert (Los Angeles Chargers) and Jacoby Brissett (Arizona Cardinals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Arizona Cardinals +10.5 with an edge of -0.42%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Los Angeles Chargers -9.5 with an edge of 3.75%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
 Our model uses data points that correlate best with a team covering. Here's how these two teams stack up in some of those categories
 
-| | Arizona Cardinals | Los Angeles Chargers |
+| | Los Angeles Chargers | Arizona Cardinals |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Jacoby Brissett (24th) | Justin Herbert (17th) |
-| Offensive Success Rate | 20th | 16th |
-| Defensive Success Rate | 31st | 6th |
-| Offensive Eckel Rate Over Expected* | 50.0% | 53.6% |
-| Defensive Eckel Rate Over Expected | 56.2% | 46.4% |
+| QB Efficiency (Last 10 Games) | Justin Herbert (17th) | Jacoby Brissett (24th) |
+| Offensive Success Rate | 16th | 20th |
+| Defensive Success Rate | 6th | 31st |
+| Offensive Eckel Rate Over Expected* | 53.6% | 50.0% |
+| Defensive Eckel Rate Over Expected | 46.4% | 56.2% |
 
 \*The rate of possessions that result in a big play touchdown or 1st down inside the opponent's 40 yard line
 

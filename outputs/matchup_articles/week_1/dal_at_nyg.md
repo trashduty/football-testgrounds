@@ -6,15 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Dallas Cowboys | -2.5 (-115) | DraftKings | 51.5% | No Bet |
-| New York Giants | +2.5 (-102) | FanDuel | 48.5% | No Bet |
+| Dallas Cowboys | -2.5 (-115) | DraftKings | 55.4% | Lean – doesn't meet our edge criteria to fully bet |
+| New York Giants | +2.5 (-102) | FanDuel | 44.6% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Dak Prescott (Dallas Cowboys) and Jaxson Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5 with an edge of -1.99%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5 with an edge of 1.90%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

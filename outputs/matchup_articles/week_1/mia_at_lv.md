@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Dolphins | +3.5 (-108) | BetMGM | 59.9% | Bet |
-| Las Vegas Raiders | -3.5 (-110) | DraftKings | 40.1% | No Bet |
+| Miami Dolphins | +3.5 (-110) | DraftKings | 59.9% | Bet |
+| Las Vegas Raiders | -3.5 (-104) | FanDuel | 40.1% | No Bet |
 
 *Model assumes Malik Willis (Miami Dolphins) and Kirk Cousins (Las Vegas Raiders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The Miami Dolphins take on the Las Vegas Raiders at Allegiant Stadium and the model favors **the Miami Dolphins** at +3.5 vs. the market at +3.5.
-This puts the edge at 7.98%, which at +3.5 for -108 makes the Miami Dolphins a bet.
+This puts the edge at 7.52%, which at +3.5 for -110 makes the Miami Dolphins a bet.
 
 ## Why The Pick
 

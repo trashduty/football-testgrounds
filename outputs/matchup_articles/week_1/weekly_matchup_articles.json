@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-28T19:05:05.863681+00:00",
+  "generated_at_utc": "2026-09-04T15:13:15.671282+00:00",
   "season": 2026,
   "week": 1,
   "articles": [
@@ -28,7 +28,7 @@
       "game": "ATL@PIT",
       "away_team": "ATL",
       "home_team": "PIT",
-      "has_bet": false,
+      "has_bet": true,
       "injury_reports": {
         "ATL": {
           "team": "ATL",
@@ -322,7 +322,7 @@
       "game": "WAS@PHI",
       "away_team": "WAS",
       "home_team": "PHI",
-      "has_bet": false,
+      "has_bet": true,
       "injury_reports": {
         "WAS": {
           "team": "WAS",

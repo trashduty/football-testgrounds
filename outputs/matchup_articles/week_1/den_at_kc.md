@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Denver Broncos | +2.5 (+100) | BetMGM | 41.8% | No Bet |
-| Kansas City Chiefs | -2.5 (-115) | FanDuel | 58.2% | Bet |
+| Denver Broncos | +2.5 (+100) | Fanatics | 41.8% | No Bet |
+| Kansas City Chiefs | -2.5 (-114) | BetRivers | 58.2% | Bet |
 
 *Model assumes Patrick Mahomes (Kansas City Chiefs) and Bo Nix (Denver Broncos) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The Denver Broncos take on the Kansas City Chiefs at GEHA Field at Arrowhead Stadium and the model favors **the Kansas City Chiefs** at -2.5 vs. the market at -2.5.
-This puts the edge at 4.74%, which at -2.5 for -115 makes the Kansas City Chiefs a bet.
+This puts the edge at 4.96%, which at -2.5 for -114 makes the Kansas City Chiefs a bet.
 
 ## Why The Pick
 

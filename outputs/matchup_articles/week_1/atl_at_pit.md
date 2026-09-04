@@ -6,15 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Atlanta Falcons | +3.0 (+100) | DraftKings | 38.7% | No Bet |
-| Pittsburgh Steelers | -3.0 (-110) | BetRivers | 54.2% | Lean – doesn't meet our edge criteria to fully bet |
-
-The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+| Atlanta Falcons | +3.5 (-118) | DraftKings | 45.8% | No Bet |
+| Pittsburgh Steelers | -3.5 (+100) | Fanatics | 54.2% | Bet |
 
 *Model assumes Aaron Rodgers (Pittsburgh Steelers) and Michael Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model sees a lean toward Pittsburgh Steelers -3.0 with an edge of 1.80%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model favors **the Pittsburgh Steelers** at -3.5 vs. the market at -3.
+This puts the edge at 4.18%, which at -3.5 for 100 makes the Pittsburgh Steelers a bet.
 
 ## Why The Pick
 
