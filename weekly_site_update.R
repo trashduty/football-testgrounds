@@ -1733,12 +1733,386 @@ fetch_games <- function(season) {
 }
 
 
-fetch_pbp <- function(season) {
+add_position_rush_from_cfbd <- function(
+    pbp,
+    season
+) {
+
+  if (
+    is.null(pbp) ||
+    nrow(pbp) == 0
+  ) {
+
+    return(pbp)
+
+  }
+
+
+  if (
+    "position_rush" %in%
+      names(pbp) &&
+    any(
+      !is.na(
+        pbp$position_rush
+      )
+    )
+  ) {
+
+    return(pbp)
+
+  }
+
+
+  if (
+    !"id_play" %in%
+      names(pbp)
+  ) {
+
+    stop(
+      paste0(
+        "Live CFBD PBP is missing id_play, so rusher positions ",
+        "cannot be joined safely."
+      ),
+      call. = FALSE
+    )
+
+  }
+
+
+  pbp_weeks <- sort(
+    unique(
+      suppressWarnings(
+        as.integer(
+          pbp$week
+        )
+      )
+    )
+  )
+
+
+  pbp_weeks <- pbp_weeks[
+    !is.na(pbp_weeks)
+  ]
+
+
+  if (!length(pbp_weeks)) {
+
+    if (
+      !"position_rush" %in%
+        names(pbp)
+    ) {
+
+      pbp$position_rush <-
+        NA_character_
+
+    }
+
+    return(pbp)
+
+  }
+
+
+  msg(
+    paste0(
+      "Live PBP does not include usable position_rush values. ",
+      "Enriching rushing plays from CFBD player play stats and rosters..."
+    )
+  )
+
+
+  player_stat_parts <- lapply(
+    pbp_weeks,
+
+    function(wk) {
+
+      msg(
+        "Downloading CFBD player play stats for week %d...",
+        wk
+      )
+
+
+      tryCatch(
+        cfbfastR::cfbd_play_stats_player(
+          year = season,
+          week = wk,
+          season_type = "regular"
+        ),
+
+        error = function(e) {
+
+          msg(
+            "CFBD player play stats failed for week %d: %s",
+            wk,
+            conditionMessage(e)
+          )
+
+          NULL
+
+        }
+      )
+
+    }
+  )
+
+
+  player_stats <- bind_rows(
+    player_stat_parts
+  )
+
+
+  if (
+    nrow(player_stats) == 0 ||
+    !all(
+      c(
+        "play_id",
+        "rush_player_id"
+      ) %in%
+        names(player_stats)
+    )
+  ) {
+
+    msg(
+      paste0(
+        "WARNING: CFBD player play stats did not provide usable ",
+        "rush_player_id values. position_rush will be left NA for ",
+        "unresolved rushing plays."
+      )
+    )
+
+
+    if (
+      !"position_rush" %in%
+        names(pbp)
+    ) {
+
+      pbp$position_rush <-
+        NA_character_
+
+    }
+
+    return(pbp)
+
+  }
+
+
+  rush_map <- player_stats %>%
+    filter(
+      !is.na(
+        rush_player_id
+      ),
+      as.character(
+        rush_player_id
+      ) != ""
+    ) %>%
+    transmute(
+      id_play =
+        as.character(
+          play_id
+        ),
+
+      rush_player_id =
+        as.character(
+          rush_player_id
+        )
+    ) %>%
+    distinct(
+      id_play,
+      .keep_all = TRUE
+    )
+
+
+  if (!nrow(rush_map)) {
+
+    msg(
+      paste0(
+        "WARNING: no rushing-player IDs were returned by CFBD. ",
+        "position_rush will be left NA for unresolved rushing plays."
+      )
+    )
+
+
+    if (
+      !"position_rush" %in%
+        names(pbp)
+    ) {
+
+      pbp$position_rush <-
+        NA_character_
+
+    }
+
+    return(pbp)
+
+  }
+
+
+  roster <- tryCatch(
+    cfbfastR::cfbd_team_roster(
+      year = season
+    ),
+
+    error = function(e) {
+
+      msg(
+        "CFBD roster download failed: %s",
+        conditionMessage(e)
+      )
+
+      NULL
+
+    }
+  )
+
+
+  if (
+    is.null(roster) ||
+    nrow(roster) == 0 ||
+    !all(
+      c(
+        "athlete_id",
+        "position"
+      ) %in%
+        names(roster)
+    )
+  ) {
+
+    msg(
+      paste0(
+        "WARNING: CFBD roster data did not contain athlete_id and position. ",
+        "position_rush will be left NA for unresolved rushing plays."
+      )
+    )
+
+
+    if (
+      !"position_rush" %in%
+        names(pbp)
+    ) {
+
+      pbp$position_rush <-
+        NA_character_
+
+    }
+
+    return(pbp)
+
+  }
+
+
+  roster_map <- roster %>%
+    filter(
+      !is.na(
+        athlete_id
+      ),
+      as.character(
+        athlete_id
+      ) != ""
+    ) %>%
+    transmute(
+      rush_player_id =
+        as.character(
+          athlete_id
+        ),
+
+      position_rush_live =
+        as.character(
+          position
+        )
+    ) %>%
+    distinct(
+      rush_player_id,
+      .keep_all = TRUE
+    )
+
+
+  had_position_rush <-
+    "position_rush" %in%
+      names(pbp)
+
+
+  pbp <- pbp %>%
+    mutate(
+      id_play =
+        as.character(
+          id_play
+        )
+    ) %>%
+    left_join(
+      rush_map,
+      by = "id_play"
+    ) %>%
+    left_join(
+      roster_map,
+      by = "rush_player_id"
+    )
+
+
+  if (had_position_rush) {
+
+    pbp <- pbp %>%
+      mutate(
+        position_rush =
+          coalesce(
+            as.character(
+              position_rush
+            ),
+            position_rush_live
+          )
+      )
+
+  } else {
+
+    pbp <- pbp %>%
+      mutate(
+        position_rush =
+          position_rush_live
+      )
+
+  }
+
+
+  pbp <- pbp %>%
+    select(
+      -rush_player_id,
+      -position_rush_live
+    )
+
+
+  rush_plays <- sum(
+    pbp$rush == 1,
+    na.rm = TRUE
+  )
+
+
+  rush_positions <- sum(
+    pbp$rush == 1 &
+      !is.na(
+        pbp$position_rush
+      ),
+    na.rm = TRUE
+  )
+
+
+  msg(
+    "Rusher positions resolved for %d/%d rushing plays.",
+    rush_positions,
+    rush_plays
+  )
+
+
+  pbp
+}
+
+
+fetch_pbp <- function(
+    season,
+    completed_weeks = integer(0)
+) {
 
   msg(
     paste0(
       "Downloading play-by-play for %d ",
-      "(~100+ MB; silent and can take several minutes on slow connections)..."
+      "(published cfbfastR season file preferred)..."
     ),
     season
   )
@@ -1763,36 +2137,223 @@ fetch_pbp <- function(season) {
   )
 
 
-  pbp <- tryCatch(
-    cfbfastR::load_cfb_pbp(
-      season
-    ),
+  pbp <- suppressWarnings(
+    tryCatch(
+      cfbfastR::load_cfb_pbp(
+        season
+      ),
 
-    error = function(e) {
+      error = function(e) {
 
-      msg(
-        paste0(
-          "load_cfb_pbp(%d) unavailable (%s) ",
-          "-- treating as preseason: no PBP."
-        ),
-        season,
-        conditionMessage(e)
-      )
+        msg(
+          "Published cfbfastR PBP for %d is unavailable: %s",
+          season,
+          conditionMessage(e)
+        )
 
-      NULL
+        NULL
 
-    }
+      }
+    )
   )
 
 
+  used_live_fallback <- FALSE
+
+
   if (
-    is.null(pbp) ||
-    nrow(pbp) == 0
+    !is.null(pbp) &&
+    nrow(pbp) > 0
   ) {
 
-    return(NULL)
+    msg(
+      "Published cfbfastR PBP loaded successfully."
+    )
+
+  } else {
+
+    completed_weeks <- sort(
+      unique(
+        suppressWarnings(
+          as.integer(
+            completed_weeks
+          )
+        )
+      )
+    )
+
+
+    completed_weeks <- completed_weeks[
+      !is.na(
+        completed_weeks
+      )
+    ]
+
+
+    if (!length(completed_weeks)) {
+
+      msg(
+        paste0(
+          "No completed weeks and no published PBP. ",
+          "Treating season as preseason."
+        )
+      )
+
+      return(NULL)
+
+    }
+
+
+    if (
+      !nzchar(
+        Sys.getenv(
+          "CFBD_API_KEY"
+        )
+      )
+    ) {
+
+      stop(
+        paste0(
+          "Published current-season PBP is unavailable and CFBD_API_KEY ",
+          "is not set, so the live CFBD fallback cannot run."
+        ),
+        call. = FALSE
+      )
+
+    }
+
+
+    used_live_fallback <- TRUE
+
+
+    msg(
+      paste0(
+        "Published season PBP unavailable. ",
+        "Falling back to the live CFBD API for completed weeks: %s"
+      ),
+      paste(
+        completed_weeks,
+        collapse = ", "
+      )
+    )
+
+
+    pbp_parts <- lapply(
+      completed_weeks,
+
+      function(wk) {
+
+        msg(
+          "Downloading and processing live CFBD PBP for week %d...",
+          wk
+        )
+
+
+        tryCatch(
+          cfbfastR::cfbd_pbp_data(
+            year = season,
+            season_type = "regular",
+            week = wk,
+            epa_wpa = TRUE,
+            engine = "legacy"
+          ),
+
+          error = function(e) {
+
+            msg(
+              "Live CFBD PBP failed for week %d: %s",
+              wk,
+              conditionMessage(e)
+            )
+
+            NULL
+
+          }
+        )
+
+      }
+    )
+
+
+    pbp <- bind_rows(
+      pbp_parts
+    )
+
+
+    if (
+      is.null(pbp) ||
+      nrow(pbp) == 0
+    ) {
+
+      stop(
+        paste0(
+          "Both the published cfbfastR PBP and the live CFBD API fallback ",
+          "returned no plays for the completed weeks."
+        ),
+        call. = FALSE
+      )
+
+    }
+
+
+    msg(
+      "Live CFBD fallback returned %d plays before de-duplication.",
+      nrow(pbp)
+    )
 
   }
+
+
+  if (
+    "wk" %in%
+      names(pbp) &&
+    !"week" %in%
+      names(pbp)
+  ) {
+
+    pbp <- pbp %>%
+      rename(
+        week = wk
+      )
+
+  }
+
+
+  if (
+    !"year" %in%
+      names(pbp) &&
+    "season" %in%
+      names(pbp)
+  ) {
+
+    pbp$year <-
+      pbp$season
+
+  }
+
+
+  if (
+    !"season" %in%
+      names(pbp) &&
+    "year" %in%
+      names(pbp)
+  ) {
+
+    pbp$season <-
+      pbp$year
+
+  }
+
+
+  require_cols(
+    pbp,
+    c(
+      "game_id",
+      "id_play",
+      "week"
+    ),
+    "CFB play-by-play identity fields"
+  )
 
 
   pbp <- pbp %>%
@@ -1800,7 +2361,28 @@ fetch_pbp <- function(season) {
       game_id,
       id_play,
       .keep_all = TRUE
-    ) %>%
+    )
+
+
+  if (used_live_fallback) {
+
+    pbp <- add_position_rush_from_cfbd(
+      pbp,
+      season
+    )
+
+  } else if (
+    !"position_rush" %in%
+      names(pbp)
+  ) {
+
+    pbp$position_rush <-
+      NA_character_
+
+  }
+
+
+  pbp <- pbp %>%
     mutate(
       season =
         if (
@@ -1809,15 +2391,26 @@ fetch_pbp <- function(season) {
         ) {
 
           coalesce(
-            season,
-            year
+            as.integer(
+              season
+            ),
+            as.integer(
+              year
+            )
           )
 
         } else {
 
-          year
+          as.integer(
+            year
+          )
 
-        }
+        },
+
+      week =
+        as.integer(
+          week
+        )
     )
 
 
@@ -1861,12 +2454,16 @@ fetch_pbp <- function(season) {
       "def_pos_team"
     ),
 
-    "load_cfb_pbp"
+    if (used_live_fallback) {
+      "live CFBD PBP fallback"
+    } else {
+      "load_cfb_pbp"
+    }
   )
 
 
   msg(
-    "Play-by-play loaded: %d plays, weeks %d-%d.",
+    "Play-by-play loaded: %d plays, weeks %d-%d%s.",
     nrow(pbp),
 
     min(
@@ -1877,7 +2474,13 @@ fetch_pbp <- function(season) {
     max(
       pbp$week,
       na.rm = TRUE
-    )
+    ),
+
+    if (used_live_fallback) {
+      " via live CFBD fallback"
+    } else {
+      ""
+    }
   )
 
 
@@ -4176,11 +4779,6 @@ if (run_main) {
     }
 
 
-  pbp <- fetch_pbp(
-    TARGET_SEASON
-  )
-
-
   completed_wk <- games %>%
     filter(
       completed
@@ -4188,6 +4786,24 @@ if (run_main) {
     pull(
       week
     )
+
+
+  completed_wk <- sort(
+    unique(
+      suppressWarnings(
+        as.integer(
+          completed_wk
+        )
+      )
+    )
+  )
+
+
+  completed_wk <- completed_wk[
+    !is.na(
+      completed_wk
+    )
+  ]
 
 
   max_completed <-
@@ -4206,6 +4822,12 @@ if (run_main) {
       0L
 
     }
+
+
+  pbp <- fetch_pbp(
+    TARGET_SEASON,
+    completed_weeks = completed_wk
+  )
 
 
   max_pbp_wk <-
