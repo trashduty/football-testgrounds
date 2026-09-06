@@ -4331,7 +4331,7 @@ if (run_main) {
       ) ||
         max_pbp_wk < 1
     ) &&
-      max_completed >= 1
+      max_completed > 1
   ) {
 
     stop(
