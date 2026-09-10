@@ -375,52 +375,42 @@ def _draw_btb_brand(
     draw: ImageDraw.ImageDraw,
     session: requests.Session,
 ) -> None:
+    """
+    Draw compact BTB branding in the upper-right corner.
+
+    Keeping the branding at the top prevents it from interfering
+    with footnotes/captions at the bottom of social graphics.
+    """
 
     logo = _download_image(
         BTB_LOGO_URL,
         session,
     )
 
+    # Compact logo in upper-right
     if logo is not None:
 
         logo = _fit_image(
             logo,
-            135,
-            70,
+            76,
+            52,
         )
+
+        logo_x = (
+            WIDTH
+            - logo.width
+            - 42
+        )
+
+        logo_y = 28
 
         canvas.alpha_composite(
             logo,
             (
-                42,
-                HEIGHT - 92,
+                logo_x,
+                logo_y,
             ),
         )
-
-    draw.text(
-        (
-            WIDTH - 305,
-            HEIGHT - 67,
-        ),
-        "BTB ANALYTICS",
-        font=_font(
-            24,
-            bold=True,
-        ),
-        fill=WHITE,
-    )
-
-    draw.text(
-        (
-            WIDTH - 305,
-            HEIGHT - 38,
-        ),
-        "Data over hype.",
-        font=_font(
-            16,
-        ),
-        fill=MUTED,
-    )
 
 
 # --------------------------------------------------------------------------- #
