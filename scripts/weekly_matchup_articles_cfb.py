@@ -2291,7 +2291,7 @@ def render_btb_html(
 
 .btb-matchup-article .btb-stats-table .btb-better {{
     font-weight: 900;
-    color: #ffffff;
+    color: var(--btb-green);
 }}
 
 .btb-matchup-article .btb-stats-table td:not(.btb-stat-name) {{
