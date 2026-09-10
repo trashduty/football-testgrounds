@@ -729,13 +729,13 @@ Our model found edges of at least 3% on **19 games** this week. See the model ou
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Tech Bulldogs | +34.5 (-105) | DraftKings | 52.7% | Lean – doesn't meet our edge criteria to fully bet |
+| Louisiana Tech Bulldogs | +35.5 (-115) | Fanatics | 54.7% | Lean – doesn't meet our edge criteria to fully bet |
 | LSU Tigers | -35.5 (+100) | FanDuel | 44.5% | No Bet |
 
 The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Louisiana Tech Bulldogs take on the LSU Tigers at Tiger Stadium (LA) and the model sees a lean toward Louisiana Tech Bulldogs +34.5 with an edge of 1.47%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Louisiana Tech Bulldogs take on the LSU Tigers at Tiger Stadium (LA) and the model sees a lean toward Louisiana Tech Bulldogs +35.5 with an edge of 1.25%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -1368,8 +1368,8 @@ Our model found edges of at least 3% on **19 games** this week. See the model ou
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Rutgers Scarlet Knights | +3.5 (-112) | DraftKings | 53.5% | No Bet |
-| Boston College Eagles | -3.5 (-105) | FanDuel | 46.3% | No Bet |
+| Rutgers Scarlet Knights | +3.5 (-112) | BetMGM | 53.5% | No Bet |
+| Boston College Eagles | -3.5 (-102) | DraftKings | 46.3% | No Bet |
 
 The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
@@ -1497,13 +1497,13 @@ Our model found edges of at least 3% on **19 games** this week. See the model ou
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Alabama Jaguars | +9.5 (-106) | FanDuel | 49.2% | No Bet |
-| Tulane Green Wave | -9.5 (-110) | DraftKings | 51.2% | No Bet |
+| South Alabama Jaguars | +9.5 (-105) | DraftKings | 49.2% | No Bet |
+| Tulane Green Wave | -9.5 (-112) | BetRivers | 51.2% | No Bet |
 
 The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The South Alabama Jaguars take on the Tulane Green Wave at Yulman Stadium and the model sees a lean toward Tulane Green Wave -9.5 with an edge of -1.14%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The South Alabama Jaguars take on the Tulane Green Wave at Yulman Stadium and the model sees a lean toward Tulane Green Wave -9.5 with an edge of -1.59%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

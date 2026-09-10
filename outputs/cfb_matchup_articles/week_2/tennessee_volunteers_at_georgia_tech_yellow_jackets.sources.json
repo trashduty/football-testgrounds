@@ -2,14 +2,14 @@
   "game": "Tennessee Volunteers@Georgia Tech Yellow Jackets",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.587999+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.785531+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Tennessee Volunteers",
-      "No guide found for Georgia Tech Yellow Jackets"
+      "No guide found for Tennessee Volunteers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf",
+      "No guide found for Georgia Tech Yellow Jackets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Tech.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

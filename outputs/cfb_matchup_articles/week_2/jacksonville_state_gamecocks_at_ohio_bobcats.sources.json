@@ -2,14 +2,14 @@
   "game": "Jacksonville State Gamecocks@Ohio Bobcats",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.414284+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.533313+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Jacksonville State Gamecocks",
-      "No guide found for Ohio Bobcats"
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf",
+      "No guide found for Ohio Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

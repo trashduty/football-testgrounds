@@ -2,14 +2,14 @@
   "game": "Memphis Tigers@Boise State Broncos",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.444176+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.576830+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Memphis Tigers",
-      "No guide found for Boise State Broncos"
+      "No guide found for Memphis Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Memphis.pdf",
+      "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

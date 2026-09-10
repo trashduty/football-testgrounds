@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-10T06:18:37.291163+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.350499+00:00",
   "season": 2026,
   "week": 2,
   "articles": [
@@ -19,8 +19,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Alabama Crimson Tide",
-          "No guide found for Kentucky Wildcats"
+          "No guide found for Alabama Crimson Tide. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Alabama.pdf",
+          "No guide found for Kentucky Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kentucky.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -45,8 +45,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for App State Mountaineers",
-          "No guide found for East Carolina Pirates"
+          "No guide found for App State Mountaineers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/App State.pdf",
+          "No guide found for East Carolina Pirates. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/East Carolina.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -71,8 +71,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Arizona State Sun Devils",
-          "No guide found for Texas A&M Aggies"
+          "No guide found for Arizona State Sun Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona State.pdf",
+          "No guide found for Texas A&M Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -97,8 +97,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Arizona Wildcats",
-          "No guide found for BYU Cougars"
+          "No guide found for Arizona Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona.pdf",
+          "No guide found for BYU Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/BYU.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -123,8 +123,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Arkansas Razorbacks",
-          "No guide found for Utah Utes"
+          "No guide found for Arkansas Razorbacks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas.pdf",
+          "No guide found for Utah Utes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -149,8 +149,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Bowling Green Falcons",
-          "No guide found for Nebraska Cornhuskers"
+          "No guide found for Bowling Green Falcons. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Bowling Green.pdf",
+          "No guide found for Nebraska Cornhuskers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nebraska.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -175,8 +175,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Buffalo Bulls",
-          "No guide found for Florida International Panthers"
+          "No guide found for Buffalo Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Buffalo.pdf",
+          "No guide found for Florida International Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida InternationaL.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -201,8 +201,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for California Golden Bears",
-          "No guide found for Syracuse Orange"
+          "No guide found for California Golden Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
+          "No guide found for Syracuse Orange. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -227,8 +227,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Charlotte 49ers",
-          "No guide found for Ole Miss Rebels"
+          "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf",
+          "No guide found for Ole Miss Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -253,8 +253,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Delaware Blue Hens",
-          "No guide found for Vanderbilt Commodores"
+          "No guide found for Delaware Blue Hens. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Delaware.pdf",
+          "No guide found for Vanderbilt Commodores. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Vanderbilt.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -279,8 +279,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Duke Blue Devils",
-          "No guide found for Illinois Fighting Illini"
+          "No guide found for Duke Blue Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Duke.pdf",
+          "No guide found for Illinois Fighting Illini. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Illinois.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -305,8 +305,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Eastern Michigan Eagles",
-          "No guide found for Michigan State Spartans"
+          "No guide found for Eastern Michigan Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Eastern Michigan.pdf",
+          "No guide found for Michigan State Spartans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -331,8 +331,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Georgia Southern Eagles",
-          "No guide found for Clemson Tigers"
+          "No guide found for Georgia Southern Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Southern.pdf",
+          "No guide found for Clemson Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Clemson.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -357,8 +357,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Georgia State Panthers",
-          "No guide found for Kennesaw State Owls"
+          "No guide found for Georgia State Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia State.pdf",
+          "No guide found for Kennesaw State Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kennesaw State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -383,8 +383,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Iowa State Cyclones",
-          "No guide found for Iowa Hawkeyes"
+          "No guide found for Iowa State Cyclones. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa State.pdf",
+          "No guide found for Iowa Hawkeyes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -409,8 +409,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Jacksonville State Gamecocks",
-          "No guide found for Ohio Bobcats"
+          "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf",
+          "No guide found for Ohio Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -435,8 +435,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Louisiana Ragin Cajuns",
-          "No guide found for USC Trojans"
+          "No guide found for Louisiana Ragin Cajuns. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana.pdf",
+          "No guide found for USC Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -461,8 +461,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Louisiana Tech Bulldogs",
-          "No guide found for LSU Tigers"
+          "No guide found for Louisiana Tech Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana Tech.pdf",
+          "No guide found for LSU Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -487,8 +487,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Maryland Terrapins",
-          "No guide found for UConn Huskies"
+          "No guide found for Maryland Terrapins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Maryland.pdf",
+          "No guide found for UConn Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Connecticut.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -513,8 +513,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Memphis Tigers",
-          "No guide found for Boise State Broncos"
+          "No guide found for Memphis Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Memphis.pdf",
+          "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -539,8 +539,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Middle Tennessee Blue Raiders",
-          "No guide found for Marshall Thundering Herd"
+          "No guide found for Middle Tennessee Blue Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Middle Tennessee.pdf",
+          "No guide found for Marshall Thundering Herd. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Marshall.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -565,8 +565,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Mississippi State Bulldogs",
-          "No guide found for Minnesota Golden Gophers"
+          "No guide found for Mississippi State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Mississippi State.pdf",
+          "No guide found for Minnesota Golden Gophers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Minnesota.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -591,8 +591,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Missouri Tigers",
-          "No guide found for Kansas Jayhawks"
+          "No guide found for Missouri Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
+          "No guide found for Kansas Jayhawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -617,8 +617,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Navy Midshipmen",
-          "No guide found for Florida Atlantic Owls"
+          "No guide found for Navy Midshipmen. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Navy.pdf",
+          "No guide found for Florida Atlantic Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida Atlantic.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -643,8 +643,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for New Mexico State Aggies",
-          "No guide found for Hawaii Rainbow Warriors"
+          "No guide found for New Mexico State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico State.pdf",
+          "No guide found for Hawaii Rainbow Warriors. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Hawai'i.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -669,8 +669,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for North Dakota State",
-          "No guide found for Air Force Falcons"
+          "No guide found for North Dakota State. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Dakota State.pdf",
+          "No guide found for Air Force Falcons. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Air Force.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -695,8 +695,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Ohio State Buckeyes",
-          "No guide found for Texas Longhorns"
+          "No guide found for Ohio State Buckeyes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio State.pdf",
+          "No guide found for Texas Longhorns. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -721,8 +721,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Oklahoma Sooners",
-          "No guide found for Michigan Wolverines"
+          "No guide found for Oklahoma Sooners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oklahoma.pdf",
+          "No guide found for Michigan Wolverines. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -747,8 +747,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Old Dominion Monarchs",
-          "No guide found for Virginia Tech Hokies"
+          "No guide found for Old Dominion Monarchs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Old Dominion.pdf",
+          "No guide found for Virginia Tech Hokies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -773,8 +773,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Oregon Ducks",
-          "No guide found for Oklahoma State Cowboys"
+          "No guide found for Oregon Ducks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon.pdf",
+          "No guide found for Oklahoma State Cowboys. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oklahoma State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -799,8 +799,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Penn State Nittany Lions",
-          "No guide found for Temple Owls"
+          "No guide found for Penn State Nittany Lions. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Penn State.pdf",
+          "No guide found for Temple Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -825,8 +825,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Rice Owls",
-          "No guide found for Notre Dame Fighting Irish"
+          "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf",
+          "No guide found for Notre Dame Fighting Irish. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Notre Dame.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -851,8 +851,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Rutgers Scarlet Knights",
-          "No guide found for Boston College Eagles"
+          "No guide found for Rutgers Scarlet Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rutgers.pdf",
+          "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -877,8 +877,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Sacramento State",
-          "No guide found for Fresno State Bulldogs"
+          "No guide found for Sacramento State. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Sacramento State.pdf",
+          "No guide found for Fresno State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Fresno State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -903,8 +903,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for San Diego State Aztecs",
-          "No guide found for UCLA Bruins"
+          "No guide found for San Diego State Aztecs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Diego State.pdf",
+          "No guide found for UCLA Bruins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCLA.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -929,8 +929,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for South Alabama Jaguars",
-          "No guide found for Tulane Green Wave"
+          "No guide found for South Alabama Jaguars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Alabama.pdf",
+          "No guide found for Tulane Green Wave. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulane.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -955,8 +955,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for South Florida Bulls",
-          "No guide found for Army Black Knights"
+          "No guide found for South Florida Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Florida.pdf",
+          "No guide found for Army Black Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Army.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -981,8 +981,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Southern Mississippi Golden Eagles",
-          "No guide found for Auburn Tigers"
+          "No guide found for Southern Mississippi Golden Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Southern Mississippi.pdf",
+          "No guide found for Auburn Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Auburn.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1007,8 +1007,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Tennessee Volunteers",
-          "No guide found for Georgia Tech Yellow Jackets"
+          "No guide found for Tennessee Volunteers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf",
+          "No guide found for Georgia Tech Yellow Jackets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Tech.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1033,8 +1033,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Texas Tech Red Raiders",
-          "No guide found for Oregon State Beavers"
+          "No guide found for Texas Tech Red Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas Tech.pdf",
+          "No guide found for Oregon State Beavers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1059,8 +1059,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Tulsa Golden Hurricane",
-          "No guide found for Sam Houston State Bearkats"
+          "No guide found for Tulsa Golden Hurricane. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulsa.pdf",
+          "No guide found for Sam Houston State Bearkats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Sam Houston State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1085,8 +1085,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for UCF Knights",
-          "No guide found for Pittsburgh Panthers"
+          "No guide found for UCF Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCF.pdf",
+          "No guide found for Pittsburgh Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1111,8 +1111,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for UL Monroe Warhawks",
-          "No guide found for UAB Blazers"
+          "No guide found for UL Monroe Warhawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana Monroe.pdf",
+          "No guide found for UAB Blazers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UAB.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1137,8 +1137,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for UNLV Rebels",
-          "No guide found for North Texas Mean Green"
+          "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf",
+          "No guide found for North Texas Mean Green. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1163,8 +1163,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for UTSA Roadrunners",
-          "No guide found for Texas State Bobcats"
+          "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf",
+          "No guide found for Texas State Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1189,8 +1189,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Utah State Aggies",
-          "No guide found for Washington Huskies"
+          "No guide found for Utah State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah State.pdf",
+          "No guide found for Washington Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1215,8 +1215,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Wake Forest Demon Deacons",
-          "No guide found for Purdue Boilermakers"
+          "No guide found for Wake Forest Demon Deacons. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
+          "No guide found for Purdue Boilermakers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Purdue.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1241,8 +1241,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Washington State Cougars",
-          "No guide found for Kansas State Wildcats"
+          "No guide found for Washington State Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington State.pdf",
+          "No guide found for Kansas State Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas State.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],
@@ -1267,8 +1267,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Western Kentucky Hilltoppers",
-          "No guide found for Georgia Bulldogs"
+          "No guide found for Western Kentucky Hilltoppers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Kentucky.pdf",
+          "No guide found for Georgia Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia.pdf"
         ],
         "guide_extractions": [],
         "matchup_angles": [],

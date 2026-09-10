@@ -2,14 +2,14 @@
   "game": "Charlotte 49ers@Ole Miss Rebels",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.362174+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.450683+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Charlotte 49ers",
-      "No guide found for Ole Miss Rebels"
+      "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf",
+      "No guide found for Ole Miss Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

@@ -2,14 +2,14 @@
   "game": "New Mexico State Aggies@Hawaii Rainbow Warriors",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.482312+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.631124+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for New Mexico State Aggies",
-      "No guide found for Hawaii Rainbow Warriors"
+      "No guide found for New Mexico State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico State.pdf",
+      "No guide found for Hawaii Rainbow Warriors. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Hawai'i.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

@@ -2,14 +2,14 @@
   "game": "Utah State Aggies@Washington Huskies",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.640448+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.865902+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Utah State Aggies",
-      "No guide found for Washington Huskies"
+      "No guide found for Utah State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah State.pdf",
+      "No guide found for Washington Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

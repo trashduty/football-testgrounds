@@ -2,14 +2,14 @@
   "game": "South Florida Bulls@Army Black Knights",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.572837+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.763240+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for South Florida Bulls",
-      "No guide found for Army Black Knights"
+      "No guide found for South Florida Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Florida.pdf",
+      "No guide found for Army Black Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Army.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

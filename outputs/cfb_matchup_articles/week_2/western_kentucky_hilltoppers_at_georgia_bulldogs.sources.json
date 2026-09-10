@@ -2,14 +2,14 @@
   "game": "Western Kentucky Hilltoppers@Georgia Bulldogs",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.663331+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.898997+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Western Kentucky Hilltoppers",
-      "No guide found for Georgia Bulldogs"
+      "No guide found for Western Kentucky Hilltoppers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Kentucky.pdf",
+      "No guide found for Georgia Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

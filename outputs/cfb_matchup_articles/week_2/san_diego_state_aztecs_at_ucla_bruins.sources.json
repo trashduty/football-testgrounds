@@ -2,14 +2,14 @@
   "game": "San Diego State Aztecs@UCLA Bruins",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.558197+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.741280+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for San Diego State Aztecs",
-      "No guide found for UCLA Bruins"
+      "No guide found for San Diego State Aztecs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Diego State.pdf",
+      "No guide found for UCLA Bruins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCLA.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

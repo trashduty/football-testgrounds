@@ -2,14 +2,14 @@
   "game": "Sacramento State@Fresno State Bulldogs",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.550921+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.730759+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Sacramento State",
-      "No guide found for Fresno State Bulldogs"
+      "No guide found for Sacramento State. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Sacramento State.pdf",
+      "No guide found for Fresno State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Fresno State.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

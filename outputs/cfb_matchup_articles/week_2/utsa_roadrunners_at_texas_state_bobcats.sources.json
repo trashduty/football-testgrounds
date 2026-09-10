@@ -2,14 +2,14 @@
   "game": "UTSA Roadrunners@Texas State Bobcats",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.633215+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.854933+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for UTSA Roadrunners",
-      "No guide found for Texas State Bobcats"
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf",
+      "No guide found for Texas State Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas State.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

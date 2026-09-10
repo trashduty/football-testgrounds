@@ -2,14 +2,14 @@
   "game": "North Dakota State@Air Force Falcons",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.490297+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.642267+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for North Dakota State",
-      "No guide found for Air Force Falcons"
+      "No guide found for North Dakota State. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Dakota State.pdf",
+      "No guide found for Air Force Falcons. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Air Force.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

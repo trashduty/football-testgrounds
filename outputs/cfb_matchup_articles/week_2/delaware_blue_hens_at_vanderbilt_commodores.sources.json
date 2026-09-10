@@ -2,14 +2,14 @@
   "game": "Delaware Blue Hens@Vanderbilt Commodores",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.369820+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.461263+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Delaware Blue Hens",
-      "No guide found for Vanderbilt Commodores"
+      "No guide found for Delaware Blue Hens. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Delaware.pdf",
+      "No guide found for Vanderbilt Commodores. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Vanderbilt.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

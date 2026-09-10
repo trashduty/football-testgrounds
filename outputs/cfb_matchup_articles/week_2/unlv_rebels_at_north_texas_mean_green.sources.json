@@ -2,14 +2,14 @@
   "game": "UNLV Rebels@North Texas Mean Green",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.625995+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.844223+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for UNLV Rebels",
-      "No guide found for North Texas Mean Green"
+      "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf",
+      "No guide found for North Texas Mean Green. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

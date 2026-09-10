@@ -2,14 +2,14 @@
   "game": "Maryland Terrapins@UConn Huskies",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.436927+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.566028+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Maryland Terrapins",
-      "No guide found for UConn Huskies"
+      "No guide found for Maryland Terrapins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Maryland.pdf",
+      "No guide found for UConn Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Connecticut.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

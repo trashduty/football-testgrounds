@@ -2,14 +2,14 @@
   "game": "UCF Knights@Pittsburgh Panthers",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.610941+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.818926+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for UCF Knights",
-      "No guide found for Pittsburgh Panthers"
+      "No guide found for UCF Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCF.pdf",
+      "No guide found for Pittsburgh Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

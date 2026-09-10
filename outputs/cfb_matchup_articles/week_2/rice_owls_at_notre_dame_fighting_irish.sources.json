@@ -2,14 +2,14 @@
   "game": "Rice Owls@Notre Dame Fighting Irish",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.536319+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.708785+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Rice Owls",
-      "No guide found for Notre Dame Fighting Irish"
+      "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf",
+      "No guide found for Notre Dame Fighting Irish. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Notre Dame.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

@@ -2,14 +2,14 @@
   "game": "Rutgers Scarlet Knights@Boston College Eagles",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.543592+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.719957+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Rutgers Scarlet Knights",
-      "No guide found for Boston College Eagles"
+      "No guide found for Rutgers Scarlet Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rutgers.pdf",
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

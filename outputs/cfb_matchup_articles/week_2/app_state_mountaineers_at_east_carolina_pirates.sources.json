@@ -2,14 +2,14 @@
   "game": "App State Mountaineers@East Carolina Pirates",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.309664+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.375969+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for App State Mountaineers",
-      "No guide found for East Carolina Pirates"
+      "No guide found for App State Mountaineers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/App State.pdf",
+      "No guide found for East Carolina Pirates. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/East Carolina.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

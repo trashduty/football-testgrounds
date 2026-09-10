@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Rutgers Scarlet Knights | +3.5 (-112) | DraftKings | 53.5% | No Bet |
-| Boston College Eagles | -3.5 (-105) | FanDuel | 46.3% | No Bet |
+| Rutgers Scarlet Knights | +3.5 (-112) | BetMGM | 53.5% | No Bet |
+| Boston College Eagles | -3.5 (-102) | DraftKings | 46.3% | No Bet |
 
 The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 

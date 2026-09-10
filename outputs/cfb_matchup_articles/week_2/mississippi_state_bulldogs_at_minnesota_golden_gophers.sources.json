@@ -2,14 +2,14 @@
   "game": "Mississippi State Bulldogs@Minnesota Golden Gophers",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.458754+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.598490+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Mississippi State Bulldogs",
-      "No guide found for Minnesota Golden Gophers"
+      "No guide found for Mississippi State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Mississippi State.pdf",
+      "No guide found for Minnesota Golden Gophers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Minnesota.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

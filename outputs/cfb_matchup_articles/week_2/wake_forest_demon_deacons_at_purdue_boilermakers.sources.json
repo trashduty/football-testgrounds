@@ -2,14 +2,14 @@
   "game": "Wake Forest Demon Deacons@Purdue Boilermakers",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.648745+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.877703+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Wake Forest Demon Deacons",
-      "No guide found for Purdue Boilermakers"
+      "No guide found for Wake Forest Demon Deacons. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
+      "No guide found for Purdue Boilermakers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Purdue.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

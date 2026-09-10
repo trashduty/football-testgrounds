@@ -2,14 +2,14 @@
   "game": "Louisiana Ragin Cajuns@USC Trojans",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.421873+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.544230+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Louisiana Ragin Cajuns",
-      "No guide found for USC Trojans"
+      "No guide found for Louisiana Ragin Cajuns. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana.pdf",
+      "No guide found for USC Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

@@ -2,14 +2,14 @@
   "game": "Missouri Tigers@Kansas Jayhawks",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.466866+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.609502+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Missouri Tigers",
-      "No guide found for Kansas Jayhawks"
+      "No guide found for Missouri Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
+      "No guide found for Kansas Jayhawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],

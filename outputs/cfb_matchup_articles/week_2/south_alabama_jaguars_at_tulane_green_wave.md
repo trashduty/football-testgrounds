@@ -6,13 +6,13 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Alabama Jaguars | +9.5 (-106) | FanDuel | 49.2% | No Bet |
-| Tulane Green Wave | -9.5 (-110) | DraftKings | 51.2% | No Bet |
+| South Alabama Jaguars | +9.5 (-105) | DraftKings | 49.2% | No Bet |
+| Tulane Green Wave | -9.5 (-112) | BetRivers | 51.2% | No Bet |
 
 The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The South Alabama Jaguars take on the Tulane Green Wave at Yulman Stadium and the model sees a lean toward Tulane Green Wave -9.5 with an edge of -1.14%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The South Alabama Jaguars take on the Tulane Green Wave at Yulman Stadium and the model sees a lean toward Tulane Green Wave -9.5 with an edge of -1.59%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

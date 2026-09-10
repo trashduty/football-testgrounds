@@ -6,13 +6,13 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Tech Bulldogs | +34.5 (-105) | DraftKings | 52.7% | Lean – doesn't meet our edge criteria to fully bet |
+| Louisiana Tech Bulldogs | +35.5 (-115) | Fanatics | 54.7% | Lean – doesn't meet our edge criteria to fully bet |
 | LSU Tigers | -35.5 (+100) | FanDuel | 44.5% | No Bet |
 
 The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
 
 ## The Bottom Line
-The Louisiana Tech Bulldogs take on the LSU Tigers at Tiger Stadium (LA) and the model sees a lean toward Louisiana Tech Bulldogs +34.5 with an edge of 1.47%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Louisiana Tech Bulldogs take on the LSU Tigers at Tiger Stadium (LA) and the model sees a lean toward Louisiana Tech Bulldogs +35.5 with an edge of 1.25%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 

@@ -2,14 +2,14 @@
   "game": "Middle Tennessee Blue Raiders@Marshall Thundering Herd",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:18:37.451443+00:00",
+  "generated_at_utc": "2026-09-10T06:35:01.587445+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Middle Tennessee Blue Raiders",
-      "No guide found for Marshall Thundering Herd"
+      "No guide found for Middle Tennessee Blue Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Middle Tennessee.pdf",
+      "No guide found for Marshall Thundering Herd. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Marshall.pdf"
     ],
     "guide_extractions": [],
     "matchup_angles": [],
