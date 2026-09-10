@@ -279,97 +279,256 @@ def rank_team_stats(
 def build_cfb_tale_of_tape(
     bet_id: int,
     opp_id: int,
-    ranked: pd.DataFrame,
+    ranked_stats: pd.DataFrame,
     crosswalk: pd.DataFrame,
 ) -> List[str]:
     """
-    Render six-row markdown comparison table.
+    Build a branded tale-of-the-tape table for the matchup article.
+
+    - Stat names are bold
+    - Rows are styled via CSS class hooks
+    - Better team in each category is bolded
+    - Lower rank is considered better
     """
 
-    names = (
-        crosswalk
-        .dropna(
-            subset=[
-                "team_id",
-                "btb_team",
-            ]
-        )
-        .drop_duplicates(
-            subset=["team_id"]
-        )
-        .set_index(
-            "team_id"
-        )["btb_team"]
-        .to_dict()
-    )
+    def _lookup_names(
+        cw: pd.DataFrame,
+        column: str,
+    ) -> Dict[int, str]:
 
-    ranked_by_id = (
-        ranked
-        .dropna(
-            subset=["team_id"]
+        clean = (
+            cw.dropna(
+                subset=[
+                    "team_id",
+                    column,
+                ]
+            )
+            .copy()
         )
-        .drop_duplicates(
-            subset=["team_id"]
-        )
-        .set_index(
-            "team_id"
-        )
-    )
 
-    def cell(
-        team_id: int,
-        name: str,
+        clean["team_id"] = pd.to_numeric(
+            clean["team_id"],
+            errors="coerce",
+        )
+
+        clean = clean.dropna(
+            subset=["team_id"]
+        )
+
+        clean["team_id"] = (
+            clean["team_id"]
+            .astype(int)
+        )
+
+        return (
+            clean.drop_duplicates(
+                subset=["team_id"]
+            )
+            .set_index("team_id")[column]
+            .astype(str)
+            .to_dict()
+        )
+
+    def _safe_rank(
+        row: pd.Series,
+        column: str,
+    ) -> Optional[int]:
+
+        if row is None or column not in row.index:
+            return None
+
+        value = row.get(column)
+
+        if value is None or pd.isna(value):
+            return None
+
+        try:
+            return int(value)
+        except (TypeError, ValueError):
+            return None
+
+    def _display_rank(
+        value: Optional[int],
     ) -> str:
 
-        if (
-            team_id
-            not in ranked_by_id.index
-        ):
-            return "unranked"
+        if value is None:
+            return "N/A"
 
-        value = (
-            ranked_by_id
-            .loc[team_id]
-            .get(
-                f"{name}_rank"
-            )
-        )
+        return f"#{value}"
 
-        return _ordinal(
-            value
-        )
+    def _is_better(
+        left: Optional[int],
+        right: Optional[int],
+    ) -> bool:
+        """
+        Lower rank is better.
+        """
 
-    bet_name = names.get(
-        bet_id,
+        if left is None:
+            return False
+
+        if right is None:
+            return True
+
+        return left < right
+
+    id_to_full = _lookup_names(
+        crosswalk,
+        "btb_team",
+    )
+
+    id_to_short = _lookup_names(
+        crosswalk,
+        "btb_team_short",
+    )
+
+    bet_name = id_to_full.get(
+        int(bet_id),
         str(bet_id),
     )
 
-    opp_name = names.get(
-        opp_id,
+    opp_name = id_to_full.get(
+        int(opp_id),
         str(opp_id),
     )
 
-    rows = [
+    bet_short = id_to_short.get(
+        int(bet_id),
+        bet_name,
+    )
+
+    opp_short = id_to_short.get(
+        int(opp_id),
+        opp_name,
+    )
+
+    stats = ranked_stats.copy()
+
+    stats["team_id"] = pd.to_numeric(
+        stats["team_id"],
+        errors="coerce",
+    )
+
+    bet_row_df = stats[
+        stats["team_id"]
+        == int(bet_id)
+    ]
+
+    opp_row_df = stats[
+        stats["team_id"]
+        == int(opp_id)
+    ]
+
+    if bet_row_df.empty or opp_row_df.empty:
+        return [
+            "<p><em>Matchup stat table unavailable for this game.</em></p>"
+        ]
+
+    bet_row = bet_row_df.iloc[0]
+    opp_row = opp_row_df.iloc[0]
+
+    metric_rows = [
         (
-            f"| | {bet_name} | "
-            f"{opp_name} |"
+            "Offensive Pass EPA Rank",
+            "off_pass_epa_rank",
         ),
-        "|---|---|---|",
+        (
+            "Offensive Rush EPA Rank",
+            "off_rush_epa_rank",
+        ),
+        (
+            "Defensive Pass EPA Rank",
+            "def_pass_epa_rank",
+        ),
+        (
+            "Defensive Rush EPA Rank",
+            "def_rush_epa_rank",
+        ),
+        (
+            "Offensive Eckel Rate Rank",
+            "off_eckel_rank",
+        ),
+        (
+            "Defensive Eckel Rate Rank",
+            "def_eckel_rank",
+        ),
+    ]
+
+    lines: List[str] = [
+        '<table class="btb-stats-table">',
+        "<thead>",
+        "<tr>",
+        "<th>Stat</th>",
+        f"<th>{html.escape(bet_short)}</th>",
+        f"<th>{html.escape(opp_short)}</th>",
+        "</tr>",
+        "</thead>",
+        "<tbody>",
     ]
 
     for (
-        name,
         label,
-        _,
-    ) in STAT_SPECS:
+        column,
+    ) in metric_rows:
 
-        rows.append(
-            f"| {label} | "
-            f"{cell(bet_id, name)} | "
-            f"{cell(opp_id, name)} |"
+        bet_rank = _safe_rank(
+            bet_row,
+            column,
         )
 
-    return rows
+        opp_rank = _safe_rank(
+            opp_row,
+            column,
+        )
+
+        bet_class = (
+            ' class="btb-better"'
+            if _is_better(
+                bet_rank,
+                opp_rank,
+            )
+            else ""
+        )
+
+        opp_class = (
+            ' class="btb-better"'
+            if _is_better(
+                opp_rank,
+                bet_rank,
+            )
+            else ""
+        )
+
+        lines.extend(
+            [
+                "<tr>",
+                (
+                    f'<td class="btb-stat-name">'
+                    f"{html.escape(label)}"
+                    f"</td>"
+                ),
+                (
+                    f"<td{bet_class}>"
+                    f"{_display_rank(bet_rank)}"
+                    f"</td>"
+                ),
+                (
+                    f"<td{opp_class}>"
+                    f"{_display_rank(opp_rank)}"
+                    f"</td>"
+                ),
+                "</tr>",
+            ]
+        )
+
+    lines.extend(
+        [
+            "</tbody>",
+            "</table>",
+        ]
+    )
+
+    return lines
 
 
 # --------------------------------------------------------------------------- #
