@@ -27,3 +27,4 @@ python-dateutil==2.9.0.post0
 PyYAML>=6.0.2,<7.0
 openai
 pypdf
+markdown
