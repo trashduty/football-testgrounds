@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | App State Mountaineers | +6.5 (+100) | FanDuel | 59.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| East Carolina Pirates | -7.0 (+100) | DraftKings | 37.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| East Carolina Pirates | -6.5 (-112) | BetMGM | 40.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 

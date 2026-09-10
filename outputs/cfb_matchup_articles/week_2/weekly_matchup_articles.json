@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-10T21:36:05.262608+00:00",
+  "generated_at_utc": "2026-09-10T22:50:05.066907+00:00",
   "season": 2026,
   "week": 2,
   "articles": [
@@ -21,13 +21,13 @@
       "bet_short": "Kentucky",
       "opp_name": "Alabama Crimson Tide",
       "opp_short": "Alabama",
-      "model_prediction": 10.0,
+      "model_prediction": 9.5,
       "market_line": 10.0,
       "best_line": 10.5,
-      "best_price": "-112",
+      "best_price": "-114",
       "best_book": "BetRivers",
-      "cover_probability": 0.53102252,
-      "edge": 0.0027206332075472,
+      "cover_probability": 0.54107882,
+      "edge": 0.0083685396261682,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -46,7 +46,10 @@
       "social_assets": {
         "x_model_graphic": "alabama_crimson_tide_at_kentucky_wildcats_x_model.png",
         "x_stats_graphic": "alabama_crimson_tide_at_kentucky_wildcats_x_stats.png",
-        "x_caption": "alabama_crimson_tide_at_kentucky_wildcats_x_caption.txt"
+        "x_caption": "alabama_crimson_tide_at_kentucky_wildcats_x_caption.txt",
+        "seo_file": "alabama_crimson_tide_at_kentucky_wildcats_seo.txt",
+        "seo_title": "Alabama vs Kentucky Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Kentucky +9.5 vs a market line of +10. See the best available spread, 54.1% cover probability, matchup stats, and our full Alabama-Kentucky analysis."
       },
       "html_path": "alabama_crimson_tide_at_kentucky_wildcats.html",
       "source_audit_path": "alabama_crimson_tide_at_kentucky_wildcats.sources.json"
@@ -94,7 +97,10 @@
       "social_assets": {
         "x_model_graphic": "app_state_mountaineers_at_east_carolina_pirates_x_model.png",
         "x_stats_graphic": "app_state_mountaineers_at_east_carolina_pirates_x_stats.png",
-        "x_caption": "app_state_mountaineers_at_east_carolina_pirates_x_caption.txt"
+        "x_caption": "app_state_mountaineers_at_east_carolina_pirates_x_caption.txt",
+        "seo_file": "app_state_mountaineers_at_east_carolina_pirates_seo.txt",
+        "seo_title": "App State vs East Carolina Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes App State +1.5 vs a market line of +6.5. See the best available spread, 59.8% cover probability, matchup stats, and our full App State-East Carolina analysis."
       },
       "html_path": "app_state_mountaineers_at_east_carolina_pirates.html",
       "source_audit_path": "app_state_mountaineers_at_east_carolina_pirates.sources.json"
@@ -142,7 +148,10 @@
       "social_assets": {
         "x_model_graphic": "arizona_state_sun_devils_at_texas_a&m_aggies_x_model.png",
         "x_stats_graphic": "arizona_state_sun_devils_at_texas_a&m_aggies_x_stats.png",
-        "x_caption": "arizona_state_sun_devils_at_texas_a&m_aggies_x_caption.txt"
+        "x_caption": "arizona_state_sun_devils_at_texas_a&m_aggies_x_caption.txt",
+        "seo_file": "arizona_state_sun_devils_at_texas_a&m_aggies_seo.txt",
+        "seo_title": "Arizona State vs Texas A&M Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Texas A&M -18 vs a market line of -14.5. See the best available spread, 54.3% cover probability, matchup stats, and our full Arizona State-Texas A&M analysis."
       },
       "html_path": "arizona_state_sun_devils_at_texas_a&m_aggies.html",
       "source_audit_path": "arizona_state_sun_devils_at_texas_a&m_aggies.sources.json"
@@ -190,7 +199,10 @@
       "social_assets": {
         "x_model_graphic": "arizona_wildcats_at_byu_cougars_x_model.png",
         "x_stats_graphic": "arizona_wildcats_at_byu_cougars_x_stats.png",
-        "x_caption": "arizona_wildcats_at_byu_cougars_x_caption.txt"
+        "x_caption": "arizona_wildcats_at_byu_cougars_x_caption.txt",
+        "seo_file": "arizona_wildcats_at_byu_cougars_seo.txt",
+        "seo_title": "Arizona vs BYU Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Arizona +7.5 vs a market line of +7.5. See the best available spread, 54.9% cover probability, matchup stats, and our full Arizona-BYU analysis."
       },
       "html_path": "arizona_wildcats_at_byu_cougars.html",
       "source_audit_path": "arizona_wildcats_at_byu_cougars.sources.json"
@@ -217,7 +229,7 @@
       "market_line": -12.5,
       "best_line": -12.5,
       "best_price": "-108",
-      "best_book": "BetMGM",
+      "best_book": "DraftKings",
       "cover_probability": 0.53430714,
       "edge": 0.0150763707692307,
       "has_bet": false,
@@ -238,7 +250,10 @@
       "social_assets": {
         "x_model_graphic": "arkansas_razorbacks_at_utah_utes_x_model.png",
         "x_stats_graphic": "arkansas_razorbacks_at_utah_utes_x_stats.png",
-        "x_caption": "arkansas_razorbacks_at_utah_utes_x_caption.txt"
+        "x_caption": "arkansas_razorbacks_at_utah_utes_x_caption.txt",
+        "seo_file": "arkansas_razorbacks_at_utah_utes_seo.txt",
+        "seo_title": "Arkansas vs Utah Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Utah -15.5 vs a market line of -12.5. See the best available spread, 53.4% cover probability, matchup stats, and our full Arkansas-Utah analysis."
       },
       "html_path": "arkansas_razorbacks_at_utah_utes.html",
       "source_audit_path": "arkansas_razorbacks_at_utah_utes.sources.json"
@@ -286,7 +301,10 @@
       "social_assets": {
         "x_model_graphic": "bowling_green_falcons_at_nebraska_cornhuskers_x_model.png",
         "x_stats_graphic": "bowling_green_falcons_at_nebraska_cornhuskers_x_stats.png",
-        "x_caption": "bowling_green_falcons_at_nebraska_cornhuskers_x_caption.txt"
+        "x_caption": "bowling_green_falcons_at_nebraska_cornhuskers_x_caption.txt",
+        "seo_file": "bowling_green_falcons_at_nebraska_cornhuskers_seo.txt",
+        "seo_title": "Bowling Green vs Nebraska Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Bowling Green +27 vs a market line of +30.5. See the best available spread, 56.4% cover probability, matchup stats, and our full Bowling Green-Nebraska analysis."
       },
       "html_path": "bowling_green_falcons_at_nebraska_cornhuskers.html",
       "source_audit_path": "bowling_green_falcons_at_nebraska_cornhuskers.sources.json"
@@ -334,7 +352,10 @@
       "social_assets": {
         "x_model_graphic": "buffalo_bulls_at_florida_international_panthers_x_model.png",
         "x_stats_graphic": "buffalo_bulls_at_florida_international_panthers_x_stats.png",
-        "x_caption": "buffalo_bulls_at_florida_international_panthers_x_caption.txt"
+        "x_caption": "buffalo_bulls_at_florida_international_panthers_x_caption.txt",
+        "seo_file": "buffalo_bulls_at_florida_international_panthers_seo.txt",
+        "seo_title": "Buffalo vs Florida InternationaL Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Buffalo +5 vs a market line of +10. See the best available spread, 60.7% cover probability, matchup stats, and our full Buffalo-Florida InternationaL analysis."
       },
       "html_path": "buffalo_bulls_at_florida_international_panthers.html",
       "source_audit_path": "buffalo_bulls_at_florida_international_panthers.sources.json"
@@ -367,8 +388,8 @@
       "has_bet": true,
       "guide_enrichment": {
         "enabled": true,
-        "narrative": "We are not reacting to Syracuse\u2019s 66-3 opener or California\u2019s 45-24 loss as if either result settles this matchup. The useful takeaway is that Syracuse showed multiple ways to create offense, while California gave up 277 rushing yards to UCLA. We saw Syracuse rush for 238 yards, with Shavane Anderson Jr. gaining 102 and Tylik Hill adding 91, which gives the offense a path around California\u2019s strongest defensive matchup.\n\nThat matters because our longer-run numbers identify Syracuse\u2019s passing offense against California\u2019s pass defense as the primary concern. For us, the case is less about asking Syracuse to dominate through the air and more about staying balanced enough to avoid predictable passing situations.\n\nWe also see potential separation on the other side. Syracuse produced five sacks, nine tackles for loss and three takeaways in its opener, while California quarterback Jaron-Keawe Sagapolutele threw two interceptions against UCLA. We are not assuming those one-game outcomes repeat, but Syracuse\u2019s ability to create pressure supports our view that California may struggle to sustain enough scoring opportunities. That broader combination is why our wager remains on Syracuse despite the difficult passing matchup.",
-        "matchup_to_watch": "We are watching Syracuse\u2019s passing offense against California\u2019s pass defense. Our efficiency numbers give California the clear advantage here, making this the most credible obstacle to Syracuse creating separation. Steve Angeli returned to throw for 263 yards in the opener, and Umari Hatcher produced career highs of eight catches, 147 yards and two touchdowns, but this is a more demanding test than those Week 1 results provide.\n\nFor us, the question is whether Syracuse can use its run game to keep Angeli out of obvious passing situations. If California can force the game through this specific matchup, it has a path to keeping the margin tight. If Syracuse remains balanced, the rest of the matchup better supports our overall position.",
+        "narrative": "We are not reacting simply to the opening-week scores. For us, the more relevant connection is that Syracuse produced 238 rushing yards while California allowed 277 on the ground. Results against different opponents do not transfer automatically, but that combination gives Syracuse a plausible way to control the game without relying entirely on its passing efficiency.",
+        "matchup_to_watch": "We will be watching Syracuse\u2019s passing offense against California\u2019s pass defense. Our underlying numbers identify this as California\u2019s clearest advantage, making it the primary concern for our position. Steve Angeli threw for 263 yards in his return, and Syracuse\u2019s offensive line received an 87.0 PFF pass-blocking grade in the opener, but one performance against New Hampshire does not settle this matchup. If Syracuse keeps Angeli comfortable enough to complement the running game, we think the broader paths supporting our wager remain intact.",
         "guide_status": [
           "No guide found for California Golden Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
           "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
@@ -379,7 +400,7 @@
             "source_team": "Syracuse Orange",
             "opponent": "California Golden Bears",
             "document_matches_upcoming_game": true,
-            "document_match_reason": "The guide identifies California at Syracuse as Game 2 on Sept. 12, 2026, and contains a California matchup section, opponent statistics and projected Syracuse depth chart.",
+            "document_match_reason": "The guide identifies California at Syracuse as Game 2 on Sept. 12, 2026, and includes a California matchup section, opponent statistics and series history.",
             "recent_game": [
               {
                 "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire.",
@@ -388,69 +409,57 @@
                 "importance": "high"
               },
               {
-                "fact": "Syracuse scored 41 first-half points against New Hampshire, its most in a half during Fran Brown's tenure.",
-                "page": 1,
-                "category": "recent_game",
-                "importance": "medium"
-              },
-              {
-                "fact": "Ten Syracuse players caught a pass and five different players scored a rushing or receiving touchdown against New Hampshire.",
-                "page": 1,
+                "fact": "Syracuse scored 41 first-half points, produced 238 rushing yards and finished with 513 total yards against New Hampshire.",
+                "page": 12,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse held New Hampshire to three points and 159 total yards.",
+                "fact": "The Orange held New Hampshire to three points and 159 total yards while recording five sacks and nine tackles for loss.",
                 "page": 7,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "The Syracuse defense recorded five sacks and nine tackles for loss against New Hampshire.",
-                "page": 1,
+                "fact": "Syracuse gained three turnovers and committed no turnovers in the opener.",
+                "page": 4,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse gained three takeaways and committed no turnovers in the opener.",
-                "page": 4,
+                "fact": "Syracuse was penalized 12 times for 125 yards against New Hampshire.",
+                "page": 12,
                 "category": "recent_game",
-                "importance": "high"
+                "importance": "medium"
               }
             ],
             "opponent_notes": [
               {
-                "fact": "California enters the matchup 0-1 after a 45-24 home loss to UCLA.",
+                "fact": "California opened the season with a 45-24 home loss to UCLA.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "California allowed 277 rushing yards and 184 passing yards against UCLA.",
+                "fact": "Cal allowed 277 rushing yards and 184 passing yards against UCLA.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "California running back A. Mohammed carried 28 times for 120 yards and one touchdown in the opener.",
+                "fact": "Cal running back A. Mohammed carried 28 times for 120 yards and one touchdown in the opener.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "California receiver I. Strong had five catches for 94 yards, including a 49-yard reception, against UCLA.",
+                "fact": "Cal totaled 410 yards and held the ball for 34:49 in its opener.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "medium"
               },
               {
-                "fact": "California receiver C. Hendricks had six catches for 66 yards and one touchdown in the opener.",
-                "page": 3,
-                "category": "opponent_notes",
-                "importance": "medium"
-              },
-              {
-                "fact": "California recorded two sacks in its season opener.",
+                "fact": "Cal receivers I. Strong, C. Hendricks and M. Mason combined for 15 catches, 218 yards and two touchdowns in Week 1.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "medium"
@@ -458,25 +467,25 @@
             ],
             "quarterback": [
               {
-                "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
+                "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
                 "page": 5,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Angeli has passed for at least 230 yards in six consecutive games and has never thrown for fewer than 245 yards in a Syracuse uniform.",
+                "fact": "Angeli has passed for at least 230 yards in six consecutive games and has never thrown for fewer than 245 yards in a Syracuse appearance.",
                 "page": 5,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Angeli has thrown for 1,580 yards in five appearances for Syracuse.",
-                "page": 5,
+                "fact": "Angeli has completed 176 of 265 career passes for 2,352 yards, 23 touchdowns and three interceptions across Syracuse and Notre Dame.",
+                "page": 18,
                 "category": "quarterback",
                 "importance": "medium"
               },
               {
-                "fact": "California quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions against UCLA.",
+                "fact": "Cal quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions against UCLA.",
                 "page": 3,
                 "category": "quarterback",
                 "importance": "high"
@@ -488,7 +497,7 @@
                 "importance": "medium"
               },
               {
-                "fact": "Syracuse lists Amari Odom and Malachi Nelson as the co-backups behind Angeli.",
+                "fact": "Syracuse's projected quarterback depth chart lists Angeli first, followed by Amari Odom or Malachi Nelson.",
                 "page": 14,
                 "category": "quarterback",
                 "importance": "medium"
@@ -496,76 +505,64 @@
             ],
             "offensive_personnel": [
               {
-                "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
+                "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut.",
                 "page": 5,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Running back Tylik Hill made his first career start and rushed for 91 yards and one touchdown against New Hampshire.",
+                "fact": "Running back Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown.",
                 "page": 19,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire but are expected to make their Syracuse debuts against California.",
+                "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire but are expected to make their Syracuse debuts against Cal.",
                 "page": 5,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Miller led the SWAC with 1,054 rushing yards and scored nine touchdowns in 2025 at Jackson State.",
+                "fact": "Miller transferred from Jackson State after leading the SWAC with 1,054 rushing yards and nine touchdowns in 2025.",
                 "page": 5,
                 "category": "offensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Johnson transferred from LSU after appearing in all 13 games there in 2025 and recording at least one carry in every game.",
-                "page": 5,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns against New Hampshire.",
+                "fact": "Wide receiver Umari Hatcher caught eight passes for career highs of 147 yards and two touchdowns in the opener after missing the 2025 season due to injury.",
                 "page": 18,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Tight end David Clement caught two passes for a career-high 35 yards, including his first collegiate touchdown on a 27-yard reception.",
+                "fact": "Tight end David Clement set career highs with two catches for 35 yards and scored his first collegiate touchdown on a 27-yard reception.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Transfer wide receiver Cole Weaver caught three passes for 32 yards in his Syracuse debut.",
-                "page": 18,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "Joe Cruz started at center against New Hampshire and has appeared in 38 games with 17 starts.",
-                "page": 6,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "The projected starting offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
+                "fact": "Syracuse's projected starting offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
                 "page": 14,
                 "category": "offensive_personnel",
                 "importance": "high"
+              },
+              {
+                "fact": "The Syracuse offensive line received an 87.0 PFF pass-blocking grade in Week 1, second best among ACC teams through Saturday's games.",
+                "page": 6,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Center Joe Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
+                "page": 6,
+                "category": "offensive_personnel",
+                "importance": "medium"
               },
               {
                 "fact": "Akinshilo, a 2026 transfer, made his first career start at guard against New Hampshire.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "medium"
-              },
-              {
-                "fact": "Byron Washington allowed no pressures and Kam Pringle allowed one pressure in the opener, according to PFF.",
-                "page": 6,
-                "category": "offensive_personnel",
-                "importance": "high"
               }
             ],
             "defensive_personnel": [
@@ -576,8 +573,14 @@
                 "importance": "high"
               },
               {
-                "fact": "Transfer edge defender Keyshawn Johnson had 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
+                "fact": "Transfer edge defender Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
                 "page": 7,
+                "category": "defensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Johnson transferred from UT Martin after setting its program record with 13.5 sacks in 2025.",
+                "page": 20,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
@@ -585,81 +588,69 @@
                 "fact": "Transfer defensive lineman Tunmise Adeleye tied his career high with six tackles and recorded a sack in his Syracuse debut.",
                 "page": 20,
                 "category": "defensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Transfer defensive lineman Jartavius Flounoy had four tackles, half a tackle for loss and a forced fumble in his Syracuse debut.",
-                "page": 7,
-                "category": "defensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Defensive lineman Rashard Perry recorded three tackles and his first career interception against New Hampshire.",
+                "fact": "Defensive lineman Rashard Perry, whose 2025 season ended with an injury after five games, recorded three tackles and his first career interception in the 2026 opener.",
                 "page": 20,
                 "category": "defensive_personnel",
-                "importance": "medium"
+                "importance": "high"
               },
               {
                 "fact": "Cornerback Chris Peal allowed 14 receiving yards when targeted and led Syracuse with four solo tackles against New Hampshire, according to PFF.",
                 "page": 7,
                 "category": "defensive_personnel",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "The projected Syracuse secondary includes Demetres Samuel Jr. and Chris Peal at cornerback, Cornell Perry at strong safety, Braheem Long Jr. at free safety and Davien Kerr at nickel.",
+                "fact": "Syracuse's projected defensive front lists Tunmise Adeleye and Keyshawn Johnson at end with Nissi Ogbebor and Rashard Perry at defensive tackle.",
                 "page": 14,
                 "category": "defensive_personnel",
-                "importance": "high"
+                "importance": "medium"
               }
             ],
             "coaching_changes": [
               {
-                "fact": "Vince Kehres is in his first season as Syracuse's defensive coordinator and calls the defense from the booth.",
+                "fact": "Vince Kehres is in his first season as Syracuse's defensive coordinator.",
                 "page": 13,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse has first-year defensive assistants John Scott Jr. as co-defensive coordinator and defensive line coach, Perry Eliano as defensive backs coach, Jeremy Hawkins as edge coach and Marcus Walker as nickels coach.",
-                "page": 13,
-                "category": "coaching_changes",
-                "importance": "medium"
-              },
-              {
-                "fact": "Juan Castillo is in his first season as Syracuse's offensive line coach.",
-                "page": 13,
-                "category": "coaching_changes",
-                "importance": "high"
-              },
-              {
-                "fact": "Alex Bayer is in his first season as Syracuse's special teams coordinator.",
+                "fact": "Alex Bayer is in his first season as Syracuse's special-teams coordinator.",
                 "page": 13,
                 "category": "coaching_changes",
                 "importance": "medium"
               },
               {
-                "fact": "Tosh Lupoi is in his first season as California's head coach and will coach his first road game in that role at Syracuse.",
+                "fact": "Cal head coach Tosh Lupoi is in his first season and will coach his first road game as a head coach at Syracuse.",
                 "page": 3,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "California's play callers are all in their first season with the program: offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown.",
+                "fact": "Cal's offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown are all in their first seasons with the program.",
                 "page": 3,
                 "category": "coaching_changes",
                 "importance": "high"
+              },
+              {
+                "fact": "Jeff Nixon is Syracuse's offensive coordinator and operates from the booth.",
+                "page": 13,
+                "category": "coaching_changes",
+                "importance": "medium"
               }
             ],
             "injury_availability": [
               {
-                "fact": "Steve Angeli played in the opener after sustaining a season-ending injury against Clemson in Week 4 of the 2025 season.",
+                "fact": "Steve Angeli played in the opener after suffering a season-ending injury against Clemson in Week 4 of the 2025 season.",
                 "page": 18,
                 "category": "injury_availability",
                 "importance": "high"
               },
               {
-                "fact": "Umari Hatcher played against New Hampshire after missing the 2025 season because of injury.",
-                "page": 18,
+                "fact": "Ahmad Miller and Ju'Juan Johnson are expected to play against Cal after not appearing in the opener.",
+                "page": 5,
                 "category": "injury_availability",
                 "importance": "high"
               },
@@ -667,82 +658,70 @@
                 "fact": "Freshman wide receiver Calvin Russell III is expected to return to the field in October.",
                 "page": 6,
                 "category": "injury_availability",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "Ahmad Miller and Ju'Juan Johnson are expected to play against California after not appearing in Syracuse's opener.",
-                "page": 5,
+                "fact": "Umari Hatcher returned in the opener after missing the 2025 season due to injury.",
+                "page": 18,
                 "category": "injury_availability",
                 "importance": "high"
               }
             ],
             "offensive_context": [
               {
-                "fact": "Syracuse converted 66.7 percent of its third downs against New Hampshire.",
+                "fact": "Ten Syracuse players recorded a reception against New Hampshire.",
+                "page": 6,
+                "category": "offensive_context",
+                "importance": "high"
+              },
+              {
+                "fact": "Five different Syracuse players scored a rushing or receiving touchdown in the opener.",
+                "page": 1,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "Syracuse converted 66.7 percent of its third downs in Week 1.",
                 "page": 4,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse rushed for 238 yards against New Hampshire, the highest total of Fran Brown's tenure.",
-                "page": 12,
-                "category": "offensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Syracuse's offensive line received an 87.0 PFF pass-blocking grade in the opener, second best among ACC teams through Saturday's games.",
-                "page": 6,
-                "category": "offensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Syracuse quarterbacks combined for 275 passing yards against New Hampshire, extending offensive coordinator Jeff Nixon's streak of games with at least 250 passing yards from his Week 1 starting quarterback to 18.",
+                "fact": "In 18 consecutive games with offensive coordinator Jeff Nixon's Week 1 starting quarterback available, Syracuse quarterbacks have passed for at least 250 yards; the Orange are 14-4 and average 471.4 yards and 36.8 points during that span.",
                 "page": 5,
-                "category": "offensive_context",
-                "importance": "medium"
-              },
-              {
-                "fact": "Syracuse had 10 different players record a reception in Week 1.",
-                "page": 6,
                 "category": "offensive_context",
                 "importance": "medium"
               }
             ],
             "defensive_context": [
               {
-                "fact": "Syracuse did not allow a touchdown against New Hampshire.",
-                "page": 7,
-                "category": "defensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Twenty-four Syracuse defenders recorded at least one tackle against New Hampshire, and nine players recorded at least half a tackle for loss.",
-                "page": 7,
-                "category": "defensive_context",
-                "importance": "medium"
-              },
-              {
-                "fact": "Syracuse held New Hampshire to 60 rushing yards and 99 passing yards.",
+                "fact": "Syracuse allowed 60 rushing yards and 99 passing yards in the opener.",
                 "page": 3,
                 "category": "defensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse allowed New Hampshire to convert 33.3 percent of its third downs.",
-                "page": 4,
+                "fact": "Twenty-four Syracuse defenders recorded at least one tackle against New Hampshire, and nine players had at least half a tackle for loss.",
+                "page": 7,
                 "category": "defensive_context",
                 "importance": "medium"
+              },
+              {
+                "fact": "Syracuse did not allow a touchdown or a red-zone score in Week 1.",
+                "page": 4,
+                "category": "defensive_context",
+                "importance": "high"
               }
             ],
             "special_teams": [
               {
-                "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety.",
+                "fact": "Davien Kerr blocked a punt that went out of the end zone for a safety against New Hampshire.",
                 "page": 8,
                 "category": "special_teams",
                 "importance": "high"
               },
               {
-                "fact": "Demetres Samuel Jr. returned four punts for 83 yards, averaging 20.8 yards per return, with a long of 38 against New Hampshire.",
+                "fact": "Demetres Samuel Jr. returned four punts for 83 yards, including a 38-yard return, and added a 42-yard safety-kick return in the opener.",
                 "page": 8,
                 "category": "special_teams",
                 "importance": "high"
@@ -754,33 +733,33 @@
                 "importance": "medium"
               },
               {
-                "fact": "Kicker Tripp Woody made his only field-goal attempt of the opener, a 34-yarder.",
-                "page": 8,
+                "fact": "Kicker Tripp Woody made a 34-yard field goal in the opener and is 11-for-11 in his career on attempts inside 40 yards.",
+                "page": 18,
                 "category": "special_teams",
                 "importance": "medium"
               },
               {
-                "fact": "Freshman Jimmy Gregg is Syracuse's projected starting punter and punted twice in his collegiate debut.",
-                "page": 20,
+                "fact": "Freshman Jimmy Gregg is listed as Syracuse's projected starting punter after punting twice in his collegiate debut.",
+                "page": 14,
                 "category": "special_teams",
                 "importance": "medium"
               }
             ],
             "series_context": [
               {
-                "fact": "Syracuse leads the all-time series with California 2-1 and won the most recent meeting 33-25 at California in 2024.",
+                "fact": "Syracuse leads the all-time series with California 2-1 and won the most recent meeting 33-25 at Cal in 2024.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "medium"
               },
               {
-                "fact": "California's visit is its first game at the JMA Wireless Dome; its only previous game at Syracuse was a 20-14 Orange win at Archbold Stadium in 1967.",
+                "fact": "This is Cal's first game in the JMA Wireless Dome and its first trip to Syracuse since 1967.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "medium"
               },
               {
-                "fact": "In the 2024 meeting, Syracuse scored on each of its first six possessions and made four field goals.",
+                "fact": "In the 2024 meeting, Syracuse scored on its first six drives and made four field goals.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "medium"
@@ -788,28 +767,22 @@
             ],
             "other_relevant": [
               {
-                "fact": "The Sept. 12 game is the ACC opener for both Syracuse and California.",
+                "fact": "The game is Syracuse's 2026 ACC opener; the Orange have won three of their last four conference openers.",
                 "page": 1,
                 "category": "other_relevant",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "Syracuse committed 12 penalties for 125 yards against New Hampshire.",
-                "page": 4,
-                "category": "other_relevant",
-                "importance": "high"
-              },
-              {
-                "fact": "Five Syracuse players made their first FBS starts against New Hampshire.",
+                "fact": "Five Syracuse players made their first FBS starts against New Hampshire, including first career starts for Tylik Hill, Jimmy Gregg and Nissi Ogbebor.",
                 "page": 4,
                 "category": "other_relevant",
                 "importance": "medium"
               },
               {
-                "fact": "Running back Tylik Hill, punter Jimmy Gregg and defensive lineman Nissi Ogbebor made their first career starts in the opener.",
+                "fact": "Syracuse used 84 players in the opener, including 45 freshmen or sophomores.",
                 "page": 4,
                 "category": "other_relevant",
-                "importance": "medium"
+                "importance": "low"
               }
             ],
             "source_file": "Syracuse.pdf"
@@ -852,27 +825,9 @@
         ],
         "used_sources": [
           {
-            "fact_id": 1,
-            "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 5,
-            "fact": "The Syracuse defense recorded five sacks and nine tackles for loss against New Hampshire.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 6,
-            "fact": "Syracuse gained three takeaways and committed no turnovers in the opener.",
-            "page": 4,
+            "fact_id": 2,
+            "fact": "Syracuse scored 41 first-half points, produced 238 rushing yards and finished with 513 total yards against New Hampshire.",
+            "page": 12,
             "category": "recent_game",
             "importance": "high",
             "source_file": "Syracuse.pdf",
@@ -880,7 +835,7 @@
           },
           {
             "fact_id": 7,
-            "fact": "California enters the matchup 0-1 after a 45-24 home loss to UCLA.",
+            "fact": "Cal allowed 277 rushing yards and 184 passing yards against UCLA.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high",
@@ -888,64 +843,19 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 8,
-            "fact": "California allowed 277 rushing yards and 184 passing yards against UCLA.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 13,
-            "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
+            "fact_id": 11,
+            "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
             "page": 5,
             "category": "quarterback",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 16,
-            "fact": "California quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions against UCLA.",
-            "page": 3,
-            "category": "quarterback",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 19,
-            "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 20,
-            "fact": "Running back Tylik Hill made his first career start and rushed for 91 yards and one touchdown against New Hampshire.",
-            "page": 19,
-            "category": "offensive_personnel",
             "importance": "high",
             "source_file": "Syracuse.pdf",
             "source_team": "Syracuse Orange"
           },
           {
             "fact_id": 24,
-            "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns against New Hampshire.",
-            "page": 18,
+            "fact": "The Syracuse offensive line received an 87.0 PFF pass-blocking grade in Week 1, second best among ACC teams through Saturday's games.",
+            "page": 6,
             "category": "offensive_personnel",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 49,
-            "fact": "Syracuse rushed for 238 yards against New Hampshire, the highest total of Fran Brown's tenure.",
-            "page": 12,
-            "category": "offensive_context",
             "importance": "high",
             "source_file": "Syracuse.pdf",
             "source_team": "Syracuse Orange"
@@ -969,7 +879,10 @@
       "social_assets": {
         "x_model_graphic": "california_golden_bears_at_syracuse_orange_x_model.png",
         "x_stats_graphic": "california_golden_bears_at_syracuse_orange_x_stats.png",
-        "x_caption": "california_golden_bears_at_syracuse_orange_x_caption.txt"
+        "x_caption": "california_golden_bears_at_syracuse_orange_x_caption.txt",
+        "seo_file": "california_golden_bears_at_syracuse_orange_seo.txt",
+        "seo_title": "California vs Syracuse Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Syracuse -9.5 vs a market line of -3.5. See the best available spread, 58.3% cover probability, matchup stats, and our full California-Syracuse analysis."
       },
       "html_path": "california_golden_bears_at_syracuse_orange.html",
       "source_audit_path": "california_golden_bears_at_syracuse_orange.sources.json"
@@ -992,13 +905,13 @@
       "bet_short": "Charlotte",
       "opp_name": "Ole Miss Rebels",
       "opp_short": "Ole Miss",
-      "model_prediction": 41.0,
-      "market_line": 46.5,
-      "best_line": 47.5,
-      "best_price": "-108",
-      "best_book": "BetMGM",
-      "cover_probability": 0.61093824,
-      "edge": 0.0917074707692306,
+      "model_prediction": 40.0,
+      "market_line": 47.0,
+      "best_line": 45.5,
+      "best_price": "-105",
+      "best_book": "DraftKings",
+      "cover_probability": 0.59584274,
+      "edge": 0.0836476180487805,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -1017,7 +930,10 @@
       "social_assets": {
         "x_model_graphic": "charlotte_49ers_at_ole_miss_rebels_x_model.png",
         "x_stats_graphic": "charlotte_49ers_at_ole_miss_rebels_x_stats.png",
-        "x_caption": "charlotte_49ers_at_ole_miss_rebels_x_caption.txt"
+        "x_caption": "charlotte_49ers_at_ole_miss_rebels_x_caption.txt",
+        "seo_file": "charlotte_49ers_at_ole_miss_rebels_seo.txt",
+        "seo_title": "Charlotte vs Ole Miss Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Charlotte +40 vs a market line of +47. See the best available spread, 59.6% cover probability, matchup stats, and our full Charlotte-Ole Miss analysis."
       },
       "html_path": "charlotte_49ers_at_ole_miss_rebels.html",
       "source_audit_path": "charlotte_49ers_at_ole_miss_rebels.sources.json"
@@ -1041,7 +957,7 @@
       "opp_name": "Delaware Blue Hens",
       "opp_short": "Delaware",
       "model_prediction": -22.5,
-      "market_line": -20.5,
+      "market_line": -21.0,
       "best_line": -21.5,
       "best_price": "-105",
       "best_book": "FanDuel",
@@ -1065,7 +981,10 @@
       "social_assets": {
         "x_model_graphic": "delaware_blue_hens_at_vanderbilt_commodores_x_model.png",
         "x_stats_graphic": "delaware_blue_hens_at_vanderbilt_commodores_x_stats.png",
-        "x_caption": "delaware_blue_hens_at_vanderbilt_commodores_x_caption.txt"
+        "x_caption": "delaware_blue_hens_at_vanderbilt_commodores_x_caption.txt",
+        "seo_file": "delaware_blue_hens_at_vanderbilt_commodores_seo.txt",
+        "seo_title": "Delaware vs Vanderbilt Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Vanderbilt -22.5 vs a market line of -21. See the best available spread, 50.6% cover probability, matchup stats, and our full Delaware-Vanderbilt analysis."
       },
       "html_path": "delaware_blue_hens_at_vanderbilt_commodores.html",
       "source_audit_path": "delaware_blue_hens_at_vanderbilt_commodores.sources.json"
@@ -1091,10 +1010,10 @@
       "model_prediction": -8.0,
       "market_line": -5.5,
       "best_line": -5.5,
-      "best_price": "-110",
-      "best_book": "BetMGM",
+      "best_price": "-108",
+      "best_book": "DraftKings",
       "cover_probability": 0.52696488,
-      "edge": 0.0031553561904761,
+      "edge": 0.0077341107692306,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1113,7 +1032,10 @@
       "social_assets": {
         "x_model_graphic": "duke_blue_devils_at_illinois_fighting_illini_x_model.png",
         "x_stats_graphic": "duke_blue_devils_at_illinois_fighting_illini_x_stats.png",
-        "x_caption": "duke_blue_devils_at_illinois_fighting_illini_x_caption.txt"
+        "x_caption": "duke_blue_devils_at_illinois_fighting_illini_x_caption.txt",
+        "seo_file": "duke_blue_devils_at_illinois_fighting_illini_seo.txt",
+        "seo_title": "Duke vs Illinois Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Illinois -8 vs a market line of -5.5. See the best available spread, 52.7% cover probability, matchup stats, and our full Duke-Illinois analysis."
       },
       "html_path": "duke_blue_devils_at_illinois_fighting_illini.html",
       "source_audit_path": "duke_blue_devils_at_illinois_fighting_illini.sources.json"
@@ -1161,7 +1083,10 @@
       "social_assets": {
         "x_model_graphic": "eastern_michigan_eagles_at_michigan_state_spartans_x_model.png",
         "x_stats_graphic": "eastern_michigan_eagles_at_michigan_state_spartans_x_stats.png",
-        "x_caption": "eastern_michigan_eagles_at_michigan_state_spartans_x_caption.txt"
+        "x_caption": "eastern_michigan_eagles_at_michigan_state_spartans_x_caption.txt",
+        "seo_file": "eastern_michigan_eagles_at_michigan_state_spartans_seo.txt",
+        "seo_title": "Eastern Michigan vs Michigan State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Eastern Michigan +15 vs a market line of +17.5. See the best available spread, 56.2% cover probability, matchup stats, and our full Eastern Michigan-Michigan State analysis."
       },
       "html_path": "eastern_michigan_eagles_at_michigan_state_spartans.html",
       "source_audit_path": "eastern_michigan_eagles_at_michigan_state_spartans.sources.json"
@@ -1209,7 +1134,10 @@
       "social_assets": {
         "x_model_graphic": "georgia_southern_eagles_at_clemson_tigers_x_model.png",
         "x_stats_graphic": "georgia_southern_eagles_at_clemson_tigers_x_stats.png",
-        "x_caption": "georgia_southern_eagles_at_clemson_tigers_x_caption.txt"
+        "x_caption": "georgia_southern_eagles_at_clemson_tigers_x_caption.txt",
+        "seo_file": "georgia_southern_eagles_at_clemson_tigers_seo.txt",
+        "seo_title": "Georgia Southern vs Clemson Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Georgia Southern +17 vs a market line of +20.5. See the best available spread, 57.0% cover probability, matchup stats, and our full Georgia Southern-Clemson analysis."
       },
       "html_path": "georgia_southern_eagles_at_clemson_tigers.html",
       "source_audit_path": "georgia_southern_eagles_at_clemson_tigers.sources.json"
@@ -1257,7 +1185,10 @@
       "social_assets": {
         "x_model_graphic": "georgia_state_panthers_at_kennesaw_state_owls_x_model.png",
         "x_stats_graphic": "georgia_state_panthers_at_kennesaw_state_owls_x_stats.png",
-        "x_caption": "georgia_state_panthers_at_kennesaw_state_owls_x_caption.txt"
+        "x_caption": "georgia_state_panthers_at_kennesaw_state_owls_x_caption.txt",
+        "seo_file": "georgia_state_panthers_at_kennesaw_state_owls_seo.txt",
+        "seo_title": "Georgia State vs Kennesaw State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Georgia State +9 vs a market line of +8.5. See the best available spread, 50.7% cover probability, matchup stats, and our full Georgia State-Kennesaw State analysis."
       },
       "html_path": "georgia_state_panthers_at_kennesaw_state_owls.html",
       "source_audit_path": "georgia_state_panthers_at_kennesaw_state_owls.sources.json"
@@ -1305,7 +1236,10 @@
       "social_assets": {
         "x_model_graphic": "iowa_state_cyclones_at_iowa_hawkeyes_x_model.png",
         "x_stats_graphic": "iowa_state_cyclones_at_iowa_hawkeyes_x_stats.png",
-        "x_caption": "iowa_state_cyclones_at_iowa_hawkeyes_x_caption.txt"
+        "x_caption": "iowa_state_cyclones_at_iowa_hawkeyes_x_caption.txt",
+        "seo_file": "iowa_state_cyclones_at_iowa_hawkeyes_seo.txt",
+        "seo_title": "Iowa State vs Iowa Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Iowa -15.5 vs a market line of -14. See the best available spread, 50.4% cover probability, matchup stats, and our full Iowa State-Iowa analysis."
       },
       "html_path": "iowa_state_cyclones_at_iowa_hawkeyes.html",
       "source_audit_path": "iowa_state_cyclones_at_iowa_hawkeyes.sources.json"
@@ -1353,7 +1287,10 @@
       "social_assets": {
         "x_model_graphic": "jacksonville_state_gamecocks_at_ohio_bobcats_x_model.png",
         "x_stats_graphic": "jacksonville_state_gamecocks_at_ohio_bobcats_x_stats.png",
-        "x_caption": "jacksonville_state_gamecocks_at_ohio_bobcats_x_caption.txt"
+        "x_caption": "jacksonville_state_gamecocks_at_ohio_bobcats_x_caption.txt",
+        "seo_file": "jacksonville_state_gamecocks_at_ohio_bobcats_seo.txt",
+        "seo_title": "Jacksonville Stat vs Ohio Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Ohio -3.5 vs a market line of -2.5. See the best available spread, 52.4% cover probability, matchup stats, and our full Jacksonville Stat-Ohio analysis."
       },
       "html_path": "jacksonville_state_gamecocks_at_ohio_bobcats.html",
       "source_audit_path": "jacksonville_state_gamecocks_at_ohio_bobcats.sources.json"
@@ -1378,11 +1315,11 @@
       "opp_short": "Louisiana",
       "model_prediction": -32.0,
       "market_line": -30.5,
-      "best_line": -31.5,
-      "best_price": "-104",
-      "best_book": "FanDuel",
-      "cover_probability": 0.5009256,
-      "edge": -0.0088783215686274,
+      "best_line": -30.5,
+      "best_price": "-110",
+      "best_book": "BetMGM",
+      "cover_probability": 0.51732391,
+      "edge": -0.0064856138095238,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1401,7 +1338,10 @@
       "social_assets": {
         "x_model_graphic": "louisiana_ragin_cajuns_at_usc_trojans_x_model.png",
         "x_stats_graphic": "louisiana_ragin_cajuns_at_usc_trojans_x_stats.png",
-        "x_caption": "louisiana_ragin_cajuns_at_usc_trojans_x_caption.txt"
+        "x_caption": "louisiana_ragin_cajuns_at_usc_trojans_x_caption.txt",
+        "seo_file": "louisiana_ragin_cajuns_at_usc_trojans_seo.txt",
+        "seo_title": "Louisiana vs USC Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes USC -32 vs a market line of -30.5. See the best available spread, 51.7% cover probability, matchup stats, and our full Louisiana-USC analysis."
       },
       "html_path": "louisiana_ragin_cajuns_at_usc_trojans.html",
       "source_audit_path": "louisiana_ragin_cajuns_at_usc_trojans.sources.json"
@@ -1449,7 +1389,10 @@
       "social_assets": {
         "x_model_graphic": "louisiana_tech_bulldogs_at_lsu_tigers_x_model.png",
         "x_stats_graphic": "louisiana_tech_bulldogs_at_lsu_tigers_x_stats.png",
-        "x_caption": "louisiana_tech_bulldogs_at_lsu_tigers_x_caption.txt"
+        "x_caption": "louisiana_tech_bulldogs_at_lsu_tigers_x_caption.txt",
+        "seo_file": "louisiana_tech_bulldogs_at_lsu_tigers_seo.txt",
+        "seo_title": "Louisiana Tech vs LSU Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Louisiana Tech +33 vs a market line of +35. See the best available spread, 54.7% cover probability, matchup stats, and our full Louisiana Tech-LSU analysis."
       },
       "html_path": "louisiana_tech_bulldogs_at_lsu_tigers.html",
       "source_audit_path": "louisiana_tech_bulldogs_at_lsu_tigers.sources.json"
@@ -1473,7 +1416,7 @@
       "opp_name": "Maryland Terrapins",
       "opp_short": "Maryland",
       "model_prediction": 6.0,
-      "market_line": 12.0,
+      "market_line": 11.5,
       "best_line": 12.5,
       "best_price": "-110",
       "best_book": "FanDuel",
@@ -1497,7 +1440,10 @@
       "social_assets": {
         "x_model_graphic": "maryland_terrapins_at_uconn_huskies_x_model.png",
         "x_stats_graphic": "maryland_terrapins_at_uconn_huskies_x_stats.png",
-        "x_caption": "maryland_terrapins_at_uconn_huskies_x_caption.txt"
+        "x_caption": "maryland_terrapins_at_uconn_huskies_x_caption.txt",
+        "seo_file": "maryland_terrapins_at_uconn_huskies_seo.txt",
+        "seo_title": "Maryland vs Connecticut Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Connecticut +6 vs a market line of +11.5. See the best available spread, 63.5% cover probability, matchup stats, and our full Maryland-Connecticut analysis."
       },
       "html_path": "maryland_terrapins_at_uconn_huskies.html",
       "source_audit_path": "maryland_terrapins_at_uconn_huskies.sources.json"
@@ -1523,10 +1469,10 @@
       "model_prediction": -10.5,
       "market_line": -8.0,
       "best_line": -8.5,
-      "best_price": "-110",
+      "best_price": "-105",
       "best_book": "DraftKings",
       "cover_probability": 0.50975284,
-      "edge": -0.0140566838095238,
+      "edge": -0.0024422819512195,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1545,7 +1491,10 @@
       "social_assets": {
         "x_model_graphic": "memphis_tigers_at_boise_state_broncos_x_model.png",
         "x_stats_graphic": "memphis_tigers_at_boise_state_broncos_x_stats.png",
-        "x_caption": "memphis_tigers_at_boise_state_broncos_x_caption.txt"
+        "x_caption": "memphis_tigers_at_boise_state_broncos_x_caption.txt",
+        "seo_file": "memphis_tigers_at_boise_state_broncos_seo.txt",
+        "seo_title": "Memphis vs Boise State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Boise State -10.5 vs a market line of -8. See the best available spread, 51.0% cover probability, matchup stats, and our full Memphis-Boise State analysis."
       },
       "html_path": "memphis_tigers_at_boise_state_broncos.html",
       "source_audit_path": "memphis_tigers_at_boise_state_broncos.sources.json"
@@ -1593,7 +1542,10 @@
       "social_assets": {
         "x_model_graphic": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_x_model.png",
         "x_stats_graphic": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_x_stats.png",
-        "x_caption": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_x_caption.txt"
+        "x_caption": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_x_caption.txt",
+        "seo_file": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_seo.txt",
+        "seo_title": "Middle Tennessee vs Marshall Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Middle Tennessee +9 vs a market line of +13.5. See the best available spread, 59.8% cover probability, matchup stats, and our full Middle Tennessee-Marshall analysis."
       },
       "html_path": "middle_tennessee_blue_raiders_at_marshall_thundering_herd.html",
       "source_audit_path": "middle_tennessee_blue_raiders_at_marshall_thundering_herd.sources.json"
@@ -1641,7 +1593,10 @@
       "social_assets": {
         "x_model_graphic": "mississippi_state_bulldogs_at_minnesota_golden_gophers_x_model.png",
         "x_stats_graphic": "mississippi_state_bulldogs_at_minnesota_golden_gophers_x_stats.png",
-        "x_caption": "mississippi_state_bulldogs_at_minnesota_golden_gophers_x_caption.txt"
+        "x_caption": "mississippi_state_bulldogs_at_minnesota_golden_gophers_x_caption.txt",
+        "seo_file": "mississippi_state_bulldogs_at_minnesota_golden_gophers_seo.txt",
+        "seo_title": "Mississippi State vs Minnesota Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Minnesota -3.5 vs a market line of +1.5. See the best available spread, 56.6% cover probability, matchup stats, and our full Mississippi State-Minnesota analysis."
       },
       "html_path": "mississippi_state_bulldogs_at_minnesota_golden_gophers.html",
       "source_audit_path": "mississippi_state_bulldogs_at_minnesota_golden_gophers.sources.json"
@@ -1664,13 +1619,13 @@
       "bet_short": "Kansas",
       "opp_name": "Missouri Tigers",
       "opp_short": "Missouri",
-      "model_prediction": 2.0,
-      "market_line": 5.5,
+      "model_prediction": 1.5,
+      "market_line": 5.0,
       "best_line": 5.5,
       "best_price": "-110",
       "best_book": "Fanatics",
-      "cover_probability": 0.57347689,
-      "edge": 0.0496673661904761,
+      "cover_probability": 0.58190471,
+      "edge": 0.0580951861904761,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -1689,7 +1644,10 @@
       "social_assets": {
         "x_model_graphic": "missouri_tigers_at_kansas_jayhawks_x_model.png",
         "x_stats_graphic": "missouri_tigers_at_kansas_jayhawks_x_stats.png",
-        "x_caption": "missouri_tigers_at_kansas_jayhawks_x_caption.txt"
+        "x_caption": "missouri_tigers_at_kansas_jayhawks_x_caption.txt",
+        "seo_file": "missouri_tigers_at_kansas_jayhawks_seo.txt",
+        "seo_title": "Missouri vs Kansas Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Kansas +1.5 vs a market line of +5. See the best available spread, 58.2% cover probability, matchup stats, and our full Missouri-Kansas analysis."
       },
       "html_path": "missouri_tigers_at_kansas_jayhawks.html",
       "source_audit_path": "missouri_tigers_at_kansas_jayhawks.sources.json"
@@ -1737,7 +1695,10 @@
       "social_assets": {
         "x_model_graphic": "navy_midshipmen_at_florida_atlantic_owls_x_model.png",
         "x_stats_graphic": "navy_midshipmen_at_florida_atlantic_owls_x_stats.png",
-        "x_caption": "navy_midshipmen_at_florida_atlantic_owls_x_caption.txt"
+        "x_caption": "navy_midshipmen_at_florida_atlantic_owls_x_caption.txt",
+        "seo_file": "navy_midshipmen_at_florida_atlantic_owls_seo.txt",
+        "seo_title": "Navy vs Florida Atlantic Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Florida Atlantic +5.5 vs a market line of +4.5. See the best available spread, 50.0% cover probability, matchup stats, and our full Navy-Florida Atlantic analysis."
       },
       "html_path": "navy_midshipmen_at_florida_atlantic_owls.html",
       "source_audit_path": "navy_midshipmen_at_florida_atlantic_owls.sources.json"
@@ -1785,7 +1746,10 @@
       "social_assets": {
         "x_model_graphic": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_x_model.png",
         "x_stats_graphic": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_x_stats.png",
-        "x_caption": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_x_caption.txt"
+        "x_caption": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_x_caption.txt",
+        "seo_file": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_seo.txt",
+        "seo_title": "New Mexico State vs Hawai'i Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Hawai'i -11 vs a market line of -7. See the best available spread, 53.4% cover probability, matchup stats, and our full New Mexico State-Hawai'i analysis."
       },
       "html_path": "new_mexico_state_aggies_at_hawaii_rainbow_warriors.html",
       "source_audit_path": "new_mexico_state_aggies_at_hawaii_rainbow_warriors.sources.json"
@@ -1833,7 +1797,10 @@
       "social_assets": {
         "x_model_graphic": "north_dakota_state_at_air_force_falcons_x_model.png",
         "x_stats_graphic": "north_dakota_state_at_air_force_falcons_x_stats.png",
-        "x_caption": "north_dakota_state_at_air_force_falcons_x_caption.txt"
+        "x_caption": "north_dakota_state_at_air_force_falcons_x_caption.txt",
+        "seo_file": "north_dakota_state_at_air_force_falcons_seo.txt",
+        "seo_title": "North Dakota State vs Air Force Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Air Force -1.5 vs a market line of +1.5. See the best available spread, 57.1% cover probability, matchup stats, and our full North Dakota State-Air Force analysis."
       },
       "html_path": "north_dakota_state_at_air_force_falcons.html",
       "source_audit_path": "north_dakota_state_at_air_force_falcons.sources.json"
@@ -1857,7 +1824,7 @@
       "opp_name": "Ohio State Buckeyes",
       "opp_short": "Ohio State",
       "model_prediction": -2.5,
-      "market_line": -1.0,
+      "market_line": -1.5,
       "best_line": -1.5,
       "best_price": "-110",
       "best_book": "FanDuel",
@@ -1881,7 +1848,10 @@
       "social_assets": {
         "x_model_graphic": "ohio_state_buckeyes_at_texas_longhorns_x_model.png",
         "x_stats_graphic": "ohio_state_buckeyes_at_texas_longhorns_x_stats.png",
-        "x_caption": "ohio_state_buckeyes_at_texas_longhorns_x_caption.txt"
+        "x_caption": "ohio_state_buckeyes_at_texas_longhorns_x_caption.txt",
+        "seo_file": "ohio_state_buckeyes_at_texas_longhorns_seo.txt",
+        "seo_title": "Ohio State vs Texas Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Texas -2.5 vs a market line of -1.5. See the best available spread, 52.1% cover probability, matchup stats, and our full Ohio State-Texas analysis."
       },
       "html_path": "ohio_state_buckeyes_at_texas_longhorns.html",
       "source_audit_path": "ohio_state_buckeyes_at_texas_longhorns.sources.json"
@@ -1905,12 +1875,12 @@
       "opp_name": "Oklahoma Sooners",
       "opp_short": "Oklahoma",
       "model_prediction": 3.0,
-      "market_line": 5.0,
-      "best_line": 5.5,
-      "best_price": "-110",
-      "best_book": "DraftKings",
-      "cover_probability": 0.56245099,
-      "edge": 0.0386414661904761,
+      "market_line": 5.5,
+      "best_line": 4.5,
+      "best_price": "-105",
+      "best_book": "FanDuel",
+      "cover_probability": 0.54667868,
+      "edge": 0.0344835580487804,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -1929,7 +1899,10 @@
       "social_assets": {
         "x_model_graphic": "oklahoma_sooners_at_michigan_wolverines_x_model.png",
         "x_stats_graphic": "oklahoma_sooners_at_michigan_wolverines_x_stats.png",
-        "x_caption": "oklahoma_sooners_at_michigan_wolverines_x_caption.txt"
+        "x_caption": "oklahoma_sooners_at_michigan_wolverines_x_caption.txt",
+        "seo_file": "oklahoma_sooners_at_michigan_wolverines_seo.txt",
+        "seo_title": "Oklahoma vs Michigan Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Michigan +3 vs a market line of +5.5. See the best available spread, 54.7% cover probability, matchup stats, and our full Oklahoma-Michigan analysis."
       },
       "html_path": "oklahoma_sooners_at_michigan_wolverines.html",
       "source_audit_path": "oklahoma_sooners_at_michigan_wolverines.sources.json"
@@ -1977,7 +1950,10 @@
       "social_assets": {
         "x_model_graphic": "old_dominion_monarchs_at_virginia_tech_hokies_x_model.png",
         "x_stats_graphic": "old_dominion_monarchs_at_virginia_tech_hokies_x_stats.png",
-        "x_caption": "old_dominion_monarchs_at_virginia_tech_hokies_x_caption.txt"
+        "x_caption": "old_dominion_monarchs_at_virginia_tech_hokies_x_caption.txt",
+        "seo_file": "old_dominion_monarchs_at_virginia_tech_hokies_seo.txt",
+        "seo_title": "Old Dominion vs Virginia Tech Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Virginia Tech -22 vs a market line of -19. See the best available spread, 54.8% cover probability, matchup stats, and our full Old Dominion-Virginia Tech analysis."
       },
       "html_path": "old_dominion_monarchs_at_virginia_tech_hokies.html",
       "source_audit_path": "old_dominion_monarchs_at_virginia_tech_hokies.sources.json"
@@ -2025,7 +2001,10 @@
       "social_assets": {
         "x_model_graphic": "oregon_ducks_at_oklahoma_state_cowboys_x_model.png",
         "x_stats_graphic": "oregon_ducks_at_oklahoma_state_cowboys_x_stats.png",
-        "x_caption": "oregon_ducks_at_oklahoma_state_cowboys_x_caption.txt"
+        "x_caption": "oregon_ducks_at_oklahoma_state_cowboys_x_caption.txt",
+        "seo_file": "oregon_ducks_at_oklahoma_state_cowboys_seo.txt",
+        "seo_title": "Oregon vs Oklahoma State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Oregon -24 vs a market line of -23. See the best available spread, 50.0% cover probability, matchup stats, and our full Oregon-Oklahoma State analysis."
       },
       "html_path": "oregon_ducks_at_oklahoma_state_cowboys.html",
       "source_audit_path": "oregon_ducks_at_oklahoma_state_cowboys.sources.json"
@@ -2073,7 +2052,10 @@
       "social_assets": {
         "x_model_graphic": "penn_state_nittany_lions_at_temple_owls_x_model.png",
         "x_stats_graphic": "penn_state_nittany_lions_at_temple_owls_x_stats.png",
-        "x_caption": "penn_state_nittany_lions_at_temple_owls_x_caption.txt"
+        "x_caption": "penn_state_nittany_lions_at_temple_owls_x_caption.txt",
+        "seo_file": "penn_state_nittany_lions_at_temple_owls_seo.txt",
+        "seo_title": "Penn State vs Temple Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Temple +21.5 vs a market line of +23.5. See the best available spread, 54.5% cover probability, matchup stats, and our full Penn State-Temple analysis."
       },
       "html_path": "penn_state_nittany_lions_at_temple_owls.html",
       "source_audit_path": "penn_state_nittany_lions_at_temple_owls.sources.json"
@@ -2100,7 +2082,7 @@
       "market_line": 44.5,
       "best_line": 44.5,
       "best_price": "-105",
-      "best_book": "DraftKings",
+      "best_book": "Fanatics",
       "cover_probability": 0.5196998,
       "edge": 0.0075046780487805,
       "has_bet": false,
@@ -2121,7 +2103,10 @@
       "social_assets": {
         "x_model_graphic": "rice_owls_at_notre_dame_fighting_irish_x_model.png",
         "x_stats_graphic": "rice_owls_at_notre_dame_fighting_irish_x_stats.png",
-        "x_caption": "rice_owls_at_notre_dame_fighting_irish_x_caption.txt"
+        "x_caption": "rice_owls_at_notre_dame_fighting_irish_x_caption.txt",
+        "seo_file": "rice_owls_at_notre_dame_fighting_irish_seo.txt",
+        "seo_title": "Rice vs Notre Dame Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Rice +43.5 vs a market line of +44.5. See the best available spread, 52.0% cover probability, matchup stats, and our full Rice-Notre Dame analysis."
       },
       "html_path": "rice_owls_at_notre_dame_fighting_irish.html",
       "source_audit_path": "rice_owls_at_notre_dame_fighting_irish.sources.json"
@@ -2169,7 +2154,10 @@
       "social_assets": {
         "x_model_graphic": "rutgers_scarlet_knights_at_boston_college_eagles_x_model.png",
         "x_stats_graphic": "rutgers_scarlet_knights_at_boston_college_eagles_x_stats.png",
-        "x_caption": "rutgers_scarlet_knights_at_boston_college_eagles_x_caption.txt"
+        "x_caption": "rutgers_scarlet_knights_at_boston_college_eagles_x_caption.txt",
+        "seo_file": "rutgers_scarlet_knights_at_boston_college_eagles_seo.txt",
+        "seo_title": "Rutgers vs Boston College Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Rutgers +2.5 vs a market line of +3.5. See the best available spread, 53.5% cover probability, matchup stats, and our full Rutgers-Boston College analysis."
       },
       "html_path": "rutgers_scarlet_knights_at_boston_college_eagles.html",
       "source_audit_path": "rutgers_scarlet_knights_at_boston_college_eagles.sources.json"
@@ -2193,7 +2181,7 @@
       "opp_name": "Fresno State Bulldogs",
       "opp_short": "Fresno State",
       "model_prediction": 16.5,
-      "market_line": 17.5,
+      "market_line": 18.0,
       "best_line": 17.5,
       "best_price": "-105",
       "best_book": "DraftKings",
@@ -2217,7 +2205,10 @@
       "social_assets": {
         "x_model_graphic": "sacramento_state_at_fresno_state_bulldogs_x_model.png",
         "x_stats_graphic": "sacramento_state_at_fresno_state_bulldogs_x_stats.png",
-        "x_caption": "sacramento_state_at_fresno_state_bulldogs_x_caption.txt"
+        "x_caption": "sacramento_state_at_fresno_state_bulldogs_x_caption.txt",
+        "seo_file": "sacramento_state_at_fresno_state_bulldogs_seo.txt",
+        "seo_title": "Sacramento State vs Fresno State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Sacramento State +16.5 vs a market line of +18. See the best available spread, 53.4% cover probability, matchup stats, and our full Sacramento State-Fresno State analysis."
       },
       "html_path": "sacramento_state_at_fresno_state_bulldogs.html",
       "source_audit_path": "sacramento_state_at_fresno_state_bulldogs.sources.json"
@@ -2265,7 +2256,10 @@
       "social_assets": {
         "x_model_graphic": "san_diego_state_aztecs_at_ucla_bruins_x_model.png",
         "x_stats_graphic": "san_diego_state_aztecs_at_ucla_bruins_x_stats.png",
-        "x_caption": "san_diego_state_aztecs_at_ucla_bruins_x_caption.txt"
+        "x_caption": "san_diego_state_aztecs_at_ucla_bruins_x_caption.txt",
+        "seo_file": "san_diego_state_aztecs_at_ucla_bruins_seo.txt",
+        "seo_title": "San Diego State vs UCLA Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes San Diego State +11.5 vs a market line of +12.5. See the best available spread, 54.1% cover probability, matchup stats, and our full San Diego State-UCLA analysis."
       },
       "html_path": "san_diego_state_aztecs_at_ucla_bruins.html",
       "source_audit_path": "san_diego_state_aztecs_at_ucla_bruins.sources.json"
@@ -2313,7 +2307,10 @@
       "social_assets": {
         "x_model_graphic": "south_alabama_jaguars_at_tulane_green_wave_x_model.png",
         "x_stats_graphic": "south_alabama_jaguars_at_tulane_green_wave_x_stats.png",
-        "x_caption": "south_alabama_jaguars_at_tulane_green_wave_x_caption.txt"
+        "x_caption": "south_alabama_jaguars_at_tulane_green_wave_x_caption.txt",
+        "seo_file": "south_alabama_jaguars_at_tulane_green_wave_seo.txt",
+        "seo_title": "South Alabama vs Tulane Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Tulane -11.5 vs a market line of -9.5. See the best available spread, 51.2% cover probability, matchup stats, and our full South Alabama-Tulane analysis."
       },
       "html_path": "south_alabama_jaguars_at_tulane_green_wave.html",
       "source_audit_path": "south_alabama_jaguars_at_tulane_green_wave.sources.json"
@@ -2361,7 +2358,10 @@
       "social_assets": {
         "x_model_graphic": "south_florida_bulls_at_army_black_knights_x_model.png",
         "x_stats_graphic": "south_florida_bulls_at_army_black_knights_x_stats.png",
-        "x_caption": "south_florida_bulls_at_army_black_knights_x_caption.txt"
+        "x_caption": "south_florida_bulls_at_army_black_knights_x_caption.txt",
+        "seo_file": "south_florida_bulls_at_army_black_knights_seo.txt",
+        "seo_title": "South Florida vs Army Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes South Florida +2 vs a market line of +3.5. See the best available spread, 54.4% cover probability, matchup stats, and our full South Florida-Army analysis."
       },
       "html_path": "south_florida_bulls_at_army_black_knights.html",
       "source_audit_path": "south_florida_bulls_at_army_black_knights.sources.json"
@@ -2409,7 +2409,10 @@
       "social_assets": {
         "x_model_graphic": "southern_mississippi_golden_eagles_at_auburn_tigers_x_model.png",
         "x_stats_graphic": "southern_mississippi_golden_eagles_at_auburn_tigers_x_stats.png",
-        "x_caption": "southern_mississippi_golden_eagles_at_auburn_tigers_x_caption.txt"
+        "x_caption": "southern_mississippi_golden_eagles_at_auburn_tigers_x_caption.txt",
+        "seo_file": "southern_mississippi_golden_eagles_at_auburn_tigers_seo.txt",
+        "seo_title": "Southern Mississippi vs Auburn Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Southern Mississippi +26.5 vs a market line of +32.5. See the best available spread, 62.4% cover probability, matchup stats, and our full Southern Mississippi-Auburn analysis."
       },
       "html_path": "southern_mississippi_golden_eagles_at_auburn_tigers.html",
       "source_audit_path": "southern_mississippi_golden_eagles_at_auburn_tigers.sources.json"
@@ -2457,7 +2460,10 @@
       "social_assets": {
         "x_model_graphic": "tennessee_volunteers_at_georgia_tech_yellow_jackets_x_model.png",
         "x_stats_graphic": "tennessee_volunteers_at_georgia_tech_yellow_jackets_x_stats.png",
-        "x_caption": "tennessee_volunteers_at_georgia_tech_yellow_jackets_x_caption.txt"
+        "x_caption": "tennessee_volunteers_at_georgia_tech_yellow_jackets_x_caption.txt",
+        "seo_file": "tennessee_volunteers_at_georgia_tech_yellow_jackets_seo.txt",
+        "seo_title": "Tennessee vs Georgia Tech Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Georgia Tech +12 vs a market line of +11.5. See the best available spread, 53.2% cover probability, matchup stats, and our full Tennessee-Georgia Tech analysis."
       },
       "html_path": "tennessee_volunteers_at_georgia_tech_yellow_jackets.html",
       "source_audit_path": "tennessee_volunteers_at_georgia_tech_yellow_jackets.sources.json"
@@ -2505,7 +2511,10 @@
       "social_assets": {
         "x_model_graphic": "texas_tech_red_raiders_at_oregon_state_beavers_x_model.png",
         "x_stats_graphic": "texas_tech_red_raiders_at_oregon_state_beavers_x_stats.png",
-        "x_caption": "texas_tech_red_raiders_at_oregon_state_beavers_x_caption.txt"
+        "x_caption": "texas_tech_red_raiders_at_oregon_state_beavers_x_caption.txt",
+        "seo_file": "texas_tech_red_raiders_at_oregon_state_beavers_seo.txt",
+        "seo_title": "Texas Tech vs Oregon State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Texas Tech -27.5 vs a market line of -26.5. See the best available spread, 52.6% cover probability, matchup stats, and our full Texas Tech-Oregon State analysis."
       },
       "html_path": "texas_tech_red_raiders_at_oregon_state_beavers.html",
       "source_audit_path": "texas_tech_red_raiders_at_oregon_state_beavers.sources.json"
@@ -2531,10 +2540,10 @@
       "model_prediction": 9.5,
       "market_line": 13.5,
       "best_line": 13.5,
-      "best_price": "-108",
-      "best_book": "BetMGM",
+      "best_price": "-110",
+      "best_book": "FanDuel",
       "cover_probability": 0.5891264,
-      "edge": 0.0698956307692307,
+      "edge": 0.0653168761904762,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -2553,7 +2562,10 @@
       "social_assets": {
         "x_model_graphic": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_x_model.png",
         "x_stats_graphic": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_x_stats.png",
-        "x_caption": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_x_caption.txt"
+        "x_caption": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_x_caption.txt",
+        "seo_file": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_seo.txt",
+        "seo_title": "Tulsa vs Sam Houston State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Sam Houston State +9.5 vs a market line of +13.5. See the best available spread, 58.9% cover probability, matchup stats, and our full Tulsa-Sam Houston State analysis."
       },
       "html_path": "tulsa_golden_hurricane_at_sam_houston_state_bearkats.html",
       "source_audit_path": "tulsa_golden_hurricane_at_sam_houston_state_bearkats.sources.json"
@@ -2601,7 +2613,10 @@
       "social_assets": {
         "x_model_graphic": "ucf_knights_at_pittsburgh_panthers_x_model.png",
         "x_stats_graphic": "ucf_knights_at_pittsburgh_panthers_x_stats.png",
-        "x_caption": "ucf_knights_at_pittsburgh_panthers_x_caption.txt"
+        "x_caption": "ucf_knights_at_pittsburgh_panthers_x_caption.txt",
+        "seo_file": "ucf_knights_at_pittsburgh_panthers_seo.txt",
+        "seo_title": "UCF vs Pittsburgh Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Pittsburgh -9 vs a market line of -7.5. See the best available spread, 49.9% cover probability, matchup stats, and our full UCF-Pittsburgh analysis."
       },
       "html_path": "ucf_knights_at_pittsburgh_panthers.html",
       "source_audit_path": "ucf_knights_at_pittsburgh_panthers.sources.json"
@@ -2649,7 +2664,10 @@
       "social_assets": {
         "x_model_graphic": "ul_monroe_warhawks_at_uab_blazers_x_model.png",
         "x_stats_graphic": "ul_monroe_warhawks_at_uab_blazers_x_stats.png",
-        "x_caption": "ul_monroe_warhawks_at_uab_blazers_x_caption.txt"
+        "x_caption": "ul_monroe_warhawks_at_uab_blazers_x_caption.txt",
+        "seo_file": "ul_monroe_warhawks_at_uab_blazers_seo.txt",
+        "seo_title": "Louisiana Monroe vs UAB Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes UAB -15.5 vs a market line of -10. See the best available spread, 56.4% cover probability, matchup stats, and our full Louisiana Monroe-UAB analysis."
       },
       "html_path": "ul_monroe_warhawks_at_uab_blazers.html",
       "source_audit_path": "ul_monroe_warhawks_at_uab_blazers.sources.json"
@@ -2697,7 +2715,10 @@
       "social_assets": {
         "x_model_graphic": "unlv_rebels_at_north_texas_mean_green_x_model.png",
         "x_stats_graphic": "unlv_rebels_at_north_texas_mean_green_x_stats.png",
-        "x_caption": "unlv_rebels_at_north_texas_mean_green_x_caption.txt"
+        "x_caption": "unlv_rebels_at_north_texas_mean_green_x_caption.txt",
+        "seo_file": "unlv_rebels_at_north_texas_mean_green_seo.txt",
+        "seo_title": "UNLV vs North Texas Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes North Texas +1.5 vs a market line of +3. See the best available spread, 55.2% cover probability, matchup stats, and our full UNLV-North Texas analysis."
       },
       "html_path": "unlv_rebels_at_north_texas_mean_green.html",
       "source_audit_path": "unlv_rebels_at_north_texas_mean_green.sources.json"
@@ -2745,7 +2766,10 @@
       "social_assets": {
         "x_model_graphic": "utsa_roadrunners_at_texas_state_bobcats_x_model.png",
         "x_stats_graphic": "utsa_roadrunners_at_texas_state_bobcats_x_stats.png",
-        "x_caption": "utsa_roadrunners_at_texas_state_bobcats_x_caption.txt"
+        "x_caption": "utsa_roadrunners_at_texas_state_bobcats_x_caption.txt",
+        "seo_file": "utsa_roadrunners_at_texas_state_bobcats_seo.txt",
+        "seo_title": "UT San Antonio vs Texas State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Texas State -2 vs a market line of -2. See the best available spread, 50.3% cover probability, matchup stats, and our full UT San Antonio-Texas State analysis."
       },
       "html_path": "utsa_roadrunners_at_texas_state_bobcats.html",
       "source_audit_path": "utsa_roadrunners_at_texas_state_bobcats.sources.json"
@@ -2793,7 +2817,10 @@
       "social_assets": {
         "x_model_graphic": "utah_state_aggies_at_washington_huskies_x_model.png",
         "x_stats_graphic": "utah_state_aggies_at_washington_huskies_x_stats.png",
-        "x_caption": "utah_state_aggies_at_washington_huskies_x_caption.txt"
+        "x_caption": "utah_state_aggies_at_washington_huskies_x_caption.txt",
+        "seo_file": "utah_state_aggies_at_washington_huskies_seo.txt",
+        "seo_title": "Utah State vs Washington Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Utah State +24 vs a market line of +26.5. See the best available spread, 56.5% cover probability, matchup stats, and our full Utah State-Washington analysis."
       },
       "html_path": "utah_state_aggies_at_washington_huskies.html",
       "source_audit_path": "utah_state_aggies_at_washington_huskies.sources.json"
@@ -2841,7 +2868,10 @@
       "social_assets": {
         "x_model_graphic": "wake_forest_demon_deacons_at_purdue_boilermakers_x_model.png",
         "x_stats_graphic": "wake_forest_demon_deacons_at_purdue_boilermakers_x_stats.png",
-        "x_caption": "wake_forest_demon_deacons_at_purdue_boilermakers_x_caption.txt"
+        "x_caption": "wake_forest_demon_deacons_at_purdue_boilermakers_x_caption.txt",
+        "seo_file": "wake_forest_demon_deacons_at_purdue_boilermakers_seo.txt",
+        "seo_title": "Wake Forest vs Purdue Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Purdue -1 vs a market line of +3. See the best available spread, 60.4% cover probability, matchup stats, and our full Wake Forest-Purdue analysis."
       },
       "html_path": "wake_forest_demon_deacons_at_purdue_boilermakers.html",
       "source_audit_path": "wake_forest_demon_deacons_at_purdue_boilermakers.sources.json"
@@ -2889,7 +2919,10 @@
       "social_assets": {
         "x_model_graphic": "washington_state_cougars_at_kansas_state_wildcats_x_model.png",
         "x_stats_graphic": "washington_state_cougars_at_kansas_state_wildcats_x_stats.png",
-        "x_caption": "washington_state_cougars_at_kansas_state_wildcats_x_caption.txt"
+        "x_caption": "washington_state_cougars_at_kansas_state_wildcats_x_caption.txt",
+        "seo_file": "washington_state_cougars_at_kansas_state_wildcats_seo.txt",
+        "seo_title": "Washington State vs Kansas State Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Washington State +18.5 vs a market line of +17.5. See the best available spread, 49.9% cover probability, matchup stats, and our full Washington State-Kansas State analysis."
       },
       "html_path": "washington_state_cougars_at_kansas_state_wildcats.html",
       "source_audit_path": "washington_state_cougars_at_kansas_state_wildcats.sources.json"
@@ -2937,7 +2970,10 @@
       "social_assets": {
         "x_model_graphic": "western_kentucky_hilltoppers_at_georgia_bulldogs_x_model.png",
         "x_stats_graphic": "western_kentucky_hilltoppers_at_georgia_bulldogs_x_stats.png",
-        "x_caption": "western_kentucky_hilltoppers_at_georgia_bulldogs_x_caption.txt"
+        "x_caption": "western_kentucky_hilltoppers_at_georgia_bulldogs_x_caption.txt",
+        "seo_file": "western_kentucky_hilltoppers_at_georgia_bulldogs_seo.txt",
+        "seo_title": "Western Kentucky vs Georgia Prediction, Model Spread & Analysis",
+        "seo_description": "Our model makes Georgia -43 vs a market line of -40.5. See the best available spread, 53.7% cover probability, matchup stats, and our full Western Kentucky-Georgia analysis."
       },
       "html_path": "western_kentucky_hilltoppers_at_georgia_bulldogs.html",
       "source_audit_path": "western_kentucky_hilltoppers_at_georgia_bulldogs.sources.json"

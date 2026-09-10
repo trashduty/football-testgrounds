@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas Razorbacks | +12.5 (-108) | DraftKings | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Utah Utes | -12.5 (-108) | BetMGM | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Arkansas Razorbacks | +12.5 (-110) | FanDuel | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah Utes | -12.5 (-108) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 

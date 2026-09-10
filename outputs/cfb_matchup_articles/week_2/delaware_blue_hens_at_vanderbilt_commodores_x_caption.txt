@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Delaware-Vanderbilt.
+Our model is 1.5 points away from the market on Delaware-Vanderbilt.
 
-We make Vanderbilt -22.5. The market is -20.5.
+We make Vanderbilt -22.5. The market is -21.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

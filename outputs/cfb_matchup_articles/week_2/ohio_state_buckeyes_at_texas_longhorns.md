@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium. We make **Texas -2.5**, compared with a market line of -1.
+The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium. We make **Texas -2.5**, compared with a market line of -1.5.
 
 The best number we found is Texas -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 

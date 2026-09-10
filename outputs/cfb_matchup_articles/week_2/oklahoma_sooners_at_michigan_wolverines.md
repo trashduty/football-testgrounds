@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oklahoma Sooners | -4.5 (-110) | FanDuel | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Michigan Wolverines | +5.5 (-110) | DraftKings | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Oklahoma Sooners | -5.5 (-105) | DraftKings | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | +4.5 (-105) | FanDuel | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Oklahoma Sooners visit the Michigan Wolverines at Michigan Stadium. We make **Michigan +3**, compared with a market line of +5.
+The Oklahoma Sooners visit the Michigan Wolverines at Michigan Stadium. We make **Michigan +3**, compared with a market line of +5.5.
 
-The best number we found is Michigan +5.5 at -110. We give Michigan a 56.2% chance to cover, which creates an 3.9% edge for us. That clears our 3% threshold, so Michigan is a bet.
+The best number we found is Michigan +4.5 at -105. We give Michigan a 54.7% chance to cover, which creates an 3.4% edge for us. That clears our 3% threshold, so Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

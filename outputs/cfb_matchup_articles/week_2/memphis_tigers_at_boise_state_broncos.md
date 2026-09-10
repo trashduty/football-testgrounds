@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Memphis Tigers | +9.5 (-112) | BetRivers | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boise State Broncos | -8.5 (-110) | DraftKings | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boise State Broncos | -8.5 (-105) | DraftKings | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Memphis Tigers visit the Boise State Broncos at Albertsons Stadium. We make **Boise State -10.5**, compared with a market line of -8.
 
-The best number we found is Boise State -8.5 at -110. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Boise State -8.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

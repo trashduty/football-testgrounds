@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Sacramento State visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Sacramento State +16.5**, compared with a market line of +17.5.
+The Sacramento State visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Sacramento State +16.5**, compared with a market line of +18.
 
 The best number we found is Sacramento State +17.5 at -105. We see a 2.2% edge there, but that does not clear our 3% threshold, so we are passing.
 

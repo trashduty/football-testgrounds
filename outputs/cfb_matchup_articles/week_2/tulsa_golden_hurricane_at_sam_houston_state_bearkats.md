@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tulsa Golden Hurricane | -13.5 (-110) | FanDuel | 41.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Sam Houston State Bearkats | +13.5 (-108) | BetMGM | 58.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Tulsa Golden Hurricane | -13.5 (-108) | BetMGM | 41.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Sam Houston State Bearkats | +13.5 (-110) | FanDuel | 58.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Tulsa Golden Hurricane visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **Sam Houston State +9.5**, compared with a market line of +13.5.
 
-The best number we found is Sam Houston State +13.5 at -108. We give Sam Houston State a 58.9% chance to cover, which creates an 7.0% edge for us. That clears our 3% threshold, so Sam Houston State is a bet.
+The best number we found is Sam Houston State +13.5 at -110. We give Sam Houston State a 58.9% chance to cover, which creates an 6.5% edge for us. That clears our 3% threshold, so Sam Houston State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

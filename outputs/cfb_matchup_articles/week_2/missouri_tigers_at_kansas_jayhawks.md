@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Missouri Tigers | -4.5 (-112) | FanDuel | 43.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kansas Jayhawks | +5.5 (-110) | Fanatics | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Missouri Tigers | -5.5 (-105) | DraftKings | 41.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas Jayhawks | +5.5 (-110) | Fanatics | 58.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Missouri Tigers visit the Kansas Jayhawks at Memorial Stadium. We make **Kansas +2**, compared with a market line of +5.5.
+The Missouri Tigers visit the Kansas Jayhawks at Memorial Stadium. We make **Kansas +1.5**, compared with a market line of +5.
 
-The best number we found is Kansas +5.5 at -110. We give Kansas a 57.3% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Kansas is a bet.
+The best number we found is Kansas +5.5 at -110. We give Kansas a 58.2% chance to cover, which creates an 5.8% edge for us. That clears our 3% threshold, so Kansas is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
