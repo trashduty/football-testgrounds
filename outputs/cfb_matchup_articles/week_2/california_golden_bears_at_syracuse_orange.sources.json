@@ -2,14 +2,15 @@
   "game": "California Golden Bears@Syracuse Orange",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:35:01.439969+00:00",
+  "generated_at_utc": "2026-09-10T06:38:57.154072+00:00",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
       "No guide found for California Golden Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
-      "No guide found for Syracuse Orange. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf"
+      "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
+      "Guide processing failed for Syracuse Orange: Error code: 400 - {'error': {'message': \"Unsupported parameter: 'temperature' is not supported with this model.\", 'type': 'invalid_request_error', 'param': 'temperature', 'code': None}}"
     ],
     "guide_extractions": [],
     "matchup_angles": [],
