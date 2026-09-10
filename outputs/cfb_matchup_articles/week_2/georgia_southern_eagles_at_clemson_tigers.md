@@ -10,12 +10,12 @@
 | Clemson Tigers | -20.5 (-110) | BetMGM | 42.8% | No Bet |
 
 ## The Bottom Line
-The Georgia Southern Eagles take on the Clemson Tigers at Memorial Stadium (Clemson, SC) and the model favors **the Georgia Southern Eagles** at +20.5 vs. the market at +20.5.
-This puts the edge at 5.75%, which at +20.5 for -105 makes the Georgia Southern Eagles a bet.
+The Georgia Southern Eagles take on the Clemson Tigers at Memorial Stadium (Clemson, SC). BTB projects **the Georgia Southern Eagles +17** compared with a market line of +20.5.
+The best available number is Georgia Southern Eagles +20.5 at -105. BTB gives that side a 57.0% cover probability, creating an edge of 5.75%. That clears our 3% threshold and makes the Georgia Southern Eagles a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Georgia Southern Eagles | Clemson Tigers |
 |---|---|---|
-| Offensive Pass EPA | 119th | 112th |
-| Offensive Rush EPA | 126th | 219th |
-| Defensive Pass EPA | 121st | 98th |
-| Defensive Rush EPA | 205th | 141st |
-| Offensive Eckel Rate | 118th | 124th |
-| Defensive Eckel Rate | 177th | 45th |
+| Offensive Pass EPA | 60th | 57th |
+| Offensive Rush EPA | 71st | 106th |
+| Defensive Pass EPA | 60th | 50th |
+| Defensive Rush EPA | 97th | 63rd |
+| Offensive Eckel Rate | 53rd | 58th |
+| Defensive Eckel Rate | 94th | 26th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

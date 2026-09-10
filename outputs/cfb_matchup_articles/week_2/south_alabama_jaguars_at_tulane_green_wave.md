@@ -9,14 +9,14 @@
 | South Alabama Jaguars | +9.5 (-105) | DraftKings | 49.2% | No Bet |
 | Tulane Green Wave | -9.5 (-112) | BetRivers | 51.2% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The South Alabama Jaguars take on the Tulane Green Wave at Yulman Stadium and the model sees a lean toward Tulane Green Wave -9.5 with an edge of -1.59%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The South Alabama Jaguars take on the Tulane Green Wave at Yulman Stadium. BTB projects **the Tulane Green Wave -11.5** compared with a market line of -9.5. The best available number is Tulane Green Wave -9.5, where BTB sees an edge of -1.59%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Tulane Green Wave | South Alabama Jaguars |
 |---|---|---|
-| Offensive Pass EPA | 34th | 194th |
-| Offensive Rush EPA | 161st | 97th |
-| Defensive Pass EPA | 116th | 259th |
-| Defensive Rush EPA | 53rd | 183rd |
-| Offensive Eckel Rate | 32nd | 172nd |
-| Defensive Eckel Rate | 63rd | 155th |
+| Offensive Pass EPA | 15th | 102nd |
+| Offensive Rush EPA | 87th | 58th |
+| Defensive Pass EPA | 58th | 125th |
+| Defensive Rush EPA | 22nd | 89th |
+| Offensive Eckel Rate | 7th | 79th |
+| Defensive Eckel Rate | 35th | 81st |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

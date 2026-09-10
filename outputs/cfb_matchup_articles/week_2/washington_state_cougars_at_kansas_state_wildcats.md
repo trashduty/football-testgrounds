@@ -9,14 +9,14 @@
 | Washington State Cougars | +18.5 (-110) | Fanatics | 49.6% | No Bet |
 | Kansas State Wildcats | -17.5 (-110) | FanDuel | 52.0% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The Washington State Cougars take on the Kansas State Wildcats at Bill Snyder Family Stadium and the model sees a lean toward Kansas State Wildcats -17.5 with an edge of -0.42%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Washington State Cougars take on the Kansas State Wildcats at Bill Snyder Family Stadium. BTB projects **the Kansas State Wildcats -19.5** compared with a market line of -18.5. The best available number is Kansas State Wildcats -17.5, where BTB sees an edge of -0.42%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Kansas State Wildcats | Washington State Cougars |
 |---|---|---|
-| Offensive Pass EPA | 122nd | 238th |
-| Offensive Rush EPA | 39th | 147th |
-| Defensive Pass EPA | 30th | 46th |
-| Defensive Rush EPA | 173rd | 113th |
-| Offensive Eckel Rate | 197th | 184th |
-| Defensive Eckel Rate | 167th | 68th |
+| Offensive Pass EPA | 63rd | 121st |
+| Offensive Rush EPA | 21st | 82nd |
+| Defensive Pass EPA | 15th | 24th |
+| Defensive Rush EPA | 82nd | 53rd |
+| Offensive Eckel Rate | 92nd | 85th |
+| Defensive Eckel Rate | 87th | 39th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

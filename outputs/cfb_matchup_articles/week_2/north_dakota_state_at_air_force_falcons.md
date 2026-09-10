@@ -10,12 +10,12 @@
 | Air Force Falcons | +2.5 (-109) | BetRivers | 56.2% | Bet |
 
 ## The Bottom Line
-The North Dakota State take on the Air Force Falcons at Falcon Stadium and the model favors **the Air Force Falcons** at +2.5 vs. the market at +2.5.
-This puts the edge at 4.00%, which at +2.5 for -109 makes the Air Force Falcons a bet.
+The North Dakota State take on the Air Force Falcons at Falcon Stadium. BTB projects **the Air Force Falcons -1** compared with a market line of +2.5.
+The best available number is Air Force Falcons +2.5 at -109. BTB gives that side a 56.2% cover probability, creating an edge of 4.00%. That clears our 3% threshold and makes the Air Force Falcons a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Air Force Falcons | North Dakota State |
 |---|---|---|
-| Offensive Pass EPA | 15th | 19th |
-| Offensive Rush EPA | 41st | 31st |
-| Defensive Pass EPA | 255th | 3rd |
-| Defensive Rush EPA | 286th | 28th |
-| Offensive Eckel Rate | 37th | 43rd |
-| Defensive Eckel Rate | 265th | 18th |
+| Offensive Pass EPA | 7th | 5th |
+| Offensive Rush EPA | 22nd | 17th |
+| Defensive Pass EPA | 121st | 2nd |
+| Defensive Rush EPA | 132nd | 17th |
+| Offensive Eckel Rate | 9th | 13th |
+| Defensive Eckel Rate | 135th | 14th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

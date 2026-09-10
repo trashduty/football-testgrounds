@@ -10,12 +10,12 @@
 | Purdue Boilermakers | +3.5 (-122) | FanDuel | 60.4% | Bet |
 
 ## The Bottom Line
-The Wake Forest Demon Deacons take on the Purdue Boilermakers at Ross-Ade Stadium and the model favors **the Purdue Boilermakers** at +3.5 vs. the market at +3.
-This puts the edge at 5.45%, which at +3.5 for -122 makes the Purdue Boilermakers a bet.
+The Wake Forest Demon Deacons take on the Purdue Boilermakers at Ross-Ade Stadium. BTB projects **the Purdue Boilermakers -1** compared with a market line of +3.
+The best available number is Purdue Boilermakers +3.5 at -122. BTB gives that side a 60.4% cover probability, creating an edge of 5.45%. That clears our 3% threshold and makes the Purdue Boilermakers a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Purdue Boilermakers | Wake Forest Demon Deacons |
 |---|---|---|
-| Offensive Pass EPA | 221st | 135th |
-| Offensive Rush EPA | 141st | 125th |
-| Defensive Pass EPA | 288th | 40th |
-| Defensive Rush EPA | 270th | 40th |
-| Offensive Eckel Rate | 242nd | 151st |
-| Defensive Eckel Rate | 248th | 83rd |
+| Offensive Pass EPA | 115th | 71st |
+| Offensive Rush EPA | 78th | 70th |
+| Defensive Pass EPA | 134th | 21st |
+| Defensive Rush EPA | 127th | 16th |
+| Offensive Eckel Rate | 113th | 67th |
+| Defensive Eckel Rate | 129th | 48th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

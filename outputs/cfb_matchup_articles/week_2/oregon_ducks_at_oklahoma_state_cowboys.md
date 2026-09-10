@@ -9,14 +9,14 @@
 | Oregon Ducks | -22.5 (-115) | FanDuel | 50.8% | No Bet |
 | Oklahoma State Cowboys | +23.5 (-110) | Fanatics | 50.9% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The Oregon Ducks take on the Oklahoma State Cowboys at Boone Pickens Stadium and the model sees a lean toward Oklahoma State Cowboys +23.5 with an edge of -1.52%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Oregon Ducks take on the Oklahoma State Cowboys at Boone Pickens Stadium. BTB projects **the Oklahoma State Cowboys +23.5** compared with a market line of +23.5. The best available number is Oklahoma State Cowboys +23.5, where BTB sees an edge of -1.52%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Oklahoma State Cowboys | Oregon Ducks |
 |---|---|---|
-| Offensive Pass EPA | 268th | 47th |
-| Offensive Rush EPA | 301st | 20th |
-| Defensive Pass EPA | 260th | 42nd |
-| Defensive Rush EPA | 164th | 72nd |
-| Offensive Eckel Rate | 292nd | 54th |
-| Defensive Eckel Rate | 220th | 17th |
+| Offensive Pass EPA | 127th | 22nd |
+| Offensive Rush EPA | 137th | 10th |
+| Defensive Pass EPA | 126th | 22nd |
+| Defensive Rush EPA | 78th | 30th |
+| Offensive Eckel Rate | 132nd | 18th |
+| Defensive Eckel Rate | 116th | 12th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -9,14 +9,14 @@
 | Arizona Wildcats | +7.5 (-108) | DraftKings | 53.3% | Lean – doesn't meet our edge criteria to fully bet |
 | BYU Cougars | -7.5 (-108) | BetMGM | 47.3% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The Arizona Wildcats take on the BYU Cougars at LaVell Edwards Stadium and the model sees a lean toward Arizona Wildcats +7.5 with an edge of 1.38%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Arizona Wildcats take on the BYU Cougars at LaVell Edwards Stadium. BTB projects **the Arizona Wildcats +7.5** compared with a market line of +7.5. The best available number is Arizona Wildcats +7.5, where BTB sees an edge of 1.38%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Arizona Wildcats | BYU Cougars |
 |---|---|---|
-| Offensive Pass EPA | 100th | 120th |
-| Offensive Rush EPA | 115th | 51st |
-| Defensive Pass EPA | 104th | 81st |
-| Defensive Rush EPA | 130th | 91st |
-| Offensive Eckel Rate | 61st | 125th |
-| Defensive Eckel Rate | 35th | 170th |
+| Offensive Pass EPA | 47th | 61st |
+| Offensive Rush EPA | 68th | 28th |
+| Defensive Pass EPA | 53rd | 40th |
+| Defensive Rush EPA | 56th | 44th |
+| Offensive Eckel Rate | 23rd | 59th |
+| Defensive Eckel Rate | 23rd | 90th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

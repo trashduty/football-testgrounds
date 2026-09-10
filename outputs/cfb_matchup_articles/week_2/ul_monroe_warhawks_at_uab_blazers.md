@@ -10,12 +10,12 @@
 | UAB Blazers | -9.5 (-110) | FanDuel | 58.2% | Bet |
 
 ## The Bottom Line
-The UL Monroe Warhawks take on the UAB Blazers at Protective Stadium and the model favors **the UAB Blazers** at -9.5 vs. the market at -10.
-This puts the edge at 5.81%, which at -9.5 for -110 makes the UAB Blazers a bet.
+The UL Monroe Warhawks take on the UAB Blazers at Protective Stadium. BTB projects **the UAB Blazers -15.5** compared with a market line of -10.
+The best available number is UAB Blazers -9.5 at -110. BTB gives that side a 58.2% cover probability, creating an edge of 5.81%. That clears our 3% threshold and makes the UAB Blazers a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | UAB Blazers | UL Monroe Warhawks |
 |---|---|---|
-| Offensive Pass EPA | 207th | 232nd |
-| Offensive Rush EPA | 83rd | 264th |
-| Defensive Pass EPA | 256th | 216th |
-| Defensive Rush EPA | 282nd | 229th |
-| Offensive Eckel Rate | 147th | 268th |
-| Defensive Eckel Rate | 277th | 263rd |
+| Offensive Pass EPA | 109th | 119th |
+| Offensive Rush EPA | 52nd | 123rd |
+| Defensive Pass EPA | 122nd | 103rd |
+| Defensive Rush EPA | 131st | 113th |
+| Offensive Eckel Rate | 65th | 124th |
+| Defensive Eckel Rate | 137th | 134th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

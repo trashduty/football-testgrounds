@@ -10,12 +10,12 @@
 | Nebraska Cornhuskers | -29.5 (-109) | BetRivers | 42.7% | No Bet |
 
 ## The Bottom Line
-The Bowling Green Falcons take on the Nebraska Cornhuskers at Memorial Stadium (Lincoln, NE) and the model favors **the Bowling Green Falcons** at +29.5 vs. the market at +30.
-This puts the edge at 5.21%, which at +29.5 for -106 makes the Bowling Green Falcons a bet.
+The Bowling Green Falcons take on the Nebraska Cornhuskers at Memorial Stadium (Lincoln, NE). BTB projects **the Bowling Green Falcons +26** compared with a market line of +30.
+The best available number is Bowling Green Falcons +29.5 at -106. BTB gives that side a 56.7% cover probability, creating an edge of 5.21%. That clears our 3% threshold and makes the Bowling Green Falcons a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Bowling Green Falcons | Nebraska Cornhuskers |
 |---|---|---|
-| Offensive Pass EPA | 187th | 197th |
-| Offensive Rush EPA | 243rd | 89th |
-| Defensive Pass EPA | 217th | 139th |
-| Defensive Rush EPA | 180th | 292nd |
-| Offensive Eckel Rate | 250th | 180th |
-| Defensive Eckel Rate | 81st | 201st |
+| Offensive Pass EPA | 97th | 104th |
+| Offensive Rush EPA | 114th | 55th |
+| Defensive Pass EPA | 104th | 68th |
+| Defensive Rush EPA | 87th | 135th |
+| Offensive Eckel Rate | 117th | 82nd |
+| Defensive Eckel Rate | 47th | 108th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

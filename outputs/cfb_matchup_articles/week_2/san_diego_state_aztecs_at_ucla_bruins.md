@@ -9,14 +9,14 @@
 | San Diego State Aztecs | +12.5 (-110) | FanDuel | 54.1% | Lean – doesn't meet our edge criteria to fully bet |
 | UCLA Bruins | -12.5 (-108) | DraftKings | 46.4% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The San Diego State Aztecs take on the UCLA Bruins at Rose Bowl and the model sees a lean toward San Diego State Aztecs +12.5 with an edge of 1.71%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The San Diego State Aztecs take on the UCLA Bruins at Rose Bowl. BTB projects **the San Diego State Aztecs +11.5** compared with a market line of +12.5. The best available number is San Diego State Aztecs +12.5, where BTB sees an edge of 1.71%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | San Diego State Aztecs | UCLA Bruins |
 |---|---|---|
-| Offensive Pass EPA | 203rd | 278th |
-| Offensive Rush EPA | 78th | 60th |
-| Defensive Pass EPA | 7th | 189th |
-| Defensive Rush EPA | 50th | 278th |
-| Offensive Eckel Rate | 185th | 157th |
-| Defensive Eckel Rate | 7th | 218th |
+| Offensive Pass EPA | 108th | 132nd |
+| Offensive Rush EPA | 48th | 34th |
+| Defensive Pass EPA | 4th | 92nd |
+| Defensive Rush EPA | 19th | 129th |
+| Offensive Eckel Rate | 86th | 69th |
+| Defensive Eckel Rate | 6th | 115th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

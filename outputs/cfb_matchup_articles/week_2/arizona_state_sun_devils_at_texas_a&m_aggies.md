@@ -10,12 +10,12 @@
 | Texas A&M Aggies | -14.5 (-105) | DraftKings | 54.3% | Bet |
 
 ## The Bottom Line
-The Arizona State Sun Devils take on the Texas A&M Aggies at Kyle Field and the model favors **the Texas A&M Aggies** at -14.5 vs. the market at -14.5.
-This puts the edge at 3.09%, which at -14.5 for -105 makes the Texas A&M Aggies a bet.
+The Arizona State Sun Devils take on the Texas A&M Aggies at Kyle Field. BTB projects **the Texas A&M Aggies -18** compared with a market line of -14.5.
+The best available number is Texas A&M Aggies -14.5 at -105. BTB gives that side a 54.3% cover probability, creating an edge of 3.09%. That clears our 3% threshold and makes the Texas A&M Aggies a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Texas A&M Aggies | Arizona State Sun Devils |
 |---|---|---|
-| Offensive Pass EPA | 54th | 87th |
-| Offensive Rush EPA | 71st | 140th |
-| Defensive Pass EPA | 11th | 73rd |
-| Defensive Rush EPA | 151st | 103rd |
-| Offensive Eckel Rate | 38th | 190th |
-| Defensive Eckel Rate | 2nd | 111th |
+| Offensive Pass EPA | 25th | 41st |
+| Offensive Rush EPA | 42nd | 77th |
+| Defensive Pass EPA | 6th | 38th |
+| Defensive Rush EPA | 69th | 48th |
+| Offensive Eckel Rate | 10th | 88th |
+| Defensive Eckel Rate | 2nd | 62nd |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

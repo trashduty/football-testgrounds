@@ -10,12 +10,12 @@
 | Kansas Jayhawks | +5.5 (-105) | FanDuel | 57.3% | Bet |
 
 ## The Bottom Line
-The Missouri Tigers take on the Kansas Jayhawks at Memorial Stadium and the model favors **the Kansas Jayhawks** at +5.5 vs. the market at +5.5.
-This puts the edge at 6.13%, which at +5.5 for -105 makes the Kansas Jayhawks a bet.
+The Missouri Tigers take on the Kansas Jayhawks at Memorial Stadium. BTB projects **the Kansas Jayhawks +2** compared with a market line of +5.5.
+The best available number is Kansas Jayhawks +5.5 at -105. BTB gives that side a 57.3% cover probability, creating an edge of 6.13%. That clears our 3% threshold and makes the Kansas Jayhawks a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Kansas Jayhawks | Missouri Tigers |
 |---|---|---|
-| Offensive Pass EPA | 101st | 243rd |
-| Offensive Rush EPA | 34th | 59th |
-| Defensive Pass EPA | 214th | 26th |
-| Defensive Rush EPA | 162nd | 64th |
-| Offensive Eckel Rate | 92nd | 196th |
-| Defensive Eckel Rate | 180th | 19th |
+| Offensive Pass EPA | 49th | 124th |
+| Offensive Rush EPA | 19th | 33rd |
+| Defensive Pass EPA | 101st | 14th |
+| Defensive Rush EPA | 77th | 26th |
+| Offensive Eckel Rate | 39th | 91st |
+| Defensive Eckel Rate | 95th | 13th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -2,7 +2,10 @@
   "game": "Penn State Nittany Lions@Temple Owls",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:47:24.600800+00:00",
+  "generated_at_utc": "2026-09-10T07:24:02.948389+00:00",
+  "model_prediction": 21.5,
+  "market_line": 23.5,
+  "best_line": 23.5,
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
@@ -13,6 +16,7 @@
     ],
     "guide_extractions": [],
     "matchup_angles": [],
-    "used_sources": []
+    "used_sources": [],
+    "model_context": {}
   }
 }

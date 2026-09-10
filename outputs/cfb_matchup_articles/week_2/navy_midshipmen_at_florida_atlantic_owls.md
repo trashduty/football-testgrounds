@@ -9,14 +9,14 @@
 | Navy Midshipmen | -4.5 (-110) | FanDuel | 50.7% | No Bet |
 | Florida Atlantic Owls | +5.5 (-112) | DraftKings | 50.5% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The Navy Midshipmen take on the Florida Atlantic Owls at FAU Stadium and the model sees a lean toward Navy Midshipmen -4.5 with an edge of -1.66%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Navy Midshipmen take on the Florida Atlantic Owls at FAU Stadium. BTB projects **the Navy Midshipmen -6** compared with a market line of -5.5. The best available number is Navy Midshipmen -4.5, where BTB sees an edge of -1.66%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Navy Midshipmen | Florida Atlantic Owls |
 |---|---|---|
-| Offensive Pass EPA | 102nd | 89th |
-| Offensive Rush EPA | 13th | 214th |
-| Defensive Pass EPA | 291st | 228th |
-| Defensive Rush EPA | 185th | 304th |
-| Offensive Eckel Rate | 66th | 67th |
-| Defensive Eckel Rate | 223rd | 243rd |
+| Offensive Pass EPA | 50th | 43rd |
+| Offensive Rush EPA | 7th | 104th |
+| Defensive Pass EPA | 135th | 109th |
+| Defensive Rush EPA | 91st | 137th |
+| Offensive Eckel Rate | 24th | 25th |
+| Defensive Eckel Rate | 119th | 126th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

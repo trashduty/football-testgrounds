@@ -10,12 +10,12 @@
 | UConn Huskies | +12.5 (-110) | FanDuel | 62.7% | Bet |
 
 ## The Bottom Line
-The Maryland Terrapins take on the UConn Huskies at Pratt & Whitney Stadium and the model favors **the UConn Huskies** at +12.5 vs. the market at +12.5.
-This puts the edge at 10.28%, which at +12.5 for -110 makes the UConn Huskies a bet.
+The Maryland Terrapins take on the UConn Huskies at Pratt & Whitney Stadium. BTB projects **the UConn Huskies +6.5** compared with a market line of +12.5.
+The best available number is UConn Huskies +12.5 at -110. BTB gives that side a 62.7% cover probability, creating an edge of 10.28%. That clears our 3% threshold and makes the UConn Huskies a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | UConn Huskies | Maryland Terrapins |
 |---|---|---|
-| Offensive Pass EPA | 26th | 176th |
-| Offensive Rush EPA | 74th | 248th |
-| Defensive Pass EPA | 67th | 124th |
-| Defensive Rush EPA | 203rd | 146th |
-| Offensive Eckel Rate | 59th | 201st |
-| Defensive Eckel Rate | 66th | 184th |
+| Offensive Pass EPA | 10th | 92nd |
+| Offensive Rush EPA | 44th | 115th |
+| Defensive Pass EPA | 36th | 61st |
+| Defensive Rush EPA | 96th | 66th |
+| Offensive Eckel Rate | 22nd | 95th |
+| Defensive Eckel Rate | 37th | 98th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

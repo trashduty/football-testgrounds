@@ -9,14 +9,14 @@
 | Western Kentucky Hilltoppers | +40.5 (-106) | FanDuel | 45.6% | No Bet |
 | Georgia Bulldogs | -40.5 (-110) | Fanatics | 53.7% | Lean – doesn't meet our edge criteria to fully bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The Western Kentucky Hilltoppers take on the Georgia Bulldogs at Sanford Stadium and the model sees a lean toward Georgia Bulldogs -40.5 with an edge of 1.31%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Western Kentucky Hilltoppers take on the Georgia Bulldogs at Sanford Stadium. BTB projects **the Georgia Bulldogs -43** compared with a market line of -40.5. The best available number is Georgia Bulldogs -40.5, where BTB sees an edge of 1.31%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Georgia Bulldogs | Western Kentucky Hilltoppers |
 |---|---|---|
-| Offensive Pass EPA | 64th | 168th |
-| Offensive Rush EPA | 33rd | 163rd |
-| Defensive Pass EPA | 38th | 91st |
-| Defensive Rush EPA | 22nd | 154th |
-| Offensive Eckel Rate | 85th | 204th |
-| Defensive Eckel Rate | 9th | 192nd |
+| Offensive Pass EPA | 28th | 86th |
+| Offensive Rush EPA | 18th | 88th |
+| Defensive Pass EPA | 19th | 46th |
+| Defensive Rush EPA | 8th | 72nd |
+| Offensive Eckel Rate | 35th | 97th |
+| Defensive Eckel Rate | 8th | 103rd |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -10,12 +10,12 @@
 | Marshall Thundering Herd | -13.5 (-108) | BetMGM | 40.6% | No Bet |
 
 ## The Bottom Line
-The Middle Tennessee Blue Raiders take on the Marshall Thundering Herd at Joan C. Edwards Stadium and the model favors **the Middle Tennessee Blue Raiders** at +13.5 vs. the market at +13.5.
-This puts the edge at 7.85%, which at +13.5 for -108 makes the Middle Tennessee Blue Raiders a bet.
+The Middle Tennessee Blue Raiders take on the Marshall Thundering Herd at Joan C. Edwards Stadium. BTB projects **the Middle Tennessee Blue Raiders +9** compared with a market line of +13.5.
+The best available number is Middle Tennessee Blue Raiders +13.5 at -108. BTB gives that side a 59.8% cover probability, creating an edge of 7.85%. That clears our 3% threshold and makes the Middle Tennessee Blue Raiders a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Middle Tennessee Blue Raiders | Marshall Thundering Herd |
 |---|---|---|
-| Offensive Pass EPA | 125th | 57th |
-| Offensive Rush EPA | 111th | 238th |
-| Defensive Pass EPA | 270th | 247th |
-| Defensive Rush EPA | 71st | 82nd |
-| Offensive Eckel Rate | 203rd | 152nd |
-| Defensive Eckel Rate | 71st | 190th |
+| Offensive Pass EPA | 64th | 27th |
+| Offensive Rush EPA | 66th | 112th |
+| Defensive Pass EPA | 128th | 115th |
+| Defensive Rush EPA | 29th | 37th |
+| Offensive Eckel Rate | 96th | 68th |
+| Defensive Eckel Rate | 41st | 101st |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

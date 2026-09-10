@@ -10,12 +10,12 @@
 | Auburn Tigers | -33.5 (-108) | DraftKings | 38.5% | No Bet |
 
 ## The Bottom Line
-The Southern Mississippi Golden Eagles take on the Auburn Tigers at Jordan-Hare Stadium and the model favors **the Southern Mississippi Golden Eagles** at +33.5 vs. the market at +33.5.
-This puts the edge at 8.31%, which at +33.5 for -110 makes the Southern Mississippi Golden Eagles a bet.
+The Southern Mississippi Golden Eagles take on the Auburn Tigers at Jordan-Hare Stadium. BTB projects **the Southern Mississippi Golden Eagles +27.5** compared with a market line of +33.5.
+The best available number is Southern Mississippi Golden Eagles +33.5 at -110. BTB gives that side a 60.7% cover probability, creating an edge of 8.31%. That clears our 3% threshold and makes the Southern Mississippi Golden Eagles a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Southern Mississippi Golden Eagles | Auburn Tigers |
 |---|---|---|
-| Offensive Pass EPA | 74th | 241st |
-| Offensive Rush EPA | 108th | 55th |
-| Defensive Pass EPA | 151st | 164th |
-| Defensive Rush EPA | 104th | 12th |
-| Offensive Eckel Rate | 126th | 178th |
-| Defensive Eckel Rate | 60th | 77th |
+| Offensive Pass EPA | 36th | 122nd |
+| Offensive Rush EPA | 64th | 30th |
+| Defensive Pass EPA | 75th | 80th |
+| Defensive Rush EPA | 49th | 3rd |
+| Offensive Eckel Rate | 60th | 81st |
+| Defensive Eckel Rate | 33rd | 45th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

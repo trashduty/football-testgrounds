@@ -2,7 +2,10 @@
   "game": "Bowling Green Falcons@Nebraska Cornhuskers",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:45:47.394951+00:00",
+  "generated_at_utc": "2026-09-10T07:22:21.250003+00:00",
+  "model_prediction": 26.0,
+  "market_line": 30.0,
+  "best_line": 29.5,
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
@@ -13,6 +16,7 @@
     ],
     "guide_extractions": [],
     "matchup_angles": [],
-    "used_sources": []
+    "used_sources": [],
+    "model_context": {}
   }
 }

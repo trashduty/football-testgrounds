@@ -10,12 +10,12 @@
 | Washington Huskies | -26.5 (-110) | FanDuel | 44.8% | No Bet |
 
 ## The Bottom Line
-The Utah State Aggies take on the Washington Huskies at Husky Stadium and the model favors **the Utah State Aggies** at +26.5 vs. the market at +26.5.
-This puts the edge at 3.00%, which at +26.5 for -108 makes the Utah State Aggies a bet.
+The Utah State Aggies take on the Washington Huskies at Husky Stadium. BTB projects **the Utah State Aggies +24** compared with a market line of +26.5.
+The best available number is Utah State Aggies +26.5 at -108. BTB gives that side a 54.9% cover probability, creating an edge of 3.00%. That clears our 3% threshold and makes the Utah State Aggies a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Utah State Aggies | Washington Huskies |
 |---|---|---|
-| Offensive Pass EPA | 129th | 68th |
-| Offensive Rush EPA | 63rd | 67th |
-| Defensive Pass EPA | 51st | 53rd |
-| Defensive Rush EPA | 228th | 47th |
-| Offensive Eckel Rate | 80th | 182nd |
-| Defensive Eckel Rate | 125th | 181st |
+| Offensive Pass EPA | 68th | 31st |
+| Offensive Rush EPA | 36th | 38th |
+| Defensive Pass EPA | 27th | 29th |
+| Defensive Rush EPA | 112th | 18th |
+| Offensive Eckel Rate | 30th | 84th |
+| Defensive Eckel Rate | 67th | 96th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

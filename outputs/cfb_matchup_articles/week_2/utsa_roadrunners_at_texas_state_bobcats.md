@@ -9,14 +9,14 @@
 | UTSA Roadrunners | +2.5 (-110) | FanDuel | 50.2% | No Bet |
 | Texas State Bobcats | -1.5 (-112) | DraftKings | 50.3% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The UTSA Roadrunners take on the Texas State Bobcats at Bobcat Stadium (TX) and the model sees a lean toward UTSA Roadrunners +2.5 with an edge of -2.21%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The UTSA Roadrunners take on the Texas State Bobcats at Bobcat Stadium (TX). BTB projects **the UTSA Roadrunners +2** compared with a market line of +2. The best available number is UTSA Roadrunners +2.5, where BTB sees an edge of -2.21%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | UTSA Roadrunners | Texas State Bobcats |
 |---|---|---|
-| Offensive Pass EPA | 83rd | 41st |
-| Offensive Rush EPA | 88th | 27th |
-| Defensive Pass EPA | 211th | 241st |
-| Defensive Rush EPA | 223rd | 120th |
-| Offensive Eckel Rate | 104th | 100th |
-| Defensive Eckel Rate | 87th | 197th |
+| Offensive Pass EPA | 39th | 20th |
+| Offensive Rush EPA | 54th | 13th |
+| Defensive Pass EPA | 100th | 113th |
+| Defensive Rush EPA | 109th | 55th |
+| Offensive Eckel Rate | 46th | 44th |
+| Defensive Eckel Rate | 51st | 105th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

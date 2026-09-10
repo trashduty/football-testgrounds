@@ -10,12 +10,12 @@
 | Sam Houston State Bearkats | +13.5 (-110) | FanDuel | 58.9% | Bet |
 
 ## The Bottom Line
-The Tulsa Golden Hurricane take on the Sam Houston State Bearkats at Elliott T. Bowers Stadium and the model favors **the Sam Houston State Bearkats** at +13.5 vs. the market at +13.5.
-This puts the edge at 6.53%, which at +13.5 for -110 makes the Sam Houston State Bearkats a bet.
+The Tulsa Golden Hurricane take on the Sam Houston State Bearkats at Elliott T. Bowers Stadium. BTB projects **the Sam Houston State Bearkats +9.5** compared with a market line of +13.5.
+The best available number is Sam Houston State Bearkats +13.5 at -110. BTB gives that side a 58.9% cover probability, creating an edge of 6.53%. That clears our 3% threshold and makes the Sam Houston State Bearkats a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Sam Houston State Bearkats | Tulsa Golden Hurricane |
 |---|---|---|
-| Offensive Pass EPA | 293rd | 193rd |
-| Offensive Rush EPA | 210th | 201st |
-| Defensive Pass EPA | 254th | 177th |
-| Defensive Rush EPA | 279th | 77th |
-| Offensive Eckel Rate | 291st | 160th |
-| Defensive Eckel Rate | 281st | 172nd |
+| Offensive Pass EPA | 134th | 101st |
+| Offensive Rush EPA | 102nd | 98th |
+| Defensive Pass EPA | 120th | 85th |
+| Defensive Rush EPA | 130th | 33rd |
+| Offensive Eckel Rate | 131st | 72nd |
+| Defensive Eckel Rate | 138th | 92nd |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

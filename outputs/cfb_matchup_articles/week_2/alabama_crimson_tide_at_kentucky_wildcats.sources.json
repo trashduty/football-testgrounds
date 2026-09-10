@@ -2,7 +2,10 @@
   "game": "Alabama Crimson Tide@Kentucky Wildcats",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-10T06:45:47.214389+00:00",
+  "generated_at_utc": "2026-09-10T07:22:21.180338+00:00",
+  "model_prediction": 10.0,
+  "market_line": 10.5,
+  "best_line": 10.5,
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
@@ -13,6 +16,7 @@
     ],
     "guide_extractions": [],
     "matchup_angles": [],
-    "used_sources": []
+    "used_sources": [],
+    "model_context": {}
   }
 }

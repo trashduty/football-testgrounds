@@ -10,12 +10,12 @@
 | Florida International Panthers | -10.5 (-105) | DraftKings | 37.8% | No Bet |
 
 ## The Bottom Line
-The Buffalo Bulls take on the Florida International Panthers at Pitbull Stadium and the model favors **the Buffalo Bulls** at +10.5 vs. the market at +10.5.
-This puts the edge at 9.61%, which at +10.5 for -110 makes the Buffalo Bulls a bet.
+The Buffalo Bulls take on the Florida International Panthers at Pitbull Stadium. BTB projects **the Buffalo Bulls +5.5** compared with a market line of +10.5.
+The best available number is Buffalo Bulls +10.5 at -110. BTB gives that side a 62.0% cover probability, creating an edge of 9.61%. That clears our 3% threshold and makes the Buffalo Bulls a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Buffalo Bulls | Florida International Panthers |
 |---|---|---|
-| Offensive Pass EPA | 227th | 105th |
-| Offensive Rush EPA | 285th | 146th |
-| Defensive Pass EPA | 65th | 186th |
-| Defensive Rush EPA | 67th | 144th |
-| Offensive Eckel Rate | 270th | 192nd |
-| Defensive Eckel Rate | 51st | 161st |
+| Offensive Pass EPA | 116th | 52nd |
+| Offensive Rush EPA | 132nd | 81st |
+| Defensive Pass EPA | 35th | 89th |
+| Defensive Rush EPA | 27th | 64th |
+| Offensive Eckel Rate | 126th | 90th |
+| Defensive Eckel Rate | 28th | 84th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

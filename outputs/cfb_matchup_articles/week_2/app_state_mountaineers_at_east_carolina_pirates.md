@@ -10,12 +10,12 @@
 | East Carolina Pirates | -7.5 (-102) | FanDuel | 38.0% | No Bet |
 
 ## The Bottom Line
-The App State Mountaineers take on the East Carolina Pirates at Dowdy-Ficklen Stadium and the model favors **the App State Mountaineers** at +7.5 vs. the market at +7.5.
-This puts the edge at 9.12%, which at +7.5 for -115 makes the App State Mountaineers a bet.
+The App State Mountaineers take on the East Carolina Pirates at Dowdy-Ficklen Stadium. BTB projects **the App State Mountaineers +2** compared with a market line of +7.5.
+The best available number is App State Mountaineers +7.5 at -115. BTB gives that side a 62.6% cover probability, creating an edge of 9.12%. That clears our 3% threshold and makes the App State Mountaineers a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | App State Mountaineers | East Carolina Pirates |
 |---|---|---|
-| Offensive Pass EPA | 134th | 69th |
-| Offensive Rush EPA | 174th | 110th |
-| Defensive Pass EPA | 134th | 61st |
-| Defensive Rush EPA | 116th | 97th |
-| Offensive Eckel Rate | 191st | 145th |
-| Defensive Eckel Rate | 209th | 117th |
+| Offensive Pass EPA | 70th | 32nd |
+| Offensive Rush EPA | 90th | 65th |
+| Defensive Pass EPA | 66th | 33rd |
+| Defensive Rush EPA | 54th | 45th |
+| Offensive Eckel Rate | 89th | 64th |
+| Defensive Eckel Rate | 111th | 64th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

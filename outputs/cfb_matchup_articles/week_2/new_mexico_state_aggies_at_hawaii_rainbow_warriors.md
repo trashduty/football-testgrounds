@@ -10,12 +10,12 @@
 | Hawaii Rainbow Warriors | -7.5 (-102) | BetMGM | 54.2% | Bet |
 
 ## The Bottom Line
-The New Mexico State Aggies take on the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex and the model favors **the Hawaii Rainbow Warriors** at -7.5 vs. the market at -7.5.
-This puts the edge at 3.75%, which at -7.5 for -102 makes the Hawaii Rainbow Warriors a bet.
+The New Mexico State Aggies take on the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. BTB projects **the Hawaii Rainbow Warriors -11.5** compared with a market line of -7.5.
+The best available number is Hawaii Rainbow Warriors -7.5 at -102. BTB gives that side a 54.2% cover probability, creating an edge of 3.75%. That clears our 3% threshold and makes the Hawaii Rainbow Warriors a bet.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -23,17 +23,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Hawaii Rainbow Warriors | New Mexico State Aggies |
 |---|---|---|
-| Offensive Pass EPA | 115th | 180th |
-| Offensive Rush EPA | 184th | 249th |
-| Defensive Pass EPA | 196th | 76th |
-| Defensive Rush EPA | 172nd | 142nd |
-| Offensive Eckel Rate | 117th | 183rd |
-| Defensive Eckel Rate | 142nd | 157th |
+| Offensive Pass EPA | 48th | 117th |
+| Offensive Rush EPA | 93rd | 117th |
+| Defensive Pass EPA | 96th | 70th |
+| Defensive Rush EPA | 41st | 43rd |
+| Offensive Eckel Rate | 74th | 93rd |
+| Defensive Eckel Rate | 53rd | 70th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

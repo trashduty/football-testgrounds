@@ -9,14 +9,14 @@
 | Old Dominion Monarchs | +19.5 (-110) | Fanatics | 46.6% | No Bet |
 | Virginia Tech Hokies | -18.5 (-114) | FanDuel | 54.8% | Lean – doesn't meet our edge criteria to fully bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The Old Dominion Monarchs take on the Virginia Tech Hokies at Lane Stadium and the model sees a lean toward Virginia Tech Hokies -18.5 with an edge of 1.51%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Old Dominion Monarchs take on the Virginia Tech Hokies at Lane Stadium. BTB projects **the Virginia Tech Hokies -22** compared with a market line of -19.5. The best available number is Virginia Tech Hokies -18.5, where BTB sees an edge of 1.51%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Virginia Tech Hokies | Old Dominion Monarchs |
 |---|---|---|
-| Offensive Pass EPA | 166th | 55th |
-| Offensive Rush EPA | 18th | 175th |
-| Defensive Pass EPA | 147th | 21st |
-| Defensive Rush EPA | 85th | 32nd |
-| Offensive Eckel Rate | 241st | 112th |
-| Defensive Eckel Rate | 194th | 6th |
+| Offensive Pass EPA | 85th | 26th |
+| Offensive Rush EPA | 9th | 91st |
+| Defensive Pass EPA | 72nd | 12th |
+| Defensive Rush EPA | 40th | 13th |
+| Offensive Eckel Rate | 112th | 49th |
+| Defensive Eckel Rate | 104th | 5th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

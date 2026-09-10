@@ -9,14 +9,14 @@
 | Iowa State Cyclones | +13.5 (+100) | FanDuel | 47.0% | No Bet |
 | Iowa Hawkeyes | -14.0 (-108) | BetMGM | 50.4% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The Iowa State Cyclones take on the Iowa Hawkeyes at Kinnick Stadium and the model sees a lean toward Iowa Hawkeyes -14.0 with an edge of -1.52%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The Iowa State Cyclones take on the Iowa Hawkeyes at Kinnick Stadium. BTB projects **the Iowa Hawkeyes -15.5** compared with a market line of -14. The best available number is Iowa Hawkeyes -14.0, where BTB sees an edge of -1.52%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Iowa Hawkeyes | Iowa State Cyclones |
 |---|---|---|
-| Offensive Pass EPA | 175th | 133rd |
-| Offensive Rush EPA | 44th | 66th |
-| Defensive Pass EPA | 23rd | 132nd |
-| Defensive Rush EPA | 59th | 84th |
-| Offensive Eckel Rate | 88th | 98th |
-| Defensive Eckel Rate | 22nd | 74th |
+| Offensive Pass EPA | 91st | 69th |
+| Offensive Rush EPA | 23rd | 37th |
+| Defensive Pass EPA | 13th | 64th |
+| Defensive Rush EPA | 24th | 39th |
+| Offensive Eckel Rate | 36th | 42nd |
+| Defensive Eckel Rate | 16th | 43rd |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

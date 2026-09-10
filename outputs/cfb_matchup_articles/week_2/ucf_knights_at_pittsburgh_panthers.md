@@ -9,14 +9,14 @@
 | UCF Knights | +7.5 (-122) | FanDuel | 50.7% | No Bet |
 | Pittsburgh Panthers | -7.5 (+100) | FanDuel | 49.9% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no play.
+The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
 
 ## The Bottom Line
-The UCF Knights take on the Pittsburgh Panthers at Acrisure Stadium and the model sees a lean toward Pittsburgh Panthers -7.5 with an edge of -0.10%, but this does not clear our 3% threshold for a full bet, so we are passing on this one.
+The UCF Knights take on the Pittsburgh Panthers at Acrisure Stadium. BTB projects **the Pittsburgh Panthers -9** compared with a market line of -7. The best available number is Pittsburgh Panthers -7.5, where BTB sees an edge of -0.10%. That does not clear our 3% threshold, so this remains a pass.
 
 ## Why The Pick
 
-The model is less interested in the final score from one Saturday than in whether the underlying matchup creates a difference between our expectation and the number being offered by the market.
+BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -24,17 +24,19 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 | | Pittsburgh Panthers | UCF Knights |
 |---|---|---|
-| Offensive Pass EPA | 77th | 255th |
-| Offensive Rush EPA | 159th | 133rd |
-| Defensive Pass EPA | 106th | 63rd |
-| Defensive Rush EPA | 36th | 184th |
-| Offensive Eckel Rate | 97th | 260th |
-| Defensive Eckel Rate | 53rd | 127th |
+| Offensive Pass EPA | 38th | 126th |
+| Offensive Rush EPA | 85th | 74th |
+| Defensive Pass EPA | 54th | 34th |
+| Defensive Rush EPA | 14th | 90th |
+| Offensive Eckel Rate | 41st | 120th |
+| Defensive Eckel Rate | 29th | 69th |
 
-Ranks are across FBS over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+BTB's model found edges of at least 3% on **19 games** this week.
+
+Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
