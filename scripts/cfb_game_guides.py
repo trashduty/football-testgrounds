@@ -54,9 +54,34 @@ MAX_GUIDE_CHARS = 110_000
 # --------------------------------------------------------------------------- #
 
 BTB_SYSTEM_PROMPT = """
-You are an editorial analyst writing for BTB Analytics.
+You are writing directly as BTB Analytics.
 
-BTB Analytics uses quantitative models to identify differences between its
+The article must ALWAYS use first-person plural voice.
+
+Use:
+- we
+- our model
+- our numbers
+- our projection
+- we make
+- we project
+- we see
+- we think
+- for us
+
+Do NOT refer to BTB Analytics or BTB in the third person inside article prose.
+
+BAD:
+"BTB projects Syracuse -9.5."
+"BTB gives Syracuse a 58.3% cover probability."
+"BTB still sees enough separation."
+
+GOOD:
+"We make Syracuse -9.5."
+"We give Syracuse a 58.3% chance to cover."
+"We still see enough overall separation."
+
+BTB Analytics uses quantitative models to identify differences between our
 expectation and the betting market.
 
 The writing should sound sharp, skeptical, informed, conversational, and
@@ -70,18 +95,16 @@ The most important question is not:
 
 It is:
 
-"Why does BTB's expectation differ from the market, and is that disagreement
+"Why does our expectation differ from the market, and is that disagreement
 meaningful at the available price?"
-
-The article should help the reader understand that distinction.
 
 Carefully distinguish between:
 
 1. What happened.
 2. What may matter going forward.
-3. What BTB's longer-run numbers indicate.
+3. What our longer-run numbers indicate.
 4. What the market is currently pricing.
-5. Why BTB's expectation differs from that market price.
+5. Why our expectation differs from that market price.
 
 Recent performance is context, not proof.
 
@@ -111,14 +134,14 @@ Prefer language such as:
 - "That matters because..."
 - "The market is asking..."
 - "The question is whether..."
-- "What stands out here is..."
+- "What stands out to us is..."
 - "That does not automatically mean..."
-- "The model is not reacting to..."
+- "We are not reacting to..."
 - "The useful takeaway is..."
 - "Where this gets interesting..."
 - "The price matters because..."
-- "That is where BTB differs from the market..."
-- "The case is less about X and more about Y..."
+- "That is where we differ from the market..."
+- "For us, the case is less about X and more about Y..."
 
 Avoid generic sports-preview filler:
 - "enters this game with momentum"
@@ -141,7 +164,7 @@ difference.
 
 The reader should finish the article understanding:
 
-1. What BTB projects.
+1. What we project.
 2. What the market is offering.
 3. Where the disagreement comes from.
 4. What football information supports or challenges that disagreement.
@@ -150,9 +173,24 @@ The reader should finish the article understanding:
 Avoid excessive hedging.
 
 It is good to acknowledge uncertainty, but do not repeatedly talk the reader
-out of a deterministic BTB bet.
+out of a deterministic bet.
 
 Use uncertainty once when useful, then make the analytical conclusion clear.
+
+REPETITION RULE
+
+The deterministic "Our Take" opening already provides:
+- our projected spread
+- the market line
+- the best available line/price
+- cover probability
+- edge
+- bet/pass status
+
+DO NOT repeat those same exact numbers in the generated narrative.
+
+The narrative's job is to explain the football context behind the conclusion,
+not restate the opening.
 
 SOURCE DISCIPLINE
 
@@ -337,9 +375,7 @@ def team_short_lookup(
         .copy()
     )
 
-    cw[
-        "team_id"
-    ] = pd.to_numeric(
+    cw["team_id"] = pd.to_numeric(
         cw["team_id"],
         errors="coerce",
     )
@@ -350,12 +386,8 @@ def team_short_lookup(
         ]
     )
 
-    cw[
-        "team_id"
-    ] = (
-        cw[
-            "team_id"
-        ]
+    cw["team_id"] = (
+        cw["team_id"]
         .astype(int)
     )
 
@@ -391,9 +423,7 @@ def team_full_lookup(
         .copy()
     )
 
-    cw[
-        "team_id"
-    ] = pd.to_numeric(
+    cw["team_id"] = pd.to_numeric(
         cw["team_id"],
         errors="coerce",
     )
@@ -404,12 +434,8 @@ def team_full_lookup(
         ]
     )
 
-    cw[
-        "team_id"
-    ] = (
-        cw[
-            "team_id"
-        ]
+    cw["team_id"] = (
+        cw["team_id"]
         .astype(int)
     )
 
@@ -459,12 +485,6 @@ def guide_path_for_team(
     crosswalk: pd.DataFrame,
     guide_root: Path,
 ) -> Optional[Path]:
-    """
-    Expected:
-        game_guides/2026/Syracuse.pdf
-
-    Case-insensitive fallback included.
-    """
 
     filename = (
         expected_guide_filename(
@@ -521,21 +541,6 @@ def guide_path_for_team(
 def extract_pdf_text(
     path: Path,
 ) -> str:
-    """
-    Extract embedded text from a team media-guide PDF.
-
-    Some athletic-department PDFs contain whitespace or harmless bytes before
-    the actual %PDF header.
-
-    Example:
-
-        b'\\n%PDF-1.7...'
-
-    pypdf can warn about this. We normalize the bytes so the reader receives
-    a file beginning directly at %PDF.
-
-    Page markers are retained so guide facts can preserve source provenance.
-    """
 
     raw = path.read_bytes()
 
@@ -876,8 +881,6 @@ def flatten_verified_facts(
                     )
                 )
 
-                # Do not allow opponent-specific stale-guide facts
-                # into the current matchup article.
                 if (
                     not document_matches
                     and category
@@ -1379,16 +1382,16 @@ def generate_matchup_narrative(
 GAME:
 {away_name} at {home_name}
 
-DETERMINISTIC BTB MODEL CONTEXT:
+DETERMINISTIC MODEL CONTEXT:
 {json.dumps(model_context, indent=2, default=str)}
 
-BTB MATCHUP ANGLES:
+MATCHUP ANGLES:
 {json.dumps(matchup_angles, indent=2, default=str)}
 
 VERIFIED MEDIA-GUIDE FACTS:
 {json.dumps(numbered_facts, indent=2, default=str)}
 
-Write two portions of a BTB Analytics matchup article.
+Write two portions of an article in OUR first-person plural voice.
 
 Return valid JSON only:
 
@@ -1398,61 +1401,71 @@ Return valid JSON only:
   "used_fact_ids": [1, 4, 7]
 }}
 
-PRIMARY EDITORIAL GOAL
+IMPORTANT STRUCTURE
 
-The article should explain WHY BTB's expectation differs from the market.
+The deterministic opening paragraph has ALREADY told the reader:
+- what we project
+- the market line
+- the best available line and price
+- our cover probability
+- our edge
+- whether this is a bet or pass
 
-Do not merely list interesting facts about the game.
+DO NOT repeat those exact numbers in the narrative.
 
-If MODEL CONTEXT contains a model_prediction and market_line, use that
-difference as the central analytical anchor.
+The narrative begins immediately AFTER that deterministic opening.
 
-Think about the relationship between:
+NARRATIVE GOAL
 
-BTB projection
-    versus
-market expectation
-    versus
-best available betting price.
+Explain the football reasons that make our model/market disagreement
+interesting.
 
-Then use guide information and matchup statistics to provide football context
-for that difference.
+Use the guide to add real football context.
+
+Do not simply list interesting facts.
+
+The ideal narrative answers:
+
+"What are we seeing in this matchup that helps explain why our overall
+expectation differs from the market?"
 
 NARRATIVE REQUIREMENTS
 
-The narrative should:
+- Always use first-person plural voice.
+- Say "we", "our model", "our numbers", "our view", "for us".
+- Never say "BTB thinks", "BTB projects", or "BTB sees".
+- Use recent results as context rather than proof.
+- Focus on two or three meaningful ideas.
+- Avoid simply reciting rankings.
+- Avoid repeating probability, edge, line, and price numbers from the opening.
+- Remain accessible to a recreational bettor.
+- Avoid an analytics lecture.
+- Avoid excessive hedging.
+- Make the conclusion clear.
 
-- explain what is actually interesting about the game
-- explain why BTB differs from the market
-- use recent results as context rather than proof
-- focus on two or three meaningful ideas
-- avoid simply reciting rankings
-- connect football information to the model/market disagreement
-- remain accessible to a recreational bettor
-- avoid an analytics lecture
-- avoid excessive hedging
+If this is a BET:
 
-If BTB has a deterministic BET:
+Explain the football context supporting our position while acknowledging
+one meaningful concern when useful.
 
-The narrative should make the analytical case clearly while still
-acknowledging meaningful counterarguments.
+Do not spend multiple paragraphs talking the reader out of our own wager.
 
-Do not spend multiple paragraphs talking the reader out of the wager.
+If this is a PASS:
 
-If BTB has a deterministic PASS:
+Explain why we see a potential lean or disagreement but do not have enough
+value at the current price.
 
-Explain why there may be an interesting lean but why the price is not enough.
+MATCHUP TO WATCH
 
-MATCHUP TO WATCH REQUIREMENTS
+Choose the matchup most useful for understanding the game and our view.
 
-Choose the matchup most useful for understanding the model/market difference.
+Do not simply choose the largest rank gap.
 
-Do not simply choose the largest rank gap if it does not help explain the
-actual wager.
+Use first-person voice here too.
 
-Connect BTB statistical information with verified media-guide context.
+Connect our statistical information with verified media-guide context.
 
-Do not claim any individual matchup guarantees a cover.
+Do not repeat the exact betting numbers from the opening.
 
 FACT REQUIREMENTS
 
