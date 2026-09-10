@@ -471,6 +471,42 @@ def matchup_call_label(
     return "Bet"
 
 
+def advice_badge_html(
+    edge: Optional[float],
+) -> str:
+
+    label = matchup_call_label(
+        edge
+    )
+
+    if label == "Bet":
+
+        badge_class = (
+            "btb-advice-pill "
+            "btb-advice-bet"
+        )
+
+    elif label == "No Bet":
+
+        badge_class = (
+            "btb-advice-pill "
+            "btb-advice-no-bet"
+        )
+
+    else:
+
+        badge_class = (
+            "btb-advice-pill "
+            "btb-advice-lean"
+        )
+
+    return (
+        f'<span class="{badge_class}">'
+        f"{html.escape(label)}"
+        f"</span>"
+    )
+
+
 def model_vs_market_sentence(
     team_short: str,
     model_prediction: Optional[float],
@@ -1621,7 +1657,7 @@ def build_article(
             f"({_price(row.get('best_price'))}) "
             f"| {row.get('best_book') or 'N/A'} "
             f"| {display_percent(cover, 1)} "
-            f"| {matchup_call_label(edge)} |"
+            f"| {advice_badge_html(edge)} |"
         )
 
     # ------------------------------------------------------------------
@@ -1908,18 +1944,6 @@ def build_article(
 def render_btb_html(
     article_markdown: str,
 ) -> str:
-    """
-    Convert Markdown to a branded Squarespace-ready HTML fragment.
-
-    Produces:
-    - black/charcoal background
-    - white text
-    - BTB green accents
-    - styled betting/stat tables
-    - Our Take card
-    - CTA card/button
-    - responsive mobile design
-    """
 
     body = markdown.markdown(
         article_markdown,
@@ -1929,17 +1953,9 @@ def render_btb_html(
         ],
     )
 
-    # ---------------------------------------------------------
-    # Wrap Our Take section in a card.
-    #
-    # From:
-    # <h2>Our Take</h2>
-    # ...
-    # <h3>What The Numbers Say</h3>
-    #
-    # To:
-    # <section class="btb-take">...</section>
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # Wrap Our Take section
+    # ------------------------------------------------------------------
 
     our_take_heading = (
         "<h2>Our Take</h2>"
@@ -1976,9 +1992,9 @@ def render_btb_html(
             + after
         )
 
-    # ---------------------------------------------------------
-    # Wrap CTA in card.
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # Wrap CTA
+    # ------------------------------------------------------------------
 
     cta_heading = (
         "<h2>Best Bets Of The Week</h2>"
@@ -2007,6 +2023,19 @@ def render_btb_html(
             + "</section>"
         )
 
+    # ------------------------------------------------------------------
+    # Identify the stats table
+    #
+    # build_cfb_tale_of_tape() should already output
+    # class="btb-stats-table", but this provides a fallback
+    # if Markdown strips/reworks it.
+    # ------------------------------------------------------------------
+
+    body = body.replace(
+        '<table class="btb-stats-table">',
+        '<table class="btb-stats-table">',
+    )
+
     return f"""
 <style>
 .btb-matchup-article {{
@@ -2017,6 +2046,8 @@ def render_btb_html(
     --btb-text: #f4f4f4;
     --btb-muted: #b7b7b7;
     --btb-green: #27e26f;
+    --btb-pink: #ff7cb8;
+    --btb-yellow: #ffd24d;
 
     width: 100%;
     max-width: 1180px;
@@ -2107,22 +2138,85 @@ def render_btb_html(
     text-align: center;
 }}
 
+
 /* -------------------------------------------------------- */
-/* Matchup / model tables                                   */
+/* Advice pills                                             */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-advice-pill {{
+    display: inline-block;
+
+    padding: 6px 10px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+
+    white-space: nowrap;
+}}
+
+.btb-matchup-article .btb-advice-bet {{
+    background:
+        rgba(39, 226, 111, 0.16);
+
+    color:
+        var(--btb-green);
+
+    border:
+        1px solid
+        rgba(39, 226, 111, 0.38);
+}}
+
+.btb-matchup-article .btb-advice-no-bet {{
+    background:
+        rgba(255, 124, 184, 0.15);
+
+    color:
+        var(--btb-pink);
+
+    border:
+        1px solid
+        rgba(255, 124, 184, 0.38);
+}}
+
+.btb-matchup-article .btb-advice-lean {{
+    background:
+        rgba(255, 210, 77, 0.14);
+
+    color:
+        var(--btb-yellow);
+
+    border:
+        1px solid
+        rgba(255, 210, 77, 0.32);
+}}
+
+
+/* -------------------------------------------------------- */
+/* Generic tables                                           */
 /* -------------------------------------------------------- */
 
 .btb-matchup-article table {{
     width: 100%;
+
     margin: 26px 0 34px;
 
-    border: 1px solid var(--btb-border);
+    border:
+        1px solid
+        var(--btb-border);
+
     border-radius: 10px;
+
     border-spacing: 0;
     border-collapse: separate;
 
     overflow: hidden;
 
-    background: var(--btb-card);
+    background:
+        var(--btb-card);
 
     font-size: 15px;
 }}
@@ -2134,29 +2228,80 @@ def render_btb_html(
 .btb-matchup-article th {{
     padding: 14px 16px;
 
-    color: var(--btb-green);
+    color:
+        var(--btb-green);
 
     font-weight: 800;
     text-align: left;
 
-    border-bottom: 1px solid var(--btb-border);
+    border-bottom:
+        1px solid
+        var(--btb-border);
 }}
 
 .btb-matchup-article td {{
     padding: 14px 16px;
 
-    color: var(--btb-text);
+    color:
+        var(--btb-text);
 
-    border-bottom: 1px solid #222222;
+    border-bottom:
+        1px solid
+        #222222;
 }}
 
 .btb-matchup-article tbody tr:last-child td {{
     border-bottom: 0;
 }}
 
-.btb-matchup-article tbody tr:hover {{
-    background: #161616;
+
+/* -------------------------------------------------------- */
+/* Stats table                                              */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-stats-table {{
+    background:
+        #0d0d0d;
 }}
+
+.btb-matchup-article .btb-stats-table thead {{
+    background:
+        #161616;
+}}
+
+.btb-matchup-article .btb-stats-table tbody tr:nth-child(odd) {{
+    background:
+        #121212;
+}}
+
+.btb-matchup-article .btb-stats-table tbody tr:nth-child(even) {{
+    background:
+        #0b0b0b;
+}}
+
+.btb-matchup-article .btb-stats-table tbody tr:hover {{
+    background:
+        #191919;
+}}
+
+.btb-matchup-article .btb-stats-table .btb-stat-name {{
+    font-weight: 800;
+    color: #ffffff;
+}}
+
+.btb-matchup-article .btb-stats-table .btb-better {{
+    font-weight: 900;
+    color: #ffffff;
+}}
+
+.btb-matchup-article .btb-stats-table td:not(.btb-stat-name) {{
+    text-align: center;
+}}
+
+.btb-matchup-article .btb-stats-table th:not(:first-child) {{
+    text-align: center;
+}}
+
 
 /* -------------------------------------------------------- */
 /* Our Take card                                            */
@@ -2164,7 +2309,9 @@ def render_btb_html(
 
 .btb-matchup-article .btb-take {{
     margin: 38px 0 36px;
-    padding: 26px 28px 12px;
+
+    padding:
+        26px 28px 12px;
 
     background:
         linear-gradient(
@@ -2173,8 +2320,14 @@ def render_btb_html(
             #0b0b0b
         );
 
-    border: 1px solid var(--btb-border);
-    border-left: 4px solid var(--btb-green);
+    border:
+        1px solid
+        var(--btb-border);
+
+    border-left:
+        4px solid
+        var(--btb-green);
+
     border-radius: 10px;
 }}
 
@@ -2186,17 +2339,23 @@ def render_btb_html(
     font-size: 18px;
 }}
 
+
 /* -------------------------------------------------------- */
 /* CTA                                                      */
 /* -------------------------------------------------------- */
 
 .btb-matchup-article .btb-cta {{
     margin-top: 48px;
+
     padding: 28px;
 
-    background: var(--btb-card-raised);
+    background:
+        var(--btb-card-raised);
 
-    border: 1px solid var(--btb-border);
+    border:
+        1px solid
+        var(--btb-border);
+
     border-radius: 12px;
 }}
 
@@ -2208,18 +2367,22 @@ def render_btb_html(
     display: inline-block;
 
     margin-top: 6px;
+
     padding: 13px 21px;
 
-    background: var(--btb-green);
+    background:
+        var(--btb-green);
 
-    color: #050505 !important;
+    color:
+        #050505 !important;
 
     border-radius: 7px;
 
     font-size: 15px;
     font-weight: 800;
 
-    text-decoration: none !important;
+    text-decoration:
+        none !important;
 
     transition:
         transform .15s ease,
@@ -2228,17 +2391,23 @@ def render_btb_html(
 
 .btb-matchup-article .btb-button:hover {{
     opacity: .9;
-    transform: translateY(-1px);
+
+    transform:
+        translateY(-1px);
 }}
+
 
 /* -------------------------------------------------------- */
 /* Mobile                                                   */
 /* -------------------------------------------------------- */
 
-@media (max-width: 760px) {{
+@media (
+    max-width: 760px
+) {{
 
     .btb-matchup-article {{
-        padding: 28px 17px 40px;
+        padding:
+            28px 17px 40px;
     }}
 
     .btb-matchup-article h1 {{
@@ -2258,27 +2427,38 @@ def render_btb_html(
     }}
 
     .btb-matchup-article .btb-take {{
-        padding: 21px 19px 8px;
+        padding:
+            21px 19px 8px;
     }}
 
     .btb-matchup-article .btb-cta {{
-        padding: 22px 20px;
+        padding:
+            22px 20px;
     }}
 
     .btb-matchup-article table {{
         display: block;
+
         overflow-x: auto;
 
         white-space: nowrap;
 
         font-size: 14px;
 
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling:
+            touch;
     }}
 
     .btb-matchup-article th,
     .btb-matchup-article td {{
         padding: 12px;
+    }}
+
+    .btb-matchup-article .btb-advice-pill {{
+        padding:
+            5px 8px;
+
+        font-size: 11px;
     }}
 }}
 </style>
@@ -2315,7 +2495,7 @@ def main() -> None:
         "User-Agent"
     ] = (
         "football-testgrounds-"
-        "cfb-articles/5.0"
+        "cfb-articles/5.1"
     )
 
     (
@@ -2367,7 +2547,7 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
-    # Count games meeting full-bet threshold
+    # Count full-bet games
     # ------------------------------------------------------------------
 
     if (
@@ -2506,9 +2686,9 @@ def main() -> None:
             )
         )
 
-        # --------------------------------------------------------------
+        # ------------------------------------------------------------------
         # Markdown
-        # --------------------------------------------------------------
+        # ------------------------------------------------------------------
 
         article_path = (
             weekly_dir
@@ -2526,9 +2706,9 @@ def main() -> None:
             f"{game_slug}.md"
         )
 
-        # --------------------------------------------------------------
-        # Branded Squarespace HTML
-        # --------------------------------------------------------------
+        # ------------------------------------------------------------------
+        # Branded HTML
+        # ------------------------------------------------------------------
 
         html_article = (
             render_btb_html(
@@ -2556,9 +2736,9 @@ def main() -> None:
             article.rstrip()
         )
 
-        # --------------------------------------------------------------
-        # Audit / sources
-        # --------------------------------------------------------------
+        # ------------------------------------------------------------------
+        # Source audit
+        # ------------------------------------------------------------------
 
         audit_payload = {
             "game":
@@ -2686,7 +2866,7 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
-    # Weekly JSON manifest
+    # Weekly JSON
     # ------------------------------------------------------------------
 
     (
