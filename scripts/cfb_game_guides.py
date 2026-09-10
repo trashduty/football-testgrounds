@@ -26,13 +26,20 @@ from __future__ import annotations
 import json
 import os
 import re
+
+from io import BytesIO
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd
+
 from openai import OpenAI
 from pypdf import PdfReader
 
+
+# --------------------------------------------------------------------------- #
+# Configuration
+# --------------------------------------------------------------------------- #
 
 DEFAULT_OPENAI_MODEL = os.getenv(
     "OPENAI_ARTICLE_MODEL",
@@ -41,6 +48,10 @@ DEFAULT_OPENAI_MODEL = os.getenv(
 
 MAX_GUIDE_CHARS = 110_000
 
+
+# --------------------------------------------------------------------------- #
+# BTB editorial instructions
+# --------------------------------------------------------------------------- #
 
 BTB_SYSTEM_PROMPT = """
 You are an editorial analyst writing for BTB Analytics.
@@ -239,7 +250,6 @@ Return valid JSON only.
 # --------------------------------------------------------------------------- #
 
 def _client() -> OpenAI:
-
     key = os.getenv(
         "OPENAI_API_KEY"
     )
@@ -268,13 +278,10 @@ def _response_text(
         return text.strip()
 
     try:
-
         pieces: List[str] = []
 
         for item in response.output:
-
             for content in item.content:
-
                 value = getattr(
                     content,
                     "text",
@@ -295,7 +302,7 @@ def _response_text(
 
 
 # --------------------------------------------------------------------------- #
-# Crosswalk / filenames
+# Crosswalk / filename helpers
 # --------------------------------------------------------------------------- #
 
 def clean_filename_component(
@@ -456,7 +463,7 @@ def guide_path_for_team(
     Expected:
         game_guides/2026/Syracuse.pdf
 
-    Case-insensitive fallback is included.
+    Case-insensitive fallback included.
     """
 
     filename = (
@@ -495,9 +502,7 @@ def guide_path_for_team(
         filename.lower()
     )
 
-    for path in (
-        season_dir.iterdir()
-    ):
+    for path in season_dir.iterdir():
 
         if (
             path.is_file()
@@ -516,9 +521,47 @@ def guide_path_for_team(
 def extract_pdf_text(
     path: Path,
 ) -> str:
+    """
+    Extract embedded text from a team media-guide PDF.
+
+    Some athletic-department PDFs contain whitespace or harmless bytes before
+    the actual %PDF header.
+
+    Example:
+
+        b'\\n%PDF-1.7...'
+
+    pypdf can warn about this. We normalize the bytes so the reader receives
+    a file beginning directly at %PDF.
+
+    Page markers are retained so guide facts can preserve source provenance.
+    """
+
+    raw = path.read_bytes()
+
+    pdf_start = raw.find(
+        b"%PDF"
+    )
+
+    if pdf_start == -1:
+        raise RuntimeError(
+            f"{path.name} does not contain a valid %PDF header."
+        )
+
+    if pdf_start > 0:
+
+        print(
+            f"Normalizing PDF header for {path.name}: "
+            f"removed {pdf_start} leading byte(s)."
+        )
+
+        raw = raw[
+            pdf_start:
+        ]
 
     reader = PdfReader(
-        str(path)
+        BytesIO(raw),
+        strict=False,
     )
 
     chunks: List[str] = []
@@ -531,10 +574,22 @@ def extract_pdf_text(
         start=1,
     ):
 
-        text = (
-            page.extract_text()
-            or ""
-        ).strip()
+        try:
+
+            text = (
+                page.extract_text()
+                or ""
+            ).strip()
+
+        except Exception as exc:
+
+            print(
+                f"Warning: could not extract "
+                f"page {page_number} from "
+                f"{path.name}: {exc}"
+            )
+
+            continue
 
         if not text:
             continue
@@ -551,10 +606,16 @@ def extract_pdf_text(
         chunks
     ).strip()
 
+    if not output:
+        raise RuntimeError(
+            f"No extractable text found in {path.name}."
+        )
+
     if (
         len(output)
         > MAX_GUIDE_CHARS
     ):
+
         output = output[
             :MAX_GUIDE_CHARS
         ]
@@ -563,7 +624,7 @@ def extract_pdf_text(
 
 
 # --------------------------------------------------------------------------- #
-# Guide extraction
+# Guide fact extraction
 # --------------------------------------------------------------------------- #
 
 def extract_guide_facts(
@@ -601,7 +662,8 @@ def extract_guide_facts(
             "document_matches_upcoming_game":
                 False,
 
-            "facts": [],
+            "facts":
+                [],
         }
 
     prompt = f"""
@@ -729,7 +791,7 @@ SOURCE DOCUMENT:
 
 
 # --------------------------------------------------------------------------- #
-# Flatten facts
+# Flatten verified facts
 # --------------------------------------------------------------------------- #
 
 def flatten_verified_facts(
@@ -814,6 +876,8 @@ def flatten_verified_facts(
                     )
                 )
 
+                # Do not allow opponent-specific stale-guide facts
+                # into the current matchup article.
                 if (
                     not document_matches
                     and category
@@ -1107,7 +1171,9 @@ def identify_matchup_angles(
         },
     ]
 
-    usable = []
+    usable: List[
+        Dict[str, Any]
+    ] = []
 
     for item in candidates:
 
@@ -1341,7 +1407,7 @@ Do not merely list interesting facts about the game.
 If MODEL CONTEXT contains a model_prediction and market_line, use that
 difference as the central analytical anchor.
 
-For example:
+Think about the relationship between:
 
 BTB projection
     versus
@@ -1493,7 +1559,7 @@ Do not manufacture facts.
 
 
 # --------------------------------------------------------------------------- #
-# Load guides
+# Load guides for one game
 # --------------------------------------------------------------------------- #
 
 def load_game_guides(
@@ -1514,8 +1580,11 @@ def load_game_guides(
     List[str],
 ]:
 
-    results = []
-    status = []
+    results: List[
+        Dict[str, Any]
+    ] = []
+
+    status: List[str] = []
 
     pairs = [
         (
