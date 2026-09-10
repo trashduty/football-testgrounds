@@ -60,7 +60,7 @@ jobs:
         working-directory: football-testgrounds
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests cfbd openai pypdf markdown
+          pip install pandas requests cfbd openai pypdf markdown pillow
 
       # ------------------------------------------------------------
       # Optional debug: confirm expected files exist
