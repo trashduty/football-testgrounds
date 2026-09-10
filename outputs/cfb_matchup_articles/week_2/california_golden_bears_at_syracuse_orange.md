@@ -15,9 +15,11 @@ The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We m
 
 The best number we found is Syracuse -3.5 at -105. We give Syracuse a 58.3% chance to cover, which creates an 7.1% edge for us. That clears our 3% threshold, so Syracuse is a bet.
 
-For us, the case is less about Syracuse’s lopsided opener and more about the ways its offense can attack this matchup. Syracuse produced 513 yards with a nearly even split between rushing and passing, while California allowed 277 rushing yards against UCLA. Those single-game results are not proof of what comes next, but they support the broader point: Syracuse has a credible path on the ground and does not have to lean entirely on the part of the matchup our numbers view most skeptically—its passing offense against California’s pass defense.
+We are not reacting to Syracuse’s 66-3 opener or California’s 45-24 loss as if either result settles this matchup. The useful takeaway is that Syracuse showed multiple ways to create offense, while California gave up 277 rushing yards to UCLA. We saw Syracuse rush for 238 yards, with Shavane Anderson Jr. gaining 102 and Tylik Hill adding 91, which gives the offense a path around California’s strongest defensive matchup.
 
-We also see a potential advantage when California has the ball. Syracuse generated five sacks and nine tackles for loss in the opener, while Jaron-Keawe Sagapolutele threw two interceptions against UCLA. We are not assuming those results repeat, but pressure could make it harder for a California offense that our numbers rate poorly at creating scoring opportunities. The meaningful concern is Syracuse’s passing efficiency against the strongest unit California brings into this matchup, but we think the run-game path and defensive disruption provide enough support for our position.
+That matters because our longer-run numbers identify Syracuse’s passing offense against California’s pass defense as the primary concern. For us, the case is less about asking Syracuse to dominate through the air and more about staying balanced enough to avoid predictable passing situations.
+
+We also see potential separation on the other side. Syracuse produced five sacks, nine tackles for loss and three takeaways in its opener, while California quarterback Jaron-Keawe Sagapolutele threw two interceptions against UCLA. We are not assuming those one-game outcomes repeat, but Syracuse’s ability to create pressure supports our view that California may struggle to sustain enough scoring opportunities. That broader combination is why our wager remains on Syracuse despite the difficult passing matchup.
 
 ### What The Numbers Say
 
@@ -69,7 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Syracuse’s passing game against California’s pass defense. Steve Angeli threw for 263 yards in his return, and Umari Hatcher caught eight passes for 147 yards and two touchdowns, but our matchup numbers give California a clear advantage in pass EPA. Syracuse does not need to dominate through the air; it needs enough efficiency to prevent California from loading up against a rushing attack that produced 238 yards in Week 1. If Angeli and Hatcher can keep the offense balanced, we think Syracuse has the clearest path to creating separation.
+We are watching Syracuse’s passing offense against California’s pass defense. Our efficiency numbers give California the clear advantage here, making this the most credible obstacle to Syracuse creating separation. Steve Angeli returned to throw for 263 yards in the opener, and Umari Hatcher produced career highs of eight catches, 147 yards and two touchdowns, but this is a more demanding test than those Week 1 results provide.
+
+For us, the question is whether Syracuse can use its run game to keep Angeli out of obvious passing situations. If California can force the game through this specific matchup, it has a path to keeping the margin tight. If Syracuse remains balanced, the rest of the matchup better supports our overall position.
 
 ## Best Bets Of The Week
 
