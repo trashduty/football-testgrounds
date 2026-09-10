@@ -9,13 +9,13 @@
 | Wake Forest Demon Deacons | -3.5 (+100) | FanDuel | 39.7% | No Bet |
 | Purdue Boilermakers | +3.5 (-122) | FanDuel | 60.4% | Bet |
 
-## The Bottom Line
-The Wake Forest Demon Deacons take on the Purdue Boilermakers at Ross-Ade Stadium. BTB projects **the Purdue Boilermakers -1** compared with a market line of +3.
-The best available number is Purdue Boilermakers +3.5 at -122. BTB gives that side a 60.4% cover probability, creating an edge of 5.45%. That clears our 3% threshold and makes the Purdue Boilermakers a bet.
+## Our Take
 
-## Why The Pick
+The Wake Forest Demon Deacons visit the Purdue Boilermakers at Ross-Ade Stadium. We make **the Purdue Boilermakers -1**, compared with a market line of +3.
 
-BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
+The best number we found is Purdue Boilermakers +3.5 at -122. We give Purdue Boilermakers a 60.4% chance to cover, which creates a 5.4% edge for us. That clears our 3% threshold, so Purdue Boilermakers is a bet.
+
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -30,12 +30,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 | Offensive Eckel Rate | 113th | 67th |
 | Defensive Eckel Rate | 129th | 48th |
 
-Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-BTB's model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **19 games** this week.
 
-Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
+Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
-<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
+<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

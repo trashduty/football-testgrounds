@@ -9,13 +9,13 @@
 | Utah State Aggies | +26.5 (-108) | BetMGM | 54.9% | Bet |
 | Washington Huskies | -26.5 (-110) | FanDuel | 44.8% | No Bet |
 
-## The Bottom Line
-The Utah State Aggies take on the Washington Huskies at Husky Stadium. BTB projects **the Utah State Aggies +24** compared with a market line of +26.5.
-The best available number is Utah State Aggies +26.5 at -108. BTB gives that side a 54.9% cover probability, creating an edge of 3.00%. That clears our 3% threshold and makes the Utah State Aggies a bet.
+## Our Take
 
-## Why The Pick
+The Utah State Aggies visit the Washington Huskies at Husky Stadium. We make **the Utah State Aggies +24**, compared with a market line of +26.5.
 
-BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
+The best number we found is Utah State Aggies +26.5 at -108. We give Utah State Aggies a 54.9% chance to cover, which creates a 3.0% edge for us. That clears our 3% threshold, so Utah State Aggies is a bet.
+
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -30,12 +30,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 | Offensive Eckel Rate | 30th | 84th |
 | Defensive Eckel Rate | 67th | 96th |
 
-Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-BTB's model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **19 games** this week.
 
-Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
+Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
-<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
+<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

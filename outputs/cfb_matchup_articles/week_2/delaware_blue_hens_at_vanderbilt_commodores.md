@@ -9,14 +9,13 @@
 | Delaware Blue Hens | +21.5 (-112) | BetRivers | 49.5% | No Bet |
 | Vanderbilt Commodores | -21.5 (-105) | FanDuel | 50.6% | No Bet |
 
-The model sees a lean here, but the edge does not clear our 3% threshold, so there is no full play.
+## Our Take
 
-## The Bottom Line
-The Delaware Blue Hens take on the Vanderbilt Commodores at FirstBank Stadium. BTB projects **the Vanderbilt Commodores -22.5** compared with a market line of -21. The best available number is Vanderbilt Commodores -21.5, where BTB sees an edge of -0.64%. That does not clear our 3% threshold, so this remains a pass.
+The Delaware Blue Hens visit the Vanderbilt Commodores at FirstBank Stadium. We make **the Vanderbilt Commodores -22.5**, compared with a market line of -21.
 
-## Why The Pick
+The best number we found is Vanderbilt Commodores -21.5 at -105. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
-BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -31,12 +30,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 | Offensive Eckel Rate | 3rd | 31st |
 | Defensive Eckel Rate | 110th | 121st |
 
-Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-BTB's model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **19 games** this week.
 
-Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
+Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
-<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
+<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

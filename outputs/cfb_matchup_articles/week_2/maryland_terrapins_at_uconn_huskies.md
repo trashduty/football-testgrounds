@@ -9,13 +9,13 @@
 | Maryland Terrapins | -12.5 (-108) | DraftKings | 37.8% | No Bet |
 | UConn Huskies | +12.5 (-110) | FanDuel | 62.7% | Bet |
 
-## The Bottom Line
-The Maryland Terrapins take on the UConn Huskies at Pratt & Whitney Stadium. BTB projects **the UConn Huskies +6.5** compared with a market line of +12.5.
-The best available number is UConn Huskies +12.5 at -110. BTB gives that side a 62.7% cover probability, creating an edge of 10.28%. That clears our 3% threshold and makes the UConn Huskies a bet.
+## Our Take
 
-## Why The Pick
+The Maryland Terrapins visit the UConn Huskies at Pratt & Whitney Stadium. We make **the UConn Huskies +6.5**, compared with a market line of +12.5.
 
-BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
+The best number we found is UConn Huskies +12.5 at -110. We give UConn Huskies a 62.7% chance to cover, which creates a 10.3% edge for us. That clears our 3% threshold, so UConn Huskies is a bet.
+
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -30,12 +30,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 | Offensive Eckel Rate | 22nd | 95th |
 | Defensive Eckel Rate | 37th | 98th |
 
-Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-BTB's model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **19 games** this week.
 
-Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
+Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
-<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
+<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

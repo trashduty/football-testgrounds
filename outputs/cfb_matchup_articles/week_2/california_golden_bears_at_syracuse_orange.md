@@ -9,13 +9,15 @@
 | California Golden Bears | +3.5 (-110) | FanDuel | 41.5% | No Bet |
 | Syracuse Orange | -3.5 (+100) | Fanatics | 58.3% | Bet |
 
-## The Bottom Line
-The California Golden Bears take on the Syracuse Orange at JMA Wireless Dome. BTB projects **the Syracuse Orange -9.5** compared with a market line of -3.5.
-The best available number is Syracuse Orange -3.5 at +100. BTB gives that side a 58.3% cover probability, creating an edge of 8.28%. That clears our 3% threshold and makes the Syracuse Orange a bet.
+## Our Take
 
-## Why The Pick
+The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We make **the Syracuse Orange -9.5**, compared with a market line of -3.5.
 
-BTB projects Syracuse as a 9.5-point favorite, while the market is offering -3.5 at +100. That six-point gap is the story. The market is asking Syracuse to win by four; BTB’s broader team-level expectation calls for considerably more separation, producing a 58.3% cover probability and an 8.3-point edge at the available price.
+The best number we found is Syracuse Orange -3.5 at +100. We give Syracuse Orange a 58.3% chance to cover, which creates a 8.3% edge for us. That clears our 3% threshold, so Syracuse Orange is a bet.
+
+We are not treating Syracuse’s dominant opener as proof of what comes next. The useful takeaway for us is the offensive balance: the Orange produced 238 rushing yards and 275 passing yards without committing a turnover. That matters because California allowed 277 rushing yards against UCLA. Our case is less about asking Syracuse to attack the strongest part of California’s defense and more about having a credible path to avoid becoming one-dimensional.
+
+We also see a plausible route to margin on the other side of the ball. Syracuse recorded five sacks and three takeaways while holding New Hampshire to 159 total yards, while California’s Jaron-Keawe Sagapolutele threw two interceptions in the opener. Those isolated results are not forecasts, but they fit our broader view that California may struggle to create enough scoring opportunities. We think Syracuse can generate separation through balance, negative plays and field position rather than relying entirely on its passing efficiency.
 
 ### What The Numbers Say
 
@@ -30,18 +32,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 | Offensive Eckel Rate | 128th | 127th |
 | Defensive Eckel Rate | 79th | 63rd |
 
-Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ### The Matchup To Watch
 
-The matchup to watch is Syracuse’s passing offense against California’s pass defense. BTB ranks that clash heavily toward California: the Orange are 138th in pass EPA, while the Golden Bears’ defense is 26th. Angeli threw for 263 yards in the opener, and Syracuse’s offensive line received an 87.0 pass-blocking grade from PFF, but one game against New Hampshire does not erase the longer-run efficiency concern.
+For us, the matchup to watch is Steve Angeli and the Syracuse passing game against California’s pass defense. Our efficiency numbers make this a clear California advantage, and it is the most meaningful concern for our position. Still, we saw Angeli return with 263 passing yards, extending his run to six consecutive games with at least 230, while the Syracuse offensive line received an 87.0 PFF pass-blocking grade in the opener.
 
-That is the clearest challenge to the wager. Syracuse does not need its passing game to dominate, but it cannot allow California’s strongest matchup advantage to stall drives repeatedly. BTB still finds enough overall separation to support Syracuse -3.5 at +100; the passing matchup explains why the market is less aggressive.
+The question is whether California can turn its statistical advantage into enough drive-killing disruption. If we see Syracuse protect Angeli and maintain the balance it showed in Week 1, we think California’s strongest matchup edge becomes less decisive.
 
 ## Best Bets Of The Week
 
-BTB's model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **19 games** this week.
 
-Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
+Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
-<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
+<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

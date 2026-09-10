@@ -9,13 +9,13 @@
 | New Mexico State Aggies | +7.5 (-112) | DraftKings | 46.3% | No Bet |
 | Hawaii Rainbow Warriors | -7.5 (-102) | BetMGM | 54.2% | Bet |
 
-## The Bottom Line
-The New Mexico State Aggies take on the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. BTB projects **the Hawaii Rainbow Warriors -11.5** compared with a market line of -7.5.
-The best available number is Hawaii Rainbow Warriors -7.5 at -102. BTB gives that side a 54.2% cover probability, creating an edge of 3.75%. That clears our 3% threshold and makes the Hawaii Rainbow Warriors a bet.
+## Our Take
 
-## Why The Pick
+The New Mexico State Aggies visit the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. We make **the Hawaii Rainbow Warriors -11.5**, compared with a market line of -7.5.
 
-BTB is not trying to predict this game from one recent result. The question is whether our expectation of the matchup differs enough from the market price to create value.
+The best number we found is Hawaii Rainbow Warriors -7.5 at -102. We give Hawaii Rainbow Warriors a 54.2% chance to cover, which creates a 3.7% edge for us. That clears our 3% threshold, so Hawaii Rainbow Warriors is a bet.
+
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -30,12 +30,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 | Offensive Eckel Rate | 74th | 93rd |
 | Defensive Eckel Rate | 53rd | 70th |
 
-Ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-BTB's model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **19 games** this week.
 
-Want this same model view for every game? Members get BTB's projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
+Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
-<p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
+<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
