@@ -764,8 +764,7 @@ SOURCE DOCUMENT:
                 EXTRACTION_SYSTEM_PROMPT
             ),
             input=prompt,
-            temperature=0.1,
-        )
+                    )
     )
 
     raw = _response_text(
@@ -1398,8 +1397,7 @@ Do not add external football information.
                 BTB_SYSTEM_PROMPT
             ),
             input=prompt,
-            temperature=0.35,
-        )
+                    )
     )
 
     raw = _response_text(
