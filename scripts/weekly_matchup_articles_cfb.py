@@ -1,22 +1,16 @@
 #!/usr/bin/env python3
 """
-Generate weekly College Football matchup articles from odds + CFBD stats +
-optional team game guides.
+Generate weekly College Football matchup articles.
 
-Core betting logic remains deterministic.
+Sources:
+- spreads_odds.csv
+- CFBD rolling team stats
+- optional team media guides
 
-Optional narrative enrichment:
-- game_guides/{season}/{btb_team_short}.pdf
-- cfb_game_guides.py extracts verified facts
-- OpenAI generates BTB-style narrative from verified facts + deterministic
-  model context
-- missing guides NEVER prevent article generation
+Betting logic remains deterministic.
 
-Requires:
-- cfb_stats.py
-- cfb_game_guides.py
-- CFBD_API_KEY
-- OPENAI_API_KEY for guide-enriched narrative
+Guide enrichment is optional and missing guides never prevent an article
+from being generated.
 """
 
 from __future__ import annotations
@@ -25,10 +19,21 @@ import argparse
 import base64
 import json
 import os
-from datetime import UTC, datetime
+
+from datetime import (
+    UTC,
+    datetime,
+)
+
 from io import StringIO
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import (
+    Dict,
+    List,
+    Optional,
+    Tuple,
+)
+
 from zoneinfo import ZoneInfo
 
 import pandas as pd
@@ -38,33 +43,54 @@ import cfb_stats
 import cfb_game_guides
 
 
-TRASH_SCHEDULE_OWNER = "trashduty"
-TRASH_SCHEDULE_REPO = "trash-schedule"
-TRASH_SCHEDULE_REF = "main"
+# --------------------------------------------------------------------------- #
+# Configuration
+# --------------------------------------------------------------------------- #
+
+TRASH_SCHEDULE_OWNER = (
+    "trashduty"
+)
+
+TRASH_SCHEDULE_REPO = (
+    "trash-schedule"
+)
+
+TRASH_SCHEDULE_REF = (
+    "main"
+)
 
 TRASH_SCHEDULE_SPREADS_PATH = (
     "CFB_Odds/Data/spreads_odds.csv"
 )
 
 TRASH_SCHEDULE_CROSSWALK_PATH = (
-    "CFB_Odds/Data/CFB Teams Full Crosswalk.csv"
+    "CFB_Odds/Data/"
+    "CFB Teams Full Crosswalk.csv"
 )
 
 FULL_BET_THRESHOLD = 0.03
 
-ET = ZoneInfo("America/New_York")
+ET = ZoneInfo(
+    "America/New_York"
+)
 
 REQUEST_TIMEOUT = 30
 
 BTB_LOGO = (
     "<p align='center'>"
-    "<img src='https://raw.githubusercontent.com/trashduty/"
-    "football-testgrounds/main/BTB%20Analytics%20.png.png' "
+    "<img src='https://raw.githubusercontent.com/"
+    "trashduty/football-testgrounds/main/"
+    "BTB%20Analytics%20.png.png' "
     "alt='BTB Analytics' width='100' />"
-    "<br/><em>Brought to you by BTB Analytics</em>"
+    "<br/>"
+    "<em>Brought to you by BTB Analytics</em>"
     "</p>"
 )
 
+
+# --------------------------------------------------------------------------- #
+# Args
+# --------------------------------------------------------------------------- #
 
 def parse_args() -> argparse.Namespace:
 
@@ -74,16 +100,15 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--output-dir",
-        default="outputs/matchup_articles",
+        default=(
+            "outputs/"
+            "matchup_articles"
+        ),
     )
 
     parser.add_argument(
         "--guide-dir",
         default="game_guides",
-        help=(
-            "Root folder containing "
-            "game_guides/{season}/{btb_team_short}.pdf"
-        ),
     )
 
     parser.add_argument(
@@ -104,10 +129,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--crosswalk",
         default=None,
-        help=(
-            "Path to team crosswalk CSV. "
-            "If omitted, fetch from trash-schedule."
-        ),
     )
 
     parser.add_argument(
@@ -116,23 +137,28 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--trash-schedule-owner",
-        default=TRASH_SCHEDULE_OWNER,
+        default=(
+            TRASH_SCHEDULE_OWNER
+        ),
     )
 
     parser.add_argument(
         "--trash-schedule-repo",
-        default=TRASH_SCHEDULE_REPO,
+        default=(
+            TRASH_SCHEDULE_REPO
+        ),
     )
 
     parser.add_argument(
         "--trash-schedule-ref",
-        default=TRASH_SCHEDULE_REF,
+        default=(
+            TRASH_SCHEDULE_REF
+        ),
     )
 
     parser.add_argument(
         "--disable-guides",
         action="store_true",
-        help="Generate deterministic article without AI guide enrichment.",
     )
 
     parser.add_argument(
@@ -147,41 +173,76 @@ def parse_args() -> argparse.Namespace:
 
 
 # --------------------------------------------------------------------------- #
-# Formatting helpers
+# Formatting
 # --------------------------------------------------------------------------- #
 
-def safe_mkdir(path: Path) -> None:
+def safe_mkdir(
+    path: Path,
+) -> None:
+
     path.mkdir(
         parents=True,
         exist_ok=True,
     )
 
 
-def slugify_game(game: str) -> str:
+def slugify_game(
+    game: str,
+) -> str:
+
     return (
-        game.lower()
-        .replace("@", "_at_")
-        .replace(" ", "_")
+        game
+        .lower()
+        .replace(
+            "@",
+            "_at_",
+        )
+        .replace(
+            " ",
+            "_",
+        )
     )
 
 
-def parse_percent(value: object) -> float:
+def parse_percent(
+    value: object,
+) -> float:
 
-    if value is None or pd.isna(value):
-        return float("nan")
+    if (
+        value is None
+        or pd.isna(value)
+    ):
+        return float(
+            "nan"
+        )
 
-    if isinstance(value, str):
-        stripped = value.strip()
+    if isinstance(
+        value,
+        str,
+    ):
 
-        if stripped.endswith("%"):
+        stripped = (
+            value.strip()
+        )
+
+        if stripped.endswith(
+            "%"
+        ):
+
             return (
-                float(stripped.rstrip("%"))
+                float(
+                    stripped.rstrip(
+                        "%"
+                    )
+                )
                 / 100.0
             )
 
         value = stripped
 
-    numeric = float(value)
+    numeric = float(
+        value
+    )
 
     return (
         numeric / 100.0
@@ -195,23 +256,40 @@ def display_percent(
     digits: int = 1,
 ) -> str:
 
-    if value is None or pd.isna(value):
+    if (
+        value is None
+        or pd.isna(value)
+    ):
         return "N/A"
 
-    numeric = float(value)
+    numeric = float(
+        value
+    )
 
-    if abs(numeric) <= 1:
+    if (
+        abs(numeric)
+        <= 1
+    ):
         numeric *= 100
 
-    return f"{numeric:.{digits}f}%"
+    return (
+        f"{numeric:.{digits}f}%"
+    )
 
 
-def format_line(value: object) -> str:
+def format_line(
+    value: object,
+) -> str:
 
-    if value is None or pd.isna(value):
+    if (
+        value is None
+        or pd.isna(value)
+    ):
         return "N/A"
 
-    f = float(value)
+    f = float(
+        value
+    )
 
     return (
         f"+{f:.1f}"
@@ -220,12 +298,46 @@ def format_line(value: object) -> str:
     )
 
 
-def _price(value: object) -> str:
+def format_projection(
+    value: object,
+) -> str:
 
-    if value is None or pd.isna(value):
+    if (
+        value is None
+        or pd.isna(value)
+    ):
+        return "N/A"
+
+    f = float(
+        value
+    )
+
+    output = (
+        f"+{f:.1f}"
+        if f > 0
+        else f"{f:.1f}"
+    )
+
+    return (
+        output
+        .rstrip("0")
+        .rstrip(".")
+    )
+
+
+def _price(
+    value: object,
+) -> str:
+
+    if (
+        value is None
+        or pd.isna(value)
+    ):
         return "-110"
 
-    f = float(value)
+    f = float(
+        value
+    )
 
     return (
         f"{f:+.0f}"
@@ -234,76 +346,133 @@ def _price(value: object) -> str:
     )
 
 
+def safe_float(
+    value: object,
+) -> Optional[float]:
+
+    if (
+        value is None
+        or pd.isna(value)
+    ):
+        return None
+
+    try:
+
+        return float(
+            value
+        )
+
+    except (
+        TypeError,
+        ValueError,
+    ):
+
+        return None
+
+
 def resolve_edge_numeric(
     row: pd.Series,
 ) -> Optional[float]:
 
-    edge = row.get("best_edge")
+    edge = row.get(
+        "best_edge"
+    )
 
-    if edge is None or pd.isna(edge):
-        edge = row.get("edge")
+    if (
+        edge is None
+        or pd.isna(edge)
+    ):
 
-    if edge is None or pd.isna(edge):
+        edge = row.get(
+            "edge"
+        )
+
+    if (
+        edge is None
+        or pd.isna(edge)
+    ):
+
         return None
 
     return float(
-        parse_percent(edge)
+        parse_percent(
+            edge
+        )
     )
 
 
 def _side_facts(
     row: pd.Series,
-) -> Dict[str, object]:
+) -> Dict[
+    str,
+    object,
+]:
 
     cover = row.get(
         "best_cover_probability"
     )
 
-    if cover is None or pd.isna(cover):
+    if (
+        cover is None
+        or pd.isna(cover)
+    ):
+
         cover = row.get(
             "cover_probability"
         )
 
-    edge = row.get("best_edge")
-
-    if edge is None or pd.isna(edge):
-        edge = row.get("edge")
-
-    return {
-        "cover": cover,
-        "edge": edge,
-        "line": row.get("best_line"),
-        "price": row.get("best_price"),
-    }
-
-
-def edge_confidence_label(
-    edge: Optional[float],
-) -> str:
+    edge = row.get(
+        "best_edge"
+    )
 
     if (
         edge is None
-        or edge < FULL_BET_THRESHOLD
+        or pd.isna(edge)
     ):
-        return "Pass"
 
-    if edge >= 0.07:
-        return "Strong"
+        edge = row.get(
+            "edge"
+        )
 
-    return "Lean"
+    return {
+        "cover":
+            cover,
+
+        "edge":
+            edge,
+
+        "line":
+            row.get(
+                "best_line"
+            ),
+
+        "price":
+            row.get(
+                "best_price"
+            ),
+    }
 
 
 def matchup_call_label(
     edge: Optional[float],
 ) -> str:
 
-    if edge is None or edge < 0.01:
+    if (
+        edge is None
+        or edge < 0.01
+    ):
+
         return "No Bet"
 
-    if edge < FULL_BET_THRESHOLD:
+    if (
+        edge
+        < FULL_BET_THRESHOLD
+    ):
+
         return (
-            "Lean – doesn't meet our "
-            "edge criteria to fully bet"
+            "Lean – doesn't meet "
+            "our edge criteria "
+            "to fully bet"
         )
 
     return "Bet"
@@ -311,26 +480,48 @@ def matchup_call_label(
 
 def model_vs_market_lead(
     team_name: str,
-    market_line: float,
-    best_line: float,
+    model_prediction: Optional[float],
+    market_line: Optional[float],
 ) -> str:
+    """
+    Compare the ACTUAL BTB model projection with the market.
 
-    def fmt(v: float) -> str:
-        s = (
-            f"{v:+.1f}"
-            if v >= 0
-            else f"{v:.1f}"
-        )
+    best_line is intentionally NOT used here.
+    """
+
+    if (
+        model_prediction is not None
+        and market_line is not None
+    ):
 
         return (
-            s.rstrip("0")
-            .rstrip(".")
+            f"BTB projects "
+            f"**the {team_name} "
+            f"{format_projection(model_prediction)}** "
+            f"compared with a market line of "
+            f"{format_projection(market_line)}."
+        )
+
+    if model_prediction is not None:
+
+        return (
+            f"BTB projects "
+            f"**the {team_name} "
+            f"{format_projection(model_prediction)}**."
+        )
+
+    if market_line is not None:
+
+        return (
+            f"the model favors "
+            f"**the {team_name}** "
+            f"against a market line of "
+            f"{format_projection(market_line)}."
         )
 
     return (
-        f"the model favors **the {team_name}** "
-        f"at {fmt(best_line)} "
-        f"vs. the market at {fmt(market_line)}."
+        f"the model favors "
+        f"**the {team_name}**."
     )
 
 
@@ -340,8 +531,11 @@ def format_kickoff_date(
 
     if (
         commence_time is None
-        or pd.isna(commence_time)
+        or pd.isna(
+            commence_time
+        )
     ):
+
         return "N/A"
 
     ts = pd.Timestamp(
@@ -349,13 +543,21 @@ def format_kickoff_date(
     )
 
     if ts.tzinfo is None:
-        ts = ts.tz_localize(
-            "UTC"
+
+        ts = (
+            ts.tz_localize(
+                "UTC"
+            )
         )
 
     return (
-        ts.tz_convert(ET)
-        .strftime("%m/%d/%Y")
+        ts
+        .tz_convert(
+            ET
+        )
+        .strftime(
+            "%m/%d/%Y"
+        )
     )
 
 
@@ -373,55 +575,82 @@ def fetch_text(
     session: requests.Session,
 ) -> str:
 
-    if local_root is not None:
+    if (
+        local_root
+        is not None
+    ):
+
         return (
-            local_root / path
+            local_root
+            / path
         ).read_text(
             encoding="utf-8"
         )
 
     raw_url = (
-        f"https://raw.githubusercontent.com/"
+        "https://raw.githubusercontent.com/"
         f"{owner}/{repo}/{ref}/{path}"
     )
 
-    response = session.get(
-        raw_url,
-        timeout=REQUEST_TIMEOUT,
+    response = (
+        session.get(
+            raw_url,
+            timeout=(
+                REQUEST_TIMEOUT
+            ),
+        )
     )
 
     if response.ok:
-        return response.text
+
+        return (
+            response.text
+        )
 
     token = os.getenv(
         "GITHUB_TOKEN"
     )
 
     if token:
+
         api_url = (
-            "https://api.github.com/repos/"
-            f"{owner}/{repo}/contents/"
-            f"{path}?ref={ref}"
+            "https://api.github.com/"
+            "repos/"
+            f"{owner}/{repo}/"
+            "contents/"
+            f"{path}"
+            f"?ref={ref}"
         )
 
-        api_response = session.get(
-            api_url,
-            headers={
-                "Accept":
-                    "application/vnd.github+json",
-                "Authorization":
-                    f"token {token}",
-            },
-            timeout=REQUEST_TIMEOUT,
+        api_response = (
+            session.get(
+                api_url,
+                headers={
+                    "Accept":
+                        "application/"
+                        "vnd.github+json",
+
+                    "Authorization":
+                        f"token {token}",
+                },
+                timeout=(
+                    REQUEST_TIMEOUT
+                ),
+            )
         )
 
         api_response.raise_for_status()
 
         return (
             base64.b64decode(
-                api_response.json()["content"]
+                api_response
+                .json()[
+                    "content"
+                ]
             )
-            .decode("utf-8")
+            .decode(
+                "utf-8"
+            )
         )
 
     response.raise_for_status()
@@ -432,7 +661,11 @@ def fetch_text(
 def load_spreads(
     args: argparse.Namespace,
     session: requests.Session,
-) -> Tuple[pd.DataFrame, int, int]:
+) -> Tuple[
+    pd.DataFrame,
+    int,
+    int,
+]:
 
     local_root = (
         Path(
@@ -445,9 +678,15 @@ def load_spreads(
     raw = fetch_text(
         TRASH_SCHEDULE_SPREADS_PATH,
         local_root=local_root,
-        owner=args.trash_schedule_owner,
-        repo=args.trash_schedule_repo,
-        ref=args.trash_schedule_ref,
+        owner=(
+            args.trash_schedule_owner
+        ),
+        repo=(
+            args.trash_schedule_repo
+        ),
+        ref=(
+            args.trash_schedule_ref
+        ),
         session=session,
     )
 
@@ -461,45 +700,68 @@ def load_spreads(
         .str.lower()
     )
 
-    spreads["week"] = (
-        spreads["week"]
+    spreads[
+        "week"
+    ] = (
+        spreads[
+            "week"
+        ]
         .astype(int)
     )
 
-    spreads["commence_time"] = (
-        pd.to_datetime(
-            spreads["commence_time"],
-            errors="coerce",
-            utc=True,
-        )
+    spreads[
+        "commence_time"
+    ] = pd.to_datetime(
+        spreads[
+            "commence_time"
+        ],
+        errors="coerce",
+        utc=True,
     )
 
-    spreads["team_id"] = (
-        spreads["logo"]
+    spreads[
+        "team_id"
+    ] = (
+        spreads[
+            "logo"
+        ]
         .map(
-            cfb_stats.team_id_from_logo
+            cfb_stats
+            .team_id_from_logo
         )
-        .astype("Int64")
+        .astype(
+            "Int64"
+        )
     )
 
     week = (
         args.week
-        if args.week is not None
+        if (
+            args.week
+            is not None
+        )
         else int(
-            spreads["week"].max()
+            spreads[
+                "week"
+            ].max()
         )
     )
 
     week_spreads = (
         spreads[
-            spreads["week"] == week
+            spreads[
+                "week"
+            ]
+            == week
         ]
         .copy()
     )
 
     if week_spreads.empty:
+
         raise ValueError(
-            f"No spreads rows for week {week}"
+            f"No spreads rows "
+            f"for week {week}"
         )
 
     season = (
@@ -527,11 +789,13 @@ def load_crosswalk(
 ) -> pd.DataFrame:
 
     if args.crosswalk:
+
         cw = pd.read_csv(
             args.crosswalk
         )
 
     else:
+
         local_root = (
             Path(
                 args.trash_schedule_dir
@@ -543,9 +807,15 @@ def load_crosswalk(
         raw = fetch_text(
             TRASH_SCHEDULE_CROSSWALK_PATH,
             local_root=local_root,
-            owner=args.trash_schedule_owner,
-            repo=args.trash_schedule_repo,
-            ref=args.trash_schedule_ref,
+            owner=(
+                args.trash_schedule_owner
+            ),
+            repo=(
+                args.trash_schedule_repo
+            ),
+            ref=(
+                args.trash_schedule_ref
+            ),
             session=session,
         )
 
@@ -558,13 +828,20 @@ def load_crosswalk(
         .str.strip()
     )
 
-    if "team_id" in cw.columns:
-        cw["team_id"] = (
-            pd.to_numeric(
-                cw["team_id"],
-                errors="coerce",
-            )
-            .astype("Int64")
+    if (
+        "team_id"
+        in cw.columns
+    ):
+
+        cw[
+            "team_id"
+        ] = pd.to_numeric(
+            cw[
+                "team_id"
+            ],
+            errors="coerce",
+        ).astype(
+            "Int64"
         )
 
     return cw
@@ -580,9 +857,12 @@ def build_bottom_line(
     stadium_name: Optional[str],
     bet_name: str,
     bet_line: str,
-    bet_facts: Dict[str, object],
+    bet_facts: Dict[
+        str,
+        object,
+    ],
     has_bet: bool,
-    model_lead: Optional[str],
+    model_lead: str,
 ) -> List[str]:
 
     stadium = (
@@ -590,14 +870,23 @@ def build_bottom_line(
         or "their home stadium"
     )
 
-    raw_edge = bet_facts.get(
-        "edge"
+    raw_edge = (
+        bet_facts.get(
+            "edge"
+        )
     )
 
     edge = (
-        float(raw_edge)
-        if raw_edge is not None
-        and not pd.isna(raw_edge)
+        parse_percent(
+            raw_edge
+        )
+        if (
+            raw_edge
+            is not None
+            and not pd.isna(
+                raw_edge
+            )
+        )
         else 0.0
     )
 
@@ -605,49 +894,66 @@ def build_bottom_line(
         f"{edge * 100:.2f}%"
     )
 
-    price = bet_facts.get(
-        "price"
+    price = (
+        bet_facts.get(
+            "price"
+        )
     )
 
     price_str = (
-        str(int(price))
-        if price is not None
-        and not pd.isna(price)
+        _price(
+            price
+        )
+        if (
+            price
+            is not None
+            and not pd.isna(
+                price
+            )
+        )
+        else "N/A"
+    )
+
+    cover = (
+        bet_facts.get(
+            "cover"
+        )
+    )
+
+    cover_str = (
+        display_percent(
+            cover,
+            1,
+        )
+        if (
+            cover
+            is not None
+            and not pd.isna(
+                cover
+            )
+        )
         else "N/A"
     )
 
     if has_bet:
 
-        lead = (
-            model_lead
-            or (
-                f"the model likes "
-                f"{bet_name} "
-                f"{bet_line}."
-            )
-        )
-
-        if (
-            lead
-            and lead[0].isupper()
-        ):
-            lead = (
-                lead[0].lower()
-                + lead[1:]
-            )
-
         intro = (
             f"The {away_name} take on "
             f"the {home_name} at "
-            f"{stadium} and {lead}"
+            f"{stadium}. "
+            f"{model_lead}"
         )
 
         edge_line = (
-            f"This puts the edge at "
-            f"{edge_pct}, which at "
-            f"{bet_line} for "
-            f"{price_str} makes the "
-            f"{bet_name} a bet."
+            f"The best available number is "
+            f"{bet_name} {bet_line} at "
+            f"{price_str}. "
+            f"BTB gives that side a "
+            f"{cover_str} cover probability, "
+            f"creating an edge of "
+            f"{edge_pct}. "
+            f"That clears our 3% threshold "
+            f"and makes the {bet_name} a bet."
         )
 
         return [
@@ -657,14 +963,17 @@ def build_bottom_line(
         ]
 
     text = (
-        f"The {away_name} take on the "
-        f"{home_name} at {stadium} and "
-        f"the model sees a lean toward "
-        f"{bet_name} {bet_line} with an "
-        f"edge of {edge_pct}, but this "
-        f"does not clear our 3% threshold "
-        f"for a full bet, so we are "
-        f"passing on this one."
+        f"The {away_name} take on "
+        f"the {home_name} at "
+        f"{stadium}. "
+        f"{model_lead} "
+        f"The best available number is "
+        f"{bet_name} {bet_line}, where "
+        f"BTB sees an edge of "
+        f"{edge_pct}. "
+        f"That does not clear our "
+        f"3% threshold, so this remains "
+        f"a pass."
     )
 
     return [
@@ -672,6 +981,10 @@ def build_bottom_line(
         text,
     ]
 
+
+# --------------------------------------------------------------------------- #
+# CTA
+# --------------------------------------------------------------------------- #
 
 def build_cta(
     edge_game_count: int,
@@ -683,58 +996,62 @@ def build_cta(
         "",
     ]
 
-    if edge_game_count > 0:
+    if (
+        edge_game_count
+        > 0
+    ):
 
         plural = (
             "games"
-            if edge_game_count != 1
+            if (
+                edge_game_count
+                != 1
+            )
             else "game"
         )
 
         lines.append(
-            f"Our model found edges of at "
-            f"least 3% on **{edge_game_count} "
-            f"{plural}** this week. "
-            f"See the model output for every "
-            f"NFL and CFB game at "
-            f"btb-analytics.com/member-access."
+            f"BTB's model found edges of "
+            f"at least 3% on "
+            f"**{edge_game_count} "
+            f"{plural}** this week."
         )
 
-    lines.append("")
+        lines.append(
+            ""
+        )
 
-    lines.append(
-        "<p align='center'><em>"
-        "Built by the BTB model. "
-        "We target a 55-57% win rate and "
-        "publish every result, wins and losses."
-        "</em></p>"
+        lines.append(
+            "Want this same model view "
+            "for every game? Members get "
+            "BTB's projected line, cover "
+            "probability, edge, and best "
+            "available sportsbook price "
+            "across the full CFB and NFL "
+            "slate at "
+            "btb-analytics.com/member-access."
+        )
+
+    lines.extend(
+        [
+            "",
+            (
+                "<p align='center'><em>"
+                "Built by the BTB model. "
+                "We target a 55-57% win rate "
+                "and publish every result, "
+                "wins and losses."
+                "</em></p>"
+            ),
+        ]
     )
 
     return lines
 
 
 # --------------------------------------------------------------------------- #
-# Guide integration helpers
+# Guide enrichment
 # --------------------------------------------------------------------------- #
-
-def safe_float(
-    value: object,
-) -> Optional[float]:
-
-    if (
-        value is None
-        or pd.isna(value)
-    ):
-        return None
-
-    try:
-        return float(value)
-    except (
-        TypeError,
-        ValueError,
-    ):
-        return None
-
 
 def build_guide_enrichment(
     *,
@@ -757,29 +1074,53 @@ def build_guide_enrichment(
 ) -> Dict[str, object]:
 
     default = {
-        "enabled": False,
-        "narrative": "",
-        "matchup_to_watch": "",
-        "guide_status": [],
-        "guide_extractions": [],
-        "matchup_angles": [],
-        "used_sources": [],
+        "enabled":
+            False,
+
+        "narrative":
+            "",
+
+        "matchup_to_watch":
+            "",
+
+        "guide_status":
+            [],
+
+        "guide_extractions":
+            [],
+
+        "matchup_angles":
+            [],
+
+        "used_sources":
+            [],
+
+        "model_context":
+            {},
     }
 
     if args.disable_guides:
+
         default[
             "guide_status"
         ] = [
             "Guide enrichment disabled"
         ]
+
         return default
 
-    guide_root = Path(
-        args.guide_dir
-    ).resolve()
+    guide_root = (
+        Path(
+            args.guide_dir
+        ).resolve()
+    )
 
-    guide_results, guide_status = (
-        cfb_game_guides.load_game_guides(
+    (
+        guide_results,
+        guide_status,
+    ) = (
+        cfb_game_guides
+        .load_game_guides(
             away_id=away_id,
             home_id=home_id,
             away_name=away_name,
@@ -788,7 +1129,9 @@ def build_guide_enrichment(
             week=week,
             crosswalk=crosswalk,
             guide_root=guide_root,
-            model=args.openai_model,
+            model=(
+                args.openai_model
+            ),
         )
     )
 
@@ -801,6 +1144,7 @@ def build_guide_enrichment(
     ] = guide_results
 
     if not guide_results:
+
         return default
 
     matchup_angles = (
@@ -808,8 +1152,36 @@ def build_guide_enrichment(
         .identify_matchup_angles(
             bet_id=bet_id,
             opp_id=opp_id,
-            ranked_stats=ranked_stats,
-            crosswalk=crosswalk,
+            ranked_stats=(
+                ranked_stats
+            ),
+            crosswalk=(
+                crosswalk
+            ),
+        )
+    )
+
+    model_prediction = (
+        safe_float(
+            verdict_row.get(
+                "model_prediction"
+            )
+        )
+    )
+
+    market_line = (
+        safe_float(
+            verdict_row.get(
+                "market_line"
+            )
+        )
+    )
+
+    best_line = (
+        safe_float(
+            verdict_row.get(
+                "best_line"
+            )
         )
     )
 
@@ -817,22 +1189,17 @@ def build_guide_enrichment(
         cfb_game_guides
         .build_model_context(
             bet_name=bet_name,
-            opponent_name=opp_name,
+            opponent_name=(
+                opp_name
+            ),
+            model_prediction=(
+                model_prediction
+            ),
             market_line=(
-                safe_float(
-                    verdict_row.get(
-                        "market_line"
-                    )
-                )
-                or 0.0
+                market_line
             ),
             best_line=(
-                safe_float(
-                    verdict_row.get(
-                        "best_line"
-                    )
-                )
-                or 0.0
+                best_line
             ),
             best_price=(
                 verdict_row.get(
@@ -849,20 +1216,39 @@ def build_guide_enrichment(
                     "edge"
                 )
             ),
-            has_bet=has_bet,
+            has_bet=(
+                has_bet
+            ),
         )
     )
 
+    default[
+        "model_context"
+    ] = model_context
+
+    default[
+        "matchup_angles"
+    ] = matchup_angles
+
     try:
+
         narrative = (
             cfb_game_guides
             .generate_matchup_narrative(
                 away_name=away_name,
                 home_name=home_name,
-                model_context=model_context,
-                matchup_angles=matchup_angles,
-                guide_results=guide_results,
-                model=args.openai_model,
+                model_context=(
+                    model_context
+                ),
+                matchup_angles=(
+                    matchup_angles
+                ),
+                guide_results=(
+                    guide_results
+                ),
+                model=(
+                    args.openai_model
+                ),
             )
         )
 
@@ -912,14 +1298,6 @@ def build_guide_enrichment(
         )
     )
 
-    default[
-        "matchup_angles"
-    ] = matchup_angles
-
-    default[
-        "model_context"
-    ] = model_context
-
     return default
 
 
@@ -939,15 +1317,23 @@ def build_article(
     args: argparse.Namespace,
 ) -> Tuple[
     str,
-    Dict[str, object],
+    Dict[
+        str,
+        object,
+    ],
 ]:
 
-    away_team, home_team = (
-        game.split("@")
+    (
+        away_team,
+        home_team,
+    ) = game.split(
+        "@"
     )
 
     rows_by_team = {
-        row["team"]: row
+        row[
+            "team"
+        ]: row
         for _, row
         in game_rows.iterrows()
     }
@@ -967,9 +1353,19 @@ def build_article(
     id_to_btb = (
         crosswalk
         .dropna(
-            subset=["team_id"]
+            subset=[
+                "team_id",
+                "btb_team",
+            ]
         )
-        .set_index("team_id")[
+        .drop_duplicates(
+            subset=[
+                "team_id"
+            ]
+        )
+        .set_index(
+            "team_id"
+        )[
             "btb_team"
         ]
         .to_dict()
@@ -978,14 +1374,18 @@ def build_article(
     away_id = (
         cfb_stats
         .team_id_from_logo(
-            away_row.get("logo")
+            away_row.get(
+                "logo"
+            )
         )
     )
 
     home_id = (
         cfb_stats
         .team_id_from_logo(
-            home_row.get("logo")
+            home_row.get(
+                "logo"
+            )
         )
     )
 
@@ -1011,37 +1411,43 @@ def build_article(
         )
     )
 
-    stadium_name = (
-        venue_lookup.get(
-            (
-                frozenset(
-                    [
-                        away_id,
-                        home_id,
-                    ]
-                ),
-                week,
+    stadium_name = None
+
+    if (
+        away_id is not None
+        and home_id is not None
+    ):
+
+        stadium_name = (
+            venue_lookup.get(
+                (
+                    frozenset(
+                        [
+                            away_id,
+                            home_id,
+                        ]
+                    ),
+                    week,
+                )
             )
         )
-        if away_id
-        and home_id
-        else None
+
+    sorted_rows = (
+        game_rows
+        .sort_values(
+            "market_line"
+        )
+        .reset_index(
+            drop=True
+        )
     )
 
     favorite_row = (
-        game_rows
-        .sort_values(
-            "market_line"
-        )
-        .iloc[0]
+        sorted_rows.iloc[0]
     )
 
     dog_row = (
-        game_rows
-        .sort_values(
-            "market_line"
-        )
-        .iloc[-1]
+        sorted_rows.iloc[-1]
     )
 
     fav_edge = (
@@ -1056,31 +1462,36 @@ def build_article(
         )
     )
 
+    verdict_is_favorite = (
+        fav_edge is not None
+        and (
+            dog_edge is None
+            or fav_edge
+            >= dog_edge
+        )
+    )
+
     verdict_row = (
         favorite_row
-        if (
-            fav_edge is not None
-            and (
-                dog_edge is None
-                or fav_edge >= dog_edge
-            )
-        )
+        if verdict_is_favorite
         else dog_row
     )
 
     other_row = (
         dog_row
-        if verdict_row is favorite_row
+        if verdict_is_favorite
         else favorite_row
     )
 
-    has_bet = (
-        (
-            resolve_edge_numeric(
-                verdict_row
-            )
-            or 0
+    verdict_edge = (
+        resolve_edge_numeric(
+            verdict_row
         )
+        or 0.0
+    )
+
+    has_bet = (
+        verdict_edge
         >= FULL_BET_THRESHOLD
     )
 
@@ -1105,14 +1516,18 @@ def build_article(
     bet_name = (
         id_to_btb.get(
             bet_id,
-            verdict_row["team"],
+            verdict_row[
+                "team"
+            ],
         )
     )
 
     opp_name = (
         id_to_btb.get(
             opp_id,
-            other_row["team"],
+            other_row[
+                "team"
+            ],
         )
     )
 
@@ -1155,6 +1570,7 @@ def build_article(
         away_logo
         and home_logo
     ):
+
         sections.append(
             f'<p align="center">'
             f'<img src="{away_logo}" '
@@ -1167,17 +1583,21 @@ def build_article(
             f'</p>'
         )
 
-        sections.append("")
+        sections.append(
+            ""
+        )
 
     sections.append(
         BTB_LOGO
     )
 
-    sections.append("")
+    sections.append(
+        ""
+    )
 
-    # -------------------------------------------------
+    # ------------------------------------------------------------------
     # Summary table
-    # -------------------------------------------------
+    # ------------------------------------------------------------------
 
     sections.extend(
         [
@@ -1188,15 +1608,22 @@ def build_article(
                 "Cover Probability | "
                 "BTB Advice |"
             ),
-            (
-                "|---|---|---|---|---|"
-            ),
+            "|---|---|---|---|---|",
         ]
     )
 
-    for row, team_name in (
-        (away_row, away_name),
-        (home_row, home_name),
+    for (
+        row,
+        team_name,
+    ) in (
+        (
+            away_row,
+            away_name,
+        ),
+        (
+            home_row,
+            home_name,
+        ),
     ):
 
         edge = (
@@ -1211,8 +1638,11 @@ def build_article(
 
         if (
             cover is None
-            or pd.isna(cover)
+            or pd.isna(
+                cover
+            )
         ):
+
             cover = row.get(
                 "cover_probability"
             )
@@ -1235,10 +1665,22 @@ def build_article(
                     "The model sees a lean here, "
                     "but the edge does not clear "
                     "our 3% threshold, so there "
-                    "is no play."
+                    "is no full play."
                 ),
             ]
         )
+
+    # ------------------------------------------------------------------
+    # Actual model vs market comparison
+    # ------------------------------------------------------------------
+
+    model_prediction = (
+        safe_float(
+            verdict_row.get(
+                "model_prediction"
+            )
+        )
+    )
 
     market_line = (
         safe_float(
@@ -1246,43 +1688,49 @@ def build_article(
                 "market_line"
             )
         )
-        or 0.0
-    )
-
-    best_line = (
-        safe_float(
-            verdict_row.get(
-                "best_line"
-            )
-        )
-        or 0.0
     )
 
     model_lead = (
         model_vs_market_lead(
             bet_name,
+            model_prediction,
             market_line,
-            best_line,
         )
     )
 
     sections.extend(
         [""]
         + build_bottom_line(
-            away_name,
-            home_name,
-            stadium_name,
-            bet_name,
-            bet_line,
-            bet_facts,
-            has_bet,
-            model_lead,
+            away_name=(
+                away_name
+            ),
+            home_name=(
+                home_name
+            ),
+            stadium_name=(
+                stadium_name
+            ),
+            bet_name=(
+                bet_name
+            ),
+            bet_line=(
+                bet_line
+            ),
+            bet_facts=(
+                bet_facts
+            ),
+            has_bet=(
+                has_bet
+            ),
+            model_lead=(
+                model_lead
+            ),
         )
     )
 
-    # -------------------------------------------------
-    # NEW: guide enrichment
-    # -------------------------------------------------
+    # ------------------------------------------------------------------
+    # Guide enrichment
+    # ------------------------------------------------------------------
 
     enrichment = (
         build_guide_enrichment(
@@ -1323,30 +1771,27 @@ def build_article(
             ].strip()
         )
 
-        sections.append("")
-
     else:
 
         sections.append(
             (
-                "The model is less interested "
-                "in the final score from one "
-                "Saturday than in whether the "
-                "underlying matchup creates a "
-                "difference between our "
-                "expectation and the number "
-                "being offered by the market."
+                "BTB is not trying to predict "
+                "this game from one recent "
+                "result. The question is "
+                "whether our expectation of "
+                "the matchup differs enough "
+                "from the market price to "
+                "create value."
             )
         )
 
-        sections.append("")
-
-    # -------------------------------------------------
-    # Existing deterministic data table
-    # -------------------------------------------------
+    # ------------------------------------------------------------------
+    # Deterministic matchup table
+    # ------------------------------------------------------------------
 
     sections.extend(
         [
+            "",
             "### What The Numbers Say",
             "",
             (
@@ -1375,12 +1820,13 @@ def build_article(
         [
             "",
             (
-                "Ranks are across FBS over each "
-                "team's last 10 games. Eckel "
-                "rate measures the share of "
-                "drives that score or reach a "
-                "first down inside the "
-                "opponent's 40-yard line."
+                "Ranks are across unique FBS "
+                "teams over each team's last "
+                "10 games. Eckel rate measures "
+                "the share of drives that "
+                "score or reach a first down "
+                "inside the opponent's "
+                "40-yard line."
             ),
         ]
     )
@@ -1407,21 +1853,57 @@ def build_article(
     )
 
     payload = {
-        "game": game,
-        "away_team": away_team,
-        "home_team": home_team,
-        "away_id": away_id,
-        "home_id": home_id,
-        "bet_id": bet_id,
-        "opp_id": opp_id,
-        "bet_name": bet_name,
-        "opp_name": opp_name,
-        "has_bet": has_bet,
-        "guide_enrichment": enrichment,
+        "game":
+            game,
+
+        "away_team":
+            away_team,
+
+        "home_team":
+            home_team,
+
+        "away_id":
+            away_id,
+
+        "home_id":
+            home_id,
+
+        "bet_id":
+            bet_id,
+
+        "opp_id":
+            opp_id,
+
+        "bet_name":
+            bet_name,
+
+        "opp_name":
+            opp_name,
+
+        "model_prediction":
+            model_prediction,
+
+        "market_line":
+            market_line,
+
+        "best_line":
+            safe_float(
+                verdict_row.get(
+                    "best_line"
+                )
+            ),
+
+        "has_bet":
+            has_bet,
+
+        "guide_enrichment":
+            enrichment,
     }
 
     return (
-        "\n".join(sections)
+        "\n".join(
+            sections
+        )
         + "\n",
         payload,
     )
@@ -1435,9 +1917,11 @@ def main() -> None:
 
     args = parse_args()
 
-    output_root = Path(
-        args.output_dir
-    ).resolve()
+    output_root = (
+        Path(
+            args.output_dir
+        ).resolve()
+    )
 
     safe_mkdir(
         output_root
@@ -1451,14 +1935,16 @@ def main() -> None:
         "User-Agent"
     ] = (
         "football-testgrounds-"
-        "cfb-articles/2.0"
+        "cfb-articles/3.1"
     )
 
-    spreads, week, season = (
-        load_spreads(
-            args,
-            session,
-        )
+    (
+        spreads,
+        week,
+        season,
+    ) = load_spreads(
+        args,
+        session,
     )
 
     crosswalk = (
@@ -1473,7 +1959,10 @@ def main() -> None:
         season,
     ]
 
-    ranked_stats, venue_lookup = (
+    (
+        ranked_stats,
+        venue_lookup,
+    ) = (
         cfb_stats
         .build_cfb_stats_and_venues(
             stats_years,
@@ -1484,26 +1973,48 @@ def main() -> None:
         )
     )
 
+    unique_team_count = (
+        ranked_stats[
+            "team_id"
+        ]
+        .nunique()
+    )
+
+    print(
+        "Article generator received "
+        f"{unique_team_count} unique "
+        "ranked FBS teams."
+    )
+
+    edge_values = (
+        spreads[
+            "best_edge"
+        ]
+        .map(
+            parse_percent
+        )
+    )
+
     edge_game_count = int(
         spreads[
-            spreads[
-                "best_edge"
-            ].map(
-                parse_percent
-            )
+            edge_values
             >= FULL_BET_THRESHOLD
         ][
             "game"
-        ].nunique()
+        ]
+        .nunique()
     )
 
     merged = spreads
 
     if args.teams:
 
-        requested = set(
-            args.teams
-        )
+        requested = {
+            team.strip()
+            for team
+            in args.teams
+            if team.strip()
+        }
 
         eligible = (
             merged[
@@ -1541,39 +2052,54 @@ def main() -> None:
     combined: List[str] = []
 
     payload = {
-        "generated_at_utc": (
+        "generated_at_utc":
             datetime.now(
                 UTC
-            ).isoformat()
-        ),
-        "season": season,
-        "week": week,
-        "articles": [],
+            ).isoformat(),
+
+        "season":
+            season,
+
+        "week":
+            week,
+
+        "articles":
+            [],
     }
 
-    for game, game_rows in (
-        merged.groupby(
-            "game",
-            sort=True,
-        )
+    for (
+        game,
+        game_rows,
+    ) in merged.groupby(
+        "game",
+        sort=True,
     ):
 
         print(
             f"\nGenerating {game}..."
         )
 
-        article, article_payload = (
-            build_article(
-                game,
-                game_rows.copy(),
-                week,
-                season,
-                crosswalk,
-                ranked_stats,
-                venue_lookup,
-                edge_game_count,
-                args,
-            )
+        (
+            article,
+            article_payload,
+        ) = build_article(
+            game=game,
+            game_rows=(
+                game_rows.copy()
+            ),
+            week=week,
+            season=season,
+            crosswalk=crosswalk,
+            ranked_stats=(
+                ranked_stats
+            ),
+            venue_lookup=(
+                venue_lookup
+            ),
+            edge_game_count=(
+                edge_game_count
+            ),
+            args=args,
         )
 
         game_slug = (
@@ -1602,25 +2128,45 @@ def main() -> None:
             f"{game_slug}.md"
         )
 
-        # ---------------------------------------------
-        # Source audit file
-        # ---------------------------------------------
+        # ---------------------------------------------------------------
+        # Source audit
+        # ---------------------------------------------------------------
 
         audit_payload = {
-            "game": game,
-            "season": season,
-            "week": week,
-            "generated_at_utc": (
+            "game":
+                game,
+
+            "season":
+                season,
+
+            "week":
+                week,
+
+            "generated_at_utc":
                 datetime.now(
                     UTC
-                ).isoformat()
-            ),
-            "guide_enrichment": (
+                ).isoformat(),
+
+            "model_prediction":
+                article_payload.get(
+                    "model_prediction"
+                ),
+
+            "market_line":
+                article_payload.get(
+                    "market_line"
+                ),
+
+            "best_line":
+                article_payload.get(
+                    "best_line"
+                ),
+
+            "guide_enrichment":
                 article_payload.get(
                     "guide_enrichment",
                     {},
-                )
-            ),
+                ),
         }
 
         audit_path = (
@@ -1666,13 +2212,16 @@ def main() -> None:
         )
 
         for message in guide_status:
+
             print(
                 f"  - {message}"
             )
 
     (
         weekly_dir
-        / "weekly_matchup_articles.md"
+        / (
+            "weekly_matchup_articles.md"
+        )
     ).write_text(
         "\n\n---\n\n".join(
             combined
@@ -1683,7 +2232,9 @@ def main() -> None:
 
     (
         weekly_dir
-        / "weekly_matchup_articles.json"
+        / (
+            "weekly_matchup_articles.json"
+        )
     ).write_text(
         json.dumps(
             payload,
@@ -1694,9 +2245,9 @@ def main() -> None:
     )
 
     print(
-        f"\nGenerated "
+        "\nGenerated "
         f"{len(combined)} "
-        f"CFB matchup article(s) "
+        "CFB matchup article(s) "
         f"for week {week} "
         f"in {weekly_dir}"
     )
