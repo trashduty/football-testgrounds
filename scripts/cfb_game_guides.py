@@ -56,10 +56,13 @@ MAX_GUIDE_CHARS = 110_000
 BTB_SYSTEM_PROMPT = """
 You are writing directly as BTB Analytics.
 
-The article must ALWAYS use first-person plural voice.
+VOICE
+
+Always write in first-person plural.
 
 Use:
 - we
+- our
 - our model
 - our numbers
 - our projection
@@ -73,19 +76,32 @@ Do NOT refer to BTB Analytics or BTB in the third person inside article prose.
 
 BAD:
 "BTB projects Syracuse -9.5."
-"BTB gives Syracuse a 58.3% cover probability."
-"BTB still sees enough separation."
+"BTB sees an edge."
+"BTB thinks Syracuse can separate."
 
 GOOD:
 "We make Syracuse -9.5."
-"We give Syracuse a 58.3% chance to cover."
-"We still see enough overall separation."
+"We see an edge."
+"We think Syracuse can create separation."
 
-BTB Analytics uses quantitative models to identify differences between our
-expectation and the betting market.
+TEAM NAMES
 
-The writing should sound sharp, skeptical, informed, conversational, and
-readable. It should not sound academic, robotic, promotional, or like a tout.
+The structured context supplies conversational short team names.
+
+Use those short names naturally in prose.
+
+Example:
+
+GOOD:
+"We make Syracuse -9.5."
+"The biggest concern for us is California's pass defense."
+
+BAD:
+"We make the Syracuse Orange -9.5."
+"The biggest concern for us is the California Golden Bears pass defense."
+
+Full mascot names may appear in tables and titles, but normal article prose
+should use the short conversational names supplied in MODEL CONTEXT.
 
 CORE BTB PHILOSOPHY
 
@@ -127,7 +143,22 @@ NEVER USE:
 - slam
 - smash
 
-VOICE
+STYLE
+
+The writing should sound:
+- sharp
+- skeptical
+- informed
+- conversational
+- readable
+- confident without overstating certainty
+
+It should NOT sound:
+- academic
+- robotic
+- generic
+- promotional
+- like a tout
 
 Prefer language such as:
 - "The more interesting part is..."
@@ -179,7 +210,7 @@ Use uncertainty once when useful, then make the analytical conclusion clear.
 
 REPETITION RULE
 
-The deterministic "Our Take" opening already provides:
+The deterministic Our Take opening already provides:
 - our projected spread
 - the market line
 - the best available line/price
@@ -189,8 +220,7 @@ The deterministic "Our Take" opening already provides:
 
 DO NOT repeat those same exact numbers in the generated narrative.
 
-The narrative's job is to explain the football context behind the conclusion,
-not restate the opening.
+The narrative's job is football context.
 
 SOURCE DISCIPLINE
 
@@ -288,6 +318,7 @@ Return valid JSON only.
 # --------------------------------------------------------------------------- #
 
 def _client() -> OpenAI:
+
     key = os.getenv(
         "OPENAI_API_KEY"
     )
@@ -316,10 +347,13 @@ def _response_text(
         return text.strip()
 
     try:
+
         pieces: List[str] = []
 
         for item in response.output:
+
             for content in item.content:
+
                 value = getattr(
                     content,
                     "text",
@@ -336,11 +370,12 @@ def _response_text(
         ).strip()
 
     except Exception:
+
         return ""
 
 
 # --------------------------------------------------------------------------- #
-# Crosswalk / filename helpers
+# Crosswalk helpers
 # --------------------------------------------------------------------------- #
 
 def clean_filename_component(
@@ -381,9 +416,7 @@ def team_short_lookup(
     )
 
     cw = cw.dropna(
-        subset=[
-            "team_id"
-        ]
+        subset=["team_id"]
     )
 
     cw["team_id"] = (
@@ -394,15 +427,11 @@ def team_short_lookup(
     return (
         cw
         .drop_duplicates(
-            subset=[
-                "team_id"
-            ]
+            subset=["team_id"]
         )
         .set_index(
             "team_id"
-        )[
-            "btb_team_short"
-        ]
+        )["btb_team_short"]
         .astype(str)
         .to_dict()
     )
@@ -429,9 +458,7 @@ def team_full_lookup(
     )
 
     cw = cw.dropna(
-        subset=[
-            "team_id"
-        ]
+        subset=["team_id"]
     )
 
     cw["team_id"] = (
@@ -442,15 +469,11 @@ def team_full_lookup(
     return (
         cw
         .drop_duplicates(
-            subset=[
-                "team_id"
-            ]
+            subset=["team_id"]
         )
         .set_index(
             "team_id"
-        )[
-            "btb_team"
-        ]
+        )["btb_team"]
         .astype(str)
         .to_dict()
     )
@@ -549,6 +572,7 @@ def extract_pdf_text(
     )
 
     if pdf_start == -1:
+
         raise RuntimeError(
             f"{path.name} does not contain a valid %PDF header."
         )
@@ -612,6 +636,7 @@ def extract_pdf_text(
     ).strip()
 
     if not output:
+
         raise RuntimeError(
             f"No extractable text found in {path.name}."
         )
@@ -645,31 +670,6 @@ def extract_guide_facts(
     text = extract_pdf_text(
         pdf_path
     )
-
-    if not text:
-
-        return {
-            "source_file":
-                pdf_path.name,
-
-            "source_team":
-                source_team_name,
-
-            "opponent":
-                opponent_name,
-
-            "usable":
-                False,
-
-            "reason":
-                "PDF contained no extractable text.",
-
-            "document_matches_upcoming_game":
-                False,
-
-            "facts":
-                [],
-        }
 
     prompt = f"""
 SOURCE TEAM:
@@ -796,7 +796,7 @@ SOURCE DOCUMENT:
 
 
 # --------------------------------------------------------------------------- #
-# Flatten verified facts
+# Flatten verified guide facts
 # --------------------------------------------------------------------------- #
 
 def flatten_verified_facts(
@@ -922,7 +922,7 @@ def flatten_verified_facts(
 
 
 # --------------------------------------------------------------------------- #
-# Stats helpers
+# Matchup stats
 # --------------------------------------------------------------------------- #
 
 def _rank_value(
@@ -980,10 +980,12 @@ def identify_matchup_angles(
     Dict[str, Any]
 ]:
 
-    names = (
-        team_full_lookup(
-            crosswalk
-        )
+    names = team_full_lookup(
+        crosswalk
+    )
+
+    short_names = team_short_lookup(
+        crosswalk
     )
 
     bet_name = names.get(
@@ -996,17 +998,27 @@ def identify_matchup_angles(
         str(opp_id),
     )
 
+    bet_short = short_names.get(
+        int(bet_id),
+        bet_name,
+    )
+
+    opp_short = short_names.get(
+        int(opp_id),
+        opp_name,
+    )
+
     candidates = [
         {
             "dimension":
-                f"{bet_name} passing offense "
-                f"vs {opp_name} pass defense",
+                f"{bet_short} passing offense "
+                f"vs {opp_short} pass defense",
 
             "off_team":
-                bet_name,
+                bet_short,
 
             "def_team":
-                opp_name,
+                opp_short,
 
             "off_rank":
                 _rank_value(
@@ -1028,14 +1040,14 @@ def identify_matchup_angles(
 
         {
             "dimension":
-                f"{bet_name} rushing offense "
-                f"vs {opp_name} rush defense",
+                f"{bet_short} rushing offense "
+                f"vs {opp_short} rush defense",
 
             "off_team":
-                bet_name,
+                bet_short,
 
             "def_team":
-                opp_name,
+                opp_short,
 
             "off_rank":
                 _rank_value(
@@ -1057,14 +1069,14 @@ def identify_matchup_angles(
 
         {
             "dimension":
-                f"{opp_name} passing offense "
-                f"vs {bet_name} pass defense",
+                f"{opp_short} passing offense "
+                f"vs {bet_short} pass defense",
 
             "off_team":
-                opp_name,
+                opp_short,
 
             "def_team":
-                bet_name,
+                bet_short,
 
             "off_rank":
                 _rank_value(
@@ -1086,14 +1098,14 @@ def identify_matchup_angles(
 
         {
             "dimension":
-                f"{opp_name} rushing offense "
-                f"vs {bet_name} rush defense",
+                f"{opp_short} rushing offense "
+                f"vs {bet_short} rush defense",
 
             "off_team":
-                opp_name,
+                opp_short,
 
             "def_team":
-                bet_name,
+                bet_short,
 
             "off_rank":
                 _rank_value(
@@ -1115,15 +1127,15 @@ def identify_matchup_angles(
 
         {
             "dimension":
-                f"{bet_name} scoring-opportunity "
-                f"creation vs {opp_name} "
+                f"{bet_short} scoring-opportunity "
+                f"creation vs {opp_short} "
                 f"scoring-opportunity prevention",
 
             "off_team":
-                bet_name,
+                bet_short,
 
             "def_team":
-                opp_name,
+                opp_short,
 
             "off_rank":
                 _rank_value(
@@ -1145,15 +1157,15 @@ def identify_matchup_angles(
 
         {
             "dimension":
-                f"{opp_name} scoring-opportunity "
-                f"creation vs {bet_name} "
+                f"{opp_short} scoring-opportunity "
+                f"creation vs {bet_short} "
                 f"scoring-opportunity prevention",
 
             "off_team":
-                opp_name,
+                opp_short,
 
             "def_team":
-                bet_name,
+                bet_short,
 
             "off_rank":
                 _rank_value(
@@ -1174,9 +1186,7 @@ def identify_matchup_angles(
         },
     ]
 
-    usable: List[
-        Dict[str, Any]
-    ] = []
+    usable = []
 
     for item in candidates:
 
@@ -1234,7 +1244,6 @@ def identify_matchup_angles(
         else:
 
             score = differential
-
             direction = "mixed"
 
         item[
@@ -1272,7 +1281,9 @@ def identify_matchup_angles(
 def build_model_context(
     *,
     bet_name: str,
+    bet_short: str,
     opponent_name: str,
+    opponent_short: str,
     model_prediction: Any,
     market_line: Any,
     best_line: Any,
@@ -1283,11 +1294,17 @@ def build_model_context(
 ) -> Dict[str, Any]:
 
     return {
-        "model_side":
+        "model_side_full":
             bet_name,
 
-        "opponent":
+        "model_side":
+            bet_short,
+
+        "opponent_full":
             opponent_name,
+
+        "opponent":
+            opponent_short,
 
         "model_prediction":
             model_prediction,
@@ -1324,6 +1341,8 @@ def generate_matchup_narrative(
     *,
     away_name: str,
     home_name: str,
+    away_short: str,
+    home_short: str,
     model_context: Dict[str, Any],
     matchup_angles: List[
         Dict[str, Any]
@@ -1382,6 +1401,10 @@ def generate_matchup_narrative(
 GAME:
 {away_name} at {home_name}
 
+CONVERSATIONAL TEAM NAMES:
+Away: {away_short}
+Home: {home_short}
+
 DETERMINISTIC MODEL CONTEXT:
 {json.dumps(model_context, indent=2, default=str)}
 
@@ -1403,7 +1426,7 @@ Return valid JSON only:
 
 IMPORTANT STRUCTURE
 
-The deterministic opening paragraph has ALREADY told the reader:
+The deterministic opening has ALREADY told the reader:
 - what we project
 - the market line
 - the best available line and price
@@ -1413,7 +1436,17 @@ The deterministic opening paragraph has ALREADY told the reader:
 
 DO NOT repeat those exact numbers in the narrative.
 
-The narrative begins immediately AFTER that deterministic opening.
+TEAM-NAME RULE
+
+Use the conversational team names supplied above.
+
+Examples:
+- Syracuse
+- California
+- Alabama
+- Kentucky
+
+Do not repeatedly use mascot names in normal prose.
 
 NARRATIVE GOAL
 
@@ -1421,8 +1454,6 @@ Explain the football reasons that make our model/market disagreement
 interesting.
 
 Use the guide to add real football context.
-
-Do not simply list interesting facts.
 
 The ideal narrative answers:
 
@@ -1437,23 +1468,23 @@ NARRATIVE REQUIREMENTS
 - Use recent results as context rather than proof.
 - Focus on two or three meaningful ideas.
 - Avoid simply reciting rankings.
-- Avoid repeating probability, edge, line, and price numbers from the opening.
+- Avoid repeating probability, edge, line, and price numbers.
 - Remain accessible to a recreational bettor.
 - Avoid an analytics lecture.
 - Avoid excessive hedging.
-- Make the conclusion clear.
+- Make the analytical conclusion clear.
 
 If this is a BET:
 
-Explain the football context supporting our position while acknowledging
-one meaningful concern when useful.
+Explain the football context supporting our position while acknowledging one
+meaningful concern when useful.
 
 Do not spend multiple paragraphs talking the reader out of our own wager.
 
 If this is a PASS:
 
-Explain why we see a potential lean or disagreement but do not have enough
-value at the current price.
+Explain why we may see a disagreement but do not have enough value at the
+current price.
 
 MATCHUP TO WATCH
 
@@ -1463,9 +1494,7 @@ Do not simply choose the largest rank gap.
 
 Use first-person voice here too.
 
-Connect our statistical information with verified media-guide context.
-
-Do not repeat the exact betting numbers from the opening.
+Do not repeat exact betting numbers from the opening.
 
 FACT REQUIREMENTS
 
@@ -1489,10 +1518,8 @@ Do not manufacture facts.
         )
     )
 
-    raw = (
-        _response_text(
-            response
-        )
+    raw = _response_text(
+        response
     )
 
     try:
@@ -1512,8 +1539,7 @@ Do not manufacture facts.
         if not match:
 
             raise RuntimeError(
-                "Could not parse "
-                "narrative JSON."
+                "Could not parse narrative JSON."
             )
 
         parsed = json.loads(
@@ -1526,8 +1552,7 @@ Do not manufacture facts.
 
     fact_by_id = {
         x["fact_id"]: x
-        for x
-        in numbered_facts
+        for x in numbered_facts
     }
 
     used_sources = []
@@ -1572,7 +1597,7 @@ Do not manufacture facts.
 
 
 # --------------------------------------------------------------------------- #
-# Load guides for one game
+# Load guides
 # --------------------------------------------------------------------------- #
 
 def load_game_guides(
@@ -1593,11 +1618,8 @@ def load_game_guides(
     List[str],
 ]:
 
-    results: List[
-        Dict[str, Any]
-    ] = []
-
-    status: List[str] = []
+    results = []
+    status = []
 
     pairs = [
         (
@@ -1621,9 +1643,8 @@ def load_game_guides(
         if team_id is None:
 
             status.append(
-                f"No team_id available "
-                f"for {team_name}; "
-                f"cannot locate guide."
+                f"No team_id available for "
+                f"{team_name}; cannot locate guide."
             )
 
             continue
@@ -1638,9 +1659,8 @@ def load_game_guides(
         if not expected_filename:
 
             status.append(
-                f"No btb_team_short "
-                f"mapping found for "
-                f"{team_name} "
+                f"No btb_team_short mapping found "
+                f"for {team_name} "
                 f"(team_id={team_id})."
             )
 
@@ -1683,12 +1703,8 @@ def load_game_guides(
             extracted = (
                 extract_guide_facts(
                     pdf_path=path,
-                    source_team_name=(
-                        team_name
-                    ),
-                    opponent_name=(
-                        opponent_name
-                    ),
+                    source_team_name=team_name,
+                    opponent_name=opponent_name,
                     season=season,
                     week=week,
                     model=model,
@@ -1724,10 +1740,8 @@ def load_game_guides(
                 )
 
                 status.append(
-                    f"Guide for "
-                    f"{team_name} was found "
-                    f"but may not match the "
-                    f"current opponent. "
+                    f"Guide for {team_name} was found "
+                    f"but may not match the current opponent. "
                     f"{reason}"
                 )
 
