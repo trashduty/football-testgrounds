@@ -2,21 +2,24 @@
 """
 Generate weekly College Football matchup articles.
 
+Outputs:
+- Markdown article
+- Branded Squarespace-ready HTML article
+- Source/audit JSON
+
 Sources:
 - spreads_odds.csv
 - CFBD rolling team stats
 - optional team media guides
 
 Betting logic remains deterministic.
-
-Guide enrichment is optional and missing guides never prevent an article
-from being generated.
 """
 
 from __future__ import annotations
 
 import argparse
 import base64
+import html
 import json
 import os
 
@@ -36,6 +39,7 @@ from typing import (
 
 from zoneinfo import ZoneInfo
 
+import markdown
 import pandas as pd
 import requests
 
@@ -68,15 +72,15 @@ ET = ZoneInfo(
 
 REQUEST_TIMEOUT = 30
 
-BTB_LOGO = (
-    "<p align='center'>"
-    "<img src='https://raw.githubusercontent.com/"
+BTB_LOGO_URL = (
+    "https://raw.githubusercontent.com/"
     "trashduty/football-testgrounds/main/"
-    "BTB%20Analytics%20.png.png' "
-    "alt='BTB Analytics' width='100' />"
-    "<br/>"
-    "<em>Brought to you by BTB Analytics</em>"
-    "</p>"
+    "BTB%20Analytics%20.png.png"
+)
+
+MEMBER_URL = (
+    "https://www.btb-analytics.com/"
+    "member-access"
 )
 
 
@@ -92,7 +96,10 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--output-dir",
-        default="outputs/matchup_articles",
+        default=(
+            "outputs/"
+            "matchup_articles"
+        ),
     )
 
     parser.add_argument(
@@ -126,17 +133,23 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--trash-schedule-owner",
-        default=TRASH_SCHEDULE_OWNER,
+        default=(
+            TRASH_SCHEDULE_OWNER
+        ),
     )
 
     parser.add_argument(
         "--trash-schedule-repo",
-        default=TRASH_SCHEDULE_REPO,
+        default=(
+            TRASH_SCHEDULE_REPO
+        ),
     )
 
     parser.add_argument(
         "--trash-schedule-ref",
-        default=TRASH_SCHEDULE_REF,
+        default=(
+            TRASH_SCHEDULE_REF
+        ),
     )
 
     parser.add_argument(
@@ -156,7 +169,7 @@ def parse_args() -> argparse.Namespace:
 
 
 # --------------------------------------------------------------------------- #
-# Formatting
+# Formatting helpers
 # --------------------------------------------------------------------------- #
 
 def safe_mkdir(
@@ -459,7 +472,7 @@ def matchup_call_label(
 
 
 def model_vs_market_sentence(
-    team_name: str,
+    team_short: str,
     model_prediction: Optional[float],
     market_line: Optional[float],
 ) -> str:
@@ -470,7 +483,7 @@ def model_vs_market_sentence(
     ):
 
         return (
-            f"We make **the {team_name} "
+            f"We make **{team_short} "
             f"{format_projection(model_prediction)}**, "
             f"compared with a market line of "
             f"{format_projection(market_line)}."
@@ -479,21 +492,21 @@ def model_vs_market_sentence(
     if model_prediction is not None:
 
         return (
-            f"We make **the {team_name} "
+            f"We make **{team_short} "
             f"{format_projection(model_prediction)}**."
         )
 
     if market_line is not None:
 
         return (
-            f"Our model favors **the {team_name}** "
+            f"Our model favors **{team_short}** "
             f"against a market line of "
             f"{format_projection(market_line)}."
         )
 
     return (
         f"Our model favors "
-        f"**the {team_name}**."
+        f"**{team_short}**."
     )
 
 
@@ -534,7 +547,7 @@ def format_kickoff_date(
 
 
 # --------------------------------------------------------------------------- #
-# Repo fetch
+# Repository fetch
 # --------------------------------------------------------------------------- #
 
 def fetch_text(
@@ -564,11 +577,9 @@ def fetch_text(
         f"{owner}/{repo}/{ref}/{path}"
     )
 
-    response = (
-        session.get(
-            raw_url,
-            timeout=REQUEST_TIMEOUT,
-        )
+    response = session.get(
+        raw_url,
+        timeout=REQUEST_TIMEOUT,
     )
 
     if response.ok:
@@ -594,7 +605,8 @@ def fetch_text(
                 api_url,
                 headers={
                     "Accept":
-                        "application/vnd.github+json",
+                        "application/"
+                        "vnd.github+json",
 
                     "Authorization":
                         f"token {token}",
@@ -808,7 +820,7 @@ def build_our_take_opening(
     away_name: str,
     home_name: str,
     stadium_name: Optional[str],
-    bet_name: str,
+    bet_short: str,
     bet_line: str,
     bet_facts: Dict[str, object],
     has_bet: bool,
@@ -818,7 +830,7 @@ def build_our_take_opening(
 
     stadium = (
         stadium_name
-        or "their home stadium"
+        or "the home venue"
     )
 
     raw_edge = (
@@ -856,8 +868,7 @@ def build_our_take_opening(
             price
         )
         if (
-            price
-            is not None
+            price is not None
             and not pd.isna(
                 price
             )
@@ -877,8 +888,7 @@ def build_our_take_opening(
             1,
         )
         if (
-            cover
-            is not None
+            cover is not None
             and not pd.isna(
                 cover
             )
@@ -888,7 +898,7 @@ def build_our_take_opening(
 
     model_sentence = (
         model_vs_market_sentence(
-            bet_name,
+            bet_short,
             model_prediction,
             market_line,
         )
@@ -904,21 +914,21 @@ def build_our_take_opening(
 
         wager_sentence = (
             f"The best number we found is "
-            f"{bet_name} {bet_line} at "
+            f"{bet_short} {bet_line} at "
             f"{price_str}. "
-            f"We give {bet_name} a "
+            f"We give {bet_short} a "
             f"{cover_str} chance to cover, "
-            f"which creates a "
+            f"which creates an "
             f"{edge_pct} edge for us. "
             f"That clears our 3% threshold, "
-            f"so {bet_name} is a bet."
+            f"so {bet_short} is a bet."
         )
 
     else:
 
         wager_sentence = (
             f"The best number we found is "
-            f"{bet_name} {bet_line} at "
+            f"{bet_short} {bet_line} at "
             f"{price_str}. "
             f"We see a {edge_pct} edge there, "
             f"but that does not clear our "
@@ -926,77 +936,10 @@ def build_our_take_opening(
         )
 
     return [
-        "## Our Take",
-        "",
         intro,
         "",
         wager_sentence,
     ]
-
-
-# --------------------------------------------------------------------------- #
-# CTA
-# --------------------------------------------------------------------------- #
-
-def build_cta(
-    edge_game_count: int,
-) -> List[str]:
-
-    lines = [
-        "",
-        "## Best Bets Of The Week",
-        "",
-    ]
-
-    if (
-        edge_game_count
-        > 0
-    ):
-
-        plural = (
-            "games"
-            if (
-                edge_game_count
-                != 1
-            )
-            else "game"
-        )
-
-        lines.append(
-            f"Our model found edges of "
-            f"at least 3% on "
-            f"**{edge_game_count} "
-            f"{plural}** this week."
-        )
-
-        lines.append(
-            ""
-        )
-
-        lines.append(
-            "Want this same view for every matchup? "
-            "Members get our projected line, cover "
-            "probability, edge, and best available "
-            "sportsbook price across the full CFB "
-            "and NFL slate at "
-            "btb-analytics.com/member-access."
-        )
-
-    lines.extend(
-        [
-            "",
-            (
-                "<p align='center'><em>"
-                "Built from our model. "
-                "We target a 55-57% win rate "
-                "and publish every result, "
-                "wins and losses."
-                "</em></p>"
-            ),
-        ]
-    )
-
-    return lines
 
 
 # --------------------------------------------------------------------------- #
@@ -1010,10 +953,14 @@ def build_guide_enrichment(
     home_id: int,
     away_name: str,
     home_name: str,
+    away_short: str,
+    home_short: str,
     bet_id: int,
     opp_id: int,
     bet_name: str,
+    bet_short: str,
     opp_name: str,
+    opp_short: str,
     verdict_row: pd.Series,
     bet_facts: Dict[str, object],
     has_bet: bool,
@@ -1092,7 +1039,6 @@ def build_guide_enrichment(
     ] = guide_results
 
     if not guide_results:
-
         return default
 
     matchup_angles = (
@@ -1133,7 +1079,9 @@ def build_guide_enrichment(
         cfb_game_guides
         .build_model_context(
             bet_name=bet_name,
+            bet_short=bet_short,
             opponent_name=opp_name,
+            opponent_short=opp_short,
             model_prediction=model_prediction,
             market_line=market_line,
             best_line=best_line,
@@ -1165,6 +1113,8 @@ def build_guide_enrichment(
             .generate_matchup_narrative(
                 away_name=away_name,
                 home_name=home_name,
+                away_short=away_short,
+                home_short=home_short,
                 model_context=model_context,
                 matchup_angles=matchup_angles,
                 guide_results=guide_results,
@@ -1222,7 +1172,7 @@ def build_guide_enrichment(
 
 
 # --------------------------------------------------------------------------- #
-# Article
+# Markdown article
 # --------------------------------------------------------------------------- #
 
 def build_article(
@@ -1267,12 +1217,11 @@ def build_article(
         ]
     )
 
-    id_to_btb = (
+    clean_cw = (
         crosswalk
         .dropna(
             subset=[
-                "team_id",
-                "btb_team",
+                "team_id"
             ]
         )
         .drop_duplicates(
@@ -1280,10 +1229,34 @@ def build_article(
                 "team_id"
             ]
         )
+    )
+
+    id_to_btb = (
+        clean_cw
+        .dropna(
+            subset=[
+                "btb_team"
+            ]
+        )
         .set_index(
             "team_id"
         )[
             "btb_team"
+        ]
+        .to_dict()
+    )
+
+    id_to_short = (
+        clean_cw
+        .dropna(
+            subset=[
+                "btb_team_short"
+            ]
+        )
+        .set_index(
+            "team_id"
+        )[
+            "btb_team_short"
         ]
         .to_dict()
     )
@@ -1317,6 +1290,20 @@ def build_article(
         id_to_btb.get(
             home_id,
             home_team,
+        )
+    )
+
+    away_short = (
+        id_to_short.get(
+            away_id,
+            away_name,
+        )
+    )
+
+    home_short = (
+        id_to_short.get(
+            home_id,
+            home_name,
         )
     )
 
@@ -1448,6 +1435,20 @@ def build_article(
         )
     )
 
+    bet_short = (
+        id_to_short.get(
+            bet_id,
+            bet_name,
+        )
+    )
+
+    opp_short = (
+        id_to_short.get(
+            opp_id,
+            opp_name,
+        )
+    )
+
     bet_facts = (
         _side_facts(
             verdict_row
@@ -1475,6 +1476,31 @@ def build_article(
             verdict_row.get(
                 "market_line"
             )
+        )
+    )
+
+    enrichment = (
+        build_guide_enrichment(
+            args=args,
+            away_id=away_id,
+            home_id=home_id,
+            away_name=away_name,
+            home_name=home_name,
+            away_short=away_short,
+            home_short=home_short,
+            bet_id=bet_id,
+            opp_id=opp_id,
+            bet_name=bet_name,
+            bet_short=bet_short,
+            opp_name=opp_name,
+            opp_short=opp_short,
+            verdict_row=verdict_row,
+            bet_facts=bet_facts,
+            has_bet=has_bet,
+            season=season,
+            week=week,
+            crosswalk=crosswalk,
+            ranked_stats=ranked_stats,
         )
     )
 
@@ -1521,7 +1547,16 @@ def build_article(
         )
 
     sections.append(
-        BTB_LOGO
+        (
+            "<p align='center'>"
+            f"<img src='{BTB_LOGO_URL}' "
+            "alt='BTB Analytics' "
+            "width='100' />"
+            "<br/>"
+            "<em>Brought to you by "
+            "BTB Analytics</em>"
+            "</p>"
+        )
     )
 
     sections.append(
@@ -1529,7 +1564,7 @@ def build_article(
     )
 
     # ------------------------------------------------------------------
-    # Summary table
+    # Model table
     # ------------------------------------------------------------------
 
     sections.extend(
@@ -1590,41 +1625,23 @@ def build_article(
         )
 
     # ------------------------------------------------------------------
-    # Guide enrichment
-    # ------------------------------------------------------------------
-
-    enrichment = (
-        build_guide_enrichment(
-            args=args,
-            away_id=away_id,
-            home_id=home_id,
-            away_name=away_name,
-            home_name=home_name,
-            bet_id=bet_id,
-            opp_id=opp_id,
-            bet_name=bet_name,
-            opp_name=opp_name,
-            verdict_row=verdict_row,
-            bet_facts=bet_facts,
-            has_bet=has_bet,
-            season=season,
-            week=week,
-            crosswalk=crosswalk,
-            ranked_stats=ranked_stats,
-        )
-    )
-
-    # ------------------------------------------------------------------
-    # OUR TAKE
+    # Our Take
     # ------------------------------------------------------------------
 
     sections.extend(
-        [""]
-        + build_our_take_opening(
+        [
+            "",
+            "## Our Take",
+            "",
+        ]
+    )
+
+    sections.extend(
+        build_our_take_opening(
             away_name=away_name,
             home_name=home_name,
             stadium_name=stadium_name,
-            bet_name=bet_name,
+            bet_short=bet_short,
             bet_line=bet_line,
             bet_facts=bet_facts,
             has_bet=has_bet,
@@ -1653,18 +1670,17 @@ def build_article(
                 "",
                 (
                     "We are not trying to predict "
-                    "this game from one recent "
-                    "result. For us, the question "
-                    "is whether our overall "
-                    "expectation differs enough "
-                    "from the market price to "
+                    "this game from one recent result. "
+                    "For us, the question is whether "
+                    "our overall expectation differs "
+                    "enough from the market price to "
                     "create value."
                 ),
             ]
         )
 
     # ------------------------------------------------------------------
-    # Deterministic matchup table
+    # Numbers
     # ------------------------------------------------------------------
 
     sections.extend(
@@ -1673,11 +1689,10 @@ def build_article(
             "### What The Numbers Say",
             "",
             (
-                "Rather than treating any "
-                "single metric as the answer, "
-                "we use these numbers to see "
-                "where the strengths and "
-                "weaknesses of the matchup "
+                "Rather than treating any single "
+                "metric as the answer, we use these "
+                "numbers to see where the strengths "
+                "and weaknesses of the matchup "
                 "actually line up."
             ),
             "",
@@ -1698,15 +1713,19 @@ def build_article(
         [
             "",
             (
-                "These ranks are across unique "
-                "FBS teams over each team's last "
-                "10 games. Eckel rate measures "
-                "the share of drives that score "
-                "or reach a first down inside "
-                "the opponent's 40-yard line."
+                "These ranks are across unique FBS "
+                "teams over each team's last 10 games. "
+                "Eckel rate measures the share of "
+                "drives that score or reach a first "
+                "down inside the opponent's "
+                "40-yard line."
             ),
         ]
     )
+
+    # ------------------------------------------------------------------
+    # Matchup to watch
+    # ------------------------------------------------------------------
 
     if enrichment[
         "matchup_to_watch"
@@ -1723,10 +1742,62 @@ def build_article(
             ]
         )
 
+    # ------------------------------------------------------------------
+    # CTA
+    # ------------------------------------------------------------------
+
     sections.extend(
-        build_cta(
-            edge_game_count
+        [
+            "",
+            "## Best Bets Of The Week",
+            "",
+        ]
+    )
+
+    if (
+        edge_game_count
+        > 0
+    ):
+
+        plural = (
+            "games"
+            if edge_game_count != 1
+            else "game"
         )
+
+        sections.append(
+            f"Our model found edges of "
+            f"at least 3% on "
+            f"**{edge_game_count} "
+            f"{plural}** this week."
+        )
+
+        sections.extend(
+            [
+                "",
+                (
+                    "Want this same view for every "
+                    "matchup? Members get our projected "
+                    "line, cover probability, edge, and "
+                    "best available sportsbook price "
+                    "across the full CFB and NFL slate "
+                    "at btb-analytics.com/member-access."
+                ),
+            ]
+        )
+
+    sections.extend(
+        [
+            "",
+            (
+                "<p align='center'><em>"
+                "Built from our model. "
+                "We target a 55-57% win rate "
+                "and publish every result, "
+                "wins and losses."
+                "</em></p>"
+            ),
+        ]
     )
 
     payload = {
@@ -1738,6 +1809,24 @@ def build_article(
 
         "home_team":
             home_team,
+
+        "away_name":
+            away_name,
+
+        "home_name":
+            home_name,
+
+        "away_short":
+            away_short,
+
+        "home_short":
+            home_short,
+
+        "away_logo":
+            away_logo,
+
+        "home_logo":
+            home_logo,
 
         "away_id":
             away_id,
@@ -1754,8 +1843,14 @@ def build_article(
         "bet_name":
             bet_name,
 
+        "bet_short":
+            bet_short,
+
         "opp_name":
             opp_name,
+
+        "opp_short":
+            opp_short,
 
         "model_prediction":
             model_prediction,
@@ -1768,6 +1863,26 @@ def build_article(
                 verdict_row.get(
                     "best_line"
                 )
+            ),
+
+        "best_price":
+            verdict_row.get(
+                "best_price"
+            ),
+
+        "best_book":
+            verdict_row.get(
+                "best_book"
+            ),
+
+        "cover_probability":
+            bet_facts.get(
+                "cover"
+            ),
+
+        "edge":
+            bet_facts.get(
+                "edge"
             ),
 
         "has_bet":
@@ -1784,6 +1899,394 @@ def build_article(
         + "\n",
         payload,
     )
+
+
+# --------------------------------------------------------------------------- #
+# Branded Squarespace HTML
+# --------------------------------------------------------------------------- #
+
+def render_btb_html(
+    article_markdown: str,
+) -> str:
+    """
+    Convert Markdown to a branded Squarespace-ready HTML fragment.
+
+    Produces:
+    - black/charcoal background
+    - white text
+    - BTB green accents
+    - styled betting/stat tables
+    - Our Take card
+    - CTA card/button
+    - responsive mobile design
+    """
+
+    body = markdown.markdown(
+        article_markdown,
+        extensions=[
+            "tables",
+            "extra",
+        ],
+    )
+
+    # ---------------------------------------------------------
+    # Wrap Our Take section in a card.
+    #
+    # From:
+    # <h2>Our Take</h2>
+    # ...
+    # <h3>What The Numbers Say</h3>
+    #
+    # To:
+    # <section class="btb-take">...</section>
+    # ---------------------------------------------------------
+
+    our_take_heading = (
+        "<h2>Our Take</h2>"
+    )
+
+    numbers_heading = (
+        "<h3>What The Numbers Say</h3>"
+    )
+
+    if (
+        our_take_heading in body
+        and numbers_heading in body
+    ):
+
+        before, remainder = body.split(
+            our_take_heading,
+            1,
+        )
+
+        take_content, after = (
+            remainder.split(
+                numbers_heading,
+                1,
+            )
+        )
+
+        body = (
+            before
+            + '<section class="btb-take">'
+            + '<h2>Our Take</h2>'
+            + take_content
+            + "</section>"
+            + numbers_heading
+            + after
+        )
+
+    # ---------------------------------------------------------
+    # Wrap CTA in card.
+    # ---------------------------------------------------------
+
+    cta_heading = (
+        "<h2>Best Bets Of The Week</h2>"
+    )
+
+    if cta_heading in body:
+
+        before, cta_content = (
+            body.split(
+                cta_heading,
+                1,
+            )
+        )
+
+        body = (
+            before
+            + '<section class="btb-cta">'
+            + "<h2>Best Bets Of The Week</h2>"
+            + cta_content
+            + (
+                f'<a class="btb-button" '
+                f'href="{MEMBER_URL}">'
+                f"View Member Access"
+                f"</a>"
+            )
+            + "</section>"
+        )
+
+    return f"""
+<style>
+.btb-matchup-article {{
+    --btb-bg: #050505;
+    --btb-card: #101010;
+    --btb-card-raised: #151515;
+    --btb-border: #2a2a2a;
+    --btb-text: #f4f4f4;
+    --btb-muted: #b7b7b7;
+    --btb-green: #27e26f;
+
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 42px 42px 50px;
+    box-sizing: border-box;
+
+    background: var(--btb-bg);
+    color: var(--btb-text);
+
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    line-height: 1.7;
+}}
+
+.btb-matchup-article * {{
+    box-sizing: border-box;
+}}
+
+.btb-matchup-article h1 {{
+    margin: 0 auto 28px;
+    max-width: 940px;
+
+    color: #ffffff;
+
+    font-size: clamp(31px, 4vw, 48px);
+    line-height: 1.12;
+    letter-spacing: -0.025em;
+    font-weight: 800;
+
+    text-align: center;
+}}
+
+.btb-matchup-article h2 {{
+    margin: 46px 0 18px;
+
+    color: var(--btb-green);
+
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+}}
+
+.btb-matchup-article h3 {{
+    margin: 42px 0 16px;
+
+    color: #ffffff;
+
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 800;
+}}
+
+.btb-matchup-article p {{
+    margin: 0 0 20px;
+
+    color: var(--btb-text);
+
+    font-size: 17px;
+}}
+
+.btb-matchup-article strong {{
+    color: #ffffff;
+    font-weight: 800;
+}}
+
+.btb-matchup-article em {{
+    color: var(--btb-muted);
+}}
+
+.btb-matchup-article a {{
+    color: var(--btb-green);
+}}
+
+.btb-matchup-article img {{
+    max-width: 100%;
+    height: auto;
+}}
+
+.btb-matchup-article p[align="center"] {{
+    text-align: center;
+}}
+
+/* -------------------------------------------------------- */
+/* Matchup / model tables                                   */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article table {{
+    width: 100%;
+    margin: 26px 0 34px;
+
+    border: 1px solid var(--btb-border);
+    border-radius: 10px;
+    border-spacing: 0;
+    border-collapse: separate;
+
+    overflow: hidden;
+
+    background: var(--btb-card);
+
+    font-size: 15px;
+}}
+
+.btb-matchup-article thead {{
+    background: #171717;
+}}
+
+.btb-matchup-article th {{
+    padding: 14px 16px;
+
+    color: var(--btb-green);
+
+    font-weight: 800;
+    text-align: left;
+
+    border-bottom: 1px solid var(--btb-border);
+}}
+
+.btb-matchup-article td {{
+    padding: 14px 16px;
+
+    color: var(--btb-text);
+
+    border-bottom: 1px solid #222222;
+}}
+
+.btb-matchup-article tbody tr:last-child td {{
+    border-bottom: 0;
+}}
+
+.btb-matchup-article tbody tr:hover {{
+    background: #161616;
+}}
+
+/* -------------------------------------------------------- */
+/* Our Take card                                            */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-take {{
+    margin: 38px 0 36px;
+    padding: 26px 28px 12px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #111111,
+            #0b0b0b
+        );
+
+    border: 1px solid var(--btb-border);
+    border-left: 4px solid var(--btb-green);
+    border-radius: 10px;
+}}
+
+.btb-matchup-article .btb-take h2 {{
+    margin-top: 0;
+}}
+
+.btb-matchup-article .btb-take p:first-of-type {{
+    font-size: 18px;
+}}
+
+/* -------------------------------------------------------- */
+/* CTA                                                      */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-cta {{
+    margin-top: 48px;
+    padding: 28px;
+
+    background: var(--btb-card-raised);
+
+    border: 1px solid var(--btb-border);
+    border-radius: 12px;
+}}
+
+.btb-matchup-article .btb-cta h2 {{
+    margin-top: 0;
+}}
+
+.btb-matchup-article .btb-button {{
+    display: inline-block;
+
+    margin-top: 6px;
+    padding: 13px 21px;
+
+    background: var(--btb-green);
+
+    color: #050505 !important;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 800;
+
+    text-decoration: none !important;
+
+    transition:
+        transform .15s ease,
+        opacity .15s ease;
+}}
+
+.btb-matchup-article .btb-button:hover {{
+    opacity: .9;
+    transform: translateY(-1px);
+}}
+
+/* -------------------------------------------------------- */
+/* Mobile                                                   */
+/* -------------------------------------------------------- */
+
+@media (max-width: 760px) {{
+
+    .btb-matchup-article {{
+        padding: 28px 17px 40px;
+    }}
+
+    .btb-matchup-article h1 {{
+        font-size: 31px;
+    }}
+
+    .btb-matchup-article h2 {{
+        font-size: 25px;
+    }}
+
+    .btb-matchup-article h3 {{
+        font-size: 21px;
+    }}
+
+    .btb-matchup-article p {{
+        font-size: 16px;
+    }}
+
+    .btb-matchup-article .btb-take {{
+        padding: 21px 19px 8px;
+    }}
+
+    .btb-matchup-article .btb-cta {{
+        padding: 22px 20px;
+    }}
+
+    .btb-matchup-article table {{
+        display: block;
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+        font-size: 14px;
+
+        -webkit-overflow-scrolling: touch;
+    }}
+
+    .btb-matchup-article th,
+    .btb-matchup-article td {{
+        padding: 12px;
+    }}
+}}
+</style>
+
+<div class="btb-matchup-article">
+{body}
+</div>
+""".strip()
 
 
 # --------------------------------------------------------------------------- #
@@ -1812,7 +2315,7 @@ def main() -> None:
         "User-Agent"
     ] = (
         "football-testgrounds-"
-        "cfb-articles/4.0"
+        "cfb-articles/5.0"
     )
 
     (
@@ -1863,14 +2366,34 @@ def main() -> None:
         "ranked FBS teams."
     )
 
-    edge_values = (
-        spreads[
-            "best_edge"
-        ]
-        .map(
-            parse_percent
+    # ------------------------------------------------------------------
+    # Count games meeting full-bet threshold
+    # ------------------------------------------------------------------
+
+    if (
+        "best_edge"
+        in spreads.columns
+    ):
+
+        edge_values = (
+            spreads[
+                "best_edge"
+            ]
+            .map(
+                parse_percent
+            )
         )
-    )
+
+    else:
+
+        edge_values = (
+            spreads[
+                "edge"
+            ]
+            .map(
+                parse_percent
+            )
+        )
 
     edge_game_count = int(
         spreads[
@@ -1883,6 +2406,10 @@ def main() -> None:
     )
 
     merged = spreads
+
+    # ------------------------------------------------------------------
+    # Optional team filtering
+    # ------------------------------------------------------------------
 
     if args.teams:
 
@@ -1979,6 +2506,10 @@ def main() -> None:
             )
         )
 
+        # --------------------------------------------------------------
+        # Markdown
+        # --------------------------------------------------------------
+
         article_path = (
             weekly_dir
             / f"{game_slug}.md"
@@ -1989,15 +2520,45 @@ def main() -> None:
             encoding="utf-8",
         )
 
-        combined.append(
-            article.rstrip()
-        )
-
         article_payload[
             "article_path"
         ] = (
             f"{game_slug}.md"
         )
+
+        # --------------------------------------------------------------
+        # Branded Squarespace HTML
+        # --------------------------------------------------------------
+
+        html_article = (
+            render_btb_html(
+                article
+            )
+        )
+
+        html_path = (
+            weekly_dir
+            / f"{game_slug}.html"
+        )
+
+        html_path.write_text(
+            html_article,
+            encoding="utf-8",
+        )
+
+        article_payload[
+            "html_path"
+        ] = (
+            f"{game_slug}.html"
+        )
+
+        combined.append(
+            article.rstrip()
+        )
+
+        # --------------------------------------------------------------
+        # Audit / sources
+        # --------------------------------------------------------------
 
         audit_payload = {
             "game":
@@ -2027,6 +2588,31 @@ def main() -> None:
             "best_line":
                 article_payload.get(
                     "best_line"
+                ),
+
+            "best_price":
+                article_payload.get(
+                    "best_price"
+                ),
+
+            "best_book":
+                article_payload.get(
+                    "best_book"
+                ),
+
+            "cover_probability":
+                article_payload.get(
+                    "cover_probability"
+                ),
+
+            "edge":
+                article_payload.get(
+                    "edge"
+                ),
+
+            "bet_short":
+                article_payload.get(
+                    "bet_short"
                 ),
 
             "guide_enrichment":
@@ -2084,6 +2670,10 @@ def main() -> None:
                 f"  - {message}"
             )
 
+    # ------------------------------------------------------------------
+    # Weekly combined Markdown
+    # ------------------------------------------------------------------
+
     (
         weekly_dir
         / "weekly_matchup_articles.md"
@@ -2094,6 +2684,10 @@ def main() -> None:
         + "\n",
         encoding="utf-8",
     )
+
+    # ------------------------------------------------------------------
+    # Weekly JSON manifest
+    # ------------------------------------------------------------------
 
     (
         weekly_dir
