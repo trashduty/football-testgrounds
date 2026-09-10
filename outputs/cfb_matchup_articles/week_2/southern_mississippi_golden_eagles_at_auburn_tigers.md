@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Southern Mississippi Golden Eagles | +33.5 (-110) | BetRivers | 60.7% | Bet |
-| Auburn Tigers | -33.5 (-108) | DraftKings | 38.5% | No Bet |
+| Southern Mississippi Golden Eagles | +33.5 (-110) | BetRivers | 62.4% | Bet |
+| Auburn Tigers | -32.5 (-110) | DraftKings | 38.4% | No Bet |
 
 ## Our Take
 
-The Southern Mississippi Golden Eagles visit the Auburn Tigers at Jordan-Hare Stadium. We make **the Southern Mississippi Golden Eagles +27.5**, compared with a market line of +33.5.
+The Southern Mississippi Golden Eagles visit the Auburn Tigers at Jordan-Hare Stadium. We make **Southern Mississippi +26.5**, compared with a market line of +32.5.
 
-The best number we found is Southern Mississippi Golden Eagles +33.5 at -110. We give Southern Mississippi Golden Eagles a 60.7% chance to cover, which creates a 8.3% edge for us. That clears our 3% threshold, so Southern Mississippi Golden Eagles is a bet.
+The best number we found is Southern Mississippi +33.5 at -110. We give Southern Mississippi a 62.4% chance to cover, which creates an 10.0% edge for us. That clears our 3% threshold, so Southern Mississippi is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

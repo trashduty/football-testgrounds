@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The Wake Forest Demon Deacons visit the Purdue Boilermakers at Ross-Ade Stadium. We make **the Purdue Boilermakers -1**, compared with a market line of +3.
+The Wake Forest Demon Deacons visit the Purdue Boilermakers at Ross-Ade Stadium. We make **Purdue -1**, compared with a market line of +3.
 
-The best number we found is Purdue Boilermakers +3.5 at -122. We give Purdue Boilermakers a 60.4% chance to cover, which creates a 5.4% edge for us. That clears our 3% threshold, so Purdue Boilermakers is a bet.
+The best number we found is Purdue +3.5 at -122. We give Purdue a 60.4% chance to cover, which creates an 5.4% edge for us. That clears our 3% threshold, so Purdue is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

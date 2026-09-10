@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Mexico State Aggies | +7.5 (-112) | DraftKings | 46.3% | No Bet |
-| Hawaii Rainbow Warriors | -7.5 (-102) | BetMGM | 54.2% | Bet |
+| New Mexico State Aggies | +7.5 (-120) | FanDuel | 47.2% | No Bet |
+| Hawaii Rainbow Warriors | -7.5 (-102) | FanDuel | 53.4% | Lean – doesn't meet our edge criteria to fully bet |
 
 ## Our Take
 
-The New Mexico State Aggies visit the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. We make **the Hawaii Rainbow Warriors -11.5**, compared with a market line of -7.5.
+The New Mexico State Aggies visit the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. We make **Hawai'i -11**, compared with a market line of -7.
 
-The best number we found is Hawaii Rainbow Warriors -7.5 at -102. We give Hawaii Rainbow Warriors a 54.2% chance to cover, which creates a 3.7% edge for us. That clears our 3% threshold, so Hawaii Rainbow Warriors is a bet.
+The best number we found is Hawai'i -7.5 at -102. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

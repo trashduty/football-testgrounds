@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Bowling Green Falcons | +29.5 (-106) | FanDuel | 56.7% | Bet |
-| Nebraska Cornhuskers | -29.5 (-109) | BetRivers | 42.7% | No Bet |
+| Bowling Green Falcons | +30.5 (-110) | FanDuel | 56.4% | Bet |
+| Nebraska Cornhuskers | -30.5 (-108) | BetMGM | 42.9% | No Bet |
 
 ## Our Take
 
-The Bowling Green Falcons visit the Nebraska Cornhuskers at Memorial Stadium (Lincoln, NE). We make **the Bowling Green Falcons +26**, compared with a market line of +30.
+The Bowling Green Falcons visit the Nebraska Cornhuskers at Memorial Stadium (Lincoln, NE). We make **Bowling Green +27**, compared with a market line of +30.5.
 
-The best number we found is Bowling Green Falcons +29.5 at -106. We give Bowling Green Falcons a 56.7% chance to cover, which creates a 5.2% edge for us. That clears our 3% threshold, so Bowling Green Falcons is a bet.
+The best number we found is Bowling Green +30.5 at -110. We give Bowling Green a 56.4% chance to cover, which creates an 4.1% edge for us. That clears our 3% threshold, so Bowling Green is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bulls | +10.5 (-110) | BetMGM | 62.0% | Bet |
-| Florida International Panthers | -10.5 (-105) | DraftKings | 37.8% | No Bet |
+| Buffalo Bulls | +9.5 (-102) | FanDuel | 60.7% | Bet |
+| Florida International Panthers | -10.5 (-105) | DraftKings | 36.8% | No Bet |
 
 ## Our Take
 
-The Buffalo Bulls visit the Florida International Panthers at Pitbull Stadium. We make **the Buffalo Bulls +5.5**, compared with a market line of +10.5.
+The Buffalo Bulls visit the Florida International Panthers at Pitbull Stadium. We make **Buffalo +5**, compared with a market line of +10.5.
 
-The best number we found is Buffalo Bulls +10.5 at -110. We give Buffalo Bulls a 62.0% chance to cover, which creates a 9.6% edge for us. That clears our 3% threshold, so Buffalo Bulls is a bet.
+The best number we found is Buffalo +9.5 at -102. We give Buffalo a 60.7% chance to cover, which creates an 10.2% edge for us. That clears our 3% threshold, so Buffalo is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

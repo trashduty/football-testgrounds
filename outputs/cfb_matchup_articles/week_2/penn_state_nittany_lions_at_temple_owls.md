@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The Penn State Nittany Lions visit the Temple Owls at Lincoln Financial Field. We make **the Temple Owls +21.5**, compared with a market line of +23.5.
+The Penn State Nittany Lions visit the Temple Owls at Lincoln Financial Field. We make **Temple +21.5**, compared with a market line of +23.5.
 
-The best number we found is Temple Owls +23.5 at -102. We give Temple Owls a 54.5% chance to cover, which creates a 4.0% edge for us. That clears our 3% threshold, so Temple Owls is a bet.
+The best number we found is Temple +23.5 at -102. We give Temple a 54.5% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Temple is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

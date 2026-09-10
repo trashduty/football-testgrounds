@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Utah State Aggies | +26.5 (-108) | BetMGM | 54.9% | Bet |
-| Washington Huskies | -26.5 (-110) | FanDuel | 44.8% | No Bet |
+| Utah State Aggies | +27.5 (-114) | FanDuel | 56.5% | Bet |
+| Washington Huskies | -26.5 (-110) | DraftKings | 44.8% | No Bet |
 
 ## Our Take
 
-The Utah State Aggies visit the Washington Huskies at Husky Stadium. We make **the Utah State Aggies +24**, compared with a market line of +26.5.
+The Utah State Aggies visit the Washington Huskies at Husky Stadium. We make **Utah State +24**, compared with a market line of +26.5.
 
-The best number we found is Utah State Aggies +26.5 at -108. We give Utah State Aggies a 54.9% chance to cover, which creates a 3.0% edge for us. That clears our 3% threshold, so Utah State Aggies is a bet.
+The best number we found is Utah State +27.5 at -114. We give Utah State a 56.5% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Utah State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The Iowa State Cyclones visit the Iowa Hawkeyes at Kinnick Stadium. We make **the Iowa Hawkeyes -15.5**, compared with a market line of -14.
+The Iowa State Cyclones visit the Iowa Hawkeyes at Kinnick Stadium. We make **Iowa -15.5**, compared with a market line of -14.
 
-The best number we found is Iowa Hawkeyes -14.0 at -108. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Iowa -14.0 at -108. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -7,11 +7,11 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Sacramento State | +18.5 (-112) | DraftKings | 54.4% | Lean – doesn't meet our edge criteria to fully bet |
-| Fresno State Bulldogs | -18.5 (-105) | FanDuel | 45.7% | No Bet |
+| Fresno State Bulldogs | -17.5 (-110) | FanDuel | 47.6% | No Bet |
 
 ## Our Take
 
-The Sacramento State visit the Fresno State Bulldogs at Valley Children's Stadium. We make **the Sacramento State +17**, compared with a market line of +18.5.
+The Sacramento State visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Sacramento State +17**, compared with a market line of +18.
 
 The best number we found is Sacramento State +18.5 at -112. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
 

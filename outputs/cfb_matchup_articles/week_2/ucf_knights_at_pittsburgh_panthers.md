@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UCF Knights | +7.5 (-122) | FanDuel | 50.7% | No Bet |
+| UCF Knights | +7.5 (-113) | BetRivers | 50.7% | No Bet |
 | Pittsburgh Panthers | -7.5 (+100) | FanDuel | 49.9% | No Bet |
 
 ## Our Take
 
-The UCF Knights visit the Pittsburgh Panthers at Acrisure Stadium. We make **the Pittsburgh Panthers -9**, compared with a market line of -7.
+The UCF Knights visit the Pittsburgh Panthers at Acrisure Stadium. We make **Pittsburgh -9**, compared with a market line of -7.
 
-The best number we found is Pittsburgh Panthers -7.5 at +100. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Pittsburgh -7.5 at +100. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

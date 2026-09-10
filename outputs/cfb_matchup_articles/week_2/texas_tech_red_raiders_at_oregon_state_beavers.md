@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -26.5 (-110) | FanDuel | 51.0% | No Bet |
-| Oregon State Beavers | +26.5 (-110) | FanDuel | 48.6% | No Bet |
+| Texas Tech Red Raiders | -25.5 (-112) | DraftKings | 52.6% | No Bet |
+| Oregon State Beavers | +26.5 (-112) | BetRivers | 48.6% | No Bet |
 
 ## Our Take
 
-The Texas Tech Red Raiders visit the Oregon State Beavers at Reser Stadium. We make **the Texas Tech Red Raiders -27.5**, compared with a market line of -26.
+The Texas Tech Red Raiders visit the Oregon State Beavers at Reser Stadium. We make **Texas Tech -27.5**, compared with a market line of -26.
 
-The best number we found is Texas Tech Red Raiders -26.5 at -110. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas Tech -25.5 at -112. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

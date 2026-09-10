@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Eastern Michigan Eagles | +17.5 (-110) | DraftKings | 56.2% | Bet |
-| Michigan State Spartans | -17.5 (-106) | FanDuel | 44.0% | No Bet |
+| Eastern Michigan Eagles | +17.5 (-110) | Fanatics | 56.2% | Bet |
+| Michigan State Spartans | -17.5 (-105) | DraftKings | 44.0% | No Bet |
 
 ## Our Take
 
-The Eastern Michigan Eagles visit the Michigan State Spartans at Spartan Stadium. We make **the Eastern Michigan Eagles +15**, compared with a market line of +17.5.
+The Eastern Michigan Eagles visit the Michigan State Spartans at Spartan Stadium. We make **Eastern Michigan +15**, compared with a market line of +17.5.
 
-The best number we found is Eastern Michigan Eagles +17.5 at -110. We give Eastern Michigan Eagles a 56.2% chance to cover, which creates a 3.8% edge for us. That clears our 3% threshold, so Eastern Michigan Eagles is a bet.
+The best number we found is Eastern Michigan +17.5 at -110. We give Eastern Michigan a 56.2% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Eastern Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

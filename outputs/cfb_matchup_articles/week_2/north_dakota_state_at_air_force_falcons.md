@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The North Dakota State visit the Air Force Falcons at Falcon Stadium. We make **the Air Force Falcons -1**, compared with a market line of +2.5.
+The North Dakota State visit the Air Force Falcons at Falcon Stadium. We make **Air Force -1**, compared with a market line of +2.5.
 
-The best number we found is Air Force Falcons +2.5 at -109. We give Air Force Falcons a 56.2% chance to cover, which creates a 4.0% edge for us. That clears our 3% threshold, so Air Force Falcons is a bet.
+The best number we found is Air Force +2.5 at -109. We give Air Force a 56.2% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Air Force is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

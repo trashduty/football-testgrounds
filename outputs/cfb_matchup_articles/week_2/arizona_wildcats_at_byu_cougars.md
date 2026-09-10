@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona Wildcats | +7.5 (-108) | DraftKings | 53.3% | Lean – doesn't meet our edge criteria to fully bet |
-| BYU Cougars | -7.5 (-108) | BetMGM | 47.3% | No Bet |
+| Arizona Wildcats | +8.5 (-114) | BetRivers | 54.9% | Lean – doesn't meet our edge criteria to fully bet |
+| BYU Cougars | -7.5 (-110) | FanDuel | 47.3% | No Bet |
 
 ## Our Take
 
-The Arizona Wildcats visit the BYU Cougars at LaVell Edwards Stadium. We make **the Arizona Wildcats +7.5**, compared with a market line of +7.5.
+The Arizona Wildcats visit the BYU Cougars at LaVell Edwards Stadium. We make **Arizona +7.5**, compared with a market line of +7.5.
 
-The best number we found is Arizona Wildcats +7.5 at -108. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona +8.5 at -114. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

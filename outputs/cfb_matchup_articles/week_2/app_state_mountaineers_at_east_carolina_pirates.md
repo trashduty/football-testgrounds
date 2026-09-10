@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| App State Mountaineers | +7.5 (-115) | DraftKings | 62.6% | Bet |
-| East Carolina Pirates | -7.5 (-102) | FanDuel | 38.0% | No Bet |
+| App State Mountaineers | +6.5 (+100) | FanDuel | 59.0% | Bet |
+| East Carolina Pirates | -7.0 (-106) | BetRivers | 38.0% | No Bet |
 
 ## Our Take
 
-The App State Mountaineers visit the East Carolina Pirates at Dowdy-Ficklen Stadium. We make **the App State Mountaineers +2**, compared with a market line of +7.5.
+The App State Mountaineers visit the East Carolina Pirates at Dowdy-Ficklen Stadium. We make **App State +2**, compared with a market line of +7.
 
-The best number we found is App State Mountaineers +7.5 at -115. We give App State Mountaineers a 62.6% chance to cover, which creates a 9.1% edge for us. That clears our 3% threshold, so App State Mountaineers is a bet.
+The best number we found is App State +6.5 at +100. We give App State a 59.0% chance to cover, which creates an 9.0% edge for us. That clears our 3% threshold, so App State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

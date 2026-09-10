@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington State Cougars | +18.5 (-110) | Fanatics | 49.6% | No Bet |
-| Kansas State Wildcats | -17.5 (-110) | FanDuel | 52.0% | No Bet |
+| Washington State Cougars | +17.5 (-105) | FanDuel | 49.9% | No Bet |
+| Kansas State Wildcats | -17.5 (-108) | DraftKings | 50.2% | No Bet |
 
 ## Our Take
 
-The Washington State Cougars visit the Kansas State Wildcats at Bill Snyder Family Stadium. We make **the Kansas State Wildcats -19.5**, compared with a market line of -18.5.
+The Washington State Cougars visit the Kansas State Wildcats at Bill Snyder Family Stadium. We make **Washington State +18.5**, compared with a market line of +17.5.
 
-The best number we found is Kansas State Wildcats -17.5 at -110. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Washington State +17.5 at -105. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -21,14 +21,14 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Kansas State Wildcats | Washington State Cougars |
+| | Washington State Cougars | Kansas State Wildcats |
 |---|---|---|
-| Offensive Pass EPA | 63rd | 121st |
-| Offensive Rush EPA | 21st | 82nd |
-| Defensive Pass EPA | 15th | 24th |
-| Defensive Rush EPA | 82nd | 53rd |
-| Offensive Eckel Rate | 92nd | 85th |
-| Defensive Eckel Rate | 87th | 39th |
+| Offensive Pass EPA | 121st | 63rd |
+| Offensive Rush EPA | 82nd | 21st |
+| Defensive Pass EPA | 24th | 15th |
+| Defensive Rush EPA | 53rd | 82nd |
+| Offensive Eckel Rate | 85th | 92nd |
+| Defensive Eckel Rate | 39th | 87th |
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 

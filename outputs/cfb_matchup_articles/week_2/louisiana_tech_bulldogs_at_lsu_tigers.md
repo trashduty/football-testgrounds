@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Tech Bulldogs | +35.5 (-115) | Fanatics | 54.7% | Lean – doesn't meet our edge criteria to fully bet |
-| LSU Tigers | -35.5 (+100) | FanDuel | 44.5% | No Bet |
+| Louisiana Tech Bulldogs | +35.5 (-108) | BetMGM | 54.7% | Lean – doesn't meet our edge criteria to fully bet |
+| LSU Tigers | -35.5 (+100) | DraftKings | 44.5% | No Bet |
 
 ## Our Take
 
-The Louisiana Tech Bulldogs visit the LSU Tigers at Tiger Stadium (LA). We make **the Louisiana Tech Bulldogs +33**, compared with a market line of +35.5.
+The Louisiana Tech Bulldogs visit the LSU Tigers at Tiger Stadium (LA). We make **Louisiana Tech +33**, compared with a market line of +35.
 
-The best number we found is Louisiana Tech Bulldogs +35.5 at -115. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Louisiana Tech +35.5 at -108. We see a 2.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

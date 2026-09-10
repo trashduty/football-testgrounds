@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Maryland Terrapins | -12.5 (-108) | DraftKings | 37.8% | No Bet |
-| UConn Huskies | +12.5 (-110) | FanDuel | 62.7% | Bet |
+| Maryland Terrapins | -12.0 (-109) | BetRivers | 38.7% | No Bet |
+| UConn Huskies | +13.5 (-112) | DraftKings | 63.1% | Bet |
 
 ## Our Take
 
-The Maryland Terrapins visit the UConn Huskies at Pratt & Whitney Stadium. We make **the UConn Huskies +6.5**, compared with a market line of +12.5.
+The Maryland Terrapins visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +7**, compared with a market line of +13.
 
-The best number we found is UConn Huskies +12.5 at -110. We give UConn Huskies a 62.7% chance to cover, which creates a 10.3% edge for us. That clears our 3% threshold, so UConn Huskies is a bet.
+The best number we found is Connecticut +13.5 at -112. We give Connecticut a 63.1% chance to cover, which creates an 10.3% edge for us. That clears our 3% threshold, so Connecticut is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ohio State Buckeyes | +1.5 (-108) | BetMGM | 47.4% | No Bet |
+| Ohio State Buckeyes | +1.5 (-108) | DraftKings | 47.4% | No Bet |
 | Texas Longhorns | -1.5 (-110) | FanDuel | 52.1% | No Bet |
 
 ## Our Take
 
-The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium. We make **the Texas Longhorns -2.5**, compared with a market line of -1.
+The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium. We make **Texas -2.5**, compared with a market line of -1.
 
-The best number we found is Texas Longhorns -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

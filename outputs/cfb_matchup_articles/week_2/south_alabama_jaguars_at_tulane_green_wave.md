@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The South Alabama Jaguars visit the Tulane Green Wave at Yulman Stadium. We make **the Tulane Green Wave -11.5**, compared with a market line of -9.5.
+The South Alabama Jaguars visit the Tulane Green Wave at Yulman Stadium. We make **Tulane -11.5**, compared with a market line of -9.5.
 
-The best number we found is Tulane Green Wave -9.5 at -112. We see a -1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Tulane -9.5 at -112. We see a -1.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

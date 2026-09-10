@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon Ducks | -22.5 (-115) | FanDuel | 50.8% | No Bet |
-| Oklahoma State Cowboys | +23.5 (-110) | Fanatics | 50.9% | No Bet |
+| Oregon Ducks | -22.0 (-112) | BetRivers | 51.6% | No Bet |
+| Oklahoma State Cowboys | +23.5 (-110) | Fanatics | 50.0% | No Bet |
 
 ## Our Take
 
-The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **the Oklahoma State Cowboys +23.5**, compared with a market line of +23.5.
+The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Oregon -24**, compared with a market line of -23.5.
 
-The best number we found is Oklahoma State Cowboys +23.5 at -110. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Oregon -22.0 at -112. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -21,14 +21,14 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Oklahoma State Cowboys | Oregon Ducks |
+| | Oregon Ducks | Oklahoma State Cowboys |
 |---|---|---|
-| Offensive Pass EPA | 127th | 22nd |
-| Offensive Rush EPA | 137th | 10th |
-| Defensive Pass EPA | 126th | 22nd |
-| Defensive Rush EPA | 78th | 30th |
-| Offensive Eckel Rate | 132nd | 18th |
-| Defensive Eckel Rate | 116th | 12th |
+| Offensive Pass EPA | 22nd | 127th |
+| Offensive Rush EPA | 10th | 137th |
+| Defensive Pass EPA | 22nd | 126th |
+| Defensive Rush EPA | 30th | 78th |
+| Offensive Eckel Rate | 18th | 132nd |
+| Defensive Eckel Rate | 12th | 116th |
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 

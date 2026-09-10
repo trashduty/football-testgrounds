@@ -6,18 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| California Golden Bears | +3.5 (-110) | FanDuel | 41.5% | No Bet |
-| Syracuse Orange | -3.5 (+100) | Fanatics | 58.3% | Bet |
+| California Golden Bears | +3.5 (-115) | Fanatics | 41.5% | No Bet |
+| Syracuse Orange | -3.5 (+100) | FanDuel | 58.3% | Bet |
 
 ## Our Take
 
-The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We make **the Syracuse Orange -9.5**, compared with a market line of -3.5.
+The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We make **Syracuse -9.5**, compared with a market line of -3.5.
 
-The best number we found is Syracuse Orange -3.5 at +100. We give Syracuse Orange a 58.3% chance to cover, which creates a 8.3% edge for us. That clears our 3% threshold, so Syracuse Orange is a bet.
+The best number we found is Syracuse -3.5 at +100. We give Syracuse a 58.3% chance to cover, which creates an 8.3% edge for us. That clears our 3% threshold, so Syracuse is a bet.
 
-We are not treating Syracuse’s dominant opener as proof of what comes next. The useful takeaway for us is the offensive balance: the Orange produced 238 rushing yards and 275 passing yards without committing a turnover. That matters because California allowed 277 rushing yards against UCLA. Our case is less about asking Syracuse to attack the strongest part of California’s defense and more about having a credible path to avoid becoming one-dimensional.
-
-We also see a plausible route to margin on the other side of the ball. Syracuse recorded five sacks and three takeaways while holding New Hampshire to 159 total yards, while California’s Jaron-Keawe Sagapolutele threw two interceptions in the opener. Those isolated results are not forecasts, but they fit our broader view that California may struggle to create enough scoring opportunities. We think Syracuse can generate separation through balance, negative plays and field position rather than relying entirely on its passing efficiency.
+We are not treating Syracuse’s 66-3 opener or California’s 45-24 loss as proof of what happens next. The useful takeaway is that Syracuse showed balance and disruption, producing 513 total yards without a turnover while holding New Hampshire to 159 yards with five sacks and three takeaways. That profile helps explain why our numbers are more favorable to Syracuse than the market is.
 
 ### What The Numbers Say
 
@@ -36,9 +34,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Steve Angeli and the Syracuse passing game against California’s pass defense. Our efficiency numbers make this a clear California advantage, and it is the most meaningful concern for our position. Still, we saw Angeli return with 263 passing yards, extending his run to six consecutive games with at least 230, while the Syracuse offensive line received an 87.0 PFF pass-blocking grade in the opener.
-
-The question is whether California can turn its statistical advantage into enough drive-killing disruption. If we see Syracuse protect Angeli and maintain the balance it showed in Week 1, we think California’s strongest matchup edge becomes less decisive.
+For us, the matchup to watch is Syracuse’s rushing offense against California’s front. California allowed 277 rushing yards to UCLA, while Syracuse ran for 238 yards in its opener and is expected to add Ahmad Miller and Ju’Juan Johnson to the backfield rotation. That matters because our matchup metrics identify California’s pass defense as the strongest obstacle for Syracuse.
 
 ## Best Bets Of The Week
 

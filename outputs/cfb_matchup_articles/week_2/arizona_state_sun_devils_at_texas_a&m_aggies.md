@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona State Sun Devils | +14.5 (-114) | FanDuel | 46.2% | No Bet |
+| Arizona State Sun Devils | +14.5 (-114) | BetRivers | 46.2% | No Bet |
 | Texas A&M Aggies | -14.5 (-105) | DraftKings | 54.3% | Bet |
 
 ## Our Take
 
-The Arizona State Sun Devils visit the Texas A&M Aggies at Kyle Field. We make **the Texas A&M Aggies -18**, compared with a market line of -14.5.
+The Arizona State Sun Devils visit the Texas A&M Aggies at Kyle Field. We make **Texas A&M -18**, compared with a market line of -14.5.
 
-The best number we found is Texas A&M Aggies -14.5 at -105. We give Texas A&M Aggies a 54.3% chance to cover, which creates a 3.1% edge for us. That clears our 3% threshold, so Texas A&M Aggies is a bet.
+The best number we found is Texas A&M -14.5 at -105. We give Texas A&M a 54.3% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so Texas A&M is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

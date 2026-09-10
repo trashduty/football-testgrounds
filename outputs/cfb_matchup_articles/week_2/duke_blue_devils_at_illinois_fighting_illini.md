@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The Duke Blue Devils visit the Illinois Fighting Illini at Memorial Stadium (Champaign, IL). We make **the Illinois Fighting Illini -8.5**, compared with a market line of -5.5.
+The Duke Blue Devils visit the Illinois Fighting Illini at Memorial Stadium (Champaign, IL). We make **Illinois -8.5**, compared with a market line of -5.5.
 
-The best number we found is Illinois Fighting Illini -5.5 at -110. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Illinois -5.5 at -110. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

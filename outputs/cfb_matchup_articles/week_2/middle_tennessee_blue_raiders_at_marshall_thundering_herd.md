@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Middle Tennessee Blue Raiders | +13.5 (-108) | DraftKings | 59.8% | Bet |
-| Marshall Thundering Herd | -13.5 (-108) | BetMGM | 40.6% | No Bet |
+| Marshall Thundering Herd | -13.0 (-110) | BetMGM | 40.6% | No Bet |
 
 ## Our Take
 
-The Middle Tennessee Blue Raiders visit the Marshall Thundering Herd at Joan C. Edwards Stadium. We make **the Middle Tennessee Blue Raiders +9**, compared with a market line of +13.5.
+The Middle Tennessee Blue Raiders visit the Marshall Thundering Herd at Joan C. Edwards Stadium. We make **Middle Tennessee +9**, compared with a market line of +13.5.
 
-The best number we found is Middle Tennessee Blue Raiders +13.5 at -108. We give Middle Tennessee Blue Raiders a 59.8% chance to cover, which creates a 7.8% edge for us. That clears our 3% threshold, so Middle Tennessee Blue Raiders is a bet.
+The best number we found is Middle Tennessee +13.5 at -108. We give Middle Tennessee a 59.8% chance to cover, which creates an 7.8% edge for us. That clears our 3% threshold, so Middle Tennessee is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

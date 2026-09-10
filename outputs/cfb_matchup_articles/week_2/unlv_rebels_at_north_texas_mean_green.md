@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UNLV Rebels | -3.5 (-105) | Fanatics | 44.6% | No Bet |
-| North Texas Mean Green | +3.5 (-110) | BetRivers | 55.2% | Lean – doesn't meet our edge criteria to fully bet |
+| UNLV Rebels | -3.5 (+100) | FanDuel | 44.6% | No Bet |
+| North Texas Mean Green | +3.5 (-117) | BetRivers | 55.2% | Lean – doesn't meet our edge criteria to fully bet |
 
 ## Our Take
 
-The UNLV Rebels visit the North Texas Mean Green at DATCU Stadium. We make **the North Texas Mean Green +1.5**, compared with a market line of +3.5.
+The UNLV Rebels visit the North Texas Mean Green at DATCU Stadium. We make **North Texas +1.5**, compared with a market line of +3.
 
-The best number we found is North Texas Mean Green +3.5 at -110. We see a 2.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is North Texas +3.5 at -117. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

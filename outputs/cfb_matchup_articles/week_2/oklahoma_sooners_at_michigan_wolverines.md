@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The Oklahoma Sooners visit the Michigan Wolverines at Michigan Stadium. We make **the Michigan Wolverines +3.5**, compared with a market line of +5.5.
+The Oklahoma Sooners visit the Michigan Wolverines at Michigan Stadium. We make **Michigan +3.5**, compared with a market line of +5.5.
 
-The best number we found is Michigan Wolverines +5.5 at -110. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan +5.5 at -110. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

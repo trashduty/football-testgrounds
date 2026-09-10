@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Mississippi State Bulldogs | +1.5 (-118) | DraftKings | 48.0% | No Bet |
-| Minnesota Golden Gophers | +1.5 (-120) | FanDuel | 56.6% | Lean – doesn't meet our edge criteria to fully bet |
+| Mississippi State Bulldogs | +1.0 (-110) | Fanatics | 44.7% | No Bet |
+| Minnesota Golden Gophers | +1.0 (-112) | BetMGM | 56.6% | Bet |
 
 ## Our Take
 
-The Mississippi State Bulldogs visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **the Minnesota Golden Gophers -2.5**, compared with a market line of -1.5.
+The Mississippi State Bulldogs visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Minnesota -3.5**, compared with a market line of +1.5.
 
-The best number we found is Minnesota Golden Gophers +1.5 at -120. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Minnesota +1.0 at -112. We give Minnesota a 56.6% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Minnesota is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

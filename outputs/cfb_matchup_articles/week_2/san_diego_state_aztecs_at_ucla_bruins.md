@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The San Diego State Aztecs visit the UCLA Bruins at Rose Bowl. We make **the San Diego State Aztecs +11.5**, compared with a market line of +12.5.
+The San Diego State Aztecs visit the UCLA Bruins at Rose Bowl. We make **San Diego State +11.5**, compared with a market line of +12.5.
 
-The best number we found is San Diego State Aztecs +12.5 at -110. We see a 1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is San Diego State +12.5 at -110. We see a 1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

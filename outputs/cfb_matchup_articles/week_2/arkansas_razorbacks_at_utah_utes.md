@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The Arkansas Razorbacks visit the Utah Utes at Rice-Eccles Stadium. We make **the Utah Utes -15.5**, compared with a market line of -12.5.
+The Arkansas Razorbacks visit the Utah Utes at Rice-Eccles Stadium. We make **Utah -15.5**, compared with a market line of -12.5.
 
-The best number we found is Utah Utes -12.5 at -110. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Utah -12.5 at -110. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

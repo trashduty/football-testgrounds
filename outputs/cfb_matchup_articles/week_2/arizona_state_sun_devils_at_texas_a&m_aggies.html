@@ -1,0 +1,361 @@
+<style>
+.btb-matchup-article {
+    --btb-bg: #050505;
+    --btb-card: #101010;
+    --btb-card-raised: #151515;
+    --btb-border: #2a2a2a;
+    --btb-text: #f4f4f4;
+    --btb-muted: #b7b7b7;
+    --btb-green: #27e26f;
+
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 42px 42px 50px;
+    box-sizing: border-box;
+
+    background: var(--btb-bg);
+    color: var(--btb-text);
+
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    line-height: 1.7;
+}
+
+.btb-matchup-article * {
+    box-sizing: border-box;
+}
+
+.btb-matchup-article h1 {
+    margin: 0 auto 28px;
+    max-width: 940px;
+
+    color: #ffffff;
+
+    font-size: clamp(31px, 4vw, 48px);
+    line-height: 1.12;
+    letter-spacing: -0.025em;
+    font-weight: 800;
+
+    text-align: center;
+}
+
+.btb-matchup-article h2 {
+    margin: 46px 0 18px;
+
+    color: var(--btb-green);
+
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+}
+
+.btb-matchup-article h3 {
+    margin: 42px 0 16px;
+
+    color: #ffffff;
+
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 800;
+}
+
+.btb-matchup-article p {
+    margin: 0 0 20px;
+
+    color: var(--btb-text);
+
+    font-size: 17px;
+}
+
+.btb-matchup-article strong {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.btb-matchup-article em {
+    color: var(--btb-muted);
+}
+
+.btb-matchup-article a {
+    color: var(--btb-green);
+}
+
+.btb-matchup-article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btb-matchup-article p[align="center"] {
+    text-align: center;
+}
+
+/* -------------------------------------------------------- */
+/* Matchup / model tables                                   */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article table {
+    width: 100%;
+    margin: 26px 0 34px;
+
+    border: 1px solid var(--btb-border);
+    border-radius: 10px;
+    border-spacing: 0;
+    border-collapse: separate;
+
+    overflow: hidden;
+
+    background: var(--btb-card);
+
+    font-size: 15px;
+}
+
+.btb-matchup-article thead {
+    background: #171717;
+}
+
+.btb-matchup-article th {
+    padding: 14px 16px;
+
+    color: var(--btb-green);
+
+    font-weight: 800;
+    text-align: left;
+
+    border-bottom: 1px solid var(--btb-border);
+}
+
+.btb-matchup-article td {
+    padding: 14px 16px;
+
+    color: var(--btb-text);
+
+    border-bottom: 1px solid #222222;
+}
+
+.btb-matchup-article tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.btb-matchup-article tbody tr:hover {
+    background: #161616;
+}
+
+/* -------------------------------------------------------- */
+/* Our Take card                                            */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-take {
+    margin: 38px 0 36px;
+    padding: 26px 28px 12px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #111111,
+            #0b0b0b
+        );
+
+    border: 1px solid var(--btb-border);
+    border-left: 4px solid var(--btb-green);
+    border-radius: 10px;
+}
+
+.btb-matchup-article .btb-take h2 {
+    margin-top: 0;
+}
+
+.btb-matchup-article .btb-take p:first-of-type {
+    font-size: 18px;
+}
+
+/* -------------------------------------------------------- */
+/* CTA                                                      */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-cta {
+    margin-top: 48px;
+    padding: 28px;
+
+    background: var(--btb-card-raised);
+
+    border: 1px solid var(--btb-border);
+    border-radius: 12px;
+}
+
+.btb-matchup-article .btb-cta h2 {
+    margin-top: 0;
+}
+
+.btb-matchup-article .btb-button {
+    display: inline-block;
+
+    margin-top: 6px;
+    padding: 13px 21px;
+
+    background: var(--btb-green);
+
+    color: #050505 !important;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 800;
+
+    text-decoration: none !important;
+
+    transition:
+        transform .15s ease,
+        opacity .15s ease;
+}
+
+.btb-matchup-article .btb-button:hover {
+    opacity: .9;
+    transform: translateY(-1px);
+}
+
+/* -------------------------------------------------------- */
+/* Mobile                                                   */
+/* -------------------------------------------------------- */
+
+@media (max-width: 760px) {
+
+    .btb-matchup-article {
+        padding: 28px 17px 40px;
+    }
+
+    .btb-matchup-article h1 {
+        font-size: 31px;
+    }
+
+    .btb-matchup-article h2 {
+        font-size: 25px;
+    }
+
+    .btb-matchup-article h3 {
+        font-size: 21px;
+    }
+
+    .btb-matchup-article p {
+        font-size: 16px;
+    }
+
+    .btb-matchup-article .btb-take {
+        padding: 21px 19px 8px;
+    }
+
+    .btb-matchup-article .btb-cta {
+        padding: 22px 20px;
+    }
+
+    .btb-matchup-article table {
+        display: block;
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+        font-size: 14px;
+
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .btb-matchup-article th,
+    .btb-matchup-article td {
+        padding: 12px;
+    }
+}
+</style>
+
+<div class="btb-matchup-article">
+<h1>Arizona State Sun Devils vs Texas A&amp;M Aggies Prediction For 09/12/2026</h1>
+<p align="center"><img src="http://a.espncdn.com/i/teamlogos/ncaa/500/9.png" alt="Arizona State Sun Devils" width="224" /> <strong>vs</strong> <img src="http://a.espncdn.com/i/teamlogos/ncaa/500/245.png" alt="Texas A&M Aggies" width="224" /></p>
+
+<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
+
+<table>
+<thead>
+<tr>
+<th>Team name</th>
+<th>Best Spread/Odds</th>
+<th>Best Book</th>
+<th>Cover Probability</th>
+<th>BTB Advice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arizona State Sun Devils</td>
+<td>+14.5 (-114)</td>
+<td>BetRivers</td>
+<td>46.2%</td>
+<td>No Bet</td>
+</tr>
+<tr>
+<td>Texas A&amp;M Aggies</td>
+<td>-14.5 (-105)</td>
+<td>DraftKings</td>
+<td>54.3%</td>
+<td>Bet</td>
+</tr>
+</tbody>
+</table>
+<section class="btb-take"><h2>Our Take</h2>
+<p>The Arizona State Sun Devils visit the Texas A&amp;M Aggies at Kyle Field. We make <strong>Texas A&amp;M -18</strong>, compared with a market line of -14.5.</p>
+<p>The best number we found is Texas A&amp;M -14.5 at -105. We give Texas A&amp;M a 54.3% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so Texas A&amp;M is a bet.</p>
+<p>We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.</p>
+</section><h3>What The Numbers Say</h3>
+<p>Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Texas A&amp;M Aggies</th>
+<th>Arizona State Sun Devils</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Offensive Pass EPA</td>
+<td>25th</td>
+<td>41st</td>
+</tr>
+<tr>
+<td>Offensive Rush EPA</td>
+<td>42nd</td>
+<td>77th</td>
+</tr>
+<tr>
+<td>Defensive Pass EPA</td>
+<td>6th</td>
+<td>38th</td>
+</tr>
+<tr>
+<td>Defensive Rush EPA</td>
+<td>69th</td>
+<td>48th</td>
+</tr>
+<tr>
+<td>Offensive Eckel Rate</td>
+<td>10th</td>
+<td>88th</td>
+</tr>
+<tr>
+<td>Defensive Eckel Rate</td>
+<td>2nd</td>
+<td>62nd</td>
+</tr>
+</tbody>
+</table>
+<p>These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.</p>
+<section class="btb-cta"><h2>Best Bets Of The Week</h2>
+<p>Our model found edges of at least 3% on <strong>19 games</strong> this week.</p>
+<p>Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.</p>
+<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p><a class="btb-button" href="https://www.btb-analytics.com/member-access">View Member Access</a></section>
+</div>

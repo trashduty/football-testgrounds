@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Navy Midshipmen | -4.5 (-110) | FanDuel | 50.7% | No Bet |
-| Florida Atlantic Owls | +5.5 (-112) | DraftKings | 50.5% | No Bet |
+| Navy Midshipmen | -4.5 (-110) | BetMGM | 49.9% | No Bet |
+| Florida Atlantic Owls | +4.5 (-105) | DraftKings | 50.0% | No Bet |
 
 ## Our Take
 
-The Navy Midshipmen visit the Florida Atlantic Owls at FAU Stadium. We make **the Navy Midshipmen -6**, compared with a market line of -5.5.
+The Navy Midshipmen visit the Florida Atlantic Owls at FAU Stadium. We make **Florida Atlantic +5.5**, compared with a market line of +4.5.
 
-The best number we found is Navy Midshipmen -4.5 at -110. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida Atlantic +4.5 at -105. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -21,14 +21,14 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Navy Midshipmen | Florida Atlantic Owls |
+| | Florida Atlantic Owls | Navy Midshipmen |
 |---|---|---|
-| Offensive Pass EPA | 50th | 43rd |
-| Offensive Rush EPA | 7th | 104th |
-| Defensive Pass EPA | 135th | 109th |
-| Defensive Rush EPA | 91st | 137th |
-| Offensive Eckel Rate | 24th | 25th |
-| Defensive Eckel Rate | 119th | 126th |
+| Offensive Pass EPA | 43rd | 50th |
+| Offensive Rush EPA | 104th | 7th |
+| Defensive Pass EPA | 109th | 135th |
+| Defensive Rush EPA | 137th | 91st |
+| Offensive Eckel Rate | 25th | 24th |
+| Defensive Eckel Rate | 126th | 119th |
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Jacksonville State Gamecocks | +2.5 (-105) | Fanatics | 47.3% | No Bet |
+| Jacksonville State Gamecocks | +2.5 (-108) | DraftKings | 47.3% | No Bet |
 | Ohio Bobcats | -2.5 (-110) | FanDuel | 52.4% | No Bet |
 
 ## Our Take
 
-The Jacksonville State Gamecocks visit the Ohio Bobcats at Peden Stadium. We make **the Ohio Bobcats -3.5**, compared with a market line of -2.5.
+The Jacksonville State Gamecocks visit the Ohio Bobcats at Peden Stadium. We make **Ohio -3.5**, compared with a market line of -2.5.
 
-The best number we found is Ohio Bobcats -2.5 at -110. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ohio -2.5 at -110. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

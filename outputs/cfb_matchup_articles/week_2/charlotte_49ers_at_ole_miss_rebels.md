@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Charlotte 49ers | +47.5 (-108) | BetMGM | 60.3% | Bet |
-| Ole Miss Rebels | -47.5 (-106) | FanDuel | 39.3% | No Bet |
+| Ole Miss Rebels | -47.5 (-105) | DraftKings | 39.3% | No Bet |
 
 ## Our Take
 
-The Charlotte 49ers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **the Charlotte 49ers +41.5**, compared with a market line of +47.5.
+The Charlotte 49ers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **Charlotte +41.5**, compared with a market line of +47.5.
 
-The best number we found is Charlotte 49ers +47.5 at -108. We give Charlotte 49ers a 60.3% chance to cover, which creates a 8.3% edge for us. That clears our 3% threshold, so Charlotte 49ers is a bet.
+The best number we found is Charlotte +47.5 at -108. We give Charlotte a 60.3% chance to cover, which creates an 8.3% edge for us. That clears our 3% threshold, so Charlotte is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Ragin Cajuns | +30.5 (-102) | DraftKings | 47.9% | No Bet |
-| USC Trojans | -30.5 (-110) | BetMGM | 51.7% | No Bet |
+| Louisiana Ragin Cajuns | +30.5 (-108) | BetMGM | 47.9% | No Bet |
+| USC Trojans | -31.5 (-102) | DraftKings | 50.1% | No Bet |
 
 ## Our Take
 
-The Louisiana Ragin Cajuns visit the USC Trojans at Los Angeles Memorial Coliseum. We make **the USC Trojans -32**, compared with a market line of -30.5.
+The Louisiana Ragin Cajuns visit the USC Trojans at Los Angeles Memorial Coliseum. We make **USC -32**, compared with a market line of -31.5.
 
-The best number we found is USC Trojans -30.5 at -110. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is USC -31.5 at -102. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

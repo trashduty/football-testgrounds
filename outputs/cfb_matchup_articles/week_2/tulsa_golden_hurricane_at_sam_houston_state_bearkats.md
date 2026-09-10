@@ -11,9 +11,9 @@
 
 ## Our Take
 
-The Tulsa Golden Hurricane visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **the Sam Houston State Bearkats +9.5**, compared with a market line of +13.5.
+The Tulsa Golden Hurricane visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **Sam Houston State +9.5**, compared with a market line of +13.5.
 
-The best number we found is Sam Houston State Bearkats +13.5 at -110. We give Sam Houston State Bearkats a 58.9% chance to cover, which creates a 6.5% edge for us. That clears our 3% threshold, so Sam Houston State Bearkats is a bet.
+The best number we found is Sam Houston State +13.5 at -110. We give Sam Houston State a 58.9% chance to cover, which creates an 6.5% edge for us. That clears our 3% threshold, so Sam Houston State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
