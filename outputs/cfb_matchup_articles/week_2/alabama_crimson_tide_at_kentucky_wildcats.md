@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Alabama Crimson Tide | -10.5 (-110) | DraftKings | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kentucky Wildcats | +10.5 (-108) | BetMGM | 53.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Alabama Crimson Tide | -10.5 (+100) | FanDuel | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kentucky Wildcats | +10.5 (-112) | BetRivers | 53.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Alabama Crimson Tide visit the Kentucky Wildcats at Kroger Field. We make **Kentucky +10**, compared with a market line of +10.5.
+The Alabama Crimson Tide visit the Kentucky Wildcats at Kroger Field. We make **Kentucky +10**, compared with a market line of +10.
 
-The best number we found is Kentucky +10.5 at -108. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Kentucky +10.5 at -112. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

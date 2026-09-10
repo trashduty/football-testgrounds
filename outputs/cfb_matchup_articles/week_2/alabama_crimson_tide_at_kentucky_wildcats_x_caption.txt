@@ -1,0 +1,9 @@
+Our model is 0 points away from the market on Alabama-Kentucky.
+
+We make Kentucky +10. The market is +10.
+
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
+
+We broke down why our model differs and what would matter most in the matchup.
+
+Full breakdown ↓

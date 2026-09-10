@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Delaware Blue Hens visit the Vanderbilt Commodores at FirstBank Stadium. We make **Vanderbilt -22.5**, compared with a market line of -21.
+The Delaware Blue Hens visit the Vanderbilt Commodores at FirstBank Stadium. We make **Vanderbilt -22.5**, compared with a market line of -20.5.
 
 The best number we found is Vanderbilt -21.5 at -105. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 

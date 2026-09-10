@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UCF Knights | +7.5 (-112) | BetMGM | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UCF Knights | +7.5 (-113) | BetRivers | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Pittsburgh Panthers | -7.5 (+100) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take

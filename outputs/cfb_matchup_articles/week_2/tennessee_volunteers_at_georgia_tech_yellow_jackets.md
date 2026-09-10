@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tennessee Volunteers | -11.5 (-112) | DraftKings | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia Tech Yellow Jackets | +12.5 (-113) | BetRivers | 54.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Tennessee Volunteers | -11.5 (-112) | FanDuel | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Tech Yellow Jackets | +12.5 (-112) | DraftKings | 53.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +11.5**, compared with a market line of +11.5.
+The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +12**, compared with a market line of +11.5.
 
-The best number we found is Georgia Tech +12.5 at -113. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia Tech +12.5 at -112. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

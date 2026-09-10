@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ohio State Buckeyes | +1.5 (-108) | DraftKings | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio State Buckeyes | +1.5 (-108) | BetMGM | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Texas Longhorns | -1.5 (-110) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take

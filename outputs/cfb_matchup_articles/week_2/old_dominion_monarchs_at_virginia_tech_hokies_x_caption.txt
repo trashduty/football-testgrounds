@@ -1,0 +1,9 @@
+Our model is 3 points away from the market on Old Dominion-Virginia Tech.
+
+We make Virginia Tech -22. The market is -19.
+
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
+
+We broke down why our model differs and what would matter most in the matchup.
+
+Full breakdown ↓

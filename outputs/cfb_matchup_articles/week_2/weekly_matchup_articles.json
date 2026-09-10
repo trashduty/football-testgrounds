@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-10T20:47:48.513013+00:00",
+  "generated_at_utc": "2026-09-10T21:15:00.013820+00:00",
   "season": 2026,
   "week": 2,
   "articles": [
@@ -22,12 +22,12 @@
       "opp_name": "Alabama Crimson Tide",
       "opp_short": "Alabama",
       "model_prediction": 10.0,
-      "market_line": 10.5,
+      "market_line": 10.0,
       "best_line": 10.5,
-      "best_price": "-108",
-      "best_book": "BetMGM",
+      "best_price": "-112",
+      "best_book": "BetRivers",
       "cover_probability": 0.53102252,
-      "edge": 0.0117917507692307,
+      "edge": 0.0027206332075472,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -43,6 +43,11 @@
         "model_context": {}
       },
       "article_path": "alabama_crimson_tide_at_kentucky_wildcats.md",
+      "social_assets": {
+        "x_model_graphic": "alabama_crimson_tide_at_kentucky_wildcats_x_model.png",
+        "x_stats_graphic": "alabama_crimson_tide_at_kentucky_wildcats_x_stats.png",
+        "x_caption": "alabama_crimson_tide_at_kentucky_wildcats_x_caption.txt"
+      },
       "html_path": "alabama_crimson_tide_at_kentucky_wildcats.html",
       "source_audit_path": "alabama_crimson_tide_at_kentucky_wildcats.sources.json"
     },
@@ -64,13 +69,13 @@
       "bet_short": "App State",
       "opp_name": "East Carolina Pirates",
       "opp_short": "East Carolina",
-      "model_prediction": 2.0,
-      "market_line": 7.0,
+      "model_prediction": 1.5,
+      "market_line": 6.5,
       "best_line": 6.5,
       "best_price": "100",
       "best_book": "FanDuel",
-      "cover_probability": 0.58950119,
-      "edge": 0.08950119,
+      "cover_probability": 0.59786024,
+      "edge": 0.09786024,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -86,6 +91,11 @@
         "model_context": {}
       },
       "article_path": "app_state_mountaineers_at_east_carolina_pirates.md",
+      "social_assets": {
+        "x_model_graphic": "app_state_mountaineers_at_east_carolina_pirates_x_model.png",
+        "x_stats_graphic": "app_state_mountaineers_at_east_carolina_pirates_x_stats.png",
+        "x_caption": "app_state_mountaineers_at_east_carolina_pirates_x_caption.txt"
+      },
       "html_path": "app_state_mountaineers_at_east_carolina_pirates.html",
       "source_audit_path": "app_state_mountaineers_at_east_carolina_pirates.sources.json"
     },
@@ -129,6 +139,11 @@
         "model_context": {}
       },
       "article_path": "arizona_state_sun_devils_at_texas_a&m_aggies.md",
+      "social_assets": {
+        "x_model_graphic": "arizona_state_sun_devils_at_texas_a&m_aggies_x_model.png",
+        "x_stats_graphic": "arizona_state_sun_devils_at_texas_a&m_aggies_x_stats.png",
+        "x_caption": "arizona_state_sun_devils_at_texas_a&m_aggies_x_caption.txt"
+      },
       "html_path": "arizona_state_sun_devils_at_texas_a&m_aggies.html",
       "source_audit_path": "arizona_state_sun_devils_at_texas_a&m_aggies.sources.json"
     },
@@ -172,6 +187,11 @@
         "model_context": {}
       },
       "article_path": "arizona_wildcats_at_byu_cougars.md",
+      "social_assets": {
+        "x_model_graphic": "arizona_wildcats_at_byu_cougars_x_model.png",
+        "x_stats_graphic": "arizona_wildcats_at_byu_cougars_x_stats.png",
+        "x_caption": "arizona_wildcats_at_byu_cougars_x_caption.txt"
+      },
       "html_path": "arizona_wildcats_at_byu_cougars.html",
       "source_audit_path": "arizona_wildcats_at_byu_cougars.sources.json"
     },
@@ -196,10 +216,10 @@
       "model_prediction": -15.5,
       "market_line": -12.5,
       "best_line": -12.5,
-      "best_price": "-110",
-      "best_book": "FanDuel",
+      "best_price": "-108",
+      "best_book": "BetMGM",
       "cover_probability": 0.53430714,
-      "edge": 0.0104976161904761,
+      "edge": 0.0150763707692307,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -215,6 +235,11 @@
         "model_context": {}
       },
       "article_path": "arkansas_razorbacks_at_utah_utes.md",
+      "social_assets": {
+        "x_model_graphic": "arkansas_razorbacks_at_utah_utes_x_model.png",
+        "x_stats_graphic": "arkansas_razorbacks_at_utah_utes_x_stats.png",
+        "x_caption": "arkansas_razorbacks_at_utah_utes_x_caption.txt"
+      },
       "html_path": "arkansas_razorbacks_at_utah_utes.html",
       "source_audit_path": "arkansas_razorbacks_at_utah_utes.sources.json"
     },
@@ -258,6 +283,11 @@
         "model_context": {}
       },
       "article_path": "bowling_green_falcons_at_nebraska_cornhuskers.md",
+      "social_assets": {
+        "x_model_graphic": "bowling_green_falcons_at_nebraska_cornhuskers_x_model.png",
+        "x_stats_graphic": "bowling_green_falcons_at_nebraska_cornhuskers_x_stats.png",
+        "x_caption": "bowling_green_falcons_at_nebraska_cornhuskers_x_caption.txt"
+      },
       "html_path": "bowling_green_falcons_at_nebraska_cornhuskers.html",
       "source_audit_path": "bowling_green_falcons_at_nebraska_cornhuskers.sources.json"
     },
@@ -301,6 +331,11 @@
         "model_context": {}
       },
       "article_path": "buffalo_bulls_at_florida_international_panthers.md",
+      "social_assets": {
+        "x_model_graphic": "buffalo_bulls_at_florida_international_panthers_x_model.png",
+        "x_stats_graphic": "buffalo_bulls_at_florida_international_panthers_x_stats.png",
+        "x_caption": "buffalo_bulls_at_florida_international_panthers_x_caption.txt"
+      },
       "html_path": "buffalo_bulls_at_florida_international_panthers.html",
       "source_audit_path": "buffalo_bulls_at_florida_international_panthers.sources.json"
     },
@@ -325,15 +360,15 @@
       "model_prediction": -9.5,
       "market_line": -3.5,
       "best_line": -3.5,
-      "best_price": "-102",
-      "best_book": "FanDuel",
+      "best_price": "-105",
+      "best_book": "DraftKings",
       "cover_probability": 0.5827754,
-      "edge": 0.0778249049504951,
+      "edge": 0.0705802780487805,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": true,
-        "narrative": "For us, the case is less about Syracuse\u2019s opening score and more about the ways its offense can attack this matchup. Syracuse produced 238 rushing yards and 275 passing yards against New Hampshire, while California allowed 277 yards on the ground against UCLA. Those are one-game samples, not proof of what comes next, but they suggest Syracuse may have a viable path without leaning entirely on the part of the matchup our numbers like least.\n\nThat concern is Syracuse\u2019s passing offense against a California pass defense our efficiency ratings view favorably. Still, Steve Angeli returned with 263 passing yards, Syracuse\u2019s offensive line earned an 87.0 PFF pass-blocking grade, and 10 players caught a pass. We see that distribution and protection as useful context, even if the opponent becomes considerably more demanding.\n\nThe other side helps explain our position. California\u2019s offense rates poorly in creating scoring opportunities, while Syracuse opened with five sacks and three takeaways. We are not projecting another turnover-heavy performance simply because it happened once, but Syracuse has a plausible pressure-based path to creating separation. The passing matchup is the primary concern; the broader offensive balance and defensive disruption are why our view remains more favorable to Syracuse than the market\u2019s.",
-        "matchup_to_watch": "We are watching Syracuse\u2019s passing game against California\u2019s pass defense. This is the clearest challenge to our position: our numbers give California a substantial efficiency advantage in that phase. Angeli\u2019s return and Syracuse\u2019s opening-week pass protection were encouraging, but the question is whether that holds against a stronger pass-defense profile.\n\nSyracuse does not need the passing game to dominate for our case to work. We think it needs enough efficiency to keep California from loading the game onto Syracuse\u2019s rushing attack and turning drives into difficult third-down situations.",
+        "narrative": "For us, the case is less about reacting to Syracuse\u2019s opening result and more about the paths available in this matchup. Syracuse produced 238 rushing yards and 275 passing yards without a turnover, while California allowed 277 yards on the ground against UCLA. One game does not establish either unit\u2019s true level, but those performances illustrate why our numbers are more favorable to Syracuse than the market is.\n\nSyracuse also showed useful backfield depth. Shavane Anderson Jr. rushed for 102 yards and three touchdowns, while Tylik Hill added 91 yards and a score. Ahmad Miller and Ju\u2019Juan Johnson are expected to join the rotation after missing the opener. We think that depth can help Syracuse stay balanced rather than repeatedly challenging a California pass defense that rates as the more difficult side of this matchup.\n\nThe meaningful concern is whether Syracuse can create enough through the air when California forces passing situations. California\u2019s opener still showed offensive capability, with Jaron-Keawe Sagapolutele throwing for 271 yards and two touchdowns, so Syracuse may need sustained scoring rather than simply controlling possession. We see the defensive front as part of the answer: Syracuse recorded five sacks in its opener, including 2.5 from Keyshawn Johnson. Our position is supported by Syracuse\u2019s ability to run efficiently and generate negative plays, not by the opening-week score alone.",
+        "matchup_to_watch": "We are watching Syracuse\u2019s offensive line against California\u2019s defensive front. Syracuse\u2019s line earned an 87.0 pass-blocking grade in the opener, but the larger issue is whether it can keep the offense out of obvious passing downs. That matters because California\u2019s pass defense is the clearest matchup challenge for Syracuse. If the running game consistently creates manageable situations, Syracuse can dictate how often it has to attack that strength.",
         "guide_status": [
           "No guide found for California Golden Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
           "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
@@ -344,7 +379,7 @@
             "source_team": "Syracuse Orange",
             "opponent": "California Golden Bears",
             "document_matches_upcoming_game": true,
-            "document_match_reason": "The guide is Syracuse's 2026 Week 2 game notes for its Sept. 12 home matchup against California, with the cover, schedule and matchup section identifying California as the upcoming opponent.",
+            "document_match_reason": "The guide identifies California at Syracuse as Game 2 on Sept. 12, 2026 and includes a California matchup section, current records, opponent statistics and projected depth charts.",
             "recent_game": [
               {
                 "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire.",
@@ -353,19 +388,25 @@
                 "importance": "high"
               },
               {
-                "fact": "Syracuse scored 41 first-half points and finished with 238 rushing yards and 275 passing yards against New Hampshire.",
-                "page": 1,
-                "category": "recent_game",
-                "importance": "high"
-              },
-              {
-                "fact": "Syracuse held New Hampshire to 159 total yards and recorded five sacks, nine tackles for loss and three takeaways.",
+                "fact": "Syracuse scored 41 first-half points, finished with 238 rushing yards and 275 passing yards, and did not commit a turnover against New Hampshire.",
                 "page": 4,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse committed 12 penalties for 125 yards in the opener.",
+                "fact": "Ten Syracuse players recorded a reception, and five different players scored a rushing or receiving touchdown against New Hampshire.",
+                "page": 1,
+                "category": "recent_game",
+                "importance": "medium"
+              },
+              {
+                "fact": "Syracuse allowed 159 total yards and three points while recording five sacks and nine tackles for loss against New Hampshire.",
+                "page": 7,
+                "category": "recent_game",
+                "importance": "high"
+              },
+              {
+                "fact": "Syracuse was penalized 12 times for 125 yards in the opener.",
                 "page": 4,
                 "category": "recent_game",
                 "importance": "medium"
@@ -373,7 +414,7 @@
             ],
             "opponent_notes": [
               {
-                "fact": "California opened the season with a 45-24 home loss to UCLA.",
+                "fact": "California opened the season with a 45-24 home loss to UCLA, its first season-opening loss since 2021.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "high"
@@ -391,15 +432,21 @@
                 "importance": "high"
               },
               {
-                "fact": "California is 6-10 in ACC play since joining the conference before the 2024 season.",
+                "fact": "California receiver I. Strong had five receptions for 94 yards, including a 49-yard catch, against UCLA.",
                 "page": 3,
                 "category": "opponent_notes",
-                "importance": "low"
+                "importance": "medium"
+              },
+              {
+                "fact": "California enters the matchup 0-1 and will be playing its first road game under head coach Tosh Lupoi.",
+                "page": 3,
+                "category": "opponent_notes",
+                "importance": "medium"
               }
             ],
             "quarterback": [
               {
-                "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
+                "fact": "Steve Angeli returned from the season-ending injury he suffered against Clemson in 2025 and passed for 263 yards against New Hampshire.",
                 "page": 5,
                 "category": "quarterback",
                 "importance": "high"
@@ -417,7 +464,7 @@
                 "importance": "medium"
               },
               {
-                "fact": "California quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions against UCLA.",
+                "fact": "California quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in the opener.",
                 "page": 3,
                 "category": "quarterback",
                 "importance": "high"
@@ -431,20 +478,32 @@
             ],
             "offensive_personnel": [
               {
-                "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut.",
+                "fact": "True freshman Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
                 "page": 5,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Running back Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
+                "fact": "Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
                 "page": 19,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns in the opener.",
+                "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire but are expected to make their Syracuse debuts against California.",
                 "page": 5,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Miller led the SWAC with 1,054 rushing yards and scored nine touchdowns for Jackson State in 2025.",
+                "page": 5,
+                "category": "offensive_personnel",
+                "importance": "medium"
+              },
+              {
+                "fact": "Wide receiver Umari Hatcher returned after missing the 2025 season due to injury and set career highs with eight receptions, 147 yards and two touchdowns against New Hampshire.",
+                "page": 18,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
@@ -455,31 +514,25 @@
                 "importance": "medium"
               },
               {
-                "fact": "Transfer wide receiver Cole Weaver caught three passes for 32 yards in his Syracuse debut.",
-                "page": 18,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "Syracuse's projected starting offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
+                "fact": "Syracuse's projected offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
                 "page": 14,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "The Syracuse offensive line received an 87.0 PFF pass-blocking grade in the opener, second best among ACC teams through Saturday's games.",
+                "fact": "Syracuse's offensive line earned an 87.0 PFF pass-blocking grade in the opener, second-best among ACC teams through Saturday's games.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Center Joe Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
+                "fact": "Joe Cruz has appeared in 38 games with 17 starts, started the opener at center and has allowed one sack in 657 pass-blocking opportunities according to PFF.",
                 "page": 6,
                 "category": "offensive_personnel",
-                "importance": "medium"
+                "importance": "high"
               },
               {
-                "fact": "Oluwafunto Akinshilo made his first career start at guard against New Hampshire, while right tackle Kam Pringle allowed one pressure.",
+                "fact": "Oluwafunto Akinshilo, a 2026 transfer, made his first career start at guard against New Hampshire.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "medium"
@@ -505,45 +558,45 @@
                 "importance": "high"
               },
               {
-                "fact": "Defensive lineman Rashard Perry recorded three tackles and his first career interception against New Hampshire.",
-                "page": 20,
+                "fact": "Transfer defensive lineman Jartavius Flounoy recorded four tackles, half a tackle for loss and a forced fumble in his Syracuse debut.",
+                "page": 7,
                 "category": "defensive_personnel",
                 "importance": "medium"
+              },
+              {
+                "fact": "Defensive lineman Rashard Perry returned after a season-ending 2025 injury and recorded three tackles and his first career interception against New Hampshire.",
+                "page": 20,
+                "category": "defensive_personnel",
+                "importance": "high"
               },
               {
                 "fact": "Cornerback Chris Peal allowed 14 receiving yards when targeted and led Syracuse with four solo tackles against New Hampshire, according to PFF.",
                 "page": 7,
                 "category": "defensive_personnel",
                 "importance": "medium"
-              },
-              {
-                "fact": "Syracuse's projected secondary starters are Demetres Samuel Jr. and Chris Peal at cornerback, Davien Kerr at nickel, Cornell Perry at strong safety and Braheem Long Jr. at free safety.",
-                "page": 14,
-                "category": "defensive_personnel",
-                "importance": "medium"
               }
             ],
             "coaching_changes": [
               {
-                "fact": "Vince Kehres is in his first season as Syracuse's defensive coordinator.",
-                "page": 13,
+                "fact": "Vince Kehres is in his first season as Syracuse's defensive coordinator; his defense allowed three points and 159 total yards in its debut.",
+                "page": 7,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "California hired alumnus Tosh Lupoi as head coach before the 2026 season; the Syracuse game will be his first road game as a head coach.",
+                "fact": "California hired alumnus Tosh Lupoi as head coach before the 2026 season.",
                 "page": 3,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "California's play callers are all in their first season with the program: offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown.",
+                "fact": "California's primary play-callers are all in their first season with the program: offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown.",
                 "page": 3,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "Jeff Nixon is Syracuse's offensive coordinator and calls plays from the booth.",
+                "fact": "Jeff Nixon remains Syracuse's offensive coordinator and calls plays from the booth.",
                 "page": 13,
                 "category": "coaching_changes",
                 "importance": "medium"
@@ -551,13 +604,13 @@
             ],
             "injury_availability": [
               {
-                "fact": "Steve Angeli returned against New Hampshire after sustaining a season-ending injury in the fourth game of the 2025 season.",
+                "fact": "Steve Angeli played in the opener after a season-ending injury in the fourth game of the 2025 season.",
                 "page": 18,
                 "category": "injury_availability",
                 "importance": "high"
               },
               {
-                "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire but are expected to make their Syracuse debuts against California.",
+                "fact": "Ahmad Miller and Ju'Juan Johnson are expected to play against California after missing the New Hampshire game.",
                 "page": 5,
                 "category": "injury_availability",
                 "importance": "high"
@@ -569,61 +622,61 @@
                 "importance": "medium"
               },
               {
-                "fact": "Umari Hatcher returned for 2026 after missing the 2025 season because of injury.",
+                "fact": "Umari Hatcher played against New Hampshire after missing the entire 2025 season due to injury.",
                 "page": 18,
                 "category": "injury_availability",
-                "importance": "medium"
+                "importance": "high"
               }
             ],
             "offensive_context": [
               {
-                "fact": "Ten Syracuse players recorded a reception against New Hampshire, tied for the second-most among ACC teams in Week 1.",
-                "page": 6,
-                "category": "offensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Five different Syracuse players scored a rushing or receiving touchdown in the opener, including four players who scored their first collegiate touchdown.",
-                "page": 1,
-                "category": "offensive_context",
-                "importance": "medium"
-              },
-              {
-                "fact": "Syracuse converted 66.7 percent of its third downs and produced 32 first downs against New Hampshire.",
+                "fact": "Syracuse converted 66.7 percent of its third downs and produced 32 first downs in the opener.",
                 "page": 4,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse quarterbacks have passed for at least 250 yards in 18 consecutive games with Jeff Nixon's Week 1 starting quarterback; Syracuse is 14-4 and averages 471.4 total yards and 36.8 points during that span.",
+                "fact": "In 18 consecutive games with Jeff Nixon's Week 1 starting quarterback available, Syracuse quarterbacks have passed for at least 250 yards; Syracuse is 14-4 and averages 471.4 yards and 36.8 points during that span.",
                 "page": 5,
                 "category": "offensive_context",
                 "importance": "medium"
+              },
+              {
+                "fact": "Syracuse had 10 different players catch a pass against New Hampshire, tied for second-most in the ACC during Week 1.",
+                "page": 6,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "California surrendered 277 rushing yards in its opener, while Syracuse rushed for 238 yards and four touchdowns in its opener.",
+                "page": 3,
+                "category": "offensive_context",
+                "importance": "high"
               }
             ],
             "defensive_context": [
               {
-                "fact": "Syracuse allowed three points and no touchdowns in its first game under defensive coordinator Vince Kehres.",
+                "fact": "Syracuse did not allow a touchdown against New Hampshire and was one of four ACC teams to avoid allowing a touchdown in Week 1.",
                 "page": 7,
                 "category": "defensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Twenty-four Syracuse players recorded a tackle against New Hampshire, and nine players contributed at least half a tackle for loss.",
+                "fact": "Syracuse forced three turnovers against New Hampshire: two fumble recoveries and one interception.",
+                "page": 4,
+                "category": "defensive_context",
+                "importance": "high"
+              },
+              {
+                "fact": "Twenty-four Syracuse players recorded a tackle against New Hampshire, including nine players with at least half a tackle for loss.",
                 "page": 7,
                 "category": "defensive_context",
                 "importance": "medium"
-              },
-              {
-                "fact": "Syracuse held New Hampshire to 60 rushing yards and 99 passing yards.",
-                "page": 3,
-                "category": "defensive_context",
-                "importance": "high"
               }
             ],
             "special_teams": [
               {
-                "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety; he also returned two punts for 50 yards.",
+                "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety, and he added 50 yards on two punt returns.",
                 "page": 8,
                 "category": "special_teams",
                 "importance": "high"
@@ -635,13 +688,13 @@
                 "importance": "high"
               },
               {
-                "fact": "Kicker Tripp Woody made a 34-yard field goal in the opener and is 11-for-11 on career field-goal attempts inside 40 yards.",
+                "fact": "Kicker Tripp Woody made a 34-yard field goal in the opener and is 11-for-11 in his career on attempts inside 40 yards.",
                 "page": 18,
                 "category": "special_teams",
                 "importance": "medium"
               },
               {
-                "fact": "Freshman Jimmy Gregg is Syracuse's projected starting punter and punted twice in his collegiate debut.",
+                "fact": "Freshman Jimmy Gregg made his first career start at punter and punted twice against New Hampshire.",
                 "page": 20,
                 "category": "special_teams",
                 "importance": "medium"
@@ -649,13 +702,13 @@
             ],
             "series_context": [
               {
-                "fact": "Syracuse leads the all-time series with California 2-1 and won the first meeting between the teams as ACC opponents, 33-25 at California in 2024.",
+                "fact": "Syracuse leads the all-time series with California 2-1 and won the teams' first meeting as ACC opponents, 33-25 at California in 2024.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "medium"
               },
               {
-                "fact": "This is California's first game in the JMA Wireless Dome and its first trip to Syracuse since 1967.",
+                "fact": "This is California's first game in the JMA Wireless Dome and its first visit to Syracuse since 1967.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "medium"
@@ -669,10 +722,10 @@
             ],
             "other_relevant": [
               {
-                "fact": "The Sept. 12 game is the ACC opener for both 1-0 Syracuse and 0-1 California.",
+                "fact": "The matchup is Syracuse's 2026 ACC opener; the Orange have won three of their last four conference openers.",
                 "page": 1,
                 "category": "other_relevant",
-                "importance": "high"
+                "importance": "medium"
               },
               {
                 "fact": "Five Syracuse players made their first FBS starts against New Hampshire, including first-time starters Tylik Hill, Jimmy Gregg and Nissi Ogbebor.",
@@ -722,16 +775,7 @@
         "used_sources": [
           {
             "fact_id": 2,
-            "fact": "Syracuse scored 41 first-half points and finished with 238 rushing yards and 275 passing yards against New Hampshire.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 3,
-            "fact": "Syracuse held New Hampshire to 159 total yards and recorded five sacks, nine tackles for loss and three takeaways.",
+            "fact": "Syracuse scored 41 first-half points, finished with 238 rushing yards and 275 passing yards, and did not commit a turnover against New Hampshire.",
             "page": 4,
             "category": "recent_game",
             "importance": "high",
@@ -739,7 +783,7 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 6,
+            "fact_id": 7,
             "fact": "California allowed 277 rushing yards and 184 passing yards against UCLA.",
             "page": 3,
             "category": "opponent_notes",
@@ -748,17 +792,44 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 9,
-            "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
-            "page": 5,
+            "fact_id": 14,
+            "fact": "California quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in the opener.",
+            "page": 3,
             "category": "quarterback",
             "importance": "high",
             "source_file": "Syracuse.pdf",
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 20,
-            "fact": "The Syracuse offensive line received an 87.0 PFF pass-blocking grade in the opener, second best among ACC teams through Saturday's games.",
+            "fact_id": 16,
+            "fact": "True freshman Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high",
+            "source_file": "Syracuse.pdf",
+            "source_team": "Syracuse Orange"
+          },
+          {
+            "fact_id": 17,
+            "fact": "Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high",
+            "source_file": "Syracuse.pdf",
+            "source_team": "Syracuse Orange"
+          },
+          {
+            "fact_id": 18,
+            "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire but are expected to make their Syracuse debuts against California.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high",
+            "source_file": "Syracuse.pdf",
+            "source_team": "Syracuse Orange"
+          },
+          {
+            "fact_id": 23,
+            "fact": "Syracuse's offensive line earned an 87.0 PFF pass-blocking grade in the opener, second-best among ACC teams through Saturday's games.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "high",
@@ -766,10 +837,10 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 37,
-            "fact": "Ten Syracuse players recorded a reception against New Hampshire, tied for the second-most among ACC teams in Week 1.",
-            "page": 6,
-            "category": "offensive_context",
+            "fact_id": 27,
+            "fact": "Transfer edge defender Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
+            "page": 7,
+            "category": "defensive_personnel",
             "importance": "high",
             "source_file": "Syracuse.pdf",
             "source_team": "Syracuse Orange"
@@ -783,13 +854,18 @@
           "model_prediction": -9.5,
           "market_line": -3.5,
           "best_available_line": -3.5,
-          "best_available_price": "-102",
+          "best_available_price": "-105",
           "cover_probability": 0.5827754,
-          "edge": 0.0778249049504951,
+          "edge": 0.0705802780487805,
           "bet_status": "BET"
         }
       },
       "article_path": "california_golden_bears_at_syracuse_orange.md",
+      "social_assets": {
+        "x_model_graphic": "california_golden_bears_at_syracuse_orange_x_model.png",
+        "x_stats_graphic": "california_golden_bears_at_syracuse_orange_x_stats.png",
+        "x_caption": "california_golden_bears_at_syracuse_orange_x_caption.txt"
+      },
       "html_path": "california_golden_bears_at_syracuse_orange.html",
       "source_audit_path": "california_golden_bears_at_syracuse_orange.sources.json"
     },
@@ -811,13 +887,13 @@
       "bet_short": "Charlotte",
       "opp_name": "Ole Miss Rebels",
       "opp_short": "Ole Miss",
-      "model_prediction": 41.5,
-      "market_line": 47.5,
+      "model_prediction": 41.0,
+      "market_line": 46.5,
       "best_line": 47.5,
       "best_price": "-108",
       "best_book": "BetMGM",
-      "cover_probability": 0.60270943,
-      "edge": 0.0834786607692307,
+      "cover_probability": 0.61093824,
+      "edge": 0.0917074707692306,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -833,6 +909,11 @@
         "model_context": {}
       },
       "article_path": "charlotte_49ers_at_ole_miss_rebels.md",
+      "social_assets": {
+        "x_model_graphic": "charlotte_49ers_at_ole_miss_rebels_x_model.png",
+        "x_stats_graphic": "charlotte_49ers_at_ole_miss_rebels_x_stats.png",
+        "x_caption": "charlotte_49ers_at_ole_miss_rebels_x_caption.txt"
+      },
       "html_path": "charlotte_49ers_at_ole_miss_rebels.html",
       "source_audit_path": "charlotte_49ers_at_ole_miss_rebels.sources.json"
     },
@@ -855,7 +936,7 @@
       "opp_name": "Delaware Blue Hens",
       "opp_short": "Delaware",
       "model_prediction": -22.5,
-      "market_line": -21.0,
+      "market_line": -20.5,
       "best_line": -21.5,
       "best_price": "-105",
       "best_book": "FanDuel",
@@ -876,6 +957,11 @@
         "model_context": {}
       },
       "article_path": "delaware_blue_hens_at_vanderbilt_commodores.md",
+      "social_assets": {
+        "x_model_graphic": "delaware_blue_hens_at_vanderbilt_commodores_x_model.png",
+        "x_stats_graphic": "delaware_blue_hens_at_vanderbilt_commodores_x_stats.png",
+        "x_caption": "delaware_blue_hens_at_vanderbilt_commodores_x_caption.txt"
+      },
       "html_path": "delaware_blue_hens_at_vanderbilt_commodores.html",
       "source_audit_path": "delaware_blue_hens_at_vanderbilt_commodores.sources.json"
     },
@@ -897,13 +983,13 @@
       "bet_short": "Illinois",
       "opp_name": "Duke Blue Devils",
       "opp_short": "Duke",
-      "model_prediction": -8.5,
-      "market_line": -6.0,
+      "model_prediction": -8.0,
+      "market_line": -5.5,
       "best_line": -5.5,
       "best_price": "-110",
-      "best_book": "Fanatics",
-      "cover_probability": 0.53558074,
-      "edge": 0.0117712161904761,
+      "best_book": "BetMGM",
+      "cover_probability": 0.52696488,
+      "edge": 0.0031553561904761,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -919,6 +1005,11 @@
         "model_context": {}
       },
       "article_path": "duke_blue_devils_at_illinois_fighting_illini.md",
+      "social_assets": {
+        "x_model_graphic": "duke_blue_devils_at_illinois_fighting_illini_x_model.png",
+        "x_stats_graphic": "duke_blue_devils_at_illinois_fighting_illini_x_stats.png",
+        "x_caption": "duke_blue_devils_at_illinois_fighting_illini_x_caption.txt"
+      },
       "html_path": "duke_blue_devils_at_illinois_fighting_illini.html",
       "source_audit_path": "duke_blue_devils_at_illinois_fighting_illini.sources.json"
     },
@@ -962,6 +1053,11 @@
         "model_context": {}
       },
       "article_path": "eastern_michigan_eagles_at_michigan_state_spartans.md",
+      "social_assets": {
+        "x_model_graphic": "eastern_michigan_eagles_at_michigan_state_spartans_x_model.png",
+        "x_stats_graphic": "eastern_michigan_eagles_at_michigan_state_spartans_x_stats.png",
+        "x_caption": "eastern_michigan_eagles_at_michigan_state_spartans_x_caption.txt"
+      },
       "html_path": "eastern_michigan_eagles_at_michigan_state_spartans.html",
       "source_audit_path": "eastern_michigan_eagles_at_michigan_state_spartans.sources.json"
     },
@@ -1005,6 +1101,11 @@
         "model_context": {}
       },
       "article_path": "georgia_southern_eagles_at_clemson_tigers.md",
+      "social_assets": {
+        "x_model_graphic": "georgia_southern_eagles_at_clemson_tigers_x_model.png",
+        "x_stats_graphic": "georgia_southern_eagles_at_clemson_tigers_x_stats.png",
+        "x_caption": "georgia_southern_eagles_at_clemson_tigers_x_caption.txt"
+      },
       "html_path": "georgia_southern_eagles_at_clemson_tigers.html",
       "source_audit_path": "georgia_southern_eagles_at_clemson_tigers.sources.json"
     },
@@ -1026,13 +1127,13 @@
       "bet_short": "Georgia State",
       "opp_name": "Kennesaw State Owls",
       "opp_short": "Kennesaw State",
-      "model_prediction": 9.5,
+      "model_prediction": 9.0,
       "market_line": 8.5,
-      "best_line": 9.5,
-      "best_price": "-110",
-      "best_book": "Fanatics",
-      "cover_probability": 0.52674771,
-      "edge": 0.0029381861904761,
+      "best_line": 7.5,
+      "best_price": "-105",
+      "best_book": "DraftKings",
+      "cover_probability": 0.50696508,
+      "edge": -0.0052300419512195,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1048,6 +1149,11 @@
         "model_context": {}
       },
       "article_path": "georgia_state_panthers_at_kennesaw_state_owls.md",
+      "social_assets": {
+        "x_model_graphic": "georgia_state_panthers_at_kennesaw_state_owls_x_model.png",
+        "x_stats_graphic": "georgia_state_panthers_at_kennesaw_state_owls_x_stats.png",
+        "x_caption": "georgia_state_panthers_at_kennesaw_state_owls_x_caption.txt"
+      },
       "html_path": "georgia_state_panthers_at_kennesaw_state_owls.html",
       "source_audit_path": "georgia_state_panthers_at_kennesaw_state_owls.sources.json"
     },
@@ -1091,6 +1197,11 @@
         "model_context": {}
       },
       "article_path": "iowa_state_cyclones_at_iowa_hawkeyes.md",
+      "social_assets": {
+        "x_model_graphic": "iowa_state_cyclones_at_iowa_hawkeyes_x_model.png",
+        "x_stats_graphic": "iowa_state_cyclones_at_iowa_hawkeyes_x_stats.png",
+        "x_caption": "iowa_state_cyclones_at_iowa_hawkeyes_x_caption.txt"
+      },
       "html_path": "iowa_state_cyclones_at_iowa_hawkeyes.html",
       "source_audit_path": "iowa_state_cyclones_at_iowa_hawkeyes.sources.json"
     },
@@ -1134,6 +1245,11 @@
         "model_context": {}
       },
       "article_path": "jacksonville_state_gamecocks_at_ohio_bobcats.md",
+      "social_assets": {
+        "x_model_graphic": "jacksonville_state_gamecocks_at_ohio_bobcats_x_model.png",
+        "x_stats_graphic": "jacksonville_state_gamecocks_at_ohio_bobcats_x_stats.png",
+        "x_caption": "jacksonville_state_gamecocks_at_ohio_bobcats_x_caption.txt"
+      },
       "html_path": "jacksonville_state_gamecocks_at_ohio_bobcats.html",
       "source_audit_path": "jacksonville_state_gamecocks_at_ohio_bobcats.sources.json"
     },
@@ -1157,11 +1273,11 @@
       "opp_short": "Louisiana",
       "model_prediction": -32.0,
       "market_line": -30.5,
-      "best_line": -30.5,
-      "best_price": "-110",
-      "best_book": "BetMGM",
-      "cover_probability": 0.51732391,
-      "edge": -0.0064856138095238,
+      "best_line": -31.5,
+      "best_price": "-104",
+      "best_book": "FanDuel",
+      "cover_probability": 0.5009256,
+      "edge": -0.0088783215686274,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1177,6 +1293,11 @@
         "model_context": {}
       },
       "article_path": "louisiana_ragin_cajuns_at_usc_trojans.md",
+      "social_assets": {
+        "x_model_graphic": "louisiana_ragin_cajuns_at_usc_trojans_x_model.png",
+        "x_stats_graphic": "louisiana_ragin_cajuns_at_usc_trojans_x_stats.png",
+        "x_caption": "louisiana_ragin_cajuns_at_usc_trojans_x_caption.txt"
+      },
       "html_path": "louisiana_ragin_cajuns_at_usc_trojans.html",
       "source_audit_path": "louisiana_ragin_cajuns_at_usc_trojans.sources.json"
     },
@@ -1220,6 +1341,11 @@
         "model_context": {}
       },
       "article_path": "louisiana_tech_bulldogs_at_lsu_tigers.md",
+      "social_assets": {
+        "x_model_graphic": "louisiana_tech_bulldogs_at_lsu_tigers_x_model.png",
+        "x_stats_graphic": "louisiana_tech_bulldogs_at_lsu_tigers_x_stats.png",
+        "x_caption": "louisiana_tech_bulldogs_at_lsu_tigers_x_caption.txt"
+      },
       "html_path": "louisiana_tech_bulldogs_at_lsu_tigers.html",
       "source_audit_path": "louisiana_tech_bulldogs_at_lsu_tigers.sources.json"
     },
@@ -1241,13 +1367,13 @@
       "bet_short": "Connecticut",
       "opp_name": "Maryland Terrapins",
       "opp_short": "Maryland",
-      "model_prediction": 6.5,
-      "market_line": 12.5,
+      "model_prediction": 6.0,
+      "market_line": 12.0,
       "best_line": 12.5,
-      "best_price": "-105",
-      "best_book": "DraftKings",
-      "cover_probability": 0.62663652,
-      "edge": 0.1144413980487805,
+      "best_price": "-110",
+      "best_book": "FanDuel",
+      "cover_probability": 0.63492165,
+      "edge": 0.1111121261904761,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -1263,6 +1389,11 @@
         "model_context": {}
       },
       "article_path": "maryland_terrapins_at_uconn_huskies.md",
+      "social_assets": {
+        "x_model_graphic": "maryland_terrapins_at_uconn_huskies_x_model.png",
+        "x_stats_graphic": "maryland_terrapins_at_uconn_huskies_x_stats.png",
+        "x_caption": "maryland_terrapins_at_uconn_huskies_x_caption.txt"
+      },
       "html_path": "maryland_terrapins_at_uconn_huskies.html",
       "source_audit_path": "maryland_terrapins_at_uconn_huskies.sources.json"
     },
@@ -1306,6 +1437,11 @@
         "model_context": {}
       },
       "article_path": "memphis_tigers_at_boise_state_broncos.md",
+      "social_assets": {
+        "x_model_graphic": "memphis_tigers_at_boise_state_broncos_x_model.png",
+        "x_stats_graphic": "memphis_tigers_at_boise_state_broncos_x_stats.png",
+        "x_caption": "memphis_tigers_at_boise_state_broncos_x_caption.txt"
+      },
       "html_path": "memphis_tigers_at_boise_state_broncos.html",
       "source_audit_path": "memphis_tigers_at_boise_state_broncos.sources.json"
     },
@@ -1349,6 +1485,11 @@
         "model_context": {}
       },
       "article_path": "middle_tennessee_blue_raiders_at_marshall_thundering_herd.md",
+      "social_assets": {
+        "x_model_graphic": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_x_model.png",
+        "x_stats_graphic": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_x_stats.png",
+        "x_caption": "middle_tennessee_blue_raiders_at_marshall_thundering_herd_x_caption.txt"
+      },
       "html_path": "middle_tennessee_blue_raiders_at_marshall_thundering_herd.html",
       "source_audit_path": "middle_tennessee_blue_raiders_at_marshall_thundering_herd.sources.json"
     },
@@ -1392,6 +1533,11 @@
         "model_context": {}
       },
       "article_path": "mississippi_state_bulldogs_at_minnesota_golden_gophers.md",
+      "social_assets": {
+        "x_model_graphic": "mississippi_state_bulldogs_at_minnesota_golden_gophers_x_model.png",
+        "x_stats_graphic": "mississippi_state_bulldogs_at_minnesota_golden_gophers_x_stats.png",
+        "x_caption": "mississippi_state_bulldogs_at_minnesota_golden_gophers_x_caption.txt"
+      },
       "html_path": "mississippi_state_bulldogs_at_minnesota_golden_gophers.html",
       "source_audit_path": "mississippi_state_bulldogs_at_minnesota_golden_gophers.sources.json"
     },
@@ -1417,7 +1563,7 @@
       "market_line": 5.5,
       "best_line": 5.5,
       "best_price": "-110",
-      "best_book": "DraftKings",
+      "best_book": "Fanatics",
       "cover_probability": 0.57347689,
       "edge": 0.0496673661904761,
       "has_bet": true,
@@ -1435,6 +1581,11 @@
         "model_context": {}
       },
       "article_path": "missouri_tigers_at_kansas_jayhawks.md",
+      "social_assets": {
+        "x_model_graphic": "missouri_tigers_at_kansas_jayhawks_x_model.png",
+        "x_stats_graphic": "missouri_tigers_at_kansas_jayhawks_x_stats.png",
+        "x_caption": "missouri_tigers_at_kansas_jayhawks_x_caption.txt"
+      },
       "html_path": "missouri_tigers_at_kansas_jayhawks.html",
       "source_audit_path": "missouri_tigers_at_kansas_jayhawks.sources.json"
     },
@@ -1478,6 +1629,11 @@
         "model_context": {}
       },
       "article_path": "navy_midshipmen_at_florida_atlantic_owls.md",
+      "social_assets": {
+        "x_model_graphic": "navy_midshipmen_at_florida_atlantic_owls_x_model.png",
+        "x_stats_graphic": "navy_midshipmen_at_florida_atlantic_owls_x_stats.png",
+        "x_caption": "navy_midshipmen_at_florida_atlantic_owls_x_caption.txt"
+      },
       "html_path": "navy_midshipmen_at_florida_atlantic_owls.html",
       "source_audit_path": "navy_midshipmen_at_florida_atlantic_owls.sources.json"
     },
@@ -1521,6 +1677,11 @@
         "model_context": {}
       },
       "article_path": "new_mexico_state_aggies_at_hawaii_rainbow_warriors.md",
+      "social_assets": {
+        "x_model_graphic": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_x_model.png",
+        "x_stats_graphic": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_x_stats.png",
+        "x_caption": "new_mexico_state_aggies_at_hawaii_rainbow_warriors_x_caption.txt"
+      },
       "html_path": "new_mexico_state_aggies_at_hawaii_rainbow_warriors.html",
       "source_audit_path": "new_mexico_state_aggies_at_hawaii_rainbow_warriors.sources.json"
     },
@@ -1542,13 +1703,13 @@
       "bet_short": "Air Force",
       "opp_name": "North Dakota State",
       "opp_short": "North Dakota State",
-      "model_prediction": -1.0,
-      "market_line": 2.5,
+      "model_prediction": -1.5,
+      "market_line": 1.5,
       "best_line": 2.5,
       "best_price": "-109",
       "best_book": "BetRivers",
-      "cover_probability": 0.56154278,
-      "edge": 0.0400116795215311,
+      "cover_probability": 0.5713084,
+      "edge": 0.0497772995215312,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -1564,6 +1725,11 @@
         "model_context": {}
       },
       "article_path": "north_dakota_state_at_air_force_falcons.md",
+      "social_assets": {
+        "x_model_graphic": "north_dakota_state_at_air_force_falcons_x_model.png",
+        "x_stats_graphic": "north_dakota_state_at_air_force_falcons_x_stats.png",
+        "x_caption": "north_dakota_state_at_air_force_falcons_x_caption.txt"
+      },
       "html_path": "north_dakota_state_at_air_force_falcons.html",
       "source_audit_path": "north_dakota_state_at_air_force_falcons.sources.json"
     },
@@ -1607,6 +1773,11 @@
         "model_context": {}
       },
       "article_path": "ohio_state_buckeyes_at_texas_longhorns.md",
+      "social_assets": {
+        "x_model_graphic": "ohio_state_buckeyes_at_texas_longhorns_x_model.png",
+        "x_stats_graphic": "ohio_state_buckeyes_at_texas_longhorns_x_stats.png",
+        "x_caption": "ohio_state_buckeyes_at_texas_longhorns_x_caption.txt"
+      },
       "html_path": "ohio_state_buckeyes_at_texas_longhorns.html",
       "source_audit_path": "ohio_state_buckeyes_at_texas_longhorns.sources.json"
     },
@@ -1650,6 +1821,11 @@
         "model_context": {}
       },
       "article_path": "oklahoma_sooners_at_michigan_wolverines.md",
+      "social_assets": {
+        "x_model_graphic": "oklahoma_sooners_at_michigan_wolverines_x_model.png",
+        "x_stats_graphic": "oklahoma_sooners_at_michigan_wolverines_x_stats.png",
+        "x_caption": "oklahoma_sooners_at_michigan_wolverines_x_caption.txt"
+      },
       "html_path": "oklahoma_sooners_at_michigan_wolverines.html",
       "source_audit_path": "oklahoma_sooners_at_michigan_wolverines.sources.json"
     },
@@ -1693,6 +1869,11 @@
         "model_context": {}
       },
       "article_path": "old_dominion_monarchs_at_virginia_tech_hokies.md",
+      "social_assets": {
+        "x_model_graphic": "old_dominion_monarchs_at_virginia_tech_hokies_x_model.png",
+        "x_stats_graphic": "old_dominion_monarchs_at_virginia_tech_hokies_x_stats.png",
+        "x_caption": "old_dominion_monarchs_at_virginia_tech_hokies_x_caption.txt"
+      },
       "html_path": "old_dominion_monarchs_at_virginia_tech_hokies.html",
       "source_audit_path": "old_dominion_monarchs_at_virginia_tech_hokies.sources.json"
     },
@@ -1715,12 +1896,12 @@
       "opp_name": "Oklahoma State Cowboys",
       "opp_short": "Oklahoma State",
       "model_prediction": -24.0,
-      "market_line": -23.5,
-      "best_line": -22.5,
-      "best_price": "-113",
-      "best_book": "BetRivers",
-      "cover_probability": 0.5164807,
-      "edge": -0.0140357319248826,
+      "market_line": -23.0,
+      "best_line": -23.5,
+      "best_price": "-108",
+      "best_book": "FanDuel",
+      "cover_probability": 0.50037636,
+      "edge": -0.0188544092307693,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1736,6 +1917,11 @@
         "model_context": {}
       },
       "article_path": "oregon_ducks_at_oklahoma_state_cowboys.md",
+      "social_assets": {
+        "x_model_graphic": "oregon_ducks_at_oklahoma_state_cowboys_x_model.png",
+        "x_stats_graphic": "oregon_ducks_at_oklahoma_state_cowboys_x_stats.png",
+        "x_caption": "oregon_ducks_at_oklahoma_state_cowboys_x_caption.txt"
+      },
       "html_path": "oregon_ducks_at_oklahoma_state_cowboys.html",
       "source_audit_path": "oregon_ducks_at_oklahoma_state_cowboys.sources.json"
     },
@@ -1779,6 +1965,11 @@
         "model_context": {}
       },
       "article_path": "penn_state_nittany_lions_at_temple_owls.md",
+      "social_assets": {
+        "x_model_graphic": "penn_state_nittany_lions_at_temple_owls_x_model.png",
+        "x_stats_graphic": "penn_state_nittany_lions_at_temple_owls_x_stats.png",
+        "x_caption": "penn_state_nittany_lions_at_temple_owls_x_caption.txt"
+      },
       "html_path": "penn_state_nittany_lions_at_temple_owls.html",
       "source_audit_path": "penn_state_nittany_lions_at_temple_owls.sources.json"
     },
@@ -1804,7 +1995,7 @@
       "market_line": 44.5,
       "best_line": 44.5,
       "best_price": "-105",
-      "best_book": "Fanatics",
+      "best_book": "DraftKings",
       "cover_probability": 0.5196998,
       "edge": 0.0075046780487805,
       "has_bet": false,
@@ -1822,6 +2013,11 @@
         "model_context": {}
       },
       "article_path": "rice_owls_at_notre_dame_fighting_irish.md",
+      "social_assets": {
+        "x_model_graphic": "rice_owls_at_notre_dame_fighting_irish_x_model.png",
+        "x_stats_graphic": "rice_owls_at_notre_dame_fighting_irish_x_stats.png",
+        "x_caption": "rice_owls_at_notre_dame_fighting_irish_x_caption.txt"
+      },
       "html_path": "rice_owls_at_notre_dame_fighting_irish.html",
       "source_audit_path": "rice_owls_at_notre_dame_fighting_irish.sources.json"
     },
@@ -1865,6 +2061,11 @@
         "model_context": {}
       },
       "article_path": "rutgers_scarlet_knights_at_boston_college_eagles.md",
+      "social_assets": {
+        "x_model_graphic": "rutgers_scarlet_knights_at_boston_college_eagles_x_model.png",
+        "x_stats_graphic": "rutgers_scarlet_knights_at_boston_college_eagles_x_stats.png",
+        "x_caption": "rutgers_scarlet_knights_at_boston_college_eagles_x_caption.txt"
+      },
       "html_path": "rutgers_scarlet_knights_at_boston_college_eagles.html",
       "source_audit_path": "rutgers_scarlet_knights_at_boston_college_eagles.sources.json"
     },
@@ -1908,6 +2109,11 @@
         "model_context": {}
       },
       "article_path": "sacramento_state_at_fresno_state_bulldogs.md",
+      "social_assets": {
+        "x_model_graphic": "sacramento_state_at_fresno_state_bulldogs_x_model.png",
+        "x_stats_graphic": "sacramento_state_at_fresno_state_bulldogs_x_stats.png",
+        "x_caption": "sacramento_state_at_fresno_state_bulldogs_x_caption.txt"
+      },
       "html_path": "sacramento_state_at_fresno_state_bulldogs.html",
       "source_audit_path": "sacramento_state_at_fresno_state_bulldogs.sources.json"
     },
@@ -1951,6 +2157,11 @@
         "model_context": {}
       },
       "article_path": "san_diego_state_aztecs_at_ucla_bruins.md",
+      "social_assets": {
+        "x_model_graphic": "san_diego_state_aztecs_at_ucla_bruins_x_model.png",
+        "x_stats_graphic": "san_diego_state_aztecs_at_ucla_bruins_x_stats.png",
+        "x_caption": "san_diego_state_aztecs_at_ucla_bruins_x_caption.txt"
+      },
       "html_path": "san_diego_state_aztecs_at_ucla_bruins.html",
       "source_audit_path": "san_diego_state_aztecs_at_ucla_bruins.sources.json"
     },
@@ -1994,6 +2205,11 @@
         "model_context": {}
       },
       "article_path": "south_alabama_jaguars_at_tulane_green_wave.md",
+      "social_assets": {
+        "x_model_graphic": "south_alabama_jaguars_at_tulane_green_wave_x_model.png",
+        "x_stats_graphic": "south_alabama_jaguars_at_tulane_green_wave_x_stats.png",
+        "x_caption": "south_alabama_jaguars_at_tulane_green_wave_x_caption.txt"
+      },
       "html_path": "south_alabama_jaguars_at_tulane_green_wave.html",
       "source_audit_path": "south_alabama_jaguars_at_tulane_green_wave.sources.json"
     },
@@ -2037,6 +2253,11 @@
         "model_context": {}
       },
       "article_path": "south_florida_bulls_at_army_black_knights.md",
+      "social_assets": {
+        "x_model_graphic": "south_florida_bulls_at_army_black_knights_x_model.png",
+        "x_stats_graphic": "south_florida_bulls_at_army_black_knights_x_stats.png",
+        "x_caption": "south_florida_bulls_at_army_black_knights_x_caption.txt"
+      },
       "html_path": "south_florida_bulls_at_army_black_knights.html",
       "source_audit_path": "south_florida_bulls_at_army_black_knights.sources.json"
     },
@@ -2080,6 +2301,11 @@
         "model_context": {}
       },
       "article_path": "southern_mississippi_golden_eagles_at_auburn_tigers.md",
+      "social_assets": {
+        "x_model_graphic": "southern_mississippi_golden_eagles_at_auburn_tigers_x_model.png",
+        "x_stats_graphic": "southern_mississippi_golden_eagles_at_auburn_tigers_x_stats.png",
+        "x_caption": "southern_mississippi_golden_eagles_at_auburn_tigers_x_caption.txt"
+      },
       "html_path": "southern_mississippi_golden_eagles_at_auburn_tigers.html",
       "source_audit_path": "southern_mississippi_golden_eagles_at_auburn_tigers.sources.json"
     },
@@ -2101,13 +2327,13 @@
       "bet_short": "Georgia Tech",
       "opp_name": "Tennessee Volunteers",
       "opp_short": "Tennessee",
-      "model_prediction": 11.5,
+      "model_prediction": 12.0,
       "market_line": 11.5,
       "best_line": 12.5,
-      "best_price": "-113",
-      "best_book": "BetRivers",
-      "cover_probability": 0.54087966,
-      "edge": 0.0103632280751173,
+      "best_price": "-112",
+      "best_book": "DraftKings",
+      "cover_probability": 0.53209773,
+      "edge": 0.0037958432075472,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -2123,6 +2349,11 @@
         "model_context": {}
       },
       "article_path": "tennessee_volunteers_at_georgia_tech_yellow_jackets.md",
+      "social_assets": {
+        "x_model_graphic": "tennessee_volunteers_at_georgia_tech_yellow_jackets_x_model.png",
+        "x_stats_graphic": "tennessee_volunteers_at_georgia_tech_yellow_jackets_x_stats.png",
+        "x_caption": "tennessee_volunteers_at_georgia_tech_yellow_jackets_x_caption.txt"
+      },
       "html_path": "tennessee_volunteers_at_georgia_tech_yellow_jackets.html",
       "source_audit_path": "tennessee_volunteers_at_georgia_tech_yellow_jackets.sources.json"
     },
@@ -2147,10 +2378,10 @@
       "model_prediction": -27.5,
       "market_line": -26.5,
       "best_line": -25.5,
-      "best_price": "-112",
-      "best_book": "DraftKings",
+      "best_price": "-110",
+      "best_book": "BetMGM",
       "cover_probability": 0.52642141,
-      "edge": -0.0018804767924528,
+      "edge": 0.0026118861904761,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -2166,6 +2397,11 @@
         "model_context": {}
       },
       "article_path": "texas_tech_red_raiders_at_oregon_state_beavers.md",
+      "social_assets": {
+        "x_model_graphic": "texas_tech_red_raiders_at_oregon_state_beavers_x_model.png",
+        "x_stats_graphic": "texas_tech_red_raiders_at_oregon_state_beavers_x_stats.png",
+        "x_caption": "texas_tech_red_raiders_at_oregon_state_beavers_x_caption.txt"
+      },
       "html_path": "texas_tech_red_raiders_at_oregon_state_beavers.html",
       "source_audit_path": "texas_tech_red_raiders_at_oregon_state_beavers.sources.json"
     },
@@ -2190,10 +2426,10 @@
       "model_prediction": 9.5,
       "market_line": 13.5,
       "best_line": 13.5,
-      "best_price": "-110",
-      "best_book": "FanDuel",
+      "best_price": "-108",
+      "best_book": "BetMGM",
       "cover_probability": 0.5891264,
-      "edge": 0.0653168761904762,
+      "edge": 0.0698956307692307,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -2209,6 +2445,11 @@
         "model_context": {}
       },
       "article_path": "tulsa_golden_hurricane_at_sam_houston_state_bearkats.md",
+      "social_assets": {
+        "x_model_graphic": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_x_model.png",
+        "x_stats_graphic": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_x_stats.png",
+        "x_caption": "tulsa_golden_hurricane_at_sam_houston_state_bearkats_x_caption.txt"
+      },
       "html_path": "tulsa_golden_hurricane_at_sam_houston_state_bearkats.html",
       "source_audit_path": "tulsa_golden_hurricane_at_sam_houston_state_bearkats.sources.json"
     },
@@ -2252,6 +2493,11 @@
         "model_context": {}
       },
       "article_path": "ucf_knights_at_pittsburgh_panthers.md",
+      "social_assets": {
+        "x_model_graphic": "ucf_knights_at_pittsburgh_panthers_x_model.png",
+        "x_stats_graphic": "ucf_knights_at_pittsburgh_panthers_x_stats.png",
+        "x_caption": "ucf_knights_at_pittsburgh_panthers_x_caption.txt"
+      },
       "html_path": "ucf_knights_at_pittsburgh_panthers.html",
       "source_audit_path": "ucf_knights_at_pittsburgh_panthers.sources.json"
     },
@@ -2295,6 +2541,11 @@
         "model_context": {}
       },
       "article_path": "ul_monroe_warhawks_at_uab_blazers.md",
+      "social_assets": {
+        "x_model_graphic": "ul_monroe_warhawks_at_uab_blazers_x_model.png",
+        "x_stats_graphic": "ul_monroe_warhawks_at_uab_blazers_x_stats.png",
+        "x_caption": "ul_monroe_warhawks_at_uab_blazers_x_caption.txt"
+      },
       "html_path": "ul_monroe_warhawks_at_uab_blazers.html",
       "source_audit_path": "ul_monroe_warhawks_at_uab_blazers.sources.json"
     },
@@ -2338,6 +2589,11 @@
         "model_context": {}
       },
       "article_path": "unlv_rebels_at_north_texas_mean_green.md",
+      "social_assets": {
+        "x_model_graphic": "unlv_rebels_at_north_texas_mean_green_x_model.png",
+        "x_stats_graphic": "unlv_rebels_at_north_texas_mean_green_x_stats.png",
+        "x_caption": "unlv_rebels_at_north_texas_mean_green_x_caption.txt"
+      },
       "html_path": "unlv_rebels_at_north_texas_mean_green.html",
       "source_audit_path": "unlv_rebels_at_north_texas_mean_green.sources.json"
     },
@@ -2381,6 +2637,11 @@
         "model_context": {}
       },
       "article_path": "utsa_roadrunners_at_texas_state_bobcats.md",
+      "social_assets": {
+        "x_model_graphic": "utsa_roadrunners_at_texas_state_bobcats_x_model.png",
+        "x_stats_graphic": "utsa_roadrunners_at_texas_state_bobcats_x_stats.png",
+        "x_caption": "utsa_roadrunners_at_texas_state_bobcats_x_caption.txt"
+      },
       "html_path": "utsa_roadrunners_at_texas_state_bobcats.html",
       "source_audit_path": "utsa_roadrunners_at_texas_state_bobcats.sources.json"
     },
@@ -2424,6 +2685,11 @@
         "model_context": {}
       },
       "article_path": "utah_state_aggies_at_washington_huskies.md",
+      "social_assets": {
+        "x_model_graphic": "utah_state_aggies_at_washington_huskies_x_model.png",
+        "x_stats_graphic": "utah_state_aggies_at_washington_huskies_x_stats.png",
+        "x_caption": "utah_state_aggies_at_washington_huskies_x_caption.txt"
+      },
       "html_path": "utah_state_aggies_at_washington_huskies.html",
       "source_audit_path": "utah_state_aggies_at_washington_huskies.sources.json"
     },
@@ -2467,6 +2733,11 @@
         "model_context": {}
       },
       "article_path": "wake_forest_demon_deacons_at_purdue_boilermakers.md",
+      "social_assets": {
+        "x_model_graphic": "wake_forest_demon_deacons_at_purdue_boilermakers_x_model.png",
+        "x_stats_graphic": "wake_forest_demon_deacons_at_purdue_boilermakers_x_stats.png",
+        "x_caption": "wake_forest_demon_deacons_at_purdue_boilermakers_x_caption.txt"
+      },
       "html_path": "wake_forest_demon_deacons_at_purdue_boilermakers.html",
       "source_audit_path": "wake_forest_demon_deacons_at_purdue_boilermakers.sources.json"
     },
@@ -2510,6 +2781,11 @@
         "model_context": {}
       },
       "article_path": "washington_state_cougars_at_kansas_state_wildcats.md",
+      "social_assets": {
+        "x_model_graphic": "washington_state_cougars_at_kansas_state_wildcats_x_model.png",
+        "x_stats_graphic": "washington_state_cougars_at_kansas_state_wildcats_x_stats.png",
+        "x_caption": "washington_state_cougars_at_kansas_state_wildcats_x_caption.txt"
+      },
       "html_path": "washington_state_cougars_at_kansas_state_wildcats.html",
       "source_audit_path": "washington_state_cougars_at_kansas_state_wildcats.sources.json"
     },
@@ -2534,10 +2810,10 @@
       "model_prediction": -43.0,
       "market_line": -40.5,
       "best_line": -40.5,
-      "best_price": "-110",
-      "best_book": "BetMGM",
+      "best_price": "-108",
+      "best_book": "DraftKings",
       "cover_probability": 0.53691951,
-      "edge": 0.0131099861904762,
+      "edge": 0.0176887407692307,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -2553,6 +2829,11 @@
         "model_context": {}
       },
       "article_path": "western_kentucky_hilltoppers_at_georgia_bulldogs.md",
+      "social_assets": {
+        "x_model_graphic": "western_kentucky_hilltoppers_at_georgia_bulldogs_x_model.png",
+        "x_stats_graphic": "western_kentucky_hilltoppers_at_georgia_bulldogs_x_stats.png",
+        "x_caption": "western_kentucky_hilltoppers_at_georgia_bulldogs_x_caption.txt"
+      },
       "html_path": "western_kentucky_hilltoppers_at_georgia_bulldogs.html",
       "source_audit_path": "western_kentucky_hilltoppers_at_georgia_bulldogs.sources.json"
     }

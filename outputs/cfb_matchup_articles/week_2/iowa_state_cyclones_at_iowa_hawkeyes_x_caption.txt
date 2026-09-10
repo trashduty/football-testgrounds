@@ -1,0 +1,9 @@
+Our model is 1.5 points away from the market on Iowa State-Iowa.
+
+We make Iowa -15.5. The market is -14.
+
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
+
+We broke down why our model differs and what would matter most in the matchup.
+
+Full breakdown ↓

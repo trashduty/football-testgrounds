@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Old Dominion Monarchs | +19.5 (-110) | Fanatics | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Old Dominion Monarchs | +19.5 (-112) | DraftKings | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Virginia Tech Hokies | -18.5 (-114) | FanDuel | 54.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take

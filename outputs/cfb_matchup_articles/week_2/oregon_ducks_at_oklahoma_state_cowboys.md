@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon Ducks | -22.5 (-113) | BetRivers | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon Ducks | -23.5 (-108) | FanDuel | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Oklahoma State Cowboys | +23.5 (-110) | Fanatics | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Oregon -24**, compared with a market line of -23.5.
+The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Oregon -24**, compared with a market line of -23.
 
-The best number we found is Oregon -22.5 at -113. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Oregon -23.5 at -108. We see a -1.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

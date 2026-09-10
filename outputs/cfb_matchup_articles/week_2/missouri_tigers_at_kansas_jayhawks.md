@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Missouri Tigers | -4.5 (-112) | FanDuel | 43.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kansas Jayhawks | +5.5 (-110) | DraftKings | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kansas Jayhawks | +5.5 (-110) | Fanatics | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 

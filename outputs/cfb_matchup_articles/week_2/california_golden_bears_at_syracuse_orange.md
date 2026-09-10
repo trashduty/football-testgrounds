@@ -6,20 +6,20 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| California Golden Bears | +3.5 (-115) | Fanatics | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Syracuse Orange | -3.5 (-102) | FanDuel | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| California Golden Bears | +3.5 (-110) | FanDuel | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Syracuse Orange | -3.5 (-105) | DraftKings | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We make **Syracuse -9.5**, compared with a market line of -3.5.
 
-The best number we found is Syracuse -3.5 at -102. We give Syracuse a 58.3% chance to cover, which creates an 7.8% edge for us. That clears our 3% threshold, so Syracuse is a bet.
+The best number we found is Syracuse -3.5 at -105. We give Syracuse a 58.3% chance to cover, which creates an 7.1% edge for us. That clears our 3% threshold, so Syracuse is a bet.
 
-For us, the case is less about Syracuse’s opening score and more about the ways its offense can attack this matchup. Syracuse produced 238 rushing yards and 275 passing yards against New Hampshire, while California allowed 277 yards on the ground against UCLA. Those are one-game samples, not proof of what comes next, but they suggest Syracuse may have a viable path without leaning entirely on the part of the matchup our numbers like least.
+For us, the case is less about reacting to Syracuse’s opening result and more about the paths available in this matchup. Syracuse produced 238 rushing yards and 275 passing yards without a turnover, while California allowed 277 yards on the ground against UCLA. One game does not establish either unit’s true level, but those performances illustrate why our numbers are more favorable to Syracuse than the market is.
 
-That concern is Syracuse’s passing offense against a California pass defense our efficiency ratings view favorably. Still, Steve Angeli returned with 263 passing yards, Syracuse’s offensive line earned an 87.0 PFF pass-blocking grade, and 10 players caught a pass. We see that distribution and protection as useful context, even if the opponent becomes considerably more demanding.
+Syracuse also showed useful backfield depth. Shavane Anderson Jr. rushed for 102 yards and three touchdowns, while Tylik Hill added 91 yards and a score. Ahmad Miller and Ju’Juan Johnson are expected to join the rotation after missing the opener. We think that depth can help Syracuse stay balanced rather than repeatedly challenging a California pass defense that rates as the more difficult side of this matchup.
 
-The other side helps explain our position. California’s offense rates poorly in creating scoring opportunities, while Syracuse opened with five sacks and three takeaways. We are not projecting another turnover-heavy performance simply because it happened once, but Syracuse has a plausible pressure-based path to creating separation. The passing matchup is the primary concern; the broader offensive balance and defensive disruption are why our view remains more favorable to Syracuse than the market’s.
+The meaningful concern is whether Syracuse can create enough through the air when California forces passing situations. California’s opener still showed offensive capability, with Jaron-Keawe Sagapolutele throwing for 271 yards and two touchdowns, so Syracuse may need sustained scoring rather than simply controlling possession. We see the defensive front as part of the answer: Syracuse recorded five sacks in its opener, including 2.5 from Keyshawn Johnson. Our position is supported by Syracuse’s ability to run efficiently and generate negative plays, not by the opening-week score alone.
 
 ### What The Numbers Say
 
@@ -71,9 +71,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Syracuse’s passing game against California’s pass defense. This is the clearest challenge to our position: our numbers give California a substantial efficiency advantage in that phase. Angeli’s return and Syracuse’s opening-week pass protection were encouraging, but the question is whether that holds against a stronger pass-defense profile.
-
-Syracuse does not need the passing game to dominate for our case to work. We think it needs enough efficiency to keep California from loading the game onto Syracuse’s rushing attack and turning drives into difficult third-down situations.
+We are watching Syracuse’s offensive line against California’s defensive front. Syracuse’s line earned an 87.0 pass-blocking grade in the opener, but the larger issue is whether it can keep the offense out of obvious passing downs. That matters because California’s pass defense is the clearest matchup challenge for Syracuse. If the running game consistently creates manageable situations, Syracuse can dictate how often it has to attack that strength.
 
 ## Best Bets Of The Week
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia State Panthers | +9.5 (-110) | Fanatics | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kennesaw State Owls | -8.5 (-105) | FanDuel | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia State Panthers | +7.5 (-105) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kennesaw State Owls | -8.5 (-105) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia State Panthers visit the Kennesaw State Owls at Fifth Third Stadium. We make **Georgia State +9.5**, compared with a market line of +8.5.
+The Georgia State Panthers visit the Kennesaw State Owls at Fifth Third Stadium. We make **Georgia State +9**, compared with a market line of +8.5.
 
-The best number we found is Georgia State +9.5 at -110. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia State +7.5 at -105. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Alabama Crimson Tide | -10.5 (-110) | DraftKings | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kentucky Wildcats | +10.5 (-108) | BetMGM | 53.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Alabama Crimson Tide | -10.5 (+100) | FanDuel | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kentucky Wildcats | +10.5 (-112) | BetRivers | 53.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Alabama Crimson Tide visit the Kentucky Wildcats at Kroger Field. We make **Kentucky +10**, compared with a market line of +10.5.
+The Alabama Crimson Tide visit the Kentucky Wildcats at Kroger Field. We make **Kentucky +10**, compared with a market line of +10.
 
-The best number we found is Kentucky +10.5 at -108. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Kentucky +10.5 at -112. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -83,14 +83,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| App State Mountaineers | +6.5 (+100) | FanDuel | 59.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| East Carolina Pirates | -7.0 (+100) | DraftKings | 38.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| App State Mountaineers | +6.5 (+100) | FanDuel | 59.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| East Carolina Pirates | -7.0 (+100) | DraftKings | 37.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The App State Mountaineers visit the East Carolina Pirates at Dowdy-Ficklen Stadium. We make **App State +2**, compared with a market line of +7.
+The App State Mountaineers visit the East Carolina Pirates at Dowdy-Ficklen Stadium. We make **App State +1.5**, compared with a market line of +6.5.
 
-The best number we found is App State +6.5 at +100. We give App State a 59.0% chance to cover, which creates an 9.0% edge for us. That clears our 3% threshold, so App State is a bet.
+The best number we found is App State +6.5 at +100. We give App State a 59.8% chance to cover, which creates an 9.8% edge for us. That clears our 3% threshold, so App State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -315,13 +315,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Arkansas Razorbacks | +12.5 (-108) | DraftKings | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Utah Utes | -12.5 (-110) | FanDuel | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Utah Utes | -12.5 (-108) | BetMGM | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Arkansas Razorbacks visit the Utah Utes at Rice-Eccles Stadium. We make **Utah -15.5**, compared with a market line of -12.5.
 
-The best number we found is Utah -12.5 at -110. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Utah -12.5 at -108. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -545,20 +545,20 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| California Golden Bears | +3.5 (-115) | Fanatics | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Syracuse Orange | -3.5 (-102) | FanDuel | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| California Golden Bears | +3.5 (-110) | FanDuel | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Syracuse Orange | -3.5 (-105) | DraftKings | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We make **Syracuse -9.5**, compared with a market line of -3.5.
 
-The best number we found is Syracuse -3.5 at -102. We give Syracuse a 58.3% chance to cover, which creates an 7.8% edge for us. That clears our 3% threshold, so Syracuse is a bet.
+The best number we found is Syracuse -3.5 at -105. We give Syracuse a 58.3% chance to cover, which creates an 7.1% edge for us. That clears our 3% threshold, so Syracuse is a bet.
 
-For us, the case is less about Syracuse’s opening score and more about the ways its offense can attack this matchup. Syracuse produced 238 rushing yards and 275 passing yards against New Hampshire, while California allowed 277 yards on the ground against UCLA. Those are one-game samples, not proof of what comes next, but they suggest Syracuse may have a viable path without leaning entirely on the part of the matchup our numbers like least.
+For us, the case is less about reacting to Syracuse’s opening result and more about the paths available in this matchup. Syracuse produced 238 rushing yards and 275 passing yards without a turnover, while California allowed 277 yards on the ground against UCLA. One game does not establish either unit’s true level, but those performances illustrate why our numbers are more favorable to Syracuse than the market is.
 
-That concern is Syracuse’s passing offense against a California pass defense our efficiency ratings view favorably. Still, Steve Angeli returned with 263 passing yards, Syracuse’s offensive line earned an 87.0 PFF pass-blocking grade, and 10 players caught a pass. We see that distribution and protection as useful context, even if the opponent becomes considerably more demanding.
+Syracuse also showed useful backfield depth. Shavane Anderson Jr. rushed for 102 yards and three touchdowns, while Tylik Hill added 91 yards and a score. Ahmad Miller and Ju’Juan Johnson are expected to join the rotation after missing the opener. We think that depth can help Syracuse stay balanced rather than repeatedly challenging a California pass defense that rates as the more difficult side of this matchup.
 
-The other side helps explain our position. California’s offense rates poorly in creating scoring opportunities, while Syracuse opened with five sacks and three takeaways. We are not projecting another turnover-heavy performance simply because it happened once, but Syracuse has a plausible pressure-based path to creating separation. The passing matchup is the primary concern; the broader offensive balance and defensive disruption are why our view remains more favorable to Syracuse than the market’s.
+The meaningful concern is whether Syracuse can create enough through the air when California forces passing situations. California’s opener still showed offensive capability, with Jaron-Keawe Sagapolutele throwing for 271 yards and two touchdowns, so Syracuse may need sustained scoring rather than simply controlling possession. We see the defensive front as part of the answer: Syracuse recorded five sacks in its opener, including 2.5 from Keyshawn Johnson. Our position is supported by Syracuse’s ability to run efficiently and generate negative plays, not by the opening-week score alone.
 
 ### What The Numbers Say
 
@@ -610,9 +610,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Syracuse’s passing game against California’s pass defense. This is the clearest challenge to our position: our numbers give California a substantial efficiency advantage in that phase. Angeli’s return and Syracuse’s opening-week pass protection were encouraging, but the question is whether that holds against a stronger pass-defense profile.
-
-Syracuse does not need the passing game to dominate for our case to work. We think it needs enough efficiency to keep California from loading the game onto Syracuse’s rushing attack and turning drives into difficult third-down situations.
+We are watching Syracuse’s offensive line against California’s defensive front. Syracuse’s line earned an 87.0 pass-blocking grade in the opener, but the larger issue is whether it can keep the offense out of obvious passing downs. That matters because California’s pass defense is the clearest matchup challenge for Syracuse. If the running game consistently creates manageable situations, Syracuse can dictate how often it has to attack that strength.
 
 ## Best Bets Of The Week
 
@@ -632,14 +630,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Charlotte 49ers | +47.5 (-108) | BetMGM | 60.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Ole Miss Rebels | -47.5 (-105) | DraftKings | 39.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +47.5 (-108) | BetMGM | 61.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Ole Miss Rebels | -46.5 (-105) | DraftKings | 40.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Charlotte 49ers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **Charlotte +41.5**, compared with a market line of +47.5.
+The Charlotte 49ers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **Charlotte +41**, compared with a market line of +46.5.
 
-The best number we found is Charlotte +47.5 at -108. We give Charlotte a 60.3% chance to cover, which creates an 8.3% edge for us. That clears our 3% threshold, so Charlotte is a bet.
+The best number we found is Charlotte +47.5 at -108. We give Charlotte a 61.1% chance to cover, which creates an 9.2% edge for us. That clears our 3% threshold, so Charlotte is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -714,7 +712,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 ## Our Take
 
-The Delaware Blue Hens visit the Vanderbilt Commodores at FirstBank Stadium. We make **Vanderbilt -22.5**, compared with a market line of -21.
+The Delaware Blue Hens visit the Vanderbilt Commodores at FirstBank Stadium. We make **Vanderbilt -22.5**, compared with a market line of -20.5.
 
 The best number we found is Vanderbilt -21.5 at -105. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -786,14 +784,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Duke Blue Devils | +5.5 (-105) | FanDuel | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Illinois Fighting Illini | -5.5 (-110) | Fanatics | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Duke Blue Devils | +5.5 (-105) | FanDuel | 47.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Illinois Fighting Illini | -5.5 (-110) | BetMGM | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Duke Blue Devils visit the Illinois Fighting Illini at Memorial Stadium (Champaign, IL). We make **Illinois -8.5**, compared with a market line of -6.
+The Duke Blue Devils visit the Illinois Fighting Illini at Memorial Stadium (Champaign, IL). We make **Illinois -8**, compared with a market line of -5.5.
 
-The best number we found is Illinois -5.5 at -110. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Illinois -5.5 at -110. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1017,14 +1015,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia State Panthers | +9.5 (-110) | Fanatics | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kennesaw State Owls | -8.5 (-105) | FanDuel | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia State Panthers | +7.5 (-105) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kennesaw State Owls | -8.5 (-105) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia State Panthers visit the Kennesaw State Owls at Fifth Third Stadium. We make **Georgia State +9.5**, compared with a market line of +8.5.
+The Georgia State Panthers visit the Kennesaw State Owls at Fifth Third Stadium. We make **Georgia State +9**, compared with a market line of +8.5.
 
-The best number we found is Georgia State +9.5 at -110. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia State +7.5 at -105. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1249,13 +1247,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Louisiana Ragin Cajuns | +31.5 (-115) | DraftKings | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| USC Trojans | -30.5 (-110) | BetMGM | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| USC Trojans | -31.5 (-104) | FanDuel | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Louisiana Ragin Cajuns visit the USC Trojans at Los Angeles Memorial Coliseum. We make **USC -32**, compared with a market line of -30.5.
 
-The best number we found is USC -30.5 at -110. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is USC -31.5 at -104. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1402,14 +1400,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Maryland Terrapins | -12.5 (-110) | FanDuel | 37.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UConn Huskies | +12.5 (-105) | DraftKings | 62.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Maryland Terrapins | -11.5 (-110) | Fanatics | 38.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UConn Huskies | +12.5 (-110) | FanDuel | 63.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Maryland Terrapins visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +6.5**, compared with a market line of +12.5.
+The Maryland Terrapins visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +6**, compared with a market line of +12.
 
-The best number we found is Connecticut +12.5 at -105. We give Connecticut a 62.7% chance to cover, which creates an 11.4% edge for us. That clears our 3% threshold, so Connecticut is a bet.
+The best number we found is Connecticut +12.5 at -110. We give Connecticut a 63.5% chance to cover, which creates an 11.1% edge for us. That clears our 3% threshold, so Connecticut is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1711,7 +1709,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Missouri Tigers | -4.5 (-112) | FanDuel | 43.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kansas Jayhawks | +5.5 (-110) | DraftKings | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kansas Jayhawks | +5.5 (-110) | Fanatics | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -1941,14 +1939,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Dakota State | -2.5 (-108) | DraftKings | 43.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Air Force Falcons | +2.5 (-109) | BetRivers | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| North Dakota State | -1.5 (-115) | DraftKings | 44.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Air Force Falcons | +2.5 (-109) | BetRivers | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The North Dakota State visit the Air Force Falcons at Falcon Stadium. We make **Air Force -1**, compared with a market line of +2.5.
+The North Dakota State visit the Air Force Falcons at Falcon Stadium. We make **Air Force -1.5**, compared with a market line of +1.5.
 
-The best number we found is Air Force +2.5 at -109. We give Air Force a 56.2% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Air Force is a bet.
+The best number we found is Air Force +2.5 at -109. We give Air Force a 57.1% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Air Force is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2018,7 +2016,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ohio State Buckeyes | +1.5 (-108) | DraftKings | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio State Buckeyes | +1.5 (-108) | BetMGM | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Texas Longhorns | -1.5 (-110) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -2172,7 +2170,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Old Dominion Monarchs | +19.5 (-110) | Fanatics | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Old Dominion Monarchs | +19.5 (-112) | DraftKings | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Virginia Tech Hokies | -18.5 (-114) | FanDuel | 54.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -2249,14 +2247,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon Ducks | -22.5 (-113) | BetRivers | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon Ducks | -23.5 (-108) | FanDuel | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Oklahoma State Cowboys | +23.5 (-110) | Fanatics | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Oregon -24**, compared with a market line of -23.5.
+The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Oregon -24**, compared with a market line of -23.
 
-The best number we found is Oregon -22.5 at -113. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Oregon -23.5 at -108. We see a -1.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2326,7 +2324,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Penn State Nittany Lions | -23.5 (-112) | BetMGM | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Penn State Nittany Lions | -23.5 (-112) | BetRivers | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Temple Owls | +23.5 (-102) | FanDuel | 54.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -2403,7 +2401,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Rice Owls | +44.5 (-105) | Fanatics | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Rice Owls | +44.5 (-105) | DraftKings | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Notre Dame Fighting Irish | -44.5 (-108) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -2942,14 +2940,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tennessee Volunteers | -11.5 (-112) | DraftKings | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia Tech Yellow Jackets | +12.5 (-113) | BetRivers | 54.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Tennessee Volunteers | -11.5 (-112) | FanDuel | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Tech Yellow Jackets | +12.5 (-112) | DraftKings | 53.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +11.5**, compared with a market line of +11.5.
+The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +12**, compared with a market line of +11.5.
 
-The best number we found is Georgia Tech +12.5 at -113. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia Tech +12.5 at -112. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3019,14 +3017,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -25.5 (-112) | DraftKings | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oregon State Beavers | +26.5 (-110) | Fanatics | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -25.5 (-110) | BetMGM | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon State Beavers | +26.5 (-114) | BetRivers | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Texas Tech Red Raiders visit the Oregon State Beavers at Reser Stadium. We make **Texas Tech -27.5**, compared with a market line of -26.5.
 
-The best number we found is Texas Tech -25.5 at -112. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas Tech -25.5 at -110. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3096,14 +3094,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tulsa Golden Hurricane | -13.5 (-108) | BetMGM | 41.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Sam Houston State Bearkats | +13.5 (-110) | FanDuel | 58.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Tulsa Golden Hurricane | -13.5 (-110) | FanDuel | 41.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Sam Houston State Bearkats | +13.5 (-108) | BetMGM | 58.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Tulsa Golden Hurricane visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **Sam Houston State +9.5**, compared with a market line of +13.5.
 
-The best number we found is Sam Houston State +13.5 at -110. We give Sam Houston State a 58.9% chance to cover, which creates an 6.5% edge for us. That clears our 3% threshold, so Sam Houston State is a bet.
+The best number we found is Sam Houston State +13.5 at -108. We give Sam Houston State a 58.9% chance to cover, which creates an 7.0% edge for us. That clears our 3% threshold, so Sam Houston State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3173,7 +3171,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UCF Knights | +7.5 (-112) | BetMGM | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UCF Knights | +7.5 (-113) | BetRivers | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Pittsburgh Panthers | -7.5 (+100) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -3250,7 +3248,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UL Monroe Warhawks | +10.0 (-105) | DraftKings | 42.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UL Monroe Warhawks | +10.5 (-115) | FanDuel | 44.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | UAB Blazers | -10.5 (-105) | FanDuel | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -3713,13 +3711,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Western Kentucky Hilltoppers | +40.5 (-106) | FanDuel | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia Bulldogs | -40.5 (-110) | BetMGM | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Georgia Bulldogs | -40.5 (-108) | DraftKings | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Western Kentucky Hilltoppers visit the Georgia Bulldogs at Sanford Stadium. We make **Georgia -43**, compared with a market line of -40.5.
 
-The best number we found is Georgia -40.5 at -110. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia -40.5 at -108. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -1,0 +1,9 @@
+Our model is 3 points away from the market on Arkansas-Utah.
+
+We make Utah -15.5. The market is -12.5.
+
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
+
+We broke down why our model differs and what would matter most in the matchup.
+
+Full breakdown ↓
