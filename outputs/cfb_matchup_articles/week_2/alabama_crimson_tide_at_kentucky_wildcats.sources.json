@@ -1,0 +1,18 @@
+{
+  "game": "Alabama Crimson Tide@Kentucky Wildcats",
+  "season": 2026,
+  "week": 2,
+  "generated_at_utc": "2026-09-10T06:18:37.302158+00:00",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Alabama Crimson Tide",
+      "No guide found for Kentucky Wildcats"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "game": "App State Mountaineers@East Carolina Pirates",
+  "season": 2026,
+  "week": 2,
+  "generated_at_utc": "2026-09-10T06:18:37.309664+00:00",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for App State Mountaineers",
+      "No guide found for East Carolina Pirates"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": []
+  }
+}

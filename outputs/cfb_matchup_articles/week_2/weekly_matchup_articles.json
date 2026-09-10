@@ -1,0 +1,1281 @@
+{
+  "generated_at_utc": "2026-09-10T06:18:37.291163+00:00",
+  "season": 2026,
+  "week": 2,
+  "articles": [
+    {
+      "game": "Alabama Crimson Tide@Kentucky Wildcats",
+      "away_team": "Alabama Crimson Tide",
+      "home_team": "Kentucky Wildcats",
+      "away_id": 333,
+      "home_id": 96,
+      "bet_id": 96,
+      "opp_id": 333,
+      "bet_name": "Kentucky Wildcats",
+      "opp_name": "Alabama Crimson Tide",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Alabama Crimson Tide",
+          "No guide found for Kentucky Wildcats"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "alabama_crimson_tide_at_kentucky_wildcats.md",
+      "source_audit_path": "alabama_crimson_tide_at_kentucky_wildcats.sources.json"
+    },
+    {
+      "game": "App State Mountaineers@East Carolina Pirates",
+      "away_team": "App State Mountaineers",
+      "home_team": "East Carolina Pirates",
+      "away_id": 2026,
+      "home_id": 151,
+      "bet_id": 2026,
+      "opp_id": 151,
+      "bet_name": "App State Mountaineers",
+      "opp_name": "East Carolina Pirates",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for App State Mountaineers",
+          "No guide found for East Carolina Pirates"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "app_state_mountaineers_at_east_carolina_pirates.md",
+      "source_audit_path": "app_state_mountaineers_at_east_carolina_pirates.sources.json"
+    },
+    {
+      "game": "Arizona State Sun Devils@Texas A&M Aggies",
+      "away_team": "Arizona State Sun Devils",
+      "home_team": "Texas A&M Aggies",
+      "away_id": 9,
+      "home_id": 245,
+      "bet_id": 245,
+      "opp_id": 9,
+      "bet_name": "Texas A&M Aggies",
+      "opp_name": "Arizona State Sun Devils",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Arizona State Sun Devils",
+          "No guide found for Texas A&M Aggies"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "arizona_state_sun_devils_at_texas_a&m_aggies.md",
+      "source_audit_path": "arizona_state_sun_devils_at_texas_a&m_aggies.sources.json"
+    },
+    {
+      "game": "Arizona Wildcats@BYU Cougars",
+      "away_team": "Arizona Wildcats",
+      "home_team": "BYU Cougars",
+      "away_id": 12,
+      "home_id": 252,
+      "bet_id": 12,
+      "opp_id": 252,
+      "bet_name": "Arizona Wildcats",
+      "opp_name": "BYU Cougars",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Arizona Wildcats",
+          "No guide found for BYU Cougars"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "arizona_wildcats_at_byu_cougars.md",
+      "source_audit_path": "arizona_wildcats_at_byu_cougars.sources.json"
+    },
+    {
+      "game": "Arkansas Razorbacks@Utah Utes",
+      "away_team": "Arkansas Razorbacks",
+      "home_team": "Utah Utes",
+      "away_id": 8,
+      "home_id": 254,
+      "bet_id": 254,
+      "opp_id": 8,
+      "bet_name": "Utah Utes",
+      "opp_name": "Arkansas Razorbacks",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Arkansas Razorbacks",
+          "No guide found for Utah Utes"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "arkansas_razorbacks_at_utah_utes.md",
+      "source_audit_path": "arkansas_razorbacks_at_utah_utes.sources.json"
+    },
+    {
+      "game": "Bowling Green Falcons@Nebraska Cornhuskers",
+      "away_team": "Bowling Green Falcons",
+      "home_team": "Nebraska Cornhuskers",
+      "away_id": 189,
+      "home_id": 158,
+      "bet_id": 189,
+      "opp_id": 158,
+      "bet_name": "Bowling Green Falcons",
+      "opp_name": "Nebraska Cornhuskers",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Bowling Green Falcons",
+          "No guide found for Nebraska Cornhuskers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "bowling_green_falcons_at_nebraska_cornhuskers.md",
+      "source_audit_path": "bowling_green_falcons_at_nebraska_cornhuskers.sources.json"
+    },
+    {
+      "game": "Buffalo Bulls@Florida International Panthers",
+      "away_team": "Buffalo Bulls",
+      "home_team": "Florida International Panthers",
+      "away_id": 2084,
+      "home_id": 2229,
+      "bet_id": 2084,
+      "opp_id": 2229,
+      "bet_name": "Buffalo Bulls",
+      "opp_name": "Florida International Panthers",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Buffalo Bulls",
+          "No guide found for Florida International Panthers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "buffalo_bulls_at_florida_international_panthers.md",
+      "source_audit_path": "buffalo_bulls_at_florida_international_panthers.sources.json"
+    },
+    {
+      "game": "California Golden Bears@Syracuse Orange",
+      "away_team": "California Golden Bears",
+      "home_team": "Syracuse Orange",
+      "away_id": 25,
+      "home_id": 183,
+      "bet_id": 183,
+      "opp_id": 25,
+      "bet_name": "Syracuse Orange",
+      "opp_name": "California Golden Bears",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for California Golden Bears",
+          "No guide found for Syracuse Orange"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "california_golden_bears_at_syracuse_orange.md",
+      "source_audit_path": "california_golden_bears_at_syracuse_orange.sources.json"
+    },
+    {
+      "game": "Charlotte 49ers@Ole Miss Rebels",
+      "away_team": "Charlotte 49ers",
+      "home_team": "Ole Miss Rebels",
+      "away_id": 2429,
+      "home_id": 145,
+      "bet_id": 2429,
+      "opp_id": 145,
+      "bet_name": "Charlotte 49ers",
+      "opp_name": "Ole Miss Rebels",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Charlotte 49ers",
+          "No guide found for Ole Miss Rebels"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "charlotte_49ers_at_ole_miss_rebels.md",
+      "source_audit_path": "charlotte_49ers_at_ole_miss_rebels.sources.json"
+    },
+    {
+      "game": "Delaware Blue Hens@Vanderbilt Commodores",
+      "away_team": "Delaware Blue Hens",
+      "home_team": "Vanderbilt Commodores",
+      "away_id": 48,
+      "home_id": 238,
+      "bet_id": 238,
+      "opp_id": 48,
+      "bet_name": "Vanderbilt Commodores",
+      "opp_name": "Delaware Blue Hens",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Delaware Blue Hens",
+          "No guide found for Vanderbilt Commodores"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "delaware_blue_hens_at_vanderbilt_commodores.md",
+      "source_audit_path": "delaware_blue_hens_at_vanderbilt_commodores.sources.json"
+    },
+    {
+      "game": "Duke Blue Devils@Illinois Fighting Illini",
+      "away_team": "Duke Blue Devils",
+      "home_team": "Illinois Fighting Illini",
+      "away_id": 150,
+      "home_id": 356,
+      "bet_id": 356,
+      "opp_id": 150,
+      "bet_name": "Illinois Fighting Illini",
+      "opp_name": "Duke Blue Devils",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Duke Blue Devils",
+          "No guide found for Illinois Fighting Illini"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "duke_blue_devils_at_illinois_fighting_illini.md",
+      "source_audit_path": "duke_blue_devils_at_illinois_fighting_illini.sources.json"
+    },
+    {
+      "game": "Eastern Michigan Eagles@Michigan State Spartans",
+      "away_team": "Eastern Michigan Eagles",
+      "home_team": "Michigan State Spartans",
+      "away_id": 2199,
+      "home_id": 127,
+      "bet_id": 2199,
+      "opp_id": 127,
+      "bet_name": "Eastern Michigan Eagles",
+      "opp_name": "Michigan State Spartans",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Eastern Michigan Eagles",
+          "No guide found for Michigan State Spartans"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "eastern_michigan_eagles_at_michigan_state_spartans.md",
+      "source_audit_path": "eastern_michigan_eagles_at_michigan_state_spartans.sources.json"
+    },
+    {
+      "game": "Georgia Southern Eagles@Clemson Tigers",
+      "away_team": "Georgia Southern Eagles",
+      "home_team": "Clemson Tigers",
+      "away_id": 290,
+      "home_id": 228,
+      "bet_id": 290,
+      "opp_id": 228,
+      "bet_name": "Georgia Southern Eagles",
+      "opp_name": "Clemson Tigers",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Georgia Southern Eagles",
+          "No guide found for Clemson Tigers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "georgia_southern_eagles_at_clemson_tigers.md",
+      "source_audit_path": "georgia_southern_eagles_at_clemson_tigers.sources.json"
+    },
+    {
+      "game": "Georgia State Panthers@Kennesaw State Owls",
+      "away_team": "Georgia State Panthers",
+      "home_team": "Kennesaw State Owls",
+      "away_id": 2247,
+      "home_id": 338,
+      "bet_id": 2247,
+      "opp_id": 338,
+      "bet_name": "Georgia State Panthers",
+      "opp_name": "Kennesaw State Owls",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Georgia State Panthers",
+          "No guide found for Kennesaw State Owls"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "georgia_state_panthers_at_kennesaw_state_owls.md",
+      "source_audit_path": "georgia_state_panthers_at_kennesaw_state_owls.sources.json"
+    },
+    {
+      "game": "Iowa State Cyclones@Iowa Hawkeyes",
+      "away_team": "Iowa State Cyclones",
+      "home_team": "Iowa Hawkeyes",
+      "away_id": 66,
+      "home_id": 2294,
+      "bet_id": 2294,
+      "opp_id": 66,
+      "bet_name": "Iowa Hawkeyes",
+      "opp_name": "Iowa State Cyclones",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Iowa State Cyclones",
+          "No guide found for Iowa Hawkeyes"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "iowa_state_cyclones_at_iowa_hawkeyes.md",
+      "source_audit_path": "iowa_state_cyclones_at_iowa_hawkeyes.sources.json"
+    },
+    {
+      "game": "Jacksonville State Gamecocks@Ohio Bobcats",
+      "away_team": "Jacksonville State Gamecocks",
+      "home_team": "Ohio Bobcats",
+      "away_id": 55,
+      "home_id": 195,
+      "bet_id": 195,
+      "opp_id": 55,
+      "bet_name": "Ohio Bobcats",
+      "opp_name": "Jacksonville State Gamecocks",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Jacksonville State Gamecocks",
+          "No guide found for Ohio Bobcats"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "jacksonville_state_gamecocks_at_ohio_bobcats.md",
+      "source_audit_path": "jacksonville_state_gamecocks_at_ohio_bobcats.sources.json"
+    },
+    {
+      "game": "Louisiana Ragin Cajuns@USC Trojans",
+      "away_team": "Louisiana Ragin Cajuns",
+      "home_team": "USC Trojans",
+      "away_id": 309,
+      "home_id": 30,
+      "bet_id": 30,
+      "opp_id": 309,
+      "bet_name": "USC Trojans",
+      "opp_name": "Louisiana Ragin Cajuns",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Louisiana Ragin Cajuns",
+          "No guide found for USC Trojans"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "louisiana_ragin_cajuns_at_usc_trojans.md",
+      "source_audit_path": "louisiana_ragin_cajuns_at_usc_trojans.sources.json"
+    },
+    {
+      "game": "Louisiana Tech Bulldogs@LSU Tigers",
+      "away_team": "Louisiana Tech Bulldogs",
+      "home_team": "LSU Tigers",
+      "away_id": 2348,
+      "home_id": 99,
+      "bet_id": 2348,
+      "opp_id": 99,
+      "bet_name": "Louisiana Tech Bulldogs",
+      "opp_name": "LSU Tigers",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Louisiana Tech Bulldogs",
+          "No guide found for LSU Tigers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "louisiana_tech_bulldogs_at_lsu_tigers.md",
+      "source_audit_path": "louisiana_tech_bulldogs_at_lsu_tigers.sources.json"
+    },
+    {
+      "game": "Maryland Terrapins@UConn Huskies",
+      "away_team": "Maryland Terrapins",
+      "home_team": "UConn Huskies",
+      "away_id": 120,
+      "home_id": 41,
+      "bet_id": 41,
+      "opp_id": 120,
+      "bet_name": "UConn Huskies",
+      "opp_name": "Maryland Terrapins",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Maryland Terrapins",
+          "No guide found for UConn Huskies"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "maryland_terrapins_at_uconn_huskies.md",
+      "source_audit_path": "maryland_terrapins_at_uconn_huskies.sources.json"
+    },
+    {
+      "game": "Memphis Tigers@Boise State Broncos",
+      "away_team": "Memphis Tigers",
+      "home_team": "Boise State Broncos",
+      "away_id": 235,
+      "home_id": 68,
+      "bet_id": 68,
+      "opp_id": 235,
+      "bet_name": "Boise State Broncos",
+      "opp_name": "Memphis Tigers",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Memphis Tigers",
+          "No guide found for Boise State Broncos"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "memphis_tigers_at_boise_state_broncos.md",
+      "source_audit_path": "memphis_tigers_at_boise_state_broncos.sources.json"
+    },
+    {
+      "game": "Middle Tennessee Blue Raiders@Marshall Thundering Herd",
+      "away_team": "Middle Tennessee Blue Raiders",
+      "home_team": "Marshall Thundering Herd",
+      "away_id": 2393,
+      "home_id": 276,
+      "bet_id": 2393,
+      "opp_id": 276,
+      "bet_name": "Middle Tennessee Blue Raiders",
+      "opp_name": "Marshall Thundering Herd",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Middle Tennessee Blue Raiders",
+          "No guide found for Marshall Thundering Herd"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "middle_tennessee_blue_raiders_at_marshall_thundering_herd.md",
+      "source_audit_path": "middle_tennessee_blue_raiders_at_marshall_thundering_herd.sources.json"
+    },
+    {
+      "game": "Mississippi State Bulldogs@Minnesota Golden Gophers",
+      "away_team": "Mississippi State Bulldogs",
+      "home_team": "Minnesota Golden Gophers",
+      "away_id": 344,
+      "home_id": 135,
+      "bet_id": 135,
+      "opp_id": 344,
+      "bet_name": "Minnesota Golden Gophers",
+      "opp_name": "Mississippi State Bulldogs",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Mississippi State Bulldogs",
+          "No guide found for Minnesota Golden Gophers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "mississippi_state_bulldogs_at_minnesota_golden_gophers.md",
+      "source_audit_path": "mississippi_state_bulldogs_at_minnesota_golden_gophers.sources.json"
+    },
+    {
+      "game": "Missouri Tigers@Kansas Jayhawks",
+      "away_team": "Missouri Tigers",
+      "home_team": "Kansas Jayhawks",
+      "away_id": 142,
+      "home_id": 2305,
+      "bet_id": 2305,
+      "opp_id": 142,
+      "bet_name": "Kansas Jayhawks",
+      "opp_name": "Missouri Tigers",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Missouri Tigers",
+          "No guide found for Kansas Jayhawks"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "missouri_tigers_at_kansas_jayhawks.md",
+      "source_audit_path": "missouri_tigers_at_kansas_jayhawks.sources.json"
+    },
+    {
+      "game": "Navy Midshipmen@Florida Atlantic Owls",
+      "away_team": "Navy Midshipmen",
+      "home_team": "Florida Atlantic Owls",
+      "away_id": 2426,
+      "home_id": 2226,
+      "bet_id": 2426,
+      "opp_id": 2226,
+      "bet_name": "Navy Midshipmen",
+      "opp_name": "Florida Atlantic Owls",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Navy Midshipmen",
+          "No guide found for Florida Atlantic Owls"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "navy_midshipmen_at_florida_atlantic_owls.md",
+      "source_audit_path": "navy_midshipmen_at_florida_atlantic_owls.sources.json"
+    },
+    {
+      "game": "New Mexico State Aggies@Hawaii Rainbow Warriors",
+      "away_team": "New Mexico State Aggies",
+      "home_team": "Hawaii Rainbow Warriors",
+      "away_id": 166,
+      "home_id": 62,
+      "bet_id": 62,
+      "opp_id": 166,
+      "bet_name": "Hawaii Rainbow Warriors",
+      "opp_name": "New Mexico State Aggies",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for New Mexico State Aggies",
+          "No guide found for Hawaii Rainbow Warriors"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "new_mexico_state_aggies_at_hawaii_rainbow_warriors.md",
+      "source_audit_path": "new_mexico_state_aggies_at_hawaii_rainbow_warriors.sources.json"
+    },
+    {
+      "game": "North Dakota State@Air Force Falcons",
+      "away_team": "North Dakota State",
+      "home_team": "Air Force Falcons",
+      "away_id": 2449,
+      "home_id": 2005,
+      "bet_id": 2005,
+      "opp_id": 2449,
+      "bet_name": "Air Force Falcons",
+      "opp_name": "North Dakota State",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for North Dakota State",
+          "No guide found for Air Force Falcons"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "north_dakota_state_at_air_force_falcons.md",
+      "source_audit_path": "north_dakota_state_at_air_force_falcons.sources.json"
+    },
+    {
+      "game": "Ohio State Buckeyes@Texas Longhorns",
+      "away_team": "Ohio State Buckeyes",
+      "home_team": "Texas Longhorns",
+      "away_id": 194,
+      "home_id": 251,
+      "bet_id": 251,
+      "opp_id": 194,
+      "bet_name": "Texas Longhorns",
+      "opp_name": "Ohio State Buckeyes",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Ohio State Buckeyes",
+          "No guide found for Texas Longhorns"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "ohio_state_buckeyes_at_texas_longhorns.md",
+      "source_audit_path": "ohio_state_buckeyes_at_texas_longhorns.sources.json"
+    },
+    {
+      "game": "Oklahoma Sooners@Michigan Wolverines",
+      "away_team": "Oklahoma Sooners",
+      "home_team": "Michigan Wolverines",
+      "away_id": 201,
+      "home_id": 130,
+      "bet_id": 130,
+      "opp_id": 201,
+      "bet_name": "Michigan Wolverines",
+      "opp_name": "Oklahoma Sooners",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Oklahoma Sooners",
+          "No guide found for Michigan Wolverines"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "oklahoma_sooners_at_michigan_wolverines.md",
+      "source_audit_path": "oklahoma_sooners_at_michigan_wolverines.sources.json"
+    },
+    {
+      "game": "Old Dominion Monarchs@Virginia Tech Hokies",
+      "away_team": "Old Dominion Monarchs",
+      "home_team": "Virginia Tech Hokies",
+      "away_id": 295,
+      "home_id": 259,
+      "bet_id": 259,
+      "opp_id": 295,
+      "bet_name": "Virginia Tech Hokies",
+      "opp_name": "Old Dominion Monarchs",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Old Dominion Monarchs",
+          "No guide found for Virginia Tech Hokies"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "old_dominion_monarchs_at_virginia_tech_hokies.md",
+      "source_audit_path": "old_dominion_monarchs_at_virginia_tech_hokies.sources.json"
+    },
+    {
+      "game": "Oregon Ducks@Oklahoma State Cowboys",
+      "away_team": "Oregon Ducks",
+      "home_team": "Oklahoma State Cowboys",
+      "away_id": 2483,
+      "home_id": 197,
+      "bet_id": 197,
+      "opp_id": 2483,
+      "bet_name": "Oklahoma State Cowboys",
+      "opp_name": "Oregon Ducks",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Oregon Ducks",
+          "No guide found for Oklahoma State Cowboys"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "oregon_ducks_at_oklahoma_state_cowboys.md",
+      "source_audit_path": "oregon_ducks_at_oklahoma_state_cowboys.sources.json"
+    },
+    {
+      "game": "Penn State Nittany Lions@Temple Owls",
+      "away_team": "Penn State Nittany Lions",
+      "home_team": "Temple Owls",
+      "away_id": 213,
+      "home_id": 218,
+      "bet_id": 218,
+      "opp_id": 213,
+      "bet_name": "Temple Owls",
+      "opp_name": "Penn State Nittany Lions",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Penn State Nittany Lions",
+          "No guide found for Temple Owls"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "penn_state_nittany_lions_at_temple_owls.md",
+      "source_audit_path": "penn_state_nittany_lions_at_temple_owls.sources.json"
+    },
+    {
+      "game": "Rice Owls@Notre Dame Fighting Irish",
+      "away_team": "Rice Owls",
+      "home_team": "Notre Dame Fighting Irish",
+      "away_id": 242,
+      "home_id": 87,
+      "bet_id": 242,
+      "opp_id": 87,
+      "bet_name": "Rice Owls",
+      "opp_name": "Notre Dame Fighting Irish",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Rice Owls",
+          "No guide found for Notre Dame Fighting Irish"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "rice_owls_at_notre_dame_fighting_irish.md",
+      "source_audit_path": "rice_owls_at_notre_dame_fighting_irish.sources.json"
+    },
+    {
+      "game": "Rutgers Scarlet Knights@Boston College Eagles",
+      "away_team": "Rutgers Scarlet Knights",
+      "home_team": "Boston College Eagles",
+      "away_id": 164,
+      "home_id": 103,
+      "bet_id": 164,
+      "opp_id": 103,
+      "bet_name": "Rutgers Scarlet Knights",
+      "opp_name": "Boston College Eagles",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Rutgers Scarlet Knights",
+          "No guide found for Boston College Eagles"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "rutgers_scarlet_knights_at_boston_college_eagles.md",
+      "source_audit_path": "rutgers_scarlet_knights_at_boston_college_eagles.sources.json"
+    },
+    {
+      "game": "Sacramento State@Fresno State Bulldogs",
+      "away_team": "Sacramento State",
+      "home_team": "Fresno State Bulldogs",
+      "away_id": 16,
+      "home_id": 278,
+      "bet_id": 16,
+      "opp_id": 278,
+      "bet_name": "Sacramento State",
+      "opp_name": "Fresno State Bulldogs",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Sacramento State",
+          "No guide found for Fresno State Bulldogs"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "sacramento_state_at_fresno_state_bulldogs.md",
+      "source_audit_path": "sacramento_state_at_fresno_state_bulldogs.sources.json"
+    },
+    {
+      "game": "San Diego State Aztecs@UCLA Bruins",
+      "away_team": "San Diego State Aztecs",
+      "home_team": "UCLA Bruins",
+      "away_id": 21,
+      "home_id": 26,
+      "bet_id": 21,
+      "opp_id": 26,
+      "bet_name": "San Diego State Aztecs",
+      "opp_name": "UCLA Bruins",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for San Diego State Aztecs",
+          "No guide found for UCLA Bruins"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "san_diego_state_aztecs_at_ucla_bruins.md",
+      "source_audit_path": "san_diego_state_aztecs_at_ucla_bruins.sources.json"
+    },
+    {
+      "game": "South Alabama Jaguars@Tulane Green Wave",
+      "away_team": "South Alabama Jaguars",
+      "home_team": "Tulane Green Wave",
+      "away_id": 6,
+      "home_id": 2655,
+      "bet_id": 2655,
+      "opp_id": 6,
+      "bet_name": "Tulane Green Wave",
+      "opp_name": "South Alabama Jaguars",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for South Alabama Jaguars",
+          "No guide found for Tulane Green Wave"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "south_alabama_jaguars_at_tulane_green_wave.md",
+      "source_audit_path": "south_alabama_jaguars_at_tulane_green_wave.sources.json"
+    },
+    {
+      "game": "South Florida Bulls@Army Black Knights",
+      "away_team": "South Florida Bulls",
+      "home_team": "Army Black Knights",
+      "away_id": 58,
+      "home_id": 349,
+      "bet_id": 58,
+      "opp_id": 349,
+      "bet_name": "South Florida Bulls",
+      "opp_name": "Army Black Knights",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for South Florida Bulls",
+          "No guide found for Army Black Knights"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "south_florida_bulls_at_army_black_knights.md",
+      "source_audit_path": "south_florida_bulls_at_army_black_knights.sources.json"
+    },
+    {
+      "game": "Southern Mississippi Golden Eagles@Auburn Tigers",
+      "away_team": "Southern Mississippi Golden Eagles",
+      "home_team": "Auburn Tigers",
+      "away_id": 2572,
+      "home_id": 2,
+      "bet_id": 2572,
+      "opp_id": 2,
+      "bet_name": "Southern Mississippi Golden Eagles",
+      "opp_name": "Auburn Tigers",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Southern Mississippi Golden Eagles",
+          "No guide found for Auburn Tigers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "southern_mississippi_golden_eagles_at_auburn_tigers.md",
+      "source_audit_path": "southern_mississippi_golden_eagles_at_auburn_tigers.sources.json"
+    },
+    {
+      "game": "Tennessee Volunteers@Georgia Tech Yellow Jackets",
+      "away_team": "Tennessee Volunteers",
+      "home_team": "Georgia Tech Yellow Jackets",
+      "away_id": 2633,
+      "home_id": 59,
+      "bet_id": 59,
+      "opp_id": 2633,
+      "bet_name": "Georgia Tech Yellow Jackets",
+      "opp_name": "Tennessee Volunteers",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Tennessee Volunteers",
+          "No guide found for Georgia Tech Yellow Jackets"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "tennessee_volunteers_at_georgia_tech_yellow_jackets.md",
+      "source_audit_path": "tennessee_volunteers_at_georgia_tech_yellow_jackets.sources.json"
+    },
+    {
+      "game": "Texas Tech Red Raiders@Oregon State Beavers",
+      "away_team": "Texas Tech Red Raiders",
+      "home_team": "Oregon State Beavers",
+      "away_id": 2641,
+      "home_id": 204,
+      "bet_id": 2641,
+      "opp_id": 204,
+      "bet_name": "Texas Tech Red Raiders",
+      "opp_name": "Oregon State Beavers",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Texas Tech Red Raiders",
+          "No guide found for Oregon State Beavers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "texas_tech_red_raiders_at_oregon_state_beavers.md",
+      "source_audit_path": "texas_tech_red_raiders_at_oregon_state_beavers.sources.json"
+    },
+    {
+      "game": "Tulsa Golden Hurricane@Sam Houston State Bearkats",
+      "away_team": "Tulsa Golden Hurricane",
+      "home_team": "Sam Houston State Bearkats",
+      "away_id": 202,
+      "home_id": 2534,
+      "bet_id": 2534,
+      "opp_id": 202,
+      "bet_name": "Sam Houston State Bearkats",
+      "opp_name": "Tulsa Golden Hurricane",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Tulsa Golden Hurricane",
+          "No guide found for Sam Houston State Bearkats"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "tulsa_golden_hurricane_at_sam_houston_state_bearkats.md",
+      "source_audit_path": "tulsa_golden_hurricane_at_sam_houston_state_bearkats.sources.json"
+    },
+    {
+      "game": "UCF Knights@Pittsburgh Panthers",
+      "away_team": "UCF Knights",
+      "home_team": "Pittsburgh Panthers",
+      "away_id": 2116,
+      "home_id": 221,
+      "bet_id": 221,
+      "opp_id": 2116,
+      "bet_name": "Pittsburgh Panthers",
+      "opp_name": "UCF Knights",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for UCF Knights",
+          "No guide found for Pittsburgh Panthers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "ucf_knights_at_pittsburgh_panthers.md",
+      "source_audit_path": "ucf_knights_at_pittsburgh_panthers.sources.json"
+    },
+    {
+      "game": "UL Monroe Warhawks@UAB Blazers",
+      "away_team": "UL Monroe Warhawks",
+      "home_team": "UAB Blazers",
+      "away_id": 2433,
+      "home_id": 5,
+      "bet_id": 5,
+      "opp_id": 2433,
+      "bet_name": "UAB Blazers",
+      "opp_name": "UL Monroe Warhawks",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for UL Monroe Warhawks",
+          "No guide found for UAB Blazers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "ul_monroe_warhawks_at_uab_blazers.md",
+      "source_audit_path": "ul_monroe_warhawks_at_uab_blazers.sources.json"
+    },
+    {
+      "game": "UNLV Rebels@North Texas Mean Green",
+      "away_team": "UNLV Rebels",
+      "home_team": "North Texas Mean Green",
+      "away_id": 2439,
+      "home_id": 249,
+      "bet_id": 249,
+      "opp_id": 2439,
+      "bet_name": "North Texas Mean Green",
+      "opp_name": "UNLV Rebels",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for UNLV Rebels",
+          "No guide found for North Texas Mean Green"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "unlv_rebels_at_north_texas_mean_green.md",
+      "source_audit_path": "unlv_rebels_at_north_texas_mean_green.sources.json"
+    },
+    {
+      "game": "UTSA Roadrunners@Texas State Bobcats",
+      "away_team": "UTSA Roadrunners",
+      "home_team": "Texas State Bobcats",
+      "away_id": 2636,
+      "home_id": 326,
+      "bet_id": 2636,
+      "opp_id": 326,
+      "bet_name": "UTSA Roadrunners",
+      "opp_name": "Texas State Bobcats",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for UTSA Roadrunners",
+          "No guide found for Texas State Bobcats"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "utsa_roadrunners_at_texas_state_bobcats.md",
+      "source_audit_path": "utsa_roadrunners_at_texas_state_bobcats.sources.json"
+    },
+    {
+      "game": "Utah State Aggies@Washington Huskies",
+      "away_team": "Utah State Aggies",
+      "home_team": "Washington Huskies",
+      "away_id": 328,
+      "home_id": 264,
+      "bet_id": 328,
+      "opp_id": 264,
+      "bet_name": "Utah State Aggies",
+      "opp_name": "Washington Huskies",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Utah State Aggies",
+          "No guide found for Washington Huskies"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "utah_state_aggies_at_washington_huskies.md",
+      "source_audit_path": "utah_state_aggies_at_washington_huskies.sources.json"
+    },
+    {
+      "game": "Wake Forest Demon Deacons@Purdue Boilermakers",
+      "away_team": "Wake Forest Demon Deacons",
+      "home_team": "Purdue Boilermakers",
+      "away_id": 154,
+      "home_id": 2509,
+      "bet_id": 2509,
+      "opp_id": 154,
+      "bet_name": "Purdue Boilermakers",
+      "opp_name": "Wake Forest Demon Deacons",
+      "has_bet": true,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Wake Forest Demon Deacons",
+          "No guide found for Purdue Boilermakers"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "wake_forest_demon_deacons_at_purdue_boilermakers.md",
+      "source_audit_path": "wake_forest_demon_deacons_at_purdue_boilermakers.sources.json"
+    },
+    {
+      "game": "Washington State Cougars@Kansas State Wildcats",
+      "away_team": "Washington State Cougars",
+      "home_team": "Kansas State Wildcats",
+      "away_id": 265,
+      "home_id": 2306,
+      "bet_id": 2306,
+      "opp_id": 265,
+      "bet_name": "Kansas State Wildcats",
+      "opp_name": "Washington State Cougars",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Washington State Cougars",
+          "No guide found for Kansas State Wildcats"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "washington_state_cougars_at_kansas_state_wildcats.md",
+      "source_audit_path": "washington_state_cougars_at_kansas_state_wildcats.sources.json"
+    },
+    {
+      "game": "Western Kentucky Hilltoppers@Georgia Bulldogs",
+      "away_team": "Western Kentucky Hilltoppers",
+      "home_team": "Georgia Bulldogs",
+      "away_id": 98,
+      "home_id": 61,
+      "bet_id": 61,
+      "opp_id": 98,
+      "bet_name": "Georgia Bulldogs",
+      "opp_name": "Western Kentucky Hilltoppers",
+      "has_bet": false,
+      "guide_enrichment": {
+        "enabled": false,
+        "narrative": "",
+        "matchup_to_watch": "",
+        "guide_status": [
+          "No guide found for Western Kentucky Hilltoppers",
+          "No guide found for Georgia Bulldogs"
+        ],
+        "guide_extractions": [],
+        "matchup_angles": [],
+        "used_sources": []
+      },
+      "article_path": "western_kentucky_hilltoppers_at_georgia_bulldogs.md",
+      "source_audit_path": "western_kentucky_hilltoppers_at_georgia_bulldogs.sources.json"
+    }
+  ]
+}

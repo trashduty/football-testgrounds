@@ -1,0 +1,18 @@
+{
+  "game": "Iowa State Cyclones@Iowa Hawkeyes",
+  "season": 2026,
+  "week": 2,
+  "generated_at_utc": "2026-09-10T06:18:37.407053+00:00",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Iowa State Cyclones",
+      "No guide found for Iowa Hawkeyes"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": []
+  }
+}

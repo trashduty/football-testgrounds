@@ -1,0 +1,18 @@
+{
+  "game": "Rutgers Scarlet Knights@Boston College Eagles",
+  "season": 2026,
+  "week": 2,
+  "generated_at_utc": "2026-09-10T06:18:37.543592+00:00",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Rutgers Scarlet Knights",
+      "No guide found for Boston College Eagles"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "game": "Navy Midshipmen@Florida Atlantic Owls",
+  "season": 2026,
+  "week": 2,
+  "generated_at_utc": "2026-09-10T06:18:37.474852+00:00",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Navy Midshipmen",
+      "No guide found for Florida Atlantic Owls"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "game": "Arizona State Sun Devils@Texas A&M Aggies",
+  "season": 2026,
+  "week": 2,
+  "generated_at_utc": "2026-09-10T06:18:37.317383+00:00",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Arizona State Sun Devils",
+      "No guide found for Texas A&M Aggies"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": []
+  }
+}
