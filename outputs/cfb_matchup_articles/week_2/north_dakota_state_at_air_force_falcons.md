@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Dakota State | -2.5 (-108) | DraftKings | 43.5% | No Bet |
-| Air Force Falcons | +2.5 (-109) | BetRivers | 56.2% | Bet |
+| North Dakota State | -2.5 (-108) | DraftKings | 43.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Air Force Falcons | +2.5 (-109) | BetRivers | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Air Force Falcons | North Dakota State |
-|---|---|---|
-| Offensive Pass EPA | 7th | 5th |
-| Offensive Rush EPA | 22nd | 17th |
-| Defensive Pass EPA | 121st | 2nd |
-| Defensive Rush EPA | 132nd | 17th |
-| Offensive Eckel Rate | 9th | 13th |
-| Defensive Eckel Rate | 135th | 14th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Air Force</th>
+<th>North Dakota State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#7</td>
+<td class="btb-better">#5</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#22</td>
+<td class="btb-better">#17</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#121</td>
+<td class="btb-better">#2</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#132</td>
+<td class="btb-better">#17</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#9</td>
+<td>#13</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#135</td>
+<td class="btb-better">#14</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

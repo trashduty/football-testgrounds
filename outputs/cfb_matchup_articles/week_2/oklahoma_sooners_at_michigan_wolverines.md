@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oklahoma Sooners | -5.5 (-108) | BetMGM | 45.0% | No Bet |
-| Michigan Wolverines | +5.5 (-110) | FanDuel | 55.3% | Lean – doesn't meet our edge criteria to fully bet |
+| Oklahoma Sooners | -4.5 (-110) | FanDuel | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | +5.5 (-110) | DraftKings | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Oklahoma Sooners visit the Michigan Wolverines at Michigan Stadium. We make **Michigan +3.5**, compared with a market line of +5.5.
+The Oklahoma Sooners visit the Michigan Wolverines at Michigan Stadium. We make **Michigan +3**, compared with a market line of +5.
 
-The best number we found is Michigan +5.5 at -110. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan +5.5 at -110. We give Michigan a 56.2% chance to cover, which creates an 3.9% edge for us. That clears our 3% threshold, so Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Michigan Wolverines | Oklahoma Sooners |
-|---|---|---|
-| Offensive Pass EPA | 106th | 77th |
-| Offensive Rush EPA | 31st | 127th |
-| Defensive Pass EPA | 48th | 17th |
-| Defensive Rush EPA | 42nd | 5th |
-| Offensive Eckel Rate | 63rd | 106th |
-| Defensive Eckel Rate | 50th | 20th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Michigan</th>
+<th>Oklahoma</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#106</td>
+<td class="btb-better">#77</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#31</td>
+<td>#127</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#48</td>
+<td class="btb-better">#17</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#42</td>
+<td class="btb-better">#5</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#63</td>
+<td>#106</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#50</td>
+<td class="btb-better">#20</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

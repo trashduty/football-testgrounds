@@ -7,6 +7,8 @@
     --btb-text: #f4f4f4;
     --btb-muted: #b7b7b7;
     --btb-green: #27e26f;
+    --btb-pink: #ff7cb8;
+    --btb-yellow: #ffd24d;
 
     width: 100%;
     max-width: 1180px;
@@ -97,22 +99,85 @@
     text-align: center;
 }
 
+
 /* -------------------------------------------------------- */
-/* Matchup / model tables                                   */
+/* Advice pills                                             */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-advice-pill {
+    display: inline-block;
+
+    padding: 6px 10px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+
+    white-space: nowrap;
+}
+
+.btb-matchup-article .btb-advice-bet {
+    background:
+        rgba(39, 226, 111, 0.16);
+
+    color:
+        var(--btb-green);
+
+    border:
+        1px solid
+        rgba(39, 226, 111, 0.38);
+}
+
+.btb-matchup-article .btb-advice-no-bet {
+    background:
+        rgba(255, 124, 184, 0.15);
+
+    color:
+        var(--btb-pink);
+
+    border:
+        1px solid
+        rgba(255, 124, 184, 0.38);
+}
+
+.btb-matchup-article .btb-advice-lean {
+    background:
+        rgba(255, 210, 77, 0.14);
+
+    color:
+        var(--btb-yellow);
+
+    border:
+        1px solid
+        rgba(255, 210, 77, 0.32);
+}
+
+
+/* -------------------------------------------------------- */
+/* Generic tables                                           */
 /* -------------------------------------------------------- */
 
 .btb-matchup-article table {
     width: 100%;
+
     margin: 26px 0 34px;
 
-    border: 1px solid var(--btb-border);
+    border:
+        1px solid
+        var(--btb-border);
+
     border-radius: 10px;
+
     border-spacing: 0;
     border-collapse: separate;
 
     overflow: hidden;
 
-    background: var(--btb-card);
+    background:
+        var(--btb-card);
 
     font-size: 15px;
 }
@@ -124,29 +189,80 @@
 .btb-matchup-article th {
     padding: 14px 16px;
 
-    color: var(--btb-green);
+    color:
+        var(--btb-green);
 
     font-weight: 800;
     text-align: left;
 
-    border-bottom: 1px solid var(--btb-border);
+    border-bottom:
+        1px solid
+        var(--btb-border);
 }
 
 .btb-matchup-article td {
     padding: 14px 16px;
 
-    color: var(--btb-text);
+    color:
+        var(--btb-text);
 
-    border-bottom: 1px solid #222222;
+    border-bottom:
+        1px solid
+        #222222;
 }
 
 .btb-matchup-article tbody tr:last-child td {
     border-bottom: 0;
 }
 
-.btb-matchup-article tbody tr:hover {
-    background: #161616;
+
+/* -------------------------------------------------------- */
+/* Stats table                                              */
+/* -------------------------------------------------------- */
+
+.btb-matchup-article .btb-stats-table {
+    background:
+        #0d0d0d;
 }
+
+.btb-matchup-article .btb-stats-table thead {
+    background:
+        #161616;
+}
+
+.btb-matchup-article .btb-stats-table tbody tr:nth-child(odd) {
+    background:
+        #121212;
+}
+
+.btb-matchup-article .btb-stats-table tbody tr:nth-child(even) {
+    background:
+        #0b0b0b;
+}
+
+.btb-matchup-article .btb-stats-table tbody tr:hover {
+    background:
+        #191919;
+}
+
+.btb-matchup-article .btb-stats-table .btb-stat-name {
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.btb-matchup-article .btb-stats-table .btb-better {
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.btb-matchup-article .btb-stats-table td:not(.btb-stat-name) {
+    text-align: center;
+}
+
+.btb-matchup-article .btb-stats-table th:not(:first-child) {
+    text-align: center;
+}
+
 
 /* -------------------------------------------------------- */
 /* Our Take card                                            */
@@ -154,7 +270,9 @@
 
 .btb-matchup-article .btb-take {
     margin: 38px 0 36px;
-    padding: 26px 28px 12px;
+
+    padding:
+        26px 28px 12px;
 
     background:
         linear-gradient(
@@ -163,8 +281,14 @@
             #0b0b0b
         );
 
-    border: 1px solid var(--btb-border);
-    border-left: 4px solid var(--btb-green);
+    border:
+        1px solid
+        var(--btb-border);
+
+    border-left:
+        4px solid
+        var(--btb-green);
+
     border-radius: 10px;
 }
 
@@ -176,17 +300,23 @@
     font-size: 18px;
 }
 
+
 /* -------------------------------------------------------- */
 /* CTA                                                      */
 /* -------------------------------------------------------- */
 
 .btb-matchup-article .btb-cta {
     margin-top: 48px;
+
     padding: 28px;
 
-    background: var(--btb-card-raised);
+    background:
+        var(--btb-card-raised);
 
-    border: 1px solid var(--btb-border);
+    border:
+        1px solid
+        var(--btb-border);
+
     border-radius: 12px;
 }
 
@@ -198,18 +328,22 @@
     display: inline-block;
 
     margin-top: 6px;
+
     padding: 13px 21px;
 
-    background: var(--btb-green);
+    background:
+        var(--btb-green);
 
-    color: #050505 !important;
+    color:
+        #050505 !important;
 
     border-radius: 7px;
 
     font-size: 15px;
     font-weight: 800;
 
-    text-decoration: none !important;
+    text-decoration:
+        none !important;
 
     transition:
         transform .15s ease,
@@ -218,17 +352,23 @@
 
 .btb-matchup-article .btb-button:hover {
     opacity: .9;
-    transform: translateY(-1px);
+
+    transform:
+        translateY(-1px);
 }
+
 
 /* -------------------------------------------------------- */
 /* Mobile                                                   */
 /* -------------------------------------------------------- */
 
-@media (max-width: 760px) {
+@media (
+    max-width: 760px
+) {
 
     .btb-matchup-article {
-        padding: 28px 17px 40px;
+        padding:
+            28px 17px 40px;
     }
 
     .btb-matchup-article h1 {
@@ -248,27 +388,38 @@
     }
 
     .btb-matchup-article .btb-take {
-        padding: 21px 19px 8px;
+        padding:
+            21px 19px 8px;
     }
 
     .btb-matchup-article .btb-cta {
-        padding: 22px 20px;
+        padding:
+            22px 20px;
     }
 
     .btb-matchup-article table {
         display: block;
+
         overflow-x: auto;
 
         white-space: nowrap;
 
         font-size: 14px;
 
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling:
+            touch;
     }
 
     .btb-matchup-article th,
     .btb-matchup-article td {
         padding: 12px;
+    }
+
+    .btb-matchup-article .btb-advice-pill {
+        padding:
+            5px 8px;
+
+        font-size: 11px;
     }
 }
 </style>
@@ -295,69 +446,72 @@
 <td>+3.5 (-115)</td>
 <td>Fanatics</td>
 <td>41.5%</td>
-<td>No Bet</td>
+<td><span class="btb-advice-pill btb-advice-no-bet">No Bet</span></td>
 </tr>
 <tr>
 <td>Syracuse Orange</td>
-<td>-3.5 (+100)</td>
+<td>-3.5 (-102)</td>
 <td>FanDuel</td>
 <td>58.3%</td>
-<td>Bet</td>
+<td><span class="btb-advice-pill btb-advice-bet">Bet</span></td>
 </tr>
 </tbody>
 </table>
 <section class="btb-take"><h2>Our Take</h2>
 <p>The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We make <strong>Syracuse -9.5</strong>, compared with a market line of -3.5.</p>
-<p>The best number we found is Syracuse -3.5 at +100. We give Syracuse a 58.3% chance to cover, which creates an 8.3% edge for us. That clears our 3% threshold, so Syracuse is a bet.</p>
-<p>We are not treating Syracuse’s 66-3 opener or California’s 45-24 loss as proof of what happens next. The useful takeaway is that Syracuse showed balance and disruption, producing 513 total yards without a turnover while holding New Hampshire to 159 yards with five sacks and three takeaways. That profile helps explain why our numbers are more favorable to Syracuse than the market is.</p>
+<p>The best number we found is Syracuse -3.5 at -102. We give Syracuse a 58.3% chance to cover, which creates an 7.8% edge for us. That clears our 3% threshold, so Syracuse is a bet.</p>
+<p>We are not simply reacting to Week 1, but the rushing matchup helps explain our position. Syracuse produced 238 rushing yards in its opener, while California allowed 277 on the ground against UCLA. Those single-game totals are context rather than proof, but they point toward a path that does not require Syracuse’s passing game to carry the offense. The expected debuts of Ahmad Miller and Ju’Juan Johnson could also give Syracuse more backfield options.</p>
+<p>California still showed enough offensive production to command respect. A. Mohammed ran for 120 yards, while Jaron-Keawe Sagapolutele threw for 271 yards and two touchdowns. The more interesting part for us is whether California can sustain scoring opportunities against a Syracuse defense that opened with five sacks, nine tackles for loss and three takeaways.</p>
+<p>Our main concern is the efficiency matchup between Syracuse’s passing offense and California’s pass defense, which favors California in our numbers. Even so, we see Syracuse having the stronger routes to control the game through its rushing attack and defensive pressure. For us, that combination provides enough support to back Syracuse rather than treating the opening-week results as the entire case.</p>
 </section><h3>What The Numbers Say</h3>
 <p>Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.</p>
-<table>
+<table class="btb-stats-table">
 <thead>
 <tr>
-<th></th>
-<th>Syracuse Orange</th>
-<th>California Golden Bears</th>
+<th>Stat</th>
+<th>Syracuse</th>
+<th>California</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Offensive Pass EPA</td>
-<td>138th</td>
-<td>90th</td>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#138</td>
+<td class="btb-better">#90</td>
 </tr>
 <tr>
-<td>Offensive Rush EPA</td>
-<td>95th</td>
-<td>136th</td>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#95</td>
+<td>#136</td>
 </tr>
 <tr>
-<td>Defensive Pass EPA</td>
-<td>131st</td>
-<td>26th</td>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#131</td>
+<td class="btb-better">#26</td>
 </tr>
 <tr>
-<td>Defensive Rush EPA</td>
-<td>124th</td>
-<td>138th</td>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#124</td>
+<td>#138</td>
 </tr>
 <tr>
-<td>Offensive Eckel Rate</td>
-<td>128th</td>
-<td>127th</td>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#128</td>
+<td class="btb-better">#127</td>
 </tr>
 <tr>
-<td>Defensive Eckel Rate</td>
-<td>79th</td>
-<td>63rd</td>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#79</td>
+<td class="btb-better">#63</td>
 </tr>
 </tbody>
 </table>
+
 <p>These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.</p>
 <h3>The Matchup To Watch</h3>
-<p>For us, the matchup to watch is Syracuse’s rushing offense against California’s front. California allowed 277 rushing yards to UCLA, while Syracuse ran for 238 yards in its opener and is expected to add Ahmad Miller and Ju’Juan Johnson to the backfield rotation. That matters because our matchup metrics identify California’s pass defense as the strongest obstacle for Syracuse.</p>
+<p>We are watching Syracuse’s passing offense against California’s pass defense. Steve Angeli threw for 263 yards in the opener, Umari Hatcher had 147 receiving yards and two touchdowns, and the offensive line received an 87.0 pass-blocking grade from PFF. The question is whether that protection and production translate into better down-to-down efficiency against a defense our numbers rate much more favorably than New Hampshire’s. If Syracuse gets enough through the air to complement the rushing game, California’s clearest route to keeping this close becomes harder to sustain.</p>
 <section class="btb-cta"><h2>Best Bets Of The Week</h2>
-<p>Our model found edges of at least 3% on <strong>19 games</strong> this week.</p>
+<p>Our model found edges of at least 3% on <strong>20 games</strong> this week.</p>
 <p>Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.</p>
 <p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p><a class="btb-button" href="https://www.btb-analytics.com/member-access">View Member Access</a></section>
 </div>

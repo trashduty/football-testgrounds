@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UNLV Rebels | -3.5 (+100) | FanDuel | 44.6% | No Bet |
-| North Texas Mean Green | +3.5 (-117) | BetRivers | 55.2% | Lean – doesn't meet our edge criteria to fully bet |
+| UNLV Rebels | -3.5 (+100) | FanDuel | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Texas Mean Green | +3.5 (-117) | BetRivers | 55.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | North Texas Mean Green | UNLV Rebels |
-|---|---|---|
-| Offensive Pass EPA | 6th | 35th |
-| Offensive Rush EPA | 14th | 3rd |
-| Defensive Pass EPA | 124th | 83rd |
-| Defensive Rush EPA | 107th | 126th |
-| Offensive Eckel Rate | 5th | 34th |
-| Defensive Eckel Rate | 66th | 85th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>North Texas</th>
+<th>UNLV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#6</td>
+<td>#35</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#14</td>
+<td class="btb-better">#3</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#124</td>
+<td class="btb-better">#83</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#107</td>
+<td>#126</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#5</td>
+<td>#34</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#66</td>
+<td>#85</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

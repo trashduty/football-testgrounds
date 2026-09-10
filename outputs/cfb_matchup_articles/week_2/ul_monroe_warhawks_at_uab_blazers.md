@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UL Monroe Warhawks | +10.0 (-105) | DraftKings | 42.2% | No Bet |
-| UAB Blazers | -10.5 (-105) | FanDuel | 56.4% | Bet |
+| UL Monroe Warhawks | +10.0 (-105) | DraftKings | 42.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UAB Blazers | -10.5 (-105) | FanDuel | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | UAB Blazers | UL Monroe Warhawks |
-|---|---|---|
-| Offensive Pass EPA | 109th | 119th |
-| Offensive Rush EPA | 52nd | 123rd |
-| Defensive Pass EPA | 122nd | 103rd |
-| Defensive Rush EPA | 131st | 113th |
-| Offensive Eckel Rate | 65th | 124th |
-| Defensive Eckel Rate | 137th | 134th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>UAB</th>
+<th>Louisiana Monroe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#109</td>
+<td>#119</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#52</td>
+<td>#123</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#122</td>
+<td class="btb-better">#103</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#131</td>
+<td class="btb-better">#113</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#65</td>
+<td>#124</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#137</td>
+<td class="btb-better">#134</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

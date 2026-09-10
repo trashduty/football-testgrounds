@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Eastern Michigan Eagles | +17.5 (-110) | Fanatics | 56.2% | Bet |
-| Michigan State Spartans | -17.5 (-105) | DraftKings | 44.0% | No Bet |
+| Eastern Michigan Eagles | +17.5 (-110) | Fanatics | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Michigan State Spartans | -17.5 (-105) | DraftKings | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Eastern Michigan Eagles | Michigan State Spartans |
-|---|---|---|
-| Offensive Pass EPA | 65th | 93rd |
-| Offensive Rush EPA | 69th | 107th |
-| Defensive Pass EPA | 55th | 102nd |
-| Defensive Rush EPA | 98th | 120th |
-| Offensive Eckel Rate | 99th | 109th |
-| Defensive Eckel Rate | 61st | 107th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Eastern Michigan</th>
+<th>Michigan State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#65</td>
+<td>#93</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#69</td>
+<td>#107</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#55</td>
+<td>#102</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#98</td>
+<td>#120</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#99</td>
+<td>#109</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#61</td>
+<td>#107</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

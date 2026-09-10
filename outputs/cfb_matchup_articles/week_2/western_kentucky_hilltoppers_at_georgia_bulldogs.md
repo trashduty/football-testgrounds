@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Kentucky Hilltoppers | +40.5 (-105) | Fanatics | 45.6% | No Bet |
-| Georgia Bulldogs | -40.5 (-110) | BetMGM | 53.7% | Lean – doesn't meet our edge criteria to fully bet |
+| Western Kentucky Hilltoppers | +40.5 (-106) | FanDuel | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Bulldogs | -40.5 (-110) | BetMGM | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Georgia Bulldogs | Western Kentucky Hilltoppers |
-|---|---|---|
-| Offensive Pass EPA | 28th | 86th |
-| Offensive Rush EPA | 18th | 88th |
-| Defensive Pass EPA | 19th | 46th |
-| Defensive Rush EPA | 8th | 72nd |
-| Offensive Eckel Rate | 35th | 97th |
-| Defensive Eckel Rate | 8th | 103rd |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Georgia</th>
+<th>Western Kentucky</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#28</td>
+<td>#86</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#18</td>
+<td>#88</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#19</td>
+<td>#46</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#8</td>
+<td>#72</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#35</td>
+<td>#97</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#8</td>
+<td>#103</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

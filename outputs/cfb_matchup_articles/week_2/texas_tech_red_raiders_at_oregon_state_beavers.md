@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -25.5 (-112) | DraftKings | 52.6% | No Bet |
-| Oregon State Beavers | +26.5 (-112) | BetRivers | 48.6% | No Bet |
+| Texas Tech Red Raiders | -25.5 (-112) | DraftKings | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon State Beavers | +26.5 (-110) | Fanatics | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Tech Red Raiders visit the Oregon State Beavers at Reser Stadium. We make **Texas Tech -27.5**, compared with a market line of -26.
+The Texas Tech Red Raiders visit the Oregon State Beavers at Reser Stadium. We make **Texas Tech -27.5**, compared with a market line of -26.5.
 
 The best number we found is Texas Tech -25.5 at -112. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Texas Tech Red Raiders | Oregon State Beavers |
-|---|---|---|
-| Offensive Pass EPA | 55th | 129th |
-| Offensive Rush EPA | 16th | 108th |
-| Defensive Pass EPA | 3rd | 65th |
-| Defensive Rush EPA | 4th | 65th |
-| Offensive Eckel Rate | 14th | 129th |
-| Defensive Eckel Rate | 1st | 76th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Texas Tech</th>
+<th>Oregon State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#55</td>
+<td>#129</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#16</td>
+<td>#108</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#3</td>
+<td>#65</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#4</td>
+<td>#65</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#14</td>
+<td>#129</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#1</td>
+<td>#76</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia State Panthers | +9.5 (-110) | Fanatics | 52.7% | No Bet |
-| Kennesaw State Owls | -8.5 (-105) | FanDuel | 49.2% | No Bet |
+| Georgia State Panthers | +9.5 (-110) | Fanatics | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kennesaw State Owls | -8.5 (-105) | FanDuel | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Georgia State Panthers | Kennesaw State Owls |
-|---|---|---|
-| Offensive Pass EPA | 82nd | 21st |
-| Offensive Rush EPA | 61st | 35th |
-| Defensive Pass EPA | 111th | 37th |
-| Defensive Rush EPA | 116th | 70th |
-| Offensive Eckel Rate | 107th | 50th |
-| Defensive Eckel Rate | 123rd | 91st |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Georgia State</th>
+<th>Kennesaw State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#82</td>
+<td class="btb-better">#21</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#61</td>
+<td class="btb-better">#35</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#111</td>
+<td class="btb-better">#37</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#116</td>
+<td class="btb-better">#70</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#107</td>
+<td class="btb-better">#50</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#123</td>
+<td class="btb-better">#91</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

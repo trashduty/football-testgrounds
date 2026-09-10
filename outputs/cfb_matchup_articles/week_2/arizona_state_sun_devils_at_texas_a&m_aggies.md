@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona State Sun Devils | +14.5 (-114) | BetRivers | 46.2% | No Bet |
-| Texas A&M Aggies | -14.5 (-105) | DraftKings | 54.3% | Bet |
+| Arizona State Sun Devils | +14.5 (-112) | BetMGM | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | -14.5 (-105) | DraftKings | 54.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Texas A&M Aggies | Arizona State Sun Devils |
-|---|---|---|
-| Offensive Pass EPA | 25th | 41st |
-| Offensive Rush EPA | 42nd | 77th |
-| Defensive Pass EPA | 6th | 38th |
-| Defensive Rush EPA | 69th | 48th |
-| Offensive Eckel Rate | 10th | 88th |
-| Defensive Eckel Rate | 2nd | 62nd |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Texas A&amp;M</th>
+<th>Arizona State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#25</td>
+<td>#41</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#42</td>
+<td>#77</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#6</td>
+<td>#38</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#69</td>
+<td class="btb-better">#48</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#10</td>
+<td>#88</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#2</td>
+<td>#62</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

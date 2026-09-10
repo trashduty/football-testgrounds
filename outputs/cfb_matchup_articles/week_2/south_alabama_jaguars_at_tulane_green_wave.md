@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Alabama Jaguars | +9.5 (-105) | DraftKings | 49.2% | No Bet |
-| Tulane Green Wave | -9.5 (-112) | BetRivers | 51.2% | No Bet |
+| South Alabama Jaguars | +9.5 (-105) | DraftKings | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tulane Green Wave | -9.5 (-112) | BetRivers | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Tulane Green Wave | South Alabama Jaguars |
-|---|---|---|
-| Offensive Pass EPA | 15th | 102nd |
-| Offensive Rush EPA | 87th | 58th |
-| Defensive Pass EPA | 58th | 125th |
-| Defensive Rush EPA | 22nd | 89th |
-| Offensive Eckel Rate | 7th | 79th |
-| Defensive Eckel Rate | 35th | 81st |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Tulane</th>
+<th>South Alabama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#15</td>
+<td>#102</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#87</td>
+<td class="btb-better">#58</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#58</td>
+<td>#125</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#22</td>
+<td>#89</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#7</td>
+<td>#79</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#35</td>
+<td>#81</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

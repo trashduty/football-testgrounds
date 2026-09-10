@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Maryland Terrapins | -12.0 (-109) | BetRivers | 38.7% | No Bet |
-| UConn Huskies | +13.5 (-112) | DraftKings | 63.1% | Bet |
+| Maryland Terrapins | -12.5 (-110) | FanDuel | 37.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UConn Huskies | +12.5 (-105) | DraftKings | 62.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Maryland Terrapins visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +7**, compared with a market line of +13.
+The Maryland Terrapins visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +6.5**, compared with a market line of +12.5.
 
-The best number we found is Connecticut +13.5 at -112. We give Connecticut a 63.1% chance to cover, which creates an 10.3% edge for us. That clears our 3% threshold, so Connecticut is a bet.
+The best number we found is Connecticut +12.5 at -105. We give Connecticut a 62.7% chance to cover, which creates an 11.4% edge for us. That clears our 3% threshold, so Connecticut is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | UConn Huskies | Maryland Terrapins |
-|---|---|---|
-| Offensive Pass EPA | 10th | 92nd |
-| Offensive Rush EPA | 44th | 115th |
-| Defensive Pass EPA | 36th | 61st |
-| Defensive Rush EPA | 96th | 66th |
-| Offensive Eckel Rate | 22nd | 95th |
-| Defensive Eckel Rate | 37th | 98th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Connecticut</th>
+<th>Maryland</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#10</td>
+<td>#92</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#44</td>
+<td>#115</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#36</td>
+<td>#61</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#96</td>
+<td class="btb-better">#66</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#22</td>
+<td>#95</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#37</td>
+<td>#98</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

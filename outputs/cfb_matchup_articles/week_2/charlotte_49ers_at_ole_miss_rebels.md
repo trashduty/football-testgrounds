@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Charlotte 49ers | +47.5 (-108) | BetMGM | 60.3% | Bet |
-| Ole Miss Rebels | -47.5 (-105) | DraftKings | 39.3% | No Bet |
+| Charlotte 49ers | +47.5 (-108) | BetMGM | 60.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Ole Miss Rebels | -47.5 (-105) | DraftKings | 39.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Charlotte 49ers | Ole Miss Rebels |
-|---|---|---|
-| Offensive Pass EPA | 133rd | 23rd |
-| Offensive Rush EPA | 138th | 25th |
-| Defensive Pass EPA | 117th | 45th |
-| Defensive Rush EPA | 136th | 104th |
-| Offensive Eckel Rate | 136th | 6th |
-| Defensive Eckel Rate | 136th | 31st |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Charlotte</th>
+<th>Ole Miss</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#133</td>
+<td class="btb-better">#23</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#138</td>
+<td class="btb-better">#25</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#117</td>
+<td class="btb-better">#45</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#136</td>
+<td class="btb-better">#104</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#136</td>
+<td class="btb-better">#6</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#136</td>
+<td class="btb-better">#31</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

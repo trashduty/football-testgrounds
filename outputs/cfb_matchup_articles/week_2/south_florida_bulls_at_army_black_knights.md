@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Florida Bulls | +3.5 (-112) | BetMGM | 54.4% | Lean – doesn't meet our edge criteria to fully bet |
-| Army Black Knights | -3.5 (-102) | DraftKings | 45.4% | No Bet |
+| South Florida Bulls | +3.5 (-112) | BetMGM | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Army Black Knights | -3.5 (-105) | FanDuel | 45.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | South Florida Bulls | Army Black Knights |
-|---|---|---|
-| Offensive Pass EPA | 1st | 37th |
-| Offensive Rush EPA | 11th | 24th |
-| Defensive Pass EPA | 20th | 97th |
-| Defensive Rush EPA | 6th | 58th |
-| Offensive Eckel Rate | 2nd | 56th |
-| Defensive Eckel Rate | 25th | 109th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>South Florida</th>
+<th>Army</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#1</td>
+<td>#37</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#11</td>
+<td>#24</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#20</td>
+<td>#97</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#6</td>
+<td>#58</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#2</td>
+<td>#56</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#25</td>
+<td>#109</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

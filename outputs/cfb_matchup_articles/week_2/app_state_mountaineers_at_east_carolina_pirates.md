@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| App State Mountaineers | +6.5 (+100) | FanDuel | 59.0% | Bet |
-| East Carolina Pirates | -7.0 (-106) | BetRivers | 38.0% | No Bet |
+| App State Mountaineers | +6.5 (+100) | FanDuel | 59.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| East Carolina Pirates | -7.0 (+100) | DraftKings | 38.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | App State Mountaineers | East Carolina Pirates |
-|---|---|---|
-| Offensive Pass EPA | 70th | 32nd |
-| Offensive Rush EPA | 90th | 65th |
-| Defensive Pass EPA | 66th | 33rd |
-| Defensive Rush EPA | 54th | 45th |
-| Offensive Eckel Rate | 89th | 64th |
-| Defensive Eckel Rate | 111th | 64th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>App State</th>
+<th>East Carolina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#70</td>
+<td class="btb-better">#32</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#90</td>
+<td class="btb-better">#65</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#66</td>
+<td class="btb-better">#33</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#54</td>
+<td class="btb-better">#45</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#89</td>
+<td class="btb-better">#64</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#111</td>
+<td class="btb-better">#64</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

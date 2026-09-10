@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Mississippi State Bulldogs | +1.0 (-110) | Fanatics | 44.7% | No Bet |
-| Minnesota Golden Gophers | +1.0 (-112) | BetMGM | 56.6% | Bet |
+| Mississippi State Bulldogs | +1.0 (-110) | Fanatics | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | +1.0 (-112) | BetMGM | 56.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Minnesota Golden Gophers | Mississippi State Bulldogs |
-|---|---|---|
-| Offensive Pass EPA | 98th | 114th |
-| Offensive Rush EPA | 124th | 45th |
-| Defensive Pass EPA | 105th | 69th |
-| Defensive Rush EPA | 103rd | 108th |
-| Offensive Eckel Rate | 111th | 66th |
-| Defensive Eckel Rate | 58th | 77th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Minnesota</th>
+<th>Mississippi State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#98</td>
+<td>#114</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#124</td>
+<td class="btb-better">#45</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#105</td>
+<td class="btb-better">#69</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#103</td>
+<td>#108</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#111</td>
+<td class="btb-better">#66</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#58</td>
+<td>#77</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

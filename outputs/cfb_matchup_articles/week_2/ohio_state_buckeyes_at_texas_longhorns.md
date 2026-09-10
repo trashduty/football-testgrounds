@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ohio State Buckeyes | +1.5 (-108) | DraftKings | 47.4% | No Bet |
-| Texas Longhorns | -1.5 (-110) | FanDuel | 52.1% | No Bet |
+| Ohio State Buckeyes | +1.5 (-108) | DraftKings | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Longhorns | -1.5 (-110) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Texas Longhorns | Ohio State Buckeyes |
-|---|---|---|
-| Offensive Pass EPA | 14th | 2nd |
-| Offensive Rush EPA | 100th | 79th |
-| Defensive Pass EPA | 84th | 10th |
-| Defensive Rush EPA | 21st | 2nd |
-| Offensive Eckel Rate | 51st | 4th |
-| Defensive Eckel Rate | 21st | 3rd |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Texas</th>
+<th>Ohio State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#14</td>
+<td class="btb-better">#2</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td>#100</td>
+<td class="btb-better">#79</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#84</td>
+<td class="btb-better">#10</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#21</td>
+<td class="btb-better">#2</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#51</td>
+<td class="btb-better">#4</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#21</td>
+<td class="btb-better">#3</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

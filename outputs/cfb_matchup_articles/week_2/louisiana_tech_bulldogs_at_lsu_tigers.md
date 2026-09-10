@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Tech Bulldogs | +35.5 (-108) | BetMGM | 54.7% | Lean – doesn't meet our edge criteria to fully bet |
-| LSU Tigers | -35.5 (+100) | DraftKings | 44.5% | No Bet |
+| Louisiana Tech Bulldogs | +35.5 (-108) | BetMGM | 54.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| LSU Tigers | -35.5 (+100) | DraftKings | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -21,20 +21,53 @@ We are not trying to predict this game from one recent result. For us, the quest
 
 Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
 
-| | Louisiana Tech Bulldogs | LSU Tigers |
-|---|---|---|
-| Offensive Pass EPA | 46th | 112th |
-| Offensive Rush EPA | 27th | 75th |
-| Defensive Pass EPA | 39th | 31st |
-| Defensive Rush EPA | 68th | 9th |
-| Offensive Eckel Rate | 62nd | 75th |
-| Defensive Eckel Rate | 60th | 38th |
+<table class="btb-stats-table">
+<thead>
+<tr>
+<th>Stat</th>
+<th>Louisiana Tech</th>
+<th>LSU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#46</td>
+<td>#112</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#27</td>
+<td>#75</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#39</td>
+<td class="btb-better">#31</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#68</td>
+<td class="btb-better">#9</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#62</td>
+<td>#75</td>
+</tr>
+<tr>
+<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#60</td>
+<td class="btb-better">#38</td>
+</tr>
+</tbody>
+</table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
