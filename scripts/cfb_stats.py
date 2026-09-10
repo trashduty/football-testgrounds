@@ -28,6 +28,7 @@ FBS ranks such as 200th or 300th.
 from __future__ import annotations
 
 import os
+import html
 import re
 from typing import Dict, List, Optional, Tuple
 
