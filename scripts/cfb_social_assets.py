@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Generate X-ready social assets for BTB Analytics CFB matchup articles.
+Generate social and SEO assets for BTB Analytics CFB matchup articles.
 
-Outputs:
-1. Model-vs-market hero graphic
-2. Matchup stats graphic
+Outputs per matchup:
+1. X model-vs-market hero graphic
+2. X matchup-stats graphic
 3. Ready-to-paste X caption
+4. Fact-grounded SEO title + description
 
 Designed for 1200x675 landscape images.
 """
@@ -13,9 +14,12 @@ Designed for 1200x675 landscape images.
 from __future__ import annotations
 
 import io
-import math
+
 from pathlib import Path
-from typing import Dict, Optional
+from typing import (
+    Dict,
+    Optional,
+)
 
 import pandas as pd
 import requests
@@ -55,7 +59,8 @@ BTB_LOGO_URL = (
 )
 
 MEMBER_URL = (
-    "https://www.btb-analytics.com/member-access"
+    "https://www.btb-analytics.com/"
+    "member-access"
 )
 
 
@@ -112,12 +117,16 @@ def _safe_float(
         return None
 
     try:
-        return float(value)
+
+        return float(
+            value
+        )
 
     except (
         TypeError,
         ValueError,
     ):
+
         return None
 
 
@@ -133,9 +142,14 @@ def _format_line(
         return "N/A"
 
     if value > 0:
-        return f"+{value:g}"
 
-    return f"{value:g}"
+        return (
+            f"+{value:g}"
+        )
+
+    return (
+        f"{value:g}"
+    )
 
 
 def _format_price(
@@ -150,9 +164,14 @@ def _format_price(
         return ""
 
     if value > 0:
-        return f"+{value:.0f}"
 
-    return f"{value:.0f}"
+        return (
+            f"+{value:.0f}"
+        )
+
+    return (
+        f"{value:.0f}"
+    )
 
 
 def _format_percent(
@@ -168,9 +187,12 @@ def _format_percent(
         return "N/A"
 
     if abs(value) <= 1:
+
         value *= 100
 
-    return f"{value:.{digits}f}%"
+    return (
+        f"{value:.{digits}f}%"
+    )
 
 
 def _format_edge(
@@ -213,7 +235,7 @@ def _download_image(
     except Exception as exc:
 
         print(
-            f"Social graphic image download failed "
+            "Social graphic image download failed "
             f"for {url}: {exc}"
         )
 
@@ -272,7 +294,10 @@ def _text_width(
 ) -> float:
 
     box = draw.textbbox(
-        (0, 0),
+        (
+            0,
+            0,
+        ),
         text,
         font=font,
     )
@@ -299,7 +324,11 @@ def _center_text(
 
     draw.text(
         (
-            (WIDTH - width) / 2,
+            (
+                WIDTH
+                - width
+            )
+            / 2,
             y,
         ),
         text,
@@ -339,6 +368,7 @@ def _wrap_text(
         return []
 
     lines = []
+
     current = words[0]
 
     for word in words[1:]:
@@ -355,12 +385,15 @@ def _wrap_text(
             )
             <= max_width
         ):
+
             current = candidate
 
         else:
+
             lines.append(
                 current
             )
+
             current = word
 
     lines.append(
@@ -369,6 +402,10 @@ def _wrap_text(
 
     return lines
 
+
+# --------------------------------------------------------------------------- #
+# BTB logo helper
+# --------------------------------------------------------------------------- #
 
 def _draw_btb_brand(
     canvas: Image.Image,
@@ -379,10 +416,10 @@ def _draw_btb_brand(
     """
     Draw compact BTB branding.
 
-    placement:
-        "top-right"
-        "bottom-right"
-        "bottom-center"
+    Supported placements:
+    - top-right
+    - bottom-right
+    - bottom-center
     """
 
     logo = _download_image(
@@ -393,7 +430,6 @@ def _draw_btb_brand(
     if logo is None:
         return
 
-    # Smaller than the original version
     logo = _fit_image(
         logo,
         90,
@@ -486,9 +522,9 @@ def build_model_graphic(
 
     session = requests.Session()
 
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
     # Header
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
 
     draw.text(
         (
@@ -535,9 +571,9 @@ def build_model_graphic(
 
         y += 54
 
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
     # Team logos
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
 
     away_img = _download_image(
         away_logo,
@@ -579,9 +615,9 @@ def build_model_graphic(
             90,
         )
 
-    # ---------------------------------------------------------
-    # Main comparison cards
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # Model vs market cards
+    # ------------------------------------------------------------------
 
     card_y1 = 185
     card_y2 = 365
@@ -702,9 +738,9 @@ def build_model_graphic(
             WHITE,
         )
 
-    # ---------------------------------------------------------
-    # Metrics
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # Metric cards
+    # ------------------------------------------------------------------
 
     metric_y1 = 435
     metric_y2 = 555
@@ -714,15 +750,21 @@ def build_model_graphic(
 
     starts = [
         45,
-        45 + metric_width + gap_width,
-        45 + (
+        45
+        + metric_width
+        + gap_width,
+        45
+        + (
             metric_width
             + gap_width
-        ) * 2,
-        45 + (
+        )
+        * 2,
+        45
+        + (
             metric_width
             + gap_width
-        ) * 3,
+        )
+        * 3,
     ]
 
     labels = [
@@ -783,7 +825,10 @@ def build_model_graphic(
             fill=MUTED,
         )
 
-        if labels[index] == "OUR CALL":
+        if (
+            labels[index]
+            == "OUR CALL"
+        ):
 
             value_color = (
                 BTB_GREEN
@@ -826,6 +871,7 @@ def build_model_graphic(
         canvas,
         draw,
         session,
+        placement="bottom-right",
     )
 
     output_path.parent.mkdir(
@@ -860,14 +906,18 @@ def _rank(
     )
 
     row = ranked_stats[
-        ids == int(team_id)
+        ids
+        == int(team_id)
     ]
 
     if row.empty:
         return None
 
-    value = row.iloc[0].get(
-        column
+    value = (
+        row.iloc[0]
+        .get(
+            column
+        )
     )
 
     if (
@@ -876,7 +926,9 @@ def _rank(
     ):
         return None
 
-    return int(value)
+    return int(
+        value
+    )
 
 
 def _rank_text(
@@ -938,6 +990,10 @@ def build_stats_graphic(
 
     session = requests.Session()
 
+    # ------------------------------------------------------------------
+    # Header
+    # ------------------------------------------------------------------
+
     draw.text(
         (
             45,
@@ -991,15 +1047,11 @@ def build_stats_graphic(
         ),
     ]
 
-    left_x = 45
     stat_x = 405
-    right_x = 930
 
-    header_y = 125
-
-    # ---------------------------------------------------------
-    # Logos
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # Team logos
+    # ------------------------------------------------------------------
 
     bet_img = _download_image(
         bet_logo,
@@ -1041,60 +1093,65 @@ def build_stats_graphic(
             145,
         )
 
+    bet_name_font = _font(
+        22,
+        bold=True,
+    )
+
     bet_name_width = _text_width(
         draw,
         bet_short,
-        _font(
-            22,
-            bold=True,
-        ),
+        bet_name_font,
     )
 
     draw.text(
         (
-            185 - bet_name_width / 2,
+            185
+            - bet_name_width
+            / 2,
             178,
         ),
         bet_short,
-        font=_font(
-            22,
-            bold=True,
-        ),
+        font=bet_name_font,
         fill=WHITE,
+    )
+
+    opp_name_font = _font(
+        22,
+        bold=True,
     )
 
     opp_name_width = _text_width(
         draw,
         opp_short,
-        _font(
-            22,
-            bold=True,
-        ),
+        opp_name_font,
     )
 
     draw.text(
         (
-            1045 - opp_name_width / 2,
+            1045
+            - opp_name_width
+            / 2,
             178,
         ),
         opp_short,
-        font=_font(
-            22,
-            bold=True,
-        ),
+        font=opp_name_font,
         fill=WHITE,
     )
 
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
     # Rows
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
 
     row_top = 225
     row_height = 56
 
-    for index, (
-        label,
-        column,
+    for (
+        index,
+        (
+            label,
+            column,
+        ),
     ) in enumerate(
         metrics
     ):
@@ -1144,7 +1201,8 @@ def build_stats_graphic(
             bet_rank is not None
             and (
                 opp_rank is None
-                or bet_rank < opp_rank
+                or bet_rank
+                < opp_rank
             )
         )
 
@@ -1152,7 +1210,8 @@ def build_stats_graphic(
             opp_rank is not None
             and (
                 bet_rank is None
-                or opp_rank < bet_rank
+                or opp_rank
+                < bet_rank
             )
         )
 
@@ -1205,7 +1264,9 @@ def build_stats_graphic(
 
         draw.text(
             (
-                185 - bet_width / 2,
+                185
+                - bet_width
+                / 2,
                 y1 + 13,
             ),
             bet_text,
@@ -1225,13 +1286,19 @@ def build_stats_graphic(
 
         draw.text(
             (
-                1045 - opp_width / 2,
+                1045
+                - opp_width
+                / 2,
                 y1 + 13,
             ),
             opp_text,
             font=opp_font,
             fill=opp_color,
         )
+
+    # ------------------------------------------------------------------
+    # Footer
+    # ------------------------------------------------------------------
 
     draw.text(
         (
@@ -1240,8 +1307,8 @@ def build_stats_graphic(
         ),
         (
             "Lower rank is better. "
-            "Green highlights the stronger side "
-            "in each category."
+            "Green highlights the stronger "
+            "side in each category."
         ),
         font=_font(
             15,
@@ -1289,52 +1356,36 @@ def build_x_caption(
     article_url: Optional[str] = None,
 ) -> str:
 
-    model_text = (
-        _format_line(
-            model_prediction
-        )
+    model_text = _format_line(
+        model_prediction
     )
 
-    market_text = (
-        _format_line(
-            market_line
-        )
+    market_text = _format_line(
+        market_line
     )
 
-    best_text = (
-        _format_line(
-            best_line
-        )
+    best_text = _format_line(
+        best_line
     )
 
-    price_text = (
-        _format_price(
-            best_price
-        )
+    price_text = _format_price(
+        best_price
     )
 
-    cover_text = (
-        _format_percent(
-            cover_probability
-        )
+    cover_text = _format_percent(
+        cover_probability
     )
 
-    edge_text = (
-        _format_edge(
-            edge
-        )
+    edge_text = _format_edge(
+        edge
     )
 
-    model_float = (
-        _safe_float(
-            model_prediction
-        )
+    model_float = _safe_float(
+        model_prediction
     )
 
-    market_float = (
-        _safe_float(
-            market_line
-        )
+    market_float = _safe_float(
+        market_line
     )
 
     if (
@@ -1348,44 +1399,50 @@ def build_x_caption(
         )
 
         opening = (
-            f"Our model is {gap:g} points away "
-            f"from the market on "
+            f"Our model is {gap:g} points "
+            f"away from the market on "
             f"{away_short}-{home_short}."
         )
 
     else:
 
         opening = (
-            f"Our model disagrees with the market "
-            f"on {away_short}-{home_short}."
+            "Our model disagrees with "
+            f"the market on "
+            f"{away_short}-{home_short}."
         )
 
     if has_bet:
 
         middle = (
-            f"\n\nWe make {bet_short} {model_text}. "
+            f"\n\nWe make "
+            f"{bet_short} {model_text}. "
             f"The market is {market_text}."
             f"\n\nBest number: "
             f"{bet_short} {best_text} "
             f"{price_text}. "
-            f"We give it a {cover_text} chance "
-            f"to cover with a {edge_text} edge."
-            f"\n\nWe broke down what is driving "
-            f"the difference — including the "
-            f"matchup that concerns us most."
+            f"We give it a {cover_text} "
+            f"chance to cover with a "
+            f"{edge_text} edge."
+            f"\n\nWe broke down what is "
+            f"driving the difference — "
+            f"including the matchup that "
+            f"concerns us most."
         )
 
     else:
 
         middle = (
-            f"\n\nWe make {bet_short} {model_text}. "
+            f"\n\nWe make "
+            f"{bet_short} {model_text}. "
             f"The market is {market_text}."
-            f"\n\nWe see some disagreement, but "
-            f"the available price does not clear "
-            f"our threshold, so we are passing."
-            f"\n\nWe broke down why our model "
-            f"differs and what would matter most "
-            f"in the matchup."
+            f"\n\nWe see some disagreement, "
+            f"but the available price does "
+            f"not clear our threshold, "
+            f"so we are passing."
+            f"\n\nWe broke down why our "
+            f"model differs and what would "
+            f"matter most in the matchup."
         )
 
     if article_url:
@@ -1409,7 +1466,121 @@ def build_x_caption(
 
 
 # --------------------------------------------------------------------------- #
-# Master function
+# SEO metadata
+# --------------------------------------------------------------------------- #
+
+def build_seo_metadata(
+    *,
+    away_short: str,
+    home_short: str,
+    bet_short: str,
+    model_prediction,
+    market_line,
+    cover_probability,
+    has_bet: bool,
+) -> Dict[str, str]:
+    """
+    Build evidence-based SEO title and description.
+
+    This is deliberately deterministic and grounded in model fields
+    already present in the article.
+
+    It does not invent:
+    - injuries
+    - results
+    - rankings
+    - betting claims
+    - expert labels
+    - guaranteed outcomes
+
+    The goal is to target likely search intent around:
+    - Team A vs Team B prediction
+    - Team A vs Team B analysis
+    - model spread
+    - cover probability
+    """
+
+    model_text = _format_line(
+        model_prediction
+    )
+
+    market_text = _format_line(
+        market_line
+    )
+
+    cover_text = _format_percent(
+        cover_probability
+    )
+
+    # ------------------------------------------------------------------
+    # SEO title
+    #
+    # Keep the matchup first because this is the strongest search intent.
+    # ------------------------------------------------------------------
+
+    seo_title = (
+        f"{away_short} vs {home_short} "
+        f"Prediction, Model Spread & Analysis"
+    )
+
+    # ------------------------------------------------------------------
+    # SEO description
+    # ------------------------------------------------------------------
+
+    if (
+        model_prediction is not None
+        and market_line is not None
+        and cover_probability is not None
+    ):
+
+        seo_description = (
+            f"Our model makes "
+            f"{bet_short} {model_text} "
+            f"vs a market line of "
+            f"{market_text}. "
+            f"See the best available spread, "
+            f"{cover_text} cover probability, "
+            f"matchup stats, and our full "
+            f"{away_short}-{home_short} analysis."
+        )
+
+    elif (
+        model_prediction is not None
+        and market_line is not None
+    ):
+
+        seo_description = (
+            f"Our model makes "
+            f"{bet_short} {model_text} "
+            f"vs a market line of "
+            f"{market_text}. "
+            f"See our full "
+            f"{away_short} vs {home_short} "
+            f"prediction, matchup stats, "
+            f"and model analysis."
+        )
+
+    else:
+
+        seo_description = (
+            f"See our "
+            f"{away_short} vs {home_short} "
+            f"college football prediction, "
+            f"model view, cover probability, "
+            f"matchup stats, and full game analysis."
+        )
+
+    return {
+        "seo_title":
+            seo_title,
+
+        "seo_description":
+            seo_description,
+    }
+
+
+# --------------------------------------------------------------------------- #
+# Master generator
 # --------------------------------------------------------------------------- #
 
 def generate_social_assets(
@@ -1486,6 +1657,10 @@ def generate_social_assets(
         )
     )
 
+    # ------------------------------------------------------------------
+    # Determine logos for stats graphic
+    # ------------------------------------------------------------------
+
     if bet_id == away_id:
 
         bet_logo = away_logo
@@ -1495,6 +1670,10 @@ def generate_social_assets(
 
         bet_logo = home_logo
         opp_logo = away_logo
+
+    # ------------------------------------------------------------------
+    # Output paths
+    # ------------------------------------------------------------------
 
     model_path = (
         output_dir
@@ -1510,6 +1689,15 @@ def generate_social_assets(
         output_dir
         / f"{game_slug}_x_caption.txt"
     )
+
+    seo_path = (
+        output_dir
+        / f"{game_slug}_seo.txt"
+    )
+
+    # ------------------------------------------------------------------
+    # Model graphic
+    # ------------------------------------------------------------------
 
     build_model_graphic(
         output_path=model_path,
@@ -1560,6 +1748,10 @@ def generate_social_assets(
         ),
     )
 
+    # ------------------------------------------------------------------
+    # Stats graphic
+    # ------------------------------------------------------------------
+
     build_stats_graphic(
         output_path=stats_path,
         bet_id=bet_id,
@@ -1570,6 +1762,10 @@ def generate_social_assets(
         opp_logo=opp_logo,
         ranked_stats=ranked_stats,
     )
+
+    # ------------------------------------------------------------------
+    # X caption
+    # ------------------------------------------------------------------
 
     caption = build_x_caption(
         away_short=away_short,
@@ -1618,6 +1814,52 @@ def generate_social_assets(
         encoding="utf-8",
     )
 
+    # ------------------------------------------------------------------
+    # SEO title + description
+    # ------------------------------------------------------------------
+
+    seo = build_seo_metadata(
+        away_short=away_short,
+        home_short=home_short,
+        bet_short=bet_short,
+        model_prediction=(
+            article_payload.get(
+                "model_prediction"
+            )
+        ),
+        market_line=(
+            article_payload.get(
+                "market_line"
+            )
+        ),
+        cover_probability=(
+            article_payload.get(
+                "cover_probability"
+            )
+        ),
+        has_bet=bool(
+            article_payload.get(
+                "has_bet"
+            )
+        ),
+    )
+
+    seo_text = (
+        "SEO Title:\n"
+        f"{seo['seo_title']}\n\n"
+        "SEO Description:\n"
+        f"{seo['seo_description']}\n"
+    )
+
+    seo_path.write_text(
+        seo_text,
+        encoding="utf-8",
+    )
+
+    # ------------------------------------------------------------------
+    # Return manifest
+    # ------------------------------------------------------------------
+
     return {
         "x_model_graphic":
             model_path.name,
@@ -1627,4 +1869,17 @@ def generate_social_assets(
 
         "x_caption":
             caption_path.name,
+
+        "seo_file":
+            seo_path.name,
+
+        "seo_title":
+            seo[
+                "seo_title"
+            ],
+
+        "seo_description":
+            seo[
+                "seo_description"
+            ],
     }
