@@ -374,12 +374,15 @@ def _draw_btb_brand(
     canvas: Image.Image,
     draw: ImageDraw.ImageDraw,
     session: requests.Session,
+    placement: str = "bottom-right",
 ) -> None:
     """
-    Draw compact BTB branding in the upper-right corner.
+    Draw compact BTB branding.
 
-    Keeping the branding at the top prevents it from interfering
-    with footnotes/captions at the bottom of social graphics.
+    placement:
+        "top-right"
+        "bottom-right"
+        "bottom-center"
     """
 
     logo = _download_image(
@@ -387,30 +390,63 @@ def _draw_btb_brand(
         session,
     )
 
-    # Compact logo in upper-right
-    if logo is not None:
+    if logo is None:
+        return
 
-        logo = _fit_image(
-            logo,
-            76,
-            52,
-        )
+    # Smaller than the original version
+    logo = _fit_image(
+        logo,
+        90,
+        55,
+    )
 
-        logo_x = (
+    if placement == "top-right":
+
+        x = (
             WIDTH
             - logo.width
-            - 42
+            - 35
         )
 
-        logo_y = 28
+        y = 24
 
-        canvas.alpha_composite(
-            logo,
+    elif placement == "bottom-center":
+
+        x = int(
             (
-                logo_x,
-                logo_y,
-            ),
+                WIDTH
+                - logo.width
+            )
+            / 2
         )
+
+        y = (
+            HEIGHT
+            - logo.height
+            - 14
+        )
+
+    else:
+
+        x = (
+            WIDTH
+            - logo.width
+            - 35
+        )
+
+        y = (
+            HEIGHT
+            - logo.height
+            - 20
+        )
+
+    canvas.alpha_composite(
+        logo,
+        (
+            x,
+            y,
+        ),
+    )
 
 
 # --------------------------------------------------------------------------- #
@@ -1217,6 +1253,7 @@ def build_stats_graphic(
         canvas,
         draw,
         session,
+        placement="bottom-center",
     )
 
     output_path.parent.mkdir(
