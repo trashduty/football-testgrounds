@@ -631,26 +631,36 @@ def build_team_stats(
     """
     Build unique FBS team-level rolling stats.
 
+    Important distinction:
+
+    FCS/non-FBS opponents can remain in the GAME-LEVEL data because games
+    against them are part of an FBS team's rolling performance history.
+
+    But only teams returned by CFBD's current get_fbs_teams() endpoint are
+    allowed into the final ranking population.
+
     Pipeline:
 
-    EPA/Eckel
+    EPA + Eckel game data
         ↓
-    unique team-season-week rows
+    one team-season-week row
         ↓
-    rolling last N games
+    rolling last N games for every observed team
         ↓
-    unique CFBD school -> team_id mapping
+    map current FBS teams to team_id
         ↓
-    unique team_id -> BTB mapping
+    DROP teams with no FBS team_id
         ↓
-    one row per FBS team
+    attach BTB crosswalk
         ↓
-    FBS rankings
+    one row per FBS team_id
+        ↓
+    rank across FBS only
     """
 
-    # ---------------------------------------------------------
-    # 1. Combine EPA + Eckel
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 1. Combine EPA and Eckel data
+    # ------------------------------------------------------------------
 
     game_level = epa.merge(
         eckel,
@@ -665,13 +675,15 @@ def build_team_stats(
     present_stats = [
         column
         for column in STAT_COLS
-        if column
-        in game_level.columns
+        if column in game_level.columns
     ]
 
-    # ---------------------------------------------------------
-    # 2. Force one team-season-week row
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 2. Guarantee one observation per team-season-week
+    #
+    # This prevents API duplication or merge artifacts from flowing into
+    # the rolling averages.
+    # ------------------------------------------------------------------
 
     game_level = (
         game_level
@@ -682,46 +694,44 @@ def build_team_stats(
                 "week",
             ],
             as_index=False,
+            dropna=False,
         )[present_stats]
         .mean()
     )
 
-    # ---------------------------------------------------------
-    # 3. Rolling last N
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 3. Calculate rolling last-N-game averages
+    #
+    # This can still include FCS/non-FBS teams at this point.
+    # That is okay.
+    # ------------------------------------------------------------------
 
-    rolled = (
-        rolling_last_n_games(
-            game_level,
-            n=n,
-        )
+    rolled = rolling_last_n_games(
+        game_level,
+        n=n,
     )
 
+    # rolling_last_n_games should already be unique by team,
+    # but enforce it explicitly.
     rolled = (
         rolled
         .drop_duplicates(
             subset=["team"],
             keep="first",
         )
-        .reset_index(
-            drop=True
-        )
+        .reset_index(drop=True)
     )
 
-    # ---------------------------------------------------------
-    # 4. Clean CFBD team mapping
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 4. Build a clean CURRENT FBS school -> team_id mapping
+    # ------------------------------------------------------------------
 
     teams_clean = teams.copy()
 
-    teams_clean[
-        "team_id"
-    ] = pd.to_numeric(
+    teams_clean["team_id"] = pd.to_numeric(
         teams_clean["team_id"],
         errors="coerce",
-    ).astype(
-        "Int64"
-    )
+    ).astype("Int64")
 
     teams_clean = (
         teams_clean
@@ -741,56 +751,122 @@ def build_team_stats(
                 "team_id",
             ]
         ]
+        .reset_index(drop=True)
     )
 
-    # ---------------------------------------------------------
-    # 5. Clean crosswalk
-    # ---------------------------------------------------------
-
-    crosswalk_clean = (
-        crosswalk.copy()
+    # Helpful validation: each CFBD FBS school should map to one team ID.
+    duplicate_fbs_names = (
+        teams_clean["team"]
+        .duplicated()
+        .sum()
     )
 
-    crosswalk_clean[
-        "team_id"
-    ] = pd.to_numeric(
-        crosswalk_clean[
-            "team_id"
-        ],
-        errors="coerce",
-    ).astype(
-        "Int64"
-    )
-
-    crosswalk_clean = (
-        crosswalk_clean
-        .dropna(
-            subset=[
-                "team_id"
-            ]
+    if duplicate_fbs_names:
+        raise RuntimeError(
+            "Duplicate school names found in CFBD FBS team mapping."
         )
-        .drop_duplicates(
-            subset=[
-                "team_id"
-            ],
-            keep="first",
-        )
-    )
 
-    # ---------------------------------------------------------
-    # 6. Attach IDs
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 5. Attach FBS team IDs
+    #
+    # Use many_to_one defensively. rolled should be one row/team and
+    # teams_clean should be one mapping/team.
+    # ------------------------------------------------------------------
 
     keyed = rolled.merge(
         teams_clean,
         on="team",
         how="left",
-        validate="one_to_one",
+        validate="many_to_one",
     )
 
-    # ---------------------------------------------------------
-    # 7. Attach BTB names
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 6. REMOVE NON-FBS / UNMAPPED TEAMS BEFORE USING team_id AS A KEY
+    #
+    # THIS IS THE FIX FOR THE ERROR YOU JUST HIT.
+    #
+    # FCS teams may have rolling data, but they should not participate in
+    # FBS rankings and do not have current FBS team IDs.
+    # ------------------------------------------------------------------
+
+    unmapped_count = int(
+        keyed["team_id"]
+        .isna()
+        .sum()
+    )
+
+    if unmapped_count:
+        print(
+            f"Excluding {unmapped_count} non-FBS/unmapped teams "
+            f"from FBS rankings."
+        )
+
+    keyed = (
+        keyed
+        .dropna(
+            subset=["team_id"]
+        )
+        .copy()
+    )
+
+    keyed["team_id"] = (
+        keyed["team_id"]
+        .astype("Int64")
+    )
+
+    # ------------------------------------------------------------------
+    # 7. Check that the remaining FBS team IDs are actually unique
+    # ------------------------------------------------------------------
+
+    duplicate_ids = (
+        keyed[
+            keyed["team_id"].duplicated(
+                keep=False
+            )
+        ][
+            [
+                "team",
+                "team_id",
+            ]
+        ]
+    )
+
+    if not duplicate_ids.empty:
+        raise RuntimeError(
+            "Multiple CFBD team names mapped to the same FBS team_id:\n"
+            + duplicate_ids.to_string(
+                index=False
+            )
+        )
+
+    # ------------------------------------------------------------------
+    # 8. Clean BTB crosswalk
+    # ------------------------------------------------------------------
+
+    crosswalk_clean = crosswalk.copy()
+
+    crosswalk_clean["team_id"] = pd.to_numeric(
+        crosswalk_clean["team_id"],
+        errors="coerce",
+    ).astype("Int64")
+
+    crosswalk_clean = (
+        crosswalk_clean
+        .dropna(
+            subset=["team_id"]
+        )
+        .drop_duplicates(
+            subset=["team_id"],
+            keep="first",
+        )
+        .reset_index(drop=True)
+    )
+
+    # ------------------------------------------------------------------
+    # 9. Attach BTB display names
+    #
+    # Now one_to_one validation is safe because <NA> IDs were removed.
+    # ------------------------------------------------------------------
 
     keyed = keyed.merge(
         crosswalk_clean[
@@ -804,27 +880,77 @@ def build_team_stats(
         validate="one_to_one",
     )
 
-    # ---------------------------------------------------------
-    # 8. Rank only mapped FBS teams
-    # ---------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 10. Final uniqueness enforcement
+    # ------------------------------------------------------------------
 
     keyed = (
         keyed
-        .dropna(
-            subset=["team_id"]
-        )
         .drop_duplicates(
             subset=["team_id"],
             keep="first",
         )
-        .reset_index(
-            drop=True
-        )
+        .reset_index(drop=True)
     )
 
-    return rank_team_stats(
+    # ------------------------------------------------------------------
+    # 11. Diagnostic output
+    # ------------------------------------------------------------------
+
+    mapped_name_count = int(
+        keyed["btb_team"]
+        .notna()
+        .sum()
+    )
+
+    missing_btb_names = int(
+        keyed["btb_team"]
+        .isna()
+        .sum()
+    )
+
+    print(
+        f"FBS ranking population before ranking: "
+        f"{keyed['team_id'].nunique()} unique teams."
+    )
+
+    print(
+        f"BTB names mapped: {mapped_name_count}; "
+        f"missing BTB names: {missing_btb_names}."
+    )
+
+    if missing_btb_names:
+
+        missing = (
+            keyed[
+                keyed["btb_team"].isna()
+            ][
+                [
+                    "team",
+                    "team_id",
+                ]
+            ]
+        )
+
+        print(
+            "FBS teams missing from BTB crosswalk:"
+        )
+
+        print(
+            missing.to_string(
+                index=False
+            )
+        )
+
+    # ------------------------------------------------------------------
+    # 12. Rank ONLY the valid FBS population
+    # ------------------------------------------------------------------
+
+    ranked = rank_team_stats(
         keyed
     )
+
+    return ranked
 
 
 # --------------------------------------------------------------------------- #
