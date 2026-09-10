@@ -47,17 +47,9 @@ import cfb_game_guides
 # Configuration
 # --------------------------------------------------------------------------- #
 
-TRASH_SCHEDULE_OWNER = (
-    "trashduty"
-)
-
-TRASH_SCHEDULE_REPO = (
-    "trash-schedule"
-)
-
-TRASH_SCHEDULE_REF = (
-    "main"
-)
+TRASH_SCHEDULE_OWNER = "trashduty"
+TRASH_SCHEDULE_REPO = "trash-schedule"
+TRASH_SCHEDULE_REF = "main"
 
 TRASH_SCHEDULE_SPREADS_PATH = (
     "CFB_Odds/Data/spreads_odds.csv"
@@ -100,10 +92,7 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--output-dir",
-        default=(
-            "outputs/"
-            "matchup_articles"
-        ),
+        default="outputs/matchup_articles",
     )
 
     parser.add_argument(
@@ -137,23 +126,17 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument(
         "--trash-schedule-owner",
-        default=(
-            TRASH_SCHEDULE_OWNER
-        ),
+        default=TRASH_SCHEDULE_OWNER,
     )
 
     parser.add_argument(
         "--trash-schedule-repo",
-        default=(
-            TRASH_SCHEDULE_REPO
-        ),
+        default=TRASH_SCHEDULE_REPO,
     )
 
     parser.add_argument(
         "--trash-schedule-ref",
-        default=(
-            TRASH_SCHEDULE_REF
-        ),
+        default=TRASH_SCHEDULE_REF,
     )
 
     parser.add_argument(
@@ -403,10 +386,7 @@ def resolve_edge_numeric(
 
 def _side_facts(
     row: pd.Series,
-) -> Dict[
-    str,
-    object,
-]:
+) -> Dict[str, object]:
 
     cover = row.get(
         "best_cover_probability"
@@ -478,16 +458,11 @@ def matchup_call_label(
     return "Bet"
 
 
-def model_vs_market_lead(
+def model_vs_market_sentence(
     team_name: str,
     model_prediction: Optional[float],
     market_line: Optional[float],
 ) -> str:
-    """
-    Compare the ACTUAL BTB model projection with the market.
-
-    best_line is intentionally NOT used here.
-    """
 
     if (
         model_prediction is not None
@@ -495,9 +470,8 @@ def model_vs_market_lead(
     ):
 
         return (
-            f"BTB projects "
-            f"**the {team_name} "
-            f"{format_projection(model_prediction)}** "
+            f"We make **the {team_name} "
+            f"{format_projection(model_prediction)}**, "
             f"compared with a market line of "
             f"{format_projection(market_line)}."
         )
@@ -505,22 +479,20 @@ def model_vs_market_lead(
     if model_prediction is not None:
 
         return (
-            f"BTB projects "
-            f"**the {team_name} "
+            f"We make **the {team_name} "
             f"{format_projection(model_prediction)}**."
         )
 
     if market_line is not None:
 
         return (
-            f"the model favors "
-            f"**the {team_name}** "
+            f"Our model favors **the {team_name}** "
             f"against a market line of "
             f"{format_projection(market_line)}."
         )
 
     return (
-        f"the model favors "
+        f"Our model favors "
         f"**the {team_name}**."
     )
 
@@ -595,17 +567,12 @@ def fetch_text(
     response = (
         session.get(
             raw_url,
-            timeout=(
-                REQUEST_TIMEOUT
-            ),
+            timeout=REQUEST_TIMEOUT,
         )
     )
 
     if response.ok:
-
-        return (
-            response.text
-        )
+        return response.text
 
     token = os.getenv(
         "GITHUB_TOKEN"
@@ -627,15 +594,12 @@ def fetch_text(
                 api_url,
                 headers={
                     "Accept":
-                        "application/"
-                        "vnd.github+json",
+                        "application/vnd.github+json",
 
                     "Authorization":
                         f"token {token}",
                 },
-                timeout=(
-                    REQUEST_TIMEOUT
-                ),
+                timeout=REQUEST_TIMEOUT,
             )
         )
 
@@ -678,15 +642,9 @@ def load_spreads(
     raw = fetch_text(
         TRASH_SCHEDULE_SPREADS_PATH,
         local_root=local_root,
-        owner=(
-            args.trash_schedule_owner
-        ),
-        repo=(
-            args.trash_schedule_repo
-        ),
-        ref=(
-            args.trash_schedule_ref
-        ),
+        owner=args.trash_schedule_owner,
+        repo=args.trash_schedule_repo,
+        ref=args.trash_schedule_ref,
         session=session,
     )
 
@@ -807,15 +765,9 @@ def load_crosswalk(
         raw = fetch_text(
             TRASH_SCHEDULE_CROSSWALK_PATH,
             local_root=local_root,
-            owner=(
-                args.trash_schedule_owner
-            ),
-            repo=(
-                args.trash_schedule_repo
-            ),
-            ref=(
-                args.trash_schedule_ref
-            ),
+            owner=args.trash_schedule_owner,
+            repo=args.trash_schedule_repo,
+            ref=args.trash_schedule_ref,
             session=session,
         )
 
@@ -848,21 +800,20 @@ def load_crosswalk(
 
 
 # --------------------------------------------------------------------------- #
-# Bottom line
+# Our Take
 # --------------------------------------------------------------------------- #
 
-def build_bottom_line(
+def build_our_take_opening(
+    *,
     away_name: str,
     home_name: str,
     stadium_name: Optional[str],
     bet_name: str,
     bet_line: str,
-    bet_facts: Dict[
-        str,
-        object,
-    ],
+    bet_facts: Dict[str, object],
     has_bet: bool,
-    model_lead: str,
+    model_prediction: Optional[float],
+    market_line: Optional[float],
 ) -> List[str]:
 
     stadium = (
@@ -891,7 +842,7 @@ def build_bottom_line(
     )
 
     edge_pct = (
-        f"{edge * 100:.2f}%"
+        f"{edge * 100:.1f}%"
     )
 
     price = (
@@ -935,50 +886,51 @@ def build_bottom_line(
         else "N/A"
     )
 
-    if has_bet:
-
-        intro = (
-            f"The {away_name} take on "
-            f"the {home_name} at "
-            f"{stadium}. "
-            f"{model_lead}"
+    model_sentence = (
+        model_vs_market_sentence(
+            bet_name,
+            model_prediction,
+            market_line,
         )
-
-        edge_line = (
-            f"The best available number is "
-            f"{bet_name} {bet_line} at "
-            f"{price_str}. "
-            f"BTB gives that side a "
-            f"{cover_str} cover probability, "
-            f"creating an edge of "
-            f"{edge_pct}. "
-            f"That clears our 3% threshold "
-            f"and makes the {bet_name} a bet."
-        )
-
-        return [
-            "## The Bottom Line",
-            intro,
-            edge_line,
-        ]
-
-    text = (
-        f"The {away_name} take on "
-        f"the {home_name} at "
-        f"{stadium}. "
-        f"{model_lead} "
-        f"The best available number is "
-        f"{bet_name} {bet_line}, where "
-        f"BTB sees an edge of "
-        f"{edge_pct}. "
-        f"That does not clear our "
-        f"3% threshold, so this remains "
-        f"a pass."
     )
 
+    intro = (
+        f"The {away_name} visit the "
+        f"{home_name} at {stadium}. "
+        f"{model_sentence}"
+    )
+
+    if has_bet:
+
+        wager_sentence = (
+            f"The best number we found is "
+            f"{bet_name} {bet_line} at "
+            f"{price_str}. "
+            f"We give {bet_name} a "
+            f"{cover_str} chance to cover, "
+            f"which creates a "
+            f"{edge_pct} edge for us. "
+            f"That clears our 3% threshold, "
+            f"so {bet_name} is a bet."
+        )
+
+    else:
+
+        wager_sentence = (
+            f"The best number we found is "
+            f"{bet_name} {bet_line} at "
+            f"{price_str}. "
+            f"We see a {edge_pct} edge there, "
+            f"but that does not clear our "
+            f"3% threshold, so we are passing."
+        )
+
     return [
-        "## The Bottom Line",
-        text,
+        "## Our Take",
+        "",
+        intro,
+        "",
+        wager_sentence,
     ]
 
 
@@ -1011,7 +963,7 @@ def build_cta(
         )
 
         lines.append(
-            f"BTB's model found edges of "
+            f"Our model found edges of "
             f"at least 3% on "
             f"**{edge_game_count} "
             f"{plural}** this week."
@@ -1022,13 +974,11 @@ def build_cta(
         )
 
         lines.append(
-            "Want this same model view "
-            "for every game? Members get "
-            "BTB's projected line, cover "
-            "probability, edge, and best "
-            "available sportsbook price "
-            "across the full CFB and NFL "
-            "slate at "
+            "Want this same view for every matchup? "
+            "Members get our projected line, cover "
+            "probability, edge, and best available "
+            "sportsbook price across the full CFB "
+            "and NFL slate at "
             "btb-analytics.com/member-access."
         )
 
@@ -1037,7 +987,7 @@ def build_cta(
             "",
             (
                 "<p align='center'><em>"
-                "Built by the BTB model. "
+                "Built from our model. "
                 "We target a 55-57% win rate "
                 "and publish every result, "
                 "wins and losses."
@@ -1129,9 +1079,7 @@ def build_guide_enrichment(
             week=week,
             crosswalk=crosswalk,
             guide_root=guide_root,
-            model=(
-                args.openai_model
-            ),
+            model=args.openai_model,
         )
     )
 
@@ -1152,12 +1100,8 @@ def build_guide_enrichment(
         .identify_matchup_angles(
             bet_id=bet_id,
             opp_id=opp_id,
-            ranked_stats=(
-                ranked_stats
-            ),
-            crosswalk=(
-                crosswalk
-            ),
+            ranked_stats=ranked_stats,
+            crosswalk=crosswalk,
         )
     )
 
@@ -1189,36 +1133,20 @@ def build_guide_enrichment(
         cfb_game_guides
         .build_model_context(
             bet_name=bet_name,
-            opponent_name=(
-                opp_name
+            opponent_name=opp_name,
+            model_prediction=model_prediction,
+            market_line=market_line,
+            best_line=best_line,
+            best_price=verdict_row.get(
+                "best_price"
             ),
-            model_prediction=(
-                model_prediction
+            cover_probability=bet_facts.get(
+                "cover"
             ),
-            market_line=(
-                market_line
+            edge=bet_facts.get(
+                "edge"
             ),
-            best_line=(
-                best_line
-            ),
-            best_price=(
-                verdict_row.get(
-                    "best_price"
-                )
-            ),
-            cover_probability=(
-                bet_facts.get(
-                    "cover"
-                )
-            ),
-            edge=(
-                bet_facts.get(
-                    "edge"
-                )
-            ),
-            has_bet=(
-                has_bet
-            ),
+            has_bet=has_bet,
         )
     )
 
@@ -1237,18 +1165,10 @@ def build_guide_enrichment(
             .generate_matchup_narrative(
                 away_name=away_name,
                 home_name=home_name,
-                model_context=(
-                    model_context
-                ),
-                matchup_angles=(
-                    matchup_angles
-                ),
-                guide_results=(
-                    guide_results
-                ),
-                model=(
-                    args.openai_model
-                ),
+                model_context=model_context,
+                matchup_angles=matchup_angles,
+                guide_results=guide_results,
+                model=args.openai_model,
             )
         )
 
@@ -1317,10 +1237,7 @@ def build_article(
     args: argparse.Namespace,
 ) -> Tuple[
     str,
-    Dict[
-        str,
-        object,
-    ],
+    Dict[str, object],
 ]:
 
     (
@@ -1545,6 +1462,22 @@ def build_article(
         )
     )
 
+    model_prediction = (
+        safe_float(
+            verdict_row.get(
+                "model_prediction"
+            )
+        )
+    )
+
+    market_line = (
+        safe_float(
+            verdict_row.get(
+                "market_line"
+            )
+        )
+    )
+
     sections: List[str] = [
         (
             f"# {away_name} vs "
@@ -1656,78 +1589,6 @@ def build_article(
             f"| {matchup_call_label(edge)} |"
         )
 
-    if not has_bet:
-
-        sections.extend(
-            [
-                "",
-                (
-                    "The model sees a lean here, "
-                    "but the edge does not clear "
-                    "our 3% threshold, so there "
-                    "is no full play."
-                ),
-            ]
-        )
-
-    # ------------------------------------------------------------------
-    # Actual model vs market comparison
-    # ------------------------------------------------------------------
-
-    model_prediction = (
-        safe_float(
-            verdict_row.get(
-                "model_prediction"
-            )
-        )
-    )
-
-    market_line = (
-        safe_float(
-            verdict_row.get(
-                "market_line"
-            )
-        )
-    )
-
-    model_lead = (
-        model_vs_market_lead(
-            bet_name,
-            model_prediction,
-            market_line,
-        )
-    )
-
-    sections.extend(
-        [""]
-        + build_bottom_line(
-            away_name=(
-                away_name
-            ),
-            home_name=(
-                home_name
-            ),
-            stadium_name=(
-                stadium_name
-            ),
-            bet_name=(
-                bet_name
-            ),
-            bet_line=(
-                bet_line
-            ),
-            bet_facts=(
-                bet_facts
-            ),
-            has_bet=(
-                has_bet
-            ),
-            model_lead=(
-                model_lead
-            ),
-        )
-    )
-
     # ------------------------------------------------------------------
     # Guide enrichment
     # ------------------------------------------------------------------
@@ -1753,36 +1614,53 @@ def build_article(
         )
     )
 
+    # ------------------------------------------------------------------
+    # OUR TAKE
+    # ------------------------------------------------------------------
+
     sections.extend(
-        [
-            "",
-            "## Why The Pick",
-            "",
-        ]
+        [""]
+        + build_our_take_opening(
+            away_name=away_name,
+            home_name=home_name,
+            stadium_name=stadium_name,
+            bet_name=bet_name,
+            bet_line=bet_line,
+            bet_facts=bet_facts,
+            has_bet=has_bet,
+            model_prediction=model_prediction,
+            market_line=market_line,
+        )
     )
 
     if enrichment[
         "narrative"
     ]:
 
-        sections.append(
-            enrichment[
-                "narrative"
-            ].strip()
+        sections.extend(
+            [
+                "",
+                enrichment[
+                    "narrative"
+                ].strip(),
+            ]
         )
 
     else:
 
-        sections.append(
-            (
-                "BTB is not trying to predict "
-                "this game from one recent "
-                "result. The question is "
-                "whether our expectation of "
-                "the matchup differs enough "
-                "from the market price to "
-                "create value."
-            )
+        sections.extend(
+            [
+                "",
+                (
+                    "We are not trying to predict "
+                    "this game from one recent "
+                    "result. For us, the question "
+                    "is whether our overall "
+                    "expectation differs enough "
+                    "from the market price to "
+                    "create value."
+                ),
+            ]
         )
 
     # ------------------------------------------------------------------
@@ -1820,13 +1698,12 @@ def build_article(
         [
             "",
             (
-                "Ranks are across unique FBS "
-                "teams over each team's last "
+                "These ranks are across unique "
+                "FBS teams over each team's last "
                 "10 games. Eckel rate measures "
-                "the share of drives that "
-                "score or reach a first down "
-                "inside the opponent's "
-                "40-yard line."
+                "the share of drives that score "
+                "or reach a first down inside "
+                "the opponent's 40-yard line."
             ),
         ]
     )
@@ -1935,7 +1812,7 @@ def main() -> None:
         "User-Agent"
     ] = (
         "football-testgrounds-"
-        "cfb-articles/3.1"
+        "cfb-articles/4.0"
     )
 
     (
@@ -2090,15 +1967,9 @@ def main() -> None:
             week=week,
             season=season,
             crosswalk=crosswalk,
-            ranked_stats=(
-                ranked_stats
-            ),
-            venue_lookup=(
-                venue_lookup
-            ),
-            edge_game_count=(
-                edge_game_count
-            ),
+            ranked_stats=ranked_stats,
+            venue_lookup=venue_lookup,
+            edge_game_count=edge_game_count,
             args=args,
         )
 
@@ -2127,10 +1998,6 @@ def main() -> None:
         ] = (
             f"{game_slug}.md"
         )
-
-        # ---------------------------------------------------------------
-        # Source audit
-        # ---------------------------------------------------------------
 
         audit_payload = {
             "game":
@@ -2219,9 +2086,7 @@ def main() -> None:
 
     (
         weekly_dir
-        / (
-            "weekly_matchup_articles.md"
-        )
+        / "weekly_matchup_articles.md"
     ).write_text(
         "\n\n---\n\n".join(
             combined
@@ -2232,9 +2097,7 @@ def main() -> None:
 
     (
         weekly_dir
-        / (
-            "weekly_matchup_articles.json"
-        )
+        / "weekly_matchup_articles.json"
     ).write_text(
         json.dumps(
             payload,
