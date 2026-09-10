@@ -4,25 +4,21 @@ CFB game-guide ingestion + BTB narrative generation.
 
 Responsibilities:
 1. Resolve media-guide PDFs using crosswalk.btb_team_short.
-2. Expected guide naming convention:
+2. Expected guide naming:
       game_guides/{season}/{btb_team_short}.pdf
-
-   Example:
-      btb_team_short = "Syracuse"
-      -> game_guides/2026/Syracuse.pdf
-
-3. Extract text from available PDFs.
-4. Use OpenAI to convert each guide into structured, source-grounded facts.
-5. Identify the most meaningful statistical matchup angles.
-6. Generate concise BTB-style narrative from:
+3. Extract text from PDFs.
+4. Convert guide content into structured verified facts.
+5. Identify meaningful statistical matchup angles.
+6. Generate BTB-style narrative using:
       - verified guide facts
-      - deterministic BTB/CFBD statistics
-      - model/market information
+      - deterministic BTB statistics
+      - actual BTB model prediction
+      - market line
+      - cover probability
+      - edge
 7. Preserve source metadata for auditing.
 
-IMPORTANT:
-The language model NEVER determines whether a wager is a bet/pass.
-That remains deterministic in weekly_matchup_articles_cfb.py.
+The language model NEVER determines bet/pass.
 """
 
 from __future__ import annotations
@@ -38,22 +34,13 @@ from openai import OpenAI
 from pypdf import PdfReader
 
 
-# --------------------------------------------------------------------------- #
-# Configuration
-# --------------------------------------------------------------------------- #
-
 DEFAULT_OPENAI_MODEL = os.getenv(
     "OPENAI_ARTICLE_MODEL",
     "gpt-5.6",
 )
 
-# Prevent gigantic guides from producing unnecessarily large API requests.
 MAX_GUIDE_CHARS = 110_000
 
-
-# --------------------------------------------------------------------------- #
-# BTB writing instructions
-# --------------------------------------------------------------------------- #
 
 BTB_SYSTEM_PROMPT = """
 You are an editorial analyst writing for BTB Analytics.
@@ -61,24 +48,29 @@ You are an editorial analyst writing for BTB Analytics.
 BTB Analytics uses quantitative models to identify differences between its
 expectation and the betting market.
 
-The writing should sound sharp, skeptical, informed, and readable without
-sounding academic, robotic, promotional, or like a tout.
+The writing should sound sharp, skeptical, informed, conversational, and
+readable. It should not sound academic, robotic, promotional, or like a tout.
 
 CORE BTB PHILOSOPHY
 
-The question is not simply:
+The most important question is not:
 
 "Which team is better?"
 
-The question is:
+It is:
 
-"Is the market price consistent with what we know about these teams?"
+"Why does BTB's expectation differ from the market, and is that disagreement
+meaningful at the available price?"
+
+The article should help the reader understand that distinction.
 
 Carefully distinguish between:
 
 1. What happened.
-2. What could matter going forward.
-3. What the market already appears to price in.
+2. What may matter going forward.
+3. What BTB's longer-run numbers indicate.
+4. What the market is currently pricing.
+5. Why BTB's expectation differs from that market price.
 
 Recent performance is context, not proof.
 
@@ -114,8 +106,10 @@ Prefer language such as:
 - "The useful takeaway is..."
 - "Where this gets interesting..."
 - "The price matters because..."
+- "That is where BTB differs from the market..."
+- "The case is less about X and more about Y..."
 
-Avoid generic sports-preview filler such as:
+Avoid generic sports-preview filler:
 - "enters this game with momentum"
 - "will look to build on"
 - "should be an exciting matchup"
@@ -127,20 +121,32 @@ Avoid generic sports-preview filler such as:
 
 ANALYTICS STYLE
 
-Use analytics to support an argument rather than overwhelm the reader.
+Analytics should explain the argument rather than become the argument.
 
 Do not repeat every statistic supplied.
 
-Prioritize two or three matchup ideas that help explain why BTB's expectation
-may differ from the betting market.
+Prioritize two or three matchup ideas that help explain the model/market
+difference.
 
-If the guide contains a dramatic recent result, distinguish the final score
-from the underlying information that may actually matter.
+The reader should finish the article understanding:
+
+1. What BTB projects.
+2. What the market is offering.
+3. Where the disagreement comes from.
+4. What football information supports or challenges that disagreement.
+5. Why the available price is or is not enough for a bet.
+
+Avoid excessive hedging.
+
+It is good to acknowledge uncertainty, but do not repeatedly talk the reader
+out of a deterministic BTB bet.
+
+Use uncertainty once when useful, then make the analytical conclusion clear.
 
 SOURCE DISCIPLINE
 
-You may ONLY state guide-derived facts that appear in the supplied verified
-facts.
+You may ONLY state guide-derived facts appearing in VERIFIED MEDIA-GUIDE
+FACTS.
 
 Never invent:
 - injuries
@@ -153,28 +159,20 @@ Never invent:
 - quotes
 - tactical information
 
-If evidence is weak, omit it.
-
-Do not present media-guide promotional language as objective truth.
-Team-issued guides are source material, not independent analysis.
+Do not present team-issued promotional language as objective truth.
 
 BETTING DISCIPLINE
 
-The deterministic program supplies the final wager designation.
+The deterministic program supplies the wager status.
 
 You must not:
 - upgrade a pass to a bet
 - downgrade a bet to a pass
-- create your own betting recommendation
+- create another wager
+- recommend the opposing side
 
-Do not introduce any:
-- spread
-- price
-- probability
-- edge
-- model projection
-
-that was not provided in the structured model context.
+Do not introduce spreads, prices, probabilities, edges, or projections that
+were not supplied in MODEL CONTEXT.
 """
 
 
@@ -182,16 +180,15 @@ EXTRACTION_SYSTEM_PROMPT = """
 You extract factual football information from team-issued game notes and
 media guides for BTB Analytics.
 
-Your job is NOT to summarize the entire document.
+Do NOT summarize the entire document.
 
-Your goal is to extract only information useful for explaining the upcoming
-football matchup.
+Extract only information useful for explaining the upcoming matchup.
 
 PRIORITIZE
 
 1. Upcoming opponent-specific notes.
 2. Most recent game performance.
-3. Injuries, returns, or availability information explicitly stated.
+3. Injuries, returns, or availability explicitly stated.
 4. Quarterback information.
 5. Offensive line information.
 6. Offensive personnel changes.
@@ -200,8 +197,8 @@ PRIORITIZE
 9. Transfers and first-time starters.
 10. Recent offensive tendencies.
 11. Recent defensive tendencies.
-12. Individual players plausibly relevant to the matchup.
-13. Special-teams developments if meaningful.
+12. Individual players relevant to the matchup.
+13. Meaningful special-teams developments.
 14. Series history only when unusually relevant.
 
 DE-PRIORITIZE OR IGNORE
@@ -220,50 +217,46 @@ DE-PRIORITIZE OR IGNORE
 - high-school connections
 - promotional slogans
 
-IMPORTANT
-
 A team-issued media guide is promotional material.
 
-Extract statements as facts only when they are concrete, such as:
+Extract statements as facts only when they are concrete:
 - statistics
 - dates
 - personnel
 - results
 - coaching assignments
-- player roles
-- clearly described roster changes
+- roster changes
+- clearly stated injuries/returns
 
-Do not convert subjective promotional claims into factual conclusions.
+Do not convert subjective claims into objective conclusions.
 
 Return valid JSON only.
 """
 
 
 # --------------------------------------------------------------------------- #
-# OpenAI
+# OpenAI helpers
 # --------------------------------------------------------------------------- #
 
 def _client() -> OpenAI:
-    """
-    Create the OpenAI client using OPENAI_API_KEY.
-    """
 
-    key = os.getenv("OPENAI_API_KEY")
+    key = os.getenv(
+        "OPENAI_API_KEY"
+    )
 
     if not key:
         raise RuntimeError(
-            "OPENAI_API_KEY is not set. "
-            "Add it as a GitHub Actions repository secret "
-            "or local environment variable."
+            "OPENAI_API_KEY is not set."
         )
 
-    return OpenAI(api_key=key)
+    return OpenAI(
+        api_key=key
+    )
 
 
-def _response_text(response: Any) -> str:
-    """
-    Safely retrieve text from an OpenAI Responses API response.
-    """
+def _response_text(
+    response: Any,
+) -> str:
 
     text = getattr(
         response,
@@ -274,12 +267,14 @@ def _response_text(response: Any) -> str:
     if text:
         return text.strip()
 
-    # Defensive fallback in case the SDK response structure differs.
     try:
+
         pieces: List[str] = []
 
         for item in response.output:
+
             for content in item.content:
+
                 value = getattr(
                     content,
                     "text",
@@ -287,7 +282,9 @@ def _response_text(response: Any) -> str:
                 )
 
                 if value:
-                    pieces.append(value)
+                    pieces.append(
+                        value
+                    )
 
         return "\n".join(
             pieces
@@ -298,24 +295,16 @@ def _response_text(response: Any) -> str:
 
 
 # --------------------------------------------------------------------------- #
-# Crosswalk / filename helpers
+# Crosswalk / filenames
 # --------------------------------------------------------------------------- #
 
 def clean_filename_component(
     value: str,
 ) -> str:
-    """
-    Keep BTB short names readable while removing characters that cannot
-    safely appear in filenames.
 
-    Spaces are intentionally preserved.
-
-    Example:
-        "Ohio State" -> "Ohio State"
-        "Miami (FL)" -> "Miami (FL)"
-    """
-
-    value = str(value).strip()
+    value = str(
+        value
+    ).strip()
 
     value = re.sub(
         r'[<>:"/\\\\|?*]',
@@ -329,51 +318,52 @@ def clean_filename_component(
 def team_short_lookup(
     crosswalk: pd.DataFrame,
 ) -> Dict[int, str]:
-    """
-    Return:
-        team_id -> btb_team_short
-    """
 
-    required = {
-        "team_id",
-        "btb_team_short",
-    }
-
-    missing = required.difference(
-        crosswalk.columns
+    cw = (
+        crosswalk
+        .dropna(
+            subset=[
+                "team_id",
+                "btb_team_short",
+            ]
+        )
+        .copy()
     )
 
-    if missing:
-        raise ValueError(
-            "Crosswalk is missing required column(s): "
-            + ", ".join(sorted(missing))
-        )
-
-    cw = crosswalk.dropna(
-        subset=[
-            "team_id",
-            "btb_team_short",
-        ]
-    ).copy()
-
-    cw["team_id"] = pd.to_numeric(
+    cw[
+        "team_id"
+    ] = pd.to_numeric(
         cw["team_id"],
         errors="coerce",
     )
 
     cw = cw.dropna(
-        subset=["team_id"]
+        subset=[
+            "team_id"
+        ]
     )
 
-    cw["team_id"] = (
-        cw["team_id"]
+    cw[
+        "team_id"
+    ] = (
+        cw[
+            "team_id"
+        ]
         .astype(int)
     )
 
     return (
-        cw.set_index(
+        cw
+        .drop_duplicates(
+            subset=[
+                "team_id"
+            ]
+        )
+        .set_index(
             "team_id"
-        )["btb_team_short"]
+        )[
+            "btb_team_short"
+        ]
         .astype(str)
         .to_dict()
     )
@@ -382,51 +372,52 @@ def team_short_lookup(
 def team_full_lookup(
     crosswalk: pd.DataFrame,
 ) -> Dict[int, str]:
-    """
-    Return:
-        team_id -> btb_team
-    """
 
-    required = {
-        "team_id",
-        "btb_team",
-    }
-
-    missing = required.difference(
-        crosswalk.columns
+    cw = (
+        crosswalk
+        .dropna(
+            subset=[
+                "team_id",
+                "btb_team",
+            ]
+        )
+        .copy()
     )
 
-    if missing:
-        raise ValueError(
-            "Crosswalk is missing required column(s): "
-            + ", ".join(sorted(missing))
-        )
-
-    cw = crosswalk.dropna(
-        subset=[
-            "team_id",
-            "btb_team",
-        ]
-    ).copy()
-
-    cw["team_id"] = pd.to_numeric(
+    cw[
+        "team_id"
+    ] = pd.to_numeric(
         cw["team_id"],
         errors="coerce",
     )
 
     cw = cw.dropna(
-        subset=["team_id"]
+        subset=[
+            "team_id"
+        ]
     )
 
-    cw["team_id"] = (
-        cw["team_id"]
+    cw[
+        "team_id"
+    ] = (
+        cw[
+            "team_id"
+        ]
         .astype(int)
     )
 
     return (
-        cw.set_index(
+        cw
+        .drop_duplicates(
+            subset=[
+                "team_id"
+            ]
+        )
+        .set_index(
             "team_id"
-        )["btb_team"]
+        )[
+            "btb_team"
+        ]
         .astype(str)
         .to_dict()
     )
@@ -436,18 +427,11 @@ def expected_guide_filename(
     team_id: int,
     crosswalk: pd.DataFrame,
 ) -> Optional[str]:
-    """
-    Return the expected PDF filename for a team.
 
-    Example:
-        btb_team_short = Syracuse
-
-    returns:
-        Syracuse.pdf
-    """
-
-    short_names = team_short_lookup(
-        crosswalk
+    short_names = (
+        team_short_lookup(
+            crosswalk
+        )
     )
 
     short = short_names.get(
@@ -457,13 +441,9 @@ def expected_guide_filename(
     if not short:
         return None
 
-    clean_short = (
-        clean_filename_component(
-            short
-        )
+    return (
+        f"{clean_filename_component(short)}.pdf"
     )
-
-    return f"{clean_short}.pdf"
 
 
 def guide_path_for_team(
@@ -473,35 +453,17 @@ def guide_path_for_team(
     guide_root: Path,
 ) -> Optional[Path]:
     """
-    Find a team's PDF game guide.
-
-    Naming convention:
-
-        game_guides/{season}/{btb_team_short}.pdf
-
-    Example:
-
-        btb_team_short = Syracuse
-
+    Expected:
         game_guides/2026/Syracuse.pdf
 
-    The normal lookup is exact.
-
-    As a safety fallback, filename matching is also case-insensitive, so:
-
-        Syracuse.pdf
-        syracuse.pdf
-        SYRACUSE.PDF
-
-    all resolve to Syracuse.
-
-    The .pdf extension is automatically appended by this function.
-    It should NOT be stored in btb_team_short.
+    Case-insensitive fallback is included.
     """
 
-    filename = expected_guide_filename(
-        team_id,
-        crosswalk,
+    filename = (
+        expected_guide_filename(
+            team_id,
+            crosswalk,
+        )
     )
 
     if not filename:
@@ -512,15 +474,11 @@ def guide_path_for_team(
         / str(season)
     )
 
-    if not season_dir.exists():
+    if (
+        not season_dir.exists()
+        or not season_dir.is_dir()
+    ):
         return None
-
-    if not season_dir.is_dir():
-        return None
-
-    # ---------------------------------------------------------
-    # 1. Expected exact filename
-    # ---------------------------------------------------------
 
     exact_path = (
         season_dir
@@ -533,21 +491,17 @@ def guide_path_for_team(
     ):
         return exact_path
 
-    # ---------------------------------------------------------
-    # 2. Case-insensitive filename fallback
-    # ---------------------------------------------------------
-
     expected_lower = (
         filename.lower()
     )
 
-    for path in season_dir.iterdir():
-
-        if not path.is_file():
-            continue
+    for path in (
+        season_dir.iterdir()
+    ):
 
         if (
-            path.name.lower()
+            path.is_file()
+            and path.name.lower()
             == expected_lower
         ):
             return path
@@ -562,14 +516,6 @@ def guide_path_for_team(
 def extract_pdf_text(
     path: Path,
 ) -> str:
-    """
-    Extract embedded text from an athletic media-guide PDF.
-
-    Page markers are inserted into the extracted text so the model can
-    preserve page-level source provenance.
-
-    OCR is intentionally not used here.
-    """
 
     reader = PdfReader(
         str(path)
@@ -577,7 +523,10 @@ def extract_pdf_text(
 
     chunks: List[str] = []
 
-    for page_number, page in enumerate(
+    for (
+        page_number,
+        page,
+    ) in enumerate(
         reader.pages,
         start=1,
     ):
@@ -592,7 +541,8 @@ def extract_pdf_text(
 
         chunks.append(
             "\n\n"
-            f"===== SOURCE PDF PAGE {page_number} ====="
+            f"===== SOURCE PDF PAGE "
+            f"{page_number} ====="
             "\n\n"
             f"{text}"
         )
@@ -601,7 +551,6 @@ def extract_pdf_text(
         chunks
     ).strip()
 
-    # Guardrail against exceptionally large documents.
     if (
         len(output)
         > MAX_GUIDE_CHARS
@@ -614,7 +563,7 @@ def extract_pdf_text(
 
 
 # --------------------------------------------------------------------------- #
-# Guide fact extraction
+# Guide extraction
 # --------------------------------------------------------------------------- #
 
 def extract_guide_facts(
@@ -626,27 +575,32 @@ def extract_guide_facts(
     week: int,
     model: str = DEFAULT_OPENAI_MODEL,
 ) -> Dict[str, Any]:
-    """
-    Convert one media guide into structured factual information.
-
-    This step extracts facts only.
-    It does not write the article.
-    """
 
     text = extract_pdf_text(
         pdf_path
     )
 
     if not text:
+
         return {
-            "source_file": pdf_path.name,
-            "source_team": source_team_name,
-            "opponent": opponent_name,
-            "usable": False,
-            "reason": (
-                "PDF contained no extractable text."
-            ),
-            "document_matches_upcoming_game": False,
+            "source_file":
+                pdf_path.name,
+
+            "source_team":
+                source_team_name,
+
+            "opponent":
+                opponent_name,
+
+            "usable":
+                False,
+
+            "reason":
+                "PDF contained no extractable text.",
+
+            "document_matches_upcoming_game":
+                False,
+
             "facts": [],
         }
 
@@ -663,26 +617,12 @@ SEASON:
 WEEK:
 {week}
 
-Your job is to extract only matchup-relevant facts from the SOURCE TEAM'S
-media guide.
+Extract only matchup-relevant facts.
 
-DOCUMENT VALIDATION
+Determine whether the guide is intended for the upcoming matchup between
+{source_team_name} and {opponent_name}.
 
-The document may be:
-- current for this game
-- current for the team but written for another opponent
-- stale
-
-Determine whether the document appears intended for an upcoming matchup
-between:
-
-{source_team_name}
-
-and
-
-{opponent_name}
-
-Return this exact JSON structure:
+Return valid JSON exactly in this structure:
 
 {{
   "source_team": "{source_team_name}",
@@ -690,15 +630,7 @@ Return this exact JSON structure:
   "document_matches_upcoming_game": true,
   "document_match_reason": "...",
 
-  "recent_game": [
-    {{
-      "fact": "...",
-      "page": 1,
-      "category": "recent_game",
-      "importance": "high"
-    }}
-  ],
-
+  "recent_game": [],
   "opponent_notes": [],
   "quarterback": [],
   "offensive_personnel": [],
@@ -712,43 +644,27 @@ Return this exact JSON structure:
   "other_relevant": []
 }}
 
-EVERY FACT OBJECT MUST CONTAIN
+Every fact must be:
 
-- fact:
-  One concise factual statement.
+{{
+  "fact": "...",
+  "page": 1,
+  "category": "...",
+  "importance": "high"
+}}
 
-- page:
-  The SOURCE PDF PAGE number when identifiable.
+importance must be:
+- high
+- medium
+- low
 
-- category:
-  One of the categories above.
+If this guide is clearly for a different opponent:
 
-- importance:
-  high, medium, or low.
+- document_matches_upcoming_game = false
+- explain why
+- do not extract opponent-specific information about the wrong opponent
 
-RULES
-
-Do not duplicate facts.
-
-If the document clearly describes a different upcoming opponent:
-
-- set document_matches_upcoming_game=false
-- explain why in document_match_reason
-- do NOT return opponent-specific information about the wrong opponent
-
-You may still extract clearly current information about {source_team_name},
-such as:
-- its most recent game
-- current quarterback
-- current personnel
-- current injuries
-- current coaching changes
-
-Do not infer an injury unless the document explicitly describes one.
-
-Do not create tactical conclusions.
-
-Do not rewrite promotional claims as objective facts.
+You may still extract clearly current information about {source_team_name}.
 
 SOURCE DOCUMENT:
 
@@ -764,7 +680,7 @@ SOURCE DOCUMENT:
                 EXTRACTION_SYSTEM_PROMPT
             ),
             input=prompt,
-                    )
+        )
     )
 
     raw = _response_text(
@@ -772,13 +688,13 @@ SOURCE DOCUMENT:
     )
 
     try:
+
         parsed = json.loads(
             raw
         )
 
     except json.JSONDecodeError:
 
-        # Defensive fallback if the model wraps JSON in prose/code fences.
         match = re.search(
             r"\{.*\}",
             raw,
@@ -786,9 +702,11 @@ SOURCE DOCUMENT:
         )
 
         if not match:
+
             raise RuntimeError(
-                "Could not parse guide extraction JSON "
-                f"for {pdf_path}"
+                "Could not parse guide "
+                f"extraction JSON for "
+                f"{pdf_path}"
             )
 
         parsed = json.loads(
@@ -811,7 +729,7 @@ SOURCE DOCUMENT:
 
 
 # --------------------------------------------------------------------------- #
-# Flatten facts for narrative generation
+# Flatten facts
 # --------------------------------------------------------------------------- #
 
 def flatten_verified_facts(
@@ -821,14 +739,6 @@ def flatten_verified_facts(
 ) -> List[
     Dict[str, Any]
 ]:
-    """
-    Flatten extracted guide categories while retaining:
-    - source file
-    - source team
-    - source page
-    - category
-    - importance
-    """
 
     output: List[
         Dict[str, Any]
@@ -846,20 +756,29 @@ def flatten_verified_facts(
 
     for guide in guide_results:
 
-        source_file = guide.get(
-            "source_file"
+        source_file = (
+            guide.get(
+                "source_file"
+            )
         )
 
-        source_team = guide.get(
-            "source_team"
+        source_team = (
+            guide.get(
+                "source_team"
+            )
         )
 
-        document_matches = guide.get(
-            "document_matches_upcoming_game",
-            True,
+        document_matches = (
+            guide.get(
+                "document_matches_upcoming_game",
+                True,
+            )
         )
 
-        for key, value in guide.items():
+        for (
+            key,
+            value,
+        ) in guide.items():
 
             if key in metadata_keys:
                 continue
@@ -888,13 +807,13 @@ def flatten_verified_facts(
                 if not text:
                     continue
 
-                category = fact.get(
-                    "category",
-                    key,
+                category = (
+                    fact.get(
+                        "category",
+                        key,
+                    )
                 )
 
-                # If a guide is stale, don't let opponent-specific facts
-                # leak into the current matchup narrative.
                 if (
                     not document_matches
                     and category
@@ -907,23 +826,28 @@ def flatten_verified_facts(
 
                 output.append(
                     {
-                        "fact": text,
-                        "page": fact.get(
-                            "page"
-                        ),
-                        "category": category,
-                        "importance": (
+                        "fact":
+                            text,
+
+                        "page":
+                            fact.get(
+                                "page"
+                            ),
+
+                        "category":
+                            category,
+
+                        "importance":
                             fact.get(
                                 "importance",
                                 "medium",
-                            )
-                        ),
-                        "source_file": (
-                            source_file
-                        ),
-                        "source_team": (
-                            source_team
-                        ),
+                            ),
+
+                        "source_file":
+                            source_file,
+
+                        "source_team":
+                            source_team,
                     }
                 )
 
@@ -931,7 +855,7 @@ def flatten_verified_facts(
 
 
 # --------------------------------------------------------------------------- #
-# Matchup-angle detection
+# Stats helpers
 # --------------------------------------------------------------------------- #
 
 def _rank_value(
@@ -939,30 +863,34 @@ def _rank_value(
     team_id: int,
     column: str,
 ) -> Optional[int]:
-    """
-    Safely retrieve one FBS rank for one team.
-    """
 
     if (
         team_id is None
-        or column not in ranked_stats.columns
+        or column
+        not in ranked_stats.columns
     ):
         return None
 
-    team_ids = pd.to_numeric(
-        ranked_stats["team_id"],
+    ids = pd.to_numeric(
+        ranked_stats[
+            "team_id"
+        ],
         errors="coerce",
     )
 
     row = ranked_stats[
-        team_ids == int(team_id)
+        ids
+        == int(team_id)
     ]
 
     if row.empty:
         return None
 
-    value = row.iloc[0].get(
-        column
+    value = (
+        row.iloc[0]
+        .get(
+            column
+        )
     )
 
     if (
@@ -971,7 +899,9 @@ def _rank_value(
     ):
         return None
 
-    return int(value)
+    return int(
+        value
+    )
 
 
 def identify_matchup_angles(
@@ -982,17 +912,11 @@ def identify_matchup_angles(
 ) -> List[
     Dict[str, Any]
 ]:
-    """
-    Identify the most interesting directional matchup relationships from
-    BTB's rolling rankings.
 
-    These are explanatory signals only.
-
-    They do NOT independently determine whether there is a bet.
-    """
-
-    names = team_full_lookup(
-        crosswalk
+    names = (
+        team_full_lookup(
+            crosswalk
+        )
     )
 
     bet_name = names.get(
@@ -1007,139 +931,197 @@ def identify_matchup_angles(
 
     candidates = [
         {
-            "dimension": (
+            "dimension":
                 f"{bet_name} passing offense "
-                f"vs {opp_name} pass defense"
-            ),
-            "off_team": bet_name,
-            "def_team": opp_name,
-            "off_rank": _rank_value(
-                ranked_stats,
-                bet_id,
-                "off_pass_epa_rank",
-            ),
-            "def_rank": _rank_value(
-                ranked_stats,
-                opp_id,
-                "def_pass_epa_rank",
-            ),
-            "stat": "pass EPA",
+                f"vs {opp_name} pass defense",
+
+            "off_team":
+                bet_name,
+
+            "def_team":
+                opp_name,
+
+            "off_rank":
+                _rank_value(
+                    ranked_stats,
+                    bet_id,
+                    "off_pass_epa_rank",
+                ),
+
+            "def_rank":
+                _rank_value(
+                    ranked_stats,
+                    opp_id,
+                    "def_pass_epa_rank",
+                ),
+
+            "stat":
+                "pass EPA",
         },
 
         {
-            "dimension": (
+            "dimension":
                 f"{bet_name} rushing offense "
-                f"vs {opp_name} rush defense"
-            ),
-            "off_team": bet_name,
-            "def_team": opp_name,
-            "off_rank": _rank_value(
-                ranked_stats,
-                bet_id,
-                "off_rush_epa_rank",
-            ),
-            "def_rank": _rank_value(
-                ranked_stats,
-                opp_id,
-                "def_rush_epa_rank",
-            ),
-            "stat": "rush EPA",
+                f"vs {opp_name} rush defense",
+
+            "off_team":
+                bet_name,
+
+            "def_team":
+                opp_name,
+
+            "off_rank":
+                _rank_value(
+                    ranked_stats,
+                    bet_id,
+                    "off_rush_epa_rank",
+                ),
+
+            "def_rank":
+                _rank_value(
+                    ranked_stats,
+                    opp_id,
+                    "def_rush_epa_rank",
+                ),
+
+            "stat":
+                "rush EPA",
         },
 
         {
-            "dimension": (
+            "dimension":
                 f"{opp_name} passing offense "
-                f"vs {bet_name} pass defense"
-            ),
-            "off_team": opp_name,
-            "def_team": bet_name,
-            "off_rank": _rank_value(
-                ranked_stats,
-                opp_id,
-                "off_pass_epa_rank",
-            ),
-            "def_rank": _rank_value(
-                ranked_stats,
-                bet_id,
-                "def_pass_epa_rank",
-            ),
-            "stat": "pass EPA",
+                f"vs {bet_name} pass defense",
+
+            "off_team":
+                opp_name,
+
+            "def_team":
+                bet_name,
+
+            "off_rank":
+                _rank_value(
+                    ranked_stats,
+                    opp_id,
+                    "off_pass_epa_rank",
+                ),
+
+            "def_rank":
+                _rank_value(
+                    ranked_stats,
+                    bet_id,
+                    "def_pass_epa_rank",
+                ),
+
+            "stat":
+                "pass EPA",
         },
 
         {
-            "dimension": (
+            "dimension":
                 f"{opp_name} rushing offense "
-                f"vs {bet_name} rush defense"
-            ),
-            "off_team": opp_name,
-            "def_team": bet_name,
-            "off_rank": _rank_value(
-                ranked_stats,
-                opp_id,
-                "off_rush_epa_rank",
-            ),
-            "def_rank": _rank_value(
-                ranked_stats,
-                bet_id,
-                "def_rush_epa_rank",
-            ),
-            "stat": "rush EPA",
+                f"vs {bet_name} rush defense",
+
+            "off_team":
+                opp_name,
+
+            "def_team":
+                bet_name,
+
+            "off_rank":
+                _rank_value(
+                    ranked_stats,
+                    opp_id,
+                    "off_rush_epa_rank",
+                ),
+
+            "def_rank":
+                _rank_value(
+                    ranked_stats,
+                    bet_id,
+                    "def_rush_epa_rank",
+                ),
+
+            "stat":
+                "rush EPA",
         },
 
         {
-            "dimension": (
-                f"{bet_name} scoring-opportunity creation "
-                f"vs {opp_name} scoring-opportunity prevention"
-            ),
-            "off_team": bet_name,
-            "def_team": opp_name,
-            "off_rank": _rank_value(
-                ranked_stats,
-                bet_id,
-                "off_eckel_rank",
-            ),
-            "def_rank": _rank_value(
-                ranked_stats,
-                opp_id,
-                "def_eckel_rank",
-            ),
-            "stat": "Eckel rate",
+            "dimension":
+                f"{bet_name} scoring-opportunity "
+                f"creation vs {opp_name} "
+                f"scoring-opportunity prevention",
+
+            "off_team":
+                bet_name,
+
+            "def_team":
+                opp_name,
+
+            "off_rank":
+                _rank_value(
+                    ranked_stats,
+                    bet_id,
+                    "off_eckel_rank",
+                ),
+
+            "def_rank":
+                _rank_value(
+                    ranked_stats,
+                    opp_id,
+                    "def_eckel_rank",
+                ),
+
+            "stat":
+                "Eckel rate",
         },
 
         {
-            "dimension": (
-                f"{opp_name} scoring-opportunity creation "
-                f"vs {bet_name} scoring-opportunity prevention"
-            ),
-            "off_team": opp_name,
-            "def_team": bet_name,
-            "off_rank": _rank_value(
-                ranked_stats,
-                opp_id,
-                "off_eckel_rank",
-            ),
-            "def_rank": _rank_value(
-                ranked_stats,
-                bet_id,
-                "def_eckel_rank",
-            ),
-            "stat": "Eckel rate",
+            "dimension":
+                f"{opp_name} scoring-opportunity "
+                f"creation vs {bet_name} "
+                f"scoring-opportunity prevention",
+
+            "off_team":
+                opp_name,
+
+            "def_team":
+                bet_name,
+
+            "off_rank":
+                _rank_value(
+                    ranked_stats,
+                    opp_id,
+                    "off_eckel_rank",
+                ),
+
+            "def_rank":
+                _rank_value(
+                    ranked_stats,
+                    bet_id,
+                    "def_eckel_rank",
+                ),
+
+            "stat":
+                "Eckel rate",
         },
     ]
 
-    usable: List[
-        Dict[str, Any]
-    ] = []
+    usable = []
 
     for item in candidates:
 
-        off_rank = item[
-            "off_rank"
-        ]
+        off_rank = (
+            item[
+                "off_rank"
+            ]
+        )
 
-        def_rank = item[
-            "def_rank"
-        ]
+        def_rank = (
+            item[
+                "def_rank"
+            ]
+        )
 
         if (
             off_rank is None
@@ -1152,11 +1134,11 @@ def identify_matchup_angles(
             - off_rank
         )
 
-        # Strong offense against weak defense.
         if (
             off_rank <= 35
             and def_rank >= 75
         ):
+
             score = (
                 100
                 + differential
@@ -1166,11 +1148,11 @@ def identify_matchup_angles(
                 "offense_advantage"
             )
 
-        # Strong defense against weak offense.
         elif (
             def_rank <= 35
             and off_rank >= 75
         ):
+
             score = (
                 100
                 + differential
@@ -1181,7 +1163,9 @@ def identify_matchup_angles(
             )
 
         else:
+
             score = differential
+
             direction = "mixed"
 
         item[
@@ -1201,9 +1185,11 @@ def identify_matchup_angles(
         )
 
     usable.sort(
-        key=lambda x: x[
-            "matchup_score"
-        ],
+        key=lambda x: (
+            x[
+                "matchup_score"
+            ]
+        ),
         reverse=True,
     )
 
@@ -1218,42 +1204,46 @@ def build_model_context(
     *,
     bet_name: str,
     opponent_name: str,
-    market_line: float,
-    best_line: float,
+    model_prediction: Any,
+    market_line: Any,
+    best_line: Any,
     best_price: Any,
     cover_probability: Any,
     edge: Any,
     has_bet: bool,
 ) -> Dict[str, Any]:
-    """
-    Package deterministic BTB model information for narrative writing.
-    """
 
     return {
-        "model_side": (
-            bet_name
-        ),
-        "opponent": (
-            opponent_name
-        ),
-        "market_line": (
-            market_line
-        ),
-        "best_available_line": (
-            best_line
-        ),
-        "best_available_price": (
-            best_price
-        ),
-        "cover_probability": (
-            cover_probability
-        ),
-        "edge": edge,
-        "bet_status": (
-            "BET"
-            if has_bet
-            else "PASS"
-        ),
+        "model_side":
+            bet_name,
+
+        "opponent":
+            opponent_name,
+
+        "model_prediction":
+            model_prediction,
+
+        "market_line":
+            market_line,
+
+        "best_available_line":
+            best_line,
+
+        "best_available_price":
+            best_price,
+
+        "cover_probability":
+            cover_probability,
+
+        "edge":
+            edge,
+
+        "bet_status":
+            (
+                "BET"
+                if has_bet
+                else "PASS"
+            ),
     }
 
 
@@ -1274,18 +1264,6 @@ def generate_matchup_narrative(
     ],
     model: str = DEFAULT_OPENAI_MODEL,
 ) -> Dict[str, Any]:
-    """
-    Generate the narrative portions of the article.
-
-    Returns:
-        {
-            "used_guides": bool,
-            "narrative": "...",
-            "matchup_to_watch": "...",
-            "used_fact_ids": [...],
-            "used_sources": [...]
-        }
-    """
 
     verified_facts = (
         flatten_verified_facts(
@@ -1294,23 +1272,39 @@ def generate_matchup_narrative(
     )
 
     if not verified_facts:
+
         return {
-            "used_guides": False,
-            "narrative": "",
-            "matchup_to_watch": "",
-            "used_fact_ids": [],
-            "used_sources": [],
+            "used_guides":
+                False,
+
+            "narrative":
+                "",
+
+            "matchup_to_watch":
+                "",
+
+            "used_fact_ids":
+                [],
+
+            "used_sources":
+                [],
         }
 
     numbered_facts = []
 
-    for idx, fact in enumerate(
+    for (
+        idx,
+        fact,
+    ) in enumerate(
         verified_facts,
         start=1,
     ):
+
         numbered_facts.append(
             {
-                "fact_id": idx,
+                "fact_id":
+                    idx,
+
                 **fact,
             }
         )
@@ -1328,9 +1322,9 @@ BTB MATCHUP ANGLES:
 VERIFIED MEDIA-GUIDE FACTS:
 {json.dumps(numbered_facts, indent=2, default=str)}
 
-Write content for two portions of a BTB Analytics matchup article.
+Write two portions of a BTB Analytics matchup article.
 
-Return valid JSON only using this structure:
+Return valid JSON only:
 
 {{
   "narrative": "2-3 concise paragraphs",
@@ -1338,54 +1332,70 @@ Return valid JSON only using this structure:
   "used_fact_ids": [1, 4, 7]
 }}
 
+PRIMARY EDITORIAL GOAL
+
+The article should explain WHY BTB's expectation differs from the market.
+
+Do not merely list interesting facts about the game.
+
+If MODEL CONTEXT contains a model_prediction and market_line, use that
+difference as the central analytical anchor.
+
+For example:
+
+BTB projection
+    versus
+market expectation
+    versus
+best available betting price.
+
+Then use guide information and matchup statistics to provide football context
+for that difference.
+
 NARRATIVE REQUIREMENTS
 
 The narrative should:
 
-- explain what is actually interesting about this game
-- sound like BTB Analytics rather than a generic preview
+- explain what is actually interesting about the game
+- explain why BTB differs from the market
 - use recent results as context rather than proof
 - focus on two or three meaningful ideas
 - avoid simply reciting rankings
-- connect football information to why the model/market disagreement matters
-- acknowledge uncertainty when appropriate
+- connect football information to the model/market disagreement
 - remain accessible to a recreational bettor
-- avoid turning into an analytics lecture
+- avoid an analytics lecture
+- avoid excessive hedging
 
-Where appropriate, distinguish between:
-- the headline result
-- the more useful underlying takeaway
+If BTB has a deterministic BET:
+
+The narrative should make the analytical case clearly while still
+acknowledging meaningful counterarguments.
+
+Do not spend multiple paragraphs talking the reader out of the wager.
+
+If BTB has a deterministic PASS:
+
+Explain why there may be an interesting lean but why the price is not enough.
 
 MATCHUP TO WATCH REQUIREMENTS
 
-This should connect one or two BTB statistical matchup angles to relevant
-guide context.
+Choose the matchup most useful for understanding the model/market difference.
 
-Explain why the matchup is worth paying attention to without claiming it
-guarantees the model side will cover.
+Do not simply choose the largest rank gap if it does not help explain the
+actual wager.
 
-Do not repeat the Bottom Line verbatim.
+Connect BTB statistical information with verified media-guide context.
 
-If the deterministic status is PASS:
-- do not write as though BTB is betting it
-- explain why the matchup may be interesting while respecting the pass
+Do not claim any individual matchup guarantees a cover.
 
 FACT REQUIREMENTS
 
-Every media-guide-derived factual claim must come from VERIFIED
-MEDIA-GUIDE FACTS.
+Every media-guide-derived factual claim must come from VERIFIED MEDIA-GUIDE
+FACTS.
 
-Return the fact IDs actually used.
+Return all fact IDs actually used.
 
-Do not manufacture:
-- injuries
-- personnel
-- statistics
-- coaching changes
-- previous results
-- tactical information
-
-Do not add external football information.
+Do not manufacture facts.
 """
 
     response = (
@@ -1397,14 +1407,17 @@ Do not add external football information.
                 BTB_SYSTEM_PROMPT
             ),
             input=prompt,
-                    )
+        )
     )
 
-    raw = _response_text(
-        response
+    raw = (
+        _response_text(
+            response
+        )
     )
 
     try:
+
         parsed = json.loads(
             raw
         )
@@ -1418,8 +1431,10 @@ Do not add external football information.
         )
 
         if not match:
+
             raise RuntimeError(
-                "Could not parse narrative JSON."
+                "Could not parse "
+                "narrative JSON."
             )
 
         parsed = json.loads(
@@ -1430,25 +1445,23 @@ Do not add external football information.
         "used_guides"
     ] = True
 
-    # ---------------------------------------------------------
-    # Convert fact IDs back into source metadata
-    # ---------------------------------------------------------
-
     fact_by_id = {
         x["fact_id"]: x
-        for x in numbered_facts
+        for x
+        in numbered_facts
     }
 
-    used_sources: List[
-        Dict[str, Any]
-    ] = []
+    used_sources = []
 
-    for fact_id in parsed.get(
-        "used_fact_ids",
-        [],
+    for fact_id in (
+        parsed.get(
+            "used_fact_ids",
+            [],
+        )
     ):
 
         try:
+
             fact_id = int(
                 fact_id
             )
@@ -1457,13 +1470,17 @@ Do not add external football information.
             TypeError,
             ValueError,
         ):
+
             continue
 
-        source = fact_by_id.get(
-            fact_id
+        source = (
+            fact_by_id.get(
+                fact_id
+            )
         )
 
         if source:
+
             used_sources.append(
                 source
             )
@@ -1476,7 +1493,7 @@ Do not add external football information.
 
 
 # --------------------------------------------------------------------------- #
-# Load guides for one game
+# Load guides
 # --------------------------------------------------------------------------- #
 
 def load_game_guides(
@@ -1491,29 +1508,14 @@ def load_game_guides(
     guide_root: Path,
     model: str = DEFAULT_OPENAI_MODEL,
 ) -> Tuple[
-    List[Dict[str, Any]],
+    List[
+        Dict[str, Any]
+    ],
     List[str],
 ]:
-    """
-    Find and process the media guides available for the game.
 
-    Missing guides are NOT errors.
-
-    One guide:
-        use it.
-
-    Both guides:
-        use both.
-
-    No guides:
-        article generator falls back to deterministic BTB content.
-    """
-
-    results: List[
-        Dict[str, Any]
-    ] = []
-
-    status: List[str] = []
+    results = []
+    status = []
 
     pairs = [
         (
@@ -1534,22 +1536,15 @@ def load_game_guides(
         opponent_name,
     ) in pairs:
 
-        # -----------------------------------------------------
-        # Validate team ID
-        # -----------------------------------------------------
-
         if team_id is None:
 
             status.append(
-                f"No team_id available for "
-                f"{team_name}; cannot locate guide."
+                f"No team_id available "
+                f"for {team_name}; "
+                f"cannot locate guide."
             )
 
             continue
-
-        # -----------------------------------------------------
-        # Determine expected filename
-        # -----------------------------------------------------
 
         expected_filename = (
             expected_guide_filename(
@@ -1561,8 +1556,9 @@ def load_game_guides(
         if not expected_filename:
 
             status.append(
-                f"No btb_team_short mapping found "
-                f"for {team_name} "
+                f"No btb_team_short "
+                f"mapping found for "
+                f"{team_name} "
                 f"(team_id={team_id})."
             )
 
@@ -1574,38 +1570,31 @@ def load_game_guides(
             / expected_filename
         )
 
-        # -----------------------------------------------------
-        # Locate actual file
-        # -----------------------------------------------------
-
-        path = guide_path_for_team(
-            team_id=team_id,
-            season=season,
-            crosswalk=crosswalk,
-            guide_root=guide_root,
+        path = (
+            guide_path_for_team(
+                team_id=team_id,
+                season=season,
+                crosswalk=crosswalk,
+                guide_root=guide_root,
+            )
         )
 
         if path is None:
 
             status.append(
-                f"No guide found for {team_name}. "
-                f"Expected PDF: {expected_path}"
+                f"No guide found for "
+                f"{team_name}. "
+                f"Expected PDF: "
+                f"{expected_path}"
             )
 
             continue
 
-        # -----------------------------------------------------
-        # Log what actually matched
-        # -----------------------------------------------------
-
         status.append(
-            f"Found guide for {team_name}: "
+            f"Found guide for "
+            f"{team_name}: "
             f"{path}"
         )
-
-        # -----------------------------------------------------
-        # Extract guide information
-        # -----------------------------------------------------
 
         try:
 
@@ -1653,9 +1642,10 @@ def load_game_guides(
                 )
 
                 status.append(
-                    f"Guide for {team_name} "
-                    f"was found but may not match "
-                    f"the current opponent. "
+                    f"Guide for "
+                    f"{team_name} was found "
+                    f"but may not match the "
+                    f"current opponent. "
                     f"{reason}"
                 )
 
@@ -1663,7 +1653,8 @@ def load_game_guides(
 
             status.append(
                 f"Guide processing failed "
-                f"for {team_name}: {exc}"
+                f"for {team_name}: "
+                f"{exc}"
             )
 
     return (
