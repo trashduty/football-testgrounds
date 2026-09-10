@@ -45,7 +45,7 @@ import requests
 
 import cfb_stats
 import cfb_game_guides
-
+import cfb_social_assets
 
 # --------------------------------------------------------------------------- #
 # Configuration
@@ -2726,6 +2726,28 @@ def main() -> None:
             encoding="utf-8",
         )
 
+        # ------------------------------------------------------------------
+        # X / social assets
+        # ------------------------------------------------------------------
+
+        social_assets = (
+            cfb_social_assets
+            .generate_social_assets(
+                output_dir=weekly_dir,
+                game_slug=game_slug,
+                article_payload=article_payload,
+                ranked_stats=ranked_stats,
+
+                # Leave None for now unless/until
+                # matchup article URLs are predictable.
+                article_url=None,
+            )
+        )
+
+        article_payload[
+            "social_assets"
+        ] = social_assets
+        
         article_payload[
             "html_path"
         ] = (
