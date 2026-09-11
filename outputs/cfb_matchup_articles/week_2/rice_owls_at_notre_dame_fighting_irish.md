@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Rice Owls | +44.5 (-109) | BetRivers | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Notre Dame Fighting Irish | -44.5 (-108) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Notre Dame Fighting Irish | -43.5 (-110) | FanDuel | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 

@@ -15,11 +15,7 @@ The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium.
 
 The best number we found is Texas -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our modest lean toward Texas starts with the setting and quarterback stability. Texas is 20-1 at home since the beginning of 2023, while Arch Manning is 9-0 as a starter in Austin. Four offensive-line starters from last season also return. Those factors help explain why our numbers give Texas a little more credit than the market, but they do not erase the matchup concerns.
-
-The biggest concern for us is Texas’ offense against Ohio State’s run defense. Our efficiency data points to a significant advantage for Ohio State on the ground, potentially putting more of the game on Manning. On the other side, Ohio State’s passing offense is well positioned to challenge Texas: Julian Sayin completed 77.0 percent of his passes last season, and Jeremiah Smith entered this matchup with 2,709 career receiving yards and 29 touchdowns.
-
-There is uncertainty around an Ohio State defense replacing eight starters, even though three return. Still, the Buckeyes have enough clear matchup advantages to keep our disagreement with the market narrow. We see the case for Texas at home, but not enough separation to justify paying the current price.
+Our lean toward Texas is less about reacting to the opener and more about how competitive the underlying matchup was last season. Texas outgained Ohio State 336-203, including a 166-77 advantage on the ground, but came away empty on both red-zone trips and converted only one of five fourth downs. We also give weight to the setting: Arch Manning is unbeaten as a home starter, and Texas is 20-1 in Austin since the start of 2023. Those records do not decide this game, but they help explain why our numbers give Texas a narrow advantage.
 
 ### What The Numbers Say
 
@@ -71,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Ohio State’s passing game against Texas’ pass defense. Sayin operates behind a starting offensive line that entered this game with 93 combined starts, giving Ohio State a credible foundation for getting Smith involved downfield. Texas’ best response may come from disruption: Colin Simmons recorded 12 sacks and a school-record 61 quarterback pressures last season, while the defense has forced a turnover in 36 of its last 37 games. If Texas cannot pressure Sayin or create a takeaway, this is the matchup most likely to undermine our slight preference for the home team.
+For us, the matchup to watch is Ohio State’s passing game against the Texas pass defense. Sayin completed 77 percent of his passes with 32 touchdowns and eight interceptions last season, while Jeremiah Smith enters with 2,709 career receiving yards and 29 touchdowns. Texas’ best response may be disruption: it has forced a turnover in 24 consecutive home games and recorded at least 40 sacks and 15 interceptions in each of the past two seasons. If Texas cannot affect Sayin, Ohio State has the clearest offensive path to challenging our view.
 
 ## Best Bets Of The Week
 

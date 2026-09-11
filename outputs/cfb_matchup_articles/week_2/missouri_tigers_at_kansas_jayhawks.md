@@ -15,7 +15,9 @@ The Missouri Tigers visit the Kansas Jayhawks at Memorial Stadium. We make **Kan
 
 The best number we found is Kansas +5.5 at -110. We give Kansas a 57.3% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Kansas is a bet.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+We are not treating either opening rout as proof of what happens here. The more interesting part for us is the turnover beneath those results. Missouri replaced 10 defensive starters, while Kansas returned only three offensive starters and will give Isaiah Marshall his third career start. That creates uncertainty on both sides, but it also makes us less willing to assume Missouri can create the degree of separation the market is pricing.
+
+Kansas still showed credible big-play potential in the opener, producing six gains of at least 20 yards while Nik McMillan finished with 130 receiving yards. Our matchup data respects Missouri’s pass defense, so this is not a clean offensive matchup for Kansas. Still, the combination of Kansas’ explosive-play profile and Missouri’s extensive defensive personnel turnover gives the home side enough paths to stay competitive. That is where our expectation differs from the market.
 
 ### What The Numbers Say
 
@@ -64,6 +66,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We see Missouri’s rushing offense against the Kansas front as the matchup that can most directly challenge our position. Missouri averaged 228.3 rushing yards per game in 2025 and ran for 261 yards in last season’s meeting, although this version of the backfield now lists Jamal Roberts first and does not list returning 2025 starter Ahmad Hardy on the Kansas depth chart.
+
+We did see encouraging disruption from Kansas in the opener, including 11 tackles for loss and four from Leroy Harris III alone. The opponent changes significantly here, but if Kansas can prevent Missouri from controlling the game on the ground, we think the rest of the matchup becomes much more favorable to the case for a competitive game.
 
 ## Best Bets Of The Week
 

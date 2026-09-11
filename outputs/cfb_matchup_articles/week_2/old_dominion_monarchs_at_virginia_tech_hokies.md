@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Old Dominion Monarchs visit the Virginia Tech Hokies at Lane Stadium. We make **Virginia Tech -22**, compared with a market line of -18.5.
+The Old Dominion Monarchs visit the Virginia Tech Hokies at Lane Stadium. We make **Virginia Tech -22**, compared with a market line of -19.
 
 The best number we found is Virginia Tech -18.5 at -114. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 

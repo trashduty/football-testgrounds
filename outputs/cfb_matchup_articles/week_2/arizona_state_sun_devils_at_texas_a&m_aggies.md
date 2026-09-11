@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona State Sun Devils | +15.5 (-110) | Fanatics | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona State Sun Devils | +15.5 (-112) | DraftKings | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Texas A&M Aggies | -14.5 (-109) | BetRivers | 54.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Southern Eagles | +20.5 (-109) | BetRivers | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Clemson Tigers | -19.5 (-110) | Fanatics | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Southern Eagles | +20.5 (-109) | BetRivers | 57.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Clemson Tigers | -19.5 (-110) | Fanatics | 43.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia Southern Eagles visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Georgia Southern +17**, compared with a market line of +20.5.
+The Georgia Southern Eagles visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Georgia Southern +16.5**, compared with a market line of +19.5.
 
-The best number we found is Georgia Southern +20.5 at -109. We give Georgia Southern a 57.0% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Georgia Southern is a bet.
+The best number we found is Georgia Southern +20.5 at -109. We give Georgia Southern a 57.9% chance to cover, which creates an 5.7% edge for us. That clears our 3% threshold, so Georgia Southern is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

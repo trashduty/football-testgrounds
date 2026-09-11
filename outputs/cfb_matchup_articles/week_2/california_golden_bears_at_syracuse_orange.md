@@ -15,11 +15,11 @@ The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We m
 
 The best number we found is Syracuse -3.5 at -105. We give Syracuse a 58.3% chance to cover, which creates an 7.1% edge for us. That clears our 3% threshold, so Syracuse is a bet.
 
-We are not reacting only to Syracuse's decisive opener or California's loss to UCLA. The more useful takeaway is that Syracuse showed a possible route around the toughest part of this matchup: it rushed for 239 yards, while California allowed 277 rushing yards in its opener. Those single-game results are not proof, but they support the broader case for Syracuse having more than one way to create offense.
+We are not reacting to the opening-week scores alone, but the underlying shape of those games helps explain our position. Syracuse produced 238 rushing yards alongside 275 passing yards, while California allowed 277 yards on the ground against UCLA. Those are single-game samples against different opponents, but they point to a credible path for Syracuse to stay balanced rather than attack the strongest part of California’s defense repeatedly.
 
-Our biggest concern is the passing matchup. Our efficiency data gives California's pass defense a clear advantage over Syracuse's passing offense. Still, Steve Angeli completed 22 of 34 passes for 263 yards with two touchdowns and no interceptions in his return, and Syracuse's offensive line earned a strong pass-blocking grade. We think that combination can keep the unfavorable matchup from controlling the entire game.
+We also see a potential advantage when California has the ball. Syracuse held New Hampshire to 159 total yards and generated five sacks, while our numbers rate California poorly at creating scoring opportunities. That does not guarantee the same defensive success against stronger competition, but it supports our broader view that California may struggle to sustain enough productive drives to remain inside the number.
 
-We also see a potential advantage when California has the ball. Syracuse produced five sacks and forced three turnovers in the opener, while Jaron-Keawe Sagapolutele threw two interceptions against UCLA. We are not projecting those turnover results to repeat automatically, but Syracuse's ability to create pressure matters in a game where neither offense grades particularly well at consistently generating scoring opportunities. That is the football context supporting our position.
+The meaningful concern is Syracuse’s passing efficiency against a California pass defense that grades well in our matchup data. Still, Steve Angeli returned from his 2025 injury to throw for 263 yards, and Syracuse’s offensive line received an 87.0 pass-blocking grade from PFF in the opener. For us, the case is less about Syracuse dominating every phase and more about having multiple ways to create separation while California’s offensive ceiling remains the larger question.
 
 ### What The Numbers Say
 
@@ -71,7 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Syracuse's running game against California's front. Shavane Anderson Jr. rushed for 102 yards and three touchdowns in his debut, while Tylik Hill added 91 yards and a touchdown. If Syracuse can generate steady production on the ground, it can avoid asking its passing game to repeatedly attack the strongest area of California's defense. For us, that is the most important path to separation.
+We are watching Syracuse’s passing offense against California’s pass defense. This is the clearest area in which the matchup data pushes back against our position, so Syracuse does not need to force the game through the air. The useful sign from the opener was distribution: 10 Syracuse players recorded a reception, which can make it harder for California to erase the passing game through one individual matchup.
+
+If Angeli stays protected and Syracuse generates efficient complementary passes, the running game can remain central to the plan. If California consistently wins on passing downs, however, it has the best chance to keep Syracuse from turning sustained possessions into separation.
 
 ## Best Bets Of The Week
 
