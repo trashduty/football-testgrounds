@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UL Monroe Warhawks | +10.5 (-115) | FanDuel | 44.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UAB Blazers | -10.5 (-105) | FanDuel | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| UL Monroe Warhawks | +9.5 (-105) | Fanatics | 42.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UAB Blazers | -10.0 (-102) | DraftKings | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The UL Monroe Warhawks visit the UAB Blazers at Protective Stadium. We make **UAB -15.5**, compared with a market line of -10.
+The UL Monroe Warhawks visit the UAB Blazers at Protective Stadium. We make **UAB -15.5**, compared with a market line of -9.5.
 
-The best number we found is UAB -10.5 at -105. We give UAB a 56.4% chance to cover, which creates an 5.2% edge for us. That clears our 3% threshold, so UAB is a bet.
+The best number we found is UAB -10.0 at -102. We give UAB a 56.4% chance to cover, which creates an 5.9% edge for us. That clears our 3% threshold, so UAB is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **20 games** this week.
+Our model found edges of at least 3% on **18 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

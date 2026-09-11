@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on Sacramento State-Fresno State.
+Our model is 1 points away from the market on Sacramento State-Fresno State.
 
-We make Sacramento State +16.5. The market is +18.
+We make Sacramento State +17. The market is +18.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

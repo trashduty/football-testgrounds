@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Oklahoma Sooners | -5.5 (-105) | DraftKings | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Michigan Wolverines | +4.5 (-105) | FanDuel | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Michigan Wolverines | +5.5 (-110) | BetRivers | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Oklahoma Sooners visit the Michigan Wolverines at Michigan Stadium. We make **Michigan +3**, compared with a market line of +5.5.
 
-The best number we found is Michigan +4.5 at -105. We give Michigan a 54.7% chance to cover, which creates an 3.4% edge for us. That clears our 3% threshold, so Michigan is a bet.
+The best number we found is Michigan +5.5 at -110. We give Michigan a 56.2% chance to cover, which creates an 3.9% edge for us. That clears our 3% threshold, so Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **20 games** this week.
+Our model found edges of at least 3% on **18 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

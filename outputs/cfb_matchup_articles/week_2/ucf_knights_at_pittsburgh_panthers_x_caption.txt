@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on UCF-Pittsburgh.
+Our model is 2 points away from the market on UCF-Pittsburgh.
 
-We make Pittsburgh -9. The market is -7.5.
+We make Pittsburgh -9. The market is -7.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

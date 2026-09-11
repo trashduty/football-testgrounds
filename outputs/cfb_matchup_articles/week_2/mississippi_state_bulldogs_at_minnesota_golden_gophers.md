@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Mississippi State Bulldogs | +1.0 (-110) | Fanatics | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Minnesota Golden Gophers | +1.0 (-112) | BetMGM | 56.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Mississippi State Bulldogs | +0.5 (-109) | BetRivers | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | +1.5 (-118) | DraftKings | 55.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Mississippi State Bulldogs visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Minnesota -3.5**, compared with a market line of +1.5.
+The Mississippi State Bulldogs visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Minnesota -2**, compared with a market line of +1.
 
-The best number we found is Minnesota +1.0 at -112. We give Minnesota a 56.6% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Minnesota is a bet.
+The best number we found is Minnesota +1.5 at -118. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **20 games** this week.
+Our model found edges of at least 3% on **18 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

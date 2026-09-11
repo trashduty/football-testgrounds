@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Penn State Nittany Lions | -23.5 (-112) | BetRivers | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Penn State Nittany Lions | -23.5 (-118) | DraftKings | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Temple Owls | +23.5 (-102) | FanDuel | 54.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Penn State Nittany Lions visit the Temple Owls at Lincoln Financial Field. We make **Temple +21.5**, compared with a market line of +23.5.
+The Penn State Nittany Lions visit the Temple Owls at Lincoln Financial Field. We make **Temple +21.5**, compared with a market line of +24.
 
 The best number we found is Temple +23.5 at -102. We give Temple a 54.5% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Temple is a bet.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **20 games** this week.
+Our model found edges of at least 3% on **18 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

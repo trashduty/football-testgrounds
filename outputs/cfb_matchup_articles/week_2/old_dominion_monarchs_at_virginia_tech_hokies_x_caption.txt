@@ -1,6 +1,6 @@
-Our model is 3 points away from the market on Old Dominion-Virginia Tech.
+Our model is 3.5 points away from the market on Old Dominion-Virginia Tech.
 
-We make Virginia Tech -22. The market is -19.
+We make Virginia Tech -22. The market is -18.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

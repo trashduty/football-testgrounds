@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Utah State Aggies | +27.5 (-114) | FanDuel | 56.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Washington Huskies | -26.5 (-110) | DraftKings | 44.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah State Aggies | +27.5 (-110) | Fanatics | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Washington Huskies | -27.5 (-106) | FanDuel | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Utah State Aggies visit the Washington Huskies at Husky Stadium. We make **Utah State +24**, compared with a market line of +26.5.
+The Utah State Aggies visit the Washington Huskies at Husky Stadium. We make **Utah State +24.5**, compared with a market line of +27.5.
 
-The best number we found is Utah State +27.5 at -114. We give Utah State a 56.5% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Utah State is a bet.
+The best number we found is Utah State +27.5 at -110. We give Utah State a 55.6% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Utah State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **20 games** this week.
+Our model found edges of at least 3% on **18 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
