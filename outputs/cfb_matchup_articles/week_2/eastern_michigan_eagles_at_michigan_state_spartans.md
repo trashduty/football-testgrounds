@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Eastern Michigan Eagles | +17.5 (-110) | Fanatics | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Michigan State Spartans | -17.5 (-105) | DraftKings | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Eastern Michigan Eagles | +17.5 (-110) | DraftKings | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Michigan State Spartans | -17.5 (-106) | FanDuel | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#69</td>
+<td class="btb-better">#70</td>
 <td>#107</td>
 </tr>
 <tr>

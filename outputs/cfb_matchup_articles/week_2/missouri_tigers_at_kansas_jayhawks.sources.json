@@ -2,19 +2,19 @@
   "game": "Missouri Tigers@Kansas Jayhawks",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-11T03:01:40.679168+00:00",
-  "model_prediction": 2.0,
-  "market_line": 5.5,
-  "best_line": 5.5,
-  "best_price": "-110",
-  "best_book": "Fanatics",
-  "cover_probability": 0.57347689,
-  "edge": 0.0496673661904761,
+  "generated_at_utc": "2026-09-11T23:11:19.314769+00:00",
+  "model_prediction": 1.0,
+  "market_line": 4.0,
+  "best_line": 4.5,
+  "best_price": "-112",
+  "best_book": "FanDuel",
+  "cover_probability": 0.57711564,
+  "edge": 0.0488137532075472,
   "bet_short": "Kansas",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We are not treating either opening rout as proof of what happens here. The more interesting part for us is the turnover beneath those results. Missouri replaced 10 defensive starters, while Kansas returned only three offensive starters and will give Isaiah Marshall his third career start. That creates uncertainty on both sides, but it also makes us less willing to assume Missouri can create the degree of separation the market is pricing.\n\nKansas still showed credible big-play potential in the opener, producing six gains of at least 20 yards while Nik McMillan finished with 130 receiving yards. Our matchup data respects Missouri\u2019s pass defense, so this is not a clean offensive matchup for Kansas. Still, the combination of Kansas\u2019 explosive-play profile and Missouri\u2019s extensive defensive personnel turnover gives the home side enough paths to stay competitive. That is where our expectation differs from the market.",
-    "matchup_to_watch": "We see Missouri\u2019s rushing offense against the Kansas front as the matchup that can most directly challenge our position. Missouri averaged 228.3 rushing yards per game in 2025 and ran for 261 yards in last season\u2019s meeting, although this version of the backfield now lists Jamal Roberts first and does not list returning 2025 starter Ahmad Hardy on the Kansas depth chart.\n\nWe did see encouraging disruption from Kansas in the opener, including 11 tackles for loss and four from Leroy Harris III alone. The opponent changes significantly here, but if Kansas can prevent Missouri from controlling the game on the ground, we think the rest of the matchup becomes much more favorable to the case for a competitive game.",
+    "narrative": "We are not treating either season-opening blowout as proof of what happens here. Missouri produced 562 yards against UAPB, while Kansas generated 613 against Long Island, but the more useful question is how each roster translates against stronger competition. For us, Missouri\u2019s defensive turnover matters: it returned only two listed starters from 2025 and lost 10. Our view is less willing than the market to assume that rebuilt group will immediately create separation on the road.\n\nKansas has enough offensive upside to test that uncertainty. We saw Isaiah Marshall throw for 246 yards and two touchdowns while adding 49 rushing yards in the opener, and the offensive line allowed no sacks and only one tackle for loss. Nik McMillan also supplied a downfield threat with 130 receiving yards. Missouri\u2019s pass defense grades as a difficult matchup in our numbers, so we are not projecting unchecked production, but Kansas has credible paths to sustain drives and generate explosive plays.\n\nOur primary concern is Missouri\u2019s rushing offense against a Kansas run defense that grades considerably worse. Missouri controlled last year\u2019s meeting with a 261-3 rushing-yard advantage, and that matchup remains the clearest way for the favorite to dictate the game. Still, we think the market is pricing too much separation if Kansas can keep that phase from becoming overwhelming, which supports our position on the home side.",
+    "matchup_to_watch": "We are watching Missouri\u2019s rushing offense against the Kansas defensive front. Missouri averaged 228.3 rushing yards per game in 2025, and Jamal Roberts ran for 143 yards against Kansas in last season\u2019s meeting. Our numbers identify this as Missouri\u2019s strongest matchup advantage, so Kansas must prevent efficient early-down rushing from turning the game into a possession-control script.\n\nWe did see some encouraging disruption from Kansas in the opener, including 11 tackles for loss and a career-high four from Leroy Harris III. We would not overvalue that performance against Long Island, but the front\u2019s ability to create negative plays is central to our case that Kansas can remain within range.",
     "guide_status": [
       "Found guide for Missouri Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
       "Loaded guide for Missouri Tigers: Missouri.pdf",
@@ -26,54 +26,42 @@
         "source_team": "Missouri Tigers",
         "opponent": "Kansas Jayhawks",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide is Missouri's 2026 Week 2 game notes for the Sept. 11 road game against Kansas and includes Kansas scouting notes and a depth chart labeled for Kansas.",
+        "document_match_reason": "The guide identifies Missouri's Week 2 game at Kansas on September 11, 2026, provides Kansas scouting notes, and includes a depth chart labeled for the Kansas matchup.",
         "recent_game": [
           {
-            "fact": "Missouri opened the season with a 54-14 win over Arkansas-Pine Bluff on Sept. 3, 2026.",
-            "page": 18,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri produced 562 total yards against UAPB, including 357 passing and 205 rushing, while allowing 198 total yards.",
-            "page": 3,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri led UAPB 40-0 at halftime and outgained the Golden Lions 376-6 in the first half.",
+            "fact": "Missouri opened the season with a 54-14 win over Arkansas-Pine Bluff on September 3, improving to 1-0.",
             "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Missouri converted 6 of 10 third downs, both fourth-down attempts and all five red-zone opportunities against UAPB.",
-            "page": 18,
+            "fact": "Missouri produced 562 total yards against UAPB, with 357 passing yards and 205 rushing yards, while allowing 198 total yards.",
+            "page": 3,
             "category": "recent_game",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Missouri's defense forced five three-and-outs against UAPB.",
-            "page": 7,
+            "fact": "Missouri led UAPB 40-0 at halftime and held a 376-6 advantage in first-half yardage.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri converted 6-of-10 third downs, both fourth-down attempts and all five red-zone possessions against UAPB.",
+            "page": 18,
             "category": "recent_game",
             "importance": "medium"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Kansas opened its season with a 51-6 win over LIU.",
+            "fact": "Kansas opened its season with a 51-6 win over LIU and gained 613 total yards while allowing 146.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Kansas generated 613 total yards against LIU, including 277 rushing and 336 passing, while allowing 146 total yards.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Kansas quarterback Isaiah Marshall completed 14 of 19 passes for 246 yards and two touchdowns and added 49 rushing yards in his second career start.",
+            "fact": "Kansas rushed for 277 yards and passed for 336 yards in its opener.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
@@ -85,19 +73,19 @@
             "importance": "medium"
           },
           {
-            "fact": "Kansas receiver McMillan had six receptions for 130 yards and one touchdown in the opener.",
+            "fact": "Kansas receiver McMillan caught six passes for 130 yards and one touchdown in the opener.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Returning Kansas linebacker Trey Lathan, the Jayhawks' leading tackler in 2025, recorded three tackles and a sack in the opener.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Returning Kansas linebacker Trey Lathan, the Jayhawks' 2025 leading tackler, recorded three tackles and a sack in the opener.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Returning Kansas defender Leroy Harris III, the Jayhawks' 2025 sack leader, recorded four tackles for loss against LIU.",
+            "fact": "Returning Kansas defender Leroy Harris III, the Jayhawks' leading sack producer in 2025, recorded four tackles for loss against LIU.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
@@ -105,69 +93,63 @@
         ],
         "quarterback": [
           {
-            "fact": "Ole Miss transfer Austin Simmons is listed as Missouri's starting quarterback against Kansas, with sophomore Matt Zollers as the backup.",
+            "fact": "Ole Miss transfer Austin Simmons started at quarterback in his Missouri debut and completed 17-of-19 passes for 252 yards, four touchdowns and no interceptions against UAPB.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons' 89.5% completion rate and 270.4 passer rating were the highest by a quarterback in a Missouri debut.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Missouri lists Simmons as the starter and sophomore Matt Zollers as the backup on its depth chart for Kansas.",
             "page": 11,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "In his Missouri debut, Simmons completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions against UAPB.",
-            "page": 4,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Simmons' 89.5% completion rate and 270.4 passer rating were Missouri debut records for a quarterback.",
-            "page": 4,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Simmons is the seventh quarterback to start for Missouri during Eli Drinkwitz's tenure and the third transfer quarterback.",
-            "page": 4,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Matt Zollers completed 8 of 12 passes for 87 yards and scored his first collegiate rushing touchdown against UAPB.",
+            "fact": "Kansas quarterback Isaiah Marshall made his second career start against LIU, completing 14-of-19 passes for 246 yards and two touchdowns while adding 49 rushing yards.",
             "page": 3,
             "category": "quarterback",
-            "importance": "low"
+            "importance": "high"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Missouri's Kansas depth chart lists Cayden Green at left tackle, Tristan Wilson at left guard, Dominick Giudice at center, Curtis Peagler at right guard and Luke Work at right tackle.",
+            "fact": "Missouri's listed starting offensive line for Kansas is left tackle Cayden Green, left guard Tristan Wilson, center Dominick Giudice, right guard Curtis Peagler and right tackle Luke Work.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Missouri returned only five offensive starters from 2025 and lost starting quarterback Beau Pribula, center Connor Tollison, tackle Keagen Trost and three starting wide receivers.",
+            "fact": "Green, Giudice and Peagler are 2025 returning starters, while Missouri lost starting center Connor Tollison and tackle Keagan Trost.",
             "page": 14,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Cayden Green allowed two sacks, two quarterback hits and three hurries over 750 snaps in 2025, according to PFF.",
-            "page": 5,
+            "fact": "Cayden Green is listed as Missouri's starting left tackle for Kansas after not appearing in the season opener.",
+            "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Missouri's Kansas depth chart lists Jamal Roberts as the starting running back, followed by Xai'Shaun Edwards or Malae Fonoti; returning 2025 starter Ahmad Hardy is not listed on that depth chart.",
+            "fact": "Missouri lists Jamal Roberts as its starting running back, with Xai'Shaun Edwards or Malae Fonoti behind him.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Roberts rushed 13 times for 47 yards and one touchdown against UAPB and surpassed 1,000 career rushing yards.",
+            "fact": "Roberts rushed 13 times for 47 yards and one touchdown against UAPB and became the 53rd 1,000-yard rusher in Missouri history.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Sophomore Donovan Olugbode set career highs with seven receptions, 107 yards and two touchdowns in the opener.",
+            "fact": "Sophomore receiver Donovan Olugbode set career highs with seven receptions, 107 yards and two touchdowns in the opener.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
@@ -179,15 +161,15 @@
             "importance": "high"
           },
           {
-            "fact": "Missouri's Kansas depth chart lists Naeshaun Montgomery or Caleb Goodie Sr. at one outside receiver spot, Cayden Lee in the slot and Donovan Olugbode at the other outside spot.",
-            "page": 11,
+            "fact": "Tight end Brett Norfleet recorded career highs of seven receptions and 76 yards with two touchdowns in Missouri's 42-31 win over Kansas in 2025.",
+            "page": 5,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Missouri lost 10 defensive starters from its 2025 team and returned two listed defensive starters.",
+            "fact": "Missouri returned two listed defensive starters from 2025 and lost 10, including both starting safeties, two cornerbacks, two linebackers and three edge or defensive-end players.",
             "page": 15,
             "category": "defensive_personnel",
             "importance": "high"
@@ -199,39 +181,33 @@
             "importance": "high"
           },
           {
-            "fact": "Nicholas Rodriguez and Auburn transfer Robert Woodyard Jr. are listed as the starting linebackers against Kansas.",
+            "fact": "Nicholas Rodriguez and Auburn transfer Robert Woodyard Jr. are listed as Missouri's starting linebackers for Kansas.",
             "page": 11,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Woodyard started 11 games for Auburn in 2025 and made 67 tackles, including 50 in conference play.",
+            "fact": "Woodyard started 11 games for Auburn in 2025 and recorded 67 tackles, including 50 in conference play.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss transfer Chris Graves Jr. and Oregon transfer Sione Laulea are listed at the two starting cornerback positions against Kansas, with Jahlil Florence listed as an option at either spot.",
-            "page": 11,
+            "fact": "Ole Miss transfer Chris Graves Jr. is listed as a starting cornerback after starting nine games for the Rebels in 2025.",
+            "page": 5,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Missouri lists Santana Banner at rover and Trajen Greco at free safety against Kansas.",
+            "fact": "Santana Banner and Trajen Greco are listed as the starting rover and free safety, while Sione Laulea is listed as the other starting cornerback.",
             "page": 11,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Jeremiah Beasley led Missouri with seven tackles against UAPB, while Jason Dowell recorded his first collegiate sack.",
-            "page": 18,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Chip Lindsey joined Missouri as offensive coordinator in December 2025 and is in his first season with the Tigers.",
+            "fact": "Chip Lindsey joined Missouri as offensive coordinator in December 2025 and is in his first season in the role.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "high"
@@ -243,19 +219,19 @@
             "importance": "high"
           },
           {
-            "fact": "John Papuchis became Missouri's special teams coordinator and defensive assistant in January 2026.",
+            "fact": "John Papuchis became Missouri's special-teams coordinator and defensive assistant in January 2026.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Derek Nicholson added co-defensive coordinator duties before the 2026 season while continuing to coach linebackers.",
+            "fact": "Derek Nicholson added co-defensive coordinator to his linebackers-coach title before the 2026 season.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Alex Atkins joined Missouri as tight ends coach in January 2026, and Chop Harbin joined as defensive line coach.",
+            "fact": "Alex Atkins joined Missouri as tight ends coach in January 2026 after serving as LSU's tight ends coach and run-game coordinator in 2025.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
@@ -264,25 +240,25 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Missouri averaged 228.3 rushing yards per game in 2025, eighth nationally and first in the SEC.",
+            "fact": "Missouri averaged 228.3 rushing yards per game in 2025, ranking eighth nationally and first in the SEC.",
             "page": 5,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri had 205 rushing yards and three rushing touchdowns in its 2026 opener.",
+            "fact": "Missouri had two 100-yard rushers against Kansas in 2025: Jamal Roberts ran for 143 yards and Ahmad Hardy ran for 112.",
             "page": 5,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Missouri averaged 7.2 yards per play, converted 60% of its third downs and scored on every red-zone possession against UAPB.",
+            "fact": "Missouri averaged 7.2 yards per play, converted 60% of its third downs and scored touchdowns on four of five red-zone possessions in the 2026 opener.",
             "page": 10,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri completed six passes of at least 20 yards against UAPB, led by Simmons' 47-yard touchdown pass to Cayden Lee.",
+            "fact": "Missouri completed six passes of at least 20 yards against UAPB, including touchdowns of 35 yards to Donovan Olugbode and 47 yards to Cayden Lee.",
             "page": 8,
             "category": "offensive_context",
             "importance": "medium"
@@ -290,91 +266,85 @@
         ],
         "defensive_context": [
           {
-            "fact": "Missouri's 2025 defense allowed 277.3 yards and 18.9 points per game, including 103.8 rushing yards and 173.5 passing yards per game.",
-            "page": 16,
+            "fact": "Missouri held UAPB to 198 total yards, 89 rushing yards and 109 passing yards.",
+            "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri held UAPB to 89 rushing yards, 109 passing yards and 3-of-13 third-down conversions.",
+            "fact": "Missouri forced five three-and-outs against UAPB.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAPB converted 3-of-13 third downs and failed on its only fourth-down attempt.",
             "page": 18,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri did not force a turnover against UAPB after producing 12 takeaways in 2025.",
-            "page": 10,
+            "fact": "Missouri's 2025 defense allowed 277.3 yards and 18.9 points per game, ranking eighth nationally in total defense and 17th in scoring defense.",
+            "page": 16,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Missouri's Kansas depth chart lists Brunno Reus as the punter, kickoff specialist and holder, with Blake Craig as the placekicker and Brett Le Blanc as the long snapper.",
-            "page": 11,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Craig made a 32-yard field goal and all seven extra-point attempts against UAPB.",
+            "fact": "Blake Craig made all seven extra points and a 32-yard field goal against UAPB.",
             "page": 18,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "DaMarion Fowlkes is listed as Missouri's primary punt and kickoff returner against Kansas and returned a punt 23 yards in the opener.",
-            "page": 8,
+            "fact": "Missouri lists Brunno Reus as its starting punter, kickoff specialist and holder, with Craig as the starting placekicker.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "DaMarion Fowlkes is listed as Missouri's primary punt and kickoff returner and had a 23-yard punt return in the opener.",
+            "page": 11,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "The 2026 meeting is the 122nd football game between Missouri and Kansas and the rivalry's first game in Lawrence since 2005.",
+            "fact": "Missouri leads the all-time series 58-54-9 and won the 2025 renewal 42-31 in Columbia.",
             "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri leads the series 58-54-9 but trails 19-26-3 in games played at Lawrence.",
+            "fact": "The 2026 game is the 122nd meeting and the rivalry's first game in Lawrence since 2005.",
             "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri won the renewed rivalry game 42-31 in Columbia on Sept. 6, 2025, after overcoming a 15-point deficit.",
+            "fact": "Missouri overcame a 21-6 first-quarter deficit and later fourth-quarter deficits in its 42-31 win over Kansas in 2025.",
             "page": 7,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "In the 2025 win over Kansas, Missouri running backs Jamal Roberts and Ahmad Hardy rushed for 143 and 112 yards, respectively.",
-            "page": 5,
+            "fact": "Missouri is seeking its fifth consecutive win in the series and a seventh win in eight meetings since 2006.",
+            "page": 1,
             "category": "series_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri tight end Brett Norfleet set career highs with seven catches and 76 yards and scored two touchdowns against Kansas in 2025.",
-            "page": 5,
-            "category": "series_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Cayden Green played 47 pass-blocking snaps without allowing a pressure against Kansas in 2025, according to PFF.",
-            "page": 5,
-            "category": "series_context",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Missouri enters the Kansas game 1-0 and ranked No. 25 in both the AP and Coaches polls; Kansas is 1-0 and unranked.",
+            "fact": "The game is scheduled for September 11 at 7 p.m. CT at David Booth Kansas Memorial Stadium in Lawrence.",
             "page": 1,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Missouri has won 14 consecutive regular-season night games and is 15-1 in its last 16 night games overall.",
+            "fact": "Missouri is 15-1 in its last 16 night games and has won 14 consecutive regular-season night games.",
             "page": 3,
             "category": "other_relevant",
             "importance": "medium"
@@ -392,22 +362,22 @@
         "source_team": "Kansas Jayhawks",
         "opponent": "Missouri Tigers",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is labeled \"Kansas Game Notes | Game 2 vs. Missouri\" and identifies Kansas' upcoming home game against Missouri on Sept. 11, 2026.",
+        "document_match_reason": "The document is titled \"Kansas Game Notes | Game 2 vs. Missouri\" and identifies Kansas' upcoming home game against Missouri on Sept. 11, 2026.",
         "recent_game": [
           {
-            "fact": "Kansas opened the season with a 51-6 home win over Long Island on Sept. 4, 2026.",
+            "fact": "Kansas opened the 2026 season with a 51-6 home win over Long Island on Sept. 4.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Kansas produced 613 total yards on 76 plays against Long Island, the eighth-highest single-game yardage total in program history.",
+            "fact": "Kansas produced 613 total yards on 76 plays against Long Island, the eighth-highest single-game total in program history.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Kansas rushed for 277 yards and five touchdowns against Long Island.",
+            "fact": "Kansas rushed for five touchdowns against Long Island; Yasin Willis led the team with 72 yards and two touchdowns on 11 carries.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -422,19 +392,19 @@
             "fact": "Kansas recorded 11 tackles for loss and three sacks against Long Island.",
             "page": 1,
             "category": "recent_game",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "No. 25 Missouri entered the matchup 1-0 after defeating Arkansas-Pine Bluff 54-14 on Sept. 3, 2026.",
+            "fact": "Missouri enters the matchup 1-0 and ranked No. 25 in both the AP and coaches polls.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Missouri gained 562 total yards against Arkansas-Pine Bluff, including 357 passing yards and 205 rushing yards.",
-            "page": 8,
+            "fact": "Missouri defeated Arkansas-Pine Bluff 54-14 in its season opener and totaled 562 yards of offense.",
+            "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
@@ -445,19 +415,25 @@
             "importance": "high"
           },
           {
-            "fact": "Missouri receiver Donovan Olugbode had eight receptions for 116 yards and two touchdowns in the opener; Cayden Lee added four catches for 80 yards and a touchdown.",
+            "fact": "Donovan Olugbode led Missouri's receivers in the opener with eight catches for 116 yards and two touchdowns; Cayden Lee added four catches for 80 yards and a touchdown.",
             "page": 8,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Missouri allowed Arkansas-Pine Bluff 198 total yards, including 89 rushing and 109 passing, while recording three sacks.",
+            "fact": "Missouri rushed for 205 yards in its opener, led by Jamal Roberts with 47 yards and one touchdown on 13 carries and Xai'Shaun Edwards with 45 yards on seven carries.",
             "page": 8,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Missouri finished 8-5 overall and 4-4 in SEC play in 2025, with a 2-2 road record.",
+            "fact": "Missouri allowed 198 total yards in its opener, including 89 rushing and 109 passing yards.",
+            "page": 8,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Missouri finished 2025 at 8-5 overall and 4-4 in SEC play, including a 2-2 road record.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "medium"
@@ -465,89 +441,101 @@
         ],
         "quarterback": [
           {
-            "fact": "Kansas named redshirt sophomore Isaiah Marshall its starting quarterback before the 2026 season, succeeding Jalon Daniels in the role.",
+            "fact": "Kansas named redshirt sophomore Isaiah Marshall its starting quarterback before the 2026 season, replacing the role held primarily by Jalon Daniels during the previous six seasons.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Marshall completed 14 of 19 passes for 246 yards and two touchdowns and rushed seven times for 49 yards against Long Island.",
+            "fact": "In his second career start, Marshall completed 14 of 19 passes for 246 yards and two touchdowns and rushed seven times for 49 yards against Long Island.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "The Missouri game will be Marshall's third career start; his first came in a dual-quarterback role against Kansas State in 2025.",
-            "page": 4,
+            "fact": "Redshirt junior Cole Ballard is Kansas' No. 2 quarterback on the Game 2 depth chart and has completed 39 of 70 career passes for 535 yards and three touchdowns.",
+            "page": 16,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Kansas' Game 2 depth chart lists Cole Ballard as Marshall's primary backup and Rice transfer Chase Jenkins third.",
-            "page": 15,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Jenkins started all 12 regular-season games for Rice in 2025, passing for 1,025 yards and nine touchdowns while rushing for 531 yards and five touchdowns.",
+            "fact": "Chase Jenkins transferred from Rice after starting all 12 regular-season games there in 2025, when he passed for 1,025 yards and nine touchdowns and rushed for 531 yards and five touchdowns.",
             "page": 4,
             "category": "quarterback",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Syracuse transfer Yasin Willis led Kansas with 72 rushing yards and two touchdowns on 11 carries in his Jayhawk debut.",
-            "page": 4,
+            "fact": "Kansas returns three offensive starters from 2025: tight end Carson Bruhn, left guard Amir Herring and left tackle Calvin Clements.",
+            "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Buffalo transfer Nik McMillan caught six passes for 130 yards and one touchdown against Long Island, extending his streak of 100-yard receiving games to seven.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Kansas' Game 2 depth chart lists Dylan Edwards or Willis at starting running back, with Jalen Dupree behind them.",
+            "fact": "Kansas' Game 2 starting offensive line is listed as Calvin Clements at left tackle, Amir Herring at left guard, Kasen Carpenter at center, Tavake Tuikolovatu at right guard and Nick Morrow at right tackle.",
             "page": 15,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Colorado State transfer Jalen Dupree rushed nine times for 35 yards and scored his first Kansas touchdown in the opener.",
-            "page": 4,
+            "fact": "Clements and Herring each started all 12 games for Kansas in 2025.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Kasen Carpenter transferred to Kansas after starting two games for Oklahoma State in 2025 and 11 games for Tulsa in 2024.",
+            "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Kansas returned only three offensive starters from 2025: tight end Carson Bruhn, guard Amir Herring and tackle Calvin Clements.",
+            "fact": "Right tackle Nick Morrow transferred from California after starting five games in 2025.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas' offensive line did not allow a sack and conceded only one tackle for loss against Long Island.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The projected Kansas offensive line against Missouri is Calvin Clements at left tackle, Amir Herring at left guard, Kasen Carpenter at center, Tavake Tuikolovatu at right guard and Nick Morrow at right tackle.",
+            "fact": "Buffalo transfer Nik McMillan caught six passes for 130 yards and a touchdown in his Kansas debut, extending his streak to seven consecutive 100-yard receiving games.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas lists Dylan Edwards or Yasin Willis as the starting running back against Missouri; both are first-year Kansas transfers.",
             "page": 15,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Clements and Herring are the offensive line's two returning starters; Carpenter transferred from Oklahoma State and Morrow transferred from California.",
-            "page": 5,
+            "fact": "Syracuse transfer Yasin Willis rushed for 72 yards and two touchdowns in his Kansas debut, while Kansas State transfer Dylan Edwards rushed for 32 yards on six carries.",
+            "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Kansas' offensive line allowed no sacks and only one tackle for loss against Long Island.",
-            "page": 5,
+            "fact": "Colorado State transfer Jalen Dupree rushed nine times for 35 yards and scored his first Kansas touchdown against Long Island.",
+            "page": 4,
             "category": "offensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Defensive end Leroy Harris III recorded a career-high four tackles for loss against Long Island, the most by a Kansas player since 2022.",
+            "fact": "Kansas returns five defensive starters from 2025: linebacker Trey Lathan, cornerbacks Austin Alexander and Jalen Todd, safety Taylor Davis and defensive tackle Blake Herold.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end Leroy Harris III recorded a career-high four tackles for loss against Long Island, the most by a Jayhawk in a game since 2022.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "high"
@@ -559,73 +547,67 @@
             "importance": "high"
           },
           {
-            "fact": "Linebacker Trey Lathan returns after leading Kansas with 86 tackles in 2025; he entered 2026 with 198 career tackles and 17 tackles for loss.",
+            "fact": "Trey Lathan returns after leading Kansas with 86 tackles in 2025; he has 198 career tackles and 17 tackles for loss.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Kansas returns cornerback starters Jalen Todd and Austin Alexander, who combined for 22 starts in 2025, along with returning safety Taylor Davis.",
-            "page": 6,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Kansas added experienced safeties Corey Gordon and Jaden Harris; Gordon started 12 games for Louisville in 2025, while Harris started 13 games for Miami in 2024.",
-            "page": 6,
+            "fact": "Kansas' Game 2 depth chart lists Bam Crouch, Malachi Curvey or Jibreel Al-Amin alongside Lathan at linebacker.",
+            "page": 15,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Kansas' Game 2 depth chart lists transfers Bam Crouch, Elijah Cannon and Corey Gordon as first-team players at linebacker, Hawk and strong safety, respectively.",
+            "fact": "Kansas returns cornerbacks Jalen Todd and Austin Alexander, who combined for 22 starts in 2025, and lists Taylor Davis and Corey Gordon as its starting safeties for Game 2.",
             "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Austin Alexander returned a fumble 28 yards for a touchdown against Missouri in the 2025 meeting.",
+            "page": 9,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Andy Kotelnicki returned to Kansas as associate head coach in 2026 after two seasons at Penn State.",
+            "fact": "Andy Kotelnicki returned to Kansas as associate head coach after two seasons at Penn State; he previously served as Kansas' offensive coordinator from 2021 through 2023.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Kotelnicki previously served as Kansas' offensive coordinator from 2021 through 2023, including offenses that averaged 35.6 points in 2022 and 34.8 points in 2023.",
-            "page": 3,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "D.K. McDonald is Kansas' defensive coordinator, and Matt Lubick is co-offensive coordinator and tight ends coach.",
-            "page": 3,
+            "fact": "D.K. McDonald is in his third season as Kansas' defensive coordinator.",
+            "page": 14,
             "category": "coaching_changes",
             "importance": "medium"
           }
         ],
         "injury_availability": [
           {
-            "fact": "Wide receiver Cam Pickett did not play in Kansas' season opener, but the Game 2 depth chart lists him as a co-starter with Keaton Kubecka.",
+            "fact": "Wide receiver Cam Pickett did not play in Kansas' season opener but is listed as an OR starter with Keaton Kubecka on the Game 2 depth chart.",
             "page": 15,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Boston College transfer Bam Crouch started four games in 2025 before missing the remainder of that season because of injury; he is listed first at one linebacker position on Kansas' Game 2 depth chart.",
-            "page": 15,
+            "fact": "Boston College transfer Bam Crouch missed the remainder of the 2025 season after starting four games because of injury; Kansas lists him as a possible starting linebacker against Missouri.",
+            "page": 6,
             "category": "injury_availability",
             "importance": "medium"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Kansas generated six plays of at least 20 yards, including three plays of at least 40 yards, against Long Island.",
-            "page": 4,
+            "fact": "Kansas gained 277 rushing yards and 336 passing yards in its season opener.",
+            "page": 8,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Kansas scored five rushing touchdowns in the opener, with Willis scoring twice and Micah Johnson, Donald Collier and Dupree each scoring once.",
+            "fact": "Kansas generated six plays of at least 20 yards, including three plays of at least 40 yards, against Long Island.",
             "page": 4,
             "category": "offensive_context",
             "importance": "high"
@@ -637,7 +619,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Kansas has allowed 45 sacks since the start of 2023, the eighth-fewest nationally and second-fewest in the Big 12 over that period.",
+            "fact": "Kansas has allowed 45 sacks since the start of the 2023 season, the eighth-fewest nationally and second-fewest in the Big 12 over that span.",
             "page": 5,
             "category": "offensive_context",
             "importance": "medium"
@@ -651,13 +633,13 @@
             "importance": "high"
           },
           {
-            "fact": "Kansas allowed 214.1 passing yards per game in 2025, its lowest season average since 2001.",
+            "fact": "Kansas averaged 6.3 tackles for loss per game in 2025, fourth in the Big 12 and 26th nationally.",
             "page": 5,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Kansas averaged 6.3 tackles for loss per game in 2025, ranking fourth in the Big 12 and 26th nationally.",
+            "fact": "Kansas allowed 214.1 passing yards per game in 2025, its lowest season average since 2001.",
             "page": 5,
             "category": "defensive_context",
             "importance": "medium"
@@ -671,74 +653,80 @@
         ],
         "special_teams": [
           {
-            "fact": "Michigan State transfer Martin Connington is Kansas' primary placekicker and made a 32-yard field goal plus all six extra-point attempts against Long Island.",
+            "fact": "Michigan State transfer Martin Connington is Kansas' placekicker and made a 32-yard field goal and all six extra-point attempts against Long Island.",
             "page": 6,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Kansas' Game 2 depth chart lists true freshman Matt Gill as the primary punter, Dylan Edwards as the primary kickoff returner and Tate Nagy as the primary punt returner.",
+            "fact": "Kansas lists true freshman Matt Gill as its punter and California transfer Rino Monteforte as its long snapper.",
             "page": 15,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "California transfer Rino Monteforte is Kansas' primary long snapper after playing all 13 games for Cal in 2025.",
-            "page": 6,
+            "fact": "Tate Nagy is listed as Kansas' primary punt returner, while Dylan Edwards is listed as the primary kickoff returner.",
+            "page": 15,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "Missouri leads the all-time series 57-55-9, while Kansas leads 26-16-3 in games played in Lawrence.",
-            "page": 8,
+            "fact": "The 2026 game is the 122nd meeting in the Border Showdown, with Missouri leading the all-time series 57-55-9.",
+            "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "The 2026 game is the 122nd meeting and the first played in Lawrence since Kansas won 13-3 in 2005.",
-            "page": 3,
+            "fact": "Kansas leads the series 26-16-3 in Lawrence, and this is the first meeting played in Lawrence since Kansas won 13-3 in 2005.",
+            "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri won the most recent meeting 42-31 in Columbia on Sept. 6, 2025, after Kansas led 21-6 in the first quarter.",
+            "fact": "Missouri won the most recent meeting 42-31 in Columbia on Sept. 6, 2025.",
             "page": 9,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "In the 2025 meeting, Missouri outgained Kansas 595-226, rushed for 261 yards to Kansas' three and held the ball for 40:27.",
+            "fact": "In the 2025 meeting, Missouri outgained Kansas 595-226, held a 261-3 advantage in rushing yards and possessed the ball for 40:27.",
             "page": 9,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Kansas cornerback Austin Alexander returned a fumble 28 yards for a touchdown against Missouri in 2025.",
+            "fact": "Kansas led Missouri 21-6 in the first quarter and 31-28 with 8:45 remaining in the 2025 meeting before Missouri scored the final 14 points.",
             "page": 9,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas' last win in the series was a 40-37 victory over No. 12 Missouri in 2008.",
+            "page": 1,
             "category": "series_context",
             "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Kansas enters the matchup 1-0 and Missouri enters 1-0, with the Tigers ranked No. 25 in both the AP and coaches polls.",
+            "fact": "Kansas enters the matchup 1-0 and will host Missouri at David Booth Kansas Memorial Stadium on Friday, Sept. 11.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Kansas has a 5-10 record against AP-ranked opponents under Lance Leipold.",
-            "page": 4,
+            "fact": "Kansas is 18-9 at home since the start of the 2022 season.",
+            "page": 1,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Kansas is 18-9 at home since the start of the 2022 season.",
-            "page": 3,
+            "fact": "Kansas is 5-10 against AP-ranked opponents under Lance Leipold.",
+            "page": 4,
             "category": "other_relevant",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "source_file": "Kansas.pdf"
@@ -749,12 +737,12 @@
         "dimension": "Missouri rushing offense vs Kansas rush defense",
         "off_team": "Missouri",
         "def_team": "Kansas",
-        "off_rank": 33,
+        "off_rank": 32,
         "def_rank": 77,
         "stat": "rush EPA",
-        "rank_gap": 44,
+        "rank_gap": 45,
         "direction": "offense_advantage",
-        "matchup_score": 144
+        "matchup_score": 145
       },
       {
         "dimension": "Kansas passing offense vs Missouri pass defense",
@@ -781,26 +769,17 @@
     ],
     "used_sources": [
       {
-        "fact_id": 1,
-        "fact": "Missouri opened the season with a 54-14 win over Arkansas-Pine Bluff on Sept. 3, 2026.",
-        "page": 18,
+        "fact_id": 2,
+        "fact": "Missouri produced 562 total yards against UAPB, with 357 passing yards and 205 rushing yards, while allowing 198 total yards.",
+        "page": 3,
         "category": "recent_game",
         "importance": "high",
         "source_file": "Missouri.pdf",
         "source_team": "Missouri Tigers"
       },
       {
-        "fact_id": 21,
-        "fact": "Missouri's Kansas depth chart lists Jamal Roberts as the starting running back, followed by Xai'Shaun Edwards or Malae Fonoti; returning 2025 starter Ahmad Hardy is not listed on that depth chart.",
-        "page": 11,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Missouri.pdf",
-        "source_team": "Missouri Tigers"
-      },
-      {
-        "fact_id": 26,
-        "fact": "Missouri lost 10 defensive starters from its 2025 team and returned two listed defensive starters.",
+        "fact_id": 23,
+        "fact": "Missouri returned two listed defensive starters from 2025 and lost 10, including both starting safeties, two cornerbacks, two linebackers and three edge or defensive-end players.",
         "page": 15,
         "category": "defensive_personnel",
         "importance": "high",
@@ -808,8 +787,8 @@
         "source_team": "Missouri Tigers"
       },
       {
-        "fact_id": 38,
-        "fact": "Missouri averaged 228.3 rushing yards per game in 2025, eighth nationally and first in the SEC.",
+        "fact_id": 34,
+        "fact": "Missouri averaged 228.3 rushing yards per game in 2025, ranking eighth nationally and first in the SEC.",
         "page": 5,
         "category": "offensive_context",
         "importance": "high",
@@ -817,8 +796,17 @@
         "source_team": "Missouri Tigers"
       },
       {
-        "fact_id": 57,
-        "fact": "Kansas opened the season with a 51-6 home win over Long Island on Sept. 4, 2026.",
+        "fact_id": 35,
+        "fact": "Missouri had two 100-yard rushers against Kansas in 2025: Jamal Roberts ran for 143 yards and Ahmad Hardy ran for 112.",
+        "page": 5,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Missouri.pdf",
+        "source_team": "Missouri Tigers"
+      },
+      {
+        "fact_id": 53,
+        "fact": "Kansas produced 613 total yards on 76 plays against Long Island, the eighth-highest single-game total in program history.",
         "page": 1,
         "category": "recent_game",
         "importance": "high",
@@ -826,26 +814,26 @@
         "source_team": "Kansas Jayhawks"
       },
       {
-        "fact_id": 70,
-        "fact": "The Missouri game will be Marshall's third career start; his first came in a dual-quarterback role against Kansas State in 2025.",
-        "page": 4,
-        "category": "quarterback",
-        "importance": "medium",
-        "source_file": "Kansas.pdf",
-        "source_team": "Kansas Jayhawks"
-      },
-      {
-        "fact_id": 74,
-        "fact": "Buffalo transfer Nik McMillan caught six passes for 130 yards and one touchdown against Long Island, extending his streak of 100-yard receiving games to seven.",
-        "page": 4,
-        "category": "offensive_personnel",
+        "fact_id": 56,
+        "fact": "Kansas recorded 11 tackles for loss and three sacks against Long Island.",
+        "page": 1,
+        "category": "recent_game",
         "importance": "high",
         "source_file": "Kansas.pdf",
         "source_team": "Kansas Jayhawks"
       },
       {
-        "fact_id": 77,
-        "fact": "Kansas returned only three offensive starters from 2025: tight end Carson Bruhn, guard Amir Herring and tackle Calvin Clements.",
+        "fact_id": 65,
+        "fact": "In his second career start, Marshall completed 14 of 19 passes for 246 yards and two touchdowns and rushed seven times for 49 yards against Long Island.",
+        "page": 4,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 73,
+        "fact": "Kansas' offensive line did not allow a sack and conceded only one tackle for loss against Long Island.",
         "page": 5,
         "category": "offensive_personnel",
         "importance": "high",
@@ -853,8 +841,17 @@
         "source_team": "Kansas Jayhawks"
       },
       {
-        "fact_id": 81,
-        "fact": "Defensive end Leroy Harris III recorded a career-high four tackles for loss against Long Island, the most by a Kansas player since 2022.",
+        "fact_id": 74,
+        "fact": "Buffalo transfer Nik McMillan caught six passes for 130 yards and a touchdown in his Kansas debut, extending his streak to seven consecutive 100-yard receiving games.",
+        "page": 4,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 79,
+        "fact": "Defensive end Leroy Harris III recorded a career-high four tackles for loss against Long Island, the most by a Jayhawk in a game since 2022.",
         "page": 5,
         "category": "defensive_personnel",
         "importance": "high",
@@ -862,17 +859,8 @@
         "source_team": "Kansas Jayhawks"
       },
       {
-        "fact_id": 92,
-        "fact": "Kansas generated six plays of at least 20 yards, including three plays of at least 40 yards, against Long Island.",
-        "page": 4,
-        "category": "offensive_context",
-        "importance": "high",
-        "source_file": "Kansas.pdf",
-        "source_team": "Kansas Jayhawks"
-      },
-      {
-        "fact_id": 106,
-        "fact": "In the 2025 meeting, Missouri outgained Kansas 595-226, rushed for 261 yards to Kansas' three and held the ball for 40:27.",
+        "fact_id": 103,
+        "fact": "In the 2025 meeting, Missouri outgained Kansas 595-226, held a 261-3 advantage in rushing yards and possessed the ball for 40:27.",
         "page": 9,
         "category": "series_context",
         "importance": "high",
@@ -885,12 +873,12 @@
       "model_side": "Kansas",
       "opponent_full": "Missouri Tigers",
       "opponent": "Missouri",
-      "model_prediction": 2.0,
-      "market_line": 5.5,
-      "best_available_line": 5.5,
-      "best_available_price": "-110",
-      "cover_probability": 0.57347689,
-      "edge": 0.0496673661904761,
+      "model_prediction": 1.0,
+      "market_line": 4.0,
+      "best_available_line": 4.5,
+      "best_available_price": "-112",
+      "cover_probability": 0.57711564,
+      "edge": 0.0488137532075472,
       "bet_status": "BET"
     }
   }

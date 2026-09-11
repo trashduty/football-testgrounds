@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ohio State Buckeyes | +1.5 (-108) | BetMGM | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas Longhorns | -1.5 (-110) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio State Buckeyes | +1.5 (-106) | FanDuel | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Longhorns | -1.5 (-110) | Fanatics | 52.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,7 +15,11 @@ The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium.
 
 The best number we found is Texas -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our lean toward Texas is less about reacting to the opener and more about how competitive the underlying matchup was last season. Texas outgained Ohio State 336-203, including a 166-77 advantage on the ground, but came away empty on both red-zone trips and converted only one of five fourth downs. We also give weight to the setting: Arch Manning is unbeaten as a home starter, and Texas is 20-1 in Austin since the start of 2023. Those records do not decide this game, but they help explain why our numbers give Texas a narrow advantage.
+For us, the case for a slight Texas lean starts with the home setting and an experienced offensive core. Texas is 20-1 at home since the start of 2023, while Arch Manning is 9-0 as the starter there. Four starters return along an offensive line that faced Ohio State last season, giving us more confidence that Texas can handle this step up in competition than its opening result alone would suggest.
+
+Our efficiency numbers still identify two serious obstacles. The Texas ground game faces a major disadvantage against Ohio State’s run defense, while Ohio State’s passing game attacks the less convincing part of the Texas defense. Julian Sayin returns after completing 77 percent of his passes for 3,610 yards in 2025, and Ohio State also brings back eight offensive starters and exceptional offensive-line continuity. That combination makes Ohio State’s passing efficiency the clearest challenge to our Texas position.
+
+The 2025 meeting is useful context: Texas outgained Ohio State but went 1-for-5 on fourth down and failed to score on two red-zone possessions in a 14-7 loss. We are not treating that as proof of a reversal, but it shows why the final score alone does not settle the matchup. Our numbers can prefer Texas while recognizing that the football advantages are split, and that narrow disagreement is not enough for us at the available price.
 
 ### What The Numbers Say
 
@@ -33,12 +37,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#14</td>
-<td class="btb-better">#2</td>
+<td class="btb-better">#3</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#100</td>
-<td class="btb-better">#79</td>
+<td class="btb-better">#80</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -67,7 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Ohio State’s passing game against the Texas pass defense. Sayin completed 77 percent of his passes with 32 touchdowns and eight interceptions last season, while Jeremiah Smith enters with 2,709 career receiving yards and 29 touchdowns. Texas’ best response may be disruption: it has forced a turnover in 24 consecutive home games and recorded at least 40 sacks and 15 interceptions in each of the past two seasons. If Texas cannot affect Sayin, Ohio State has the clearest offensive path to challenging our view.
+The matchup we are watching is Ohio State’s pass protection against the Texas pressure led by Colin Simmons. Ohio State entered this game with 85.8 percent offensive-line continuity, while Simmons produced 12 sacks and a Texas-record 61 quarterback pressures in 2025. That is strength against strength, and it matters because Texas cannot afford to let Sayin operate comfortably against its pass defense.
+
+We think Texas needs its front to affect timing without becoming dependent on extra pressure. If Ohio State’s experienced line keeps the pocket clean, Sayin and Jeremiah Smith can stress the area where our matchup numbers see the clearest Ohio State advantage.
 
 ## Best Bets Of The Week
 

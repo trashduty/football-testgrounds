@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Tennessee-Georgia Tech.
 
-We make Georgia Tech +12. The market is +11.5.
+We make Georgia Tech +12. The market is +12.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

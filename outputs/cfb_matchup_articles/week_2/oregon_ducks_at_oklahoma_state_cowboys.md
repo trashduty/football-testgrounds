@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon Ducks | -23.5 (-108) | FanDuel | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oklahoma State Cowboys | +23.5 (-112) | FanDuel | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon Ducks | -23.5 (-105) | FanDuel | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma State Cowboys | +23.5 (-110) | Fanatics | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Oklahoma State +23.5**, compared with a market line of +23.
+The Oregon Ducks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Oregon -24**, compared with a market line of -23.5.
 
-The best number we found is Oklahoma State +23.5 at -112. We see a -2.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Oregon -23.5 at -105. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Oklahoma State</th>
 <th>Oregon</th>
+<th>Oklahoma State</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#127</td>
 <td class="btb-better">#22</td>
+<td>#127</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#137</td>
 <td class="btb-better">#10</td>
+<td>#137</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#126</td>
 <td class="btb-better">#22</td>
+<td>#126</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#78</td>
 <td class="btb-better">#30</td>
+<td>#78</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#132</td>
 <td class="btb-better">#18</td>
+<td>#132</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#116</td>
 <td class="btb-better">#12</td>
+<td>#116</td>
 </tr>
 </tbody>
 </table>

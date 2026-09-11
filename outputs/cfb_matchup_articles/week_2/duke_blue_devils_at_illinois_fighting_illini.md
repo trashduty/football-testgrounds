@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Duke Blue Devils | +5.5 (-105) | FanDuel | 47.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Illinois Fighting Illini | -5.5 (-108) | DraftKings | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Duke Blue Devils | +5.5 (-105) | FanDuel | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Illinois Fighting Illini | -5.5 (-114) | BetRivers | 53.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Duke Blue Devils visit the Illinois Fighting Illini at Memorial Stadium (Champaign, IL). We make **Illinois -8**, compared with a market line of -5.5.
+The Duke Blue Devils visit the Illinois Fighting Illini at Memorial Stadium (Champaign, IL). We make **Illinois -8.5**, compared with a market line of -6.
 
-The best number we found is Illinois -5.5 at -108. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Illinois -5.5 at -114. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#99</td>
-<td class="btb-better">#84</td>
+<td class="btb-better">#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>

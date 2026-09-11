@@ -1,6 +1,6 @@
 Our model is 2 points away from the market on South Alabama-Tulane.
 
-We make Tulane -11.5. The market is -9.5.
+We make Tulane -12. The market is -10.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

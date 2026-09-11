@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UTSA Roadrunners | +2.5 (-114) | FanDuel | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas State Bobcats | -1.5 (-112) | DraftKings | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas State Bobcats | -1.5 (-110) | Fanatics | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UTSA Roadrunners visit the Texas State Bobcats at Bobcat Stadium (TX). We make **Texas State -2**, compared with a market line of -2.
+The UTSA Roadrunners visit the Texas State Bobcats at Bobcat Stadium (TX). We make **Texas State -2**, compared with a market line of -2.5.
 
-The best number we found is Texas State -1.5 at -112. We see a -2.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas State -1.5 at -110. We see a -2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

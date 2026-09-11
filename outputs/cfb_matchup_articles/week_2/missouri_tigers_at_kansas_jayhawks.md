@@ -6,18 +6,20 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Missouri Tigers | -5.5 (-105) | DraftKings | 42.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kansas Jayhawks | +5.5 (-110) | Fanatics | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Missouri Tigers | -4.5 (-105) | Fanatics | 42.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas Jayhawks | +4.5 (-112) | FanDuel | 57.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Missouri Tigers visit the Kansas Jayhawks at Memorial Stadium. We make **Kansas +2**, compared with a market line of +5.5.
+The Missouri Tigers visit the Kansas Jayhawks at Memorial Stadium. We make **Kansas +1**, compared with a market line of +4.
 
-The best number we found is Kansas +5.5 at -110. We give Kansas a 57.3% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Kansas is a bet.
+The best number we found is Kansas +4.5 at -112. We give Kansas a 57.7% chance to cover, which creates an 4.9% edge for us. That clears our 3% threshold, so Kansas is a bet.
 
-We are not treating either opening rout as proof of what happens here. The more interesting part for us is the turnover beneath those results. Missouri replaced 10 defensive starters, while Kansas returned only three offensive starters and will give Isaiah Marshall his third career start. That creates uncertainty on both sides, but it also makes us less willing to assume Missouri can create the degree of separation the market is pricing.
+We are not treating either season-opening blowout as proof of what happens here. Missouri produced 562 yards against UAPB, while Kansas generated 613 against Long Island, but the more useful question is how each roster translates against stronger competition. For us, Missouri’s defensive turnover matters: it returned only two listed starters from 2025 and lost 10. Our view is less willing than the market to assume that rebuilt group will immediately create separation on the road.
 
-Kansas still showed credible big-play potential in the opener, producing six gains of at least 20 yards while Nik McMillan finished with 130 receiving yards. Our matchup data respects Missouri’s pass defense, so this is not a clean offensive matchup for Kansas. Still, the combination of Kansas’ explosive-play profile and Missouri’s extensive defensive personnel turnover gives the home side enough paths to stay competitive. That is where our expectation differs from the market.
+Kansas has enough offensive upside to test that uncertainty. We saw Isaiah Marshall throw for 246 yards and two touchdowns while adding 49 rushing yards in the opener, and the offensive line allowed no sacks and only one tackle for loss. Nik McMillan also supplied a downfield threat with 130 receiving yards. Missouri’s pass defense grades as a difficult matchup in our numbers, so we are not projecting unchecked production, but Kansas has credible paths to sustain drives and generate explosive plays.
+
+Our primary concern is Missouri’s rushing offense against a Kansas run defense that grades considerably worse. Missouri controlled last year’s meeting with a 261-3 rushing-yard advantage, and that matchup remains the clearest way for the favorite to dictate the game. Still, we think the market is pricing too much separation if Kansas can keep that phase from becoming overwhelming, which supports our position on the home side.
 
 ### What The Numbers Say
 
@@ -40,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#19</td>
-<td>#33</td>
+<td>#32</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -69,9 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We see Missouri’s rushing offense against the Kansas front as the matchup that can most directly challenge our position. Missouri averaged 228.3 rushing yards per game in 2025 and ran for 261 yards in last season’s meeting, although this version of the backfield now lists Jamal Roberts first and does not list returning 2025 starter Ahmad Hardy on the Kansas depth chart.
+We are watching Missouri’s rushing offense against the Kansas defensive front. Missouri averaged 228.3 rushing yards per game in 2025, and Jamal Roberts ran for 143 yards against Kansas in last season’s meeting. Our numbers identify this as Missouri’s strongest matchup advantage, so Kansas must prevent efficient early-down rushing from turning the game into a possession-control script.
 
-We did see encouraging disruption from Kansas in the opener, including 11 tackles for loss and four from Leroy Harris III alone. The opponent changes significantly here, but if Kansas can prevent Missouri from controlling the game on the ground, we think the rest of the matchup becomes much more favorable to the case for a competitive game.
+We did see some encouraging disruption from Kansas in the opener, including 11 tackles for loss and a career-high four from Leroy Harris III. We would not overvalue that performance against Long Island, but the front’s ability to create negative plays is central to our case that Kansas can remain within range.
 
 ## Best Bets Of The Week
 

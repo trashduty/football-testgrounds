@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Dakota State | -1.5 (-115) | DraftKings | 44.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Air Force Falcons | +2.5 (-109) | BetRivers | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| North Dakota State | -2.5 (-105) | FanDuel | 43.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Air Force Falcons | +2.5 (-110) | Fanatics | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The North Dakota State visit the Air Force Falcons at Falcon Stadium. We make **Air Force -1.5**, compared with a market line of +1.5.
+The North Dakota State visit the Air Force Falcons at Falcon Stadium. We make **Air Force -1**, compared with a market line of +2.5.
 
-The best number we found is Air Force +2.5 at -109. We give Air Force a 57.1% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Air Force is a bet.
+The best number we found is Air Force +2.5 at -110. We give Air Force a 56.2% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Air Force is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#7</td>
-<td class="btb-better">#5</td>
+<td>#8</td>
+<td class="btb-better">#6</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -48,12 +48,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#132</td>
-<td class="btb-better">#17</td>
+<td class="btb-better">#18</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#9</td>
-<td>#13</td>
+<td class="btb-better">#10</td>
+<td>#14</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

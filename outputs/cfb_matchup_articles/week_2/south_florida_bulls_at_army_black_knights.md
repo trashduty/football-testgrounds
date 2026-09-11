@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Florida Bulls | +3.5 (-115) | FanDuel | 54.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Army Black Knights | -3.5 (+100) | DraftKings | 45.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Florida Bulls | +3.5 (-112) | BetMGM | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Army Black Knights | -3.5 (+100) | Fanatics | 45.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The South Florida Bulls visit the Army Black Knights at Michie Stadium. We make **South Florida +2**, compared with a market line of +3.5.
+The South Florida Bulls visit the Army Black Knights at Michie Stadium. We make **South Florida +2**, compared with a market line of +3.
 
-The best number we found is South Florida +3.5 at -115. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Florida +3.5 at -112. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

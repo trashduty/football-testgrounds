@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Oregon-Oklahoma State.
 
-We make Oklahoma State +23.5. The market is +23.
+We make Oregon -24. The market is -23.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

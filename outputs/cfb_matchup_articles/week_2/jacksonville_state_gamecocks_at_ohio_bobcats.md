@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#16</td>
+<td class="btb-better">#17</td>
 <td>#48</td>
 </tr>
 <tr>

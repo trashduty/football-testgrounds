@@ -2,19 +2,19 @@
   "game": "Wake Forest Demon Deacons@Purdue Boilermakers",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-11T03:06:31.265927+00:00",
+  "generated_at_utc": "2026-09-11T23:16:46.741248+00:00",
   "model_prediction": -1.0,
   "market_line": 3.0,
-  "best_line": 3.5,
-  "best_price": "-122",
+  "best_line": 2.5,
+  "best_price": "-102",
   "best_book": "FanDuel",
-  "cover_probability": 0.60401899,
-  "edge": 0.0544694404504504,
+  "cover_probability": 0.56154278,
+  "edge": 0.056592284950495,
   "bet_short": "Purdue",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "For us, the case is less about Purdue\u2019s opening result and more about the market discounting its credible paths on both sides of the ball. Ryan Browne is a returning starter with 15 career starts for Purdue, and he opened the season by completing 23 of 29 passes for 317 yards and three touchdowns. Asaad Waseem produced 107 receiving yards, while Xavier Townsend led the team with seven catches. That performance came against Indiana State, so we are not treating it as proof, but the experience at quarterback and immediate receiving depth support our broader view of Purdue.\n\nPurdue also recorded eight tackles for loss and three sacks while limiting Indiana State to 66 rushing yards. That pressure matters against a Wake Forest offense that showed major big-play ability in its opener: Gio Lopez threw for 350 yards and three touchdowns, including scoring passes of 78 and 72 yards. Purdue\u2019s ability to prevent those explosives is central to our position.\n\nThe meaningful concern is Wake Forest\u2019s defense. It finished in the ACC\u2019s top five in total defense and pass defense in 2025, and it allowed only 156 passing yards against Akron. Our efficiency numbers also identify that unit as a difficult matchup for Purdue. Even so, we think the market is asking Purdue to be too clearly inferior overall, and that is where our view differs enough to back the home side.",
-    "matchup_to_watch": "We are watching Purdue\u2019s passing offense against Wake Forest\u2019s pass defense. This is the matchup most likely to challenge our position: our numbers rate Purdue\u2019s passing efficiency as a weakness and Wake Forest\u2019s coverage results as a strength. Browne does not need to reproduce his opener, but Purdue must generate enough through Waseem, Townsend and the rest of the rotation to avoid leaving the defense with the entire burden.\n\nIf Wake Forest consistently forces stalled drives, the concern in our matchup data becomes decisive. If Purdue\u2019s quarterback experience and receiving distribution translate against a stronger opponent, we think the game is much more balanced than the market implies.",
+    "narrative": "Wake Forest\u2019s opener supplies an obvious reason for market optimism: it produced 559 yards, while Gio Lopez threw for 350 yards, three touchdowns and no interceptions. We are not dismissing that performance, but we are also not treating one game against Akron as proof of a new baseline. Purdue produced 523 yards of its own, with Ryan Browne throwing for 317 yards and three scores. For us, those openers provide context without creating enough separation to justify making Purdue a clear home underdog.\n\nThe more interesting part is Purdue\u2019s defensive path. It held Indiana State to 284 total yards and 66 on the ground while generating eight tackles for loss and three sacks. Wake Forest allowed no sacks in its opener, so Purdue\u2019s pressure will face a more meaningful test. Still, our position does not require Purdue to control every phase; we think its defense gives it a credible chance to keep the game within a narrow margin while the market is asking Wake Forest to create separation.",
+    "matchup_to_watch": "We are focused on Purdue\u2019s passing offense against Wake Forest\u2019s pass defense. Our matchup data gives Wake Forest a substantial advantage in this phase, which is the clearest concern for our Purdue position. Browne\u2019s efficient opener and Purdue\u2019s 11 players with a reception showed useful distribution, but the question is whether that production holds up against a defense our numbers rate much more highly. Purdue does not need to dominate this matchup for our wager to work, but it cannot allow Wake Forest\u2019s coverage advantage to dictate the game.",
     "guide_status": [
       "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
       "Loaded guide for Wake Forest Demon Deacons: Wake Forest.pdf",
@@ -26,54 +26,48 @@
         "source_team": "Wake Forest Demon Deacons",
         "opponent": "Purdue Boilermakers",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide identifies Wake Forest at Purdue as Game 2 on Sept. 12, 2026 at Ross-Ade Stadium and includes Purdue-specific statistics, personnel and notes.",
+        "document_match_reason": "The guide identifies Game 2 as Wake Forest at Purdue on Sept. 12, 2026 at Ross-Ade Stadium and includes Purdue-specific statistics, personnel notes and series information.",
         "recent_game": [
           {
-            "fact": "Wake Forest opened the 2026 season with a 38-16 home win over Akron on Sept. 3.",
+            "fact": "Wake Forest opened the 2026 season with a 38-16 victory over Akron on Sept. 3.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest produced 559 total yards against Akron, including 356 passing yards and 203 rushing yards.",
+            "fact": "Wake Forest produced 559 total yards against Akron, including 203 rushing yards and 356 passing yards.",
             "page": 2,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest converted 7 of 15 third downs and both of its fourth-down attempts against Akron.",
+            "fact": "Wake Forest allowed Akron 305 total yards, including 149 rushing and 156 passing.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Wake Forest committed no turnovers and recovered one Akron fumble in the opener.",
             "page": 2,
             "category": "recent_game",
             "importance": "medium"
-          },
-          {
-            "fact": "Wake Forest committed no turnovers and gained one turnover against Akron.",
-            "page": 2,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest's defense allowed Akron 305 total yards, including 149 rushing and 156 passing.",
-            "page": 2,
-            "category": "recent_game",
-            "importance": "high"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Purdue opened its season with a 44-19 win over Indiana State on Sept. 4.",
+            "fact": "Purdue opened its season with a 44-19 victory over Indiana State on Sept. 4.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Purdue totaled 523 yards against Indiana State, with 346 passing yards and 177 rushing yards.",
+            "fact": "Purdue generated 523 total yards against Indiana State, including 346 passing yards and 177 rushing yards.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Purdue finished 6-for-6 in the red zone and converted 6 of 11 third downs against Indiana State.",
+            "fact": "Purdue converted all six of its red-zone opportunities against Indiana State.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
@@ -85,25 +79,19 @@
             "importance": "medium"
           },
           {
-            "fact": "Asaad Waseem led Purdue with 107 receiving yards and one touchdown on six catches, while Xavier Townsend had a team-high seven receptions for 47 yards.",
+            "fact": "Asaad Waseem led Purdue with 107 receiving yards and a touchdown on six catches, while Xavier Townsend had a team-high seven catches for 47 yards.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Fame Ijeboi led Purdue's rushing attack with 87 yards and one touchdown on 11 attempts, averaging 7.9 yards per carry.",
+            "fact": "Fame Ijeboi led Purdue's rushing attack with 87 yards and a touchdown on 11 carries, averaging 7.9 yards per attempt.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Purdue held Indiana State to 284 total yards and 66 rushing yards.",
-            "page": 2,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Purdue recorded eight tackles for loss, three sacks and one interception against Indiana State.",
+            "fact": "Purdue held Indiana State to 284 total yards and 66 rushing yards while recording eight tackles for loss and three sacks.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
@@ -115,7 +103,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Purdue senior Don Saunders recorded his sixth career interception against Indiana State.",
+            "fact": "Purdue senior Don Saunders recorded the defense's lone turnover against Indiana State with his sixth career interception.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "medium"
@@ -123,37 +111,31 @@
         ],
         "quarterback": [
           {
-            "fact": "Wake Forest starting quarterback Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacon debut against Akron.",
+            "fact": "Wake Forest starter Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacon debut against Akron; he also rushed for 39 yards.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Lopez also rushed seven times for 39 yards against Akron.",
+            "fact": "Lopez's 78-yard touchdown pass to Carlos Hernandez against Akron was the longest completion of Lopez's collegiate career.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lopez transferred to Wake Forest from North Carolina in January 2026 after previously playing at South Alabama under current Wake Forest offensive coordinator Rob Ezell.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Across 28 career games and 24 starts, Lopez has completed 65.8 percent of his passes for 5,131 yards, 35 touchdowns and 12 interceptions, while rushing for 791 yards and 12 touchdowns.",
             "page": 21,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Lopez's 78-yard touchdown pass to Carlos Hernandez against Akron was the longest completion of his collegiate career.",
-            "page": 1,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Lopez transferred to Wake Forest from North Carolina after starting 11 games in 2025 and completing 65.1 percent of his passes for 1,747 yards, 10 touchdowns and five interceptions.",
-            "page": 21,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Lopez previously played at South Alabama under current Wake Forest offensive coordinator Rob Ezell.",
-            "page": 1,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Purdue quarterback Ryan Browne completed 23 of 29 passes for 217 yards, three touchdowns and no interceptions against Indiana State.",
+            "fact": "Purdue quarterback Ryan Browne completed 23 of 29 passes with three touchdowns and no interceptions against Indiana State.",
             "page": 2,
             "category": "quarterback",
             "importance": "high"
@@ -161,102 +143,90 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Center Will Way joined Wake Forest from Weber State in January 2026 and was elected a team captain.",
+            "fact": "Wake Forest's projected offensive line lists Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Projected starting center Will Way transferred from Weber State in January 2026 and was selected as a team captain.",
             "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest's unofficial projected offensive line lists Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
-            "page": 19,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest's unofficial projected skill-position starters are Ty Clark III at running back and Carlos Hernandez, Antonio Meeks and Kam Shanks at wide receiver.",
-            "page": 19,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Carlos Hernandez caught five passes for 165 yards and a touchdown against Akron.",
+            "fact": "Ty Clark III rushed for a career-high 105 yards on seven carries against Akron, including a career-long 57-yard run.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Hernandez has caught at least five passes in each of Wake Forest's last five games, averaging 107.6 receiving yards with five touchdowns during that span.",
+            "fact": "Carlos Hernandez caught five passes for 165 yards and a touchdown against Akron and finished with 183 all-purpose yards.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ty Clark III recorded his first career 100-yard rushing game with 105 yards on seven carries against Akron, including a career-long 57-yard run.",
+            "fact": "Hernandez has averaged 107.6 receiving yards over Wake Forest's last five games, with at least five catches in every game and five total touchdowns during that span.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
+          },
+          {
+            "fact": "Antonio Meeks recorded 93 receiving yards against Akron.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Wake Forest's unofficial projected defensive front lists Langston Hardy and Gabe Kirschke at defensive end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
+            "fact": "Wake Forest's projected defensive front consists of ends Langston Hardy and Gabe Kirschke, tackle Dallas Afalava and nose guard Zach Lohavichan.",
             "page": 19,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The unofficial projected linebacker and STAR starters are Frank Cusano, Aiden Hall and Braylon Johnson.",
+            "fact": "Wake Forest's projected linebackers are Frank Cusano and Aiden Hall, with Braylon Johnson at the Star position.",
             "page": 19,
             "category": "defensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "The unofficial projected secondary starters are Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
+            "fact": "Wake Forest's projected secondary lists Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
             "page": 19,
             "category": "defensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Aiden Hall became a starter in 2025 and finished that season with 73 tackles, eight tackles for loss and three passes defended.",
+            "fact": "Aiden Hall became a starter in 2025 and finished that season with 73 tackles, eight tackles for loss and three passes defensed.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Vincent Firenze and Frank Cusano each recorded nine tackles against Akron, while Braylon Johnson recorded a sack.",
+            "fact": "Braylon Johnson recorded one of Wake Forest's two sacks against Akron.",
             "page": 3,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Rushaun Tongue recovered Wake Forest's forced fumble against Akron.",
-            "page": 5,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Jake Dickert is in his second season as Wake Forest's head coach after being hired on Dec. 18, 2024.",
+            "fact": "Jake Dickert is in his second season as Wake Forest's head coach after being hired on Dec. 18, 2024; his Wake Forest record is 10-4.",
             "page": 1,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Rob Ezell is Wake Forest's offensive coordinator, Dan Enos is co-offensive coordinator and quarterbacks coach, and Scottie Hazelton is defensive coordinator.",
-            "page": 10,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach for the 2026 season after coaching East Carolina's receivers from 2023 through 2025.",
+            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach for the 2026 season after coaching East Carolina's wide receivers from 2023 through 2025.",
             "page": 12,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Purdue's coordinators are Josh Henson on offense and Kevin Kane on defense, with James Shibest coordinating special teams.",
-            "page": 2,
+            "fact": "Rob Ezell serves as Wake Forest's offensive coordinator, Dan Enos as co-offensive coordinator and quarterbacks coach, Scottie Hazelton as defensive coordinator and Freddie Banks as co-defensive coordinator and safeties coach.",
+            "page": 10,
             "category": "coaching_changes",
             "importance": "medium"
           }
@@ -264,16 +234,16 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Wake Forest averaged 10.9 yards per pass attempt and 16.7 yards per completion against Akron.",
+            "fact": "Wake Forest averaged 11.0 yards per pass attempt and 5.8 yards per rush against Akron.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest generated touchdown passes of 78 yards to Carlos Hernandez and 72 yards to Antonio Meeks against Akron.",
-            "page": 16,
+            "fact": "Wake Forest converted 7 of 15 third downs and both of its fourth-down attempts against Akron.",
+            "page": 2,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
             "fact": "Wake Forest allowed no sacks against Akron.",
@@ -282,10 +252,10 @@
             "importance": "high"
           },
           {
-            "fact": "Wake Forest's 2025 offensive line allowed 17 sacks after allowing 42 in 2024.",
-            "page": 8,
+            "fact": "Wake Forest completed passes of 78 and 72 yards against Akron, both thrown by Gio Lopez.",
+            "page": 16,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "defensive_context": [
@@ -293,23 +263,17 @@
             "fact": "Wake Forest recorded seven tackles for loss and two sacks against Akron.",
             "page": 2,
             "category": "defensive_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Akron converted 6 of 14 third downs against Wake Forest.",
+            "fact": "Akron converted 6 of 14 third downs and scored on all three of its red-zone trips against Wake Forest.",
             "page": 2,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest's 2025 defense finished in the ACC's top five in total defense and pass defense and held seven of 13 opponents to 14 points or fewer.",
-            "page": 9,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Wake Forest did not allow a touchdown in consecutive 2025 ACC games against Virginia and North Carolina.",
-            "page": 9,
+            "fact": "Wake Forest forced one turnover against Akron but did not record an interception.",
+            "page": 2,
             "category": "defensive_context",
             "importance": "medium"
           }
@@ -319,22 +283,16 @@
             "fact": "Wake Forest kicker Connor Calvert made three field goals and scored 12 points against Akron.",
             "page": 3,
             "category": "special_teams",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Wake Forest averaged 49.0 net yards per punt and 22.0 yards per punt return against Akron.",
+            "fact": "Wake Forest recorded a 49.0-yard net punting average and a 22.0-yard punt-return average in the opener.",
             "page": 2,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Carlos Hernandez is listed as Wake Forest's primary punt returner, and Koredell Bartley is listed as the primary kickoff returner.",
-            "page": 19,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Freshman Ethan Hyams is listed as Wake Forest's primary punter on the unofficial projected depth chart.",
+            "fact": "The projected specialists are Connor Calvert at placekicker, freshman Ethan Hyams at punter, Koredell Bartley at kickoff returner and Carlos Hernandez at punt returner.",
             "page": 19,
             "category": "special_teams",
             "importance": "medium"
@@ -342,32 +300,19 @@
         ],
         "series_context": [
           {
-            "fact": "This will be the first meeting between Wake Forest and Purdue since the 2003 season.",
+            "fact": "The 2026 matchup will be the fifth meeting between Wake Forest and Purdue and the first since 2003; Purdue leads the series 4-1.",
             "page": 2,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest's only win over Purdue was a 24-21 victory at Ross-Ade Stadium in 2002.",
+            "fact": "Wake Forest's only victory over Purdue was a 24-21 win at Ross-Ade Stadium in 2002.",
             "page": 2,
             "category": "series_context",
             "importance": "medium"
-          },
-          {
-            "fact": "Wake Forest is 2-7 all-time in Indiana, with its most recent win in the state coming at Indiana in 2016.",
-            "page": 2,
-            "category": "series_context",
-            "importance": "low"
           }
         ],
-        "other_relevant": [
-          {
-            "fact": "Wake Forest and Purdue enter the matchup 1-0; the game is scheduled for noon Eastern on Sept. 12, 2026 at Ross-Ade Stadium.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          }
-        ],
+        "other_relevant": [],
         "source_file": "Wake Forest.pdf"
       },
       {
@@ -383,7 +328,7 @@
             "importance": "high"
           },
           {
-            "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024 at Illinois.",
+            "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -395,33 +340,39 @@
             "importance": "high"
           },
           {
-            "fact": "Fame Ijeboi led Purdue with 87 rushing yards and one touchdown on 11 carries in his Purdue debut.",
-            "page": 2,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "FAU transfer Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
-            "page": 2,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Don Saunders returned an interception 35 yards for a touchdown against Indiana State, Purdue's first pick-six since 2022.",
+            "fact": "Fame Ijeboi led Purdue with 87 rushing yards and one touchdown on 11 carries in his debut.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Sixteen players made their first starts for Purdue and 38 players made their Purdue debuts in the season opener.",
-            "page": 2,
+            "fact": "FAU transfer Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Don Saunders returned an interception 35 yards for a touchdown, Purdue's first pick-six since 2022.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue allowed Indiana State 284 total yards, including 66 rushing yards, and recorded three sacks.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Sixteen players made their first starts as Boilermakers in the season opener.",
+            "page": 1,
             "category": "recent_game",
             "importance": "medium"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Purdue hosts Wake Forest at Ross-Ade Stadium on Sept. 12, 2026; both teams enter the matchup 1-0.",
+            "fact": "Purdue hosts Wake Forest at Ross-Ade Stadium on Sept. 12; both teams enter the game 1-0.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
@@ -429,12 +380,6 @@
           {
             "fact": "This will be Purdue's ninth game against an ACC opponent this century.",
             "page": 2,
-            "category": "opponent_notes",
-            "importance": "low"
-          },
-          {
-            "fact": "Purdue head coach Barry Odom and Wake Forest head coach Jake Dickert have not previously faced each other.",
-            "page": 1,
             "category": "opponent_notes",
             "importance": "low"
           }
@@ -447,81 +392,75 @@
             "importance": "high"
           },
           {
-            "fact": "Browne's 317-yard performance against Indiana State was his fourth career 300-yard passing game.",
+            "fact": "Browne started all 12 games in 2025 and passed for 2,153 yards and nine touchdowns.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Browne started all 12 games in 2025 and threw for 2,153 yards and nine touchdowns.",
+            "fact": "Browne's 317-yard opener was his fourth career 300-yard passing game.",
             "page": 3,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "After returning to Purdue following 2025 spring practice, Browne had a full 2026 offseason to work with the offensive line and receiving corps.",
-            "page": 6,
+            "fact": "Browne returned to Purdue through the spring transfer window in 2025 after spending that spring at North Carolina.",
+            "page": 3,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Evans Chuba and Bennett Meredith competed for the backup quarterback job during the spring and summer; Meredith started at Northwestern in 2023 but did not play in the following two seasons.",
+            "fact": "Evans Chuba and Bennett Meredith competed during the spring and summer for the backup quarterback role; Meredith previously started against Northwestern in 2023 but has not played in two seasons.",
             "page": 6,
             "category": "quarterback",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "True freshman offensive lineman Brock Brownfield started the opener, becoming Purdue's first true freshman to start a season opener on the offensive line since freshmen became eligible in 1972.",
+            "fact": "Brock Brownfield became Purdue's first true freshman offensive lineman to start a season opener since freshmen became eligible in 1972.",
             "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Joey Tanona is the only returning Purdue offensive lineman who started all 12 games in 2025; Ethan Trent made six starts and Jude McCoskey played in 11 games.",
+            "fact": "Joey Tanona is the only returning offensive lineman who started all 12 games in 2025; Ethan Trent made six starts and Jude McCoskey played in 11 games.",
             "page": 7,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Purdue added five offensive-line transfers, including Boaz Stanley with 21 prior starts at South Carolina and Troy, Nuku Mafi with 12 starts at Oklahoma State and Micah Banuelos with five starts at USC.",
+            "fact": "Purdue added five offensive-line transfers, including Boaz Stanley with 21 previous starts, Nuku Mafi with 12 and Micah Banuelos with five.",
             "page": 7,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Purdue's starting offensive line against Indiana State included newcomers Brock Brownfield, Boaz Stanley, Micah Banuelos, Nuku Mafi and Jude McCoskey.",
+            "fact": "The running back room changed after Devin Mockobee graduated; Antonio Harris is the only returning running back after rushing for 305 yards and two touchdowns in 2025.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota transfer Fame Ijeboi entered Purdue after rushing for 441 yards in 2025 and led the Boilermakers' backfield in the 2026 opener.",
             "page": 2,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The running back room changed significantly after Devin Mockobee graduated; Antonio Harris is the lone returning running back after rushing for 305 yards and two touchdowns in 2025.",
-            "page": 7,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Minnesota transfer Fame Ijeboi, Jackson State transfer Travis Terrell Jr. and Texas transfer Jerrick Gibson joined Purdue's running back room.",
-            "page": 7,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Transfer receiver Xavier Townsend entered Purdue with nearly 40 games of experience and 1,960 all-purpose yards from UCF and Iowa State.",
-            "page": 7,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Asaad Waseem joined Purdue after recording 66 catches for 699 yards and five touchdowns at FAU in 2025.",
+            "fact": "Xavier Townsend made his Purdue debut with seven catches for 47 yards and three punt returns for 24 yards.",
             "page": 12,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "George Burhenn caught two passes for 43 yards against Indiana State in his first game action in 349 days.",
+            "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned after missing the 2025 season with injuries.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Magwood caught a six-yard touchdown against Indiana State, his first touchdown since 2022.",
             "page": 12,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -529,19 +468,7 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "Purdue's 2026 defensive line includes five returners, three transfers and two true freshmen.",
-            "page": 7,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Defensive-line transfers Rodney Lora, Curt Neal and Wisdom Simms arrived with 81 combined college games, including 60 at the Power Four level.",
-            "page": 7,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Linebacker Charles Correa returns after starting all 12 games in 2025 and recording 96 tackles, 7.5 tackles for loss and three sacks.",
+            "fact": "Linebacker Charles Correa returned after starting all 12 games in 2025 and recording 96 tackles, 7.5 tackles for loss and three sacks.",
             "page": 3,
             "category": "defensive_personnel",
             "importance": "high"
@@ -553,14 +480,20 @@
             "importance": "high"
           },
           {
-            "fact": "Utah transfer Don Saunders made his Purdue debut against Indiana State and recorded three tackles, one-half tackle for loss and a 35-yard interception-return touchdown.",
+            "fact": "Utah transfer Don Saunders made his Purdue debut with three tackles, a half-tackle for loss and a 35-yard interception return for a touchdown.",
             "page": 13,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Illinois transfer Jojo Hayden started his Purdue debut and made four tackles with one tackle for loss against Indiana State.",
+            "fact": "Illinois transfer Jojo Hayden started his Purdue debut and made four tackles with one tackle for loss.",
             "page": 13,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Purdue added defensive linemen Rodney Lora, Curt Neal and Wisdom Simms, who brought a combined 81 games of college experience, including 60 at the Power Four level.",
+            "page": 7,
             "category": "defensive_personnel",
             "importance": "medium"
           },
@@ -571,7 +504,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Defensive backs Jaden Mangham, Mister Clark, Don Saunders and John Slaughter were among Purdue's first-time starters in the season opener.",
+            "fact": "New defensive backs Jaden Mangham, Don Saunders and John Slaughter were among Purdue's first-time starters in the opener.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -585,7 +518,7 @@
             "importance": "high"
           },
           {
-            "fact": "Zach Crabtree became Purdue's offensive line coach after spending the 2025 season at Fresno State.",
+            "fact": "Zach Crabtree is Purdue's new offensive line coach after holding the same position at Fresno State in 2025.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
@@ -611,109 +544,85 @@
         ],
         "injury_availability": [
           {
-            "fact": "Tight end Kylan Fox suffered an injury at the start of training camp and is expected to miss the 2026 season.",
+            "fact": "Tight end Kylan Fox suffered an injury at the start of training camp and is expected to miss the season.",
             "page": 7,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned after missing the 2025 season with injuries.",
-            "page": 7,
-            "category": "injury_availability",
-            "importance": "high"
-          },
-          {
-            "fact": "Magwood played in the opener and caught a six-yard touchdown, his first touchdown since 2022.",
+            "fact": "Tight end George Burhenn returned against Indiana State for his first game action in 349 days and caught two passes for 43 yards.",
             "page": 12,
             "category": "injury_availability",
-            "importance": "medium"
-          },
-          {
-            "fact": "George Burhenn returned for 2026 after a 2025 injury at Notre Dame ended his season; he had played only four games in each of the previous two seasons.",
-            "page": 4,
-            "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Jalil Hall is listed as returning from a season-ending injury suffered in 2025.",
-            "page": 14,
+            "fact": "Wide receiver Chauncey Magwood returned after missing most of the 2025 season with an injury and caught a touchdown in the opener.",
+            "page": 12,
             "category": "injury_availability",
-            "importance": "low"
+            "importance": "high"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Purdue scored 44 points and gained 523 total yards in its first game of 2026.",
-            "page": 1,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Five different Boilermakers scored touchdowns against Indiana State: Tra'Mar Harris, Fame Ijeboi, Chauncey Magwood, Don Saunders and Asaad Waseem.",
-            "page": 1,
+            "fact": "Purdue's opener featured three passing touchdowns and one rushing touchdown on offense.",
+            "page": 5,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Purdue did not commit a turnover against Indiana State and won the turnover battle.",
-            "page": 11,
+            "fact": "Browne completed 79.3 percent of his passes and averaged 10.9 yards per attempt against Indiana State.",
+            "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Fame Ijeboi added two receptions for 30 yards to his 87 rushing yards in the opener.",
+            "fact": "Ijeboi averaged 7.9 yards per carry and added two receptions for 30 yards in the opener.",
             "page": 2,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Xavier Townsend caught a team-high seven passes for 47 yards in his Purdue debut.",
-            "page": 12,
+            "fact": "Waseem became the first Purdue player since Charlie Jones in 2022 to exceed 100 receiving yards in his Boilermaker debut.",
+            "page": 1,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Purdue held Indiana State to 12 first downs and 284 total yards.",
+            "fact": "Purdue limited Indiana State to 12 first downs in the season opener.",
+            "page": 11,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue recorded eight tackles for loss and three sacks against Indiana State.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Purdue limited Indiana State to 66 rushing yards.",
+            "fact": "The Boilermakers won the turnover margin in the opener without committing a turnover.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
-          },
-          {
-            "fact": "Purdue recorded three sacks and eight tackles for loss against Indiana State.",
-            "page": 3,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Charles Correa broke up two passes against Indiana State.",
-            "page": 13,
-            "category": "defensive_context",
-            "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra-point attempts against Indiana State, scoring 14 points.",
+            "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra points against Indiana State.",
             "page": 2,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Echeverria Lozano's three field goals were the most in a game by a Purdue freshman since at least 1995; his longest was 39 yards.",
+            "fact": "Echeverria Lozano's three field goals were the most by a Purdue freshman in a game since at least 1995.",
             "page": 2,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Buffalo transfer Dylan Drennan punted once for 54 yards with a 49-yard net in his Purdue debut.",
+            "fact": "Buffalo transfer Dylan Drennan punted once for 54 yards with a net of 49 yards in his Purdue debut.",
             "page": 12,
             "category": "special_teams",
             "importance": "medium"
@@ -722,7 +631,7 @@
             "fact": "Xavier Townsend returned three punts for 24 yards against Indiana State.",
             "page": 12,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "series_context": [
@@ -733,36 +642,24 @@
             "importance": "medium"
           },
           {
-            "fact": "This will be the sixth meeting between Purdue and Wake Forest and the first since Purdue won 16-10 at Wake Forest on Sept. 13, 2003.",
+            "fact": "This is the sixth Purdue-Wake Forest meeting and the first since Purdue won 16-10 at Wake Forest on Sept. 13, 2003.",
             "page": 2,
             "category": "series_context",
             "importance": "medium"
-          },
-          {
-            "fact": "A return game in the Purdue-Wake Forest series is scheduled for 2028.",
-            "page": 2,
-            "category": "series_context",
-            "importance": "low"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Purdue added 32 transfers and 22 freshmen for the 2026 season; 19 of the transfers came from Power Four programs.",
+            "fact": "Purdue added 32 transfers and 22 freshmen during the 2026 offseason, including 19 transfers from Power Four programs.",
             "page": 4,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Barry Odom is in his second season as Purdue's head coach and enters the Wake Forest game with a 3-10 record at Purdue.",
-            "page": 1,
+            "fact": "Thirty-eight players appeared in their first game for Purdue during the season-opening victory.",
+            "page": 2,
             "category": "other_relevant",
             "importance": "medium"
-          },
-          {
-            "fact": "A win would give Purdue consecutive 2-0 starts for the first time since 2020 and 2021.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "low"
           }
         ],
         "source_file": "Purdue.pdf"
@@ -784,8 +681,8 @@
         "dimension": "Purdue rushing offense vs Wake Forest rush defense",
         "off_team": "Purdue",
         "def_team": "Wake Forest",
-        "off_rank": 78,
-        "def_rank": 16,
+        "off_rank": 79,
+        "def_rank": 17,
         "stat": "rush EPA",
         "rank_gap": 62,
         "direction": "defense_advantage",
@@ -805,8 +702,8 @@
     ],
     "used_sources": [
       {
-        "fact_id": 5,
-        "fact": "Wake Forest's defense allowed Akron 305 total yards, including 149 rushing and 156 passing.",
+        "fact_id": 2,
+        "fact": "Wake Forest produced 559 total yards against Akron, including 203 rushing yards and 356 passing yards.",
         "page": 2,
         "category": "recent_game",
         "importance": "high",
@@ -814,8 +711,17 @@
         "source_team": "Wake Forest Demon Deacons"
       },
       {
-        "fact_id": 16,
-        "fact": "Wake Forest starting quarterback Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacon debut against Akron.",
+        "fact_id": 8,
+        "fact": "Eleven Purdue receivers caught at least one pass against Indiana State.",
+        "page": 2,
+        "category": "opponent_notes",
+        "importance": "medium",
+        "source_file": "Wake Forest.pdf",
+        "source_team": "Wake Forest Demon Deacons"
+      },
+      {
+        "fact_id": 14,
+        "fact": "Wake Forest starter Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacon debut against Akron; he also rushed for 39 yards.",
         "page": 1,
         "category": "quarterback",
         "importance": "high",
@@ -823,25 +729,25 @@
         "source_team": "Wake Forest Demon Deacons"
       },
       {
-        "fact_id": 39,
-        "fact": "Wake Forest generated touchdown passes of 78 yards to Carlos Hernandez and 72 yards to Antonio Meeks against Akron.",
-        "page": 16,
+        "fact_id": 35,
+        "fact": "Wake Forest allowed no sacks against Akron.",
+        "page": 3,
         "category": "offensive_context",
         "importance": "high",
         "source_file": "Wake Forest.pdf",
         "source_team": "Wake Forest Demon Deacons"
       },
       {
-        "fact_id": 44,
-        "fact": "Wake Forest's 2025 defense finished in the ACC's top five in total defense and pass defense and held seven of 13 opponents to 14 points or fewer.",
-        "page": 9,
-        "category": "defensive_context",
-        "importance": "medium",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
+        "fact_id": 46,
+        "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
       },
       {
-        "fact_id": 56,
+        "fact_id": 47,
         "fact": "Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns against Indiana State.",
         "page": 1,
         "category": "recent_game",
@@ -850,44 +756,17 @@
         "source_team": "Purdue Boilermakers"
       },
       {
-        "fact_id": 58,
-        "fact": "FAU transfer Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
-        "page": 2,
+        "fact_id": 51,
+        "fact": "Purdue allowed Indiana State 284 total yards, including 66 rushing yards, and recorded three sacks.",
+        "page": 3,
         "category": "recent_game",
         "importance": "high",
         "source_file": "Purdue.pdf",
         "source_team": "Purdue Boilermakers"
       },
       {
-        "fact_id": 64,
-        "fact": "Ryan Browne is Purdue's returning starting quarterback and has started 15 career games for the Boilermakers.",
-        "page": 12,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "Purdue.pdf",
-        "source_team": "Purdue Boilermakers"
-      },
-      {
-        "fact_id": 100,
-        "fact": "Xavier Townsend caught a team-high seven passes for 47 yards in his Purdue debut.",
-        "page": 12,
-        "category": "offensive_context",
-        "importance": "medium",
-        "source_file": "Purdue.pdf",
-        "source_team": "Purdue Boilermakers"
-      },
-      {
-        "fact_id": 102,
-        "fact": "Purdue limited Indiana State to 66 rushing yards.",
-        "page": 3,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Purdue.pdf",
-        "source_team": "Purdue Boilermakers"
-      },
-      {
-        "fact_id": 103,
-        "fact": "Purdue recorded three sacks and eight tackles for loss against Indiana State.",
+        "fact_id": 88,
+        "fact": "Purdue recorded eight tackles for loss and three sacks against Indiana State.",
         "page": 3,
         "category": "defensive_context",
         "importance": "high",
@@ -902,10 +781,10 @@
       "opponent": "Wake Forest",
       "model_prediction": -1.0,
       "market_line": 3.0,
-      "best_available_line": 3.5,
-      "best_available_price": "-122",
-      "cover_probability": 0.60401899,
-      "edge": 0.0544694404504504,
+      "best_available_line": 2.5,
+      "best_available_price": "-102",
+      "cover_probability": 0.56154278,
+      "edge": 0.056592284950495,
       "bet_status": "BET"
     }
   }

@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#93</td>
+<td class="btb-better">#94</td>
 <td>#117</td>
 </tr>
 <tr>

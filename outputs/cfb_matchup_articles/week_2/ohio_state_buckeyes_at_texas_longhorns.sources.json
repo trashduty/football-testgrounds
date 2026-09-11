@@ -2,19 +2,19 @@
   "game": "Ohio State Buckeyes@Texas Longhorns",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-11T03:04:06.549026+00:00",
+  "generated_at_utc": "2026-09-11T23:14:22.459272+00:00",
   "model_prediction": -2.5,
   "market_line": -1.5,
   "best_line": -1.5,
   "best_price": "-110",
-  "best_book": "FanDuel",
+  "best_book": "Fanatics",
   "cover_probability": 0.5207921,
   "edge": -0.0030174238095238,
   "bet_short": "Texas",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our lean toward Texas is less about reacting to the opener and more about how competitive the underlying matchup was last season. Texas outgained Ohio State 336-203, including a 166-77 advantage on the ground, but came away empty on both red-zone trips and converted only one of five fourth downs. We also give weight to the setting: Arch Manning is unbeaten as a home starter, and Texas is 20-1 in Austin since the start of 2023. Those records do not decide this game, but they help explain why our numbers give Texas a narrow advantage.",
-    "matchup_to_watch": "For us, the matchup to watch is Ohio State\u2019s passing game against the Texas pass defense. Sayin completed 77 percent of his passes with 32 touchdowns and eight interceptions last season, while Jeremiah Smith enters with 2,709 career receiving yards and 29 touchdowns. Texas\u2019 best response may be disruption: it has forced a turnover in 24 consecutive home games and recorded at least 40 sacks and 15 interceptions in each of the past two seasons. If Texas cannot affect Sayin, Ohio State has the clearest offensive path to challenging our view.",
+    "narrative": "For us, the case for a slight Texas lean starts with the home setting and an experienced offensive core. Texas is 20-1 at home since the start of 2023, while Arch Manning is 9-0 as the starter there. Four starters return along an offensive line that faced Ohio State last season, giving us more confidence that Texas can handle this step up in competition than its opening result alone would suggest.\n\nOur efficiency numbers still identify two serious obstacles. The Texas ground game faces a major disadvantage against Ohio State\u2019s run defense, while Ohio State\u2019s passing game attacks the less convincing part of the Texas defense. Julian Sayin returns after completing 77 percent of his passes for 3,610 yards in 2025, and Ohio State also brings back eight offensive starters and exceptional offensive-line continuity. That combination makes Ohio State\u2019s passing efficiency the clearest challenge to our Texas position.\n\nThe 2025 meeting is useful context: Texas outgained Ohio State but went 1-for-5 on fourth down and failed to score on two red-zone possessions in a 14-7 loss. We are not treating that as proof of a reversal, but it shows why the final score alone does not settle the matchup. Our numbers can prefer Texas while recognizing that the football advantages are split, and that narrow disagreement is not enough for us at the available price.",
+    "matchup_to_watch": "The matchup we are watching is Ohio State\u2019s pass protection against the Texas pressure led by Colin Simmons. Ohio State entered this game with 85.8 percent offensive-line continuity, while Simmons produced 12 sacks and a Texas-record 61 quarterback pressures in 2025. That is strength against strength, and it matters because Texas cannot afford to let Sayin operate comfortably against its pass defense.\n\nWe think Texas needs its front to affect timing without becoming dependent on extra pressure. If Ohio State\u2019s experienced line keeps the pocket clean, Sayin and Jeremiah Smith can stress the area where our matchup numbers see the clearest Ohio State advantage.",
     "guide_status": [
       "Found guide for Ohio State Buckeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio State.pdf",
       "Loaded guide for Ohio State Buckeyes: Ohio State.pdf",
@@ -26,7 +26,7 @@
         "source_team": "Ohio State Buckeyes",
         "opponent": "Texas Longhorns",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide is titled Ohio State vs. Texas and identifies Game 2 as No. 1 Ohio State at No. 5 Texas on Sept. 12, 2026, in Austin.",
+        "document_match_reason": "The guide is labeled \"Ohio State vs. Texas\" and identifies Game 2 as Ohio State at Texas on Sept. 12, 2026, in Austin.",
         "recent_game": [
           {
             "fact": "Ohio State opened the 2026 season with a 56-3 win over Ball State.",
@@ -35,13 +35,19 @@
             "importance": "high"
           },
           {
-            "fact": "Ohio State produced 671 total yards against Ball State, including 434 passing and 237 rushing, while allowing 165 total yards.",
+            "fact": "Against Ball State, Ohio State produced 671 total yards, including 434 passing and 237 rushing.",
             "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jeremiah Smith caught eight passes for 151 yards and two touchdowns in the first half of the opener.",
+            "fact": "Ohio State held Ball State to 165 total yards, including 120 passing and 45 rushing.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeremiah Smith caught eight passes for 151 yards and two touchdowns against Ball State, with all of that production coming in the first half.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -53,6 +59,12 @@
             "importance": "high"
           },
           {
+            "fact": "Fourteen Ohio State players recorded a reception against Ball State, the program's first game with at least 14 receivers catching a pass since Sept. 22, 2018.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
             "fact": "Ohio State played 21 true freshmen against Ball State; freshman Legend Bey had 100 all-purpose yards and scored on his first career reception.",
             "page": 6,
             "category": "recent_game",
@@ -61,63 +73,75 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Texas enters the matchup 1-0 and is ranked No. 5 in the AP poll and No. 4 in the other listed poll; Ohio State is 1-0 and ranked No. 1 in both.",
+            "fact": "Texas entered the matchup 1-0 after scoring 59 points and allowing seven in its season opener.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas recorded 516 total yards in its opener, including 360 passing and 156 rushing.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas allowed 349 total yards in its opener, including 188 passing and 161 rushing.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas converted 73.3 percent of its third downs in its opener but allowed its opponent to convert 57.1 percent.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas had a plus-two turnover margin, eight tackles for loss, two sacks and one interception in its opener.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas is coached by Steve Sarkisian, who entered the game 49-20 at Texas and 0-2 against Ohio State.",
             "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Through one game, Texas is averaging 59.0 points and 516.0 total yards, including 360.0 passing yards and 156.0 rushing yards.",
-            "page": 4,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Through one game, Texas has allowed 7.0 points and 349.0 total yards, including 188.0 passing yards and 161.0 rushing yards.",
-            "page": 4,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Texas converted 73.3 percent of its third downs in its opener but allowed a 57.1 percent opponent conversion rate.",
-            "page": 4,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Texas had a plus-two turnover margin, eight tackles for loss, two sacks and one interception through its first game.",
-            "page": 4,
             "category": "opponent_notes",
             "importance": "medium"
           }
         ],
         "quarterback": [
           {
-            "fact": "Julian Sayin is Ohio State's returning starting quarterback and has played 19 career games with 15 starts.",
+            "fact": "Julian Sayin returns as Ohio State's starting quarterback after starting 15 of his first 19 career games.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Sayin led Ohio State to a 14-7 win over No. 1 Texas in his first career start in 2025.",
+            "fact": "Sayin led Ohio State to a 14-7 victory over No. 1 Texas in his first career start.",
             "page": 6,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "In 2025, Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns with eight interceptions; he ranked first nationally in completion percentage and second in passing efficiency at 177.5.",
+            "fact": "In 2025, Sayin completed 77.0 percent of his passes for 3,610 yards, 32 touchdowns and eight interceptions while posting a 177.5 efficiency rating.",
             "page": 6,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Sayin's 76.4 percent career completion rate is the highest in Ohio State history.",
+            "fact": "Sayin's 77.0 percent completion rate in 2025 set Ohio State and Big Ten single-season records.",
             "page": 6,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Justyn Martin is the other quarterback listed with game experience; he has appeared in six games without a start.",
+            "fact": "Sayin has seven career 300-yard passing games.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Justyn Martin is Ohio State's other listed quarterback with game experience; he has appeared in six games without a start.",
             "page": 3,
             "category": "quarterback",
             "importance": "low"
@@ -125,52 +149,58 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Ohio State returns eight offensive starters: Julian Sayin, Bo Jackson, Jeremiah Smith, Brandon Inniss, Phillip Daniels, Carson Hinzman, Luke Montgomery and Austin Siereveld.",
+            "fact": "Ohio State returns eight offensive starters: QB Julian Sayin, RB Bo Jackson, WR Jeremiah Smith, WR Brandon Inniss, OT Phillip Daniels, C Carson Hinzman, OG Luke Montgomery and OG Austin Siereveld.",
             "page": 2,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ohio State lost starting guards Tegra Tshabola and starting tight ends Max Klare and Will Kacmarek from the 2025 team.",
-            "page": 2,
-            "category": "offensive_personnel",
+            "fact": "Ohio State's returning offensive linemen include Carson Hinzman with 36 career starts, Austin Siereveld with 21, Phillip Daniels with 17 and Luke Montgomery with 17.",
+            "page": 3,
+            "category": "offensive_line",
             "importance": "high"
           },
           {
-            "fact": "Ohio State's returning offensive line has 85.8 percent continuity among players who logged at least 100 snaps in 2025, the highest listed rate in the Power Four.",
+            "fact": "Ohio State entered the Texas game with 85.8 percent offensive-line continuity, the highest listed rate among Power Four teams.",
             "page": 6,
-            "category": "offensive_personnel",
+            "category": "offensive_line",
             "importance": "high"
           },
           {
             "fact": "After the opener, Ohio State's starting offensive line had combined for 146 games played and 93 starts.",
             "page": 6,
+            "category": "offensive_line",
+            "importance": "high"
+          },
+          {
+            "fact": "Ohio State lost starting guard Tegra Tshabola and starting tight ends Max Klare and Will Kacmarek from the 2025 offense.",
+            "page": 2,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Carson Hinzman has 36 career starts, Austin Siereveld 21, Phillip Daniels 17 and Luke Montgomery 17.",
+            "fact": "Bo Jackson returns after rushing for a team-high 1,090 yards on 179 carries in 2025.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer wide receiver Devin McCuin joined Ohio State from UTSA after recording 65 catches for 726 yards and eight touchdowns in 2025.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer wide receiver Kyle Parker joined Ohio State from LSU with career totals of 34 receptions, 385 yards and five touchdowns.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ohio State's listed tight ends include Hunter Welcing, who has 11 career starts, Mason Williams, who has 26 career starts, and Bennett Christian, who has two career starts.",
             "page": 3,
             "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Phillip Daniels transferred from Minnesota and started 13 games at tackle in 2025.",
-            "page": 19,
-            "category": "offensive_personnel",
             "importance": "medium"
-          },
-          {
-            "fact": "Transfer receiver Devin McCuin recorded 65 catches for 726 yards and eight touchdowns at UTSA in 2025 and has 158 career receptions for 1,793 yards and 17 touchdowns.",
-            "page": 19,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Transfer receiver Kyle Parker has 34 career receptions for 385 yards and five touchdowns after previously playing at LSU.",
-            "page": 19,
-            "category": "offensive_personnel",
-            "importance": "low"
           }
         ],
         "defensive_personnel": [
@@ -181,43 +211,37 @@
             "importance": "high"
           },
           {
-            "fact": "Ohio State lost eight defensive starters: Tywone Malone Jr., Kayden McDonald, Caden Curry, Arvell Reese, Sonny Styles, Caleb Downs, Lorenzo Styles and Devin Igbinosun.",
+            "fact": "Ohio State lost eight defensive starters from 2025: DT Tywone Malone Jr., DT Kayden McDonald, DE Caden Curry, LB Arvell Reese, LB Sonny Styles, S Caleb Downs, S Lorenzo Styles and CB Devin Igbinosun.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Defensive tackle James Smith and defensive end Qua Russaw transferred from Alabama; Smith had 28 tackles, 6.5 tackles for loss and 2.5 sacks in 2025, while Russaw has 50 tackles, 3.5 tackles for loss, two sacks and two interceptions in his career.",
+            "fact": "Ohio State added defensive linemen James Smith and Qua Russaw from Alabama, John Walker from UCF, and Beau Atkinson from North Carolina.",
             "page": 18,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Linebacker Christian Alliegro transferred from Wisconsin and has 127 career tackles and eight sacks in 36 games.",
+            "fact": "Ohio State added linebacker Christian Alliegro from Wisconsin; he entered the Texas game with 127 career tackles and eight sacks.",
             "page": 18,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Defensive tackle John Walker transferred from UCF and has 64 tackles, eight tackles for loss and 1.5 sacks in 26 career games.",
+            "fact": "Ohio State added safety Earl Little Jr. from Florida State after he led Florida State with 76 tackles in 2025.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Jaylen McClain played 816 defensive snaps and made 53 tackles in 2025.",
             "page": 18,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Safety Earl Little Jr. transferred from Florida State after leading the Seminoles with 76 tackles in 2025; he has 97 career tackles and four interceptions.",
-            "page": 18,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Kenyatta Jackson Jr. recorded 11 tackles for loss and 6.5 sacks in 2025 and has 9.5 career sacks.",
-            "page": 18,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Jaylen McClain played 816 defensive snaps and finished sixth on the team with 53 tackles in 2025.",
+            "fact": "Defensive end Kenyatta Jackson Jr. recorded 11 tackles for loss and 6.5 sacks in 2025.",
             "page": 18,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -225,20 +249,20 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Ohio State lists Arthur Smith as offensive coordinator and Matt Patricia as defensive coordinator for 2026.",
+            "fact": "Ohio State's 2026 coordinators are Arthur Smith on offense, Matt Patricia on defense and Robby Discher on special teams.",
             "page": 2,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Tyler Bowen is the run game coordinator and offensive line coach, while Billy Fessler is the pass game coordinator and quarterbacks coach.",
+            "fact": "Tyler Bowen is Ohio State's run game coordinator and offensive line coach, while Billy Fessler is the pass game coordinator and quarterbacks coach.",
             "page": 2,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Texas head coach Steve Sarkisian enters the game with a 49-20 record at Texas and an 0-2 record against Ohio State.",
-            "page": 1,
+            "fact": "Tim Walton is co-defensive coordinator and secondary coach, and Matt Guerrieri is pass game coordinator and safeties coach.",
+            "page": 2,
             "category": "coaching_changes",
             "importance": "medium"
           }
@@ -246,7 +270,7 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Through the opener, Ohio State averaged 56.0 points, 671 total yards, 434 passing yards and 237 rushing yards.",
+            "fact": "Through one game, Ohio State averaged 56 points and 671 total yards, with 434 passing yards and 237 rushing yards.",
             "page": 4,
             "category": "offensive_context",
             "importance": "high"
@@ -255,42 +279,30 @@
             "fact": "Ohio State converted 45.5 percent of its third downs and scored on every red-zone possession in the opener.",
             "page": 4,
             "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Since Ryan Day became head coach in 2019, Ohio State has averaged 39.6 points per game and produced 259 passing touchdowns.",
-            "page": 4,
-            "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Jeremiah Smith enters the Texas game with 171 career receptions, 2,709 receiving yards and 29 receiving touchdowns.",
+            "fact": "Jeremiah Smith entered the Texas game with 171 career receptions, 2,709 receiving yards and 29 receiving touchdowns.",
             "page": 5,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Bo Jackson rushed for a team-high 1,090 yards on 179 carries in 2025 and had six 100-yard games in his first 12 outings.",
-            "page": 19,
+            "fact": "Ohio State is one of two FBS programs listed as having a 3,500-yard passer, a 1,000-yard receiver and a 1,000-yard rusher in each of the previous two seasons.",
+            "page": 6,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Ohio State held Ball State to three points, 165 total yards, 120 passing yards and 45 rushing yards.",
-            "page": 4,
+            "fact": "Ohio State allowed 9.3 points and 219.1 total yards per game in 2025, ranking first nationally in scoring and total defense.",
+            "page": 5,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ohio State allowed Ball State to convert 21.4 percent of its third downs and did not allow a red-zone score.",
-            "page": 4,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State's 2025 defense ranked first nationally in scoring defense at 9.3 points per game, total defense at 219.1 yards and passing defense at 129.7 yards.",
+            "fact": "Ohio State allowed 129.7 passing yards per game in 2025 and 8.73 yards per completion.",
             "page": 5,
             "category": "defensive_context",
             "importance": "high"
@@ -302,69 +314,75 @@
             "importance": "high"
           },
           {
-            "fact": "Ohio State allowed 37 total touchdowns in 31 games from the start of 2024 through the 2026 opener, including nine games without allowing a touchdown.",
+            "fact": "Ohio State allowed 37 touchdowns over 31 games from the start of the 2024 season through the 2026 opener, including nine games without allowing a touchdown.",
             "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "In the 2026 opener, Ohio State held its opponent to a 21.4 percent third-down conversion rate and did not allow a red-zone score.",
+            "page": 4,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Punter Joe McGuire is Ohio State's returning specialist starter.",
+            "fact": "Punter Joe McGuire is Ohio State's returning specialist and the only returning special-teams starter listed in the guide.",
             "page": 2,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Ohio State lost starting kicker Jayden Fielding and long snapper John Ferlmann from the 2025 team.",
+            "fact": "Ohio State lost 2025 starting kicker Jayden Fielding and long snapper John Ferlmann.",
             "page": 2,
             "category": "special_teams",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Robby Discher is Ohio State's special teams coordinator.",
-            "page": 2,
+            "fact": "The guide lists junior kicker Connor Hawkins and long snapper Dalton Riggs among Ohio State's 2026 specialists.",
+            "page": 4,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "Ryan Day is 2-0 as Ohio State's head coach against Texas.",
+            "fact": "Ryan Day entered the matchup 2-0 as Ohio State's head coach against Texas.",
             "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Ohio State defeated Texas 28-14 in the 2024 College Football Playoff semifinal and 14-7 in Julian Sayin's first start in 2025.",
+            "fact": "Ohio State defeated Texas 28-14 in the College Football Playoff following the 2024 season.",
             "page": 21,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "The No. 1 versus No. 5 matchup is the 45th game in Ohio State history with both teams ranked in the top five; Ohio State is 22-21-1 in those games and 5-6-1 on the road.",
-            "page": 3,
+            "fact": "Ohio State defeated No. 1 Texas 14-7 in Julian Sayin's first start.",
+            "page": 6,
             "category": "series_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "other_relevant": [
           {
-            "fact": "The game is scheduled for Sept. 12, 2026, at 7:30 p.m. in DKR-Texas Memorial Stadium in Austin.",
+            "fact": "The game is scheduled for Sept. 12, 2026, at DKR-Texas Memorial Stadium in Austin, with Ohio State ranked No. 1 and Texas ranked No. 5 in the AP poll listing.",
             "page": 1,
-            "category": "other_relevant",
+            "category": "game_context",
             "importance": "high"
           },
           {
-            "fact": "Ryan Day's Ohio State teams are 25-1 in September and 20-1 in regular-season nonconference games.",
-            "page": 1,
-            "category": "other_relevant",
+            "fact": "The matchup is the 45th game in Ohio State history in which both teams are ranked in the top five; Ohio State entered with a 22-21-1 record in such games, including 5-6-1 on the road.",
+            "page": 3,
+            "category": "game_context",
             "importance": "medium"
           },
           {
-            "fact": "Ohio State enters the matchup with 34 returning letterwinners and 11 returning starters, including eight on offense and three on defense.",
+            "fact": "Ohio State entered the matchup with 34 returning letterwinners and 31 lost letterwinners, while returning 11 starters and losing 11 starters.",
             "page": 2,
-            "category": "other_relevant",
+            "category": "roster_context",
             "importance": "medium"
           }
         ],
@@ -374,22 +392,34 @@
         "source_team": "Texas Longhorns",
         "opponent": "Ohio State Buckeyes",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is labeled \"Texas Game Notes vs. Ohio State\" for Game 2 on Sept. 12, 2026, and identifies Ohio State as Texas' upcoming opponent in Austin.",
+        "document_match_reason": "The document is Texas' Game 2 notes for its Sept. 12, 2026 home matchup against Ohio State.",
         "recent_game": [
           {
             "fact": "Texas opened the 2026 season with a 59-7 home win over Texas State on Sept. 5.",
-            "page": 5,
+            "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Texas generated 516 total yards and averaged 7.0 yards per play against Texas State.",
+            "fact": "Texas produced 516 total yards and averaged 7.0 yards per play against Texas State.",
             "page": 12,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Texas forced three turnovers\u2014two fumbles and one interception\u2014in the win over Texas State.",
+            "fact": "Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns against Texas State.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas rushed for 156 yards and three touchdowns in the opener.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas forced three turnovers against Texas State: two fumbles and one interception.",
             "page": 13,
             "category": "recent_game",
             "importance": "high"
@@ -397,49 +427,43 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Ohio State enters the matchup 1-0 and ranked No. 1 in both the AP and Coaches polls; Texas is 1-0 and ranked No. 5 in the AP poll and No. 4 in the Coaches poll.",
+            "fact": "Ohio State enters the matchup 1-0 and ranked No. 1 in both the AP and Coaches polls; Texas is 1-0 and ranked No. 5 by the AP and No. 4 by the Coaches poll.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "In its 2026 opener, Ohio State recorded 671 total yards, including 434 passing and 237 rushing, while scoring 56 points.",
+            "fact": "Through one game, Ohio State has averaged 671 total yards, including 434 passing and 237 rushing, while scoring 56 points.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ohio State allowed 165 total yards, 45 rushing yards, 120 passing yards and three points in its 2026 opener.",
+            "fact": "Through one game, Ohio State has allowed 165 total yards, including 45 rushing and 120 passing, and three points.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ohio State beat Texas 14-7 in Columbus on Aug. 30, 2025, in the teams' most recent meeting.",
+            "fact": "Ohio State head coach Ryan Day is 83-12 in his ninth season and is 2-0 against Texas.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "In Ohio State's 14-7 win over Texas in 2025, quarterback Julian Sayin completed 13 of 20 passes for 126 yards and a touchdown without an interception.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Texas outgained Ohio State 336-203 and rushed for 166 yards to Ohio State's 77 in the 2025 meeting, but Texas went 0-for-2 in the red zone and 1-for-5 on fourth down.",
+            "fact": "In the 2025 meeting, Ohio State running back CJ Donaldson Jr. rushed 19 times for 67 yards and a touchdown, while Carnell Tate caught a 40-yard touchdown pass.",
             "page": 4,
             "category": "opponent_notes",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Texas threw one interception that Ohio State converted into seven points in the 2025 meeting.",
-            "page": 4,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State quarterback Julian Sayin completed 13 of 20 passes for 126 yards and one touchdown against Texas in 2025.",
-            "page": 4,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State's touchdowns in the 2025 meeting came on a one-yard CJ Donaldson Jr. run and a 40-yard Sayin pass to Carnell Tate.",
+            "fact": "Jeremiah Smith led Ohio State with six catches on 10 targets for 43 yards in the 2025 meeting with Texas.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "medium"
@@ -447,16 +471,16 @@
         ],
         "quarterback": [
           {
-            "fact": "Senior quarterback Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns in the 2026 opener against Texas State.",
+            "fact": "Senior quarterback Arch Manning is 13-3 as a starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
             "page": 6,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Manning is 13-3 as a starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
+            "fact": "Manning's opener against Texas State was his second career game with at least 300 passing yards and four passing touchdowns.",
             "page": 6,
             "category": "quarterback",
-            "importance": "high"
+            "importance": "medium"
           },
           {
             "fact": "In 13 starts during 2025, Manning completed 248 of 404 passes for 3,163 yards and 26 touchdowns; he also rushed for 399 yards and a team-high 10 touchdowns.",
@@ -465,19 +489,31 @@
             "importance": "high"
           },
           {
-            "fact": "Manning completed 17 of 30 passes for 170 yards, one touchdown and one interception and rushed for 38 yards at Ohio State in 2025.",
+            "fact": "In the 2025 regular-season meeting at Ohio State, Manning completed 17 of 30 passes for 170 yards, one touchdown and one interception and rushed for 38 yards.",
             "page": 8,
             "category": "quarterback",
             "importance": "high"
-          },
-          {
-            "fact": "Manning has a 178.0 career passer rating at home and averages 15.36 yards per completion there.",
-            "page": 6,
-            "category": "quarterback",
-            "importance": "medium"
           }
         ],
         "offensive_personnel": [
+          {
+            "fact": "Texas returns four 2025 offensive-line starters: Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas added offensive linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski through the transfer portal; the listed offensive-line group has combined for 226 games and 114 starts.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Goosby, Baker, Hutson and Robertson all started against Ohio State in the 2025 season opener.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
           {
             "fact": "Running backs Raleek Brown and Hollywood Smothers transferred to Texas in spring 2026 from Arizona State and NC State, respectively.",
             "page": 9,
@@ -485,25 +521,19 @@
             "importance": "high"
           },
           {
-            "fact": "Smothers rushed 10 times for 72 yards and added three receptions for 28 yards and a touchdown against Texas State.",
+            "fact": "Smothers rushed 10 times for 72 yards and added three receptions for 28 yards and a touchdown in the 2026 opener.",
             "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Brown had 11 carries for 34 yards and two touchdowns plus an 11-yard reception in his Texas debut.",
-            "page": 9,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Brown rushed for 1,141 yards at Arizona State in 2025, while Smothers rushed for 939 yards at NC State.",
+            "fact": "Brown recorded 11 carries for 34 yards and two touchdowns plus one reception for 11 yards in his Texas debut.",
             "page": 9,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Ryan Wingo caught seven passes for 121 yards and one touchdown against Texas State after leading Texas in receptions, receiving yards and receiving touchdowns in 2025.",
+            "fact": "Ryan Wingo, Texas' 2025 leader in receptions, receiving yards and receiving touchdowns, opened 2026 with seven catches for 121 yards and a touchdown.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "high"
@@ -515,91 +545,92 @@
             "importance": "high"
           },
           {
-            "fact": "Texas returns four 2025 offensive-line starters: Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
-            "page": 12,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Texas added offensive linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski through the transfer portal; the listed offensive-line group entered 2026 with 226 combined games played and 114 starts.",
-            "page": 12,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Texas added tight end Michael Masunas from Michigan State; he played in all 12 games with eight starts and recorded 19 receptions for 232 yards and three touchdowns in 2025.",
-            "page": 12,
+            "fact": "Texas returns tight ends Spencer Shannon, Nick Townsend and Emaree Winston and added Michigan State transfer Michael Masunas.",
+            "page": 11,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "EDGE Colin Simmons led Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles; his 12 sacks led the SEC.",
+            "fact": "Junior edge Colin Simmons returns after leading Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Simmons has recorded a sack in five of his last six games entering the Ohio State matchup.",
+            "fact": "Simmons' 12 sacks led the SEC in 2025, and his 61 quarterback pressures set a Texas single-season record.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Simmons recorded one tackle, a half tackle for loss, one quarterback hurry and a fumble recovery against Texas State.",
+            "fact": "Simmons entered the Ohio State game having recorded a sack in five of his previous six games.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons recorded a half tackle for loss, a quarterback hurry and a fumble recovery against Texas State.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Senior defensive back Jelani McDonald led Texas with eight tackles, including seven solo tackles and one tackle for loss, in the 2026 opener.",
-            "page": 1,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Pitt transfer linebacker Rasheem Biles recorded an interception and a forced fumble in Texas' 2026 opener.",
+            "fact": "Pitt transfer linebacker Rasheem Biles recorded one interception and one forced fumble in Texas' opener.",
             "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas added defensive transfers Rasheem Biles, Markus Boswell, Justin Cryer, Darius Snow, Ian Geffrard, Zion Williams, Nick Hudson and Bo Mascoe for 2026.",
+            "page": 6,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
-        "coaching_changes": [],
+        "coaching_changes": [
+          {
+            "fact": "Will Muschamp is Texas' defensive coordinator, with Johnny Nansen serving as co-defensive coordinator and linebackers coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Kyle Flood is Texas' offensive coordinator and offensive-line coach, AJ Milwee is co-offensive coordinator and quarterbacks coach, and Michael Bimonte is passing-game coordinator and assistant quarterbacks coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          }
+        ],
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Texas' 2026 opener produced 516 total yards, with 360 passing yards and 156 rushing yards.",
+            "fact": "Through one game, Texas has averaged 516 total yards, including 360 passing and 156 rushing, and 59 points.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas converted 73.3 percent of its third downs and recorded 32 first downs against Texas State.",
+            "fact": "Texas converted 73.3 percent of its third downs and scored on six of seven red-zone opportunities in its opener.",
             "page": 1,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Texas did not punt against Texas State, its first game without a punt since playing Kansas in 2023.",
+            "fact": "Texas has won 19 consecutive games when winning time of possession.",
             "page": 6,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Texas is 26-2 when scoring first since the beginning of the 2023 season.",
-            "page": 11,
+            "fact": "Texas has not lost the turnover margin in its last 13 games.",
+            "page": 6,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "defensive_context": [
-          {
-            "fact": "Texas allowed 349 total yards, including 161 rushing and 188 passing, and seven points in its 2026 opener.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "high"
-          },
           {
             "fact": "Texas has forced a turnover in 24 consecutive home games, the longest active streak in the FBS.",
             "page": 13,
@@ -607,7 +638,13 @@
             "importance": "high"
           },
           {
-            "fact": "Texas has recorded 57 takeaways since the start of 2024 and forced a turnover in 36 of its last 37 games.",
+            "fact": "Texas has forced at least one turnover in 36 of its last 37 games and has 57 takeaways since the start of 2024.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas led the SEC with 21 takeaways in 2025 and ranked second in the conference with 16 interceptions.",
             "page": 13,
             "category": "defensive_context",
             "importance": "medium"
@@ -619,31 +656,50 @@
             "importance": "medium"
           }
         ],
-        "special_teams": [],
+        "special_teams": [
+          {
+            "fact": "Texas did not punt against Texas State, its first game without a punt since facing Kansas in 2023.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas added Florida State transfer punter Mac Chiumento, Memphis transfer kicker Gianni Spetic and New Mexico transfer deep snapper Trey Dubuc for 2026.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
         "series_context": [
           {
-            "fact": "Texas and Ohio State will meet for the sixth time, with Ohio State leading the series 3-2.",
+            "fact": "Ohio State leads the all-time series 3-2, and the teams will meet for the sixth time and the third time in three seasons.",
             "page": 3,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "This will be the teams' third meeting in three seasons; Ohio State won the January 2025 CFP semifinal 28-14 and the August 2025 season opener 14-7.",
+            "fact": "Ohio State won both 2025 meetings, defeating Texas 28-14 in the CFP semifinal and 14-7 in the regular-season opener.",
             "page": 3,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "All six Texas-Ohio State games, including the upcoming matchup, have featured two top-10 teams, and four have been top-five matchups.",
+            "fact": "The 2026 game is the first meeting in Austin since Ohio State won 24-7 there in 2006.",
             "page": 3,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "This is Ohio State's second game in Austin and its first there since a 24-7 Buckeyes win in 2006.",
+            "fact": "All six Texas-Ohio State meetings, including the upcoming game, have featured both teams ranked in the top 10.",
             "page": 3,
             "category": "series_context",
             "importance": "medium"
+          },
+          {
+            "fact": "In the 2025 regular-season meeting, Texas outgained Ohio State 336-203 but went 1-for-5 on fourth down, scored on neither of its two red-zone possessions and allowed seven points off its lone turnover in a 14-7 loss.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "high"
           }
         ],
         "other_relevant": [
@@ -660,8 +716,20 @@
             "importance": "medium"
           },
           {
-            "fact": "Ohio State is the fourth No. 1-ranked team to play Texas at DKR-Texas Memorial Stadium and the first since Alabama in 2022.",
+            "fact": "Ohio State is the fourth No. 1-ranked team to visit Texas at DKR-Texas Memorial Stadium and the first since Alabama in 2022.",
             "page": 3,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Thirty-three players made their Texas debut in the season-opening win over Texas State.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas added 22 players through the transfer portal for the 2026 season.",
+            "page": 6,
             "category": "other_relevant",
             "importance": "medium"
           }
@@ -685,29 +753,29 @@
         "dimension": "Ohio State passing offense vs Texas pass defense",
         "off_team": "Ohio State",
         "def_team": "Texas",
-        "off_rank": 2,
+        "off_rank": 3,
         "def_rank": 84,
         "stat": "pass EPA",
-        "rank_gap": 82,
+        "rank_gap": 81,
         "direction": "offense_advantage",
-        "matchup_score": 182
+        "matchup_score": 181
       },
       {
         "dimension": "Ohio State rushing offense vs Texas rush defense",
         "off_team": "Ohio State",
         "def_team": "Texas",
-        "off_rank": 79,
+        "off_rank": 80,
         "def_rank": 21,
         "stat": "rush EPA",
-        "rank_gap": 58,
+        "rank_gap": 59,
         "direction": "defense_advantage",
-        "matchup_score": 158
+        "matchup_score": 159
       }
     ],
     "used_sources": [
       {
-        "fact_id": 13,
-        "fact": "In 2025, Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns with eight interceptions; he ranked first nationally in completion percentage and second in passing efficiency at 177.5.",
+        "fact_id": 16,
+        "fact": "In 2025, Sayin completed 77.0 percent of his passes for 3,610 yards, 32 touchdowns and eight interceptions while posting a 177.5 efficiency rating.",
         "page": 6,
         "category": "quarterback",
         "importance": "high",
@@ -715,52 +783,61 @@
         "source_team": "Ohio State Buckeyes"
       },
       {
-        "fact_id": 38,
-        "fact": "Jeremiah Smith enters the Texas game with 171 career receptions, 2,709 receiving yards and 29 receiving touchdowns.",
-        "page": 5,
-        "category": "offensive_context",
+        "fact_id": 20,
+        "fact": "Ohio State returns eight offensive starters: QB Julian Sayin, RB Bo Jackson, WR Jeremiah Smith, WR Brandon Inniss, OT Phillip Daniels, C Carson Hinzman, OG Luke Montgomery and OG Austin Siereveld.",
+        "page": 2,
+        "category": "offensive_personnel",
         "importance": "high",
         "source_file": "Ohio State.pdf",
         "source_team": "Ohio State Buckeyes"
       },
       {
-        "fact_id": 61,
-        "fact": "Texas outgained Ohio State 336-203 and rushed for 166 yards to Ohio State's 77 in the 2025 meeting, but Texas went 0-for-2 in the red zone and 1-for-5 on fourth down.",
+        "fact_id": 22,
+        "fact": "Ohio State entered the Texas game with 85.8 percent offensive-line continuity, the highest listed rate among Power Four teams.",
+        "page": 6,
+        "category": "offensive_line",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 69,
+        "fact": "Senior quarterback Arch Manning is 13-3 as a starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
+        "page": 6,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 73,
+        "fact": "Texas returns four 2025 offensive-line starters: Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
+        "page": 12,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 83,
+        "fact": "Simmons' 12 sacks led the SEC in 2025, and his 61 quarterback pressures set a Texas single-season record.",
+        "page": 12,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 104,
+        "fact": "In the 2025 regular-season meeting, Texas outgained Ohio State 336-203 but went 1-for-5 on fourth down, scored on neither of its two red-zone possessions and allowed seven points off its lone turnover in a 14-7 loss.",
         "page": 4,
-        "category": "opponent_notes",
+        "category": "series_context",
         "importance": "high",
         "source_file": "Texas.pdf",
         "source_team": "Texas Longhorns"
       },
       {
-        "fact_id": 66,
-        "fact": "Manning is 13-3 as a starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
-        "page": 6,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "Texas.pdf",
-        "source_team": "Texas Longhorns"
-      },
-      {
-        "fact_id": 89,
-        "fact": "Texas has forced a turnover in 24 consecutive home games, the longest active streak in the FBS.",
-        "page": 13,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Texas.pdf",
-        "source_team": "Texas Longhorns"
-      },
-      {
-        "fact_id": 91,
-        "fact": "Texas recorded at least 40 sacks and 15 interceptions in both 2024 and 2025.",
-        "page": 13,
-        "category": "defensive_context",
-        "importance": "medium",
-        "source_file": "Texas.pdf",
-        "source_team": "Texas Longhorns"
-      },
-      {
-        "fact_id": 96,
+        "fact_id": 105,
         "fact": "Texas has won 10 consecutive home games and is 20-1 at home since the start of the 2023 season.",
         "page": 3,
         "category": "other_relevant",

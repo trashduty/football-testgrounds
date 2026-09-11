@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Alabama Jaguars | +9.5 (-105) | DraftKings | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Tulane Green Wave | -9.5 (-112) | BetRivers | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Alabama Jaguars | +9.5 (-102) | FanDuel | 48.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tulane Green Wave | -10.0 (-105) | BetMGM | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The South Alabama Jaguars visit the Tulane Green Wave at Yulman Stadium. We make **Tulane -11.5**, compared with a market line of -9.5.
+The South Alabama Jaguars visit the Tulane Green Wave at Yulman Stadium. We make **Tulane -12**, compared with a market line of -10.
 
-The best number we found is Tulane -9.5 at -112. We see a -1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Tulane -10.0 at -105. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#87</td>
+<td>#88</td>
 <td class="btb-better">#58</td>
 </tr>
 <tr>

@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Old Dominion Monarchs | +18.5 (-105) | DraftKings | 45.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Old Dominion Monarchs | +19.5 (-112) | DraftKings | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Virginia Tech Hokies | -18.5 (-114) | FanDuel | 54.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#9</td>
-<td>#91</td>
+<td>#92</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#104</td>
-<td class="btb-better">#5</td>
+<td class="btb-better">#4</td>
 </tr>
 </tbody>
 </table>

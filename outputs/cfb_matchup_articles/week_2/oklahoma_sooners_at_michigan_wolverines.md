@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oklahoma Sooners | -5.5 (-105) | DraftKings | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Michigan Wolverines | +4.5 (-105) | FanDuel | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Oklahoma Sooners | -4.5 (-110) | FanDuel | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | +4.5 (-105) | Fanatics | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#31</td>
+<td class="btb-better">#30</td>
 <td>#127</td>
 </tr>
 <tr>

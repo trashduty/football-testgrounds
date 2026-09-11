@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on Arizona State-Texas A&M.
+Our model is 3.5 points away from the market on Arizona State-Texas A&M.
 
-We make Texas A&M -18. The market is -15.5.
+We make Texas A&M -18. The market is -14.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -1,6 +1,6 @@
-Our model is 0.5 points away from the market on Louisiana-USC.
+Our model is 1 points away from the market on Louisiana-USC.
 
-We make USC -32. The market is -31.5.
+We make USC -32.5. The market is -31.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

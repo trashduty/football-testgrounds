@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Bowling Green Falcons | +30.5 (-110) | FanDuel | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Nebraska Cornhuskers | -30.5 (-108) | BetMGM | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Nebraska Cornhuskers | -30.5 (-110) | FanDuel | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 

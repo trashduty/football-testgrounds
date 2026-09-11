@@ -1,6 +1,6 @@
-Our model is 3 points away from the market on Mississippi State-Minnesota.
+Our model is 3.5 points away from the market on Mississippi State-Minnesota.
 
-We make Minnesota -2. The market is +1.
+We make Minnesota -2. The market is +1.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

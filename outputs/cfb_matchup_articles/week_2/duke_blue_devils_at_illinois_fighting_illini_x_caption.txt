@@ -1,6 +1,6 @@
 Our model is 2.5 points away from the market on Duke-Illinois.
 
-We make Illinois -8. The market is -5.5.
+We make Illinois -8.5. The market is -6.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

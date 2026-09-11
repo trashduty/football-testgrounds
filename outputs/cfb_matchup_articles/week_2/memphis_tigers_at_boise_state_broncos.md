@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Memphis Tigers | +8.5 (-110) | FanDuel | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Memphis Tigers | +9.5 (-110) | FanDuel | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Boise State Broncos | -8.5 (-105) | DraftKings | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
