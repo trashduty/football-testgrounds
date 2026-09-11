@@ -554,9 +554,11 @@ The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We m
 
 The best number we found is Syracuse -3.5 at -105. We give Syracuse a 58.3% chance to cover, which creates an 7.1% edge for us. That clears our 3% threshold, so Syracuse is a bet.
 
-We are not treating either opener as proof, but the rushing results help explain our disagreement with the market. Syracuse ran for 238 yards, while California surrendered 277 rushing yards to UCLA. That matters because Syracuse does not have to attack through its least favorable area: our matchup numbers give California's pass defense a clear advantage over Syracuse's passing efficiency. Steve Angeli's 263-yard return provides some stability, but for us, the stronger case is Syracuse having another way to sustain drives and create separation.
+We are not reacting only to Syracuse's decisive opener or California's loss to UCLA. The more useful takeaway is that Syracuse showed a possible route around the toughest part of this matchup: it rushed for 239 yards, while California allowed 277 rushing yards in its opener. Those single-game results are not proof, but they support the broader case for Syracuse having more than one way to create offense.
 
-We also see a potential problem for California's ability to answer consistently. Its scoring-opportunity creation grades poorly in our numbers, while Syracuse opened with five sacks and three takeaways. California still produced 271 passing yards and two touchdowns from Jaron-Keawe Sagapolutele, so we cannot dismiss its ability to generate explosive offense. The main concern for our position is Syracuse being forced into obvious passing situations against the strongest part of California's defense. If Syracuse stays balanced and its pressure limits California's drive volume, our broader expectation becomes more plausible than the market's.
+Our biggest concern is the passing matchup. Our efficiency data gives California's pass defense a clear advantage over Syracuse's passing offense. Still, Steve Angeli completed 22 of 34 passes for 263 yards with two touchdowns and no interceptions in his return, and Syracuse's offensive line earned a strong pass-blocking grade. We think that combination can keep the unfavorable matchup from controlling the entire game.
+
+We also see a potential advantage when California has the ball. Syracuse produced five sacks and forced three turnovers in the opener, while Jaron-Keawe Sagapolutele threw two interceptions against UCLA. We are not projecting those turnover results to repeat automatically, but Syracuse's ability to create pressure matters in a game where neither offense grades particularly well at consistently generating scoring opportunities. That is the football context supporting our position.
 
 ### What The Numbers Say
 
@@ -608,7 +610,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We will be watching Syracuse's rushing attack against California's front. Shavane Anderson Jr. ran for 102 yards and three touchdowns in his debut, while Tylik Hill added 91 yards and a touchdown in his first career start. Those performances came against New Hampshire and should not be projected forward mechanically, but California's opening-week rushing allowance makes this the clearest route for Syracuse to avoid leaning too heavily on the unfavorable passing matchup.
+We are watching Syracuse's running game against California's front. Shavane Anderson Jr. rushed for 102 yards and three touchdowns in his debut, while Tylik Hill added 91 yards and a touchdown. If Syracuse can generate steady production on the ground, it can avoid asking its passing game to repeatedly attack the strongest area of California's defense. For us, that is the most important path to separation.
 
 ## Best Bets Of The Week
 
@@ -2023,11 +2025,11 @@ The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium.
 
 The best number we found is Texas -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers shade Texas more strongly than the market largely because we give weight to the setting and its offensive continuity. Arch Manning is 9-0 as a starter at home, four starters return on the offensive line, and Texas is 20-1 in Austin since the start of 2023. None of that decides this matchup, but it supports a higher Texas baseline than a reaction to either season-opening blowout would suggest.
+Our modest lean toward Texas starts with the setting and quarterback stability. Texas is 20-1 at home since the beginning of 2023, while Arch Manning is 9-0 as a starter in Austin. Four offensive-line starters from last season also return. Those factors help explain why our numbers give Texas a little more credit than the market, but they do not erase the matchup concerns.
 
-The concern for us is that Ohio State owns two of the clearest unit-level advantages. Our longer-run metrics favor its passing offense against the Texas pass defense and its rush defense against the Texas ground game. Julian Sayin returns after setting Ohio State and Big Ten completion-rate records, and he is part of an offense bringing back eight starters. Texas also allowed a 57.1 percent third-down conversion rate in its opener; we treat that as context rather than proof, but it matters against this level of passing efficiency.
+The biggest concern for us is Texas’ offense against Ohio State’s run defense. Our efficiency data points to a significant advantage for Ohio State on the ground, potentially putting more of the game on Manning. On the other side, Ohio State’s passing offense is well positioned to challenge Texas: Julian Sayin completed 77.0 percent of his passes last season, and Jeremiah Smith entered this matchup with 2,709 career receiving yards and 29 touchdowns.
 
-We also are not reading too much into Ohio State's win in last year's meeting. Texas outgained Ohio State but went 1-for-5 on fourth down and failed to score on two red-zone opportunities, a useful reminder that the final score did not fully describe the game. We see a reasonable case for Texas, but the difficult rushing matchup and Ohio State's passing advantage leave too little separation from the market for us at the available price.
+There is uncertainty around an Ohio State defense replacing eight starters, even though three return. Still, the Buckeyes have enough clear matchup advantages to keep our disagreement with the market narrow. We see the case for Texas at home, but not enough separation to justify paying the current price.
 
 ### What The Numbers Say
 
@@ -2079,7 +2081,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the defining matchup is Ohio State's passing game against the Texas pass defense. Our metrics identify that as Ohio State's best path to controlling the game, especially with Sayin's efficiency and continuity around him. Texas does have a disruptive answer in Colin Simmons, who recorded 12 sacks and led the SEC in that category in 2025. We will be watching whether that pressure can prevent Ohio State's passing advantage from becoming the decisive feature of the matchup.
+For us, the matchup to watch is Ohio State’s passing game against Texas’ pass defense. Sayin operates behind a starting offensive line that entered this game with 93 combined starts, giving Ohio State a credible foundation for getting Smith involved downfield. Texas’ best response may come from disruption: Colin Simmons recorded 12 sacks and a school-record 61 quarterback pressures last season, while the defense has forced a turnover in 36 of its last 37 games. If Texas cannot pressure Sayin or create a takeaway, this is the matchup most likely to undermine our slight preference for the home team.
 
 ## Best Bets Of The Week
 
@@ -2951,7 +2953,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 ## Our Take
 
-The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +12**, compared with a market line of +12.5.
+The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +12**, compared with a market line of +11.5.
 
 The best number we found is Georgia Tech +12.5 at -110. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -3571,7 +3573,9 @@ The Wake Forest Demon Deacons visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +3.5 at -122. We give Purdue a 60.4% chance to cover, which creates an 5.4% edge for us. That clears our 3% threshold, so Purdue is a bet.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+We are not treating Purdue’s opening win as proof, but the shape of that performance supports why our numbers are more favorable to the home team than the market. Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns, while Purdue’s defense held Indiana State to 284 total yards and 66 on the ground. The defense also generated eight tackles for loss and three sacks, giving us some evidence that Purdue can disrupt drives rather than needing its offense to win a shootout.
+
+The meaningful concern for us is Wake Forest’s explosiveness. Gio Lopez threw for 350 yards and three touchdowns without an interception in his debut, and Wake Forest did not allow a sack. Purdue also had 38 players make their team debuts in its opener, so Wake Forest’s ability to create chunk plays is a real test for a heavily reworked roster. Still, our view is that the market is placing too much separation between these teams. We do not need Purdue to reproduce its opening offensive output; we need the home team to remain competitive, and its defensive performance and experienced quarterback give us a credible path.
 
 ### What The Numbers Say
 
@@ -3620,6 +3624,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching Purdue’s offense against Wake Forest’s defense. Our efficiency numbers rate this as the clearest obstacle for Purdue, particularly through the air, and Purdue had six offensive linemen make their first starts for the program in the opener. Wake Forest’s defense recorded seven tackles for loss and two sacks against Akron, so Browne may not get the same clean operating environment he had in Week 1.
+
+What matters for our position is whether Purdue can finish the opportunities it creates. Purdue converted 6 of 11 third downs and scored on all six red-zone trips in the opener. We are not assuming that efficiency carries over unchanged, but enough drive sustainability would keep Wake Forest from creating the margin the market is asking it to produce.
 
 ## Best Bets Of The Week
 

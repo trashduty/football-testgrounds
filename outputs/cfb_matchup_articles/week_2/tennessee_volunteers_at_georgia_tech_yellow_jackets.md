@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +12**, compared with a market line of +12.5.
+The Tennessee Volunteers visit the Georgia Tech Yellow Jackets at Bobby Dodd Stadium. We make **Georgia Tech +12**, compared with a market line of +11.5.
 
 The best number we found is Georgia Tech +12.5 at -110. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 

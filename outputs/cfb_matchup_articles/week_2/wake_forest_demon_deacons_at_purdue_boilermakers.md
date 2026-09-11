@@ -15,7 +15,9 @@ The Wake Forest Demon Deacons visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +3.5 at -122. We give Purdue a 60.4% chance to cover, which creates an 5.4% edge for us. That clears our 3% threshold, so Purdue is a bet.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+We are not treating Purdue’s opening win as proof, but the shape of that performance supports why our numbers are more favorable to the home team than the market. Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns, while Purdue’s defense held Indiana State to 284 total yards and 66 on the ground. The defense also generated eight tackles for loss and three sacks, giving us some evidence that Purdue can disrupt drives rather than needing its offense to win a shootout.
+
+The meaningful concern for us is Wake Forest’s explosiveness. Gio Lopez threw for 350 yards and three touchdowns without an interception in his debut, and Wake Forest did not allow a sack. Purdue also had 38 players make their team debuts in its opener, so Wake Forest’s ability to create chunk plays is a real test for a heavily reworked roster. Still, our view is that the market is placing too much separation between these teams. We do not need Purdue to reproduce its opening offensive output; we need the home team to remain competitive, and its defensive performance and experienced quarterback give us a credible path.
 
 ### What The Numbers Say
 
@@ -64,6 +66,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching Purdue’s offense against Wake Forest’s defense. Our efficiency numbers rate this as the clearest obstacle for Purdue, particularly through the air, and Purdue had six offensive linemen make their first starts for the program in the opener. Wake Forest’s defense recorded seven tackles for loss and two sacks against Akron, so Browne may not get the same clean operating environment he had in Week 1.
+
+What matters for our position is whether Purdue can finish the opportunities it creates. Purdue converted 6 of 11 third downs and scored on all six red-zone trips in the opener. We are not assuming that efficiency carries over unchanged, but enough drive sustainability would keep Wake Forest from creating the margin the market is asking it to produce.
 
 ## Best Bets Of The Week
 
