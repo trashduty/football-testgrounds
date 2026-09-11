@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baltimore Ravens | -3.5 (-105) | Fanatics | 55.9% | Bet |
-| Indianapolis Colts | +3.5 (-109) | BetRivers | 44.0% | No Bet |
+| Baltimore Ravens | -3.5 (+100) | Fanatics | 55.9% | Bet |
+| Indianapolis Colts | +3.5 (-115) | DraftKings | 44.0% | No Bet |
 
 *Model assumes Lamar Jackson (Baltimore Ravens) and Daniel Jones (Indianapolis Colts) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
 The Baltimore Ravens take on the Indianapolis Colts at Lucas Oil Stadium and the model favors **the Baltimore Ravens** at -3.5 vs. the market at -3.5.
-This puts the edge at 4.69%, which at -3.5 for -105 makes the Baltimore Ravens a bet.
+This puts the edge at 5.91%, which at -3.5 for 100 makes the Baltimore Ravens a bet.
 
 ## Why The Pick
 
@@ -21,7 +21,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 | | Baltimore Ravens | Indianapolis Colts |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Lamar Jackson (23rd) | Daniel Jones (11th) |
+| QB Efficiency (Last 10 Games) | Lamar Jackson (22nd) | Daniel Jones (11th) |
 | Offensive Success Rate | 19th | 5th |
 | Defensive Success Rate | 8th | 21st |
 | Offensive Eckel Rate Over Expected* | 50.7% | 55.8% |
@@ -31,6 +31,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

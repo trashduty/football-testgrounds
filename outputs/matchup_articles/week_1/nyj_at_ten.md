@@ -6,15 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New York Jets | +1.5 (-105) | DraftKings | 50.6% | No Bet |
-| Tennessee Titans | -1.5 (-108) | BetMGM | 49.4% | No Bet |
+| New York Jets | +1.5 (-108) | BetMGM | 50.6% | No Bet |
+| Tennessee Titans | -1.5 (-105) | Fanatics | 49.4% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Geno Smith (New York Jets) and Cam Ward (Tennessee Titans) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +1.5 with an edge of -0.62%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The New York Jets take on the Tennessee Titans at Nissan Stadium and the model sees a lean toward New York Jets +1.5 with an edge of -1.33%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -32,6 +32,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Atlanta Falcons | +3.5 (-118) | DraftKings | 45.8% | No Bet |
-| Pittsburgh Steelers | -3.5 (+100) | Fanatics | 54.2% | Bet |
+| Atlanta Falcons | +4.5 (-105) | FanDuel | 43.0% | No Bet |
+| Pittsburgh Steelers | -5.5 (-105) | DraftKings | 60.1% | Bet |
 
-*Model assumes Aaron Rodgers (Pittsburgh Steelers) and Michael Penix (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
+*Model assumes Aaron Rodgers (Pittsburgh Steelers) and Tua Tagovailoa (Atlanta Falcons) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model favors **the Pittsburgh Steelers** at -3.5 vs. the market at -3.
-This puts the edge at 4.18%, which at -3.5 for 100 makes the Pittsburgh Steelers a bet.
+The Atlanta Falcons take on the Pittsburgh Steelers at Acrisure Stadium and the model favors **the Pittsburgh Steelers** at -5.5 vs. the market at -5.
+This puts the edge at 8.91%, which at -5.5 for -105 makes the Pittsburgh Steelers a bet.
 
 ## Why The Pick
 
@@ -21,7 +21,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 | | Pittsburgh Steelers | Atlanta Falcons |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Aaron Rodgers (28th) | Michael Penix (21st) |
+| QB Efficiency (Last 10 Games) | Aaron Rodgers (28th) | Tua Tagovailoa (23rd) |
 | Offensive Success Rate | 14th | 11th |
 | Defensive Success Rate | 18th | 24th |
 | Offensive Eckel Rate Over Expected* | 46.0% | 45.9% |
@@ -31,6 +31,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

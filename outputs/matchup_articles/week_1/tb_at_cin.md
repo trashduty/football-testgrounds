@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tampa Bay Buccaneers | +3.5 (-105) | DraftKings | 57.9% | Bet |
-| Cincinnati Bengals | -3.5 (-113) | BetRivers | 42.1% | No Bet |
+| Tampa Bay Buccaneers | +3.5 (-105) | FanDuel | 57.9% | Bet |
+| Cincinnati Bengals | -3.5 (-110) | BetMGM | 42.1% | No Bet |
 
 *Model assumes Baker Mayfield (Tampa Bay Buccaneers) and Joe Burrow (Cincinnati Bengals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
@@ -31,6 +31,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -6,15 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Chicago Bears | -2.5 (-118) | DraftKings | 48.1% | No Bet |
-| Carolina Panthers | +2.5 (+100) | FanDuel | 51.8% | Lean – doesn't meet our edge criteria to fully bet |
+| Chicago Bears | -3.0 (-114) | BetRivers | 42.1% | No Bet |
+| Carolina Panthers | +3.0 (+100) | BetMGM | 48.5% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Bryce Young (Carolina Panthers) and Caleb Williams (Chicago Bears) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Chicago Bears take on the Carolina Panthers at Bank of America Stadium and the model sees a lean toward Carolina Panthers +2.5 with an edge of 1.85%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Chicago Bears take on the Carolina Panthers at Bank of America Stadium and the model sees a lean toward Carolina Panthers +3.0 with an edge of -1.50%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -22,7 +22,7 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 | | Carolina Panthers | Chicago Bears |
 |---|---|---|
-| QB Efficiency (Last 10 Games) | Bryce Young (22nd) | Caleb Williams (15th) |
+| QB Efficiency (Last 10 Games) | Bryce Young (21st) | Caleb Williams (15th) |
 | Offensive Success Rate | 18th | 13th |
 | Defensive Success Rate | 16th | 23rd |
 | Offensive Eckel Rate Over Expected* | 48.9% | 57.3% |
@@ -32,6 +32,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

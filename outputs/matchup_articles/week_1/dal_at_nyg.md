@@ -6,15 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Dallas Cowboys | -2.5 (-115) | DraftKings | 55.4% | Lean – doesn't meet our edge criteria to fully bet |
-| New York Giants | +2.5 (-102) | FanDuel | 44.6% | No Bet |
+| Dallas Cowboys | -2.5 (-124) | FanDuel | 55.4% | No Bet |
+| New York Giants | +2.5 (+102) | FanDuel | 44.6% | No Bet |
 
 The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Dak Prescott (Dallas Cowboys) and Jaxson Dart (New York Giants) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5 with an edge of 1.90%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Dallas Cowboys take on the New York Giants at MetLife Stadium and the model sees a lean toward Dallas Cowboys -2.5 with an edge of 0.03%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -32,6 +32,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

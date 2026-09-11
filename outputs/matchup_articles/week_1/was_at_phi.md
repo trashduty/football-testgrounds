@@ -6,14 +6,15 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Commanders | +5.5 (-113) | BetRivers | 44.1% | No Bet |
-| Philadelphia Eagles | -5.5 (-105) | DraftKings | 55.9% | Bet |
+| Washington Commanders | +5.5 (-108) | BetMGM | 44.1% | No Bet |
+| Philadelphia Eagles | -5.5 (-110) | FanDuel | 55.9% | Lean – doesn't meet our edge criteria to fully bet |
+
+The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
 
 *Model assumes Jalen Hurts (Philadelphia Eagles) and Jayden Daniels (Washington Commanders) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model favors **the Philadelphia Eagles** at -5.5 vs. the market at -5.5.
-This puts the edge at 4.64%, which at -5.5 for -105 makes the Philadelphia Eagles a bet.
+The Washington Commanders take on the Philadelphia Eagles at Lincoln Financial Field and the model sees a lean toward Philadelphia Eagles -5.5 with an edge of 3.48%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
 
 ## Why The Pick
 
@@ -31,6 +32,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

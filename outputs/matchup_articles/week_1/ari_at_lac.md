@@ -6,15 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona Cardinals | +10.5 (-110) | DraftKings | 51.5% | No Bet |
-| Los Angeles Chargers | -9.5 (-118) | FanDuel | 57.9% | Lean – doesn't meet our edge criteria to fully bet |
-
-The model sees a lean here — but the edge does not clear our 4% threshold, so there is no play.
+| Arizona Cardinals | +9.5 (-105) | DraftKings | 44.7% | No Bet |
+| Los Angeles Chargers | -9.5 (-105) | FanDuel | 55.2% | Bet |
 
 *Model assumes Justin Herbert (Los Angeles Chargers) and Jacoby Brissett (Arizona Cardinals) under center. QB news moves these numbers fast — check inactives before you bet.*
 
 ## The Bottom Line
-The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model sees a lean toward Los Angeles Chargers -9.5 with an edge of 3.75%, but this does not clear our 4% threshold for a full bet, so we are passing on this one.
+The Arizona Cardinals take on the Los Angeles Chargers at SoFi Stadium and the model favors **the Los Angeles Chargers** at -9.5 vs. the market at -9.5.
+This puts the edge at 4.02%, which at -9.5 for -105 makes the Los Angeles Chargers a bet.
 
 ## Why The Pick
 
@@ -32,6 +31,6 @@ Our model uses data points that correlate best with a team covering. Here's how 
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 4% on **6 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
+Our model found edges of at least 4% on **5 games** this week. See the model output for every NFL and CFB game at btb-analytics.com/member-access.
 
 <p align='center'><em>Built by the BTB model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T15:13:15.671282+00:00",
+  "generated_at_utc": "2026-09-11T15:12:47.913702+00:00",
   "season": 2026,
   "week": 1,
   "articles": [
@@ -7,7 +7,7 @@
       "game": "ARI@LAC",
       "away_team": "ARI",
       "home_team": "LAC",
-      "has_bet": false,
+      "has_bet": true,
       "injury_reports": {
         "ARI": {
           "team": "ARI",
@@ -196,7 +196,7 @@
       "game": "MIA@LV",
       "away_team": "MIA",
       "home_team": "LV",
-      "has_bet": true,
+      "has_bet": false,
       "injury_reports": {
         "MIA": {
           "team": "MIA",
@@ -212,27 +212,6 @@
         }
       },
       "article_path": "mia_at_lv.md"
-    },
-    {
-      "game": "NE@SEA",
-      "away_team": "NE",
-      "home_team": "SEA",
-      "has_bet": true,
-      "injury_reports": {
-        "NE": {
-          "team": "NE",
-          "starters": [],
-          "debug": [],
-          "status": "no_starter_match"
-        },
-        "SEA": {
-          "team": "SEA",
-          "starters": [],
-          "debug": [],
-          "status": "no_starter_match"
-        }
-      },
-      "article_path": "ne_at_sea.md"
     },
     {
       "game": "NO@DET",
@@ -277,27 +256,6 @@
       "article_path": "nyj_at_ten.md"
     },
     {
-      "game": "SF@LA",
-      "away_team": "SF",
-      "home_team": "LA",
-      "has_bet": true,
-      "injury_reports": {
-        "SF": {
-          "team": "SF",
-          "starters": [],
-          "debug": [],
-          "status": "no_starter_match"
-        },
-        "LA": {
-          "team": "LA",
-          "starters": [],
-          "debug": [],
-          "status": "no_starter_match"
-        }
-      },
-      "article_path": "sf_at_la.md"
-    },
-    {
       "game": "TB@CIN",
       "away_team": "TB",
       "home_team": "CIN",
@@ -322,7 +280,7 @@
       "game": "WAS@PHI",
       "away_team": "WAS",
       "home_team": "PHI",
-      "has_bet": true,
+      "has_bet": false,
       "injury_reports": {
         "WAS": {
           "team": "WAS",
