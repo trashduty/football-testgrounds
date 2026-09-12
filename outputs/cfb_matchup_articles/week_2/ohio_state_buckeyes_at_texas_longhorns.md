@@ -15,7 +15,7 @@ The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium.
 
 The best number we found is Texas -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for Texas starts with the home setting and offensive continuity rather than anything that happened in the opener. Arch Manning is 9-0 as a starter in Austin, and Texas returns four starters along an offensive line group that has combined for 114 starts. That experience helps explain why our overall view is slightly more favorable to Texas than the market’s.
+We are not treating last season’s meeting as a blueprint, but its underlying shape helps explain why our numbers remain somewhat more favorable to Texas. Texas outgained Ohio State 336-203 yet went 1-for-5 on fourth down and came away empty on two red-zone possessions. We also give weight to the venue context: Texas is 20-1 at home since the start of 2023, while Arch Manning is 9-0 there as a starter.
 
 ### What The Numbers Say
 
@@ -67,9 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-The matchup we are watching is Ohio State’s passing game against the Texas pass defense. Julian Sayin completed 77.0 percent of his passes with 32 touchdowns and eight interceptions last season, and Ohio State returns 85.8 percent of its 2025 offensive-line snaps among players who logged at least 100. Texas can counter with Colin Simmons, whose 61 quarterback pressures set a school single-season record in 2025.
-
-That battle matters because Texas does not have a clear rushing advantage on the other side, while our numbers identify Ohio State’s passing offense as the most direct threat to the Texas defense. We still lean toward Texas overall, but the Buckeyes’ ability to protect Sayin and create explosive plays through the air leaves too little separation from the market for us to get involved.
+We will be watching Ohio State’s passing game against Texas’ ability to create pressure. Julian Sayin completed 77.0 percent of his passes in 2025, and Ohio State returns 85.8 percent of its offensive-line snaps from that season. That continuity matters against Colin Simmons, who produced 61 quarterback pressures last year.
 
 ## Best Bets Of The Week
 

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T08:26:49.961971+00:00",
+  "generated_at_utc": "2026-09-12T13:09:19.845391+00:00",
   "season": 2026,
   "week": 2,
   "articles": [
@@ -388,8 +388,8 @@
       "has_bet": true,
       "guide_enrichment": {
         "enabled": true,
-        "narrative": "We are not reacting to Syracuse\u2019s 66-3 opener as if one result settles the matchup. The more useful takeaway for us is the range of offensive options Syracuse showed, producing 238 rushing yards and 275 passing yards while involving 10 receivers. California, meanwhile, allowed 277 rushing yards in its opener. Those single-game results are not proof of what comes next, but they illustrate a credible path for Syracuse to create more separation than the market expects.\n\nOur main concern is Syracuse\u2019s passing efficiency against a California pass defense that rates much better in our numbers. Still, our case is less about Syracuse dominating through the air and more about staying balanced and avoiding predictable passing situations. Steve Angeli returned with 263 passing yards, while Syracuse\u2019s offensive line received a strong pass-blocking grade in the opener. On the other side, Syracuse generated five sacks and nine tackles for loss, giving us another potential source of disruption against a California offense that struggled to create scoring opportunities in our ratings. That overall combination supports our position despite the unfavorable pass-efficiency matchup.",
-        "matchup_to_watch": "For us, the matchup to watch is Syracuse\u2019s offensive line and rushing rotation against California\u2019s front. Tylik Hill and Shavane Anderson Jr. combined for 193 rushing yards and four touchdowns in the opener, while California surrendered 277 yards on the ground to UCLA. We do not treat either performance as a permanent baseline, but sustained rushing efficiency would keep Syracuse out of the obvious passing situations where California\u2019s defensive advantage becomes most relevant.",
+        "narrative": "We are not making the case simply because Syracuse beat New Hampshire 66-3 while California lost 45-24 to UCLA. The more useful takeaway is the potential rushing path: Syracuse produced 238 yards on the ground, with Shavane Anderson Jr. and Tylik Hill combining for 193 yards, while California allowed 277 rushing yards in its opener. One game does not establish a season-long trend, but that contrast helps explain why our view is more favorable to Syracuse than the market's.\n\nWe also see a possible advantage in how Syracuse can disrupt California's possessions. Syracuse recorded five sacks and nine tackles for loss in Week 1, while Jaron-Keawe Sagapolutele attempted 41 passes and threw two interceptions against UCLA. Our scoring-opportunity numbers already question California's ability to create enough productive drives, and pressure could make that limitation more significant.\n\nThe meaningful concern is Syracuse's passing offense against a California pass defense that rates well in our pass EPA numbers. Steve Angeli threw for 263 yards in his return, and Umari Hatcher produced 147 yards and two touchdowns, but success against New Hampshire does not erase the underlying matchup. For us, the Syracuse position is supported less by assuming another explosive passing day and more by the combination of its rushing path and defensive disruption.",
+        "matchup_to_watch": "For us, the matchup to watch is Angeli against California's pass defense. Our numbers give California a clear advantage in that area, so Syracuse does not need to dominate through the air; it needs enough efficiency to prevent California from crowding the rushing game and keeping the score compressed.\n\nAngeli's return and Hatcher's productive opener provide encouraging context, but this is a stronger test. If Syracuse can generate steady passing production without relying on turnovers or short fields, we think its broader advantages have a better chance to create separation.",
         "guide_status": [
           "No guide found for California Golden Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
           "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
@@ -400,36 +400,36 @@
             "source_team": "Syracuse Orange",
             "opponent": "California Golden Bears",
             "document_matches_upcoming_game": true,
-            "document_match_reason": "The guide identifies California at Syracuse as Game 2 on Sept. 12, 2026, and includes opponent statistics, series history and matchup notes for the Golden Bears.",
+            "document_match_reason": "The guide is Syracuse's Week 2 game notes for its Sept. 12, 2026 home matchup against California, with California identified as Game #2 and the upcoming opponent.",
             "recent_game": [
               {
-                "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire on Sept. 5.",
+                "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire.",
                 "page": 1,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse scored 41 first-half points, finished with 238 rushing yards and 275 passing yards, and had 10 players record a reception against New Hampshire.",
-                "page": 1,
+                "fact": "Syracuse scored 41 first-half points, finished with 513 yards of offense and did not commit a turnover against New Hampshire.",
+                "page": 4,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "The Syracuse defense held New Hampshire to 159 total yards and three points while recording five sacks and nine tackles for loss.",
+                "fact": "The Orange held New Hampshire to three points and 159 total yards while recording five sacks and nine tackles for loss.",
                 "page": 7,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse gained three turnovers, committed none and was penalized 12 times for 125 yards against New Hampshire.",
-                "page": 4,
+                "fact": "Syracuse had 10 players record a reception and five different players score a rushing or receiving touchdown in the opener.",
+                "page": 1,
                 "category": "recent_game",
                 "importance": "medium"
               }
             ],
             "opponent_notes": [
               {
-                "fact": "California enters the matchup 0-1 after a 45-24 home loss to UCLA in its season opener.",
+                "fact": "California opened the season with a 45-24 home loss to UCLA.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "high"
@@ -441,19 +441,25 @@
                 "importance": "high"
               },
               {
-                "fact": "California running back A. Mohammed carried 28 times for 120 yards and one touchdown in the opener.",
+                "fact": "Cal running back A. Mohammed carried 28 times for 120 yards and one touchdown in the opener.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "California quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in the opener.",
+                "fact": "Cal quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in his sophomore debut.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "California receivers I. Strong, C. Hendricks and M. Mason combined for 15 catches, 218 yards and two touchdowns against UCLA.",
+                "fact": "Cal receivers I. Strong, C. Hendricks and M. Mason combined for 15 receptions, 218 yards and two touchdowns in Week 1.",
+                "page": 3,
+                "category": "opponent_notes",
+                "importance": "medium"
+              },
+              {
+                "fact": "Sagapolutele led the ACC with 24.31 completions per game and ranked third in total completions as a freshman in 2025.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "medium"
@@ -461,7 +467,7 @@
             ],
             "quarterback": [
               {
-                "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
+                "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
                 "page": 5,
                 "category": "quarterback",
                 "importance": "high"
@@ -479,63 +485,81 @@
                 "importance": "medium"
               },
               {
-                "fact": "The projected depth chart lists Amari Odom and Malachi Nelson behind Angeli, with the two reserves separated by an OR designation.",
+                "fact": "Amari Odom is listed as Angeli's primary backup, with Malachi Nelson also listed as an option on the projected depth chart.",
                 "page": 14,
                 "category": "quarterback",
                 "importance": "medium"
+              },
+              {
+                "fact": "Odom threw his first Syracuse touchdown pass against New Hampshire.",
+                "page": 18,
+                "category": "quarterback",
+                "importance": "low"
               }
             ],
             "offensive_personnel": [
               {
-                "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
+                "fact": "True freshman Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut.",
                 "page": 5,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Running back Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
+                "fact": "Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
                 "page": 19,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns in the opener after missing the 2025 season because of injury.",
+                "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns in the opener.",
                 "page": 18,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Transfer wide receiver Cole Weaver caught three passes for 32 yards in his Syracuse debut against New Hampshire.",
-                "page": 18,
+                "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play in Week 1 but are expected to make their Syracuse debuts against California.",
+                "page": 5,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Miller transferred from Jackson State after leading the SWAC with 1,054 rushing yards and scoring nine touchdowns in 2025.",
+                "page": 5,
                 "category": "offensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Tight end David Clement caught two passes for a career-high 35 yards, including his first collegiate touchdown on a 27-yard reception.",
+                "fact": "Johnson transferred from LSU after appearing in all 13 games in 2025 and recording at least one carry in every game.",
+                "page": 5,
+                "category": "offensive_personnel",
+                "importance": "medium"
+              },
+              {
+                "fact": "Tight end David Clement caught two passes for career highs of 35 yards and scored his first collegiate touchdown against New Hampshire.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Syracuse's projected offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
+                "fact": "Transfer receiver Cole Weaver caught three passes for 32 yards in his Syracuse debut.",
+                "page": 18,
+                "category": "offensive_personnel",
+                "importance": "low"
+              },
+              {
+                "fact": "The projected starting offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
                 "page": 14,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Syracuse's offensive line received an 87.0 pass-blocking grade from PFF against New Hampshire, second best among ACC teams through Saturday's games.",
+                "fact": "Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Center Joe Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
-                "page": 6,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "Oluwafunto Akinshilo made his first career start at guard against New Hampshire, while right tackle Kam Pringle allowed one pressure.",
+                "fact": "Akinshilo made his first career start against New Hampshire, while Washington allowed no pressures and Pringle allowed one pressure, according to PFF.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "medium"
@@ -549,20 +573,32 @@
                 "importance": "high"
               },
               {
-                "fact": "Transfer edge defender Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
+                "fact": "Transfer linebacker Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
                 "page": 7,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Transfer defensive lineman Tunmise Adeleye tied his career high with six tackles and recorded a sack in his Syracuse debut.",
+                "fact": "Johnson transferred after setting UT Martin's program record with 13.5 sacks in 2025.",
+                "page": 20,
+                "category": "defensive_personnel",
+                "importance": "medium"
+              },
+              {
+                "fact": "Transfer defensive lineman Tunmise Adeleye tied his career high with six tackles and added a sack in his Syracuse debut.",
                 "page": 20,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Defensive lineman Jartavius Flounoy recorded four tackles, a half-tackle for loss and a forced fumble in his Syracuse debut.",
+                "fact": "Transfer linebacker Chris D'Appolonia recorded a tackle for loss on his first defensive snap for Syracuse.",
                 "page": 7,
+                "category": "defensive_personnel",
+                "importance": "medium"
+              },
+              {
+                "fact": "Defensive lineman Rashard Perry recorded three tackles and his first career interception against New Hampshire after a season-ending injury limited him to five games in 2025.",
+                "page": 20,
                 "category": "defensive_personnel",
                 "importance": "medium"
               },
@@ -573,21 +609,21 @@
                 "importance": "medium"
               },
               {
-                "fact": "Defensive lineman Rashard Perry returned after a 2025 season-ending injury and recorded three tackles and his first career interception against New Hampshire.",
-                "page": 20,
+                "fact": "Syracuse's projected secondary starters are Demetres Samuel Jr. and Chris Peal at cornerback, Davien Kerr at nickel, Cornell Perry at strong safety and Braheem Long Jr. at free safety.",
+                "page": 14,
                 "category": "defensive_personnel",
                 "importance": "medium"
               }
             ],
             "coaching_changes": [
               {
-                "fact": "California is led by first-year head coach Tosh Lupoi, who will coach his first road game as a head coach against Syracuse.",
+                "fact": "California hired alumnus Tosh Lupoi as head coach before the 2026 season; the Syracuse game will be his first road game as a head coach.",
                 "page": 3,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "California's principal play-callers are all in their first season with the program: offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown.",
+                "fact": "California's play callers are all in their first season with the program: offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown.",
                 "page": 3,
                 "category": "coaching_changes",
                 "importance": "high"
@@ -599,7 +635,19 @@
                 "importance": "high"
               },
               {
-                "fact": "Syracuse also has first-year assistants John Scott Jr. as co-defensive coordinator and defensive line coach, Perry Eliano as defensive backs coach, Marcus Walker as nickels coach, Jeremy Hawkins as edge coach, Juan Castillo as offensive line coach and Alex Bayer as special-teams coordinator.",
+                "fact": "Juan Castillo is in his first season as Syracuse's offensive line coach.",
+                "page": 13,
+                "category": "coaching_changes",
+                "importance": "medium"
+              },
+              {
+                "fact": "Alex Bayer is in his first season as Syracuse's special teams coordinator.",
+                "page": 13,
+                "category": "coaching_changes",
+                "importance": "medium"
+              },
+              {
+                "fact": "Jeff Nixon, in his third season at Syracuse, calls the offense from the booth.",
                 "page": 13,
                 "category": "coaching_changes",
                 "importance": "medium"
@@ -607,46 +655,58 @@
             ],
             "injury_availability": [
               {
-                "fact": "Steve Angeli returned against New Hampshire after sustaining a season-ending injury in the fourth game of the 2025 season.",
+                "fact": "Steve Angeli sustained a season-ending injury against Clemson in Week 4 of 2025 and returned to start Syracuse's 2026 opener.",
                 "page": 18,
                 "category": "injury_availability",
                 "importance": "high"
               },
               {
-                "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire and are expected to make their Syracuse debuts against California.",
+                "fact": "Running backs Ahmad Miller and Ju'Juan Johnson are expected to make their Syracuse debuts against California after not playing against New Hampshire.",
                 "page": 5,
                 "category": "injury_availability",
                 "importance": "high"
               },
               {
-                "fact": "Wide receiver Umari Hatcher returned in the opener after missing the 2025 season because of injury.",
-                "page": 18,
+                "fact": "Wide receiver Calvin Russell III is expected to return to the field in October.",
+                "page": 6,
                 "category": "injury_availability",
                 "importance": "high"
               },
               {
-                "fact": "Freshman wide receiver Calvin Russell III is expected to return to the field in October.",
-                "page": 6,
+                "fact": "Umari Hatcher missed the 2025 season because of injury and returned with 147 receiving yards and two touchdowns in the 2026 opener.",
+                "page": 18,
                 "category": "injury_availability",
                 "importance": "medium"
               }
             ],
             "offensive_context": [
               {
-                "fact": "Syracuse converted 66.7 percent of its third downs and produced 32 first downs against New Hampshire.",
-                "page": 4,
+                "fact": "Syracuse rushed for 238 yards against New Hampshire, the highest single-game total of the Fran Brown era.",
+                "page": 12,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Five Syracuse players scored a rushing or receiving touchdown and 10 players caught at least one pass in the opener.",
-                "page": 1,
+                "fact": "Syracuse converted 66.7 percent of its third downs in Week 1.",
+                "page": 4,
                 "category": "offensive_context",
                 "importance": "medium"
               },
               {
-                "fact": "Under offensive coordinator Jeff Nixon, Syracuse's Week 1 starting quarterback has produced at least 250 team passing yards in 18 consecutive games; Syracuse is 14-4 and averages 471.4 total yards and 36.8 points during that span.",
+                "fact": "The Orange offensive line received an 87.0 PFF pass-blocking grade in the opener, second among ACC teams through Saturday's games.",
+                "page": 6,
+                "category": "offensive_context",
+                "importance": "high"
+              },
+              {
+                "fact": "Syracuse's quarterbacks combined for 275 passing yards, extending offensive coordinator Jeff Nixon's streak of at least 250 passing yards with his Week 1 starting quarterback to 18 games.",
                 "page": 5,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "Syracuse allowed two sacks and six tackles for loss against New Hampshire.",
+                "page": 4,
                 "category": "offensive_context",
                 "importance": "medium"
               }
@@ -659,33 +719,39 @@
                 "importance": "high"
               },
               {
-                "fact": "Twenty-four Syracuse defenders recorded a tackle against New Hampshire, and nine players contributed at least a half-tackle for loss.",
+                "fact": "Syracuse gained three turnovers and committed none in the opener.",
+                "page": 4,
+                "category": "defensive_context",
+                "importance": "high"
+              },
+              {
+                "fact": "Twenty-four Syracuse defenders recorded a tackle against New Hampshire, including 20 with multiple tackles.",
                 "page": 7,
                 "category": "defensive_context",
                 "importance": "medium"
               },
               {
-                "fact": "Syracuse did not allow New Hampshire to reach the end zone and held the Wildcats scoreless on their red-zone opportunities.",
-                "page": 4,
+                "fact": "Syracuse was one of four ACC teams that did not allow a touchdown in Week 1.",
+                "page": 7,
                 "category": "defensive_context",
-                "importance": "high"
+                "importance": "medium"
               }
             ],
             "special_teams": [
               {
-                "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety and also returned two punts for 50 yards.",
+                "fact": "Davien Kerr blocked a punt out of the end zone for a safety and returned two punts for 50 yards against New Hampshire.",
                 "page": 8,
                 "category": "special_teams",
                 "importance": "high"
               },
               {
-                "fact": "Demetres Samuel Jr. returned four punts for 83 yards, including a 38-yard return, and returned a safety kick 42 yards against New Hampshire.",
+                "fact": "Demetres Samuel Jr. returned four punts for 83 yards, averaging 20.8 yards per return, and added a 42-yard return following a safety.",
                 "page": 8,
                 "category": "special_teams",
                 "importance": "high"
               },
               {
-                "fact": "Kicker Tripp Woody made his only field-goal attempt in the opener from 34 yards and is 11-for-11 in his career on attempts inside 40 yards.",
+                "fact": "Kicker Tripp Woody made his only field-goal attempt of the opener from 34 yards and is 11-for-11 in his career from inside 40 yards.",
                 "page": 18,
                 "category": "special_teams",
                 "importance": "medium"
@@ -699,19 +765,25 @@
             ],
             "series_context": [
               {
-                "fact": "Syracuse leads the all-time series with California 2-1 and won the teams' first meeting as ACC opponents, 33-25 at California in 2024.",
+                "fact": "Syracuse leads the all-time series with California 2-1 entering the fourth meeting.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "medium"
               },
               {
-                "fact": "In the 2024 win at California, Syracuse scored on each of its first six possessions and made four field goals.",
+                "fact": "Syracuse won the first meeting as ACC opponents, 33-25 at California in 2024.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "medium"
               },
               {
-                "fact": "This is California's first game in the JMA Wireless Dome and its first trip to Syracuse since 1967.",
+                "fact": "In the 2024 win at California, Syracuse scored on its first six drives and made four field goals.",
+                "page": 3,
+                "category": "series_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "This will be California's first game at the JMA Wireless Dome and its first trip to Syracuse since 1968.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "low"
@@ -719,16 +791,22 @@
             ],
             "other_relevant": [
               {
-                "fact": "The game is Syracuse's 2026 ACC opener; the Orange have won three of their last four conference openers, including the last two.",
+                "fact": "Syracuse and California meet at 3:30 p.m. Eastern on Sept. 12, 2026, at the JMA Wireless Dome.",
                 "page": 1,
                 "category": "other_relevant",
-                "importance": "medium"
+                "importance": "high"
               },
               {
-                "fact": "Five Syracuse players made their first FBS starts against New Hampshire, including first-time career starters Tylik Hill, Jimmy Gregg and Nissi Ogbebor.",
-                "page": 4,
+                "fact": "The game is the ACC opener for both Syracuse and California.",
+                "page": 1,
                 "category": "other_relevant",
-                "importance": "medium"
+                "importance": "high"
+              },
+              {
+                "fact": "Syracuse enters 1-0, while California enters 0-1.",
+                "page": 1,
+                "category": "other_relevant",
+                "importance": "high"
               }
             ],
             "source_file": "Syracuse.pdf"
@@ -772,16 +850,7 @@
         "used_sources": [
           {
             "fact_id": 1,
-            "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire on Sept. 5.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high",
-            "source_file": "Syracuse.pdf",
-            "source_team": "Syracuse Orange"
-          },
-          {
-            "fact_id": 2,
-            "fact": "Syracuse scored 41 first-half points, finished with 238 rushing yards and 275 passing yards, and had 10 players record a reception against New Hampshire.",
+            "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire.",
             "page": 1,
             "category": "recent_game",
             "importance": "high",
@@ -790,9 +859,18 @@
           },
           {
             "fact_id": 3,
-            "fact": "The Syracuse defense held New Hampshire to 159 total yards and three points while recording five sacks and nine tackles for loss.",
+            "fact": "The Orange held New Hampshire to three points and 159 total yards while recording five sacks and nine tackles for loss.",
             "page": 7,
             "category": "recent_game",
+            "importance": "high",
+            "source_file": "Syracuse.pdf",
+            "source_team": "Syracuse Orange"
+          },
+          {
+            "fact_id": 5,
+            "fact": "California opened the season with a 45-24 home loss to UCLA.",
+            "page": 3,
+            "category": "opponent_notes",
             "importance": "high",
             "source_file": "Syracuse.pdf",
             "source_team": "Syracuse Orange"
@@ -807,8 +885,17 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 10,
-            "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
+            "fact_id": 8,
+            "fact": "Cal quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in his sophomore debut.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "high",
+            "source_file": "Syracuse.pdf",
+            "source_team": "Syracuse Orange"
+          },
+          {
+            "fact_id": 11,
+            "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
             "page": 5,
             "category": "quarterback",
             "importance": "high",
@@ -816,8 +903,8 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 14,
-            "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
+            "fact_id": 16,
+            "fact": "True freshman Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high",
@@ -825,8 +912,8 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 15,
-            "fact": "Running back Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
+            "fact_id": 17,
+            "fact": "Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
             "page": 19,
             "category": "offensive_personnel",
             "importance": "high",
@@ -834,10 +921,19 @@
             "source_team": "Syracuse Orange"
           },
           {
-            "fact_id": 20,
-            "fact": "Syracuse's offensive line received an 87.0 pass-blocking grade from PFF against New Hampshire, second best among ACC teams through Saturday's games.",
-            "page": 6,
+            "fact_id": 18,
+            "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns in the opener.",
+            "page": 18,
             "category": "offensive_personnel",
+            "importance": "high",
+            "source_file": "Syracuse.pdf",
+            "source_team": "Syracuse Orange"
+          },
+          {
+            "fact_id": 45,
+            "fact": "Syracuse rushed for 238 yards against New Hampshire, the highest single-game total of the Fran Brown era.",
+            "page": 12,
+            "category": "offensive_context",
             "importance": "high",
             "source_file": "Syracuse.pdf",
             "source_team": "Syracuse Orange"
@@ -1764,8 +1860,8 @@
       "has_bet": false,
       "guide_enrichment": {
         "enabled": true,
-        "narrative": "For us, the case for Texas starts with the home setting and offensive continuity rather than anything that happened in the opener. Arch Manning is 9-0 as a starter in Austin, and Texas returns four starters along an offensive line group that has combined for 114 starts. That experience helps explain why our overall view is slightly more favorable to Texas than the market\u2019s.",
-        "matchup_to_watch": "The matchup we are watching is Ohio State\u2019s passing game against the Texas pass defense. Julian Sayin completed 77.0 percent of his passes with 32 touchdowns and eight interceptions last season, and Ohio State returns 85.8 percent of its 2025 offensive-line snaps among players who logged at least 100. Texas can counter with Colin Simmons, whose 61 quarterback pressures set a school single-season record in 2025.\n\nThat battle matters because Texas does not have a clear rushing advantage on the other side, while our numbers identify Ohio State\u2019s passing offense as the most direct threat to the Texas defense. We still lean toward Texas overall, but the Buckeyes\u2019 ability to protect Sayin and create explosive plays through the air leaves too little separation from the market for us to get involved.",
+        "narrative": "We are not treating last season\u2019s meeting as a blueprint, but its underlying shape helps explain why our numbers remain somewhat more favorable to Texas. Texas outgained Ohio State 336-203 yet went 1-for-5 on fourth down and came away empty on two red-zone possessions. We also give weight to the venue context: Texas is 20-1 at home since the start of 2023, while Arch Manning is 9-0 there as a starter.",
+        "matchup_to_watch": "We will be watching Ohio State\u2019s passing game against Texas\u2019 ability to create pressure. Julian Sayin completed 77.0 percent of his passes in 2025, and Ohio State returns 85.8 percent of its offensive-line snaps from that season. That continuity matters against Colin Simmons, who produced 61 quarterback pressures last year.",
         "guide_status": [
           "Found guide for Ohio State Buckeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio State.pdf",
           "Loaded guide for Ohio State Buckeyes: Ohio State.pdf",
@@ -1777,16 +1873,16 @@
             "source_team": "Ohio State Buckeyes",
             "opponent": "Texas Longhorns",
             "document_matches_upcoming_game": true,
-            "document_match_reason": "The guide is titled \"Ohio State vs. Texas\" and identifies Game 2 as No. 1 Ohio State at No. 5 Texas on Sept. 12, 2026, in Austin.",
+            "document_match_reason": "The guide is titled Ohio State vs. Texas and identifies Game 2 as No. 1 Ohio State at No. 5 Texas on Sept. 12, 2026, in Austin.",
             "recent_game": [
               {
-                "fact": "Ohio State opened the 2026 season with a 56-3 win over Ball State.",
+                "fact": "Ohio State opened the 2026 season with a 56-3 win over Ball State on Sept. 5.",
                 "page": 1,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State produced 671.6 total yards against Ball State, including 434 passing and 237 rushing, while allowing 165 total yards.",
+                "fact": "Ohio State produced 671 total yards against Ball State, including 434 passing and 237 rushing, while allowing 165 total yards.",
                 "page": 4,
                 "category": "recent_game",
                 "importance": "high"
@@ -1798,25 +1894,25 @@
                 "importance": "high"
               },
               {
-                "fact": "Fourteen Ohio State players caught a pass in the opener, the program's first game with at least 14 players recording a reception since Sept. 22, 2018, against Tulane.",
+                "fact": "Jeremiah Smith caught eight passes for 151 yards and two touchdowns, all in the first half, against Ball State.",
+                "page": 1,
+                "category": "recent_game",
+                "importance": "high"
+              },
+              {
+                "fact": "Fourteen Ohio State players recorded a reception against Ball State, the program's first game with at least 14 receivers catching a pass since Sept. 22, 2018, against Tulane.",
                 "page": 1,
                 "category": "recent_game",
                 "importance": "medium"
               },
               {
-                "fact": "Wide receiver Jeremiah Smith caught eight passes for 151 yards and two touchdowns, all in the first half against Ball State.",
-                "page": 1,
-                "category": "recent_game",
-                "importance": "high"
-              },
-              {
-                "fact": "Running back Bo Jackson averaged 9.2 yards per carry in the opener and scored on a career-long 65-yard run.",
+                "fact": "Bo Jackson averaged 9.2 yards per carry against Ball State and scored on a career-long 65-yard run.",
                 "page": 6,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State played 21 true freshmen against Ball State; freshman Legend Bey had 100 all-purpose yards and scored on his first career reception.",
+                "fact": "Ohio State played 21 true freshmen in the opener; freshman Legend Bey had 100 all-purpose yards and scored on his first career catch.",
                 "page": 6,
                 "category": "recent_game",
                 "importance": "medium"
@@ -1824,37 +1920,31 @@
             ],
             "opponent_notes": [
               {
-                "fact": "The matchup is scheduled for Sept. 12, 2026, at 7:30 p.m. in DKR-Texas Memorial Stadium in Austin; Ohio State is 1-0 and ranked No. 1, while Texas is 1-0 and ranked No. 5 in the AP poll.",
+                "fact": "Ohio State, ranked No. 1 in the AP poll, will play No. 5 Texas at 7:30 p.m. on Sept. 12 at DKR-Texas Memorial Stadium in Austin.",
                 "page": 1,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Texas scored 59 points and gained 516 total yards in its opener, with 360 passing yards and 156 rushing yards.",
+                "fact": "Texas entered the matchup 1-0 after scoring 59 points and producing 516 total yards, including 360 passing and 156 rushing.",
                 "page": 4,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Texas allowed seven points and 349 total yards in its opener, including 188 passing yards and 161 rushing yards.",
+                "fact": "Texas allowed 349 total yards in its opener, including 188 passing and 161 rushing, and allowed conversions on 57.1 percent of opponent third downs.",
                 "page": 4,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Texas converted 73.3 percent of its third downs in the opener, while its opponent converted 57.1 percent.",
+                "fact": "Texas converted 73.3 percent of its third downs and posted a plus-two turnover margin in its opener.",
                 "page": 4,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Texas had a plus-two turnover margin, eight tackles for loss, two sacks and one interception in its opener.",
-                "page": 4,
-                "category": "opponent_notes",
-                "importance": "medium"
-              },
-              {
-                "fact": "Saturday's game is the 45th matchup in Ohio State history in which both teams are ranked in the top five; Ohio State is 22-21-1 in such games, including 5-6-1 on the road.",
+                "fact": "The matchup is between two top-five teams; Ohio State is 22-21-1 all-time when both teams are ranked in the top five, including 5-6-1 on the road.",
                 "page": 3,
                 "category": "opponent_notes",
                 "importance": "medium"
@@ -1862,31 +1952,31 @@
             ],
             "quarterback": [
               {
-                "fact": "Julian Sayin is Ohio State's returning starting quarterback and has 15 starts in 19 career games.",
+                "fact": "Julian Sayin is Ohio State's returning starting quarterback and has started 15 of his 19 career games.",
                 "page": 3,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "In 2025, Sayin completed 77.0 percent of his passes, threw for 3,610 yards and 32 touchdowns with eight interceptions, and ranked second nationally in passing efficiency at 177.5.",
+                "fact": "In 2025, Sayin completed 77.0 percent of his passes for 3,610 yards, 32 touchdowns and eight interceptions, ranking first nationally in completion percentage and second in passing efficiency at 177.5.",
                 "page": 6,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Sayin's 77.0 percent completion rate in 2025 was an Ohio State and Big Ten single-season record.",
+                "fact": "Sayin's 77.0 percent completion rate in 2025 set Ohio State and Big Ten single-season records.",
                 "page": 6,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Sayin led Ohio State to a 14-7 win over No. 1 Texas in his first collegiate start.",
+                "fact": "Sayin led Ohio State to a 14-7 win over then-No. 1 Texas in his first career start.",
                 "page": 6,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Justyn Martin is the other quarterback listed with game experience; he has appeared in six games without a start.",
+                "fact": "Justyn Martin is Ohio State's other listed quarterback with game experience; he has appeared in six games without a start.",
                 "page": 3,
                 "category": "quarterback",
                 "importance": "medium"
@@ -1894,7 +1984,7 @@
             ],
             "offensive_personnel": [
               {
-                "fact": "Ohio State returns eight offensive starters: quarterback Julian Sayin, running back Bo Jackson, wide receivers Jeremiah Smith and Brandon Inniss, tackle Phillip Daniels, center Carson Hinzman, and guards Luke Montgomery and Austin Siereveld.",
+                "fact": "Ohio State returns eight offensive starters: QB Julian Sayin, RB Bo Jackson, WR Jeremiah Smith, WR Brandon Inniss, OT Phillip Daniels, C Carson Hinzman, OG Luke Montgomery and OG Austin Siereveld.",
                 "page": 2,
                 "category": "offensive_personnel",
                 "importance": "high"
@@ -1906,50 +1996,44 @@
                 "importance": "high"
               },
               {
-                "fact": "Ohio State's starting offensive line has combined for 146 games played and 93 starts, and the Buckeyes return 85.8 percent of their 2025 offensive-line snaps among players who logged at least 100 snaps.",
+                "fact": "Jeremiah Smith has 171 career receptions for 2,709 yards and 29 receiving touchdowns; since entering college football in 2024, he leads all players in each category.",
+                "page": 5,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Bo Jackson led Ohio State with 1,090 rushing yards on 179 carries in 2025 and recorded six 100-yard games in his first 12 outings.",
+                "page": 19,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Wide receiver Devin McCuin transferred from UTSA after recording 65 receptions for 726 yards and eight touchdowns in 2025; he has 28 career starts.",
+                "page": 19,
+                "category": "offensive_personnel",
+                "importance": "medium"
+              },
+              {
+                "fact": "Wide receiver Kyle Parker transferred from LSU with 34 career receptions for 385 yards and five touchdowns across 21 games and seven starts.",
+                "page": 19,
+                "category": "offensive_personnel",
+                "importance": "medium"
+              },
+              {
+                "fact": "Ohio State's starting offensive line entered the Texas game with a combined 146 games played and 93 starts.",
                 "page": 6,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Center Carson Hinzman has 36 starts in 39 career games; Austin Siereveld has 21 starts, while Phillip Daniels and Luke Montgomery each have 17.",
+                "fact": "Ohio State returned 85.8 percent of its offensive-line snaps among players who logged at least 100 snaps in 2025, the highest continuity rate in the Power Four.",
+                "page": 6,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Center Carson Hinzman has 36 starts, Austin Siereveld has 21, Phillip Daniels has 17 and Luke Montgomery has 17.",
                 "page": 3,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Phillip Daniels transferred from Minnesota and started 13 games at tackle in 2025.",
-                "page": 19,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "The tight end group includes Northwestern transfer Hunter Welcing, who has 11 career starts, Ohio transfer Mason Williams, who has 26 career starts, and Bennett Christian, who has two career starts.",
-                "page": 3,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Wide receiver Devin McCuin transferred from UTSA after recording 65 receptions for 726 yards and eight touchdowns in 2025; he has 158 career catches for 1,793 yards and 17 touchdowns.",
-                "page": 19,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "Wide receiver Kyle Parker transferred from LSU and has 34 career receptions for 385 yards and five touchdowns across 21 games and seven starts.",
-                "page": 19,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "Bo Jackson rushed for a team-high 1,090 yards on 179 carries in 2025 and had six 100-yard games in his first 12 outings.",
-                "page": 19,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Jeremiah Smith enters the Texas game with 171 career receptions, 2,709 receiving yards and 29 receiving touchdowns.",
-                "page": 5,
                 "category": "offensive_personnel",
                 "importance": "high"
               }
@@ -1962,43 +2046,37 @@
                 "importance": "high"
               },
               {
-                "fact": "Ohio State lost eight defensive starters: tackles Tywone Malone Jr. and Kayden McDonald, end Caden Curry, linebackers Arvell Reese and Sonny Styles, safeties Caleb Downs and Lorenzo Styles, and cornerback Devin Igbinosun.",
+                "fact": "Ohio State lost eight defensive starters from 2025: defensive tackles Tywone Malone Jr. and Kayden McDonald, defensive end Caden Curry, linebackers Arvell Reese and Sonny Styles, safeties Caleb Downs and Lorenzo Styles, and cornerback Devin Igbinosun.",
                 "page": 2,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Defensive end Kenyatta Jackson Jr. has played 46 career games with 15 starts and recorded 11 tackles for loss and 6.5 sacks in 2025.",
-                "page": 3,
-                "category": "defensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Safety Jaylen McClain has 15 starts in 29 career games and recorded 53 tackles over 816 defensive snaps in 2025.",
+                "fact": "Defensive end Kenyatta Jackson Jr. recorded 11 tackles for loss and 6.5 sacks in 2025 and has 9.5 career sacks.",
                 "page": 18,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State added Alabama transfers James Smith and Qua Russaw; Smith has 12 career starts and Russaw has 10.",
-                "page": 3,
+                "fact": "Safety Jaylen McClain made 53 tackles over 816 defensive snaps in 2025 and has started 15 career games.",
+                "page": 18,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State added UCF transfer defensive tackle John Walker, who has 13 career starts and 64 career tackles, and Wisconsin transfer linebacker Christian Alliegro, who has 13 career starts and 127 career tackles.",
-                "page": 3,
+                "fact": "Ohio State added experienced defensive transfers James Smith and Qua Russaw from Alabama, John Walker from UCF, Christian Alliegro from Wisconsin and Earl Little Jr. from Florida State.",
+                "page": 18,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State added Duke transfer safety Terry Moore, who has 19 career starts, and Florida State transfer safety Earl Little Jr., who has 13 career starts and led Florida State with 76 tackles in 2025.",
-                "page": 3,
+                "fact": "Earl Little Jr. led Florida State with 76 tackles in 2025 and entered the Texas game with 97 career tackles and four interceptions.",
+                "page": 18,
                 "category": "defensive_personnel",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "Cornerback Devin Sanchez played 13 games with one start as a true freshman in 2025, recording 15 tackles, two pass breakups and one fumble recovery.",
+                "fact": "Christian Alliegro entered the matchup with 127 career tackles, eight sacks and 12 starts.",
                 "page": 18,
                 "category": "defensive_personnel",
                 "importance": "medium"
@@ -2006,19 +2084,13 @@
             ],
             "coaching_changes": [
               {
-                "fact": "Arthur Smith is Ohio State's offensive coordinator for 2026; Chip Kelly was the offensive coordinator for the 2024 season.",
+                "fact": "Matt Patricia is Ohio State's defensive coordinator, Arthur Smith is offensive coordinator and Robby Discher is special teams coordinator.",
                 "page": 2,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "Matt Patricia is Ohio State's defensive coordinator for 2026 after coordinating the defense in 2025.",
-                "page": 2,
-                "category": "coaching_changes",
-                "importance": "high"
-              },
-              {
-                "fact": "Tyler Bowen is the run game coordinator and offensive line coach, Billy Fessler is the pass game coordinator and quarterbacks coach, and Cortez Hankton coaches wide receivers.",
+                "fact": "Tyler Bowen serves as run game coordinator and offensive line coach, while Billy Fessler is pass game coordinator and quarterbacks coach.",
                 "page": 2,
                 "category": "coaching_changes",
                 "importance": "medium"
@@ -2027,33 +2099,27 @@
             "injury_availability": [],
             "offensive_context": [
               {
-                "fact": "Ohio State's opener included 434 passing yards and 237 rushing yards, with the offense converting 45.5 percent of third downs and scoring on every red-zone trip.",
+                "fact": "Ohio State averaged 39.6 points per game from 2019 through its 2026 opener and recorded 259 passing touchdowns over that span.",
                 "page": 4,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "Ohio State is one of two FBS programs, along with Miami, to have a 3,500-yard passer, 1,000-yard receiver and 1,000-yard rusher in each of the previous two seasons.",
+                "page": 6,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State is one of two FBS programs, along with Miami, to have a 3,500-yard passer, a 1,000-yard receiver and a 1,000-yard rusher in each of the past two seasons.",
-                "page": 6,
-                "category": "offensive_context",
-                "importance": "medium"
-              },
-              {
-                "fact": "Since Ryan Day became head coach in 2019, Ohio State has averaged 39.6 points per game and thrown 259 touchdown passes.",
+                "fact": "Ohio State entered the Texas game averaging 56 points and 671 total yards per game in 2026, with a 100 percent red-zone scoring rate.",
                 "page": 4,
                 "category": "offensive_context",
-                "importance": "medium"
+                "importance": "high"
               }
             ],
             "defensive_context": [
               {
-                "fact": "Ohio State ranked first nationally in 2025 in scoring defense at 9.3 points per game, total defense at 219.1 yards per game and passing defense at 129.7 yards per game.",
-                "page": 5,
-                "category": "defensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Ohio State allowed 12 touchdowns from scrimmage during the 2025 season.",
+                "fact": "Ohio State led the FBS in 2025 in scoring defense at 9.3 points per game, total defense at 219.1 yards per game and passing defense at 129.7 yards per game.",
                 "page": 5,
                 "category": "defensive_context",
                 "importance": "high"
@@ -2065,35 +2131,41 @@
                 "importance": "high"
               },
               {
-                "fact": "Since the start of 2024, Ohio State has allowed 37 touchdowns in 31 games and has held nine opponents without a touchdown.",
+                "fact": "Ohio State allowed 37 touchdowns in 31 games from the start of 2024 through the 2026 opener and held nine opponents without a touchdown.",
                 "page": 5,
                 "category": "defensive_context",
                 "importance": "medium"
+              },
+              {
+                "fact": "The Buckeyes allowed only 12 touchdowns from scrimmage during the 2025 season.",
+                "page": 5,
+                "category": "defensive_context",
+                "importance": "high"
               }
             ],
             "special_teams": [
               {
-                "fact": "Punter Joe McGuire is Ohio State's only returning specialist starter.",
+                "fact": "Punter Joe McGuire is Ohio State's returning specialist and has started previously.",
                 "page": 2,
                 "category": "special_teams",
                 "importance": "medium"
               },
               {
-                "fact": "Ohio State lost starting kicker Jayden Fielding and long snapper John Ferlmann.",
+                "fact": "Ohio State lost starting kicker Jayden Fielding and long snapper John Ferlmann after the 2025 season.",
                 "page": 2,
                 "category": "special_teams",
                 "importance": "high"
               },
               {
-                "fact": "Robby Discher is Ohio State's special teams coordinator; Connor Hawkins is the listed kicker and Dalton Riggs is the listed long snapper.",
-                "page": 2,
+                "fact": "Junior kicker Connor Hawkins is on Ohio State's 2026 roster and is from Liberty Hill, Texas.",
+                "page": 3,
                 "category": "special_teams",
                 "importance": "medium"
               }
             ],
             "series_context": [
               {
-                "fact": "Ryan Day is 2-0 as Ohio State's head coach against Texas, while Texas head coach Steve Sarkisian is 0-2 against Ohio State.",
+                "fact": "Ryan Day is 2-0 as Ohio State's head coach against Texas, while Texas coach Steve Sarkisian is 0-2 against Ohio State.",
                 "page": 1,
                 "category": "series_context",
                 "importance": "high"
@@ -2105,7 +2177,7 @@
                 "importance": "high"
               },
               {
-                "fact": "Ohio State defeated No. 1 Texas 14-7 in Julian Sayin's first start in 2025.",
+                "fact": "Ohio State defeated then-No. 1 Texas 14-7 in Julian Sayin's first start.",
                 "page": 6,
                 "category": "series_context",
                 "importance": "high"
@@ -2113,20 +2185,14 @@
             ],
             "other_relevant": [
               {
-                "fact": "Ohio State is 25-1 in September games and 20-1 in regular-season nonconference games under Ryan Day.",
+                "fact": "Ryan Day entered the matchup 25-6 against non-Big Ten opponents and 20-1 in regular-season nonconference games.",
                 "page": 1,
                 "category": "other_relevant",
                 "importance": "medium"
               },
               {
-                "fact": "Under Ryan Day, Ohio State is 16-10 against top-10 opponents and 8-7 against top-five opponents.",
-                "page": 20,
-                "category": "other_relevant",
-                "importance": "medium"
-              },
-              {
                 "fact": "Ohio State has eight players from Texas: Legend Bey, Brock Boyd, Connor Hawkins, Devin McCuin, Kyle Parker, Riley Pettijohn, Payton Pierce and Devin Sanchez.",
-                "page": 3,
+                "page": 4,
                 "category": "other_relevant",
                 "importance": "low"
               }
@@ -2137,7 +2203,7 @@
             "source_team": "Texas Longhorns",
             "opponent": "Ohio State Buckeyes",
             "document_matches_upcoming_game": true,
-            "document_match_reason": "The document is titled Texas Game Notes vs. Ohio State and identifies the upcoming game as Texas vs. Ohio State on Sept. 12, 2026, in Austin.",
+            "document_match_reason": "The guide is labeled \"Texas Game Notes vs. Ohio State\" for Game 2 on Sept. 12, 2026, and identifies Ohio State as Texas' upcoming opponent.",
             "recent_game": [
               {
                 "fact": "Texas opened the 2026 season with a 59-7 home win over Texas State on Sept. 5.",
@@ -2152,57 +2218,51 @@
                 "importance": "high"
               },
               {
-                "fact": "Texas' running backs accounted for 156 rushing yards and three touchdowns in the opener.",
-                "page": 9,
-                "category": "recent_game",
-                "importance": "medium"
-              },
-              {
-                "fact": "Texas forced three turnovers, two fumbles and one interception, against Texas State.",
+                "fact": "Texas forced three turnovers\u2014two fumbles and one interception\u2014against Texas State.",
                 "page": 13,
                 "category": "recent_game",
                 "importance": "high"
+              },
+              {
+                "fact": "Texas' running backs accounted for 156 rushing yards and three rushing touchdowns in the opener.",
+                "page": 9,
+                "category": "recent_game",
+                "importance": "medium"
               }
             ],
             "opponent_notes": [
               {
-                "fact": "Ohio State enters the matchup 1-0 and ranked No. 1 in both the AP and Coaches polls; Texas is 1-0 and ranked No. 5 by AP and No. 4 by the Coaches poll.",
+                "fact": "Ohio State enters the matchup 1-0 and ranked No. 1 in both the AP and Coaches polls.",
                 "page": 1,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Through one 2026 game, Ohio State averaged 671 total yards, including 434 passing and 237 rushing, and scored 56 points.",
+                "fact": "Through one 2026 game, Ohio State has averaged 671 total yards, including 434 passing and 237 rushing, while scoring 56 points.",
                 "page": 1,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Through one 2026 game, Ohio State allowed 165 total yards, including 45 rushing and 120 passing, and three points.",
+                "fact": "Through one 2026 game, Ohio State has allowed 165 total yards, including 45 rushing and 120 passing, and three points.",
                 "page": 1,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State converted 45.5 percent of its third downs and allowed a 21.4 percent third-down conversion rate in its 2026 opener.",
-                "page": 1,
+                "fact": "In Ohio State's 14-7 win over Texas on Aug. 30, 2025, Buckeyes quarterback Julian Sayin completed 13 of 20 passes for 126 yards, one touchdown and no interceptions.",
+                "page": 4,
+                "category": "opponent_notes",
+                "importance": "high"
+              },
+              {
+                "fact": "In the 2025 meeting, Ohio State rushed for 77 yards on 34 attempts and finished with 203 total yards.",
+                "page": 4,
                 "category": "opponent_notes",
                 "importance": "medium"
               },
               {
-                "fact": "In the 2025 meeting, Ohio State quarterback Julian Sayin completed 13 of 20 passes for 126 yards, one touchdown and no interceptions.",
-                "page": 4,
-                "category": "opponent_notes",
-                "importance": "high"
-              },
-              {
-                "fact": "In the 2025 meeting, Ohio State held Texas scoreless on two red-zone opportunities and stopped four of Texas' five fourth-down attempts.",
-                "page": 4,
-                "category": "opponent_notes",
-                "importance": "high"
-              },
-              {
-                "fact": "Ohio State scored seven points off Texas' only turnover in the 2025 meeting.",
+                "fact": "Ohio State scored seven points off Texas' lone turnover in the 2025 meeting.",
                 "page": 4,
                 "category": "opponent_notes",
                 "importance": "high"
@@ -2216,31 +2276,25 @@
                 "importance": "high"
               },
               {
-                "fact": "Manning is 13-3 as a Texas starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
+                "fact": "Manning is 13-3 as a starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
                 "page": 6,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "In 13 starts during 2025, Manning completed 248 of 404 passes for 3,163 yards and 26 touchdowns; he also rushed for 399 yards and a team-high 10 touchdowns.",
-                "page": 6,
-                "category": "quarterback",
-                "importance": "high"
-              },
-              {
-                "fact": "Manning finished the final six games of 2025 with 1,714 passing yards, 205 rushing yards and 20 total touchdowns.",
-                "page": 6,
-                "category": "quarterback",
-                "importance": "medium"
-              },
-              {
-                "fact": "In Texas' 14-7 loss at Ohio State in 2025, Manning completed 17 of 30 passes for 170 yards, one touchdown and one interception and rushed for 38 yards.",
+                "fact": "In the 2025 loss at Ohio State, Manning completed 17 of 30 passes for 170 yards, one touchdown and one interception while rushing for 38 yards.",
                 "page": 8,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Manning has a 178.0 career passer rating at home and averages 15.36 yards per completion there.",
+                "fact": "Manning completed 248 of 404 passes for 3,163 yards and 26 touchdowns in 2025 and added 399 rushing yards and a team-high 10 rushing touchdowns.",
+                "page": 6,
+                "category": "quarterback",
+                "importance": "high"
+              },
+              {
+                "fact": "Over his final six games of 2025, Manning produced 1,714 passing yards, 205 rushing yards and 20 total touchdowns.",
                 "page": 6,
                 "category": "quarterback",
                 "importance": "medium"
@@ -2248,63 +2302,69 @@
             ],
             "offensive_personnel": [
               {
-                "fact": "Texas returns four 2025 offensive-line starters: Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
-                "page": 12,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Texas added offensive linemen Laurence Seymore III from Western Kentucky, Melvin Siani from Wake Forest and Dylan Sikorski from Oregon State through the transfer portal.",
-                "page": 6,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "The nine offensive linemen listed in the notes have combined for 226 games played and 114 starts.",
-                "page": 12,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
                 "fact": "Running backs Raleek Brown and Hollywood Smothers transferred to Texas in spring 2026 from Arizona State and NC State, respectively.",
                 "page": 9,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Smothers had seven carries for 72 yards and caught three passes for 28 yards and a touchdown against Texas State.",
+                "fact": "Smothers had 10 carries for 72 yards and added three receptions for 28 yards and a touchdown against Texas State.",
+                "page": 1,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "In his Texas debut, Brown rushed 11 times for 34 yards and two touchdowns and caught one pass for 11 yards.",
                 "page": 9,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Brown had 11 carries for 34 yards and two touchdowns plus one reception for 11 yards in his Texas debut.",
-                "page": 9,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Ryan Wingo caught seven passes for 121 yards and one touchdown in the opener after leading Texas in receptions, receiving yards and receiving touchdowns in 2025.",
+                "fact": "Wide receiver Ryan Wingo caught seven passes for 121 yards and one touchdown in the season opener.",
                 "page": 10,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Auburn transfer Cam Coleman caught three passes for 70 yards and two touchdowns in his Texas debut against Texas State.",
+                "fact": "Wingo led Texas in 2025 with 54 receptions, 834 receiving yards and seven receiving touchdowns.",
                 "page": 10,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Texas added tight end Michael Masunas from Michigan State; he played 12 games with eight starts and recorded 19 catches for 232 yards and three touchdowns in 2025.",
+                "fact": "Auburn transfer Cam Coleman made his Texas debut with three receptions for 70 yards and two touchdowns against Texas State.",
+                "page": 10,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Texas added Michigan State transfer tight end Michael Masunas, who had 19 receptions for 232 yards and three touchdowns in 2025.",
                 "page": 12,
                 "category": "offensive_personnel",
                 "importance": "medium"
+              },
+              {
+                "fact": "Four 2025 offensive-line starters\u2014Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson\u2014return for 2026.",
+                "page": 12,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Texas added offensive linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski through the transfer portal; the listed offensive-line group has combined for 226 games and 114 starts.",
+                "page": 12,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Goosby, Baker, Hutson and Robertson all started against Ohio State in the 2025 season opener.",
+                "page": 12,
+                "category": "offensive_personnel",
+                "importance": "high"
               }
             ],
             "defensive_personnel": [
               {
-                "fact": "Junior edge Colin Simmons returns after leading Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles.",
+                "fact": "EDGE Colin Simmons led Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures, three forced fumbles and one fumble recovery.",
                 "page": 12,
                 "category": "defensive_personnel",
                 "importance": "high"
@@ -2316,65 +2376,72 @@
                 "importance": "high"
               },
               {
-                "fact": "Simmons has recorded a sack in five of his last six games entering the Ohio State matchup.",
+                "fact": "Simmons recorded a half tackle for loss, a quarterback hurry and a fumble recovery against Texas State and has registered a sack in five of his last six games.",
                 "page": 12,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Simmons recorded a half tackle for loss, one quarterback hurry and one fumble recovery against Texas State.",
-                "page": 12,
+                "fact": "Texas added defensive transfers Rasheem Biles, Markus Boswell, Justin Cryer and Darius Snow at linebacker; Nick Hudson and Bo Mascoe at defensive back; and Ian Geffrard and Zion Williams on the defensive line.",
+                "page": 6,
                 "category": "defensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Pitt transfer linebacker Rasheem Biles recorded one interception and one forced fumble in the 2026 opener.",
-                "page": 10,
-                "category": "defensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Senior defensive back Jelani McDonald led Texas with eight tackles, including seven solo tackles and one tackle for loss, against Texas State.",
+                "fact": "Defensive back Jelani McDonald led Texas with eight tackles, including seven solo stops and one tackle for loss, in the opener.",
                 "page": 1,
                 "category": "defensive_personnel",
                 "importance": "medium"
               }
             ],
-            "coaching_changes": [],
+            "coaching_changes": [
+              {
+                "fact": "Kyle Flood is Texas' offensive coordinator and offensive-line coach, while AJ Milwee is co-offensive coordinator and quarterbacks coach.",
+                "page": 1,
+                "category": "coaching_changes",
+                "importance": "medium"
+              },
+              {
+                "fact": "Will Muschamp is Texas' defensive coordinator, with Johnny Nansen serving as co-defensive coordinator and linebackers coach.",
+                "page": 1,
+                "category": "coaching_changes",
+                "importance": "medium"
+              }
+            ],
             "injury_availability": [],
             "offensive_context": [
               {
-                "fact": "Through one game, Texas averaged 516 total yards, including 360 passing and 156 rushing, and scored 59 points.",
+                "fact": "Texas did not punt against Texas State, its first game without a punt since the 2023 game against Kansas.",
+                "page": 6,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "Through one 2026 game, Texas has averaged 516 total yards, with 360 passing yards and 156 rushing yards, while scoring 59 points.",
                 "page": 1,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Texas converted 73.3 percent of its third downs and 100 percent of its fourth downs in the 2026 opener.",
+                "fact": "Texas converted 73.3 percent of its third downs and scored on 85.7 percent of its red-zone opportunities in its opener.",
                 "page": 1,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "In the 2025 loss to Ohio State, Texas outgained the Buckeyes 336-203 but went 1-for-5 on fourth down and failed to score on two red-zone possessions.",
+                "page": 4,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Texas is 26-2 when scoring first since the beginning of the 2023 season.",
-                "page": 11,
+                "fact": "Texas rushed for 166 yards at 4.5 yards per carry against Ohio State in 2025, led by Quintrevion Wisner's 80 yards.",
+                "page": 4,
                 "category": "offensive_context",
                 "importance": "medium"
               }
             ],
             "defensive_context": [
-              {
-                "fact": "Texas allowed 349 total yards, including 161 rushing and 188 passing, in its 2026 opener while holding Texas State to seven points.",
-                "page": 1,
-                "category": "defensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Texas allowed Texas State to convert 57.1 percent of its third downs.",
-                "page": 1,
-                "category": "defensive_context",
-                "importance": "high"
-              },
               {
                 "fact": "Texas has forced a turnover in 24 consecutive home games, the longest active streak in the FBS.",
                 "page": 13,
@@ -2382,27 +2449,45 @@
                 "importance": "high"
               },
               {
-                "fact": "Texas has recorded 57 takeaways since the start of 2024 and forced a turnover in 36 of its last 37 games.",
+                "fact": "Texas has 57 takeaways since the beginning of 2024 and has forced a turnover in 36 of its last 37 games.",
                 "page": 13,
                 "category": "defensive_context",
-                "importance": "medium"
+                "importance": "high"
+              },
+              {
+                "fact": "Texas led the SEC in 2025 with 21 takeaways and ranked second in the conference with 16 interceptions.",
+                "page": 13,
+                "category": "defensive_context",
+                "importance": "high"
               },
               {
                 "fact": "Texas recorded at least 40 sacks and 15 interceptions in both 2024 and 2025.",
                 "page": 13,
                 "category": "defensive_context",
                 "importance": "medium"
+              },
+              {
+                "fact": "Through one 2026 game, Texas has allowed 349 total yards, including 161 rushing and 188 passing, and seven points.",
+                "page": 1,
+                "category": "defensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "Texas held Ohio State to 203 total yards and 3.8 yards per play in the 2025 meeting but did not record a sack or takeaway.",
+                "page": 4,
+                "category": "defensive_context",
+                "importance": "high"
               }
             ],
             "special_teams": [
               {
-                "fact": "Texas did not punt against Texas State, its first game without a punt since the 2023 game against Kansas.",
-                "page": 6,
+                "fact": "Texas punter Jack Bouwmeester averaged 46.2 yards on four punts and placed three inside the 20-yard line against Ohio State in 2025.",
+                "page": 4,
                 "category": "special_teams",
                 "importance": "medium"
               },
               {
-                "fact": "Texas added punter Mac Chiumento from Florida State, kicker Gianni Spetic from Memphis and deep snapper Trey Dubuc from New Mexico through the transfer portal; all three made their Texas debuts in the opener.",
+                "fact": "Texas added punter Mac Chiumento from Florida State, kicker Gianni Spetic from Memphis and deep snapper Trey Dubuc from New Mexico for 2026.",
                 "page": 6,
                 "category": "special_teams",
                 "importance": "medium"
@@ -2410,52 +2495,58 @@
             ],
             "series_context": [
               {
-                "fact": "Ohio State leads the all-time series 3-2, and the 2026 game will be the sixth meeting.",
+                "fact": "Ohio State leads the all-time series 3-2 and won both 2025 meetings: 28-14 in the CFP semifinal and 14-7 in Columbus.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "high"
               },
               {
-                "fact": "This will be the third Texas-Ohio State meeting in three seasons.",
+                "fact": "This is the sixth Texas-Ohio State meeting and the third meeting in three seasons.",
                 "page": 3,
                 "category": "series_context",
                 "importance": "high"
               },
               {
-                "fact": "Ohio State defeated Texas 14-7 in Columbus in the 2025 season opener and 28-14 in the CFP semifinal played on Jan. 10, 2025.",
+                "fact": "All six Texas-Ohio State meetings, including the upcoming game, have been Top 10 matchups.",
                 "page": 3,
                 "category": "series_context",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "Texas outgained Ohio State 336-203 and held the Buckeyes to 77 rushing yards in the 2025 season-opening loss.",
-                "page": 4,
-                "category": "series_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Every Texas-Ohio State meeting, including the upcoming game, has featured two top-10 teams; the 2026 matchup is the fifth top-five meeting in the series.",
-                "page": 6,
+                "fact": "This is Ohio State's second game in Austin and its first at Texas since a 24-7 Buckeyes win in 2006.",
+                "page": 3,
                 "category": "series_context",
                 "importance": "medium"
               }
             ],
             "other_relevant": [
               {
-                "fact": "Texas has won 10 consecutive home games.",
+                "fact": "Texas enters the game ranked No. 5 in the AP poll and No. 4 in the Coaches poll with a 1-0 record.",
+                "page": 1,
+                "category": "other_relevant",
+                "importance": "high"
+              },
+              {
+                "fact": "Texas has won 10 consecutive home games and three consecutive home games against ranked opponents.",
                 "page": 3,
                 "category": "other_relevant",
                 "importance": "high"
               },
               {
-                "fact": "Texas has won three consecutive home games against ranked opponents.",
+                "fact": "Texas is 20-1 at home since the start of the 2023 season.",
                 "page": 3,
                 "category": "other_relevant",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "Thirty-three players made their Texas debuts in the season-opening win over Texas State.",
+                "fact": "Thirty-three players made their Texas debuts in the season opener against Texas State.",
                 "page": 5,
+                "category": "other_relevant",
+                "importance": "medium"
+              },
+              {
+                "fact": "Texas added 22 players through the transfer portal for the 2026 season.",
+                "page": 6,
                 "category": "other_relevant",
                 "importance": "medium"
               }
@@ -2500,8 +2591,8 @@
         ],
         "used_sources": [
           {
-            "fact_id": 15,
-            "fact": "In 2025, Sayin completed 77.0 percent of his passes, threw for 3,610 yards and 32 touchdowns with eight interceptions, and ranked second nationally in passing efficiency at 177.5.",
+            "fact_id": 14,
+            "fact": "In 2025, Sayin completed 77.0 percent of his passes for 3,610 yards, 32 touchdowns and eight interceptions, ranking first nationally in completion percentage and second in passing efficiency at 177.5.",
             "page": 6,
             "category": "quarterback",
             "importance": "high",
@@ -2509,8 +2600,8 @@
             "source_team": "Ohio State Buckeyes"
           },
           {
-            "fact_id": 21,
-            "fact": "Ohio State's starting offensive line has combined for 146 games played and 93 starts, and the Buckeyes return 85.8 percent of their 2025 offensive-line snaps among players who logged at least 100 snaps.",
+            "fact_id": 25,
+            "fact": "Ohio State returned 85.8 percent of its offensive-line snaps among players who logged at least 100 snaps in 2025, the highest continuity rate in the Power Four.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "high",
@@ -2518,8 +2609,8 @@
             "source_team": "Ohio State Buckeyes"
           },
           {
-            "fact_id": 68,
-            "fact": "Manning is 13-3 as a Texas starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
+            "fact_id": 62,
+            "fact": "Manning is 13-3 as a starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
             "page": 6,
             "category": "quarterback",
             "importance": "high",
@@ -2527,29 +2618,29 @@
             "source_team": "Texas Longhorns"
           },
           {
-            "fact_id": 73,
-            "fact": "Texas returns four 2025 offensive-line starters: Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
-            "page": 12,
-            "category": "offensive_personnel",
-            "importance": "high",
-            "source_file": "Texas.pdf",
-            "source_team": "Texas Longhorns"
-          },
-          {
-            "fact_id": 75,
-            "fact": "The nine offensive linemen listed in the notes have combined for 226 games played and 114 starts.",
-            "page": 12,
-            "category": "offensive_personnel",
-            "importance": "high",
-            "source_file": "Texas.pdf",
-            "source_team": "Texas Longhorns"
-          },
-          {
-            "fact_id": 83,
+            "fact_id": 77,
             "fact": "Simmons' 12 sacks led the SEC in 2025, and his 61 quarterback pressures set a Texas single-season record.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "high",
+            "source_file": "Texas.pdf",
+            "source_team": "Texas Longhorns"
+          },
+          {
+            "fact_id": 86,
+            "fact": "In the 2025 loss to Ohio State, Texas outgained the Buckeyes 336-203 but went 1-for-5 on fourth down and failed to score on two red-zone possessions.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high",
+            "source_file": "Texas.pdf",
+            "source_team": "Texas Longhorns"
+          },
+          {
+            "fact_id": 102,
+            "fact": "Texas is 20-1 at home since the start of the 2023 season.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "medium",
             "source_file": "Texas.pdf",
             "source_team": "Texas Longhorns"
           }
@@ -3526,8 +3617,8 @@
       "has_bet": true,
       "guide_enrichment": {
         "enabled": true,
-        "narrative": "We are not reacting to two comfortable season-opening wins. Wake Forest produced 559 yards against Akron, while Purdue reached 523 against Indiana State. Those performances establish some offensive upside, but our view is driven more by how the teams match up than by either final score.\n\nThe concern for us is Purdue\u2019s offense against a Wake Forest defense that holds substantial efficiency advantages against both the pass and run. Ryan Browne still showed encouraging command in the opener, completing 23 of 29 passes for 317 yards and three touchdowns, while 11 Purdue receivers caught a pass. That does not erase the longer-run matchup issues, but it gives Purdue more ways to function than its underlying offensive profile might suggest.\n\nWake Forest\u2019s explosiveness is the clearest threat to our position. Gio Lopez threw for 350 yards in his debut, and Wake Forest generated touchdown passes of 78 and 72 yards without allowing a sack. Purdue\u2019s defense answered its first test with three sacks and eight tackles for loss while limiting Indiana State to 66 rushing yards. For us, Purdue\u2019s ability to create disruption, combined with the home setting, gives it more resistance than the market is pricing.",
-        "matchup_to_watch": "We are watching Purdue\u2019s passing game against Wake Forest\u2019s pass defense. Our efficiency data identifies this as a pronounced advantage for Wake Forest, making it the pressure point for our Purdue position. Browne\u2019s opening accuracy and Purdue\u2019s broad receiver involvement offer a credible counter, but the question is whether that production survives a much stronger pass-defense matchup.",
+        "narrative": "The market is asking us to treat Wake Forest as the better team, but our broader numbers do not support that view. We are not simply reacting to Purdue\u2019s opening win, especially with 38 players making their Purdue debuts and 16 making their first Purdue starts. We do, however, value the continuity at quarterback: Ryan Browne started every game last season, then completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions in the opener.\n\nWe also see Purdue\u2019s defense as an important part of the case. Purdue held Indiana State to 66 rushing yards while producing eight tackles for loss and three sacks. We recognize the step up in competition after Wake Forest generated 559 yards against Akron, with Gio Lopez throwing for 350 yards and adding 39 on the ground. For us, Purdue\u2019s ability to pressure Lopez and keep Wake Forest from staying balanced could make this game much tighter than the market suggests.\n\nThe biggest concern for us is Purdue\u2019s offense against a Wake Forest defense that rates well in our pass and run efficiency metrics. Purdue finished every red-zone trip with points and involved 11 receivers in the opener, but we do not treat that one performance as proof against a stronger defense. Our wager rests on the overall team-level disagreement, not on Purdue having a favorable offensive matchup.",
+        "matchup_to_watch": "We are watching Purdue\u2019s passing offense against Wake Forest\u2019s pass defense. Our matchup data gives Wake Forest a clear advantage here, and we saw its defense record seven tackles for loss and two sacks against Akron. Purdue allowed two sacks and four tackles for loss in its opener, so we think avoiding obvious passing situations will be important.\n\nWe also want to see whether Browne can maintain efficiency while distributing the ball across Purdue\u2019s receiving group. If Wake Forest consistently disrupts him, it attacks the clearest weakness in our position; if Purdue limits negative plays, we think the market\u2019s preference for Wake Forest becomes harder to justify.",
         "guide_status": [
           "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
           "Loaded guide for Wake Forest Demon Deacons: Wake Forest.pdf",
@@ -3539,7 +3630,7 @@
             "source_team": "Wake Forest Demon Deacons",
             "opponent": "Purdue Boilermakers",
             "document_matches_upcoming_game": true,
-            "document_match_reason": "The guide identifies Game 2 as Wake Forest at Purdue on Sept. 12, 2026, at Ross-Ade Stadium and includes Purdue-specific statistics, personnel notes and series information.",
+            "document_match_reason": "The guide identifies Game 2 as Wake Forest at Purdue on Sept. 12, 2026, at Ross-Ade Stadium and includes Purdue-specific notes, statistics and series information.",
             "recent_game": [
               {
                 "fact": "Wake Forest opened the 2026 season with a 38-16 home win over Akron on Sept. 3.",
@@ -3548,19 +3639,19 @@
                 "importance": "high"
               },
               {
-                "fact": "Wake Forest produced 559 total yards against Akron, including 356 passing yards and 203 rushing yards.",
+                "fact": "Wake Forest produced 559 total yards against Akron, including 203 rushing yards and 356 passing yards.",
                 "page": 2,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Wake Forest converted 7 of 15 third downs and both of its fourth-down attempts against Akron.",
+                "fact": "Wake Forest allowed Akron 305 total yards, including 149 rushing and 156 passing.",
                 "page": 2,
                 "category": "recent_game",
-                "importance": "medium"
+                "importance": "high"
               },
               {
-                "fact": "Wake Forest committed no turnovers against Akron and recovered one Akron fumble.",
+                "fact": "Wake Forest committed no turnovers against Akron and recovered one fumble.",
                 "page": 2,
                 "category": "recent_game",
                 "importance": "high"
@@ -3568,7 +3659,7 @@
             ],
             "opponent_notes": [
               {
-                "fact": "Purdue opened the season with a 44-19 win over Indiana State on Sept. 4.",
+                "fact": "Purdue enters the matchup 1-0 after defeating Indiana State 44-19 on Sept. 4.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "high"
@@ -3580,37 +3671,25 @@
                 "importance": "high"
               },
               {
-                "fact": "Purdue completed all six of its red-zone opportunities against Indiana State.",
+                "fact": "Purdue finished 6-for-6 in the red zone against Indiana State.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Purdue converted 6 of 11 third downs and possessed the ball for 37:22 in its opener.",
+                "fact": "Eleven Purdue receivers caught at least one pass in the win over Indiana State.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "medium"
               },
               {
-                "fact": "Eleven Purdue receivers caught at least one pass against Indiana State.",
-                "page": 2,
-                "category": "opponent_notes",
-                "importance": "medium"
-              },
-              {
-                "fact": "Purdue receiver Asaad Waseem had six catches for a team-high 107 yards and one touchdown against Indiana State.",
+                "fact": "Asaad Waseem led Purdue with 107 receiving yards and a touchdown on six catches against Indiana State; Xavier Townsend had a team-high seven catches for 47 yards.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "Purdue receiver Xavier Townsend led the team with seven receptions for 47 yards against Indiana State.",
-                "page": 2,
-                "category": "opponent_notes",
-                "importance": "medium"
-              },
-              {
-                "fact": "Purdue running back Fame Ijeboi rushed 11 times for 87 yards and one touchdown, averaging 7.9 yards per attempt against Indiana State.",
+                "fact": "Fame Ijeboi led Purdue's rushing attack against Indiana State with 87 yards and a touchdown on 11 carries.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "high"
@@ -3628,13 +3707,13 @@
                 "importance": "high"
               },
               {
-                "fact": "Purdue defensive back Mister Clark recorded five solo tackles, two tackles for loss and one sack against Indiana State.",
+                "fact": "Defensive back Mister Clark recorded five solo tackles, two tackles for loss and a sack against Indiana State.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "medium"
               },
               {
-                "fact": "Purdue senior Don Saunders recorded his sixth career interception against Indiana State.",
+                "fact": "Senior Don Saunders recorded Purdue's only takeaway against Indiana State, the sixth interception of his career.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "medium"
@@ -3642,31 +3721,25 @@
             ],
             "quarterback": [
               {
-                "fact": "Wake Forest starter Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacons debut against Akron.",
+                "fact": "Wake Forest quarterback Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacons debut against Akron; he also rushed for 39 yards.",
                 "page": 1,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Lopez also rushed seven times for 39 yards against Akron.",
-                "page": 21,
-                "category": "quarterback",
-                "importance": "medium"
-              },
-              {
-                "fact": "Lopez's 78-yard touchdown pass to Carlos Hernandez against Akron was the longest completion of his collegiate career.",
+                "fact": "Lopez's 78-yard touchdown pass to Carlos Hernandez against Akron was the longest completion of Lopez's collegiate career.",
                 "page": 1,
                 "category": "quarterback",
                 "importance": "high"
               },
               {
-                "fact": "Across his college career through the Akron game, Lopez has completed 438 of 666 passes for 5,131 yards, 35 touchdowns and 12 interceptions while adding 791 rushing yards and 12 rushing touchdowns.",
+                "fact": "Across his collegiate career, Lopez has completed 438 of 666 passes for 5,131 yards, 35 touchdowns and 12 interceptions while rushing for 791 yards and 12 touchdowns.",
                 "page": 21,
                 "category": "quarterback",
                 "importance": "medium"
               },
               {
-                "fact": "Purdue quarterback Ryan Browne completed 23 of 29 passes for 217 yards, three touchdowns and no interceptions against Indiana State.",
+                "fact": "Purdue quarterback Ryan Browne completed 23 of 29 passes with three touchdowns and no interceptions against Indiana State.",
                 "page": 2,
                 "category": "quarterback",
                 "importance": "high"
@@ -3674,75 +3747,63 @@
             ],
             "offensive_personnel": [
               {
-                "fact": "Wake Forest's projected offensive line lists Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
-                "page": 19,
-                "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Center Will Way joined Wake Forest from Weber State in January 2026 and was selected as a team captain.",
+                "fact": "Quarterback Gio Lopez joined Wake Forest from North Carolina in January 2026 after previously playing at South Alabama under current Wake Forest offensive coordinator Rob Ezell.",
                 "page": 1,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Quarterback Gio Lopez joined Wake Forest from North Carolina in January 2026 and was selected as a team captain.",
+                "fact": "Center Will Way joined Wake Forest from Weber State in January 2026 and was elected a team captain before the season.",
                 "page": 1,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "The projected starting skill personnel includes running back Ty Clark III and receivers Carlos Hernandez, Antonio Meeks and Kam Shanks.",
+                "fact": "Wake Forest's unofficial projected offensive line lists Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
                 "page": 19,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Ty Clark III rushed seven times for a career-high 105 yards against Akron, including a career-best 57-yard run.",
-                "page": 4,
+                "fact": "Ty Clark III is listed as Wake Forest's projected starting running back and rushed for a career-high 105 yards on seven carries against Akron, including a 57-yard run.",
+                "page": 19,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Carlos Hernandez caught five passes for 165 yards and one touchdown against Akron.",
-                "page": 4,
+                "fact": "Wake Forest's projected starting receivers are Carlos Hernandez, Antonio Meeks and Kam Shanks, with Will Loerzel listed first at tight end.",
+                "page": 19,
                 "category": "offensive_personnel",
-                "importance": "high"
-              },
-              {
-                "fact": "Hernandez has caught at least five passes in each of Wake Forest's last five games, averaging 107.6 receiving yards with five touchdowns during that span.",
-                "page": 4,
-                "category": "offensive_personnel",
-                "importance": "high"
+                "importance": "medium"
               }
             ],
             "defensive_personnel": [
               {
-                "fact": "Wake Forest's projected defensive front lists Langston Hardy and Gabe Kirschke at defensive end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
+                "fact": "Wake Forest's unofficial projected defensive front lists Langston Hardy and Gabe Kirschke at defensive end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
                 "page": 19,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Wake Forest's projected linebackers are Frank Cusano at weakside linebacker and Aiden Hall at middle linebacker, with Braylon Johnson at the Star position.",
+                "fact": "Wake Forest's projected linebackers are Frank Cusano and Aiden Hall, with Braylon Johnson at the STAR position.",
                 "page": 19,
                 "category": "defensive_personnel",
-                "importance": "high"
+                "importance": "medium"
               },
               {
                 "fact": "Wake Forest's projected secondary lists Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
                 "page": 19,
                 "category": "defensive_personnel",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "Aiden Hall became a starter in 2025 and recorded 73 tackles, eight tackles for loss and three passes defended that season.",
+                "fact": "Aiden Hall became a starter in 2025 and finished that season with 73 tackles, eight tackles for loss and three passes defended.",
                 "page": 1,
                 "category": "defensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Joshua Patterson joined Wake Forest after playing four games with two starts for Iowa State in 2025 and is listed as a projected reserve at free safety.",
+                "fact": "Joshua Patterson joined Wake Forest after playing four games with two starts for Iowa State in 2025 and is listed as a reserve free safety.",
                 "page": 4,
                 "category": "defensive_personnel",
                 "importance": "medium"
@@ -3750,32 +3811,14 @@
             ],
             "coaching_changes": [
               {
-                "fact": "Jake Dickert is in his second season as Wake Forest's head coach after being hired on Dec. 18, 2024.",
-                "page": 1,
-                "category": "coaching_changes",
-                "importance": "medium"
-              },
-              {
-                "fact": "Rob Ezell is Wake Forest's offensive coordinator, and Scottie Hazelton is the defensive coordinator.",
-                "page": 10,
-                "category": "coaching_changes",
-                "importance": "high"
-              },
-              {
-                "fact": "Ezell previously coached Gio Lopez at South Alabama, where Ezell served as offensive coordinator and quarterbacks coach in 2024.",
-                "page": 10,
-                "category": "coaching_changes",
-                "importance": "high"
-              },
-              {
-                "fact": "Dyrell Roberts became Wake Forest's wide receivers coach in 2026 after coaching East Carolina's receivers from 2023 through 2025.",
+                "fact": "Dyrell Roberts is in his first season as Wake Forest's wide receivers coach after coaching East Carolina's receivers from 2023 through 2025.",
                 "page": 12,
                 "category": "coaching_changes",
                 "importance": "medium"
               },
               {
-                "fact": "Purdue is coached by Barry Odom, with Josh Henson as offensive coordinator and Kevin Kane as defensive coordinator.",
-                "page": 2,
+                "fact": "Jake Dickert is in his second season as Wake Forest's head coach, with Rob Ezell serving as offensive coordinator and Scottie Hazelton as defensive coordinator.",
+                "page": 1,
                 "category": "coaching_changes",
                 "importance": "medium"
               }
@@ -3783,25 +3826,31 @@
             "injury_availability": [],
             "offensive_context": [
               {
-                "fact": "Wake Forest averaged 15.0 yards per carry on Ty Clark III's seven rushing attempts against Akron.",
-                "page": 22,
-                "category": "offensive_context",
-                "importance": "medium"
-              },
-              {
-                "fact": "Wake Forest did not allow a sack in its season opener.",
+                "fact": "Wake Forest averaged 10.9 yards per pass attempt against Akron and did not allow a sack.",
                 "page": 3,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Wake Forest generated touchdown passes of 78 yards to Carlos Hernandez and 72 yards to Antonio Meeks against Akron.",
-                "page": 16,
+                "fact": "Wake Forest converted 7 of 15 third downs and both of its fourth-down attempts against Akron.",
+                "page": 2,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "Carlos Hernandez had five catches for 165 yards and a touchdown against Akron, including a 78-yard touchdown, and recorded a career-high 148 yards after the catch.",
+                "page": 4,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Wake Forest finished the Akron game with a passing efficiency rating of 176.6 and averaged 10.9 yards per pass attempt with Gio Lopez.",
+                "fact": "Hernandez has averaged 107.6 receiving yards over Wake Forest's last five games, with at least five catches in every game and five total touchdowns during that span.",
+                "page": 4,
+                "category": "offensive_context",
+                "importance": "high"
+              },
+              {
+                "fact": "Antonio Meeks added 93 receiving yards against Akron.",
                 "page": 3,
                 "category": "offensive_context",
                 "importance": "medium"
@@ -3809,25 +3858,19 @@
             ],
             "defensive_context": [
               {
-                "fact": "Wake Forest allowed Akron 305 total yards, including 149 rushing yards and 156 passing yards.",
-                "page": 2,
+                "fact": "Wake Forest recorded seven tackles for loss and two sacks against Akron.",
+                "page": 3,
                 "category": "defensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Wake Forest recorded seven tackles for loss and two sacks against Akron.",
-                "page": 2,
+                "fact": "Rushaun Tongue recovered Wake Forest's forced fumble against Akron.",
+                "page": 5,
                 "category": "defensive_context",
                 "importance": "medium"
               },
               {
-                "fact": "Akron converted 6 of 14 third-down attempts against Wake Forest.",
-                "page": 2,
-                "category": "defensive_context",
-                "importance": "medium"
-              },
-              {
-                "fact": "Rushaun Tongue recovered Wake Forest's only forced turnover against Akron.",
+                "fact": "Wake Forest forced a turnover in 70 of its previous 84 games through the Akron opener.",
                 "page": 5,
                 "category": "defensive_context",
                 "importance": "medium"
@@ -3835,25 +3878,19 @@
             ],
             "special_teams": [
               {
-                "fact": "Wake Forest kicker Connor Calvert made three field goals against Akron.",
+                "fact": "Connor Calvert made three field goals on four attempts against Akron and scored 12 points.",
                 "page": 3,
                 "category": "special_teams",
                 "importance": "high"
               },
               {
-                "fact": "Wake Forest averaged 49.0 net yards per punt and 22.0 yards per punt return in its opener.",
-                "page": 2,
+                "fact": "Wake Forest recorded a 49.0-yard net punting average and a 22.0-yard punt-return average in the opener.",
+                "page": 3,
                 "category": "special_teams",
                 "importance": "medium"
               },
               {
-                "fact": "Carlos Hernandez returned a punt for 18 yards against Akron and is listed as Wake Forest's projected primary punt returner.",
-                "page": 4,
-                "category": "special_teams",
-                "importance": "medium"
-              },
-              {
-                "fact": "Freshman Ethan Hyams is listed as Wake Forest's projected starting punter.",
+                "fact": "Wake Forest's projected specialists are Connor Calvert at placekicker, freshman Ethan Hyams at punter, Koredell Bartley at kickoff returner and Carlos Hernandez at punt returner.",
                 "page": 19,
                 "category": "special_teams",
                 "importance": "medium"
@@ -3861,13 +3898,7 @@
             ],
             "series_context": [
               {
-                "fact": "The matchup will be the fifth meeting between Wake Forest and Purdue and the first since 2003.",
-                "page": 2,
-                "category": "series_context",
-                "importance": "medium"
-              },
-              {
-                "fact": "Purdue leads the all-time series 4-1.",
+                "fact": "This will be the first Wake Forest-Purdue game since 2003.",
                 "page": 2,
                 "category": "series_context",
                 "importance": "medium"
@@ -3877,17 +3908,17 @@
                 "page": 2,
                 "category": "series_context",
                 "importance": "medium"
+              },
+              {
+                "fact": "Purdue leads the series 4-1.",
+                "page": 2,
+                "category": "series_context",
+                "importance": "low"
               }
             ],
             "other_relevant": [
               {
-                "fact": "The game is scheduled for Sept. 12, 2026, at Ross-Ade Stadium in West Lafayette, Indiana.",
-                "page": 1,
-                "category": "other_relevant",
-                "importance": "high"
-              },
-              {
-                "fact": "Wake Forest and Purdue both enter the matchup 1-0.",
+                "fact": "The game is scheduled for noon Eastern on Sept. 12, 2026, at Ross-Ade Stadium in West Lafayette, Indiana.",
                 "page": 1,
                 "category": "other_relevant",
                 "importance": "high"
@@ -3899,7 +3930,7 @@
             "source_team": "Purdue Boilermakers",
             "opponent": "Wake Forest Demon Deacons",
             "document_matches_upcoming_game": true,
-            "document_match_reason": "The document is Purdue's 2026 Game 2 notes for its Sept. 12 home matchup against Wake Forest.",
+            "document_match_reason": "The document is Purdue's 2026 Game 2 notes for its Sept. 12 home game against Wake Forest.",
             "recent_game": [
               {
                 "fact": "Purdue opened the 2026 season with a 44-19 home victory over Indiana State.",
@@ -3908,48 +3939,60 @@
                 "importance": "high"
               },
               {
-                "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024.",
+                "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024 at Illinois.",
                 "page": 1,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Purdue had no turnovers, won the turnover battle and held Indiana State to 12 first downs.",
-                "page": 11,
+                "fact": "Purdue finished the Indiana State game with 346 passing yards and 177 rushing yards.",
+                "page": 3,
                 "category": "recent_game",
                 "importance": "high"
               },
               {
-                "fact": "Sixteen players made their first starts as Boilermakers and 38 players made their Purdue debuts in the opener.",
-                "page": 2,
+                "fact": "Purdue allowed Indiana State 284 total yards, including 66 rushing yards, and limited the Sycamores to 12 first downs.",
+                "page": 3,
+                "category": "recent_game",
+                "importance": "high"
+              },
+              {
+                "fact": "Purdue recorded eight tackles for loss, three sacks and one interception against Indiana State.",
+                "page": 3,
+                "category": "recent_game",
+                "importance": "high"
+              },
+              {
+                "fact": "Purdue committed no turnovers and won the turnover margin by one against Indiana State.",
+                "page": 3,
                 "category": "recent_game",
                 "importance": "medium"
               }
             ],
             "opponent_notes": [
               {
-                "fact": "Purdue and Wake Forest enter the matchup with 1-0 records; the game is scheduled for Sept. 12 at Ross-Ade Stadium.",
+                "fact": "Purdue hosts Wake Forest at Ross-Ade Stadium on Sept. 12, 2026; both teams enter the game 1-0.",
                 "page": 1,
                 "category": "opponent_notes",
                 "importance": "high"
               },
               {
-                "fact": "This is Purdue's ninth game against an ACC opponent in the 21st century.",
+                "fact": "This is Purdue's ninth game against an ACC opponent in the 21st century; Purdue is 21-18-3 against current ACC football members.",
                 "page": 2,
                 "category": "opponent_notes",
                 "importance": "low"
               },
               {
-                "fact": "Purdue head coach Barry Odom and Wake Forest head coach Jake Dickert have not previously faced each other.",
+                "fact": "Purdue head coach Barry Odom and Wake Forest head coach Jake Dickert have not previously faced one another.",
                 "page": 1,
                 "category": "opponent_notes",
-                "importance": "low"
+                "importance": "medium"
               }
             ],
             "quarterback": [
               {
                 "fact": "Starting quarterback Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions against Indiana State.",
-                "page": 12,
+                "page": 3,
                 "category": "quarterback",
                 "importance": "high"
               },
@@ -3960,19 +4003,19 @@
                 "importance": "medium"
               },
               {
-                "fact": "Browne has started 13 consecutive games and has made 15 career starts for Purdue.",
+                "fact": "Browne started all 12 games in 2025 and threw for 2,153 yards and nine touchdowns.",
+                "page": 3,
+                "category": "quarterback",
+                "importance": "high"
+              },
+              {
+                "fact": "Browne has made 15 career starts for Purdue, including 13 consecutive starts entering the Wake Forest game.",
                 "page": 3,
                 "category": "quarterback",
                 "importance": "medium"
               },
               {
-                "fact": "Browne returned to Purdue through the spring transfer window in 2025 after spending that spring at North Carolina, and he started all 12 games for Purdue in 2025.",
-                "page": 3,
-                "category": "quarterback",
-                "importance": "medium"
-              },
-              {
-                "fact": "Evans Chuba and Bennett Meredith competed for the backup quarterback role; Meredith started at Northwestern in 2023 but has not played in the past two seasons.",
+                "fact": "Evans Chuba and Bennett Meredith competed for the backup quarterback role during the spring and summer; Meredith previously started against Northwestern in 2023 but did not play in either of the next two seasons.",
                 "page": 6,
                 "category": "quarterback",
                 "importance": "low"
@@ -3980,22 +4023,22 @@
             ],
             "offensive_personnel": [
               {
-                "fact": "Minnesota transfer Fame Ijeboi led Purdue against Indiana State with 87 rushing yards and one touchdown on 11 carries and added two receptions for 30 yards.",
+                "fact": "Minnesota transfer running back Fame Ijeboi led Purdue against Indiana State with 87 yards and one touchdown on 11 carries and added two receptions for 30 yards.",
                 "page": 2,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "FAU transfer Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
+                "fact": "FAU transfer wide receiver Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
                 "page": 2,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Transfer receiver Xavier Townsend caught seven passes for 47 yards and returned three punts for 24 yards in his Purdue debut.",
+                "fact": "Transfer wide receiver Xavier Townsend recorded seven receptions for 47 yards and returned three punts for 24 yards in his Purdue debut.",
                 "page": 12,
                 "category": "offensive_personnel",
-                "importance": "medium"
+                "importance": "high"
               },
               {
                 "fact": "Jesse Watson caught two passes for 57 yards against Indiana State, including a 50-yard reception.",
@@ -4004,37 +4047,37 @@
                 "importance": "medium"
               },
               {
-                "fact": "Tra'Mar Harris and Chauncey Magwood each caught a touchdown against Indiana State.",
-                "page": 12,
-                "category": "offensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "The running back room was rebuilt after Devin Mockobee's graduation; Antonio Harris is the only returning running back from 2025.",
+                "fact": "Purdue's running back room lost four-time team rushing leader Devin Mockobee to graduation; Antonio Harris is the only returning running back from 2025.",
                 "page": 7,
                 "category": "offensive_personnel",
-                "importance": "medium"
+                "importance": "high"
               },
               {
-                "fact": "Purdue added running backs Ijeboi from Minnesota, Travis Terrell Jr. from Jackson State and Jerrick Gibson from Texas.",
-                "page": 7,
+                "fact": "Purdue added 32 transfers and 22 freshmen for 2026, including 19 transfers from Power Four programs.",
+                "page": 4,
                 "category": "offensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "True freshman Brock Brownfield became Purdue's first true freshman offensive lineman to start a season opener since freshmen became eligible in 1972.",
+                "fact": "Sixteen players made their first Purdue starts against Indiana State, including offensive newcomers Fame Ijeboi, Chauncey Magwood, Jackson Berryman, Luca Puccinelli, Micah Banuelos, Brock Brownfield, Nuku Mafi, Jude McCoskey and Boaz Stanley.",
+                "page": 2,
+                "category": "offensive_personnel",
+                "importance": "high"
+              },
+              {
+                "fact": "Brock Brownfield became Purdue's first true freshman offensive lineman to start a season opener since freshmen became eligible in 1972.",
                 "page": 1,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Joey Tanona was the only returning offensive lineman who started all 12 games in 2025; Ethan Trent made six starts and Jude McCoskey played in 11 games.",
+                "fact": "Joey Tanona is the only returning offensive lineman who started all 12 games in 2025; Ethan Trent made six starts and Jude McCoskey appeared in 11 games last season.",
                 "page": 7,
                 "category": "offensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Purdue added offensive line transfers Boaz Stanley, Nuku Mafi and Micah Banuelos, who entered 2026 with 21, 12 and five career starts, respectively.",
+                "fact": "Purdue added offensive-line transfers Boaz Stanley, Nuku Mafi and Micah Banuelos, who entered the season with 21, 12 and five career starts, respectively.",
                 "page": 7,
                 "category": "offensive_personnel",
                 "importance": "high"
@@ -4042,58 +4085,58 @@
             ],
             "defensive_personnel": [
               {
-                "fact": "FIU transfer Mister Clark recorded five solo tackles, two tackles for loss, one sack and one pass breakup against Indiana State.",
+                "fact": "FIU transfer defensive back Mister Clark led Purdue with five solo tackles, two tackles for loss, one sack and one pass breakup against Indiana State.",
                 "page": 13,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Don Saunders returned an interception 35 yards for a touchdown in his Purdue debut, Purdue's first pick-six since 2022.",
+                "fact": "Transfer defensive back Don Saunders returned an interception 35 yards for a touchdown against Indiana State, Purdue's first pick-six since 2022.",
                 "page": 13,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Ian Jeffries recorded three tackles and one sack against Indiana State.",
+                "fact": "Defensive lineman Ian Jeffries recorded three tackles and one sack against Indiana State.",
                 "page": 13,
                 "category": "defensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Illinois transfer Jojo Hayden made four tackles, including one tackle for loss, in his Purdue debut.",
-                "page": 13,
-                "category": "defensive_personnel",
-                "importance": "medium"
-              },
-              {
-                "fact": "Linebacker Charles Correa returned after starting all 12 games in 2025 and recording 96 tackles, 7.5 tackles for loss and three sacks.",
+                "fact": "Linebacker Charles Correa recorded two tackles, half a tackle for loss and two pass breakups in the opener after leading Purdue with 96 tackles and 7.5 tackles for loss in 2025.",
                 "page": 13,
                 "category": "defensive_personnel",
                 "importance": "high"
               },
               {
-                "fact": "Purdue added defensive linemen Rodney Lora, Curt Neal and Wisdom Simms, who brought a combined 81 games of college experience.",
+                "fact": "Purdue added defensive-line transfers Rodney Lora, Curt Neal and Wisdom Simms, who brought a combined 81 games of college experience, including 60 at the Power Four level.",
                 "page": 7,
                 "category": "defensive_personnel",
                 "importance": "medium"
               },
               {
-                "fact": "Transfer defensive ends Elo Modozie and Keyshawn Burgos entered Purdue with a combined 108 tackles, 16.5 tackles for loss and 10 sacks.",
-                "page": 7,
+                "fact": "Transfer linebacker Jojo Hayden started his Purdue debut and made four tackles, including one tackle for loss, against Indiana State.",
+                "page": 13,
                 "category": "defensive_personnel",
                 "importance": "medium"
+              },
+              {
+                "fact": "Defensive newcomers Keyshawn Burgos, Curt Neal, Jojo Hayden, Jaden Mangham, Don Saunders and John Slaughter made their first Purdue starts in the season opener.",
+                "page": 2,
+                "category": "defensive_personnel",
+                "importance": "high"
               }
             ],
             "coaching_changes": [
               {
                 "fact": "Kevin Kane returned to Purdue as defensive coordinator and linebackers coach after serving as a Minnesota defensive analyst in 2025; he previously coordinated Purdue's defense in 2023 and 2024.",
-                "page": 15,
+                "page": 4,
                 "category": "coaching_changes",
                 "importance": "high"
               },
               {
-                "fact": "Zach Crabtree is Purdue's new offensive line coach after coaching at Fresno State in 2025.",
-                "page": 15,
+                "fact": "Zach Crabtree is Purdue's new offensive line coach after coaching the line at Fresno State in 2025.",
+                "page": 4,
                 "category": "coaching_changes",
                 "importance": "high"
               },
@@ -4118,13 +4161,13 @@
             ],
             "injury_availability": [
               {
-                "fact": "Tight end Kylan Fox suffered an injury at the start of camp and will miss the 2026 season.",
+                "fact": "Tight end Kylan Fox suffered an injury at the start of training camp and is expected to miss the 2026 season.",
                 "page": 7,
                 "category": "injury_availability",
                 "importance": "high"
               },
               {
-                "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned after missing the 2025 season because of injuries.",
+                "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned for 2026 after missing the 2025 season with injuries.",
                 "page": 7,
                 "category": "injury_availability",
                 "importance": "high"
@@ -4136,7 +4179,7 @@
                 "importance": "high"
               },
               {
-                "fact": "Defensive tackle TJ Lindsey returned for 2026 after an injury limited him to three games in 2025.",
+                "fact": "Defensive lineman TJ Lindsey returned for 2026 after an injury limited him to three games in 2025.",
                 "page": 7,
                 "category": "injury_availability",
                 "importance": "medium"
@@ -4144,80 +4187,80 @@
             ],
             "offensive_context": [
               {
-                "fact": "Purdue passed for 346 yards and rushed for 177 yards in the opener.",
+                "fact": "Purdue averaged 10.9 yards per pass attempt and completed 79.4 percent of its passes against Indiana State.",
                 "page": 3,
                 "category": "offensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Browne completed 79.3 percent of his passes and averaged 10.9 yards per attempt against Indiana State.",
+                "fact": "Purdue converted 54.5 percent of its third downs against Indiana State.",
                 "page": 3,
-                "category": "offensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "Five different Boilermakers scored touchdowns in the opener, and each touchdown was that player's first for Purdue.",
-                "page": 1,
                 "category": "offensive_context",
                 "importance": "medium"
               },
               {
-                "fact": "Purdue added 32 transfers and 22 freshmen for 2026, including 19 transfers from Power Four programs.",
-                "page": 4,
+                "fact": "Purdue's offense allowed two sacks and four tackles for loss in the season opener.",
+                "page": 3,
+                "category": "offensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "All five Purdue players who scored touchdowns against Indiana State recorded their first points as Boilermakers: Tra'Mar Harris, Fame Ijeboi, Chauncey Magwood, Don Saunders and Asaad Waseem.",
+                "page": 1,
                 "category": "offensive_context",
                 "importance": "medium"
               }
             ],
             "defensive_context": [
               {
-                "fact": "Purdue allowed Indiana State 284 total yards, including 66 rushing yards and 218 passing yards.",
+                "fact": "Purdue held Indiana State to 66 rushing yards in the season opener.",
                 "page": 3,
                 "category": "defensive_context",
                 "importance": "high"
               },
               {
-                "fact": "Purdue recorded three sacks and eight tackles for loss against Indiana State.",
-                "page": 3,
-                "category": "defensive_context",
-                "importance": "high"
-              },
-              {
-                "fact": "The Boilermakers allowed Indiana State to convert three of nine third downs.",
+                "fact": "Indiana State converted one of three fourth-down attempts against Purdue.",
                 "page": 3,
                 "category": "defensive_context",
                 "importance": "medium"
               },
               {
-                "fact": "Purdue's defense scored on Saunders' interception return and did not recover a fumble in the opener.",
-                "page": 13,
+                "fact": "Purdue allowed touchdowns on all three Indiana State red-zone possessions.",
+                "page": 3,
+                "category": "defensive_context",
+                "importance": "medium"
+              },
+              {
+                "fact": "Indiana State averaged 12.8 yards per pass completion against Purdue.",
+                "page": 3,
                 "category": "defensive_context",
                 "importance": "medium"
               }
             ],
             "special_teams": [
               {
-                "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra points against Indiana State.",
+                "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra-point attempts against Indiana State, scoring 14 points with a long field goal of 39 yards.",
                 "page": 2,
                 "category": "special_teams",
                 "importance": "high"
               },
               {
-                "fact": "Echeverria Lozano connected from 39, 27 and 25 yards, the most field goals in a game by a Purdue freshman since at least 1995.",
+                "fact": "Echeverria Lozano's three field goals were the most in a game by a Purdue freshman since at least 1995.",
                 "page": 2,
                 "category": "special_teams",
-                "importance": "high"
+                "importance": "medium"
               },
               {
-                "fact": "Buffalo transfer Dylan Drennan had one 54-yard punt with a 49-yard net in his Purdue debut.",
+                "fact": "Buffalo transfer punter Dylan Drennan had one 54-yard punt with a net of 49 yards in his Purdue debut.",
                 "page": 12,
                 "category": "special_teams",
                 "importance": "medium"
               },
               {
-                "fact": "Travis Terrell Jr. returned two kickoffs for 42 yards against Indiana State.",
+                "fact": "Xavier Townsend averaged 8.0 yards on three punt returns and Travis Terrell Jr. averaged 21.0 yards on two kickoff returns against Indiana State.",
                 "page": 3,
                 "category": "special_teams",
-                "importance": "low"
+                "importance": "medium"
               }
             ],
             "series_context": [
@@ -4232,23 +4275,17 @@
                 "page": 2,
                 "category": "series_context",
                 "importance": "medium"
-              },
-              {
-                "fact": "A return game in the series is scheduled for 2028.",
-                "page": 2,
-                "category": "series_context",
-                "importance": "low"
               }
             ],
             "other_relevant": [
               {
-                "fact": "Purdue is seeking consecutive 2-0 starts for the first time since the 2020 and 2021 seasons.",
-                "page": 1,
+                "fact": "Thirty-eight players made their Purdue debuts and 16 made their first Purdue starts in the season-opening victory.",
+                "page": 2,
                 "category": "other_relevant",
-                "importance": "low"
+                "importance": "high"
               },
               {
-                "fact": "Barry Odom is in his second season as Purdue's head coach, while Jake Dickert is in his second season at Wake Forest.",
+                "fact": "A win would give Purdue consecutive 2-0 starts for the first time since 2020 and 2021.",
                 "page": 1,
                 "category": "other_relevant",
                 "importance": "low"
@@ -4294,17 +4331,8 @@
         ],
         "used_sources": [
           {
-            "fact_id": 1,
-            "fact": "Wake Forest opened the 2026 season with a 38-16 home win over Akron on Sept. 3.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high",
-            "source_file": "Wake Forest.pdf",
-            "source_team": "Wake Forest Demon Deacons"
-          },
-          {
             "fact_id": 2,
-            "fact": "Wake Forest produced 559 total yards against Akron, including 356 passing yards and 203 rushing yards.",
+            "fact": "Wake Forest produced 559 total yards against Akron, including 203 rushing yards and 356 passing yards.",
             "page": 2,
             "category": "recent_game",
             "importance": "high",
@@ -4312,8 +4340,17 @@
             "source_team": "Wake Forest Demon Deacons"
           },
           {
-            "fact_id": 9,
-            "fact": "Eleven Purdue receivers caught at least one pass against Indiana State.",
+            "fact_id": 7,
+            "fact": "Purdue finished 6-for-6 in the red zone against Indiana State.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high",
+            "source_file": "Wake Forest.pdf",
+            "source_team": "Wake Forest Demon Deacons"
+          },
+          {
+            "fact_id": 8,
+            "fact": "Eleven Purdue receivers caught at least one pass in the win over Indiana State.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "medium",
@@ -4321,8 +4358,8 @@
             "source_team": "Wake Forest Demon Deacons"
           },
           {
-            "fact_id": 17,
-            "fact": "Wake Forest starter Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacons debut against Akron.",
+            "fact_id": 15,
+            "fact": "Wake Forest quarterback Gio Lopez completed 21 of 32 passes for 350 yards, three touchdowns and no interceptions in his Demon Deacons debut against Akron; he also rushed for 39 yards.",
             "page": 1,
             "category": "quarterback",
             "importance": "high",
@@ -4330,73 +4367,64 @@
             "source_team": "Wake Forest Demon Deacons"
           },
           {
-            "fact_id": 40,
-            "fact": "Wake Forest did not allow a sack in its season opener.",
+            "fact_id": 36,
+            "fact": "Wake Forest recorded seven tackles for loss and two sacks against Akron.",
             "page": 3,
-            "category": "offensive_context",
+            "category": "defensive_context",
             "importance": "high",
             "source_file": "Wake Forest.pdf",
             "source_team": "Wake Forest Demon Deacons"
           },
           {
-            "fact_id": 41,
-            "fact": "Wake Forest generated touchdown passes of 78 yards to Carlos Hernandez and 72 yards to Antonio Meeks against Akron.",
-            "page": 16,
-            "category": "offensive_context",
-            "importance": "high",
-            "source_file": "Wake Forest.pdf",
-            "source_team": "Wake Forest Demon Deacons"
-          },
-          {
-            "fact_id": 54,
-            "fact": "The game is scheduled for Sept. 12, 2026, at Ross-Ade Stadium in West Lafayette, Indiana.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high",
-            "source_file": "Wake Forest.pdf",
-            "source_team": "Wake Forest Demon Deacons"
-          },
-          {
-            "fact_id": 56,
-            "fact": "Purdue opened the 2026 season with a 44-19 home victory over Indiana State.",
-            "page": 1,
+            "fact_id": 49,
+            "fact": "Purdue allowed Indiana State 284 total yards, including 66 rushing yards, and limited the Sycamores to 12 first downs.",
+            "page": 3,
             "category": "recent_game",
+            "importance": "high",
+            "source_file": "Purdue.pdf",
+            "source_team": "Purdue Boilermakers"
+          },
+          {
+            "fact_id": 50,
+            "fact": "Purdue recorded eight tackles for loss, three sacks and one interception against Indiana State.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high",
+            "source_file": "Purdue.pdf",
+            "source_team": "Purdue Boilermakers"
+          },
+          {
+            "fact_id": 55,
+            "fact": "Starting quarterback Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions against Indiana State.",
+            "page": 3,
+            "category": "quarterback",
             "importance": "high",
             "source_file": "Purdue.pdf",
             "source_team": "Purdue Boilermakers"
           },
           {
             "fact_id": 57,
-            "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high",
-            "source_file": "Purdue.pdf",
-            "source_team": "Purdue Boilermakers"
-          },
-          {
-            "fact_id": 63,
-            "fact": "Starting quarterback Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions against Indiana State.",
-            "page": 12,
+            "fact": "Browne started all 12 games in 2025 and threw for 2,153 yards and nine touchdowns.",
+            "page": 3,
             "category": "quarterback",
             "importance": "high",
             "source_file": "Purdue.pdf",
             "source_team": "Purdue Boilermakers"
           },
           {
-            "fact_id": 98,
-            "fact": "Purdue allowed Indiana State 284 total yards, including 66 rushing yards and 218 passing yards.",
+            "fact_id": 88,
+            "fact": "Purdue's offense allowed two sacks and four tackles for loss in the season opener.",
             "page": 3,
-            "category": "defensive_context",
-            "importance": "high",
+            "category": "offensive_context",
+            "importance": "medium",
             "source_file": "Purdue.pdf",
             "source_team": "Purdue Boilermakers"
           },
           {
-            "fact_id": 99,
-            "fact": "Purdue recorded three sacks and eight tackles for loss against Indiana State.",
-            "page": 3,
-            "category": "defensive_context",
+            "fact_id": 100,
+            "fact": "Thirty-eight players made their Purdue debuts and 16 made their first Purdue starts in the season-opening victory.",
+            "page": 2,
+            "category": "other_relevant",
             "importance": "high",
             "source_file": "Purdue.pdf",
             "source_team": "Purdue Boilermakers"

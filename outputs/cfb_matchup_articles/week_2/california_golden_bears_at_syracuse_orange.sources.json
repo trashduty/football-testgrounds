@@ -2,7 +2,7 @@
   "game": "California Golden Bears@Syracuse Orange",
   "season": 2026,
   "week": 2,
-  "generated_at_utc": "2026-09-12T08:28:31.427890+00:00",
+  "generated_at_utc": "2026-09-12T13:11:02.239252+00:00",
   "model_prediction": -9.5,
   "market_line": -3.5,
   "best_line": -3.5,
@@ -13,8 +13,8 @@
   "bet_short": "Syracuse",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We are not reacting to Syracuse\u2019s 66-3 opener as if one result settles the matchup. The more useful takeaway for us is the range of offensive options Syracuse showed, producing 238 rushing yards and 275 passing yards while involving 10 receivers. California, meanwhile, allowed 277 rushing yards in its opener. Those single-game results are not proof of what comes next, but they illustrate a credible path for Syracuse to create more separation than the market expects.\n\nOur main concern is Syracuse\u2019s passing efficiency against a California pass defense that rates much better in our numbers. Still, our case is less about Syracuse dominating through the air and more about staying balanced and avoiding predictable passing situations. Steve Angeli returned with 263 passing yards, while Syracuse\u2019s offensive line received a strong pass-blocking grade in the opener. On the other side, Syracuse generated five sacks and nine tackles for loss, giving us another potential source of disruption against a California offense that struggled to create scoring opportunities in our ratings. That overall combination supports our position despite the unfavorable pass-efficiency matchup.",
-    "matchup_to_watch": "For us, the matchup to watch is Syracuse\u2019s offensive line and rushing rotation against California\u2019s front. Tylik Hill and Shavane Anderson Jr. combined for 193 rushing yards and four touchdowns in the opener, while California surrendered 277 yards on the ground to UCLA. We do not treat either performance as a permanent baseline, but sustained rushing efficiency would keep Syracuse out of the obvious passing situations where California\u2019s defensive advantage becomes most relevant.",
+    "narrative": "We are not making the case simply because Syracuse beat New Hampshire 66-3 while California lost 45-24 to UCLA. The more useful takeaway is the potential rushing path: Syracuse produced 238 yards on the ground, with Shavane Anderson Jr. and Tylik Hill combining for 193 yards, while California allowed 277 rushing yards in its opener. One game does not establish a season-long trend, but that contrast helps explain why our view is more favorable to Syracuse than the market's.\n\nWe also see a possible advantage in how Syracuse can disrupt California's possessions. Syracuse recorded five sacks and nine tackles for loss in Week 1, while Jaron-Keawe Sagapolutele attempted 41 passes and threw two interceptions against UCLA. Our scoring-opportunity numbers already question California's ability to create enough productive drives, and pressure could make that limitation more significant.\n\nThe meaningful concern is Syracuse's passing offense against a California pass defense that rates well in our pass EPA numbers. Steve Angeli threw for 263 yards in his return, and Umari Hatcher produced 147 yards and two touchdowns, but success against New Hampshire does not erase the underlying matchup. For us, the Syracuse position is supported less by assuming another explosive passing day and more by the combination of its rushing path and defensive disruption.",
+    "matchup_to_watch": "For us, the matchup to watch is Angeli against California's pass defense. Our numbers give California a clear advantage in that area, so Syracuse does not need to dominate through the air; it needs enough efficiency to prevent California from crowding the rushing game and keeping the score compressed.\n\nAngeli's return and Hatcher's productive opener provide encouraging context, but this is a stronger test. If Syracuse can generate steady passing production without relying on turnovers or short fields, we think its broader advantages have a better chance to create separation.",
     "guide_status": [
       "No guide found for California Golden Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
       "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
@@ -25,36 +25,36 @@
         "source_team": "Syracuse Orange",
         "opponent": "California Golden Bears",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide identifies California at Syracuse as Game 2 on Sept. 12, 2026, and includes opponent statistics, series history and matchup notes for the Golden Bears.",
+        "document_match_reason": "The guide is Syracuse's Week 2 game notes for its Sept. 12, 2026 home matchup against California, with California identified as Game #2 and the upcoming opponent.",
         "recent_game": [
           {
-            "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire on Sept. 5.",
+            "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Syracuse scored 41 first-half points, finished with 238 rushing yards and 275 passing yards, and had 10 players record a reception against New Hampshire.",
-            "page": 1,
+            "fact": "Syracuse scored 41 first-half points, finished with 513 yards of offense and did not commit a turnover against New Hampshire.",
+            "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "The Syracuse defense held New Hampshire to 159 total yards and three points while recording five sacks and nine tackles for loss.",
+            "fact": "The Orange held New Hampshire to three points and 159 total yards while recording five sacks and nine tackles for loss.",
             "page": 7,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Syracuse gained three turnovers, committed none and was penalized 12 times for 125 yards against New Hampshire.",
-            "page": 4,
+            "fact": "Syracuse had 10 players record a reception and five different players score a rushing or receiving touchdown in the opener.",
+            "page": 1,
             "category": "recent_game",
             "importance": "medium"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "California enters the matchup 0-1 after a 45-24 home loss to UCLA in its season opener.",
+            "fact": "California opened the season with a 45-24 home loss to UCLA.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
@@ -66,19 +66,25 @@
             "importance": "high"
           },
           {
-            "fact": "California running back A. Mohammed carried 28 times for 120 yards and one touchdown in the opener.",
+            "fact": "Cal running back A. Mohammed carried 28 times for 120 yards and one touchdown in the opener.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "California quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in the opener.",
+            "fact": "Cal quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in his sophomore debut.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "California receivers I. Strong, C. Hendricks and M. Mason combined for 15 catches, 218 yards and two touchdowns against UCLA.",
+            "fact": "Cal receivers I. Strong, C. Hendricks and M. Mason combined for 15 receptions, 218 yards and two touchdowns in Week 1.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sagapolutele led the ACC with 24.31 completions per game and ranked third in total completions as a freshman in 2025.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "medium"
@@ -86,7 +92,7 @@
         ],
         "quarterback": [
           {
-            "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
+            "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
@@ -104,63 +110,81 @@
             "importance": "medium"
           },
           {
-            "fact": "The projected depth chart lists Amari Odom and Malachi Nelson behind Angeli, with the two reserves separated by an OR designation.",
+            "fact": "Amari Odom is listed as Angeli's primary backup, with Malachi Nelson also listed as an option on the projected depth chart.",
             "page": 14,
             "category": "quarterback",
             "importance": "medium"
+          },
+          {
+            "fact": "Odom threw his first Syracuse touchdown pass against New Hampshire.",
+            "page": 18,
+            "category": "quarterback",
+            "importance": "low"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
+            "fact": "True freshman Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Running back Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
+            "fact": "Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
             "page": 19,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns in the opener after missing the 2025 season because of injury.",
+            "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns in the opener.",
             "page": 18,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer wide receiver Cole Weaver caught three passes for 32 yards in his Syracuse debut against New Hampshire.",
-            "page": 18,
+            "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play in Week 1 but are expected to make their Syracuse debuts against California.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miller transferred from Jackson State after leading the SWAC with 1,054 rushing yards and scoring nine touchdowns in 2025.",
+            "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Tight end David Clement caught two passes for a career-high 35 yards, including his first collegiate touchdown on a 27-yard reception.",
+            "fact": "Johnson transferred from LSU after appearing in all 13 games in 2025 and recording at least one carry in every game.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end David Clement caught two passes for career highs of 35 yards and scored his first collegiate touchdown against New Hampshire.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Syracuse's projected offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
+            "fact": "Transfer receiver Cole Weaver caught three passes for 32 yards in his Syracuse debut.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "low"
+          },
+          {
+            "fact": "The projected starting offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
             "page": 14,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Syracuse's offensive line received an 87.0 pass-blocking grade from PFF against New Hampshire, second best among ACC teams through Saturday's games.",
+            "fact": "Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Center Joe Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
-            "page": 6,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Oluwafunto Akinshilo made his first career start at guard against New Hampshire, while right tackle Kam Pringle allowed one pressure.",
+            "fact": "Akinshilo made his first career start against New Hampshire, while Washington allowed no pressures and Pringle allowed one pressure, according to PFF.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -174,20 +198,32 @@
             "importance": "high"
           },
           {
-            "fact": "Transfer edge defender Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
+            "fact": "Transfer linebacker Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer defensive lineman Tunmise Adeleye tied his career high with six tackles and recorded a sack in his Syracuse debut.",
+            "fact": "Johnson transferred after setting UT Martin's program record with 13.5 sacks in 2025.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer defensive lineman Tunmise Adeleye tied his career high with six tackles and added a sack in his Syracuse debut.",
             "page": 20,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Defensive lineman Jartavius Flounoy recorded four tackles, a half-tackle for loss and a forced fumble in his Syracuse debut.",
+            "fact": "Transfer linebacker Chris D'Appolonia recorded a tackle for loss on his first defensive snap for Syracuse.",
             "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive lineman Rashard Perry recorded three tackles and his first career interception against New Hampshire after a season-ending injury limited him to five games in 2025.",
+            "page": 20,
             "category": "defensive_personnel",
             "importance": "medium"
           },
@@ -198,21 +234,21 @@
             "importance": "medium"
           },
           {
-            "fact": "Defensive lineman Rashard Perry returned after a 2025 season-ending injury and recorded three tackles and his first career interception against New Hampshire.",
-            "page": 20,
+            "fact": "Syracuse's projected secondary starters are Demetres Samuel Jr. and Chris Peal at cornerback, Davien Kerr at nickel, Cornell Perry at strong safety and Braheem Long Jr. at free safety.",
+            "page": 14,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "California is led by first-year head coach Tosh Lupoi, who will coach his first road game as a head coach against Syracuse.",
+            "fact": "California hired alumnus Tosh Lupoi as head coach before the 2026 season; the Syracuse game will be his first road game as a head coach.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "California's principal play-callers are all in their first season with the program: offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown.",
+            "fact": "California's play callers are all in their first season with the program: offensive coordinator Jordan Somerville, co-offensive coordinator Ike Hilliard, defensive coordinator Michael Hutchings and co-defensive coordinator Da'Von Brown.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "high"
@@ -224,7 +260,19 @@
             "importance": "high"
           },
           {
-            "fact": "Syracuse also has first-year assistants John Scott Jr. as co-defensive coordinator and defensive line coach, Perry Eliano as defensive backs coach, Marcus Walker as nickels coach, Jeremy Hawkins as edge coach, Juan Castillo as offensive line coach and Alex Bayer as special-teams coordinator.",
+            "fact": "Juan Castillo is in his first season as Syracuse's offensive line coach.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alex Bayer is in his first season as Syracuse's special teams coordinator.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jeff Nixon, in his third season at Syracuse, calls the offense from the booth.",
             "page": 13,
             "category": "coaching_changes",
             "importance": "medium"
@@ -232,46 +280,58 @@
         ],
         "injury_availability": [
           {
-            "fact": "Steve Angeli returned against New Hampshire after sustaining a season-ending injury in the fourth game of the 2025 season.",
+            "fact": "Steve Angeli sustained a season-ending injury against Clemson in Week 4 of 2025 and returned to start Syracuse's 2026 opener.",
             "page": 18,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire and are expected to make their Syracuse debuts against California.",
+            "fact": "Running backs Ahmad Miller and Ju'Juan Johnson are expected to make their Syracuse debuts against California after not playing against New Hampshire.",
             "page": 5,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Umari Hatcher returned in the opener after missing the 2025 season because of injury.",
-            "page": 18,
+            "fact": "Wide receiver Calvin Russell III is expected to return to the field in October.",
+            "page": 6,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Freshman wide receiver Calvin Russell III is expected to return to the field in October.",
-            "page": 6,
+            "fact": "Umari Hatcher missed the 2025 season because of injury and returned with 147 receiving yards and two touchdowns in the 2026 opener.",
+            "page": 18,
             "category": "injury_availability",
             "importance": "medium"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Syracuse converted 66.7 percent of its third downs and produced 32 first downs against New Hampshire.",
-            "page": 4,
+            "fact": "Syracuse rushed for 238 yards against New Hampshire, the highest single-game total of the Fran Brown era.",
+            "page": 12,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Five Syracuse players scored a rushing or receiving touchdown and 10 players caught at least one pass in the opener.",
-            "page": 1,
+            "fact": "Syracuse converted 66.7 percent of its third downs in Week 1.",
+            "page": 4,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Under offensive coordinator Jeff Nixon, Syracuse's Week 1 starting quarterback has produced at least 250 team passing yards in 18 consecutive games; Syracuse is 14-4 and averages 471.4 total yards and 36.8 points during that span.",
+            "fact": "The Orange offensive line received an 87.0 PFF pass-blocking grade in the opener, second among ACC teams through Saturday's games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse's quarterbacks combined for 275 passing yards, extending offensive coordinator Jeff Nixon's streak of at least 250 passing yards with his Week 1 starting quarterback to 18 games.",
             "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Syracuse allowed two sacks and six tackles for loss against New Hampshire.",
+            "page": 4,
             "category": "offensive_context",
             "importance": "medium"
           }
@@ -284,33 +344,39 @@
             "importance": "high"
           },
           {
-            "fact": "Twenty-four Syracuse defenders recorded a tackle against New Hampshire, and nine players contributed at least a half-tackle for loss.",
+            "fact": "Syracuse gained three turnovers and committed none in the opener.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Twenty-four Syracuse defenders recorded a tackle against New Hampshire, including 20 with multiple tackles.",
             "page": 7,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Syracuse did not allow New Hampshire to reach the end zone and held the Wildcats scoreless on their red-zone opportunities.",
-            "page": 4,
+            "fact": "Syracuse was one of four ACC teams that did not allow a touchdown in Week 1.",
+            "page": 7,
             "category": "defensive_context",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety and also returned two punts for 50 yards.",
+            "fact": "Davien Kerr blocked a punt out of the end zone for a safety and returned two punts for 50 yards against New Hampshire.",
             "page": 8,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Demetres Samuel Jr. returned four punts for 83 yards, including a 38-yard return, and returned a safety kick 42 yards against New Hampshire.",
+            "fact": "Demetres Samuel Jr. returned four punts for 83 yards, averaging 20.8 yards per return, and added a 42-yard return following a safety.",
             "page": 8,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Kicker Tripp Woody made his only field-goal attempt in the opener from 34 yards and is 11-for-11 in his career on attempts inside 40 yards.",
+            "fact": "Kicker Tripp Woody made his only field-goal attempt of the opener from 34 yards and is 11-for-11 in his career from inside 40 yards.",
             "page": 18,
             "category": "special_teams",
             "importance": "medium"
@@ -324,19 +390,25 @@
         ],
         "series_context": [
           {
-            "fact": "Syracuse leads the all-time series with California 2-1 and won the teams' first meeting as ACC opponents, 33-25 at California in 2024.",
+            "fact": "Syracuse leads the all-time series with California 2-1 entering the fourth meeting.",
             "page": 3,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "In the 2024 win at California, Syracuse scored on each of its first six possessions and made four field goals.",
+            "fact": "Syracuse won the first meeting as ACC opponents, 33-25 at California in 2024.",
             "page": 3,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "This is California's first game in the JMA Wireless Dome and its first trip to Syracuse since 1967.",
+            "fact": "In the 2024 win at California, Syracuse scored on its first six drives and made four field goals.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "This will be California's first game at the JMA Wireless Dome and its first trip to Syracuse since 1968.",
             "page": 3,
             "category": "series_context",
             "importance": "low"
@@ -344,16 +416,22 @@
         ],
         "other_relevant": [
           {
-            "fact": "The game is Syracuse's 2026 ACC opener; the Orange have won three of their last four conference openers, including the last two.",
+            "fact": "Syracuse and California meet at 3:30 p.m. Eastern on Sept. 12, 2026, at the JMA Wireless Dome.",
             "page": 1,
             "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Five Syracuse players made their first FBS starts against New Hampshire, including first-time career starters Tylik Hill, Jimmy Gregg and Nissi Ogbebor.",
-            "page": 4,
+            "fact": "The game is the ACC opener for both Syracuse and California.",
+            "page": 1,
             "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse enters 1-0, while California enters 0-1.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
           }
         ],
         "source_file": "Syracuse.pdf"
@@ -397,16 +475,7 @@
     "used_sources": [
       {
         "fact_id": 1,
-        "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire on Sept. 5.",
-        "page": 1,
-        "category": "recent_game",
-        "importance": "high",
-        "source_file": "Syracuse.pdf",
-        "source_team": "Syracuse Orange"
-      },
-      {
-        "fact_id": 2,
-        "fact": "Syracuse scored 41 first-half points, finished with 238 rushing yards and 275 passing yards, and had 10 players record a reception against New Hampshire.",
+        "fact": "Syracuse opened the season with a 66-3 home win over New Hampshire.",
         "page": 1,
         "category": "recent_game",
         "importance": "high",
@@ -415,9 +484,18 @@
       },
       {
         "fact_id": 3,
-        "fact": "The Syracuse defense held New Hampshire to 159 total yards and three points while recording five sacks and nine tackles for loss.",
+        "fact": "The Orange held New Hampshire to three points and 159 total yards while recording five sacks and nine tackles for loss.",
         "page": 7,
         "category": "recent_game",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 5,
+        "fact": "California opened the season with a 45-24 home loss to UCLA.",
+        "page": 3,
+        "category": "opponent_notes",
         "importance": "high",
         "source_file": "Syracuse.pdf",
         "source_team": "Syracuse Orange"
@@ -432,8 +510,17 @@
         "source_team": "Syracuse Orange"
       },
       {
-        "fact_id": 10,
-        "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
+        "fact_id": 8,
+        "fact": "Cal quarterback Jaron-Keawe Sagapolutele completed 24 of 41 passes for 271 yards, two touchdowns and two interceptions in his sophomore debut.",
+        "page": 3,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 11,
+        "fact": "Syracuse starting quarterback Steve Angeli returned from his 2025 season-ending injury and threw for 263 yards against New Hampshire.",
         "page": 5,
         "category": "quarterback",
         "importance": "high",
@@ -441,8 +528,8 @@
         "source_team": "Syracuse Orange"
       },
       {
-        "fact_id": 14,
-        "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
+        "fact_id": 16,
+        "fact": "True freshman Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut.",
         "page": 5,
         "category": "offensive_personnel",
         "importance": "high",
@@ -450,8 +537,8 @@
         "source_team": "Syracuse Orange"
       },
       {
-        "fact_id": 15,
-        "fact": "Running back Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
+        "fact_id": 17,
+        "fact": "Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
         "page": 19,
         "category": "offensive_personnel",
         "importance": "high",
@@ -459,10 +546,19 @@
         "source_team": "Syracuse Orange"
       },
       {
-        "fact_id": 20,
-        "fact": "Syracuse's offensive line received an 87.0 pass-blocking grade from PFF against New Hampshire, second best among ACC teams through Saturday's games.",
-        "page": 6,
+        "fact_id": 18,
+        "fact": "Wide receiver Umari Hatcher set career highs with eight receptions, 147 yards and two touchdowns in the opener.",
+        "page": 18,
         "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 45,
+        "fact": "Syracuse rushed for 238 yards against New Hampshire, the highest single-game total of the Fran Brown era.",
+        "page": 12,
+        "category": "offensive_context",
         "importance": "high",
         "source_file": "Syracuse.pdf",
         "source_team": "Syracuse Orange"

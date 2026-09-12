@@ -554,9 +554,11 @@ The California Golden Bears visit the Syracuse Orange at JMA Wireless Dome. We m
 
 The best number we found is Syracuse -3.5 at -108. We give Syracuse a 58.3% chance to cover, which creates an 6.4% edge for us. That clears our 3% threshold, so Syracuse is a bet.
 
-We are not reacting to Syracuse’s 66-3 opener as if one result settles the matchup. The more useful takeaway for us is the range of offensive options Syracuse showed, producing 238 rushing yards and 275 passing yards while involving 10 receivers. California, meanwhile, allowed 277 rushing yards in its opener. Those single-game results are not proof of what comes next, but they illustrate a credible path for Syracuse to create more separation than the market expects.
+We are not making the case simply because Syracuse beat New Hampshire 66-3 while California lost 45-24 to UCLA. The more useful takeaway is the potential rushing path: Syracuse produced 238 yards on the ground, with Shavane Anderson Jr. and Tylik Hill combining for 193 yards, while California allowed 277 rushing yards in its opener. One game does not establish a season-long trend, but that contrast helps explain why our view is more favorable to Syracuse than the market's.
 
-Our main concern is Syracuse’s passing efficiency against a California pass defense that rates much better in our numbers. Still, our case is less about Syracuse dominating through the air and more about staying balanced and avoiding predictable passing situations. Steve Angeli returned with 263 passing yards, while Syracuse’s offensive line received a strong pass-blocking grade in the opener. On the other side, Syracuse generated five sacks and nine tackles for loss, giving us another potential source of disruption against a California offense that struggled to create scoring opportunities in our ratings. That overall combination supports our position despite the unfavorable pass-efficiency matchup.
+We also see a possible advantage in how Syracuse can disrupt California's possessions. Syracuse recorded five sacks and nine tackles for loss in Week 1, while Jaron-Keawe Sagapolutele attempted 41 passes and threw two interceptions against UCLA. Our scoring-opportunity numbers already question California's ability to create enough productive drives, and pressure could make that limitation more significant.
+
+The meaningful concern is Syracuse's passing offense against a California pass defense that rates well in our pass EPA numbers. Steve Angeli threw for 263 yards in his return, and Umari Hatcher produced 147 yards and two touchdowns, but success against New Hampshire does not erase the underlying matchup. For us, the Syracuse position is supported less by assuming another explosive passing day and more by the combination of its rushing path and defensive disruption.
 
 ### What The Numbers Say
 
@@ -608,7 +610,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Syracuse’s offensive line and rushing rotation against California’s front. Tylik Hill and Shavane Anderson Jr. combined for 193 rushing yards and four touchdowns in the opener, while California surrendered 277 yards on the ground to UCLA. We do not treat either performance as a permanent baseline, but sustained rushing efficiency would keep Syracuse out of the obvious passing situations where California’s defensive advantage becomes most relevant.
+For us, the matchup to watch is Angeli against California's pass defense. Our numbers give California a clear advantage in that area, so Syracuse does not need to dominate through the air; it needs enough efficiency to prevent California from crowding the rushing game and keeping the score compressed.
+
+Angeli's return and Hatcher's productive opener provide encouraging context, but this is a stronger test. If Syracuse can generate steady passing production without relying on turnovers or short fields, we think its broader advantages have a better chance to create separation.
 
 ## Best Bets Of The Week
 
@@ -1946,7 +1950,7 @@ The Ohio State Buckeyes visit the Texas Longhorns at DKR-Texas Memorial Stadium.
 
 The best number we found is Texas -1.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for Texas starts with the home setting and offensive continuity rather than anything that happened in the opener. Arch Manning is 9-0 as a starter in Austin, and Texas returns four starters along an offensive line group that has combined for 114 starts. That experience helps explain why our overall view is slightly more favorable to Texas than the market’s.
+We are not treating last season’s meeting as a blueprint, but its underlying shape helps explain why our numbers remain somewhat more favorable to Texas. Texas outgained Ohio State 336-203 yet went 1-for-5 on fourth down and came away empty on two red-zone possessions. We also give weight to the venue context: Texas is 20-1 at home since the start of 2023, while Arch Manning is 9-0 there as a starter.
 
 ### What The Numbers Say
 
@@ -1998,9 +2002,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-The matchup we are watching is Ohio State’s passing game against the Texas pass defense. Julian Sayin completed 77.0 percent of his passes with 32 touchdowns and eight interceptions last season, and Ohio State returns 85.8 percent of its 2025 offensive-line snaps among players who logged at least 100. Texas can counter with Colin Simmons, whose 61 quarterback pressures set a school single-season record in 2025.
-
-That battle matters because Texas does not have a clear rushing advantage on the other side, while our numbers identify Ohio State’s passing offense as the most direct threat to the Texas defense. We still lean toward Texas overall, but the Buckeyes’ ability to protect Sayin and create explosive plays through the air leaves too little separation from the market for us to get involved.
+We will be watching Ohio State’s passing game against Texas’ ability to create pressure. Julian Sayin completed 77.0 percent of his passes in 2025, and Ohio State returns 85.8 percent of its offensive-line snaps from that season. That continuity matters against Colin Simmons, who produced 61 quarterback pressures last year.
 
 ## Best Bets Of The Week
 
@@ -3415,11 +3417,11 @@ The Wake Forest Demon Deacons visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +2.5 at -102. We give Purdue a 56.2% chance to cover, which creates an 5.7% edge for us. That clears our 3% threshold, so Purdue is a bet.
 
-We are not reacting to two comfortable season-opening wins. Wake Forest produced 559 yards against Akron, while Purdue reached 523 against Indiana State. Those performances establish some offensive upside, but our view is driven more by how the teams match up than by either final score.
+The market is asking us to treat Wake Forest as the better team, but our broader numbers do not support that view. We are not simply reacting to Purdue’s opening win, especially with 38 players making their Purdue debuts and 16 making their first Purdue starts. We do, however, value the continuity at quarterback: Ryan Browne started every game last season, then completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions in the opener.
 
-The concern for us is Purdue’s offense against a Wake Forest defense that holds substantial efficiency advantages against both the pass and run. Ryan Browne still showed encouraging command in the opener, completing 23 of 29 passes for 317 yards and three touchdowns, while 11 Purdue receivers caught a pass. That does not erase the longer-run matchup issues, but it gives Purdue more ways to function than its underlying offensive profile might suggest.
+We also see Purdue’s defense as an important part of the case. Purdue held Indiana State to 66 rushing yards while producing eight tackles for loss and three sacks. We recognize the step up in competition after Wake Forest generated 559 yards against Akron, with Gio Lopez throwing for 350 yards and adding 39 on the ground. For us, Purdue’s ability to pressure Lopez and keep Wake Forest from staying balanced could make this game much tighter than the market suggests.
 
-Wake Forest’s explosiveness is the clearest threat to our position. Gio Lopez threw for 350 yards in his debut, and Wake Forest generated touchdown passes of 78 and 72 yards without allowing a sack. Purdue’s defense answered its first test with three sacks and eight tackles for loss while limiting Indiana State to 66 rushing yards. For us, Purdue’s ability to create disruption, combined with the home setting, gives it more resistance than the market is pricing.
+The biggest concern for us is Purdue’s offense against a Wake Forest defense that rates well in our pass and run efficiency metrics. Purdue finished every red-zone trip with points and involved 11 receivers in the opener, but we do not treat that one performance as proof against a stronger defense. Our wager rests on the overall team-level disagreement, not on Purdue having a favorable offensive matchup.
 
 ### What The Numbers Say
 
@@ -3471,7 +3473,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Purdue’s passing game against Wake Forest’s pass defense. Our efficiency data identifies this as a pronounced advantage for Wake Forest, making it the pressure point for our Purdue position. Browne’s opening accuracy and Purdue’s broad receiver involvement offer a credible counter, but the question is whether that production survives a much stronger pass-defense matchup.
+We are watching Purdue’s passing offense against Wake Forest’s pass defense. Our matchup data gives Wake Forest a clear advantage here, and we saw its defense record seven tackles for loss and two sacks against Akron. Purdue allowed two sacks and four tackles for loss in its opener, so we think avoiding obvious passing situations will be important.
+
+We also want to see whether Browne can maintain efficiency while distributing the ball across Purdue’s receiving group. If Wake Forest consistently disrupts him, it attacks the clearest weakness in our position; if Purdue limits negative plays, we think the market’s preference for Wake Forest becomes harder to justify.
 
 ## Best Bets Of The Week
 
