@@ -1,6 +1,13 @@
 name: Generate CFB Matchup Articles
 
 on:
+  # Run every day at 6:00 AM Arizona time
+  # GitHub Actions cron uses UTC.
+  # Arizona = UTC-7, so 06:00 Arizona = 13:00 UTC.
+  schedule:
+    - cron: '0 13 * * *'
+
+  # Keep manual runs available
   workflow_dispatch:
     inputs:
       week:
