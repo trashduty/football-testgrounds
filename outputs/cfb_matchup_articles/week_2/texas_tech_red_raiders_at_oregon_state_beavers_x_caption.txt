@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on Texas Tech-Oregon State.
+Our model is 0.5 points away from the market on Texas Tech-Oregon State.
 
-We make Texas Tech -27. The market is -25.5.
+We make Texas Tech -27. The market is -26.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

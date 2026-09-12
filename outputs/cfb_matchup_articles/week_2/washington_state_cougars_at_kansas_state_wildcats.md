@@ -33,27 +33,27 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#63</td>
-<td>#121</td>
+<td>#122</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#21</td>
-<td>#81</td>
+<td>#80</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#16</td>
+<td class="btb-better">#17</td>
 <td>#24</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#82</td>
+<td>#81</td>
 <td class="btb-better">#53</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#92</td>
-<td class="btb-better">#85</td>
+<td>#93</td>
+<td class="btb-better">#87</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **18 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

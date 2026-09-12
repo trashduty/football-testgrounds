@@ -15,9 +15,11 @@ The Wake Forest Demon Deacons visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +2.5 at -102. We give Purdue a 56.2% chance to cover, which creates an 5.7% edge for us. That clears our 3% threshold, so Purdue is a bet.
 
-Wake Forest’s opener supplies an obvious reason for market optimism: it produced 559 yards, while Gio Lopez threw for 350 yards, three touchdowns and no interceptions. We are not dismissing that performance, but we are also not treating one game against Akron as proof of a new baseline. Purdue produced 523 yards of its own, with Ryan Browne throwing for 317 yards and three scores. For us, those openers provide context without creating enough separation to justify making Purdue a clear home underdog.
+We are not reacting to two comfortable season-opening wins. Wake Forest produced 559 yards against Akron, while Purdue reached 523 against Indiana State. Those performances establish some offensive upside, but our view is driven more by how the teams match up than by either final score.
 
-The more interesting part is Purdue’s defensive path. It held Indiana State to 284 total yards and 66 on the ground while generating eight tackles for loss and three sacks. Wake Forest allowed no sacks in its opener, so Purdue’s pressure will face a more meaningful test. Still, our position does not require Purdue to control every phase; we think its defense gives it a credible chance to keep the game within a narrow margin while the market is asking Wake Forest to create separation.
+The concern for us is Purdue’s offense against a Wake Forest defense that holds substantial efficiency advantages against both the pass and run. Ryan Browne still showed encouraging command in the opener, completing 23 of 29 passes for 317 yards and three touchdowns, while 11 Purdue receivers caught a pass. That does not erase the longer-run matchup issues, but it gives Purdue more ways to function than its underlying offensive profile might suggest.
+
+Wake Forest’s explosiveness is the clearest threat to our position. Gio Lopez threw for 350 yards in his debut, and Wake Forest generated touchdown passes of 78 and 72 yards without allowing a sack. Purdue’s defense answered its first test with three sacks and eight tackles for loss while limiting Indiana State to 66 rushing yards. For us, Purdue’s ability to create disruption, combined with the home setting, gives it more resistance than the market is pricing.
 
 ### What The Numbers Say
 
@@ -34,12 +36,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#115</td>
+<td>#117</td>
 <td class="btb-better">#71</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#79</td>
+<td>#78</td>
 <td class="btb-better">#71</td>
 </tr>
 <tr>
@@ -50,12 +52,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#127</td>
-<td class="btb-better">#17</td>
+<td class="btb-better">#18</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#113</td>
-<td class="btb-better">#67</td>
+<td class="btb-better">#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -69,11 +71,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Purdue’s passing offense against Wake Forest’s pass defense. Our matchup data gives Wake Forest a substantial advantage in this phase, which is the clearest concern for our Purdue position. Browne’s efficient opener and Purdue’s 11 players with a reception showed useful distribution, but the question is whether that production holds up against a defense our numbers rate much more highly. Purdue does not need to dominate this matchup for our wager to work, but it cannot allow Wake Forest’s coverage advantage to dictate the game.
+We are watching Purdue’s passing game against Wake Forest’s pass defense. Our efficiency data identifies this as a pronounced advantage for Wake Forest, making it the pressure point for our Purdue position. Browne’s opening accuracy and Purdue’s broad receiver involvement offer a credible counter, but the question is whether that production survives a much stronger pass-defense matchup.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **18 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

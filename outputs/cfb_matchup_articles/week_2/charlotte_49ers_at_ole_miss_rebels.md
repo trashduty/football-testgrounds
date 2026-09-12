@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Charlotte 49ers | +46.0 (-110) | BetRivers | 59.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Charlotte 49ers | +44.5 (+100) | DraftKings | 57.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | Ole Miss Rebels | -45.5 (-104) | FanDuel | 40.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Charlotte 49ers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **Charlotte +40**, compared with a market line of +45.
+The Charlotte 49ers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **Charlotte +40**, compared with a market line of +45.5.
 
-The best number we found is Charlotte +46.0 at -110. We give Charlotte a 59.6% chance to cover, which creates an 7.2% edge for us. That clears our 3% threshold, so Charlotte is a bet.
+The best number we found is Charlotte +44.5 at +100. We give Charlotte a 57.9% chance to cover, which creates an 7.9% edge for us. That clears our 3% threshold, so Charlotte is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#133</td>
-<td class="btb-better">#23</td>
+<td class="btb-better">#24</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **18 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

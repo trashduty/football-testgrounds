@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Penn State Nittany Lions visit the Temple Owls at Lincoln Financial Field. We make **Temple +21.5**, compared with a market line of +24.
+The Penn State Nittany Lions visit the Temple Owls at Lincoln Financial Field. We make **Temple +21.5**, compared with a market line of +24.5.
 
 The best number we found is Temple +23.5 at -102. We give Temple a 54.5% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Temple is a bet.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#95</td>
+<td>#94</td>
 <td class="btb-better">#41</td>
 </tr>
 <tr>
@@ -47,18 +47,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#133</td>
-<td class="btb-better">#83</td>
+<td>#134</td>
+<td class="btb-better">#82</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#105</td>
-<td class="btb-better">#57</td>
+<td>#106</td>
+<td class="btb-better">#59</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#83</td>
-<td>#128</td>
+<td>#127</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **18 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

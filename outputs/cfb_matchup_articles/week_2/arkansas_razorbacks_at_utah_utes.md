@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas Razorbacks | +12.5 (-110) | FanDuel | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Utah Utes | -12.5 (-108) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Arkansas Razorbacks | +12.5 (-108) | BetMGM | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah Utes | -12.5 (-110) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Arkansas Razorbacks visit the Utah Utes at Rice-Eccles Stadium. We make **Utah -15.5**, compared with a market line of -12.5.
 
-The best number we found is Utah -12.5 at -108. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Utah -12.5 at -110. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#9</td>
+<td class="btb-better">#10</td>
 <td>#118</td>
 </tr>
 <tr>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#29</td>
-<td>#43</td>
+<td class="btb-better">#30</td>
+<td>#44</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#49</td>
-<td>#133</td>
+<td>#131</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **18 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

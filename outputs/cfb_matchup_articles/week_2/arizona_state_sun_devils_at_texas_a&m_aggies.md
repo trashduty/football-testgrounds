@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona State Sun Devils | +14.5 (-110) | Fanatics | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas A&M Aggies | -14.5 (-108) | DraftKings | 54.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Arizona State Sun Devils | +14.5 (-108) | DraftKings | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | -14.5 (-108) | BetRivers | 54.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -32,13 +32,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#25</td>
+<td class="btb-better">#26</td>
 <td>#41</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#42</td>
-<td>#78</td>
+<td>#77</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -47,13 +47,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#69</td>
-<td class="btb-better">#48</td>
+<td>#70</td>
+<td class="btb-better">#49</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#11</td>
-<td>#88</td>
+<td>#90</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **18 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

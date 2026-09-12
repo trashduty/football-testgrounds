@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -25.5 (-108) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -25.5 (-108) | DraftKings | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Oregon State Beavers | +26.5 (-114) | BetRivers | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Tech Red Raiders visit the Oregon State Beavers at Reser Stadium. We make **Texas Tech -27**, compared with a market line of -25.5.
+The Texas Tech Red Raiders visit the Oregon State Beavers at Reser Stadium. We make **Texas Tech -27**, compared with a market line of -26.5.
 
 The best number we found is Texas Tech -25.5 at -108. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#16</td>
+<td class="btb-better">#17</td>
 <td>#108</td>
 </tr>
 <tr>
@@ -48,7 +48,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#4</td>
-<td>#65</td>
+<td>#66</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **18 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
