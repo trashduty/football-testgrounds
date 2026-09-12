@@ -308,6 +308,27 @@ def _text_width(
     )
 
 
+def _text_height(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    font,
+) -> float:
+
+    box = draw.textbbox(
+        (
+            0,
+            0,
+        ),
+        text,
+        font=font,
+    )
+
+    return (
+        box[3]
+        - box[1]
+    )
+
+
 def _center_text(
     draw: ImageDraw.ImageDraw,
     text: str,
@@ -368,7 +389,6 @@ def _wrap_text(
         return []
 
     lines = []
-
     current = words[0]
 
     for word in words[1:]:
@@ -401,6 +421,290 @@ def _wrap_text(
     )
 
     return lines
+
+
+def _truncate_text(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    font,
+    max_width: int,
+) -> str:
+
+    if (
+        _text_width(
+            draw,
+            text,
+            font,
+        )
+        <= max_width
+    ):
+        return text
+
+    ellipsis = "..."
+
+    trimmed = text.strip()
+
+    while trimmed:
+
+        candidate = (
+            trimmed.rstrip()
+            + ellipsis
+        )
+
+        if (
+            _text_width(
+                draw,
+                candidate,
+                font,
+            )
+            <= max_width
+        ):
+            return candidate
+
+        trimmed = trimmed[:-1]
+
+    return ellipsis
+
+
+def _fit_font_single_line(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    max_width: int,
+    start_size: int,
+    min_size: int,
+    bold: bool = False,
+):
+
+    for size in range(
+        start_size,
+        min_size - 1,
+        -1,
+    ):
+
+        font = _font(
+            size,
+            bold=bold,
+        )
+
+        if (
+            _text_width(
+                draw,
+                text,
+                font,
+            )
+            <= max_width
+        ):
+            return font
+
+    return _font(
+        min_size,
+        bold=bold,
+    )
+
+
+def _fit_wrapped_block(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    max_width: int,
+    max_height: int,
+    start_size: int,
+    min_size: int,
+    bold: bool = False,
+    max_lines: int = 2,
+):
+
+    for size in range(
+        start_size,
+        min_size - 1,
+        -1,
+    ):
+
+        font = _font(
+            size,
+            bold=bold,
+        )
+
+        lines = _wrap_text(
+            draw,
+            text,
+            font,
+            max_width,
+        )
+
+        if not lines:
+            lines = [""]
+
+        line_height = _text_height(
+            draw,
+            "Ag",
+            font,
+        )
+
+        gap = 5
+
+        total_height = (
+            len(lines) * line_height
+            + max(
+                0,
+                len(lines) - 1,
+            )
+            * gap
+        )
+
+        if (
+            len(lines)
+            <= max_lines
+            and total_height
+            <= max_height
+        ):
+
+            return (
+                font,
+                lines,
+                line_height,
+                gap,
+            )
+
+    font = _font(
+        min_size,
+        bold=bold,
+    )
+
+    lines = _wrap_text(
+        draw,
+        text,
+        font,
+        max_width,
+    )
+
+    if not lines:
+        lines = [""]
+
+    if len(lines) > max_lines:
+
+        kept = lines[
+            : max_lines - 1
+        ]
+
+        overflow = " ".join(
+            lines[max_lines - 1 :]
+        )
+
+        kept.append(
+            _truncate_text(
+                draw,
+                overflow,
+                font,
+                max_width,
+            )
+        )
+
+        lines = kept
+
+    line_height = _text_height(
+        draw,
+        "Ag",
+        font,
+    )
+
+    gap = 5
+
+    return (
+        font,
+        lines,
+        line_height,
+        gap,
+    )
+
+
+def _draw_model_side_card(
+    draw: ImageDraw.ImageDraw,
+    *,
+    box,
+    heading: str,
+    team_name: str,
+    spread_text: str,
+    heading_fill: str,
+    value_fill: str,
+) -> None:
+    """
+    Draw one of the two large cards on the x_model graphic.
+
+    Fixes overflow by:
+    - wrapping / shrinking the team name
+    - drawing the spread on its own line
+    """
+
+    x1, y1, x2, y2 = box
+
+    padding_x = 30
+
+    draw.text(
+        (
+            x1 + padding_x,
+            y1 + 27,
+        ),
+        heading,
+        font=_font(
+            20,
+            bold=True,
+        ),
+        fill=heading_fill,
+    )
+
+    content_width = (
+        x2 - x1 - (padding_x * 2)
+    )
+
+    team_font, team_lines, team_line_height, team_gap = _fit_wrapped_block(
+        draw,
+        team_name,
+        max_width=content_width,
+        max_height=72,
+        start_size=34,
+        min_size=20,
+        bold=True,
+        max_lines=2,
+    )
+
+    start_y = y1 + 78
+    current_y = start_y
+
+    for line in team_lines:
+
+        draw.text(
+            (
+                x1 + padding_x,
+                current_y,
+            ),
+            line,
+            font=team_font,
+            fill=value_fill,
+        )
+
+        current_y += (
+            team_line_height
+            + team_gap
+        )
+
+    spread_font = _fit_font_single_line(
+        draw,
+        spread_text,
+        max_width=content_width,
+        start_size=48,
+        min_size=28,
+        bold=True,
+    )
+
+    draw.text(
+        (
+            x1 + padding_x,
+            current_y + 3,
+        ),
+        spread_text,
+        font=spread_font,
+        fill=value_fill,
+    )
 
 
 # --------------------------------------------------------------------------- #
@@ -619,89 +923,52 @@ def build_model_graphic(
     # Model vs market cards
     # ------------------------------------------------------------------
 
-    card_y1 = 185
-    card_y2 = 365
+    left_box = (
+        45,
+        185,
+        575,
+        365,
+    )
 
-    _draw_round_rect(
-        draw,
-        (
-            45,
-            card_y1,
-            575,
-            card_y2,
-        ),
+    right_box = (
+        625,
+        185,
+        1155,
+        365,
     )
 
     _draw_round_rect(
         draw,
-        (
-            625,
-            card_y1,
-            1155,
-            card_y2,
-        ),
+        left_box,
     )
 
-    draw.text(
-        (
-            75,
-            210,
-        ),
-        "MARKET",
-        font=_font(
-            20,
-            bold=True,
-        ),
-        fill=MUTED,
+    _draw_round_rect(
+        draw,
+        right_box,
     )
 
-    draw.text(
-        (
-            655,
-            210,
+    _draw_model_side_card(
+        draw,
+        box=left_box,
+        heading="MARKET",
+        team_name=bet_short,
+        spread_text=_format_line(
+            market_line
         ),
-        "OUR MODEL",
-        font=_font(
-            20,
-            bold=True,
-        ),
-        fill=BTB_GREEN,
+        heading_fill=MUTED,
+        value_fill=WHITE,
     )
 
-    market_text = (
-        f"{bet_short} "
-        f"{_format_line(market_line)}"
-    )
-
-    model_text = (
-        f"{bet_short} "
-        f"{_format_line(model_prediction)}"
-    )
-
-    draw.text(
-        (
-            75,
-            255,
+    _draw_model_side_card(
+        draw,
+        box=right_box,
+        heading="OUR MODEL",
+        team_name=bet_short,
+        spread_text=_format_line(
+            model_prediction
         ),
-        market_text,
-        font=_font(
-            43,
-            bold=True,
-        ),
-        fill=WHITE,
-    )
-
-    draw.text(
-        (
-            655,
-            255,
-        ),
-        model_text,
-        font=_font(
-            43,
-            bold=True,
-        ),
-        fill=BTB_GREEN,
+        heading_fill=BTB_GREEN,
+        value_fill=BTB_GREEN,
     )
 
     model_float = _safe_float(
@@ -840,16 +1107,22 @@ def build_model_graphic(
 
             value_color = WHITE
 
+        value_font = _fit_font_single_line(
+            draw,
+            values[index],
+            max_width=metric_width - 36,
+            start_size=27,
+            min_size=20,
+            bold=True,
+        )
+
         draw.text(
             (
                 x + 18,
                 metric_y1 + 50,
             ),
             values[index],
-            font=_font(
-                27,
-                bold=True,
-            ),
+            font=value_font,
             fill=value_color,
         )
 
@@ -1481,23 +1754,6 @@ def build_seo_metadata(
 ) -> Dict[str, str]:
     """
     Build evidence-based SEO title and description.
-
-    This is deliberately deterministic and grounded in model fields
-    already present in the article.
-
-    It does not invent:
-    - injuries
-    - results
-    - rankings
-    - betting claims
-    - expert labels
-    - guaranteed outcomes
-
-    The goal is to target likely search intent around:
-    - Team A vs Team B prediction
-    - Team A vs Team B analysis
-    - model spread
-    - cover probability
     """
 
     model_text = _format_line(
@@ -1512,20 +1768,10 @@ def build_seo_metadata(
         cover_probability
     )
 
-    # ------------------------------------------------------------------
-    # SEO title
-    #
-    # Keep the matchup first because this is the strongest search intent.
-    # ------------------------------------------------------------------
-
     seo_title = (
         f"{away_short} vs {home_short} "
         f"Prediction, Model Spread & Analysis"
     )
-
-    # ------------------------------------------------------------------
-    # SEO description
-    # ------------------------------------------------------------------
 
     if (
         model_prediction is not None
@@ -1657,10 +1903,6 @@ def generate_social_assets(
         )
     )
 
-    # ------------------------------------------------------------------
-    # Determine logos for stats graphic
-    # ------------------------------------------------------------------
-
     if bet_id == away_id:
 
         bet_logo = away_logo
@@ -1670,10 +1912,6 @@ def generate_social_assets(
 
         bet_logo = home_logo
         opp_logo = away_logo
-
-    # ------------------------------------------------------------------
-    # Output paths
-    # ------------------------------------------------------------------
 
     model_path = (
         output_dir
@@ -1694,10 +1932,6 @@ def generate_social_assets(
         output_dir
         / f"{game_slug}_seo.txt"
     )
-
-    # ------------------------------------------------------------------
-    # Model graphic
-    # ------------------------------------------------------------------
 
     build_model_graphic(
         output_path=model_path,
@@ -1748,10 +1982,6 @@ def generate_social_assets(
         ),
     )
 
-    # ------------------------------------------------------------------
-    # Stats graphic
-    # ------------------------------------------------------------------
-
     build_stats_graphic(
         output_path=stats_path,
         bet_id=bet_id,
@@ -1762,10 +1992,6 @@ def generate_social_assets(
         opp_logo=opp_logo,
         ranked_stats=ranked_stats,
     )
-
-    # ------------------------------------------------------------------
-    # X caption
-    # ------------------------------------------------------------------
 
     caption = build_x_caption(
         away_short=away_short,
@@ -1814,10 +2040,6 @@ def generate_social_assets(
         encoding="utf-8",
     )
 
-    # ------------------------------------------------------------------
-    # SEO title + description
-    # ------------------------------------------------------------------
-
     seo = build_seo_metadata(
         away_short=away_short,
         home_short=home_short,
@@ -1855,10 +2077,6 @@ def generate_social_assets(
         seo_text,
         encoding="utf-8",
     )
-
-    # ------------------------------------------------------------------
-    # Return manifest
-    # ------------------------------------------------------------------
 
     return {
         "x_model_graphic":
