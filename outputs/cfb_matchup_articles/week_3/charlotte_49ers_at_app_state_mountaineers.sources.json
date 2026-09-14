@@ -1,0 +1,27 @@
+{
+  "game": "Charlotte 49ers@App State Mountaineers",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:16.230871+00:00",
+  "model_prediction": 16.0,
+  "market_line": 19.5,
+  "best_line": 19.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.57299484,
+  "edge": 0.0491853161904761,
+  "bet_short": "Charlotte",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf",
+      "No guide found for App State Mountaineers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/App State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

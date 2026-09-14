@@ -1,0 +1,410 @@
+{
+  "game": "Kansas Jayhawks@Arizona State Sun Devils",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:14:22.479563+00:00",
+  "model_prediction": 2.0,
+  "market_line": 5.5,
+  "best_line": 5.5,
+  "best_price": "-105",
+  "best_book": "BetMGM",
+  "cover_probability": 0.57347689,
+  "edge": 0.0612817680487804,
+  "bet_short": "Kansas",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "The market is asking Arizona State to control this game more decisively than our numbers expect. For us, the case for Kansas starts with its ability to create scoring opportunities against an Arizona State defense that has been less effective at preventing them. Kansas lost nine offensive starters from 2025 and named Isaiah Marshall its new starting quarterback, so the transition is real. Still, Marshall completed 14 of 19 passes for 246 yards and two touchdowns in the opener, while the rebuilt offensive line allowed no sacks and only one tackle for loss. We are not treating one result as proof, but it was useful evidence that the new pieces can function together.\n\nThe other side is less comfortable. Our efficiency numbers show Arizona State's passing offense facing a vulnerable Kansas pass defense, and that is the clearest threat to our position. Kansas does have some continuity in the secondary, returning cornerbacks Jalen Todd and Austin Alexander along with safety Taylor Davis, and it allowed its lowest passing-yard average since 2001 last season. We also saw defensive end Leroy Harris III produce four tackles for loss in the opener. That does not erase the coverage concern, but it gives Kansas more ways to disrupt drives than the market price appears to credit.",
+    "matchup_to_watch": "We are watching Arizona State's passing offense against the Kansas secondary. This is where Arizona State has the best chance to create separation, because our current efficiency numbers remain skeptical of Kansas against the pass. The question is whether Arizona State can consistently exploit that weakness before Kansas' returning defensive backs and pass rush disrupt enough possessions. If Kansas can limit explosive completions and force longer drives, the game profile should move toward our view.",
+    "guide_status": [
+      "Found guide for Kansas Jayhawks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas.pdf",
+      "Guide for Kansas Jayhawks was found but may not match the current opponent. The guide is explicitly titled \"Game 2 vs. Missouri\" and was issued for Kansas' Sept. 11, 2026 game against Missouri. It lists Arizona State as Kansas' following opponent on Sept. 19 and includes a limited preview of that matchup.",
+      "No guide found for Arizona State Sun Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona State.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Kansas Jayhawks",
+        "opponent": "Arizona State Sun Devils",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly titled \"Game 2 vs. Missouri\" and was issued for Kansas' Sept. 11, 2026 game against Missouri. It lists Arizona State as Kansas' following opponent on Sept. 19 and includes a limited preview of that matchup.",
+        "recent_game": [
+          {
+            "fact": "Kansas opened the 2026 season with a 51-6 win over Long Island on Sept. 4.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas gained 613 total yards on 76 plays against Long Island, including 277 rushing yards and 336 passing yards.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas held Long Island to 146 total yards, 35 rushing yards on 33 attempts and no touchdowns while recording 11 tackles for loss.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Arizona State opened the 2026 season with a 70-7 win over Morgan State.",
+            "page": 6,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State was scheduled to play at Texas A&M on Sept. 12 before facing Kansas on Sept. 19.",
+            "page": 10,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "The Kansas-Arizona State game is scheduled for Sept. 19, 2026 at Wembley Stadium in London and will serve as both teams' Big 12 opener.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Head coach Lance Leipold named redshirt sophomore Isaiah Marshall Kansas' starting quarterback before the 2026 season.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Marshall completed 14 of 19 passes for 246 yards and two touchdowns and rushed seven times for 49 yards against Long Island.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "The Game 2 depth chart listed Isaiah Marshall first at quarterback, followed by Cole Ballard and Rice transfer Chase Jenkins.",
+            "page": 15,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jenkins joined Kansas after starting all 12 regular-season games for Rice in 2025, when he passed for 1,025 yards and nine touchdowns and rushed for 531 yards and five touchdowns.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Syracuse transfer Yasin Willis rushed 11 times for 72 yards and two touchdowns in his Kansas debut against Long Island.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo transfer Nik McMillan caught six passes for 130 yards and one touchdown in his Kansas debut against Long Island, extending his streak of 100-yard receiving games to seven.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas' Game 2 depth chart listed Dylan Edwards or Yasin Willis at starting running back, with Jalen Dupree behind them.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Colorado State transfer Jalen Dupree scored his first Kansas touchdown and rushed nine times for 35 yards against Long Island.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Cam Pickett tied for Kansas' team lead with 45 receptions in 2025 but did not play in the 2026 opener.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas lost nine offensive starters from 2025, including quarterback Jalon Daniels, running back Daniel Hishaw Jr., center Bryce Foster and offensive tackle Enrique Cruz Jr.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive end Leroy Harris III recorded a career-high four tackles for loss against Long Island after leading Kansas with 4.5 sacks in 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan State transfer David Santiago recorded four tackles, 1.5 tackles for loss, a forced fumble and a fumble recovery against Long Island.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Trey Lathan returned after leading Kansas with 86 tackles in 2025.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas returned 2025 starting cornerbacks Jalen Todd and Austin Alexander, who combined for 22 starts, and safety Taylor Davis, who started 10 games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas added experienced safeties Corey Gordon and Jaden Harris; Gordon started 12 games for Louisville in 2025, while Harris previously started 13 games for Miami in 2024.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Andy Kotelnicki returned to Kansas as associate head coach after spending the previous two seasons at Penn State.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "D.K. McDonald is Kansas' defensive coordinator, while Daryl Agpalsa coaches the offensive line and Taiwo Onatolu coordinates special teams.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Wide receiver Cam Pickett did not play in Kansas' season-opening win over Long Island; the guide did not state a reason or his status for subsequent games.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Kansas produced six plays of at least 20 yards, including three plays of at least 40 yards, against Long Island.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas rushed for five touchdowns against Long Island, with four different players scoring on the ground.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas' offensive line allowed no sacks and only one tackle for loss against Long Island.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas' Game 2 offensive-line depth chart listed Calvin Clements at left tackle, Amir Herring at left guard, Kasen Carpenter at center, Tavake Tuikolovatu at right guard and Nick Morrow at right tackle.",
+            "page": 15,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Clements and Herring were Kansas' two returning offensive-line starters from 2025; Carpenter transferred from Oklahoma State, and Morrow transferred from California.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas had allowed 45 sacks since the start of the 2023 season, the second-fewest among Big 12 teams over that span.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Kansas limited Long Island to 1.1 yards per rushing attempt and 146 total yards in the season opener.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas held opponents to 26.8 points and 387.2 total yards per game in 2025.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas allowed 214.1 passing yards per game in 2025, its lowest season average since 2001.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas averaged 6.3 tackles for loss per game in 2025 and recorded 11 tackles for loss in its 2026 opener.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kansas added kicker Martin Connington from Michigan State, punter Matt Gill from Australia and long snapper Rino Monteforte from California for 2026.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Connington made a 32-yard field goal and all six extra-point attempts against Long Island.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Game 2 depth chart listed Tate Nagy as the primary punt returner and Dylan Edwards as the primary kickoff returner.",
+            "page": 15,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Arizona State leads the all-time series with Kansas 1-0 after winning the teams' first meeting 35-31 in Tempe in 2024.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The Sept. 19 matchup will be Kansas' first international football game and the first Division I college football game played at Wembley Stadium.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Kansas-Arizona State game is scheduled for 11 a.m. Central on Sept. 19 at Wembley Stadium.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Kansas.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Arizona State passing offense vs Kansas pass defense",
+        "off_team": "Arizona State",
+        "def_team": "Kansas",
+        "off_rank": 65,
+        "def_rank": 119,
+        "stat": "pass EPA",
+        "rank_gap": 54,
+        "direction": "mixed",
+        "matchup_score": 54
+      },
+      {
+        "dimension": "Kansas scoring-opportunity creation vs Arizona State scoring-opportunity prevention",
+        "off_team": "Kansas",
+        "def_team": "Arizona State",
+        "off_rank": 41,
+        "def_rank": 68,
+        "stat": "Eckel rate",
+        "rank_gap": 27,
+        "direction": "mixed",
+        "matchup_score": 27
+      },
+      {
+        "dimension": "Arizona State scoring-opportunity creation vs Kansas scoring-opportunity prevention",
+        "off_team": "Arizona State",
+        "def_team": "Kansas",
+        "off_rank": 101,
+        "def_rank": 127,
+        "stat": "Eckel rate",
+        "rank_gap": 26,
+        "direction": "mixed",
+        "matchup_score": 26
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Head coach Lance Leipold named redshirt sophomore Isaiah Marshall Kansas' starting quarterback before the 2026 season.",
+        "page": 4,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 5,
+        "fact": "Marshall completed 14 of 19 passes for 246 yards and two touchdowns and rushed seven times for 49 yards against Long Island.",
+        "page": 4,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 13,
+        "fact": "Kansas lost nine offensive starters from 2025, including quarterback Jalon Daniels, running back Daniel Hishaw Jr., center Bryce Foster and offensive tackle Enrique Cruz Jr.",
+        "page": 5,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 14,
+        "fact": "Defensive end Leroy Harris III recorded a career-high four tackles for loss against Long Island after leading Kansas with 4.5 sacks in 2025.",
+        "page": 5,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 17,
+        "fact": "Kansas returned 2025 starting cornerbacks Jalen Todd and Austin Alexander, who combined for 22 starts, and safety Taylor Davis, who started 10 games.",
+        "page": 6,
+        "category": "defensive_personnel",
+        "importance": "medium",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Kansas' offensive line allowed no sacks and only one tackle for loss against Long Island.",
+        "page": 5,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Kansas allowed 214.1 passing yards per game in 2025, its lowest season average since 2001.",
+        "page": 5,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Kansas Jayhawks",
+      "model_side": "Kansas",
+      "opponent_full": "Arizona State Sun Devils",
+      "opponent": "Arizona State",
+      "model_prediction": 2.0,
+      "market_line": 5.5,
+      "best_available_line": 5.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.57347689,
+      "edge": 0.0612817680487804,
+      "bet_status": "BET"
+    }
+  }
+}

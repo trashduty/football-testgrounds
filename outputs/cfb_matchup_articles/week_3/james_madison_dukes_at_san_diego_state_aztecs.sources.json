@@ -1,0 +1,27 @@
+{
+  "game": "James Madison Dukes@San Diego State Aztecs",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:22.646235+00:00",
+  "model_prediction": -4.5,
+  "market_line": -2.0,
+  "best_line": -1.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.56026918,
+  "edge": 0.0364596561904762,
+  "bet_short": "San Diego State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for James Madison Dukes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/James Madison.pdf",
+      "No guide found for San Diego State Aztecs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Diego State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

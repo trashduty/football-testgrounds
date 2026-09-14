@@ -1,0 +1,27 @@
+{
+  "game": "Marshall Thundering Herd@Missouri State Bears",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:16:19.040309+00:00",
+  "model_prediction": -4.5,
+  "market_line": -4.0,
+  "best_line": -3.5,
+  "best_price": "-102",
+  "best_book": "DraftKings",
+  "cover_probability": 0.49730427,
+  "edge": -0.0076462250495049,
+  "bet_short": "Marshall",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Marshall Thundering Herd. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Marshall.pdf",
+      "No guide found for Missouri State Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

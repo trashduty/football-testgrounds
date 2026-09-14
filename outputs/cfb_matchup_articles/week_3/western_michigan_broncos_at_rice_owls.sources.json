@@ -1,0 +1,27 @@
+{
+  "game": "Western Michigan Broncos@Rice Owls",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:27:46.079663+00:00",
+  "model_prediction": 7.5,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.55774763,
+  "edge": 0.0455525080487805,
+  "bet_short": "Rice",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Western Michigan Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Michigan.pdf",
+      "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Stanford Cardinal@Duke Blue Devils",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:20:43.034797+00:00",
+  "model_prediction": 9.0,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53545615,
+  "edge": 0.0162253807692307,
+  "bet_short": "Stanford",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf",
+      "No guide found for Duke Blue Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Duke.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

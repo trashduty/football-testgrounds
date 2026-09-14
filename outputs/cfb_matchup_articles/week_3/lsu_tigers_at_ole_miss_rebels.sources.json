@@ -1,0 +1,27 @@
+{
+  "game": "LSU Tigers@Ole Miss Rebels",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:16:18.252669+00:00",
+  "model_prediction": 3.0,
+  "market_line": 3.0,
+  "best_line": 3.5,
+  "best_price": "-118",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52662097,
+  "edge": -0.0146634336697247,
+  "bet_short": "Ole Miss",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for LSU Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf",
+      "No guide found for Ole Miss Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

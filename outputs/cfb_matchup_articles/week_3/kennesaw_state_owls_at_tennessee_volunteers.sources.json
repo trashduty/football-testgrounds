@@ -1,0 +1,27 @@
+{
+  "game": "Kennesaw State Owls@Tennessee Volunteers",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:14:23.015143+00:00",
+  "model_prediction": 34.0,
+  "market_line": 35.5,
+  "best_line": 35.5,
+  "best_price": "-112",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52954348,
+  "edge": 0.0012415932075471,
+  "bet_short": "Kennesaw State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Kennesaw State Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kennesaw State.pdf",
+      "No guide found for Tennessee Volunteers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

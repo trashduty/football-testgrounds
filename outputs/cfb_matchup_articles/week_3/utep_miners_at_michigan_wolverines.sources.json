@@ -1,0 +1,27 @@
+{
+  "game": "UTEP Miners@Michigan Wolverines",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:25:21.928111+00:00",
+  "model_prediction": 33.5,
+  "market_line": 35.5,
+  "best_line": 35.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.55029173,
+  "edge": 0.0264822061904761,
+  "bet_short": "UTEP",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UTEP Miners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UTEP.pdf",
+      "No guide found for Michigan Wolverines. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Georgia Southern Eagles@Jacksonville State Gamecocks",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:21.197162+00:00",
+  "model_prediction": -6.0,
+  "market_line": -4.0,
+  "best_line": -3.5,
+  "best_price": "-114",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52308302,
+  "edge": -0.0096272603738317,
+  "bet_short": "Jacksonville Stat",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Georgia Southern Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Southern.pdf",
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "North Texas Mean Green@Texas State Bobcats",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:18:11.929354+00:00",
+  "model_prediction": -1.5,
+  "market_line": 3.0,
+  "best_line": 2.5,
+  "best_price": "114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55877904,
+  "edge": 0.0914893203738317,
+  "bet_short": "North Texas",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for North Texas Mean Green. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf",
+      "No guide found for Texas State Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

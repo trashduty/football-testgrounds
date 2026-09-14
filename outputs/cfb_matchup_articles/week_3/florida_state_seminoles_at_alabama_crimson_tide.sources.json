@@ -1,0 +1,27 @@
+{
+  "game": "Florida State Seminoles@Alabama Crimson Tide",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:19.553862+00:00",
+  "model_prediction": -21.0,
+  "market_line": -20.5,
+  "best_line": -20.5,
+  "best_price": "-106",
+  "best_book": "FanDuel",
+  "cover_probability": 0.49844491,
+  "edge": -0.0161181967961164,
+  "bet_short": "Alabama",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Florida State Seminoles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida State.pdf",
+      "No guide found for Alabama Crimson Tide. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Alabama.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

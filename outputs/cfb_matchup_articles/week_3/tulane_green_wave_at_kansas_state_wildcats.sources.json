@@ -1,0 +1,27 @@
+{
+  "game": "Tulane Green Wave@Kansas State Wildcats",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:25:19.791958+00:00",
+  "model_prediction": -22.5,
+  "market_line": -20.0,
+  "best_line": -19.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.55108361,
+  "edge": 0.0272740861904761,
+  "bet_short": "Kansas State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Tulane Green Wave. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulane.pdf",
+      "No guide found for Kansas State Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

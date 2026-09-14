@@ -1,0 +1,27 @@
+{
+  "game": "BYU Cougars@Colorado State Rams",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:13.908900+00:00",
+  "model_prediction": 13.0,
+  "market_line": 17.5,
+  "best_line": 17.5,
+  "best_price": "-104",
+  "best_book": "FanDuel",
+  "cover_probability": 0.59645521,
+  "edge": 0.0866512884313726,
+  "bet_short": "Colorado State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for BYU Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/BYU.pdf",
+      "No guide found for Colorado State Rams. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Colorado State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

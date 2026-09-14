@@ -1,0 +1,27 @@
+{
+  "game": "Kentucky Wildcats@Texas A&M Aggies",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:16:17.833982+00:00",
+  "model_prediction": -21.5,
+  "market_line": -16.5,
+  "best_line": -16.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.58964174,
+  "edge": 0.0658322161904761,
+  "bet_short": "Texas A&M",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Kentucky Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kentucky.pdf",
+      "No guide found for Texas A&M Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

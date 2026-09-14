@@ -1,0 +1,27 @@
+{
+  "game": "Arkansas State Red Wolves@TCU Horned Frogs",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:13.430001+00:00",
+  "model_prediction": -21.0,
+  "market_line": -20.5,
+  "best_line": -20.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.49844491,
+  "edge": -0.0207858592307692,
+  "bet_short": "TCU",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Arkansas State Red Wolves. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas State.pdf",
+      "No guide found for TCU Horned Frogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/TCU.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

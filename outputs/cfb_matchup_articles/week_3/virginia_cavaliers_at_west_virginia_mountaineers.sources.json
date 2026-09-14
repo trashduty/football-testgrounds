@@ -1,0 +1,27 @@
+{
+  "game": "Virginia Cavaliers@West Virginia Mountaineers",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:27:44.700144+00:00",
+  "model_prediction": -12.0,
+  "market_line": -10.0,
+  "best_line": -9.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52112828,
+  "edge": -0.0137554409302325,
+  "bet_short": "Virginia",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Virginia Cavaliers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia.pdf",
+      "No guide found for West Virginia Mountaineers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/West Virginia.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

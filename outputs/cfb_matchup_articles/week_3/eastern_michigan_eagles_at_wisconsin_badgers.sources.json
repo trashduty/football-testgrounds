@@ -1,0 +1,27 @@
+{
+  "game": "Eastern Michigan Eagles@Wisconsin Badgers",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:18.099356+00:00",
+  "model_prediction": 21.5,
+  "market_line": 24.0,
+  "best_line": 23.5,
+  "best_price": "-106",
+  "best_book": "FanDuel",
+  "cover_probability": 0.54904178,
+  "edge": 0.0344786732038835,
+  "bet_short": "Eastern Michigan",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Eastern Michigan Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Eastern Michigan.pdf",
+      "No guide found for Wisconsin Badgers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wisconsin.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

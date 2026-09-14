@@ -1,0 +1,27 @@
+{
+  "game": "UAB Blazers@Louisiana Ragin Cajuns",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:25:20.416960+00:00",
+  "model_prediction": 6.0,
+  "market_line": 7.5,
+  "best_line": 8.5,
+  "best_price": "-112",
+  "best_book": "BetRivers",
+  "cover_probability": 0.57430232,
+  "edge": 0.0460004332075472,
+  "bet_short": "UAB",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UAB Blazers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UAB.pdf",
+      "No guide found for Louisiana Ragin Cajuns. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

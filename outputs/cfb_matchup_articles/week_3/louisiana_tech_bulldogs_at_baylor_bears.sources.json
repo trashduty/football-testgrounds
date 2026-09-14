@@ -1,0 +1,27 @@
+{
+  "game": "Louisiana Tech Bulldogs@Baylor Bears",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:16:18.649180+00:00",
+  "model_prediction": 17.0,
+  "market_line": 17.5,
+  "best_line": 17.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.52610932,
+  "edge": 0.0022997961904761,
+  "bet_short": "Louisiana Tech",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Louisiana Tech Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana Tech.pdf",
+      "No guide found for Baylor Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Baylor.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

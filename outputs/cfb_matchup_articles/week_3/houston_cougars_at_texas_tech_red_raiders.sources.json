@@ -1,0 +1,27 @@
+{
+  "game": "Houston Cougars@Texas Tech Red Raiders",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:22.235522+00:00",
+  "model_prediction": 7.5,
+  "market_line": 8.0,
+  "best_line": 8.5,
+  "best_price": "-114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.54853692,
+  "edge": 0.0158266396261682,
+  "bet_short": "Houston",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Houston Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Houston.pdf",
+      "No guide found for Texas Tech Red Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas Tech.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

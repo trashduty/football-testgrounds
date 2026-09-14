@@ -1,0 +1,27 @@
+{
+  "game": "Virginia Tech Hokies@Maryland Terrapins",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:27:45.164233+00:00",
+  "model_prediction": -0.5,
+  "market_line": 3.0,
+  "best_line": 3.5,
+  "best_price": "-118",
+  "best_book": "BetRivers",
+  "cover_probability": 0.58595619,
+  "edge": 0.0446717863302752,
+  "bet_short": "Maryland",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Virginia Tech Hokies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf",
+      "No guide found for Maryland Terrapins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Maryland.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

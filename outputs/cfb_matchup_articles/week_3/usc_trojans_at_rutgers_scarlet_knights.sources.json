@@ -1,0 +1,27 @@
+{
+  "game": "USC Trojans@Rutgers Scarlet Knights",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:25:21.492659+00:00",
+  "model_prediction": -26.5,
+  "market_line": -24.5,
+  "best_line": -24.5,
+  "best_price": "-109",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52589796,
+  "edge": 0.0043668595215311,
+  "bet_short": "USC",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for USC Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
+      "No guide found for Rutgers Scarlet Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rutgers.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

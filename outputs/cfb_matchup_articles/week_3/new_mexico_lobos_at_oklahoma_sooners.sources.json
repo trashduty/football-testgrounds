@@ -1,0 +1,27 @@
+{
+  "game": "New Mexico Lobos@Oklahoma Sooners",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:18:10.441742+00:00",
+  "model_prediction": -23.5,
+  "market_line": -22.5,
+  "best_line": -22.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.50954685,
+  "edge": -0.0142626738095238,
+  "bet_short": "Oklahoma",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for New Mexico Lobos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico.pdf",
+      "No guide found for Oklahoma Sooners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oklahoma.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

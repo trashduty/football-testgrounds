@@ -1,0 +1,27 @@
+{
+  "game": "Temple Owls@Toledo Rockets",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:22:58.299087+00:00",
+  "model_prediction": -7.0,
+  "market_line": -5.5,
+  "best_line": -5.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.50970984,
+  "edge": -0.0140996838095238,
+  "bet_short": "Toledo",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Temple Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf",
+      "No guide found for Toledo Rockets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Toledo.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

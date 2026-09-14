@@ -1,0 +1,9 @@
+Our model is 2 points away from the market on Nevada-Middle Tennessee.
+
+We make Middle Tennessee +4. The market is +6.
+
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
+
+We broke down why our model differs and what would matter most in the matchup.
+
+Full breakdown ↓

@@ -1,0 +1,27 @@
+{
+  "game": "Northern Illinois Huskies@Arizona Wildcats",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:18:12.542041+00:00",
+  "model_prediction": 31.5,
+  "market_line": 34.5,
+  "best_line": 34.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.57073474,
+  "edge": 0.0469252161904761,
+  "bet_short": "Northern Illinois",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Northern Illinois Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Northern Illinois.pdf",
+      "No guide found for Arizona Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

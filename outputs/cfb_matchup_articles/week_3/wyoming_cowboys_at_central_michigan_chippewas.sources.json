@@ -1,0 +1,27 @@
+{
+  "game": "Wyoming Cowboys@Central Michigan Chippewas",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:27:46.503864+00:00",
+  "model_prediction": -1.5,
+  "market_line": -1.5,
+  "best_line": -1.0,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.50096124,
+  "edge": -0.0228482838095238,
+  "bet_short": "Central Michigan",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Wyoming Cowboys. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wyoming.pdf",
+      "No guide found for Central Michigan Chippewas. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Central Michigan.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

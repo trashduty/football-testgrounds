@@ -1,0 +1,27 @@
+{
+  "game": "Fresno State Bulldogs@San Jose State Spartans",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:20.080424+00:00",
+  "model_prediction": 6.5,
+  "market_line": 6.5,
+  "best_line": 6.5,
+  "best_price": "-102",
+  "best_book": "DraftKings",
+  "cover_probability": 0.51273233,
+  "edge": 0.007781834950495,
+  "bet_short": "San Jose State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Fresno State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Fresno State.pdf",
+      "No guide found for San Jose State Spartans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Jose State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

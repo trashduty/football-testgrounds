@@ -1,0 +1,330 @@
+{
+  "game": "UTSA Roadrunners@Texas Longhorns",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:27:43.909810+00:00",
+  "model_prediction": 30.5,
+  "market_line": 30.0,
+  "best_line": 30.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50180324,
+  "edge": -0.0220062838095238,
+  "bet_short": "UT San Antonio",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case for UT San Antonio is less about containing Texas completely and more about whether it can score often enough to stay within the market\u2019s margin. Our efficiency numbers give UT San Antonio\u2019s passing game a plausible route against a Texas pass defense that has been less convincing than the overall team profile. That potential resistance is what keeps our view close to the market rather than fully endorsing a Texas runaway.\n\nThe concern is obvious: Texas produced 516 yards at 7.0 yards per play in its opener, while Arch Manning threw for 305 yards and four touchdowns. With four starters back on the offensive line, we see more than one-game explosiveness supporting the favorite\u2019s offensive ceiling. Still, the market already demands substantial separation, and our limited disagreement is not enough to justify taking UT San Antonio at the available price.",
+    "matchup_to_watch": "We are watching UT San Antonio\u2019s passing offense against the Texas pass defense. If UT San Antonio can create sustained offense through the air, it has the clearest path to making the margin uncomfortable for Texas.\n\nThe challenge is avoiding drive-ending negative plays. Texas recorded at least 40 sacks and 15 interceptions in each of the past two seasons, and it has forced a turnover in 24 consecutive home games. That does not guarantee another disruptive performance, but it explains why the passing matchup offers both the best argument for UT San Antonio and the biggest threat to that argument.",
+    "guide_status": [
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf",
+      "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
+      "Guide for Texas Longhorns was found but may not match the current opponent. The guide is explicitly Texas' Game 2 notes for the Sept. 12, 2026 matchup against Ohio State, not the Week 3 matchup against UTSA. It contains limited current Texas information and brief references to the upcoming UTSA series."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Texas Longhorns",
+        "opponent": "UTSA Roadrunners",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly Texas' Game 2 notes for the Sept. 12, 2026 matchup against Ohio State, not the Week 3 matchup against UTSA. It contains limited current Texas information and brief references to the upcoming UTSA series.",
+        "recent_game": [
+          {
+            "fact": "Texas opened the 2026 season with a 59-7 home win over Texas State on Sept. 5.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas produced 516 total yards and averaged 7.0 yards per play against Texas State.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas forced three turnovers\u2014two fumbles and one interception\u2014against Texas State.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "The 2026 game will be the third meeting between Texas and UTSA, and all three meetings have been scheduled in Austin.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Senior quarterback Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns in the 2026 opener against Texas State.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Manning is 13-3 as a starter and 9-0 as a starter at DKR-Texas Memorial Stadium.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "In 13 starts during 2025, Manning completed 248 of 404 passes for 3,163 yards and 26 touchdowns while adding 399 rushing yards and a team-high 10 rushing touchdowns.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Against UTSA in 2024, Manning accounted for five touchdowns\u2014four passing and one rushing\u2014and produced a 75-yard touchdown pass to Ryan Wingo and a 67-yard touchdown run.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running backs Raleek Brown and Hollywood Smothers transferred to Texas in spring 2026 from Arizona State and NC State, respectively.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Smothers recorded 72 rushing yards on 10 attempts and added three receptions for 28 yards and a touchdown against Texas State.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown had 11 carries for 34 yards and two touchdowns plus one reception for 11 yards in his Texas debut.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ryan Wingo caught seven passes for 121 yards and one touchdown in the opener; he led Texas in receptions, receiving yards and receiving touchdowns in 2025.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn transfer Cam Coleman made his Texas debut with three receptions for 70 yards and two touchdowns against Texas State.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas returns 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas added offensive linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski through the transfer portal; the listed offensive-line group entered 2026 with 226 combined games played and 114 starts.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas added tight end Michael Masunas from Michigan State; he played in all 12 games with eight starts and recorded 19 catches for 232 yards and three touchdowns in 2025.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "EDGE Colin Simmons returned after leading Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures, three forced fumbles and one fumble recovery.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons recorded one tackle, a half tackle for loss, one quarterback hurry and one fumble recovery against Texas State.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive back Jelani McDonald recorded eight tackles, including seven solo tackles and one tackle for loss, in the opener.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Rasheem Biles, a 2026 transfer from Pitt, recorded one interception and one forced fumble in the season opener.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Texas rushed for 156 yards and three touchdowns against Texas State.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas did not punt against Texas State, its first game without a punt since the 2023 game against Kansas.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Texas has forced a turnover in 24 consecutive home games and in 36 of its last 37 games.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas has generated 57 takeaways since the start of the 2024 season.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas recorded at least 40 sacks and 15 interceptions in both 2024 and 2025.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Texas did not attempt a punt in its 59-7 season-opening win over Texas State.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Texas won the first two meetings with UTSA, 41-20 in 2022 and 56-7 in 2024.",
+            "page": 5,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Thirty-three players made their Texas debuts in the season-opening win over Texas State.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas added 22 transfers for the 2026 season.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas has won 21 consecutive home games against unranked opponents and is 21-1 in its last 22 games at DKR-Texas Memorial Stadium.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Texas.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Texas passing offense vs UT San Antonio pass defense",
+        "off_team": "Texas",
+        "def_team": "UT San Antonio",
+        "off_rank": 38,
+        "def_rank": 104,
+        "stat": "pass EPA",
+        "rank_gap": 66,
+        "direction": "mixed",
+        "matchup_score": 66
+      },
+      {
+        "dimension": "UT San Antonio passing offense vs Texas pass defense",
+        "off_team": "UT San Antonio",
+        "def_team": "Texas",
+        "off_rank": 48,
+        "def_rank": 110,
+        "stat": "pass EPA",
+        "rank_gap": 62,
+        "direction": "mixed",
+        "matchup_score": 62
+      },
+      {
+        "dimension": "Texas scoring-opportunity creation vs UT San Antonio scoring-opportunity prevention",
+        "off_team": "Texas",
+        "def_team": "UT San Antonio",
+        "off_rank": 81,
+        "def_rank": 51,
+        "stat": "Eckel rate",
+        "rank_gap": 30,
+        "direction": "mixed",
+        "matchup_score": 30
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Texas produced 516 total yards and averaged 7.0 yards per play against Texas State.",
+        "page": 12,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 4,
+        "fact": "Senior quarterback Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns in the 2026 opener against Texas State.",
+        "page": 6,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 13,
+        "fact": "Texas returns 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
+        "page": 12,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 22,
+        "fact": "Texas has forced a turnover in 24 consecutive home games and in 36 of its last 37 games.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Texas recorded at least 40 sacks and 15 interceptions in both 2024 and 2025.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "UTSA Roadrunners",
+      "model_side": "UT San Antonio",
+      "opponent_full": "Texas Longhorns",
+      "opponent": "Texas",
+      "model_prediction": 30.5,
+      "market_line": 30.0,
+      "best_available_line": 30.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.50180324,
+      "edge": -0.0220062838095238,
+      "bet_status": "PASS"
+    }
+  }
+}

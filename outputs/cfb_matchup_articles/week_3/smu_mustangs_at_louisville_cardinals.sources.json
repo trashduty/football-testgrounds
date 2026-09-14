@@ -1,0 +1,27 @@
+{
+  "game": "SMU Mustangs@Louisville Cardinals",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:20:42.497477+00:00",
+  "model_prediction": -3.0,
+  "market_line": -2.0,
+  "best_line": -1.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52530947,
+  "edge": 0.0060787007692306,
+  "bet_short": "Louisville",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for SMU Mustangs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/SMU.pdf",
+      "No guide found for Louisville Cardinals. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisville.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

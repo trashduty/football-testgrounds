@@ -1,0 +1,27 @@
+{
+  "game": "Coastal Carolina Chanticleers@Delaware Blue Hens",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:16.741233+00:00",
+  "model_prediction": 6.0,
+  "market_line": 5.0,
+  "best_line": 5.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50505162,
+  "edge": -0.0187579038095238,
+  "bet_short": "Coastal Carolina",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Coastal Carolina Chanticleers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Coastal Carolina.pdf",
+      "No guide found for Delaware Blue Hens. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Delaware.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

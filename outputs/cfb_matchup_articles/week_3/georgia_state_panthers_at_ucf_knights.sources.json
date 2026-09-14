@@ -1,0 +1,27 @@
+{
+  "game": "Georgia State Panthers@UCF Knights",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:21.719336+00:00",
+  "model_prediction": 20.5,
+  "market_line": 20.5,
+  "best_line": 20.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50846256,
+  "edge": -0.0153469638095238,
+  "bet_short": "Georgia State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Georgia State Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia State.pdf",
+      "No guide found for UCF Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCF.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

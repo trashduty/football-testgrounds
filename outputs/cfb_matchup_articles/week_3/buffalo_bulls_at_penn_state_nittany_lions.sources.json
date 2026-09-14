@@ -1,0 +1,27 @@
+{
+  "game": "Buffalo Bulls@Penn State Nittany Lions",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:15.471598+00:00",
+  "model_prediction": 38.0,
+  "market_line": 39.5,
+  "best_line": 39.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.53793621,
+  "edge": 0.0141266861904761,
+  "bet_short": "Buffalo",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Buffalo Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Buffalo.pdf",
+      "No guide found for Penn State Nittany Lions. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Penn State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

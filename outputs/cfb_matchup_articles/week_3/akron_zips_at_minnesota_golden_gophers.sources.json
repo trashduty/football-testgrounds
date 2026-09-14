@@ -1,0 +1,27 @@
+{
+  "game": "Akron Zips@Minnesota Golden Gophers",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:12:12.752760+00:00",
+  "model_prediction": 23.0,
+  "market_line": 24.5,
+  "best_line": 25.5,
+  "best_price": "-112",
+  "best_book": "BetRivers",
+  "cover_probability": 0.55729436,
+  "edge": 0.0289924732075471,
+  "bet_short": "Akron",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Akron Zips. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Akron.pdf",
+      "No guide found for Minnesota Golden Gophers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Minnesota.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

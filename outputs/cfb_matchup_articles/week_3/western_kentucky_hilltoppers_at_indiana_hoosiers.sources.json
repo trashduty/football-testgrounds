@@ -1,0 +1,27 @@
+{
+  "game": "Western Kentucky Hilltoppers@Indiana Hoosiers",
+  "season": 2026,
+  "week": 3,
+  "generated_at_utc": "2026-09-14T13:27:45.686770+00:00",
+  "model_prediction": 44.0,
+  "market_line": 44.5,
+  "best_line": 44.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.5108301,
+  "edge": -0.0013650219512195,
+  "bet_short": "Western Kentucky",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Western Kentucky Hilltoppers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Kentucky.pdf",
+      "No guide found for Indiana Hoosiers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Indiana.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
