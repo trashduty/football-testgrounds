@@ -1516,11 +1516,12 @@ function getMovers() {
     currentData.filter(
       row =>
         Number.isFinite(
-          Number(row.power_change)
-        ) &&
-        Number.isFinite(
           Number(row.rank_change)
         ) &&
+        Number.isFinite(
+          Number(row.power_rank)
+        ) &&
+        Number(row.rank_change) !== 0 &&
         Number(row.week) > 0
     );
 
@@ -1529,12 +1530,19 @@ function getMovers() {
     [...valid]
       .filter(
         row =>
-          Number(row.power_change) > 0
+          Number(row.rank_change) > 0
       )
       .sort(
-        (a, b) =>
-          Number(b.power_change) -
-          Number(a.power_change)
+        (a, b) => {
+          const movementDifference =
+            Number(b.rank_change) -
+            Number(a.rank_change);
+
+          return movementDifference !== 0
+            ? movementDifference
+            : Number(a.power_rank) -
+              Number(b.power_rank);
+        }
       );
 
 
@@ -1542,12 +1550,19 @@ function getMovers() {
     [...valid]
       .filter(
         row =>
-          Number(row.power_change) < 0
+          Number(row.rank_change) < 0
       )
       .sort(
-        (a, b) =>
-          Number(a.power_change) -
-          Number(b.power_change)
+        (a, b) => {
+          const movementDifference =
+            Number(a.rank_change) -
+            Number(b.rank_change);
+
+          return movementDifference !== 0
+            ? movementDifference
+            : Number(a.power_rank) -
+              Number(b.power_rank);
+        }
       );
 
 
@@ -1564,16 +1579,14 @@ function moverRowHtml(
   listRank
 ) {
 
-  const ratingChange =
-    Number(row.power_change);
-
   const rankChange =
     Number(row.rank_change);
 
-  const ratingClass =
-    ratingChange >= 0
-      ? "positive"
-      : "negative";
+  const currentRank =
+    Number(row.power_rank);
+
+  const previousRank =
+    currentRank + rankChange;
 
   const rankClass =
     rankChange >= 0
@@ -1610,7 +1623,9 @@ function moverRowHtml(
 
           `
           <div class="mover-logo-placeholder">
-            ${escapeHtml(String(row.team || "?").slice(0, 1))}
+            ${escapeHtml(
+              String(row.team || "?").slice(0, 1)
+            )}
           </div>
           `
         }
@@ -1637,14 +1652,12 @@ function moverRowHtml(
 
       <div class="mover-stat-block">
 
-        <div
-          class="mover-primary-change ${ratingClass}"
-        >
-          ${signed(ratingChange)}
+        <div class="mover-primary-change">
+          #${previousRank}
         </div>
 
         <div class="mover-stat-label">
-          BTB pts
+          previous
         </div>
 
       </div>
@@ -1660,7 +1673,11 @@ function moverRowHtml(
         </div>
 
         <div class="mover-stat-label">
-          rank
+          ${
+            Math.abs(rankChange) === 1
+              ? "rank"
+              : "ranks"
+          }
         </div>
 
       </div>
@@ -2195,11 +2212,14 @@ function exportMoverRowHtml(
   type
 ) {
 
-  const ratingChange =
-    Number(row.power_change);
-
   const rankChange =
     Number(row.rank_change);
+
+  const currentRank =
+    Number(row.power_rank);
+
+  const previousRank =
+    currentRank + rankChange;
 
   const changeClass =
     type === "riser"
@@ -2216,7 +2236,9 @@ function exportMoverRowHtml(
 
     <div class="export-mover-row">
 
-      <div class="export-mover-rank ${rankBackgroundClass}">
+      <div
+        class="export-mover-rank ${rankBackgroundClass}"
+      >
         ${listRank}
       </div>
 
@@ -2241,7 +2263,9 @@ function exportMoverRowHtml(
 
           `
           <div class="export-mover-logo-fallback">
-            ${escapeHtml(String(row.team || "?").slice(0, 3))}
+            ${escapeHtml(
+              String(row.team || "?").slice(0, 3)
+            )}
           </div>
           `
         }
@@ -2269,17 +2293,19 @@ function exportMoverRowHtml(
       <div class="export-mover-stat">
 
         <div class="${changeClass}">
-          ${signed(ratingChange)}
+          #${previousRank}
         </div>
 
         <span>
-          BTB pts
+          previous
         </span>
 
       </div>
 
 
-      <div class="export-mover-stat export-mover-rank-stat">
+      <div
+        class="export-mover-stat export-mover-rank-stat"
+      >
 
         <div class="${changeClass}">
           ${movementArrow(rankChange)}
@@ -2287,7 +2313,11 @@ function exportMoverRowHtml(
         </div>
 
         <span>
-          rank
+          ${
+            Math.abs(rankChange) === 1
+              ? "rank"
+              : "ranks"
+          }
         </span>
 
       </div>
