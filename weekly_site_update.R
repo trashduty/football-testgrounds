@@ -668,7 +668,10 @@ make_ranked_card_png <- function(
     title,
     subtitle,
     primary_col,
+    sort_col = NULL,
+    primary_prefix = "",
     primary_suffix = "",
+    show_primary_plus = TRUE,
     secondary_builder = NULL,
     top_n = 10,
     direction = c("desc", "asc"),
@@ -681,6 +684,13 @@ make_ranked_card_png <- function(
     match.arg(
       direction
     )
+
+
+  if (is.null(sort_col)) {
+
+    sort_col <- primary_col
+
+  }
 
 
   if (!requireNamespace("ggplot2", quietly = TRUE)) {
@@ -720,11 +730,24 @@ make_ranked_card_png <- function(
   }
 
 
+  if (!sort_col %in% names(df)) {
+
+    msg(
+      "Skipping ranked graphic %s: missing sort column %s.",
+      out_path,
+      sort_col
+    )
+
+    return(invisible(NULL))
+
+  }
+
+
   rows <- df %>%
     filter(
       is.finite(
         as.numeric(
-          .data[[primary_col]]
+          .data[[sort_col]]
         )
       )
     )
@@ -743,7 +766,7 @@ make_ranked_card_png <- function(
 
     rows <- rows %>%
       arrange(
-        .data[[primary_col]]
+        .data[[sort_col]]
       )
 
   }
@@ -786,8 +809,10 @@ make_ranked_card_png <- function(
 
       primary_text =
         paste0(
+          primary_prefix,
+
           ifelse(
-            primary_value > 0,
+            show_primary_plus & primary_value > 0,
             "+",
             ""
           ),
@@ -1213,12 +1238,9 @@ write_ranked_exports <- function(
 
 
     paste0(
-      "#",
-      as.integer(
-        df$power_rank
-      ),
-
-      " overall  |  ",
+      "Current #",
+      as.integer(df$power_rank),
+      "  |  ",
 
       ifelse(
         rank_move > 0,
@@ -1299,23 +1321,43 @@ write_ranked_exports <- function(
     filter(
       is.finite(
         as.numeric(
-          power_change
+          rank_change
         )
       ),
 
-      week > 0
+      is.finite(
+        as.numeric(
+          power_rank
+        )
+      ),
+
+      week > 0,
+      rank_change != 0
+    ) %>%
+    mutate(
+      previous_rank =
+        as.integer(power_rank) +
+        as.integer(rank_change)
     )
 
 
   risers <- mover_rows %>%
     filter(
-      power_change > 0
+      rank_change > 0
+    ) %>%
+    arrange(
+      desc(rank_change),
+      power_rank
     )
 
 
   fallers <- mover_rows %>%
     filter(
-      power_change < 0
+      rank_change < 0
+    ) %>%
+    arrange(
+      rank_change,
+      power_rank
     )
 
 
@@ -1335,10 +1377,19 @@ write_ranked_exports <- function(
     "BIGGEST RISERS",
 
     primary_col =
-      "power_change",
+      "previous_rank",
+
+    sort_col =
+      "rank_change",
+
+    primary_prefix =
+      "#",
 
     primary_suffix =
-      " BTB pts",
+      " previous",
+
+    show_primary_plus =
+      FALSE,
 
     secondary_builder =
       mover_secondary,
@@ -1350,7 +1401,7 @@ write_ranked_exports <- function(
       "desc",
 
     digits =
-      1,
+      0,
 
     accent_color =
       BRAND_GREEN,
@@ -1376,10 +1427,19 @@ write_ranked_exports <- function(
     "BIGGEST FALLERS",
 
     primary_col =
-      "power_change",
+      "previous_rank",
+
+    sort_col =
+      "rank_change",
+
+    primary_prefix =
+      "#",
 
     primary_suffix =
-      " BTB pts",
+      " previous",
+
+    show_primary_plus =
+      FALSE,
 
     secondary_builder =
       mover_secondary,
@@ -1391,7 +1451,7 @@ write_ranked_exports <- function(
       "asc",
 
     digits =
-      1,
+      0,
 
     accent_color =
       BRAND_RED,
