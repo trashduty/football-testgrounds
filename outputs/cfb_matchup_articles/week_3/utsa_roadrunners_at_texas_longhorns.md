@@ -15,9 +15,11 @@ The UTSA Roadrunners visit the Texas Longhorns at DKR-Texas Memorial Stadium. We
 
 The best number we found is Texas -30.5 at -105. We see a -2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the strongest case for Texas comes through the air. Our longer-run numbers show a substantial advantage for the Texas passing offense against UT San Antonio’s pass defense. The opener illustrated that ceiling: Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns, while Ryan Wingo added 121 receiving yards and a score. We are not treating one performance as proof, but the combination of quarterback production and four returning offensive-line starters supports the underlying matchup advantage.
+Our model and the market have essentially the same overall expectation, so the question is not whether Texas is the stronger team. The question is whether there is enough reason to challenge a price that already assumes substantial separation. Texas opened with 516 yards at 7.0 yards per play, while Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns. We view that as evidence of the offense’s ceiling, not proof that Texas will cover a large number every week.
 
-The question is whether that advantage produces enough separation. Our numbers give UT San Antonio’s passing offense a plausible path to move the ball against a Texas pass defense that has not graded as strongly as the rest of the team. Texas forced three turnovers in its opener and has created at least one takeaway in 24 consecutive home games, but turnover production does not erase the potential for UT San Antonio to sustain some drives. With our model and the market expressing essentially the same expectation, we do not see enough pricing room to take a side.
+The clearest advantage in our numbers is Texas throwing against UT San Antonio’s pass defense. Ryan Wingo’s 121-yard opener and Cam Coleman’s two-touchdown debut show the receiving options available to Manning, while four returning offensive-line starters provide continuity up front. The concern for us is that our efficiency inputs also give UT San Antonio’s passing game a plausible path to productive possessions against a Texas pass defense that grades less favorably. That matters when the margin is large, because a few late scores can decide the cover even if Texas controls the game.
+
+For us, the market is already pricing the most obvious mismatch. Our baseline does not create enough separation from that expectation, and the potential for UT San Antonio to move the ball through the air adds variance around a demanding margin. We pass rather than pay for a Texas advantage that is already fully reflected.
 
 ### What The Numbers Say
 
@@ -69,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Texas’ passing game against the UT San Antonio secondary. Texas generated 516 total yards at 7.0 yards per play in the opener, and Manning’s connection with Wingo showed how quickly this offense can create explosive production. That matters because our matchup numbers identify this as Texas’ clearest advantage, but the betting question is not simply whether Texas moves the ball—it is whether that success translates into consistent margin throughout the game.
+We are watching Manning and Texas’s receivers against the UT San Antonio secondary. Wingo caught seven passes for 121 yards and a touchdown in the opener, while Coleman turned three receptions into 70 yards and two scores. Our numbers indicate this is where Texas is most likely to create the explosive plays needed for separation.
+
+The key for our view is whether that passing advantage produces repeated touchdowns rather than merely efficient offense. If Texas consistently converts through the air, the favorite can create margin quickly; if those possessions stall, UT San Antonio’s own passing profile becomes more relevant to the cover.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

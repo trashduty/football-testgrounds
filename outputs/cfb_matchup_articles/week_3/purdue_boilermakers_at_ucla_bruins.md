@@ -15,9 +15,9 @@ The Purdue Boilermakers visit the UCLA Bruins at Rose Bowl. We make **Purdue +12
 
 The best number we found is Purdue +14.0 at -109. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our disagreement with the market is modest, but it starts with Purdue having more offensive stability than the size of the spread may suggest. Ryan Browne started every game last season, then opened 2026 by completing 23 of 29 passes for 317 yards, three touchdowns and no interceptions. We are not treating one performance against Indiana State as proof, but experienced quarterback play gives Purdue a plausible path to sustain drives and avoid the game getting away early.
+We are not treating Purdue's 44-19 opener against Indiana State as proof that its offense has taken a major step forward. The more useful takeaway for us is that returning quarterback Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns. That continuity matters, although we remain mindful that all five offensive linemen made their first Purdue starts in the opener.
 
-The concern for us is how much remains untested. Purdue had 38 players make their team debuts in the opener, including 16 first-time Purdue starters, and this will be its first true road game of the season. Our numbers also identify UCLA's rushing offense against Purdue's run defense as a potential source of separation. That combination keeps us from treating our model's smaller expected margin as meaningful enough at the current price.
+Our numbers also show potential openings for both offenses. Purdue's rushing attack faces a vulnerable UCLA run defense, but UCLA has the clearer opportunity to stress Purdue on the ground and consistently create scoring chances. That makes it difficult for us to turn a modest disagreement with the market into a position. We can see a path for Purdue to remain competitive, but the available price does not give us enough value to move beyond a pass.
 
 ### What The Numbers Say
 
@@ -69,13 +69,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Purdue's rushing offense against UCLA's run defense. Our efficiency numbers see UCLA as vulnerable on the ground, which could help Purdue stay on schedule, shorten the game and reduce UCLA's opportunities to create margin. Purdue rushed for 177 yards in the opener, while transfer Fame Ijeboi produced 87 yards and a touchdown on 11 carries in his debut.
+We will be watching Purdue's rushing offense against UCLA's run defense. Fame Ijeboi produced 87 yards and a touchdown on 11 carries in his Purdue debut, giving the rebuilt offense an encouraging first result. The question for us is whether that production carries over behind a line with five new starters against a defense our numbers believe can be challenged on the ground.
 
-The useful question is whether that production carries into a much different setting. If Purdue can run efficiently, our view of a more competitive game makes sense. If UCLA forces Browne and a heavily reworked supporting cast into obvious passing situations, the market's expectation becomes easier to justify.
+If Purdue can run efficiently, we think it can reduce the burden on Browne and make it harder for UCLA to create separation. If that ground game stalls, Purdue becomes more dependent on its passing attack while UCLA owns the more favorable offensive matchups.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

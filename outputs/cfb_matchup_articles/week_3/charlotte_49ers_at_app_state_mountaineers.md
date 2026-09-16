@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Charlotte 49ers | +18.5 (-109) | BetRivers | 58.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Charlotte 49ers | +17.5 (-110) | BetMGM | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | App State Mountaineers | -17.5 (-108) | BetMGM | 43.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Charlotte 49ers visit the App State Mountaineers at Kidd Brewer Stadium. We make **Charlotte +14.5**, compared with a market line of +17.5.
 
-The best number we found is Charlotte +18.5 at -109. We give Charlotte a 58.5% chance to cover, which creates an 6.3% edge for us. That clears our 3% threshold, so Charlotte is a bet.
+The best number we found is Charlotte +17.5 at -110. We give Charlotte a 57.0% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Charlotte is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

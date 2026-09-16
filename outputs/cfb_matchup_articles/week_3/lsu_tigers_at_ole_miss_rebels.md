@@ -6,20 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| LSU Tigers | -3.5 (+100) | FanDuel | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ole Miss Rebels | +3.5 (-122) | FanDuel | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| LSU Tigers | -2.5 (-122) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ole Miss Rebels | +2.5 (+100) | FanDuel | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The LSU Tigers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **Ole Miss +3**, compared with a market line of +3.
 
-The best number we found is Ole Miss +3.5 at -122. We see a -2.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ole Miss +2.5 at +100. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not reacting too strongly to LSU averaging 586 yards and 48 points through two games. Those box scores are impressive context, but our efficiency numbers remain less convinced by the passing game, and Sam Leavitt has already thrown four interceptions. Ole Miss has also graded better at preventing scoring opportunities than LSU has at creating them, which could make sustained drives harder to find than the early raw production suggests.
+For us, the case for Ole Miss starts with LSU’s offensive efficiency looking less convincing than its early scoring totals. Our numbers rate LSU poorly in pass EPA and below average at creating scoring opportunities, while Ole Miss has been much stronger at preventing those opportunities. We also see turnover risk in Sam Leavitt’s four interceptions through two games, although his 135 rushing yards and five rushing touchdowns give LSU another way to sustain drives when the passing game stalls.
 
-The counterweight is LSU’s defense, particularly against the run. LSU allowed only 18 rushing yards per game through two weeks, and our numbers view that front as a difficult matchup for an Ole Miss rushing attack that has been solid rather than dominant. Ole Miss can answer through Trinidad Chambliss, who has five touchdown passes against one interception, but the offense may need to lean heavily on him.
-
-For us, those competing matchup advantages support a close game rather than meaningful separation from the market. We can make a football case for Ole Miss, but the current price does not provide enough value to move us off the pass.
+The counterweight is LSU’s defense, particularly against the run. Our numbers view Ole Miss’ rushing offense as solid, but LSU’s rush defense as one of the strongest units in the matchup; opponents have converted only 4 of 27 third downs against LSU through two games. We treat that early production as context rather than proof, but it helps explain why our model remains close to the market. We do not see enough separation between our expectation and the available price to justify a position.
 
 ### What The Numbers Say
 
@@ -71,13 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching the Ole Miss offensive line against LSU’s pass rush. Ole Miss allowed only one sack in its first two games, while LSU recorded 12, including five from Princewill Umanmielen. That does not automatically mean LSU’s early pressure rate will carry over, but it is the clearest way the Tigers can disrupt Chambliss and keep Ole Miss from controlling the game through the air.
-
-If Ole Miss protects well, we think its passing game has enough efficiency to justify the market’s confidence. If LSU consistently creates pressure without sacrificing coverage, the case for laying points becomes much harder to support.
+We are watching Ole Miss’ pass protection against LSU’s pressure. Ole Miss has allowed only 0.5 sacks per game, while Princewill Umanmielen has already recorded five sacks and 6.5 tackles for loss. If Ole Miss keeps Trinidad Chambliss clean, we think its passing game can avoid leaning too heavily on a difficult rushing matchup; if LSU consistently disrupts the pocket, the home favorite’s path to separation becomes much narrower.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

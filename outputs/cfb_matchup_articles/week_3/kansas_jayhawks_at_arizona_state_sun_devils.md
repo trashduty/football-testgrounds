@@ -15,9 +15,11 @@ The Kansas Jayhawks visit the Arizona State Sun Devils at Wembley Stadium. We ma
 
 The best number we found is Kansas +5.5 at -112. We give Kansas a 57.3% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Kansas is a bet.
 
-For us, the case is less about Kansas being the better team and more about its ability to create enough scoring opportunities to stay inside the market’s expectation. Our longer-run numbers view Kansas’ offense more favorably than Arizona State’s ability to prevent those opportunities. Kansas’ opener offers some supporting context rather than proof: Isaiah Marshall produced 246 passing yards, two passing touchdowns and 49 rushing yards in his second career start, while Nik McMillan added 130 receiving yards and a touchdown in his Kansas debut.
+For us, the case is less about Kansas’ opening result and more about whether the market is discounting its offensive upside too heavily. Kansas generated 613 yards against Long Island, while new starting quarterback Isaiah Marshall completed 14 of 19 passes for 246 yards and two touchdowns. We are not treating one game as proof, but that debut provides useful context for an offense our numbers expect to create scoring opportunities with reasonable consistency.
 
-We also see reasons to believe that production can remain functional against stronger competition. Kansas allowed no sacks and only one tackle for loss in the opener, giving Marshall time to access an offense with both passing-game explosiveness and quarterback mobility. The meaningful concern is on the other side, where our efficiency numbers identify Kansas’ pass defense as the matchup Arizona State is best positioned to challenge. Even with that vulnerability, we think the market is asking Kansas to lose by a wider margin than the overall matchup warrants.
+The supporting structure also matters. Nik McMillan opened his Kansas career with six catches for 130 yards and a touchdown, giving Marshall an immediate downfield option. Kansas has also allowed the second-fewest sacks in the Big 12 since the start of 2023. That combination of protection and explosive-play potential helps explain why our expectation is more favorable to Kansas than the market’s.
+
+Our meaningful concern is Kansas’ pass defense, which remains one of the weaker units in our pass-EPA numbers. Arizona State has a plausible path to attacking that weakness, but our numbers are less impressed by its ability to turn possessions into sustained scoring opportunities. That tension matters, but we do not think it justifies the full degree of separation currently being priced.
 
 ### What The Numbers Say
 
@@ -69,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We will be watching Arizona State’s passing offense against Kansas’ secondary. Kansas brought back starting cornerbacks Jalen Todd and Austin Alexander and free safety Taylor Davis, and its 2025 defense allowed its fewest passing yards per game since 2001. Our current efficiency numbers are less flattering, however, so the question is whether that returning experience can keep Arizona State from consistently turning favorable passing situations into scoring chances. That is the clearest threat to our position.
+We are watching Arizona State’s passing offense against the Kansas secondary. Kansas returns cornerbacks Jalen Todd and Austin Alexander after they combined for 22 starts last season, but experience alone does not erase the efficiency concerns in our numbers.
+
+Kansas recorded 11 tackles for loss and three sacks in its opener. The question for us is whether that disruption carries into a much more demanding matchup and keeps Arizona State from repeatedly testing the secondary. If Kansas can prevent clean, sustained passing possessions, our position becomes much easier to support.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

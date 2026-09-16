@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| East Carolina Pirates | +2.5 (+102) | BetRivers | 51.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Old Dominion Monarchs | -3.0 (+102) | DraftKings | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| East Carolina Pirates | +2.5 (+100) | FanDuel | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Old Dominion Monarchs | -2.5 (-114) | BetRivers | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The East Carolina Pirates visit the Old Dominion Monarchs at S.B. Ballard Stadium. We make **East Carolina +1.5**, compared with a market line of +2.5.
+The East Carolina Pirates visit the Old Dominion Monarchs at S.B. Ballard Stadium. We make **East Carolina +2**, compared with a market line of +3.
 
-The best number we found is East Carolina +2.5 at +102. We see a 1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is East Carolina +2.5 at +100. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

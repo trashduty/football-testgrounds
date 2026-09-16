@@ -15,9 +15,11 @@ The Syracuse Orange visit the Pittsburgh Panthers at Acrisure Stadium. We make *
 
 The best number we found is Pittsburgh -10.5 at -105. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are more skeptical of Syracuse’s offense than the opener might suggest. Syracuse scored 66 points, gained 514 yards and converted 66.7 percent of its third downs against New Hampshire. That performance matters as context, but it does not erase the larger efficiency concerns. Our matchup data gives Pittsburgh clear advantages against Syracuse’s passing game, rushing attack and ability to create scoring opportunities. That is the main football reason our expectation leans further toward Pittsburgh than the market.
+Our model’s case for Pittsburgh starts with Syracuse’s difficulty creating quality scoring opportunities. We see Pittsburgh holding meaningful defensive advantages against both the run and the pass, which makes sustained drives the central issue. For us, the gap is less about Pittsburgh simply being the better team and more about whether Syracuse can consistently move the ball into scoring range against a much stronger defensive profile.
 
-There are credible reasons for Syracuse to challenge that view. Steve Angeli returned from his season-ending injury and threw for 263 yards, Umari Hatcher produced 147 receiving yards and two touchdowns, and the offensive line earned an 87.0 pass-blocking grade in the opener. We are not dismissing those positives; we are asking how well they carry over against a much stronger defensive profile. The market has already accounted for much of that mismatch, leaving too little separation from our number for us at the available price.
+We are not dismissing Syracuse’s 66-3 opener against New Hampshire. Steve Angeli returned to throw for 263 yards, and Umari Hatcher produced eight catches for 147 yards and two touchdowns. That performance showed Syracuse has viable playmakers, but one result does not erase the broader efficiency concerns embedded in our numbers.
+
+Our expectation is therefore more favorable to Pittsburgh than the market’s baseline, but the available price already captures nearly all of that disagreement. We can explain why Pittsburgh may create separation through its defense; we just do not see enough remaining value to turn that football case into a wager.
 
 ### What The Numbers Say
 
@@ -69,13 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, Syracuse’s passing offense against Pittsburgh’s pass defense is the matchup that can determine whether Pittsburgh creates separation. Angeli has passed for at least 230 yards in six straight games and has never finished below 245 yards in a Syracuse appearance, so there is a real quarterback track record behind the opener.
+We are watching Syracuse’s passing game against Pittsburgh’s pass defense. Angeli and Hatcher supplied immediate production in the opener, while Syracuse’s offensive line received an 87.0 pass-blocking grade from PFF. That gives Syracuse a credible answer to the matchup on paper.
 
-The question is whether that production remains efficient enough to sustain scoring opportunities against a defense our data rates far more favorably than Syracuse’s passing attack. If Syracuse can turn Angeli’s volume into productive drives, it can challenge our broader matchup view. If not, Pittsburgh’s defensive advantage becomes much more significant.
+The question for us is whether that protection and early production carry over against a Pittsburgh defense that grades much better in pass EPA prevention. If Syracuse cannot generate efficient throws and stay ahead of the chains, Pittsburgh’s broader advantage in preventing scoring opportunities becomes much more important.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
