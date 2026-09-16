@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on Georgia-Arkansas.
 
-We make Arkansas +24.5. The market is +24.5.
+We make Arkansas +25. The market is +25.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

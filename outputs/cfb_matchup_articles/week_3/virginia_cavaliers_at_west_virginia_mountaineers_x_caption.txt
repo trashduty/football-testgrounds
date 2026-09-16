@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Virginia-West Virginia.
+Our model is 1.5 points away from the market on Virginia-West Virginia.
 
-We make Virginia -12. The market is -10.
+We make Virginia -12. The market is -10.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

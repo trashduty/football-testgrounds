@@ -6,20 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Purdue Boilermakers | +14.5 (-110) | BetRivers | 55.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| UCLA Bruins | -14.5 (-105) | BetMGM | 45.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Purdue Boilermakers | +14.0 (-109) | BetRivers | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| UCLA Bruins | -14.5 (+100) | FanDuel | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Purdue Boilermakers visit the UCLA Bruins at Rose Bowl. We make **Purdue +13**, compared with a market line of +14.5.
+The Purdue Boilermakers visit the UCLA Bruins at Rose Bowl. We make **Purdue +12.5**, compared with a market line of +14.
 
-The best number we found is Purdue +14.5 at -110. We see a 2.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Purdue +14.0 at -109. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for Purdue staying competitive starts with stability at quarterback. Ryan Browne is a returning starter with 15 Purdue starts, and he opened the season by completing 23 of 29 passes for 317 yards, three touchdowns and no interceptions in a 44-19 win over Indiana State. We are not treating one result against Indiana State as proof, but Browne’s experience gives Purdue a credible way to sustain offense as a sizable underdog.
+Our disagreement with the market is modest, but it starts with Purdue having more offensive stability than the size of the spread may suggest. Ryan Browne started every game last season, then opened 2026 by completing 23 of 29 passes for 317 yards, three touchdowns and no interceptions. We are not treating one performance against Indiana State as proof, but experienced quarterback play gives Purdue a plausible path to sustain drives and avoid the game getting away early.
 
-The more interesting part is the two-way vulnerability on the ground. Our longer-run metrics favor UCLA’s rushing offense against Purdue’s run defense and also suggest UCLA can consistently create scoring opportunities. Purdue did hold Indiana State to 66 rushing yards, but that single performance does not erase the broader concern. On the other side, our numbers also identify room for Purdue’s rushing offense against UCLA’s run defense, giving Purdue a potential route to shorten the game and limit separation.
-
-There is still meaningful uncertainty around Purdue after 38 players made their team debuts and 16 made their first Purdue starts in the opener. That turnover makes the opening performance harder for us to carry forward at full value. We can see why our expectation is slightly more favorable to Purdue than the market’s, but the disagreement is not substantial enough for us at the current price.
+The concern for us is how much remains untested. Purdue had 38 players make their team debuts in the opener, including 16 first-time Purdue starters, and this will be its first true road game of the season. Our numbers also identify UCLA's rushing offense against Purdue's run defense as a potential source of separation. That combination keeps us from treating our model's smaller expected margin as meaningful enough at the current price.
 
 ### What The Numbers Say
 
@@ -36,23 +34,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#115</td>
-<td>#134</td>
+<td class="btb-better">#112</td>
+<td>#124</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#70</td>
-<td class="btb-better">#41</td>
+<td>#77</td>
+<td class="btb-better">#61</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#121</td>
-<td class="btb-better">#83</td>
+<td>#129</td>
+<td class="btb-better">#71</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#115</td>
-<td>#126</td>
+<td class="btb-better">#118</td>
+<td>#119</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -71,13 +69,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching UCLA’s rushing offense against Purdue’s front. This is the clearest path for UCLA to control the game and create the margin the market is asking it to produce. Purdue’s opener offered encouragement, but our broader numbers remain skeptical of that run defense.
+We are watching Purdue's rushing offense against UCLA's run defense. Our efficiency numbers see UCLA as vulnerable on the ground, which could help Purdue stay on schedule, shorten the game and reduce UCLA's opportunities to create margin. Purdue rushed for 177 yards in the opener, while transfer Fame Ijeboi produced 87 yards and a touchdown on 11 carries in his debut.
 
-For us, the question is whether returning production from Charles Correa—who recorded 96 tackles, 7.5 tackles for loss and three sacks in 2025—can help Purdue turn that opening performance into something more sustainable. If UCLA runs efficiently, Purdue’s offensive case may not matter enough; if Purdue holds up, the game becomes much more competitive.
+The useful question is whether that production carries into a much different setting. If Purdue can run efficiently, our view of a more competitive game makes sense. If UCLA forces Browne and a heavily reworked supporting cast into obvious passing situations, the market's expectation becomes easier to justify.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

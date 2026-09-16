@@ -1,6 +1,6 @@
 Our model is 3 points away from the market on Mississippi State-South Carolina.
 
-We make South Carolina -6.5. The market is -3.5.
+We make South Carolina -7. The market is -4.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

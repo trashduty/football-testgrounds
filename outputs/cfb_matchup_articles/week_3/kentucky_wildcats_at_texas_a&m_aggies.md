@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kentucky Wildcats | +16.5 (-102) | DraftKings | 40.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas A&M Aggies | -16.5 (-110) | FanDuel | 59.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kentucky Wildcats | +16.5 (-105) | FanDuel | 40.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | -16.5 (-110) | BetMGM | 59.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -32,23 +32,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#25</td>
-<td>#58</td>
+<td class="btb-better">#20</td>
+<td>#56</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#38</td>
-<td>#121</td>
+<td class="btb-better">#31</td>
+<td>#125</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#6</td>
-<td>#80</td>
+<td class="btb-better">#14</td>
+<td>#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#74</td>
-<td>#89</td>
+<td class="btb-better">#40</td>
+<td>#91</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

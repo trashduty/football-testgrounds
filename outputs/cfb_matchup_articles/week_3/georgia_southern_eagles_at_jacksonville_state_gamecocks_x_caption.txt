@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Georgia Southern-Jacksonville Stat.
+Our model is 2.5 points away from the market on Georgia Southern-Jacksonville Stat.
 
-We make Jacksonville Stat -6. The market is -4.
+We make Jacksonville Stat -6. The market is -3.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

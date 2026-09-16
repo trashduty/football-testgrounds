@@ -2,22 +2,22 @@
   "game": "Syracuse Orange@Pittsburgh Panthers",
   "season": 2026,
   "week": 3,
-  "generated_at_utc": "2026-09-14T13:22:57.710533+00:00",
-  "model_prediction": 12.0,
-  "market_line": 10.5,
-  "best_line": 10.5,
+  "generated_at_utc": "2026-09-16T18:22:20.355835+00:00",
+  "model_prediction": -12.0,
+  "market_line": -10.0,
+  "best_line": -10.5,
   "best_price": "-105",
-  "best_book": "FanDuel",
-  "cover_probability": 0.50323165,
-  "edge": -0.0089634719512194,
-  "bet_short": "Syracuse",
+  "best_book": "DraftKings",
+  "cover_probability": 0.50282955,
+  "edge": -0.0093655719512195,
+  "bet_short": "Pittsburgh",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our numbers are slightly more favorable to Syracuse than the market, and the passing game helps explain why. Steve Angeli returned from his season-ending injury to throw for 263 yards in the opener, while Umari Hatcher caught eight passes for 147 yards and two touchdowns. Syracuse also completed passes to 10 players, giving us some evidence that this offense can distribute the ball rather than depend on one option.\n\nThe concern is whether Syracuse can create enough scoring opportunities against a Pittsburgh defense that grades much better than the Orange offense in that area and owns a significant advantage against the run. Syracuse's opener was encouraging, but we are not treating production against New Hampshire as proof that the same efficiency carries into this matchup. Pittsburgh also holds the stronger underlying profile for generating scoring chances against Syracuse's defense. Our model sees a modest disagreement, but those matchup concerns leave us without enough value at the available price, so we pass.",
-    "matchup_to_watch": "For us, the matchup to watch is Syracuse's passing game against Pittsburgh's scoring-opportunity prevention. The Syracuse offensive line earned an 87.0 pass-blocking grade in the opener, and Syracuse recorded seven sacks and 13 tackles for loss against Pittsburgh in last season's meeting. That does not predict another disruptive performance, but it highlights the importance of protection and pressure: Syracuse likely needs Angeli to sustain drives through the air while its defense prevents Pittsburgh from consistently reaching scoring range.",
+    "narrative": "Our numbers are more skeptical of Syracuse\u2019s offense than the opener might suggest. Syracuse scored 66 points, gained 514 yards and converted 66.7 percent of its third downs against New Hampshire. That performance matters as context, but it does not erase the larger efficiency concerns. Our matchup data gives Pittsburgh clear advantages against Syracuse\u2019s passing game, rushing attack and ability to create scoring opportunities. That is the main football reason our expectation leans further toward Pittsburgh than the market.\n\nThere are credible reasons for Syracuse to challenge that view. Steve Angeli returned from his season-ending injury and threw for 263 yards, Umari Hatcher produced 147 receiving yards and two touchdowns, and the offensive line earned an 87.0 pass-blocking grade in the opener. We are not dismissing those positives; we are asking how well they carry over against a much stronger defensive profile. The market has already accounted for much of that mismatch, leaving too little separation from our number for us at the available price.",
+    "matchup_to_watch": "For us, Syracuse\u2019s passing offense against Pittsburgh\u2019s pass defense is the matchup that can determine whether Pittsburgh creates separation. Angeli has passed for at least 230 yards in six straight games and has never finished below 245 yards in a Syracuse appearance, so there is a real quarterback track record behind the opener.\n\nThe question is whether that production remains efficient enough to sustain scoring opportunities against a defense our data rates far more favorably than Syracuse\u2019s passing attack. If Syracuse can turn Angeli\u2019s volume into productive drives, it can challenge our broader matchup view. If not, Pittsburgh\u2019s defensive advantage becomes much more significant.",
     "guide_status": [
       "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
-      "Guide for Syracuse Orange was found but may not match the current opponent. The guide is Syracuse's Game 2 notes for the Sept. 12, 2026 home game against California. Syracuse's game at Pittsburgh is listed as Game 3 on Sept. 17, 2026.",
+      "Guide for Syracuse Orange was found but may not match the current opponent. The guide is Syracuse's Week 2 game notes for California on Sept. 12, 2026. It identifies California as the featured opponent and lists the Week 3 game at Pittsburgh on Sept. 17 as Syracuse's following game.",
       "No guide found for Pittsburgh Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf"
     ],
     "guide_extractions": [
@@ -25,34 +25,34 @@
         "source_team": "Syracuse Orange",
         "opponent": "Pittsburgh Panthers",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is Syracuse's Game 2 notes for the Sept. 12, 2026 home game against California. Syracuse's game at Pittsburgh is listed as Game 3 on Sept. 17, 2026.",
+        "document_match_reason": "The guide is Syracuse's Week 2 game notes for California on Sept. 12, 2026. It identifies California as the featured opponent and lists the Week 3 game at Pittsburgh on Sept. 17 as Syracuse's following game.",
         "recent_game": [
           {
-            "fact": "Syracuse opened the 2026 season with a 66-3 win over New Hampshire.",
+            "fact": "Syracuse opened the 2026 season with a 66-3 home win over New Hampshire.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Syracuse produced 513 yards against New Hampshire, including 238 rushing yards and 275 passing yards.",
-            "page": 3,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "The Syracuse defense held New Hampshire to 159 total yards and three points while recording five sacks and nine tackles for loss.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Syracuse gained three turnovers and committed none against New Hampshire.",
+            "fact": "Syracuse produced 514 total yards, including 239 rushing yards and 275 passing yards, against New Hampshire.",
             "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Syracuse had 12 penalties for 125 yards in its opener.",
+            "fact": "The Orange defense allowed 159 total yards and three points while recording five sacks and nine tackles for loss against New Hampshire.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse gained three turnovers and committed none in the opener.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse was penalized 12 times for 125 yards against New Hampshire.",
             "page": 4,
             "category": "recent_game",
             "importance": "medium"
@@ -66,36 +66,36 @@
             "importance": "high"
           },
           {
-            "fact": "Pittsburgh opened the season with a 59-14 win over Miami (Ohio) and was scheduled to host UCF in Week 2 before facing Syracuse.",
+            "fact": "Pittsburgh opened the season with a 59-14 win over Miami (Ohio).",
             "page": 10,
             "category": "opponent_notes",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "quarterback": [
           {
-            "fact": "Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire, extending his streak of games with at least 230 passing yards to six.",
+            "fact": "Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Angeli has passed for 1,580 yards in five appearances for Syracuse and has never thrown for fewer than 245 yards in an Orange uniform.",
+            "fact": "Angeli has passed for at least 230 yards in six consecutive games and has never thrown for fewer than 245 yards in a Syracuse appearance.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "The projected quarterback depth chart lists Angeli as the starter, followed by Amari Odom or Malachi Nelson.",
-            "page": 14,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Odom threw his first Syracuse touchdown pass against New Hampshire after transferring to the program in January 2026.",
+            "fact": "Angeli has completed 176 of 265 career passes for 2,352 yards, 23 touchdowns and three interceptions across Syracuse and Notre Dame.",
             "page": 18,
             "category": "quarterback",
             "importance": "medium"
+          },
+          {
+            "fact": "The projected depth chart lists Angeli as the starting quarterback, with Amari Odom and Malachi Nelson behind him.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
           }
         ],
         "offensive_personnel": [
@@ -112,16 +112,10 @@
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Umari Hatcher returned after missing the 2025 season due to injury and recorded eight receptions for 147 yards and two touchdowns in the opener.",
-            "page": 18,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire and were expected to make their Syracuse debuts against California.",
+            "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play in the opener and were expected to make their Syracuse debuts in Week 2 against California.",
             "page": 5,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Miller transferred from Jackson State after leading the SWAC with 1,054 rushing yards and nine touchdowns in 2025.",
@@ -130,7 +124,43 @@
             "importance": "medium"
           },
           {
-            "fact": "Tight end David Clement set career highs with two receptions and 35 yards against New Hampshire, including his first collegiate touchdown on a 27-yard catch.",
+            "fact": "Umari Hatcher returned after missing the 2025 season due to injury and caught eight passes for career highs of 147 yards and two touchdowns against New Hampshire.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer wide receiver Cole Weaver caught three passes for 32 yards in his Syracuse debut.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end David Clement caught two passes for a career-high 35 yards, including his first collegiate touchdown, against New Hampshire.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The projected offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse's offensive line received an 87.0 pass-blocking grade from PFF in the opener, second among ACC teams through Saturday's games.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Joe Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oluwafunto Akinshilo made his first career start against New Hampshire, while Kam Pringle started at right tackle and allowed one pressure according to PFF.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -138,13 +168,13 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "Transfer linebacker Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
+            "fact": "Four of Syracuse's five sacks against New Hampshire were recorded by transfers.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Four of Syracuse's five sacks against New Hampshire were recorded by transfers.",
+            "fact": "Transfer edge defender Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "high"
@@ -152,6 +182,12 @@
           {
             "fact": "Transfer defensive lineman Tunmise Adeleye tied his career high with six tackles and recorded a sack in his Syracuse debut.",
             "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer defensive lineman Jartavius Flounoy recorded four tackles, a half-tackle for loss and a forced fumble in his Syracuse debut.",
+            "page": 7,
             "category": "defensive_personnel",
             "importance": "medium"
           },
@@ -162,7 +198,13 @@
             "importance": "high"
           },
           {
-            "fact": "Defensive back Chris Peal led Syracuse with four solo tackles and allowed 14 receiving yards when targeted against New Hampshire, according to PFF.",
+            "fact": "Linebacker Zyian Moultrie-Goddard returned a fumble for a touchdown against New Hampshire.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Chris Peal allowed 14 receiving yards when targeted and led Syracuse with four solo tackles against New Hampshire, according to PFF.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -170,16 +212,16 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Vince Kehres is in his first season as Syracuse's defensive coordinator in 2026.",
+            "fact": "Vince Kehres is in his first season as Syracuse's defensive coordinator.",
             "page": 13,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Jeff Nixon is Syracuse's offensive coordinator and calls plays from the booth.",
+            "fact": "John Scott Jr. is in his first season as assistant head coach, co-defensive coordinator and defensive line coach.",
             "page": 13,
             "category": "coaching_changes",
-            "importance": "high"
+            "importance": "medium"
           },
           {
             "fact": "Juan Castillo is in his first season as Syracuse's offensive line coach.",
@@ -194,21 +236,21 @@
             "importance": "medium"
           },
           {
-            "fact": "John Scott Jr. joined Syracuse in 2026 as assistant head coach, co-defensive coordinator and defensive line coach.",
+            "fact": "Jeff Nixon is Syracuse's offensive coordinator and calls plays from the booth.",
             "page": 13,
             "category": "coaching_changes",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "injury_availability": [
           {
-            "fact": "Steve Angeli returned in the 2026 opener after suffering a season-ending injury against Clemson in Week 4 of the 2025 season.",
+            "fact": "Steve Angeli returned in the 2026 opener after suffering a season-ending injury against Clemson in Week 4 of 2025.",
             "page": 18,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Umari Hatcher returned in the 2026 opener after missing the entire 2025 season due to injury.",
+            "fact": "Wide receiver Umari Hatcher returned for the opener after missing the 2025 season due to injury.",
             "page": 18,
             "category": "injury_availability",
             "importance": "high"
@@ -220,47 +262,53 @@
             "importance": "high"
           },
           {
-            "fact": "Rashard Perry played in the 2026 opener after a season-ending injury limited him to the first five games of 2025.",
-            "page": 20,
+            "fact": "Running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire but were expected to debut in Week 2.",
+            "page": 5,
             "category": "injury_availability",
             "importance": "medium"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Syracuse completed passes to 10 different players against New Hampshire.",
+            "fact": "Ten Syracuse players recorded at least one reception against New Hampshire.",
             "page": 6,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Across the last 18 games in which Jeff Nixon's Week 1 starting quarterback produced at least 250 passing yards, Syracuse is 14-4 and has averaged 471.4 total yards and 36.8 points per game.",
-            "page": 5,
+            "fact": "Five different Syracuse players scored a rushing or receiving touchdown in the opener.",
+            "page": 1,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Syracuse converted 66.7 percent of its third downs and averaged 5.0 yards per rushing attempt in the opener.",
+            "fact": "Syracuse converted 66.7 percent of its third downs against New Hampshire.",
             "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In 18 consecutive games with Jeff Nixon's Week 1 starting quarterback available, Syracuse quarterbacks have produced at least 250 passing yards; Syracuse is 14-4 and averages 471.4 total yards and 36.8 points over that span.",
+            "page": 5,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Syracuse allowed 99 passing yards and 60 rushing yards against New Hampshire.",
-            "page": 3,
+            "fact": "Syracuse held New Hampshire to 60 rushing yards and 99 passing yards.",
+            "page": 4,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Twenty-four Syracuse defenders recorded at least one tackle against New Hampshire, and nine players contributed at least half a tackle for loss.",
+            "fact": "Twenty-four Syracuse defenders recorded at least one tackle against New Hampshire, and nine players shared the team's nine tackles for loss.",
             "page": 7,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Syracuse recorded seven sacks and 13 tackles for loss against Pittsburgh in the teams' 2025 meeting.",
+            "fact": "Syracuse did not allow a touchdown in its season opener.",
             "page": 7,
             "category": "defensive_context",
             "importance": "high"
@@ -268,25 +316,25 @@
         ],
         "special_teams": [
           {
-            "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety and also returned two punts for 50 yards.",
+            "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety.",
             "page": 8,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Demetres Samuel Jr. returned four punts for 83 yards, an average of 20.8 yards per return, and had a long return of 38 yards against New Hampshire.",
+            "fact": "Demetres Samuel Jr. returned four punts for 83 yards, averaging 20.8 yards per return, with a long of 38 yards against New Hampshire.",
             "page": 8,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Kicker Tripp Woody made a 34-yard field goal in the opener and is 11-for-11 on career field-goal attempts inside 40 yards.",
-            "page": 18,
+            "fact": "Kicker Tripp Woody made his only field-goal attempt in the opener, a 34-yarder.",
+            "page": 8,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Freshman Jimmy Gregg is Syracuse's projected starting punter and punted twice in his collegiate debut against New Hampshire.",
+            "fact": "Freshman Jimmy Gregg is listed as Syracuse's starting punter and punted twice in his collegiate debut.",
             "page": 20,
             "category": "special_teams",
             "importance": "medium"
@@ -294,42 +342,42 @@
         ],
         "series_context": [
           {
-            "fact": "Syracuse is 33-45-3 in 81 all-time games against Pittsburgh.",
+            "fact": "Syracuse is 33-45-3 in 81 all-time meetings with Pittsburgh.",
             "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fran Brown is 0-2 against Pittsburgh as Syracuse's head coach.",
+            "page": 12,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Syracuse head coach Fran Brown is 0-2 against Pittsburgh, with losses of 41-13 in 2024 and 30-13 in 2025.",
+            "fact": "Syracuse lost 41-13 at Pittsburgh in 2024 and lost 30-13 at home to Pittsburgh in 2025.",
             "page": 12,
             "category": "series_context",
             "importance": "high"
+          },
+          {
+            "fact": "Syracuse recorded seven sacks and 13 tackles for loss against Pittsburgh in the 2025 meeting, both the highest single-game totals of the Fran Brown era through the 2026 opener.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Syracuse's projected offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
-            "page": 14,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "The Syracuse offensive line received an 87.0 pass-blocking grade from PFF against New Hampshire, second best among ACC teams through Saturday's games.",
-            "page": 6,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Center Joe Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 career pass-blocking opportunities, according to PFF.",
-            "page": 6,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Oluwafunto Akinshilo made his first career start against New Hampshire, while Kam Pringle started at right tackle and allowed one pressure.",
-            "page": 6,
+            "fact": "Five Syracuse players made their first FBS starts against New Hampshire, including first-time starters Tylik Hill, Jimmy Gregg and Nissi Ogbebor.",
+            "page": 4,
             "category": "other_relevant",
             "importance": "medium"
+          },
+          {
+            "fact": "Syracuse played 84 players in the opener, including 45 freshmen or sophomores.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "low"
           }
         ],
         "source_file": "Syracuse.pdf"
@@ -348,32 +396,50 @@
         "matchup_score": 211
       },
       {
+        "dimension": "Syracuse passing offense vs Pittsburgh pass defense",
+        "off_team": "Syracuse",
+        "def_team": "Pittsburgh",
+        "off_rank": 138,
+        "def_rank": 30,
+        "stat": "pass EPA",
+        "rank_gap": 108,
+        "direction": "defense_advantage",
+        "matchup_score": 208
+      },
+      {
         "dimension": "Syracuse rushing offense vs Pittsburgh rush defense",
         "off_team": "Syracuse",
         "def_team": "Pittsburgh",
-        "off_rank": 96,
-        "def_rank": 13,
+        "off_rank": 89,
+        "def_rank": 5,
         "stat": "rush EPA",
-        "rank_gap": 83,
+        "rank_gap": 84,
         "direction": "defense_advantage",
-        "matchup_score": 183
-      },
-      {
-        "dimension": "Pittsburgh scoring-opportunity creation vs Syracuse scoring-opportunity prevention",
-        "off_team": "Pittsburgh",
-        "def_team": "Syracuse",
-        "off_rank": 27,
-        "def_rank": 79,
-        "stat": "Eckel rate",
-        "rank_gap": 52,
-        "direction": "offense_advantage",
-        "matchup_score": 152
+        "matchup_score": 184
       }
     ],
     "used_sources": [
       {
+        "fact_id": 1,
+        "fact": "Syracuse opened the 2026 season with a 66-3 home win over New Hampshire.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 2,
+        "fact": "Syracuse produced 514 total yards, including 239 rushing yards and 275 passing yards, against New Hampshire.",
+        "page": 4,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
         "fact_id": 6,
-        "fact": "Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire, extending his streak of games with at least 230 passing yards to six.",
+        "fact": "Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire.",
         "page": 5,
         "category": "quarterback",
         "importance": "high",
@@ -381,8 +447,17 @@
         "source_team": "Syracuse Orange"
       },
       {
-        "fact_id": 12,
-        "fact": "Wide receiver Umari Hatcher returned after missing the 2025 season due to injury and recorded eight receptions for 147 yards and two touchdowns in the opener.",
+        "fact_id": 7,
+        "fact": "Angeli has passed for at least 230 yards in six consecutive games and has never thrown for fewer than 245 yards in a Syracuse appearance.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 14,
+        "fact": "Umari Hatcher returned after missing the 2025 season due to injury and caught eight passes for career highs of 147 yards and two touchdowns against New Hampshire.",
         "page": 18,
         "category": "offensive_personnel",
         "importance": "high",
@@ -390,44 +465,35 @@
         "source_team": "Syracuse Orange"
       },
       {
-        "fact_id": 30,
-        "fact": "Syracuse completed passes to 10 different players against New Hampshire.",
+        "fact_id": 18,
+        "fact": "Syracuse's offensive line received an 87.0 pass-blocking grade from PFF in the opener, second among ACC teams through Saturday's games.",
         "page": 6,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 39,
+        "fact": "Syracuse converted 66.7 percent of its third downs against New Hampshire.",
+        "page": 4,
         "category": "offensive_context",
-        "importance": "high",
-        "source_file": "Syracuse.pdf",
-        "source_team": "Syracuse Orange"
-      },
-      {
-        "fact_id": 35,
-        "fact": "Syracuse recorded seven sacks and 13 tackles for loss against Pittsburgh in the teams' 2025 meeting.",
-        "page": 7,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Syracuse.pdf",
-        "source_team": "Syracuse Orange"
-      },
-      {
-        "fact_id": 41,
-        "fact": "The Syracuse offensive line received an 87.0 pass-blocking grade from PFF against New Hampshire, second best among ACC teams through Saturday's games.",
-        "page": 6,
-        "category": "other_relevant",
         "importance": "high",
         "source_file": "Syracuse.pdf",
         "source_team": "Syracuse Orange"
       }
     ],
     "model_context": {
-      "model_side_full": "Syracuse Orange",
-      "model_side": "Syracuse",
-      "opponent_full": "Pittsburgh Panthers",
-      "opponent": "Pittsburgh",
-      "model_prediction": 12.0,
-      "market_line": 10.5,
-      "best_available_line": 10.5,
+      "model_side_full": "Pittsburgh Panthers",
+      "model_side": "Pittsburgh",
+      "opponent_full": "Syracuse Orange",
+      "opponent": "Syracuse",
+      "model_prediction": -12.0,
+      "market_line": -10.0,
+      "best_available_line": -10.5,
       "best_available_price": "-105",
-      "cover_probability": 0.50323165,
-      "edge": -0.0089634719512194,
+      "cover_probability": 0.50282955,
+      "edge": -0.0093655719512195,
       "bet_status": "PASS"
     }
   }

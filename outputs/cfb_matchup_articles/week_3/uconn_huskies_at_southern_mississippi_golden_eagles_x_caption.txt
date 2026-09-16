@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on Connecticut-Southern Mississippi.
 
-We make Southern Mississippi +2. The market is +3.5.
+We make Southern Mississippi +1.5. The market is +3.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

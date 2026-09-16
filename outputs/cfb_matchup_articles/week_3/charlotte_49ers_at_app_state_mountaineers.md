@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Charlotte 49ers | +19.5 (-110) | BetRivers | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| App State Mountaineers | -19.0 (-110) | BetMGM | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +18.5 (-109) | BetRivers | 58.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| App State Mountaineers | -17.5 (-108) | BetMGM | 43.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Charlotte 49ers visit the App State Mountaineers at Kidd Brewer Stadium. We make **Charlotte +16**, compared with a market line of +19.5.
+The Charlotte 49ers visit the App State Mountaineers at Kidd Brewer Stadium. We make **Charlotte +14.5**, compared with a market line of +17.5.
 
-The best number we found is Charlotte +19.5 at -110. We give Charlotte a 57.3% chance to cover, which creates an 4.9% edge for us. That clears our 3% threshold, so Charlotte is a bet.
+The best number we found is Charlotte +18.5 at -109. We give Charlotte a 58.5% chance to cover, which creates an 6.3% edge for us. That clears our 3% threshold, so Charlotte is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,23 +32,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#133</td>
+<td>#135</td>
 <td class="btb-better">#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#138</td>
-<td class="btb-better">#106</td>
+<td class="btb-better">#88</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#112</td>
-<td class="btb-better">#52</td>
+<td>#113</td>
+<td class="btb-better">#47</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#136</td>
-<td class="btb-better">#80</td>
+<td class="btb-better">#72</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

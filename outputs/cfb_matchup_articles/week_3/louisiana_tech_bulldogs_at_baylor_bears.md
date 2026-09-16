@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Tech Bulldogs | +17.5 (-110) | BetMGM | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Baylor Bears | -17.5 (-108) | BetMGM | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisiana Tech Bulldogs | +19.5 (-112) | DraftKings | 53.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Baylor Bears | -19.5 (-105) | FanDuel | 46.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Louisiana Tech Bulldogs visit the Baylor Bears at McLane Stadium. We make **Louisiana Tech +17**, compared with a market line of +17.5.
+The Louisiana Tech Bulldogs visit the Baylor Bears at McLane Stadium. We make **Louisiana Tech +18**, compared with a market line of +19.
 
-The best number we found is Louisiana Tech +17.5 at -110. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Louisiana Tech +19.5 at -112. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,23 +32,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#78</td>
-<td>#89</td>
+<td>#99</td>
+<td class="btb-better">#93</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#55</td>
-<td class="btb-better">#51</td>
+<td>#62</td>
+<td class="btb-better">#59</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#35</td>
-<td>#49</td>
+<td class="btb-better">#42</td>
+<td>#59</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#88</td>
-<td class="btb-better">#64</td>
+<td>#107</td>
+<td class="btb-better">#69</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

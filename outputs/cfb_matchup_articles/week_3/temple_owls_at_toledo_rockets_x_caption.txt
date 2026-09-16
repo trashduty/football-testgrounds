@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on Temple-Toledo.
 
-We make Toledo -7. The market is -5.5.
+We make Toledo -7.5. The market is -6.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

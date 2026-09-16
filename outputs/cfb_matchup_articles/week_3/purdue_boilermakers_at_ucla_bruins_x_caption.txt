@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on Purdue-UCLA.
 
-We make Purdue +13. The market is +14.5.
+We make Purdue +12.5. The market is +14.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

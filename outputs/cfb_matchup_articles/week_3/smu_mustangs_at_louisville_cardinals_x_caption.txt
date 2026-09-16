@@ -1,6 +1,6 @@
-Our model is 1 points away from the market on SMU-Louisville.
+Our model is 1.5 points away from the market on SMU-Louisville.
 
-We make Louisville -3. The market is -2.
+We make Louisville -3. The market is -1.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

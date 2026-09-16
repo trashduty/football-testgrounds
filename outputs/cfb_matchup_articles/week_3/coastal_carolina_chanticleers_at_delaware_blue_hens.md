@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Coastal Carolina Chanticleers | +5.5 (-110) | FanDuel | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Delaware Blue Hens | -4.5 (-115) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Coastal Carolina Chanticleers | +5.5 (-109) | BetRivers | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | -4.5 (-106) | FanDuel | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Coastal Carolina Chanticleers visit the Delaware Blue Hens at Delaware Stadium. We make **Coastal Carolina +6**, compared with a market line of +5.
+The Coastal Carolina Chanticleers visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware -6**, compared with a market line of -4.5.
 
-The best number we found is Coastal Carolina +5.5 at -110. We see a -1.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Delaware -4.5 at -106. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Coastal Carolina</th>
 <th>Delaware</th>
+<th>Coastal Carolina</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#106</td>
-<td class="btb-better">#63</td>
+<td class="btb-better">#57</td>
+<td>#97</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#115</td>
-<td>#128</td>
+<td>#132</td>
+<td class="btb-better">#114</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#123</td>
-<td class="btb-better">#92</td>
+<td class="btb-better">#98</td>
+<td>#121</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#80</td>
 <td>#121</td>
-<td class="btb-better">#106</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#112</td>
 <td class="btb-better">#45</td>
+<td>#112</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#110</td>
 <td>#116</td>
+<td class="btb-better">#110</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

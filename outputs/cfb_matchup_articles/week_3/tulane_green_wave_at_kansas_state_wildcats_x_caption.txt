@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on Tulane-Kansas State.
+Our model is 2 points away from the market on Tulane-Kansas State.
 
-We make Kansas State -22.5. The market is -20.
+We make Kansas State -22.5. The market is -20.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

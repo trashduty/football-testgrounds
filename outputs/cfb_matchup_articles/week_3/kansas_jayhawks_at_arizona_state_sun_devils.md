@@ -6,18 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas Jayhawks | +5.5 (-105) | BetMGM | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Arizona State Sun Devils | -5.5 (-108) | DraftKings | 42.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas Jayhawks | +5.5 (-112) | DraftKings | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Arizona State Sun Devils | -5.5 (-106) | FanDuel | 42.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Kansas Jayhawks visit the Arizona State Sun Devils at Wembley Stadium. We make **Kansas +2**, compared with a market line of +5.5.
 
-The best number we found is Kansas +5.5 at -105. We give Kansas a 57.3% chance to cover, which creates an 6.1% edge for us. That clears our 3% threshold, so Kansas is a bet.
+The best number we found is Kansas +5.5 at -112. We give Kansas a 57.3% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Kansas is a bet.
 
-The market is asking Arizona State to control this game more decisively than our numbers expect. For us, the case for Kansas starts with its ability to create scoring opportunities against an Arizona State defense that has been less effective at preventing them. Kansas lost nine offensive starters from 2025 and named Isaiah Marshall its new starting quarterback, so the transition is real. Still, Marshall completed 14 of 19 passes for 246 yards and two touchdowns in the opener, while the rebuilt offensive line allowed no sacks and only one tackle for loss. We are not treating one result as proof, but it was useful evidence that the new pieces can function together.
+For us, the case is less about Kansas being the better team and more about its ability to create enough scoring opportunities to stay inside the market’s expectation. Our longer-run numbers view Kansas’ offense more favorably than Arizona State’s ability to prevent those opportunities. Kansas’ opener offers some supporting context rather than proof: Isaiah Marshall produced 246 passing yards, two passing touchdowns and 49 rushing yards in his second career start, while Nik McMillan added 130 receiving yards and a touchdown in his Kansas debut.
 
-The other side is less comfortable. Our efficiency numbers show Arizona State's passing offense facing a vulnerable Kansas pass defense, and that is the clearest threat to our position. Kansas does have some continuity in the secondary, returning cornerbacks Jalen Todd and Austin Alexander along with safety Taylor Davis, and it allowed its lowest passing-yard average since 2001 last season. We also saw defensive end Leroy Harris III produce four tackles for loss in the opener. That does not erase the coverage concern, but it gives Kansas more ways to disrupt drives than the market price appears to credit.
+We also see reasons to believe that production can remain functional against stronger competition. Kansas allowed no sacks and only one tackle for loss in the opener, giving Marshall time to access an offense with both passing-game explosiveness and quarterback mobility. The meaningful concern is on the other side, where our efficiency numbers identify Kansas’ pass defense as the matchup Arizona State is best positioned to challenge. Even with that vulnerability, we think the market is asking Kansas to lose by a wider margin than the overall matchup warrants.
 
 ### What The Numbers Say
 
@@ -34,23 +34,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#56</td>
-<td>#65</td>
+<td>#67</td>
+<td class="btb-better">#62</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#34</td>
-<td>#79</td>
+<td class="btb-better">#44</td>
+<td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#119</td>
-<td class="btb-better">#46</td>
+<td class="btb-better">#62</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#96</td>
-<td class="btb-better">#33</td>
+<td>#110</td>
+<td class="btb-better">#36</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -69,11 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Arizona State's passing offense against the Kansas secondary. This is where Arizona State has the best chance to create separation, because our current efficiency numbers remain skeptical of Kansas against the pass. The question is whether Arizona State can consistently exploit that weakness before Kansas' returning defensive backs and pass rush disrupt enough possessions. If Kansas can limit explosive completions and force longer drives, the game profile should move toward our view.
+We will be watching Arizona State’s passing offense against Kansas’ secondary. Kansas brought back starting cornerbacks Jalen Todd and Austin Alexander and free safety Taylor Davis, and its 2025 defense allowed its fewest passing yards per game since 2001. Our current efficiency numbers are less flattering, however, so the question is whether that returning experience can keep Arizona State from consistently turning favorable passing situations into scoring chances. That is the clearest threat to our position.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

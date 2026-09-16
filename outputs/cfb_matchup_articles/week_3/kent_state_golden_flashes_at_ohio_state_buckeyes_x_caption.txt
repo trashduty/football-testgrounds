@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Kent State-Ohio State.
 
-We make Ohio State -53. The market is -52.5.
+We make Kent State +53. The market is +52.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

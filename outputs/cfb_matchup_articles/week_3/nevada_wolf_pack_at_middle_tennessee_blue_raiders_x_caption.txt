@@ -1,9 +1,9 @@
-Our model is 2 points away from the market on Nevada-Middle Tennessee.
+Our model is 1 points away from the market on Nevada-Middle Tennessee.
 
-We make Middle Tennessee +4. The market is +6.
+We make Middle Tennessee +2.5. The market is +3.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: Middle Tennessee +3.5 +100. We give it a 53.5% chance to cover with a 3.5% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

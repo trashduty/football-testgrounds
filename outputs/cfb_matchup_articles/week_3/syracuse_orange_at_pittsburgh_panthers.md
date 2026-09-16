@@ -6,18 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Syracuse Orange | +10.5 (-105) | FanDuel | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Pittsburgh Panthers | -10.5 (-109) | BetRivers | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Syracuse Orange | +9.5 (-102) | FanDuel | 48.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Pittsburgh Panthers | -10.5 (-105) | DraftKings | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Syracuse Orange visit the Pittsburgh Panthers at Acrisure Stadium. We make **Syracuse +12**, compared with a market line of +10.5.
+The Syracuse Orange visit the Pittsburgh Panthers at Acrisure Stadium. We make **Pittsburgh -12**, compared with a market line of -10.
 
-The best number we found is Syracuse +10.5 at -105. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Pittsburgh -10.5 at -105. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are slightly more favorable to Syracuse than the market, and the passing game helps explain why. Steve Angeli returned from his season-ending injury to throw for 263 yards in the opener, while Umari Hatcher caught eight passes for 147 yards and two touchdowns. Syracuse also completed passes to 10 players, giving us some evidence that this offense can distribute the ball rather than depend on one option.
+Our numbers are more skeptical of Syracuse’s offense than the opener might suggest. Syracuse scored 66 points, gained 514 yards and converted 66.7 percent of its third downs against New Hampshire. That performance matters as context, but it does not erase the larger efficiency concerns. Our matchup data gives Pittsburgh clear advantages against Syracuse’s passing game, rushing attack and ability to create scoring opportunities. That is the main football reason our expectation leans further toward Pittsburgh than the market.
 
-The concern is whether Syracuse can create enough scoring opportunities against a Pittsburgh defense that grades much better than the Orange offense in that area and owns a significant advantage against the run. Syracuse's opener was encouraging, but we are not treating production against New Hampshire as proof that the same efficiency carries into this matchup. Pittsburgh also holds the stronger underlying profile for generating scoring chances against Syracuse's defense. Our model sees a modest disagreement, but those matchup concerns leave us without enough value at the available price, so we pass.
+There are credible reasons for Syracuse to challenge that view. Steve Angeli returned from his season-ending injury and threw for 263 yards, Umari Hatcher produced 147 receiving yards and two touchdowns, and the offensive line earned an 87.0 pass-blocking grade in the opener. We are not dismissing those positives; we are asking how well they carry over against a much stronger defensive profile. The market has already accounted for much of that mismatch, leaving too little separation from our number for us at the available price.
 
 ### What The Numbers Say
 
@@ -27,40 +27,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Syracuse</th>
 <th>Pittsburgh</th>
+<th>Syracuse</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#37</td>
 <td>#138</td>
-<td class="btb-better">#42</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#96</td>
-<td class="btb-better">#87</td>
+<td class="btb-better">#81</td>
+<td>#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#127</td>
-<td class="btb-better">#55</td>
+<td class="btb-better">#30</td>
+<td>#123</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#116</td>
-<td class="btb-better">#13</td>
+<td class="btb-better">#5</td>
+<td>#125</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#134</td>
 <td class="btb-better">#27</td>
+<td>#134</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#79</td>
 <td class="btb-better">#23</td>
+<td>#79</td>
 </tr>
 </tbody>
 </table>
@@ -69,11 +69,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Syracuse's passing game against Pittsburgh's scoring-opportunity prevention. The Syracuse offensive line earned an 87.0 pass-blocking grade in the opener, and Syracuse recorded seven sacks and 13 tackles for loss against Pittsburgh in last season's meeting. That does not predict another disruptive performance, but it highlights the importance of protection and pressure: Syracuse likely needs Angeli to sustain drives through the air while its defense prevents Pittsburgh from consistently reaching scoring range.
+For us, Syracuse’s passing offense against Pittsburgh’s pass defense is the matchup that can determine whether Pittsburgh creates separation. Angeli has passed for at least 230 yards in six straight games and has never finished below 245 yards in a Syracuse appearance, so there is a real quarterback track record behind the opener.
+
+The question is whether that production remains efficient enough to sustain scoring opportunities against a defense our data rates far more favorably than Syracuse’s passing attack. If Syracuse can turn Angeli’s volume into productive drives, it can challenge our broader matchup view. If not, Pittsburgh’s defensive advantage becomes much more significant.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

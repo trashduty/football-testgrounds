@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on Akron-Minnesota.
+Our model is 1 points away from the market on Akron-Minnesota.
 
-We make Akron +23. The market is +24.5.
+We make Akron +22.5. The market is +23.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

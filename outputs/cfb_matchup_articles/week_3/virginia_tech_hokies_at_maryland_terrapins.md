@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Tech Hokies | -2.5 (-120) | FanDuel | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Maryland Terrapins | +3.5 (-118) | BetRivers | 58.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Virginia Tech Hokies | -2.5 (-122) | FanDuel | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Maryland Terrapins | +2.5 (+100) | FanDuel | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Virginia Tech Hokies visit the Maryland Terrapins at SECU Stadium. We make **Maryland -0.5**, compared with a market line of +3.
 
-The best number we found is Maryland +3.5 at -118. We give Maryland a 58.6% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Maryland is a bet.
+The best number we found is Maryland +2.5 at +100. We give Maryland a 54.7% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Maryland is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,23 +32,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#91</td>
-<td>#101</td>
+<td class="btb-better">#92</td>
+<td>#103</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#113</td>
+<td>#111</td>
 <td class="btb-better">#4</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#86</td>
-<td>#96</td>
+<td class="btb-better">#76</td>
+<td>#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#65</td>
-<td>#73</td>
+<td>#85</td>
+<td class="btb-better">#77</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

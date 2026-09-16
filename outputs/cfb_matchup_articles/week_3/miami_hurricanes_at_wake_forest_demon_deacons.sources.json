@@ -2,54 +2,54 @@
   "game": "Miami Hurricanes@Wake Forest Demon Deacons",
   "season": 2026,
   "week": 3,
-  "generated_at_utc": "2026-09-14T13:18:07.620795+00:00",
-  "model_prediction": 21.5,
-  "market_line": 22.0,
-  "best_line": 22.5,
-  "best_price": "-110",
-  "best_book": "FanDuel",
-  "cover_probability": 0.52856104,
-  "edge": 0.0047515161904762,
+  "generated_at_utc": "2026-09-16T18:20:04.683912+00:00",
+  "model_prediction": 20.5,
+  "market_line": 20.5,
+  "best_line": 20.5,
+  "best_price": "-105",
+  "best_book": "Fanatics",
+  "cover_probability": 0.50740788,
+  "edge": -0.0047872419512194,
   "bet_short": "Wake Forest",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We are not treating Wake Forest\u2019s 38-16 win over Akron as proof that its offense will translate against Miami, but the debut offered useful context. Wake produced 559 yards, and Gio Lopez threw for 350 yards with three touchdowns and no interceptions. That showed us an offense capable of creating explosive production without giving away possessions.\n\nThe more important part is the step up in resistance. Our matchup data grades Miami among the top 20 in both rush and pass EPA defense and fourth in preventing scoring opportunities, while Wake\u2019s offense sits closer to the middle of the national distribution. The market is asking whether Wake can sustain enough drives against a defense built to prevent exactly that, and our numbers do not dismiss that concern.\n\nWe can still see a path to Wake remaining competitive enough, particularly after its 2025 defense finished in the ACC\u2019s top five in total defense and pass defense while holding seven opponents to 14 points or fewer. That history provides some defensive foundation, but it does not create a meaningful enough difference from the market for us at the available price. For us, this remains a pass.",
-    "matchup_to_watch": "We are watching Wake\u2019s passing offense against Miami\u2019s pass defense. Lopez already knows offensive coordinator Rob Ezell from their time together at South Alabama, and Wake allowed no sacks in its opener. The question for us is whether that comfort and protection carry over against a pass defense our data rates far more highly than Wake\u2019s first opponent. If Wake cannot create efficient completions and reach scoring range consistently, staying within the market\u2019s expectation becomes much more difficult.",
+    "narrative": "We are not treating Wake Forest\u2019s opener as proof that its offense will travel against a much stronger defense. We saw real positives: Wake Forest generated 559 yards, Gio Lopez threw for 350 yards with three touchdowns and no interceptions, and the offensive line did not allow a sack. That performance gives us useful context, but our longer-run numbers still view Miami\u2019s pass defense as a significant step up in class.\n\nWhat stands out to us is Miami\u2019s ability to limit both passing efficiency and scoring-opportunity creation, the two areas most likely to determine whether Wake Forest can stay within the number. Wake Forest produced two long touchdown passes against Akron, but we do not want to assume that kind of explosiveness is repeatable here. Our view is already closely aligned with the market, so we do not see enough pricing separation to justify a position.",
+    "matchup_to_watch": "For us, the matchup to watch is Lopez and Wake Forest\u2019s passing game against Miami\u2019s pass defense. We saw Lopez push the ball downfield effectively in his debut, including touchdown completions of 78 and 72 yards, while Wake Forest kept him clean. The question is whether Wake Forest can create sustainable drives when those explosive plays are harder to find.\n\nWe think protection is central to that question. If Wake Forest again gives Lopez time, its receivers have shown they can generate chunk gains; if Miami forces the offense to string together shorter plays, our numbers favor the defense\u2019s ability to prevent quality scoring chances.",
     "guide_status": [
       "No guide found for Miami Hurricanes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami.pdf",
       "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
-      "Guide for Wake Forest Demon Deacons was found but may not match the current opponent. The guide is for Wake Forest's Sept. 12, 2026 road game against Purdue, identified as Game 2. Miami is listed as Wake Forest's following game on Sept. 18, 2026, but the document contains no dedicated Miami opponent preview."
+      "Guide for Wake Forest Demon Deacons was found but may not match the current opponent. The guide is intended for Wake Forest's Week 2 road game against Purdue on Sept. 12, 2026. Its cover identifies Purdue as the opponent and its opponent section is devoted to the Boilermakers. Miami is only listed as Wake Forest's following game on Sept. 18, 2026."
     ],
     "guide_extractions": [
       {
         "source_team": "Wake Forest Demon Deacons",
         "opponent": "Miami Hurricanes",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is for Wake Forest's Sept. 12, 2026 road game against Purdue, identified as Game 2. Miami is listed as Wake Forest's following game on Sept. 18, 2026, but the document contains no dedicated Miami opponent preview.",
+        "document_match_reason": "The guide is intended for Wake Forest's Week 2 road game against Purdue on Sept. 12, 2026. Its cover identifies Purdue as the opponent and its opponent section is devoted to the Boilermakers. Miami is only listed as Wake Forest's following game on Sept. 18, 2026.",
         "recent_game": [
           {
-            "fact": "Wake Forest opened the 2026 season with a 38-16 home victory over Akron on Sept. 3.",
+            "fact": "Wake Forest opened the 2026 season with a 38-16 victory over Akron on Sept. 3.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
             "fact": "Wake Forest produced 559 total yards against Akron, including 356 passing yards and 203 rushing yards.",
-            "page": 3,
+            "page": 2,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest allowed 305 total yards against Akron: 149 rushing and 156 passing.",
+            "fact": "Wake Forest allowed Akron 305 total yards, including 149 rushing and 156 passing, while recording two sacks and seven tackles for loss.",
             "page": 2,
             "category": "recent_game",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Wake Forest converted 7 of 15 third downs, went 2-for-2 on fourth down and committed no turnovers against Akron.",
+            "fact": "Wake Forest committed no turnovers and recovered one Akron fumble.",
             "page": 2,
             "category": "recent_game",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "opponent_notes": [],
@@ -67,7 +67,7 @@
             "importance": "high"
           },
           {
-            "fact": "Lopez's 78-yard touchdown pass to Carlos Hernandez against Akron was the longest completion of Lopez's college career.",
+            "fact": "Lopez's 78-yard touchdown pass to Carlos Hernandez against Akron was the longest completion of his collegiate career.",
             "page": 1,
             "category": "quarterback",
             "importance": "medium"
@@ -79,7 +79,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest's unofficial depth chart lists redshirt freshman Steele Pizzella as Lopez's backup.",
+            "fact": "The unofficial depth chart lists redshirt freshman Steele Pizzella as Lopez's backup.",
             "page": 19,
             "category": "quarterback",
             "importance": "medium"
@@ -87,78 +87,96 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Running back Ty Clark III rushed seven times for a career-high 105 yards against Akron, including a career-long 57-yard run.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Wide receiver Carlos Hernandez caught five passes for 165 yards and a touchdown against Akron and added 18 punt-return yards.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Hernandez has caught at least five passes in each of his last five games, averaging 107.6 receiving yards with five touchdowns over that span.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest's unofficial starting receiver group is Carlos Hernandez, Antonio Meeks and Kam Shanks, with Ty Clark III listed as the starting running back.",
+            "fact": "The unofficial offensive line lists Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
             "page": 19,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Wide receiver Ny Carr joined Wake Forest after previously playing at Miami.",
-            "page": 17,
+            "fact": "Center Will Way joined Wake Forest from Weber State in January 2026 and was selected as a team captain.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wake Forest did not allow a sack in its season opener against Akron.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The unofficial depth chart lists Carlos Hernandez, Antonio Meeks and Kam Shanks as the first receivers at the Z, X and H positions, respectively.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Clark III is listed first at running back after rushing seven times for a career-high 105 yards against Akron, including a 57-yard run.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Carlos Hernandez caught five passes for 165 yards and a touchdown against Akron, including a 78-yard touchdown, and added 18 punt-return yards.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Antonio Meeks recorded 93 receiving yards against Akron.",
+            "page": 3,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Wake Forest's six captains include defensive end Langston Hardy, linebacker Aiden Hall and defensive back Davaughn Patterson.",
-            "page": 1,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "The unofficial defensive depth chart lists Langston Hardy and Gabe Kirschke at defensive end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
+            "fact": "The unofficial defensive front lists Langston Hardy and Gabe Kirschke at end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
             "page": 19,
             "category": "defensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "The unofficial depth chart lists Frank Cusano and Aiden Hall at linebacker, Braylon Johnson at Star, Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
+            "fact": "The unofficial depth chart lists Frank Cusano and Aiden Hall at linebacker, Braylon Johnson at star, Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
             "page": 19,
             "category": "defensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Aiden Hall became a starter in 2025 and finished that season with 73 tackles, eight tackles for loss and three passes defended.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "medium"
+          },
+          {
+            "fact": "Rushaun Tongue recovered Wake Forest's only forced turnover against Akron.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Against Akron, Vincent Firenze recorded nine tackles and forced a fumble, while Frank Cusano also recorded nine tackles.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Jake Dickert is in his second season as Wake Forest's head coach after being hired Dec. 18, 2024.",
-            "page": 1,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Rob Ezell is Wake Forest's offensive coordinator, Dan Enos is co-offensive coordinator and quarterbacks coach, Scottie Hazelton is defensive coordinator, and Freddie Banks is co-defensive coordinator and safeties coach.",
-            "page": 10,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach in 2026 after coaching East Carolina's receivers from 2023 through 2025.",
+            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach for the 2026 season after coaching East Carolina's receivers from 2023 through 2025.",
             "page": 12,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jake Dickert is in his second season as Wake Forest's head coach after leading the team to a 9-4 record and a Duke's Mayo Bowl victory in 2025.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Rob Ezell is Wake Forest's offensive coordinator, Scottie Hazelton is defensive coordinator and Freddie Banks is co-defensive coordinator and safeties coach.",
+            "page": 10,
             "category": "coaching_changes",
             "importance": "medium"
           }
@@ -166,103 +184,60 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Through one game in 2026, Wake Forest averaged 559 total yards, 356 passing yards, 203 rushing yards and 38 points.",
-            "page": 3,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest allowed no sacks in its season opener against Akron.",
-            "page": 3,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest's unofficial starting offensive line is left tackle Tolu Olajide, left guard Clinton Richard, center Will Way, right guard Ryan Berger and right tackle Aidan Martin.",
-            "page": 19,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Center Will Way transferred to Wake Forest from Weber State in January 2026 and was elected a team captain.",
-            "page": 1,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest's 2025 offensive line allowed 17 sacks after allowing 42 in 2024.",
-            "page": 8,
+            "fact": "Wake Forest converted 7 of 15 third downs and both of its fourth-down attempts against Akron.",
+            "page": 2,
             "category": "offensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "Wake Forest scored on four of five red-zone possessions against Akron.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wake Forest's season-opening passing attack produced touchdown completions of 78 yards to Carlos Hernandez and 72 yards to Antonio Meeks.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Against Akron, Wake Forest recorded seven tackles for loss, two sacks and one takeaway.",
+            "fact": "Wake Forest allowed Akron to convert 6 of 14 third downs and score on all three of its red-zone possessions.",
             "page": 2,
             "category": "defensive_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Rushaun Tongue recovered Wake Forest's forced fumble against Akron.",
+            "fact": "Wake Forest forced at least one turnover in 70 of its previous 84 games through the Akron opener.",
             "page": 5,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Wake Forest's 2025 defense finished in the ACC's top five in total defense and pass defense and held seven of 13 opponents to 14 points or fewer.",
-            "page": 9,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Wake Forest did not allow a touchdown in consecutive 2025 ACC games against Virginia and North Carolina.",
-            "page": 9,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Kicker Connor Calvert made three field goals against Akron and scored 12 points.",
+            "fact": "Connor Calvert made three field goals against Akron and scored 12 points.",
             "page": 3,
             "category": "special_teams",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Wake Forest averaged 22.0 yards per punt return and posted a 49.0-yard net punting average against Akron.",
-            "page": 2,
+            "fact": "Freshman Ethan Hyams is listed as the first punter, with Jack Ploszay behind him; Wake Forest recorded a 49.0-yard net punting average against Akron.",
+            "page": 19,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "The unofficial depth chart lists Carlos Hernandez as the primary punt returner, Koredell Bartley as the primary kickoff returner, Connor Calvert as placekicker and freshman Ethan Hyams as punter.",
+            "fact": "The unofficial depth chart lists Koredell Bartley as the primary kickoff returner and Carlos Hernandez as the primary punt returner.",
             "page": 19,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
-        "series_context": [
-          {
-            "fact": "Wake Forest's 2026 schedule lists its all-time series record against Miami as 3-9.",
-            "page": 3,
-            "category": "series_context",
-            "importance": "low"
-          }
-        ],
+        "series_context": [],
         "other_relevant": [
-          {
-            "fact": "Wake Forest is scheduled to host Miami at Allegacy Stadium on Sept. 18, 2026 at 7:30 p.m.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest entered its second game with a 1-0 overall record and a 0-0 ACC record.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
           {
             "fact": "Wake Forest had eight returning starters entering the 2026 season.",
             "page": 18,
@@ -275,23 +250,23 @@
     ],
     "matchup_angles": [
       {
-        "dimension": "Wake Forest rushing offense vs Miami rush defense",
-        "off_team": "Wake Forest",
-        "def_team": "Miami",
-        "off_rank": 74,
-        "def_rank": 17,
-        "stat": "rush EPA",
-        "rank_gap": 57,
-        "direction": "mixed",
-        "matchup_score": 57
-      },
-      {
         "dimension": "Wake Forest passing offense vs Miami pass defense",
         "off_team": "Wake Forest",
         "def_team": "Miami",
-        "off_rank": 62,
-        "def_rank": 16,
+        "off_rank": 79,
+        "def_rank": 22,
         "stat": "pass EPA",
+        "rank_gap": 57,
+        "direction": "defense_advantage",
+        "matchup_score": 157
+      },
+      {
+        "dimension": "Wake Forest rushing offense vs Miami rush defense",
+        "off_team": "Wake Forest",
+        "def_team": "Miami",
+        "off_rank": 67,
+        "def_rank": 21,
+        "stat": "rush EPA",
         "rank_gap": 46,
         "direction": "mixed",
         "matchup_score": 46
@@ -310,18 +285,9 @@
     ],
     "used_sources": [
       {
-        "fact_id": 1,
-        "fact": "Wake Forest opened the 2026 season with a 38-16 home victory over Akron on Sept. 3.",
-        "page": 1,
-        "category": "recent_game",
-        "importance": "high",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      },
-      {
         "fact_id": 2,
         "fact": "Wake Forest produced 559 total yards against Akron, including 356 passing yards and 203 rushing yards.",
-        "page": 3,
+        "page": 2,
         "category": "recent_game",
         "importance": "high",
         "source_file": "Wake Forest.pdf",
@@ -337,29 +303,20 @@
         "source_team": "Wake Forest Demon Deacons"
       },
       {
-        "fact_id": 8,
-        "fact": "Lopez previously played under current Wake Forest offensive coordinator Rob Ezell at South Alabama.",
-        "page": 1,
-        "category": "quarterback",
-        "importance": "medium",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      },
-      {
-        "fact_id": 23,
-        "fact": "Wake Forest allowed no sacks in its season opener against Akron.",
+        "fact_id": 12,
+        "fact": "Wake Forest did not allow a sack in its season opener against Akron.",
         "page": 3,
-        "category": "offensive_context",
+        "category": "offensive_personnel",
         "importance": "high",
         "source_file": "Wake Forest.pdf",
         "source_team": "Wake Forest Demon Deacons"
       },
       {
-        "fact_id": 29,
-        "fact": "Wake Forest's 2025 defense finished in the ACC's top five in total defense and pass defense and held seven of 13 opponents to 14 points or fewer.",
-        "page": 9,
-        "category": "defensive_context",
-        "importance": "medium",
+        "fact_id": 27,
+        "fact": "Wake Forest's season-opening passing attack produced touchdown completions of 78 yards to Carlos Hernandez and 72 yards to Antonio Meeks.",
+        "page": 16,
+        "category": "offensive_context",
+        "importance": "high",
         "source_file": "Wake Forest.pdf",
         "source_team": "Wake Forest Demon Deacons"
       }
@@ -369,12 +326,12 @@
       "model_side": "Wake Forest",
       "opponent_full": "Miami Hurricanes",
       "opponent": "Miami",
-      "model_prediction": 21.5,
-      "market_line": 22.0,
-      "best_available_line": 22.5,
-      "best_available_price": "-110",
-      "cover_probability": 0.52856104,
-      "edge": 0.0047515161904762,
+      "model_prediction": 20.5,
+      "market_line": 20.5,
+      "best_available_line": 20.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.50740788,
+      "edge": -0.0047872419512194,
       "bet_status": "PASS"
     }
   }

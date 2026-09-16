@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Houston-Texas Tech.
 
-We make Houston +7.5. The market is +8.
+We make Houston +7. The market is +7.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
