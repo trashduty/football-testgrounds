@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on UT San Antonio-Texas.
 
-We make Texas -30.5. The market is -30.5.
+We make UT San Antonio +30.5. The market is +30.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

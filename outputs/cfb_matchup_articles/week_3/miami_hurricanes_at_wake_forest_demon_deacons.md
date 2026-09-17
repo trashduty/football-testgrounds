@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Hurricanes | -20.5 (-110) | BetMGM | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wake Forest Demon Deacons | +20.5 (-105) | Fanatics | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Miami Hurricanes | -21.0 (+102) | DraftKings | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wake Forest Demon Deacons | +20.5 (-105) | BetMGM | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,9 +15,9 @@ The Miami Hurricanes visit the Wake Forest Demon Deacons at Allegacy Federal Cre
 
 The best number we found is Wake Forest +20.5 at -105. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We understand the case for Wake Forest after an opener in which the offense produced 559 yards and committed no turnovers. Gio Lopez completed 21 of 32 passes for 350 yards and three touchdowns without an interception, while also adding 39 rushing yards. Those results show the offense has playmaking potential, but we are not treating one game against Akron as proof that the same efficiency will carry into this matchup.
+We see Wake Forest’s opener as encouraging context, not proof that the offense will translate against Miami. Wake Forest produced 559 yards, Gio Lopez threw for 350 yards and three touchdowns without an interception, and the offensive line allowed no sacks. Still, our efficiency numbers give Miami the advantage against both the pass and the run, with the clearest concern coming when Wake Forest tries to create scoring opportunities.
 
-Our longer-run numbers present a much tougher picture. Miami holds the advantage against both the run and pass, and its ability to prevent scoring opportunities is particularly important when evaluating whether Wake Forest can stay within the market's expectation. For us, the encouraging opener is balanced by matchup indicators that favor Miami, leaving our view essentially aligned with the current price and without enough value to justify a position.
+The more interesting part is Wake Forest’s explosiveness. It generated four plays of at least 30 yards against Akron, giving the offense a plausible way to shorten drives and create variance. But those bursts came in one game, and our longer-run view is considerably more favorable toward Miami’s pass defense than Wake Forest’s passing offense. Because our expectation is effectively aligned with the market, we do not see enough disagreement at the current price to justify a position.
 
 ### What The Numbers Say
 
@@ -69,11 +69,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Lopez and the Wake Forest passing game against Miami's pass defense. Carlos Hernandez has caught at least five passes in five consecutive games, and Wake Forest did not allow a sack in its opener, but our efficiency numbers still give Miami a clear advantage in this phase. If Miami limits explosive completions and forces Wake Forest to sustain drives, it becomes much harder for the home offense to outperform what the market is already pricing.
+We are watching Lopez and Wake Forest’s downfield passing game against Miami’s pass defense. Lopez’s debut included a 78-yard touchdown to Carlos Hernandez, while Hernandez finished with 165 receiving yards. Those explosive connections matter because Wake Forest may need chunk gains rather than consistently efficient drives against a defense our numbers rate well.
+
+For us, the question is whether Wake Forest can produce enough of those plays without relying on an outlier rate. If Miami limits the explosives and forces longer possessions, the matchup tilts toward the defensive advantage reflected in our numbers.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

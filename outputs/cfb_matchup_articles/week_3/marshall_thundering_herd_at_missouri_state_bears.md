@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Marshall Thundering Herd | -4.5 (-108) | BetMGM | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Missouri State Bears | +4.5 (-110) | BetMGM | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Marshall Thundering Herd | -4.0 (-110) | BetMGM | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Missouri State Bears | +4.5 (-110) | FanDuel | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Marshall Thundering Herd visit the Missouri State Bears at Plaster Sports Complex. We make **Missouri State +4.5**, compared with a market line of +4.5.
+The Marshall Thundering Herd visit the Missouri State Bears at Plaster Sports Complex. We make **Missouri State +4.5**, compared with a market line of +4.
 
 The best number we found is Missouri State +4.5 at -110. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

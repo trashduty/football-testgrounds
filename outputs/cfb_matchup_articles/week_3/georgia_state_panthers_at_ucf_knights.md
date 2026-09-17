@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Georgia State Panthers | +17.5 (-105) | DraftKings | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UCF Knights | -17.5 (-115) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UCF Knights | -17.5 (-109) | BetRivers | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia State Panthers visit the UCF Knights at FBC Mortgage Stadium. We make **Georgia State +18.5**, compared with a market line of +17.5.
+The Georgia State Panthers visit the UCF Knights at FBC Mortgage Stadium. We make **UCF -18.5**, compared with a market line of -17.5.
 
-The best number we found is Georgia State +17.5 at -105. We see a -1.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UCF -17.5 at -109. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Georgia State</th>
 <th>UCF</th>
+<th>Georgia State</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#89</td>
 <td>#127</td>
+<td class="btb-better">#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#43</td>
 <td>#85</td>
+<td class="btb-better">#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#101</td>
 <td class="btb-better">#50</td>
+<td>#101</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#87</td>
 <td class="btb-better">#81</td>
+<td>#87</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#98</td>
 <td>#122</td>
+<td class="btb-better">#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#94</td>
 <td class="btb-better">#77</td>
+<td>#94</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

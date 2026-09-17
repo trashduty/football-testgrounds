@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on USC-Rutgers.
+Our model is 3 points away from the market on USC-Rutgers.
 
-We make USC -26.5. The market is -24.
+We make USC -25.5. The market is -22.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

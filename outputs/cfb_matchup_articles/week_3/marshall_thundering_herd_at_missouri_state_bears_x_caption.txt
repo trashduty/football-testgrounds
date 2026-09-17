@@ -1,6 +1,6 @@
-Our model is 0 points away from the market on Marshall-Missouri State.
+Our model is 0.5 points away from the market on Marshall-Missouri State.
 
-We make Missouri State +4.5. The market is +4.5.
+We make Missouri State +4.5. The market is +4.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

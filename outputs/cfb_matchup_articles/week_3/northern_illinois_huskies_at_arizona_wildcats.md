@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Northern Illinois Huskies visit the Arizona Wildcats at Arizona Stadium. We make **Northern Illinois +31.5**, compared with a market line of +34.5.
+The Northern Illinois Huskies visit the Arizona Wildcats at Arizona Stadium. We make **Northern Illinois +31.5**, compared with a market line of +34.
 
 The best number we found is Northern Illinois +34.5 at -112. We give Northern Illinois a 57.1% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Northern Illinois is a bet.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **16 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

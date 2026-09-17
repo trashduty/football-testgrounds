@@ -1,6 +1,6 @@
 Our model is 1 points away from the market on New Mexico-Oklahoma.
 
-We make Oklahoma -23.5. The market is -22.5.
+We make Oklahoma -23. The market is -22.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

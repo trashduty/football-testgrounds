@@ -1,9 +1,9 @@
-Our model is 2.5 points away from the market on James Madison-San Diego State.
+Our model is 3 points away from the market on James Madison-San Diego State.
 
-We make San Diego State -4.5. The market is -2.
+We make San Diego State -4.5. The market is -1.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: San Diego State -1.5 -110. We give it a 56.0% chance to cover with a 3.6% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓
