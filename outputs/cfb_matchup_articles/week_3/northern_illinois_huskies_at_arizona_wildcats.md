@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Northern Illinois Huskies | +34.5 (-112) | BetRivers | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Arizona Wildcats | -34.5 (-105) | FanDuel | 43.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Northern Illinois Huskies | +33.5 (-108) | DraftKings | 56.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Arizona Wildcats | -33.5 (-108) | BetMGM | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Northern Illinois Huskies visit the Arizona Wildcats at Arizona Stadium. We make **Northern Illinois +31.5**, compared with a market line of +34.
+The Northern Illinois Huskies visit the Arizona Wildcats at Arizona Stadium. We make **Northern Illinois +31**, compared with a market line of +33.5.
 
-The best number we found is Northern Illinois +34.5 at -112. We give Northern Illinois a 57.1% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Northern Illinois is a bet.
+The best number we found is Northern Illinois +33.5 at -108. We give Northern Illinois a 56.0% chance to cover, which creates an 4.1% edge for us. That clears our 3% threshold, so Northern Illinois is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#130</td>
-<td class="btb-better">#38</td>
+<td class="btb-better">#37</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#124</td>
+<td>#125</td>
 <td class="btb-better">#22</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#124</td>
-<td class="btb-better">#26</td>
+<td class="btb-better">#25</td>
 </tr>
 </tbody>
 </table>

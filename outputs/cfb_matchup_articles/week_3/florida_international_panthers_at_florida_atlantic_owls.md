@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida International Panthers | +6.5 (-104) | FanDuel | 54.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Florida Atlantic Owls | -6.5 (-113) | BetRivers | 46.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida International Panthers | +6.5 (-106) | FanDuel | 54.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Florida Atlantic Owls | -6.5 (-110) | BetMGM | 46.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Florida International Panthers visit the Florida Atlantic Owls at FAU Stadium. We make **Florida InternationaL +5**, compared with a market line of +6.5.
 
-The best number we found is Florida InternationaL +6.5 at -104. We give Florida InternationaL a 54.1% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so Florida InternationaL is a bet.
+The best number we found is Florida InternationaL +6.5 at -106. We see a 2.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#52</td>
-<td class="btb-better">#47</td>
+<td>#51</td>
+<td class="btb-better">#46</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>

@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on North Carolina-Clemson.
 
-We make North Carolina +3. The market is +3.
+We make Clemson -3.5. The market is -3.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

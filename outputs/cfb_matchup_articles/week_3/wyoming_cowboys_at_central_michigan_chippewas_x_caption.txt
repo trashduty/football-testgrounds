@@ -1,6 +1,6 @@
-Our model is 0 points away from the market on Wyoming-Central Michigan.
+Our model is 0.5 points away from the market on Wyoming-Central Michigan.
 
-We make Central Michigan -1.5. The market is -1.5.
+We make Central Michigan +0.5. The market is +1.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

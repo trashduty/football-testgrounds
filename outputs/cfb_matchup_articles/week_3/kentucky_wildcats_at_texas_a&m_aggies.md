@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kentucky Wildcats | +16.5 (-102) | DraftKings | 40.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas A&M Aggies | -16.5 (-113) | BetRivers | 59.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kentucky Wildcats | +16.5 (+100) | FanDuel | 39.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | -17.5 (-105) | DraftKings | 57.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Kentucky Wildcats visit the Texas A&M Aggies at Kyle Field. We make **Texas A&M -21.5**, compared with a market line of -16.5.
+The Kentucky Wildcats visit the Texas A&M Aggies at Kyle Field. We make **Texas A&M -22**, compared with a market line of -17.
 
-The best number we found is Texas A&M -16.5 at -113. We give Texas A&M a 59.0% chance to cover, which creates an 5.9% edge for us. That clears our 3% threshold, so Texas A&M is a bet.
+The best number we found is Texas A&M -17.5 at -105. We give Texas A&M a 57.8% chance to cover, which creates an 6.6% edge for us. That clears our 3% threshold, so Texas A&M is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#20</td>
-<td>#56</td>
+<td>#55</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -48,7 +48,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#40</td>
-<td>#91</td>
+<td>#90</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#2</td>
-<td>#83</td>
+<td>#82</td>
 </tr>
 </tbody>
 </table>

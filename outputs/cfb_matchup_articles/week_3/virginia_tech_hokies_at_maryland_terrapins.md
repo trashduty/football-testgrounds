@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Tech Hokies | -2.5 (-122) | FanDuel | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Tech Hokies | -3.0 (-102) | BetMGM | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Maryland Terrapins | +2.5 (+100) | FanDuel | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -15,7 +15,9 @@ The Virginia Tech Hokies visit the Maryland Terrapins at SECU Stadium. We make *
 
 The best number we found is Maryland +2.5 at +100. We give Maryland a 54.7% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Maryland is a bet.
 
-For us, the case for Maryland starts with offensive stability rather than its unbeaten record. Malik Washington has completed 53 of 72 passes for 533 yards, three touchdowns and no interceptions, while Maryland has yet to commit a turnover. The supporting cast has also produced, with Na'eem Abdul-Rahim Gladding and Chris Durr Jr. combining for 18 catches, 236 yards and two touchdowns at UConn. That matters against a Virginia Tech defense our numbers rate poorly at preventing scoring opportunities.
+We are not reacting simply to Maryland’s unbeaten start. What stands out to us is the early stability of its passing game: Malik Washington has completed 53 of 72 passes for 533 yards, three touchdowns and no interceptions, while Maryland has converted 55.2 percent of its third downs and played turnover-free football in both games. That does not guarantee the same efficiency against Virginia Tech, but it supports our view that Maryland can sustain enough offense to challenge the market’s assessment.
+
+For us, the case is less about Maryland’s rushing attack and more about Washington distributing the ball to Na’eem Abdul-Rahim Gladding and Chris Durr Jr., who have combined for 30 catches and 334 yards. The meaningful concern is Virginia Tech’s pass rush, which leads the FBS with 12 sacks. If Maryland protects Washington reasonably well, we think its passing-game consistency and ability to create scoring opportunities give it a credible path to outperform the market.
 
 ### What The Numbers Say
 
@@ -57,7 +59,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#92</td>
+<td class="btb-better">#91</td>
 <td>#126</td>
 </tr>
 </tbody>
@@ -67,7 +69,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Maryland’s passing game against Virginia Tech’s pressure. The Hokies lead the FBS with 12 sacks through two games, so Washington’s ability to avoid negative plays will be central to whether Maryland can sustain drives. Maryland has converted 55.2 percent of its third downs so far, but Virginia Tech presents a more serious disruption test.
+We are watching Virginia Tech’s rushing offense against Maryland’s front. Overton Jr. has rushed for 151 yards at 6.57 yards per carry, and our efficiency numbers identify the ground game as Virginia Tech’s clearest advantage. Maryland has allowed only 38.5 rushing yards per game through two weeks, but we do not treat that small early sample as proof that the concern is gone.
+
+If Maryland can limit efficient runs and force passing downs, its early production of 10 sacks and an opponent third-down conversion rate of 26.9 percent becomes more relevant. If Virginia Tech consistently stays ahead of schedule on the ground, that would be the strongest challenge to our position.
 
 ## Best Bets Of The Week
 

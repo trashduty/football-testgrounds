@@ -6,18 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Hurricanes | -21.0 (+102) | DraftKings | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wake Forest Demon Deacons | +20.5 (-105) | BetMGM | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Miami Hurricanes | -20.5 (-108) | BetMGM | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wake Forest Demon Deacons | +20.5 (-108) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Miami Hurricanes visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Wake Forest +20.5**, compared with a market line of +20.5.
 
-The best number we found is Wake Forest +20.5 at -105. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wake Forest +20.5 at -108. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We see Wake Forest’s opener as encouraging context, not proof that the offense will translate against Miami. Wake Forest produced 559 yards, Gio Lopez threw for 350 yards and three touchdowns without an interception, and the offensive line allowed no sacks. Still, our efficiency numbers give Miami the advantage against both the pass and the run, with the clearest concern coming when Wake Forest tries to create scoring opportunities.
+What stands out to us is how closely the market already reflects our overall view. Wake Forest’s opener showed legitimate offensive upside: the offense produced 559 yards, while Gio Lopez threw for 350 yards and three touchdowns without an interception. We also saw an offensive line that did not allow a sack. Still, we are treating that performance against Akron as context rather than proof that the same efficiency will carry into a substantially more difficult matchup.
 
-The more interesting part is Wake Forest’s explosiveness. It generated four plays of at least 30 yards against Akron, giving the offense a plausible way to shorten drives and create variance. But those bursts came in one game, and our longer-run view is considerably more favorable toward Miami’s pass defense than Wake Forest’s passing offense. Because our expectation is effectively aligned with the market, we do not see enough disagreement at the current price to justify a position.
+For us, the main constraint is Wake Forest’s ability to sustain drives against a Miami defense our longer-run numbers rate favorably against both the pass and the run. Miami also holds a clear numerical advantage in preventing scoring opportunities, which matters when the market is asking Wake Forest to remain competitive for four quarters. Wake Forest generated touchdown passes of 78 and 72 yards in its opener, but relying on explosive plays is different from consistently creating quality possessions. We do not see enough separation between our expectation and the market’s to justify a position.
 
 ### What The Numbers Say
 
@@ -39,7 +39,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#67</td>
+<td>#68</td>
 <td class="btb-better">#54</td>
 </tr>
 <tr>
@@ -55,11 +55,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#49</td>
-<td class="btb-better">#18</td>
+<td class="btb-better">#19</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#55</td>
+<td>#54</td>
 <td class="btb-better">#4</td>
 </tr>
 </tbody>
@@ -69,9 +69,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Lopez and Wake Forest’s downfield passing game against Miami’s pass defense. Lopez’s debut included a 78-yard touchdown to Carlos Hernandez, while Hernandez finished with 165 receiving yards. Those explosive connections matter because Wake Forest may need chunk gains rather than consistently efficient drives against a defense our numbers rate well.
+We are watching Wake Forest’s passing offense against Miami’s pass defense. Lopez’s debut was efficient and explosive, but our numbers identify this as the clearest area in which Miami can disrupt what worked in the opener. The question for us is whether Wake Forest can stay efficient when explosive completions are harder to find.
 
-For us, the question is whether Wake Forest can produce enough of those plays without relying on an outlier rate. If Miami limits the explosives and forces longer possessions, the matchup tilts toward the defensive advantage reflected in our numbers.
+We will also be watching protection closely. Wake Forest kept Lopez clean against Akron, but maintaining that stability is important because the passing matchup already leans toward Miami in our numbers. If Wake Forest cannot create manageable situations through the air, its path to staying inside the market expectation becomes considerably narrower.
 
 ## Best Bets Of The Week
 

@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Michigan Broncos | -8.5 (-113) | BetRivers | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Rice Owls | +9.5 (-110) | BetMGM | 55.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Western Michigan Broncos | -8.0 (-115) | BetRivers | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Rice Owls | +9.5 (-110) | FanDuel | 55.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#136</td>
-<td class="btb-better">#27</td>
+<td class="btb-better">#28</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#132</td>
+<td>#133</td>
 <td class="btb-better">#25</td>
 </tr>
 <tr>

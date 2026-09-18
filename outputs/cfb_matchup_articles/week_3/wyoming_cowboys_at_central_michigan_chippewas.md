@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | +1.5 (-110) | FanDuel | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Central Michigan Chippewas | -1.5 (-105) | DraftKings | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wyoming Cowboys | -1.5 (-105) | DraftKings | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Central Michigan Chippewas | +1.5 (-110) | FanDuel | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wyoming Cowboys visit the Central Michigan Chippewas at Kelly/Shorts Stadium. We make **Central Michigan -1.5**, compared with a market line of -1.5.
+The Wyoming Cowboys visit the Central Michigan Chippewas at Kelly/Shorts Stadium. We make **Central Michigan +0.5**, compared with a market line of +1.
 
-The best number we found is Central Michigan -1.5 at -105. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Central Michigan +1.5 at -110. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#46</td>
-<td>#52</td>
+<td class="btb-better">#45</td>
+<td>#51</td>
 </tr>
 </tbody>
 </table>

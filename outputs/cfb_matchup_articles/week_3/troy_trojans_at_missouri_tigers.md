@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Troy Trojans | +27.5 (-110) | Fanatics | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Missouri Tigers | -27.5 (-102) | DraftKings | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Troy Trojans | +27.5 (-110) | BetMGM | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Missouri Tigers | -26.5 (-110) | BetRivers | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,9 +15,11 @@ The Troy Trojans visit the Missouri Tigers at Memorial Stadium. We make **Troy +
 
 The best number we found is Troy +27.5 at -110. We give Troy a 55.6% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Troy is a bet.
 
-We are not reacting against Missouri simply because the opener was lopsided. Missouri produced 562 yards in a 54-14 win, while Austin Simmons completed 17 of 19 passes for 252 yards and four touchdowns. That performance showed the offense can be efficient, but one game against Arkansas-Pine Bluff does not fully resolve the uncertainty surrounding a new starting quarterback, a new offensive coordinator and a unit that returned only five starters.
+We are not ignoring how convincing Missouri looked in its opener. Missouri led 40-0 at halftime and held a 376-6 yardage advantage over the first 30 minutes. That performance showed the Tigers’ ceiling, but for us, it is context rather than proof that they should command such a demanding margin here.
 
-For us, the case for Troy is less about expecting offensive success and more about questioning how much separation Missouri should be expected to create. Our numbers give Missouri clear advantages against a Troy offense that has struggled to generate efficient passing plays and consistent scoring opportunities. The meaningful counterweight is that Missouri replaced 10 starters from last season’s defense, making it difficult to treat the current unit as fully established despite a strong opening performance. We think the market is charging too much for Missouri’s likely control of the game.
+What stands out to us is the uncertainty behind Missouri’s defensive results. Only two listed defensive starters returned from 2025, with 10 departing, so we are cautious about treating one dominant outing as confirmation that the rebuilt unit is already operating at last season’s level. Our concern is that Troy’s offense may struggle to test that uncertainty: our numbers rate its passing efficiency and scoring-opportunity creation poorly against clear strengths in Missouri’s defense.
+
+Missouri also replaced six offensive starters, although Austin Simmons eased some of those concerns by completing 17 of 19 passes for four touchdowns in his debut. We see Missouri as the stronger team and recognize the possibility of another one-sided result. Our position is instead about whether the market is requiring too much separation from a roster with substantial turnover after one dominant performance.
 
 ### What The Numbers Say
 
@@ -59,7 +61,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#86</td>
+<td>#85</td>
 <td class="btb-better">#17</td>
 </tr>
 </tbody>
@@ -69,9 +71,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-The matchup we are watching is Troy’s passing offense against Missouri’s pass defense. Missouri held Arkansas-Pine Bluff to 109 passing yards and a 23 percent third-down conversion rate, and our longer-run numbers also favor the defense here. Troy’s challenge is not necessarily producing explosive offense; it is avoiding repeated empty possessions that allow Missouri to build the margin quickly.
-
-That is also the biggest concern for our position. If Troy cannot stay functional through the air, Missouri’s defensive advantage can overwhelm the broader case for taking the points. We still see enough uncertainty in Missouri’s rebuilt defense to believe the available cushion matters.
+We are watching Troy’s passing offense against Missouri’s pass defense. Our matchup numbers strongly favor Missouri, so Troy does not need to control this phase for our position to work; it does need enough functional passing offense to extend drives and avoid letting Missouri repeatedly play on short fields. If Missouri’s rebuilt defense immediately validates its early results, that is the clearest threat to our view. If Troy can create even modest offensive resistance, the market’s expectation becomes harder to reach.
 
 ## Best Bets Of The Week
 

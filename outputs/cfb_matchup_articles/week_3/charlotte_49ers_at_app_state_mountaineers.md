@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Charlotte 49ers | +17.5 (-110) | BetMGM | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| App State Mountaineers | -17.5 (-108) | BetMGM | 43.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +17.5 (-110) | BetRivers | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| App State Mountaineers | -17.5 (+100) | DraftKings | 43.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#135</td>
-<td class="btb-better">#43</td>
+<td class="btb-better">#42</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#113</td>
+<td>#114</td>
 <td class="btb-better">#47</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#138</td>
-<td class="btb-better">#98</td>
+<td class="btb-better">#97</td>
 </tr>
 </tbody>
 </table>

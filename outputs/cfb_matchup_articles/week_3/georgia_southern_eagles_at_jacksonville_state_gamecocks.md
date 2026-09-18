@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Southern Eagles | +3.5 (-115) | BetMGM | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Jacksonville State Gamecocks | -3.5 (-105) | BetMGM | 52.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Georgia Southern Eagles | +3.5 (-112) | BetMGM | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Jacksonville State Gamecocks | -3.5 (-102) | DraftKings | 52.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Georgia Southern Eagles visit the Jacksonville State Gamecocks at AmFirst Stadium. We make **Jacksonville Stat -6**, compared with a market line of -3.5.
 
-The best number we found is Jacksonville Stat -3.5 at -105. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Jacksonville Stat -3.5 at -102. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,11 +33,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#32</td>
-<td>#59</td>
+<td>#58</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#71</td>
+<td class="btb-better">#67</td>
 <td>#104</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#72</td>
+<td class="btb-better">#60</td>
 <td>#117</td>
 </tr>
 </tbody>

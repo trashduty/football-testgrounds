@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bulls | +41.5 (-110) | BetMGM | 55.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Penn State Nittany Lions | -41.5 (-102) | DraftKings | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Buffalo Bulls | +40.5 (-105) | DraftKings | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Penn State Nittany Lions | -40.5 (-114) | BetRivers | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Buffalo Bulls visit the Penn State Nittany Lions at Beaver Stadium. We make **Buffalo +39**, compared with a market line of +41.
+The Buffalo Bulls visit the Penn State Nittany Lions at Beaver Stadium. We make **Buffalo +38.5**, compared with a market line of +40.5.
 
-The best number we found is Buffalo +41.5 at -110. We give Buffalo a 55.7% chance to cover, which creates an 3.3% edge for us. That clears our 3% threshold, so Buffalo is a bet.
+The best number we found is Buffalo +40.5 at -105. We give Buffalo a 54.7% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Buffalo is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -52,12 +52,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#125</td>
+<td>#126</td>
 <td class="btb-better">#42</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#47</td>
+<td class="btb-better">#46</td>
 <td>#112</td>
 </tr>
 </tbody>

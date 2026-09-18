@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#50</td>
+<td>#49</td>
 <td class="btb-better">#13</td>
 </tr>
 </tbody>

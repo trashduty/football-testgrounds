@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UTEP Miners | +34.5 (-102) | DraftKings | 54.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Michigan Wolverines | -34.5 (-115) | BetRivers | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UTEP Miners | +34.5 (+100) | FanDuel | 54.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Michigan Wolverines | -34.5 (-118) | DraftKings | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The UTEP Miners visit the Michigan Wolverines at Michigan Stadium. We make **UTEP +33**, compared with a market line of +35.
 
-The best number we found is UTEP +34.5 at -102. We give UTEP a 54.0% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so UTEP is a bet.
+The best number we found is UTEP +34.5 at +100. We give UTEP a 54.0% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so UTEP is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#84</td>
-<td class="btb-better">#32</td>
+<td>#83</td>
+<td class="btb-better">#31</td>
 </tr>
 </tbody>
 </table>

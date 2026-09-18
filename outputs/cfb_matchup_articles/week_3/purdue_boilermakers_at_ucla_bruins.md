@@ -6,18 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Purdue Boilermakers | +14.0 (-109) | BetRivers | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Purdue Boilermakers | +14.0 (-105) | DraftKings | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 | UCLA Bruins | -14.5 (+100) | FanDuel | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Purdue Boilermakers visit the UCLA Bruins at Rose Bowl. We make **Purdue +12.5**, compared with a market line of +14.
 
-The best number we found is Purdue +14.0 at -109. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Purdue +14.0 at -105. We see a 2.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for Purdue staying competitive is less about reacting to its opener and more about questioning how much separation UCLA can reliably create. Purdue produced 523 yards without a turnover against Indiana State, while Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns. We are not treating that performance as proof against stronger competition, but it provides useful evidence that a heavily reworked offense can function around an experienced quarterback.
+For us, the case for Purdue starts with quarterback continuity rather than its opening result. Ryan Browne started every game last season, then completed 23 of 29 passes for 317 yards and three touchdowns against Indiana State. That performance is encouraging context, but our longer-run efficiency numbers remain skeptical of Purdue’s passing attack, especially against a UCLA pass defense that grades as the stronger unit in that matchup.
 
-Our matchup numbers also give Purdue a potential path on the ground against UCLA’s vulnerable rush defense. The concern is on the other side: UCLA’s rushing offense and ability to generate scoring opportunities line up with two of Purdue’s weakest defensive areas in our numbers. We also cannot dismiss that Purdue was 0-5 in true road games under Barry Odom at the time of the guide. We see enough reasons to resist an aggressive UCLA valuation, but not enough separation from the market to turn that disagreement into a wager.
+The bigger concern for us is whether Purdue can consistently keep UCLA out of favorable scoring situations. Our numbers give UCLA meaningful advantages on the ground and in creating scoring opportunities. Purdue held Indiana State to 66 rushing yards, but one result does not erase that broader concern, particularly for a roster that had 16 players make their first Purdue starts in the opener. The market is asking UCLA to turn those advantages into substantial separation; our model is less convinced, but the disagreement is not large enough for us to play Purdue at the current price.
 
 ### What The Numbers Say
 
@@ -39,7 +39,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#77</td>
+<td>#78</td>
 <td class="btb-better">#61</td>
 </tr>
 <tr>
@@ -60,7 +60,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#134</td>
-<td class="btb-better">#95</td>
+<td class="btb-better">#94</td>
 </tr>
 </tbody>
 </table>
@@ -69,7 +69,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Purdue’s rushing offense against UCLA’s rush defense. Fame Ijeboi opened with 87 yards and a touchdown on 11 carries, but Purdue is operating behind a line that started three transfers and a true freshman alongside one returning lineman. If that group can create consistent rushing efficiency, Purdue has a better chance to sustain drives and limit UCLA’s opportunities to pull away. If not, the matchup shifts toward the areas where our numbers favor UCLA’s offense.
+We are watching UCLA’s rushing offense against Purdue’s front. If UCLA can run efficiently and repeatedly reach scoring range, it has the clearest path to creating the margin the market expects. Purdue’s opener offered some positive evidence—66 rushing yards allowed, with three sacks and eight tackles for loss—but we need more than one game before treating that defensive performance as a new baseline.
 
 ## Best Bets Of The Week
 

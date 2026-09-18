@@ -7,15 +7,19 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Kent State Golden Flashes | +52.5 (-108) | FanDuel | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ohio State Buckeyes | -52.0 (-108) | BetMGM | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio State Buckeyes | -52.5 (-108) | BetMGM | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Kent State Golden Flashes visit the Ohio State Buckeyes at Ohio Stadium. We make **Ohio State -53**, compared with a market line of -52.5.
 
-The best number we found is Ohio State -52.0 at -108. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ohio State -52.5 at -108. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our model’s slight lean toward Ohio State starts with the offense’s ability to create scoring opportunities against a Kent State defense that has struggled to prevent them. We see a stable foundation around Julian Sayin, who completed 77.0 percent of his passes last season, and an offensive line that entered 2026 with the highest continuity rate in the Power Four. The opener offered supporting context rather than proof: Ohio State produced 671 yards and spread receptions among 14 players.
+Our numbers see the mismatch in both directions. Kent State has struggled to create value on the ground or consistently reach scoring territory, while Ohio State grades among the strongest defenses in both areas. That combination creates the possibility of short Kent State possessions and repeated favorable field position for Ohio State.
+
+We also see considerable continuity on the other side. Ohio State returned eight offensive starters, including Julian Sayin, who completed 77.0 percent of his passes in 2025. The 671-yard performance against Ball State provides an early example of that offense producing through both the passing and running games, though we are not treating one result as proof of what follows.
+
+The issue for us is the price rather than the matchup. Ohio State replaced eight defensive starters from last season, and the market is already demanding an extreme margin. Our expectation is only slightly more favorable to Ohio State, leaving too little separation from the market once the sensitivity of such a large spread is considered. That is why we pass.
 
 ### What The Numbers Say
 
@@ -33,11 +37,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#4</td>
-<td>#61</td>
+<td>#60</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#75</td>
+<td class="btb-better">#76</td>
 <td>#126</td>
 </tr>
 <tr>
@@ -58,7 +62,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#3</td>
-<td>#90</td>
+<td>#89</td>
 </tr>
 </tbody>
 </table>
@@ -67,9 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Kent State’s rushing offense against Ohio State’s rush defense. Kent State’s rushing efficiency profile is among the weakest in the country, while Ohio State grades near the top defensively. If Kent State cannot stay ahead of schedule on the ground, sustaining possessions and limiting Ohio State’s opportunities becomes much harder.
+For us, Kent State's rushing offense against Ohio State's run defense is the matchup that best explains the potential game script. Ohio State held Ball State to 45 rushing yards in the opener, and our broader rankings show an even larger underlying advantage for the defense. If Kent State cannot generate efficient early-down runs, sustaining drives becomes difficult and Ohio State gets more chances to create separation.
 
-We still account for uncertainty because Ohio State replaced eight defensive starters from last season. The opening performance—only 45 rushing yards allowed—was encouraging, but one game does not erase that turnover. That tension helps explain why we can favor Ohio State’s matchup without finding enough separation from the market to justify a wager.
+That does not automatically make the favorite valuable. The market is already pricing a highly one-sided game, so this matchup supports the blowout case without creating enough disagreement for us to bet it.
 
 ## Best Bets Of The Week
 

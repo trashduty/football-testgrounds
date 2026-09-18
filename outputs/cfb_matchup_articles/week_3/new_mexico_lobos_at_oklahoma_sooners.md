@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Mexico Lobos | +22.5 (-112) | FanDuel | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oklahoma Sooners | -21.5 (-112) | DraftKings | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| New Mexico Lobos | +21.5 (-110) | BetMGM | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma Sooners | -21.5 (-105) | FanDuel | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The New Mexico Lobos visit the Oklahoma Sooners at Memorial Stadium (Norman, OK). We make **Oklahoma -23**, compared with a market line of -22.
+The New Mexico Lobos visit the Oklahoma Sooners at Memorial Stadium (Norman, OK). We make **Oklahoma -22.5**, compared with a market line of -21.5.
 
-The best number we found is Oklahoma -21.5 at -112. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Oklahoma -21.5 at -105. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#10</td>
+<td class="btb-better">#9</td>
 <td>#25</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#22</td>
-<td>#35</td>
+<td>#34</td>
 </tr>
 </tbody>
 </table>

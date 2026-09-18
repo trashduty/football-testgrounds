@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Florida State Seminoles | +19.5 (-108) | DraftKings | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Alabama Crimson Tide | -19.5 (-110) | Fanatics | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Alabama Crimson Tide | -18.5 (-110) | FanDuel | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Florida State Seminoles visit the Alabama Crimson Tide at Bryant-Denny Stadium. We make **Florida State +20**, compared with a market line of +19.5.
+The Florida State Seminoles visit the Alabama Crimson Tide at Bryant-Denny Stadium. We make **Alabama -20**, compared with a market line of -19.
 
-The best number we found is Florida State +19.5 at -108. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Alabama -18.5 at -110. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Florida State</th>
 <th>Alabama</th>
+<th>Florida State</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#60</td>
 <td>#70</td>
+<td class="btb-better">#59</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#57</td>
 <td>#74</td>
+<td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#88</td>
 <td class="btb-better">#5</td>
+<td>#88</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#102</td>
 <td class="btb-better">#18</td>
+<td>#102</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#43</td>
 <td>#66</td>
+<td class="btb-better">#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#33</td>
 <td class="btb-better">#16</td>
+<td>#32</td>
 </tr>
 </tbody>
 </table>

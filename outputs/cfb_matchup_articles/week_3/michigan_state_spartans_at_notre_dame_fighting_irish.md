@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Michigan State Spartans | +29.5 (-110) | FanDuel | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Notre Dame Fighting Irish | -29.0 (-108) | BetMGM | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Notre Dame Fighting Irish | -29.5 (-108) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Michigan State Spartans visit the Notre Dame Fighting Irish at Notre Dame Stadium. We make **Notre Dame -32**, compared with a market line of -29.5.
 
-The best number we found is Notre Dame -29.0 at -108. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Notre Dame -29.5 at -108. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#11</td>
+<td class="btb-better">#10</td>
 <td>#123</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#8</td>
-<td>#82</td>
+<td>#81</td>
 </tr>
 </tbody>
 </table>

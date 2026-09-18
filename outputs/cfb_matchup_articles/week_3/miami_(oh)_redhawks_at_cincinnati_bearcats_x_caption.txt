@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Miami (OH)-Cincinnati.
+Our model is 1.5 points away from the market on Miami (OH)-Cincinnati.
 
-We make Cincinnati -17. The market is -15.
+We make Cincinnati -17. The market is -15.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
