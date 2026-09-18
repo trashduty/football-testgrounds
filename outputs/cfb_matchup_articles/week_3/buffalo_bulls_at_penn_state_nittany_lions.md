@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bulls | +40.5 (-105) | DraftKings | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Buffalo Bulls | +41.5 (-110) | BetMGM | 56.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | Penn State Nittany Lions | -40.5 (-114) | BetRivers | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Buffalo Bulls visit the Penn State Nittany Lions at Beaver Stadium. We make **Buffalo +38.5**, compared with a market line of +40.5.
 
-The best number we found is Buffalo +40.5 at -105. We give Buffalo a 54.7% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Buffalo is a bet.
+The best number we found is Buffalo +41.5 at -110. We give Buffalo a 56.7% chance to cover, which creates an 4.4% edge for us. That clears our 3% threshold, so Buffalo is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

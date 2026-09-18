@@ -1,6 +1,6 @@
 Our model is 2 points away from the market on Utah State-Utah.
 
-We make Utah -29.5. The market is -27.5.
+We make Utah -30. The market is -28.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

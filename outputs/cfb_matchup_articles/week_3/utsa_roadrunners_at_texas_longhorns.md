@@ -15,11 +15,9 @@ The UTSA Roadrunners visit the Texas Longhorns at DKR-Texas Memorial Stadium. We
 
 The best number we found is Texas -30.5 at -102. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We see a clear path for Texas to create separation through the air. Our numbers rate the Texas passing offense much more favorably than UT San Antonio’s pass defense, and the opener showed the available explosiveness: Texas generated 516 yards at 7.0 yards per play, while Arch Manning threw for 305 yards and four touchdowns. That is useful context, not proof that the same production carries over automatically.
+We understand why Texas is priced this aggressively. Our longer-run numbers identify its passing offense against UT San Antonio’s pass defense as the clearest advantage in the game. Texas reinforced that potential in its opener, producing 516 yards at 7.0 yards per play while Arch Manning threw for 305 yards and four touchdowns. We view that as supporting context rather than proof, but it shows the offense has multiple ways to create separation.
 
-The concern for us is whether Texas consistently turns that advantage into enough scoring opportunities to cover a large number. Our metrics are less enthusiastic about Texas’ ability to create those opportunities, while UT San Antonio’s passing offense also has a plausible matchup against the Texas pass defense. Texas forced three turnovers in its opener, but takeaways can amplify a margin in ways we do not want to assume will repeat.
-
-That leaves our overall expectation essentially aligned with the market. We understand the case for a comfortable Texas win, but the current price already accounts for much of the passing mismatch. For us, there is not enough separation between our view and the market to justify a wager.
+The more interesting part is what keeps us from finding value. UT San Antonio’s passing offense has a potentially favorable matchup against a Texas pass defense that grades less impressively in our numbers, and Texas has not been as dominant at consistently creating scoring opportunities as its overall offensive profile might suggest. Texas can still pull away, especially given its extended run of forcing turnovers at home, but our expectation is already aligned with what the market is asking. For us, those counterweights make this a pass rather than a reason to pay the current price.
 
 ### What The Numbers Say
 
@@ -71,13 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Texas’ receivers against the UT San Antonio pass defense. Ryan Wingo caught seven passes for 121 yards and a touchdown in the opener, while Cam Coleman added 70 yards and two touchdowns on three catches. That combination gives Manning multiple ways to generate explosive plays, which is the clearest route to Texas building margin.
-
-The question is whether those passing gains produce sustained scoring rather than isolated highlights. That conversion will matter more to our view than the final yardage total alone.
+We are watching Texas’ passing game against the UT San Antonio secondary. Manning’s opener was supported by Ryan Wingo’s 121 receiving yards and Cam Coleman’s two touchdown catches, while Texas also returns four offensive-line starters from 2025. If that combination produces sustained efficiency and explosive completions, Texas has a clear path to separation. If UT San Antonio can limit those gains and force Texas to string together longer drives, the margin becomes harder to extend.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

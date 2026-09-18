@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Coastal Carolina Chanticleers | +5.5 (-112) | BetRivers | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Delaware Blue Hens | -4.5 (-105) | FanDuel | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Coastal Carolina Chanticleers | +4.5 (-104) | FanDuel | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | -4.5 (-109) | BetRivers | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Coastal Carolina Chanticleers visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware -6**, compared with a market line of -4.5.
+The Coastal Carolina Chanticleers visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware -6**, compared with a market line of -5.
 
-The best number we found is Delaware -4.5 at -105. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Delaware -4.5 at -109. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

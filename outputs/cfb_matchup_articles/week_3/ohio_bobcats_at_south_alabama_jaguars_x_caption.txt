@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on Ohio-South Alabama.
 
-We make Ohio +7. The market is +7.
+We make Ohio +6.5. The market is +6.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

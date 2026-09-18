@@ -11,15 +11,15 @@
 
 ## Our Take
 
-The Troy Trojans visit the Missouri Tigers at Memorial Stadium. We make **Troy +24.5**, compared with a market line of +27.
+The Troy Trojans visit the Missouri Tigers at Memorial Stadium. We make **Troy +24.5**, compared with a market line of +27.5.
 
 The best number we found is Troy +27.5 at -110. We give Troy a 55.6% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Troy is a bet.
 
-We are not ignoring how convincing Missouri looked in its opener. Missouri led 40-0 at halftime and held a 376-6 yardage advantage over the first 30 minutes. That performance showed the Tigers’ ceiling, but for us, it is context rather than proof that they should command such a demanding margin here.
+We are not dismissing Missouri’s opener. The Tigers won 54-14, produced 562 yards and received an exceptionally efficient debut from Austin Simmons, who completed 17 of 19 passes with four touchdowns and no interceptions. That performance shows Missouri’s ability to create separation, but we are not treating one result against Arkansas-Pine Bluff as proof that the same margin should carry forward.
 
-What stands out to us is the uncertainty behind Missouri’s defensive results. Only two listed defensive starters returned from 2025, with 10 departing, so we are cautious about treating one dominant outing as confirmation that the rebuilt unit is already operating at last season’s level. Our concern is that Troy’s offense may struggle to test that uncertainty: our numbers rate its passing efficiency and scoring-opportunity creation poorly against clear strengths in Missouri’s defense.
+For us, the disagreement is less about Troy being the better team and more about how much certainty the market is assigning to Missouri. The Tigers returned only two listed defensive starters and lost 10, including six players from the front seven and three cornerbacks. Missouri’s rebuilt defense was effective in the opener, but our view leaves more room for volatility than the market price does.
 
-Missouri also replaced six offensive starters, although Austin Simmons eased some of those concerns by completing 17 of 19 passes for four touchdowns in his debut. We see Missouri as the stronger team and recognize the possibility of another one-sided result. Our position is instead about whether the market is requiring too much separation from a roster with substantial turnover after one dominant performance.
+The meaningful concern for our Troy position is clear: our numbers rate Missouri’s pass defense and scoring-opportunity prevention well ahead of Troy’s offense. We still expect Missouri to control much of the game. We simply think the available cushion asks Missouri to turn that control into too much separation.
 
 ### What The Numbers Say
 
@@ -71,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Troy’s passing offense against Missouri’s pass defense. Our matchup numbers strongly favor Missouri, so Troy does not need to control this phase for our position to work; it does need enough functional passing offense to extend drives and avoid letting Missouri repeatedly play on short fields. If Missouri’s rebuilt defense immediately validates its early results, that is the clearest threat to our view. If Troy can create even modest offensive resistance, the market’s expectation becomes harder to reach.
+We are watching Troy’s passing offense against Missouri’s pass defense. Missouri held Arkansas-Pine Bluff to 109 passing yards and a 3-of-13 conversion rate on third down, which supports the strength our model sees on that side of the ball, even if the level of competition limits what we can conclude from one game.
+
+Troy does not need to win this matchup outright for our position to work. We need enough offensive resistance to prevent Missouri’s defensive advantage from producing repeated short possessions and a runaway margin. That is where the game is most likely to validate—or challenge—our difference with the market.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

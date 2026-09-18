@@ -1,6 +1,6 @@
 Our model is 1 points away from the market on Arkansas State-TCU.
 
-We make Arkansas State +20. The market is +19.
+We make TCU -20. The market is -19.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

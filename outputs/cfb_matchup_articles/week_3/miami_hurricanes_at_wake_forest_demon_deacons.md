@@ -7,17 +7,17 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Miami Hurricanes | -20.5 (-108) | BetMGM | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wake Forest Demon Deacons | +20.5 (-108) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wake Forest Demon Deacons | +20.5 (-106) | FanDuel | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Miami Hurricanes visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Wake Forest +20.5**, compared with a market line of +20.5.
 
-The best number we found is Wake Forest +20.5 at -108. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wake Forest +20.5 at -106. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
-What stands out to us is how closely the market already reflects our overall view. Wake Forest’s opener showed legitimate offensive upside: the offense produced 559 yards, while Gio Lopez threw for 350 yards and three touchdowns without an interception. We also saw an offensive line that did not allow a sack. Still, we are treating that performance against Akron as context rather than proof that the same efficiency will carry into a substantially more difficult matchup.
+We see the market and our numbers telling essentially the same story. Miami’s early production is context rather than proof, but Darian Mensah’s 41-of-45 passing with eight touchdowns and no interceptions shows how efficiently the offense has operated. Miami’s defense has also held opponents to a 21 percent third-down conversion rate without allowing an offensive touchdown. Those results support the case for a substantial gap, even if we are not simply projecting the first two games forward.
 
-For us, the main constraint is Wake Forest’s ability to sustain drives against a Miami defense our longer-run numbers rate favorably against both the pass and the run. Miami also holds a clear numerical advantage in preventing scoring opportunities, which matters when the market is asking Wake Forest to remain competitive for four quarters. Wake Forest generated touchdown passes of 78 and 72 yards in its opener, but relying on explosive plays is different from consistently creating quality possessions. We do not see enough separation between our expectation and the market’s to justify a position.
+Wake Forest does have enough offense to make the margin interesting. Gio Lopez has thrown for 575 yards with four touchdowns and no interceptions, Carlos Hernandez has 253 receiving yards, and Wake Forest has yet to commit a turnover. The concern for us is whether that efficiency survives against a Miami defense our longer-run metrics favor in both pass defense and scoring-opportunity prevention. On the other side, Wake Forest has allowed opponents to convert 48 percent of their third downs and score on every red-zone possession. That combination leaves us without a meaningful reason to depart from the market, so the available price is not enough for us to get involved.
 
 ### What The Numbers Say
 
@@ -69,13 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Wake Forest’s passing offense against Miami’s pass defense. Lopez’s debut was efficient and explosive, but our numbers identify this as the clearest area in which Miami can disrupt what worked in the opener. The question for us is whether Wake Forest can stay efficient when explosive completions are harder to find.
-
-We will also be watching protection closely. Wake Forest kept Lopez clean against Akron, but maintaining that stability is important because the passing matchup already leans toward Miami in our numbers. If Wake Forest cannot create manageable situations through the air, its path to staying inside the market expectation becomes considerably narrower.
+We are focused on Wake Forest’s passing offense against Miami’s pass defense. Lopez has supplemented his passing production with 98 rushing yards and two touchdowns, while Hernandez has emerged as his leading receiving threat. Miami, however, has allowed only 145.5 passing yards per game through two contests. If Wake Forest cannot consistently create productive possessions through that pairing, it becomes difficult for the underdog to keep the margin under control. If it can, that is the clearest route to challenging the market’s expectation.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

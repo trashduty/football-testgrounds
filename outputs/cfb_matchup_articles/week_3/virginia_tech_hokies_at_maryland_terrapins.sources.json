@@ -2,7 +2,7 @@
   "game": "Virginia Tech Hokies@Maryland Terrapins",
   "season": 2026,
   "week": 3,
-  "generated_at_utc": "2026-09-18T13:23:30.419819+00:00",
+  "generated_at_utc": "2026-09-18T17:38:34.939045+00:00",
   "model_prediction": -0.5,
   "market_line": 3.0,
   "best_line": 2.5,
@@ -13,8 +13,8 @@
   "bet_short": "Maryland",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We are not reacting simply to Maryland\u2019s unbeaten start. What stands out to us is the early stability of its passing game: Malik Washington has completed 53 of 72 passes for 533 yards, three touchdowns and no interceptions, while Maryland has converted 55.2 percent of its third downs and played turnover-free football in both games. That does not guarantee the same efficiency against Virginia Tech, but it supports our view that Maryland can sustain enough offense to challenge the market\u2019s assessment.\n\nFor us, the case is less about Maryland\u2019s rushing attack and more about Washington distributing the ball to Na\u2019eem Abdul-Rahim Gladding and Chris Durr Jr., who have combined for 30 catches and 334 yards. The meaningful concern is Virginia Tech\u2019s pass rush, which leads the FBS with 12 sacks. If Maryland protects Washington reasonably well, we think its passing-game consistency and ability to create scoring opportunities give it a credible path to outperform the market.",
-    "matchup_to_watch": "We are watching Virginia Tech\u2019s rushing offense against Maryland\u2019s front. Overton Jr. has rushed for 151 yards at 6.57 yards per carry, and our efficiency numbers identify the ground game as Virginia Tech\u2019s clearest advantage. Maryland has allowed only 38.5 rushing yards per game through two weeks, but we do not treat that small early sample as proof that the concern is gone.\n\nIf Maryland can limit efficient runs and force passing downs, its early production of 10 sacks and an opponent third-down conversion rate of 26.9 percent becomes more relevant. If Virginia Tech consistently stays ahead of schedule on the ground, that would be the strongest challenge to our position.",
+    "narrative": "For us, the case for Maryland starts with a passing game that can stay on schedule even if the rushing attack remains inefficient. Malik Washington has completed 53 of 72 passes for 533 yards without an interception, while Maryland has converted 55.2 percent of its third downs and has yet to commit a turnover. We are not assuming those rates will continue unchanged, but they support our model\u2019s view that Maryland can create enough scoring opportunities against a Virginia Tech defense that has struggled to prevent them.\n\nThe main challenge is Virginia Tech\u2019s ability to disrupt that rhythm. Virginia Tech leads the FBS with 12 sacks through two games, so Maryland cannot count on another clean, highly efficient passing performance. Still, our disagreement with the market is driven more by Maryland\u2019s offensive path and overall matchup profile than by its recent results alone. We see enough ways for Maryland to move the ball and finish drives to support our position.",
+    "matchup_to_watch": "We are watching Virginia Tech\u2019s rushing offense against Maryland\u2019s rush defense. Our efficiency numbers identify this as Virginia Tech\u2019s clearest advantage, and Overton Jr. has already rushed for 151 yards at 6.57 yards per carry with two touchdowns. Maryland has allowed only 38.5 rushing yards per game through two weeks, but our longer-run view is less convinced by that early surface number. If Maryland limits efficient runs and keeps Virginia Tech out of favorable down-and-distance situations, we think the matchup shifts toward the side of the ball that best supports our wager.",
     "guide_status": [
       "No guide found for Virginia Tech Hokies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf",
       "Found guide for Maryland Terrapins: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Maryland.pdf",
@@ -25,7 +25,7 @@
         "source_team": "Maryland Terrapins",
         "opponent": "Virginia Tech Hokies",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide identifies Game 3 as Maryland vs. Virginia Tech on Sept. 19, 2026 at SECU Stadium and contains opponent-specific statistics and series information.",
+        "document_match_reason": "The guide identifies Game 3 as Maryland vs. Virginia Tech on Sept. 19, 2026 at SECU Stadium and includes current records, matchup statistics and series information.",
         "recent_game": [
           {
             "fact": "Maryland improved to 2-0 with a 38-14 road win over UConn on Sept. 12.",
@@ -40,45 +40,39 @@
             "importance": "high"
           },
           {
-            "fact": "Maryland completed 35 of 42 passes for 350 yards and rushed 36 times for 125 yards and three touchdowns against UConn.",
+            "fact": "Maryland completed 35 of 42 passes for 350 yards without an interception against UConn.",
             "page": 11,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Maryland had two second-quarter scoring drives of more than 90 yards against UConn, its first game with multiple 90-yard drives since 2018.",
-            "page": 3,
+            "fact": "Maryland rushed 36 times for 125 yards and three touchdowns against UConn.",
+            "page": 11,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "Maryland's defense held UConn to 223 total yards, 67 rushing yards, 156 passing yards and 12 first downs.",
+            "fact": "Maryland held UConn to 67 rushing yards, 156 passing yards and 12 first downs while recording five sacks.",
             "page": 11,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Maryland recorded five sacks, forced one turnover and held UConn to 3-of-11 on third down and 0-of-2 on fourth down.",
-            "page": 11,
+            "fact": "Maryland produced scoring drives of 92 and 91 yards in the second quarter against UConn, its first game with multiple 90-yard drives since 2018.",
+            "page": 3,
             "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Maryland committed no turnovers and has played turnover-free football in each of its first two games.",
-            "page": 4,
-            "category": "recent_game",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Virginia Tech enters the matchup 2-0 under first-year head coach James Franklin.",
+            "fact": "Virginia Tech enters the matchup 2-0 overall and 0-0 in the ACC.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Virginia Tech quarterback Ethan Grunkemeyer has completed 48 of 62 passes for 551 yards and four touchdowns through two games.",
+            "fact": "Virginia Tech quarterback Grunkemeyer has completed 48 of 62 passes for 551 yards and four touchdowns through two games.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
@@ -111,12 +105,12 @@
           },
           {
             "fact": "Washington completed 34 of 41 passes for 347 yards and two touchdowns against UConn.",
-            "page": 11,
+            "page": 3,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Washington completed a Maryland-record 18 consecutive passes against UConn; his 82.9 percent completion rate was the fourth-highest single-game mark in program history.",
+            "fact": "Washington set a Maryland record by completing 18 consecutive passes against UConn; his 82.9 percent completion rate was the fourth-best single-game mark in program history.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
@@ -128,80 +122,74 @@
             "importance": "medium"
           },
           {
-            "fact": "Backup quarterback Cardell Williams completed 4 of 5 passes for 60 yards and a touchdown and rushed five times for 49 yards in the opener against Hampton.",
+            "fact": "Backup quarterback Cardell Williams completed four of five passes for 60 yards and a touchdown and rushed five times for 49 yards against Hampton.",
             "page": 15,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Maryland's starting offensive line against UConn was left tackle Rahtrel Perry, left guard Amory Hills, center Michael Hershey, right guard Ryan Howerton and right tackle Isaiah Wright.",
+            "fact": "Maryland's offensive line starters against UConn were left tackle Rahtrel Perry, left guard Amory Hills, center Michael Hershey, right guard Ryan Howerton and right tackle Isaiah Wright.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Maryland changed starters at left guard from transfer Tellek Lockette against Hampton to Amory Hills against UConn; the other four offensive-line starters remained unchanged.",
+            "fact": "Amory Hills made his first Maryland start at left guard against UConn after transfer Tellek Lockette started the opener there.",
             "page": 12,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Rahtrel Perry has made 39 career starts, including 14 at Maryland, and owns the team's longest active offensive starting streak.",
+            "fact": "Rahtrel Perry has made 39 consecutive career starts, the most among Maryland offensive players.",
             "page": 12,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "UConn starters Perry, Hills, Hershey, Howerton and Wright blocked for an offense that produced 475 yards.",
+            "fact": "Na'eem Abdul-Rahim Gladding, a transfer from Old Dominion, has 14 receptions for 187 yards and two touchdowns through two games.",
             "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Gladding recorded eight receptions for 130 yards and a touchdown against UConn.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Chris Durr Jr., a transfer from Wyoming, recorded 10 receptions for 106 yards and a touchdown against UConn.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Harry Dalton III, a transfer from USC, rushed for career highs of 48 yards and two touchdowns against UConn.",
+            "page": 2,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Old Dominion transfer Na'eem Abdul-Rahim Gladding has 14 receptions for 187 yards and two touchdowns through two games.",
+            "fact": "Iverson Howard has rushed for 121 yards and three touchdowns through two games, including 55 yards and a touchdown against UConn.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wyoming transfer Chris Durr Jr. has 16 receptions for 147 yards and one touchdown through two games.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Gladding recorded eight receptions for 130 yards and a touchdown, while Durr recorded 10 receptions for 106 yards and a touchdown against UConn.",
-            "page": 2,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "USC transfer Harry Dalton III rushed for career highs of 48 yards and two touchdowns against UConn.",
-            "page": 2,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Iverson Howard rushed 14 times for 55 yards and a touchdown and caught three passes for nine yards against UConn.",
-            "page": 2,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Auburn transfer Preston Howard started at tight end against UConn and caught two passes for 20 yards.",
-            "page": 5,
+            "fact": "Maryland returned starting quarterback Malik Washington, tight end Dorian Fleming and running back DeJuan Williams from its 2025 offense.",
+            "page": 3,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Maryland's UConn defensive starters included transfer lineman Lavon Johnson, nose tackle Eyan Thomas, edge defender Nashir Taylor, linebackers Sidney Stewart, Trey Reddick and Daniel Wingate, and defensive backs Jamare Glasker, Amari Jackson, Jordan Scruggs, Messiah Delhomme and Lavain Scruggs.",
+            "fact": "Maryland's listed defensive starters against UConn included Lavon Johnson, Eyan Thomas, Nahsir Taylor, Sidney Stewart, Trey Reddick, Daniel Wingate, Jamare Glasker, Amari Jackson, Jordan Scruggs, Messiah Delhomme and Lavain Scruggs.",
             "page": 12,
             "category": "defensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           },
           {
             "fact": "Sidney Stewart recorded six tackles, 1.5 tackles for loss, one sack and a forced fumble against UConn.",
@@ -210,13 +198,13 @@
             "importance": "high"
           },
           {
-            "fact": "UCF transfer Derrick LeBlanc recorded two sacks against UConn, his first two sacks at Maryland.",
+            "fact": "Derrick LeBlanc, a transfer from UCF, recorded two sacks against UConn, his first two sacks for Maryland.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Freshman linebacker Zion Elee recorded his first career sack and forced a fumble against UConn that DD Holmes recovered.",
+            "fact": "Freshman linebacker Zion Elee recorded his first career sack and forced a fumble against UConn; DD Holmes recovered the fumble.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "high"
@@ -228,39 +216,45 @@
             "importance": "high"
           },
           {
-            "fact": "Daniel Wingate, Maryland's 2025 leading tackler with 102 stops, has started 26 consecutive games, the longest active defensive starting streak on the team.",
+            "fact": "Daniel Wingate, Maryland's 2025 leading tackler with 102 tackles, has made 26 consecutive defensive starts.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Maryland added defensive linemen Lavon Johnson from Texas, Derrick LeBlanc from UCF, and Armon Parker and Jayvon Parker from Washington during the offseason.",
+            "fact": "Maryland added defensive linemen Lavon Johnson from Texas, Derrick LeBlanc from UCF, and Armon Parker and Jayvon Parker from Washington through the transfer portal.",
             "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer defensive backs Amari Jackson and Jordan Scruggs both started against UConn and each recorded four tackles.",
+            "page": 6,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Clint Trickett is Maryland's new offensive coordinator and quarterbacks coach after serving as Jacksonville State's offensive coordinator in 2025.",
+            "fact": "Virginia Tech is in its first season under head coach James Franklin.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Clint Trickett became Maryland's offensive coordinator and quarterbacks coach during the offseason after serving as Jacksonville State's offensive coordinator in 2025.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Trickett's 2025 Jacksonville State offense averaged 408.7 yards and 28.1 points per game and led Conference USA in rushing.",
+            "fact": "Matt Barnes became Maryland's special teams coordinator after spending the previous two seasons at Mississippi State.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Matt Barnes returned to Maryland as special teams coordinator after serving as Mississippi State's co-defensive coordinator and safeties coach.",
-            "page": 4,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Randy Starks is Maryland's new defensive line coach, and Kyle Schmitt is the new tight ends coach.",
+            "fact": "Maryland hired Randy Starks to coach the defensive line and Kyle Schmitt to coach the tight ends.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "medium"
@@ -269,7 +263,7 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Maryland is averaging 50.0 points and 560.5 total yards per game through two games, including 315.5 passing yards and 245.0 rushing yards per game.",
+            "fact": "Maryland is averaging 560.5 total yards, 315.5 passing yards, 245.0 rushing yards and 50.0 points per game through two games.",
             "page": 2,
             "category": "offensive_context",
             "importance": "high"
@@ -287,8 +281,8 @@
             "importance": "high"
           },
           {
-            "fact": "Harry Dalton III and Iverson Howard have each scored at least three rushing touchdowns, while DeJuan Williams has scored two.",
-            "page": 2,
+            "fact": "Maryland has committed no turnovers in either of its first two games and has won the turnover margin in both.",
+            "page": 4,
             "category": "offensive_context",
             "importance": "high"
           },
@@ -297,29 +291,17 @@
             "page": 3,
             "category": "offensive_context",
             "importance": "medium"
-          },
-          {
-            "fact": "Maryland has committed no more than two turnovers in 29 consecutive non-conference games.",
-            "page": 1,
-            "category": "offensive_context",
-            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Maryland is allowing 7.0 points and 154.0 total yards per game through two games.",
+            "fact": "Maryland has recorded 10 sacks through two games, leading the Big Ten and ranking behind only Virginia Tech, LSU and Vanderbilt nationally.",
             "page": 2,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Maryland is allowing 38.5 rushing yards and 115.5 passing yards per game through two games.",
-            "page": 2,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Maryland has 10 sacks through two games, the most in the Big Ten and two fewer than upcoming opponent Virginia Tech.",
+            "fact": "Maryland is allowing 154.0 total yards, 38.5 rushing yards, 115.5 passing yards and 7.0 points per game through two games.",
             "page": 2,
             "category": "defensive_context",
             "importance": "high"
@@ -337,7 +319,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Maryland has not allowed an opponent to score on a red-zone possession through two games.",
+            "fact": "Maryland has not allowed a red-zone score through two games.",
             "page": 2,
             "category": "defensive_context",
             "importance": "high"
@@ -345,14 +327,8 @@
         ],
         "special_teams": [
           {
-            "fact": "Kicker Sean O'Haire made field goals from 19 yards against UConn and from 26 and 36 yards against Hampton.",
+            "fact": "Kicker Sean O'Haire made a 19-yard field goal and all five extra-point attempts against UConn.",
             "page": 11,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Maryland is averaging 19.33 yards per punt return through two games.",
-            "page": 2,
             "category": "special_teams",
             "importance": "medium"
           },
@@ -365,7 +341,7 @@
         ],
         "series_context": [
           {
-            "fact": "Maryland leads the all-time series with Virginia Tech 17-15, and the series is tied 4-4 in College Park.",
+            "fact": "Maryland leads the all-time series with Virginia Tech 17-15, including a 4-4 record in College Park.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
@@ -385,22 +361,22 @@
         ],
         "other_relevant": [
           {
-            "fact": "Maryland owns the nation's longest active non-conference winning streak at 20 games.",
+            "fact": "Maryland enters the game with a nation-leading 20-game non-conference winning streak and a 22-1 non-conference record under Michael Locksley.",
             "page": 1,
             "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Maryland is 22-1 in non-conference games under Michael Locksley and has averaged 41.1 points in those games.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Maryland has won its first two games by at least 24 points for the first time since 2021.",
             "page": 2,
             "category": "other_relevant",
-            "importance": "low"
+            "importance": "medium"
+          },
+          {
+            "fact": "Maryland has scored at least 30 points in 20 of its 23 non-conference games under Locksley.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
           }
         ],
         "source_file": "Maryland.pdf"
@@ -443,16 +419,7 @@
     ],
     "used_sources": [
       {
-        "fact_id": 7,
-        "fact": "Maryland committed no turnovers and has played turnover-free football in each of its first two games.",
-        "page": 4,
-        "category": "recent_game",
-        "importance": "high",
-        "source_file": "Maryland.pdf",
-        "source_team": "Maryland Terrapins"
-      },
-      {
-        "fact_id": 10,
+        "fact_id": 9,
         "fact": "Virginia Tech running back Overton Jr. has rushed for 151 yards at 6.57 yards per carry with two touchdowns.",
         "page": 1,
         "category": "opponent_notes",
@@ -461,7 +428,7 @@
         "source_team": "Maryland Terrapins"
       },
       {
-        "fact_id": 12,
+        "fact_id": 11,
         "fact": "Virginia Tech leads the FBS with 12 defensive sacks through its first two games.",
         "page": 2,
         "category": "opponent_notes",
@@ -470,7 +437,7 @@
         "source_team": "Maryland Terrapins"
       },
       {
-        "fact_id": 13,
+        "fact_id": 12,
         "fact": "Maryland starting quarterback Malik Washington is 53-of-72 for 533 yards, three touchdowns and no interceptions through two games.",
         "page": 5,
         "category": "quarterback",
@@ -479,25 +446,7 @@
         "source_team": "Maryland Terrapins"
       },
       {
-        "fact_id": 22,
-        "fact": "Old Dominion transfer Na'eem Abdul-Rahim Gladding has 14 receptions for 187 yards and two touchdowns through two games.",
-        "page": 5,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Maryland.pdf",
-        "source_team": "Maryland Terrapins"
-      },
-      {
-        "fact_id": 23,
-        "fact": "Wyoming transfer Chris Durr Jr. has 16 receptions for 147 yards and one touchdown through two games.",
-        "page": 5,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Maryland.pdf",
-        "source_team": "Maryland Terrapins"
-      },
-      {
-        "fact_id": 40,
+        "fact_id": 39,
         "fact": "Maryland has converted 55.2 percent of its third downs through two games.",
         "page": 2,
         "category": "offensive_context",
@@ -506,29 +455,20 @@
         "source_team": "Maryland Terrapins"
       },
       {
-        "fact_id": 46,
-        "fact": "Maryland is allowing 38.5 rushing yards and 115.5 passing yards per game through two games.",
-        "page": 2,
-        "category": "defensive_context",
+        "fact_id": 41,
+        "fact": "Maryland has committed no turnovers in either of its first two games and has won the turnover margin in both.",
+        "page": 4,
+        "category": "offensive_context",
         "importance": "high",
         "source_file": "Maryland.pdf",
         "source_team": "Maryland Terrapins"
       },
       {
-        "fact_id": 47,
-        "fact": "Maryland has 10 sacks through two games, the most in the Big Ten and two fewer than upcoming opponent Virginia Tech.",
+        "fact_id": 44,
+        "fact": "Maryland is allowing 154.0 total yards, 38.5 rushing yards, 115.5 passing yards and 7.0 points per game through two games.",
         "page": 2,
         "category": "defensive_context",
         "importance": "high",
-        "source_file": "Maryland.pdf",
-        "source_team": "Maryland Terrapins"
-      },
-      {
-        "fact_id": 49,
-        "fact": "Opponents have converted 26.9 percent of their third downs against Maryland through two games.",
-        "page": 2,
-        "category": "defensive_context",
-        "importance": "medium",
         "source_file": "Maryland.pdf",
         "source_team": "Maryland Terrapins"
       }

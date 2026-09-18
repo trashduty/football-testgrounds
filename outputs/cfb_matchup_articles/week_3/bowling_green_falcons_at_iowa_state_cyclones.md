@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Bowling Green Falcons | +23.5 (+100) | FanDuel | 41.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa State Cyclones | -24.5 (-102) | DraftKings | 56.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Bowling Green Falcons | +23.5 (+100) | DraftKings | 41.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa State Cyclones | -24.0 (-105) | BetMGM | 56.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Bowling Green Falcons visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -28**, compared with a market line of -24.
 
-The best number we found is Iowa State -24.5 at -102. We give Iowa State a 56.0% chance to cover, which creates an 5.5% edge for us. That clears our 3% threshold, so Iowa State is a bet.
+The best number we found is Iowa State -24.0 at -105. We give Iowa State a 56.0% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

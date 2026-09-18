@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Tech Hokies | -3.0 (-102) | BetMGM | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Tech Hokies | -2.5 (-122) | FanDuel | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Maryland Terrapins | +2.5 (+100) | FanDuel | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -15,9 +15,9 @@ The Virginia Tech Hokies visit the Maryland Terrapins at SECU Stadium. We make *
 
 The best number we found is Maryland +2.5 at +100. We give Maryland a 54.7% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Maryland is a bet.
 
-We are not reacting simply to Maryland’s unbeaten start. What stands out to us is the early stability of its passing game: Malik Washington has completed 53 of 72 passes for 533 yards, three touchdowns and no interceptions, while Maryland has converted 55.2 percent of its third downs and played turnover-free football in both games. That does not guarantee the same efficiency against Virginia Tech, but it supports our view that Maryland can sustain enough offense to challenge the market’s assessment.
+For us, the case for Maryland starts with a passing game that can stay on schedule even if the rushing attack remains inefficient. Malik Washington has completed 53 of 72 passes for 533 yards without an interception, while Maryland has converted 55.2 percent of its third downs and has yet to commit a turnover. We are not assuming those rates will continue unchanged, but they support our model’s view that Maryland can create enough scoring opportunities against a Virginia Tech defense that has struggled to prevent them.
 
-For us, the case is less about Maryland’s rushing attack and more about Washington distributing the ball to Na’eem Abdul-Rahim Gladding and Chris Durr Jr., who have combined for 30 catches and 334 yards. The meaningful concern is Virginia Tech’s pass rush, which leads the FBS with 12 sacks. If Maryland protects Washington reasonably well, we think its passing-game consistency and ability to create scoring opportunities give it a credible path to outperform the market.
+The main challenge is Virginia Tech’s ability to disrupt that rhythm. Virginia Tech leads the FBS with 12 sacks through two games, so Maryland cannot count on another clean, highly efficient passing performance. Still, our disagreement with the market is driven more by Maryland’s offensive path and overall matchup profile than by its recent results alone. We see enough ways for Maryland to move the ball and finish drives to support our position.
 
 ### What The Numbers Say
 
@@ -69,13 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Virginia Tech’s rushing offense against Maryland’s front. Overton Jr. has rushed for 151 yards at 6.57 yards per carry, and our efficiency numbers identify the ground game as Virginia Tech’s clearest advantage. Maryland has allowed only 38.5 rushing yards per game through two weeks, but we do not treat that small early sample as proof that the concern is gone.
-
-If Maryland can limit efficient runs and force passing downs, its early production of 10 sacks and an opponent third-down conversion rate of 26.9 percent becomes more relevant. If Virginia Tech consistently stays ahead of schedule on the ground, that would be the strongest challenge to our position.
+We are watching Virginia Tech’s rushing offense against Maryland’s rush defense. Our efficiency numbers identify this as Virginia Tech’s clearest advantage, and Overton Jr. has already rushed for 151 yards at 6.57 yards per carry with two touchdowns. Maryland has allowed only 38.5 rushing yards per game through two weeks, but our longer-run view is less convinced by that early surface number. If Maryland limits efficient runs and keeps Virginia Tech out of favorable down-and-distance situations, we think the matchup shifts toward the side of the ball that best supports our wager.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

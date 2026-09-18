@@ -15,11 +15,9 @@ The Kansas Jayhawks visit the Arizona State Sun Devils at Wembley Stadium. We ma
 
 The best number we found is Kansas +6.0 at -112. We give Kansas a 57.3% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Kansas is a bet.
 
-For us, the case is less about Kansas’ lopsided opener and more about an offense that appears capable of creating enough scoring chances to keep this game competitive. Isaiah Marshall, named the starter before the season, completed 14 of 19 passes for 246 yards and two touchdowns while adding 49 rushing yards against Long Island. The offensive line also allowed no sacks and only one tackle for loss. Those results came against an overmatched opponent, but the useful takeaway is that a unit returning only three starters showed early functionality around its new quarterback.
+For us, the case on Kansas starts with an offense our numbers expect to create scoring opportunities more consistently than Arizona State typically prevents them. Kansas’ opener against Long Island is not proof that the same production carries over, but 613 total yards and six plays of at least 20 yards showed that the rebuilt offense can generate both sustained drives and explosive gains. That combination matters when the market is asking Kansas to be treated as a more substantial underdog than our overall team ratings support.
 
-What stands out to us is the scoring-opportunity matchup. Our numbers rate Kansas’ ability to generate quality possessions more favorably than Arizona State’s ability to prevent them. Kansas also added multiple transfer running backs, giving the offense several options rather than making Marshall carry the entire burden.
-
-The meaningful concern is Kansas’ pass defense, which grades as the weakest unit in this matchup. Arizona State has a path to attack through the air, so we are not treating Kansas’ opening defensive performance as proof that last season’s issues are gone. Still, our broader numbers do not see enough separation between these teams to support the market’s view, and that is why we are backing Kansas.
+We also see encouraging early context around Isaiah Marshall. In his second career start, he completed 14 of 19 passes for 246 yards and two touchdowns while adding 49 rushing yards, and the offensive line allowed no sacks and only one tackle for loss. The meaningful concern is on the other side: Arizona State’s passing offense gets a favorable efficiency matchup against a Kansas pass defense that rates poorly in our pass EPA numbers. We do not dismiss that path for Arizona State, but our view is that it is not enough to outweigh Kansas’ offensive ability at the available price.
 
 ### What The Numbers Say
 
@@ -71,13 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Arizona State’s passing offense against the Kansas secondary. This is the clearest way Arizona State can challenge our position: its passing efficiency grades considerably better than Kansas’ pass defense, and sustained success there could create the separation the market expects.
-
-The counter for us is pressure. Kansas recorded 11 tackles for loss and three sacks in the opener, with Leroy Harris III producing four tackles for loss. We are not extrapolating that performance directly, but if Kansas can disrupt the pocket without compromising coverage, it can limit the matchup that presents the biggest risk to our Kansas case.
+We are watching Kansas’ offense against Arizona State’s scoring-opportunity defense. Marshall’s mobility and the offensive line’s early protection give Kansas multiple ways to keep drives alive, while its downfield production creates a chance to score without requiring long, mistake-free possessions. If Kansas continues creating explosive plays while staying out of negative situations, that would support why our expectation is closer than the market’s.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **16 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
