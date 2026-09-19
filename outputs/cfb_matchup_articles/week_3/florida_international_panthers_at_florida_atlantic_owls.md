@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Florida International Panthers | +6.5 (-106) | FanDuel | 54.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Florida Atlantic Owls | -6.5 (-108) | BetRivers | 46.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Atlantic Owls | -6.5 (-110) | BetMGM | 46.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#51</td>
-<td class="btb-better">#46</td>
+<td>#52</td>
+<td class="btb-better">#48</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -47,17 +47,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#49</td>
+<td class="btb-better">#50</td>
 <td>#137</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#93</td>
-<td class="btb-better">#11</td>
+<td class="btb-better">#14</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#61</td>
+<td class="btb-better">#60</td>
 <td>#115</td>
 </tr>
 </tbody>

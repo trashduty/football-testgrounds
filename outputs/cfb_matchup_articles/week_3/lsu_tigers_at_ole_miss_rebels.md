@@ -15,7 +15,11 @@ The LSU Tigers visit the Ole Miss Rebels at Vaught-Hemingway Stadium. We make **
 
 The best number we found is Ole Miss +2.5 at +100. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not treating LSU’s early offensive production as proof that the unit will remain dominant. LSU averaged 586 yards through two games, but our efficiency numbers are far less impressed by the passing game, and Sam Leavitt paired four interceptions with two passing touchdowns. Ole Miss has been stronger at preventing scoring opportunities than LSU has been at creating them, which helps explain why our view does not chase the eye-catching raw totals.
+We are not treating LSU’s explosive early box scores as a complete picture. LSU has averaged 586 yards per game, but Sam Leavitt has thrown four interceptions and the offensive line has allowed five sacks. Our matchup data is also less enthusiastic about LSU’s passing efficiency and scoring-opportunity creation, especially against an Ole Miss defense that has been better at preventing those opportunities. That helps explain why our view does not move toward LSU simply because of the raw yardage and point totals.
+
+The counterweight is LSU’s defense. It has allowed just 18 rushing yards per game, held opponents to four conversions on 27 third downs and generated consistent pressure, led by Princewill Umanmielen’s five sacks. Ole Miss brings a productive offense with Trinidad Chambliss at five touchdown passes against one interception, and it has allowed only half a sack per game. For us, that is the central tension: Ole Miss has been efficient and well protected, but LSU presents a much more demanding defensive test than the first two games.
+
+Our overall expectation is therefore closely aligned with what the market is pricing. Ole Miss has won 13 consecutive home games, while the last three meetings in this series were each decided by one possession, but neither trend is enough to create value by itself. With legitimate matchup arguments on both sides and the available number offering less than our fair margin, we do not see enough separation to get involved.
 
 ### What The Numbers Say
 
@@ -38,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#36</td>
-<td>#86</td>
+<td>#87</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -52,7 +56,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#9</td>
+<td class="btb-better">#12</td>
 <td>#82</td>
 </tr>
 <tr>
@@ -67,9 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the defining matchup is Ole Miss’ pass protection against LSU’s pressure. Ole Miss allowed only one sack through two games, while LSU recorded 12, with Princewill Umanmielen accounting for five. Because our numbers also rate LSU’s run defense as a major obstacle, Ole Miss may need Trinidad Chambliss to operate efficiently when the passing game becomes necessary.
+For us, the matchup to watch is Ole Miss’s rushing offense against LSU’s run defense. Ole Miss grades well in rushing efficiency, and Kewan Lacy has produced 148 yards and three touchdowns through two games. LSU, however, ranks among our strongest run defenses and has allowed only 18 rushing yards per game.
 
-That battle cuts both ways: if Ole Miss keeps the pocket clean, its passing game offers the clearest route to moving the ball. If LSU’s pressure wins, the home-field case weakens quickly. Those competing outcomes leave us without enough separation from the market to justify a position.
+If LSU keeps the Ole Miss ground game from staying efficient, more of the offense will fall on Chambliss against a defense that has already produced 12 sacks. Ole Miss has protected him well so far, so that pressure-versus-protection battle should tell us whether the home offense can sustain its early production against a considerably different challenge.
 
 ## Best Bets Of The Week
 

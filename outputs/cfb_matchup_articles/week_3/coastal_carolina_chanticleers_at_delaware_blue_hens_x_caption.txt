@@ -1,6 +1,6 @@
 Our model is 1 points away from the market on Coastal Carolina-Delaware.
 
-We make Delaware -6. The market is -5.
+We make Coastal Carolina +6. The market is +5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

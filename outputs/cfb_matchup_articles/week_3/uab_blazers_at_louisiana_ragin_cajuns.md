@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UAB Blazers | +7.5 (-110) | BetMGM | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Louisiana Ragin Cajuns | -7.5 (-108) | BetMGM | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UAB Blazers | +7.5 (-108) | BetMGM | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Louisiana Ragin Cajuns | -7.5 (-110) | BetMGM | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The UAB Blazers visit the Louisiana Ragin Cajuns at Cajun Field. We make **UAB +6**, compared with a market line of +7.5.
 
-The best number we found is UAB +7.5 at -110. We give UAB a 55.9% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so UAB is a bet.
+The best number we found is UAB +7.5 at -108. We give UAB a 55.9% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so UAB is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#32</td>
-<td>#47</td>
+<td>#48</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -53,7 +53,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#71</td>
-<td class="btb-better">#31</td>
+<td class="btb-better">#34</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

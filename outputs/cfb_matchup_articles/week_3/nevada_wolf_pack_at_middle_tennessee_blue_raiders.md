@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Nevada Wolf Pack | -3.5 (-110) | BetMGM | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Middle Tennessee Blue Raiders | +3.5 (-105) | FanDuel | 53.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Middle Tennessee Blue Raiders | +4.5 (-112) | BetRivers | 55.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Nevada Wolf Pack visit the Middle Tennessee Blue Raiders at Johnny "Red" Floyd Stadium. We make **Middle Tennessee +2.5**, compared with a market line of +3.5.
 
-The best number we found is Middle Tennessee +3.5 at -105. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Middle Tennessee +4.5 at -112. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#95</td>
-<td class="btb-better">#89</td>
+<td class="btb-better">#90</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#39</td>
+<td class="btb-better">#40</td>
 <td>#114</td>
 </tr>
 <tr>

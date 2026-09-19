@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Michigan State Spartans | +29.5 (-110) | FanDuel | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan State Spartans | +29.5 (-109) | BetRivers | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Notre Dame Fighting Irish | -29.5 (-108) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#8</td>
+<td class="btb-better">#7</td>
 <td>#81</td>
 </tr>
 </tbody>

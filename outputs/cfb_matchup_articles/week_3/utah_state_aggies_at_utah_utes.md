@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Utah State Aggies | +27.5 (-102) | FanDuel | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Utah Utes | -27.5 (-115) | DraftKings | 53.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah State Aggies | +27.5 (-105) | Fanatics | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah Utes | -26.5 (-114) | FanDuel | 54.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Utah State Aggies visit the Utah Utes at Rice-Eccles Stadium. We make **Utah -30**, compared with a market line of -28.
+The Utah State Aggies visit the Utah Utes at Rice-Eccles Stadium. We make **Utah -29.5**, compared with a market line of -27.5.
 
-The best number we found is Utah -27.5 at -115. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Utah -26.5 at -114. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,12 +33,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#7</td>
-<td>#81</td>
+<td>#80</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#2</td>
-<td>#79</td>
+<td>#80</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#6</td>
+<td class="btb-better">#7</td>
 <td>#53</td>
 </tr>
 <tr>

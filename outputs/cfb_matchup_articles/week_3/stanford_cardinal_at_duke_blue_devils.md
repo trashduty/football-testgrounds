@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Stanford Cardinal | +10.0 (-108) | BetMGM | 53.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Stanford Cardinal | +10.5 (-118) | FanDuel | 55.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 | Duke Blue Devils | -10.5 (-104) | FanDuel | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Stanford Cardinal visit the Duke Blue Devils at Wallace Wade Stadium. We make **Stanford +9**, compared with a market line of +10.
 
-The best number we found is Stanford +10.0 at -108. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Stanford +10.5 at -118. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,12 +33,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#96</td>
-<td class="btb-better">#52</td>
+<td class="btb-better">#53</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#129</td>
-<td class="btb-better">#81</td>
+<td class="btb-better">#82</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -47,13 +47,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#28</td>
+<td class="btb-better">#29</td>
 <td>#76</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#136</td>
-<td class="btb-better">#39</td>
+<td class="btb-better">#40</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

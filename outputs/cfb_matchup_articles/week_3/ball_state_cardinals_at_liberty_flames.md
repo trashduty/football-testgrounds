@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ball State Cardinals | +14.5 (-105) | FanDuel | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Liberty Flames | -14.5 (-108) | BetMGM | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ball State Cardinals | +14.5 (-108) | FanDuel | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Liberty Flames | -14.5 (-108) | BetRivers | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#70</td>
+<td class="btb-better">#69</td>
 <td>#123</td>
 </tr>
 <tr>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#75</td>
-<td class="btb-better">#71</td>
+<td>#74</td>
+<td class="btb-better">#70</td>
 </tr>
 </tbody>
 </table>

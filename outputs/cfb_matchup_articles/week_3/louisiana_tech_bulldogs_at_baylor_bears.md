@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Louisiana Tech Bulldogs | +20.5 (-115) | DraftKings | 54.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Baylor Bears | -18.5 (-112) | BetRivers | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Baylor Bears | -20.5 (-105) | DraftKings | 45.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -42,8 +42,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#42</td>
-<td>#59</td>
+<td class="btb-better">#41</td>
+<td>#58</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -53,12 +53,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#79</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#45</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#73</td>
-<td>#79</td>
+<td class="btb-better">#72</td>
+<td>#78</td>
 </tr>
 </tbody>
 </table>

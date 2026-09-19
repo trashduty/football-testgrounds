@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Virginia Cavaliers | -10.5 (-104) | FanDuel | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| West Virginia Mountaineers | +10.5 (-110) | Fanatics | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| West Virginia Mountaineers | +10.5 (-108) | DraftKings | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -33,11 +33,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#77</td>
-<td class="btb-better">#39</td>
+<td class="btb-better">#41</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#30</td>
+<td class="btb-better">#29</td>
 <td>#131</td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#35</td>
+<td>#36</td>
 <td class="btb-better">#16</td>
 </tr>
 <tr>

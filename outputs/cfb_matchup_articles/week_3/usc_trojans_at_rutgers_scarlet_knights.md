@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | USC Trojans | -21.5 (-110) | BetMGM | 54.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Rutgers Scarlet Knights | +21.5 (-105) | DraftKings | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Rutgers Scarlet Knights | +21.5 (-108) | BetMGM | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -33,11 +33,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#14</td>
-<td>#50</td>
+<td>#51</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#82</td>
+<td class="btb-better">#83</td>
 <td>#127</td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#36</td>
+<td class="btb-better">#38</td>
 <td>#70</td>
 </tr>
 <tr>

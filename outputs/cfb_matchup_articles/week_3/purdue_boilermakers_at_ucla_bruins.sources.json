@@ -2,7 +2,7 @@
   "game": "Purdue Boilermakers@UCLA Bruins",
   "season": 2026,
   "week": 3,
-  "generated_at_utc": "2026-09-18T17:35:02.770401+00:00",
+  "generated_at_utc": "2026-09-19T13:14:51.454871+00:00",
   "model_prediction": 12.5,
   "market_line": 14.0,
   "best_line": 14.0,
@@ -13,11 +13,11 @@
   "bet_short": "Purdue",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "The market is asking UCLA to create more separation than our numbers expect. For us, Purdue\u2019s case starts with stability at quarterback. Ryan Browne has started 13 consecutive games for Purdue, and his efficient 317-yard, three-touchdown opener suggests the rebuilt supporting cast can give him enough options to keep the offense functional against stronger competition. We are not treating one performance against Indiana State as proof, but quarterback continuity matters when evaluating an underdog with this many new pieces.\n\nWe also do not want to overrate the final score from that opener. Purdue benefited from a defensive touchdown, committed no turnovers and won the turnover battle. The bigger concern for our position is a defense that started six transfers and now faces unfavorable underlying matchups against UCLA\u2019s rushing offense and scoring-opportunity creation. That leaves us with a modest disagreement rather than enough value to get involved at the current price.",
-    "matchup_to_watch": "The matchup we are watching is UCLA\u2019s rushing offense against Purdue\u2019s rush defense. Our numbers suggest UCLA can consistently move the ball on the ground, which would create the sustained scoring opportunities needed to pull away rather than merely control the game.\n\nThe question for us is whether Purdue\u2019s reworked defense can limit that efficiency before UCLA reaches scoring range. If it can, Browne\u2019s experience gives Purdue a plausible path to stay competitive; if it cannot, the market\u2019s larger margin becomes easier to justify.",
+    "narrative": "Our numbers are less pessimistic about Purdue than the market, and the offense offers some reason for that difference. We are not treating the Indiana State opener as proof, but Ryan Browne is a returning starter with 15 career starts for Purdue, and he completed 23 of 29 passes for 317 yards and three touchdowns in that game. That continuity at quarterback matters to us when the market is asking Purdue to stay competitive on the road.\n\nThe concern is that Purdue remains difficult to evaluate around Browne. Sixteen players made their first Purdue starts in the opener, including six offensive linemen, while our longer-run metrics show UCLA with potential advantages in the running game and in creating scoring opportunities. We can see a path for Purdue to remain within range, but its passing profile against UCLA's defense is not strong enough to make the modest disagreement actionable. For us, the available price does not provide enough value, so this remains a pass.",
+    "matchup_to_watch": "We are watching UCLA's rushing offense against Purdue's run defense. Our matchup numbers identify this as UCLA's clearest route to sustained offense, particularly because Purdue's broader scoring-opportunity prevention also grades poorly. Purdue held Indiana State to 66 rushing yards, but we view that as one encouraging result rather than evidence that the longer-run concern has disappeared. If UCLA consistently creates favorable down-and-distance situations on the ground, Purdue will have a harder time keeping the game inside the market's expectation.",
     "guide_status": [
       "Found guide for Purdue Boilermakers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Purdue.pdf",
-      "Guide for Purdue Boilermakers was found but may not match the current opponent. The document is labeled as Purdue's Game 2 notes for the Sept. 12, 2026 matchup against Wake Forest. UCLA is Purdue's following opponent on Sept. 19 and receives only limited advance coverage.",
+      "Guide for Purdue Boilermakers was found but may not match the current opponent. This is Purdue's Game 2 guide for the Sept. 12, 2026 matchup against Wake Forest, not the Week 3 game at UCLA on Sept. 19. It contains limited advance information about the UCLA game plus current Purdue personnel and season-opening performance information.",
       "No guide found for UCLA Bruins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCLA.pdf"
     ],
     "guide_extractions": [
@@ -25,7 +25,7 @@
         "source_team": "Purdue Boilermakers",
         "opponent": "UCLA Bruins",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The document is labeled as Purdue's Game 2 notes for the Sept. 12, 2026 matchup against Wake Forest. UCLA is Purdue's following opponent on Sept. 19 and receives only limited advance coverage.",
+        "document_match_reason": "This is Purdue's Game 2 guide for the Sept. 12, 2026 matchup against Wake Forest, not the Week 3 game at UCLA on Sept. 19. It contains limited advance information about the UCLA game plus current Purdue personnel and season-opening performance information.",
         "recent_game": [
           {
             "fact": "Purdue opened the 2026 season with a 44-19 home victory over Indiana State.",
@@ -34,7 +34,7 @@
             "importance": "high"
           },
           {
-            "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024 at Illinois.",
+            "fact": "Purdue produced 523 total yards against Indiana State, its first 500-yard game since Oct. 12, 2024 at Illinois.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -46,32 +46,26 @@
             "importance": "high"
           },
           {
-            "fact": "Minnesota transfer Fame Ijeboi led Purdue with 87 rushing yards and one touchdown on 11 carries and added two receptions for 30 yards in his Purdue debut.",
+            "fact": "Fame Ijeboi led Purdue with 87 rushing yards and one touchdown on 11 carries and added two receptions for 30 yards against Indiana State.",
             "page": 2,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "FAU transfer Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
+            "fact": "Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut against Indiana State.",
             "page": 2,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Don Saunders returned an interception 35 yards for a touchdown against Indiana State, Purdue's first pick-six since 2022.",
-            "page": 1,
+            "fact": "Purdue held Indiana State to 284 total yards, including 66 rushing yards, and 12 first downs.",
+            "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Defensive back Mister Clark recorded five solo tackles, two tackles for loss, one sack and one pass breakup against Indiana State.",
-            "page": 13,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Purdue did not commit a turnover and won the turnover battle against Indiana State.",
-            "page": 11,
+            "fact": "Purdue committed no turnovers, gained one takeaway and held the ball for 37:22 against Indiana State.",
+            "page": 3,
             "category": "recent_game",
             "importance": "medium"
           }
@@ -84,27 +78,33 @@
             "importance": "high"
           },
           {
-            "fact": "The UCLA game will be Purdue's third game at the Rose Bowl venue and its first there outside of the Rose Bowl Game.",
+            "fact": "The 11 p.m. ET kickoff against UCLA would be Purdue's latest start since an 11:05 p.m. ET game at Hawaii on Nov. 25, 2006.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "The scheduled 11 p.m. ET kickoff against UCLA will be Purdue's latest start since an 11:05 p.m. ET kickoff at Hawaii on Nov. 25, 2006.",
+            "fact": "The UCLA game will be Purdue's third game at the Rose Bowl stadium; its previous appearances there were Rose Bowl Games against USC in 1967 and Washington in 2001.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "medium"
+          },
+          {
+            "fact": "The Rose Bowl is listed as 2,086 miles from Purdue's Ross-Ade Stadium.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "low"
           }
         ],
         "quarterback": [
           {
-            "fact": "Ryan Browne is Purdue's returning starting quarterback and has started 13 consecutive games and 15 career games for the Boilermakers.",
-            "page": 3,
+            "fact": "Ryan Browne is Purdue's returning starting quarterback and has started 15 career games for the Boilermakers.",
+            "page": 12,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Browne started all 12 games in 2025 and threw for 2,153 yards and nine touchdowns.",
+            "fact": "Browne started all 12 games in 2025 and passed for 2,153 yards and nine touchdowns.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
@@ -116,13 +116,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Browne returned to Purdue through the spring transfer window in 2025 after spending the spring semester at North Carolina.",
-            "page": 3,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Evans Chuba and Bennett Meredith competed for the backup quarterback role during the spring and summer; Meredith made one Purdue start in 2023 but had not played in the previous two seasons.",
+            "fact": "Evans Chuba and Bennett Meredith competed for the backup quarterback role during the spring and summer; Meredith started at Northwestern in 2023 but did not play in the following two seasons.",
             "page": 6,
             "category": "quarterback",
             "importance": "medium"
@@ -130,90 +124,90 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "True freshman Brock Brownfield became the first true freshman offensive lineman to start a Purdue season opener since freshmen became eligible in 1972.",
+            "fact": "Sixteen players made their first Purdue starts against Indiana State, including offensive linemen Jackson Berryman, Micah Banuelos, Brock Brownfield, Nuku Mafi, Jude McCoskey and Boaz Stanley.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Brock Brownfield became Purdue's first true freshman offensive lineman to start a season opener since freshmen became eligible in 1972.",
             "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Joey Tanona is the only returning Purdue offensive lineman who started all 12 games in 2025; Ethan Trent made six starts and Jude McCoskey appeared in 11 games.",
+            "fact": "Joey Tanona is the only returning Purdue offensive lineman who started all 12 games in 2025; Ethan Trent made six starts and Jude McCoskey played in 11 games.",
             "page": 7,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Purdue added five offensive-line transfers, including Boaz Stanley with 21 prior starts, Nuku Mafi with 12 prior starts and Micah Banuelos with five prior starts.",
+            "fact": "Purdue added offensive line transfers Boaz Stanley, Nuku Mafi and Micah Banuelos; entering 2026 they had 21, 12 and five career starts, respectively.",
             "page": 7,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The running back room was rebuilt after Devin Mockobee's graduation; Antonio Harris is the only returning running back and rushed for 305 yards and two touchdowns in 2025.",
+            "fact": "The running back room changed after Devin Mockobee's graduation, with Antonio Harris the lone returning running back from 2025.",
             "page": 7,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Purdue added running backs Fame Ijeboi from Minnesota, Travis Terrell Jr. from Jackson State and Jerrick Gibson from Texas.",
-            "page": 7,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned after missing the 2025 season with injuries.",
-            "page": 7,
+            "fact": "Minnesota transfer Fame Ijeboi and FAU transfer Asaad Waseem led Purdue in rushing and receiving, respectively, in the season opener.",
+            "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer receiver Xavier Townsend entered Purdue with nearly 40 games of experience and 1,960 all-purpose yards from UCF and Iowa State.",
-            "page": 7,
+            "fact": "Xavier Townsend debuted for Purdue with seven catches for 47 yards and three punt returns for 24 yards against Indiana State.",
+            "page": 12,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Linebacker Charles Correa returned after starting all 12 games in 2025 and recording 96 tackles, 7.5 tackles for loss and three sacks.",
-            "page": 7,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Purdue added defensive linemen Rodney Lora, Curt Neal and Wisdom Simms, who brought a combined 81 games of college experience, including 60 at the Power Four level.",
-            "page": 7,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Defensive ends CJ Madden, Trey Smith and Breeon Ishmail each appeared in all 12 games for Purdue in 2025.",
-            "page": 7,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Purdue added edge defenders Elo Modozie, who entered with 9.5 tackles for loss and 7.5 sacks, and Keyshawn Burgos, who recorded 58 tackles, seven tackles for loss and 2.5 sacks at Virginia Tech.",
-            "page": 7,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Transfers Keyshawn Burgos, Curt Neal, Jojo Hayden, Jaden Mangham, Don Saunders and John Slaughter made their first Purdue starts in the season opener.",
+            "fact": "Purdue's season-opening defensive starters included newcomers Curt Neal, Keyshawn Burgos, Jojo Hayden, Jaden Mangham, Don Saunders and John Slaughter.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "high"
+          },
+          {
+            "fact": "Linebacker Charles Correa returned after recording 96 tackles, 7.5 tackles for loss and three sacks in 12 starts during 2025.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "FIU transfer Mister Clark led Purdue against Indiana State with five solo tackles, two tackles for loss, one sack and one pass breakup.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer defensive back Don Saunders returned an interception 35 yards for a touchdown against Indiana State, Purdue's first pick-six since 2022.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue added defensive line transfers Rodney Lora, Curt Neal and Wisdom Simms, who brought a combined 81 games of college experience, including 60 at the Power Four level.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Barry Odom is in his second season as Purdue's head coach.",
-            "page": 2,
+            "fact": "Kevin Kane returned to Purdue as defensive coordinator and linebackers coach after serving as a Minnesota defensive analyst in 2025; he previously coordinated Purdue's defense in 2023 and 2024.",
+            "page": 15,
             "category": "coaching_changes",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Kevin Kane returned to Purdue as defensive coordinator and linebackers coach after serving as a Minnesota defensive analyst in 2025; he previously coordinated Purdue's defense in 2023 and 2024.",
-            "page": 4,
+            "fact": "Zach Crabtree became Purdue's offensive line coach after coaching at Fresno State in 2025.",
+            "page": 15,
             "category": "coaching_changes",
             "importance": "high"
           },
@@ -230,10 +224,10 @@
             "importance": "medium"
           },
           {
-            "fact": "Zach Crabtree joined Purdue as offensive line coach after coaching at Fresno State in 2025.",
-            "page": 4,
+            "fact": "Charles Clark joined Purdue as defensive pass game coordinator and defensive backs coach after five seasons at Memphis.",
+            "page": 15,
             "category": "coaching_changes",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "injury_availability": [
@@ -244,99 +238,93 @@
             "importance": "high"
           },
           {
-            "fact": "Tight end George Burhenn returned to action in the opener after 349 days and caught two passes for 43 yards.",
-            "page": 12,
+            "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned after missing the 2025 season with injuries.",
+            "page": 7,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Burhenn's 2025 season ended early because of an injury suffered at Notre Dame.",
-            "page": 4,
-            "category": "injury_availability",
-            "importance": "medium"
-          },
-          {
-            "fact": "Chauncey Magwood returned after missing most of 2025 with an injury and caught a six-yard touchdown in the 2026 opener.",
+            "fact": "Magwood played in the 2026 opener and caught a six-yard touchdown, his first touchdown since 2022.",
             "page": 12,
             "category": "injury_availability",
             "importance": "medium"
           },
           {
-            "fact": "Wide receiver Jalil Hall is coming off a season-ending injury in 2025.",
-            "page": 14,
+            "fact": "Tight end George Burhenn returned to game action for the first time in 349 days and caught two passes for 43 yards against Indiana State.",
+            "page": 12,
             "category": "injury_availability",
-            "importance": "low"
+            "importance": "high"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Purdue's opening-game offense featured 317 passing yards from Ryan Browne and 119 combined rushing yards from Fame Ijeboi and Travis Terrell Jr.",
-            "page": 12,
+            "fact": "Purdue passed for 346 yards and rushed for 177 yards in the season opener.",
+            "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Seven Purdue players caught at least one pass in the opener, led by Xavier Townsend with seven receptions and Asaad Waseem with six.",
-            "page": 12,
+            "fact": "Purdue converted 54.5 percent of its third downs and scored on every red-zone possession against Indiana State.",
+            "page": 3,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "All five Purdue players who scored touchdowns against Indiana State recorded their first points as Boilermakers.",
+            "fact": "Five different Boilermakers scored their first Purdue touchdowns against Indiana State: Tra'Mar Harris, Fame Ijeboi, Chauncey Magwood, Don Saunders and Asaad Waseem.",
             "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Purdue added 32 transfers and 22 freshmen for 2026, including 19 transfers from Power Four programs.",
+            "page": 4,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Purdue recorded two sacks and eight tackles for loss against Indiana State.",
+            "fact": "Purdue recorded three sacks and eight tackles for loss against Indiana State.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana State converted one of three fourth-down attempts and scored on every red-zone trip against Purdue.",
             "page": 3,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Purdue limited Indiana State to 12 first downs.",
-            "page": 11,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Boilermakers' season-opening defense included six transfer starters and produced a defensive touchdown by transfer Don Saunders.",
-            "page": 2,
+            "fact": "Purdue allowed 218 passing yards and 66 rushing yards in the opener.",
+            "page": 3,
             "category": "defensive_context",
             "importance": "high"
           }
         ],
         "special_teams": [
           {
-            "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra points against Indiana State.",
-            "page": 2,
+            "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra-point attempts against Indiana State, with a long field goal of 39 yards.",
+            "page": 12,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Echeverria Lozano's field goals came from 39, 27 and 25 yards, and his three makes were the most by a Purdue freshman in a game since at least 1995.",
-            "page": 2,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Buffalo transfer Dylan Drennan punted once for 54 yards with a 49-yard net in his Purdue debut.",
+            "fact": "Dylan Drennan punted once for 54 yards with a 49-yard net in the opener.",
             "page": 12,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Xavier Townsend returned three punts for 24 yards against Indiana State.",
+            "fact": "Drennan transferred from Buffalo after averaging 44.8 yards per punt as a freshman, with 25 punts inside the 20 and 16 punts of at least 50 yards.",
             "page": 12,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "Purdue is 0-3-2 all-time against UCLA, and UCLA has won the last two meetings.",
+            "fact": "UCLA leads the series with Purdue 3-0-2 and has won the last two meetings.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
@@ -346,26 +334,32 @@
             "page": 4,
             "category": "series_context",
             "importance": "medium"
+          },
+          {
+            "fact": "The 2026 game will be Barry Odom's first meeting with UCLA as a head coach.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "low"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Sixteen players made their first starts as Boilermakers and 38 players made their Purdue debuts in the season opener.",
+            "fact": "Barry Odom is in his second season as Purdue's head coach.",
             "page": 2,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Purdue added 32 transfers and 22 freshmen for the 2026 season, including 19 transfers from Power Four programs.",
-            "page": 4,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Purdue's six 2026 captains are Ryan Browne, Charles Correa, Hudauri Hines, Jude McCoskey, De'Nylon Morrissette and Curt Neal.",
+            "fact": "Purdue named Ryan Browne, Charles Correa, Hudauri Hines, Jude McCoskey, De'Nylon Morrissette and Curt Neal as its six 2026 team captains.",
             "page": 2,
             "category": "other_relevant",
-            "importance": "low"
+            "importance": "medium"
+          },
+          {
+            "fact": "Thirty-eight players made their Purdue debuts in the 2026 season opener.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
           }
         ],
         "source_file": "Purdue.pdf"
@@ -417,37 +411,28 @@
         "source_team": "Purdue Boilermakers"
       },
       {
-        "fact_id": 6,
-        "fact": "Don Saunders returned an interception 35 yards for a touchdown against Indiana State, Purdue's first pick-six since 2022.",
-        "page": 1,
-        "category": "recent_game",
-        "importance": "high",
-        "source_file": "Purdue.pdf",
-        "source_team": "Purdue Boilermakers"
-      },
-      {
         "fact_id": 8,
-        "fact": "Purdue did not commit a turnover and won the turnover battle against Indiana State.",
-        "page": 11,
-        "category": "recent_game",
-        "importance": "medium",
-        "source_file": "Purdue.pdf",
-        "source_team": "Purdue Boilermakers"
-      },
-      {
-        "fact_id": 9,
-        "fact": "Ryan Browne is Purdue's returning starting quarterback and has started 13 consecutive games and 15 career games for the Boilermakers.",
-        "page": 3,
+        "fact": "Ryan Browne is Purdue's returning starting quarterback and has started 15 career games for the Boilermakers.",
+        "page": 12,
         "category": "quarterback",
         "importance": "high",
         "source_file": "Purdue.pdf",
         "source_team": "Purdue Boilermakers"
       },
       {
-        "fact_id": 25,
-        "fact": "Transfers Keyshawn Burgos, Curt Neal, Jojo Hayden, Jaden Mangham, Don Saunders and John Slaughter made their first Purdue starts in the season opener.",
+        "fact_id": 12,
+        "fact": "Sixteen players made their first Purdue starts against Indiana State, including offensive linemen Jackson Berryman, Micah Banuelos, Brock Brownfield, Nuku Mafi, Jude McCoskey and Boaz Stanley.",
         "page": 2,
-        "category": "defensive_personnel",
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      },
+      {
+        "fact_id": 39,
+        "fact": "Purdue allowed 218 passing yards and 66 rushing yards in the opener.",
+        "page": 3,
+        "category": "defensive_context",
         "importance": "high",
         "source_file": "Purdue.pdf",
         "source_team": "Purdue Boilermakers"

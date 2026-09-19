@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Eastern Michigan Eagles | +23.5 (-105) | FanDuel | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Wisconsin Badgers | -22.5 (-110) | BetRivers | 45.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Eastern Michigan Eagles | +23.5 (+100) | FanDuel | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Wisconsin Badgers | -23.5 (-109) | BetRivers | 43.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Eastern Michigan Eagles visit the Wisconsin Badgers at Camp Randall Stadium. We make **Eastern Michigan +21**, compared with a market line of +23.5.
 
-The best number we found is Eastern Michigan +23.5 at -105. We give Eastern Michigan a 55.9% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Eastern Michigan is a bet.
+The best number we found is Eastern Michigan +23.5 at +100. We give Eastern Michigan a 55.9% chance to cover, which creates an 5.9% edge for us. That clears our 3% threshold, so Eastern Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#60</td>
+<td class="btb-better">#59</td>
 <td>#73</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#70</td>
+<td class="btb-better">#69</td>
 <td>#92</td>
 </tr>
 </tbody>

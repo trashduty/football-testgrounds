@@ -15,9 +15,9 @@ The Purdue Boilermakers visit the UCLA Bruins at Rose Bowl. We make **Purdue +12
 
 The best number we found is Purdue +14.0 at -108. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-The market is asking UCLA to create more separation than our numbers expect. For us, Purdue’s case starts with stability at quarterback. Ryan Browne has started 13 consecutive games for Purdue, and his efficient 317-yard, three-touchdown opener suggests the rebuilt supporting cast can give him enough options to keep the offense functional against stronger competition. We are not treating one performance against Indiana State as proof, but quarterback continuity matters when evaluating an underdog with this many new pieces.
+Our numbers are less pessimistic about Purdue than the market, and the offense offers some reason for that difference. We are not treating the Indiana State opener as proof, but Ryan Browne is a returning starter with 15 career starts for Purdue, and he completed 23 of 29 passes for 317 yards and three touchdowns in that game. That continuity at quarterback matters to us when the market is asking Purdue to stay competitive on the road.
 
-We also do not want to overrate the final score from that opener. Purdue benefited from a defensive touchdown, committed no turnovers and won the turnover battle. The bigger concern for our position is a defense that started six transfers and now faces unfavorable underlying matchups against UCLA’s rushing offense and scoring-opportunity creation. That leaves us with a modest disagreement rather than enough value to get involved at the current price.
+The concern is that Purdue remains difficult to evaluate around Browne. Sixteen players made their first Purdue starts in the opener, including six offensive linemen, while our longer-run metrics show UCLA with potential advantages in the running game and in creating scoring opportunities. We can see a path for Purdue to remain within range, but its passing profile against UCLA's defense is not strong enough to make the modest disagreement actionable. For us, the available price does not provide enough value, so this remains a pass.
 
 ### What The Numbers Say
 
@@ -39,7 +39,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#78</td>
+<td>#79</td>
 <td class="btb-better">#61</td>
 </tr>
 <tr>
@@ -69,9 +69,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-The matchup we are watching is UCLA’s rushing offense against Purdue’s rush defense. Our numbers suggest UCLA can consistently move the ball on the ground, which would create the sustained scoring opportunities needed to pull away rather than merely control the game.
-
-The question for us is whether Purdue’s reworked defense can limit that efficiency before UCLA reaches scoring range. If it can, Browne’s experience gives Purdue a plausible path to stay competitive; if it cannot, the market’s larger margin becomes easier to justify.
+We are watching UCLA's rushing offense against Purdue's run defense. Our matchup numbers identify this as UCLA's clearest route to sustained offense, particularly because Purdue's broader scoring-opportunity prevention also grades poorly. Purdue held Indiana State to 66 rushing yards, but we view that as one encouraging result rather than evidence that the longer-run concern has disappeared. If UCLA consistently creates favorable down-and-distance situations on the ground, Purdue will have a harder time keeping the game inside the market's expectation.
 
 ## Best Bets Of The Week
 

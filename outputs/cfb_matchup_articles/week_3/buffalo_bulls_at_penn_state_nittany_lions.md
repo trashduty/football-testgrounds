@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bulls | +41.5 (-110) | BetMGM | 56.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Penn State Nittany Lions | -40.5 (-114) | BetRivers | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Buffalo Bulls | +40.5 (-102) | DraftKings | 53.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Penn State Nittany Lions | -40.5 (-115) | FanDuel | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Buffalo Bulls visit the Penn State Nittany Lions at Beaver Stadium. We make **Buffalo +38.5**, compared with a market line of +40.5.
+The Buffalo Bulls visit the Penn State Nittany Lions at Beaver Stadium. We make **Buffalo +39**, compared with a market line of +41.
 
-The best number we found is Buffalo +41.5 at -110. We give Buffalo a 56.7% chance to cover, which creates an 4.4% edge for us. That clears our 3% threshold, so Buffalo is a bet.
+The best number we found is Buffalo +40.5 at -102. We give Buffalo a 53.7% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Buffalo is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,18 +42,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#57</td>
-<td class="btb-better">#52</td>
+<td>#55</td>
+<td class="btb-better">#50</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#30</td>
 <td>#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#126</td>
-<td class="btb-better">#42</td>
+<td class="btb-better">#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

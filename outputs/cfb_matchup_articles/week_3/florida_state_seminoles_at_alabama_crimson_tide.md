@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida State Seminoles | +19.5 (-108) | DraftKings | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Alabama Crimson Tide | -19.5 (-108) | BetMGM | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida State Seminoles | +19.5 (-108) | BetMGM | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Alabama Crimson Tide | -19.5 (-110) | BetMGM | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#43</td>
+<td class="btb-better">#44</td>
 <td>#66</td>
 </tr>
 <tr>

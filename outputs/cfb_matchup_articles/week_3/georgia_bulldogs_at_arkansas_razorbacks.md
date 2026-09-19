@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Bulldogs | -24.5 (-112) | DraftKings | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Bulldogs | -24.5 (-109) | BetRivers | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Arkansas Razorbacks | +24.5 (-105) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#133</td>
-<td class="btb-better">#23</td>
+<td class="btb-better">#24</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#48</td>
-<td class="btb-better">#47</td>
+<td>#49</td>
+<td class="btb-better">#48</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#135</td>
-<td class="btb-better">#6</td>
+<td class="btb-better">#5</td>
 </tr>
 </tbody>
 </table>

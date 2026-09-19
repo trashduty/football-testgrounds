@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Akron Zips | +23.5 (-108) | BetRivers | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Minnesota Golden Gophers | -23.5 (-102) | DraftKings | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | -23.5 (-105) | DraftKings | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#33</td>
+<td class="btb-better">#34</td>
 <td>#124</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#90</td>
-<td class="btb-better">#74</td>
+<td class="btb-better">#73</td>
 </tr>
 </tbody>
 </table>

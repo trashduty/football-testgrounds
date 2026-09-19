@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Mississippi State Bulldogs | +3.5 (-105) | FanDuel | 45.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Carolina Gamecocks | -3.5 (-113) | BetRivers | 54.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -3.5 (-115) | FanDuel | 54.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Mississippi State Bulldogs visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **South Carolina -7**, compared with a market line of -4.
 
-The best number we found is South Carolina -3.5 at -113. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Carolina -3.5 at -115. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,11 +38,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#42</td>
-<td>#52</td>
+<td>#53</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#56</td>
+<td class="btb-better">#54</td>
 <td>#65</td>
 </tr>
 <tr>

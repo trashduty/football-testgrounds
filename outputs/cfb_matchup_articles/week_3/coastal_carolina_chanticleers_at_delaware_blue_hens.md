@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Coastal Carolina Chanticleers | +4.5 (-104) | FanDuel | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Delaware Blue Hens | -4.5 (-109) | BetRivers | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | -5.5 (-105) | DraftKings | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Coastal Carolina Chanticleers visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware -6**, compared with a market line of -5.
+The Coastal Carolina Chanticleers visit the Delaware Blue Hens at Delaware Stadium. We make **Coastal Carolina +6**, compared with a market line of +5.
 
-The best number we found is Delaware -4.5 at -109. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Coastal Carolina +4.5 at -104. We see a -1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Delaware</th>
 <th>Coastal Carolina</th>
+<th>Delaware</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#56</td>
 <td>#97</td>
+<td class="btb-better">#56</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#132</td>
 <td class="btb-better">#114</td>
+<td>#132</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#98</td>
 <td>#122</td>
+<td class="btb-better">#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#80</td>
 <td>#121</td>
+<td class="btb-better">#80</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#45</td>
 <td>#112</td>
+<td class="btb-better">#46</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#116</td>
 <td class="btb-better">#110</td>
+<td>#116</td>
 </tr>
 </tbody>
 </table>

@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia State Panthers | +17.5 (-114) | BetRivers | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia State Panthers | +17.5 (-114) | FanDuel | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | UCF Knights | -17.5 (-102) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -37,12 +37,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#85</td>
+<td>#86</td>
 <td class="btb-better">#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#50</td>
+<td class="btb-better">#48</td>
 <td>#101</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#77</td>
+<td class="btb-better">#76</td>
 <td>#93</td>
 </tr>
 </tbody>

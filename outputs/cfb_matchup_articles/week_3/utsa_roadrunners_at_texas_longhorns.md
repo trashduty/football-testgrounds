@@ -15,9 +15,11 @@ The UTSA Roadrunners visit the Texas Longhorns at DKR-Texas Memorial Stadium. We
 
 The best number we found is Texas -30.5 at -102. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We understand why Texas is priced this aggressively. Our longer-run numbers identify its passing offense against UT San Antonio’s pass defense as the clearest advantage in the game. Texas reinforced that potential in its opener, producing 516 yards at 7.0 yards per play while Arch Manning threw for 305 yards and four touchdowns. We view that as supporting context rather than proof, but it shows the offense has multiple ways to create separation.
+We see Texas’ passing game as the clearest source of separation. Arch Manning opened the season by completing 20 of 27 passes for 305 yards and four touchdowns, while Texas generated 516 total yards at 7.0 yards per play. We are not treating one result as proof of another blowout, but it supports the broader matchup signal in our numbers.
 
-The more interesting part is what keeps us from finding value. UT San Antonio’s passing offense has a potentially favorable matchup against a Texas pass defense that grades less impressively in our numbers, and Texas has not been as dominant at consistently creating scoring opportunities as its overall offensive profile might suggest. Texas can still pull away, especially given its extended run of forcing turnovers at home, but our expectation is already aligned with what the market is asking. For us, those counterweights make this a pass rather than a reason to pay the current price.
+The counterweight is that this is not a completely one-sided efficiency profile. Our data gives UT San Antonio’s passing offense a plausible path to move the ball against the Texas pass defense, and we do not see the same clear advantage for Texas in creating scoring opportunities. Texas has forced a turnover in 24 consecutive home games, but turnovers can widen a margin without being something we want to price as automatic.
+
+For us, the case for Texas is easy to understand: superior passing efficiency can create separation quickly. The problem is that the market already accounts for that advantage, while the less decisive areas leave little room for error. We do not see enough value beyond the football case, so we are passing.
 
 ### What The Numbers Say
 
@@ -34,8 +36,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#24</td>
-<td>#48</td>
+<td class="btb-better">#25</td>
+<td>#49</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -49,13 +51,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#51</td>
+<td class="btb-better">#52</td>
 <td>#106</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#81</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#31</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -69,7 +71,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Texas’ passing game against the UT San Antonio secondary. Manning’s opener was supported by Ryan Wingo’s 121 receiving yards and Cam Coleman’s two touchdown catches, while Texas also returns four offensive-line starters from 2025. If that combination produces sustained efficiency and explosive completions, Texas has a clear path to separation. If UT San Antonio can limit those gains and force Texas to string together longer drives, the margin becomes harder to extend.
+We are watching Manning and the Texas receivers against the UT San Antonio pass defense. Ryan Wingo produced seven catches for 121 yards and a touchdown in the opener, while Cam Coleman added 70 yards and two scores in his Texas debut. With four 2025 offensive-line starters back, Texas has the supporting structure to press its most favorable matchup; the question for us is whether that advantage produces enough sustained separation to exceed an already demanding market expectation.
 
 ## Best Bets Of The Week
 

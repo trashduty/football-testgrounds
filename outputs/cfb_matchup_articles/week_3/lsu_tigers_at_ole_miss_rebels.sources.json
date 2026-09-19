@@ -2,7 +2,7 @@
   "game": "LSU Tigers@Ole Miss Rebels",
   "season": 2026,
   "week": 3,
-  "generated_at_utc": "2026-09-18T17:31:38.541666+00:00",
+  "generated_at_utc": "2026-09-19T13:13:41.050261+00:00",
   "model_prediction": 3.0,
   "market_line": 3.0,
   "best_line": 2.5,
@@ -13,8 +13,8 @@
   "bet_short": "Ole Miss",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We are not treating LSU\u2019s early offensive production as proof that the unit will remain dominant. LSU averaged 586 yards through two games, but our efficiency numbers are far less impressed by the passing game, and Sam Leavitt paired four interceptions with two passing touchdowns. Ole Miss has been stronger at preventing scoring opportunities than LSU has been at creating them, which helps explain why our view does not chase the eye-catching raw totals.",
-    "matchup_to_watch": "For us, the defining matchup is Ole Miss\u2019 pass protection against LSU\u2019s pressure. Ole Miss allowed only one sack through two games, while LSU recorded 12, with Princewill Umanmielen accounting for five. Because our numbers also rate LSU\u2019s run defense as a major obstacle, Ole Miss may need Trinidad Chambliss to operate efficiently when the passing game becomes necessary.\n\nThat battle cuts both ways: if Ole Miss keeps the pocket clean, its passing game offers the clearest route to moving the ball. If LSU\u2019s pressure wins, the home-field case weakens quickly. Those competing outcomes leave us without enough separation from the market to justify a position.",
+    "narrative": "We are not treating LSU\u2019s explosive early box scores as a complete picture. LSU has averaged 586 yards per game, but Sam Leavitt has thrown four interceptions and the offensive line has allowed five sacks. Our matchup data is also less enthusiastic about LSU\u2019s passing efficiency and scoring-opportunity creation, especially against an Ole Miss defense that has been better at preventing those opportunities. That helps explain why our view does not move toward LSU simply because of the raw yardage and point totals.\n\nThe counterweight is LSU\u2019s defense. It has allowed just 18 rushing yards per game, held opponents to four conversions on 27 third downs and generated consistent pressure, led by Princewill Umanmielen\u2019s five sacks. Ole Miss brings a productive offense with Trinidad Chambliss at five touchdown passes against one interception, and it has allowed only half a sack per game. For us, that is the central tension: Ole Miss has been efficient and well protected, but LSU presents a much more demanding defensive test than the first two games.\n\nOur overall expectation is therefore closely aligned with what the market is pricing. Ole Miss has won 13 consecutive home games, while the last three meetings in this series were each decided by one possession, but neither trend is enough to create value by itself. With legitimate matchup arguments on both sides and the available number offering less than our fair margin, we do not see enough separation to get involved.",
+    "matchup_to_watch": "For us, the matchup to watch is Ole Miss\u2019s rushing offense against LSU\u2019s run defense. Ole Miss grades well in rushing efficiency, and Kewan Lacy has produced 148 yards and three touchdowns through two games. LSU, however, ranks among our strongest run defenses and has allowed only 18 rushing yards per game.\n\nIf LSU keeps the Ole Miss ground game from staying efficient, more of the offense will fall on Chambliss against a defense that has already produced 12 sacks. Ole Miss has protected him well so far, so that pressure-versus-protection battle should tell us whether the home offense can sustain its early production against a considerably different challenge.",
     "guide_status": [
       "Found guide for LSU Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf",
       "Loaded guide for LSU Tigers: LSU.pdf",
@@ -26,10 +26,10 @@
         "source_team": "LSU Tigers",
         "opponent": "Ole Miss Rebels",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide is dated September 19, 2026 and identifies LSU's third game as a road matchup against Ole Miss at Vaught-Hemingway Stadium in Oxford.",
+        "document_match_reason": "The guide is LSU's Week 3 game notes for the Sept. 19, 2026 road game against Ole Miss at Vaught-Hemingway Stadium.",
         "recent_game": [
           {
-            "fact": "LSU improved to 2-0 with a 45-14 home victory over Louisiana Tech on September 12, scoring 28 unanswered points in the second half.",
+            "fact": "LSU improved to 2-0 with a 45-14 win over Louisiana Tech on Sept. 12, scoring 28 unanswered points in the second half.",
             "page": 6,
             "category": "recent_game",
             "importance": "high"
@@ -41,45 +41,39 @@
             "importance": "high"
           },
           {
-            "fact": "Sam Leavitt passed for 344 yards, threw a 10-yard touchdown to Trey'Dez Green and rushed for three touchdowns against Louisiana Tech.",
+            "fact": "Sam Leavitt threw for 344 yards and one touchdown and rushed for three touchdowns against Louisiana Tech.",
             "page": 8,
             "category": "recent_game",
             "importance": "high"
           },
           {
             "fact": "Princewill Umanmielen recorded three sacks and four tackles for loss against Louisiana Tech, while TJ Dottery led LSU with nine tackles.",
-            "page": 8,
+            "page": 6,
             "category": "recent_game",
             "importance": "high"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Ole Miss enters the matchup 2-0 and ranked No. 8 in the AP poll and No. 9 in the Coaches poll after defeating Charlotte 41-9 on September 12.",
+            "fact": "Ole Miss enters the matchup 2-0 after defeating Charlotte 41-9 on Sept. 12 and is ranked No. 8 in the AP poll and No. 9 in the Coaches poll.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Through two games, Ole Miss averaged 454.0 total yards, including 314.5 passing yards and 139.5 rushing yards, and 41.0 points per game.",
+            "fact": "Through two games, Ole Miss is averaging 454.0 total yards, 314.5 passing yards, 139.5 rushing yards and 41.0 points per game.",
             "page": 9,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss allowed 395.5 total yards per game through two games, including 243.0 passing yards and 152.5 rushing yards.",
+            "fact": "Ole Miss has allowed 395.5 total yards per game, including 243.0 passing and 152.5 rushing, while allowing 23.5 points per game.",
             "page": 9,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss had allowed one sack through two games, while LSU had recorded 12 sacks.",
-            "page": 9,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Ole Miss had a minus-1.0 turnover margin through two games, with one takeaway and three turnovers lost.",
+            "fact": "Ole Miss has allowed one sack per game and has a minus-1.0 turnover margin through two games.",
             "page": 9,
             "category": "opponent_notes",
             "importance": "medium"
@@ -87,92 +81,92 @@
         ],
         "quarterback": [
           {
-            "fact": "LSU starting quarterback Sam Leavitt, an Arizona State transfer, completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions through two games while rushing for 135 yards and five touchdowns.",
+            "fact": "LSU starting quarterback Sam Leavitt has completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions while rushing for 135 yards and five touchdowns.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Leavitt ranked second in the SEC with 354.5 total-offense yards per game through two games.",
+            "fact": "Leavitt ranks second in the SEC in total offense at 354.5 yards per game and has accounted for seven touchdowns.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Leavitt's 344 passing yards and three rushing touchdowns against Louisiana Tech were career highs.",
-            "page": 8,
+            "fact": "Leavitt transferred from Arizona State after making 20 starts there and leading the Sun Devils to a 16-4 record in those starts.",
+            "page": 14,
             "category": "quarterback",
             "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "LSU used the same starting offensive line in each of its first two games: left tackle Jordan Seaton, left guard Bo Bordelon, center Braelin Moore, right guard Aliou Bah and right tackle Weston Davis.",
+            "fact": "LSU used the same offensive line in each of its first two games: Jordan Seaton at left tackle, Bo Bordelon at left guard, Braelin Moore at center, Aliou Bah at right guard and Weston Davis at right tackle.",
             "page": 20,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Seaton, Bah, Sam Leavitt, Dilin Jones, Eugene Wilson III and Winston Watkins Jr. were among 13 transfers who made their first LSU starts during the opening two games.",
-            "page": 11,
+            "fact": "Four members of LSU's starting offensive line are transfers: Seaton from Colorado, Bah from Maryland, Moore from Virginia Tech and Davis, who is in his third LSU season.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU has allowed five sacks through two games, an average of 2.5 per game.",
+            "page": 21,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Dilin Jones led LSU with 179 rushing yards and two touchdowns through two games.",
-            "page": 1,
+            "fact": "Running back Dilin Jones leads LSU with 179 rushing yards and two touchdowns on 41 carries.",
+            "page": 22,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Tight end Trey'Dez Green had 10 receptions for 162 yards and one touchdown through two games; eight receptions and both of his direct-snap rushing attempts produced first downs or touchdowns.",
+            "fact": "Tight end Trey'Dez Green has 10 receptions for 162 yards and one touchdown; eight of his receptions have produced a first down or touchdown.",
             "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Winston Watkins Jr., a 2025 Ole Miss player, started LSU's first two games at wide receiver.",
-            "page": 12,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "LSU allowed five sacks through its first two games.",
-            "page": 21,
+            "fact": "LSU has started transfer receivers Eugene Wilson III and Winston Watkins Jr. in both games, while Malik Elzy and Jackson Harris have each made one start at the other receiver spot.",
+            "page": 20,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "LSU used the same defensive starting lineup in its first two games, including edge rushers Princewill Umanmielen and Jordan Ross, linebackers Whit Weeks and TJ Dottery, and cornerbacks PJ Woodland and DJ Pickett.",
+            "fact": "LSU has used the same defensive starting lineup in both games: Princewill Umanmielen, Stephiylan Green, Deuce Geralds and Jordan Ross on the front; Whit Weeks and TJ Dottery at linebacker; and PJ Woodland, Tamarcus Cooley, Ty Benefield, Dashawn Spears and DJ Pickett in the secondary.",
             "page": 20,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Umanmielen, an Ole Miss transfer, led the nation through two games with five sacks and 6.5 tackles for loss.",
+            "fact": "Umanmielen, an Ole Miss transfer, leads the nation with five sacks and 6.5 tackles for loss through two games.",
             "page": 8,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Linebacker TJ Dottery transferred from Ole Miss after starting 27 games there over the previous two seasons and leading the SEC with 98 tackles in 2025.",
-            "page": 14,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Dottery led LSU with 14 tackles through two games, followed by Whit Weeks with 13.",
+            "fact": "Linebackers TJ Dottery and Whit Weeks lead LSU with 14 and 13 tackles, respectively.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "LSU returned three starters from its 2025 secondary\u2014PJ Woodland, DJ Pickett and Tamarcus Cooley\u2014from a unit that recorded 17 interceptions while allowing 14 touchdown passes.",
+            "fact": "LSU returned three starters from its 2025 secondary: cornerbacks PJ Woodland and DJ Pickett and safety Tamarcus Cooley.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "medium"
+          },
+          {
+            "fact": "Four LSU players came from Ole Miss's 2025 team: edge Princewill Umanmielen, linebacker TJ Dottery, wide receiver Winston Watkins Jr. and offensive tackle Devin Harper.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
           }
         ],
         "coaching_changes": [
@@ -183,96 +177,114 @@
             "importance": "high"
           },
           {
-            "fact": "Kiffin was named LSU head coach on November 30, 2025, making this his first return to Ole Miss in the season immediately following his departure.",
+            "fact": "Kiffin was named LSU head coach on Nov. 30, 2025, making this his first return to Ole Miss since leaving the program.",
             "page": 5,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Charlie Weis Jr. is LSU's first-year offensive coordinator and works from the press box, while Blake Baker remains LSU's defensive coordinator.",
+            "fact": "Charlie Weis Jr. is LSU's first-year offensive coordinator and calls the offense from the press box.",
             "page": 1,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss is coached by Pete Golding, who entered the matchup with a 3-1 career and school record.",
+            "fact": "Blake Baker remains LSU's defensive coordinator, while first-year assistant Chris Kiffin serves as co-defensive coordinator and linebackers coach.",
             "page": 1,
             "category": "coaching_changes",
             "importance": "medium"
+          },
+          {
+            "fact": "Pete Golding is Ole Miss's head coach and enters the matchup with a 3-1 record at the school.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
           }
         ],
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "LSU produced 1,172 total yards through two games, the program's highest two-game total to begin a season in records dating to 1937.",
+            "fact": "LSU has produced 1,172 total yards through two games, the program's highest two-game total to begin a season in records dating to 1937.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU averaged 586.0 total yards, 358.0 passing yards, 228.0 rushing yards and 48.0 points per game through two games.",
-            "page": 1,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "LSU averaged 89 offensive snaps per game through two games, 26 more per game than it averaged in 2025.",
-            "page": 7,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "LSU converted 19 of 33 third downs, a 58 percent rate, through two games.",
+            "fact": "LSU averages 586.0 total yards, 358.0 passing yards, 228.0 rushing yards and 48.0 points per game.",
             "page": 21,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU rushed for 456 yards and eight touchdowns at 4.5 yards per carry through two games.",
+            "fact": "LSU is averaging 89 offensive snaps per game, 26 more per game than in 2025, and is averaging 6.6 yards per play.",
             "page": 7,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU outscored its first two opponents 27-3 in the first quarter.",
+            "fact": "LSU has converted 19 of 33 third downs, a 58 percent rate, and both of its fourth-down attempts.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU has rushed for 456 yards and eight touchdowns through two games, averaging 4.5 yards per carry.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU has outscored its opponents 27-3 in the first quarter.",
             "page": 7,
             "category": "offensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "LSU has committed five turnovers through two games, including four interceptions, and has a minus-0.5 turnover margin.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
           }
         ],
         "defensive_context": [
           {
-            "fact": "LSU led the nation through two games in total defense at 142.0 yards per game, sacks with 12 and opponent first downs with 16.",
+            "fact": "LSU leads the nation in total defense at 142.0 yards per game, sacks with 12 and opponent first downs with 16.",
             "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU allowed 18.0 rushing yards per game and opponents converted 4 of 27 third downs, a 14.8 percent rate.",
-            "page": 1,
+            "fact": "LSU is allowing 18.0 rushing yards and 124.0 passing yards per game.",
+            "page": 21,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU forced 13 three-and-outs on 28 opponent possessions, and 22 of those possessions lasted four plays or fewer.",
+            "fact": "Opponents have converted four of 27 third downs against LSU, a 14.8 percent rate.",
             "page": 7,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Only 14 of the first 103 opponent offensive snaps occurred in LSU territory, including six snaps on drives that began there following turnovers.",
+            "fact": "LSU has forced 13 three-and-outs on 28 opponent possessions, and 22 of those possessions lasted four plays or fewer.",
             "page": 7,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Seven LSU defenders recorded at least half a sack and 13 recorded a tackle for loss through two games.",
+            "fact": "Only 14 of opponents' 103 offensive snaps have occurred in LSU territory, including six snaps on drives that began in LSU territory after turnovers.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Seven LSU defenders have recorded at least half a sack, and 13 have recorded a tackle for loss.",
             "page": 7,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "LSU allowed one passing touchdown through two games and has allowed 26 passing touchdowns in 28 games under defensive coordinator Blake Baker.",
+            "fact": "LSU has allowed one passing touchdown through two games and has allowed 26 passing touchdowns in 28 games under defensive coordinator Blake Baker.",
             "page": 8,
             "category": "defensive_context",
             "importance": "medium"
@@ -280,13 +292,13 @@
         ],
         "special_teams": [
           {
-            "fact": "LSU kicker Scott Starzyk made four of five field-goal attempts and all 10 extra-point attempts through two games.",
+            "fact": "LSU kicker Scott Starzyk is 4-for-5 on field goals and 10-for-10 on extra points through two games.",
             "page": 21,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss averaged 44.8 net yards per punt through two games, compared with LSU's 37.0.",
+            "fact": "LSU is averaging 37.0 net yards per punt, while Ole Miss is averaging 44.8.",
             "page": 9,
             "category": "special_teams",
             "importance": "medium"
@@ -294,39 +306,39 @@
         ],
         "series_context": [
           {
+            "fact": "This is the first LSU-Ole Miss matchup with both teams ranked in the Top 10 since 1962 and only the sixth such meeting in series history.",
+            "page": 5,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
             "fact": "LSU leads the all-time series 66-44-4, while the series in Oxford is tied 11-11-1.",
             "page": 5,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss won the 2025 meeting 24-19 in Oxford after holding LSU to 254 total yards.",
+            "fact": "Ole Miss won the 2025 meeting in Oxford 24-19 after holding LSU to 254 total yards.",
             "page": 9,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "The previous three LSU-Ole Miss games were decided by a combined 14 points, with each being a one-possession game.",
+            "fact": "The last three LSU-Ole Miss games have each been decided by one possession and by a combined 14 points.",
             "page": 6,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "This is the first LSU-Ole Miss matchup with both teams ranked in the top 10 since 1962 and the sixth such matchup in series history.",
+            "fact": "LSU is playing at Ole Miss in consecutive seasons for the first time in the 114-game series.",
             "page": 5,
             "category": "series_context",
             "importance": "medium"
-          },
-          {
-            "fact": "LSU is playing at Ole Miss in consecutive seasons for the first time in the series because of the SEC's shift to a nine-game conference schedule.",
-            "page": 5,
-            "category": "series_context",
-            "importance": "low"
           }
         ],
         "other_relevant": [
           {
-            "fact": "The Ole Miss game is LSU's first road game and SEC opener of the 2026 season.",
+            "fact": "The game is LSU's first road contest and first SEC game of the 2026 season; both teams enter 2-0 and 0-0 in conference play.",
             "page": 5,
             "category": "other_relevant",
             "importance": "high"
@@ -338,13 +350,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Four LSU players\u2014Princewill Umanmielen, TJ Dottery, Winston Watkins Jr. and Devin Harper\u2014were members of Ole Miss' 2025 team.",
-            "page": 12,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Fourteen players made their first LSU starts through two games, including 13 transfers and true freshman defensive tackle Deuce Geralds.",
+            "fact": "Fourteen players have made their first LSU start through two games, including 13 transfers and true freshman defensive tackle Deuce Geralds.",
             "page": 11,
             "category": "other_relevant",
             "importance": "medium"
@@ -356,34 +362,40 @@
         "source_team": "Ole Miss Rebels",
         "opponent": "LSU Tigers",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is Ole Miss' 2026 Game 3 notes for the Sept. 19 home matchup against LSU and includes current statistics, depth charts, personnel updates and LSU-specific scouting information.",
+        "document_match_reason": "The document is labeled \"GAME 3: LSU\" and identifies the Sept. 19, 2026 matchup between No. 8 Ole Miss and No. 7 LSU at Vaught-Hemingway Stadium.",
         "recent_game": [
           {
-            "fact": "Ole Miss improved to 2-0 with a 41-9 home win over Charlotte.",
+            "fact": "Ole Miss improved to 2-0 with a 41-9 home victory over Charlotte.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Trinidad Chambliss completed a career-high 88 percent of his passes for 225 yards and two touchdowns against Charlotte.",
+            "fact": "Against Charlotte, quarterback Trinidad Chambliss completed a career-high 88 percent of his passes for 225 yards and two touchdowns.",
             "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Kewan Lacy rushed 13 times for 87 yards and two touchdowns against Charlotte.",
+            "fact": "Running back Kewan Lacy carried 13 times for 87 yards and two touchdowns against Charlotte.",
             "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Deuce Alexander recorded a career-high eight receptions for 76 yards against Charlotte.",
+            "fact": "Wide receiver Deuce Alexander recorded a career-high eight catches for 76 yards against Charlotte.",
             "page": 4,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "Nick Cull recorded his first interception as an Ole Miss player against Charlotte.",
+            "fact": "Nick Cull made his first interception as an Ole Miss player against Charlotte.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Ferrelli led Ole Miss with six tackles against Charlotte.",
             "page": 5,
             "category": "recent_game",
             "importance": "medium"
@@ -391,7 +403,7 @@
         ],
         "opponent_notes": [
           {
-            "fact": "LSU is 2-0 after defeating Clemson 51-10 and Louisiana Tech 45-14.",
+            "fact": "LSU is 2-0 and ranked No. 7 in both the AP and Coaches polls after defeating Clemson 51-10 and Louisiana Tech 45-14.",
             "page": 6,
             "category": "opponent_notes",
             "importance": "high"
@@ -403,28 +415,10 @@
             "importance": "high"
           },
           {
-            "fact": "LSU has rushed for 456 yards and eight touchdowns through two games.",
-            "page": 6,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "LSU quarterback Sam Leavitt has completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions while rushing for 135 yards and five touchdowns.",
+            "fact": "LSU has rushed for 456 yards and eight touchdowns through two games, averaging 228.0 rushing yards per game.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
-          },
-          {
-            "fact": "LSU running back Dilin Jones has rushed 41 times for 179 yards and two touchdowns.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "LSU's leading receivers through two games are Trey'Dez Green with 162 yards, Winston Watkins Jr. with 153 yards and Eugene Wilson III with 128 yards.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "medium"
           },
           {
             "fact": "LSU's defense has recorded 10 sacks and 17 tackles for loss through two games.",
@@ -433,65 +427,59 @@
             "importance": "high"
           },
           {
-            "fact": "LSU defender Princewill Umanmielen has recorded 6.5 tackles for loss and five sacks through two games.",
+            "fact": "LSU quarterback Sam Leavitt is 41-of-66 for 574 yards, two passing touchdowns and four interceptions; he also has 135 rushing yards and five rushing touchdowns.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
+          },
+          {
+            "fact": "LSU edge defender Princewill Umanmielen has 6.5 tackles for loss and five sacks through two games.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU's leading receivers through two games are Trey'Dez Green with 162 yards, Winston Watkins Jr. with 153 yards and Eugene Wilson III with 128 yards.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "medium"
           }
         ],
         "quarterback": [
           {
-            "fact": "Ole Miss starting quarterback Trinidad Chambliss has completed 44 of 62 passes for 561 yards, five touchdowns and one interception in 2026.",
+            "fact": "Ole Miss quarterback Trinidad Chambliss is 44-of-62 for 561 yards, five touchdowns and one interception through two games.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Chambliss has also rushed 12 times for 62 yards and one touchdown through two games.",
+            "fact": "Chambliss has added 62 rushing yards and one rushing touchdown on 12 attempts.",
             "page": 3,
             "category": "quarterback",
-            "importance": "high"
+            "importance": "medium"
           },
           {
             "fact": "Chambliss has thrown a touchdown pass in 15 consecutive games, the fourth-longest streak in Ole Miss history.",
             "page": 10,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "In Ole Miss' 24-19 win over LSU in 2025, Chambliss passed for 314 yards and one touchdown and rushed for 71 yards.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
-          },
-          {
-            "fact": "The depth chart lists Deuce Knight and Walker Howard as the primary alternatives behind Chambliss.",
-            "page": 17,
-            "category": "quarterback",
-            "importance": "low"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Ole Miss' listed first-team offensive line is Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center, Patrick Kutas at right guard and Tommy Kinsler IV at right tackle.",
-            "page": 17,
+            "fact": "Kewan Lacy has 148 rushing yards and three touchdowns on 30 carries through two games.",
+            "page": 3,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Kinsler missed the Charlotte game due to injury; Connor Howes is listed behind him at right tackle.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Tight end Caleb Odom missed the Charlotte game due to injury; Luke Hasz, Odom and Michael Smith are listed as co-options atop the tight end depth chart.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Kewan Lacy has 148 rushing yards and three touchdowns through two games and has scored a rushing touchdown in 11 consecutive games.",
+            "fact": "Lacy has scored at least one rushing touchdown in 11 consecutive games, the second-longest active streak in the FBS.",
             "page": 8,
             "category": "offensive_personnel",
             "importance": "high"
@@ -503,51 +491,63 @@
             "importance": "high"
           },
           {
-            "fact": "Transfer receiver Johntay Cook II scored his first Ole Miss touchdown against Charlotte.",
+            "fact": "Transfer wide receiver Horatio Fields has nine receptions for 113 yards and one touchdown through two games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer wide receiver Johntay Cook II scored his first Ole Miss touchdown against Charlotte.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Transfer receiver Horatio Fields has nine receptions for 113 yards and one touchdown through two games.",
+            "fact": "Ole Miss' LSU-week depth chart lists Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center, Patrick Kutas at right guard and Tommy Kinsler IV at right tackle.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Terez Davis, Delano Townsend, Brycen Sanders and Patrick Kutas started on the offensive line against Charlotte.",
             "page": 4,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Ole Miss' front-line depth chart features Kam Franklin at defensive end, Jamarious Brown at nose tackle, Will Echoles at defensive tackle and Suntarine Perkins or Blake Purchase at edge.",
+            "fact": "Ole Miss' LSU-week depth chart lists Kam Franklin, Jamarious Brown, Will Echoles and Suntarine Perkins as the first-listed defensive front.",
             "page": 17,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer linebackers Keaton Thomas and Luke Ferrelli are listed with the first-team defense.",
+            "fact": "Transfer linebackers Keaton Thomas and Luke Ferrelli are the first-listed linebackers on the LSU-week depth chart.",
             "page": 17,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Thomas and Tah'j Butler share the team lead with 12 tackles through two games, while Ferrelli has 11 tackles and one sack.",
+            "fact": "Thomas and Ferrelli are tied for the team lead with 12 tackles apiece through two games.",
             "page": 3,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Suntarine Perkins has 10 tackles, 1.5 tackles for loss and a half-sack through two games; his Ole Miss career totals are 33.5 tackles for loss and 19 sacks.",
-            "page": 5,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Cornerback Jaylon Braxton has 11 tackles and three pass breakups through two games.",
+            "fact": "Cornerback Jaylon Braxton has 11 tackles and a team-high three pass breakups through two games.",
             "page": 3,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "The listed first-team secondary includes Jaylon Braxton at one corner, Antonio Kite or Jalyn Crawford at the other corner, Joenel Aguero at free safety, Sharif Denson or Anthony Robinson III at strong safety and Edwin Joseph at nickel.",
+            "fact": "Ole Miss added Thomas from Baylor and Ferrelli from California during the offseason; Ferrelli started all 13 games for California in 2025, while Thomas started all 25 games over his final two seasons before transferring.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The LSU-week secondary depth chart first lists Jaylon Braxton and either Antonio Kite or transfer Jalyn Crawford at corner, transfer Edwin Joseph at nickel, transfer Joenel Aguero at free safety and either transfer Sharif Denson or Anthony Robinson III at strong safety.",
             "page": 17,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -555,13 +555,7 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Pete Golding was named Ole Miss head coach on Nov. 30, 2025 after three seasons as the Rebels' defensive coordinator and is in his first full season as head coach.",
-            "page": 6,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Former Ole Miss head coach Lane Kiffin became LSU's head coach on Nov. 30, 2025 after going 55-19 in six seasons at Ole Miss.",
+            "fact": "Pete Golding is in his first full season as Ole Miss head coach after being named to the position on Nov. 30, 2025; he previously spent three seasons as the Rebels' defensive coordinator.",
             "page": 6,
             "category": "coaching_changes",
             "importance": "high"
@@ -579,21 +573,21 @@
             "importance": "high"
           },
           {
-            "fact": "Baker and Brown call their respective units from the coaches' booth.",
-            "page": 16,
+            "fact": "Lane Kiffin became LSU's head coach on Nov. 30, 2025 after six seasons at Ole Miss, where he went 55-19.",
+            "page": 6,
             "category": "coaching_changes",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "injury_availability": [
           {
-            "fact": "Starting right tackle Tommy Kinsler IV missed the Charlotte game due to injury.",
+            "fact": "Tight end Caleb Odom missed the Charlotte game due to injury; the guide does not state his availability for LSU.",
             "page": 4,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Tight end Caleb Odom missed the Charlotte game due to injury.",
+            "fact": "Right tackle Tommy Kinsler IV missed the Charlotte game due to injury; he remains first-listed at right tackle on the LSU-week depth chart, but the guide does not explicitly state his availability.",
             "page": 4,
             "category": "injury_availability",
             "importance": "high"
@@ -601,25 +595,19 @@
         ],
         "offensive_context": [
           {
-            "fact": "Ole Miss is averaging 41.0 points, 454.0 total yards, 314.5 passing yards and 139.5 rushing yards per game through two games.",
+            "fact": "Ole Miss has averaged 41.0 points, 454.0 total yards, 314.5 passing yards and 139.5 rushing yards per game through two games.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss has converted every red-zone opportunity through two games.",
+            "fact": "Ole Miss has scored on 100 percent of its red-zone possessions and has allowed 0.5 sacks per game through two games.",
             "page": 8,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss has allowed 0.5 sacks per game through two games.",
-            "page": 8,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Ole Miss is operating at 22.7 seconds per play, fifth-fastest in the FBS; LSU is at 22.9 seconds per play.",
+            "fact": "Ole Miss ranks fifth nationally in pace at 22.7 seconds per play; LSU ranks tied for eighth at 22.9 seconds per play.",
             "page": 9,
             "category": "offensive_context",
             "importance": "high"
@@ -627,19 +615,19 @@
         ],
         "defensive_context": [
           {
-            "fact": "Ole Miss has allowed 23.5 points and 395.5 total yards per game through two games.",
+            "fact": "Ole Miss has allowed 47 points and 791 total yards through two games, averages of 23.5 points and 395.5 yards per game.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Rebels have allowed 152.5 rushing yards and 243.0 passing yards per game through two games.",
+            "fact": "Ole Miss has allowed 152.5 rushing yards and 243.0 passing yards per game through two games.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss is averaging seven tackles for loss and two sacks per game through two games.",
+            "fact": "The Rebels have averaged 7.0 tackles for loss and 2.0 sacks per game, while allowing opponents to convert 33.3 percent of third downs.",
             "page": 8,
             "category": "defensive_context",
             "importance": "medium"
@@ -647,31 +635,25 @@
         ],
         "special_teams": [
           {
-            "fact": "Kicker Lucas Carneiro made both field-goal attempts against Charlotte, including a 57-yarder.",
+            "fact": "Kicker Lucas Carneiro is 4-of-5 on field goals and 10-of-10 on extra points through two games.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Carneiro made both field-goal attempts against Charlotte, including a season-long 57-yarder.",
             "page": 4,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Carneiro is 4-for-5 on field goals and 10-for-10 on extra points through two games.",
-            "page": 4,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Carneiro has made six field goals of at least 50 yards since joining Ole Miss in 2025, the program career record.",
+            "fact": "Carneiro has made six field goals of at least 50 yards since joining Ole Miss in 2025, a program career record.",
             "page": 7,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Punter Oscar Bird is averaging 45.4 yards on five punts through two games.",
-            "page": 3,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "LSU punt returner Eugene Wilson III has returned four punts for 44 yards, an average of 11.0 yards.",
+            "fact": "Punter Oscar Bird has averaged 45.4 yards on five punts through two games.",
             "page": 3,
             "category": "special_teams",
             "importance": "medium"
@@ -679,13 +661,13 @@
         ],
         "series_context": [
           {
-            "fact": "LSU leads the on-field series 66-44-4, while the series in Oxford is tied 11-11-1.",
+            "fact": "This is the 115th meeting between Ole Miss and LSU; LSU leads the on-field series 66-44-4.",
             "page": 6,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "The home team has won 12 of the last 14 meetings on the field.",
+            "fact": "The on-field series in Oxford is tied 11-11-1, and the home team has won 12 of the last 14 meetings.",
             "page": 6,
             "category": "series_context",
             "importance": "high"
@@ -697,15 +679,15 @@
             "importance": "high"
           },
           {
-            "fact": "This is the first Ole Miss-LSU meeting since 1962 in which both teams are ranked in the AP top 10.",
+            "fact": "This is the first Ole Miss-LSU game since 1962 in which both teams are ranked in the AP top 10.",
             "page": 6,
             "category": "series_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Ole Miss is ranked No. 8 in the AP poll and No. 9 in the Coaches poll, while LSU is No. 7 in both polls.",
+            "fact": "Ole Miss enters the game ranked No. 8 in the AP poll and No. 9 in the Coaches poll.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
@@ -714,11 +696,11 @@
             "fact": "Ole Miss has won 13 consecutive home games dating to Oct. 26, 2024.",
             "page": 7,
             "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Five Rebels made their first career starts during the first two games of 2026: Deuce Alexander, Jamarious Brown, Connor Howes, Tommy Kinsler IV and Anthony Robinson III.",
-            "page": 9,
+            "fact": "During its current 13-game home winning streak, Ole Miss has averaged 36.3 points and 483.5 total yards per game while allowing 14.4 points and 305.8 yards per game.",
+            "page": 7,
             "category": "other_relevant",
             "importance": "medium"
           }
@@ -763,17 +745,8 @@
     ],
     "used_sources": [
       {
-        "fact_id": 8,
-        "fact": "Ole Miss had allowed one sack through two games, while LSU had recorded 12 sacks.",
-        "page": 9,
-        "category": "opponent_notes",
-        "importance": "high",
-        "source_file": "LSU.pdf",
-        "source_team": "LSU Tigers"
-      },
-      {
-        "fact_id": 10,
-        "fact": "LSU starting quarterback Sam Leavitt, an Arizona State transfer, completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions through two games while rushing for 135 yards and five touchdowns.",
+        "fact_id": 9,
+        "fact": "LSU starting quarterback Sam Leavitt has completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions while rushing for 135 yards and five touchdowns.",
         "page": 1,
         "category": "quarterback",
         "importance": "high",
@@ -781,8 +754,17 @@
         "source_team": "LSU Tigers"
       },
       {
-        "fact_id": 20,
-        "fact": "Umanmielen, an Ole Miss transfer, led the nation through two games with five sacks and 6.5 tackles for loss.",
+        "fact_id": 14,
+        "fact": "LSU has allowed five sacks through two games, an average of 2.5 per game.",
+        "page": 21,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 19,
+        "fact": "Umanmielen, an Ole Miss transfer, leads the nation with five sacks and 6.5 tackles for loss through two games.",
         "page": 8,
         "category": "defensive_personnel",
         "importance": "high",
@@ -791,21 +773,93 @@
       },
       {
         "fact_id": 29,
-        "fact": "LSU averaged 586.0 total yards, 358.0 passing yards, 228.0 rushing yards and 48.0 points per game through two games.",
-        "page": 1,
+        "fact": "LSU averages 586.0 total yards, 358.0 passing yards, 228.0 rushing yards and 48.0 points per game.",
+        "page": 21,
         "category": "offensive_context",
         "importance": "high",
         "source_file": "LSU.pdf",
         "source_team": "LSU Tigers"
       },
       {
-        "fact_id": 34,
-        "fact": "LSU led the nation through two games in total defense at 142.0 yards per game, sacks with 12 and opponent first downs with 16.",
+        "fact_id": 35,
+        "fact": "LSU leads the nation in total defense at 142.0 yards per game, sacks with 12 and opponent first downs with 16.",
         "page": 1,
         "category": "defensive_context",
         "importance": "high",
         "source_file": "LSU.pdf",
         "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 36,
+        "fact": "LSU is allowing 18.0 rushing yards and 124.0 passing yards per game.",
+        "page": 21,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 37,
+        "fact": "Opponents have converted four of 27 third downs against LSU, a 14.8 percent rate.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 47,
+        "fact": "The last three LSU-Ole Miss games have each been decided by one possession and by a combined 14 points.",
+        "page": 6,
+        "category": "series_context",
+        "importance": "medium",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 65,
+        "fact": "Ole Miss quarterback Trinidad Chambliss is 44-of-62 for 561 yards, five touchdowns and one interception through two games.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 69,
+        "fact": "Kewan Lacy has 148 rushing yards and three touchdowns on 30 carries through two games.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 88,
+        "fact": "Ole Miss has averaged 41.0 points, 454.0 total yards, 314.5 passing yards and 139.5 rushing yards per game through two games.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 89,
+        "fact": "Ole Miss has scored on 100 percent of its red-zone possessions and has allowed 0.5 sacks per game through two games.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 103,
+        "fact": "Ole Miss has won 13 consecutive home games dating to Oct. 26, 2024.",
+        "page": 7,
+        "category": "other_relevant",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
       }
     ],
     "model_context": {

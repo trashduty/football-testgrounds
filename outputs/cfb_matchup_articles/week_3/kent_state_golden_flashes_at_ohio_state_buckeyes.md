@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Kent State Golden Flashes | +52.5 (-108) | FanDuel | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ohio State Buckeyes | -52.5 (-105) | DraftKings | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio State Buckeyes | -52.5 (-105) | BetMGM | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,9 +15,11 @@ The Kent State Golden Flashes visit the Ohio State Buckeyes at Ohio Stadium. We 
 
 The best number we found is Ohio State -52.5 at -105. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our slight lean toward Ohio State starts with its ability to create scoring opportunities against a Kent State defense that has struggled to prevent them. Our numbers see a major advantage there, and the supporting context is strong: Ohio State produced 671 yards in its opener, returns eight offensive starters and brought back 85.8 percent of its 2025 offensive-line snaps. We are not treating one result as proof, but the continuity helps explain why our model expects Ohio State to sustain drives and generate repeated scoring chances.
+Our numbers point to the same basic mismatch the market sees. Kent State has struggled to generate efficient rushing production or consistent scoring opportunities, while Ohio State grades among the strongest defenses in both areas. On the other side, Ohio State has been excellent at creating scoring chances against a Kent State defense that has had difficulty preventing them.
 
-The other side of the matchup points in the same direction. Kent State grades poorly in both rushing efficiency and scoring-opportunity creation, while Ohio State rates near the top of our defensive measures in those areas. Our concern is that Ohio State replaced eight defensive starters, so we do not want to overstate the certainty of those ratings this early. The market is already pricing an extremely one-sided game, and our disagreement is too small to create enough value for us.
+The opener provides supporting context rather than proof. Ohio State produced 671 yards against Ball State while allowing only 165, and an offense returning eight starters showed its continuity immediately. That combination gives us a clear football case for a wide margin.
+
+The question is whether our expectation differs enough from an already aggressive market price. It does not. Ohio State also replaced eight defensive starters from last season, which adds some uncertainty when the margin required is this large. We lean slightly beyond the market, but not by enough to justify a wager.
 
 ### What The Numbers Say
 
@@ -59,7 +61,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#3</td>
+<td class="btb-better">#2</td>
 <td>#89</td>
 </tr>
 </tbody>
@@ -69,9 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Kent State's rushing offense against Ohio State's run defense. If Kent State cannot create efficient early-down runs, its path to sustained possessions becomes narrow, which matters when Ohio State's offense is positioned to generate frequent scoring opportunities.
+We are watching Kent State's rushing offense against Ohio State's run defense. If Kent State cannot create efficient early-down runs, sustained possessions and scoring opportunities become much harder to find. Ohio State held Ball State to 45 rushing yards in the opener, which is consistent with our underlying matchup numbers without being conclusive on its own.
 
-We saw Ohio State hold Ball State to 45 rushing yards in the opener. That does not automatically settle the question against a different opponent, especially with the defensive turnover, but it supports the underlying mismatch our numbers identify.
+That matchup explains why we can support such a large projected margin. It does not create a meaningful betting edge by itself, because the market has already priced in most of Ohio State's defensive advantage.
 
 ## Best Bets Of The Week
 

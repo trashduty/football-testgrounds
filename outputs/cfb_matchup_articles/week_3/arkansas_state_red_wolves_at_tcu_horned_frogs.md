@@ -32,12 +32,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#35</td>
+<td class="btb-better">#37</td>
 <td>#63</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#83</td>
+<td class="btb-better">#84</td>
 <td>#98</td>
 </tr>
 <tr>
@@ -47,17 +47,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#31</td>
-<td>#50</td>
+<td class="btb-better">#32</td>
+<td>#51</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#13</td>
-<td>#46</td>
+<td class="btb-better">#16</td>
+<td>#47</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#21</td>
+<td class="btb-better">#22</td>
 <td>#29</td>
 </tr>
 </tbody>

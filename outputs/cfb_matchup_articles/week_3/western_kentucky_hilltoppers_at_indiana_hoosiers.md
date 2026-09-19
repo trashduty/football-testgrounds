@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Western Kentucky Hilltoppers | +44.5 (-105) | BetMGM | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Indiana Hoosiers | -44.5 (-110) | Fanatics | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Indiana Hoosiers | -44.5 (-112) | BetMGM | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -38,12 +38,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#103</td>
-<td class="btb-better">#15</td>
+<td class="btb-better">#16</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#103</td>
-<td class="btb-better">#58</td>
+<td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -53,7 +53,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#94</td>
-<td class="btb-better">#10</td>
+<td class="btb-better">#13</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
