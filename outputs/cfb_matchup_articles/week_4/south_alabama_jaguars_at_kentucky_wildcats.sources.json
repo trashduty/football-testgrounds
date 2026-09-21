@@ -1,0 +1,27 @@
+{
+  "game": "South Alabama Jaguars@Kentucky Wildcats",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:20:08.869258+00:00",
+  "model_prediction": 18.0,
+  "market_line": 20.5,
+  "best_line": 20.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55206254,
+  "edge": 0.0398674180487804,
+  "bet_short": "South Alabama",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for South Alabama Jaguars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Alabama.pdf",
+      "No guide found for Kentucky Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kentucky.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

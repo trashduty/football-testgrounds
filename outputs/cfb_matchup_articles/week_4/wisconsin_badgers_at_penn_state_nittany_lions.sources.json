@@ -1,0 +1,27 @@
+{
+  "game": "Wisconsin Badgers@Penn State Nittany Lions",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:26:55.790163+00:00",
+  "model_prediction": -13.0,
+  "market_line": -10.0,
+  "best_line": -9.5,
+  "best_price": "-114",
+  "best_book": "BetRivers",
+  "cover_probability": 0.55074272,
+  "edge": 0.0180324396261682,
+  "bet_short": "Penn State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Wisconsin Badgers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wisconsin.pdf",
+      "No guide found for Penn State Nittany Lions. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Penn State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

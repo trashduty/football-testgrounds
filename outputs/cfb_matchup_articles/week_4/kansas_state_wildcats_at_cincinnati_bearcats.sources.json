@@ -1,0 +1,27 @@
+{
+  "game": "Kansas State Wildcats@Cincinnati Bearcats",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:14:56.348413+00:00",
+  "model_prediction": 5.5,
+  "market_line": 6.5,
+  "best_line": 6.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.52996228,
+  "edge": 0.0061527561904761,
+  "bet_short": "Cincinnati",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Kansas State Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas State.pdf",
+      "No guide found for Cincinnati Bearcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Cincinnati.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

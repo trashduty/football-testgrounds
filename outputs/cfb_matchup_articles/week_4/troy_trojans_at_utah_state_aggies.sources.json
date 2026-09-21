@@ -1,0 +1,27 @@
+{
+  "game": "Troy Trojans@Utah State Aggies",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:23:19.387203+00:00",
+  "model_prediction": -2.5,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.50160871,
+  "edge": -0.0105864119512195,
+  "bet_short": "Utah State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Troy Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Troy.pdf",
+      "No guide found for Utah State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

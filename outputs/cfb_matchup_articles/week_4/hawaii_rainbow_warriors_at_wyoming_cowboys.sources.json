@@ -1,0 +1,27 @@
+{
+  "game": "Hawaii Rainbow Warriors@Wyoming Cowboys",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:13:26.654197+00:00",
+  "model_prediction": 0.5,
+  "market_line": 3.0,
+  "best_line": 3.5,
+  "best_price": "-114",
+  "best_book": "BetRivers",
+  "cover_probability": 0.57505759,
+  "edge": 0.0423473096261682,
+  "bet_short": "Wyoming",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Hawaii Rainbow Warriors. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Hawai'i.pdf",
+      "No guide found for Wyoming Cowboys. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wyoming.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

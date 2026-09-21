@@ -1,0 +1,27 @@
+{
+  "game": "Oregon State Beavers@UTEP Miners",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:20:06.967200+00:00",
+  "model_prediction": 10.0,
+  "market_line": 11.5,
+  "best_line": 11.5,
+  "best_price": "-110",
+  "best_book": "DraftKings",
+  "cover_probability": 0.55375623,
+  "edge": 0.0299467061904761,
+  "bet_short": "UTEP",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Oregon State Beavers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon State.pdf",
+      "No guide found for UTEP Miners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UTEP.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

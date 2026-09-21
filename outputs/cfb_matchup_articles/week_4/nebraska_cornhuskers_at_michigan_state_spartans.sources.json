@@ -1,0 +1,27 @@
+{
+  "game": "Nebraska Cornhuskers@Michigan State Spartans",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:16:40.694215+00:00",
+  "model_prediction": -8.0,
+  "market_line": -5.5,
+  "best_line": -4.5,
+  "best_price": "-112",
+  "best_book": "BetRivers",
+  "cover_probability": 0.55615085,
+  "edge": 0.0278489632075471,
+  "bet_short": "Nebraska",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Nebraska Cornhuskers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nebraska.pdf",
+      "No guide found for Michigan State Spartans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

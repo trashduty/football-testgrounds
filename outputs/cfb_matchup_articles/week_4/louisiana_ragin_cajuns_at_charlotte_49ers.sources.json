@@ -1,0 +1,27 @@
+{
+  "game": "Louisiana Ragin Cajuns@Charlotte 49ers",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:14:57.706638+00:00",
+  "model_prediction": 9.0,
+  "market_line": 10.5,
+  "best_line": 10.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55568837,
+  "edge": 0.0318788461904762,
+  "bet_short": "Charlotte",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Louisiana Ragin Cajuns. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana.pdf",
+      "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

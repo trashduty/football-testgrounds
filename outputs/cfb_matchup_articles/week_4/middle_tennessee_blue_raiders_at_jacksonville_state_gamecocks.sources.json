@@ -1,0 +1,27 @@
+{
+  "game": "Middle Tennessee Blue Raiders@Jacksonville State Gamecocks",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:14:58.169520+00:00",
+  "model_prediction": -10.0,
+  "market_line": -8.5,
+  "best_line": -8.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.50103986,
+  "edge": -0.0181909092307692,
+  "bet_short": "Jacksonville Stat",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Middle Tennessee Blue Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Middle Tennessee.pdf",
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

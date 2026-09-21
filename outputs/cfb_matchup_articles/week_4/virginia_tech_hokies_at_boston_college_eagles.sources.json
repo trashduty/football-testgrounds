@@ -1,0 +1,27 @@
+{
+  "game": "Virginia Tech Hokies@Boston College Eagles",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:25:10.415948+00:00",
+  "model_prediction": 11.0,
+  "market_line": 14.5,
+  "best_line": 14.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.58559044,
+  "edge": 0.0617809161904762,
+  "bet_short": "Boston College",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Virginia Tech Hokies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf",
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

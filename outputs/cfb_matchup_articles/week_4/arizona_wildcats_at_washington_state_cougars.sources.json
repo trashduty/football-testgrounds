@@ -1,0 +1,27 @@
+{
+  "game": "Arizona Wildcats@Washington State Cougars",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:11:26.219863+00:00",
+  "model_prediction": 5.0,
+  "market_line": 10.0,
+  "best_line": 12.5,
+  "best_price": "-112",
+  "best_book": "BetRivers",
+  "cover_probability": 0.66088587,
+  "edge": 0.1325839832075471,
+  "bet_short": "Washington State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Arizona Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona.pdf",
+      "No guide found for Washington State Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

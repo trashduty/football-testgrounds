@@ -1,0 +1,27 @@
+{
+  "game": "Rice Owls@Fresno State Bulldogs",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:20:07.423418+00:00",
+  "model_prediction": -18.0,
+  "market_line": -14.0,
+  "best_line": -14.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.55493609,
+  "edge": 0.0427409680487804,
+  "bet_short": "Fresno State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf",
+      "No guide found for Fresno State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Fresno State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

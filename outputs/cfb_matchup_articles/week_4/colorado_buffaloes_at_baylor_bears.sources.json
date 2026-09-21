@@ -1,0 +1,27 @@
+{
+  "game": "Colorado Buffaloes@Baylor Bears",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:13:24.324823+00:00",
+  "model_prediction": 8.0,
+  "market_line": 10.0,
+  "best_line": 10.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.57296148,
+  "edge": 0.0380777590697675,
+  "bet_short": "Colorado",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Colorado Buffaloes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Colorado.pdf",
+      "No guide found for Baylor Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Baylor.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

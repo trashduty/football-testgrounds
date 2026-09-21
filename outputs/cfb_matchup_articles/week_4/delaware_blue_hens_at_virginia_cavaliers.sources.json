@@ -1,0 +1,27 @@
+{
+  "game": "Delaware Blue Hens@Virginia Cavaliers",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:13:25.249989+00:00",
+  "model_prediction": 20.5,
+  "market_line": 20.5,
+  "best_line": 20.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50740788,
+  "edge": -0.0164016438095238,
+  "bet_short": "Delaware",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Delaware Blue Hens. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Delaware.pdf",
+      "No guide found for Virginia Cavaliers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

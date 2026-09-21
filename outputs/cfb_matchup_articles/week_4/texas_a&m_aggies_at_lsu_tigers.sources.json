@@ -1,0 +1,399 @@
+{
+  "game": "Texas A&M Aggies@LSU Tigers",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:21:34.351451+00:00",
+  "model_prediction": 10.0,
+  "market_line": 10.0,
+  "best_line": 9.5,
+  "best_price": "-102",
+  "best_book": "DraftKings",
+  "cover_probability": 0.51802104,
+  "edge": 0.013070544950495,
+  "bet_short": "Texas A&M",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We are not dismissing LSU\u2019s fast start. LSU averaged 586 yards across its first two games while playing 89 offensive snaps per game, but five turnovers accompanied that production. For us, the more important question is how efficiently that offense travels into a much tougher matchup rather than whether the early raw totals look impressive.",
+    "matchup_to_watch": "We are watching LSU\u2019s offense against Texas A&M\u2019s ability to prevent scoring opportunities. Our numbers rate the Aggies far better in that area and also favor their pass defense against an LSU passing attack that has yet to grade efficiently by EPA. Sam Leavitt produced 574 passing yards and five rushing touchdowns through two games, but he also threw four interceptions, so Texas A&M\u2019s ability to force difficult decisions could determine whether LSU converts volume into separation.\n\nWe also have to respect the other side of the matchup. LSU recorded 12 sacks and held its first two opponents to 4-of-27 on third down, with Princewill Umanmielen accounting for five of those sacks. That defensive disruption makes it harder for us to turn the case for Texas A&M into a wager. We can see a path for the Aggies to keep LSU\u2019s offense from consistently finishing drives, but the available price does not give us enough value to act.",
+    "guide_status": [
+      "No guide found for Texas A&M Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf",
+      "Found guide for LSU Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf",
+      "Guide for LSU Tigers was found but may not match the current opponent. The guide is dated September 19, 2026 and is explicitly labeled for LSU's Game Three at Ole Miss. Texas A&M is listed as LSU's next game on September 26, 2026, but this is not the Texas A&M matchup guide."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "LSU Tigers",
+        "opponent": "Texas A&M Aggies",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is dated September 19, 2026 and is explicitly labeled for LSU's Game Three at Ole Miss. Texas A&M is listed as LSU's next game on September 26, 2026, but this is not the Texas A&M matchup guide.",
+        "recent_game": [
+          {
+            "fact": "LSU improved to 2-0 with a 45-14 home win over Louisiana Tech on September 12, scoring 28 unanswered second-half points.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU held Louisiana Tech to 139 total yards, eight first downs and minus-4 rushing yards.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Sam Leavitt passed for 344 yards and one touchdown and rushed for three touchdowns against Louisiana Tech; both the passing-yardage and rushing-touchdown totals were career highs.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Princewill Umanmielen recorded three sacks and four tackles for loss against Louisiana Tech, while TJ Dottery led LSU with nine tackles.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "LSU is scheduled to host Texas A&M at Tiger Stadium on September 26, 2026, with kickoff at 6:30 p.m. CT on ABC.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M defeated LSU 49-25 on October 25, 2025; that was Brian Kelly's final game as LSU's head coach.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "The 2026 meeting will be the second consecutive season in which LSU hosts Texas A&M at Tiger Stadium.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Sam Leavitt is an Arizona State transfer who entered LSU with 20 previous career starts.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games, Leavitt completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions while rushing for 135 yards and five touchdowns.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Leavitt accounted for seven touchdowns through two games and ranked second in the SEC with 354.5 total-offense yards per game.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "LSU used the same starting offensive line in each of its first two games: left tackle Jordan Seaton, left guard Bo Bordelon, center Braelin Moore, right guard Aliou Bah and right tackle Weston Davis.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jordan Seaton, the starting left tackle, transferred from Colorado after starting 22 games there, all at left tackle.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Starting right guard Aliou Bah transferred from Maryland with 24 consecutive starts and more than 1,500 collegiate snaps at right guard.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Center Braelin Moore returned after starting all 13 games for LSU in 2025 and allowing one sack over 623 offensive snaps.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer running back Dilin Jones led LSU through two games with 179 rushing yards and two touchdowns.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Trey'Dez Green had 10 receptions for 162 yards and one touchdown through two games; eight receptions produced a first down or touchdown, and both of his direct-snap rushes produced first downs.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Fourteen players made their first LSU starts during the first two games, including 13 transfers and true freshman defensive tackle Deuce Geralds.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "EDGE Princewill Umanmielen led the nation through two games with five sacks and 6.5 tackles for loss.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebackers TJ Dottery and Whit Weeks led LSU through two games with 14 and 13 tackles, respectively.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU started the same defensive lineup in each of its first two games, including transfers Umanmielen, Stephiylan Green, Geralds, Jordan Ross, Dottery and Ty Benefield.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU returned three starters from its 2025 secondary: cornerbacks PJ Woodland and DJ Pickett and safety Tamarcus Cooley. Those three combined for seven interceptions in 2025.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Lane Kiffin is in his first season as LSU's head coach after being hired on November 30, 2025; LSU was 2-0 under Kiffin when this guide was issued.",
+            "page": 8,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Charlie Weis Jr. is LSU's first-year offensive coordinator and works from the press box.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Blake Baker remains LSU's defensive coordinator, while Chris Kiffin joined the staff as co-defensive coordinator and linebackers coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Eric Wolford is LSU's first-year offensive line coach, and James Cregg serves as run game specialist for the offensive line.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "LSU totaled 1,172 offensive yards through two games, averaging 586.0 yards per game, 228.0 rushing yards and 358.0 passing yards.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU averaged 89 offensive snaps per game through two games, 26 more per game than it averaged in 2025.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU rushed for 456 yards and eight touchdowns on 101 attempts through two games, averaging 4.5 yards per carry.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU converted 19 of 33 third downs through two games, a 58 percent conversion rate.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU outscored its first two opponents 27-3 in the first quarter.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU committed five turnovers through two games, including four interceptions, and had a minus-one turnover margin.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through two games, LSU allowed 284 total yards, including 36 rushing and 248 passing, for an average of 142.0 yards per game.",
+            "page": 21,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU recorded 12 sacks through its first two games and held opponents to 4-of-27 on third down.",
+            "page": 21,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU forced 13 three-and-outs on 28 opponent possessions through two games, and 22 of those possessions lasted four plays or fewer.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Only 14 of the opponents' first 103 offensive snaps occurred in LSU territory; six of those snaps followed turnovers that gave the opponent possession on LSU's side of the field.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Seven LSU defenders recorded at least half a sack through two games, and 13 defenders recorded at least one tackle for loss.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "In 28 games under defensive coordinator Blake Baker, LSU allowed 26 passing touchdowns; through two games in 2026, it allowed one.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Scott Starzyk made four of five field-goal attempts and all 10 extra-point attempts through LSU's first two games.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Starzyk made field goals of 25 and 23 yards against Louisiana Tech.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "LSU was ranked No. 7 in both the AP and Coaches polls when the guide was issued; Texas A&M was No. 9 in the AP poll and No. 8 in the Coaches poll.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "LSU.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "LSU scoring-opportunity creation vs Texas A&M scoring-opportunity prevention",
+        "off_team": "LSU",
+        "def_team": "Texas A&M",
+        "off_rank": 83,
+        "def_rank": 4,
+        "stat": "Eckel rate",
+        "rank_gap": 79,
+        "direction": "defense_advantage",
+        "matchup_score": 179
+      },
+      {
+        "dimension": "LSU passing offense vs Texas A&M pass defense",
+        "off_team": "LSU",
+        "def_team": "Texas A&M",
+        "off_rank": 107,
+        "def_rank": 32,
+        "stat": "pass EPA",
+        "rank_gap": 75,
+        "direction": "defense_advantage",
+        "matchup_score": 175
+      },
+      {
+        "dimension": "LSU rushing offense vs Texas A&M rush defense",
+        "off_team": "LSU",
+        "def_team": "Texas A&M",
+        "off_rank": 84,
+        "def_rank": 47,
+        "stat": "rush EPA",
+        "rank_gap": 37,
+        "direction": "mixed",
+        "matchup_score": 37
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 6,
+        "fact": "Through two games, Leavitt completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions while rushing for 135 yards and five touchdowns.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 15,
+        "fact": "EDGE Princewill Umanmielen led the nation through two games with five sacks and 6.5 tackles for loss.",
+        "page": 8,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 23,
+        "fact": "LSU totaled 1,172 offensive yards through two games, averaging 586.0 yards per game, 228.0 rushing yards and 358.0 passing yards.",
+        "page": 21,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 24,
+        "fact": "LSU averaged 89 offensive snaps per game through two games, 26 more per game than it averaged in 2025.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 28,
+        "fact": "LSU committed five turnovers through two games, including four interceptions, and had a minus-one turnover margin.",
+        "page": 21,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 30,
+        "fact": "LSU recorded 12 sacks through its first two games and held opponents to 4-of-27 on third down.",
+        "page": 21,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Texas A&M Aggies",
+      "model_side": "Texas A&M",
+      "opponent_full": "LSU Tigers",
+      "opponent": "LSU",
+      "model_prediction": 10.0,
+      "market_line": 10.0,
+      "best_available_line": 9.5,
+      "best_available_price": "-102",
+      "cover_probability": 0.51802104,
+      "edge": 0.013070544950495,
+      "bet_status": "PASS"
+    }
+  }
+}

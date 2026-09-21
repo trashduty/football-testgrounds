@@ -1,0 +1,27 @@
+{
+  "game": "UNLV Rebels@Akron Zips",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:25:09.068915+00:00",
+  "model_prediction": -15.0,
+  "market_line": -12.5,
+  "best_line": -12.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.52551886,
+  "edge": 0.0017093361904761,
+  "bet_short": "UNLV",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf",
+      "No guide found for Akron Zips. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Akron.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

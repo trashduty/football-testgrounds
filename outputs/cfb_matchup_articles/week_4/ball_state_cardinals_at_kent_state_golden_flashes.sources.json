@@ -1,0 +1,27 @@
+{
+  "game": "Ball State Cardinals@Kent State Golden Flashes",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:11:27.169310+00:00",
+  "model_prediction": -0.0,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.58476595,
+  "edge": 0.0609564261904761,
+  "bet_short": "Ball State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Ball State Cardinals. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ball State.pdf",
+      "No guide found for Kent State Golden Flashes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kent State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "game": "Texas Longhorns@Tennessee Volunteers",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:23:18.911487+00:00",
+  "model_prediction": 4.5,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50089302,
+  "edge": -0.0113021019512195,
+  "bet_short": "Tennessee",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers lean slightly further toward Tennessee because the clearest matchup advantages belong to its offense. We rate Tennessee\u2019s rushing attack as a major strength, while our efficiency profile is less favorable toward Texas against both the run and the pass. That gives Tennessee more than one credible way to sustain drives and create separation.\n\nWe are not treating Texas\u2019 59-7 opener as proof that those matchup concerns have disappeared. Texas produced 516 yards, and Arch Manning threw for 305 yards and four touchdowns, but that performance came against Texas State. The more useful takeaway for us is that Manning is experienced and working behind a line that returns four 2025 starters, giving Texas enough offensive stability to challenge Tennessee even if the rushing matchup is less favorable.\n\nThat is why our disagreement with the market remains modest rather than actionable. We see a stronger underlying case for Tennessee, but Texas has enough experience and defensive disruption to keep the range of outcomes wide. Texas has forced a turnover in 36 of its last 37 games, and that potential for possession swings helps explain why the available price is not sufficient for us.",
+    "matchup_to_watch": "For us, the matchup to watch is Tennessee\u2019s rushing offense against the Texas front. Our numbers identify the Tennessee ground game as its clearest advantage, and consistent early-down success would make the rest of the offense considerably harder to defend.\n\nTexas does have a disruptive piece in Colin Simmons, who led the team in 2025 with 12 sacks and 15.5 tackles for loss. We will be watching whether Texas can create negative plays around the line of scrimmage or whether Tennessee stays ahead of schedule. That battle is central to the small gap between our expectation and the market.",
+    "guide_status": [
+      "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
+      "Guide for Texas Longhorns was found but may not match the current opponent. The guide is labeled for Texas' Week 2 game against Ohio State on Sept. 12, 2026, not the Week 4 game at Tennessee. It contains limited scheduling and series information for the later Tennessee matchup, along with current Texas personnel and performance information.",
+      "No guide found for Tennessee Volunteers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Texas Longhorns",
+        "opponent": "Tennessee Volunteers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is labeled for Texas' Week 2 game against Ohio State on Sept. 12, 2026, not the Week 4 game at Tennessee. It contains limited scheduling and series information for the later Tennessee matchup, along with current Texas personnel and performance information.",
+        "recent_game": [
+          {
+            "fact": "Texas opened the 2026 season with a 59-7 home win over Texas State on Sept. 5.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas produced 516 total yards and averaged 7.0 yards per play against Texas State.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas forced three turnovers\u2014two fumbles and one interception\u2014against Texas State.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Texas' Week 4 game at Tennessee is scheduled for 11 a.m. CT on Saturday, Sept. 26, 2026, at Neyland Stadium and will air on ABC or ESPN.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "The Tennessee game will be Texas' first trip to Knoxville.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Senior quarterback Arch Manning is 13-3 as a starter and has appeared in 26 games with 16 starts across four seasons at Texas.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Manning completed 20 of 27 passes for 305 yards and four touchdowns in the 2026 opener against Texas State.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "In 13 starts during 2025, Manning completed 248 of 404 passes for 3,163 yards and 26 touchdowns; he also rushed for 399 yards and a team-high 10 touchdowns.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running backs Raleek Brown and Hollywood Smothers transferred to Texas in spring 2026 from Arizona State and NC State, respectively.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Smothers had seven carries for 72 yards and caught three passes for 28 yards and a touchdown against Texas State.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown had 11 carries for 34 yards and two touchdowns in his Texas debut against Texas State.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Returning wide receiver Ryan Wingo caught seven passes for 121 yards and a touchdown in the opener after leading Texas in receptions, receiving yards and receiving touchdowns in 2025.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn transfer Cam Coleman caught three passes for 70 yards and two touchdowns in his Texas debut against Texas State.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas returns 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson and added transfer linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas' listed offensive linemen entered 2026 with a combined 226 games played and 114 starts.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas added tight end Michael Masunas from Michigan State; he made eight starts in 2025 and recorded 19 catches for 232 yards and three touchdowns.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Junior edge Colin Simmons returns after leading Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons recorded one tackle, a half tackle for loss, one quarterback hurry and a fumble recovery against Texas State.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas added defensive transfers Rasheem Biles, Markus Boswell, Justin Cryer, Darius Snow, Ian Geffrard and Zion Williams for 2026.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kyle Flood is Texas' offensive coordinator and offensive-line coach, while AJ Milwee is co-offensive coordinator and quarterbacks coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Will Muschamp is Texas' defensive coordinator, and Johnny Nansen is co-defensive coordinator and linebackers coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Texas rushed for 156 yards and three touchdowns against Texas State.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas did not punt against Texas State, its first game without a punt since the 2023 game against Kansas.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas has not lost the turnover battle in 13 consecutive games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Texas has forced a turnover in 36 of its last 37 games.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas has recorded 57 takeaways since the start of 2024.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas led the SEC with 21 turnovers gained in 2025 and ranked second in the conference with 16 interceptions.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas recorded at least 40 sacks and 15 interceptions in both 2024 and 2025.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Texas added punter Mac Chiumento from Florida State and kicker Gianni Spetic from Memphis for the 2026 season.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Spetic made his only field-goal attempt in the 2026 opener.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Texas and Tennessee will meet for the fourth time and the first time since 1969; Texas leads the series 2-1.",
+            "page": 5,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Texas entered Week 2 with a 1-0 record and was ranked No. 5 in the AP poll and No. 4 in the Coaches Poll.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Thirty-three players made their Texas debuts in the season-opening win over Texas State.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas added 22 players through the transfer portal for the 2026 season.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Texas.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Texas rushing offense vs Tennessee rush defense",
+        "off_team": "Texas",
+        "def_team": "Tennessee",
+        "off_rank": 108,
+        "def_rank": 62,
+        "stat": "rush EPA",
+        "rank_gap": 46,
+        "direction": "mixed",
+        "matchup_score": 46
+      },
+      {
+        "dimension": "Tennessee passing offense vs Texas pass defense",
+        "off_team": "Tennessee",
+        "def_team": "Texas",
+        "off_rank": 23,
+        "def_rank": 67,
+        "stat": "pass EPA",
+        "rank_gap": 44,
+        "direction": "mixed",
+        "matchup_score": 44
+      },
+      {
+        "dimension": "Tennessee rushing offense vs Texas rush defense",
+        "off_team": "Tennessee",
+        "def_team": "Texas",
+        "off_rank": 6,
+        "def_rank": 46,
+        "stat": "rush EPA",
+        "rank_gap": 40,
+        "direction": "mixed",
+        "matchup_score": 40
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Texas opened the 2026 season with a 59-7 home win over Texas State on Sept. 5.",
+        "page": 5,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 2,
+        "fact": "Texas produced 516 total yards and averaged 7.0 yards per play against Texas State.",
+        "page": 12,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 5,
+        "fact": "Manning completed 20 of 27 passes for 305 yards and four touchdowns in the 2026 opener against Texas State.",
+        "page": 6,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 12,
+        "fact": "Texas returns 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson and added transfer linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski.",
+        "page": 12,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 15,
+        "fact": "Junior edge Colin Simmons returns after leading Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles.",
+        "page": 12,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 23,
+        "fact": "Texas has forced a turnover in 36 of its last 37 games.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Tennessee Volunteers",
+      "model_side": "Tennessee",
+      "opponent_full": "Texas Longhorns",
+      "opponent": "Texas",
+      "model_prediction": 4.5,
+      "market_line": 3.5,
+      "best_available_line": 3.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.50089302,
+      "edge": -0.0113021019512195,
+      "bet_status": "PASS"
+    }
+  }
+}

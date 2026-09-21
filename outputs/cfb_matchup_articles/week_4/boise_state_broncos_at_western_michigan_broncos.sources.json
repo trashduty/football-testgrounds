@@ -1,0 +1,27 @@
+{
+  "game": "Boise State Broncos@Western Michigan Broncos",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:11:27.657704+00:00",
+  "model_prediction": -9.5,
+  "market_line": -7.5,
+  "best_line": -7.5,
+  "best_price": "-105",
+  "best_book": "BetMGM",
+  "cover_probability": 0.51479931,
+  "edge": 0.0026041880487804,
+  "bet_short": "Boise State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf",
+      "No guide found for Western Michigan Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Michigan.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

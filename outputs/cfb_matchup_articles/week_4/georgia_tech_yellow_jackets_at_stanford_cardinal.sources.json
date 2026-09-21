@@ -1,0 +1,27 @@
+{
+  "game": "Georgia Tech Yellow Jackets@Stanford Cardinal",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:13:26.155711+00:00",
+  "model_prediction": 2.0,
+  "market_line": 3.5,
+  "best_line": 4.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.56634497,
+  "edge": 0.0314612490697674,
+  "bet_short": "Stanford",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Georgia Tech Yellow Jackets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Tech.pdf",
+      "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

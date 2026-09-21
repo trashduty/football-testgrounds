@@ -1,0 +1,27 @@
+{
+  "game": "Tulsa Golden Hurricane@Arkansas Razorbacks",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:23:19.857328+00:00",
+  "model_prediction": 6.5,
+  "market_line": 6.5,
+  "best_line": 6.5,
+  "best_price": "-105",
+  "best_book": "BetMGM",
+  "cover_probability": 0.51273233,
+  "edge": 0.0005372080487804354,
+  "bet_short": "Tulsa",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Tulsa Golden Hurricane. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulsa.pdf",
+      "No guide found for Arkansas Razorbacks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

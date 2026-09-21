@@ -1,0 +1,27 @@
+{
+  "game": "TCU Horned Frogs@UCF Knights",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:20:10.598459+00:00",
+  "model_prediction": 0.5,
+  "market_line": 3.0,
+  "best_line": 3.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.56915192,
+  "edge": 0.0342681990697675,
+  "bet_short": "UCF",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for TCU Horned Frogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/TCU.pdf",
+      "No guide found for UCF Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCF.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

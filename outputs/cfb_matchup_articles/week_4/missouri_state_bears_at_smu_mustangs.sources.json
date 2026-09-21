@@ -1,0 +1,27 @@
+{
+  "game": "Missouri State Bears@SMU Mustangs",
+  "season": 2026,
+  "week": 4,
+  "generated_at_utc": "2026-09-21T13:14:59.098684+00:00",
+  "model_prediction": 33.5,
+  "market_line": 34.5,
+  "best_line": 34.5,
+  "best_price": "-105",
+  "best_book": "Fanatics",
+  "cover_probability": 0.51796363,
+  "edge": 0.0057685080487804,
+  "bet_short": "Missouri State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Missouri State Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri State.pdf",
+      "No guide found for SMU Mustangs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/SMU.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
