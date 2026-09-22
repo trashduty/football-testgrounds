@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on Minnesota-Washington.
+Our model is 1 points away from the market on Minnesota-Washington.
 
-We make Washington -10. The market is -8.5.
+We make Washington -11. The market is -10.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

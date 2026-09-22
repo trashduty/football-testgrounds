@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Troy Trojans | +2.5 (-110) | BetMGM | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Utah State Aggies | -2.5 (-105) | DraftKings | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Troy Trojans | +3.5 (-122) | FanDuel | 44.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah State Aggies | -3.5 (+100) | FanDuel | 55.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Troy Trojans visit the Utah State Aggies at Maverik Stadium. We make **Utah State -2.5**, compared with a market line of -2.5.
+The Troy Trojans visit the Utah State Aggies at Maverik Stadium. We make **Utah State -8**, compared with a market line of -3.
 
-The best number we found is Utah State -2.5 at -105. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Utah State -3.5 at +100. We give Utah State a 55.7% chance to cover, which creates an 5.7% edge for us. That clears our 3% threshold, so Utah State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

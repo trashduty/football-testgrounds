@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona Wildcats | -9.5 (-115) | FanDuel | 39.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington State Cougars | +12.5 (-112) | BetRivers | 66.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Arizona Wildcats | -10.5 (-110) | FanDuel | 36.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | +10.5 (-110) | FanDuel | 62.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Arizona Wildcats visit the Washington State Cougars at Gesa Field. We make **Washington State +5**, compared with a market line of +10.
 
-The best number we found is Washington State +12.5 at -112. We give Washington State a 66.1% chance to cover, which creates an 13.3% edge for us. That clears our 3% threshold, so Washington State is a bet.
+The best number we found is Washington State +10.5 at -110. We give Washington State a 62.9% chance to cover, which creates an 10.6% edge for us. That clears our 3% threshold, so Washington State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

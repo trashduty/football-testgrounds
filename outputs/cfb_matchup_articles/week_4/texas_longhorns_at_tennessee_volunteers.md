@@ -6,20 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Longhorns | -3.5 (-108) | BetMGM | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Tennessee Volunteers | +3.5 (-105) | FanDuel | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Longhorns | -5.0 (-110) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tennessee Volunteers | +5.5 (-110) | DraftKings | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Longhorns visit the Tennessee Volunteers at Neyland Stadium. We make **Tennessee +4.5**, compared with a market line of +3.5.
+The Texas Longhorns visit the Tennessee Volunteers at Neyland Stadium. We make **Tennessee +5.5**, compared with a market line of +5.5.
 
-The best number we found is Tennessee +3.5 at -105. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Tennessee +5.5 at -110. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers lean slightly further toward Tennessee because the clearest matchup advantages belong to its offense. We rate Tennessee’s rushing attack as a major strength, while our efficiency profile is less favorable toward Texas against both the run and the pass. That gives Tennessee more than one credible way to sustain drives and create separation.
+We do not see a meaningful model-market disagreement here. Our numbers favor Tennessee largely because its offense has two plausible paths to efficiency: a strong rushing profile against a more ordinary Texas run defense, and a passing game that grades better than the opposing pass defense. Texas has the clearer concern on the ground in our data, which could make sustaining drives more difficult if the passing game is not consistently productive.
 
-We are not treating Texas’ 59-7 opener as proof that those matchup concerns have disappeared. Texas produced 516 yards, and Arch Manning threw for 305 yards and four touchdowns, but that performance came against Texas State. The more useful takeaway for us is that Manning is experienced and working behind a line that returns four 2025 starters, giving Texas enough offensive stability to challenge Tennessee even if the rushing matchup is less favorable.
-
-That is why our disagreement with the market remains modest rather than actionable. We see a stronger underlying case for Tennessee, but Texas has enough experience and defensive disruption to keep the range of outcomes wide. Texas has forced a turnover in 36 of its last 37 games, and that potential for possession swings helps explain why the available price is not sufficient for us.
+We are not dismissing what Texas showed in its opener. Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns, while the offense produced 516 total yards. Texas also returns four offensive-line starters, so there is enough experience and passing-game upside to challenge our matchup lean. Add in a defense that forced at least one turnover in 36 of its previous 37 games, and we do not see enough separation from the market to justify the current price.
 
 ### What The Numbers Say
 
@@ -37,7 +35,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#23</td>
-<td>#36</td>
+<td>#33</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -71,13 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Tennessee’s rushing offense against the Texas front. Our numbers identify the Tennessee ground game as its clearest advantage, and consistent early-down success would make the rest of the offense considerably harder to defend.
-
-Texas does have a disruptive piece in Colin Simmons, who led the team in 2025 with 12 sacks and 15.5 tackles for loss. We will be watching whether Texas can create negative plays around the line of scrimmage or whether Tennessee stays ahead of schedule. That battle is central to the small gap between our expectation and the market.
+For us, the matchup to watch is Tennessee's rushing offense against Texas' run defense. Our efficiency numbers point to the Tennessee ground game as the clearest potential source of separation. The challenge is that Texas has consistently created extra possessions, including an SEC-leading 21 takeaways in 2025, so Tennessee's rushing advantage matters most if it can produce efficient drives without giving those possessions back.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

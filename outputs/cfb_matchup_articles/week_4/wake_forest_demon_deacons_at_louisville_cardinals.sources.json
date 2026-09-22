@@ -2,22 +2,22 @@
   "game": "Wake Forest Demon Deacons@Louisville Cardinals",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-21T13:26:55.344833+00:00",
+  "generated_at_utc": "2026-09-22T23:47:36.106898+00:00",
   "model_prediction": 13.0,
   "market_line": 12.5,
   "best_line": 12.5,
   "best_price": "-105",
-  "best_book": "DraftKings",
+  "best_book": "BetMGM",
   "cover_probability": 0.51447434,
   "edge": 0.0022792180487805,
   "bet_short": "Wake Forest",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our slight lean toward Wake Forest is less about its unbeaten start and more about an offense that has avoided drive-killing mistakes. We have seen Wake Forest play two games without a turnover, while Gio Lopez produced 575 passing yards, four passing touchdowns and another 98 yards on the ground. Carlos Hernandez also supplied 253 receiving yards. We view that production as useful context rather than proof, but it helps explain why our numbers give Wake Forest a chance to remain competitive.\n\nThe more important counterweight is Louisville\u2019s defense. Our efficiency numbers grade Louisville better than Wake Forest\u2019s offense against both the pass and the run, with an even stronger advantage in preventing scoring opportunities. That matters because Wake Forest\u2019s early production has benefited from clean football; if Louisville disrupts that efficiency, the underdog\u2019s margin for error narrows quickly.\n\nWe also have reservations about Wake Forest\u2019s defense after Purdue produced a 329-yard passer and a 114-yard, three-touchdown rusher. We are not treating one game as a definitive forecast, but it reinforces the case for Louisville creating separation. For us, the competing signals leave our view too close to the market to justify a wager at the available price.",
-    "matchup_to_watch": "We are watching Lopez and the Wake Forest passing game against Louisville\u2019s pass defense. Lopez\u2019s ability to contribute through the air and on the ground gives Wake Forest a way to extend possessions, while Hernandez has already emerged as a productive target. Our matchup numbers still favor Louisville\u2019s defense, so the question is whether Wake Forest can maintain its early ball security and create enough successful passing downs to keep the game within range.",
+    "narrative": "We are not reacting too strongly to Wake Forest\u2019s early scoring output. Wake Forest has scored on nine of 10 red-zone possessions without committing a turnover, but our broader efficiency numbers show a more demanding matchup against a Louisville defense that rates better against both the pass and the run. The most important gap for us is Louisville\u2019s advantage in preventing scoring opportunities, because Wake Forest may not generate the same volume of favorable possessions it has enjoyed through two games.\n\nWe still see a credible path for Wake Forest to remain competitive. Gio Lopez has thrown for 575 yards with four touchdowns and no interceptions while adding 98 rushing yards, and Carlos Hernandez has already produced 253 receiving yards. That combination gives Wake Forest some ways to challenge Louisville, but the market is already accounting for much of that upside. Our view differs only marginally, and we do not see enough separation to justify a wager at the available price.",
+    "matchup_to_watch": "For us, the matchup to watch is Wake Forest\u2019s passing game against Louisville\u2019s pass defense. Lopez\u2019s mobility and early ball security can help extend possessions, while Hernandez provides the most established production in the receiving game. Louisville owns the stronger underlying pass-efficiency profile, however, so the question is whether Wake Forest can turn those individual strengths into consistent scoring opportunities rather than relying on another near-flawless turnover performance.",
     "guide_status": [
       "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
-      "Guide for Wake Forest Demon Deacons was found but may not match the current opponent. The guide is explicitly for Wake Forest's Sept. 18, 2026 Game 3 against Miami. Louisville is listed as the following opponent on Sept. 26, so this is not the Louisville matchup guide.",
+      "Guide for Wake Forest Demon Deacons was found but may not match the current opponent. The guide is specifically for Wake Forest's Week 3 home game against Miami on Sept. 18, 2026. Its cover, opponent statistics, coaching staff, series history and opponent notes all focus on Miami; Louisville appears only as Wake Forest's next scheduled opponent on Sept. 26.",
       "No guide found for Louisville Cardinals. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisville.pdf"
     ],
     "guide_extractions": [
@@ -25,7 +25,7 @@
         "source_team": "Wake Forest Demon Deacons",
         "opponent": "Louisville Cardinals",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is explicitly for Wake Forest's Sept. 18, 2026 Game 3 against Miami. Louisville is listed as the following opponent on Sept. 26, so this is not the Louisville matchup guide.",
+        "document_match_reason": "The guide is specifically for Wake Forest's Week 3 home game against Miami on Sept. 18, 2026. Its cover, opponent statistics, coaching staff, series history and opponent notes all focus on Miami; Louisville appears only as Wake Forest's next scheduled opponent on Sept. 26.",
         "recent_game": [
           {
             "fact": "Wake Forest defeated Purdue 38-36 in double overtime on Sept. 12, 2026, improving to 2-0.",
@@ -34,10 +34,22 @@
             "importance": "high"
           },
           {
-            "fact": "On fourth-and-15 in the second overtime against Purdue, Gio Lopez completed a 15-yard pass to Carlos Hernandez; Lopez then scored the tying touchdown and the winning two-point conversion.",
+            "fact": "On fourth-and-15 in the second overtime, Gio Lopez completed a 15-yard pass to Carlos Hernandez before scoring the tying touchdown and the winning two-point conversion.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
+          },
+          {
+            "fact": "Lopez completed 16 of 27 passes for 225 yards and one touchdown against Purdue and led Wake Forest with 59 rushing yards and two rushing touchdowns.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Carlos Hernandez caught six passes for 88 yards against Purdue.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
           },
           {
             "fact": "Wake Forest committed no turnovers against Purdue.",
@@ -46,7 +58,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Purdue quarterback Ryan Browne passed for 329 yards, while running back Fame Ijeboi rushed 27 times for 114 yards and three touchdowns against Wake Forest.",
+            "fact": "Purdue quarterback Ryan Browne passed for 329 yards, and running back Fame Ijeboi rushed for 114 yards and three touchdowns against Wake Forest.",
             "page": 6,
             "category": "recent_game",
             "importance": "medium"
@@ -54,33 +66,33 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Wake Forest is scheduled to play at Louisville on Sept. 26, 2026 at L&N Stadium; the schedule lists Louisville with a 1-1 record.",
+            "fact": "Wake Forest's schedule lists Louisville with a 1-1 record entering the week of this Miami-focused guide.",
             "page": 3,
             "category": "opponent_notes",
-            "importance": "high"
+            "importance": "low"
           }
         ],
         "quarterback": [
           {
-            "fact": "Starting quarterback Gio Lopez completed 16 of 27 passes for 225 yards and one touchdown against Purdue and added 59 rushing yards and two rushing touchdowns.",
+            "fact": "Starting quarterback Gio Lopez has completed 37 of 59 passes for 575 yards, four touchdowns and no interceptions through two games.",
             "page": 21,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Through two games, Lopez was 37-of-59 passing for 575 yards, four touchdowns and no interceptions, with 98 rushing yards and two rushing touchdowns.",
+            "fact": "Lopez has rushed 20 times for 98 yards and two touchdowns through two games.",
             "page": 21,
             "category": "quarterback",
             "importance": "high"
           },
           {
             "fact": "Lopez transferred to Wake Forest from North Carolina after starting 11 games there in 2025; he previously played at South Alabama under current Wake Forest offensive coordinator Rob Ezell.",
-            "page": 21,
+            "page": 1,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "The unofficial depth chart lists redshirt freshman Steele Pizzella as Lopez's backup.",
+            "fact": "Wake Forest's unofficial projected depth chart lists redshirt freshman Steele Pizzella behind Lopez.",
             "page": 19,
             "category": "quarterback",
             "importance": "medium"
@@ -88,63 +100,69 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Center Will Way, a January transfer from Weber State, was voted one of Wake Forest's six captains and is listed as the starting center on the unofficial depth chart.",
-            "page": 1,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Wake Forest's unofficial projected offensive line is Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
+            "fact": "Wake Forest's unofficial projected offensive line consists of Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
             "page": 19,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Carlos Hernandez had six receptions for 88 yards against Purdue and has 253 receiving yards through two games.",
-            "page": 4,
+            "fact": "Center Will Way transferred from Weber State in January 2026 and was selected as one of Wake Forest's six captains.",
+            "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Running back Ty Clark III recorded his first career 100-yard game with 105 yards against Akron and scored a rushing touchdown against Purdue.",
+            "fact": "Wake Forest's projected starting receivers are Carlos Hernandez, Antonio Meeks and Kam Shanks, with Ty Clark III projected at running back.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Antonio Meeks is a redshirt senior wide receiver who previously played at Louisville.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Clark III has 19 carries for 141 yards and one touchdown through two games, including a 105-yard performance against Akron.",
             "page": 22,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "The unofficial depth chart lists Ty Clark III as the starting running back, with Florida transfer KD Daniels and freshmen Deuce Lawrence and Jamar Searcy behind him.",
-            "page": 19,
+            "fact": "Carlos Hernandez has 253 receiving yards through two games and has accumulated 716 receiving yards over his last five games dating to 2025.",
+            "page": 3,
             "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Wide receiver Antonio Meeks, listed as a starter on the unofficial depth chart, previously played at Louisville.",
-            "page": 17,
-            "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Wake Forest's unofficial projected defensive front lists Langston Hardy and Gabe Kirschke at defensive end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
+            "fact": "Wake Forest's unofficial projected defensive front lists Langston Hardy and Gabe Kirschke at end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
             "page": 19,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "The unofficial depth chart lists Frank Cusano and Aiden Hall at linebacker, Braylon Johnson at STAR, Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
+            "fact": "The projected linebackers are Frank Cusano and Aiden Hall, with Braylon Johnson at the star position.",
             "page": 19,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Linebacker Aiden Hall recorded a career-high 73 tackles, eight tackles for loss and three passes defensed as a starter in 2025.",
+            "fact": "The projected secondary consists of Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aiden Hall, Langston Hardy and Davaughn Patterson are defensive captains; Hall recorded 73 tackles, eight tackles for loss and three passes defended in 2025.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Vincent Firenze averaged 10 tackles and 5.5 solo tackles per game through Wake Forest's first two games.",
+            "fact": "Vincent Firenze leads Wake Forest through two games with 20 total tackles, including 11 solo tackles.",
             "page": 3,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -152,14 +170,26 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach in 2026 after coaching East Carolina's wide receivers from 2023 through 2025.",
-            "page": 12,
+            "fact": "Jake Dickert is in his second season as Wake Forest head coach after being hired on Dec. 18, 2024.",
+            "page": 1,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Rob Ezell is Wake Forest's offensive coordinator, Dan Enos is co-offensive coordinator and quarterbacks coach, Scottie Hazelton is defensive coordinator, and Freddie Banks is co-defensive coordinator and safeties coach.",
-            "page": 10,
+            "fact": "Rob Ezell is Wake Forest's offensive coordinator and Dan Enos is co-offensive coordinator and quarterbacks coach.",
+            "page": 11,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Scottie Hazelton is the defensive coordinator, while Freddie Banks is co-defensive coordinator and safeties coach.",
+            "page": 14,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach in 2026 after coaching East Carolina's receivers from 2023 through 2025.",
+            "page": 12,
             "category": "coaching_changes",
             "importance": "medium"
           }
@@ -167,79 +197,91 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Through two games, Wake Forest averaged 38.0 points, 485.0 total yards, 290.5 passing yards and 194.5 rushing yards per game.",
+            "fact": "Wake Forest is averaging 38.0 points and 485.0 total yards per game through two games, including 194.5 rushing yards and 290.5 passing yards per game.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest converted 12 of 26 third downs and all three fourth-down attempts through its first two games.",
+            "fact": "Wake Forest has converted 12 of 26 third downs and all three of its fourth-down attempts.",
             "page": 2,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest had not committed a turnover through two games and had thrown no interceptions or lost any fumbles.",
+            "fact": "Wake Forest has scored on nine of 10 red-zone possessions and has not committed a turnover through two games.",
             "page": 2,
             "category": "offensive_context",
             "importance": "high"
+          },
+          {
+            "fact": "Wake Forest has allowed two sacks through two games, an average of 1.0 per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Through two games, Wake Forest allowed 26.0 points and 380.0 total yards per game, including 242.5 passing yards and 137.5 rushing yards per game.",
+            "fact": "Wake Forest is allowing 26.0 points and 380.0 total yards per game through two games, including 137.5 rushing yards and 242.5 passing yards per game.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest recorded five sacks and 15 tackles for loss through its first two games.",
+            "fact": "Wake Forest has recorded five sacks and 15 tackles for loss through two games.",
             "page": 2,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest forced one turnover through two games, a fumble recovery by Rushaun Tongue against Akron, and had not recorded an interception.",
+            "fact": "Opponents have converted 13 of 27 third downs against Wake Forest.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wake Forest has forced one turnover, a fumble recovery by Rushaun Tongue against Akron, and has not intercepted a pass through two games.",
             "page": 5,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Opponents converted 13 of 27 third downs against Wake Forest through two games.",
-            "page": 2,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Kicker Connor Calvert made six field goals through two games, averaging three per game with an 85.7 percent conversion rate.",
+            "fact": "Connor Calvert has made 85.7 percent of his field-goal attempts and is averaging 3.0 made field goals per game through two games.",
             "page": 3,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "The unofficial depth chart lists Koredell Bartley as the primary kickoff returner, Carlos Hernandez as the primary punt returner and freshman Ethan Hyams as the punter.",
+            "fact": "Wake Forest is averaging 22.0 yards per punt return, with Carlos Hernandez listed as the projected primary punt returner.",
             "page": 19,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest averaged 22.0 yards per punt return and 20.3 yards per kickoff return, with a 40.8-yard net punting average through two games.",
+            "fact": "Koredell Bartley is the projected primary kickoff returner and is averaging 23.0 yards per return.",
             "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman Ethan Hyams is listed as the projected starting punter, and Wake Forest has a net punting average of 40.8 yards.",
+            "page": 19,
             "category": "special_teams",
             "importance": "low"
           }
         ],
         "series_context": [
           {
-            "fact": "Wake Forest's schedule lists a 3-7 all-time record against Louisville.",
+            "fact": "Wake Forest's schedule lists its all-time record against Louisville as 3-7.",
             "page": 3,
             "category": "series_context",
-            "importance": "medium"
+            "importance": "low"
           },
           {
-            "fact": "The 2026 game is listed as only the fifth meeting between Wake Forest and Louisville since the 2006 ACC Championship Game.",
+            "fact": "The 2026 game is scheduled to be only the fifth meeting between Wake Forest and Louisville since the 2006 ACC Championship Game.",
             "page": 3,
             "category": "series_context",
             "importance": "medium"
@@ -247,16 +289,10 @@
         ],
         "other_relevant": [
           {
-            "fact": "Wake Forest entered the Miami game 2-0 after wins over Akron and Purdue.",
-            "page": 1,
+            "fact": "Wake Forest is scheduled to play at Louisville's L&N Stadium on Sept. 26, 2026.",
+            "page": 3,
             "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Wake Forest had scored 38 points in each of its first two games.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "source_file": "Wake Forest.pdf"
@@ -299,17 +335,8 @@
     ],
     "used_sources": [
       {
-        "fact_id": 4,
-        "fact": "Purdue quarterback Ryan Browne passed for 329 yards, while running back Fame Ijeboi rushed 27 times for 114 yards and three touchdowns against Wake Forest.",
-        "page": 6,
-        "category": "recent_game",
-        "importance": "medium",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      },
-      {
-        "fact_id": 6,
-        "fact": "Through two games, Lopez was 37-of-59 passing for 575 yards, four touchdowns and no interceptions, with 98 rushing yards and two rushing touchdowns.",
+        "fact_id": 7,
+        "fact": "Starting quarterback Gio Lopez has completed 37 of 59 passes for 575 yards, four touchdowns and no interceptions through two games.",
         "page": 21,
         "category": "quarterback",
         "importance": "high",
@@ -317,17 +344,26 @@
         "source_team": "Wake Forest Demon Deacons"
       },
       {
-        "fact_id": 11,
-        "fact": "Carlos Hernandez had six receptions for 88 yards against Purdue and has 253 receiving yards through two games.",
-        "page": 4,
+        "fact_id": 8,
+        "fact": "Lopez has rushed 20 times for 98 yards and two touchdowns through two games.",
+        "page": 21,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Wake Forest.pdf",
+        "source_team": "Wake Forest Demon Deacons"
+      },
+      {
+        "fact_id": 16,
+        "fact": "Carlos Hernandez has 253 receiving yards through two games and has accumulated 716 receiving yards over his last five games dating to 2025.",
+        "page": 3,
         "category": "offensive_personnel",
         "importance": "high",
         "source_file": "Wake Forest.pdf",
         "source_team": "Wake Forest Demon Deacons"
       },
       {
-        "fact_id": 23,
-        "fact": "Wake Forest had not committed a turnover through two games and had thrown no interceptions or lost any fumbles.",
+        "fact_id": 28,
+        "fact": "Wake Forest has scored on nine of 10 red-zone possessions and has not committed a turnover through two games.",
         "page": 2,
         "category": "offensive_context",
         "importance": "high",

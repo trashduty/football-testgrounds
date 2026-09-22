@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Tech Hokies | -14.5 (-104) | FanDuel | 42.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boston College Eagles | +14.5 (-110) | BetRivers | 58.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Virginia Tech Hokies | -14.0 (-105) | DraftKings | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boston College Eagles | +13.5 (-102) | FanDuel | 57.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Virginia Tech Hokies visit the Boston College Eagles at Alumni Stadium (Chestnut Hill, MA). We make **Boston College +11**, compared with a market line of +14.5.
+The Virginia Tech Hokies visit the Boston College Eagles at Alumni Stadium (Chestnut Hill, MA). We make **Boston College +10.5**, compared with a market line of +14.
 
-The best number we found is Boston College +14.5 at -110. We give Boston College a 58.6% chance to cover, which creates an 6.2% edge for us. That clears our 3% threshold, so Boston College is a bet.
+The best number we found is Boston College +13.5 at -102. We give Boston College a 57.2% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Boston College is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

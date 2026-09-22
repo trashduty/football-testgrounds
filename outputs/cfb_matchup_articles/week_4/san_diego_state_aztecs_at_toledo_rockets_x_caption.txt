@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on San Diego State-Toledo.
+Our model is 1 points away from the market on San Diego State-Toledo.
 
-We make Toledo -4. The market is -2.5.
+We make Toledo -4. The market is -3.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

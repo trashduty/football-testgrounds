@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Colorado Buffaloes | +10.5 (-115) | FanDuel | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Baylor Bears | -10.5 (-105) | FanDuel | 43.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado Buffaloes | +9.5 (-104) | FanDuel | 54.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Baylor Bears | -10.0 (-108) | BetMGM | 44.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Colorado Buffaloes visit the Baylor Bears at McLane Stadium. We make **Colorado +8**, compared with a market line of +10.
+The Colorado Buffaloes visit the Baylor Bears at McLane Stadium. We make **Colorado +8.5**, compared with a market line of +10.
 
-The best number we found is Colorado +10.5 at -115. We give Colorado a 57.3% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Colorado is a bet.
+The best number we found is Colorado +9.5 at -104. We give Colorado a 54.4% chance to cover, which creates an 3.4% edge for us. That clears our 3% threshold, so Colorado is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

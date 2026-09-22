@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Colorado State-UT San Antonio.
+Our model is 1.5 points away from the market on Colorado State-UT San Antonio.
 
-We make UT San Antonio -14.5. The market is -12.5.
+We make UT San Antonio -15. The market is -13.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

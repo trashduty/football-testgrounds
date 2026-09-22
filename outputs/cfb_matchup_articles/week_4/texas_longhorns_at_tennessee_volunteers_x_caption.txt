@@ -1,6 +1,6 @@
-Our model is 1 points away from the market on Texas-Tennessee.
+Our model is 0 points away from the market on Texas-Tennessee.
 
-We make Tennessee +4.5. The market is +3.5.
+We make Tennessee +5.5. The market is +5.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

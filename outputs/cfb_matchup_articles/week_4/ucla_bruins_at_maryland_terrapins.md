@@ -6,18 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UCLA Bruins | -2.5 (-102) | DraftKings | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Maryland Terrapins | +1.5 (-105) | FanDuel | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UCLA Bruins | -1.5 (-109) | BetRivers | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Maryland Terrapins | +1.5 (-106) | FanDuel | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UCLA Bruins visit the Maryland Terrapins at SECU Stadium. We make **Maryland +0.5**, compared with a market line of +2.
+The UCLA Bruins visit the Maryland Terrapins at SECU Stadium. We make **Maryland +0.5**, compared with a market line of +1.5.
 
-The best number we found is Maryland +1.5 at -105. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Maryland +1.5 at -106. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are slightly more favorable to Maryland than the market, largely because we see a limited path for UCLA through the air. UCLA’s passing offense has struggled on a play-by-play basis, while Maryland has produced 10 sacks through two games. That early pressure rate does not guarantee the same results here, but it supports our view that UCLA may have difficulty sustaining drives if forced into obvious passing situations.
+We see a credible case for shading toward Maryland, largely because of its stability at quarterback. Malik Washington started all 12 games as a true freshman in 2025, and he has opened 2026 by completing 53 of 72 passes for 533 yards without an interception. That continuity matters in a matchup where UCLA’s passing offense grades as the weaker part of its attack in our numbers. We are not treating Maryland’s fast start as proof, but its ability to generate consistent quarterback play helps explain our position.
 
-We also see more stability in Maryland’s passing game than the market appears to be pricing. Malik Washington started every game as a true freshman in 2025 and has opened this season with 533 passing yards, three touchdowns and no interceptions through two games. Maryland has not committed a turnover this season, either. Those results are still a small sample, but the combination of quarterback continuity and clean offensive play helps explain our lean toward Maryland. The disagreement is modest, however, and we do not see enough separation from the current price to move beyond a pass.
+The concern is UCLA’s ground game. Our matchup data rates its rushing offense well above Maryland’s longer-run rush-defense profile, giving UCLA a plausible way to control the game without relying heavily on its passing attack. Maryland has allowed only 38.5 rushing yards per game through two contests, but we view that as early context rather than a settled defensive level. The competing signals leave our expectation only slightly different from the market, which is not enough separation for us to play the current price.
 
 ### What The Numbers Say
 
@@ -44,8 +44,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#90</td>
-<td class="btb-better">#87</td>
+<td>#89</td>
+<td class="btb-better">#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -69,11 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is UCLA’s rushing offense against Maryland’s run defense. UCLA has been much more effective running than passing, and our longer-run efficiency numbers are less impressed with Maryland’s run defense than its early results might suggest. If UCLA can stay efficient on the ground, it can avoid the passing situations in which Maryland’s pressure becomes more dangerous. If Maryland controls early downs, the game should tilt closer to our view.
+For us, UCLA’s rushing offense against Maryland’s front is the matchup to watch. If Maryland’s early run prevention carries over, UCLA may be forced toward the weakest area of its offensive profile. If UCLA instead validates the advantage suggested by our rush-EPA ratings, it can shorten the game and keep Maryland from creating meaningful separation. That uncertainty is central to why we pass.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

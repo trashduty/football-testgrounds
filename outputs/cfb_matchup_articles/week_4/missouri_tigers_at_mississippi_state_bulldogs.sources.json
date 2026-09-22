@@ -2,9 +2,9 @@
   "game": "Missouri Tigers@Mississippi State Bulldogs",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-21T13:16:39.628049+00:00",
+  "generated_at_utc": "2026-09-22T23:40:26.025844+00:00",
   "model_prediction": 6.0,
-  "market_line": 6.0,
+  "market_line": 6.5,
   "best_line": 6.5,
   "best_price": "-110",
   "best_book": "Fanatics",
@@ -13,11 +13,11 @@
   "bet_short": "Missouri",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our numbers and the market are telling a similar overall story. The strongest case for Missouri comes from its defense, particularly its ability to keep opponents from creating quality scoring opportunities. That matchup favors Missouri against a Mississippi State offense that has been less consistent at generating those chances.\n\nWe still see reasons for caution. Missouri returned only two defensive starters after losing 10 from last season\u2019s unit, so we are not treating a dominant opener against UAPB as definitive evidence. The offensive picture also remains unsettled despite Austin Simmons completing 17 of 19 passes for 252 yards and four touchdowns in his debut. Missouri returned five offensive starters but replaced its quarterback, center and several receivers, and our longer-run passing numbers remain modest. For us, there are favorable matchup elements, but not enough separation from the market to justify a wager.",
-    "matchup_to_watch": "We are watching Mississippi State\u2019s ability to create scoring opportunities against Missouri\u2019s defense. This is the clearest matchup advantage in our numbers, and Missouri\u2019s opener offered some encouraging context: the Tigers held UAPB to 198 total yards and three third-down conversions.\n\nThe question is how much of that carries forward against better competition with so many new defensive pieces. If Missouri consistently prevents Mississippi State from reaching high-value areas, it can control the game script. If that rebuilt unit proves less reliable than the early results suggest, the case for laying points becomes much thinner.",
+    "narrative": "What stands out to us is Missouri\u2019s defensive path to controlling the game. Our numbers favor its pass defense against Mississippi State\u2019s passing attack, and we also see a substantial advantage in preventing the Bulldogs from creating scoring opportunities. That gives Missouri a credible foundation, but the defense returned only two starters from 2025, so we are careful not to treat one strong matchup as certainty.\n\nThe counterweight is Missouri\u2019s offense. The Tigers produced 562 yards in their opener, but that result is context rather than proof that the passing game will consistently create separation. Missouri returned only five offensive starters and replaced its quarterback and three starting receivers. Our numbers remain less convinced by this passing offense against Mississippi State\u2019s pass defense, which helps explain why we are slightly more restrained than the market. The disagreement is simply not large enough for us at the available price.",
+    "matchup_to_watch": "For us, the matchup to watch is Missouri\u2019s passing game against Mississippi State\u2019s pass defense. Austin Simmons is the new starter and completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions in his Missouri debut. That was an encouraging first data point, but our model still views this as the area most likely to determine whether Missouri can create enough separation. If the opener carries over against a more demanding pass-defense matchup, Missouri\u2019s ceiling rises; if not, the game becomes more compressed.",
     "guide_status": [
       "Found guide for Missouri Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
-      "Guide for Missouri Tigers was found but may not match the current opponent. The guide is for Missouri's Sept. 11, 2026 road game against Kansas (Game 2), not the Sept. 26 SEC road game at Mississippi State listed later on Missouri's schedule.",
+      "Guide for Missouri Tigers was found but may not match the current opponent. The guide is for Missouri's Sept. 11, 2026 road game against Kansas, identified as Game 2, and includes a depth chart specifically labeled for Kansas. Missouri's game at Mississippi State is scheduled for Sept. 26.",
       "No guide found for Mississippi State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Mississippi State.pdf"
     ],
     "guide_extractions": [
@@ -25,7 +25,7 @@
         "source_team": "Missouri Tigers",
         "opponent": "Mississippi State Bulldogs",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is for Missouri's Sept. 11, 2026 road game against Kansas (Game 2), not the Sept. 26 SEC road game at Mississippi State listed later on Missouri's schedule.",
+        "document_match_reason": "The guide is for Missouri's Sept. 11, 2026 road game against Kansas, identified as Game 2, and includes a depth chart specifically labeled for Kansas. Missouri's game at Mississippi State is scheduled for Sept. 26.",
         "recent_game": [
           {
             "fact": "Missouri opened the 2026 season with a 54-14 win over Arkansas-Pine Bluff on Sept. 3.",
@@ -34,19 +34,19 @@
             "importance": "high"
           },
           {
-            "fact": "Missouri produced 562 total yards against UAPB, including 357 passing and 205 rushing, while allowing 198 total yards.",
+            "fact": "Missouri produced 562 total yards against Arkansas-Pine Bluff, including 357 passing and 205 rushing, while allowing 198 total yards.",
             "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Missouri led UAPB 40-0 at halftime and outgained the Golden Lions 376-6 in the first half.",
+            "fact": "Missouri led Arkansas-Pine Bluff 40-0 at halftime and outgained the Golden Lions 376-6 in the first half.",
             "page": 4,
             "category": "recent_game",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Missouri converted 6 of 10 third downs, both fourth-down attempts and all five red-zone possessions against UAPB.",
+            "fact": "Missouri converted 6 of 10 third downs, both fourth-down attempts and all five red-zone opportunities against Arkansas-Pine Bluff.",
             "page": 18,
             "category": "recent_game",
             "importance": "medium"
@@ -54,7 +54,7 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Missouri is scheduled to play at Mississippi State on Sept. 26, 2026 in its first SEC game of the season.",
+            "fact": "Missouri is scheduled to play at Mississippi State on Sept. 26, 2026 in an SEC game.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
@@ -62,121 +62,103 @@
         ],
         "quarterback": [
           {
-            "fact": "Ole Miss transfer Austin Simmons started Missouri's opener and completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions.",
+            "fact": "Ole Miss transfer Austin Simmons is Missouri's starting quarterback, with sophomore Matt Zollers listed as the backup.",
+            "page": 11,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "In his Missouri debut, Simmons completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions against Arkansas-Pine Bluff.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Simmons' 89.5% completion rate and 270.4 passer rating were Missouri records for a quarterback making his program debut.",
-            "page": 4,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Simmons is the third transfer quarterback and seventh different starting quarterback of Eli Drinkwitz's Missouri tenure.",
+            "fact": "Simmons' 89.5% completion rate and 270.4 passer rating against Arkansas-Pine Bluff were the highest by a quarterback in his Missouri debut.",
             "page": 4,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Matt Zollers is listed behind Simmons and completed 8 of 12 passes for 87 yards while adding a five-yard rushing touchdown against UAPB.",
-            "page": 3,
+            "fact": "Simmons is the seventh different starting quarterback of the Eli Drinkwitz era and the third transfer quarterback to start during that span.",
+            "page": 4,
             "category": "quarterback",
             "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Missouri returned five offensive starters from 2025 but lost six, including quarterback Beau Pribula, center Connor Tollison and wide receivers Kevin Coleman Jr., Marquis Johnson and Joshua Manning.",
-            "page": 14,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Ole Miss transfer wide receiver Cayden Lee caught five passes for 89 yards in his Missouri debut, including a 47-yard touchdown from former Ole Miss teammate Austin Simmons.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Donovan Olugbode established career highs of seven receptions, 107 yards and two touchdowns in the season opener.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Jamal Roberts started at running back against UAPB and carried 13 times for 47 yards and one touchdown.",
-            "page": 3,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "The current offensive line lists Cayden Green at left tackle, Tristan Wilson at left guard, Dominick Giudice at center, Curtis Peagler at right guard and Luke Work at right tackle.",
+            "fact": "Missouri's listed starting offensive line is LT Cayden Green, LG Tristan Wilson, C Dominick Giudice, RG Curtis Peagler and RT Luke Work.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Missouri lists three returning offensive-line starters: Cayden Green, Dominick Giudice and Curtis Peagler.",
+            "fact": "Missouri returned five offensive starters from 2025 and lost six, including quarterback Beau Pribula, center Connor Tollison and three starting wide receivers.",
             "page": 14,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Left tackle Cayden Green allowed two sacks, two quarterback hits and three hurries over 750 snaps in 2025, according to PFF.",
+            "fact": "The listed starting skill players are running back Jamal Roberts, tight end Brett Norfleet or Jordon Harris, and receivers Naeshaun Montgomery or Caleb Goodie Sr., Cayden Lee and Donovan Olugbode.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss transfer Cayden Lee started at receiver in the opener and caught five passes for 89 yards, including a 47-yard touchdown from former Ole Miss teammate Austin Simmons.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Donovan Olugbode set career highs with seven receptions, 107 yards and two touchdowns in the opener.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jamal Roberts led Missouri with 13 carries for 47 yards and one touchdown in the opener and surpassed 1,000 career rushing yards.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
-          },
-          {
-            "fact": "Right tackle Luke Work and reserve guard Zack Owens previously played at Mississippi State.",
-            "page": 12,
-            "category": "offensive_personnel",
-            "importance": "low"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Missouri returned two defensive starters and lost 10 from its 2025 defense, including Chris McClellan, Josiah Trotter, Toriano Pride Jr., Zion Young and Damon Wilson II.",
+            "fact": "Missouri returned two defensive starters from 2025 and lost 10, including defensive end Zion Young, linebacker Josiah Trotter, defensive tackle Chris McClellan and cornerbacks Toriano Pride Jr. and Drey Norwood.",
             "page": 15,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer linebacker Robert Woodyard Jr. started 11 games for Auburn in 2025 and recorded 67 tackles, including 50 in conference play.",
-            "page": 5,
+            "fact": "Transfer linebacker Robert Woodyard Jr. and transfer cornerback Chris Graves Jr. are listed as starters on Missouri's 2026 defense.",
+            "page": 11,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer cornerback Chris Graves Jr. appeared in 41 games over three seasons at Ole Miss and started nine games in 2025.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Nicholas Rodriguez and Santana Banner ranked second and third on Missouri in tackles in 2025 and are listed as 2026 starters at weakside linebacker and rover, respectively.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Defensive tackles Marquis Gracial and Sterling Webb combined for 6.0 tackles for loss in 2025; Webb added 2.5 sacks and six quarterback hurries.",
+            "fact": "Woodyard started 11 games for Auburn in 2025 and recorded 67 tackles, including 50 in conference play.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Darris Smith recorded 4.0 sacks as a pass-rush specialist in 2025 and is listed as Missouri's starting JACK defender in 2026.",
+            "fact": "Graves appeared in 41 games over three seasons at Ole Miss and started nine games in 2025.",
             "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Missouri's listed defensive front consists of Langden Kitchen, Marquis Gracial, Jalen Marshall and Darris Smith, with Nicholas Rodriguez and Robert Woodyard Jr. at linebacker.",
+            "page": 11,
             "category": "defensive_personnel",
             "importance": "high"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Chip Lindsey joined Missouri as offensive coordinator in December 2025 after serving as an offensive coordinator at Michigan, North Carolina, Auburn, Arizona State, UCF and Southern Miss.",
+            "fact": "Chip Lindsey joined Missouri as offensive coordinator in December 2025 and is in his first season with the Tigers.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "high"
@@ -188,19 +170,13 @@
             "importance": "high"
           },
           {
-            "fact": "John Papuchis became Missouri's special-teams coordinator and defensive assistant in January 2026 after six seasons coordinating special teams at Florida State.",
+            "fact": "John Papuchis was named Missouri's special-teams coordinator and defensive assistant in January 2026.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Derek Nicholson added co-defensive coordinator to his linebackers-coach title before the 2026 season.",
-            "page": 17,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Alex Atkins joined Missouri as tight ends coach in January 2026, and Chop Harbin joined as defensive line coach after five seasons at Tennessee.",
+            "fact": "Derek Nicholson added co-defensive coordinator duties before the 2026 season while continuing to coach linebackers.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
@@ -209,25 +185,19 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Missouri averaged 228.3 rushing yards per game in 2025, ranking eighth nationally and first in the SEC.",
+            "fact": "Missouri averaged 228.3 rushing yards per game in 2025 and recorded a program-record 12 individual 100-yard rushing performances.",
             "page": 5,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri recorded a program-record 12 individual 100-yard rushing performances in 2025 and rushed for 31 touchdowns.",
+            "fact": "Missouri rushed for 31 touchdowns in 2025 and scored three rushing touchdowns in its 2026 opener.",
             "page": 5,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Against Mississippi State in 2025, Ahmad Hardy rushed 25 times for 300 yards and three touchdowns.",
-            "page": 5,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri averaged 7.2 yards per play, converted 60% of its third downs and scored touchdowns on four of five red-zone trips in its 2026 opener.",
+            "fact": "Against Arkansas-Pine Bluff, Missouri averaged 7.2 yards per play, converted 60% of its third downs and scored touchdowns on four of five red-zone possessions.",
             "page": 10,
             "category": "offensive_context",
             "importance": "high"
@@ -236,47 +206,41 @@
         "defensive_context": [
           {
             "fact": "Missouri's 2025 defense allowed 277.3 yards and 18.9 points per game, including 103.8 rushing yards and 173.5 passing yards per game.",
-            "page": 10,
+            "page": 16,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri held UAPB to 198 total yards, 13 first downs and 3-of-13 third-down conversions in the 2026 opener.",
-            "page": 18,
+            "fact": "Missouri held Arkansas-Pine Bluff to 198 total yards, 89 rushing yards, 109 passing yards and a 3-of-13 third-down conversion rate.",
+            "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri forced five three-and-outs against UAPB.",
+            "fact": "Missouri's defense forced five three-and-outs against Arkansas-Pine Bluff.",
             "page": 7,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Darris Smith recorded 3.0 tackles for loss against Mississippi State on Nov. 15, 2025.",
-            "page": 20,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Blake Craig made a 32-yard field goal and all seven extra-point attempts against UAPB.",
-            "page": 18,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Brunno Reus is listed as Missouri's first-team punter, kickoff specialist and holder, while Blake Craig is the first-team placekicker.",
+            "fact": "Blake Craig remains Missouri's starting placekicker, while Florida State transfer Brunno Reus is listed as the starting punter, holder and kickoff specialist.",
             "page": 11,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "DaMarion Fowlkes is listed as the first-team punt and kickoff returner and had a 23-yard punt return in the opener.",
-            "page": 8,
+            "fact": "Craig made a 32-yard field goal and all seven extra-point attempts against Arkansas-Pine Bluff.",
+            "page": 18,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
+          },
+          {
+            "fact": "DaMarion Fowlkes is listed as Missouri's primary punt and kickoff returner.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
           }
         ],
         "series_context": [
@@ -287,21 +251,21 @@
             "importance": "high"
           },
           {
-            "fact": "Missouri also defeated Mississippi State 39-20 in 2024 after trailing 3-0 in the first quarter.",
-            "page": 7,
+            "fact": "Ahmad Hardy rushed for 300 yards and three touchdowns against Mississippi State in the 2025 meeting.",
+            "page": 20,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Darris Smith recorded three tackles for loss against Mississippi State in 2025.",
+            "page": 20,
             "category": "series_context",
             "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Missouri entered the Kansas game week 1-0 and ranked No. 25 in both the AP and Coaches polls.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Missouri has five returning offensive starters, two returning defensive starters and two returning special-teams starters from 2025.",
+            "fact": "Missouri entered 2026 with five returning offensive starters, two returning defensive starters and two returning special-teams starters.",
             "page": 2,
             "category": "other_relevant",
             "importance": "high"
@@ -347,8 +311,26 @@
     ],
     "used_sources": [
       {
+        "fact_id": 2,
+        "fact": "Missouri produced 562 total yards against Arkansas-Pine Bluff, including 357 passing and 205 rushing, while allowing 198 total yards.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Missouri.pdf",
+        "source_team": "Missouri Tigers"
+      },
+      {
         "fact_id": 5,
-        "fact": "Ole Miss transfer Austin Simmons started Missouri's opener and completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions.",
+        "fact": "Ole Miss transfer Austin Simmons is Missouri's starting quarterback, with sophomore Matt Zollers listed as the backup.",
+        "page": 11,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Missouri.pdf",
+        "source_team": "Missouri Tigers"
+      },
+      {
+        "fact_id": 6,
+        "fact": "In his Missouri debut, Simmons completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions against Arkansas-Pine Bluff.",
         "page": 4,
         "category": "quarterback",
         "importance": "high",
@@ -356,8 +338,8 @@
         "source_team": "Missouri Tigers"
       },
       {
-        "fact_id": 9,
-        "fact": "Missouri returned five offensive starters from 2025 but lost six, including quarterback Beau Pribula, center Connor Tollison and wide receivers Kevin Coleman Jr., Marquis Johnson and Joshua Manning.",
+        "fact_id": 10,
+        "fact": "Missouri returned five offensive starters from 2025 and lost six, including quarterback Beau Pribula, center Connor Tollison and three starting wide receivers.",
         "page": 14,
         "category": "offensive_personnel",
         "importance": "high",
@@ -365,19 +347,10 @@
         "source_team": "Missouri Tigers"
       },
       {
-        "fact_id": 17,
-        "fact": "Missouri returned two defensive starters and lost 10 from its 2025 defense, including Chris McClellan, Josiah Trotter, Toriano Pride Jr., Zion Young and Damon Wilson II.",
+        "fact_id": 15,
+        "fact": "Missouri returned two defensive starters from 2025 and lost 10, including defensive end Zion Young, linebacker Josiah Trotter, defensive tackle Chris McClellan and cornerbacks Toriano Pride Jr. and Drey Norwood.",
         "page": 15,
         "category": "defensive_personnel",
-        "importance": "high",
-        "source_file": "Missouri.pdf",
-        "source_team": "Missouri Tigers"
-      },
-      {
-        "fact_id": 33,
-        "fact": "Missouri held UAPB to 198 total yards, 13 first downs and 3-of-13 third-down conversions in the 2026 opener.",
-        "page": 18,
-        "category": "defensive_context",
         "importance": "high",
         "source_file": "Missouri.pdf",
         "source_team": "Missouri Tigers"
@@ -389,7 +362,7 @@
       "opponent_full": "Mississippi State Bulldogs",
       "opponent": "Mississippi State",
       "model_prediction": 6.0,
-      "market_line": 6.0,
+      "market_line": 6.5,
       "best_available_line": 6.5,
       "best_available_price": "-110",
       "cover_probability": 0.5213544,

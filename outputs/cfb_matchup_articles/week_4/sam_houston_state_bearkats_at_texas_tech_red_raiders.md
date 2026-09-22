@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Sam Houston State Bearkats | +35.5 (-110) | BetRivers | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas Tech Red Raiders | -35.5 (-105) | BetMGM | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Sam Houston State Bearkats | +34.5 (-110) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -34.5 (-108) | DraftKings | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Sam Houston State Bearkats visit the Texas Tech Red Raiders at Jones AT&T Stadium. We make **Texas Tech -37**, compared with a market line of -35.5.
+The Sam Houston State Bearkats visit the Texas Tech Red Raiders at Jones AT&T Stadium. We make **Texas Tech -36**, compared with a market line of -34.5.
 
-The best number we found is Texas Tech -35.5 at -105. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas Tech -34.5 at -108. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

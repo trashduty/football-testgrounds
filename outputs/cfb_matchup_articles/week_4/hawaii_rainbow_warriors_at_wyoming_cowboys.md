@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Hawaii Rainbow Warriors | -3.5 (-105) | FanDuel | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wyoming Cowboys | +3.5 (-114) | BetRivers | 57.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Hawaii Rainbow Warriors | -3.5 (+100) | FanDuel | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wyoming Cowboys | +3.5 (-122) | FanDuel | 57.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Hawaii Rainbow Warriors visit the Wyoming Cowboys at War Memorial Stadium. We make **Wyoming +0.5**, compared with a market line of +3.
 
-The best number we found is Wyoming +3.5 at -114. We give Wyoming a 57.5% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Wyoming is a bet.
+The best number we found is Wyoming +3.5 at -122. We see a 2.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

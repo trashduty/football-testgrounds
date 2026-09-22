@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on Notre Dame-Purdue.
 
-We make Purdue +25.5. The market is +27.
+We make Purdue +26. The market is +27.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,16 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas A&M Aggies | +9.5 (-102) | DraftKings | 51.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| LSU Tigers | -9.5 (-110) | FanDuel | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | +8.5 (-110) | BetMGM | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| LSU Tigers | -8.5 (-108) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas A&M +10**, compared with a market line of +10.
+The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas A&M +9**, compared with a market line of +8.5.
 
-The best number we found is Texas A&M +9.5 at -102. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas A&M +8.5 at -110. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not dismissing LSU’s fast start. LSU averaged 586 yards across its first two games while playing 89 offensive snaps per game, but five turnovers accompanied that production. For us, the more important question is how efficiently that offense travels into a much tougher matchup rather than whether the early raw totals look impressive.
+Our slight disagreement with the market starts with how LSU’s early offensive production translates against Texas A&M. LSU averaged 586 yards across 89 plays per game through its first two contests, but our opponent-adjusted numbers are much less impressed with its passing efficiency and ability to create scoring opportunities. That matters against a Texas A&M defense that grades particularly well at preventing opponents from reaching scoring position. LSU also committed five turnovers, including four interceptions, so the early yardage did not always become clean offensive value.
 
 ### What The Numbers Say
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#34</td>
+<td class="btb-better">#35</td>
 <td>#107</td>
 </tr>
 <tr>
@@ -67,13 +67,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching LSU’s offense against Texas A&M’s ability to prevent scoring opportunities. Our numbers rate the Aggies far better in that area and also favor their pass defense against an LSU passing attack that has yet to grade efficiently by EPA. Sam Leavitt produced 574 passing yards and five rushing touchdowns through two games, but he also threw four interceptions, so Texas A&M’s ability to force difficult decisions could determine whether LSU converts volume into separation.
-
-We also have to respect the other side of the matchup. LSU recorded 12 sacks and held its first two opponents to 4-of-27 on third down, with Princewill Umanmielen accounting for five of those sacks. That defensive disruption makes it harder for us to turn the case for Texas A&M into a wager. We can see a path for the Aggies to keep LSU’s offense from consistently finishing drives, but the available price does not give us enough value to act.
+For us, the matchup to watch is LSU’s passing game against Texas A&M’s pass defense. Sam Leavitt produced 574 passing yards and five rushing touchdowns through two games, but he also threw four interceptions. Texas A&M’s coverage profile represents a meaningful step up in our numbers, and LSU may need Leavitt to create without giving away possessions.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

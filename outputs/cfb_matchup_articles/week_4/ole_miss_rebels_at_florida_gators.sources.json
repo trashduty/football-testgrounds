@@ -2,22 +2,22 @@
   "game": "Ole Miss Rebels@Florida Gators",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-21T13:20:06.040953+00:00",
-  "model_prediction": 3.0,
-  "market_line": 3.0,
+  "generated_at_utc": "2026-09-22T23:43:53.072756+00:00",
+  "model_prediction": 3.5,
+  "market_line": 3.5,
   "best_line": 3.5,
   "best_price": "-115",
-  "best_book": "BetMGM",
-  "cover_probability": 0.52662097,
-  "edge": -0.0082627509302325,
+  "best_book": "Fanatics",
+  "cover_probability": 0.51805494,
+  "edge": -0.0168287809302325,
   "bet_short": "Ole Miss",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "What stands out to us is Ole Miss\u2019 ability to create scoring opportunities against a Florida defense that has struggled to prevent them. The Rebels have also shown multiple ways to move the ball: Trinidad Chambliss produced 561 passing yards and five touchdowns through two games, while Kewan Lacy added 148 rushing yards and three scores. Ole Miss played at one of the nation\u2019s fastest early-season paces and converted every red-zone possession over that stretch. We are not treating two games as proof, but that profile supports the offensive advantages in our longer-run numbers.\n\nThe counterweight is an Ole Miss defense that allowed 395.5 yards per game through two contests, even while holding opponents to a 33.3 percent third-down conversion rate. Our numbers favor that defense in preventing Florida from consistently creating scoring opportunities, but the overall matchup still leaves limited separation from the market. For us, the pass is about price: the available improvement comes with additional cost, and the football case is not strong enough to create meaningful value.",
-    "matchup_to_watch": "We are watching the Ole Miss rushing offense against Florida\u2019s run defense. Our numbers identify that as a meaningful advantage, and Lacy\u2019s early production gives the Rebels a proven option alongside Chambliss, who also rushed for 62 yards and a touchdown through two games. If Ole Miss can stay efficient on the ground, its pace becomes more difficult for Florida to manage and its scoring-opportunity edge becomes more relevant. That matchup supports Ole Miss, but not enough for us to force a wager at the available price.",
+    "narrative": "What stands out to us is that Ole Miss owns the clearest matchup advantages, particularly in creating scoring opportunities and running efficiently against Florida. The early offensive returns provide some context: Trinidad Chambliss opened the season with 561 passing yards, five touchdowns and one interception through two games, while Kewan Lacy added 148 rushing yards and three scores. We also see an offense operating at one of the nation\u2019s fastest early-season tempos under new coordinator John David Baker, giving Ole Miss multiple ways to pressure Florida\u2019s weaker defensive areas.\n\nThe other side matters just as much. Our numbers rate Ole Miss considerably better at preventing scoring opportunities than Florida is at creating them, which limits the strongest argument for the home side. Even so, our overall expectation essentially agrees with what the market is already charging. The matchup points toward Ole Miss, but that view is fully reflected in the available price, leaving us without enough value to move beyond a pass.",
+    "matchup_to_watch": "For us, the matchup to watch is Ole Miss\u2019 scoring-opportunity creation against Florida\u2019s ability to keep drives from reaching dangerous territory. Chambliss\u2019 early efficiency and Lacy\u2019s production suggest Ole Miss can attack through either phase, while the fast pace can generate additional possessions. The question is not whether Ole Miss has the advantage here; our numbers say it does. The question is whether that advantage exceeds what the market has already priced, and we do not see sufficient separation.",
     "guide_status": [
       "Found guide for Ole Miss Rebels: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf",
-      "Guide for Ole Miss Rebels was found but may not match the current opponent. The guide is labeled for Game 3 against LSU on Sept. 19, 2026. Ole Miss is scheduled to visit Florida on Sept. 26 in Game 4, so this is the prior week's guide rather than the Florida matchup guide.",
+      "Guide for Ole Miss Rebels was found but may not match the current opponent. The guide is explicitly labeled for Game 3 against LSU on Sept. 19, 2026. Florida is listed as Ole Miss' following game, at Florida on Sept. 26, so this is not the Week 4 Florida matchup guide.",
       "No guide found for Florida Gators. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida.pdf"
     ],
     "guide_extractions": [
@@ -25,7 +25,7 @@
         "source_team": "Ole Miss Rebels",
         "opponent": "Florida Gators",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is labeled for Game 3 against LSU on Sept. 19, 2026. Ole Miss is scheduled to visit Florida on Sept. 26 in Game 4, so this is the prior week's guide rather than the Florida matchup guide.",
+        "document_match_reason": "The guide is explicitly labeled for Game 3 against LSU on Sept. 19, 2026. Florida is listed as Ole Miss' following game, at Florida on Sept. 26, so this is not the Week 4 Florida matchup guide.",
         "recent_game": [
           {
             "fact": "Ole Miss defeated Charlotte 41-9 to improve to 2-0.",
@@ -34,19 +34,19 @@
             "importance": "high"
           },
           {
-            "fact": "Quarterback Trinidad Chambliss completed a career-high 88 percent of his passes for 225 yards and two touchdowns against Charlotte.",
+            "fact": "Against Charlotte, quarterback Trinidad Chambliss completed a career-high 88 percent of his passes for 225 yards and two touchdowns.",
             "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Running back Kewan Lacy carried 13 times for 87 yards and two touchdowns against Charlotte.",
+            "fact": "Kewan Lacy rushed 13 times for 87 yards and two touchdowns against Charlotte.",
             "page": 4,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Deuce Alexander caught a career-high eight passes for 76 yards against Charlotte.",
+            "fact": "Deuce Alexander recorded a career-high eight receptions for 76 yards against Charlotte.",
             "page": 4,
             "category": "recent_game",
             "importance": "medium"
@@ -61,75 +61,57 @@
         "opponent_notes": [],
         "quarterback": [
           {
-            "fact": "Trinidad Chambliss is Ole Miss' starting quarterback, with Deuce Knight or Walker Howard listed as the next options on the depth chart.",
-            "page": 17,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Chambliss completed 44 of 62 passes for 561 yards, five touchdowns and one interception through two games.",
+            "fact": "Through two games, Trinidad Chambliss completed 44 of 62 passes for 561 yards, five touchdowns and one interception.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
-          },
-          {
-            "fact": "Chambliss also rushed 12 times for 62 yards and one touchdown through two games.",
-            "page": 3,
-            "category": "quarterback",
-            "importance": "medium"
           },
           {
             "fact": "Chambliss had thrown a touchdown pass in 15 consecutive games, the fourth-longest streak in Ole Miss history.",
             "page": 10,
             "category": "quarterback",
             "importance": "medium"
+          },
+          {
+            "fact": "Ole Miss listed Chambliss as its starting quarterback, with transfers Deuce Knight and Walker Howard listed as the next options.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Ole Miss' listed starting offensive line was Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center, Patrick Kutas at right guard and Tommy Kinsler IV at right tackle.",
-            "page": 17,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Connor Howes was listed behind Tommy Kinsler IV at right tackle after Kinsler missed the Charlotte game because of injury.",
-            "page": 17,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Running back Kewan Lacy had 30 carries for 148 yards and three touchdowns through two games.",
-            "page": 3,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Lacy had scored a rushing touchdown in 11 consecutive games, the second-longest active streak in the FBS.",
+            "fact": "Kewan Lacy had 148 rushing yards and three touchdowns through two games and had scored a rushing touchdown in 11 consecutive games.",
             "page": 8,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Deuce Alexander led Ole Miss through two games with 13 receptions for 235 yards and two touchdowns.",
+            "fact": "Deuce Alexander led Ole Miss through two games with 13 receptions for 235 yards and two touchdowns.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfers Johntay Cook II and Horatio Fields were listed as starting receivers; Cook had two catches for 12 yards and a touchdown, while Fields had nine catches for 113 yards and a touchdown through two games.",
+            "fact": "Transfer receiver Johntay Cook II scored his first touchdown for Ole Miss against Charlotte.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "The tight-end depth chart listed Luke Hasz, Caleb Odom and Michael Smith as co-options.",
-            "page": 17,
+            "fact": "Transfer receiver Horatio Fields had nine catches for 113 yards and one touchdown through two games.",
+            "page": 4,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Five Rebels had made their first career starts during the first two games: wide receiver Deuce Alexander, defensive tackle Jamarious Brown, offensive linemen Connor Howes and Tommy Kinsler IV, and safety Anthony Robinson III.",
+            "fact": "The listed starting offensive line was Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center, Patrick Kutas at right guard and Tommy Kinsler IV at right tackle.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tommy Kinsler IV and Deuce Alexander were among five Rebels who made their first career starts during the first two games of 2026.",
             "page": 9,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -137,57 +119,57 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "The listed defensive front consisted of Kam Franklin at defensive end, Jamarious Brown at nose tackle, Will Echoles at defensive tackle and Suntarine Perkins or Blake Purchase at edge.",
+            "fact": "Ole Miss' listed defensive front featured Kam Franklin at defensive end, Jamarious Brown at nose tackle, Will Echoles at defensive tackle and Suntarine Perkins or Oregon transfer Blake Purchase at edge.",
             "page": 17,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer linebackers Keaton Thomas and Luke Ferrelli were listed as starters; each had 12 and 11 tackles, respectively, through two games.",
+            "fact": "Transfer linebackers Keaton Thomas and Luke Ferrelli were listed as starters; Thomas came from Baylor and Ferrelli came from California.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Thomas and Tah'j Butler shared the team lead with 12 tackles through two games, while Ferrelli had 11 tackles and one sack.",
             "page": 3,
             "category": "defensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Ferrelli led Ole Miss with six tackles against Charlotte and had 11 tackles and one sack through two games.",
-            "page": 5,
+            "fact": "Jaylon Braxton had 11 tackles and three pass breakups through two games.",
+            "page": 3,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Cornerback Jaylon Braxton had 11 tackles and three pass breakups through two games, including two breakups against Charlotte.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "The listed secondary starters were Jaylon Braxton at one corner, Antonio Kite or Jalyn Crawford at the other corner, Edwin Joseph at nickel, Joenel Aguero at free safety, and Sharif Denson or Anthony Robinson III at strong safety.",
+            "fact": "The listed secondary included Jaylon Braxton at one corner, Antonio Kite or Auburn transfer Jalyn Crawford at the other corner, Georgia transfer Joenel Aguero at free safety and Florida State transfer Edwin Joseph at nickel.",
             "page": 17,
             "category": "defensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Pete Golding is in his first full season as Ole Miss head coach after being named to the position on Nov. 30, 2025; he previously spent three seasons as the Rebels' defensive coordinator.",
+            "fact": "Pete Golding was named Ole Miss head coach on Nov. 30, 2025 and is in his first full season in the position after three seasons as the Rebels' defensive coordinator.",
             "page": 6,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "John David Baker is the new offensive coordinator and calls the offense from the coaches' booth; he returned after serving as East Carolina's offensive coordinator and quarterbacks coach from 2024-25.",
+            "fact": "John David Baker is the new offensive coordinator after serving as East Carolina's offensive coordinator and quarterbacks coach from 2024-25; he previously worked at Ole Miss from 2021-23.",
             "page": 9,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Bryan Brown is the new defensive coordinator and works from the coaches' booth after serving the previous two seasons as Ole Miss' co-defensive coordinator and secondary coach.",
+            "fact": "Bryan Brown is the defensive coordinator after spending the previous two seasons as Ole Miss' co-defensive coordinator and secondary coach.",
             "page": 9,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "John Garrison serves as offensive line and run game coordinator, while Joe Judge serves as head coach of offense and quarterbacks coach.",
+            "fact": "Baker and Brown call their units from the coaches' booth, while head coach Pete Golding works from the field.",
             "page": 16,
             "category": "coaching_changes",
             "importance": "medium"
@@ -209,39 +191,39 @@
         ],
         "offensive_context": [
           {
-            "fact": "Ole Miss averaged 41.0 points, 454.0 total yards, 314.5 passing yards and 139.5 rushing yards per game through two games.",
+            "fact": "Through two games, Ole Miss averaged 41.0 points, 454.0 total yards, 314.5 passing yards and 139.5 rushing yards per game.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Rebels had scored on every red-zone possession through two games and had allowed 0.5 sacks per game.",
-            "page": 8,
+            "fact": "Ole Miss ranked fifth nationally in offensive pace at 22.7 seconds per play through two games.",
+            "page": 9,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss ranked fifth nationally in pace at 22.7 seconds per play through two games.",
-            "page": 9,
+            "fact": "Ole Miss had scored on 100 percent of its red-zone opportunities and allowed 0.5 sacks per game through two games.",
+            "page": 8,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Ole Miss allowed 23.5 points and 395.5 total yards per game through two games, including 152.5 rushing yards and 243.0 passing yards per game.",
+            "fact": "Through two games, Ole Miss allowed 395.5 total yards per game, including 243.0 passing yards and 152.5 rushing yards.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "The defense averaged seven tackles for loss and two sacks per game through two games.",
+            "fact": "The Ole Miss defense averaged 7.0 tackles for loss and 2.0 sacks per game through two games.",
             "page": 8,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss held opponents to a 33.3 percent conversion rate on third down through two games.",
+            "fact": "Ole Miss had allowed opponents to convert 33.3 percent of third downs through two games.",
             "page": 8,
             "category": "defensive_context",
             "importance": "medium"
@@ -249,7 +231,7 @@
         ],
         "special_teams": [
           {
-            "fact": "Kicker Lucas Carneiro was 4-for-5 on field goals and 10-for-10 on extra points through two games.",
+            "fact": "Lucas Carneiro was 4-for-5 on field goals and 10-for-10 on extra points through two games.",
             "page": 4,
             "category": "special_teams",
             "importance": "high"
@@ -261,7 +243,7 @@
             "importance": "high"
           },
           {
-            "fact": "Carneiro had made six field goals of at least 50 yards since joining Ole Miss in 2025, a program career record.",
+            "fact": "Carneiro had made six field goals of at least 50 yards since joining Ole Miss in 2025, the program career record.",
             "page": 7,
             "category": "special_teams",
             "importance": "medium"
@@ -273,7 +255,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Deuce Alexander or Traylon Ray were listed as Ole Miss' options at both kickoff returner and punt returner.",
+            "fact": "Deuce Alexander and Traylon Ray were listed as the options at both kickoff returner and punt returner.",
             "page": 17,
             "category": "special_teams",
             "importance": "low"
@@ -282,14 +264,20 @@
         "series_context": [],
         "other_relevant": [
           {
-            "fact": "Ole Miss was scheduled to play at Florida on Sept. 26, 2026, following its Sept. 19 home game against LSU.",
+            "fact": "The schedule lists Ole Miss at Florida on Sept. 26, 2026, following the Sept. 19 LSU game.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss entered Game 3 with a 2-0 record and was ranked No. 8 in the AP poll and No. 9 in the Coaches poll.",
+            "fact": "Ole Miss was 2-0 and ranked No. 8 in the AP poll and No. 9 in the Coaches poll entering its third game.",
             "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ole Miss had 41 players make their Rebels debuts during the first two games of the season.",
+            "page": 8,
             "category": "other_relevant",
             "importance": "medium"
           }
@@ -334,8 +322,8 @@
     ],
     "used_sources": [
       {
-        "fact_id": 7,
-        "fact": "Chambliss completed 44 of 62 passes for 561 yards, five touchdowns and one interception through two games.",
+        "fact_id": 6,
+        "fact": "Through two games, Trinidad Chambliss completed 44 of 62 passes for 561 yards, five touchdowns and one interception.",
         "page": 3,
         "category": "quarterback",
         "importance": "high",
@@ -343,56 +331,29 @@
         "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 8,
-        "fact": "Chambliss also rushed 12 times for 62 yards and one touchdown through two games.",
-        "page": 3,
-        "category": "quarterback",
-        "importance": "medium",
-        "source_file": "Ole Miss.pdf",
-        "source_team": "Ole Miss Rebels"
-      },
-      {
-        "fact_id": 12,
-        "fact": "Running back Kewan Lacy had 30 carries for 148 yards and three touchdowns through two games.",
-        "page": 3,
+        "fact_id": 9,
+        "fact": "Kewan Lacy had 148 rushing yards and three touchdowns through two games and had scored a rushing touchdown in 11 consecutive games.",
+        "page": 8,
         "category": "offensive_personnel",
         "importance": "high",
         "source_file": "Ole Miss.pdf",
         "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 30,
-        "fact": "The Rebels had scored on every red-zone possession through two games and had allowed 0.5 sacks per game.",
-        "page": 8,
-        "category": "offensive_context",
+        "fact_id": 21,
+        "fact": "John David Baker is the new offensive coordinator after serving as East Carolina's offensive coordinator and quarterbacks coach from 2024-25; he previously worked at Ole Miss from 2021-23.",
+        "page": 9,
+        "category": "coaching_changes",
         "importance": "high",
         "source_file": "Ole Miss.pdf",
         "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 31,
-        "fact": "Ole Miss ranked fifth nationally in pace at 22.7 seconds per play through two games.",
+        "fact_id": 27,
+        "fact": "Ole Miss ranked fifth nationally in offensive pace at 22.7 seconds per play through two games.",
         "page": 9,
         "category": "offensive_context",
         "importance": "high",
-        "source_file": "Ole Miss.pdf",
-        "source_team": "Ole Miss Rebels"
-      },
-      {
-        "fact_id": 32,
-        "fact": "Ole Miss allowed 23.5 points and 395.5 total yards per game through two games, including 152.5 rushing yards and 243.0 passing yards per game.",
-        "page": 3,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Ole Miss.pdf",
-        "source_team": "Ole Miss Rebels"
-      },
-      {
-        "fact_id": 34,
-        "fact": "Ole Miss held opponents to a 33.3 percent conversion rate on third down through two games.",
-        "page": 8,
-        "category": "defensive_context",
-        "importance": "medium",
         "source_file": "Ole Miss.pdf",
         "source_team": "Ole Miss Rebels"
       }
@@ -402,12 +363,12 @@
       "model_side": "Ole Miss",
       "opponent_full": "Florida Gators",
       "opponent": "Florida",
-      "model_prediction": 3.0,
-      "market_line": 3.0,
+      "model_prediction": 3.5,
+      "market_line": 3.5,
       "best_available_line": 3.5,
       "best_available_price": "-115",
-      "cover_probability": 0.52662097,
-      "edge": -0.0082627509302325,
+      "cover_probability": 0.51805494,
+      "edge": -0.0168287809302325,
       "bet_status": "PASS"
     }
   }

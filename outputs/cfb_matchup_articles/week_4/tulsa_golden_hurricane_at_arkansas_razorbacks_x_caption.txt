@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on Tulsa-Arkansas.
 
-We make Tulsa +6.5. The market is +6.5.
+We make Tulsa +7. The market is +7.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

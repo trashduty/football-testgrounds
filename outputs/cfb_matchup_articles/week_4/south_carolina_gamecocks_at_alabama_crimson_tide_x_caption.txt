@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on South Carolina-Alabama.
 
-We make Alabama -14.5. The market is -13.
+We make Alabama -14. The market is -12.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

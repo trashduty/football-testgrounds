@@ -6,18 +6,20 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Illinois Fighting Illini | +27.5 (-109) | BetRivers | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Illinois Fighting Illini | +27.5 (-110) | Fanatics | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Ohio State Buckeyes | -27.5 (-105) | FanDuel | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Illinois Fighting Illini visit the Ohio State Buckeyes at Ohio Stadium. We make **Illinois +26**, compared with a market line of +27.5.
 
-The best number we found is Illinois +27.5 at -109. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Illinois +27.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are slightly more favorable to Illinois than the market, but the football matchup makes that disagreement difficult to press. Ohio State’s passing efficiency meets an Illinois pass defense that has struggled by our measures. Julian Sayin returns after completing 77.0 percent of his passes for 3,610 yards and 32 touchdowns in 2025, while Jeremiah Smith entered the season with 2,709 career receiving yards and 29 touchdowns. We see clear potential for Ohio State to create explosive separation through the air.
+Our numbers are slightly less aggressive on Ohio State than the market, but the case for Illinois is less about trusting its offense and more about questioning the degree of separation being priced. Illinois faces difficult paths on the ground and in creating scoring opportunities, which could leave its defense on the field without much support.
 
-The more interesting question is whether Ohio State’s defense can sustain its established standard after losing eight starters from last season’s unit. The opener offered a strong first data point—three points and 165 total yards allowed—but we are not treating one game against Ball State as proof that every transition has been resolved. Even so, our matchup numbers strongly favor Ohio State against the Illinois running game and in preventing scoring opportunities. That combination leaves us with a small model disagreement, not enough value to move beyond a pass.
+The biggest concern for us is Ohio State’s passing game against an Illinois pass defense that our metrics view as vulnerable. Julian Sayin completed 77.0 percent of his passes last season, while Jeremiah Smith entered 2026 with 2,709 career receiving yards and 29 touchdowns. Ohio State also returned 85.8 percent of its qualifying offensive-line snaps, giving that passing attack meaningful continuity.
+
+We are not treating Ohio State’s dominant opener as proof of another runaway result, though its 434 passing yards against Ball State fit the broader matchup concern. Our model sees a small disagreement with the market, but Ohio State has clear advantages on both sides of the ball. For us, that makes the available value too thin, so we pass.
 
 ### What The Numbers Say
 
@@ -69,13 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Ohio State’s passing offense against the Illinois secondary. Sayin’s accuracy and Smith’s ability to generate high-value plays attack the area where our numbers show Illinois is most vulnerable. Smith caught eight passes for 151 yards and two touchdowns in the first half of the opener, which illustrates the ceiling without guaranteeing the same result here.
+We are watching Ohio State’s passing offense against the Illinois secondary. If Illinois cannot limit efficient early-down completions or prevent explosive gains, Ohio State can create the separation the market expects without needing much help from turnovers or short fields.
 
-For us, Illinois must limit explosive passes and force Ohio State to sustain longer drives. If the Buckeyes consistently create chunk gains through the air, the market’s expectation becomes much easier to justify.
+The question for us is whether Illinois can make Sayin work through longer possessions rather than allowing the passing game to dictate the matchup. That battle is the clearest threat to our model’s more restrained view of the margin.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

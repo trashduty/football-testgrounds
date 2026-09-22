@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on UMass-Sacramento State.
 
-We make Sacramento State +5.5. The market is +5.5.
+We make Sacramento State +4.5. The market is +4.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,16 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Navy Midshipmen | -7.0 (-105) | BetMGM | 39.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UAB Blazers | +6.5 (-102) | FanDuel | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Navy Midshipmen | -7.0 (-108) | BetMGM | 38.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UAB Blazers | +6.5 (+100) | FanDuel | 58.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Navy Midshipmen visit the UAB Blazers at Protective Stadium. We make **UAB +3**, compared with a market line of +7.
+The Navy Midshipmen visit the UAB Blazers at Protective Stadium. We make **UAB +2.5**, compared with a market line of +7.
 
-The best number we found is UAB +6.5 at -102. We give UAB a 57.3% chance to cover, which creates an 6.8% edge for us. That clears our 3% threshold, so UAB is a bet.
+The best number we found is UAB +6.5 at +100. We give UAB a 58.1% chance to cover, which creates an 8.1% edge for us. That clears our 3% threshold, so UAB is a bet.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+We are not dismissing Navy’s clearest advantage. Its rushing offense has produced 376.0 yards per game and 6.9 yards per carry, and that efficiency lines up against the weakest part of UAB’s defense in our matchup numbers. The market is asking whether that edge leads to sustained separation. Our view is that it matters without defining the entire game.
+
+UAB has a viable counter through the air. Navy’s first two opponents combined for 593 passing yards and seven touchdowns without throwing an interception, while UAB has converted 47.8 percent of its third downs. That gives us a path to longer possessions and enough scoring opportunities to keep this competitive. The concern is finishing: only three of UAB’s first eight red-zone possessions ended in touchdowns. Still, we think the passing matchup and UAB’s ability to extend drives make the underdog more competitive than the market expects.
 
 ### What The Numbers Say
 
@@ -65,9 +67,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
+### The Matchup To Watch
+
+We will be watching Navy’s rushing offense against UAB’s run defense. Braxton Woodson has already rushed for 296 yards and four touchdowns, but he left the Florida Atlantic game with a lower-body injury and the guide does not state his availability. Jackson Gutierrez then supplied 75 rushing yards and 100 passing yards in relief, so we cannot treat this as a one-player attack. UAB does not need to erase Navy’s ground game; for our position, it needs to prevent efficient runs from becoming repeated scoring drives.
+
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

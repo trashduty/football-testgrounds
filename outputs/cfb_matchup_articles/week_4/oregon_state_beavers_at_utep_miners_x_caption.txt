@@ -1,9 +1,9 @@
-Our model is 1.5 points away from the market on Oregon State-UTEP.
+Our model is 1 points away from the market on Oregon State-UTEP.
 
-We make UTEP +10. The market is +11.5.
+We make UTEP +9.5. The market is +10.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: UTEP +10.5 -105. We give it a 54.7% chance to cover with a 3.5% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

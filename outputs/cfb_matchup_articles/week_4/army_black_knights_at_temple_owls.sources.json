@@ -2,7 +2,7 @@
   "game": "Army Black Knights@Temple Owls",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-21T13:11:26.737917+00:00",
+  "generated_at_utc": "2026-09-22T23:37:20.954918+00:00",
   "model_prediction": 1.5,
   "market_line": 3.0,
   "best_line": 3.5,
@@ -12,16 +12,814 @@
   "edge": 0.0100502345454546,
   "bet_short": "Temple",
   "guide_enrichment": {
-    "enabled": false,
-    "narrative": "",
-    "matchup_to_watch": "",
+    "enabled": true,
+    "narrative": "We are not reacting to either team\u2019s latest loss. Temple rushed for 270 yards at Toledo and held a two-touchdown lead late, while Army carried a double-digit fourth-quarter lead against South Florida. The useful takeaway is that Temple has produced at least 186 rushing yards in every game, giving it a credible way to sustain possessions and keep this competitive. The concern is that Army has allowed only 98.5 rushing yards per game, so Temple\u2019s clearest offensive strength runs into meaningful resistance.\n\nWhere this gets interesting is on the other side. Our matchup data gives Army an advantage both on the ground and through the air against Temple\u2019s defense. Army is averaging 394 rushing yards per game and has already generated 25 runs of at least 10 yards, while Temple has allowed opponents to convert more than half of their third downs. Cale Hellums also completed 9 of 10 passes against South Florida, so Temple cannot focus exclusively on the run. Our numbers still make the teams closer than the market does, but Army\u2019s favorable offensive matchup and the cost attached to the available number leave us without enough value to move beyond a pass.",
+    "matchup_to_watch": "For us, the matchup to watch is Army\u2019s offense against Temple on early downs. Hellums, Godspower Nwawuihe and Zach Mundell give Army multiple rushing threats, and the offense has avoided an interception through two games while allowing very little backfield disruption. If Temple cannot force longer-yardage situations, Army can control possession and limit the number of chances Temple gets to exploit its own rushing game. That is the clearest challenge to our more favorable view of Temple.",
     "guide_status": [
-      "No guide found for Army Black Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Army.pdf",
-      "No guide found for Temple Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf"
+      "Found guide for Army Black Knights: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Army.pdf",
+      "Loaded guide for Army Black Knights: Army.pdf",
+      "Found guide for Temple Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf",
+      "Loaded guide for Temple Owls: Temple.pdf"
     ],
-    "guide_extractions": [],
-    "matchup_angles": [],
-    "used_sources": [],
-    "model_context": {}
+    "guide_extractions": [
+      {
+        "source_team": "Army Black Knights",
+        "opponent": "Temple Owls",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The guide is Army's Week 4 game notes for its Sept. 25, 2026 road game against Temple at Lincoln Financial Field.",
+        "recent_game": [
+          {
+            "fact": "Army lost 28-24 to South Florida on Sept. 12, falling to 1-1 overall and 0-1 in the American Conference.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Quarterback Cale Hellums completed 9 of 10 passes for 91 yards and two touchdowns against South Florida; his .900 completion percentage was a career high.",
+            "page": 17,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Godspower Nwawuihe led Army against South Florida with 20 carries for 98 yards and scored on a 10-yard fourth-quarter run.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Zach Mundell caught three passes against South Florida, including a 24-yard touchdown from Cale Hellums, and completed a 37-yard pass to Godspower Nwawuihe.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Temple enters the matchup 1-2 overall and has not yet played an American Conference game in 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple is averaging 31.67 points, 359.0 total yards, 221.3 rushing yards and 137.67 passing yards per game.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple is allowing 30.0 points and 414.7 total yards per game, including 297.33 passing yards and 117.3 rushing yards per game.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "K.C. Keeler is in his second season as Temple's head coach; Temple went 5-7 overall and 3-5 in conference play in 2025.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Senior Cale Hellums is listed as Army's first-team quarterback, ahead of Bryson Luter and Ethan Washington.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hellums returned as Army's starting quarterback after making 10 starts and appearing in every game in 2025.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hellums rushed for 1,223 yards and 18 touchdowns in 2025; the touchdown total was second in Army single-season history.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games in 2026, Hellums has 150 passing yards, 142 rushing yards and a team-high four total touchdowns.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Bryant, Hellums rushed seven times for 87 yards and two touchdowns and completed 4 of 9 passes for 59 yards.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Army's listed first-team offensive line is left tackle Henry Appleton, left guard Kyle Kloska, center Brady Small, right guard Paolo Gennarelli and right tackle Teddy Williams.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Army's listed second-team offensive linemen are Xavier Archawski at left tackle, Ben Britton at left guard, Chuck Johnson at center, Sam Waters at right guard and Brandon Wraalstad at right tackle.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Godspower Nwawuihe is listed as the first-team running back, with Jake Rendina and Carson Smith behind him.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Senior Samari Howard is listed as the first-team slotback, with Zach Mundell and David Clerk also on the slotback depth chart.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Army lists Parker Poloskey as its first-team tight end and Brady Anderson as its first-team wide receiver.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Nwawuihe has emerged as Army's feature back after his performance in the 2025 Fenway Bowl and has 147 rushing yards and three total touchdowns through two games.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Mundell has 150 rushing yards and three total touchdowns through two games after playing only his second game since 2023 in the opener against Bryant.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Army's listed first-team defensive front consists of Dillon Stowers at defensive tackle, Kody Harris-Miller at nose tackle and Jack Bousum at defensive end.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Army lists Noah Nixon at outside linebacker, Jaquavious Moss and Elijah Walton at inside linebacker, and Zane Tallman at nickelback.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Army's listed first-team secondary is cornerbacks Jaydan Mayes and Jaxon Hammond, strong safety Caleb Williams and free safety Stephen Nnadozie.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Elijah Walton and Jaquavious Moss share the team lead with 12 tackles through two games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dillon Stowers leads Army with one sack, while Zane Tallman has the team's only forced fumble through two games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "John Holt is in his first season as Army's co-offensive line coach, working with third-year co-offensive line coach Cheston Blackshear.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jamere Hogue is in his first season as defensive line coach, and Munir Prince is in his first season as cornerbacks coach.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cody Worley remains Army's offensive coordinator and quarterbacks coach, while Daryl Dixon remains defensive coordinator and Scot Sloan is the co-defensive coordinator and safeties coach.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Army is averaging 394.0 rushing yards per game, the best mark in the FBS through the first three weeks.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army is averaging 497.5 total yards and 41.5 points per game.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army has three players with at least 140 rushing yards and two rushing touchdowns through two games: Zach Mundell, Godspower Nwawuihe and Cale Hellums.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army has produced 25 rushing plays of at least 10 yards, tied for sixth nationally through three weeks.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army has not thrown an interception and has allowed 0.5 sacks and 3.0 tackles for loss per game.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army is averaging 34:22 in time of possession and has converted every fourth-down attempt through two games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In the opener against Bryant, Army gained 648 total yards and 569 rushing yards, averaged 10.0 yards per rush and had 31 first downs.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Army is allowing 15.5 points and 267.0 total yards per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army is allowing 98.5 rushing yards and 168.5 passing yards per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army has allowed 30 first downs through two games, the third-fewest nationally.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army has not recorded an interception or a fumble recovery through two games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "James Wagenseller is listed as Army's first-team punter, Dawson Jones as its first-team kicker and kickoff specialist, and Owen Walter as its first-team long snapper.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army is averaging 47.6 yards per punt, third nationally through the first three weeks.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wagenseller was selected to the Ray Guy Award's Ray's 8 after Week 2.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "low"
+          },
+          {
+            "fact": "Samari Howard and Jaydan Mayes are listed as co-first-team kickoff returners, while Lloyd Benson III is listed as the first-team punt returner.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Benson is averaging 18.7 yards per punt return through two games.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Army is playing Temple for the third consecutive season since joining the American Conference.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jeff Monken is 4-0 against Temple as Army's head coach, with wins in 2016, 2017, 2024 and 2025.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army defeated Temple 14-13 at West Point in 2025 and ended the game with a 9:53 possession that exhausted the remaining time.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army won 42-14 at Temple in 2024, the teams' most recent meeting at Lincoln Financial Field.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Army and Temple are scheduled to play at 4 p.m. Eastern on Friday, Sept. 25 at Lincoln Financial Field.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Army enters the Temple game after a Week 3 bye.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Army.pdf"
+      },
+      {
+        "source_team": "Temple Owls",
+        "opponent": "Army Black Knights",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The document is Temple's 2026 Week 4 game notes for its September 25 home game against Army.",
+        "recent_game": [
+          {
+            "fact": "Temple lost 49-48 in overtime at Toledo after its attempt at a game-winning two-point conversion fell incomplete.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple led Toledo 42-28 with 6:40 remaining, but Toledo scored twice in the final 1:05 and recovered an onside kick before winning in overtime.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple rushed for 270 yards against Toledo, its third consecutive game with at least 176 rushing yards.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "In his first game action for Temple, Sam Brown rushed for a career-high 109 yards and scored three combined touchdowns against Toledo.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kevin Hornbeak forced a fumble on Toledo's first offensive play, and Saboor Karriem recovered it.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Army enters the matchup 1-1 overall and 0-1 in American Conference play after a Week 3 bye.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Army opened the season with a 59-3 win over Bryant and rushed for 569 yards; five players had at least 53 rushing yards.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Slotback Zach Mundell led Army against Bryant with 105 rushing yards and two touchdowns.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army lost 28-24 to South Florida after holding a 24-14 lead with 10:56 remaining in the fourth quarter.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Against South Florida, Army punted with 3:10 remaining, allowed a 10-play, 81-yard game-winning drive, and fumbled on its final possession.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Ajani Sheppard threw the first touchdown pass of his career against Toledo, a two-yard fourth-down score to Joey Schlaffer.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Sheppard connected with Colin Chase for a 69-yard touchdown in the fourth quarter against Toledo and later scored on a 22-yard overtime run.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Penn State transfer Jaxon Smolik and Washington State transfer Ajani Sheppard entered 2026 as Temple's two primary quarterbacks with limited previous playing experience.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "The participation chart lists Smolik with starts in each of Temple's first three games and Sheppard with appearances in all three games.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Temple returned four 2025 starting offensive linemen: left tackle Giakoby Hills, left guard Eric King, center Grayson Mains and right guard Jackson Pruitt.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Rutgers transfer Zach Aamland entered the starting lineup because of injuries and is listed with two starts through three games.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sam Brown transferred to Temple after spending four seasons at Rutgers.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Peter Clarke had 30 receptions and six touchdown catches in 2025 and entered 2026 with nine career touchdown receptions.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Joey Schlaffer joined Temple's tight end room after transferring from Penn State.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Curly Ordonez led Temple in tackles in each of the first three games of 2026.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ordonez led Temple in tackles in 2025 and has started each of the first three games of 2026.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Saboor Karriem transferred from Illinois and started each of Temple's first three games.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple added defensive linemen Kevin Hornbeak Jr., Kaleb Artis, Davier Bishop, Quante Gillians, Deshon Dodson and Lamar Fairfax through the transfer portal.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Temple added outside linebackers Jaylon Joseph from Lafayette and JaMair Diaz from Sam Houston.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Temple retained offensive coordinator Tyler Walker, defensive coordinator Brian L. Smith and special teams coordinator Brian Ginn from 2025.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Head coach K.C. Keeler will coach the 400th game of his collegiate head-coaching career against Army.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Right tackle candidate Luke Watson worked with the first team during spring and summer before an injury gave Kevin Terry an opportunity on the right side.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Devontae Ward-Grant will miss the 2026 season after suffering an injury during the spring.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Temple has rushed for 697 yards through three games and has gained at least 186 rushing yards in every game.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple averages 221.3 rushing yards per game, while Army allows 98.5 rushing yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple averages 359.0 total yards and 31.7 points per game through three games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Temple has converted 41.0 percent of its third downs and 100 percent of its fourth downs.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Temple is 100 percent on red-zone possessions through three games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Army averages 394.0 rushing yards per game, the highest figure in the FBS, while Temple allows 117.3 rushing yards per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army averages 497.5 total yards and 41.5 points per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple allows opponents to convert 51.3 percent of third downs, while Army's offense converts 50.0 percent.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Temple has allowed 414.7 total yards and 30.0 points per game through three games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Temple's defense uses a multiple alignment under defensive coordinator Brian L. Smith.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Carl Hardin made field goals of 41 and 48 yards against Toledo.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Hardin made 11 of 14 field-goal attempts and all 40 extra-point attempts in 2025.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Temple's net-punting average is 44.22 yards, while Army's is 47.60 yards.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Senior Dante Atton returns as Temple's punter after averaging 42.2 yards per punt in 2025.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "UNLV transfer Sam Wolfenden took over Temple's long-snapping duties in 2026.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Army leads the all-time series 8-7 and has won the past four meetings after Temple previously won six straight.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army won 14-13 at West Point in 2025 and limited Temple to two offensive possessions in the second half.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In the most recent Philadelphia meeting, Army won 42-14 in 2024 and recorded seven sacks of Temple quarterback Evan Simon.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army head coach Jeff Monken is 4-0 against Temple.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The game is Temple's first American Conference contest of 2026 and will be played September 25 at Lincoln Financial Field.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Temple.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Army passing offense vs Temple pass defense",
+        "off_team": "Army",
+        "def_team": "Temple",
+        "off_rank": 15,
+        "def_rank": 132,
+        "stat": "pass EPA",
+        "rank_gap": 117,
+        "direction": "offense_advantage",
+        "matchup_score": 217
+      },
+      {
+        "dimension": "Army rushing offense vs Temple rush defense",
+        "off_team": "Army",
+        "def_team": "Temple",
+        "off_rank": 30,
+        "def_rank": 127,
+        "stat": "rush EPA",
+        "rank_gap": 97,
+        "direction": "offense_advantage",
+        "matchup_score": 197
+      },
+      {
+        "dimension": "Army scoring-opportunity creation vs Temple scoring-opportunity prevention",
+        "off_team": "Army",
+        "def_team": "Temple",
+        "off_rank": 48,
+        "def_rank": 129,
+        "stat": "Eckel rate",
+        "rank_gap": 81,
+        "direction": "mixed",
+        "matchup_score": 81
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Quarterback Cale Hellums completed 9 of 10 passes for 91 yards and two touchdowns against South Florida; his .900 completion percentage was a career high.",
+        "page": 17,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Godspower Nwawuihe led Army against South Florida with 20 carries for 98 yards and scored on a 10-yard fourth-quarter run.",
+        "page": 16,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 20,
+        "fact": "Mundell has 150 rushing yards and three total touchdowns through two games after playing only his second game since 2023 in the opener against Bryant.",
+        "page": 16,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Army has produced 25 rushing plays of at least 10 yards, tied for sixth nationally through three weeks.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 33,
+        "fact": "Army has not thrown an interception and has allowed 0.5 sacks and 3.0 tackles for loss per game.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 37,
+        "fact": "Army is allowing 98.5 rushing yards and 168.5 passing yards per game.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 52,
+        "fact": "Temple led Toledo 42-28 with 6:40 remaining, but Toledo scored twice in the final 1:05 and recovered an onside kick before winning in overtime.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Temple.pdf",
+        "source_team": "Temple Owls"
+      },
+      {
+        "fact_id": 53,
+        "fact": "Temple rushed for 270 yards against Toledo, its third consecutive game with at least 176 rushing yards.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Temple.pdf",
+        "source_team": "Temple Owls"
+      },
+      {
+        "fact_id": 59,
+        "fact": "Army lost 28-24 to South Florida after holding a 24-14 lead with 10:56 remaining in the fourth quarter.",
+        "page": 1,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Temple.pdf",
+        "source_team": "Temple Owls"
+      },
+      {
+        "fact_id": 79,
+        "fact": "Temple has rushed for 697 yards through three games and has gained at least 186 rushing yards in every game.",
+        "page": 5,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Temple.pdf",
+        "source_team": "Temple Owls"
+      },
+      {
+        "fact_id": 86,
+        "fact": "Temple allows opponents to convert 51.3 percent of third downs, while Army's offense converts 50.0 percent.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Temple.pdf",
+        "source_team": "Temple Owls"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Temple Owls",
+      "model_side": "Temple",
+      "opponent_full": "Army Black Knights",
+      "opponent": "Army",
+      "model_prediction": 1.5,
+      "market_line": 3.0,
+      "best_available_line": 3.5,
+      "best_available_price": "-120",
+      "cover_probability": 0.55550478,
+      "edge": 0.0100502345454546,
+      "bet_status": "PASS"
+    }
   }
 }
