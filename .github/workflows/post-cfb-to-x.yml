@@ -11,6 +11,11 @@ on:
         required: true
         type: boolean
         default: false
+      test_now:
+        description: 'Post one no-bet graphic immediately, even outside schedule (requires publish)'
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -39,7 +44,11 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
           if [[ '${{ github.event_name }}' == 'schedule' || '${{ inputs.publish }}' == 'true' ]]; then
-            python scripts/post_cfb_to_x.py --publish
+            if [[ '${{ inputs.test_now }}' == 'true' ]]; then
+              python scripts/post_cfb_to_x.py --publish --test-now
+            else
+              python scripts/post_cfb_to_x.py --publish
+            fi
           else
             python scripts/post_cfb_to_x.py
           fi
