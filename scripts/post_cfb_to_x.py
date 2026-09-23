@@ -132,7 +132,7 @@ def main():
         parser.error('--hour cannot be combined with --publish')
     if args.test_now and not args.publish:
         parser.error('--test-now requires --publish')
-    if not args.test_now and (now.weekday() > 3 or hour not in HOURS or (args.publish and now.minute > 30)):
+    if not args.test_now and (now.weekday() > 4 or hour not in HOURS or (args.publish and now.minute > 30)):
         print('Outside Monday–Thursday 9:00–16:30 Eastern; skipping')
         return
     season, week, path, manifest = latest_manifest()
