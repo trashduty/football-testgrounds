@@ -68,6 +68,21 @@ def select(manifest, ledger, season, week, date, hour):
     return candidates[0], 'Bet' if want_bet else 'No Bet'
 
 
+def check_x_response(response, operation):
+    if response.ok:
+        return
+    try:
+        payload = response.json()
+    except ValueError:
+        payload = {}
+    # X's structured error identifies permissions, entitlement, duplicate text,
+    # or other policy issues; do not print request headers or credentials.
+    details = {key: payload[key] for key in ('title', 'detail', 'type', 'message', 'errors')
+               if key in payload}
+    raise RuntimeError(f'X {operation} failed (HTTP {response.status_code}): '
+                       + json.dumps(details, ensure_ascii=False))
+
+
 def post(row, folder):
     needed = ('X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_TOKEN_SECRET')
     missing = [k for k in needed if not os.getenv(k)]
@@ -85,11 +100,11 @@ def post(row, folder):
         response = requests.post('https://api.x.com/2/media/upload',
                                  auth=auth, files={'media': (image.name, fp, 'image/png')},
                                  data={'media_category': 'tweet_image'}, timeout=60)
-    response.raise_for_status()
+    check_x_response(response, 'media upload')
     media_id = str(response.json()['data']['id'])
     response = requests.post('https://api.x.com/2/tweets', auth=auth,
                              json={'text': body, 'media': {'media_ids': [media_id]}}, timeout=60)
-    response.raise_for_status()
+    check_x_response(response, 'post creation')
     return response.json()['data']['id']
 
 
