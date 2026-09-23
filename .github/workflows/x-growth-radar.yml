@@ -4,14 +4,6 @@ on:
 
   workflow_dispatch:
 
-  schedule:
-
-    - cron: "3,13,23,33,43,53 6-22 * * *"
-      timezone: "America/Phoenix"
-
-    - cron: "17 23,0-5 * * *"
-      timezone: "America/Phoenix"
-
 
 permissions:
   contents: read
