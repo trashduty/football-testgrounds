@@ -1721,7 +1721,7 @@ def build_x_caption(
     if article_url:
 
         ending = (
-            f"\n\nFull breakdown ↓\n"
+            f"\n\n\n"
             f"{article_url}"
         )
 
