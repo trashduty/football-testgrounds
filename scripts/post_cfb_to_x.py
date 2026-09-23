@@ -93,7 +93,19 @@ def post(row, folder):
     image = folder / assets['x_model_graphic']
     caption = (folder / assets['x_caption']).read_text(encoding='utf-8').strip()
     title = f"{row['away_short']} vs {row['home_short']} Prediction"
-    body = title + '\n\n' + caption
+    # Generated captions can exceed the standard 280-character post limit.
+    # Drop an unlinked "Full breakdown" prompt and retain whole paragraphs.
+    paragraphs = [p.strip() for p in caption.split('\n\n')
+                  if p.strip() and not p.strip().lower().startswith('full breakdown')]
+    body = title
+    for paragraph in paragraphs:
+        candidate = body + '\n\n' + paragraph
+        if len(candidate) > 280:
+            break
+        body = candidate
+    if len(body) > 280:
+        raise ValueError('X post exceeds 280 characters')
+    print(f'Post text ({len(body)} characters): {body}')
     if not image.is_file():
         raise FileNotFoundError(image)
     with image.open('rb') as fp:
