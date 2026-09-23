@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 """Post one CFB model graphic in an Eastern-time hourly slot.
 
 Reads the latest week manifest and stores a persistent posting ledger in the repo.
@@ -96,13 +96,16 @@ def post(row, folder):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--publish', action='store_true', help='Actually publish; default is dry-run')
+    parser.add_argument('--test-now', action='store_true', help='Publish one no-bet matchup immediately')
     parser.add_argument('--hour', type=int, help='Dry-run only: preview a particular ET hour')
     args = parser.parse_args()
     now = datetime.now(ET)
     hour = args.hour if args.hour is not None else now.hour
     if args.publish and args.hour is not None:
         parser.error('--hour cannot be combined with --publish')
-    if now.weekday() > 3 or hour not in HOURS or (args.publish and now.minute > 30):
+    if args.test_now and not args.publish:
+        parser.error('--test-now requires --publish')
+    if not args.test_now and (now.weekday() > 3 or hour not in HOURS or (args.publish and now.minute > 30)):
         print('Outside Monday–Thursday 9:00–16:30 Eastern; skipping')
         return
     season, week, path, manifest = latest_manifest()
@@ -113,7 +116,15 @@ def main():
         return
     date = now.date().isoformat()
     ledger = load_ledger()
-    row, kind = select(manifest, ledger, season, week, date, hour)
+    if args.test_now:
+        # Test runs consume a real no-bet matchup but never occupy a scheduled slot.
+        used = {p['game'] for p in ledger['posts'] if p['season_week'] == f'{season}-week-{week}'}
+        candidates = sorted((r for r in manifest['articles']
+                             if r.get('game') not in used and eligible(r, False)),
+                            key=lambda r: r['game'])
+        row, kind = (candidates[0], 'No Bet') if candidates else (None, 'No eligible unused no-bet matchup')
+    else:
+        row, kind = select(manifest, ledger, season, week, date, hour)
     if row is None:
         print(kind)
         return
@@ -122,7 +133,8 @@ def main():
         print('DRY RUN: no X API call and no ledger update')
         return
     post_id = post(row, path.parent)
-    ledger['posts'].append({'date': date, 'hour': hour, 'season_week': f'{season}-week-{week}',
+    ledger['posts'].append({'date': date, 'hour': f'test-{now.isoformat()}' if args.test_now else hour,
+                            'season_week': f'{season}-week-{week}',
                             'game': row['game'], 'kind': kind, 'post_id': str(post_id)})
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
     LEDGER.write_text(json.dumps(ledger, indent=2) + '\n', encoding='utf-8')
