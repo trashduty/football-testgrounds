@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Central Michigan Chippewas | +41.5 (-108) | DraftKings | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Miami Hurricanes | -41.5 (-108) | BetMGM | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Central Michigan Chippewas | +41.5 (-105) | BetMGM | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Miami Hurricanes | -41.5 (-109) | BetRivers | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Central Michigan Chippewas visit the Miami Hurricanes at Hard Rock Stadium. We make **Central Michigan +37**, compared with a market line of +41.5.
 
-The best number we found is Central Michigan +41.5 at -108. We give Central Michigan a 58.0% chance to cover, which creates an 6.0% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
+The best number we found is Central Michigan +41.5 at -105. We give Central Michigan a 58.0% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

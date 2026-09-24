@@ -1,6 +1,6 @@
-Our model is 0 points away from the market on Ole Miss-Florida.
+Our model is 0.5 points away from the market on Ole Miss-Florida.
 
-We make Ole Miss +3.5. The market is +3.5.
+We make Florida -3.5. The market is -3.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

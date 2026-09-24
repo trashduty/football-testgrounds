@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -83,7 +83,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| App State Mountaineers | +14.0 (-110) | BetRivers | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| App State Mountaineers | +14.0 (-110) | BetMGM | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | NC State Wolfpack | -14.5 (+100) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -144,7 +144,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -221,7 +221,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -298,7 +298,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -375,7 +375,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -452,7 +452,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -468,14 +468,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Central Michigan Chippewas | +41.5 (-108) | DraftKings | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Miami Hurricanes | -41.5 (-108) | BetMGM | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Central Michigan Chippewas | +41.5 (-105) | BetMGM | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Miami Hurricanes | -41.5 (-109) | BetRivers | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Central Michigan Chippewas visit the Miami Hurricanes at Hard Rock Stadium. We make **Central Michigan +37**, compared with a market line of +41.5.
 
-The best number we found is Central Michigan +41.5 at -108. We give Central Michigan a 58.0% chance to cover, which creates an 6.0% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
+The best number we found is Central Michigan +41.5 at -105. We give Central Michigan a 58.0% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -529,7 +529,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -606,7 +606,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -683,7 +683,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -760,7 +760,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -776,14 +776,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Delaware Blue Hens | +19.5 (-110) | BetMGM | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Virginia Cavaliers | -19.5 (-108) | BetMGM | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | +19.5 (-108) | BetMGM | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Cavaliers | -19.5 (-110) | BetMGM | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Delaware Blue Hens visit the Virginia Cavaliers at Scott Stadium. We make **Delaware +19.5**, compared with a market line of +19.5.
 
-The best number we found is Delaware +19.5 at -110. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Delaware +19.5 at -108. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -837,7 +837,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -914,7 +914,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -991,7 +991,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1068,7 +1068,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1145,7 +1145,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1222,7 +1222,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1299,7 +1299,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1376,7 +1376,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1392,7 +1392,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas State Wildcats | -6.5 (-110) | DraftKings | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas State Wildcats | -6.5 (-106) | FanDuel | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Cincinnati Bearcats | +6.5 (-110) | DraftKings | 53.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -1453,7 +1453,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1530,7 +1530,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1546,14 +1546,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Liberty Flames | -2.5 (-112) | DraftKings | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Coastal Carolina Chanticleers | +2.5 (-104) | FanDuel | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Liberty Flames | -2.5 (-110) | BetMGM | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Coastal Carolina Chanticleers | +2.5 (-108) | BetMGM | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Liberty Flames visit the Coastal Carolina Chanticleers at Brooks Stadium (SC). We make **Liberty -5**, compared with a market line of -2.5.
 
-The best number we found is Liberty -2.5 at -112. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Liberty -2.5 at -110. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1607,7 +1607,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1684,7 +1684,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1705,7 +1705,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 ## Our Take
 
-The Middle Tennessee Blue Raiders visit the Jacksonville State Gamecocks at AmFirst Stadium. We make **Jacksonville Stat -9**, compared with a market line of -7.5.
+The Middle Tennessee Blue Raiders visit the Jacksonville State Gamecocks at AmFirst Stadium. We make **Jacksonville Stat -9**, compared with a market line of -7.
 
 The best number we found is Jacksonville Stat -7.5 at -104. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -1761,7 +1761,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1777,14 +1777,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Minnesota Golden Gophers | +9.5 (-105) | BetMGM | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington Huskies | -9.5 (-112) | BetMGM | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | +9.5 (-105) | FanDuel | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | -9.5 (-115) | FanDuel | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Minnesota Golden Gophers visit the Washington Huskies at Husky Stadium. We make **Washington -11**, compared with a market line of -10.
 
-The best number we found is Washington -9.5 at -112. We see a -1.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Washington -9.5 at -115. We see a -2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1838,7 +1838,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1915,7 +1915,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1992,7 +1992,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2069,7 +2069,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2146,7 +2146,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2223,7 +2223,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2300,7 +2300,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2317,7 +2317,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Northwestern Wildcats | +20.5 (+100) | FanDuel | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Indiana Hoosiers | -21.0 (-110) | BetMGM | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Indiana Hoosiers | -21.0 (-108) | BetMGM | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -2377,7 +2377,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2454,7 +2454,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2531,7 +2531,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2608,7 +2608,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2624,14 +2624,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ole Miss Rebels | +3.5 (-115) | Fanatics | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ole Miss Rebels | +3.5 (-120) | DraftKings | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Florida Gators | -3.5 (+100) | DraftKings | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Ole Miss Rebels visit the Florida Gators at Ben Hill Griffin Stadium. We make **Ole Miss +3.5**, compared with a market line of +3.5.
+The Ole Miss Rebels visit the Florida Gators at Ben Hill Griffin Stadium. We make **Florida -3.5**, compared with a market line of -3.
 
-The best number we found is Ole Miss +3.5 at -115. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida -3.5 at +100. We see a -2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2643,40 +2643,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Ole Miss</th>
 <th>Florida</th>
+<th>Ole Miss</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#25</td>
 <td>#69</td>
+<td class="btb-better">#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#23</td>
 <td>#50</td>
+<td class="btb-better">#23</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#66</td>
 <td>#97</td>
+<td class="btb-better">#66</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#109</td>
 <td class="btb-better">#100</td>
+<td>#109</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#7</td>
 <td>#110</td>
+<td class="btb-better">#7</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#33</td>
 <td>#118</td>
+<td class="btb-better">#33</td>
 </tr>
 </tbody>
 </table>
@@ -2685,7 +2685,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2762,7 +2762,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2839,7 +2839,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2916,7 +2916,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2993,7 +2993,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3070,7 +3070,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3147,7 +3147,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3164,13 +3164,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | South Carolina Gamecocks | +12.5 (-110) | DraftKings | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Alabama Crimson Tide | -12.0 (-110) | BetMGM | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Alabama Crimson Tide | -11.5 (-114) | FanDuel | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The South Carolina Gamecocks visit the Alabama Crimson Tide at Bryant-Denny Stadium. We make **Alabama -14**, compared with a market line of -12.5.
 
-The best number we found is Alabama -12.0 at -110. We see a -1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Alabama -11.5 at -114. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3224,7 +3224,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3240,14 +3240,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Florida Bulls | -17.5 (-110) | BetMGM | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Bowling Green Falcons | +18.5 (-113) | BetRivers | 46.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Florida Bulls | -17.5 (-108) | BetMGM | 54.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Bowling Green Falcons | +17.5 (-110) | BetMGM | 45.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The South Florida Bulls visit the Bowling Green Falcons at Doyt L. Perry Stadium. We make **South Florida -21.5**, compared with a market line of -18.
+The South Florida Bulls visit the Bowling Green Falcons at Doyt L. Perry Stadium. We make **South Florida -21**, compared with a market line of -17.5.
 
-The best number we found is South Florida -17.5 at -110. We give South Florida a 55.5% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so South Florida is a bet.
+The best number we found is South Florida -17.5 at -108. We see a 2.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3301,7 +3301,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3378,7 +3378,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3455,7 +3455,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3471,7 +3471,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas A&M Aggies | +8.5 (-110) | BetMGM | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | +8.5 (-110) | DraftKings | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | LSU Tigers | -8.5 (-108) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -3532,7 +3532,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3609,7 +3609,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3686,7 +3686,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3763,7 +3763,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3840,7 +3840,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3857,7 +3857,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UConn Huskies | +3.5 (-109) | BetRivers | 58.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Miami (OH) RedHawks | -3.5 (-108) | BetMGM | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Miami (OH) RedHawks | -3.5 (-105) | BetMGM | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -3917,7 +3917,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3994,7 +3994,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4010,14 +4010,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UNLV Rebels | -13.5 (-110) | BetMGM | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Akron Zips | +13.5 (-105) | FanDuel | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UNLV Rebels | -13.5 (-112) | BetMGM | 53.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Akron Zips | +13.5 (-105) | BetMGM | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The UNLV Rebels visit the Akron Zips at InfoCision Stadium. We make **UNLV -16**, compared with a market line of -13.5.
 
-The best number we found is UNLV -13.5 at -110. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UNLV -13.5 at -112. We see a 0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4071,7 +4071,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4148,7 +4148,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4164,14 +4164,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Vanderbilt Commodores | +9.5 (-108) | BetMGM | 56.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Auburn Tigers | -9.5 (-110) | BetMGM | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Vanderbilt Commodores | +9.5 (-105) | BetMGM | 56.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Auburn Tigers | -9.5 (-110) | DraftKings | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Vanderbilt Commodores visit the Auburn Tigers at Jordan-Hare Stadium. We make **Vanderbilt +7.5**, compared with a market line of +9.5.
 
-The best number we found is Vanderbilt +9.5 at -108. We give Vanderbilt a 56.1% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
+The best number we found is Vanderbilt +9.5 at -105. We give Vanderbilt a 56.1% chance to cover, which creates an 4.9% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4225,7 +4225,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4242,13 +4242,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Virginia Tech Hokies | -14.5 (+100) | FanDuel | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boston College Eagles | +14.0 (-109) | BetRivers | 57.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Boston College Eagles | +14.0 (-110) | BetMGM | 57.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Virginia Tech Hokies visit the Boston College Eagles at Alumni Stadium (Chestnut Hill, MA). We make **Boston College +10.5**, compared with a market line of +14.
 
-The best number we found is Boston College +14.0 at -109. We give Boston College a 57.2% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Boston College is a bet.
+The best number we found is Boston College +14.0 at -110. We give Boston College a 57.2% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Boston College is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4302,7 +4302,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4318,14 +4318,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wake Forest Demon Deacons | +13.5 (-112) | FanDuel | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Louisville Cardinals | -13.5 (-105) | DraftKings | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wake Forest Demon Deacons | +13.5 (-110) | Fanatics | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisville Cardinals | -13.5 (-105) | DraftKings | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wake Forest Demon Deacons visit the Louisville Cardinals at L&N Federal Credit Union Stadium. We make **Wake Forest +13.5**, compared with a market line of +13.
+The Wake Forest Demon Deacons visit the Louisville Cardinals at L&N Federal Credit Union Stadium. We make **Wake Forest +14**, compared with a market line of +13.5.
 
-The best number we found is Wake Forest +13.5 at -112. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wake Forest +13.5 at -110. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4379,7 +4379,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4395,14 +4395,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wisconsin Badgers | +9.5 (-105) | FanDuel | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Penn State Nittany Lions | -9.5 (-115) | FanDuel | 55.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wisconsin Badgers | +9.5 (-102) | FanDuel | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Penn State Nittany Lions | -10.0 (-108) | BetMGM | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Wisconsin Badgers visit the Penn State Nittany Lions at Beaver Stadium. We make **Penn State -13**, compared with a market line of -10.
 
-The best number we found is Penn State -9.5 at -115. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Penn State -10.0 at -108. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4456,7 +4456,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

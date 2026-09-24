@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Middle Tennessee Blue Raiders visit the Jacksonville State Gamecocks at AmFirst Stadium. We make **Jacksonville Stat -9**, compared with a market line of -7.5.
+The Middle Tennessee Blue Raiders visit the Jacksonville State Gamecocks at AmFirst Stadium. We make **Jacksonville Stat -9**, compared with a market line of -7.
 
 The best number we found is Jacksonville Stat -7.5 at -104. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
