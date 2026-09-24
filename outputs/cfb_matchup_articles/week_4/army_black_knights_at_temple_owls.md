@@ -15,9 +15,7 @@ The Army Black Knights visit the Temple Owls at Lincoln Financial Field. We make
 
 The best number we found is Temple +3.5 at -120. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not reacting to either team’s latest loss. Temple rushed for 270 yards at Toledo and held a two-touchdown lead late, while Army carried a double-digit fourth-quarter lead against South Florida. The useful takeaway is that Temple has produced at least 186 rushing yards in every game, giving it a credible way to sustain possessions and keep this competitive. The concern is that Army has allowed only 98.5 rushing yards per game, so Temple’s clearest offensive strength runs into meaningful resistance.
-
-Where this gets interesting is on the other side. Our matchup data gives Army an advantage both on the ground and through the air against Temple’s defense. Army is averaging 394 rushing yards per game and has already generated 25 runs of at least 10 yards, while Temple has allowed opponents to convert more than half of their third downs. Cale Hellums also completed 9 of 10 passes against South Florida, so Temple cannot focus exclusively on the run. Our numbers still make the teams closer than the market does, but Army’s favorable offensive matchup and the cost attached to the available number leave us without enough value to move beyond a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -67,13 +65,9 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-For us, the matchup to watch is Army’s offense against Temple on early downs. Hellums, Godspower Nwawuihe and Zach Mundell give Army multiple rushing threats, and the offense has avoided an interception through two games while allowing very little backfield disruption. If Temple cannot force longer-yardage situations, Army can control possession and limit the number of chances Temple gets to exploit its own rushing game. That is the clearest challenge to our more favorable view of Temple.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

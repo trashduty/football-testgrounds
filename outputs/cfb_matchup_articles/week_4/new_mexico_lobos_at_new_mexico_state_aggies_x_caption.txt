@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on New Mexico-New Mexico State.
 
-We make New Mexico State +11. The market is +11.5.
+We make New Mexico State +10.5. The market is +11.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

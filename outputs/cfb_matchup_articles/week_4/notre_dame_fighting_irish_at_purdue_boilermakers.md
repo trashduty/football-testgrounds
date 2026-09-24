@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Notre Dame Fighting Irish | -27.5 (-112) | BetMGM | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Notre Dame Fighting Irish | -27.5 (-112) | BetRivers | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Purdue Boilermakers | +27.5 (-102) | DraftKings | 52.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -15,9 +15,7 @@ The Notre Dame Fighting Irish visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +27.5 at -102. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for Purdue staying closer than the market expects starts with its ability to generate enough offense. Ryan Browne has 15 career starts for Purdue, and he opened the season by completing 23 of 29 passes for 317 yards, three touchdowns and no interceptions. We are not treating one game against Indiana State as proof, but that experience and efficiency matter when the market is asking Purdue to absorb such a wide talent gap.
-
-The concern is that our matchup numbers strongly favor Notre Dame on the other side of the ball, particularly in rushing efficiency and scoring-opportunity creation. Purdue limited Indiana State to 66 rushing yards, but that result does not erase the longer-run defensive indicators. There is also meaningful uncertainty around a roster that had 16 players make their first Purdue starts in the opener. Our model sees enough offensive competence to create a modest disagreement with the market, but the defensive matchup keeps that difference from becoming actionable at the current price.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -67,15 +65,9 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching Notre Dame's rushing offense against Purdue's run defense. Our efficiency numbers place those units near opposite ends of the national picture, and that matters because consistent rushing success would give Notre Dame repeated chances to create separation.
-
-Purdue's opener offered some encouragement, with only 66 rushing yards allowed, but we need to view that performance in context rather than assume it carries over against Notre Dame. If Purdue's front performs better than our longer-run numbers suggest, the case for a competitive margin becomes much stronger. If not, the market's more aggressive expectation will be easier to justify.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,18 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Longhorns | -5.0 (-110) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Tennessee Volunteers | +5.5 (-110) | DraftKings | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Longhorns | -4.5 (-105) | Fanatics | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tennessee Volunteers | +5.0 (-110) | BetRivers | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Longhorns visit the Tennessee Volunteers at Neyland Stadium. We make **Tennessee +5.5**, compared with a market line of +5.5.
+The Texas Longhorns visit the Tennessee Volunteers at Neyland Stadium. We make **Tennessee +5**, compared with a market line of +4.5.
 
-The best number we found is Tennessee +5.5 at -110. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Tennessee +5.0 at -110. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We do not see a meaningful model-market disagreement here. Our numbers favor Tennessee largely because its offense has two plausible paths to efficiency: a strong rushing profile against a more ordinary Texas run defense, and a passing game that grades better than the opposing pass defense. Texas has the clearer concern on the ground in our data, which could make sustaining drives more difficult if the passing game is not consistently productive.
-
-We are not dismissing what Texas showed in its opener. Arch Manning completed 20 of 27 passes for 305 yards and four touchdowns, while the offense produced 516 total yards. Texas also returns four offensive-line starters, so there is enough experience and passing-game upside to challenge our matchup lean. Add in a defense that forced at least one turnover in 36 of its previous 37 games, and we do not see enough separation from the market to justify the current price.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -67,13 +65,9 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-For us, the matchup to watch is Tennessee's rushing offense against Texas' run defense. Our efficiency numbers point to the Tennessee ground game as the clearest potential source of separation. The challenge is that Texas has consistently created extra possessions, including an SEC-leading 21 takeaways in 2025, so Tennessee's rushing advantage matters most if it can produce efficient drives without giving those possessions back.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Ole Miss Rebels | +3.5 (-115) | Fanatics | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Florida Gators | -3.5 (-102) | FanDuel | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Gators | -3.5 (+100) | DraftKings | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,9 +15,7 @@ The Ole Miss Rebels visit the Florida Gators at Ben Hill Griffin Stadium. We mak
 
 The best number we found is Ole Miss +3.5 at -115. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
-What stands out to us is that Ole Miss owns the clearest matchup advantages, particularly in creating scoring opportunities and running efficiently against Florida. The early offensive returns provide some context: Trinidad Chambliss opened the season with 561 passing yards, five touchdowns and one interception through two games, while Kewan Lacy added 148 rushing yards and three scores. We also see an offense operating at one of the nation’s fastest early-season tempos under new coordinator John David Baker, giving Ole Miss multiple ways to pressure Florida’s weaker defensive areas.
-
-The other side matters just as much. Our numbers rate Ole Miss considerably better at preventing scoring opportunities than Florida is at creating them, which limits the strongest argument for the home side. Even so, our overall expectation essentially agrees with what the market is already charging. The matchup points toward Ole Miss, but that view is fully reflected in the available price, leaving us without enough value to move beyond a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -67,13 +65,9 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-For us, the matchup to watch is Ole Miss’ scoring-opportunity creation against Florida’s ability to keep drives from reaching dangerous territory. Chambliss’ early efficiency and Lacy’s production suggest Ole Miss can attack through either phase, while the fast pace can generate additional possessions. The question is not whether Ole Miss has the advantage here; our numbers say it does. The question is whether that advantage exceeds what the market has already priced, and we do not see sufficient separation.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

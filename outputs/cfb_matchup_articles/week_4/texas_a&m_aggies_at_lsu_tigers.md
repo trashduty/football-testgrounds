@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas A&M Aggies | +8.5 (-110) | BetMGM | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| LSU Tigers | -8.5 (-108) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | +8.5 (-110) | BetRivers | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| LSU Tigers | -8.5 (-108) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,7 +15,7 @@ The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas
 
 The best number we found is Texas A&M +8.5 at -110. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our slight disagreement with the market starts with how LSU’s early offensive production translates against Texas A&M. LSU averaged 586 yards across 89 plays per game through its first two contests, but our opponent-adjusted numbers are much less impressed with its passing efficiency and ability to create scoring opportunities. That matters against a Texas A&M defense that grades particularly well at preventing opponents from reaching scoring position. LSU also committed five turnovers, including four interceptions, so the early yardage did not always become clean offensive value.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -65,13 +65,9 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-For us, the matchup to watch is LSU’s passing game against Texas A&M’s pass defense. Sam Leavitt produced 574 passing yards and five rushing touchdowns through two games, but he also threw four interceptions. Texas A&M’s coverage profile represents a meaningful step up in our numbers, and LSU may need Leavitt to create without giving away possessions.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

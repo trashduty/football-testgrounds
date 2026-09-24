@@ -1,6 +1,6 @@
 Our model is 1 points away from the market on Kansas State-Cincinnati.
 
-We make Cincinnati +5.5. The market is +6.5.
+We make Cincinnati +5. The market is +6.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
