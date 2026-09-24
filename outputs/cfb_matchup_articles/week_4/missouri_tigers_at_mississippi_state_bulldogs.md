@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Missouri Tigers | +5.5 (-104) | FanDuel | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Mississippi State Bulldogs | -6.5 (-105) | Fanatics | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Missouri Tigers | +6.5 (-112) | DraftKings | 52.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Mississippi State Bulldogs | -6.5 (-105) | FanDuel | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Missouri Tigers visit the Mississippi State Bulldogs at Davis Wade Stadium. We make **Missouri +6**, compared with a market line of +6.5.
 
-The best number we found is Missouri +5.5 at -104. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Missouri +6.5 at -112. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

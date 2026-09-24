@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T01:18:14.383239+00:00",
+  "generated_at_utc": "2026-09-24T02:46:38.892879+00:00",
   "season": 2026,
   "week": 4,
   "articles": [
@@ -231,7 +231,7 @@
       "market_line": 3.5,
       "best_line": 3.5,
       "best_price": "-112",
-      "best_book": "BetMGM",
+      "best_book": "BetRivers",
       "cover_probability": 0.57757252,
       "edge": 0.0492706332075472,
       "has_bet": true,
@@ -1304,11 +1304,11 @@
       "opp_short": "Mississippi State",
       "model_prediction": 6.0,
       "market_line": 6.5,
-      "best_line": 5.5,
-      "best_price": "-104",
-      "best_book": "FanDuel",
-      "cover_probability": 0.50505162,
-      "edge": -0.0047523015686273,
+      "best_line": 6.5,
+      "best_price": "-112",
+      "best_book": "DraftKings",
+      "cover_probability": 0.5213544,
+      "edge": -0.0069474867924528,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1331,7 +1331,7 @@
         "x_caption": "missouri_tigers_at_mississippi_state_bulldogs_x_caption.txt",
         "seo_file": "missouri_tigers_at_mississippi_state_bulldogs_seo.txt",
         "seo_title": "Missouri vs Mississippi State Prediction, Model Spread & Analysis",
-        "seo_description": "Our model makes Missouri +6 vs a market line of +6.5. See the best available spread, 50.5% cover probability, matchup stats, and our full Missouri-Mississippi State analysis."
+        "seo_description": "Our model makes Missouri +6 vs a market line of +6.5. See the best available spread, 52.1% cover probability, matchup stats, and our full Missouri-Mississippi State analysis."
       },
       "html_path": "missouri_tigers_at_mississippi_state_bulldogs.html",
       "source_audit_path": "missouri_tigers_at_mississippi_state_bulldogs.sources.json"
@@ -2332,7 +2332,7 @@
       "market_line": 8.5,
       "best_line": 8.5,
       "best_price": "-110",
-      "best_book": "BetRivers",
+      "best_book": "BetMGM",
       "cover_probability": 0.52252021,
       "edge": -0.0012893138095237,
       "has_bet": false,
@@ -2640,11 +2640,11 @@
       "opp_short": "UMass",
       "model_prediction": 4.0,
       "market_line": 4.0,
-      "best_line": 5.0,
-      "best_price": "-112",
-      "best_book": "BetRivers",
+      "best_line": 4.5,
+      "best_price": "-115",
+      "best_book": "FanDuel",
       "cover_probability": 0.5268861,
-      "edge": -0.0014157867924528,
+      "edge": -0.0079976209302324,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -2895,13 +2895,13 @@
       "bet_short": "Wake Forest",
       "opp_name": "Louisville Cardinals",
       "opp_short": "Louisville",
-      "model_prediction": 14.0,
-      "market_line": 13.5,
+      "model_prediction": 13.5,
+      "market_line": 13.0,
       "best_line": 13.5,
-      "best_price": "-110",
-      "best_book": "Fanatics",
-      "cover_probability": 0.51041423,
-      "edge": -0.0133952938095238,
+      "best_price": "-112",
+      "best_book": "FanDuel",
+      "cover_probability": 0.51925972,
+      "edge": -0.0090421667924528,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -2924,7 +2924,7 @@
         "x_caption": "wake_forest_demon_deacons_at_louisville_cardinals_x_caption.txt",
         "seo_file": "wake_forest_demon_deacons_at_louisville_cardinals_seo.txt",
         "seo_title": "Wake Forest vs Louisville Prediction, Model Spread & Analysis",
-        "seo_description": "Our model makes Wake Forest +14 vs a market line of +13.5. See the best available spread, 51.0% cover probability, matchup stats, and our full Wake Forest-Louisville analysis."
+        "seo_description": "Our model makes Wake Forest +13.5 vs a market line of +13. See the best available spread, 51.9% cover probability, matchup stats, and our full Wake Forest-Louisville analysis."
       },
       "html_path": "wake_forest_demon_deacons_at_louisville_cardinals.html",
       "source_audit_path": "wake_forest_demon_deacons_at_louisville_cardinals.sources.json"
