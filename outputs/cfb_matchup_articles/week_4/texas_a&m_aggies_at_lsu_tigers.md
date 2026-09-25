@@ -15,7 +15,7 @@ The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas
 
 The best number we found is Texas A&M +9.5 at -104. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+We understand why the market is giving LSU substantial respect. Through two games, LSU averaged 48 points and 586 yards while running 89 offensive snaps per game. Still, we are not treating that early production as proof that the same efficiency carries into this matchup. Our numbers identify Texas A&M’s ability to prevent scoring opportunities as a significant step up from what LSU has faced so far.
 
 ### What The Numbers Say
 
@@ -64,6 +64,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+For us, LSU’s passing game against the Texas A&M pass defense is the matchup to watch. Sam Leavitt has produced 574 passing yards and added 135 yards on the ground through two games, but he has also thrown four interceptions. Our matchup data is considerably more skeptical of LSU’s passing efficiency than the early yardage totals might suggest.
+
+We also see Trey'Dez Green as an important piece of that test. Eight of his 10 receptions have generated a first down or touchdown, giving LSU a useful option for sustaining drives. If Texas A&M can limit those productive completions and force LSU to repeatedly finish longer possessions, the case for the underdog becomes more credible. The disagreement is interesting, but it remains too small for us to justify a wager at the available price.
 
 ## Best Bets Of The Week
 

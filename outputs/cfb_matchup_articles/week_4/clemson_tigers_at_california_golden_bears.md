@@ -7,15 +7,19 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Clemson Tigers | -1.5 (-105) | DraftKings | 47.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| California Golden Bears | +1.0 (-108) | BetMGM | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| California Golden Bears | +1.5 (-115) | DraftKings | 52.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Clemson Tigers visit the California Golden Bears at California Memorial Stadium. We make **California 0**, compared with a market line of +1.
 
-The best number we found is California +1.0 at -108. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is California +1.5 at -115. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+Our view of a nearly balanced game starts with skepticism about carrying California’s latest offensive performance forward. California produced 626 yards against Wagner, including a career-high 413 passing yards from Jaron-Keawe Sagapolutele. That shows the passing ceiling, but our longer-run numbers are less impressed by California’s ability to create scoring opportunities and run efficiently. Clemson’s stronger scoring-opportunity prevention is an important counterweight.
+
+The other side keeps us from leaning strongly toward Clemson. Our numbers favor California’s pass defense in this matchup, and the early results support that concern: California ranks first in the ACC in pass-defense efficiency, while Kingston Lopa has intercepted five passes in three games. Clemson did produce season highs in total, passing and rushing yards against North Carolina, but we are not treating one improved offensive performance as proof that those gains will carry over.
+
+For us, the disagreement with the market is real but not meaningful enough at the available price. California’s pass defense gives it a credible path, while Clemson’s ability to limit scoring opportunities directly challenges the weakest part of California’s offensive profile. Those competing matchup advantages leave us without enough value to get involved.
 
 ### What The Numbers Say
 
@@ -64,6 +68,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching Clemson’s passing game against California’s secondary. True freshman Tait Reynolds completed 20 of 29 passes for 215 yards, one touchdown and one interception in his first career start, but California presents a more demanding efficiency profile against the pass.
+
+Lopa’s five interceptions stand out, although we would not assume that takeaway pace continues. The more useful question is whether California can discourage efficient throws and force Clemson to rely on sustained drives. If it can, that supports our close-game view; if Clemson carries forward its improved offensive balance, California’s defensive advantage becomes less decisive.
 
 ## Best Bets Of The Week
 

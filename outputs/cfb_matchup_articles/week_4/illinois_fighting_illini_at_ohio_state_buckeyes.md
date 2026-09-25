@@ -15,7 +15,9 @@ The Illinois Fighting Illini visit the Ohio State Buckeyes at Ohio Stadium. We m
 
 The best number we found is Illinois +27.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+For us, the case for Ohio State creating separation starts with its passing game. Our numbers rate that offense among the nation’s best in pass EPA, while Illinois sits well below average against the pass. We also see continuity behind that advantage: Julian Sayin returned after completing 77 percent of his passes in 2025, and Ohio State brought back eight offensive starters along with 85.8 percent of its offensive-line snaps.
+
+The problem for Illinois extends beyond defending the pass. Our numbers also show a major Ohio State advantage when Illinois runs the ball and when it tries to create scoring opportunities. Still, we are not treating last season’s dominant Ohio State defense as fully interchangeable with this group after eight defensive starters departed. The current matchup indicators remain strongly favorable to Ohio State, but our disagreement with the market is too modest to create enough value at the available price. That is why this remains a pass for us.
 
 ### What The Numbers Say
 
@@ -64,6 +66,10 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching Ohio State’s passing offense against the Illinois secondary. Sayin’s accuracy and Jeremiah Smith’s production give Ohio State a direct way to attack the weakest part of the Illinois profile; Smith entered the season with 171 career receptions, 2,709 yards and 29 touchdowns. If Illinois cannot limit efficient completions and prevent Smith from generating chunk gains, we think Ohio State has a clear path to the kind of margin the market is asking it to produce.
 
 ## Best Bets Of The Week
 

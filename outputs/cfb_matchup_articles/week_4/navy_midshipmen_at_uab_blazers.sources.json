@@ -2,7 +2,7 @@
   "game": "Navy Midshipmen@UAB Blazers",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T03:57:35.428886+00:00",
+  "generated_at_utc": "2026-09-25T04:21:39.171221+00:00",
   "model_prediction": 2.5,
   "market_line": 6.5,
   "best_line": 6.5,
@@ -12,18 +12,805 @@
   "edge": 0.0618675607692307,
   "bet_short": "UAB",
   "guide_enrichment": {
-    "enabled": false,
-    "narrative": "",
-    "matchup_to_watch": "",
+    "enabled": true,
+    "narrative": "For us, the case is not that UAB has a clean answer for Navy\u2019s ground game. Navy is averaging 376 rushing yards and 6.9 yards per carry, and it has turned all five red-zone possessions into touchdowns. Our model is instead resisting a market price that appears to treat that advantage as sufficient for Navy to create substantial separation.\n\nThe more interesting counterweight is UAB\u2019s path on offense. Navy has allowed only 40.5 rushing yards per game, so UAB may not get its usual production from a ground game averaging 178 yards. But Navy\u2019s opponents have completed 41 of 52 passes for 593 yards and seven touchdowns without an interception, including 386 yards and five scores by Florida Atlantic. We see a credible passing route for UAB to stay competitive, although its three touchdowns in eight red-zone trips remain a meaningful concern.",
+    "matchup_to_watch": "We are watching Navy\u2019s rushing offense against UAB\u2019s front because it is the clearest threat to our position. Our efficiency numbers show a major advantage for Navy, and the quarterback situation does not eliminate that concern. Braxton Woodson left the Florida Atlantic game with a lower-body injury, with his availability against UAB unstated, but Jackson Gutierrez replaced him and produced 75 rushing yards, 100 passing yards and three total touchdowns.\n\nUAB does not have to erase Navy\u2019s rushing attack for our view to hold. We need to see enough resistance to prevent Navy from controlling and finishing possessions consistently, giving UAB\u2019s passing game opportunities to keep the margin compressed.",
     "guide_status": [
       "Found guide for Navy Midshipmen: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Navy.pdf",
-      "Guide processing failed for Navy Midshipmen: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "Loaded guide for Navy Midshipmen: Navy.pdf",
       "Found guide for UAB Blazers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UAB.pdf",
-      "Guide processing failed for UAB Blazers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Loaded guide for UAB Blazers: UAB.pdf"
     ],
-    "guide_extractions": [],
-    "matchup_angles": [],
-    "used_sources": [],
-    "model_context": {}
+    "guide_extractions": [
+      {
+        "source_team": "Navy Midshipmen",
+        "opponent": "UAB Blazers",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The document is Navy's game notes for the Sept. 25, 2026 road game against UAB at Protective Stadium and identifies UAB as Navy's upcoming opponent.",
+        "recent_game": [
+          {
+            "fact": "Navy lost 38-30 at Florida Atlantic on Sept. 12, falling to 1-1 overall and 0-1 in the American Conference.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy trailed Florida Atlantic 38-7 before scoring 23 consecutive points over the final 16 minutes.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy quarterback Braxton Woodson rushed 12 times for 96 yards and one touchdown against Florida Atlantic before leaving on the first drive of the third quarter with a lower-body injury.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson Gutierrez replaced the injured Woodson against Florida Atlantic and rushed seven times for 75 yards and a touchdown while completing 6 of 12 passes for 100 yards and two touchdowns.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB entered the Navy game 1-2 after losing 21-14 to Louisiana on Sept. 19.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "The Sept. 25 game at Protective Stadium is UAB's 2026 American Conference opener; Navy enters 0-1 in conference play.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy is playing the second game of a three-game road stretch that includes Florida Atlantic, UAB and Air Force.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Starting right guard Hoke Smith II is from Birmingham, Alabama, where the UAB game will be played.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Braxton Woodson has averaged 148.0 rushing yards per game and 8.46 yards per carry through two games, with four rushing touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Woodson rushed for a career-high 200 yards and three touchdowns on 23 carries in the season-opening 42-15 win over Towson.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jackson Gutierrez is playing both quarterback and running back in 2026.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Gutierrez has produced three rushing touchdowns and two passing touchdowns through Navy's first two games.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Six players on Navy's depth chart arrived as quarterbacks and now play another position or split time between quarterback and another position.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Cam Nichols, listed as a center, started each of Navy's first two games at guard so the team could put its preferred five offensive linemen on the field.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sophomore Malcolm Johnson started each of Navy's first two 2026 games at offensive tackle after making seven starts there as a freshman in 2025.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tre Jones III, Isaiah Bryant and Christian Cromer made their first career starts on offense against Towson.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Charles Robinson, Michael Barrow and Vic Listorti made their first career starts against Florida Atlantic.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Luke Hutchison had one reception for 27 yards against Florida Atlantic after receiving no touches against Towson.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Vic Listorti rushed for 81 yards and his first career touchdown against Towson, then carried four times for 35 yards and lost a fumble against Florida Atlantic.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive end Aiden Lyczek has eight tackles, three tackles for loss and two sacks through two games after missing most of 2025 with a lower-body injury.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker MarcAnthony Parker has 18 tackles, two tackles for loss and one sack through Navy's first two games.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Coleman Cauley recorded eight tackles against Florida Atlantic after making five against Towson.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aiden Lyczek, Xavyer Arrington, Aaron Rose and Trent Gillis made their first career starts on defense against Towson.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Phillip Hamilton did not play against Towson because of a coaches' decision, then recorded four tackles and a half tackle for loss against Florida Atlantic.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "UAB head coach Alex Mortensen is in his first year after serving as interim head coach in 2025; his record entering the Navy game is 3-6.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Braxton Woodson left the Florida Atlantic game with a lower-body injury on the first drive of the third quarter; the notes do not state his availability against UAB.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Ira Oniha was banged up entering the Florida Atlantic game and played only the first defensive series; the notes do not state his availability against UAB.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiden Lyczek has returned to a starting role in 2026 after missing most of 2025 with a lower-body injury and returning for the final three games of that season.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Navy ranks second nationally in rushing offense through two games at 376.0 yards per game.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy is averaging 6.90 yards per rushing attempt, sixth nationally.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy rushed 73 times for 506 yards in its 42-15 season-opening win over Towson.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy has scored touchdowns on all five of its red-zone possessions in 2026.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy has averaged approximately 33 minutes of possession per game through its first two contests.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Navy ranks second nationally in rushing defense, allowing 40.5 rushing yards per game through two games.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy has not forced a turnover through its first two games, its first such start to a season since 1987.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy's defense held Towson to 39 rushing yards on 20 attempts while facing only 39 total plays.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Punter Jacob Carlson averaged 45.0 yards on four punts against Florida Atlantic with a long of 52 yards.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Long snapper Rayne Fry is in his fourth season as Navy's starter after earning 2025 American Conference Deep Snapper of the Year honors.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Navy leads the all-time series against UAB 3-0 entering the fourth meeting.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy defeated UAB 38-24 in Annapolis in 2025 after the game was tied 24-24 at halftime; Navy outscored UAB 14-0 in the second half.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In the 2025 win over UAB, Alex Tecza rushed for 111 yards and a touchdown, while Blake Horvath passed for 168 yards and a touchdown and rushed for 72 yards and two touchdowns; neither is on Navy's 2026 roster.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy also defeated UAB 31-6 in 2023 and 41-18 in 2024.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "low"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Navy entered the UAB game 1-1 overall, while UAB entered 1-2.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy ranks 134th among 138 FBS teams in returning career snaps entering the 2026 season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy has used 11 first-time starters through its first two games of 2026.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Navy.pdf"
+      },
+      {
+        "source_team": "UAB Blazers",
+        "opponent": "Navy Midshipmen",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The guide is titled \"Game Four vs. Navy\" and identifies UAB's Week 4 home game against Navy on September 25, 2026.",
+        "recent_game": [
+          {
+            "fact": "UAB lost 21-14 at Louisiana on September 19, falling to 1-2.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB rallied from two scores behind and had an opportunity for a game-tying drive in the fourth quarter against Louisiana.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB held Louisiana scoreless over its final six possessions and throughout the second half, allowing 108 second-half yards and one conversion on six third downs.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Mims had four receptions for 57 yards and three punt returns for 52 yards at Louisiana, including a 42-yard return.",
+            "page": 21,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Navy enters the matchup 1-1 overall and 0-1 in the American Conference after a bye week.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy defeated Towson 42-15 before losing 38-30 at Florida Atlantic in its conference opener.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy trailed Florida Atlantic 38-7 late in the third quarter before scoring the final 23 points of the game.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy has outrushed Towson and Florida Atlantic by a combined 752-81 and is averaging 376.0 rushing yards and 6.9 yards per carry.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy has three players above 100 rushing yards: Braxton Woodson with 296, Vic Listorti with 116 and Jackson Gutierrez with 106.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy has allowed only 40.5 rushing yards per game and 1.3 yards per carry, with no rushing touchdowns surrendered through two games.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy's opponents have completed 41 of 52 passes for 593 yards and seven touchdowns without an interception.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida Atlantic passed for 386 yards and five touchdowns against Navy.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy has outscored its first two opponents 23-0 in the fourth quarter.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Ryder Burton is listed as UAB's starting quarterback on the projected depth chart, ahead of Nathan Rogers, Adrian Posse and Cameron Jennings.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Burton has started all three UAB games in 2026 and has thrown for 478 yards and two touchdowns.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy quarterback Braxton Woodson has rushed 35 times for 296 yards and four touchdowns, averaging 8.5 yards per carry and 148.0 yards per game.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Woodson enters the UAB game with 1,056 career rushing yards and 14 rushing touchdowns in 26 games.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "UAB's projected offensive line is Keyon Cox at left tackle, Donovan Lawrence at left guard, Adam Lepkowski at center, Calib Perez at right guard and Barrett Maddox or Kyrik Mason at right tackle.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB returned only two offensive starters from 2025.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Rod Robinson II, Bam McReynolds and Ja'Vin Simpkins are all listed as possible starters at running back.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Rod Robinson II leads UAB with 225 rushing yards on 48 carries and has produced at least 70 scrimmage yards in each game.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "EJ Reid leads UAB with 12 receptions and has nine catches for 93 yards and a touchdown since entering the starting lineup against ULM.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ty Mims leads UAB with 120 receiving yards on nine receptions.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Muaaz Byard leads UAB with 30 tackles and has recorded double-digit tackles in consecutive games.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Ike Esonwune has 26 tackles, UAB's only interception, one pass breakup and two quarterback hurries.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tylin Jackson leads UAB with 3.5 tackles for loss and two sacks.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jo'Tavion Pierce has started the last two games and has 20 tackles, 1.5 tackles for loss, one pass breakup and one forced fumble.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Chris Burge returned a fumble 13 yards for a touchdown at Louisiana after making his season debut against ULM.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Alex Mortensen was named UAB head coach on December 5, 2025 after serving as offensive coordinator and coaching the final six games of 2025 as interim head coach.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mortensen remains UAB's offensive coordinator in addition to serving as head coach.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Todd Grantham is in his first season as UAB's defensive coordinator.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Danny Mitchell is in his first season as quarterbacks coach, while Lionel Stokes, Nigel Madison and Ryan McNamara are first-year assistants coaching cornerbacks, inside linebackers and safeties, respectively.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "UAB is averaging 178.0 rushing yards per game and has topped 190 rushing yards twice in three games.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The matchup pairs UAB's 178.0 rushing yards per game against a Navy defense allowing 40.5 rushing yards per game.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB has converted 22 of 46 third downs, a 47.8 percent rate.",
+            "page": 18,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB has scored on seven of eight red-zone possessions, but only three have ended in touchdowns for a 37.5 percent red-zone touchdown rate.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB has allowed 22 tackles for loss and seven sacks through three games.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB averages 32:31 in time of possession and has run 205 offensive plays compared with 178 by its opponents.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "UAB ranks sixth nationally and first in the American Conference in passing defense at 116.0 yards allowed per game.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB has allowed only 166 passing yards and no passing touchdowns over its last two games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB allows 308.0 total yards per game, ranking second in the American Conference.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB's tackles for loss have increased from two against Illinois to five against ULM and seven at Louisiana, with four sacks over the last two games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB has outscored opponents 33-24 after halftime but has been outscored 28-3 in the first quarter and 59-30 in the first half.",
+            "page": 18,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Jonah Delange is 7-for-7 on field goals and 6-for-6 on PATs in 2026, accounting for a team-high 27 points.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Mims averages 15.2 yards on six punt returns and had a season-long 42-yard return at Louisiana.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia transfer Oliver Straw made his UAB debut at Louisiana and punted five times for 185 yards with a long of 52.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB has produced touchbacks on nine of 16 kickoffs, and opponents have returned only five kickoffs.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Navy leads the all-time series 3-0, including a 1-0 record in Birmingham.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy won the first three meetings 31-6 in 2023, 41-18 in 2024 and 38-24 in 2025.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "This is the third consecutive season UAB has opened conference play against Navy; Navy won the previous two conference openers.",
+            "page": 5,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The game is UAB's 2026 American Conference opener, while Navy is already 0-1 in conference play.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB is attempting to end a four-game losing streak in conference openers.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB is 9-8 in home conference openers compared with 1-7 in road conference openers.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "UAB.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Navy rushing offense vs UAB rush defense",
+        "off_team": "Navy",
+        "def_team": "UAB",
+        "off_rank": 8,
+        "def_rank": 115,
+        "stat": "rush EPA",
+        "rank_gap": 107,
+        "direction": "offense_advantage",
+        "matchup_score": 207
+      },
+      {
+        "dimension": "Navy scoring-opportunity creation vs UAB scoring-opportunity prevention",
+        "off_team": "Navy",
+        "def_team": "UAB",
+        "off_rank": 47,
+        "def_rank": 137,
+        "stat": "Eckel rate",
+        "rank_gap": 90,
+        "direction": "mixed",
+        "matchup_score": 90
+      },
+      {
+        "dimension": "UAB scoring-opportunity creation vs Navy scoring-opportunity prevention",
+        "off_team": "UAB",
+        "def_team": "Navy",
+        "off_rank": 97,
+        "def_rank": 122,
+        "stat": "Eckel rate",
+        "rank_gap": 25,
+        "direction": "mixed",
+        "matchup_score": 25
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Jackson Gutierrez replaced the injured Woodson against Florida Atlantic and rushed seven times for 75 yards and a touchdown while completing 6 of 12 passes for 100 yards and two touchdowns.",
+        "page": 5,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Braxton Woodson left the Florida Atlantic game with a lower-body injury on the first drive of the third quarter; the notes do not state his availability against UAB.",
+        "page": 5,
+        "category": "injury_availability",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Navy ranks second nationally in rushing offense through two games at 376.0 yards per game.",
+        "page": 4,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Navy is averaging 6.90 yards per rushing attempt, sixth nationally.",
+        "page": 4,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Navy has scored touchdowns on all five of its red-zone possessions in 2026.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 55,
+        "fact": "Navy has allowed only 40.5 rushing yards per game and 1.3 yards per carry, with no rushing touchdowns surrendered through two games.",
+        "page": 4,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 56,
+        "fact": "Navy's opponents have completed 41 of 52 passes for 593 yards and seven touchdowns without an interception.",
+        "page": 4,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 57,
+        "fact": "Florida Atlantic passed for 386 yards and five touchdowns against Navy.",
+        "page": 4,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 78,
+        "fact": "UAB is averaging 178.0 rushing yards per game and has topped 190 rushing yards twice in three games.",
+        "page": 19,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 81,
+        "fact": "UAB has scored on seven of eight red-zone possessions, but only three have ended in touchdowns for a 37.5 percent red-zone touchdown rate.",
+        "page": 19,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "UAB Blazers",
+      "model_side": "UAB",
+      "opponent_full": "Navy Midshipmen",
+      "opponent": "Navy",
+      "model_prediction": 2.5,
+      "market_line": 6.5,
+      "best_available_line": 6.5,
+      "best_available_price": "-108",
+      "cover_probability": 0.58109833,
+      "edge": 0.0618675607692307,
+      "bet_status": "BET"
+    }
   }
 }

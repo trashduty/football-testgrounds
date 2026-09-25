@@ -15,7 +15,9 @@ The Missouri Tigers visit the Mississippi State Bulldogs at Davis Wade Stadium. 
 
 The best number we found is Missouri +6.5 at -114. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+Our model and the market are telling essentially the same story, with Missouri’s defense providing the strongest football case for the favorite. Our numbers favor that unit in both scoring-opportunity prevention and pass defense. Missouri allowed 277.3 yards and 18.9 points per game last season, but we also have to account for substantial turnover: only two defensive starters returned, although transfers Robert Woodyard Jr. and Chris Graves Jr. arrived with SEC starting experience.
+
+The other question for us is how much confidence to place in Missouri’s offense. Austin Simmons completed 17 of 19 passes with four touchdowns in his debut, but we are not treating one game against Arkansas-Pine Bluff as proof that the passing game has answered every question. Missouri has a new offensive coordinator, and two members of the listed offensive line entered the season in new starting roles. With our numbers less enthusiastic about Missouri’s passing matchup, the available price does not create enough separation from our baseline expectation. That leaves us with a pass.
 
 ### What The Numbers Say
 
@@ -64,6 +66,10 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching Mississippi State’s offense against Missouri’s ability to prevent scoring opportunities. Our matchup numbers suggest Mississippi State could have difficulty generating enough productive possessions, especially through the air. The personnel turnover on Missouri’s defense keeps that from being automatic, but if the rebuilt unit performs near the standard reflected in our longer-run numbers, Mississippi State’s path to staying competitive becomes narrower.
 
 ## Best Bets Of The Week
 

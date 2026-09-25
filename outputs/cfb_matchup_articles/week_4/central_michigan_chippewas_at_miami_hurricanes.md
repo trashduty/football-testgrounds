@@ -15,7 +15,11 @@ The Central Michigan Chippewas visit the Miami Hurricanes at Hard Rock Stadium. 
 
 The best number we found is Central Michigan +41.5 at -105. We give Central Michigan a 58.0% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+We are not reacting against Miami simply because its latest result was extreme. Miami set program records with 856 total yards and 42 first downs against Florida A&M, while tying its scoring record with 77 points. That performance helps explain the market’s confidence, but our view is that one dominant result should not automatically be carried forward into the level of separation now required. For us, the case for Central Michigan is less about questioning which team is stronger and more about whether Miami’s recent ceiling is being priced too aggressively.
+
+We also see more underlying transition than the early results suggest. Four of Miami’s five offensive-line starters from 2025 departed for the NFL, while both starting edge defenders became first-round draft selections. Those losses do not erase what Miami has done, but they add uncertainty when the market is demanding an unusually wide margin.
+
+The meaningful concern for us is Central Michigan’s ability to create scoring opportunities. Our matchup numbers favor Miami heavily in that area, and Miami’s opponents have averaged only 3.6 yards per play while converting 21 percent of their third downs through two games. We still support Central Michigan at the available price, but its offense must avoid extended stretches of empty possessions to keep Miami from creating the separation the market expects.
 
 ### What The Numbers Say
 
@@ -64,6 +68,10 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching Central Michigan’s offense against Miami’s scoring-opportunity prevention. Miami has already shown it can end drives quickly, holding Florida A&M’s offense to 107 total yards, four first downs and one third-down conversion in 14 attempts. Central Michigan does not need to match Miami’s offensive output for our position to work, but we think a few sustained drives could materially change the margin by limiting short fields and reducing Miami’s total possessions.
 
 ## Best Bets Of The Week
 

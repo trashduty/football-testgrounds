@@ -15,7 +15,11 @@ The UCLA Bruins visit the Maryland Terrapins at SECU Stadium. We make **Maryland
 
 The best number we found is Maryland +1.5 at -106. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+Our modest preference for Maryland starts with an offense that has shown credible early balance. Malik Washington has completed 53 of 72 passes for 533 yards without an interception, while Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both topped 100 receiving yards at UConn. We are not treating two games as proof, but that production gives us more confidence that Maryland can sustain offense through the air rather than depend on short fields or turnovers.
+
+We also see support on the other side of the ball. Maryland allowed 154 total yards and seven points per game through its first two contests while recording 10 sacks. That pressure is relevant against a UCLA passing offense our numbers rate poorly, but the matchup is not uniformly favorable for Maryland.
+
+For us, that last point is why this remains a pass. Our longer-run numbers see UCLA's rushing offense as a legitimate challenge for Maryland's defense, creating enough uncertainty to offset the encouraging early results. We differ slightly from the market, but not by enough to make the available price worthwhile.
 
 ### What The Numbers Say
 
@@ -64,6 +68,10 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching UCLA's rushing offense against Maryland's rush defense. Maryland allowed only 38.5 rushing yards per game through two games, but our broader efficiency numbers are much less flattering to that unit and considerably more favorable to UCLA on the ground. The question is whether Maryland's early run prevention reflects something sustainable or whether UCLA can keep its offense out of the difficult passing situations in which Maryland's pass rush becomes most influential.
 
 ## Best Bets Of The Week
 

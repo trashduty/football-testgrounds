@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ole Miss Rebels | +3.5 (-115) | DraftKings | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ole Miss Rebels | +3.5 (-115) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Florida Gators | -3.5 (-102) | FanDuel | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -15,7 +15,7 @@ The Ole Miss Rebels visit the Florida Gators at Ben Hill Griffin Stadium. We mak
 
 The best number we found is Ole Miss +3.5 at -115. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+Our numbers see a clear route for Ole Miss to create scoring opportunities, particularly through a rushing attack that matches up well with Florida’s front. Trinidad Chambliss has also produced seven passing touchdowns through three games, while Ole Miss has allowed only three sacks. That matters against a Florida defense with 11 sacks, including seven in its most recent game, although we are not treating one pressure-heavy afternoon as proof that it can consistently disrupt this offense.
 
 ### What The Numbers Say
 
@@ -64,6 +64,10 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+For us, the matchup to watch is Ole Miss’ rushing offense against Florida’s defensive front. Our longer-run metrics favor Ole Miss here, and Kewan Lacy’s 224-yard performance against Florida last season shows the personnel has produced in this matchup before, though one previous result is not predictive by itself. If Ole Miss stays efficient on the ground and avoids obvious passing situations, we think it can reach the scoring areas our model expects; if Florida’s pressure takes over, that advantage narrows quickly.
 
 ## Best Bets Of The Week
 

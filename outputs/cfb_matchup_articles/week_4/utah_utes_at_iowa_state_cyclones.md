@@ -15,7 +15,9 @@ The Utah Utes visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iow
 
 The best number we found is Iowa State +7.5 at -105. We give Iowa State a 60.5% chance to cover, which creates an 9.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+We understand why the market is charging a premium for Utah. The Utes have won each of their first three games by at least 23 points, average 47.3 points per game and have yet to play on the road. We are not treating those early margins as proof that the same separation carries into Ames.
+
+For us, the case centers on Iowa State having a credible rushing path that can keep the game competitive and limit how often Utah’s offense dictates terms. The concern is Utah’s passing game: Devon Dampier has completed 53 of 74 passes for 690 yards, seven touchdowns and one interception, and our efficiency numbers identify that matchup as Utah’s clearest advantage. Even with that risk, we think Iowa State’s ground game gives the home side enough offensive stability to support our position.
 
 ### What The Numbers Say
 
@@ -64,6 +66,10 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are watching Iowa State’s rushing offense against Utah’s run defense. The early surface numbers favor Utah, which is allowing only 75 rushing yards per game, but our efficiency ratings see considerably more vulnerability there. Iowa State is averaging 203.7 rushing yards per game, while Aiden Flora leads the Big 12 with 109.3 per game and 8.6 per carry. The 365-yard performance against Bowling Green is context rather than a forecast, but it reinforces why we see the ground game as the most plausible source of market disagreement.
 
 ## Best Bets Of The Week
 

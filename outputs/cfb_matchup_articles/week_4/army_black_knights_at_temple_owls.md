@@ -15,7 +15,11 @@ The Army Black Knights visit the Temple Owls at Lincoln Financial Field. We make
 
 The best number we found is Temple +3.5 at -120. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+For us, the case is not that Temple is the better team. The market is asking Army to create more separation than our baseline expects, and Temple’s offense gives us some reason to resist that assumption. We have seen Temple rush for at least 186 yards in each of its first three games, although Army’s defense has allowed fewer than 100 rushing yards per game. That strength-on-strength matchup gives Temple a plausible way to sustain possessions rather than simply asking its passing game to carry the offense.
+
+The concern is much clearer on the other side. Our efficiency profile favors Army both on the ground and through the air against this Temple defense. Army is averaging 394 rushing yards per game, while Temple has allowed opponents to convert more than half of their third downs. Cale Hellums also gives Army another dimension, with 150 passing yards, 142 rushing yards and four total touchdowns through two games.
+
+That is why our disagreement with the market remains modest. We can make a case for Temple staying competitive, but Army has multiple ways to control possessions and finish drives. The available price does not leave enough margin for us to act.
 
 ### What The Numbers Say
 
@@ -64,6 +68,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are focused on Army’s rushing offense against Temple’s front. Temple has allowed only 117.3 rushing yards per game, but Army has already generated 25 runs of at least 10 yards. The question for us is whether Temple’s early run-defense results hold up against an offense that can repeatedly create explosive gains without relying on conventional passing volume.
+
+If Temple limits those chunk runs and forces Army into longer conversion situations, our expectation of a tighter game becomes easier to support. If Army stays ahead of schedule, Temple’s third-down defense becomes an even larger concern.
 
 ## Best Bets Of The Week
 

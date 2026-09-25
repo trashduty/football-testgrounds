@@ -15,7 +15,9 @@ The Texas Longhorns visit the Tennessee Volunteers at Neyland Stadium. We make *
 
 The best number we found is Tennessee +4.5 at -105. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+Our numbers are slightly more favorable to Tennessee than the market, largely because we see multiple ways for its offense to stay efficient. The ground game is the clearest foundation: Tennessee is averaging 298.7 rushing yards per game, while DeSean Bishop and Daune Morris have given the backfield two productive options. That matters because it can keep true freshman quarterback Faizon Brandon out of obvious passing situations against a Texas defense with a disruptive edge presence in Colin Simmons.
+
+The tension is that Texas has the personnel to challenge that approach. Simmons has recorded a sack in seven of his past eight games, while Brandon has yet to throw an interception in 64 attempts. We also have to account for Texas playing its first road game of the season and making its first trip to Neyland Stadium. Those factors help explain our modest lean toward Tennessee, but the difference from the market is too small for us to treat the available price as meaningful value.
 
 ### What The Numbers Say
 
@@ -64,6 +66,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+For us, the matchup to watch is Tennessee's rushing offense against the Texas front. Our numbers identify that as Tennessee's most convincing offensive advantage, and Bishop already has 286 rushing yards with 175 coming after contact. If Tennessee can remain efficient on early downs, it can reduce the burden on Brandon and limit the opportunities for Simmons to affect the game in clear passing situations.
+
+Texas does not need to eliminate the run entirely. The more important question is whether it can prevent Tennessee from consistently creating manageable third downs, especially with Tennessee converting 56.3 percent of those opportunities through three games. That battle will do the most to determine whether our slight disagreement with the market proves meaningful.
 
 ## Best Bets Of The Week
 

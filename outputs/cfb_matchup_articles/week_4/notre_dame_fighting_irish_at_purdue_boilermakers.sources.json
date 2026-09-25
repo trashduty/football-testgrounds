@@ -2,7 +2,7 @@
   "game": "Notre Dame Fighting Irish@Purdue Boilermakers",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T03:57:49.441291+00:00",
+  "generated_at_utc": "2026-09-25T04:22:46.738123+00:00",
   "model_prediction": 26.0,
   "market_line": 27.5,
   "best_line": 27.5,
@@ -12,17 +12,372 @@
   "edge": 0.023911014950495,
   "bet_short": "Purdue",
   "guide_enrichment": {
-    "enabled": false,
-    "narrative": "",
-    "matchup_to_watch": "",
+    "enabled": true,
+    "narrative": "Our model is more willing than the market to keep Purdue competitive, and the case starts with offensive competence rather than treating these teams as equals. Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions in the opener, while Purdue generated 523 total yards without a turnover. We are not treating one result as proof, but efficient quarterback play and ball security give a large underdog a better chance to sustain drives and avoid handing Notre Dame extra possessions.\n\nThe concern is Purdue\u2019s defense. Notre Dame owns major efficiency advantages on the ground, through the air and in creating scoring opportunities. Purdue held Indiana State to 66 rushing yards, but 16 players made their first Purdue starts and 38 made their Purdue debuts, so we need more evidence before concluding that the defense has materially changed. We see enough offensive upside to understand our model\u2019s Purdue lean, but the defensive mismatch keeps the disagreement modest and leaves us without enough value at the current price.",
+    "matchup_to_watch": "We are focused on Notre Dame\u2019s rushing offense against Purdue\u2019s front. Our longer-run numbers identify this as the clearest path for Notre Dame to create frequent scoring opportunities and control the game without relying on difficult passing situations.\n\nPurdue\u2019s opening run-defense performance was encouraging, but we are not carrying that result forward without context. The question for us is whether a heavily reworked defense can reproduce that resistance against an offense our numbers rate among the nation\u2019s most efficient on the ground. That matchup is the biggest obstacle to Purdue staying competitive enough for our slight model disagreement to matter.",
     "guide_status": [
       "No guide found for Notre Dame Fighting Irish. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Notre Dame.pdf",
       "Found guide for Purdue Boilermakers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Purdue.pdf",
-      "Guide processing failed for Purdue Boilermakers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide for Purdue Boilermakers was found but may not match the current opponent. The document is Purdue's 2026 Game 2 notes for the Sept. 12 matchup against Wake Forest, not the Week 4 game against Notre Dame scheduled for Sept. 26. Current Purdue personnel and performance information is still extracted."
     ],
-    "guide_extractions": [],
-    "matchup_angles": [],
-    "used_sources": [],
-    "model_context": {}
+    "guide_extractions": [
+      {
+        "source_team": "Purdue Boilermakers",
+        "opponent": "Notre Dame Fighting Irish",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Purdue's 2026 Game 2 notes for the Sept. 12 matchup against Wake Forest, not the Week 4 game against Notre Dame scheduled for Sept. 26. Current Purdue personnel and performance information is still extracted.",
+        "recent_game": [
+          {
+            "fact": "Purdue opened the 2026 season with a 44-19 home victory over Indiana State and produced 523 yards of total offense.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue had no turnovers, won the turnover battle and held Indiana State to 284 total yards, including 66 rushing yards.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Sixteen players made their first Purdue starts and 38 players made their Purdue debuts against Indiana State.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Purdue is scheduled to host Notre Dame on Sept. 26, 2026, in West Lafayette for the Shillelagh Trophy.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions against Indiana State.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Browne has 15 career starts at Purdue and four career 300-yard passing games.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Browne started all 12 games in 2025, throwing for 2,153 yards and nine touchdowns.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Evans Chuba and Bennett Meredith competed for the backup quarterback role; Meredith started at Northwestern in 2023 but had not played during the previous two seasons.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "True freshman Brock Brownfield became Purdue's first true freshman offensive lineman to start a season opener since freshmen became eligible in 1972.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue's season-opening offensive line starters included transfers Boaz Stanley, Micah Banuelos and Nuku Mafi, true freshman Brock Brownfield and returning lineman Jude McCoskey.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Stanley entered 2026 with 21 career starts at South Carolina and Troy, Mafi with 12 starts at Oklahoma State and Banuelos with five starts at USC.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota transfer Fame Ijeboi led Purdue against Indiana State with 87 rushing yards and one touchdown on 11 carries and added two receptions for 30 yards.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "FAU transfer Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue's running back room lost Devin Mockobee to graduation; Antonio Harris is the only returning running back after rushing for 305 yards and two touchdowns in 2025.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer receiver Xavier Townsend had seven catches for 47 yards and three punt returns for 24 yards in his Purdue debut.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "FIU transfer Mister Clark recorded five solo tackles, two tackles for loss, one sack and one pass breakup against Indiana State.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer defensive back Don Saunders returned an interception 35 yards for a touchdown against Indiana State, Purdue's first pick-six since 2022.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Charles Correa returned after starting all 12 games in 2025 and recording 96 tackles, 7.5 tackles for loss and three sacks.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue added defensive linemen Rodney Lora, Curt Neal and Wisdom Simms through the transfer portal; the trio brought 81 combined college appearances, including 60 at the Power Four level.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer linebackers Jojo Hayden and Anthony Speca made their Purdue debuts against Indiana State; Hayden recorded four tackles and one tackle for loss, while Speca made two tackles.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kevin Kane returned to Purdue as defensive coordinator and linebackers coach after serving as a Minnesota defensive analyst in 2025; he previously coordinated Purdue's defense in 2023 and 2024.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Zach Crabtree became Purdue's offensive line coach after spending 2025 at Fresno State and previously working with offensive coordinator Josh Henson at USC.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornell Ford moved from coaching Purdue's wide receivers to serving as assistant head coach and running backs coach in 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bilal Marshall was promoted from offensive analyst to wide receivers coach during the 2026 offseason.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Tight end Kylan Fox suffered an injury at the start of training camp and is expected to miss the 2026 season.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end George Burhenn returned against Indiana State for his first game action in 349 days and caught two passes for 43 yards.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned after missing the 2025 season because of injuries.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Magwood caught a six-yard touchdown against Indiana State, his first touchdown reception since 2022.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Purdue's 523 total yards against Indiana State marked its first 500-yard offensive game since Oct. 12, 2024, at Illinois.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Five different Boilermakers scored touchdowns against Indiana State, and each touchdown was that player's first for Purdue.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Purdue added 32 transfers and 22 freshmen for 2026, including 19 transfers from Power Four programs.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Purdue recorded eight tackles for loss, three sacks and one interception against Indiana State.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana State gained 284 total yards and 12 first downs against Purdue.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra-point attempts against Indiana State, scoring 14 points.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Echeverria Lozano's three field goals came from 39, 27 and 25 yards and were the most in a game by a Purdue freshman since at least 1995.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo transfer Dylan Drennan punted once for 54 yards with a 49-yard net against Indiana State.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Notre Dame leads the Purdue series 61-26-2 and has won 10 consecutive meetings.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue lost 56-30 to Notre Dame in 2025, Barry Odom's only prior game against the Fighting Irish as Purdue's head coach.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Barry Odom is in his second season as Purdue's head coach after the Boilermakers went 2-10 overall and 0-9 in Big Ten play in 2025.",
+            "page": 10,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Quarterback Ryan Browne, linebacker Charles Correa, defensive back Hudauri Hines, offensive lineman Jude McCoskey, wide receiver De'Nylon Morrissette and defensive lineman Curt Neal were named Purdue's 2026 team captains.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Purdue.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Notre Dame rushing offense vs Purdue rush defense",
+        "off_team": "Notre Dame",
+        "def_team": "Purdue",
+        "off_rank": 2,
+        "def_rank": 134,
+        "stat": "rush EPA",
+        "rank_gap": 132,
+        "direction": "offense_advantage",
+        "matchup_score": 232
+      },
+      {
+        "dimension": "Notre Dame scoring-opportunity creation vs Purdue scoring-opportunity prevention",
+        "off_team": "Notre Dame",
+        "def_team": "Purdue",
+        "off_rank": 3,
+        "def_rank": 134,
+        "stat": "Eckel rate",
+        "rank_gap": 131,
+        "direction": "offense_advantage",
+        "matchup_score": 231
+      },
+      {
+        "dimension": "Notre Dame passing offense vs Purdue pass defense",
+        "off_team": "Notre Dame",
+        "def_team": "Purdue",
+        "off_rank": 9,
+        "def_rank": 117,
+        "stat": "pass EPA",
+        "rank_gap": 108,
+        "direction": "offense_advantage",
+        "matchup_score": 208
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Purdue opened the 2026 season with a 44-19 home victory over Indiana State and produced 523 yards of total offense.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      },
+      {
+        "fact_id": 2,
+        "fact": "Purdue had no turnovers, won the turnover battle and held Indiana State to 284 total yards, including 66 rushing yards.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Sixteen players made their first Purdue starts and 38 players made their Purdue debuts against Indiana State.",
+        "page": 2,
+        "category": "recent_game",
+        "importance": "medium",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      },
+      {
+        "fact_id": 4,
+        "fact": "Starting quarterback Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions against Indiana State.",
+        "page": 12,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Purdue Boilermakers",
+      "model_side": "Purdue",
+      "opponent_full": "Notre Dame Fighting Irish",
+      "opponent": "Notre Dame",
+      "model_prediction": 26.0,
+      "market_line": 27.5,
+      "best_available_line": 27.5,
+      "best_available_price": "-102",
+      "cover_probability": 0.52886151,
+      "edge": 0.023911014950495,
+      "bet_status": "PASS"
+    }
   }
 }

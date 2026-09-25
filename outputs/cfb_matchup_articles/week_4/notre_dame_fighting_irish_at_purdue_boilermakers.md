@@ -15,7 +15,9 @@ The Notre Dame Fighting Irish visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +27.5 at -102. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+Our model is more willing than the market to keep Purdue competitive, and the case starts with offensive competence rather than treating these teams as equals. Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions in the opener, while Purdue generated 523 total yards without a turnover. We are not treating one result as proof, but efficient quarterback play and ball security give a large underdog a better chance to sustain drives and avoid handing Notre Dame extra possessions.
+
+The concern is Purdue’s defense. Notre Dame owns major efficiency advantages on the ground, through the air and in creating scoring opportunities. Purdue held Indiana State to 66 rushing yards, but 16 players made their first Purdue starts and 38 made their Purdue debuts, so we need more evidence before concluding that the defense has materially changed. We see enough offensive upside to understand our model’s Purdue lean, but the defensive mismatch keeps the disagreement modest and leaves us without enough value at the current price.
 
 ### What The Numbers Say
 
@@ -64,6 +66,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are focused on Notre Dame’s rushing offense against Purdue’s front. Our longer-run numbers identify this as the clearest path for Notre Dame to create frequent scoring opportunities and control the game without relying on difficult passing situations.
+
+Purdue’s opening run-defense performance was encouraging, but we are not carrying that result forward without context. The question for us is whether a heavily reworked defense can reproduce that resistance against an offense our numbers rate among the nation’s most efficient on the ground. That matchup is the biggest obstacle to Purdue staying competitive enough for our slight model disagreement to matter.
 
 ## Best Bets Of The Week
 
