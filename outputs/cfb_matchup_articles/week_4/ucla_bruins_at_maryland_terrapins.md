@@ -15,11 +15,9 @@ The UCLA Bruins visit the Maryland Terrapins at SECU Stadium. We make **Maryland
 
 The best number we found is Maryland +1.5 at -106. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are modestly more favorable to Maryland than the market, and the offensive stability helps explain why. Malik Washington completed 34 of 41 passes for 347 yards and two touchdowns against UConn, while Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both topped 100 receiving yards. We are not treating one performance as proof, but Washington's efficiency and Maryland's turnover-free start give the offense a credible floor.
+We understand why the market gives Maryland a slight preference. Malik Washington has completed 53 of 72 passes for 533 yards without an interception through two games, and Maryland has yet to commit a turnover. We view that early efficiency as encouraging context, but not proof that it will carry forward unchanged against UCLA.
 
-The defensive picture is less straightforward. Maryland recorded 10 sacks through two games, but our matchup data identifies UCLA's rushing offense as the more credible challenge and grades Maryland's run defense less favorably than its early raw results suggest. UCLA's passing efficiency has been the weaker part of its offense, so Maryland's ability to pressure the passer matters most if it can first limit the run.
-
-That tension is why this remains a pass for us. We can explain why our model leans a little more toward Maryland, but the disagreement is too small to create meaningful value at the available price.
+Our model is more restrained because the matchup is mixed. UCLA’s rushing efficiency grades much better than its passing efficiency, creating a path to challenge the weaker part of Maryland’s defensive profile. Maryland has allowed only 38.5 rushing yards per game and recorded 10 sacks through two games, but we are not treating that short opening sample as its established level. With the ground matchup offering UCLA some resistance to the market’s view and the passing matchup favoring Maryland, we do not see enough value at the current price.
 
 ### What The Numbers Say
 
@@ -71,13 +69,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching UCLA's rushing offense against Maryland's run defense. Maryland allowed only 38.5 rushing yards per game through its first two contests, but our longer-run efficiency numbers are more skeptical of that unit. The question is whether the early results reflect sustainable run prevention or a small-sample start that overstates Maryland's advantage.
+For us, the matchup to watch is UCLA’s rushing offense against Maryland’s front. Our numbers see the ground game as UCLA’s most credible way to stay efficient and avoid leaning on a passing attack that has graded poorly.
 
-If UCLA can stay efficient on the ground, it can avoid leaning on the weaker part of its offense and reduce Maryland's pass-rush opportunities. If Maryland controls early downs, the matchup shifts toward a defense that has already shown it can generate pressure.
+If Maryland consistently forces UCLA into passing situations, its early pass-rush production becomes more relevant. If UCLA can remain productive on the ground, however, it can limit those opportunities and keep the game closer to our expectation.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

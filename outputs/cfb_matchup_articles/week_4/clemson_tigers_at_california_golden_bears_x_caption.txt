@@ -1,6 +1,6 @@
 Our model is 1 points away from the market on Clemson-California.
 
-We make California 0. The market is +1.
+We make California +0.5. The market is +1.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,20 +6,20 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Navy Midshipmen | -6.5 (-110) | BetMGM | 41.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UAB Blazers | +6.5 (-108) | BetMGM | 58.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Navy Midshipmen | -6.5 (-108) | BetMGM | 41.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UAB Blazers | +6.5 (-110) | BetMGM | 58.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Navy Midshipmen visit the UAB Blazers at Protective Stadium. We make **UAB +2.5**, compared with a market line of +6.5.
 
-The best number we found is UAB +6.5 at -108. We give UAB a 58.1% chance to cover, which creates an 6.2% edge for us. That clears our 3% threshold, so UAB is a bet.
+The best number we found is UAB +6.5 at -110. We give UAB a 58.1% chance to cover, which creates an 5.7% edge for us. That clears our 3% threshold, so UAB is a bet.
 
-For us, the case is less about claiming UAB is the better team and more about questioning how much separation Navy should create on the road. Navy’s opponents have completed 41 of 52 passes for 593 yards and seven touchdowns without an interception, including 386 yards and five scores by Florida Atlantic. Ryder Burton has started all three games for UAB, and the offense has converted 47.8 percent of its third downs. We see a credible path for UAB to sustain drives against the weaker area of Navy’s defense.
+For us, the case is less about arguing that UAB is the better team and more about questioning how much separation Navy should create. Navy’s opponents have completed 41 of 52 passes for 593 yards and seven touchdowns without an interception. Ryder Burton has started all three games for UAB and thrown for 478 yards, so we see a plausible route for UAB to sustain offense through the air against the weaker part of Navy’s defense.
 
-The biggest concern for us is the ground-game mismatch. Navy is averaging 376 rushing yards per game, while UAB is allowing 192. Braxton Woodson’s availability was not stated after he left the Florida Atlantic game, but Jackson Gutierrez produced 75 rushing yards and three total touchdowns in relief. Navy’s rushing structure remains dangerous regardless of who takes the snaps.
+The obvious concern is Navy’s rushing attack. Navy is averaging 376 rushing yards and 6.9 yards per carry, and our matchup numbers view that ground game as a major problem for UAB. Braxton Woodson’s availability is not stated after he left the Florida Atlantic game with a lower-body injury, but Jackson Gutierrez produced 75 rushing yards, 100 passing yards and three total touchdowns after replacing him. We cannot treat the quarterback uncertainty as if it removes Navy’s offensive threat.
 
-That concern is reflected in our view, but it does not erase UAB’s ability to stay competitive through its passing game and special teams. Jonah Delange is perfect on field goals and extra points this season, which matters in a game where finishing drives could decide whether Navy creates the margin the market expects. Our numbers point to a tighter game, and the available cushion is enough for us to back UAB.
+What keeps us on UAB is that the market appears to be pricing a cleaner Navy performance than we expect. UAB held Louisiana scoreless over its final six possessions, and its offense has converted 47.8 percent of its third downs. The concern is finishing drives, as only three of UAB’s eight red-zone possessions have produced touchdowns. Still, we think the combination of home scoring opportunities and Navy’s vulnerable pass defense gives UAB enough paths to keep this closer than the market expects.
 
 ### What The Numbers Say
 
@@ -71,13 +71,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching UAB’s early-down run defense against Navy’s rushing offense. Navy has paired its production on the ground with touchdowns on all five red-zone possessions, so UAB cannot afford to let efficient rushing drives turn into automatic finishes.
-
-If UAB can force Navy into longer passing situations, the game becomes much more favorable for our position. If Navy consistently stays ahead of schedule, it can control possession and limit the opportunities Burton has to attack its pass defense. That battle will do the most to determine whether Navy separates or UAB keeps the game inside the market’s expectation.
+We are watching Navy’s rushing offense against UAB’s defensive front. Navy’s early production is supported by both the traditional numbers and our efficiency metrics, so UAB does not need to erase the ground game entirely; it needs to limit explosive gains and make Navy sustain longer drives. If Navy continues running at its current efficiency, our position on UAB will be under significant pressure. If UAB can create even a few stalled possessions, Navy’s pass-defense issues give the home offense a realistic chance to keep pace.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

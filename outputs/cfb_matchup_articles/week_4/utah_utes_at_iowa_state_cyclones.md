@@ -15,11 +15,11 @@ The Utah Utes visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iow
 
 The best number we found is Iowa State +7.5 at -105. We give Iowa State a 60.5% chance to cover, which creates an 9.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
-We understand why the market is high on Utah. The offense is averaging 518.0 yards and 47.3 points per game, while the defense has allowed only 24 total points. We are not dismissing that start, but we are less willing to treat three games as the Utes’ permanent level—especially with Utah making its first road trip of the season against an Iowa State defense allowing 226.3 yards per game. Our view is that the market is asking Utah to reproduce its early dominance in a meaningfully different setting.
+The market is asking Iowa State to be overmatched by a Utah team that has started 3-0 while averaging 47.3 points per game. Devon Dampier has been highly efficient, and this will be Utah’s first road game of the season. We are not dismissing that start. Our view is that Iowa State has a credible offensive path to keep this game competitive rather than being forced to trade downfield shots with Utah.
 
-For us, Iowa State’s clearest path is on the ground. Aiden Flora is averaging 8.6 yards per carry, and Iowa State has reached 100 rushing yards in 20 consecutive games. Utah has allowed only 75.0 rushing yards per game so far, but our rush-efficiency numbers are considerably less favorable toward that defense. That disagreement between the early raw results and our longer-run profile is a major reason we see Iowa State as more competitive than the market does.
+That path runs through the ground game. Iowa State is averaging 203.7 rushing yards per game, while Aiden Flora has produced 109.3 per game at 8.6 yards per carry. The same five offensive linemen have started all three games and have allowed only two sacks. Utah’s early rushing-yardage numbers look excellent, but our EPA matchup numbers are considerably less favorable toward its run defense. That difference matters because sustained rushing efficiency can shorten the game and keep Iowa State away from Utah’s stronger pass defense.
 
-The meaningful concern is Utah’s passing game. Devon Dampier has thrown for 690 yards with seven touchdowns and one interception, and his offensive line has allowed only two sacks. Our numbers also see Utah’s passing offense as the toughest matchup for Iowa State’s defense. Still, Iowa State does not need to control every phase to support our position; it needs its running game to sustain drives and its defense to prevent Utah’s passing advantage from turning into repeated explosive scores.
+The meaningful concern for us is Utah’s passing game. Dampier gives Utah an efficiency advantage against an Iowa State pass defense our numbers view less favorably than its early yardage totals. Still, Iowa State has limited opponents to four passing plays of at least 20 yards and a 27.9% third-down conversion rate. We think that combination gives Iowa State enough resistance to support our position, even if Utah remains the more dangerous offense.
 
 ### What The Numbers Say
 
@@ -71,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Utah’s passing offense against Iowa State’s pass defense, particularly on third down. Utah has converted 60.5 percent of its third downs, while Iowa State has allowed opponents to convert only 27.9 percent. The Cyclones have also surrendered just four passes of at least 20 yards through three games. If Iowa State can limit explosive completions and force Utah off the field often enough, we think the game is more likely to stay in the range our model expects.
+We will be watching Dampier against Iowa State’s new four-man defensive front. Utah replaced all five starting offensive linemen from last season, yet the current group has surrendered only two sacks through three games. If that protection continues, Dampier has the efficiency to create separation.
+
+For our side, Iowa State does not need to shut down Utah. We need the Cyclones to limit explosive passes and get off the field often enough to keep their rushing offense relevant. Their early performance in both areas makes that a reasonable expectation, but this is the matchup most capable of challenging it.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

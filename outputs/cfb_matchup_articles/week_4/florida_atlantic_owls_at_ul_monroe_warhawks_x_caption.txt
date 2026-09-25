@@ -1,6 +1,6 @@
 Our model is 1 points away from the market on Florida Atlantic-Louisiana Monroe.
 
-We make Louisiana Monroe +11.5. The market is +12.5.
+We make Louisiana Monroe +10.5. The market is +11.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

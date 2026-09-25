@@ -15,7 +15,7 @@ The Iowa Hawkeyes visit the Michigan Wolverines at Michigan Stadium. We make **I
 
 The best number we found is Iowa +5.5 at -110. We see a 1.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our disagreement with the market begins with Michigan’s offense against Iowa’s pass defense. Michigan has averaged 175.7 passing yards per game, while Iowa has allowed 110.7. Opponents have completed fewer than half their passes against Iowa, with one touchdown and three interceptions. Michigan has also lost four of its six fumbles, so we see legitimate ways for Iowa’s defense to prevent the game from getting away.
+We are not treating Iowa’s 55-0 win over Northern Iowa or its 640 yards of offense as proof that the production will carry into Ann Arbor. The useful takeaway is that Iowa has shown more offensive balance than the market may typically associate with this program. Hank Brown has completed 45 of 62 passes without an interception, while the offensive line has allowed only one sack through three games.
 
 ### What The Numbers Say
 
@@ -67,11 +67,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Bryce Underwood against Iowa’s pass defense. Underwood has thrown for 504 yards through three games, but he is also Michigan’s leading rusher with 156 yards. That mobility gives Michigan another way to create offense against a secondary that has allowed one passing touchdown, and how Iowa contains that dimension will go a long way toward determining whether Michigan can create separation.
+For us, the defining matchup is Bryce Underwood against Iowa’s pass defense. Underwood has thrown for 504 yards with three touchdowns and one interception, but our matchup numbers give Iowa a substantial efficiency advantage through the air. Iowa is allowing only 110.7 passing yards per game, so Michigan may need Underwood’s mobility—he also leads the team with 156 rushing yards—to keep drives alive.
+
+The concern is Michigan’s ability to pressure Brown and control scoring situations. Michigan has 10 sacks, has not allowed a rushing touchdown and has surrendered only one touchdown on six opponent red-zone trips. Iowa’s protection has held up so far, but this is a much stronger test, and the availability of running backs Kamari Moulton and L.J. Phillips Jr. remains unspecified after both missed the Northern Iowa game. We see why our numbers lean toward Iowa, but that uncertainty and Michigan’s defensive profile leave us without enough value at the current price.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

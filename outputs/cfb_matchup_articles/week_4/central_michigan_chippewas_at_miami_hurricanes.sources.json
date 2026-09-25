@@ -2,33 +2,33 @@
   "game": "Central Michigan Chippewas@Miami Hurricanes",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T13:31:32.085057+00:00",
+  "generated_at_utc": "2026-09-25T14:49:21.542508+00:00",
   "model_prediction": 37.0,
   "market_line": 41.5,
   "best_line": 41.5,
   "best_price": "-105",
-  "best_book": "BetMGM",
+  "best_book": "Fanatics",
   "cover_probability": 0.57959113,
   "edge": 0.0673960080487804,
   "bet_short": "Central Michigan",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We understand why the market has pushed Miami into this range. The Hurricanes produced a program-record 856 yards against Florida A&M, while Darian Mensah completed 41 of 45 passes with eight touchdowns and no interceptions through his first two starts. We are not dismissing that dominance; we are questioning how much of it should be carried forward into the expected margin here.\n\nFor us, the case for Central Michigan is less about matching Miami's explosiveness and more about the market demanding another nearly flawless performance. Miami replaced four of its five starting offensive linemen from 2025 and lost both starting edge defenders as first-round NFL Draft picks. That turnover does not automatically make Miami vulnerable, but it gives our longer-run numbers reason to stop short of pricing the Hurricanes quite as aggressively as the market has.",
-    "matchup_to_watch": "We are watching whether Central Michigan can create enough scoring opportunities against the strongest part of Miami's profile. Our matchup numbers give Miami a clear advantage in preventing productive possessions, and the Hurricanes allowed only 13 total points and 57.5 rushing yards per game through their first two contests.\n\nThat is the meaningful concern for our position. Central Michigan does not need to trade scores all afternoon, but it does need enough functional offense to avoid letting Miami control the game from start to finish. If Central Michigan can extend drives and turn a few possessions into points, the market's demand for a massive margin becomes harder to satisfy.",
+    "narrative": "Our case is less about questioning Miami\u2019s superiority and more about questioning how far the market has extended it. Miami\u2019s latest win featured a program-record 856 yards and an ACC-record 42 first downs, the kind of performance that can heavily influence perception. We are not treating that result as a reliable baseline for every possession going forward.",
+    "matchup_to_watch": "For us, the matchup to watch is Central Michigan\u2019s ability to create scoring opportunities against Miami\u2019s defense. Our numbers identify that as the clearest concern: Miami has allowed only 6.5 points per game, and opponents have converted just 21 percent of their third downs through two games. Central Michigan does not need to control this matchup, but it does need enough sustained drives to keep Miami from creating constant short fields and separation.\n\nThat challenge is why our position is not simply a reaction against Miami\u2019s recent blowouts. We recognize the defensive advantage, but we think the market is demanding too much dominance over a full game. The available cushion gives Central Michigan room to struggle offensively without requiring it to match Miami score for score.",
     "guide_status": [
       "No guide found for Central Michigan Chippewas. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Central Michigan.pdf",
       "Found guide for Miami Hurricanes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami.pdf",
-      "Guide for Miami Hurricanes was found but may not match the current opponent. The guide is labeled \"GAME 3: WAKE FOREST\" and is intended for Miami's Sept. 18, 2026 road game against Wake Forest. Central Michigan appears only as Miami's next scheduled opponent on Sept. 26."
+      "Guide for Miami Hurricanes was found but may not match the current opponent. The guide is explicitly labeled \"Game 3: Wake Forest\" and lists Miami's Sept. 18, 2026 road game at Wake Forest as the upcoming matchup. Central Michigan appears only as Miami's following game on Sept. 26."
     ],
     "guide_extractions": [
       {
         "source_team": "Miami Hurricanes",
         "opponent": "Central Michigan Chippewas",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is labeled \"GAME 3: WAKE FOREST\" and is intended for Miami's Sept. 18, 2026 road game against Wake Forest. Central Michigan appears only as Miami's next scheduled opponent on Sept. 26.",
+        "document_match_reason": "The guide is explicitly labeled \"Game 3: Wake Forest\" and lists Miami's Sept. 18, 2026 road game at Wake Forest as the upcoming matchup. Central Michigan appears only as Miami's following game on Sept. 26.",
         "recent_game": [
           {
-            "fact": "Miami defeated Florida A&M 77-7 on Sept. 10, 2026, improving to 2-0.",
+            "fact": "Miami improved to 2-0 with a 77-7 home win over Florida A&M on Sept. 10, 2026.",
             "page": 18,
             "category": "recent_game",
             "importance": "high"
@@ -40,7 +40,7 @@
             "importance": "high"
           },
           {
-            "fact": "Miami rushed for 430 yards, passed for 426 yards and averaged 11.7 yards per play against Florida A&M.",
+            "fact": "Against Florida A&M, Miami rushed for 430 yards, passed for 426 and averaged 11.7 yards per play.",
             "page": 18,
             "category": "recent_game",
             "importance": "high"
@@ -52,7 +52,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Miami limited Florida A&M to 107 total yards, four first downs and one third-down conversion in 14 attempts.",
+            "fact": "Miami held Florida A&M to four first downs, 107 total yards and a 1-for-14 third-down conversion rate.",
             "page": 18,
             "category": "recent_game",
             "importance": "high"
@@ -60,7 +60,7 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Miami's schedule lists Central Michigan at Miami on Sept. 26, 2026, with a 6:30 p.m. ET kickoff on The CW.",
+            "fact": "Miami's schedule lists a home game against Central Michigan on Sept. 26, 2026, at 6:30 p.m. ET on The CW.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
@@ -68,31 +68,31 @@
         ],
         "quarterback": [
           {
-            "fact": "Darian Mensah transferred to Miami from Duke in January 2026 after previously playing at Tulane.",
+            "fact": "Darian Mensah, a transfer from Duke who previously played at Tulane, has started Miami's first two games of 2026.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Through two Miami starts, Mensah completed 41 of 45 passes for 653 yards, eight touchdowns and no interceptions.",
+            "fact": "Mensah completed 14 of 15 passes for 252 yards, three touchdowns and no interceptions against Florida A&M.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games, Mensah has completed 41 of 45 passes for 653 yards, eight touchdowns and no interceptions.",
             "page": 18,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Mensah completed 14 of 15 passes for 252 yards and three touchdowns against Florida A&M.",
-            "page": 18,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Backup quarterback Luke Nickel completed all eight of his passes for 144 yards and three touchdowns against Florida A&M.",
+            "fact": "Backup Luke Nickel completed all eight of his passes for 144 yards and three touchdowns against Florida A&M.",
             "page": 5,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Mensah has thrown at least one touchdown pass in 20 consecutive games, which the guide identifies as the longest active FBS streak.",
+            "fact": "Mensah started 14 games for Duke in 2025 and completed 334 of 500 passes for 3,973 yards, 34 touchdowns and six interceptions.",
             "page": 5,
             "category": "quarterback",
             "importance": "medium"
@@ -100,127 +100,97 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Miami returned its top six rushers from 2025 and 97.9% of its rushing production.",
-            "page": 8,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Mark Fletcher Jr. rushed for 105 yards against Florida A&M and entered the next game with 2,458 career rushing yards, sixth in Miami history.",
-            "page": 8,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Freshman running back Javian Mallory rushed 10 times for 142 yards and two touchdowns against Florida A&M, including a 52-yard touchdown.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Malachi Toney followed his program-record 234-yard, three-touchdown receiving game at Stanford with four receptions for 96 yards and one touchdown against Florida A&M.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Wide receiver Cooper Barkate transferred from Duke after catching 72 passes for 1,106 yards and seven touchdowns in 2025; he previously played three seasons at Harvard.",
-            "page": 10,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Barkate and Mensah were teammates at Duke in 2025 before both transferred to Miami.",
-            "page": 10,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Miami started Samson Okunlola at left tackle, SJ Alofaituli at left guard, Ryan Rodriguez at center, Max Buchanan at right guard and Matthew McCoy at right tackle in each of its first two games.",
+            "fact": "Miami used the same offensive line in each of its first two games: Samson Okunlola at left tackle, SJ Alofaituli at left guard, Ryan Rodriguez at center, Max Buchanan at right guard and Matthew McCoy at right tackle.",
             "page": 16,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Four of Miami's five starting offensive linemen from 2025 departed for the NFL, including drafted tackles Francis Mauigoa and Markel Bell and guard Anez Cooper.",
+            "fact": "Four of Miami's five 2025 offensive-line starters departed for the NFL, including drafted tackles Francis Mauigoa and Markel Bell and guard Anez Cooper.",
             "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Cooper Barkate transferred to Miami after catching 72 passes for 1,106 yards and seven touchdowns at Duke in 2025, where he played with Mensah.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman running back Javian Mallory rushed 10 times for 142 yards and two touchdowns against Florida A&M, including a 52-yard touchdown run.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Mark Fletcher Jr. had 105 rushing yards against Florida A&M and increased his Miami career total to 2,458 yards.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Malachi Toney followed his 12-catch, 234-yard, three-touchdown opener at Stanford with four receptions for 96 yards and a touchdown against Florida A&M.",
+            "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Miami lost 2025 starting edge defenders Rueben Bain Jr. and Akheem Mesidor as first-round selections in the 2026 NFL Draft.",
+            "fact": "Miami lost 2025 edge starters Rueben Bain Jr. and Akheem Mesidor to the first round of the 2026 NFL Draft but returned interior defensive linemen Ahmad Moten Sr. and Justin Scott.",
             "page": 9,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Miami returned interior defensive line starters Ahmad Moten Sr. and Justin Scott from the 2025 national championship game.",
+            "fact": "Defensive end Damon Wilson II transferred from Missouri after starting all 13 games and recording nine sacks in 2025.",
             "page": 9,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Edge defender Damon Wilson II transferred from Missouri after starting all 13 games and recording nine sacks in 2025.",
-            "page": 9,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Defensive linemen Keona Davis and Jarquez Carter joined Miami after playing at Nebraska and Ohio State, respectively.",
-            "page": 9,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Linebacker Mohamed Toure started all 16 games in 2025 and led Miami with 84 tackles.",
+            "fact": "Linebacker Mohamed Toure started all 16 games for Miami in 2025 and led the defense with 84 tackles.",
             "page": 10,
             "category": "defensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           },
           {
             "fact": "Defensive back Bryce Fitzgerald recorded six interceptions in 2025, tying for second nationally and leading Miami and the ACC.",
             "page": 9,
             "category": "defensive_personnel",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Miami used different starters at one linebacker position, one cornerback position and one safety position between the Stanford and Florida A&M games.",
+            "fact": "Miami started Marquise Lightfoot, Ahmad Moten Sr., Justin Scott and Armondo Blount on the defensive line in each of its first two games.",
             "page": 16,
             "category": "defensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Corey Hetherman is Miami's defensive coordinator and linebackers coach; he joined Miami in January 2025 after serving as Minnesota's defensive coordinator in 2024.",
-            "page": 9,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Shannon Dawson is Miami's offensive coordinator and quarterbacks coach, while Alex Mirabal coaches the offensive line and coordinates the offensive run game.",
+            "fact": "Miami's 2026 coordinators are offensive coordinator and quarterbacks coach Shannon Dawson and defensive coordinator and linebackers coach Corey Hetherman; Jason Taylor is co-defensive coordinator and defensive line coach.",
             "page": 2,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Jason Taylor is Miami's co-defensive coordinator and defensive line coach.",
+            "fact": "Danny Kalter is Miami's special teams coordinator for 2026.",
             "page": 2,
             "category": "coaching_changes",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "injury_availability": [
           {
-            "fact": "Defensive tackle Ahmad Moten Sr. missed spring practice while recovering from an injury sustained in 2025.",
+            "fact": "Defensive tackle Ahmad Moten Sr. missed spring football while recovering from an injury sustained in 2025.",
             "page": 20,
             "category": "injury_availability",
             "importance": "medium"
           },
           {
-            "fact": "Moten started each of Miami's first two games of 2026 at defensive tackle.",
+            "fact": "Moten started both of Miami's first two games of the 2026 season at defensive tackle.",
             "page": 16,
             "category": "injury_availability",
             "importance": "high"
@@ -228,51 +198,51 @@
         ],
         "offensive_context": [
           {
-            "fact": "Through two games, Miami averaged 61.0 points, 275.5 rushing yards and 427.0 passing yards per game.",
+            "fact": "Through two games, Miami is averaging 61.0 points, 702.5 total yards, 427.0 passing yards and 275.5 rushing yards per game.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Miami averaged 10.0 yards per play and converted 64% of its third downs through two games.",
+            "fact": "Miami is averaging 10.0 yards per offensive play and converting 64 percent of its third downs through two games.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Miami scored touchdowns on eight of its 10 red-zone opportunities through two games.",
-            "page": 1,
+            "fact": "Miami returned 97.9 percent of its 2025 rushing production and its top six rushers from that season.",
+            "page": 8,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Miami scored at least 45 points in each of its first two games, defeating Stanford 45-6 and Florida A&M 77-7.",
-            "page": 7,
+            "fact": "Miami has scored at least 20 points in 20 consecutive games against conference opponents.",
+            "page": 6,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "low"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Miami allowed 13 total points and 57.5 rushing yards per game through its first two games.",
+            "fact": "Miami has allowed 6.5 points, 57.5 rushing yards and 145.5 passing yards per game through its first two contests.",
             "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Miami's defense did not allow an offensive touchdown against Florida A&M; the Rattlers' only score was a 72-yard fumble return.",
-            "page": 18,
+            "fact": "Opponents have converted 21 percent of their third downs against Miami through two games.",
+            "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "In 2025, Miami ranked 12th nationally and first in the ACC in total defense, fifth nationally and first in the ACC in scoring defense, and sixth nationally and first in the ACC in rushing defense.",
-            "page": 9,
+            "fact": "Miami recorded three sacks through its first two games while allowing no sacks.",
+            "page": 1,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Miami recorded 3.13 sacks per game and gained 25 turnovers in 2025.",
+            "fact": "In 2025, Miami ranked No. 1 in the ACC in total defense, scoring defense and rushing defense under Corey Hetherman.",
             "page": 9,
             "category": "defensive_context",
             "importance": "medium"
@@ -280,14 +250,8 @@
         ],
         "special_teams": [
           {
-            "fact": "Jake Weinberg handled Miami's primary placekicking duties in the opener and made a 46-yard field goal against Stanford.",
+            "fact": "Jake Weinberg made a 46-yard field goal and all six of his extra-point attempts in Miami's season-opening win at Stanford.",
             "page": 17,
-            "category": "special_teams",
-            "importance": "low"
-          },
-          {
-            "fact": "Miami used Jake Weinberg, Jack Olsen and William Rocha for successful extra points against Florida A&M.",
-            "page": 18,
             "category": "special_teams",
             "importance": "low"
           }
@@ -295,16 +259,22 @@
         "series_context": [],
         "other_relevant": [
           {
-            "fact": "Miami was 2-0 overall and 1-0 in ACC play entering its Sept. 18 game at Wake Forest.",
+            "fact": "Miami is 2-0 in 2026 after defeating Stanford 45-6 and Florida A&M 77-7.",
             "page": 1,
             "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Fourteen true freshmen made their Miami debuts in the season-opening 45-6 win at Stanford.",
+            "fact": "Fourteen true freshmen made their Miami debuts in the season-opening victory at Stanford.",
             "page": 7,
             "category": "other_relevant",
             "importance": "low"
+          },
+          {
+            "fact": "Miami has won 16 of its last 17 games against nonconference opponents.",
+            "page": 11,
+            "category": "other_relevant",
+            "importance": "medium"
           }
         ],
         "source_file": "Miami.pdf"
@@ -356,35 +326,17 @@
         "source_team": "Miami Hurricanes"
       },
       {
-        "fact_id": 7,
-        "fact": "Through two Miami starts, Mensah completed 41 of 45 passes for 653 yards, eight touchdowns and no interceptions.",
-        "page": 18,
-        "category": "quarterback",
+        "fact_id": 30,
+        "fact": "Miami has allowed 6.5 points, 57.5 rushing yards and 145.5 passing yards per game through its first two contests.",
+        "page": 1,
+        "category": "defensive_context",
         "importance": "high",
         "source_file": "Miami.pdf",
         "source_team": "Miami Hurricanes"
       },
       {
-        "fact_id": 18,
-        "fact": "Four of Miami's five starting offensive linemen from 2025 departed for the NFL, including drafted tackles Francis Mauigoa and Markel Bell and guard Anez Cooper.",
-        "page": 10,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Miami.pdf",
-        "source_team": "Miami Hurricanes"
-      },
-      {
-        "fact_id": 19,
-        "fact": "Miami lost 2025 starting edge defenders Rueben Bain Jr. and Akheem Mesidor as first-round selections in the 2026 NFL Draft.",
-        "page": 9,
-        "category": "defensive_personnel",
-        "importance": "high",
-        "source_file": "Miami.pdf",
-        "source_team": "Miami Hurricanes"
-      },
-      {
-        "fact_id": 35,
-        "fact": "Miami allowed 13 total points and 57.5 rushing yards per game through its first two games.",
+        "fact_id": 31,
+        "fact": "Opponents have converted 21 percent of their third downs against Miami through two games.",
         "page": 1,
         "category": "defensive_context",
         "importance": "high",

@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Central Michigan Chippewas | +41.5 (-105) | BetMGM | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Miami Hurricanes | -41.5 (-112) | BetMGM | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Central Michigan Chippewas | +41.5 (-105) | Fanatics | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Miami Hurricanes | -41.5 (-110) | BetMGM | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,9 +15,7 @@ The Central Michigan Chippewas visit the Miami Hurricanes at Hard Rock Stadium. 
 
 The best number we found is Central Michigan +41.5 at -105. We give Central Michigan a 58.0% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
 
-We understand why the market has pushed Miami into this range. The Hurricanes produced a program-record 856 yards against Florida A&M, while Darian Mensah completed 41 of 45 passes with eight touchdowns and no interceptions through his first two starts. We are not dismissing that dominance; we are questioning how much of it should be carried forward into the expected margin here.
-
-For us, the case for Central Michigan is less about matching Miami's explosiveness and more about the market demanding another nearly flawless performance. Miami replaced four of its five starting offensive linemen from 2025 and lost both starting edge defenders as first-round NFL Draft picks. That turnover does not automatically make Miami vulnerable, but it gives our longer-run numbers reason to stop short of pricing the Hurricanes quite as aggressively as the market has.
+Our case is less about questioning Miami’s superiority and more about questioning how far the market has extended it. Miami’s latest win featured a program-record 856 yards and an ACC-record 42 first downs, the kind of performance that can heavily influence perception. We are not treating that result as a reliable baseline for every possession going forward.
 
 ### What The Numbers Say
 
@@ -69,13 +67,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching whether Central Michigan can create enough scoring opportunities against the strongest part of Miami's profile. Our matchup numbers give Miami a clear advantage in preventing productive possessions, and the Hurricanes allowed only 13 total points and 57.5 rushing yards per game through their first two contests.
+For us, the matchup to watch is Central Michigan’s ability to create scoring opportunities against Miami’s defense. Our numbers identify that as the clearest concern: Miami has allowed only 6.5 points per game, and opponents have converted just 21 percent of their third downs through two games. Central Michigan does not need to control this matchup, but it does need enough sustained drives to keep Miami from creating constant short fields and separation.
 
-That is the meaningful concern for our position. Central Michigan does not need to trade scores all afternoon, but it does need enough functional offense to avoid letting Miami control the game from start to finish. If Central Michigan can extend drives and turn a few possessions into points, the market's demand for a massive margin becomes harder to satisfy.
+That challenge is why our position is not simply a reaction against Miami’s recent blowouts. We recognize the defensive advantage, but we think the market is demanding too much dominance over a full game. The available cushion gives Central Michigan room to struggle offensively without requiring it to match Miami score for score.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

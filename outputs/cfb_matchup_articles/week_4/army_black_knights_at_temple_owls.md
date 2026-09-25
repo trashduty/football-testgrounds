@@ -15,11 +15,11 @@ The Army Black Knights visit the Temple Owls at Lincoln Financial Field. We make
 
 The best number we found is Temple +3.5 at -120. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-The market is pricing Army as the more likely winner, but our numbers give Temple more credit for its ability to stay productive on the ground. Temple has exceeded 176 rushing yards in every game and scored on every red-zone possession through three weeks. We are not treating those early results as proof, but that rushing production gives Temple a plausible way to sustain drives and keep this competitive.
+For us, the case for Temple is less about shutting down Army and more about having enough offense to keep pace. Temple has rushed for at least 186 yards in each game, including 270 against Toledo, while Sam Brown produced 109 rushing yards and three combined touchdowns in his debut. We view that production as evidence of a credible offensive path, not proof that it carries over against an Army defense allowing only 98.5 rushing yards and 15.5 points per game.
 
-The concern for us is Army’s offense against a Temple defense that has struggled to end possessions. Army converted half of its third downs through two games, while Temple’s opponents converted 51.3 percent through three. Army also has more passing efficiency than its reputation suggests: Cale Hellums completed 9 of 10 attempts with two touchdowns against South Florida. That matters because Temple cannot focus exclusively on the run.
+The concern is that Army creates stress in several ways. Three players already have at least 140 rushing yards and two rushing touchdowns, and Army has produced 25 runs of at least 10 yards. Temple has also allowed opponents to convert more than half of their third downs, which could lead to the kind of possession imbalance Army created when Temple had only two second-half drives in last season’s meeting.
 
-For us, the case for Temple is built around its own rushing offense and scoring efficiency, not an expectation that it will consistently stop Army. Our disagreement with the market is meaningful enough to create interest, but the defensive matchup and the current price leave too little margin to justify a wager.
+That is where our view becomes price-sensitive. Our numbers give Temple more credit than the market does for its ability to sustain offense, but Army owns the clearer matchup advantages. We see a real disagreement, just not enough separation to justify a play at the current offering.
 
 ### What The Numbers Say
 
@@ -71,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Army’s third-down offense against Temple’s third-down defense. Army’s ability to stay ahead of schedule can turn this into a possession-control game, and Temple has not shown that it can reliably get off the field. If Temple forces punts, our view of a close game becomes much easier to support; if Army repeatedly extends drives, the matchup concern outweighs the modest difference between our expectation and the market.
+What stands out to us is Army’s passing efficiency against Temple’s pass defense. Army averages only 103.5 passing yards, but that low volume can obscure how effective the passing game has been. Cale Hellums completed 9 of 10 attempts for 91 yards and two touchdowns against South Florida, and Army has not thrown an interception through two games.
+
+The question is whether Temple can devote enough attention to Army’s rushing attack without conceding efficient throws. Our matchup data sees a major Army advantage through the air, and Temple is allowing 297.3 passing yards per game. If Army gets production from both dimensions, Temple’s offensive improvement may not be enough to keep the game within our expected range.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

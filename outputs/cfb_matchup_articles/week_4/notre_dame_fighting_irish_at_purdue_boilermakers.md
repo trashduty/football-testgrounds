@@ -15,9 +15,9 @@ The Notre Dame Fighting Irish visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +27.5 at -102. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We see a plausible case for Purdue staying more competitive than the market expects because its offense showed functional upside in the opener. Purdue produced 523 total yards, while Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns. We also place some value on Browne’s continuity as a returning starter, particularly for an underdog that may need to answer Notre Dame with sustained drives rather than rely on variance alone.
+Our disagreement with the market is not based on Purdue having a favorable defensive matchup. We see Notre Dame holding clear efficiency advantages on the ground, through the air and in creating scoring opportunities. The market is asking whether those advantages produce sustained separation; our numbers are slightly less aggressive on that point because we see Purdue having enough offensive capability to offer resistance.
 
-The concern for us is that Purdue’s opening performance came against Indiana State and featured 38 players making their Purdue debuts, including 16 first-time Purdue starters. The defense recorded three sacks and eight tackles for loss, but our broader numbers still point to major problems against a Notre Dame offense with advantages on the ground, through the air and in creating scoring opportunities. We can understand why our model is less pessimistic about Purdue than the market, but Notre Dame’s ability to attack the defense in multiple ways keeps that disagreement from becoming valuable enough for us to bet.
+Purdue’s opener provides some context without settling the question. The offense generated 523 yards, while Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns. We are not treating production against Indiana State as proof that it carries over against Notre Dame, especially with 16 players making their first Purdue starts and 38 making their Purdue debuts. Browne’s experience and the encouraging opening performance help explain our lean toward Purdue, but the defensive matchup leaves us without enough value to move beyond a pass.
 
 ### What The Numbers Say
 
@@ -69,13 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Notre Dame’s rushing offense against Purdue’s run defense. Our numbers identify this as the clearest path for Notre Dame to control the game: efficient rushing can create manageable downs, extend drives and repeatedly move the offense into scoring range.
-
-For our Purdue position to remain viable, we need to see the front prevent early-down runs from turning into a steady stream of favorable situations. If Notre Dame consistently dictates terms on the ground, Purdue’s improved offensive showing may not be enough to keep pace with the margin the market is asking it to cover.
+For us, the matchup to watch is Notre Dame’s rushing offense against Purdue’s run defense. Our efficiency numbers identify this as a major advantage for Notre Dame, and it connects directly to the Irish’s ability to generate repeated scoring opportunities. Purdue allowed only 66 rushing yards in its opener, but we do not view one result against Indiana State as evidence that the larger concern has disappeared. If Purdue cannot limit efficient early-down rushing, the separation risk that keeps us cautious becomes much more significant.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **14 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -2,7 +2,7 @@
   "game": "Ole Miss Rebels@Florida Gators",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T13:43:49.140327+00:00",
+  "generated_at_utc": "2026-09-25T15:00:56.319680+00:00",
   "model_prediction": 3.5,
   "market_line": 3.5,
   "best_line": 3.5,
@@ -13,8 +13,8 @@
   "bet_short": "Ole Miss",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our numbers make the strongest Ole Miss case through scoring-opportunity creation and the rushing matchup, not simply the recent win over LSU. Trinidad Chambliss has thrown for 924 yards with seven touchdowns against two interceptions, and Ole Miss leads the SEC in passing yards per game. The pressure battle adds tension: Florida has recorded 11 sacks and 23 tackles for loss, while Ole Miss has allowed only one sack per game. We think that clash will determine whether Ole Miss consistently turns promising drives into scoring chances.\n\nWe also see a meaningful counterweight in Florida\u2019s ground game. The Gators are averaging 246 rushing yards per game, Jadan Baugh has 458 yards and eight touchdowns, and Ole Miss has allowed 159 rushing yards per game. Our underlying scoring-opportunity numbers are more favorable to the Ole Miss defense than those raw figures suggest, but Florida\u2019s rushing production cannot be dismissed. Once we balance those competing matchup advantages, our overall expectation aligns with what the market is already pricing. For us, the Ole Miss case is plausible but not underpriced, so we pass.",
-    "matchup_to_watch": "For us, the matchup to watch is Ole Miss creating and finishing scoring opportunities against Florida\u2019s disruptive defense. Ole Miss has been perfect in the red zone through three games, but Florida has forced four fumbles, including two during goal-line stands. We would not treat either early-season result as proof of what happens next; the useful question is whether Chambliss can keep Ole Miss on schedule while avoiding the negative plays and sudden turnovers Florida has produced.",
+    "narrative": "What stands out to us is Ole Miss\u2019 ability to create scoring opportunities through a fast, productive passing game. The offense leads the SEC in passing yards per game, and Trinidad Chambliss threw for 363 yards against LSU. Ole Miss also plays at the second-fastest pace in the conference, giving it more chances to stress a Florida defense that our numbers view as vulnerable when opponents move into scoring range.\n\nThe counterweight is Florida\u2019s rushing offense. Florida produced 243 rushing yards at Auburn, while Jadan Baugh ran for 162 yards and three touchdowns. Ole Miss has allowed 159 rushing yards per game, so Florida has a credible way to control possessions and keep its offense out of the situations our numbers favor for the Ole Miss defense.\n\nWe also have to account for this being Ole Miss\u2019 first true road game of the season. Florida generated seven sacks at Auburn, although Ole Miss has allowed only one sack per game. For us, those competing matchup signals explain why our expectation settles close to the market. We can identify paths for Ole Miss to outperform, but the available price does not provide enough value to move us off the pass.",
+    "matchup_to_watch": "For us, the matchup to watch is Florida\u2019s rushing offense against the Ole Miss front. Baugh\u2019s early production gives Florida an explosive, efficient option on the ground, and Ole Miss\u2019 run-defense results leave room for concern. If Florida consistently creates favorable down-and-distance situations, it can reduce the impact of an Ole Miss defense that our numbers otherwise rate well at preventing scoring opportunities.\n\nWe are not treating Florida\u2019s recent rushing totals as proof that the same production will continue. The question is whether Ole Miss can limit early-down gains and force Aaron Philo to sustain drives rather than letting Florida\u2019s ground game dictate the structure of the game.",
     "guide_status": [
       "Found guide for Ole Miss Rebels: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf",
       "Loaded guide for Ole Miss Rebels: Ole Miss.pdf",
@@ -26,7 +26,7 @@
         "source_team": "Ole Miss Rebels",
         "opponent": "Florida Gators",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is labeled \"Game 4: Florida\" and identifies Ole Miss at Florida on Sept. 26, 2026, matching the specified 2026 Week 4 matchup.",
+        "document_match_reason": "The guide is labeled \"Game 4: Florida\" and identifies Ole Miss at Florida on Sept. 26, 2026, matching the specified Week 4 matchup.",
         "recent_game": [
           {
             "fact": "Ole Miss improved to 3-0 with a 32-24 home win over No. 7 LSU on Sept. 19.",
@@ -41,25 +41,25 @@
             "importance": "high"
           },
           {
-            "fact": "Traylon Ray set career highs with seven receptions and 115 yards against LSU and scored his first Ole Miss touchdown on a 21-yard reception.",
+            "fact": "Traylon Ray set career highs with seven catches and 115 receiving yards against LSU, including a 21-yard touchdown reception.",
             "page": 7,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Kewan Lacy carried nine times for 43 yards and one touchdown in the win over LSU.",
+            "fact": "Kewan Lacy rushed nine times for 43 yards and one touchdown against LSU.",
             "page": 4,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "Will Echoles recorded five tackles, 2.5 tackles for loss and a half-sack against LSU while generating seven pressures on 31 pass-rush snaps.",
+            "fact": "Defensive tackle Will Echoles produced five tackles, 2.5 tackles for loss, 0.5 sack and seven quarterback pressures against LSU.",
             "page": 8,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jaylon Braxton made the game-sealing interception against LSU.",
+            "fact": "Cornerback Jaylon Braxton made the game-sealing interception against LSU.",
             "page": 5,
             "category": "recent_game",
             "importance": "medium"
@@ -67,43 +67,37 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Florida is 3-0 and ranked No. 21 in the AP poll entering the matchup after wins over Florida Atlantic, Campbell and Auburn.",
+            "fact": "Florida is 3-0 and ranked No. 21 in the AP poll and No. 22 in the Coaches poll entering the matchup.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida opened SEC play with a 44-39 road win at Auburn, producing 495 total yards and 243 rushing yards.",
             "page": 6,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Florida won its SEC opener 44-39 at Auburn, producing 495 total yards and 243 rushing yards.",
-            "page": 6,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Florida has averaged 54.0 points and 544.3 total yards per game while allowing 21.0 points and 326.3 yards per game.",
-            "page": 6,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Through three games, Florida has averaged 246.0 rushing yards and 298.3 passing yards per game.",
+            "fact": "Florida is averaging 54.0 points and 544.3 total yards per game, including 246.0 rushing yards and 298.3 passing yards per game.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Florida running back Jadan Baugh has 458 rushing yards and eight touchdowns on 54 carries, an average of 8.5 yards per carry.",
+            "fact": "Florida running back Jadan Baugh has 458 rushing yards on 54 carries, an 8.5-yard average, and eight rushing touchdowns through three games.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Baugh rushed for 162 yards and three touchdowns at Auburn, including scoring runs of 33 and 53 yards.",
+            "fact": "Baugh rushed for 162 yards and three touchdowns against Auburn, including touchdown runs of 33 and 53 yards.",
             "page": 6,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Florida quarterback Aaron Philo is 47-of-64 passing for 721 yards, six touchdowns and two interceptions.",
+            "fact": "Florida quarterback Aaron Philo is 47-of-64 for 721 yards with six touchdowns and two interceptions through three games.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
@@ -113,23 +107,11 @@
             "page": 3,
             "category": "opponent_notes",
             "importance": "medium"
-          },
-          {
-            "fact": "Florida has held opponents to 94.7 rushing yards per game and 3.1 yards per rushing attempt.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Florida defender Jayden Woods has four tackles for loss and three sacks through three games.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "medium"
           }
         ],
         "quarterback": [
           {
-            "fact": "Ole Miss starting quarterback Trinidad Chambliss is 77-of-110 for 924 yards, seven touchdowns and two interceptions through three games.",
+            "fact": "Ole Miss starting quarterback Trinidad Chambliss is 77-of-110 for 924 yards with seven touchdowns and two interceptions in 2026.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
@@ -141,64 +123,46 @@
             "importance": "high"
           },
           {
-            "fact": "Chambliss has thrown a touchdown pass in 16 consecutive games.",
+            "fact": "Chambliss has thrown a touchdown pass in 16 consecutive games and has added 64 rushing yards and two rushing touchdowns this season.",
             "page": 9,
             "category": "quarterback",
             "importance": "medium"
-          },
-          {
-            "fact": "Chambliss has 10,030 career yards of total offense across Ferris State and Ole Miss, including 8,116 passing and 1,914 rushing, with 99 total touchdowns.",
-            "page": 8,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Florida-week depth chart lists Deuce Knight and Walker Howard as the co-second-team quarterbacks behind Chambliss.",
-            "page": 17,
-            "category": "quarterback",
-            "importance": "low"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Kewan Lacy has rushed 39 times for 191 yards and four touchdowns this season.",
-            "page": 3,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Lacy has scored a rushing touchdown in 12 consecutive games, the longest active streak in the FBS.",
+            "fact": "Kewan Lacy leads Ole Miss with 191 rushing yards and four touchdowns on 39 carries and has scored a rushing touchdown in 12 consecutive games, the longest active streak in the FBS.",
             "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Deuce Alexander leads Ole Miss with 20 receptions for 295 yards and three touchdowns.",
+            "fact": "Lacy rushed 31 times for a career-high 224 yards and three touchdowns in Ole Miss' 34-24 win over Florida in 2025.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Caleb Odom has eight receptions for 154 yards, averaging 19.3 yards per catch, and had a career-high 88 receiving yards against LSU.",
-            "page": 4,
+            "fact": "Deuce Alexander leads Ole Miss with 20 receptions for 295 yards and three touchdowns through three games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss' other leading receivers are Traylon Ray with 171 yards, Horatio Fields with 165 yards and Caleb Odom with 154 yards.",
+            "page": 3,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss started Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center, Patrick Kutas at right guard and Connor Howes at right tackle against LSU.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Davis played 77 snaps against LSU, while Townsend, Sanders and Kutas each played all 77 snaps.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "The Florida-week depth chart lists Tommy Kinsler IV or Connor Howes at right tackle.",
+            "fact": "The listed starting offensive line is Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center and Patrick Kutas at right guard, with Tommy Kinsler IV or Connor Howes listed at right tackle.",
             "page": 17,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Against LSU, Davis played 77 snaps at left tackle, Townsend and Kutas played all 77 snaps at guard, Sanders played all 77 snaps at center and Howes started at right tackle.",
+            "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
@@ -211,75 +175,70 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "Ole Miss' leading tacklers through three games are Tah'j Butler with 20, Luke Ferrelli with 19 and Keaton Thomas with 18.",
+            "fact": "Will Echoles has five tackles, 2.5 tackles for loss and 0.5 sack through three games after recording 11.5 tackles for loss and five sacks in 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Suntarine Perkins has 14 tackles in 2026 and 19 career sacks with 33.5 career tackles for loss.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer linebackers Luke Ferrelli and Keaton Thomas have started all three games for Ole Miss; Ferrelli has 19 tackles and Thomas has 18.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer linebacker Tah'j Butler leads Ole Miss with 20 tackles through three games.",
             "page": 3,
             "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Ferrelli, Thomas and Butler are first-year Ole Miss transfers; Ferrelli and Thomas have started all three games.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Blake Purchase, an Oregon transfer, has started all three games and recorded five tackles and one sack against LSU.",
-            "page": 5,
-            "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Sharif Denson made his 2026 season debut against LSU and led Ole Miss with nine tackles, including one tackle for loss.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Denson previously played three seasons at Florida, appearing in 36 games with 17 starts and recording 97 tackles, 7.5 tackles for loss, two sacks and one interception.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Suntarine Perkins has 19 career sacks and 33.5 career tackles for loss at Ole Miss.",
-            "page": 9,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Florida-week depth chart lists Kam Franklin, Jamarious Brown or Jehiem Oatis, Will Echoles and Suntarine Perkins or Blake Purchase across the defensive front.",
+            "fact": "Sharif Denson, a transfer who played 36 games and made 17 starts at Florida, is listed as Ole Miss' starting strong safety.",
             "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer Blake Purchase has started all three games and recorded five tackles, including one sack, against LSU.",
+            "page": 5,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Pete Golding was named Ole Miss head coach on Nov. 30, 2025 after three seasons as the Rebels' defensive coordinator; 2026 is his first full season as head coach.",
+            "fact": "Pete Golding was named Ole Miss head coach on Nov. 30, 2025 after three seasons as the Rebels' defensive coordinator.",
             "page": 6,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Golding is 5-1 as Ole Miss head coach and 4-1 against AP-ranked opponents.",
+            "fact": "Golding is 5-1 as Ole Miss head coach and 4-1 against AP-ranked opponents; Florida will be his sixth ranked opponent in seven games.",
             "page": 7,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Florida coach Jon Sumrall is in his first season with the Gators and is 3-0 at Florida.",
+            "fact": "Jon Sumrall is in his first season as Florida's head coach and enters the game 3-0 with the Gators.",
             "page": 6,
             "category": "coaching_changes",
             "importance": "high"
-          },
-          {
-            "fact": "Ole Miss offensive coordinator John David Baker and defensive coordinator Bryan Brown work from the coaches' booth; offensive line and run-game coordinator John Garrison works on the field.",
-            "page": 16,
-            "category": "coaching_changes",
-            "importance": "medium"
           }
         ],
-        "injury_availability": [],
+        "injury_availability": [
+          {
+            "fact": "Sharif Denson made his 2026 season debut against LSU and led Ole Miss with nine tackles, including one tackle for loss.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
         "offensive_context": [
           {
             "fact": "Ole Miss leads the SEC and ranks eighth nationally with 330.7 passing yards per game.",
@@ -288,54 +247,54 @@
             "importance": "high"
           },
           {
-            "fact": "Ole Miss averages 444.7 total yards and 38.0 points per game.",
+            "fact": "Ole Miss averages 444.7 total yards and 38.0 points per game through three games.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Rebels average 23.1 seconds per play, the second-fastest pace in the SEC and eighth-fastest in the FBS.",
+            "fact": "Ole Miss operates at 23.1 seconds per play, the second-fastest pace in the SEC and eighth-fastest in the FBS.",
             "page": 8,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss is 100 percent in red-zone offense through three games and has allowed one sack per game.",
+            "fact": "Ole Miss has scored on 100 percent of its red-zone opportunities and has allowed one sack per game.",
             "page": 8,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Ole Miss has passed for at least 300 yards in two of its first three games but has not produced a 100-yard rusher this season.",
-            "page": 7,
+            "fact": "The Rebels average 114.0 rushing yards per game and 3.8 yards per carry.",
+            "page": 3,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Ole Miss has allowed 373.7 total yards, 159.0 rushing yards and 214.7 passing yards per game through three games.",
+            "fact": "Ole Miss is allowing 373.7 total yards and 23.7 points per game through three games.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Rebels average 7.3 tackles for loss and 2.0 sacks per game.",
-            "page": 8,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ole Miss has allowed at least 100 rushing yards in each of its first three games but has not allowed an opponent to reach 200 rushing yards.",
-            "page": 7,
+            "fact": "The Rebels are allowing 159.0 rushing yards per game and 4.1 yards per rush, a key matchup against Florida's 246.0-yard rushing average.",
+            "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss has two interceptions through three games.",
+            "fact": "Ole Miss averages 7.3 tackles for loss and 2.0 sacks per game.",
             "page": 8,
             "category": "defensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "Florida's defense is allowing 326.3 total yards per game, including 94.7 rushing yards per game and 3.1 yards per rush.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
           }
         ],
         "special_teams": [
@@ -346,20 +305,20 @@
             "importance": "high"
           },
           {
-            "fact": "Ole Miss kicker Lucas Carneiro is 5-of-7 on field goals and 13-of-13 on extra points this season, with a long field goal of 57 yards.",
-            "page": 4,
+            "fact": "Ole Miss has allowed 3.0 yards per punt return through three games.",
+            "page": 8,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Carneiro has made six field goals of at least 50 yards during his Ole Miss career and is 12-of-16 from beyond 50 yards in his collegiate career.",
-            "page": 9,
+            "fact": "Ole Miss kicker Lucas Carneiro is 5-of-7 on field goals and 13-of-13 on extra points in 2026, with a long field goal of 57 yards.",
+            "page": 4,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss punter Oscar Bird has averaged 44.4 yards on seven punts this season, with a long of 52 yards.",
-            "page": 3,
+            "fact": "Punter Oscar Bird has averaged 44.4 yards on seven punts, while Ole Miss ranks 20th nationally with a 44.0-yard net punting average.",
+            "page": 8,
             "category": "special_teams",
             "importance": "medium"
           }
@@ -372,52 +331,34 @@
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss has not won in Gainesville since a 31-30 victory in 2008.",
-            "page": 3,
-            "category": "series_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ole Miss won the 2025 meeting 34-24 as Kewan Lacy rushed 31 times for a career-high 224 yards and three touchdowns.",
+            "fact": "Ole Miss won the most recent meeting 34-24 in Oxford in 2025, when Lacy rushed for 224 yards and three touchdowns.",
             "page": 3,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "In the 2025 win, Ole Miss shut out Florida in the second half while forcing two punts, two turnovers on downs and an interception.",
+            "fact": "Ole Miss shut out Florida in the second half of the 2025 meeting, forcing two punts, two turnovers on downs and an interception.",
             "page": 7,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "In Ole Miss' most recent trip to Gainesville in 2024, the Rebels outgained Florida by 100 yards but went 0-for-3 in the red zone and committed three turnovers in a 24-17 loss.",
-            "page": 3,
+            "fact": "Ole Miss has not won in Gainesville since a 31-30 victory in 2008.",
+            "page": 6,
             "category": "series_context",
             "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "The Florida game is Ole Miss' first true road game of the 2026 season after one neutral-site game and two home games.",
+            "fact": "This is Ole Miss' first true road game of 2026 after a neutral-site win over Louisville and home wins over Charlotte and LSU.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss enters the game ranked No. 4 in the AP poll and No. 6 in the Coaches poll.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ole Miss has started 3-0 for the sixth consecutive season and has wins over two AP-ranked opponents in 2026.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ole Miss has led for 144:32 of 180 minutes this season and has not trailed in its last 137:22 of game time.",
-            "page": 9,
+            "fact": "Ole Miss is ranked No. 4 in the AP poll and No. 6 in the Coaches poll and is 2-0 against ranked opponents this season.",
+            "page": 7,
             "category": "other_relevant",
             "importance": "medium"
           }
@@ -428,23 +369,23 @@
         "source_team": "Florida Gators",
         "opponent": "Ole Miss Rebels",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide identifies Game 4 as No. 21 Florida vs. No. 4 Ole Miss on September 26, 2026, in Gainesville and contains Week 4 matchup statistics and opponent-specific notes.",
+        "document_match_reason": "The guide identifies Game 4 as No. 21 Florida hosting No. 4 Ole Miss on September 26, 2026, in Gainesville and includes current statistics and opponent-specific notes for the matchup.",
         "recent_game": [
           {
-            "fact": "Florida improved to 3-0 with a 44-39 road victory over Auburn on September 19.",
+            "fact": "Florida improved to 3-0 and 1-0 in the SEC with a 44-39 road win over Auburn on September 19.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Against Auburn, Florida produced six consecutive scoring drives from the first quarter through the third quarter, including five consecutive drives of at least 65 yards.",
+            "fact": "Florida produced six consecutive scoring drives from the first quarter through the third quarter at Auburn, with each drive covering at least 65 yards and the six drives producing 34 points.",
             "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jadan Baugh rushed for 162 yards at Auburn, extending his streak of 100-yard rushing games to four.",
-            "page": 3,
+            "fact": "Florida held Auburn to minus-3 total yards and no first downs in the first quarter, and Auburn quarterback Byrum Brown went 0-for-4 with an interception in the period.",
+            "page": 7,
             "category": "recent_game",
             "importance": "high"
           },
@@ -455,13 +396,13 @@
             "importance": "high"
           },
           {
-            "fact": "Florida held Auburn to minus-3 total yards, no first downs and an 0-for-4 passing line with one interception in the first quarter.",
-            "page": 7,
+            "fact": "Running back Jadan Baugh rushed for 162 yards at Auburn, while wide receiver Vernell Brown III had five catches for 86 yards and Dallas Wilson had four catches for 74 yards and a touchdown.",
+            "page": 5,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jayden Woods had six tackles, 3.5 tackles for loss and 2.5 sacks at Auburn.",
+            "fact": "EDGE Jayden Woods recorded six tackles, 3.5 tackles for loss and 2.5 sacks at Auburn.",
             "page": 6,
             "category": "recent_game",
             "importance": "high"
@@ -475,43 +416,49 @@
             "importance": "high"
           },
           {
-            "fact": "Ole Miss averages 330.7 passing yards per game, ranking eighth in the FBS and first in the SEC, but averages 114.0 rushing yards, ranking 119th in the FBS and 14th in the SEC.",
+            "fact": "Ole Miss averages 444.7 total yards and 38.0 points per game, including 330.7 passing yards and 114.0 rushing yards per game.",
             "page": 17,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss quarterback Trinidad Chambliss has passed for 924 yards with seven touchdowns and two interceptions and has rushed for 64 yards and two touchdowns.",
+            "fact": "Ole Miss quarterback Trinidad Chambliss has passed for 924 yards with seven touchdowns and two interceptions and has rushed 21 times for 64 yards and two touchdowns.",
             "page": 17,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss running back Kewan Lacy has 39 carries for 191 yards and four touchdowns.",
+            "fact": "Ole Miss running back Kewan Lacy has 39 carries for 191 yards and four touchdowns through three games.",
             "page": 17,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss receiver Deuce Alexander leads the Rebels with 20 receptions, 295 receiving yards and three touchdowns.",
+            "fact": "Ole Miss receiver Deuce Alexander leads the Rebels with 20 catches for 295 yards and three touchdowns.",
             "page": 17,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss is allowing 373.7 total yards and 23.7 points per game, including 159.0 rushing yards per game.",
+            "fact": "Ole Miss allows 373.7 total yards and 23.7 points per game, including 159.0 rushing yards and 214.7 passing yards per game.",
             "page": 17,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Ole Miss has generated two takeaways and has a minus-0.67 turnover margin per game through three games.",
+            "fact": "Ole Miss has six sacks, two takeaways and a minus-0.67 turnover margin per game through three games.",
             "page": 17,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Ole Miss has allowed three sacks, an average of 1.0 per game, while its defense has recorded six sacks.",
+            "fact": "Ole Miss has allowed three sacks, an average of 1.0 per game.",
+            "page": 17,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ole Miss defensive leaders include Tah'j Butler with 20 tackles, Luke Ferrelli with 18 tackles and Will Echoles with 3.5 tackles for loss.",
             "page": 17,
             "category": "opponent_notes",
             "importance": "medium"
@@ -519,51 +466,51 @@
         ],
         "quarterback": [
           {
-            "fact": "Florida quarterback Aaron Philo has completed 47 of 64 passes for 721 yards, six touchdowns and two interceptions through three games.",
+            "fact": "Florida quarterback Aaron Philo has completed 47 of 64 passes for 721 yards, six touchdowns and two interceptions through three games; both interceptions were recorded on dropped passes.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Philo has completed at least 68 percent of his passes, exceeded 200 passing yards and thrown a touchdown in each of Florida's first three games.",
+            "fact": "Philo has completed at least 68.0% of his passes, exceeded 200 passing yards and thrown a touchdown in each of Florida's first three games.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Philo ranks fifth in the FBS with 11.27 yards per attempt, eighth with a 192.8 passer rating and 12th with a 73.4 completion percentage.",
+            "fact": "Philo ranks second in the SEC in yards per attempt at 11.27 and completion percentage at 73.4%, and third in the conference in passer rating at 192.8.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "In his first road game as a Gator, Philo completed 15 of 22 passes for 204 yards, one touchdown and one interception at Auburn.",
+            "fact": "Against Auburn, Philo completed 15 of 22 passes for 204 yards, one touchdown and one interception in his first road game for Florida.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Florida entered 2026 with only two combined collegiate starts among its five quarterbacks after losing DJ Lagway, who accounted for 92.2 percent of the team's 2025 passing yards.",
-            "page": 5,
+            "fact": "The Ole Miss game is scheduled to be Philo's fourth collegiate start and third start for Florida.",
+            "page": 4,
             "category": "quarterback",
             "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Jadan Baugh has 458 rushing yards, eight rushing touchdowns and an average of 8.48 yards per carry through three games.",
+            "fact": "Jadan Baugh has rushed 54 times for 458 yards and eight touchdowns, averaging 8.48 yards per carry and 152.7 rushing yards per game.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Baugh has rushed for more than 100 yards in four consecutive games and can become the third Florida player to do so in five straight, joining Fred Taylor and Emmitt Smith.",
+            "fact": "Baugh has exceeded 100 rushing yards in four consecutive games dating to the 2025 finale, totaling 724 rushing yards and 10 rushing touchdowns in that span.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Vernell Brown III leads Florida with 14 receptions and 246 receiving yards, while Dallas Wilson has 12 receptions for 225 yards; each has two receiving touchdowns.",
+            "fact": "Vernell Brown III leads Florida with 14 receptions for 246 yards and two receiving touchdowns, while Dallas Wilson has 12 receptions for 225 yards and two touchdowns.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
@@ -575,13 +522,25 @@
             "importance": "medium"
           },
           {
-            "fact": "Amir Jackson made his first three career starts at tight end, while Georgia Tech transfer Luke Harpring leads Florida tight ends with five catches for 63 yards.",
+            "fact": "Florida added transfer tight ends Luke Harpring, Lacota Dippre and Evan Chieca; returning tight end Amir Jackson started each of the first three games and started alongside Dippre in two-tight-end sets.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Florida is replacing three of five offensive-line starters after center Jake Slaughter and tackle Austin Barber departed through the NFL Draft.",
+            "fact": "Harpring leads Florida's tight ends with five receptions for 63 yards, while Amir Jackson has two catches for 62 yards.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida lost 92.2% of its 2025 passing production and 53.4% of its receiving production but returned 77.8% of its rushing production.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida replaced three of five offensive-line starters after center Jake Slaughter and tackle Austin Barber departed through the NFL Draft.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
@@ -593,13 +552,7 @@
             "importance": "high"
           },
           {
-            "fact": "Florida's offensive line has allowed two sacks, three quarterback hurries and 13 tackles for loss through three games.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Center Harrison Moore has played a team-high 184 offensive-line snaps and has allowed one quarterback hurry and one pressure.",
+            "fact": "Knijeah Harris has started 28 consecutive games for Florida, the longest active starting streak on the roster.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -607,40 +560,46 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "Linebacker Myles Graham leads Florida with 20 tackles through three games after leading the team with 76 tackles in 2025.",
+            "fact": "Linebacker Myles Graham leads Florida with 20 tackles through three games after leading the team with 76 tackles, 7.0 tackles for loss and seven quarterback hurries in 2025.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Jayden Woods has 15 tackles, four tackles for loss and three sacks through three games.",
+            "fact": "Jayden Woods has 15 tackles, 4.0 tackles for loss and 3.0 sacks through three games.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer defensive lineman Emmanuel Oyebadejo has 2.5 sacks, three quarterback hurries and two pass breakups in 61 snaps across two games.",
+            "fact": "Florida has started returning safety Bryce Thornton alongside Baylor transfer DJ Coleman in each of the first three games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida returns 2025 starting cornerbacks Dijon Johnson and Cormani McClain; both have recorded an interception this season.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sophomore cornerbacks Ben Hanks III and J'Vari Flowers are part of Florida's cornerback rotation; Flowers leads the team with three pass breakups.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida returned its top three sack producers from 2025 in Jayden Woods, Kamran James and Brendan Bett, along with five of its top six players in tackles for loss.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jacksonville State transfer Emmanuel Oyebadejo has 2.5 sacks, three quarterback hurries and two pass breakups in 61 snaps over two games.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "high"
-          },
-          {
-            "fact": "Safety Bryce Thornton has started alongside Baylor transfer DJ Coleman in each of Florida's first three games.",
-            "page": 8,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Cornerback Cormani McClain intercepted Auburn on its opening drive, giving Florida interceptions on an opponent's first drive in two of its first three games.",
-            "page": 8,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Florida returned 2025 starting cornerbacks Dijon Johnson and Cormani McClain and has also used sophomores Ben Hanks III and Ja'Vari Flowers in the rotation.",
-            "page": 8,
-            "category": "defensive_personnel",
-            "importance": "medium"
           }
         ],
         "coaching_changes": [
@@ -663,7 +622,7 @@
             "importance": "high"
           },
           {
-            "fact": "Sumrall previously coached linebackers at Ole Miss in 2018 and is 0-3 as a head coach against the Rebels.",
+            "fact": "Sumrall previously coached linebackers at Ole Miss in 2018 and owns an 0-3 head-coaching record against Ole Miss.",
             "page": 10,
             "category": "coaching_changes",
             "importance": "medium"
@@ -671,10 +630,10 @@
         ],
         "injury_availability": [
           {
-            "fact": "Defensive lineman LJ McCray is described as healthy after appearing in only one game in 2025; he returned in the 2026 opener after 364 days away and recorded two tackles for loss and his first career solo sack in Week 2.",
+            "fact": "Defensive lineman LJ McCray is described as healthy after appearing in only one game in 2025; he returned in the 2026 opener after 364 days away and recorded his first career solo sack in Week 2.",
             "page": 7,
             "category": "injury_availability",
-            "importance": "high"
+            "importance": "medium"
           },
           {
             "fact": "Defensive lineman Emmanuel Oyebadejo was a game-time decision against Auburn but played and recorded three tackles, 2.5 sacks, one pass breakup and one quarterback hurry.",
@@ -683,7 +642,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Defensive lineman Kamran James missed most of fall camp but played in the opener and recorded two tackles for loss, one sack, one forced fumble and one quarterback hurry.",
+            "fact": "Defensive lineman Kamran James missed most of fall camp but played in the opener and recorded 2.0 tackles for loss, one sack, one forced fumble and one quarterback hurry.",
             "page": 7,
             "category": "injury_availability",
             "importance": "medium"
@@ -691,7 +650,7 @@
         ],
         "offensive_context": [
           {
-            "fact": "Florida averages 54.0 points and 544.3 total yards per game, ranking second and third in the FBS, respectively.",
+            "fact": "Florida averages 544.3 total yards and 54.0 points per game, ranking third and second in the FBS, respectively.",
             "page": 17,
             "category": "offensive_context",
             "importance": "high"
@@ -703,52 +662,46 @@
             "importance": "high"
           },
           {
-            "fact": "Florida has scored at least 44 points in every game and has scored 162 total points through three games.",
+            "fact": "Florida has scored at least 44 points in all three games and has scored 162 total points.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida has produced at least 12 explosive plays in each game, totaling 41, and has six touchdown drives of three plays or fewer.",
+            "fact": "Florida has recorded at least 12 explosive plays in each game, totaling 41, and has produced six touchdown drives lasting three plays or fewer.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida has rushed for at least 200 yards in four consecutive games and at least 100 yards in nine straight dating to 2025.",
-            "page": 4,
+            "fact": "Florida is 100% in red-zone offense and has allowed only two sacks through three games.",
+            "page": 9,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida is perfect in the red zone through three games and has punted only three times.",
-            "page": 1,
+            "fact": "Florida has rushed for at least 200 yards in four consecutive games and at least 100 yards in nine consecutive games dating to 2025.",
+            "page": 4,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Florida has 11 sacks through three games, averaging 3.67 per game, and has recorded 23 tackles for loss.",
+            "fact": "Florida allows 326.3 total yards and 21.0 points per game, including 94.7 rushing yards and 231.7 passing yards per game.",
             "page": 17,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida allows 94.7 rushing yards per game, compared with Ole Miss' 114.0 rushing yards per game on offense.",
+            "fact": "Florida has 11 sacks and 23 tackles for loss through three games.",
             "page": 17,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida has six takeaways through three games, including three interceptions.",
+            "fact": "Florida has six takeaways, including three interceptions, and has recorded at least one takeaway in each game.",
             "page": 17,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Florida has recorded a takeaway in each of its first three games and in 25 of 28 games since the start of 2024.",
-            "page": 7,
             "category": "defensive_context",
             "importance": "high"
           },
@@ -759,36 +712,48 @@
             "importance": "medium"
           },
           {
-            "fact": "Florida has forced four fumbles through three games, including two during goal-line stands.",
+            "fact": "Florida has forced four fumbles through three games, including two on goal-line stands.",
             "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida has missed 25 tackles through three games, an average of 8.3 per game.",
+            "page": 6,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Florida replaced its starting punter, kicker and long snapper with transfers Patrick Durkin, Alec Clark and Carter Milliron.",
-            "page": 9,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Durkin is 32-for-37 on career field goals, including 5-for-7 from at least 50 yards, and made a career-long 53-yard field goal in his Florida debut.",
+            "fact": "Florida replaced all three primary specialists with transfers Patrick Durkin at kicker, Alec Clark at punter and Carter Milliron at long snapper.",
             "page": 9,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Vernell Brown III returned consecutive punts 64 and 70 yards for touchdowns against Campbell and leads the FBS with a 37.8-yard punt-return average.",
+            "fact": "Durkin has 23 touchbacks through three games and made a career-long 53-yard field goal in his Florida debut.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Vernell Brown III averages 37.8 yards per punt return and has returned two punts for touchdowns this season.",
             "page": 9,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Florida averages 31.5 yards per punt return, while Ole Miss averages 2.33.",
-            "page": 17,
+            "fact": "Brown returned consecutive punts for 64- and 70-yard touchdowns against Campbell and set a Florida single-game record with 173 punt-return yards.",
+            "page": 9,
             "category": "special_teams",
             "importance": "high"
+          },
+          {
+            "fact": "Florida averages 31.5 yards per punt return, while Ole Miss allows a 2.33-yard punt-return average.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "medium"
           }
         ],
         "series_context": [
@@ -799,31 +764,25 @@
             "importance": "high"
           },
           {
-            "fact": "Florida has won three of the last four meetings overall and four of the last six.",
-            "page": 1,
-            "category": "series_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Florida has won the last two meetings in Gainesville, defeating No. 9 Ole Miss 24-17 in 2024 and No. 3 Ole Miss 38-10 in 2015.",
+            "fact": "Ole Miss leads the series 6-5-1 in Gainesville, but Florida has won the last two meetings in The Swamp: 24-17 over No. 9 Ole Miss in 2024 and 38-10 over No. 3 Ole Miss in 2015.",
             "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "A ranked Ole Miss team is 0-2 all-time in Gainesville.",
+            "fact": "A ranked Ole Miss team is 0-2 all-time in The Swamp.",
             "page": 7,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "In Florida's 2024 win, Bryce Thornton intercepted Jaxson Dart twice in the final 1:32, and Florida held Ole Miss to 55 yards on 24 red-zone plays with two goal-line fourth-down stops.",
+            "fact": "In Florida's 2024 win, safety Bryce Thornton intercepted Jaxson Dart twice in the final 1:32, and Florida recorded five sacks while holding Ole Miss to two field goals and two failed fourth-down attempts across seven red-zone trips.",
             "page": 7,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "In the 2025 meeting, Ole Miss quarterback Trinidad Chambliss passed for 301 yards and Kewan Lacy rushed for 224 yards and three touchdowns against Florida.",
+            "fact": "In the 2025 meeting, Ole Miss running back Kewan Lacy rushed for 224 yards and three touchdowns, and quarterback Trinidad Chambliss passed for 301 yards.",
             "page": 16,
             "category": "series_context",
             "importance": "high"
@@ -831,19 +790,7 @@
         ],
         "other_relevant": [
           {
-            "fact": "The matchup is scheduled for September 26 at 3:30 p.m. ET at Ben Hill Griffin Stadium in Gainesville.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Florida is 10-2 in its last 12 home games dating to 2024 and has outscored opponents by 213 points over that span.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ole Miss players Michai Boireau, Sharif Denson and Enoch Wangoy transferred from Florida after being with the Gators during the 2024-25 period; Denson was also at Florida in 2023.",
+            "fact": "Ole Miss players Michai Boireau, Sharif Denson and Enoch Wangoy transferred from Florida after being members of the Gators during the 2024-25 period; Denson was also at Florida in 2023.",
             "page": 17,
             "category": "other_relevant",
             "importance": "low"
@@ -889,16 +836,34 @@
     ],
     "used_sources": [
       {
-        "fact_id": 17,
-        "fact": "Ole Miss starting quarterback Trinidad Chambliss is 77-of-110 for 924 yards, seven touchdowns and two interceptions through three games.",
-        "page": 3,
-        "category": "quarterback",
+        "fact_id": 2,
+        "fact": "Trinidad Chambliss completed 33 passes for 363 yards and two touchdowns against LSU and also rushed for a touchdown.",
+        "page": 4,
+        "category": "recent_game",
         "importance": "high",
         "source_file": "Ole Miss.pdf",
         "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 41,
+        "fact_id": 8,
+        "fact": "Florida opened SEC play with a 44-39 road win at Auburn, producing 495 total yards and 243 rushing yards.",
+        "page": 6,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 11,
+        "fact": "Baugh rushed for 162 yards and three touchdowns against Auburn, including touchdown runs of 33 and 53 yards.",
+        "page": 6,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 34,
         "fact": "Ole Miss leads the SEC and ranks eighth nationally with 330.7 passing yards per game.",
         "page": 8,
         "category": "offensive_context",
@@ -907,8 +872,8 @@
         "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 44,
-        "fact": "Ole Miss is 100 percent in red-zone offense through three games and has allowed one sack per game.",
+        "fact_id": 36,
+        "fact": "Ole Miss operates at 23.1 seconds per play, the second-fastest pace in the SEC and eighth-fastest in the FBS.",
         "page": 8,
         "category": "offensive_context",
         "importance": "high",
@@ -916,8 +881,17 @@
         "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 46,
-        "fact": "Ole Miss has allowed 373.7 total yards, 159.0 rushing yards and 214.7 passing yards per game through three games.",
+        "fact_id": 37,
+        "fact": "Ole Miss has scored on 100 percent of its red-zone opportunities and has allowed one sack per game.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 40,
+        "fact": "The Rebels are allowing 159.0 rushing yards per game and 4.1 yards per rush, a key matchup against Florida's 246.0-yard rushing average.",
         "page": 3,
         "category": "defensive_context",
         "importance": "high",
@@ -925,38 +899,20 @@
         "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 82,
-        "fact": "Jadan Baugh has 458 rushing yards, eight rushing touchdowns and an average of 8.48 yards per carry through three games.",
-        "page": 3,
-        "category": "offensive_personnel",
+        "fact_id": 51,
+        "fact": "This is Ole Miss' first true road game of 2026 after a neutral-site win over Louisville and home wins over Charlotte and LSU.",
+        "page": 1,
+        "category": "other_relevant",
         "importance": "high",
-        "source_file": "Florida.pdf",
-        "source_team": "Florida Gators"
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
       },
       {
-        "fact_id": 105,
-        "fact": "Florida averages 246.0 rushing yards and 298.3 passing yards per game.",
-        "page": 17,
-        "category": "offensive_context",
-        "importance": "high",
-        "source_file": "Florida.pdf",
-        "source_team": "Florida Gators"
-      },
-      {
-        "fact_id": 110,
-        "fact": "Florida has 11 sacks through three games, averaging 3.67 per game, and has recorded 23 tackles for loss.",
-        "page": 17,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Florida.pdf",
-        "source_team": "Florida Gators"
-      },
-      {
-        "fact_id": 115,
-        "fact": "Florida has forced four fumbles through three games, including two during goal-line stands.",
+        "fact_id": 56,
+        "fact": "Florida recorded seven sacks at Auburn after totaling four sacks in its first two games.",
         "page": 7,
-        "category": "defensive_context",
-        "importance": "medium",
+        "category": "recent_game",
+        "importance": "high",
         "source_file": "Florida.pdf",
         "source_team": "Florida Gators"
       }
