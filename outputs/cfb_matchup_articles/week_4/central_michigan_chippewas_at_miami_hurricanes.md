@@ -15,11 +15,9 @@ The Central Michigan Chippewas visit the Miami Hurricanes at Hard Rock Stadium. 
 
 The best number we found is Central Michigan +41.5 at -105. We give Central Michigan a 58.0% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
 
-We are not reacting against Miami simply because its latest result was extreme. Miami set program records with 856 total yards and 42 first downs against Florida A&M, while tying its scoring record with 77 points. That performance helps explain the market’s confidence, but our view is that one dominant result should not automatically be carried forward into the level of separation now required. For us, the case for Central Michigan is less about questioning which team is stronger and more about whether Miami’s recent ceiling is being priced too aggressively.
+We understand why the market has pushed Miami into this range. The Hurricanes produced a program-record 856 yards against Florida A&M, while Darian Mensah completed 41 of 45 passes with eight touchdowns and no interceptions through his first two starts. We are not dismissing that dominance; we are questioning how much of it should be carried forward into the expected margin here.
 
-We also see more underlying transition than the early results suggest. Four of Miami’s five offensive-line starters from 2025 departed for the NFL, while both starting edge defenders became first-round draft selections. Those losses do not erase what Miami has done, but they add uncertainty when the market is demanding an unusually wide margin.
-
-The meaningful concern for us is Central Michigan’s ability to create scoring opportunities. Our matchup numbers favor Miami heavily in that area, and Miami’s opponents have averaged only 3.6 yards per play while converting 21 percent of their third downs through two games. We still support Central Michigan at the available price, but its offense must avoid extended stretches of empty possessions to keep Miami from creating the separation the market expects.
+For us, the case for Central Michigan is less about matching Miami's explosiveness and more about the market demanding another nearly flawless performance. Miami replaced four of its five starting offensive linemen from 2025 and lost both starting edge defenders as first-round NFL Draft picks. That turnover does not automatically make Miami vulnerable, but it gives our longer-run numbers reason to stop short of pricing the Hurricanes quite as aggressively as the market has.
 
 ### What The Numbers Say
 
@@ -71,7 +69,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Central Michigan’s offense against Miami’s scoring-opportunity prevention. Miami has already shown it can end drives quickly, holding Florida A&M’s offense to 107 total yards, four first downs and one third-down conversion in 14 attempts. Central Michigan does not need to match Miami’s offensive output for our position to work, but we think a few sustained drives could materially change the margin by limiting short fields and reducing Miami’s total possessions.
+We are watching whether Central Michigan can create enough scoring opportunities against the strongest part of Miami's profile. Our matchup numbers give Miami a clear advantage in preventing productive possessions, and the Hurricanes allowed only 13 total points and 57.5 rushing yards per game through their first two contests.
+
+That is the meaningful concern for our position. Central Michigan does not need to trade scores all afternoon, but it does need enough functional offense to avoid letting Miami control the game from start to finish. If Central Michigan can extend drives and turn a few possessions into points, the market's demand for a massive margin becomes harder to satisfy.
 
 ## Best Bets Of The Week
 

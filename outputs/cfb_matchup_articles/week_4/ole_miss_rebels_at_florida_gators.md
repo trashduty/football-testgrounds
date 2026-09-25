@@ -15,7 +15,9 @@ The Ole Miss Rebels visit the Florida Gators at Ben Hill Griffin Stadium. We mak
 
 The best number we found is Ole Miss +3.5 at -115. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers see a clear route for Ole Miss to create scoring opportunities, particularly through a rushing attack that matches up well with Florida’s front. Trinidad Chambliss has also produced seven passing touchdowns through three games, while Ole Miss has allowed only three sacks. That matters against a Florida defense with 11 sacks, including seven in its most recent game, although we are not treating one pressure-heavy afternoon as proof that it can consistently disrupt this offense.
+Our numbers make the strongest Ole Miss case through scoring-opportunity creation and the rushing matchup, not simply the recent win over LSU. Trinidad Chambliss has thrown for 924 yards with seven touchdowns against two interceptions, and Ole Miss leads the SEC in passing yards per game. The pressure battle adds tension: Florida has recorded 11 sacks and 23 tackles for loss, while Ole Miss has allowed only one sack per game. We think that clash will determine whether Ole Miss consistently turns promising drives into scoring chances.
+
+We also see a meaningful counterweight in Florida’s ground game. The Gators are averaging 246 rushing yards per game, Jadan Baugh has 458 yards and eight touchdowns, and Ole Miss has allowed 159 rushing yards per game. Our underlying scoring-opportunity numbers are more favorable to the Ole Miss defense than those raw figures suggest, but Florida’s rushing production cannot be dismissed. Once we balance those competing matchup advantages, our overall expectation aligns with what the market is already pricing. For us, the Ole Miss case is plausible but not underpriced, so we pass.
 
 ### What The Numbers Say
 
@@ -67,7 +69,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Ole Miss’ rushing offense against Florida’s defensive front. Our longer-run metrics favor Ole Miss here, and Kewan Lacy’s 224-yard performance against Florida last season shows the personnel has produced in this matchup before, though one previous result is not predictive by itself. If Ole Miss stays efficient on the ground and avoids obvious passing situations, we think it can reach the scoring areas our model expects; if Florida’s pressure takes over, that advantage narrows quickly.
+For us, the matchup to watch is Ole Miss creating and finishing scoring opportunities against Florida’s disruptive defense. Ole Miss has been perfect in the red zone through three games, but Florida has forced four fumbles, including two during goal-line stands. We would not treat either early-season result as proof of what happens next; the useful question is whether Chambliss can keep Ole Miss on schedule while avoiding the negative plays and sudden turnovers Florida has produced.
 
 ## Best Bets Of The Week
 

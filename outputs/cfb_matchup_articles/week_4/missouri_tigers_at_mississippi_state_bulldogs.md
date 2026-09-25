@@ -15,9 +15,9 @@ The Missouri Tigers visit the Mississippi State Bulldogs at Davis Wade Stadium. 
 
 The best number we found is Missouri +6.5 at -114. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our model and the market are telling essentially the same story, with Missouri’s defense providing the strongest football case for the favorite. Our numbers favor that unit in both scoring-opportunity prevention and pass defense. Missouri allowed 277.3 yards and 18.9 points per game last season, but we also have to account for substantial turnover: only two defensive starters returned, although transfers Robert Woodyard Jr. and Chris Graves Jr. arrived with SEC starting experience.
+Our numbers see Missouri’s defense as the clearest potential separator. Mississippi State has struggled to create scoring opportunities efficiently, while Missouri grades well at preventing them. The opener offered some supporting evidence, with Missouri holding Arkansas-Pine Bluff to 198 yards and three third-down conversions, but we are not treating that result as proof against stronger competition.
 
-The other question for us is how much confidence to place in Missouri’s offense. Austin Simmons completed 17 of 19 passes with four touchdowns in his debut, but we are not treating one game against Arkansas-Pine Bluff as proof that the passing game has answered every question. Missouri has a new offensive coordinator, and two members of the listed offensive line entered the season in new starting roles. With our numbers less enthusiastic about Missouri’s passing matchup, the available price does not create enough separation from our baseline expectation. That leaves us with a pass.
+The uncertainty is on both sides of the ball for Missouri. Austin Simmons completed 17 of 19 passes with four touchdowns in his debut, but the offense returned only five starters and replaced its quarterback, center, a tackle and three starting receivers. The defense also returned just two starters after losing 10, so our strong longer-run defensive rating still has to be tested with a substantially different group. For us, the market is already accounting for Missouri’s advantages closely enough, and the available price does not create sufficient value.
 
 ### What The Numbers Say
 
@@ -69,7 +69,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Mississippi State’s offense against Missouri’s ability to prevent scoring opportunities. Our matchup numbers suggest Mississippi State could have difficulty generating enough productive possessions, especially through the air. The personnel turnover on Missouri’s defense keeps that from being automatic, but if the rebuilt unit performs near the standard reflected in our longer-run numbers, Mississippi State’s path to staying competitive becomes narrower.
+We are watching Mississippi State’s passing offense against Missouri’s rebuilt defense. Our ratings favor Missouri in this matchup, especially when it comes to keeping opponents from turning drives into scoring chances. The question is whether that carries over with so much personnel turnover. Missouri did add experienced SEC starters Robert Woodyard Jr. at linebacker and Chris Graves Jr. at cornerback, but we need more evidence before treating the opening performance as confirmation.
 
 ## Best Bets Of The Week
 

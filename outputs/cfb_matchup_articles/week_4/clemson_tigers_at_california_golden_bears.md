@@ -15,11 +15,11 @@ The Clemson Tigers visit the California Golden Bears at California Memorial Stad
 
 The best number we found is California +1.5 at -115. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our view of a nearly balanced game starts with skepticism about carrying California’s latest offensive performance forward. California produced 626 yards against Wagner, including a career-high 413 passing yards from Jaron-Keawe Sagapolutele. That shows the passing ceiling, but our longer-run numbers are less impressed by California’s ability to create scoring opportunities and run efficiently. Clemson’s stronger scoring-opportunity prevention is an important counterweight.
+Our numbers keep these teams close largely because we see California’s pass defense as a credible answer to Clemson’s offense. California has five interceptions through three games, with Kingston Lopa accounting for all five and producing a takeaway in every game. That matters against a Clemson offense led last week by true freshman Tait Reynolds in his first career start. Reynolds played well enough to lead a comeback, but we are not treating one result as proof that Clemson’s passing game has solved everything.
 
-The other side keeps us from leaning strongly toward Clemson. Our numbers favor California’s pass defense in this matchup, and the early results support that concern: California ranks first in the ACC in pass-defense efficiency, while Kingston Lopa has intercepted five passes in three games. Clemson did produce season highs in total, passing and rushing yards against North Carolina, but we are not treating one improved offensive performance as proof that those gains will carry over.
+The concern for us is whether California can consistently turn possessions into scoring opportunities. Jaron-Keawe Sagapolutele threw for a career-high 413 yards and three touchdowns against Wagner, but our longer-run metrics remain skeptical of California’s rushing efficiency and its ability to create quality scoring chances. Clemson, meanwhile, produced season highs in total offense, passing and rushing against North Carolina. Those recent performances add context, but the more useful takeaway is that each offense still has a meaningful obstacle in this matchup.
 
-For us, the disagreement with the market is real but not meaningful enough at the available price. California’s pass defense gives it a credible path, while Clemson’s ability to limit scoring opportunities directly challenges the weakest part of California’s offensive profile. Those competing matchup advantages leave us without enough value to get involved.
+That is why our slight disagreement with the market is not enough to force a position. We can make a case for California’s defense keeping the game tight, but we do not see enough offensive support to justify the available price.
 
 ### What The Numbers Say
 
@@ -71,9 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Clemson’s passing game against California’s secondary. True freshman Tait Reynolds completed 20 of 29 passes for 215 yards, one touchdown and one interception in his first career start, but California presents a more demanding efficiency profile against the pass.
+We are watching Clemson’s passing game against California’s secondary. Our metrics favor California on that side of the ball, and the interception production gives the defense a clear path to disrupting a young quarterback. The question is whether that takeaway rate proves sustainable or whether Reynolds can build on a debut in which he completed 20 of 29 passes for 215 yards.
 
-Lopa’s five interceptions stand out, although we would not assume that takeaway pace continues. The more useful question is whether California can discourage efficient throws and force Clemson to rely on sustained drives. If it can, that supports our close-game view; if Clemson carries forward its improved offensive balance, California’s defensive advantage becomes less decisive.
+For us, this matchup is central because California does not project to have a large margin for error offensively. If its secondary can limit efficient Clemson possessions without relying on another multi-turnover performance, the game should remain close. If Clemson protects the ball and stays balanced, California may struggle to create enough separation elsewhere.
 
 ## Best Bets Of The Week
 

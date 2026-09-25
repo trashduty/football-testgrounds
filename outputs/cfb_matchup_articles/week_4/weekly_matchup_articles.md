@@ -246,11 +246,11 @@ The Army Black Knights visit the Temple Owls at Lincoln Financial Field. We make
 
 The best number we found is Temple +3.5 at -120. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case is not that Temple is the better team. The market is asking Army to create more separation than our baseline expects, and Temple’s offense gives us some reason to resist that assumption. We have seen Temple rush for at least 186 yards in each of its first three games, although Army’s defense has allowed fewer than 100 rushing yards per game. That strength-on-strength matchup gives Temple a plausible way to sustain possessions rather than simply asking its passing game to carry the offense.
+The market is pricing Army as the more likely winner, but our numbers give Temple more credit for its ability to stay productive on the ground. Temple has exceeded 176 rushing yards in every game and scored on every red-zone possession through three weeks. We are not treating those early results as proof, but that rushing production gives Temple a plausible way to sustain drives and keep this competitive.
 
-The concern is much clearer on the other side. Our efficiency profile favors Army both on the ground and through the air against this Temple defense. Army is averaging 394 rushing yards per game, while Temple has allowed opponents to convert more than half of their third downs. Cale Hellums also gives Army another dimension, with 150 passing yards, 142 rushing yards and four total touchdowns through two games.
+The concern for us is Army’s offense against a Temple defense that has struggled to end possessions. Army converted half of its third downs through two games, while Temple’s opponents converted 51.3 percent through three. Army also has more passing efficiency than its reputation suggests: Cale Hellums completed 9 of 10 attempts with two touchdowns against South Florida. That matters because Temple cannot focus exclusively on the run.
 
-That is why our disagreement with the market remains modest. We can make a case for Temple staying competitive, but Army has multiple ways to control possessions and finish drives. The available price does not leave enough margin for us to act.
+For us, the case for Temple is built around its own rushing offense and scoring efficiency, not an expectation that it will consistently stop Army. Our disagreement with the market is meaningful enough to create interest, but the defensive matchup and the current price leave too little margin to justify a wager.
 
 ### What The Numbers Say
 
@@ -302,9 +302,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Army’s rushing offense against Temple’s front. Temple has allowed only 117.3 rushing yards per game, but Army has already generated 25 runs of at least 10 yards. The question for us is whether Temple’s early run-defense results hold up against an offense that can repeatedly create explosive gains without relying on conventional passing volume.
-
-If Temple limits those chunk runs and forces Army into longer conversion situations, our expectation of a tighter game becomes easier to support. If Army stays ahead of schedule, Temple’s third-down defense becomes an even larger concern.
+We are watching Army’s third-down offense against Temple’s third-down defense. Army’s ability to stay ahead of schedule can turn this into a possession-control game, and Temple has not shown that it can reliably get off the field. If Temple forces punts, our view of a close game becomes much easier to support; if Army repeatedly extends drives, the matchup concern outweighs the modest difference between our expectation and the market.
 
 ## Best Bets Of The Week
 
@@ -487,11 +485,9 @@ The Central Michigan Chippewas visit the Miami Hurricanes at Hard Rock Stadium. 
 
 The best number we found is Central Michigan +41.5 at -105. We give Central Michigan a 58.0% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Central Michigan is a bet.
 
-We are not reacting against Miami simply because its latest result was extreme. Miami set program records with 856 total yards and 42 first downs against Florida A&M, while tying its scoring record with 77 points. That performance helps explain the market’s confidence, but our view is that one dominant result should not automatically be carried forward into the level of separation now required. For us, the case for Central Michigan is less about questioning which team is stronger and more about whether Miami’s recent ceiling is being priced too aggressively.
+We understand why the market has pushed Miami into this range. The Hurricanes produced a program-record 856 yards against Florida A&M, while Darian Mensah completed 41 of 45 passes with eight touchdowns and no interceptions through his first two starts. We are not dismissing that dominance; we are questioning how much of it should be carried forward into the expected margin here.
 
-We also see more underlying transition than the early results suggest. Four of Miami’s five offensive-line starters from 2025 departed for the NFL, while both starting edge defenders became first-round draft selections. Those losses do not erase what Miami has done, but they add uncertainty when the market is demanding an unusually wide margin.
-
-The meaningful concern for us is Central Michigan’s ability to create scoring opportunities. Our matchup numbers favor Miami heavily in that area, and Miami’s opponents have averaged only 3.6 yards per play while converting 21 percent of their third downs through two games. We still support Central Michigan at the available price, but its offense must avoid extended stretches of empty possessions to keep Miami from creating the separation the market expects.
+For us, the case for Central Michigan is less about matching Miami's explosiveness and more about the market demanding another nearly flawless performance. Miami replaced four of its five starting offensive linemen from 2025 and lost both starting edge defenders as first-round NFL Draft picks. That turnover does not automatically make Miami vulnerable, but it gives our longer-run numbers reason to stop short of pricing the Hurricanes quite as aggressively as the market has.
 
 ### What The Numbers Say
 
@@ -543,7 +539,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Central Michigan’s offense against Miami’s scoring-opportunity prevention. Miami has already shown it can end drives quickly, holding Florida A&M’s offense to 107 total yards, four first downs and one third-down conversion in 14 attempts. Central Michigan does not need to match Miami’s offensive output for our position to work, but we think a few sustained drives could materially change the margin by limiting short fields and reducing Miami’s total possessions.
+We are watching whether Central Michigan can create enough scoring opportunities against the strongest part of Miami's profile. Our matchup numbers give Miami a clear advantage in preventing productive possessions, and the Hurricanes allowed only 13 total points and 57.5 rushing yards per game through their first two contests.
+
+That is the meaningful concern for our position. Central Michigan does not need to trade scores all afternoon, but it does need enough functional offense to avoid letting Miami control the game from start to finish. If Central Michigan can extend drives and turn a few possessions into points, the market's demand for a massive margin becomes harder to satisfy.
 
 ## Best Bets Of The Week
 
@@ -572,11 +570,11 @@ The Clemson Tigers visit the California Golden Bears at California Memorial Stad
 
 The best number we found is California +1.5 at -115. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our view of a nearly balanced game starts with skepticism about carrying California’s latest offensive performance forward. California produced 626 yards against Wagner, including a career-high 413 passing yards from Jaron-Keawe Sagapolutele. That shows the passing ceiling, but our longer-run numbers are less impressed by California’s ability to create scoring opportunities and run efficiently. Clemson’s stronger scoring-opportunity prevention is an important counterweight.
+Our numbers keep these teams close largely because we see California’s pass defense as a credible answer to Clemson’s offense. California has five interceptions through three games, with Kingston Lopa accounting for all five and producing a takeaway in every game. That matters against a Clemson offense led last week by true freshman Tait Reynolds in his first career start. Reynolds played well enough to lead a comeback, but we are not treating one result as proof that Clemson’s passing game has solved everything.
 
-The other side keeps us from leaning strongly toward Clemson. Our numbers favor California’s pass defense in this matchup, and the early results support that concern: California ranks first in the ACC in pass-defense efficiency, while Kingston Lopa has intercepted five passes in three games. Clemson did produce season highs in total, passing and rushing yards against North Carolina, but we are not treating one improved offensive performance as proof that those gains will carry over.
+The concern for us is whether California can consistently turn possessions into scoring opportunities. Jaron-Keawe Sagapolutele threw for a career-high 413 yards and three touchdowns against Wagner, but our longer-run metrics remain skeptical of California’s rushing efficiency and its ability to create quality scoring chances. Clemson, meanwhile, produced season highs in total offense, passing and rushing against North Carolina. Those recent performances add context, but the more useful takeaway is that each offense still has a meaningful obstacle in this matchup.
 
-For us, the disagreement with the market is real but not meaningful enough at the available price. California’s pass defense gives it a credible path, while Clemson’s ability to limit scoring opportunities directly challenges the weakest part of California’s offensive profile. Those competing matchup advantages leave us without enough value to get involved.
+That is why our slight disagreement with the market is not enough to force a position. We can make a case for California’s defense keeping the game tight, but we do not see enough offensive support to justify the available price.
 
 ### What The Numbers Say
 
@@ -628,9 +626,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Clemson’s passing game against California’s secondary. True freshman Tait Reynolds completed 20 of 29 passes for 215 yards, one touchdown and one interception in his first career start, but California presents a more demanding efficiency profile against the pass.
+We are watching Clemson’s passing game against California’s secondary. Our metrics favor California on that side of the ball, and the interception production gives the defense a clear path to disrupting a young quarterback. The question is whether that takeaway rate proves sustainable or whether Reynolds can build on a debut in which he completed 20 of 29 passes for 215 yards.
 
-Lopa’s five interceptions stand out, although we would not assume that takeaway pace continues. The more useful question is whether California can discourage efficient throws and force Clemson to rely on sustained drives. If it can, that supports our close-game view; if Clemson carries forward its improved offensive balance, California’s defensive advantage becomes less decisive.
+For us, this matchup is central because California does not project to have a large margin for error offensively. If its secondary can limit efficient Clemson possessions without relying on another multi-turnover performance, the game should remain close. If Clemson protects the ball and stays balanced, California may struggle to create enough separation elsewhere.
 
 ## Best Bets Of The Week
 
@@ -1198,9 +1196,11 @@ The Illinois Fighting Illini visit the Ohio State Buckeyes at Ohio Stadium. We m
 
 The best number we found is Illinois +27.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for Ohio State creating separation starts with its passing game. Our numbers rate that offense among the nation’s best in pass EPA, while Illinois sits well below average against the pass. We also see continuity behind that advantage: Julian Sayin returned after completing 77 percent of his passes in 2025, and Ohio State brought back eight offensive starters along with 85.8 percent of its offensive-line snaps.
+We are not disputing Ohio State’s ability to control this matchup. Our data shows a substantial advantage for its passing offense against Illinois’ pass defense, and the surrounding continuity strengthens that case. Julian Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns last season, while Ohio State returned 85.8 percent of its offensive-line snaps among players who logged at least 100 snaps.
 
-The problem for Illinois extends beyond defending the pass. Our numbers also show a major Ohio State advantage when Illinois runs the ball and when it tries to create scoring opportunities. Still, we are not treating last season’s dominant Ohio State defense as fully interchangeable with this group after eight defensive starters departed. The current matchup indicators remain strongly favorable to Ohio State, but our disagreement with the market is too modest to create enough value at the available price. That is why this remains a pass for us.
+Illinois also lacks an obvious offensive counter. Our numbers show its rushing attack running into one of the strongest rush defenses in the country, with an equally difficult challenge when it comes to creating scoring opportunities. We did see Ohio State limit Ball State to 45 rushing yards, but we treat that opener as supporting context rather than proof of what will happen here.
+
+The more interesting part for us is how much defensive dominance the market is pricing over a full game. We note that Ohio State returned only three defensive starters after losing eight, which adds uncertainty despite the early results and strong efficiency profile. Our model gives Illinois slightly more room than the market does, but the matchup disadvantages leave that disagreement too thin for us to make a wager.
 
 ### What The Numbers Say
 
@@ -1252,7 +1252,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Ohio State’s passing offense against the Illinois secondary. Sayin’s accuracy and Jeremiah Smith’s production give Ohio State a direct way to attack the weakest part of the Illinois profile; Smith entered the season with 171 career receptions, 2,709 yards and 29 touchdowns. If Illinois cannot limit efficient completions and prevent Smith from generating chunk gains, we think Ohio State has a clear path to the kind of margin the market is asking it to produce.
+For us, Ohio State’s passing game against Illinois’ pass defense is the matchup that can determine whether the favorite creates enough separation. Sayin’s efficiency gives Ohio State a strong foundation, and we saw 14 different players catch a pass in the opener, illustrating the number of options Illinois may have to account for.
+
+We think Illinois has to prevent efficient completions from turning into repeated scoring chances. If Ohio State consistently stays ahead of schedule through the air, the burden on Illinois’ offense becomes much heavier against a defense our numbers rate highly in both rushing efficiency and scoring-opportunity prevention.
 
 ## Best Bets Of The Week
 
@@ -1281,7 +1283,7 @@ The Iowa Hawkeyes visit the Michigan Wolverines at Michigan Stadium. We make **I
 
 The best number we found is Iowa +5.5 at -110. We see a 1.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
+Our disagreement with the market begins with Michigan’s offense against Iowa’s pass defense. Michigan has averaged 175.7 passing yards per game, while Iowa has allowed 110.7. Opponents have completed fewer than half their passes against Iowa, with one touchdown and three interceptions. Michigan has also lost four of its six fumbles, so we see legitimate ways for Iowa’s defense to prevent the game from getting away.
 
 ### What The Numbers Say
 
@@ -1330,6 +1332,10 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
+
+### The Matchup To Watch
+
+We are focused on Bryce Underwood against Iowa’s pass defense. Underwood has thrown for 504 yards through three games, but he is also Michigan’s leading rusher with 156 yards. That mobility gives Michigan another way to create offense against a secondary that has allowed one passing touchdown, and how Iowa contains that dimension will go a long way toward determining whether Michigan can create separation.
 
 ## Best Bets Of The Week
 
@@ -1897,9 +1903,9 @@ The Missouri Tigers visit the Mississippi State Bulldogs at Davis Wade Stadium. 
 
 The best number we found is Missouri +6.5 at -114. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our model and the market are telling essentially the same story, with Missouri’s defense providing the strongest football case for the favorite. Our numbers favor that unit in both scoring-opportunity prevention and pass defense. Missouri allowed 277.3 yards and 18.9 points per game last season, but we also have to account for substantial turnover: only two defensive starters returned, although transfers Robert Woodyard Jr. and Chris Graves Jr. arrived with SEC starting experience.
+Our numbers see Missouri’s defense as the clearest potential separator. Mississippi State has struggled to create scoring opportunities efficiently, while Missouri grades well at preventing them. The opener offered some supporting evidence, with Missouri holding Arkansas-Pine Bluff to 198 yards and three third-down conversions, but we are not treating that result as proof against stronger competition.
 
-The other question for us is how much confidence to place in Missouri’s offense. Austin Simmons completed 17 of 19 passes with four touchdowns in his debut, but we are not treating one game against Arkansas-Pine Bluff as proof that the passing game has answered every question. Missouri has a new offensive coordinator, and two members of the listed offensive line entered the season in new starting roles. With our numbers less enthusiastic about Missouri’s passing matchup, the available price does not create enough separation from our baseline expectation. That leaves us with a pass.
+The uncertainty is on both sides of the ball for Missouri. Austin Simmons completed 17 of 19 passes with four touchdowns in his debut, but the offense returned only five starters and replaced its quarterback, center, a tackle and three starting receivers. The defense also returned just two starters after losing 10, so our strong longer-run defensive rating still has to be tested with a substantially different group. For us, the market is already accounting for Missouri’s advantages closely enough, and the available price does not create sufficient value.
 
 ### What The Numbers Say
 
@@ -1951,7 +1957,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Mississippi State’s offense against Missouri’s ability to prevent scoring opportunities. Our matchup numbers suggest Mississippi State could have difficulty generating enough productive possessions, especially through the air. The personnel turnover on Missouri’s defense keeps that from being automatic, but if the rebuilt unit performs near the standard reflected in our longer-run numbers, Mississippi State’s path to staying competitive becomes narrower.
+We are watching Mississippi State’s passing offense against Missouri’s rebuilt defense. Our ratings favor Missouri in this matchup, especially when it comes to keeping opponents from turning drives into scoring chances. The question is whether that carries over with so much personnel turnover. Missouri did add experienced SEC starters Robert Woodyard Jr. at linebacker and Chris Graves Jr. at cornerback, but we need more evidence before treating the opening performance as confirmation.
 
 ## Best Bets Of The Week
 
@@ -1980,9 +1986,11 @@ The Navy Midshipmen visit the UAB Blazers at Protective Stadium. We make **UAB +
 
 The best number we found is UAB +6.5 at -108. We give UAB a 58.1% chance to cover, which creates an 6.2% edge for us. That clears our 3% threshold, so UAB is a bet.
 
-For us, the case is not that UAB has a clean answer for Navy’s ground game. Navy is averaging 376 rushing yards and 6.9 yards per carry, and it has turned all five red-zone possessions into touchdowns. Our model is instead resisting a market price that appears to treat that advantage as sufficient for Navy to create substantial separation.
+For us, the case is less about claiming UAB is the better team and more about questioning how much separation Navy should create on the road. Navy’s opponents have completed 41 of 52 passes for 593 yards and seven touchdowns without an interception, including 386 yards and five scores by Florida Atlantic. Ryder Burton has started all three games for UAB, and the offense has converted 47.8 percent of its third downs. We see a credible path for UAB to sustain drives against the weaker area of Navy’s defense.
 
-The more interesting counterweight is UAB’s path on offense. Navy has allowed only 40.5 rushing yards per game, so UAB may not get its usual production from a ground game averaging 178 yards. But Navy’s opponents have completed 41 of 52 passes for 593 yards and seven touchdowns without an interception, including 386 yards and five scores by Florida Atlantic. We see a credible passing route for UAB to stay competitive, although its three touchdowns in eight red-zone trips remain a meaningful concern.
+The biggest concern for us is the ground-game mismatch. Navy is averaging 376 rushing yards per game, while UAB is allowing 192. Braxton Woodson’s availability was not stated after he left the Florida Atlantic game, but Jackson Gutierrez produced 75 rushing yards and three total touchdowns in relief. Navy’s rushing structure remains dangerous regardless of who takes the snaps.
+
+That concern is reflected in our view, but it does not erase UAB’s ability to stay competitive through its passing game and special teams. Jonah Delange is perfect on field goals and extra points this season, which matters in a game where finishing drives could decide whether Navy creates the margin the market expects. Our numbers point to a tighter game, and the available cushion is enough for us to back UAB.
 
 ### What The Numbers Say
 
@@ -2034,9 +2042,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Navy’s rushing offense against UAB’s front because it is the clearest threat to our position. Our efficiency numbers show a major advantage for Navy, and the quarterback situation does not eliminate that concern. Braxton Woodson left the Florida Atlantic game with a lower-body injury, with his availability against UAB unstated, but Jackson Gutierrez replaced him and produced 75 rushing yards, 100 passing yards and three total touchdowns.
+We are watching UAB’s early-down run defense against Navy’s rushing offense. Navy has paired its production on the ground with touchdowns on all five red-zone possessions, so UAB cannot afford to let efficient rushing drives turn into automatic finishes.
 
-UAB does not have to erase Navy’s rushing attack for our view to hold. We need to see enough resistance to prevent Navy from controlling and finishing possessions consistently, giving UAB’s passing game opportunities to keep the margin compressed.
+If UAB can force Navy into longer passing situations, the game becomes much more favorable for our position. If Navy consistently stays ahead of schedule, it can control possession and limit the opportunities Burton has to attack its pass defense. That battle will do the most to determine whether Navy separates or UAB keeps the game inside the market’s expectation.
 
 ## Best Bets Of The Week
 
@@ -2373,9 +2381,9 @@ The Notre Dame Fighting Irish visit the Purdue Boilermakers at Ross-Ade Stadium.
 
 The best number we found is Purdue +27.5 at -102. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our model is more willing than the market to keep Purdue competitive, and the case starts with offensive competence rather than treating these teams as equals. Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions in the opener, while Purdue generated 523 total yards without a turnover. We are not treating one result as proof, but efficient quarterback play and ball security give a large underdog a better chance to sustain drives and avoid handing Notre Dame extra possessions.
+We see a plausible case for Purdue staying more competitive than the market expects because its offense showed functional upside in the opener. Purdue produced 523 total yards, while Ryan Browne completed 23 of 29 passes for 317 yards and three touchdowns. We also place some value on Browne’s continuity as a returning starter, particularly for an underdog that may need to answer Notre Dame with sustained drives rather than rely on variance alone.
 
-The concern is Purdue’s defense. Notre Dame owns major efficiency advantages on the ground, through the air and in creating scoring opportunities. Purdue held Indiana State to 66 rushing yards, but 16 players made their first Purdue starts and 38 made their Purdue debuts, so we need more evidence before concluding that the defense has materially changed. We see enough offensive upside to understand our model’s Purdue lean, but the defensive mismatch keeps the disagreement modest and leaves us without enough value at the current price.
+The concern for us is that Purdue’s opening performance came against Indiana State and featured 38 players making their Purdue debuts, including 16 first-time Purdue starters. The defense recorded three sacks and eight tackles for loss, but our broader numbers still point to major problems against a Notre Dame offense with advantages on the ground, through the air and in creating scoring opportunities. We can understand why our model is less pessimistic about Purdue than the market, but Notre Dame’s ability to attack the defense in multiple ways keeps that disagreement from becoming valuable enough for us to bet.
 
 ### What The Numbers Say
 
@@ -2427,9 +2435,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Notre Dame’s rushing offense against Purdue’s front. Our longer-run numbers identify this as the clearest path for Notre Dame to create frequent scoring opportunities and control the game without relying on difficult passing situations.
+We are focused on Notre Dame’s rushing offense against Purdue’s run defense. Our numbers identify this as the clearest path for Notre Dame to control the game: efficient rushing can create manageable downs, extend drives and repeatedly move the offense into scoring range.
 
-Purdue’s opening run-defense performance was encouraging, but we are not carrying that result forward without context. The question for us is whether a heavily reworked defense can reproduce that resistance against an offense our numbers rate among the nation’s most efficient on the ground. That matchup is the biggest obstacle to Purdue staying competitive enough for our slight model disagreement to matter.
+For our Purdue position to remain viable, we need to see the front prevent early-down runs from turning into a steady stream of favorable situations. If Notre Dame consistently dictates terms on the ground, Purdue’s improved offensive showing may not be enough to keep pace with the margin the market is asking it to cover.
 
 ## Best Bets Of The Week
 
@@ -2612,7 +2620,9 @@ The Ole Miss Rebels visit the Florida Gators at Ben Hill Griffin Stadium. We mak
 
 The best number we found is Ole Miss +3.5 at -115. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers see a clear route for Ole Miss to create scoring opportunities, particularly through a rushing attack that matches up well with Florida’s front. Trinidad Chambliss has also produced seven passing touchdowns through three games, while Ole Miss has allowed only three sacks. That matters against a Florida defense with 11 sacks, including seven in its most recent game, although we are not treating one pressure-heavy afternoon as proof that it can consistently disrupt this offense.
+Our numbers make the strongest Ole Miss case through scoring-opportunity creation and the rushing matchup, not simply the recent win over LSU. Trinidad Chambliss has thrown for 924 yards with seven touchdowns against two interceptions, and Ole Miss leads the SEC in passing yards per game. The pressure battle adds tension: Florida has recorded 11 sacks and 23 tackles for loss, while Ole Miss has allowed only one sack per game. We think that clash will determine whether Ole Miss consistently turns promising drives into scoring chances.
+
+We also see a meaningful counterweight in Florida’s ground game. The Gators are averaging 246 rushing yards per game, Jadan Baugh has 458 yards and eight touchdowns, and Ole Miss has allowed 159 rushing yards per game. Our underlying scoring-opportunity numbers are more favorable to the Ole Miss defense than those raw figures suggest, but Florida’s rushing production cannot be dismissed. Once we balance those competing matchup advantages, our overall expectation aligns with what the market is already pricing. For us, the Ole Miss case is plausible but not underpriced, so we pass.
 
 ### What The Numbers Say
 
@@ -2664,7 +2674,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Ole Miss’ rushing offense against Florida’s defensive front. Our longer-run metrics favor Ole Miss here, and Kewan Lacy’s 224-yard performance against Florida last season shows the personnel has produced in this matchup before, though one previous result is not predictive by itself. If Ole Miss stays efficient on the ground and avoids obvious passing situations, we think it can reach the scoring areas our model expects; if Florida’s pressure takes over, that advantage narrows quickly.
+For us, the matchup to watch is Ole Miss creating and finishing scoring opportunities against Florida’s disruptive defense. Ole Miss has been perfect in the red zone through three games, but Florida has forced four fumbles, including two during goal-line stands. We would not treat either early-season result as proof of what happens next; the useful question is whether Chambliss can keep Ole Miss on schedule while avoiding the negative plays and sudden turnovers Florida has produced.
 
 ## Best Bets Of The Week
 
@@ -3463,7 +3473,11 @@ The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas
 
 The best number we found is Texas A&M +9.5 at -104. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We understand why the market is giving LSU substantial respect. Through two games, LSU averaged 48 points and 586 yards while running 89 offensive snaps per game. Still, we are not treating that early production as proof that the same efficiency carries into this matchup. Our numbers identify Texas A&M’s ability to prevent scoring opportunities as a significant step up from what LSU has faced so far.
+We are not reacting simply to both teams coming off SEC losses. For us, the case for Texas A&M begins with a defense that has consistently limited scoring opportunities. LSU has converted 56% of its third downs, but Texas A&M has allowed only a 23% conversion rate, and opponents have scored on just nine of 32 qualifying possessions. Our longer-run numbers also favor Texas A&M when LSU has to generate offense through the air.
+
+The concern is that the defense did not fully control Kentucky, which gained 408 yards without committing a turnover. Texas A&M still produced 423 yards in that loss, however, with Marcel Reed rushing for 80 yards and Mario Craver catching 11 passes for 119 yards. We think Reed's mobility and the emerging connection with Craver give Texas A&M enough offensive flexibility to stay competitive if its defense creates the difficult possessions our numbers anticipate.
+
+That explains our modest disagreement with the market, but it does not make the available price attractive enough. The market and our model are still describing nearly the same game, so we pass rather than force a position based on a narrow difference.
 
 ### What The Numbers Say
 
@@ -3515,9 +3529,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, LSU’s passing game against the Texas A&M pass defense is the matchup to watch. Sam Leavitt has produced 574 passing yards and added 135 yards on the ground through two games, but he has also thrown four interceptions. Our matchup data is considerably more skeptical of LSU’s passing efficiency than the early yardage totals might suggest.
-
-We also see Trey'Dez Green as an important piece of that test. Eight of his 10 receptions have generated a first down or touchdown, giving LSU a useful option for sustaining drives. If Texas A&M can limit those productive completions and force LSU to repeatedly finish longer possessions, the case for the underdog becomes more credible. The disagreement is interesting, but it remains too small for us to justify a wager at the available price.
+We are watching LSU's passing game against Texas A&M's pass defense. Our metrics give Texas A&M the advantage here, and Dezz Ricks has allowed only one reception for one yard on five targets across 62 coverage snaps. The complication is Sam Leavitt's mobility: through LSU's first two games, he had 135 rushing yards and five rushing touchdowns. We think Texas A&M can disrupt LSU's passing efficiency, but containing Leavitt after the initial coverage holds will be critical to turning that advantage into stops.
 
 ## Best Bets Of The Week
 
@@ -3546,9 +3558,9 @@ The Texas Longhorns visit the Tennessee Volunteers at Neyland Stadium. We make *
 
 The best number we found is Tennessee +4.5 at -105. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are slightly more favorable to Tennessee than the market, largely because we see multiple ways for its offense to stay efficient. The ground game is the clearest foundation: Tennessee is averaging 298.7 rushing yards per game, while DeSean Bishop and Daune Morris have given the backfield two productive options. That matters because it can keep true freshman quarterback Faizon Brandon out of obvious passing situations against a Texas defense with a disruptive edge presence in Colin Simmons.
+Our slight lean toward Tennessee comes from the way its offense can stress Texas on the ground and through the air. Tennessee has averaged 298.7 rushing yards per game and scored touchdowns on 10 of its 11 red-zone possessions. We view those early results as supporting context rather than proof, but they align with our efficiency numbers and give Tennessee more than one credible path to sustain drives.
 
-The tension is that Texas has the personnel to challenge that approach. Simmons has recorded a sack in seven of his past eight games, while Brandon has yet to throw an interception in 64 attempts. We also have to account for Texas playing its first road game of the season and making its first trip to Neyland Stadium. Those factors help explain our modest lean toward Tennessee, but the difference from the market is too small for us to treat the available price as meaningful value.
+Texas makes that case difficult to price aggressively. It rushed for a season-high 228 yards without a turnover against UTSA, while its experienced offensive line has combined for 124 career starts. Tennessee has generated 13 sacks, and Texas has allowed 6.67 tackles for loss per game, so disruption remains a possible advantage for the home defense. Still, the competing evidence is strong enough that our small difference with the market does not create sufficient value for us.
 
 ### What The Numbers Say
 
@@ -3600,9 +3612,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Tennessee's rushing offense against the Texas front. Our numbers identify that as Tennessee's most convincing offensive advantage, and Bishop already has 286 rushing yards with 175 coming after contact. If Tennessee can remain efficient on early downs, it can reduce the burden on Brandon and limit the opportunities for Simmons to affect the game in clear passing situations.
-
-Texas does not need to eliminate the run entirely. The more important question is whether it can prevent Tennessee from consistently creating manageable third downs, especially with Tennessee converting 56.3 percent of those opportunities through three games. That battle will do the most to determine whether our slight disagreement with the market proves meaningful.
+For us, the matchup to watch is Tennessee's rushing offense against the Texas front. Our efficiency ratings favor Tennessee here, but Texas has allowed only 109 rushing yards per game. If Tennessee can stay ahead of schedule, it can keep true freshman Faizon Brandon out of obvious passing situations. If Texas controls the run, the game becomes much less comfortable for our slight Tennessee lean.
 
 ## Best Bets Of The Week
 
@@ -3785,11 +3795,11 @@ The UCLA Bruins visit the Maryland Terrapins at SECU Stadium. We make **Maryland
 
 The best number we found is Maryland +1.5 at -106. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our modest preference for Maryland starts with an offense that has shown credible early balance. Malik Washington has completed 53 of 72 passes for 533 yards without an interception, while Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both topped 100 receiving yards at UConn. We are not treating two games as proof, but that production gives us more confidence that Maryland can sustain offense through the air rather than depend on short fields or turnovers.
+Our numbers are modestly more favorable to Maryland than the market, and the offensive stability helps explain why. Malik Washington completed 34 of 41 passes for 347 yards and two touchdowns against UConn, while Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both topped 100 receiving yards. We are not treating one performance as proof, but Washington's efficiency and Maryland's turnover-free start give the offense a credible floor.
 
-We also see support on the other side of the ball. Maryland allowed 154 total yards and seven points per game through its first two contests while recording 10 sacks. That pressure is relevant against a UCLA passing offense our numbers rate poorly, but the matchup is not uniformly favorable for Maryland.
+The defensive picture is less straightforward. Maryland recorded 10 sacks through two games, but our matchup data identifies UCLA's rushing offense as the more credible challenge and grades Maryland's run defense less favorably than its early raw results suggest. UCLA's passing efficiency has been the weaker part of its offense, so Maryland's ability to pressure the passer matters most if it can first limit the run.
 
-For us, that last point is why this remains a pass. Our longer-run numbers see UCLA's rushing offense as a legitimate challenge for Maryland's defense, creating enough uncertainty to offset the encouraging early results. We differ slightly from the market, but not by enough to make the available price worthwhile.
+That tension is why this remains a pass for us. We can explain why our model leans a little more toward Maryland, but the disagreement is too small to create meaningful value at the available price.
 
 ### What The Numbers Say
 
@@ -3841,7 +3851,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching UCLA's rushing offense against Maryland's rush defense. Maryland allowed only 38.5 rushing yards per game through two games, but our broader efficiency numbers are much less flattering to that unit and considerably more favorable to UCLA on the ground. The question is whether Maryland's early run prevention reflects something sustainable or whether UCLA can keep its offense out of the difficult passing situations in which Maryland's pass rush becomes most influential.
+We are watching UCLA's rushing offense against Maryland's run defense. Maryland allowed only 38.5 rushing yards per game through its first two contests, but our longer-run efficiency numbers are more skeptical of that unit. The question is whether the early results reflect sustainable run prevention or a small-sample start that overstates Maryland's advantage.
+
+If UCLA can stay efficient on the ground, it can avoid leaning on the weaker part of its offense and reduce Maryland's pass-rush opportunities. If Maryland controls early downs, the matchup shifts toward a defense that has already shown it can generate pressure.
 
 ## Best Bets Of The Week
 
@@ -4101,9 +4113,11 @@ The Utah Utes visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iow
 
 The best number we found is Iowa State +7.5 at -105. We give Iowa State a 60.5% chance to cover, which creates an 9.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
-We understand why the market is charging a premium for Utah. The Utes have won each of their first three games by at least 23 points, average 47.3 points per game and have yet to play on the road. We are not treating those early margins as proof that the same separation carries into Ames.
+We understand why the market is high on Utah. The offense is averaging 518.0 yards and 47.3 points per game, while the defense has allowed only 24 total points. We are not dismissing that start, but we are less willing to treat three games as the Utes’ permanent level—especially with Utah making its first road trip of the season against an Iowa State defense allowing 226.3 yards per game. Our view is that the market is asking Utah to reproduce its early dominance in a meaningfully different setting.
 
-For us, the case centers on Iowa State having a credible rushing path that can keep the game competitive and limit how often Utah’s offense dictates terms. The concern is Utah’s passing game: Devon Dampier has completed 53 of 74 passes for 690 yards, seven touchdowns and one interception, and our efficiency numbers identify that matchup as Utah’s clearest advantage. Even with that risk, we think Iowa State’s ground game gives the home side enough offensive stability to support our position.
+For us, Iowa State’s clearest path is on the ground. Aiden Flora is averaging 8.6 yards per carry, and Iowa State has reached 100 rushing yards in 20 consecutive games. Utah has allowed only 75.0 rushing yards per game so far, but our rush-efficiency numbers are considerably less favorable toward that defense. That disagreement between the early raw results and our longer-run profile is a major reason we see Iowa State as more competitive than the market does.
+
+The meaningful concern is Utah’s passing game. Devon Dampier has thrown for 690 yards with seven touchdowns and one interception, and his offensive line has allowed only two sacks. Our numbers also see Utah’s passing offense as the toughest matchup for Iowa State’s defense. Still, Iowa State does not need to control every phase to support our position; it needs its running game to sustain drives and its defense to prevent Utah’s passing advantage from turning into repeated explosive scores.
 
 ### What The Numbers Say
 
@@ -4155,7 +4169,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Iowa State’s rushing offense against Utah’s run defense. The early surface numbers favor Utah, which is allowing only 75 rushing yards per game, but our efficiency ratings see considerably more vulnerability there. Iowa State is averaging 203.7 rushing yards per game, while Aiden Flora leads the Big 12 with 109.3 per game and 8.6 per carry. The 365-yard performance against Bowling Green is context rather than a forecast, but it reinforces why we see the ground game as the most plausible source of market disagreement.
+We are watching Utah’s passing offense against Iowa State’s pass defense, particularly on third down. Utah has converted 60.5 percent of its third downs, while Iowa State has allowed opponents to convert only 27.9 percent. The Cyclones have also surrendered just four passes of at least 20 yards through three games. If Iowa State can limit explosive completions and force Utah off the field often enough, we think the game is more likely to stay in the range our model expects.
 
 ## Best Bets Of The Week
 
@@ -4338,9 +4352,7 @@ The Wake Forest Demon Deacons visit the Louisville Cardinals at L&N Federal Cred
 
 The best number we found is Wake Forest +13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our slight lean toward Wake Forest comes from its ability to create enough offense to stay competitive, not from a belief that it owns a clear matchup advantage. Our numbers rate Louisville as the stronger unit against both the pass and the run, with its best defensive advantage appearing in scoring-opportunity prevention. The market is asking whether Wake Forest can sustain drives against that resistance, and we see a plausible path without seeing a meaningful pricing error.
-
-Our bigger concern is whether Wake Forest can prevent Louisville from creating separation. We saw opponents convert 48 percent of their third downs through two games, while Purdue produced a 329-yard passer and a 114-yard, three-touchdown rusher. We are not treating one game as predictive, but that performance highlights the defensive vulnerability that offsets Wake Forest's offensive upside. For us, those competing signals leave the current price too close to our expectation to justify a wager.
+Our slight lean toward Wake Forest comes from an offense that has shown multiple ways to move the ball. Gio Lopez has thrown for 575 yards with four touchdowns and no interceptions through two games, while adding 98 rushing yards and two scores. Carlos Hernandez has supplied 253 receiving yards, and Wake Forest has scored on nine of its first 10 red-zone possessions. That production is encouraging, but we are not treating a two-game sample as proof that it will carry over unchanged.
 
 ### What The Numbers Say
 
@@ -4392,7 +4404,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Wake Forest's passing game against Louisville's pass defense. Gio Lopez opened the season with 575 passing yards, four touchdowns and no interceptions through two games, while Carlos Hernandez produced 253 receiving yards. Wake Forest also converted all three fourth-down attempts and nine of 10 red-zone opportunities over that span. Those results show how Wake Forest can extend drives and finish possessions, but our matchup numbers still favor Louisville's defense. The question for us is whether Lopez and Hernandez can generate offense consistently without requiring the same level of success in high-leverage situations.
+For us, the matchup to watch is Lopez and the Wake Forest passing game against Louisville’s pass defense. Lopez’s ability to contribute through the air and on the ground gives Wake Forest a path to sustain offense, but our efficiency numbers rate Louisville’s pass defense well ahead of Wake Forest’s passing attack. That tension explains both our modest preference for the underdog and why it remains a pass: the football case is plausible, but the available price does not create meaningful separation from the market.
 
 ## Best Bets Of The Week
 

@@ -2,7 +2,7 @@
   "game": "Iowa Hawkeyes@Michigan Wolverines",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T04:18:40.697618+00:00",
+  "generated_at_utc": "2026-09-25T13:37:01.071858+00:00",
   "model_prediction": 4.0,
   "market_line": 5.5,
   "best_line": 5.5,
@@ -12,16 +12,733 @@
   "edge": 0.0189151361904761,
   "bet_short": "Iowa",
   "guide_enrichment": {
-    "enabled": false,
-    "narrative": "",
-    "matchup_to_watch": "",
+    "enabled": true,
+    "narrative": "Our disagreement with the market begins with Michigan\u2019s offense against Iowa\u2019s pass defense. Michigan has averaged 175.7 passing yards per game, while Iowa has allowed 110.7. Opponents have completed fewer than half their passes against Iowa, with one touchdown and three interceptions. Michigan has also lost four of its six fumbles, so we see legitimate ways for Iowa\u2019s defense to prevent the game from getting away.",
+    "matchup_to_watch": "We are focused on Bryce Underwood against Iowa\u2019s pass defense. Underwood has thrown for 504 yards through three games, but he is also Michigan\u2019s leading rusher with 156 yards. That mobility gives Michigan another way to create offense against a secondary that has allowed one passing touchdown, and how Iowa contains that dimension will go a long way toward determining whether Michigan can create separation.",
     "guide_status": [
-      "No guide found for Iowa Hawkeyes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa.pdf",
-      "No guide found for Michigan Wolverines. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan.pdf"
+      "Found guide for Iowa Hawkeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa.pdf",
+      "Loaded guide for Iowa Hawkeyes: Iowa.pdf",
+      "Found guide for Michigan Wolverines: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan.pdf",
+      "Loaded guide for Michigan Wolverines: Michigan.pdf"
     ],
-    "guide_extractions": [],
-    "matchup_angles": [],
-    "used_sources": [],
-    "model_context": {}
+    "guide_extractions": [
+      {
+        "source_team": "Iowa Hawkeyes",
+        "opponent": "Michigan Wolverines",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The guide identifies Game 4 as No. 17 Iowa (3-0) at No. 18 Michigan (3-0) on Sept. 26, 2026, at Michigan Stadium in Ann Arbor.",
+        "recent_game": [
+          {
+            "fact": "Iowa defeated Northern Iowa 55-0 in Week 3 to improve to 3-0.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Northern Iowa, Iowa produced 640 total yards and 422 rushing yards; the rushing total was the most by Iowa under Kirk Ferentz.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Xavier Williams rushed for 151 yards and three touchdowns, Braeden Jackson rushed for 125 yards and one touchdown, and Nathan McNeil rushed for 111 yards and two touchdowns against Northern Iowa.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa held Northern Iowa to 155 total yards, including 53 rushing yards, and nine first downs.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "The matchup features No. 17 Iowa and No. 18 Michigan, both 3-0 entering the game.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan is averaging 27.3 points and 323.3 total yards per game while allowing 13.0 points and 220.0 yards per game.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan averages 147.7 rushing yards and 175.7 passing yards per game; its defense allows 96.3 rushing yards and 123.7 passing yards per game.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has a minus-2 turnover margin through three games, compared with Iowa's plus-3 margin.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan averages 3.33 sacks per game and has allowed 1.33 sacks per game.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kyle Whittingham is in his first season as Michigan's head coach and is 3-0 at the school.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Hank Brown has started all three games and completed 45 of 62 passes for 473 yards, three touchdowns and no interceptions.",
+            "page": 18,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown is completing 72.6 percent of his passes and has a 152.6 passing-efficiency rating.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown completed all 12 of his attempts for 153 yards and two touchdowns against Northern Iowa, tying Iowa's single-game completion-percentage record.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Dating to the fourth quarter against Iowa State, Brown directed seven consecutive scoring drives: two field goals against Iowa State and five touchdowns in the first half against Northern Iowa.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Iowa has three new starting offensive linemen: center Cael Winter, left guard Leighton Jones and right tackle Jack Dotzler each made his first career start in the opener against Northern Illinois.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Returning offensive-line starters Kade Pieper and Trevor Lauck allowed zero sacks during the 2025 season; Pieper allowed five pressures and Lauck allowed six pressures.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "UTRGV transfer Tony Diaz leads Iowa with 17 receptions on 27 targets for 201 yards and one touchdown.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Furman transfer Evan James has four receptions for 38 yards and is also Iowa's primary punt returner.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Nathan McNeil made his first career start against Northern Iowa and recorded 111 rushing yards, two rushing touchdowns and three receptions for 37 yards.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Iowa opened the season with eight new defensive starters.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Buffington has started all three games at middle linebacker and leads Iowa with 27 tackles and three tackles for loss.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Zach Lutmer moved from CASH to safety for 2026 and has eight tackles and a team-high four pass breakups.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "South Dakota State transfer Bryce Hawthorne is second on the team with 10 tackles and has 0.5 sack.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Joseph Anderson leads Iowa with two sacks, while Drew Campbell has 1.5 sacks.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Deshaun Lee, Jacob Wallace and Rashad Godfrey Jr. have accounted for Iowa's three interceptions.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Iowa added three coaches for 2026: special teams coordinator Chris Polizzi, running backs coach Jay Norvell and quarterbacks coach Billy VandeMerkt.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Polizzi and VandeMerkt were Iowa analysts in 2025 before moving into their current roles.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Former Nevada and Colorado State head coach Jay Norvell joined Iowa as running backs coach.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running backs Kamari Moulton and L.J. Phillips missed the Northern Iowa game because of injury.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Moulton has 240 rushing yards and two touchdowns on 26 attempts in two games this season.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end DJ Vonnahme missed the Northern Iowa game because of injury; he has six receptions for 67 yards in two games.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Tyler Brown returned from injury for his season and Iowa debut against Northern Iowa, recording two tackles and forcing a fumble.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end Addison Ostrenga has played in all three games after an Achilles injury limited him to two games in 2025.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Iowa averages 477.0 total yards and 37.0 points per game, including 268.0 rushing yards per game.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa has exceeded 500 total yards in two of its first three games, its first season with multiple 500-yard games since 2006.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The offensive line has allowed one sack through three games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Four Iowa running backs have already recorded a 100-yard rushing game in 2026: Kamari Moulton, Xavier Williams, Braeden Jackson and Nathan McNeil.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa averages 7.4 yards per rushing attempt and 7.1 yards per offensive play.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa has converted 38 percent of its third downs and scored on nine of 11 red-zone possessions, with seven red-zone touchdowns.",
+            "page": 17,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Iowa leads the nation in scoring defense at 4.3 points per game and total defense at 176.7 yards per game.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa has recorded two shutouts in three games and allowed only one touchdown in 12 quarters.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense allows 66.0 rushing yards and 110.7 passing yards per game, with opponents averaging 3.2 yards per play.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have completed 37 of 76 passes for 332 yards, one touchdown and three interceptions.",
+            "page": 18,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa has eight sacks and 17 tackles for loss through three games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents have converted 10 of 43 third downs, a 23 percent success rate.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Caden Buhr has made five of six field-goal attempts, including all five attempts from 30 to 49 yards.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Buhr made a 42-yard field goal with 15 seconds remaining to defeat Iowa State 16-13.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Evan James averages 21.1 yards on seven punt returns and returned a punt 77 yards for a touchdown against Northern Illinois.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "First-year Iowa punter Boston Everitt averages 44.1 yards on 13 punts, with nine downed inside the 20 and three traveling at least 50 yards.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Long snapper Ike Speltz is the only member of Iowa's 2026 specialist group who saw action for the Hawkeyes in 2025.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Michigan leads the all-time series 45-15-4 and has won the last four meetings.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "This is Iowa's first trip to Michigan Stadium since a 10-3 loss in 2019 and only its third trip to Ann Arbor since 2012.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa is 7-26-3 at Michigan Stadium, with its most recent win there coming 38-28 in 2010.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The most recent meeting was Michigan's 26-0 victory in the 2023 Big Ten Championship Game.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The game is Iowa's 2026 Big Ten opener; Iowa has won two consecutive and four of its last five conference openers.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa's most recent road win over a ranked opponent was a 27-17 victory at No. 9 Iowa State in 2021; its most recent ranked Big Ten road win was at No. 20 Northwestern in 2015.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Iowa.pdf"
+      },
+      {
+        "source_team": "Michigan Wolverines",
+        "opponent": "Iowa Hawkeyes",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The document contains Michigan's 2026 statistics through September 20, immediately after its third game and consistent with a Week 4 guide. The supplied pages do not name Iowa or identify a different upcoming opponent, so they provide current Michigan context but no Iowa-specific notes.",
+        "recent_game": [
+          {
+            "fact": "Michigan defeated UTEP 52-17 on September 19, 2026, improving to 3-0.",
+            "page": 44,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against UTEP, Michigan produced 431 total offensive yards, including 185 rushing yards and 246 passing yards.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan completed 21 of 28 passes for 246 yards and three touchdowns against UTEP.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan rushed 42 times for 185 yards and three touchdowns against UTEP.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan held UTEP to 150 total yards, including 57 rushing yards and 93 passing yards.",
+            "page": 43,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan's defense recorded 11 tackles for loss, four sacks and one interception against UTEP.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan lost two fumbles against UTEP.",
+            "page": 43,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Bryce Underwood has completed 40 of 64 passes for 504 yards, three touchdowns and one interception through three games.",
+            "page": 39,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Underwood is also Michigan's leading rusher with 156 yards and two touchdowns on 33 attempts.",
+            "page": 39,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Underwood has accounted for 660 yards of total offense, averaging 220.0 yards per game.",
+            "page": 40,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup quarterback Tommy Carr has appeared in one game, completing both pass attempts for 23 yards and a touchdown while rushing twice for 18 yards.",
+            "page": 39,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "JJ Buchanan leads Michigan with 266 receiving yards and two touchdowns on 15 catches, averaging 17.7 yards per reception.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Andrew Marsh has 15 catches for 133 yards and one touchdown and has added 15 rushing yards.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jordan Marshall has rushed 34 times for 135 yards and two touchdowns and has three receptions for 33 yards.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Savion Hiter has 83 rushing yards and two touchdowns on 24 carries plus four catches for 40 yards.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Troy Bowles leads Michigan with 25 tackles and has three tackles for loss and a fumble recovery.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "John Henry Daley has four tackles for loss and a team-leading 2.5 sacks through three games.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dominic Nichols has four tackles for loss, two sacks and three quarterback hurries.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Nate Marshall has 2.5 tackles for loss and two sacks.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jyaire Hill has 15 tackles and one interception, which he returned 24 yards.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jonah Lea'ea has an interception return of nine yards for a touchdown.",
+            "page": 39,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kyle Whittingham is Michigan's head coach and is 3-0 at Michigan with a 180-88 career record.",
+            "page": 30,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Michigan is averaging 27.3 points and 323.3 total yards per game, with 147.7 rushing yards and 175.7 passing yards per game.",
+            "page": 37,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has converted 16 of 36 third downs (44 percent) and all four fourth-down attempts.",
+            "page": 37,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has scored on seven of eight red-zone possessions, including six touchdowns.",
+            "page": 38,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has lost four of its six fumbles through three games.",
+            "page": 37,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan's total offense increased from 276 yards against Western Michigan and 263 against Oklahoma to 431 against UTEP.",
+            "page": 42,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Michigan is allowing 13.0 points and 220.0 total yards per game.",
+            "page": 37,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan is allowing 96.3 rushing yards per game and 2.7 yards per carry, with no rushing touchdowns allowed through three games.",
+            "page": 37,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has recorded 25 tackles for loss and 10 sacks through three games.",
+            "page": 41,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have converted 13 of 43 third downs (30 percent) and one of four fourth downs.",
+            "page": 37,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have scored one touchdown in six red-zone trips against Michigan.",
+            "page": 38,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has two interceptions and one fumble recovery through three games.",
+            "page": 41,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Cam Brown has averaged 43.5 yards on 14 punts, with eight placed inside the 20 and no touchbacks.",
+            "page": 40,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Trey Butkowski is 2-for-2 on field goals, making attempts from 40 and 49 yards, and is 10-for-10 on extra points.",
+            "page": 40,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jacob Baggett has produced touchbacks on 11 of 14 kickoffs.",
+            "page": 40,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Andrew Marsh has returned four punts for 19 yards, an average of 4.8 yards per return.",
+            "page": 39,
+            "category": "special_teams",
+            "importance": "low"
+          },
+          {
+            "fact": "Bryson Kuzdzal has returned three kickoffs for 65 yards, an average of 21.7 yards.",
+            "page": 39,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [],
+        "source_file": "Michigan.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Michigan passing offense vs Iowa pass defense",
+        "off_team": "Michigan",
+        "def_team": "Iowa",
+        "off_rank": 103,
+        "def_rank": 2,
+        "stat": "pass EPA",
+        "rank_gap": 101,
+        "direction": "defense_advantage",
+        "matchup_score": 201
+      },
+      {
+        "dimension": "Michigan scoring-opportunity creation vs Iowa scoring-opportunity prevention",
+        "off_team": "Michigan",
+        "def_team": "Iowa",
+        "off_rank": 58,
+        "def_rank": 10,
+        "stat": "Eckel rate",
+        "rank_gap": 48,
+        "direction": "mixed",
+        "matchup_score": 48
+      },
+      {
+        "dimension": "Iowa passing offense vs Michigan pass defense",
+        "off_team": "Iowa",
+        "def_team": "Michigan",
+        "off_rank": 82,
+        "def_rank": 36,
+        "stat": "pass EPA",
+        "rank_gap": 46,
+        "direction": "mixed",
+        "matchup_score": 46
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 7,
+        "fact": "Michigan averages 147.7 rushing yards and 175.7 passing yards per game; its defense allows 96.3 rushing yards and 123.7 passing yards per game.",
+        "page": 5,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Iowa.pdf",
+        "source_team": "Iowa Hawkeyes"
+      },
+      {
+        "fact_id": 43,
+        "fact": "Opponents have completed 37 of 76 passes for 332 yards, one touchdown and three interceptions.",
+        "page": 18,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Iowa.pdf",
+        "source_team": "Iowa Hawkeyes"
+      },
+      {
+        "fact_id": 64,
+        "fact": "Bryce Underwood has completed 40 of 64 passes for 504 yards, three touchdowns and one interception through three games.",
+        "page": 39,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Michigan.pdf",
+        "source_team": "Michigan Wolverines"
+      },
+      {
+        "fact_id": 65,
+        "fact": "Underwood is also Michigan's leading rusher with 156 yards and two touchdowns on 33 attempts.",
+        "page": 39,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Michigan.pdf",
+        "source_team": "Michigan Wolverines"
+      },
+      {
+        "fact_id": 82,
+        "fact": "Michigan has lost four of its six fumbles through three games.",
+        "page": 37,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Michigan.pdf",
+        "source_team": "Michigan Wolverines"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Iowa Hawkeyes",
+      "model_side": "Iowa",
+      "opponent_full": "Michigan Wolverines",
+      "opponent": "Michigan",
+      "model_prediction": 4.0,
+      "market_line": 5.5,
+      "best_available_line": 5.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.54272466,
+      "edge": 0.0189151361904761,
+      "bet_status": "PASS"
+    }
   }
 }

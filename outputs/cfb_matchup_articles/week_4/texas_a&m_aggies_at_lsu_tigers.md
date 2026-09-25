@@ -15,7 +15,11 @@ The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas
 
 The best number we found is Texas A&M +9.5 at -104. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We understand why the market is giving LSU substantial respect. Through two games, LSU averaged 48 points and 586 yards while running 89 offensive snaps per game. Still, we are not treating that early production as proof that the same efficiency carries into this matchup. Our numbers identify Texas A&M’s ability to prevent scoring opportunities as a significant step up from what LSU has faced so far.
+We are not reacting simply to both teams coming off SEC losses. For us, the case for Texas A&M begins with a defense that has consistently limited scoring opportunities. LSU has converted 56% of its third downs, but Texas A&M has allowed only a 23% conversion rate, and opponents have scored on just nine of 32 qualifying possessions. Our longer-run numbers also favor Texas A&M when LSU has to generate offense through the air.
+
+The concern is that the defense did not fully control Kentucky, which gained 408 yards without committing a turnover. Texas A&M still produced 423 yards in that loss, however, with Marcel Reed rushing for 80 yards and Mario Craver catching 11 passes for 119 yards. We think Reed's mobility and the emerging connection with Craver give Texas A&M enough offensive flexibility to stay competitive if its defense creates the difficult possessions our numbers anticipate.
+
+That explains our modest disagreement with the market, but it does not make the available price attractive enough. The market and our model are still describing nearly the same game, so we pass rather than force a position based on a narrow difference.
 
 ### What The Numbers Say
 
@@ -67,9 +71,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, LSU’s passing game against the Texas A&M pass defense is the matchup to watch. Sam Leavitt has produced 574 passing yards and added 135 yards on the ground through two games, but he has also thrown four interceptions. Our matchup data is considerably more skeptical of LSU’s passing efficiency than the early yardage totals might suggest.
-
-We also see Trey'Dez Green as an important piece of that test. Eight of his 10 receptions have generated a first down or touchdown, giving LSU a useful option for sustaining drives. If Texas A&M can limit those productive completions and force LSU to repeatedly finish longer possessions, the case for the underdog becomes more credible. The disagreement is interesting, but it remains too small for us to justify a wager at the available price.
+We are watching LSU's passing game against Texas A&M's pass defense. Our metrics give Texas A&M the advantage here, and Dezz Ricks has allowed only one reception for one yard on five targets across 62 coverage snaps. The complication is Sam Leavitt's mobility: through LSU's first two games, he had 135 rushing yards and five rushing touchdowns. We think Texas A&M can disrupt LSU's passing efficiency, but containing Leavitt after the initial coverage holds will be critical to turning that advantage into stops.
 
 ## Best Bets Of The Week
 

@@ -15,9 +15,11 @@ The Illinois Fighting Illini visit the Ohio State Buckeyes at Ohio Stadium. We m
 
 The best number we found is Illinois +27.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for Ohio State creating separation starts with its passing game. Our numbers rate that offense among the nation’s best in pass EPA, while Illinois sits well below average against the pass. We also see continuity behind that advantage: Julian Sayin returned after completing 77 percent of his passes in 2025, and Ohio State brought back eight offensive starters along with 85.8 percent of its offensive-line snaps.
+We are not disputing Ohio State’s ability to control this matchup. Our data shows a substantial advantage for its passing offense against Illinois’ pass defense, and the surrounding continuity strengthens that case. Julian Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns last season, while Ohio State returned 85.8 percent of its offensive-line snaps among players who logged at least 100 snaps.
 
-The problem for Illinois extends beyond defending the pass. Our numbers also show a major Ohio State advantage when Illinois runs the ball and when it tries to create scoring opportunities. Still, we are not treating last season’s dominant Ohio State defense as fully interchangeable with this group after eight defensive starters departed. The current matchup indicators remain strongly favorable to Ohio State, but our disagreement with the market is too modest to create enough value at the available price. That is why this remains a pass for us.
+Illinois also lacks an obvious offensive counter. Our numbers show its rushing attack running into one of the strongest rush defenses in the country, with an equally difficult challenge when it comes to creating scoring opportunities. We did see Ohio State limit Ball State to 45 rushing yards, but we treat that opener as supporting context rather than proof of what will happen here.
+
+The more interesting part for us is how much defensive dominance the market is pricing over a full game. We note that Ohio State returned only three defensive starters after losing eight, which adds uncertainty despite the early results and strong efficiency profile. Our model gives Illinois slightly more room than the market does, but the matchup disadvantages leave that disagreement too thin for us to make a wager.
 
 ### What The Numbers Say
 
@@ -69,7 +71,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Ohio State’s passing offense against the Illinois secondary. Sayin’s accuracy and Jeremiah Smith’s production give Ohio State a direct way to attack the weakest part of the Illinois profile; Smith entered the season with 171 career receptions, 2,709 yards and 29 touchdowns. If Illinois cannot limit efficient completions and prevent Smith from generating chunk gains, we think Ohio State has a clear path to the kind of margin the market is asking it to produce.
+For us, Ohio State’s passing game against Illinois’ pass defense is the matchup that can determine whether the favorite creates enough separation. Sayin’s efficiency gives Ohio State a strong foundation, and we saw 14 different players catch a pass in the opener, illustrating the number of options Illinois may have to account for.
+
+We think Illinois has to prevent efficient completions from turning into repeated scoring chances. If Ohio State consistently stays ahead of schedule through the air, the burden on Illinois’ offense becomes much heavier against a defense our numbers rate highly in both rushing efficiency and scoring-opportunity prevention.
 
 ## Best Bets Of The Week
 

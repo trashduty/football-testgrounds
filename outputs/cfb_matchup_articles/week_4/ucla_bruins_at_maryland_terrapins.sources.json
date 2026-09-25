@@ -2,7 +2,7 @@
   "game": "UCLA Bruins@Maryland Terrapins",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T04:28:58.358401+00:00",
+  "generated_at_utc": "2026-09-25T13:49:23.522648+00:00",
   "model_prediction": 0.5,
   "market_line": 1.5,
   "best_line": 1.5,
@@ -13,40 +13,40 @@
   "bet_short": "Maryland",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our modest preference for Maryland starts with an offense that has shown credible early balance. Malik Washington has completed 53 of 72 passes for 533 yards without an interception, while Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both topped 100 receiving yards at UConn. We are not treating two games as proof, but that production gives us more confidence that Maryland can sustain offense through the air rather than depend on short fields or turnovers.\n\nWe also see support on the other side of the ball. Maryland allowed 154 total yards and seven points per game through its first two contests while recording 10 sacks. That pressure is relevant against a UCLA passing offense our numbers rate poorly, but the matchup is not uniformly favorable for Maryland.\n\nFor us, that last point is why this remains a pass. Our longer-run numbers see UCLA's rushing offense as a legitimate challenge for Maryland's defense, creating enough uncertainty to offset the encouraging early results. We differ slightly from the market, but not by enough to make the available price worthwhile.",
-    "matchup_to_watch": "We are watching UCLA's rushing offense against Maryland's rush defense. Maryland allowed only 38.5 rushing yards per game through two games, but our broader efficiency numbers are much less flattering to that unit and considerably more favorable to UCLA on the ground. The question is whether Maryland's early run prevention reflects something sustainable or whether UCLA can keep its offense out of the difficult passing situations in which Maryland's pass rush becomes most influential.",
+    "narrative": "Our numbers are modestly more favorable to Maryland than the market, and the offensive stability helps explain why. Malik Washington completed 34 of 41 passes for 347 yards and two touchdowns against UConn, while Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both topped 100 receiving yards. We are not treating one performance as proof, but Washington's efficiency and Maryland's turnover-free start give the offense a credible floor.\n\nThe defensive picture is less straightforward. Maryland recorded 10 sacks through two games, but our matchup data identifies UCLA's rushing offense as the more credible challenge and grades Maryland's run defense less favorably than its early raw results suggest. UCLA's passing efficiency has been the weaker part of its offense, so Maryland's ability to pressure the passer matters most if it can first limit the run.\n\nThat tension is why this remains a pass for us. We can explain why our model leans a little more toward Maryland, but the disagreement is too small to create meaningful value at the available price.",
+    "matchup_to_watch": "We are watching UCLA's rushing offense against Maryland's run defense. Maryland allowed only 38.5 rushing yards per game through its first two contests, but our longer-run efficiency numbers are more skeptical of that unit. The question is whether the early results reflect sustainable run prevention or a small-sample start that overstates Maryland's advantage.\n\nIf UCLA can stay efficient on the ground, it can avoid leaning on the weaker part of its offense and reduce Maryland's pass-rush opportunities. If Maryland controls early downs, the matchup shifts toward a defense that has already shown it can generate pressure.",
     "guide_status": [
       "No guide found for UCLA Bruins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCLA.pdf",
       "Found guide for Maryland Terrapins: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Maryland.pdf",
-      "Guide for Maryland Terrapins was found but may not match the current opponent. The guide is Maryland's Game 3 notes for its Sept. 19, 2026 home game against Virginia Tech. UCLA is listed as Maryland's following opponent on Sept. 26, 2026, so this is not the UCLA matchup guide."
+      "Guide for Maryland Terrapins was found but may not match the current opponent. The guide is Maryland's Game 3 notes for the Sept. 19, 2026 matchup against Virginia Tech. UCLA is listed as Maryland's following opponent on Sept. 26, so the document predates but was not prepared for the UCLA game."
     ],
     "guide_extractions": [
       {
         "source_team": "Maryland Terrapins",
         "opponent": "UCLA Bruins",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is Maryland's Game 3 notes for its Sept. 19, 2026 home game against Virginia Tech. UCLA is listed as Maryland's following opponent on Sept. 26, 2026, so this is not the UCLA matchup guide.",
+        "document_match_reason": "The guide is Maryland's Game 3 notes for the Sept. 19, 2026 matchup against Virginia Tech. UCLA is listed as Maryland's following opponent on Sept. 26, so the document predates but was not prepared for the UCLA game.",
         "recent_game": [
           {
-            "fact": "Maryland improved to 2-0 with a 38-14 road win over UConn on Sept. 12, 2026.",
+            "fact": "Maryland improved to 2-0 with a 38-14 road win over UConn on Sept. 12, producing 475 total yards, 27 first downs and no turnovers.",
             "page": 11,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Maryland produced 475 total yards, 27 first downs and no turnovers against UConn, including 350 passing yards and 125 rushing yards.",
+            "fact": "Maryland passed for 350 yards and rushed for 125 yards and three touchdowns against UConn.",
             "page": 11,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Maryland held UConn to 223 total yards, 67 rushing yards, 156 passing yards and 12 first downs while recording five sacks.",
+            "fact": "Maryland held UConn to 223 total yards, including 67 rushing yards and 156 passing yards, and recorded five sacks.",
             "page": 11,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Maryland had second-quarter scoring drives of 92 and 91 yards against UConn, its first game with multiple 90-yard drives since 2018.",
+            "fact": "Maryland had two second-quarter scoring drives of at least 90 yards against UConn, its first game with multiple 90-yard drives since 2018.",
             "page": 3,
             "category": "recent_game",
             "importance": "medium"
@@ -54,13 +54,13 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Maryland's most recent game against UCLA was a road loss on Oct. 18, 2025, decided by between one and nine points.",
-            "page": 4,
+            "fact": "Maryland's 2026 schedule lists UCLA as a home game on Sept. 26 with a 1:30 p.m. Eastern kickoff.",
+            "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Malik Washington completed 23 of 48 passes for 210 yards, one touchdown and one interception at UCLA in 2025; he also rushed six times for 67 yards.",
+            "fact": "In the 2025 game at UCLA, Malik Washington completed 23 of 48 passes for 210 yards, one touchdown and one interception and rushed six times for 67 yards.",
             "page": 9,
             "category": "opponent_notes",
             "importance": "high"
@@ -72,13 +72,13 @@
             "importance": "medium"
           },
           {
-            "fact": "Cornerback Jamare Glasker recorded an interception and three tackles at UCLA in 2025.",
+            "fact": "Jamare Glasker intercepted a pass and made three tackles at UCLA in 2025.",
             "page": 15,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Linebacker Sidney Stewart recorded three tackles, including a five-yard sack, at UCLA in 2025.",
+            "fact": "Sidney Stewart recorded a five-yard sack and three tackles at UCLA in 2025.",
             "page": 18,
             "category": "opponent_notes",
             "importance": "medium"
@@ -86,22 +86,22 @@
         ],
         "quarterback": [
           {
-            "fact": "Starting quarterback Malik Washington is 53-of-72 for 533 yards, three touchdowns and no interceptions through Maryland's first two games of 2026.",
-            "page": 5,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Washington completed 34 of 41 passes for 347 yards and two touchdowns at UConn, including a Maryland-record 18 consecutive completions.",
+            "fact": "Starting quarterback Malik Washington was 34-of-41 for 347 yards and two touchdowns against UConn, completing a program-record 18 consecutive passes.",
             "page": 3,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Washington started all 12 games as a true freshman in 2025 and completed 273 passes for 2,963 yards and 17 touchdowns.",
-            "page": 5,
+            "fact": "Through two 2026 games, Washington had completed 53 of 72 passes for 533 yards, three touchdowns and no interceptions.",
+            "page": 9,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
+          },
+          {
+            "fact": "Washington started all 12 games as a true freshman in 2025 and completed 273 of 473 passes for 2,963 yards, 17 touchdowns and nine interceptions.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
           },
           {
             "fact": "Transfer backup quarterback Cardell Williams completed four of five passes for 60 yards and a touchdown and rushed five times for 49 yards against Hampton.",
@@ -112,54 +112,48 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Maryland's starting offensive line against UConn was left tackle Rahtrel Perry, left guard Amory Hills, center Michael Hershey, right guard Ryan Howerton and right tackle Isaiah Wright; the unit blocked for 475 total yards.",
+            "fact": "Maryland's starting offensive line against UConn was left tackle Rahtrel Perry, left guard Amory Hills, center Michael Hershey, right guard Ryan Howerton and right tackle Isaiah Wright; the offense generated 475 yards.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Amory Hills replaced Tellek Lockette as the starting left guard between the Hampton opener and the UConn game.",
+            "fact": "Rahtrel Perry entered the Virginia Tech week with 39 career starts and 39 consecutive starts, the most on Maryland's offense.",
             "page": 12,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Rahtrel Perry entered the Virginia Tech week with 39 consecutive career starts, the most among Maryland offensive players.",
+            "fact": "Amory Hills made his first Maryland start at left guard against UConn after transfer Tellek Lockette started the opener at that position.",
             "page": 12,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Transfer receivers Na'eem Abdul-Rahim Gladding and Chris Durr Jr. each exceeded 100 receiving yards at UConn: Gladding had eight catches for 130 yards and a touchdown, and Durr had 10 catches for 106 yards and a touchdown.",
+            "fact": "Transfer receivers Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both exceeded 100 receiving yards at UConn: Gladding had eight catches for 130 yards and a touchdown, while Durr had 10 catches for 106 yards and a touchdown.",
             "page": 2,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Maryland added 17 transfers for 2026, including receivers Gladding, Durr and Ejani Shakir; running back Harry Dalton III; tight end Preston Howard; offensive lineman Tellek Lockette; and quarterbacks Cardell Williams and Jack Capaldi.",
+            "fact": "Harry Dalton III rushed for career highs of 48 yards and two touchdowns at UConn, while Iverson Howard had 55 rushing yards, one rushing touchdown and three receptions.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Maryland added 17 transfers for 2026, including receivers Na'eem Abdul-Rahim Gladding, Chris Durr Jr. and Ejani Shakir; running backs Harry Dalton III and Terrez Worthy; tight end Preston Howard; offensive lineman Tellek Lockette; and quarterbacks Cardell Williams and Jack Capaldi.",
             "page": 3,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Harry Dalton III had career highs of 48 rushing yards and two rushing touchdowns at UConn, while Iverson Howard rushed 14 times for 55 yards and one touchdown.",
-            "page": 2,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Maryland's starting defense against UConn included defensive linemen Lavon Johnson and Eyan Thomas, edge defenders Nahsir Taylor and Sidney Stewart, linebackers Trey Reddick and Daniel Wingate, cornerbacks Jamare Glasker, Amari Jackson and Jordan Scruggs, and safeties Messiah Delhomme and Lavain Scruggs.",
+            "fact": "Maryland's listed defensive starters against UConn included Lavon Johnson, Eyan Thomas, Nahsir Taylor and Sidney Stewart in the front; Trey Reddick and Daniel Wingate at linebacker; and Jamare Glasker, Amari Jackson, Jordan Scruggs, Messiah Delhomme and Lavain Scruggs in the secondary.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "high"
-          },
-          {
-            "fact": "Maryland added defensive-line transfers Lavon Johnson from Texas, Derrick LeBlanc from UCF, and Armon and Jayvon Parker from Washington, plus defensive back Amari Jackson from Boston College.",
-            "page": 3,
-            "category": "defensive_personnel",
-            "importance": "medium"
           },
           {
             "fact": "Sidney Stewart recorded six tackles, 1.5 tackles for loss, one sack and a forced fumble against UConn.",
@@ -171,24 +165,30 @@
             "fact": "Derrick LeBlanc recorded two sacks at UConn, his first two sacks for Maryland.",
             "page": 2,
             "category": "defensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Freshman linebacker Zion Elee recorded his first career sack and forced a fumble against UConn; DD Holmes recovered the fumble.",
+            "fact": "DD Holmes led Maryland with 2.5 sacks through two games, while Eyan Thomas and Derrick LeBlanc each had two.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman linebacker Zion Elee recorded three tackles, his first career sack and a forced fumble against UConn; DD Holmes recovered the fumble.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Daniel Wingate entered the Virginia Tech week with 26 consecutive defensive starts and led Maryland with 102 tackles in 2025.",
-            "page": 12,
+            "fact": "Maryland added defensive-line transfers Lavon Johnson, Derrick LeBlanc, Armon Parker and Jayvon Parker, along with defensive back Amari Jackson and linebackers Stephen Dean III and Jordan Williams.",
+            "page": 3,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Clint Trickett became Maryland's offensive coordinator and quarterbacks coach in the 2026 offseason after serving as Jacksonville State's offensive coordinator in 2025.",
+            "fact": "Clint Trickett became Maryland's offensive coordinator and quarterbacks coach for 2026 after serving as Jacksonville State's offensive coordinator in 2025.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
@@ -200,7 +200,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Randy Starks joined Maryland to coach the defensive line, and Kyle Schmitt took over the tight ends room.",
+            "fact": "Randy Starks took over Maryland's defensive line, and Kyle Schmitt took over the tight ends.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "medium"
@@ -227,21 +227,27 @@
             "importance": "high"
           },
           {
-            "fact": "Maryland committed no turnovers in either of its first two games of 2026.",
+            "fact": "Maryland committed no turnovers in either of its first two games.",
             "page": 4,
             "category": "offensive_context",
             "importance": "high"
+          },
+          {
+            "fact": "Maryland returned 68 percent of its offensive production from 2025, including quarterback Malik Washington, tight end Dorian Fleming and running back DeJuan Williams.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Through two games, Maryland allowed 154.0 total yards, 115.5 passing yards, 38.5 rushing yards and 7.0 points per game.",
+            "fact": "Through two games, Maryland allowed 154.0 total yards, 38.5 rushing yards, 115.5 passing yards and 7.0 points per game.",
             "page": 2,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Maryland recorded 10 sacks in its first two games, led the Big Ten in sacks and had three players among the conference's top three: DD Holmes with 2.5, Eyan Thomas with 2.0 and Derrick LeBlanc with 2.0.",
+            "fact": "Maryland recorded 10 sacks through two games, leading the Big Ten at the time of the guide.",
             "page": 2,
             "category": "defensive_context",
             "importance": "high"
@@ -253,21 +259,27 @@
             "importance": "medium"
           },
           {
-            "fact": "Opponents converted 26.9 percent of their third downs through Maryland's first two games.",
+            "fact": "Opponents converted 26.9 percent of third downs against Maryland through two games.",
             "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Maryland returned 74 percent of its defensive production from 2025, including leading tackler Daniel Wingate and freshman All-American Sidney Stewart.",
+            "page": 3,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Kicker Sean O'Haire made field goals from 19, 26 and 36 yards over Maryland's first two games and converted every listed extra-point attempt.",
+            "fact": "Sean O'Haire made field goals from 19 yards against UConn and from 26 and 36 yards against Hampton.",
             "page": 10,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Na'eem Abdul-Rahim Gladding returned two punts for 34 yards through two games, an average of 17.0 yards per return.",
+            "fact": "Na'eem Abdul-Rahim Gladding averaged 17.0 yards on two punt returns through two games, while Zymear Smith had a 24-yard punt return.",
             "page": 13,
             "category": "special_teams",
             "importance": "low"
@@ -275,7 +287,7 @@
         ],
         "series_context": [
           {
-            "fact": "Maryland's 2025 visit to UCLA ended in a loss decided by fewer than 10 points.",
+            "fact": "Maryland's most recent game against UCLA was a road loss on Oct. 18, 2025, decided by nine points or fewer.",
             "page": 4,
             "category": "series_context",
             "importance": "medium"
@@ -283,13 +295,7 @@
         ],
         "other_relevant": [
           {
-            "fact": "Maryland is scheduled to host UCLA on Sept. 26, 2026, at 1:30 p.m. Eastern on Big Ten Network.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "The UCLA game is Maryland's 2026 Big Ten opener.",
+            "fact": "Maryland was 2-0 entering its Sept. 19 game against Virginia Tech, with UCLA scheduled the following week.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
@@ -336,8 +342,8 @@
     "used_sources": [
       {
         "fact_id": 5,
-        "fact": "Starting quarterback Malik Washington is 53-of-72 for 533 yards, three touchdowns and no interceptions through Maryland's first two games of 2026.",
-        "page": 5,
+        "fact": "Starting quarterback Malik Washington was 34-of-41 for 347 yards and two touchdowns against UConn, completing a program-record 18 consecutive passes.",
+        "page": 3,
         "category": "quarterback",
         "importance": "high",
         "source_file": "Maryland.pdf",
@@ -345,7 +351,7 @@
       },
       {
         "fact_id": 12,
-        "fact": "Transfer receivers Na'eem Abdul-Rahim Gladding and Chris Durr Jr. each exceeded 100 receiving yards at UConn: Gladding had eight catches for 130 yards and a touchdown, and Durr had 10 catches for 106 yards and a touchdown.",
+        "fact": "Transfer receivers Na'eem Abdul-Rahim Gladding and Chris Durr Jr. both exceeded 100 receiving yards at UConn: Gladding had eight catches for 130 yards and a touchdown, while Durr had 10 catches for 106 yards and a touchdown.",
         "page": 2,
         "category": "offensive_personnel",
         "importance": "high",
@@ -353,8 +359,17 @@
         "source_team": "Maryland Terrapins"
       },
       {
-        "fact_id": 28,
-        "fact": "Through two games, Maryland allowed 154.0 total yards, 115.5 passing yards, 38.5 rushing yards and 7.0 points per game.",
+        "fact_id": 27,
+        "fact": "Maryland committed no turnovers in either of its first two games.",
+        "page": 4,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Maryland.pdf",
+        "source_team": "Maryland Terrapins"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Through two games, Maryland allowed 154.0 total yards, 38.5 rushing yards, 115.5 passing yards and 7.0 points per game.",
         "page": 2,
         "category": "defensive_context",
         "importance": "high",
@@ -362,8 +377,8 @@
         "source_team": "Maryland Terrapins"
       },
       {
-        "fact_id": 29,
-        "fact": "Maryland recorded 10 sacks in its first two games, led the Big Ten in sacks and had three players among the conference's top three: DD Holmes with 2.5, Eyan Thomas with 2.0 and Derrick LeBlanc with 2.0.",
+        "fact_id": 30,
+        "fact": "Maryland recorded 10 sacks through two games, leading the Big Ten at the time of the guide.",
         "page": 2,
         "category": "defensive_context",
         "importance": "high",

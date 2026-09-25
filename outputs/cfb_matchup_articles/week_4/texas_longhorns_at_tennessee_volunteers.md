@@ -15,9 +15,9 @@ The Texas Longhorns visit the Tennessee Volunteers at Neyland Stadium. We make *
 
 The best number we found is Tennessee +4.5 at -105. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are slightly more favorable to Tennessee than the market, largely because we see multiple ways for its offense to stay efficient. The ground game is the clearest foundation: Tennessee is averaging 298.7 rushing yards per game, while DeSean Bishop and Daune Morris have given the backfield two productive options. That matters because it can keep true freshman quarterback Faizon Brandon out of obvious passing situations against a Texas defense with a disruptive edge presence in Colin Simmons.
+Our slight lean toward Tennessee comes from the way its offense can stress Texas on the ground and through the air. Tennessee has averaged 298.7 rushing yards per game and scored touchdowns on 10 of its 11 red-zone possessions. We view those early results as supporting context rather than proof, but they align with our efficiency numbers and give Tennessee more than one credible path to sustain drives.
 
-The tension is that Texas has the personnel to challenge that approach. Simmons has recorded a sack in seven of his past eight games, while Brandon has yet to throw an interception in 64 attempts. We also have to account for Texas playing its first road game of the season and making its first trip to Neyland Stadium. Those factors help explain our modest lean toward Tennessee, but the difference from the market is too small for us to treat the available price as meaningful value.
+Texas makes that case difficult to price aggressively. It rushed for a season-high 228 yards without a turnover against UTSA, while its experienced offensive line has combined for 124 career starts. Tennessee has generated 13 sacks, and Texas has allowed 6.67 tackles for loss per game, so disruption remains a possible advantage for the home defense. Still, the competing evidence is strong enough that our small difference with the market does not create sufficient value for us.
 
 ### What The Numbers Say
 
@@ -69,9 +69,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Tennessee's rushing offense against the Texas front. Our numbers identify that as Tennessee's most convincing offensive advantage, and Bishop already has 286 rushing yards with 175 coming after contact. If Tennessee can remain efficient on early downs, it can reduce the burden on Brandon and limit the opportunities for Simmons to affect the game in clear passing situations.
-
-Texas does not need to eliminate the run entirely. The more important question is whether it can prevent Tennessee from consistently creating manageable third downs, especially with Tennessee converting 56.3 percent of those opportunities through three games. That battle will do the most to determine whether our slight disagreement with the market proves meaningful.
+For us, the matchup to watch is Tennessee's rushing offense against the Texas front. Our efficiency ratings favor Tennessee here, but Texas has allowed only 109 rushing yards per game. If Tennessee can stay ahead of schedule, it can keep true freshman Faizon Brandon out of obvious passing situations. If Texas controls the run, the game becomes much less comfortable for our slight Tennessee lean.
 
 ## Best Bets Of The Week
 
