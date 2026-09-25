@@ -7,11 +7,11 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Northwestern Wildcats | +20.5 (+100) | FanDuel | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Indiana Hoosiers | -21.0 (-108) | BetMGM | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Indiana Hoosiers | -20.5 (-112) | BetMGM | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Northwestern Wildcats visit the Indiana Hoosiers at Memorial Stadium (Bloomington, IN). We make **Northwestern +20.5**, compared with a market line of +21.
+The Northwestern Wildcats visit the Indiana Hoosiers at Memorial Stadium (Bloomington, IN). We make **Northwestern +20.5**, compared with a market line of +20.5.
 
 The best number we found is Northwestern +20.5 at +100. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#45</td>
+<td>#46</td>
 <td class="btb-better">#2</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#71</td>
+<td>#70</td>
 <td class="btb-better">#48</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **13 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

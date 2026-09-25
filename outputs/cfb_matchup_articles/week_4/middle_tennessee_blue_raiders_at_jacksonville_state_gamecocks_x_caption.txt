@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Middle Tennessee-Jacksonville Stat.
+Our model is 1.5 points away from the market on Middle Tennessee-Jacksonville Stat.
 
-We make Jacksonville Stat -9. The market is -7.
+We make Jacksonville Stat -9. The market is -7.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

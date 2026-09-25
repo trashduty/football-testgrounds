@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on Southern Mississippi-Tulane.
+Our model is 3 points away from the market on Southern Mississippi-Tulane.
 
-We make Tulane -20.5. The market is -18.
+We make Tulane -20.5. The market is -17.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -1,9 +1,9 @@
 Our model is 3.5 points away from the market on Ball State-Kent State.
 
-We make Ball State -0. The market is +3.5.
+We make Ball State -0.5. The market is +3.
 
-Best number: Ball State +3.5 -112. We give it a 57.8% chance to cover with a 4.9% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓
