@@ -83,7 +83,41 @@ def check_x_response(response, operation):
                        + json.dumps(details, ensure_ascii=False))
 
 
-def post(row, folder):
+def weekly_bet_count(manifest):
+    """Count distinct games classified as bets in the weekly manifest."""
+    return len({row['game'] for row in manifest['articles'] if eligible(row, True)})
+
+
+def format_line(value):
+    number = float(value)
+    return f'{number:+g}' if number > 0 else f'{number:g}'
+
+
+def format_price(value):
+    number = float(value)
+    return f'{number:+g}' if number > 0 else f'{number:g}'
+
+
+def build_post_text(row, kind, bet_count):
+    title = f"{row['away_short']} vs {row['home_short']} Prediction"
+    if kind == 'Bet':
+        verdict = (f"BET: {row['bet_short']} {format_line(row['best_line'])} "
+                   f"({format_price(row['best_price'])}) | {float(row['edge']):.1%} edge")
+    else:
+        verdict = 'NO BET: Does not meet our 3% edge threshold.'
+    model = (f"Our model makes {row['bet_short']} {format_line(row['model_prediction'])}; "
+             f"market: {format_line(row['market_line'])}.")
+    count = f"We have action on {bet_count} {'game' if bet_count == 1 else 'games'} this week."
+    link = 'Full list: https://www.btb-analytics.com/'
+    body = '\n\n'.join((title, verdict, model, count, link))
+    if len(body) > 280:
+        body = '\n\n'.join((title, verdict, count, link))
+    if len(body) > 280:
+        raise ValueError(f'X post exceeds 280 characters ({len(body)})')
+    return body
+
+
+def post(row, folder, kind, bet_count):
     needed = ('X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_TOKEN_SECRET')
     missing = [k for k in needed if not os.getenv(k)]
     if missing:
@@ -91,20 +125,7 @@ def post(row, folder):
     auth = OAuth1(*(os.environ[k] for k in needed))
     assets = row['social_assets']
     image = folder / assets['x_model_graphic']
-    caption = (folder / assets['x_caption']).read_text(encoding='utf-8').strip()
-    title = f"{row['away_short']} vs {row['home_short']} Prediction"
-    # Generated captions can exceed the standard 280-character post limit.
-    # Drop an unlinked "Full breakdown" prompt and retain whole paragraphs.
-    paragraphs = [p.strip() for p in caption.split('\n\n')
-                  if p.strip() and not p.strip().lower().startswith('full breakdown')]
-    body = title
-    for paragraph in paragraphs:
-        candidate = body + '\n\n' + paragraph
-        if len(candidate) > 280:
-            break
-        body = candidate
-    if len(body) > 280:
-        raise ValueError('X post exceeds 280 characters')
+    body = build_post_text(row, kind, bet_count)
     print(f'Post text ({len(body)} characters): {body}')
     if not image.is_file():
         raise FileNotFoundError(image)
@@ -119,7 +140,6 @@ def post(row, folder):
     check_x_response(response, 'post creation')
     return response.json()['data']['id']
 
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--publish', action='store_true', help='Actually publish; default is dry-run')
@@ -133,7 +153,7 @@ def main():
     if args.test_now and not args.publish:
         parser.error('--test-now requires --publish')
     if not args.test_now and (now.weekday() > 4 or hour not in HOURS or (args.publish and now.minute > 30)):
-        print('Outside Monday–Thursday 9:00–16:30 Eastern; skipping')
+        print('Outside Monday–Friday 9:00–16:30 Eastern; skipping')
         return
     season, week, path, manifest = latest_manifest()
     # Avoid posting a prior week's slate if generation failed to update it.
@@ -159,7 +179,7 @@ def main():
     if not args.publish:
         print('DRY RUN: no X API call and no ledger update')
         return
-    post_id = post(row, path.parent)
+    post_id = post(row, path.parent, kind, weekly_bet_count(manifest))
     ledger['posts'].append({'date': date, 'hour': f'test-{now.isoformat()}' if args.test_now else hour,
                             'season_week': f'{season}-week-{week}',
                             'game': row['game'], 'kind': kind, 'post_id': str(post_id)})
