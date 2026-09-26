@@ -32,15 +32,17 @@ jobs:
   post:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Checkout current CFB kickoff times
         uses: actions/checkout@v4
         with:
           repository: trashduty/trash-schedule
           path: trash-schedule
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Verify kickoff feed is available
+        run: test -s trash-schedule/CFB_Odds/Data/spreads_odds.csv
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
