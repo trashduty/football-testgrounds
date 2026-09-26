@@ -5,9 +5,10 @@ Reads the latest week manifest and stores a persistent posting ledger in the rep
 Requires X OAuth 1.0a user credentials. Manual runs default to dry-run.
 """
 import argparse
+import csv
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -19,6 +20,8 @@ ROOT = Path('outputs/cfb_matchup_articles')
 LEDGER = Path('outputs/cfb_x_posted.json')
 BET_HOUR = 12
 HOURS = tuple(range(9, 17))
+SATURDAY_BET_SLOTS = {'9:07', '9:37', '10:07', '10:37', '11:07'}
+SATURDAY_CSV = Path('trash-schedule/CFB_Odds/Data/spreads_odds.csv')
 
 
 def latest_manifest():
@@ -36,6 +39,63 @@ def latest_manifest():
 
 def load_ledger():
     return json.loads(LEDGER.read_text(encoding='utf-8')) if LEDGER.exists() else {'posts': []}
+
+
+def load_kickoffs(week):
+    """Read the latest source slate; missing or ambiguous kickoffs are ineligible."""
+    with SATURDAY_CSV.open(newline='', encoding='utf-8-sig') as source:
+        rows = csv.DictReader(source)
+        times = {}
+        for row in rows:
+            if str(row.get('week', '')).strip() != str(week):
+                continue
+            try:
+                kickoff = datetime.fromisoformat(row['commence_time'].replace('Z', '+00:00'))
+                kickoff = kickoff.astimezone(ET)
+            except (KeyError, ValueError, AttributeError):
+                continue
+            game = row.get('game', '').strip()
+            if game:
+                times.setdefault(game, set()).add(kickoff)
+    return {game: next(iter(values)) for game, values in times.items() if len(values) == 1}
+
+
+def saturday_slot(now):
+    if now.hour not in range(9, 20) or (now.hour == 19 and now.minute >= 30):
+        return None
+    minute = 7 if now.minute < 30 else 37
+    if now.minute < minute or now.minute >= minute + 20:
+        return None
+    return f'{now.hour}:{minute:02d}'
+
+
+def select_saturday(manifest, ledger, season, week, now, slot, kickoffs):
+    date = now.date().isoformat()
+    if any(p['date'] == date and str(p['hour']) == slot for p in ledger['posts']):
+        return None, 'This Saturday slot is already posted', None
+    want_bet = slot in SATURDAY_BET_SLOTS
+    kind = 'Bet' if want_bet else 'No Bet'
+    # Keep a ten-minute margin before kickoff, including workflow delays.
+    candidates = [(r, kickoffs[r['game']]) for r in manifest['articles']
+                  if eligible(r, want_bet) and r.get('game') in kickoffs
+                  and kickoffs[r['game']] > now + timedelta(minutes=10)]
+    if not candidates:
+        return None, 'No eligible pre-kickoff matchup', None
+    week_id = f'{season}-week-{week}'
+    used = {p['game'] for p in ledger['posts'] if p['season_week'] == week_id}
+    fresh = [(r, kickoff) for r, kickoff in candidates if r['game'] not in used]
+    if fresh:
+        candidates = fresh
+    else:
+        # Repeats are allowed on Saturday, but only after all eligible
+        # unused games of this classification have been exhausted.
+        recent = [p['game'] for p in ledger['posts'] if p['date'] == date][-2:]
+        alternatives = [(r, kickoff) for r, kickoff in candidates if r['game'] not in recent]
+        if alternatives:
+            candidates = alternatives
+    candidates.sort(key=lambda pair: (pair[1], -float(pair[0]['edge']) if want_bet else pair[0]['game']))
+    row, kickoff = candidates[0]
+    return row, kind, kickoff
 
 
 def eligible(row, want_bet):
@@ -98,7 +158,7 @@ def format_price(value):
     return f'{number:+g}' if number > 0 else f'{number:g}'
 
 
-def build_post_text(row, kind, bet_count):
+def build_post_text(row, kind, bet_count, kickoff=None, slot=None):
     title = f"{row['away_short']} vs {row['home_short']} Prediction"
     if kind == 'Bet':
         verdict = (f"BET: {row['bet_short']} {format_line(row['best_line'])} "
@@ -109,15 +169,19 @@ def build_post_text(row, kind, bet_count):
              f"market: {format_line(row['market_line'])}.")
     count = f"We have action on {bet_count} {'game' if bet_count == 1 else 'games'} this week."
     link = 'Full list: https://www.btb-analytics.com/'
-    body = '\n\n'.join((title, verdict, model, count, link))
+    timing = (f"Kickoff {kickoff:%I:%M %p} ET | Saturday {slot} ET"
+              if kickoff is not None and slot else None)
+    parts = (title, verdict, model, timing, count, link) if timing else (title, verdict, model, count, link)
+    body = '\n\n'.join(p for p in parts if p)
     if len(body) > 280:
-        body = '\n\n'.join((title, verdict, count, link))
+        parts = (title, verdict, timing, count, link) if timing else (title, verdict, count, link)
+        body = '\n\n'.join(p for p in parts if p)
     if len(body) > 280:
         raise ValueError(f'X post exceeds 280 characters ({len(body)})')
     return body
 
 
-def post(row, folder, kind, bet_count):
+def post(row, folder, kind, bet_count, kickoff=None, slot=None):
     needed = ('X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_TOKEN_SECRET')
     missing = [k for k in needed if not os.getenv(k)]
     if missing:
@@ -125,7 +189,7 @@ def post(row, folder, kind, bet_count):
     auth = OAuth1(*(os.environ[k] for k in needed))
     assets = row['social_assets']
     image = folder / assets['x_model_graphic']
-    body = build_post_text(row, kind, bet_count)
+    body = build_post_text(row, kind, bet_count, kickoff, slot)
     print(f'Post text ({len(body)} characters): {body}')
     if not image.is_file():
         raise FileNotFoundError(image)
@@ -152,8 +216,10 @@ def main():
         parser.error('--hour cannot be combined with --publish')
     if args.test_now and not args.publish:
         parser.error('--test-now requires --publish')
-    if not args.test_now and (now.weekday() > 4 or hour not in HOURS or (args.publish and now.minute > 30)):
-        print('Outside Monday–Friday 9:00–16:30 Eastern; skipping')
+    saturday = now.weekday() == 5 and not args.test_now
+    slot = saturday_slot(now) if saturday else None
+    if not args.test_now and not (saturday and slot) and (now.weekday() > 4 or hour not in HOURS or (args.publish and now.minute > 30)):
+        print('Outside posting schedule; skipping')
         return
     season, week, path, manifest = latest_manifest()
     # Avoid posting a prior week's slate if generation failed to update it.
@@ -163,7 +229,10 @@ def main():
         return
     date = now.date().isoformat()
     ledger = load_ledger()
-    if args.test_now:
+    kickoff = None
+    if saturday:
+        row, kind, kickoff = select_saturday(manifest, ledger, season, week, now, slot, load_kickoffs(week))
+    elif args.test_now:
         # Test runs consume a real no-bet matchup but never occupy a scheduled slot.
         used = {p['game'] for p in ledger['posts'] if p['season_week'] == f'{season}-week-{week}'}
         candidates = sorted((r for r in manifest['articles']
@@ -179,8 +248,8 @@ def main():
     if not args.publish:
         print('DRY RUN: no X API call and no ledger update')
         return
-    post_id = post(row, path.parent, kind, weekly_bet_count(manifest))
-    ledger['posts'].append({'date': date, 'hour': f'test-{now.isoformat()}' if args.test_now else hour,
+    post_id = post(row, path.parent, kind, weekly_bet_count(manifest), kickoff, slot)
+    ledger['posts'].append({'date': date, 'hour': f'test-{now.isoformat()}' if args.test_now else (slot if saturday else hour),
                             'season_week': f'{season}-week-{week}',
                             'game': row['game'], 'kind': kind, 'post_id': str(post_id)})
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
