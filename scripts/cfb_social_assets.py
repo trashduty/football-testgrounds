@@ -1672,7 +1672,8 @@ def build_x_caption(
         )
 
         opening = (
-            f"Our model is {gap:g} points "
+            f"Our model is {gap:g} "
+            f"{'point' if gap == 1 else 'points'} "
             f"away from the market on "
             f"{away_short}-{home_short}."
         )
