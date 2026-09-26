@@ -2,19 +2,19 @@
   "game": "Texas Longhorns@Tennessee Volunteers",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T15:06:39.853620+00:00",
-  "model_prediction": 5.0,
-  "market_line": 4.5,
+  "generated_at_utc": "2026-09-26T13:23:54.099998+00:00",
+  "model_prediction": 5.5,
+  "market_line": 5.0,
   "best_line": 4.5,
-  "best_price": "-105",
-  "best_book": "DraftKings",
-  "cover_probability": 0.50887085,
-  "edge": -0.0033242719512195,
+  "best_price": "-106",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50026584,
+  "edge": -0.0142972667961165,
   "bet_short": "Tennessee",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our slight lean toward Tennessee is less about either team\u2019s unbeaten start and more about how Tennessee can attack this defense. Our efficiency numbers favor Tennessee both on the ground and through the air. DeSean Bishop and Daune Morris are each averaging more than 70 rushing yards per game, while Faizon Brandon has accounted for nine touchdowns without throwing an interception in 64 attempts. That balance gives Tennessee more than one path to sustaining drives.\n\nTexas remains a meaningful counterweight. Arch Manning is an experienced starter, and Texas rushed for 228 yards without committing a turnover against UTSA. We are not treating that one performance as proof that the broader rushing-efficiency concern has disappeared, but it shows why the matchup is not one-sided. The market is already pricing Tennessee close to our expectation, so the football case for a slight lean is not enough to create value for us.",
-    "matchup_to_watch": "For us, the matchup to watch is Tennessee\u2019s rushing offense against the Texas front. Our numbers view that as Tennessee\u2019s clearest advantage, and Bishop and Morris give the offense multiple productive options. If Texas limits early-down rushing efficiency and makes Brandon operate in obvious passing situations, it can challenge a true freshman quarterback in a way Tennessee\u2019s first three opponents did not. If Tennessee runs efficiently, its passing matchup becomes more difficult for Texas to control.",
+    "narrative": "Our modest lean toward Tennessee comes primarily from the ground-game matchup. Our efficiency numbers rate Tennessee\u2019s rushing attack as a clear strength, and the backfield has supported that view: DeSean Bishop and Daune Morris are both averaging more than 70 rushing yards per game. That balance can keep true freshman Faizon Brandon out of predictable passing situations; he has accounted for nine touchdowns without an interception through three games.\n\nWe also give some weight to the setting, as this is Texas\u2019 first road game of the season and Tennessee is 31-7 at Neyland Stadium under Josh Heupel. Still, the market disagreement is narrow rather than decisive. Texas has allowed only 138 rushing yards per game, and Arch Manning brings meaningful high-level experience, including four wins as a starter against AP top-10 opponents. For us, those counterweights leave too little value at the available price, so we are passing rather than forcing a position.",
+    "matchup_to_watch": "We are watching Tennessee\u2019s rushing offense against the Texas front. Bishop has gained 175 of his 286 yards after contact, while Morris gives Tennessee a second productive option. If Tennessee stays efficient on early downs, Brandon can operate with the full offense available. If Texas contains that run game, the burden shifts toward a true freshman quarterback facing a defense ranked 14th nationally in pass-efficiency defense. That matchup is the clearest path to either validating our slight Tennessee lean or keeping this game inside the market\u2019s expectation.",
     "guide_status": [
       "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
       "Loaded guide for Texas Longhorns: Texas.pdf",
@@ -26,66 +26,48 @@
         "source_team": "Texas Longhorns",
         "opponent": "Tennessee Volunteers",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is titled \"Texas Game Notes vs. Tennessee\" and identifies Texas at Tennessee as Game 4 on Sept. 26, 2026, at Neyland Stadium.",
+        "document_match_reason": "The guide is titled \"Texas Game Notes vs. Tennessee\" and identifies Game 4 as Texas at Tennessee on Sept. 26, 2026, at Neyland Stadium.",
         "recent_game": [
           {
-            "fact": "Texas improved to 3-0 with a 30-6 home victory over UTSA on Sept. 19.",
+            "fact": "Texas defeated UTSA 30-6 at home on Sept. 19 to improve to 3-0.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Against UTSA, Texas produced 400 total yards, rushed for a season-high 228 yards and committed no turnovers.",
+            "fact": "Texas produced 400 total yards against UTSA, including a season-high 228 rushing yards, and committed no turnovers.",
             "page": 13,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Arch Manning completed 17 of 33 passes for 164 yards and two touchdowns against UTSA and led Texas with 50 rushing yards on nine attempts.",
-            "page": 6,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Four Texas running backs had at least 39 rushing yards against UTSA: Hollywood Smothers had 54, Raleek Brown 45, Derrek Cooper 44 and Michael Terry III 39.",
+            "fact": "Four Texas running backs rushed for at least 39 yards against UTSA: Hollywood Smothers had 54, Raleek Brown 45, Derrek Cooper 44 and Michael Terry III 39.",
             "page": 9,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "Cam Coleman caught four passes for 59 yards and two touchdowns against UTSA.",
-            "page": 11,
+            "fact": "Texas held UTSA to six points, and EDGE Colin Simmons recorded a five-yard sack while playing in the first half.",
+            "page": 13,
             "category": "recent_game",
             "importance": "medium"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Tennessee enters the matchup 3-0 and ranked No. 14 in the AP poll and No. 13 in the Coaches Poll.",
+            "fact": "Tennessee enters the matchup 3-0 and is ranked No. 14 in the AP poll and No. 13 in the Coaches Poll.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "The Sept. 26 game is the SEC opener for both 3-0 Texas and 3-0 Tennessee.",
+            "fact": "Tennessee averages 417.3 total yards, 175.0 rushing yards, 242.3 passing yards and 37.7 points per game.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Texas will make its first trip to Neyland Stadium; all three previous Texas-Tennessee games were played at the Cotton Bowl.",
-            "page": 3,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Through three games, Tennessee averages 417.3 total yards, 175.0 rushing yards, 242.3 passing yards and 37.7 points per game.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Tennessee has converted 56.3 percent of its third downs, compared with 48.6 percent for Texas.",
+            "fact": "Tennessee has converted 56.3 percent of its third downs, the 10th-best rate in the FBS entering the game.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
@@ -95,67 +77,85 @@
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
+          },
+          {
+            "fact": "Tennessee has scored on 87.5 percent of its red-zone possessions and has allowed scores on 70.0 percent of opponents' red-zone possessions.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "The game is the SEC opener for both 3-0 teams and Texas' first road game of the 2026 season.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
           }
         ],
         "quarterback": [
           {
-            "fact": "Senior quarterback Arch Manning is 15-3 as a Texas starter and has appeared in 28 games with 18 starts.",
-            "page": 6,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Manning has completed 60 of 97 passes for 664 yards and seven touchdowns through three games in 2026.",
+            "fact": "Senior quarterback Arch Manning has completed 60 of 97 passes for 664 yards and seven touchdowns through three games.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Manning's four wins as a starter against AP top-10 opponents are the most among active FBS quarterbacks.",
-            "page": 6,
+            "fact": "Manning has also rushed 41 times for 198 yards and two touchdowns in 2026.",
+            "page": 1,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "In the 24-23 win over No. 1 Ohio State, Manning completed 23 of 37 passes for 195 yards and one touchdown and directed three consecutive touchdown drives to erase a 23-3 deficit.",
+            "fact": "Manning completed 17 of 33 passes for 164 yards and two touchdowns against UTSA and led Texas with 50 rushing yards on nine carries.",
             "page": 6,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Manning has a 5-2 record in seven games against ranked opponents since the start of the 2025 season, with a 3.33-to-1 touchdown-to-interception ratio.",
+            "fact": "Manning is 15-3 as Texas' starting quarterback and has appeared in 28 games with 18 starts.",
             "page": 6,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Manning has thrown a touchdown pass in four consecutive games against top-five opponents.",
+            "fact": "Manning has four career wins as a starter against AP top-10 opponents, the most among active FBS quarterbacks.",
             "page": 6,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
+          },
+          {
+            "fact": "Against Ohio State on Sept. 12, Manning completed 23 of 37 passes for 195 yards and a touchdown and directed three consecutive touchdown drives to erase a 23-3 fourth-quarter deficit.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Texas added running backs Raleek Brown from Arizona State and Hollywood Smothers from NC State during spring 2026.",
+            "fact": "Running backs Raleek Brown and Hollywood Smothers transferred to Texas in spring 2026.",
             "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Brown rushed for 1,141 yards on 186 carries with four touchdowns for Arizona State in 2025, while Smothers rushed for 939 yards on 160 carries with six touchdowns for NC State.",
+            "fact": "Brown rushed for 1,141 yards on 186 carries and caught 34 passes for 239 yards at Arizona State in 2025.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Smothers leads Texas in 2026 with 198 rushing yards on 41 attempts and two touchdowns.",
-            "page": 1,
+            "fact": "Smothers started 11 games for NC State in 2025 and recorded 939 rushing yards, six rushing touchdowns and 37 receptions for 189 yards.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Junior wide receiver Cam Coleman transferred from Auburn in spring 2026 and has four receiving touchdowns through his first three games at Texas.",
+            "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Junior wide receiver Cam Coleman transferred from Auburn in spring 2026 and has a team-high four receiving touchdowns through three games.",
+            "fact": "Coleman caught four passes for 59 yards and two touchdowns against UTSA, his second multi-touchdown game in three appearances for Texas.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
@@ -164,16 +164,28 @@
             "fact": "Ryan Wingo returns after leading Texas in 2025 with 54 receptions, 834 receiving yards and seven receiving touchdowns.",
             "page": 10,
             "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sophomore tight end Emaree Winston made his first career start against UTSA after catching a career-high three passes for 39 yards against Ohio State.",
+            "page": 12,
+            "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Texas returns 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson and added transfers Laurence Seymore III, Melvin Siani and Dylan Sikorski.",
+            "fact": "Texas added fifth-year tight end Michael Masunas from Michigan State, where he started eight games and caught 19 passes for 232 yards and three touchdowns in 2025.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas returns four 2025 offensive-line starters: Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson.",
             "page": 13,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The nine offensive linemen listed in the experience table have combined for 241 games played and 124 starts.",
+            "fact": "Texas added offensive linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski through the transfer portal; the listed offensive-line group has combined for 241 games and 124 starts.",
             "page": 13,
             "category": "offensive_personnel",
             "importance": "high"
@@ -183,41 +195,41 @@
             "page": 12,
             "category": "offensive_personnel",
             "importance": "high"
-          },
-          {
-            "fact": "Sophomore tight end Emaree Winston made his first career start against UTSA after catching a career-high three passes for 39 yards against Ohio State.",
-            "page": 12,
-            "category": "offensive_personnel",
-            "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Junior edge Colin Simmons has recorded a sack in seven of his last eight games and has 9.5 sacks in 10 career games against AP top-10 opponents.",
+            "fact": "Junior EDGE Colin Simmons has recorded a sack in seven of his last eight games entering the Tennessee matchup.",
             "page": 13,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Simmons recorded a sack against each of Ohio State and UTSA in Texas' two most recent games.",
+            "fact": "Simmons has 9.5 sacks in 10 career games against AP top-10 opponents.",
             "page": 13,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Simmons led Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles; his sack total led the SEC.",
+            "fact": "Simmons led Texas in 2025 with 15.5 tackles for loss and 12 sacks; his sack total led the SEC.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons recorded a sack against both Ohio State and UTSA after recovering a fumble in the season opener against Texas State.",
             "page": 13,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Linebacker Rasheem Biles has two interceptions through three games, tied for eighth nationally and first in the SEC in the listed rankings.",
+            "fact": "Linebacker Rasheem Biles has two interceptions through three games, tied for eighth nationally and first in the SEC in interceptions per game.",
             "page": 10,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Defensive back Jelani McDonald leads Texas with 18 tackles, including 10 solo tackles and two tackles for loss.",
+            "fact": "Senior defensive back Jelani McDonald leads Texas with 18 tackles, including 10 solo tackles and two tackles for loss.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -227,57 +239,51 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Texas averages 510.3 total yards and 47.7 points per game through three games.",
+            "fact": "Texas averages 510.3 total yards and 47.7 points per game, ranking tied for 14th and tied for seventh nationally, respectively.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas ranks fourth nationally with 298.7 rushing yards per game but 88th with 211.7 passing yards per game.",
+            "fact": "Texas averages 298.7 rushing yards per game, fourth in the FBS, compared with 211.7 passing yards per game.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas has rushed for 156, 141 and 228 yards in its first three games.",
+            "fact": "Texas has rushed for 156, 141 and 228 yards in its first three games, with the season high coming against UTSA.",
             "page": 10,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas has scored on every red-zone possession through three games.",
+            "fact": "Texas has converted 48.6 percent of its third downs and has scored on every red-zone possession through three games.",
             "page": 1,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Texas enters the Tennessee game on a six-game winning streak and has won 21 consecutive games when winning time of possession.",
+            "fact": "Texas has a plus-100 third-quarter scoring differential since the beginning of the 2025 season.",
             "page": 6,
-            "category": "offensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Texas is 27-2 when scoring first since the beginning of the 2023 season.",
-            "page": 12,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Texas allows 289.0 total yards and 14.0 points per game through three games.",
+            "fact": "Texas allows 289.0 total yards and 14.0 points per game.",
             "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas allows 138.0 rushing yards and 151.0 passing yards per game.",
+            "fact": "Texas allows 138.0 rushing yards and 151.0 passing yards per game; its passing-yards defense ranks 20th nationally.",
             "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas ranks 14th nationally in pass-efficiency defense with a 100.37 rating allowed.",
+            "fact": "Texas ranks 14th nationally in pass-efficiency defense with a 100.37 opponent rating.",
             "page": 1,
             "category": "defensive_context",
             "importance": "medium"
@@ -297,19 +303,19 @@
         ],
         "special_teams": [
           {
-            "fact": "Kicker Gianni Spetic is perfect on field-goal attempts through three games, averages 1.67 field goals per game and has scored 29 points.",
+            "fact": "Kicker Gianni Spetic is perfect on field-goal attempts through three games and averages 1.67 made field goals per game.",
             "page": 10,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Ryan Niblett is Texas' primary returner and averages 9.8 yards per punt return and 13.3 yards per kickoff return.",
+            "fact": "Ryan Niblett is Texas' primary returner and averages 13.3 yards per kickoff return and 9.8 yards per punt return.",
             "page": 10,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
           },
           {
-            "fact": "Texas ranks 123rd nationally in net punting at 33.88 yards, while Tennessee ranks 81st at 38.67 yards.",
+            "fact": "Texas ranks 123rd nationally in net punting at 33.88 yards.",
             "page": 1,
             "category": "special_teams",
             "importance": "medium"
@@ -317,42 +323,42 @@
         ],
         "series_context": [
           {
-            "fact": "Texas leads the all-time series with Tennessee 2-1, with the teams meeting for the first time since 1969.",
+            "fact": "Texas and Tennessee will meet for the fourth time and the first time since 1969; Texas leads the series 2-1.",
             "page": 3,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Texas won the last two meetings, 16-0 in 1953 and 36-13 in 1969; Tennessee won the first meeting 20-14 in 1951.",
+            "fact": "This will be Texas' first game against Tennessee at Neyland Stadium; all three previous meetings were played at the Cotton Bowl.",
             "page": 3,
             "category": "series_context",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Texas is ranked No. 1 in both the AP and Coaches polls entering the game.",
-            "page": 13,
+            "fact": "Texas enters the game 3-0, ranked No. 1 in both the AP and Coaches polls, and riding a six-game winning streak.",
+            "page": 6,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Texas is 15-6 against AP top-25 opponents over the last three seasons and has won four consecutive games against ranked opponents.",
+            "fact": "Texas is 15-6 against AP top-25 opponents over the last three seasons and has won four consecutive games against ranked teams.",
             "page": 5,
             "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Tennessee game is Texas' first road game of the 2026 season.",
-            "page": 1,
-            "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Texas added 22 transfer-portal newcomers before the 2026 season.",
+            "fact": "Texas added 22 players through the transfer portal before the 2026 season.",
             "page": 6,
             "category": "other_relevant",
             "importance": "medium"
+          },
+          {
+            "fact": "Texas is listed as the second-youngest Power Four team in 2026 with an average age of 19.86; Tennessee is fourth-youngest at 19.92.",
+            "page": 12,
+            "category": "other_relevant",
+            "importance": "low"
           }
         ],
         "source_file": "Texas.pdf"
@@ -361,28 +367,28 @@
         "source_team": "Tennessee Volunteers",
         "opponent": "Texas Longhorns",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is Tennessee's 2026 Week 4 game notes for its Sept. 26 home game against No. 1 Texas, explicitly listing Texas as the upcoming opponent and providing matchup statistics, opponent notes and series history.",
+        "document_match_reason": "The guide is Tennessee's Week 4 game notes for its Sept. 26, 2026 home game against No. 1 Texas, including a Tennessee-Texas statistical comparison, series notes and matchup-specific storylines.",
         "recent_game": [
           {
-            "fact": "Tennessee improved to 3-0 with a 42-9 home win over Kennesaw State, rushing for 268 yards while holding Kennesaw State to three field goals and no touchdowns.",
+            "fact": "Tennessee improved to 3-0 with a 42-9 win over Kennesaw State, rushing for 268 yards while holding Kennesaw State to three field goals and no touchdowns.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Running back Daune Morris recorded his first career 100-yard rushing game against Kennesaw State, gaining 116 yards on 14 carries with a 42-yard touchdown.",
+            "fact": "Running back Daune Morris recorded his first career 100-yard game against Kennesaw State, gaining 116 yards on 14 carries with a 42-yard touchdown.",
             "page": 1,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "Quarterback Faizon Brandon produced 225 total yards and two touchdowns against Kennesaw State, completing 18 of 26 passes for 178 yards and one touchdown and rushing for 47 yards and one score.",
+            "fact": "Quarterback Faizon Brandon completed 18 of 26 passes for 178 yards and one touchdown against Kennesaw State and added 47 rushing yards and one touchdown on 11 carries.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Linebacker Arion Carter had eight tackles, one sack and two tackles for loss against Kennesaw State; linebacker Edwin Spillman added five tackles and a forced fumble.",
+            "fact": "Tennessee held Kennesaw State to 102 rushing yards; linebacker Arion Carter had eight tackles, one sack and two tackles for loss, while Edwin Spillman had five tackles and a forced fumble.",
             "page": 1,
             "category": "recent_game",
             "importance": "medium"
@@ -390,31 +396,37 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Texas enters the game 3-0, ranked No. 1 in both the AP and Coaches polls, after recording a 20-point comeback in a 24-23 win over then-No. 1 Ohio State.",
+            "fact": "Texas enters the matchup 3-0 and ranked No. 1 in both the AP and Coaches polls.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Texas is averaging 417.3 total yards and 37.7 points per game, including 242.3 passing yards and 175.0 rushing yards per game.",
+            "fact": "Texas owns a 24-23 win over then-No. 1 Ohio State in which the Longhorns overcame a 20-point deficit.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas averages 37.7 points and 417.3 total yards per game, including 242.3 passing yards and 175.0 rushing yards.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Texas is allowing 287.7 total yards and 12.0 points per game, including 178.7 passing yards and 109.0 rushing yards per game.",
+            "fact": "Texas has allowed 12.0 points, 287.7 total yards and 109.0 rushing yards per game through three games.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Texas has gained five turnovers and lost three for a plus-0.67 turnover margin per game; Tennessee has gained and lost three turnovers.",
+            "fact": "Texas has converted 56.3 percent of its third downs, compared with Tennessee's 48.6 percent.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Texas averages 4.67 penalties and 45 penalty yards per game, compared with Tennessee's 8.0 penalties and 74 penalty yards per game.",
+            "fact": "Texas has gained five turnovers and committed three, while Tennessee has gained three and committed three.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "medium"
@@ -428,27 +440,33 @@
             "importance": "high"
           },
           {
-            "fact": "Brandon has accounted for nine touchdowns through three games, with six passing and three rushing, the most among FBS freshmen.",
+            "fact": "Brandon has accounted for nine touchdowns through three games\u2014six passing and three rushing\u2014and has not thrown an interception in 64 attempts.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Brandon has not thrown an interception in 64 pass attempts and has thrown at least one touchdown pass in each of Tennessee's three games.",
-            "page": 5,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Brandon enters the Texas game with a 25-game winning streak as a starting quarterback, including his final 22 high-school starts and Tennessee's 3-0 start.",
+            "fact": "Brandon has thrown at least one touchdown pass in each of his first three games and has twice produced both a passing and rushing touchdown in the same game.",
             "page": 5,
             "category": "quarterback",
             "importance": "medium"
+          },
+          {
+            "fact": "Brandon enters the Texas game having won 25 consecutive starts across high school and college, including Tennessee's 3-0 start.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas quarterback Arch Manning is the nephew of former Tennessee quarterback Peyton Manning.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "low"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Tennessee's primary offensive-line combination in the past two games has been David Sanders Jr. at left tackle, Wendell Moe Jr. at left guard, Sam Pendleton at center, Sham Umarov at right guard and Jesse Perry at right tackle.",
+            "fact": "Tennessee's starting offensive line in each of the past two games has been David Sanders Jr. at left tackle, Wendell Moe Jr. at left guard, Sam Pendleton at center, Sham Umarov at right guard and Jesse Perry at right tackle.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "high"
@@ -460,19 +478,25 @@
             "importance": "high"
           },
           {
-            "fact": "Four of Tennessee's five primary offensive-line starters returned for 2026: David Sanders Jr., Wendell Moe Jr., Sam Pendleton and Jesse Perry; Sham Umarov also started 10 games in 2025.",
+            "fact": "Four of Tennessee's five primary offensive-line starters returned for 2026: Sanders, Moe, Pendleton and Perry; Umarov also started 10 games in 2025.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Running backs DeSean Bishop and Daune Morris are each averaging more than 70 rushing yards per game: Bishop 95.3 and Morris 78.0.",
+            "fact": "Running backs DeSean Bishop and Daune Morris average 95.3 and 78.0 rushing yards per game, respectively, making Tennessee the only SEC team with two players averaging more than 70 rushing yards per game.",
             "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Mike Matthews leads Tennessee with 10 receptions and 189 receiving yards and is tied for the team lead with two receiving touchdowns.",
+            "fact": "Bishop has 286 rushing yards and four rushing touchdowns through three games, with 175 of those yards coming after contact.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Mike Matthews leads Tennessee with 10 catches and 189 receiving yards and is tied for the team lead with two receiving touchdowns.",
             "page": 7,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -484,10 +508,10 @@
             "importance": "medium"
           },
           {
-            "fact": "Tight end DaSaahn Brame, quarterback Faizon Brandon and center Nic Moore made their first collegiate starts in the season opener; wide receiver Radarious Jackson made his first career start against Kennesaw State.",
+            "fact": "Tight end DaSaahn Brame and center Nic Moore made their first collegiate starts in the season opener, while wide receiver Radarious Jackson made his first career start against Kennesaw State.",
             "page": 9,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "defensive_personnel": [
@@ -504,13 +528,13 @@
             "importance": "high"
           },
           {
-            "fact": "Penn State transfer safety Dejuan Lane has a team-high three passes defended, including a 41-yard interception return for a touchdown at Georgia Tech.",
+            "fact": "Penn State transfer safety Dejuan Lane leads Tennessee with three passes defended and has recorded a 41-yard interception return for a touchdown.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Tennessee had seven defensive players make their first Volunteers starts in the opener: Amare Campbell, Xavier Gilliam, Dejuan Lane, Kayin Lee, TJ Metcalf, Qua Moss and Nathan Robinson.",
+            "fact": "Tennessee had seven defensive players make their first Volunteers starts in the opener: Campbell, Gilliam, Lane, Kayin Lee, TJ Metcalf, Qua Moss and Nathan Robinson.",
             "page": 9,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -524,19 +548,19 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Jim Knowles was named Tennessee's defensive coordinator on Dec. 11, 2025, after serving as Penn State's defensive coordinator in 2025 and Ohio State's defensive coordinator from 2022-24.",
+            "fact": "Jim Knowles was named Tennessee's defensive coordinator on Dec. 11, 2025, after serving as Penn State's defensive coordinator in 2025.",
             "page": 9,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Tennessee also added co-defensive coordinator/secondary coach Anthony Poindexter, LEOs coach Andrew Jackson and cornerbacks coach Derek Jones for 2026, while retaining defensive line coach Rodney Garner and linebackers coach William Inge.",
+            "fact": "New co-defensive coordinator and secondary coach Anthony Poindexter and new LEOs coach Andrew Jackson also came from Penn State, while Derek Jones joined as cornerbacks coach after holding that role at Virginia Tech.",
             "page": 9,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "All five Tennessee offensive assistants returned for 2026, including offensive coordinator/quarterbacks coach Joey Halzle and offensive line coach Glen Elarbee.",
+            "fact": "All five Tennessee offensive assistant coaches returned for 2026, including offensive coordinator and quarterbacks coach Joey Halzle and offensive line coach Glen Elarbee.",
             "page": 9,
             "category": "coaching_changes",
             "importance": "medium"
@@ -544,19 +568,19 @@
         ],
         "injury_availability": [
           {
-            "fact": "Tight end Ethan Davis is out for the remainder of the season with a knee injury sustained at Georgia Tech in Week 2.",
+            "fact": "Tight end Ethan Davis is out for the remainder of the season with a knee injury sustained at Georgia Tech.",
             "page": 9,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Defensive back Jadais Richard is out for the season after suffering an injury during the summer.",
+            "fact": "Cornerback Jadais Richard is out for the season after suffering an injury during the summer.",
             "page": 8,
             "category": "injury_availability",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Linebacker Arion Carter returned against Georgia Tech after a one-game NCAA suspension and has recorded eight tackles in each of his two games back, with two sacks and two tackles for loss.",
+            "fact": "Linebacker Arion Carter returned against Georgia Tech after a one-game NCAA suspension and is described in the guide as fully healthy following offseason foot surgery.",
             "page": 9,
             "category": "injury_availability",
             "importance": "high"
@@ -564,13 +588,13 @@
         ],
         "offensive_context": [
           {
-            "fact": "Tennessee is averaging 47.7 points and 510.3 total yards per game, with 298.7 rushing yards per game ranking first in the SEC and fourth nationally.",
+            "fact": "Tennessee averages 47.7 points and 510.3 total yards per game, including 298.7 rushing yards per game, which ranks first in the SEC and fourth nationally.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Tennessee has exceeded 400 yards of total offense in all three games this season and in 16 of its past 17 regular-season games.",
+            "fact": "Tennessee has exceeded 400 total yards in all three games this season and in 16 of its past 17 regular-season games.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
@@ -582,10 +606,10 @@
             "importance": "high"
           },
           {
-            "fact": "Tennessee has scored a touchdown on its opening offensive drive in all three games, with each drive taking less than three-and-a-half minutes.",
+            "fact": "Tennessee has scored a touchdown on its opening offensive drive in all three games this season, with each drive lasting fewer than three and a half minutes.",
             "page": 7,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Tennessee has outscored opponents 44-0 in the second quarter and 86-10 across the second and third quarters this season.",
@@ -594,8 +618,14 @@
             "importance": "medium"
           },
           {
-            "fact": "Tennessee has rushed for at least 200 yards in 38 games under Josh Heupel and is 36-2 in those games, including 30 consecutive wins.",
+            "fact": "Tennessee has rushed for at least 200 yards in 38 games under Josh Heupel and is 36-2 in those games, including 30 consecutive wins when reaching that mark.",
             "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee has allowed one sack per game and 3.33 tackles for loss per game, while Texas has averaged 1.67 sacks and 6.3 tackles for loss defensively.",
+            "page": 3,
             "category": "offensive_context",
             "importance": "medium"
           }
@@ -608,13 +638,13 @@
             "importance": "high"
           },
           {
-            "fact": "Tennessee has recorded 24 tackles for loss through three games, tied for 10th nationally.",
+            "fact": "Tennessee has 24 tackles for loss through three games, tied for 10th nationally and tied for the SEC lead.",
             "page": 6,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Opponents have scored two offensive touchdowns on 33 drives against Tennessee this season, a 6.1 percent touchdown rate.",
+            "fact": "Opponents have scored two offensive touchdowns on 33 drives against Tennessee this season, a rate of 6.1 percent.",
             "page": 6,
             "category": "defensive_context",
             "importance": "high"
@@ -626,47 +656,59 @@
             "importance": "high"
           },
           {
-            "fact": "Tennessee is allowing 151.0 passing yards per game, second in the SEC and 20th nationally.",
+            "fact": "Tennessee allows 151.0 passing yards per game, second in the SEC and 20th nationally.",
             "page": 6,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Tennessee has allowed only two pass plays of at least 20 yards and no pass play of at least 30 yards this season.",
+            "fact": "Tennessee has allowed only two pass plays of at least 20 yards and has not surrendered a pass play of 30 or more yards.",
             "page": 6,
             "category": "defensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "Tennessee is allowing 289.0 total yards and 14.0 points per game, compared with Texas allowing 287.7 yards and 12.0 points per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
           }
         ],
         "special_teams": [
           {
-            "fact": "Place kicker Cooper Ranvier is 3-for-3 on field goals, with a long of 43 yards, and 17-for-17 on extra points this season.",
+            "fact": "Louisville transfer kicker Cooper Ranvier is 3-for-3 on field goals, with a long of 43 yards, and 17-for-17 on extra points this season.",
             "page": 10,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Tennessee ranks last in the SEC in net punting at 33.88 yards and last in punt-return defense at 24.0 yards per return.",
-            "page": 3,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Justin Baker blocked a punt at Georgia Tech, giving Tennessee one blocked kick this season.",
+            "fact": "Tennessee blocked a punt at Georgia Tech, with Justin Baker credited for the block.",
             "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee averages 33.88 net yards per punt, while Texas averages 38.67; Tennessee has also allowed 24.0 yards per punt return.",
+            "page": 3,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "This is the first regular-season meeting between Tennessee and Texas and the programs' first meeting in 58 years.",
+            "fact": "This is the fourth all-time meeting between Tennessee and Texas and the first regular-season meeting; the previous three were Cotton Bowls.",
             "page": 3,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Texas leads the all-time series 2-1; all three prior meetings were Cotton Bowls in 1951, 1953 and 1969.",
+            "fact": "Texas leads the series 2-1, with wins in the 1953 and 1969 Cotton Bowls; Tennessee won the 1951 Cotton Bowl 20-14.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The programs have not met since Texas defeated Tennessee 36-13 in the Cotton Bowl on Jan. 1, 1969.",
             "page": 3,
             "category": "series_context",
             "importance": "medium"
@@ -674,19 +716,25 @@
         ],
         "other_relevant": [
           {
-            "fact": "The game is the SEC opener for both teams; Tennessee is 3-0 and ranked No. 14 in the AP poll and No. 13 in the Coaches poll.",
+            "fact": "The game is scheduled for noon ET on Sept. 26, 2026, at Neyland Stadium and is the SEC opener for both teams.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Tennessee is 3-18 all-time against teams ranked No. 1 in any poll and is facing a No. 1 team for the first time since its 38-10 loss to Georgia on Nov. 18, 2023.",
-            "page": 6,
+            "fact": "Tennessee enters 3-0 and ranked No. 14 in the AP poll and No. 13 in the Coaches poll.",
+            "page": 1,
             "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Tennessee is 31-7 at Neyland Stadium under Josh Heupel and 26-4 at home since the start of the 2022 season.",
+            "fact": "Tennessee is 3-18 all-time against teams ranked No. 1 in any major poll and is facing a No. 1 team for the fifth time under Josh Heupel.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee is 31-7 at Neyland Stadium under Heupel and 26-4 at home since the start of the 2022 season.",
             "page": 14,
             "category": "other_relevant",
             "importance": "medium"
@@ -732,17 +780,17 @@
     ],
     "used_sources": [
       {
-        "fact_id": 2,
-        "fact": "Against UTSA, Texas produced 400 total yards, rushed for a season-high 228 yards and committed no turnovers.",
-        "page": 13,
-        "category": "recent_game",
+        "fact_id": 10,
+        "fact": "The game is the SEC opener for both 3-0 teams and Texas' first road game of the 2026 season.",
+        "page": 1,
+        "category": "opponent_notes",
         "importance": "high",
         "source_file": "Texas.pdf",
         "source_team": "Texas Longhorns"
       },
       {
-        "fact_id": 12,
-        "fact": "Senior quarterback Arch Manning is 15-3 as a Texas starter and has appeared in 28 games with 18 starts.",
+        "fact_id": 15,
+        "fact": "Manning has four career wins as a starter against AP top-10 opponents, the most among active FBS quarterbacks.",
         "page": 6,
         "category": "quarterback",
         "importance": "high",
@@ -750,7 +798,16 @@
         "source_team": "Texas Longhorns"
       },
       {
-        "fact_id": 61,
+        "fact_id": 40,
+        "fact": "Texas allows 138.0 rushing yards and 151.0 passing yards per game; its passing-yards defense ranks 20th nationally.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 63,
         "fact": "True freshman Faizon Brandon earned Tennessee's starting quarterback job in preseason camp and was officially named the starter on Aug. 24.",
         "page": 5,
         "category": "quarterback",
@@ -759,8 +816,8 @@
         "source_team": "Tennessee Volunteers"
       },
       {
-        "fact_id": 62,
-        "fact": "Brandon has accounted for nine touchdowns through three games, with six passing and three rushing, the most among FBS freshmen.",
+        "fact_id": 64,
+        "fact": "Brandon has accounted for nine touchdowns through three games\u2014six passing and three rushing\u2014and has not thrown an interception in 64 attempts.",
         "page": 5,
         "category": "quarterback",
         "importance": "high",
@@ -768,20 +825,29 @@
         "source_team": "Tennessee Volunteers"
       },
       {
-        "fact_id": 63,
-        "fact": "Brandon has not thrown an interception in 64 pass attempts and has thrown at least one touchdown pass in each of Tennessee's three games.",
-        "page": 5,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "Tennessee.pdf",
-        "source_team": "Tennessee Volunteers"
-      },
-      {
-        "fact_id": 68,
-        "fact": "Running backs DeSean Bishop and Daune Morris are each averaging more than 70 rushing yards per game: Bishop 95.3 and Morris 78.0.",
+        "fact_id": 71,
+        "fact": "Running backs DeSean Bishop and Daune Morris average 95.3 and 78.0 rushing yards per game, respectively, making Tennessee the only SEC team with two players averaging more than 70 rushing yards per game.",
         "page": 1,
         "category": "offensive_personnel",
         "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 72,
+        "fact": "Bishop has 286 rushing yards and four rushing touchdowns through three games, with 175 of those yards coming after contact.",
+        "page": 7,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 110,
+        "fact": "Tennessee is 31-7 at Neyland Stadium under Heupel and 26-4 at home since the start of the 2022 season.",
+        "page": 14,
+        "category": "other_relevant",
+        "importance": "medium",
         "source_file": "Tennessee.pdf",
         "source_team": "Tennessee Volunteers"
       }
@@ -791,12 +857,12 @@
       "model_side": "Tennessee",
       "opponent_full": "Texas Longhorns",
       "opponent": "Texas",
-      "model_prediction": 5.0,
-      "market_line": 4.5,
+      "model_prediction": 5.5,
+      "market_line": 5.0,
       "best_available_line": 4.5,
-      "best_available_price": "-105",
-      "cover_probability": 0.50887085,
-      "edge": -0.0033242719512195,
+      "best_available_price": "-106",
+      "cover_probability": 0.50026584,
+      "edge": -0.0142972667961165,
       "bet_status": "PASS"
     }
   }

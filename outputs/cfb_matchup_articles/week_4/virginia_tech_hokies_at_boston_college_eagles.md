@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Tech Hokies | -14.5 (+100) | FanDuel | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boston College Eagles | +14.0 (-110) | BetMGM | 57.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Virginia Tech Hokies | -14.0 (-110) | BetMGM | 41.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boston College Eagles | +13.5 (+100) | FanDuel | 57.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Virginia Tech Hokies visit the Boston College Eagles at Alumni Stadium (Chestnut Hill, MA). We make **Boston College +10.5**, compared with a market line of +14.
 
-The best number we found is Boston College +14.0 at -110. We give Boston College a 57.2% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Boston College is a bet.
+The best number we found is Boston College +13.5 at +100. We give Boston College a 57.2% chance to cover, which creates an 7.2% edge for us. That clears our 3% threshold, so Boston College is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,13 +32,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#97</td>
-<td class="btb-better">#89</td>
+<td>#96</td>
+<td class="btb-better">#87</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#100</td>
-<td class="btb-better">#13</td>
+<td class="btb-better">#14</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#125</td>
-<td>#132</td>
+<td class="btb-better">#124</td>
+<td>#130</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

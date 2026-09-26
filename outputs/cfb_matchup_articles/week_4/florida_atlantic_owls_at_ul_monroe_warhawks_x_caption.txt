@@ -1,9 +1,9 @@
-Our model is 1 points away from the market on Florida Atlantic-Louisiana Monroe.
+Our model is 1 point away from the market on Florida Atlantic-Louisiana Monroe.
 
 We make Louisiana Monroe +10.5. The market is +11.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: Louisiana Monroe +11.5 -106. We give it a 54.5% chance to cover with a 3.0% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

@@ -2,284 +2,326 @@
   "game": "Illinois Fighting Illini@Ohio State Buckeyes",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T14:52:06.401699+00:00",
-  "model_prediction": 26.0,
-  "market_line": 27.5,
+  "generated_at_utc": "2026-09-26T13:13:01.503360+00:00",
+  "model_prediction": 25.0,
+  "market_line": 26.5,
   "best_line": 27.5,
   "best_price": "-113",
   "best_book": "BetRivers",
-  "cover_probability": 0.52886151,
-  "edge": -0.0016549219248825,
+  "cover_probability": 0.54677099,
+  "edge": 0.0162545580751173,
   "bet_short": "Illinois",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our model is a little less aggressive on Ohio State than the market, but we understand why the price is so large. We see a top-tier Ohio State passing offense facing an Illinois pass defense that has struggled by pass EPA, while Illinois' rushing offense runs into one of the strongest rush defenses in our numbers. We also project a major Ohio State advantage in preventing scoring opportunities, which makes it difficult to build a strong underdog case around sustained Illinois drives.\n\nWhere we retain some restraint is Ohio State's defensive turnover. We see only three returning defensive starters from 2025 after eight departed, so we are not simply carrying last season's dominant results forward without adjustment. At the same time, Ohio State returns eight offensive starters and entered 2026 with substantial offensive-line continuity. For us, the modest disagreement with the market is not enough because the matchup advantages still point heavily toward Ohio State, particularly when Illinois has the ball.",
-    "matchup_to_watch": "We are focused on Ohio State's passing offense against the Illinois pass defense. Julian Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns in 2025, and Jeremiah Smith opened 2026 with eight catches for 151 yards and two touchdowns in the first half against Ball State. We do not treat one opener as proof of what happens here, but that established efficiency and receiving talent directly attack the weakest part of Illinois' statistical profile. If Illinois cannot limit explosive and efficient passing production, our slightly more conservative view of the margin will face immediate pressure.",
+    "narrative": "Our disagreement with the market is modest, and we are not dismissing Ohio State\u2019s ability to create separation. We see substantial offensive continuity: Ohio State returned eight starters on that side of the ball and 85.8 percent of its offensive-line snaps from 2025. The 671-yard opener reinforces the upside of that group, but we are not treating one result against Ball State as proof that every opponent should be priced the same way.\n\nThe matchup profile also makes it difficult for us to support Illinois aggressively. Our numbers show a major advantage for Ohio State\u2019s passing offense against the Illinois pass defense, while Illinois faces difficult paths both running the ball and creating scoring opportunities against Ohio State. Those are meaningful concerns when taking this many points because Illinois may struggle to sustain enough offense to stay within range.\n\nThe counterweight in our view is turnover on the Ohio State defense. Only three defensive starters returned, with eight lost from the 2025 unit. We saw Ohio State hold Ball State to 165 yards in the opener, but that single performance does not fully resolve the uncertainty surrounding a reworked group. That helps explain why our model lands a little closer than the market, but the disagreement is not large enough for us at the available price.",
+    "matchup_to_watch": "For us, the matchup to watch is Ohio State\u2019s passing game against the Illinois secondary. Julian Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns in 2025, and our efficiency numbers again rate this passing offense among the nation\u2019s best. Illinois\u2019 pass-defense profile is the clearest reason our lean toward the underdog does not become a wager.\n\nWe also saw Jeremiah Smith catch eight passes for 151 yards and two touchdowns in the first half of the opener. We are not extrapolating that stat line directly, but it illustrates the explosive receiving threat Illinois must contain. If Ohio State consistently generates efficient early-down throws, the market\u2019s expectation of a wide margin becomes much easier to justify.",
     "guide_status": [
       "No guide found for Illinois Fighting Illini. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Illinois.pdf",
       "Found guide for Ohio State Buckeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio State.pdf",
-      "Guide for Ohio State Buckeyes was found but may not match the current opponent. The guide is labeled \"Ohio State vs. Texas\" and identifies Game 2 at Texas on Sept. 12, 2026 as the featured matchup. Illinois appears on Ohio State's schedule for Sept. 26, but this is not the Illinois game guide."
+      "Guide for Ohio State Buckeyes was found but may not match the current opponent. The guide is explicitly labeled for Ohio State's Game 2 at Texas on Sept. 12, 2026. Illinois is listed as Ohio State's Sept. 26 opponent, so this is not the guide for the upcoming Illinois matchup."
     ],
     "guide_extractions": [
       {
         "source_team": "Ohio State Buckeyes",
         "opponent": "Illinois Fighting Illini",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is labeled \"Ohio State vs. Texas\" and identifies Game 2 at Texas on Sept. 12, 2026 as the featured matchup. Illinois appears on Ohio State's schedule for Sept. 26, but this is not the Illinois game guide.",
+        "document_match_reason": "The guide is explicitly labeled for Ohio State's Game 2 at Texas on Sept. 12, 2026. Illinois is listed as Ohio State's Sept. 26 opponent, so this is not the guide for the upcoming Illinois matchup.",
         "recent_game": [
           {
-            "fact": "Ohio State opened the 2026 season with a 56-3 win over Ball State on Sept. 5.",
+            "fact": "Ohio State opened the 2026 season with a 56-3 home win over Ball State on Sept. 5.",
             "page": 1,
-            "category": "recent_game_result",
+            "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Against Ball State, Ohio State produced 671 total yards, including 434 passing and 237 rushing, while allowing 165 total yards.",
+            "fact": "Against Ball State, Ohio State produced 671 total yards: 434 passing and 237 rushing.",
             "page": 4,
-            "category": "recent_game_team_statistics",
+            "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jeremiah Smith caught eight passes for 151 yards and two touchdowns in the first half against Ball State.",
+            "fact": "Ohio State held Ball State to 165 total yards, including 45 rushing and 120 passing.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Ohio State converted 45.5 percent of its third downs and held Ball State to a 21.4 percent third-down conversion rate.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fourteen Ohio State players caught a pass against Ball State, the program's first game with at least 14 receivers recording a catch since Sept. 22, 2018 against Tulane.",
             "page": 1,
-            "category": "recent_game_receiving",
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jeremiah Smith caught eight passes for 151 yards and two touchdowns, all in the first half, against Ball State.",
+            "page": 1,
+            "category": "recent_game",
             "importance": "high"
           },
           {
             "fact": "Bo Jackson averaged 9.2 yards per carry against Ball State and scored on a career-long 65-yard run.",
             "page": 6,
-            "category": "recent_game_rushing",
+            "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Fourteen Ohio State players recorded a reception against Ball State, the program's first game with at least 14 receivers catching a pass since Sept. 22, 2018.",
-            "page": 1,
-            "category": "recent_game_distribution",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ohio State played 21 true freshmen in the opener against Ball State.",
+            "fact": "Ohio State played 21 true freshmen against Ball State.",
             "page": 6,
-            "category": "recent_game_personnel",
+            "category": "recent_game",
             "importance": "medium"
           },
           {
             "fact": "Freshman Legend Bey had 100 all-purpose yards against Ball State and scored on his first career reception.",
             "page": 6,
-            "category": "recent_game_freshman",
+            "category": "recent_game",
             "importance": "medium"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Ohio State's schedule lists a home game against Illinois on Sept. 26, 2026.",
+            "fact": "Ohio State is scheduled to host Illinois on Sept. 26, 2026; the game time and television assignment were not yet announced in this guide.",
             "page": 1,
-            "category": "upcoming_opponent_schedule",
+            "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Cornerback Devin Sanchez recorded a 2025 season-high five tackles and a pass breakup against Illinois.",
+            "fact": "Ohio State cornerback Devin Sanchez recorded a 2025 season-high five tackles and a pass breakup against Illinois.",
             "page": 18,
-            "category": "prior_performance_vs_opponent",
-            "importance": "medium"
+            "category": "opponent_notes",
+            "importance": "low"
           }
         ],
         "quarterback": [
           {
             "fact": "Julian Sayin is a returning offensive starter and entered 2026 with 15 starts in 19 career games.",
             "page": 3,
-            "category": "quarterback_experience",
+            "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Sayin completed 77.0 percent of his passes in 2025, led the nation in completion percentage, ranked second nationally with a 177.5 efficiency rating, and threw for 3,610 yards, 32 touchdowns and eight interceptions.",
+            "fact": "In 2025, Sayin completed 77.0 percent of his passes, threw for 3,610 yards and 32 touchdowns with eight interceptions, and ranked second nationally with a 177.5 efficiency rating.",
             "page": 6,
-            "category": "quarterback_2025_performance",
+            "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Sayin's 77.0 completion percentage in 2025 set Ohio State and Big Ten single-season records.",
+            "fact": "Sayin's 77.0 percent completion rate in 2025 set Ohio State and Big Ten single-season records.",
             "page": 6,
-            "category": "quarterback_accuracy",
+            "category": "quarterback",
             "importance": "high"
           },
           {
             "fact": "Sayin has seven career 300-yard passing games.",
             "page": 6,
-            "category": "quarterback_explosiveness",
+            "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Sayin was selected as one of Ohio State's seven captains for 2026.",
-            "page": 14,
-            "category": "quarterback_leadership",
-            "importance": "medium"
+            "fact": "Backup quarterback Justyn Martin entered 2026 with six career game appearances and no starts.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "low"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Ohio State returns eight offensive starters: QB Julian Sayin, RB Bo Jackson, WR Jeremiah Smith, WR Brandon Inniss, OT Phillip Daniels, C Carson Hinzman, OG Luke Montgomery and OG Austin Siereveld.",
+            "fact": "Ohio State returned eight offensive starters: quarterback Julian Sayin, running back Bo Jackson, receivers Jeremiah Smith and Brandon Inniss, tackle Phillip Daniels, center Carson Hinzman, and guards Luke Montgomery and Austin Siereveld.",
             "page": 2,
-            "category": "returning_offensive_starters",
+            "category": "offensive_personnel",
             "importance": "high"
           },
           {
             "fact": "Ohio State lost three offensive starters from 2025: guard Tegra Tshabola and tight ends Max Klare and Will Kacmarek.",
             "page": 2,
-            "category": "departed_offensive_starters",
+            "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Bo Jackson rushed for a team-high 1,090 yards on 179 carries in 2025 and had six 100-yard games in his first 12 outings.",
-            "page": 19,
-            "category": "running_back_personnel",
+            "fact": "Ohio State returned 85.8 percent of its 2025 offensive-line snaps among players who logged at least 100 snaps, the highest listed rate among Power Four teams.",
+            "page": 6,
+            "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Jeremiah Smith entered 2026 with 171 receptions, 2,709 receiving yards and 29 receiving touchdowns across his college career.",
-            "page": 5,
-            "category": "wide_receiver_personnel",
+            "fact": "After the 2026 opener, Ohio State's starting offensive line had combined for 146 games played and 93 starts.",
+            "page": 6,
+            "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer wide receiver Devin McCuin arrived from UTSA after recording 65 receptions for 726 yards and eight touchdowns in 2025; he has 28 career starts.",
-            "page": 19,
-            "category": "offensive_transfer",
-            "importance": "medium"
-          },
-          {
-            "fact": "Transfer wide receiver Kyle Parker arrived from LSU with seven career starts and career totals of 34 receptions, 385 yards and five touchdowns.",
-            "page": 19,
-            "category": "offensive_transfer",
-            "importance": "medium"
-          },
-          {
-            "fact": "Tight end Hunter Welcing transferred from Northwestern with 11 career starts, while tight end Mason Williams transferred from Ohio with 26 career starts.",
+            "fact": "The returning offensive linemen included Carson Hinzman with 36 career starts, Austin Siereveld with 21, Phillip Daniels with 17 and Luke Montgomery with 17.",
             "page": 3,
-            "category": "tight_end_transfers",
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Bo Jackson rushed for a team-high 1,090 yards on 179 carries in 2025 and had six 100-yard games in his first 12 appearances.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeremiah Smith entered the second game of 2026 with 171 career receptions, 2,709 receiving yards and 29 receiving touchdowns.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Receiver Devin McCuin transferred from UTSA after recording 65 receptions for 726 yards and eight touchdowns in 2025.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Receiver Kyle Parker transferred from LSU with 34 career receptions for 385 yards and five touchdowns across 21 games and seven starts.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ohio State's returning tight ends included Hunter Welcing with 11 career starts, Bennett Christian with two and Nate Roberts, who appeared in 13 games as a freshman.",
+            "page": 3,
+            "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Ohio State returns three defensive starters from 2025: cornerback Jermaine Mathews Jr., defensive end Kenyatta Jackson Jr. and safety Jaylen McClain.",
+            "fact": "Ohio State returned three defensive starters from 2025: cornerback Jermaine Mathews Jr., defensive end Kenyatta Jackson Jr. and safety Jaylen McClain.",
             "page": 2,
-            "category": "returning_defensive_starters",
+            "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ohio State lost eight defensive starters from 2025: tackles Tywone Malone Jr. and Kayden McDonald, end Caden Curry, linebackers Arvell Reese and Sonny Styles, safeties Caleb Downs and Lorenzo Styles, and cornerback Devin Igbinosun.",
+            "fact": "Ohio State lost eight defensive starters: tackles Tywone Malone Jr. and Kayden McDonald, end Caden Curry, linebackers Arvell Reese and Sonny Styles, safeties Caleb Downs and Lorenzo Styles, and cornerback Devin Igbinosun.",
             "page": 2,
-            "category": "departed_defensive_starters",
+            "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Defensive end Kenyatta Jackson Jr. recorded 11 tackles for loss and 6.5 sacks in 2025 and entered 2026 with 9.5 career sacks.",
+            "fact": "Defensive tackle James Smith transferred from Alabama after recording 28 tackles, 6.5 tackles for loss and 2.5 sacks in 2025.",
             "page": 18,
-            "category": "defensive_line_personnel",
+            "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Safety Jaylen McClain made 53 tackles and played 816 defensive snaps in 2025.",
+            "fact": "Defensive end Qua Russaw transferred from Alabama with 50 career tackles, 3.5 tackles for loss, two sacks and two interceptions.",
             "page": 18,
-            "category": "secondary_personnel",
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Christian Alliegro transferred from Wisconsin with 127 career tackles and eight sacks across 36 games and 12 starts.",
+            "page": 18,
+            "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ohio State added defensive transfers James Smith and Qua Russaw from Alabama, Christian Alliegro from Wisconsin, John Walker from UCF, Beau Atkinson from North Carolina, Earl Little Jr. from Florida State and Terry Moore from Duke.",
+            "fact": "Defensive tackle John Walker transferred from UCF with 64 career tackles, eight tackles for loss and 1.5 sacks in 26 games.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Earl Little Jr. transferred from Florida State after leading FSU with 76 tackles in 2025; he entered Ohio State with 97 career tackles and four interceptions.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Terry Moore brought 19 career starts from Duke, while Little brought 13 career starts and defensive linemen James Smith and John Walker each brought at least 12.",
             "page": 3,
-            "category": "defensive_transfers",
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kenyatta Jackson Jr. recorded 11 tackles for loss and 6.5 sacks in 2025.",
+            "page": 18,
+            "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wisconsin transfer linebacker Christian Alliegro entered 2026 with 127 career tackles, eight sacks and 12 career starts.",
+            "fact": "Jaylen McClain was Ohio State's sixth-leading tackler in 2025 with 53 tackles and played 816 defensive snaps.",
             "page": 18,
-            "category": "linebacker_transfer",
-            "importance": "medium"
-          },
-          {
-            "fact": "Florida State transfer safety Earl Little Jr. led Florida State with 76 tackles in 2025 and entered 2026 with 97 career tackles and four interceptions.",
-            "page": 18,
-            "category": "secondary_transfer",
-            "importance": "medium"
-          },
-          {
-            "fact": "UCF transfer defensive tackle John Walker entered 2026 with 64 career tackles, eight tackles for loss and 13 career starts.",
-            "page": 18,
-            "category": "defensive_line_transfer",
-            "importance": "medium"
+            "category": "defensive_personnel",
+            "importance": "high"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Ohio State's 2026 coordinators are Matt Patricia on defense, Arthur Smith on offense and Robby Discher on special teams.",
+            "fact": "Ohio State's 2026 coordinators are defensive coordinator Matt Patricia, offensive coordinator Arthur Smith and special teams coordinator Robby Discher.",
             "page": 2,
-            "category": "coordinator_assignments",
+            "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Tyler Bowen is Ohio State's run game coordinator and offensive line coach, while Billy Fessler is the pass game coordinator and quarterbacks coach.",
+            "fact": "Tyler Bowen serves as run game coordinator and offensive line coach, Billy Fessler as pass game coordinator and quarterbacks coach, and Keenan Bailey as co-offensive coordinator and tight ends coach.",
             "page": 2,
-            "category": "offensive_coaching_assignments",
+            "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Tim Walton is co-defensive coordinator and secondary coach, Matt Guerrieri is pass game coordinator and safeties coach, and James Laurinaitis coaches the linebackers.",
+            "fact": "Cortez Hankton coaches wide receivers, Carlos Locklyn coaches running backs, Larry Johnson coaches the defensive line and James Laurinaitis coaches linebackers.",
             "page": 2,
-            "category": "defensive_coaching_assignments",
+            "category": "coaching_changes",
             "importance": "medium"
           }
         ],
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Ohio State entered 2026 with 85.8 percent of its 2025 offensive-line snaps returning among linemen who played at least 100 snaps, the highest listed rate among Power Four teams.",
-            "page": 6,
-            "category": "offensive_line_continuity",
+            "fact": "Ohio State scored 56 points and gained 671 yards in its 2026 opener.",
+            "page": 4,
+            "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "After the Ball State opener, Ohio State's starting offensive line had combined for 146 games played and 93 starts.",
-            "page": 6,
-            "category": "offensive_line_experience",
-            "importance": "high"
-          },
-          {
-            "fact": "Center Carson Hinzman entered 2026 with 36 starts, Austin Siereveld with 21, Phillip Daniels with 17 and Luke Montgomery with 17.",
-            "page": 3,
-            "category": "offensive_line_starts",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State was one of two FBS programs to produce a 3,500-yard passer, a 1,000-yard receiver and a 1,000-yard rusher in each of the previous two seasons.",
-            "page": 6,
-            "category": "offensive_balance",
+            "fact": "Ohio State had a 100 percent red-zone scoring rate in its 2026 opener.",
+            "page": 4,
+            "category": "offensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "Ohio State returned a 3,610-yard passer, a 1,090-yard rusher and a receiver who had 1,243 yards in 2025.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Ohio State allowed 9.3 points and 219.1 total yards per game in 2025, ranking first nationally in scoring defense and total defense.",
-            "page": 5,
-            "category": "recent_defensive_performance",
+            "fact": "Ohio State allowed three points and 165 total yards in its 2026 opener.",
+            "page": 4,
+            "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ohio State allowed 129.7 passing yards per game in 2025 and 8.73 yards per completion.",
+            "fact": "In 2025, Ohio State led the FBS in scoring defense at 9.3 points per game, total defense at 219.1 yards per game and passing defense at 129.7 yards per game.",
             "page": 5,
-            "category": "pass_defense",
+            "category": "defensive_context",
             "importance": "high"
           },
           {
             "fact": "Ohio State allowed 12 touchdowns from scrimmage during the 2025 season.",
             "page": 5,
-            "category": "scoring_defense",
+            "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "In the 2026 opener, Ohio State held Ball State to 165 total yards, including 45 rushing yards and 120 passing yards, and allowed conversions on 21.4 percent of third downs.",
+            "fact": "From the start of 2024 through the first game of 2026, Ohio State allowed 10.9 points, 235.7 total yards and 148.6 passing yards per game.",
             "page": 4,
-            "category": "current_defensive_form",
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Since the start of 2024, Ohio State allowed 37 touchdowns in 31 games and held nine opponents without a touchdown.",
+            "page": 5,
+            "category": "defensive_context",
             "importance": "high"
           }
         ],
@@ -287,29 +329,35 @@
           {
             "fact": "Punter Joe McGuire is Ohio State's only returning specialist starter.",
             "page": 2,
-            "category": "returning_specialist",
+            "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Ohio State lost starting kicker Jayden Fielding and long snapper John Ferlmann from the 2025 team.",
+            "fact": "Ohio State lost starting kicker Jayden Fielding and long snapper John Ferlmann after the 2025 season.",
             "page": 2,
-            "category": "special_teams_turnover",
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Robby Discher is Ohio State's special teams coordinator in 2026.",
+            "page": 2,
+            "category": "special_teams",
             "importance": "medium"
           }
         ],
         "series_context": [],
         "other_relevant": [
           {
-            "fact": "Ohio State entered the season with 34 returning letterwinners and 31 letterwinners lost.",
+            "fact": "Ohio State entered the Texas game with 34 returning letterwinners and 31 letterwinners lost from the 2025 roster.",
             "page": 2,
-            "category": "roster_turnover",
+            "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Ohio State was listed as the 11th-youngest team nationally, fifth-youngest in the Power Four and second-youngest in the Big Ten, with an average age of 19.95.",
-            "page": 6,
-            "category": "roster_age",
-            "importance": "medium"
+            "fact": "Ohio State returned 11 starters overall: eight on offense and three on defense.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "high"
           }
         ],
         "source_file": "Ohio State.pdf"
@@ -320,12 +368,12 @@
         "dimension": "Ohio State passing offense vs Illinois pass defense",
         "off_team": "Ohio State",
         "def_team": "Illinois",
-        "off_rank": 5,
+        "off_rank": 4,
         "def_rank": 92,
         "stat": "pass EPA",
-        "rank_gap": 87,
+        "rank_gap": 88,
         "direction": "offense_advantage",
-        "matchup_score": 187
+        "matchup_score": 188
       },
       {
         "dimension": "Illinois rushing offense vs Ohio State rush defense",
@@ -352,55 +400,64 @@
     ],
     "used_sources": [
       {
-        "fact_id": 3,
-        "fact": "Jeremiah Smith caught eight passes for 151 yards and two touchdowns in the first half against Ball State.",
+        "fact_id": 2,
+        "fact": "Against Ball State, Ohio State produced 671 total yards: 434 passing and 237 rushing.",
+        "page": 4,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 6,
+        "fact": "Jeremiah Smith caught eight passes for 151 yards and two touchdowns, all in the first half, against Ball State.",
         "page": 1,
-        "category": "recent_game_receiving",
+        "category": "recent_game",
         "importance": "high",
         "source_file": "Ohio State.pdf",
         "source_team": "Ohio State Buckeyes"
       },
       {
         "fact_id": 11,
-        "fact": "Sayin completed 77.0 percent of his passes in 2025, led the nation in completion percentage, ranked second nationally with a 177.5 efficiency rating, and threw for 3,610 yards, 32 touchdowns and eight interceptions.",
+        "fact": "In 2025, Sayin completed 77.0 percent of his passes, threw for 3,610 yards and 32 touchdowns with eight interceptions, and ranked second nationally with a 177.5 efficiency rating.",
         "page": 6,
-        "category": "quarterback_2025_performance",
+        "category": "quarterback",
         "importance": "high",
         "source_file": "Ohio State.pdf",
         "source_team": "Ohio State Buckeyes"
       },
       {
         "fact_id": 15,
-        "fact": "Ohio State returns eight offensive starters: QB Julian Sayin, RB Bo Jackson, WR Jeremiah Smith, WR Brandon Inniss, OT Phillip Daniels, C Carson Hinzman, OG Luke Montgomery and OG Austin Siereveld.",
+        "fact": "Ohio State returned eight offensive starters: quarterback Julian Sayin, running back Bo Jackson, receivers Jeremiah Smith and Brandon Inniss, tackle Phillip Daniels, center Carson Hinzman, and guards Luke Montgomery and Austin Siereveld.",
         "page": 2,
-        "category": "returning_offensive_starters",
+        "category": "offensive_personnel",
         "importance": "high",
         "source_file": "Ohio State.pdf",
         "source_team": "Ohio State Buckeyes"
       },
       {
-        "fact_id": 22,
-        "fact": "Ohio State returns three defensive starters from 2025: cornerback Jermaine Mathews Jr., defensive end Kenyatta Jackson Jr. and safety Jaylen McClain.",
-        "page": 2,
-        "category": "returning_defensive_starters",
-        "importance": "high",
-        "source_file": "Ohio State.pdf",
-        "source_team": "Ohio State Buckeyes"
-      },
-      {
-        "fact_id": 23,
-        "fact": "Ohio State lost eight defensive starters from 2025: tackles Tywone Malone Jr. and Kayden McDonald, end Caden Curry, linebackers Arvell Reese and Sonny Styles, safeties Caleb Downs and Lorenzo Styles, and cornerback Devin Igbinosun.",
-        "page": 2,
-        "category": "departed_defensive_starters",
-        "importance": "high",
-        "source_file": "Ohio State.pdf",
-        "source_team": "Ohio State Buckeyes"
-      },
-      {
-        "fact_id": 33,
-        "fact": "Ohio State entered 2026 with 85.8 percent of its 2025 offensive-line snaps returning among linemen who played at least 100 snaps, the highest listed rate among Power Four teams.",
+        "fact_id": 17,
+        "fact": "Ohio State returned 85.8 percent of its 2025 offensive-line snaps among players who logged at least 100 snaps, the highest listed rate among Power Four teams.",
         "page": 6,
-        "category": "offensive_line_continuity",
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 25,
+        "fact": "Ohio State returned three defensive starters from 2025: cornerback Jermaine Mathews Jr., defensive end Kenyatta Jackson Jr. and safety Jaylen McClain.",
+        "page": 2,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Ohio State lost eight defensive starters: tackles Tywone Malone Jr. and Kayden McDonald, end Caden Curry, linebackers Arvell Reese and Sonny Styles, safeties Caleb Downs and Lorenzo Styles, and cornerback Devin Igbinosun.",
+        "page": 2,
+        "category": "defensive_personnel",
         "importance": "high",
         "source_file": "Ohio State.pdf",
         "source_team": "Ohio State Buckeyes"
@@ -411,12 +468,12 @@
       "model_side": "Illinois",
       "opponent_full": "Ohio State Buckeyes",
       "opponent": "Ohio State",
-      "model_prediction": 26.0,
-      "market_line": 27.5,
+      "model_prediction": 25.0,
+      "market_line": 26.5,
       "best_available_line": 27.5,
       "best_available_price": "-113",
-      "cover_probability": 0.52886151,
-      "edge": -0.0016549219248825,
+      "cover_probability": 0.54677099,
+      "edge": 0.0162545580751173,
       "bet_status": "PASS"
     }
   }

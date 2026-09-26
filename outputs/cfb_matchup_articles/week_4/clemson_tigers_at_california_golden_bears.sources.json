@@ -2,19 +2,19 @@
   "game": "Clemson Tigers@California Golden Bears",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T14:50:56.003993+00:00",
-  "model_prediction": 0.5,
-  "market_line": 1.5,
-  "best_line": 1.5,
-  "best_price": "-110",
-  "best_book": "BetMGM",
-  "cover_probability": 0.51393546,
-  "edge": -0.0098740638095238,
+  "generated_at_utc": "2026-09-26T13:12:01.674905+00:00",
+  "model_prediction": 2.0,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.54567161,
+  "edge": 0.0456716099999999,
   "bet_short": "California",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our view of California starts with its pass defense. California ranks among the national leaders in passing-efficiency defense, while Kingston Lopa has recorded all five of the team\u2019s interceptions. That matters against true freshman Tait Reynolds, who completed 20 of 29 passes in his first Clemson start but also threw an interception. We see a credible path for California to disrupt Clemson\u2019s passing game rather than simply trading scores.",
-    "matchup_to_watch": "For us, Clemson\u2019s passing game against California\u2019s secondary is the matchup to watch. Reynolds handled his starting debut well, but California has generated a takeaway through Lopa in every game. If California can force Clemson away from comfortable passing situations, our slight preference for the home side makes sense; if Clemson protects Reynolds and stays balanced, the distinction between these teams becomes even thinner.",
+    "narrative": "For us, the case for California is less about its recent results and more about how its defense matches up with Clemson\u2019s passing game. Our numbers see a clear advantage for California through the air. Clemson is coming off a season-high 215 passing yards, but that production came in true freshman Tait Reynolds\u2019 first career start. California, meanwhile, ranks first in the ACC in pass-efficiency defense and has intercepted five passes, with Kingston Lopa accounting for all five.",
+    "matchup_to_watch": "We are watching Reynolds against California\u2019s secondary. He completed 20 of 29 passes against North Carolina, but California presents a different test because it has consistently created takeaways through three games. If California can limit efficient completions and force Clemson to sustain drives without turnover-worthy throws, we think the home side can keep this inside the market\u2019s margin. Our main concern is California\u2019s own offense: our numbers are skeptical of its rushing efficiency and ability to create scoring opportunities, even though it has converted 91.7 percent of its red-zone chances so far.",
     "guide_status": [
       "Found guide for Clemson Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Clemson.pdf",
       "Loaded guide for Clemson Tigers: Clemson.pdf",
@@ -26,7 +26,7 @@
         "source_team": "Clemson Tigers",
         "opponent": "California Golden Bears",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide is explicitly for Clemson's Week 4 road game against California on Friday, Sept. 25, 2026, at California Memorial Stadium.",
+        "document_match_reason": "The guide is Clemson's 2026 game notes for its Sept. 25 road game against Cal at California Memorial Stadium in Berkeley.",
         "recent_game": [
           {
             "fact": "Clemson defeated North Carolina 28-20 to improve to 2-1 overall and 1-0 in ACC play.",
@@ -35,51 +35,45 @@
             "importance": "high"
           },
           {
-            "fact": "Clemson trailed North Carolina by two points with 8:11 remaining when a two-hour-and-28-minute weather delay began; after the delay, Clemson held North Carolina to a field goal and outscored the Tar Heels 13-0 over the final 5:01.",
+            "fact": "Clemson trailed North Carolina by two points with 8:11 remaining when a two-hour, 28-minute weather delay began; after play resumed, Clemson held North Carolina to a field goal and outscored the Tar Heels 13-0 over the final 5:01.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Clemson produced season highs of 401 total yards, 215 passing yards and 186 rushing yards against North Carolina.",
+            "fact": "Clemson produced a season-high 401 yards against North Carolina, including season highs of 215 passing yards and 186 rushing yards.",
             "page": 5,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Clemson overcame a 14-3 first-quarter deficit and entered the fourth quarter trailing 17-15 against North Carolina.",
+            "fact": "Clemson overcame a 14-3 first-quarter deficit and a 17-15 deficit entering the fourth quarter against North Carolina.",
             "page": 6,
             "category": "recent_game",
             "importance": "medium"
-          },
-          {
-            "fact": "Clemson forced two North Carolina turnovers: a fumble recovered by Vic Burley and a game-sealing interception by Elliot Washington II.",
-            "page": 5,
-            "category": "recent_game",
-            "importance": "high"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "California enters the matchup 2-1 overall and 1-0 in ACC play, with 94 points scored and 70 allowed through three games.",
-            "page": 6,
+            "fact": "Clemson and Cal enter the matchup with identical records of 2-1 overall and 1-0 in ACC play.",
+            "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Cal has won two consecutive games and is 1-1 at home entering the Clemson matchup.",
+            "fact": "Cal has scored 94 points and allowed 70 through three games and enters on a two-game winning streak.",
             "page": 6,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Clemson is scheduled to face Cal head coach Tosh Lupoi for the first time.",
+            "fact": "Cal is coached by Tosh Lupoi, whom Clemson has not previously faced as a head coach.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "The game will be Clemson's first conference game on the West Coast and its first road meeting with Cal.",
+            "fact": "This is Clemson's first conference game on the West Coast and its first trip to the West Coast since the ACC's westward expansion.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "medium"
@@ -87,19 +81,25 @@
         ],
         "quarterback": [
           {
-            "fact": "True freshman quarterback Tait Reynolds made his first career start against North Carolina and completed 20 of 29 passes for 215 yards, one touchdown and one interception while adding 26 rushing yards on 11 carries.",
+            "fact": "True freshman quarterback Tait Reynolds made his first career start against North Carolina and completed 20 of 29 passes for 215 yards, one touchdown and one interception while rushing 11 times for 26 yards.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Reynolds led a fourth-quarter comeback in his starting debut and threw his first career touchdown pass, a 27-yard completion to tight end Christian Bentancur.",
+            "fact": "Reynolds threw his first career touchdown pass on a 27-yard completion to tight end Christian Bentancur against North Carolina.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Reynolds is attempting to join Deshaun Watson and Trevor Lawrence as the only Clemson true freshman starting quarterbacks to win their first two career starts since permanent freshman eligibility began in 1972.",
+            "fact": "Reynolds became the fourth Clemson true freshman quarterback since permanent freshman eligibility began in 1972 to win his starting debut.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Against Cal, Reynolds has an opportunity to become the third Clemson true freshman starting quarterback to win each of his first two starts, joining Deshaun Watson and Trevor Lawrence.",
             "page": 3,
             "category": "quarterback",
             "importance": "medium"
@@ -107,13 +107,19 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Running back Gideon Davidson rushed 16 times for a career-high 105 yards against North Carolina, including a career-long 45-yard run and his first career touchdown on an eight-yard fourth-quarter run.",
+            "fact": "Running back Gideon Davidson set career highs with 105 rushing yards on 16 carries against North Carolina, including a career-long 45-yard run and his first career touchdown on an eight-yard fourth-quarter run.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Tyler Brown scored on a 34-yard run in the final minute against North Carolina, his second career rushing touchdown.",
+            "fact": "Tight end Christian Bentancur caught a 27-yard touchdown against North Carolina, his fourth career touchdown reception and first of the season.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Tyler Brown scored on a 34-yard run in the final minute against North Carolina, the second rushing touchdown of his career.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -121,18 +127,6 @@
           {
             "fact": "Wide receiver T.J. Moore extended his reception streak to 30 consecutive games against North Carolina.",
             "page": 5,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Tight end Christian Bentancur caught a 27-yard touchdown against North Carolina, his first touchdown of the season and fourth career touchdown reception.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Matt Luke serves as assistant head coach, co-offensive coordinator and offensive line coach; Clemson lists him at field level for the Cal game.",
-            "page": 3,
             "category": "offensive_personnel",
             "importance": "medium"
           }
@@ -145,19 +139,13 @@
             "importance": "high"
           },
           {
-            "fact": "Heldt enters the Cal game as one of three FBS players with multiple 2.0-sack games in 2026.",
-            "page": 3,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
             "fact": "Linebacker Sammy Brown recorded his first sack of the season and the 11th of his career against North Carolina.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Cornerback Elliot Washington II recorded his first interception of the season and his first as a Clemson player to seal the North Carolina victory.",
+            "fact": "Cornerback Elliot Washington II sealed the North Carolina win with his first interception of the season and his first interception as a Clemson player.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "high"
@@ -171,19 +159,13 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Chad Morris is Clemson's offensive coordinator and is listed as coaching from the booth.",
+            "fact": "Clemson's listed coordinators are Chad Morris on offense, Tom Allen on defense and Rich Bisaccia on special teams.",
             "page": 3,
             "category": "coaching_changes",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Tom Allen is Clemson's defensive coordinator and is listed at field level.",
-            "page": 3,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Rich Bisaccia is Clemson's special teams coordinator and is listed at field level.",
+            "fact": "Matt Luke is listed as assistant head coach, co-offensive coordinator and offensive line coach.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "medium"
@@ -198,27 +180,33 @@
             "importance": "high"
           },
           {
-            "fact": "Against North Carolina, Clemson reached 200 passing yards and 175 rushing yards in the same game for the first time in 2026.",
+            "fact": "Clemson reached both 200 passing yards and 175 rushing yards against North Carolina and is seeking to reach both marks in consecutive games for the first time since 2024.",
             "page": 2,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Clemson has not won the turnover margin in four consecutive games dating to 2025, finishing even three times and losing it once.",
+            "fact": "Clemson averaged at least 6.0 yards per play against North Carolina and is seeking consecutive games at that level for the first time since a four-game streak in 2025.",
             "page": 2,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
+          },
+          {
+            "fact": "Clemson has gone four consecutive games without winning the turnover margin, finishing even three times and losing it once.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Clemson enters the Cal game after holding North Carolina below 150 passing yards.",
+            "fact": "Clemson enters the Cal game seeking to hold consecutive opponents below 150 passing yards for the first time since 2023.",
             "page": 2,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Clemson recorded at least four sacks against North Carolina from Will Heldt, Sammy Brown and other contributors, with Heldt accounting for 2.0 sacks.",
+            "fact": "Clemson generated three takeaways against North Carolina: an interception by Elliot Washington II and a forced fumble by Fletcher Cothran recovered by Vic Burley.",
             "page": 5,
             "category": "defensive_context",
             "importance": "high"
@@ -232,41 +220,41 @@
             "importance": "high"
           },
           {
-            "fact": "Hauser went 3-for-3 on field goals and 1-for-1 on extra points against North Carolina, improving to 9-for-9 on field goals in 2026.",
+            "fact": "Hauser made all three field-goal attempts and his only extra-point attempt against North Carolina, improving to 9-for-9 on field goals this season.",
             "page": 5,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Hauser has made 12 consecutive field-goal attempts from 40 yards or longer dating to 2025, including a 49-yard field goal against North Carolina.",
+            "fact": "Hauser has made 12 consecutive attempts from 40 yards or longer dating to last season, including a 49-yard field goal against North Carolina.",
             "page": 6,
             "category": "special_teams",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "Clemson and Cal have met once previously, with Cal defeating Clemson 37-13 in the Citrus Bowl on Jan. 1, 1992.",
-            "page": 4,
+            "fact": "Friday's game will be the second meeting between Clemson and Cal and the first played at Cal.",
+            "page": 1,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Cal holds a 1-0 all-time series lead, and the 2026 game is the first meeting in Berkeley.",
-            "page": 1,
+            "fact": "Cal leads the series 1-0 after defeating Clemson 37-13 in the Citrus Bowl on Jan. 1, 1992.",
+            "page": 4,
             "category": "series_context",
             "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "The game is scheduled for Friday, Sept. 25, 2026, at California Memorial Stadium, with kickoff at 7:30 p.m. local time and 10:30 p.m. Eastern.",
+            "fact": "The game is scheduled for Friday, Sept. 25 at 10:30 p.m. ET, or 7:30 p.m. local time, at California Memorial Stadium in Berkeley.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "The 10:30 p.m. Eastern kickoff is Clemson's latest start by its home time zone since an 11 p.m. Eastern-equivalent kickoff against Wake Forest in Tokyo in 1982.",
+            "fact": "The 10:30 p.m. ET kickoff is Clemson's latest kickoff by its home time zone since a game in Tokyo on Nov. 28, 1982.",
             "page": 1,
             "category": "other_relevant",
             "importance": "medium"
@@ -284,7 +272,7 @@
         "source_team": "California Golden Bears",
         "opponent": "Clemson Tigers",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is titled California Football Game Notes vs. Clemson and identifies the upcoming game as California hosting Clemson on Friday, September 25, 2026.",
+        "document_match_reason": "The document is titled California Football Game Notes vs. Clemson and lists the upcoming game for Friday, September 25, 2026, at California Memorial Stadium.",
         "recent_game": [
           {
             "fact": "California defeated Wagner 49-7 on September 19, improving to 2-1.",
@@ -293,25 +281,31 @@
             "importance": "high"
           },
           {
-            "fact": "The 42-point win over Wagner was California's largest margin of victory since a 49-7 win at Oregon State on October 20, 2018.",
+            "fact": "Cal's 42-point margin against Wagner was its largest since a 49-7 win at Oregon State on October 20, 2018.",
             "page": 1,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "California scored 29 first-quarter points against Wagner, its most in one period since scoring 35 in the first quarter against Grambling State on September 5, 2015.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "California produced 626 total yards against Wagner, its highest total since gaining 679 yards at North Texas on September 2, 2023.",
+            "fact": "Cal produced 626 total yards against Wagner, its most since totaling 679 yards at North Texas on September 2, 2023.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "California did not allow a sack and surrendered only one recorded quarterback hurry against Wagner.",
+            "fact": "Cal scored 29 first-quarter points against Wagner, its most in one period since scoring 35 in the first quarter against Grambling State on September 5, 2015.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cal did not punt against Wagner, its first game without a punt since November 4, 2017, against Oregon State.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cal allowed no sacks and only one quarterback hurry against Wagner.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -319,25 +313,13 @@
         ],
         "opponent_notes": [
           {
-            "fact": "California hosts Clemson at 7:30 p.m. Pacific on Friday, September 25, 2026, at California Memorial Stadium.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
             "fact": "California and Clemson enter the matchup with identical 2-1 overall and 1-0 ACC records.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "The Clemson game is California's 2026 conference home opener and its only Friday game of the season.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "This will be the first California-Clemson meeting as conference opponents and the second meeting overall.",
+            "fact": "The Clemson game is Cal's 2026 ACC home opener and its only Friday game of the season.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "medium"
@@ -351,13 +333,7 @@
             "importance": "high"
           },
           {
-            "fact": "Sagapolutele became the first California quarterback to pass for at least 400 yards in a game since Jack Plummer threw for 406 yards against USC on November 5, 2022.",
-            "page": 2,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Through three games, Sagapolutele has completed 72 of 108 passes for 866 yards, seven touchdowns and two interceptions.",
+            "fact": "Sagapolutele has completed 72 of 108 passes for 866 yards, seven touchdowns and two interceptions through three games in 2026.",
             "page": 8,
             "category": "quarterback",
             "importance": "high"
@@ -369,13 +345,19 @@
             "importance": "high"
           },
           {
-            "fact": "Sagapolutele set a California record with 210 consecutive pass attempts without an interception, surpassing Jared Goff's previous record of 185.",
+            "fact": "Sagapolutele exceeded 4,000 career passing yards against Wagner and has 4,320 yards and 25 touchdown passes in his Cal career.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sagapolutele set a Cal record in 2026 with 210 consecutive pass attempts without an interception, surpassing Jared Goff's previous mark of 185.",
             "page": 2,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Backup quarterback Jackson Brousseau completed 8 of 10 passes for 79 yards against Wagner and led the first scoring drive of his California career.",
+            "fact": "Backup quarterback Jackson Brousseau completed 8 of 10 passes for 79 yards against Wagner and led his first scoring drive for Cal.",
             "page": 2,
             "category": "quarterback",
             "importance": "medium"
@@ -383,57 +365,63 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Washington transfer Adam Mohammed has started all three games at running back and leads California with 285 rushing yards and three rushing touchdowns on 60 carries.",
+            "fact": "Washington transfer Adam Mohammed has started all three games at running back and leads Cal with 285 rushing yards and three rushing touchdowns on 60 carries.",
             "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Mohammed totaled 147 yards on 11 touches and scored three touchdowns in the first quarter against Wagner.",
-            "page": 2,
+            "fact": "Mohammed totaled 169 yards from scrimmage and three touchdowns against Wagner, rushing 13 times for 91 yards and two scores while catching two passes for 78 yards and one score.",
+            "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ohio transfer Chase Hendricks has started all three games and leads California with 20 receptions; he has 195 receiving yards and two touchdowns.",
+            "fact": "Ohio transfer Chase Hendricks has started all three games and leads Cal with 20 receptions; he has 195 receiving yards and two touchdowns.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Rutgers transfer Ian Strong has started all three games and leads California with 206 receiving yards on 14 catches.",
+            "fact": "Rutgers transfer Ian Strong has started all three games and leads Cal with 206 receiving yards on 14 catches.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Kyion Grayes recorded career highs of three catches and 98 yards against Wagner, including an 80-yard reception for his first collegiate touchdown.",
+            "fact": "Kyion Grayes recorded career highs of three catches and 98 yards against Wagner, including an 80-yard touchdown that was his first collegiate score.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Oregon transfer Cooper Perry made his first start against Wagner and caught three passes for 45 yards, including his first collegiate touchdown.",
+            "fact": "Oregon transfer Cooper Perry made his first Cal start against Wagner and caught three passes for 45 yards, including his first collegiate touchdown.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "New Mexico transfer tight end Dorian Thomas made his first California reception against Wagner after recording 56 catches for 560 yards and four touchdowns at New Mexico in 2025.",
+            "fact": "Freshman tight end Taimane Purcell made his first collegiate start at Syracuse and has three catches for 23 yards through three games.",
             "page": 12,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "California used the same starters at left tackle, left guard, center and right guard in each of its first three games: Frederick Williams III, Tyson Ruffins, Bastian Swinney and Sioape Vatikani.",
-            "page": 6,
+            "fact": "New Mexico transfer tight end Dorian Thomas made his first Cal reception against Wagner after recording 56 catches for 560 yards and four touchdowns at New Mexico in 2025.",
+            "page": 12,
             "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cal used the same starters at left tackle, left guard, center and right guard in each of its first three games: Frederick Williams III, Tyson Ruffins, Bastian Swinney and Sioape Vatikani.",
+            "page": 6,
+            "category": "offensive_line",
             "importance": "high"
           },
           {
-            "fact": "Redshirt freshman Michael Klisiewicz made his first collegiate start at right tackle against Wagner after Jimothy Lewis Jr. started the first two games there.",
+            "fact": "Michael Klisiewicz replaced Jimothy Lewis Jr. as the starting right tackle against Wagner and made his first collegiate start.",
             "page": 6,
-            "category": "offensive_personnel",
+            "category": "offensive_line",
             "importance": "high"
           }
         ],
@@ -445,20 +433,26 @@
             "importance": "high"
           },
           {
-            "fact": "Lopa intercepted three passes at Syracuse, including a 24-yard go-ahead touchdown return, and added his fifth interception of the season against Wagner.",
-            "page": 15,
+            "fact": "Lopa intercepted three passes at Syracuse, including a 24-yard go-ahead touchdown return, and added another interception against Wagner.",
+            "page": 2,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Georgia transfer defensive back Daniel Harris has started all three games and has 11 tackles and two sacks through three games.",
+            "fact": "Lopa also led Cal with five tackles, including a tackle for loss, against Wagner.",
             "page": 15,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "California changed six defensive starters for the Wagner game from its Syracuse lineup, inserting Emmanuel Okoye, AJ Tuitele, Cam Sidney, Jayden Wayne and Isaiah Crosby while changing one front alignment.",
+            "fact": "Cal changed five defensive starters for the Wagner game: Emmanuel Okoye, AJ Tuitele, Cam Sidney, Jayden Wayne and Isaiah Crosby entered the starting lineup.",
             "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia transfer Daniel Harris has started all three games at cornerback and has 11 tackles, two sacks and one pass breakup in 2026.",
+            "page": 15,
             "category": "defensive_personnel",
             "importance": "medium"
           },
@@ -471,25 +465,25 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Tosh Lupoi was named California's head coach on December 4, 2025, and is in his first season leading the program.",
+            "fact": "Tosh Lupoi is in his first season as Cal's head coach after being hired on December 4, 2025; he previously served as Oregon's defensive coordinator and linebackers coach.",
             "page": 2,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Michael Hutchings is California's first-year defensive coordinator, and Jordan Somerville is its first-year offensive coordinator.",
+            "fact": "Jordan Somerville is Cal's first-year offensive coordinator and is the only full-time Cal coach stationed in the booth during games.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michael Hutchings is Cal's first-year defensive coordinator, with Da'Von Brown serving as defensive backs coach and co-defensive coordinator.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Jordan Somerville is the only full-time California coach stationed in the booth during games; the other full-time coaches work from the field.",
-            "page": 1,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ike Hilliard serves as wide receivers coach and co-offensive coordinator, while Da'Von Brown serves as defensive backs coach and co-defensive coordinator.",
+            "fact": "Zach Tinker is Cal's first-year special teams coordinator.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "medium"
@@ -498,65 +492,53 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "California ranks fourth in the ACC and 14th nationally in passing offense at 321.7 yards per game.",
+            "fact": "Cal ranks fourth in the ACC and 14th nationally with 321.7 passing yards per game.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "California has converted 91.7 percent of its red-zone opportunities, ranking fourth in the ACC and tied for 43rd nationally.",
+            "fact": "Cal has converted 91.7 percent of its red-zone opportunities, ranking fourth in the ACC.",
             "page": 1,
-            "category": "offensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Mohammed has handled 60 rushing attempts through three games, the second-highest total in the ACC.",
-            "page": 2,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "California's 80-yard Sagapolutele-to-Grayes touchdown against Wagner was its longest play from scrimmage since an 84-yard touchdown pass in the 2021 Big Game.",
-            "page": 2,
+            "fact": "Cal's passing production has increased each week from 291 yards against UCLA to 182 at Syracuse and 492 against Wagner, including backup production.",
+            "page": 8,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "California ranks first in the ACC and 10th nationally in passing-efficiency defense with a 95.31 rating.",
+            "fact": "Cal ranks first in the ACC and 10th nationally in pass-efficiency defense at 95.31.",
             "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "California's five interceptions rank second in the ACC and tied for fifth nationally; all five were recorded by Kingston Lopa.",
-            "page": 2,
+            "fact": "Cal has five interceptions, ranking second in the ACC and tied for fifth nationally.",
+            "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "California ranks third in the ACC and tied for 29th nationally with five turnovers gained.",
+            "fact": "Cal ranks third in the ACC with five turnovers gained.",
             "page": 1,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "California has allowed scores on 66.7 percent of opponents' red-zone opportunities, ranking second in the ACC and tied for 15th nationally in red-zone defense.",
+            "fact": "Cal has allowed opponents to score on 66.7 percent of red-zone opportunities, ranking second in the ACC.",
             "page": 1,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "special_teams": [
           {
-            "fact": "California did not punt against Wagner, its first game without a punt since November 4, 2017, against Oregon State.",
-            "page": 1,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Linebacker Aaron Hampton recorded the first blocked field goal of his career against Wagner in the fourth quarter.",
+            "fact": "Linebacker Aaron Hampton blocked the first field goal of his career in the fourth quarter against Wagner.",
             "page": 2,
             "category": "special_teams",
             "importance": "medium"
@@ -564,7 +546,13 @@
         ],
         "series_context": [
           {
-            "fact": "California won the only previous meeting with Clemson, defeating the Tigers 37-13 in the 1992 Florida Citrus Bowl.",
+            "fact": "This is California and Clemson's first meeting as conference opponents and their second meeting overall.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cal won the only previous meeting 37-13 in the 1992 Florida Citrus Bowl.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
@@ -572,10 +560,16 @@
         ],
         "other_relevant": [
           {
-            "fact": "California is 1-0 in ACC play after defeating Syracuse 21-18 on the road on September 12.",
+            "fact": "Cal is 1-0 in ACC play after a 21-18 road win at Syracuse on September 12.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
+          },
+          {
+            "fact": "Cal's first three results were a 45-24 loss to UCLA, a 21-18 win at Syracuse and a 49-7 win over Wagner.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
           }
         ],
         "source_file": "California.pdf"
@@ -583,43 +577,43 @@
     ],
     "matchup_angles": [
       {
+        "dimension": "Clemson passing offense vs California pass defense",
+        "off_team": "Clemson",
+        "def_team": "California",
+        "off_rank": 90,
+        "def_rank": 30,
+        "stat": "pass EPA",
+        "rank_gap": 60,
+        "direction": "defense_advantage",
+        "matchup_score": 160
+      },
+      {
         "dimension": "California scoring-opportunity creation vs Clemson scoring-opportunity prevention",
         "off_team": "California",
         "def_team": "Clemson",
-        "off_rank": 125,
-        "def_rank": 38,
+        "off_rank": 117,
+        "def_rank": 43,
         "stat": "Eckel rate",
-        "rank_gap": 87,
+        "rank_gap": 74,
         "direction": "mixed",
-        "matchup_score": 87
+        "matchup_score": 74
       },
       {
         "dimension": "California rushing offense vs Clemson rush defense",
         "off_team": "California",
         "def_team": "Clemson",
-        "off_rank": 132,
-        "def_rank": 63,
+        "off_rank": 133,
+        "def_rank": 69,
         "stat": "rush EPA",
-        "rank_gap": 69,
+        "rank_gap": 64,
         "direction": "mixed",
-        "matchup_score": 69
-      },
-      {
-        "dimension": "Clemson passing offense vs California pass defense",
-        "off_team": "Clemson",
-        "def_team": "California",
-        "off_rank": 77,
-        "def_rank": 37,
-        "stat": "pass EPA",
-        "rank_gap": 40,
-        "direction": "mixed",
-        "matchup_score": 40
+        "matchup_score": 64
       }
     ],
     "used_sources": [
       {
-        "fact_id": 10,
-        "fact": "True freshman quarterback Tait Reynolds made his first career start against North Carolina and completed 20 of 29 passes for 215 yards, one touchdown and one interception while adding 26 rushing yards on 11 carries.",
+        "fact_id": 9,
+        "fact": "True freshman quarterback Tait Reynolds made his first career start against North Carolina and completed 20 of 29 passes for 215 yards, one touchdown and one interception while rushing 11 times for 26 yards.",
         "page": 5,
         "category": "quarterback",
         "importance": "high",
@@ -627,7 +621,7 @@
         "source_team": "Clemson Tigers"
       },
       {
-        "fact_id": 63,
+        "fact_id": 61,
         "fact": "Oregon transfer defensive back Kingston Lopa has started all three games and leads the nation with five interceptions, recording at least one takeaway in every game.",
         "page": 2,
         "category": "defensive_personnel",
@@ -636,8 +630,26 @@
         "source_team": "California Golden Bears"
       },
       {
-        "fact_id": 76,
-        "fact": "California ranks first in the ACC and 10th nationally in passing-efficiency defense with a 95.31 rating.",
+        "fact_id": 72,
+        "fact": "Cal has converted 91.7 percent of its red-zone opportunities, ranking fourth in the ACC.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 74,
+        "fact": "Cal ranks first in the ACC and 10th nationally in pass-efficiency defense at 95.31.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 75,
+        "fact": "Cal has five interceptions, ranking second in the ACC and tied for fifth nationally.",
         "page": 1,
         "category": "defensive_context",
         "importance": "high",
@@ -650,13 +662,13 @@
       "model_side": "California",
       "opponent_full": "Clemson Tigers",
       "opponent": "Clemson",
-      "model_prediction": 0.5,
-      "market_line": 1.5,
-      "best_available_line": 1.5,
-      "best_available_price": "-110",
-      "cover_probability": 0.51393546,
-      "edge": -0.0098740638095238,
-      "bet_status": "PASS"
+      "model_prediction": 2.0,
+      "market_line": 3.5,
+      "best_available_line": 3.5,
+      "best_available_price": "100",
+      "cover_probability": 0.54567161,
+      "edge": 0.0456716099999999,
+      "bet_status": "BET"
     }
   }
 }

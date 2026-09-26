@@ -2,24 +2,24 @@
   "game": "Texas A&M Aggies@LSU Tigers",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T15:04:49.782168+00:00",
-  "model_prediction": 10.0,
-  "market_line": 9.5,
-  "best_line": 9.5,
-  "best_price": "-108",
-  "best_book": "BetMGM",
-  "cover_probability": 0.51802104,
-  "edge": -0.0012097292307692,
+  "generated_at_utc": "2026-09-26T13:22:12.128748+00:00",
+  "model_prediction": 9.0,
+  "market_line": 8.5,
+  "best_line": 8.5,
+  "best_price": "-112",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52252021,
+  "edge": -0.0057816767924527,
   "bet_short": "Texas A&M",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We are not reacting to Texas A&M\u2019s loss to Kentucky as if one result defines this matchup. The more useful takeaway is that Texas A&M still generated 423 yards, but Marcel Reed needed 49 pass attempts and threw two interceptions. That matters against an LSU defense that recorded 12 sacks through its first two games and allowed opponents to convert only 14.8% of their third downs.\n\nOur modest lean toward Texas A&M comes primarily from the other side of the ball. LSU has converted 56% of its third downs, but Texas A&M has allowed conversions at just a 23% rate. Our numbers also favor the Texas A&M pass defense against an LSU passing game that has been less efficient than its raw production suggests. Sam Leavitt\u2019s mobility complicates that matchup, though, as he rushed for 135 yards and five touchdowns in LSU\u2019s first two games.\n\nFor us, the case is less about declaring Texas A&M the better team and more about questioning whether LSU can consistently create enough scoring opportunities to produce separation. Still, LSU\u2019s defensive pressure and Texas A&M\u2019s first road test create enough resistance that our small disagreement with the market is not meaningful at the available price.",
-    "matchup_to_watch": "We are watching LSU\u2019s third-down offense against Texas A&M\u2019s third-down defense. LSU has been excellent at extending drives, while Texas A&M has been equally effective at ending them. That conflict will help determine whether LSU can sustain the possession volume needed to pull away.\n\nWe also see Leavitt\u2019s legs as an important part of that matchup. If he can escape pressure and convert passing downs as a runner, LSU can challenge the strongest part of the Texas A&M profile. If Texas A&M keeps him contained and forces the passing game to win from the pocket, the underdog has a clearer path to staying competitive.",
+    "narrative": "Our model\u2019s lean toward Texas A&M comes primarily from the matchup on the other side of the ball. Our efficiency numbers give Texas A&M a clear advantage in limiting scoring opportunities and defending the pass relative to what LSU\u2019s offense has produced. For us, the case is less about Texas A&M needing to control the game and more about its defense making it difficult for LSU to create separation.\n\nThe counterweight is LSU\u2019s defense. We have to respect a unit that recorded 12 sacks and held its first two opponents to four third-down conversions in 27 attempts, with Princewill Umanmielen producing five of those sacks. Texas A&M also faces its first road game of the season, which adds uncertainty to an offense operating behind Marcel Reed.\n\nThat leaves us with a reasonable football argument for Texas A&M, but not a meaningful pricing advantage. The market is already close to our overall expectation, and LSU\u2019s pass rush gives us enough concern that the small disagreement is not sufficient to justify a wager.",
+    "matchup_to_watch": "We are watching LSU\u2019s third-down offense against Texas A&M\u2019s third-down defense. LSU enters having converted 28 of 50 opportunities, while Texas A&M has allowed only seven conversions in 31 attempts. If LSU sustains drives at its current rate, it can neutralize the strongest part of the Texas A&M case. If the visitors consistently get off the field, LSU may struggle to build the margin the market is asking it to produce.",
     "guide_status": [
       "Found guide for Texas A&M Aggies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf",
       "Loaded guide for Texas A&M Aggies: Texas A&M.pdf",
       "Found guide for LSU Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf",
-      "Guide for LSU Tigers was found but may not match the current opponent. The guide is dated September 19, 2026 and is explicitly LSU's Game Three notes for the road game against Ole Miss. Texas A&M is listed as LSU's next opponent on September 26, so this is not the guide prepared for the LSU-Texas A&M matchup."
+      "Guide for LSU Tigers was found but may not match the current opponent. The guide is LSU's Sept. 19, 2026 game notes for Week 3 at Ole Miss. Texas A&M is listed as LSU's next opponent on Sept. 26, so the document predates and is not specifically prepared for the LSU-Texas A&M matchup."
     ],
     "guide_extractions": [
       {
@@ -29,57 +29,63 @@
         "document_match_reason": "The document is Texas A&M's 2026 Week 4 game notes for the Sept. 26 road game against LSU at Tiger Stadium.",
         "recent_game": [
           {
-            "fact": "Texas A&M lost 31-21 at home to Kentucky on Sept. 19, falling to 2-1 overall and 0-1 in the SEC.",
+            "fact": "Texas A&M lost 31-21 to Kentucky on Sept. 19, falling to 2-1 overall and 0-1 in the SEC.",
             "page": 17,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Against Kentucky, Texas A&M gained 423 yards: 187 rushing on 35 attempts and 236 passing on 26-of-49 passing.",
+            "fact": "Against Kentucky, Texas A&M produced 423 total yards, including 187 rushing and 236 passing.",
             "page": 18,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Marcel Reed completed 26 of 49 passes for 236 yards, one touchdown and two interceptions against Kentucky, and he rushed for a team-high 80 yards with a touchdown.",
+            "fact": "Marcel Reed completed 26 of 49 passes for 236 yards with one touchdown and two interceptions against Kentucky; he also rushed for a team-high 80 yards, including a 40-yard run.",
             "page": 22,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Mario Craver set career highs with 11 receptions for 119 yards against Kentucky, becoming Texas A&M's first player with at least 10 catches in a game since 2023.",
+            "fact": "Mario Craver set career highs with 11 receptions for 119 yards against Kentucky, recording Texas A&M's first 100-yard receiving game of 2026.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Kentucky gained 408 yards against Texas A&M, including 156 rushing and 252 passing, and did not commit a turnover.",
+            "fact": "Texas A&M allowed Kentucky 408 total yards, including 156 rushing and 252 passing, and did not force a turnover.",
             "page": 19,
             "category": "recent_game",
             "importance": "high"
+          },
+          {
+            "fact": "Texas A&M committed two penalties for 10 yards against Kentucky.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "LSU enters the matchup 2-1 overall and 0-1 in the SEC after a 32-24 road loss to No. 8 Ole Miss on Sept. 19.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "LSU is converting 28 of 50 third downs, a 56% rate that ranks third in the SEC and 13th in the FBS.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "LSU is ranked No. 10 in the AP poll and No. 11 in the Coaches Poll entering the game.",
+            "fact": "LSU enters the matchup 2-1 overall and 0-1 in the SEC, ranked No. 10 in the AP poll and No. 11 in the Coaches Poll.",
             "page": 4,
             "category": "opponent_notes",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Lane Kiffin is in his first season as LSU's head coach and is 2-1 with the Tigers.",
+            "fact": "LSU lost 32-24 at No. 8 Ole Miss on Sept. 19 in its most recent game.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU enters the game converting 28 of 50 third downs, a 56% rate that ranks third in the SEC and 13th in the FBS.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "The game is scheduled for Sept. 26 at Tiger Stadium and will be Texas A&M's first road game of the season.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "medium"
@@ -87,7 +93,7 @@
         ],
         "quarterback": [
           {
-            "fact": "Marcel Reed is Texas A&M's starting quarterback for a third season and has made 21 consecutive starts dating to Nov. 2, 2024.",
+            "fact": "Marcel Reed is Texas A&M's starting quarterback and has made 21 consecutive starts dating to Nov. 2, 2024.",
             "page": 6,
             "category": "quarterback",
             "importance": "high"
@@ -99,7 +105,7 @@
             "importance": "high"
           },
           {
-            "fact": "Through three games in 2026, Reed is 62-of-104 passing for 632 yards, six touchdowns and three interceptions, and he has rushed for 117 yards and one touchdown.",
+            "fact": "Through three games in 2026, Reed has completed 62 of 104 passes for 632 yards, six touchdowns and three interceptions while rushing for 117 yards and one touchdown.",
             "page": 20,
             "category": "quarterback",
             "importance": "high"
@@ -111,80 +117,98 @@
             "importance": "medium"
           },
           {
-            "fact": "In Texas A&M's 49-25 win at LSU on Oct. 25, 2025, Reed passed for 202 yards and two touchdowns and rushed for 108 yards and two touchdowns.",
+            "fact": "In Texas A&M's 49-25 win at LSU in 2025, Reed passed for 202 yards and two touchdowns and rushed for 108 yards and two touchdowns.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
+          },
+          {
+            "fact": "Brady Hart is listed as Reed's primary backup on the LSU-week depth chart.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Texas A&M has started the same offensive line in all three games: Tyree Adams at left tackle, Blake Ivy at left guard, Mark Nabou Jr. at center, Trovon Baugh at right guard and Wilkin Formby at right tackle.",
+            "fact": "Texas A&M started the same offensive line in each of its first three games: left tackle Tyree Adams, left guard Blake Ivy, center Mark Nabou Jr., right guard Trovon Baugh and right tackle Wilkin Formby.",
             "page": 24,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The Week 4 depth chart lists Rueben Owens II or Jamarion Morrow at the first running back spot, followed by Carsyn Baker or KJ Edwards.",
-            "page": 12,
+            "fact": "Starting left tackle Tyree Adams previously played at LSU, appearing in three games with three starts there.",
+            "page": 15,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Owens leads Texas A&M with 186 rushing yards on 45 carries, while Reed has 117 rushing yards and freshman Carsyn Baker leads the team with two rushing touchdowns on 10 carries.",
+            "fact": "Reserve center/right guard Coen Echols previously played at LSU, appearing in five games there.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mario Craver leads Texas A&M with 19 receptions and has 194 receiving yards and two touchdowns through three games.",
             "page": 20,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Mario Craver leads Texas A&M with 19 receptions and 194 receiving yards, while Isaiah Horton has 12 receptions for 170 yards and a team-high three receiving touchdowns.",
+            "fact": "Isaiah Horton has 12 receptions for 170 yards and a team-high three receiving touchdowns through three games.",
             "page": 20,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Horton has scored all three of his 2026 receiving touchdowns in the red zone and enters Week 4 tied for third in the SEC in receiving touchdowns.",
-            "page": 6,
+            "fact": "Rueben Owens II leads Texas A&M with 186 rushing yards on 45 carries and has one rushing touchdown.",
+            "page": 20,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Starting left tackle Tyree Adams and reserve center Coen Echols previously played at LSU.",
-            "page": 14,
+            "fact": "Freshman Carsyn Baker has scored two rushing touchdowns on 10 carries, the most rushing touchdowns on the team.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The LSU-week depth chart lists Rueben Owens II or Jamarion Morrow at the top running back spot, with Carsyn Baker or KJ Edwards also listed.",
+            "page": 12,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Texas A&M's listed defensive front is T.J. Searcy, DJ Hicks, CJ Mims or Angelo McCullom, and Marco Jones.",
+            "fact": "Texas A&M's LSU-week defensive front lists T.J. Searcy, DJ Hicks, CJ Mims or Angelo McCullom, and Marco Jones as the first-line options.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Ray Coney and Noah Mikhail share the team lead with 18 tackles through three games; Marcus Ratcliffe has 15 and T.J. Searcy has 14.",
+            "fact": "Linebackers Ray Coney and Noah Mikhail are tied for the team lead with 18 tackles through three games.",
             "page": 21,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Searcy leads Texas A&M with 2.5 tackles for loss and has one sack; Ryan Henderson and Marco Jones also have one sack each.",
+            "fact": "T.J. Searcy leads Texas A&M with 2.5 tackles for loss and has one sack through three games.",
             "page": 21,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Marco Jones and Julio Humphrey each returned an interception for a touchdown against Arizona State.",
+            "page": 6,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "According to Pro Football Focus data cited in the notes, cornerback Dezz Ricks has allowed one reception for one yard on five targets across 62 coverage snaps in 2026.",
+            "fact": "According to Pro Football Focus data cited by Texas A&M, cornerback Dezz Ricks allowed one reception for one yard on five targets over 62 coverage snaps in the first three games.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "high"
-          },
-          {
-            "fact": "Marco Jones and Julio Humphrey each returned an interception for a touchdown against Arizona State; those are Texas A&M's two interceptions and two defensive touchdowns this season.",
-            "page": 21,
-            "category": "defensive_personnel",
-            "importance": "medium"
           }
         ],
         "coaching_changes": [
@@ -195,20 +219,26 @@
             "importance": "high"
           },
           {
-            "fact": "Wiggins is a first-time offensive coordinator and play caller after serving as Texas A&M's co-offensive coordinator in 2024 and 2025.",
+            "fact": "Wiggins is a first-time offensive coordinator and play caller after serving as co-offensive coordinator in 2024 and 2025.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Hemphill returned to a defensive coordinator and play-calling role after previously coordinating defenses at James Madison, Duke, Wake Forest and Stony Brook.",
+            "fact": "Hemphill returned to a defensive coordinator and play-calling role after previous coordinator assignments at James Madison, Duke, Wake Forest and Stony Brook.",
             "page": 4,
             "category": "coaching_changes",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Texas A&M added first-year assistants Travis Williams as associate head coach for defense and linebackers, Elijah Robinson as co-defensive coordinator and defensive line coach, Derek Shay as tight ends coach, and Paul Williams as nickels coach.",
             "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "This will be the first head-to-head meeting between Texas A&M head coach Mike Elko and LSU head coach Lane Kiffin.",
+            "page": 1,
             "category": "coaching_changes",
             "importance": "medium"
           }
@@ -216,89 +246,89 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Texas A&M is averaging 39.7 points, 394.3 total yards, 222.7 passing yards and 171.7 rushing yards per game through three games.",
+            "fact": "Texas A&M is averaging 394.3 total yards per game, with 171.7 rushing yards and 222.7 passing yards.",
             "page": 17,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Aggies have converted 19 of 43 third downs, a 44% rate, and six of 10 fourth downs.",
+            "fact": "The Aggies have converted 19 of 43 third downs, a 44% rate.",
             "page": 17,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M has scored touchdowns on 12 of 17 red-zone possessions and has scored on 14 of 17 red-zone possessions overall.",
+            "page": 17,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M ranks first in the SEC and seventh nationally in time of possession at 34:28 per game.",
+            "page": 5,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Texas A&M leads the SEC and ranks seventh nationally in time of possession at 34:28 per game.",
+            "fact": "Texas A&M has outscored opponents 76-34 in the second half and 55-3 in the fourth quarter through three games.",
             "page": 5,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M has scored on 14 of 17 red-zone trips, including 12 touchdowns.",
-            "page": 17,
-            "category": "offensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Texas A&M has scored 31 points off turnovers through three games after scoring 24 points off turnovers in 13 games in 2025.",
+            "fact": "The Aggies have scored 31 points off turnovers through three games after scoring 24 points off turnovers in 13 games in 2025.",
             "page": 1,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "The Aggies have outscored opponents 55-3 in the fourth quarter this season.",
-            "page": 5,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Texas A&M is allowing 17.0 points and 281.3 total yards per game, including 102.7 rushing yards and 178.7 passing yards.",
-            "page": 17,
+            "fact": "Texas A&M is allowing 281.3 total yards and 17.0 points per game through three games.",
+            "page": 5,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Aggies rank second in the SEC and seventh in the FBS in third-down defense, allowing seven conversions on 31 attempts for a 23% rate.",
+            "fact": "The Aggies rank second in the SEC and seventh nationally in third-down defense, allowing seven conversions on 31 attempts for a 23% rate.",
             "page": 6,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M has six takeaways through three games: two interceptions and four fumble recoveries. The Aggies had 10 takeaways in 13 games in 2025.",
+            "fact": "Texas A&M has six takeaways through three games: two interceptions and four fumble recoveries.",
             "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Opponents have scored on nine of 32 non-kneel-down possessions against Texas A&M, a 28% scoring-drive rate.",
+            "fact": "The Aggies have allowed 38 first downs, third-fewest in the SEC and 11th-fewest in the FBS.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas A&M has recorded four sacks through three games after totaling 43 sacks in 2025.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents have scored on nine of 32 non-kneel-down possessions against Texas A&M, a 28% scoring rate.",
             "page": 6,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Texas A&M has allowed 38 first downs, third fewest in the SEC and 11th fewest in the FBS.",
-            "page": 5,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Aggies have recorded four sacks through three games after totaling 43 sacks in 2025.",
-            "page": 5,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Texas A&M is 4-for-4 on field goals and 15-for-15 on extra points through three games.",
-            "page": 17,
+            "fact": "Texas A&M is 4-for-4 on field goals through three games.",
+            "page": 6,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Transfer kicker David Olano is 3-for-3 on field goals and 15-for-15 on extra points in his first three games for Texas A&M.",
+            "fact": "Transfer kicker David Olano is 3-for-3 on field goals and 15-for-15 on extra points in his first three games at Texas A&M.",
             "page": 6,
             "category": "special_teams",
             "importance": "high"
@@ -310,45 +340,45 @@
             "importance": "high"
           },
           {
-            "fact": "Texas A&M's punt coverage has allowed five returns for minus-one total yard this season, including five total return yards over the last two games.",
-            "page": 6,
+            "fact": "Texas A&M has held opponents to minus-1 yard on five punt returns through three games.",
+            "page": 21,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "The depth chart lists Mario Craver, Terry Bussey or Isaiah Horton as punt-return options, with Bussey or Ashton Bethel-Roman listed at kick returner.",
-            "page": 12,
+            "fact": "Bravion Rogers made the tackle for a one-yard loss on Kentucky's only punt return; over the Arizona State and Kentucky games, Texas A&M allowed five punt-return yards on four returns.",
+            "page": 6,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "Texas A&M and LSU will meet for the 65th time; LSU leads the series 36-25-3 and holds a 29-12 advantage in Baton Rouge.",
+            "fact": "Texas A&M and LSU will meet for the 65th time; LSU leads the all-time series 36-25-3 and holds a 29-12 advantage in Baton Rouge.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Texas A&M has won two consecutive games and three of the last four against LSU, while the last 10 meetings are tied 5-5.",
+            "fact": "Texas A&M has won two consecutive meetings and three of the last four against LSU, while the last 10 meetings are split 5-5.",
             "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M won 49-25 at LSU on Oct. 25, 2025, producing 426 yards of total offense.",
+            "fact": "Texas A&M won 49-25 at LSU on Oct. 25, 2025, finishing with 426 yards of total offense.",
             "page": 1,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "A win would give Texas A&M three straight victories over LSU for the first time since its five-game winning streak from 1991 through 1995 and consecutive wins in Baton Rouge for the first time since that span.",
+            "fact": "A win would give Texas A&M three straight victories over LSU for the first time since its five-game winning streak from 1991 through 1995 and consecutive wins in Baton Rouge for the first time since that period.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Mike Elko is 2-0 against LSU, while Lane Kiffin is 3-0 against Texas A&M from his tenure at Ole Miss; this will be their first head-to-head meeting.",
+            "fact": "Mike Elko is 2-0 against LSU, while Lane Kiffin is 3-0 against Texas A&M, with all three of Kiffin's wins coming while he coached Ole Miss.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
@@ -356,19 +386,19 @@
         ],
         "other_relevant": [
           {
-            "fact": "The LSU game will be Texas A&M's first road game of 2026 and the first time since 2022 that its first road game has come in Week 4.",
+            "fact": "Texas A&M enters the game 2-1 overall and 0-1 in the SEC, ranked No. 23 in the AP poll and No. 20 in the Coaches Poll.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "The LSU game is Texas A&M's first road game of 2026 and the first time since 2022 that its first road game has come in Week 4.",
             "page": 1,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Texas A&M enters the game ranked No. 23 in the AP poll and No. 20 in the Coaches Poll.",
-            "page": 4,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Texas A&M has committed 11 penalties through three games, the fewest in the SEC and sixth fewest nationally; it had two penalties for 10 yards against Kentucky.",
+            "fact": "Texas A&M has committed 11 penalties through three games, the fewest in the SEC and sixth-fewest nationally.",
             "page": 5,
             "category": "other_relevant",
             "importance": "medium"
@@ -380,28 +410,34 @@
         "source_team": "LSU Tigers",
         "opponent": "Texas A&M Aggies",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is dated September 19, 2026 and is explicitly LSU's Game Three notes for the road game against Ole Miss. Texas A&M is listed as LSU's next opponent on September 26, so this is not the guide prepared for the LSU-Texas A&M matchup.",
+        "document_match_reason": "The guide is LSU's Sept. 19, 2026 game notes for Week 3 at Ole Miss. Texas A&M is listed as LSU's next opponent on Sept. 26, so the document predates and is not specifically prepared for the LSU-Texas A&M matchup.",
         "recent_game": [
           {
-            "fact": "LSU improved to 2-0 with a 45-14 home win over Louisiana Tech on September 12, scoring 28 unanswered second-half points.",
+            "fact": "LSU defeated Louisiana Tech 45-14 on Sept. 12 to improve to 2-0.",
             "page": 6,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "LSU held Louisiana Tech to 139 total yards, eight first downs and minus-4 rushing yards.",
+            "fact": "LSU outscored Louisiana Tech 28-7 after halftime and held the Bulldogs to 139 total yards, eight first downs and minus-4 rushing yards.",
             "page": 6,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Sam Leavitt passed for 344 yards and one touchdown and rushed for three touchdowns against Louisiana Tech.",
+            "fact": "Sam Leavitt threw for 344 yards and one touchdown and rushed for three touchdowns against Louisiana Tech.",
             "page": 8,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Princewill Umanmielen recorded three sacks and four tackles for loss against Louisiana Tech, while TJ Dottery led LSU with nine tackles.",
+            "fact": "Dilin Jones led LSU with 66 rushing yards against Louisiana Tech.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "TJ Dottery recorded a team-high nine tackles, while Princewill Umanmielen had three sacks and four tackles for loss against Louisiana Tech.",
             "page": 6,
             "category": "recent_game",
             "importance": "high"
@@ -409,13 +445,19 @@
         ],
         "opponent_notes": [
           {
-            "fact": "LSU is scheduled to host Texas A&M on September 26, 2026, with kickoff at 6:30 p.m. CT on ABC.",
+            "fact": "LSU is scheduled to host Texas A&M at Tiger Stadium on Sept. 26, 2026, after playing at Ole Miss.",
             "page": 7,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M was 2-0 and ranked No. 9 in the AP poll and No. 8 in the Coaches poll entering Week 3.",
+            "fact": "The guide states that LSU-Texas A&M is scheduled for a 6:30 p.m. CT kickoff on ABC.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "At the time of the guide, Texas A&M was 2-0 and ranked No. 9 in the AP poll and No. 8 in the Coaches Poll.",
             "page": 5,
             "category": "opponent_notes",
             "importance": "medium"
@@ -423,25 +465,25 @@
         ],
         "quarterback": [
           {
-            "fact": "Starting quarterback Sam Leavitt, an Arizona State transfer, has completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions through two games.",
+            "fact": "Starting quarterback Sam Leavitt, an Arizona State transfer, had completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions through two games.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Leavitt has rushed for 135 yards and five touchdowns and ranks second in the SEC with 354.5 total-offense yards per game.",
+            "fact": "Leavitt had rushed for 135 yards and five touchdowns through two games and ranked second in the SEC with 354.5 total-offense yards per game.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Leavitt's 344 passing yards and three rushing touchdowns against Louisiana Tech were career highs.",
+            "fact": "Leavitt's 344 passing yards and three rushing touchdowns against Louisiana Tech were both career highs.",
             "page": 8,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Leavitt entered LSU with 20 starts at Arizona State and a 16-4 record in those starts.",
+            "fact": "Leavitt entered LSU with 20 career starts at Arizona State and had led the Sun Devils to a 16-4 record in those starts.",
             "page": 14,
             "category": "quarterback",
             "importance": "medium"
@@ -455,16 +497,16 @@
             "importance": "high"
           },
           {
-            "fact": "Jordan Seaton transferred from Colorado after starting 22 games at left tackle and was LSU's starting left tackle in each of the first two games.",
+            "fact": "Jordan Seaton, LSU's starting left tackle, transferred from Colorado after starting 22 games and playing 1,421 snaps at left tackle.",
             "page": 15,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Right guard Aliou Bah transferred from Maryland with 24 consecutive starts and more than 1,500 collegiate snaps at right guard.",
+            "fact": "Aliou Bah, LSU's starting right guard, transferred from Maryland with 24 consecutive starts and more than 1,500 collegiate snaps at right guard.",
             "page": 15,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Center Braelin Moore started all 13 games for LSU in 2025, played 623 offensive snaps and allowed one sack.",
@@ -473,13 +515,13 @@
             "importance": "medium"
           },
           {
-            "fact": "Transfer running back Dilin Jones leads LSU with 179 rushing yards and two touchdowns through two games.",
-            "page": 1,
+            "fact": "Transfer running back Dilin Jones had started both games and led LSU with 179 rushing yards and two touchdowns through two games.",
+            "page": 21,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Tight end Trey'Dez Green has 10 receptions for 162 yards and one touchdown; 10 of his 12 offensive touches have produced a first down or touchdown.",
+            "fact": "Tight end Trey'Dez Green had 10 receptions for 162 yards and one touchdown through two games; eight of his catches produced a first down or touchdown, and both of his direct-snap rushes gained first downs.",
             "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
@@ -493,31 +535,31 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "LSU started the same defensive unit in each of its first two games, including transfer starters Princewill Umanmielen, Stephiylan Green, Deuce Geralds, Jordan Ross, TJ Dottery and Ty Benefield.",
+            "fact": "LSU used the same defensive starting lineup in each of its first two games: Princewill Umanmielen, Stephiylan Green, Deuce Geralds, Jordan Ross, Whit Weeks, TJ Dottery, PJ Woodland, Tamarcus Cooley, Ty Benefield, Dashawn Spears and DJ Pickett.",
             "page": 20,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Umanmielen leads the nation with five sacks and 6.5 tackles for loss through two games.",
+            "fact": "Princewill Umanmielen led the nation through two games with five sacks and 6.5 tackles for loss.",
             "page": 8,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer linebacker TJ Dottery leads LSU with 14 tackles, followed by returning linebacker Whit Weeks with 13.",
+            "fact": "TJ Dottery led LSU with 14 tackles through two games, followed by Whit Weeks with 13.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "LSU returned three starters from its 2025 secondary\u2014cornerbacks PJ Woodland and DJ Pickett and safety Tamarcus Cooley\u2014after the Tigers led the SEC with 17 interceptions.",
+            "fact": "LSU returned three starters from its 2025 secondary: cornerbacks PJ Woodland and DJ Pickett and safety Tamarcus Cooley. That 2025 defense recorded 17 interceptions while allowing 14 touchdown passes.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Safety Ty Benefield transferred from Boise State with 33 career starts, 235 tackles, five interceptions and 16 pass breakups.",
+            "fact": "Transfer safety Ty Benefield arrived from Boise State with 33 career starts, 235 tackles, 18 tackles for loss, 16 pass breakups and five interceptions.",
             "page": 14,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -525,7 +567,7 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Lane Kiffin is in his first season as LSU's head coach after being hired on November 30, 2025; LSU started 2-0 under Kiffin.",
+            "fact": "Lane Kiffin is in his first season as LSU head coach after being hired on Nov. 30, 2025.",
             "page": 8,
             "category": "coaching_changes",
             "importance": "high"
@@ -537,14 +579,14 @@
             "importance": "high"
           },
           {
-            "fact": "Eric Wolford is LSU's first-year offensive line coach, while James Cregg serves as run game specialist for the offensive line.",
-            "page": 17,
+            "fact": "Blake Baker remains LSU's defensive coordinator, while first-year assistant Chris Kiffin is co-defensive coordinator and linebackers coach.",
+            "page": 1,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Blake Baker remains LSU's defensive coordinator, with first-year assistant Chris Kiffin serving as co-defensive coordinator and linebackers coach.",
-            "page": 16,
+            "fact": "Eric Wolford is LSU's first-year offensive line coach, and James Cregg serves as run game specialist for the offensive line.",
+            "page": 1,
             "category": "coaching_changes",
             "importance": "medium"
           }
@@ -552,37 +594,37 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "LSU has produced 1,172 total yards through two games, averaging 586.0 yards, 228.0 rushing yards and 358.0 passing yards per game.",
+            "fact": "LSU totaled 1,172 offensive yards through two games, averaging 586.0 yards per game with 228.0 rushing and 358.0 passing.",
             "page": 21,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU has averaged 89 offensive snaps per game, 26 more per game than it averaged in 2025.",
+            "fact": "LSU averaged 48.0 points, 6.6 yards per play and 89 offensive snaps per game through two games.",
             "page": 7,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU has converted 19 of 33 third downs, a 58 percent rate, and has averaged 6.6 yards per play.",
+            "fact": "LSU converted 19 of 33 third downs through two games, a 58 percent conversion rate.",
             "page": 21,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU has rushed for 456 yards and eight touchdowns at 4.5 yards per carry through two games.",
+            "fact": "LSU rushed for 456 yards and eight touchdowns through two games, averaging 4.5 yards per carry.",
             "page": 7,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU has outscored its first two opponents 27-3 in the first quarter.",
+            "fact": "LSU outscored its first two opponents 27-3 in the first quarter.",
             "page": 7,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "LSU has committed five turnovers through two games, including four interceptions, and has a minus-0.5 turnover margin per game.",
+            "fact": "LSU had lost five turnovers through two games, including four interceptions, and had a minus-0.5 turnover margin per game.",
             "page": 21,
             "category": "offensive_context",
             "importance": "high"
@@ -590,43 +632,37 @@
         ],
         "defensive_context": [
           {
-            "fact": "LSU has allowed 284 total yards through two games, an average of 142.0 per game, including 36 rushing yards and 248 passing yards.",
+            "fact": "LSU allowed 284 total yards through two games, an average of 142.0 per game, including 36 rushing yards and 248 passing yards.",
             "page": 21,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "LSU leads the nation with 12 sacks and 16 opponent first downs allowed through two games.",
+            "fact": "LSU recorded 12 sacks through two games and held opponents to 4-of-27 on third downs.",
+            "page": 21,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU forced 13 three-and-outs on 28 opponent possessions and forced 16 punts through two games.",
             "page": 7,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Opponents have converted four of 27 third downs against LSU, a 14.8 percent success rate.",
-            "page": 7,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "LSU has forced 13 three-and-outs on 28 opponent possessions, and 22 of those possessions lasted four plays or fewer.",
-            "page": 7,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Only 14 of the opponents' first 103 offensive snaps were run in LSU territory.",
+            "fact": "Twenty-two of LSU's first 28 opponent possessions lasted four plays or fewer.",
             "page": 7,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Seven LSU defenders have recorded at least a half-sack, and 13 have recorded a tackle for loss.",
+            "fact": "Opponents ran only 14 of their first 103 offensive snaps in LSU territory; six of those snaps followed turnovers that gave the opponent possession on LSU's side of the field.",
             "page": 7,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "In 28 games under Blake Baker, LSU has allowed 26 passing touchdowns; the Tigers have allowed one passing touchdown in 2026.",
+            "fact": "LSU allowed one passing touchdown through two games and has allowed 26 passing touchdowns in 28 games under defensive coordinator Blake Baker.",
             "page": 8,
             "category": "defensive_context",
             "importance": "medium"
@@ -634,13 +670,19 @@
         ],
         "special_teams": [
           {
-            "fact": "Kicker Scott Starzyk is 4-for-5 on field goals and 10-for-10 on extra points through two games.",
+            "fact": "Kicker Scott Starzyk made field goals of 25 and 23 yards against Louisiana Tech.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Starzyk was 4-of-5 on field goals and 10-of-10 on extra points through two games.",
             "page": 21,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "LSU has a 37.0-yard net punting average through two games.",
+            "fact": "LSU averaged 37.0 net yards per punt and 11.0 yards per punt return through two games.",
             "page": 21,
             "category": "special_teams",
             "importance": "low"
@@ -648,13 +690,13 @@
         ],
         "series_context": [
           {
-            "fact": "Texas A&M defeated LSU 49-25 on October 25, 2025, in the most recent meeting.",
+            "fact": "Texas A&M defeated LSU 49-25 on Oct. 25, 2025.",
             "page": 7,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "The 2026 game will be the second consecutive LSU-Texas A&M meeting played at Tiger Stadium.",
+            "fact": "The 2026 meeting will be the second consecutive LSU-Texas A&M game played at Tiger Stadium.",
             "page": 7,
             "category": "series_context",
             "importance": "medium"
@@ -662,14 +704,14 @@
         ],
         "other_relevant": [
           {
-            "fact": "LSU entered Week 3 with a 2-0 record and was ranked No. 7 in both the AP and Coaches polls.",
+            "fact": "LSU was 2-0 and ranked No. 7 in both the AP and Coaches polls when the guide was issued.",
             "page": 1,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Thirty-five transfers had appeared for LSU through its first two games of 2026.",
-            "page": 11,
+            "fact": "LSU's 2026 transfer class included quarterback Sam Leavitt, offensive tackle Jordan Seaton and edge rusher Princewill Umanmielen.",
+            "page": 12,
             "category": "other_relevant",
             "importance": "medium"
           }
@@ -682,23 +724,23 @@
         "dimension": "LSU scoring-opportunity creation vs Texas A&M scoring-opportunity prevention",
         "off_team": "LSU",
         "def_team": "Texas A&M",
-        "off_rank": 84,
+        "off_rank": 85,
         "def_rank": 4,
         "stat": "Eckel rate",
-        "rank_gap": 80,
+        "rank_gap": 81,
         "direction": "defense_advantage",
-        "matchup_score": 180
+        "matchup_score": 181
       },
       {
         "dimension": "LSU passing offense vs Texas A&M pass defense",
         "off_team": "LSU",
         "def_team": "Texas A&M",
-        "off_rank": 107,
-        "def_rank": 32,
+        "off_rank": 106,
+        "def_rank": 33,
         "stat": "pass EPA",
-        "rank_gap": 75,
+        "rank_gap": 73,
         "direction": "defense_advantage",
-        "matchup_score": 175
+        "matchup_score": 173
       },
       {
         "dimension": "LSU rushing offense vs Texas A&M rush defense",
@@ -714,26 +756,8 @@
     ],
     "used_sources": [
       {
-        "fact_id": 2,
-        "fact": "Against Kentucky, Texas A&M gained 423 yards: 187 rushing on 35 attempts and 236 passing on 26-of-49 passing.",
-        "page": 18,
-        "category": "recent_game",
-        "importance": "high",
-        "source_file": "Texas A&M.pdf",
-        "source_team": "Texas A&M Aggies"
-      },
-      {
-        "fact_id": 3,
-        "fact": "Marcel Reed completed 26 of 49 passes for 236 yards, one touchdown and two interceptions against Kentucky, and he rushed for a team-high 80 yards with a touchdown.",
-        "page": 22,
-        "category": "recent_game",
-        "importance": "high",
-        "source_file": "Texas A&M.pdf",
-        "source_team": "Texas A&M Aggies"
-      },
-      {
-        "fact_id": 7,
-        "fact": "LSU is converting 28 of 50 third downs, a 56% rate that ranks third in the SEC and 13th in the FBS.",
+        "fact_id": 9,
+        "fact": "LSU enters the game converting 28 of 50 third downs, a 56% rate that ranks third in the SEC and 13th in the FBS.",
         "page": 1,
         "category": "opponent_notes",
         "importance": "high",
@@ -741,8 +765,17 @@
         "source_team": "Texas A&M Aggies"
       },
       {
-        "fact_id": 37,
-        "fact": "The Aggies rank second in the SEC and seventh in the FBS in third-down defense, allowing seven conversions on 31 attempts for a 23% rate.",
+        "fact_id": 10,
+        "fact": "The game is scheduled for Sept. 26 at Tiger Stadium and will be Texas A&M's first road game of the season.",
+        "page": 1,
+        "category": "opponent_notes",
+        "importance": "medium",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 42,
+        "fact": "The Aggies rank second in the SEC and seventh nationally in third-down defense, allowing seven conversions on 31 attempts for a 23% rate.",
         "page": 6,
         "category": "defensive_context",
         "importance": "high",
@@ -750,45 +783,18 @@
         "source_team": "Texas A&M Aggies"
       },
       {
-        "fact_id": 52,
-        "fact": "The LSU game will be Texas A&M's first road game of 2026 and the first time since 2022 that its first road game has come in Week 4.",
-        "page": 1,
-        "category": "other_relevant",
-        "importance": "medium",
-        "source_file": "Texas A&M.pdf",
-        "source_team": "Texas A&M Aggies"
-      },
-      {
-        "fact_id": 59,
-        "fact": "Starting quarterback Sam Leavitt, an Arizona State transfer, has completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions through two games.",
-        "page": 1,
-        "category": "quarterback",
+        "fact_id": 77,
+        "fact": "Princewill Umanmielen led the nation through two games with five sacks and 6.5 tackles for loss.",
+        "page": 8,
+        "category": "defensive_personnel",
         "importance": "high",
         "source_file": "LSU.pdf",
         "source_team": "LSU Tigers"
       },
       {
-        "fact_id": 60,
-        "fact": "Leavitt has rushed for 135 yards and five touchdowns and ranks second in the SEC with 354.5 total-offense yards per game.",
-        "page": 1,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "LSU.pdf",
-        "source_team": "LSU Tigers"
-      },
-      {
-        "fact_id": 86,
-        "fact": "LSU leads the nation with 12 sacks and 16 opponent first downs allowed through two games.",
-        "page": 7,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "LSU.pdf",
-        "source_team": "LSU Tigers"
-      },
-      {
-        "fact_id": 87,
-        "fact": "Opponents have converted four of 27 third downs against LSU, a 14.8 percent success rate.",
-        "page": 7,
+        "fact_id": 92,
+        "fact": "LSU recorded 12 sacks through two games and held opponents to 4-of-27 on third downs.",
+        "page": 21,
         "category": "defensive_context",
         "importance": "high",
         "source_file": "LSU.pdf",
@@ -800,12 +806,12 @@
       "model_side": "Texas A&M",
       "opponent_full": "LSU Tigers",
       "opponent": "LSU",
-      "model_prediction": 10.0,
-      "market_line": 9.5,
-      "best_available_line": 9.5,
-      "best_available_price": "-108",
-      "cover_probability": 0.51802104,
-      "edge": -0.0012097292307692,
+      "model_prediction": 9.0,
+      "market_line": 8.5,
+      "best_available_line": 8.5,
+      "best_available_price": "-112",
+      "cover_probability": 0.52252021,
+      "edge": -0.0057816767924527,
       "bet_status": "PASS"
     }
   }

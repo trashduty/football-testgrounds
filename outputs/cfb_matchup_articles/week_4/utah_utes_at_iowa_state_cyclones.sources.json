@@ -2,19 +2,19 @@
   "game": "Utah Utes@Iowa State Cyclones",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T15:09:51.018925+00:00",
+  "generated_at_utc": "2026-09-26T13:26:28.314279+00:00",
   "model_prediction": 3.5,
-  "market_line": 8.0,
-  "best_line": 7.5,
-  "best_price": "-105",
-  "best_book": "DraftKings",
-  "cover_probability": 0.60477467,
-  "edge": 0.0925795480487804,
+  "market_line": 7.5,
+  "best_line": 8.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.62039026,
+  "edge": 0.0855065390697674,
   "bet_short": "Iowa State",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "The market is asking Iowa State to be overmatched by a Utah team that has started 3-0 while averaging 47.3 points per game. Devon Dampier has been highly efficient, and this will be Utah\u2019s first road game of the season. We are not dismissing that start. Our view is that Iowa State has a credible offensive path to keep this game competitive rather than being forced to trade downfield shots with Utah.\n\nThat path runs through the ground game. Iowa State is averaging 203.7 rushing yards per game, while Aiden Flora has produced 109.3 per game at 8.6 yards per carry. The same five offensive linemen have started all three games and have allowed only two sacks. Utah\u2019s early rushing-yardage numbers look excellent, but our EPA matchup numbers are considerably less favorable toward its run defense. That difference matters because sustained rushing efficiency can shorten the game and keep Iowa State away from Utah\u2019s stronger pass defense.\n\nThe meaningful concern for us is Utah\u2019s passing game. Dampier gives Utah an efficiency advantage against an Iowa State pass defense our numbers view less favorably than its early yardage totals. Still, Iowa State has limited opponents to four passing plays of at least 20 yards and a 27.9% third-down conversion rate. We think that combination gives Iowa State enough resistance to support our position, even if Utah remains the more dangerous offense.",
-    "matchup_to_watch": "We will be watching Dampier against Iowa State\u2019s new four-man defensive front. Utah replaced all five starting offensive linemen from last season, yet the current group has surrendered only two sacks through three games. If that protection continues, Dampier has the efficiency to create separation.\n\nFor our side, Iowa State does not need to shut down Utah. We need the Cyclones to limit explosive passes and get off the field often enough to keep their rushing offense relevant. Their early performance in both areas makes that a reasonable expectation, but this is the matchup most capable of challenging it.",
+    "narrative": "Our disagreement with the market starts with Iowa State\u2019s rushing path. Our matchup numbers rate the Iowa State ground game much more favorably than Utah\u2019s run defense, and we are not basing that view solely on the 365 rushing yards against Bowling Green. Iowa State is averaging 203.7 rushing yards per game, while Aiden Flora leads the Big 12 with 328 yards and 8.6 yards per carry. That gives Iowa State a credible way to stay on schedule and shorten the game against a favored opponent.\n\nThe meaningful concern for us is Utah\u2019s passing offense. Devon Dampier has thrown seven touchdowns with one interception through three games, and our numbers identify Utah\u2019s passing game against Iowa State\u2019s pass defense as the clearest advantage for the favorite. Still, Iowa State has limited opponents to a 27.9 percent third-down conversion rate and has allowed only four completions of at least 20 yards, giving us some reason to believe it can prevent Utah\u2019s efficiency from turning into consistent separation.\n\nWe also see value in the setting. This is Utah\u2019s first road game, while Iowa State is finishing a three-game homestand. That does not decide the matchup, but it adds context to a price that, in our view, asks Utah to control the game more comfortably than the rushing matchup and Iowa State\u2019s defensive performance support.",
+    "matchup_to_watch": "For us, the matchup to watch is Iowa State\u2019s rushing offense against Utah\u2019s front. Utah has allowed only 75 rushing yards per game, but our play-by-play numbers are less impressed with its rush defense than that early average suggests. Flora\u2019s production and Iowa State\u2019s 20-game streak of reaching 100 rushing yards make this the most plausible route to sustained offense.\n\nThat matters because Utah\u2019s pass-efficiency defense ranks second nationally. If Utah forces Iowa State away from the run and into obvious passing situations, the case for the underdog weakens. If Iowa State can keep Flora and Jaylen Raynor operating on manageable downs, we think the game is more likely to remain within the range our model expects.",
     "guide_status": [
       "Found guide for Utah Utes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah.pdf",
       "Loaded guide for Utah Utes: Utah.pdf",
@@ -41,13 +41,13 @@
             "importance": "high"
           },
           {
-            "fact": "Braden Pegan caught eight passes for 122 yards and two touchdowns against Utah State, tying career highs in receptions and touchdowns.",
+            "fact": "Braden Pegan caught eight passes for 122 yards and two touchdowns against Utah State, tying career highs in receptions and receiving touchdowns.",
             "page": 14,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Daniel Bray rushed three times for 82 yards against Utah State, including a 63-yard touchdown that was Utah's longest play of the season through three games.",
+            "fact": "Daniel Bray rushed three times for 82 yards against Utah State, including a 63-yard touchdown that was Utah's longest play through three games.",
             "page": 12,
             "category": "recent_game",
             "importance": "medium"
@@ -55,87 +55,69 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Iowa State enters the matchup 2-1 after beating Southeast Missouri 38-10, losing 16-13 at No. 21 Iowa and beating Bowling Green 55-7.",
+            "fact": "Iowa State enters the matchup 2-1 after wins over Southeast Missouri and Bowling Green and a 16-13 road loss to No. 21 Iowa.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa State is allowing 226.3 total yards per game, ranked 12th in the FBS and second in the Big 12.",
+            "fact": "Iowa State is in its first season under head coach Jimmy Rogers, who is 2-1 at Iowa State and 35-10 overall.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa State averages 355.0 total yards per game, including 203.7 rushing and 151.3 passing yards.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa State is allowing 143.0 passing yards per game, ranked 18th in the FBS and second in the Big 12.",
+            "fact": "Iowa State allows 226.3 total yards per game, including 83.3 rushing and 143.0 passing yards.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa State is allowing 83.3 rushing yards per game, ranked 21st in the FBS and sixth in the Big 12.",
-            "page": 2,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa State's defense has held opponents to a 27.9% third-down conversion rate, ranked 24th in the FBS and third in the Big 12.",
+            "fact": "Iowa State has held opponents to a 27.9 percent third-down conversion rate but has allowed scores on 100 percent of opponent red-zone trips.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Iowa State averages 355.0 total yards per game, ranked 103rd in the FBS and 16th in the Big 12, including 151.3 passing yards per game, ranked 124th nationally and 16th in the conference.",
+            "fact": "Iowa State averages 35.3 points per game and allows 11.0 points per game.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
-          },
-          {
-            "fact": "Iowa State averages 203.7 rushing yards and 35.3 points per game.",
-            "page": 2,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa State has scored on 100% of its red-zone opportunities, while its opponents have also scored on 100% of their red-zone opportunities.",
-            "page": 2,
-            "category": "opponent_notes",
-            "importance": "medium"
           }
         ],
         "quarterback": [
           {
-            "fact": "Utah starting quarterback Devon Dampier has completed 53 of 74 passes for 690 yards, seven touchdowns and one interception through three games.",
+            "fact": "Starting quarterback Devon Dampier is 53-of-74 passing for 690 yards, seven touchdowns and one interception through three games.",
             "page": 10,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Dampier's 178.5 passing-efficiency rating ranks second in the Big 12 and 20th in the FBS.",
+            "fact": "Dampier ranks second in the Big 12 in passing efficiency at 178.5 and has thrown multiple touchdown passes in nine consecutive games.",
             "page": 10,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Dampier has passed for multiple touchdowns in nine consecutive games and is 13-2 as Utah's starter.",
+            "fact": "Dampier has added 114 rushing yards and two touchdowns on 27 carries in 2026.",
             "page": 10,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Dampier has added 114 rushing yards and two rushing touchdowns on 27 carries in 2026.",
-            "page": 10,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Backup quarterback Byrd Ficklin has played in all three games, completing 9 of 17 passes for 166 yards and two touchdowns while rushing 15 times for 117 yards and one touchdown.",
+            "fact": "Backup quarterback Byrd Ficklin has played in all three games, completing 9 of 17 passes for 166 yards and two touchdowns while rushing for 117 yards and one score on 15 carries.",
             "page": 10,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Ficklin lined up at quarterback, receiver and in the backfield against Arkansas, producing 40 passing yards, 24 rushing yards and 11 receiving yards.",
+            "fact": "Utah used Ficklin at quarterback, receiver and out of the backfield against Arkansas; he recorded 40 passing yards, 24 rushing yards and 11 receiving yards.",
             "page": 8,
             "category": "quarterback",
             "importance": "medium"
@@ -143,62 +125,43 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Utah lost all five starting offensive linemen from 2025, including first-round NFL draft picks Spencer Fano and Caleb Lomu.",
-            "page": 9,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Utah has started the same offensive line in each of its first three games: Zereoue Williams at left tackle, Solatoa Moea'i at left guard, Alex Harrison at center, Roger Alderman at right guard and Cedric Jefferson at right tackle.",
-            "page": 11,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Utah's offensive line has allowed two sacks through three games, tied for second-fewest in the Big 12 and 11th-fewest in the FBS.",
-            "page": 9,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Right tackle Cedric Jefferson transferred from Montana State after starting all 16 games for the 2025 FCS national champion.",
-            "page": 11,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Utah State transfer Braden Pegan leads Utah's wide receivers with 15 catches for 235 yards and three touchdowns through three games.",
+            "fact": "Utah State transfer Braden Pegan leads Utah with 235 receiving yards and three receiving touchdowns on 15 catches through three games.",
             "page": 14,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Noah Bennee returned to Utah after two seasons at Weber State and has five catches for 148 yards and two touchdowns through three games.",
+            "fact": "Running back Wayshawn Parker has 154 rushing yards and three rushing touchdowns and is one of three FBS running backs with three receiving touchdowns in 2026.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Noah Bennee returned to Utah after two seasons at Weber State and has five catches for 148 yards and two touchdowns.",
             "page": 16,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Running back Wayshawn Parker has 154 rushing yards and three rushing touchdowns plus three receiving touchdowns through three games.",
+            "fact": "Utah's starting offensive line through the first three games has been Zereoue Williams at left tackle, Solatoa Moea'i at left guard, Alex Harrison at center, Roger Alderman at right guard and Montana State transfer Cedric Jefferson at right tackle.",
             "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah lost all five offensive-line starters from 2025, including four who joined NFL teams, but has started the same five linemen in each of its first three 2026 games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The rebuilt offensive line has allowed two sacks through three games, tied for second-fewest in the Big 12.",
+            "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           }
         ],
-        "defensive_personnel": [
-          {
-            "fact": "Utah lists a 4-2 defensive scheme for 2026 and returned five defensive starters while losing six.",
-            "page": 2,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Linebackers Johnathan Hall and Trey Reynolds and safety Nate Ritchie were selected as defensive team captains.",
-            "page": 6,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          }
-        ],
+        "defensive_personnel": [],
         "coaching_changes": [
           {
             "fact": "Morgan Scalley is in his first full season as Utah's head coach after serving as the program's defensive coordinator from 2016 through 2025.",
@@ -207,16 +170,10 @@
             "importance": "high"
           },
           {
-            "fact": "Kevin McGiven became Utah's offensive coordinator for 2026 and calls the offense from the booth.",
-            "page": 2,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "McGiven directed Utah State's offense in 2025 before joining Utah.",
+            "fact": "Kevin McGiven was hired to coordinate Utah's offense in 2026 after directing Utah State's offense in 2025; he calls the offense from the booth.",
             "page": 8,
             "category": "coaching_changes",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Colton Swan is Utah's defensive coordinator and linebackers coach, while Sharrieff Shah coordinates special teams and coaches cornerbacks.",
@@ -225,79 +182,67 @@
             "importance": "medium"
           },
           {
-            "fact": "Iowa State head coach Jimmy Rogers is in his first season with the Cyclones and enters the game 2-1 at Iowa State.",
-            "page": 1,
+            "fact": "Former Utah All-American and NFL All-Pro Jordan Gross coaches Utah's offensive line.",
+            "page": 9,
             "category": "coaching_changes",
             "importance": "medium"
           }
         ],
         "injury_availability": [
           {
-            "fact": "Tight end Hunter Andrews has returned after a season-ending injury limited him to four games in 2025; he has played in all three games in 2026 and caught four passes for 24 yards and one touchdown.",
+            "fact": "Tight end Hunter Andrews returned in 2026 after a season-ending injury limited him to four games in 2025; he has played in all three games and has four catches for 24 yards and one touchdown.",
             "page": 15,
             "category": "injury_availability",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Utah averages 518.0 total yards per game, ranked 11th in the FBS and third in the Big 12.",
-            "page": 2,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Utah leads the Big 12 and ranks ninth in the FBS with 47.3 points per game.",
+            "fact": "Utah averages 518.0 total yards and a Big 12-leading 47.3 points per game through three games.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Utah has scored at least 30 points in nine consecutive games dating to 2025, the longest active such streak in the FBS.",
-            "page": 1,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Utah converts 60.5% of its third downs, ranked sixth in the FBS and fourth in the Big 12.",
+            "fact": "Utah converts 60.5 percent of its third downs, sixth-best in the FBS.",
             "page": 2,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Utah averages 232.7 rushing yards per game, ranked 23rd in the FBS, and has produced 22 runs of at least 10 yards.",
+            "fact": "Utah averages 232.7 rushing yards per game and has produced 22 runs of at least 10 yards.",
             "page": 9,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Utah averages 285.3 passing yards per game and has a team passing-efficiency rating of 177.59.",
-            "page": 2,
+            "fact": "Utah has scored at least 30 points in nine consecutive games dating to 2025.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Utah has had a 100-yard receiver in two of its first three games.",
+            "page": 8,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Utah has allowed 24 total points through three games, an average of 8.0 per game that ranks sixth in the FBS and first in the Big 12.",
+            "fact": "Utah has allowed 24 total points through three games, an average of 8.0 per game.",
             "page": 1,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Utah allows 239.3 total yards per game, ranked 14th in the FBS and third in the Big 12.",
+            "fact": "Utah allows 239.3 total yards per game, including 75.0 rushing and 164.3 passing yards.",
             "page": 2,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Utah allows 75.0 rushing yards per game, ranked 15th in the FBS and second in the Big 12, after allowing 181.2 per game in 2025.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Utah allows 164.3 passing yards per game and ranks second nationally in opponent passing efficiency at 81.04.",
+            "fact": "Utah's team pass-efficiency defense rating of 81.04 ranks second in the FBS and first in the Big 12.",
             "page": 2,
             "category": "defensive_context",
             "importance": "high"
@@ -307,23 +252,29 @@
             "page": 2,
             "category": "defensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "Utah's opponents have scored on 60 percent of their red-zone opportunities.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Utah ranks second in the FBS and first in the Big 12 with a 48.4-yard net punting average.",
+            "fact": "Utah averages 48.4 net yards per punt, second-best in the FBS and first in the Big 12.",
             "page": 2,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Utah ranks fourth in the FBS in punt-return defense, allowing minus-0.5 yards per return.",
+            "fact": "Utah has held opponents to minus-0.5 yards per punt return, fourth-best in the FBS.",
             "page": 2,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Iowa State averages 46.67 yards per kickoff return, ranked third in the FBS and first in the Big 12.",
+            "fact": "Iowa State averages 46.67 yards per kickoff return, third-best in the FBS.",
             "page": 2,
             "category": "special_teams",
             "importance": "medium"
@@ -343,7 +294,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Utah's only win in the series was a 68-27 victory at Iowa State in 2010.",
+            "fact": "Utah's only series win was a 68-27 victory at Iowa State in 2010.",
             "page": 1,
             "category": "series_context",
             "importance": "low"
@@ -351,13 +302,13 @@
         ],
         "other_relevant": [
           {
-            "fact": "The game is Utah's first road game and first Big 12 game of the 2026 season.",
+            "fact": "The Iowa State game is Utah's first road game and first Big 12 game of the 2026 season.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Utah enters the matchup ranked No. 15 with a 3-0 record, while Iowa State is 2-1; both teams are 0-0 in Big 12 play.",
+            "fact": "Utah enters the game ranked No. 15 with a 3-0 record, while Iowa State is 2-1; both teams are 0-0 in Big 12 play.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
@@ -369,46 +320,40 @@
         "source_team": "Iowa State Cyclones",
         "opponent": "Utah Utes",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide is labeled \"2026 Cyclone Football Game 4 // vs. Utah\" and lists Iowa State hosting No. 15 Utah on Sept. 26, 2026.",
+        "document_match_reason": "The guide is labeled \"2026 Cyclone Football Game 4 // vs. Utah\" and identifies Iowa State's Sept. 26, 2026 home game against No. 15 Utah as the upcoming matchup.",
         "recent_game": [
           {
-            "fact": "Iowa State defeated Bowling Green 55-7 in its most recent game, producing 507 total yards and 365 rushing yards.",
+            "fact": "Iowa State defeated Bowling Green 55-7 after producing 507 total yards and 365 rushing yards.",
             "page": 12,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Iowa State's 365 rushing yards against Bowling Green were its most since it rushed for 368 against Texas Tech in 2011, and the Cyclones averaged 7.9 yards per carry.",
+            "fact": "Iowa State averaged 7.9 yards per rush against Bowling Green, and five of its seven touchdowns covered at least 30 yards.",
             "page": 12,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Iowa State held Bowling Green to 186 total yards and 90 rushing yards.",
+            "fact": "Aiden Flora recorded 296 all-purpose yards against Bowling Green and scored on runs of 61 and 42 yards plus a 66-yard punt return.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaylen Raynor completed 11 of 17 passes for 133 yards and added 30 rushing yards against Bowling Green, extending his touchdown-pass streak to five games.",
             "page": 12,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Aiden Flora recorded 296 all-purpose yards against Bowling Green, including 194 rushing yards, rushing touchdowns of 61 and 42 yards, and a 66-yard punt-return touchdown.",
+            "fact": "Iowa State limited Bowling Green to 186 total yards, including 90 rushing yards, and recorded six tackles for loss.",
             "page": 12,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Arnold Barnes III rushed for 63 yards and two touchdowns against Bowling Green.",
-            "page": 12,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Linebacker Carson Willich led Iowa State with six tackles against Bowling Green, including one tackle for loss; the defense totaled six tackles for loss.",
-            "page": 12,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Beau Goodwin intercepted a pass, Sullivan Schlimgen recovered a fumble forced by Jack Janikowski, and Iowa State improved its season turnover margin to plus-three.",
+            "fact": "Linebacker Beau Goodwin intercepted a pass, and linebacker Sullivan Schlimgen recovered a fumble forced by defensive end Jack Janikowski against Bowling Green.",
             "page": 13,
             "category": "recent_game",
             "importance": "medium"
@@ -416,52 +361,52 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Iowa State opens Big 12 play at home against No. 15 Utah on Sept. 26, 2026, at Jack Trice Stadium; kickoff is scheduled for 2:30 p.m. Central.",
+            "fact": "Iowa State will host Utah on Sept. 26, 2026 at 2:30 p.m. Central in both teams' Big 12 opener.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Utah enters the matchup 3-0 overall and 0-0 in the Big 12, ranked No. 15 in both the AP and Coaches polls.",
+            "fact": "Utah enters the matchup 3-0 and ranked No. 15 in both the AP and Coaches polls.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa State enters the matchup 2-1 overall and 0-0 in the Big 12.",
+            "fact": "Iowa State enters the matchup 2-1 and is playing the third game of a three-game homestand.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Utah is coached by first-year head coach Morgan Scalley, who is listed with a 4-0 career and Utah record.",
-            "page": 1,
+            "fact": "Utah running back Wayshawn Parker previously played at Washington State with several current Iowa State players.",
+            "page": 14,
             "category": "opponent_notes",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "quarterback": [
           {
-            "fact": "Starting quarterback Jaylen Raynor transferred to Iowa State after three seasons at Arkansas State and has made 39 career starts with 22 wins.",
+            "fact": "Starting quarterback Jaylen Raynor transferred to Iowa State after three seasons at Arkansas State.",
             "page": 14,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Raynor has four passing touchdowns, two rushing touchdowns and one interception through Iowa State's first three games of 2026.",
+            "fact": "Raynor has made 39 career starts and has 22 wins as a starting quarterback.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games in 2026, Raynor has four passing touchdowns, two rushing touchdowns and one interception.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Raynor has thrown a touchdown pass in five consecutive games, matching the longest streak of his career; over that span he has 10 touchdown passes and two rushing touchdowns.",
+            "fact": "Raynor has thrown a touchdown pass in five consecutive games and has accounted for 10 passing touchdowns and two rushing touchdowns during that span.",
             "page": 14,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Raynor completed 11 of 17 passes for 133 yards and added 30 rushing yards against Bowling Green.",
-            "page": 12,
             "category": "quarterback",
             "importance": "high"
           },
@@ -472,54 +417,48 @@
             "importance": "medium"
           },
           {
-            "fact": "Connor Moberly and Zane Flores are listed behind Raynor on the Utah-game depth chart.",
-            "page": 10,
+            "fact": "Raynor reunited at Iowa State with quarterbacks coach Keith Heckendorf, who coached him at Arkansas State.",
+            "page": 14,
             "category": "quarterback",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Iowa State's 126-player roster includes 83 newcomers, and the program returned no starters on offense or defense from 2025.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Aiden Flora, a former walk-on in his first season as a starter, leads the Big 12 with 109.3 rushing yards per game and 8.6 yards per carry through three games.",
-            "page": 1,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "The Utah-game depth chart lists Flora as the starting running back, with Cameron Pettaway as his backup.",
+            "fact": "Iowa State's current offensive line depth chart lists Jake Taylor at left tackle, Caden Maas at left guard, Braden Smith at center, Austin Barrett at right guard and Maasai King at right tackle.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The listed starting receivers are Dominic Overby, Omari Hayes and either Cody Jackson or freshman Jamal Polite Jr.; Tyler Fortenberry or Vince Benetti is listed at the Y tight end position.",
-            "page": 10,
+            "fact": "Taylor, Maas, Smith and King started each of Iowa State's first three games; Barrett started the last two after Trevor Bindel started the opener at right guard.",
+            "page": 19,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Iowa State lists transfers at several offensive skill positions, including Raynor from Arkansas State, Jackson from Tarleton State, Hayes from Tulane, Fortenberry from Arkansas State and Pettaway from Bowling Green.",
-            "page": 9,
+            "fact": "Aiden Flora is listed as the starting running back, with Cameron Pettaway as his backup.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Flora leads the Big 12 through three games with 328 rushing yards, 109.3 rushing yards per game and 8.6 yards per carry.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Gavin Proudfoot is an offensive lineman wearing No. 45 so he can also align as a tight end.",
+            "page": 8,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Iowa State's listed starting defensive front against Utah is Isaac Terrell and Caden Crawford or Malaki Ta'ase at end, with Bryson Lamb and Max Baloun or Zaimir Hawk at tackle.",
-            "page": 10,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "The listed starting linebackers are Carson Willich, Sullivan Schlimgen and Willie Breland III.",
-            "page": 10,
+            "fact": "Iowa State started the same front seven in each of its first three games: defensive ends Isaac Terrell and Caden Crawford, defensive tackles Max Baloun and Bryson Lamb, and linebackers Carson Willich, Sullivan Schlimgen and Willie Breland III.",
+            "page": 19,
             "category": "defensive_personnel",
             "importance": "high"
           },
@@ -530,122 +469,116 @@
             "importance": "high"
           },
           {
-            "fact": "The listed secondary has Duhron Goodman at free safety, Drew Surges at strong safety, and David Coffey or Beni Ngoyi plus Seth Johnson or Keyon Washington at cornerback.",
-            "page": 10,
+            "fact": "Willich made a team-high six tackles, including one tackle for loss, against Bowling Green.",
+            "page": 12,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Terrell recorded seven sacks in 2025 and had three sacks against Southeast Missouri in Iowa State's 2026 opener.",
-            "page": 14,
+            "fact": "Against Bowling Green, Keyon Washington made his first listed start of the season at cornerback, while Seth Johnson shifted from his previous cornerback starting spot to the listed strong-safety position.",
+            "page": 19,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Jimmy Rogers became Iowa State's 34th head coach on Dec. 5, 2025, after coaching South Dakota State in 2023-24 and Washington State in 2025.",
+            "fact": "Jimmy Rogers became Iowa State's head coach on Dec. 5, 2025 after Matt Campbell accepted the Penn State head-coaching position.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Rogers spent 2025 as Washington State's head coach after serving as South Dakota State's head coach in 2023 and 2024.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Rogers is 2-1 in his first season at Iowa State and 24-1 in home games during his head-coaching career.",
-            "page": 3,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Tyler Roehl is Iowa State's first-year offensive coordinator, Jesse Bobbit is its first-year defensive coordinator, and Jake Thornton is its first-year offensive line coach.",
+            "fact": "Tyler Roehl is Iowa State's first-year offensive coordinator, and Jesse Bobbit is its first-year defensive coordinator.",
             "page": 5,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Quarterbacks coach Keith Heckendorf previously coached Raynor at Arkansas State and joined Rogers' Iowa State staff in January 2026.",
-            "page": 14,
+            "fact": "Rogers has a 24-1 career record in home games as a head coach.",
+            "page": 3,
             "category": "coaching_changes",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Iowa State has rushed for at least 100 yards in 20 consecutive games, the longest active streak among Power Four teams.",
+            "fact": "Iowa State has rushed for at least 100 yards in 20 consecutive games, the longest active streak among Power-4 teams.",
             "page": 13,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Cyclones have rushed for 611 yards through three games, their third-highest three-game total since 2002.",
+            "fact": "The Cyclones have 611 rushing yards through three games, their third-highest three-game total since 2002.",
             "page": 13,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Iowa State averages 203.7 rushing yards and 151.3 passing yards per game, ranking ninth and 16th in the Big 12, respectively.",
+            "fact": "Iowa State averages 203.7 rushing yards and 151.3 passing yards per game through three games.",
             "page": 19,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Iowa State has allowed two sacks through three games, ranking second in the Big 12 in sacks allowed.",
-            "page": 19,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "The Cyclones are 11-for-11 on red-zone opportunities this season with seven touchdowns.",
+            "fact": "Iowa State is 11-for-11 in red-zone opportunities this season with seven touchdowns.",
             "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Cyclones have allowed two sacks through three games.",
+            "page": 19,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Iowa State's listed starting offensive line is left tackle Jake Taylor, left guard Caden Maas, center Braden Smith, right guard Austin Barrett and right tackle Maasai King.",
-            "page": 10,
+            "fact": "Iowa State has outscored opponents 35-7 in the first quarter and 51-7 across the first and third quarters combined.",
+            "page": 13,
             "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Each of Iowa State's five listed starting offensive linemen has started all three games in 2026.",
-            "page": 10,
-            "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Iowa State has shifted from the previous three-man defensive front to a four-man front under Rogers and Bobbit.",
+            "fact": "Iowa State changed from a three-man defensive front to a four-man front under Rogers and Bobbit.",
             "page": 15,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Iowa State is allowing 226.3 total yards per game, ranking 12th nationally and second in the Big 12.",
-            "page": 15,
+            "fact": "Through three games, Iowa State is allowing 11.0 points, 226.3 total yards, 83.3 rushing yards and 143.0 passing yards per game.",
+            "page": 19,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Cyclones are allowing 11.0 points and 83.3 rushing yards per game through three games.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa State has held four consecutive opponents below 100 rushing yards, tied with Notre Dame for the longest active national streak.",
+            "fact": "Iowa State has held four consecutive opponents below 100 rushing yards, including all three opponents in 2026.",
             "page": 13,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Opponents have converted 27.9 percent of third downs against Iowa State, and have reached the Cyclones' red zone only three times.",
+            "fact": "Opponents have converted 27.9 percent of their third downs against Iowa State.",
             "page": 15,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Iowa State has allowed only four rushing plays of at least 10 yards and four passing plays of at least 20 yards through three games.",
+            "fact": "Opponents have reached Iowa State's red zone only three times through three games.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa State has allowed only four rushing plays of at least 10 yards and four passing plays of at least 20 yards this season.",
             "page": 15,
             "category": "defensive_context",
             "importance": "medium"
@@ -655,23 +588,29 @@
             "page": 15,
             "category": "defensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "Iowa State owns a plus-three turnover margin through three games.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Against Bowling Green, Iowa State became the first team in program history to score both a punt-return touchdown and a kickoff-return touchdown in the same game.",
+            "fact": "Against Bowling Green, Iowa State recorded a punt-return touchdown and a kickoff-return touchdown in the same game for the first time in program history.",
             "page": 12,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Aiden Flora returned a punt 66 yards for a touchdown and Cameron Pettaway returned a kickoff 100 yards for a touchdown against Bowling Green.",
+            "fact": "Aiden Flora returned a punt 66 yards for a touchdown, and Cameron Pettaway returned a kickoff 100 yards for a touchdown against Bowling Green.",
             "page": 12,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Flora leads the Big 12 with a 20.8-yard punt-return average and has four career punt returns of at least 50 yards.",
+            "fact": "Flora averages 20.8 yards per punt return and is listed as Iowa State's primary punt returner.",
             "page": 19,
             "category": "special_teams",
             "importance": "high"
@@ -683,62 +622,62 @@
             "importance": "high"
           },
           {
-            "fact": "Konrardy made field goals from 39 and 40 yards against Bowling Green but missed from 54 yards.",
+            "fact": "Konrardy made field goals from 39 and 40 yards but missed from 54 yards against Bowling Green.",
             "page": 12,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "The Utah-game depth chart lists Jonah DuPont as the punter, Konrardy as the place-kicker, Flora as the primary punt returner and Pettaway as the primary kickoff returner.",
-            "page": 10,
+            "fact": "Konrardy has produced touchbacks on 18 of 20 kickoffs this season.",
+            "page": 15,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
         "series_context": [
           {
-            "fact": "Iowa State leads the all-time series with Utah 5-1 and has won all three meetings played in Utah.",
+            "fact": "Iowa State leads the all-time series with Utah 5-1, including a 2-1 record at home.",
             "page": 14,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "In the most recent meeting, Iowa State defeated Utah 31-28 in Salt Lake City in 2024 on a Carson Hansen touchdown with 1:31 remaining.",
-            "page": 14,
-            "category": "series_context",
-            "importance": "high"
-          },
-          {
-            "fact": "The 2026 matchup is the seventh meeting between the programs and their second as Big 12 opponents.",
+            "fact": "Iowa State won the most recent meeting 31-28 at Utah in 2024 on Carson Hansen's touchdown with 1:31 remaining.",
             "page": 14,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Twelve players on Iowa State's 2026 roster played in the 2024 meeting with Utah.",
+            "fact": "Twelve players on Iowa State's 2026 roster participated in the 2024 game against Utah.",
             "page": 14,
             "category": "series_context",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "other_relevant": [
           {
-            "fact": "Iowa State is playing the third game of a three-game homestand, its first three-game homestand since 2019.",
-            "page": 1,
+            "fact": "Iowa State's 126-player roster includes 83 newcomers after 78 players from the 2025 roster left the program.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State entered 2026 with no returning starters on offense or defense and only 16 total returning starts from the 2025 season.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Fifteen players followed Rogers from Washington State to Iowa State.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa State has two Utah natives on its roster: defensive end Isaac Terrell of Lehi and wide receiver Dominic Overby of West Jordan.",
+            "page": 14,
             "category": "other_relevant",
             "importance": "low"
-          },
-          {
-            "fact": "Iowa State is 2-0 at home in 2026, while Rogers owns a 24-1 career home record as a head coach.",
-            "page": 3,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa State is 0-1 against ranked opponents in 2026; Utah will be its second ranked opponent of the season.",
-            "page": 20,
-            "category": "other_relevant",
-            "importance": "medium"
           }
         ],
         "source_file": "Iowa State.pdf"
@@ -760,12 +699,12 @@
         "dimension": "Utah passing offense vs Iowa State pass defense",
         "off_team": "Utah",
         "def_team": "Iowa State",
-        "off_rank": 11,
+        "off_rank": 12,
         "def_rank": 77,
         "stat": "pass EPA",
-        "rank_gap": 66,
+        "rank_gap": 65,
         "direction": "offense_advantage",
-        "matchup_score": 166
+        "matchup_score": 165
       },
       {
         "dimension": "Iowa State passing offense vs Utah pass defense",
@@ -781,62 +720,26 @@
     ],
     "used_sources": [
       {
-        "fact_id": 13,
-        "fact": "Utah starting quarterback Devon Dampier has completed 53 of 74 passes for 690 yards, seven touchdowns and one interception through three games.",
-        "page": 10,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "Utah.pdf",
-        "source_team": "Utah Utes"
-      },
-      {
-        "fact_id": 14,
-        "fact": "Dampier's 178.5 passing-efficiency rating ranks second in the Big 12 and 20th in the FBS.",
-        "page": 10,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "Utah.pdf",
-        "source_team": "Utah Utes"
-      },
-      {
-        "fact_id": 19,
-        "fact": "Utah lost all five starting offensive linemen from 2025, including first-round NFL draft picks Spencer Fano and Caleb Lomu.",
+        "fact_id": 29,
+        "fact": "Utah averages 232.7 rushing yards per game and has produced 22 runs of at least 10 yards.",
         "page": 9,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Utah.pdf",
-        "source_team": "Utah Utes"
-      },
-      {
-        "fact_id": 21,
-        "fact": "Utah's offensive line has allowed two sacks through three games, tied for second-fewest in the Big 12 and 11th-fewest in the FBS.",
-        "page": 9,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Utah.pdf",
-        "source_team": "Utah Utes"
-      },
-      {
-        "fact_id": 35,
-        "fact": "Utah leads the Big 12 and ranks ninth in the FBS with 47.3 points per game.",
-        "page": 1,
         "category": "offensive_context",
         "importance": "high",
         "source_file": "Utah.pdf",
         "source_team": "Utah Utes"
       },
       {
-        "fact_id": 42,
-        "fact": "Utah allows 75.0 rushing yards per game, ranked 15th in the FBS and second in the Big 12, after allowing 181.2 per game in 2025.",
-        "page": 1,
+        "fact_id": 34,
+        "fact": "Utah's team pass-efficiency defense rating of 81.04 ranks second in the FBS and first in the Big 12.",
+        "page": 2,
         "category": "defensive_context",
         "importance": "high",
         "source_file": "Utah.pdf",
         "source_team": "Utah Utes"
       },
       {
-        "fact_id": 51,
-        "fact": "The game is Utah's first road game and first Big 12 game of the 2026 season.",
+        "fact_id": 43,
+        "fact": "The Iowa State game is Utah's first road game and first Big 12 game of the 2026 season.",
         "page": 1,
         "category": "other_relevant",
         "importance": "high",
@@ -844,17 +747,53 @@
         "source_team": "Utah Utes"
       },
       {
-        "fact_id": 71,
-        "fact": "Aiden Flora, a former walk-on in his first season as a starter, leads the Big 12 with 109.3 rushing yards per game and 8.6 yards per carry through three games.",
+        "fact_id": 45,
+        "fact": "Iowa State defeated Bowling Green 55-7 after producing 507 total yards and 365 rushing yards.",
+        "page": 12,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 53,
+        "fact": "Iowa State enters the matchup 2-1 and is playing the third game of a three-game homestand.",
         "page": 1,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 57,
+        "fact": "Through three games in 2026, Raynor has four passing touchdowns, two rushing touchdowns and one interception.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 64,
+        "fact": "Flora leads the Big 12 through three games with 328 rushing yards, 109.3 rushing yards per game and 8.6 yards per carry.",
+        "page": 19,
         "category": "offensive_personnel",
         "importance": "high",
         "source_file": "Iowa State.pdf",
         "source_team": "Iowa State Cyclones"
       },
       {
-        "fact_id": 86,
-        "fact": "Iowa State averages 203.7 rushing yards and 151.3 passing yards per game, ranking ninth and 16th in the Big 12, respectively.",
+        "fact_id": 74,
+        "fact": "Iowa State has rushed for at least 100 yards in 20 consecutive games, the longest active streak among Power-4 teams.",
+        "page": 13,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 76,
+        "fact": "Iowa State averages 203.7 rushing yards and 151.3 passing yards per game through three games.",
         "page": 19,
         "category": "offensive_context",
         "importance": "high",
@@ -862,26 +801,8 @@
         "source_team": "Iowa State Cyclones"
       },
       {
-        "fact_id": 87,
-        "fact": "Iowa State has allowed two sacks through three games, ranking second in the Big 12 in sacks allowed.",
-        "page": 19,
-        "category": "offensive_context",
-        "importance": "high",
-        "source_file": "Iowa State.pdf",
-        "source_team": "Iowa State Cyclones"
-      },
-      {
-        "fact_id": 90,
-        "fact": "Each of Iowa State's five listed starting offensive linemen has started all three games in 2026.",
-        "page": 10,
-        "category": "offensive_context",
-        "importance": "high",
-        "source_file": "Iowa State.pdf",
-        "source_team": "Iowa State Cyclones"
-      },
-      {
-        "fact_id": 91,
-        "fact": "Iowa State has shifted from the previous three-man defensive front to a four-man front under Rogers and Bobbit.",
+        "fact_id": 83,
+        "fact": "Opponents have converted 27.9 percent of their third downs against Iowa State.",
         "page": 15,
         "category": "defensive_context",
         "importance": "high",
@@ -889,17 +810,8 @@
         "source_team": "Iowa State Cyclones"
       },
       {
-        "fact_id": 95,
-        "fact": "Opponents have converted 27.9 percent of third downs against Iowa State, and have reached the Cyclones' red zone only three times.",
-        "page": 15,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Iowa State.pdf",
-        "source_team": "Iowa State Cyclones"
-      },
-      {
-        "fact_id": 96,
-        "fact": "Iowa State has allowed only four rushing plays of at least 10 yards and four passing plays of at least 20 yards through three games.",
+        "fact_id": 85,
+        "fact": "Iowa State has allowed only four rushing plays of at least 10 yards and four passing plays of at least 20 yards this season.",
         "page": 15,
         "category": "defensive_context",
         "importance": "medium",
@@ -913,11 +825,11 @@
       "opponent_full": "Utah Utes",
       "opponent": "Utah",
       "model_prediction": 3.5,
-      "market_line": 8.0,
-      "best_available_line": 7.5,
-      "best_available_price": "-105",
-      "cover_probability": 0.60477467,
-      "edge": 0.0925795480487804,
+      "market_line": 7.5,
+      "best_available_line": 8.5,
+      "best_available_price": "-115",
+      "cover_probability": 0.62039026,
+      "edge": 0.0855065390697674,
       "bet_status": "BET"
     }
   }

@@ -6,20 +6,20 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas A&M Aggies | +9.5 (-108) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| LSU Tigers | -9.5 (-110) | BetMGM | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | +8.5 (-112) | DraftKings | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| LSU Tigers | -8.5 (-105) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas A&M +10**, compared with a market line of +9.5.
+The Texas A&M Aggies visit the LSU Tigers at Tiger Stadium (LA). We make **Texas A&M +9**, compared with a market line of +8.5.
 
-The best number we found is Texas A&M +9.5 at -108. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas A&M +8.5 at -112. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not reacting to Texas A&M’s loss to Kentucky as if one result defines this matchup. The more useful takeaway is that Texas A&M still generated 423 yards, but Marcel Reed needed 49 pass attempts and threw two interceptions. That matters against an LSU defense that recorded 12 sacks through its first two games and allowed opponents to convert only 14.8% of their third downs.
+Our model’s lean toward Texas A&M comes primarily from the matchup on the other side of the ball. Our efficiency numbers give Texas A&M a clear advantage in limiting scoring opportunities and defending the pass relative to what LSU’s offense has produced. For us, the case is less about Texas A&M needing to control the game and more about its defense making it difficult for LSU to create separation.
 
-Our modest lean toward Texas A&M comes primarily from the other side of the ball. LSU has converted 56% of its third downs, but Texas A&M has allowed conversions at just a 23% rate. Our numbers also favor the Texas A&M pass defense against an LSU passing game that has been less efficient than its raw production suggests. Sam Leavitt’s mobility complicates that matchup, though, as he rushed for 135 yards and five touchdowns in LSU’s first two games.
+The counterweight is LSU’s defense. We have to respect a unit that recorded 12 sacks and held its first two opponents to four third-down conversions in 27 attempts, with Princewill Umanmielen producing five of those sacks. Texas A&M also faces its first road game of the season, which adds uncertainty to an offense operating behind Marcel Reed.
 
-For us, the case is less about declaring Texas A&M the better team and more about questioning whether LSU can consistently create enough scoring opportunities to produce separation. Still, LSU’s defensive pressure and Texas A&M’s first road test create enough resistance that our small disagreement with the market is not meaningful at the available price.
+That leaves us with a reasonable football argument for Texas A&M, but not a meaningful pricing advantage. The market is already close to our overall expectation, and LSU’s pass rush gives us enough concern that the small disagreement is not sufficient to justify a wager.
 
 ### What The Numbers Say
 
@@ -36,8 +36,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#35</td>
-<td>#107</td>
+<td class="btb-better">#36</td>
+<td>#106</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -46,7 +46,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#32</td>
+<td>#33</td>
 <td class="btb-better">#11</td>
 </tr>
 <tr>
@@ -56,13 +56,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#9</td>
-<td>#84</td>
+<td class="btb-better">#8</td>
+<td>#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#4</td>
-<td>#34</td>
+<td>#33</td>
 </tr>
 </tbody>
 </table>
@@ -71,13 +71,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching LSU’s third-down offense against Texas A&M’s third-down defense. LSU has been excellent at extending drives, while Texas A&M has been equally effective at ending them. That conflict will help determine whether LSU can sustain the possession volume needed to pull away.
-
-We also see Leavitt’s legs as an important part of that matchup. If he can escape pressure and convert passing downs as a runner, LSU can challenge the strongest part of the Texas A&M profile. If Texas A&M keeps him contained and forces the passing game to win from the pocket, the underdog has a clearer path to staying competitive.
+We are watching LSU’s third-down offense against Texas A&M’s third-down defense. LSU enters having converted 28 of 50 opportunities, while Texas A&M has allowed only seven conversions in 31 attempts. If LSU sustains drives at its current rate, it can neutralize the strongest part of the Texas A&M case. If the visitors consistently get off the field, LSU may struggle to build the margin the market is asking it to produce.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

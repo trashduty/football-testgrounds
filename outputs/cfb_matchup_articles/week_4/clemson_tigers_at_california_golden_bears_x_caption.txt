@@ -1,9 +1,9 @@
-Our model is 1 points away from the market on Clemson-California.
+Our model is 1.5 points away from the market on Clemson-California.
 
-We make California +0.5. The market is +1.5.
+We make California +2. The market is +3.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: California +3.5 +100. We give it a 54.6% chance to cover with a 4.6% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

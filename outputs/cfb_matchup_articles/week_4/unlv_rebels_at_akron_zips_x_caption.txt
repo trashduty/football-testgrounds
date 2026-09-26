@@ -1,6 +1,6 @@
 Our model is 2.5 points away from the market on UNLV-Akron.
 
-We make UNLV -16. The market is -13.5.
+We make UNLV -15.5. The market is -13.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

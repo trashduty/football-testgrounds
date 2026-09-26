@@ -6,18 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wake Forest Demon Deacons | +13.5 (-105) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Louisville Cardinals | -13.5 (-110) | BetMGM | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wake Forest Demon Deacons | +12.5 (-105) | DraftKings | 50.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisville Cardinals | -12.5 (-110) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wake Forest Demon Deacons visit the Louisville Cardinals at L&N Federal Credit Union Stadium. We make **Wake Forest +14**, compared with a market line of +13.5.
+The Wake Forest Demon Deacons visit the Louisville Cardinals at L&N Federal Credit Union Stadium. We make **Wake Forest +13.5**, compared with a market line of +13.
 
-The best number we found is Wake Forest +13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wake Forest +12.5 at -105. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our view differs from the market only at the margin, and Louisville’s defense explains why we are not more aggressive on Wake Forest. The Cardinals hold the better efficiency profile against both the pass and run, while their ability to prevent scoring opportunities is a particular concern. Wake Forest has converted nine of 10 red-zone trips through two games, but we do not assume that early rate will carry over against a defense that has been much better at keeping opponents from creating those chances.
+We understand the case for Wake Forest: Gio Lopez has opened the season with 575 passing yards, four touchdowns and no interceptions while adding 98 yards and two scores on the ground. Wake Forest has yet to commit a turnover, and Carlos Hernandez has produced 253 receiving yards. Still, we are not treating two clean offensive performances as proof that the underlying matchup is favorable.
 
-The case for Wake Forest staying competitive starts with Gio Lopez. He has produced 575 passing yards without an interception while adding 98 yards and two touchdowns on the ground, and Carlos Hernandez already has 253 receiving yards. That gives Wake Forest multiple ways to extend drives, but the other side of the ball limits our confidence: opponents have converted 13 of 27 third downs and scored on every red-zone possession against the Deacons. For us, the market is close enough to our underlying expectation that those competing factors do not create sufficient value at the available price, so we pass.
+Our longer-run numbers give Louisville the advantage against both the run and the pass, with an even clearer edge in preventing scoring opportunities. Wake Forest also allowed Purdue to throw for 329 yards and produce a 114-yard, three-touchdown rusher, while opponents have scored on every red-zone possession through two games. For us, those concerns offset the appeal of Lopez and the early offensive production. Our view is close enough to the market that the available price does not create sufficient value, so we pass.
 
 ### What The Numbers Say
 
@@ -34,7 +34,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#83</td>
+<td>#81</td>
 <td class="btb-better">#59</td>
 </tr>
 <tr>
@@ -55,11 +55,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#45</td>
-<td>#63</td>
+<td>#64</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#65</td>
+<td>#64</td>
 <td class="btb-better">#22</td>
 </tr>
 </tbody>
@@ -69,11 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Wake Forest’s scoring-opportunity creation against Louisville’s ability to prevent it. The Deacons’ early red-zone results are encouraging, but Louisville owns the stronger longer-run profile in that phase. The question is whether Lopez’s mobility and connection with Hernandez can produce enough sustained drives against a defense with advantages across the broader efficiency metrics.
+We are watching Lopez and Wake Forest's passing game against Louisville's pass defense. Lopez's mobility and his connection with Hernandez give Wake Forest ways to extend possessions, but our efficiency numbers favor Louisville on this side of the ball. The question is whether Wake Forest can turn drives into touchdowns against a defense our numbers rate well in scoring-opportunity prevention; that matchup is central to whether Wake Forest can stay inside the market's expectation.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

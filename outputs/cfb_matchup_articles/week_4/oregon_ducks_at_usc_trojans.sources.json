@@ -2,19 +2,19 @@
   "game": "Oregon Ducks@USC Trojans",
   "season": 2026,
   "week": 4,
-  "generated_at_utc": "2026-09-25T15:02:59.471944+00:00",
-  "model_prediction": 1.5,
-  "market_line": 3.0,
-  "best_line": 2.5,
-  "best_price": "100",
+  "generated_at_utc": "2026-09-26T13:20:31.690924+00:00",
+  "model_prediction": 2.0,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-114",
   "best_book": "FanDuel",
-  "cover_probability": 0.50992485,
-  "edge": 0.0099248499999999,
+  "cover_probability": 0.54479878,
+  "edge": 0.0120884996261683,
   "bet_short": "USC",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our disagreement with the market is modest. We think it is asking Oregon to create more separation than USC\u2019s passing game may allow. Jayden Maiava has completed 75.7% of his passes with 12 touchdowns and one interception, while USC has converted 65% of its third downs. We also saw the offense produce 461 yards at 7.3 yards per play against Rutgers, although we are treating that as supporting context rather than proof of what happens here.\n\nThe concern for USC is the ground game on both sides. Our efficiency numbers give Oregon the clearer rushing matchup against USC\u2019s defense, while Oregon\u2019s run defense has a meaningful advantage over USC\u2019s rushing offense. That is especially relevant because USC managed only 1.9 yards per carry in last season\u2019s meeting, though we are not assuming that result simply repeats.\n\nFor us, the case for USC is primarily about Maiava and the passing offense keeping pace, not about a clean overall matchup. Oregon owns the more favorable trench profile, and that counterweight leaves too little separation between our expectation and the current price. We see the disagreement, but not enough value to turn it into a wager.",
-    "matchup_to_watch": "We are watching Oregon\u2019s rushing offense against USC\u2019s run defense. Our numbers identify this as Oregon\u2019s clearest advantage, and Jordon Davison has already produced 194 yards and four touchdowns on 33 carries. If Oregon consistently stays ahead of schedule on the ground, USC will have fewer opportunities to force Dante Moore into obvious passing situations.\n\nThat matters because Moore has thrown nine touchdowns without an interception through three games. We think USC\u2019s ability to limit early-down rushing efficiency is the best indicator of whether this remains close or shifts toward the market\u2019s expectation.",
+    "narrative": "Our numbers are somewhat more favorable to USC than the market, and for us the case is less about fading Oregon than respecting USC\u2019s ability to answer offensively. Jayden Maiava has completed 75.7% of his passes with 12 touchdowns and one interception, while USC has converted 65% of its third downs. That gives USC a credible path through the passing game even if Oregon limits its rushing efficiency.\n\nThe concern is Oregon\u2019s offense, especially on the ground. Our efficiency data identifies Oregon\u2019s rushing attack against USC\u2019s run defense as the clearest mismatch, and Jordon Davison has produced 194 yards and four touchdowns on 33 carries. Oregon has also thrown 12 touchdown passes without an interception, so USC cannot simply sell out against the run. We see enough offensive upside for USC to understand the model\u2019s disagreement, but not enough separation from the market to justify playing it at the current price.",
+    "matchup_to_watch": "We are watching USC\u2019s passing offense against Oregon\u2019s pass defense. Maiava\u2019s early efficiency is a major reason our view is relatively favorable to USC, but Oregon has intercepted five passes, held opposing quarterbacks to a 53.3% completion rate and allowed only a 22% third-down conversion rate. If USC sustains drives through the air without giving Oregon extra possessions, our projection becomes easier to support; if Oregon\u2019s coverage numbers hold, its advantage elsewhere becomes more difficult for USC to offset.",
     "guide_status": [
       "Found guide for Oregon Ducks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon.pdf",
       "Loaded guide for Oregon Ducks: Oregon.pdf",
@@ -26,7 +26,7 @@
         "source_team": "Oregon Ducks",
         "opponent": "USC Trojans",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide is labeled for Game 4 at USC and lists Oregon's Sept. 26, 2026 road game against the Trojans at the Los Angeles Memorial Coliseum.",
+        "document_match_reason": "The guide is labeled for Game 4 at USC and lists Oregon's September 26, 2026 road game against the Trojans at the L.A. Memorial Coliseum.",
         "recent_game": [
           {
             "fact": "Oregon defeated Portland State 84-0 in Week 3, setting modern-era program records for points and margin of victory.",
@@ -35,26 +35,20 @@
             "importance": "high"
           },
           {
-            "fact": "Oregon produced 740 total yards against Portland State, including 451 passing and 289 rushing, and scored touchdowns on 12 of 13 drives.",
+            "fact": "Oregon produced 740 total yards against Portland State, including 451 passing and 289 rushing, and scored touchdowns on 12 of 13 offensive drives.",
             "page": 12,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Oregon's defense held Portland State to 103 total yards and two rushing yards while recording the program's 15th shutout.",
-            "page": 8,
+            "fact": "Oregon set single-game program records against Portland State with 12 touchdowns, 43 first downs and 25 passing first downs, while tying the record with seven passing touchdowns.",
+            "page": 12,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Ten Oregon players scored touchdowns against Portland State, and 14 players caught at least one pass.",
+            "fact": "Oregon held Portland State to 103 total yards and two rushing yards while recording the program's 15th shutout.",
             "page": 8,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Oregon lost its most recent road game 39-31 at Oklahoma State in Week 2; the loss ended a 12-game road winning streak.",
-            "page": 9,
             "category": "recent_game",
             "importance": "high"
           }
@@ -67,13 +61,13 @@
             "importance": "high"
           },
           {
-            "fact": "Oregon defeated No. 15 USC 42-27 in Eugene on Nov. 22, 2025 after scoring four first-half touchdowns and leading 28-14 at halftime.",
+            "fact": "Oregon defeated No. 15 USC 42-27 in Eugene in 2025 after scoring four first-half touchdowns and leading 28-14 at halftime.",
             "page": 8,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "In the 2025 win over USC, Dante Moore passed for 257 yards and two touchdowns, while Noah Whittington rushed for 104 yards.",
+            "fact": "Dante Moore threw for 257 yards and two touchdowns in Oregon's 2025 victory over USC.",
             "page": 8,
             "category": "opponent_notes",
             "importance": "medium"
@@ -93,13 +87,13 @@
             "importance": "high"
           },
           {
-            "fact": "Moore completed 14 of 29 passes for 191 yards and two touchdowns without an interception in the road loss at Oklahoma State.",
+            "fact": "In Oregon's road loss at Oklahoma State, Moore completed 14 of 29 passes for 191 yards, two touchdowns and no interceptions.",
             "page": 14,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Backup quarterback Dylan Raiola, a transfer who started all 22 games he played at Nebraska, completed all 11 of his passes for 124 yards and three touchdowns in his Oregon debut against Portland State.",
+            "fact": "Backup quarterback Dylan Raiola, a transfer who started 22 games at Nebraska, completed all 11 of his attempts for 124 yards and three touchdowns in his Oregon debut against Portland State.",
             "page": 16,
             "category": "quarterback",
             "importance": "medium"
@@ -107,37 +101,37 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Running back Jordon Davison leads Oregon with 194 rushing yards and four touchdowns on 33 carries, scoring in each of the first three games.",
+            "fact": "Running back Jordon Davison leads Oregon with 194 rushing yards and four touchdowns on 33 carries through three games, scoring in each contest.",
             "page": 15,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Running back Dierre Hill Jr. has 121 rushing yards and one touchdown on 27 carries plus eight receptions for 64 yards.",
+            "fact": "Running back Dierre Hill Jr. has 121 rushing yards and one touchdown on 27 carries, plus eight receptions for 64 yards.",
             "page": 15,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Wide receiver Evan Stewart has returned after missing the entire 2025 season and leads Oregon through three games with 15 receptions and 222 yards, with two touchdowns.",
+            "fact": "Wide receiver Evan Stewart leads Oregon with 15 receptions and 222 receiving yards and has scored two touchdowns through three games.",
             "page": 15,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Dakorien Moore has 11 receptions for 192 yards and a team-high three receiving touchdowns, scoring in all three games.",
+            "fact": "Wide receiver Dakorien Moore has 11 receptions for 192 yards and a team-high three receiving touchdowns, with one touchdown of at least 35 yards in each game.",
             "page": 15,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Freshman wide receiver Messiah Hampton has nine catches for 102 yards and two touchdowns, including six catches for 71 yards and both scores against Portland State.",
+            "fact": "Freshman wide receiver Messiah Hampton has nine receptions for 102 yards and two touchdowns, including six catches for 71 yards and both scores against Portland State.",
             "page": 16,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Tight end Andrew Olesh started the last two games in Jamari Johnson's absence, and freshman tight end Kendre Harrison made his first career start against Portland State.",
+            "fact": "Tight end Andrew Olesh started Oregon's last two games in Jamari Johnson's absence, and freshman tight end Kendre Harrison made his first career start against Portland State.",
             "page": 16,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -146,7 +140,7 @@
             "fact": "True freshman offensive lineman Immanuel Iheanacho has played in each of Oregon's first three games.",
             "page": 9,
             "category": "offensive_personnel",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "defensive_personnel": [
@@ -169,7 +163,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Linebacker Devon Jackson returned an interception 96 yards for a touchdown at Oklahoma State.",
+            "fact": "Transfer defensive back Koi Perich recorded a team-high 11 tackles in his Oregon debut against Boise State.",
             "page": 9,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -177,7 +171,7 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Drew Mehringer is in his first season as Oregon's primary offensive coordinator and play caller after serving as a co-coordinator in 2025; he works from the booth.",
+            "fact": "Drew Mehringer is in his first season as Oregon's primary offensive coordinator and play caller after serving as a co-coordinator in 2025; he works from the booth during games.",
             "page": 6,
             "category": "coaching_changes",
             "importance": "high"
@@ -195,7 +189,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Oregon promoted Koa Ka'ai to quarterbacks coach and Kam Araghi to edge coach for 2026; both have been on Dan Lanning's staff since 2022.",
+            "fact": "Oregon promoted Koa Ka'ai to quarterbacks coach and Kam Araghi to edge coach for 2026.",
             "page": 9,
             "category": "coaching_changes",
             "importance": "medium"
@@ -209,13 +203,13 @@
             "importance": "high"
           },
           {
-            "fact": "Tight end Jamari Johnson missed the Oklahoma State and Portland State games due to injury.",
+            "fact": "Tight end Jamari Johnson missed Oregon's games against Oklahoma State and Portland State due to injury.",
             "page": 16,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Evan Stewart has played in all three games after missing the entire 2025 season due to injury.",
+            "fact": "Wide receiver Evan Stewart returned in 2026 after missing the entire 2025 season due to injury and has played in all three games.",
             "page": 15,
             "category": "injury_availability",
             "importance": "high"
@@ -223,25 +217,31 @@
         ],
         "offensive_context": [
           {
-            "fact": "Oregon enters Big Ten play averaging 49.7 points, 340.0 passing yards and 506.0 total yards per game.",
+            "fact": "Through three games, Oregon averages 49.7 points, 340.0 passing yards and 506.0 total yards per game.",
             "page": 12,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Oregon has scored on all 14 red-zone possessions in 2026 and has touchdowns on 13 of those opportunities.",
+            "fact": "Oregon has scored on all 14 red-zone possessions in 2026, including touchdowns on 13 of 14 opportunities.",
             "page": 12,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Oregon has thrown 12 touchdown passes without an interception through three games.",
+            "fact": "Oregon has 21 offensive plays of at least 20 yards through three games, including 18 passes of at least 20 yards.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon has thrown 12 touchdown passes and no interceptions through its first three games.",
             "page": 12,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Oregon has generated 21 plays of at least 20 yards through three games.",
+            "fact": "Twelve different Oregon offensive players have scored touchdowns in 2026, including eight receivers and four rushers.",
             "page": 12,
             "category": "offensive_context",
             "importance": "medium"
@@ -249,22 +249,16 @@
         ],
         "defensive_context": [
           {
-            "fact": "Oregon is 2-0 in 2026 when holding opponents below 300 total yards and 0-1 when allowing at least 400 yards.",
-            "page": 7,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Oregon is 2-0 in 2026 when allowing fewer than 100 rushing yards and 0-1 when allowing at least 200 rushing yards.",
-            "page": 7,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Oregon forced four turnovers against Portland State, including three by Jett Washington.",
-            "page": 9,
+            "fact": "Oregon's defense recorded four takeaways, allowed 103 total yards and held Portland State to two rushing yards in Week 3.",
+            "page": 8,
             "category": "defensive_context",
             "importance": "high"
+          },
+          {
+            "fact": "Oregon has held each of its two defeated opponents below 300 total yards but allowed at least 400 total yards in its loss at Oklahoma State.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
           }
         ],
         "special_teams": [
@@ -273,35 +267,35 @@
             "page": 9,
             "category": "special_teams",
             "importance": "medium"
-          },
-          {
-            "fact": "Oregon took the lead for good against USC in 2025 on Malik Benson's 85-yard punt-return touchdown.",
-            "page": 8,
-            "category": "special_teams",
-            "importance": "low"
           }
         ],
         "series_context": [
           {
-            "fact": "Oregon has won four consecutive games against USC, six of the last seven and eight of the last 10.",
+            "fact": "Oregon has won four consecutive games against USC, including six of the last seven and eight of the last 10 meetings.",
             "page": 1,
             "category": "series_context",
             "importance": "high"
+          },
+          {
+            "fact": "Oregon has won its last two meetings with USC in Los Angeles, defeating the Trojans 56-24 in 2019 and 31-24 in the 2020 Pac-12 Championship Game.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
           },
           {
             "fact": "USC leads the all-time series 38-24-2 and holds a 24-9-1 advantage in Los Angeles.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
-          },
-          {
-            "fact": "Oregon has won its last two games against USC in Los Angeles: 56-24 in the 2019 regular season and 31-24 in the 2020 Pac-12 Championship Game.",
-            "page": 2,
-            "category": "series_context",
-            "importance": "medium"
           }
         ],
         "other_relevant": [
+          {
+            "fact": "Oregon enters its Big Ten opener 2-1 overall and ranked No. 20 in the AP poll and No. 16 in the Coaches poll.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
           {
             "fact": "Oregon is 9-0 in Big Ten road games since joining the conference.",
             "page": 1,
@@ -309,16 +303,10 @@
             "importance": "high"
           },
           {
-            "fact": "Oregon is 18-3 overall on the road and 16-2 in road conference games under Dan Lanning.",
-            "page": 7,
+            "fact": "Oregon lost 39-31 at Oklahoma State in Week 2, ending a 12-game road winning streak.",
+            "page": 9,
             "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "This is Oregon's first regular-season game at the Los Angeles Memorial Coliseum since 2019.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "source_file": "Oregon.pdf"
@@ -327,7 +315,7 @@
         "source_team": "USC Trojans",
         "opponent": "Oregon Ducks",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide was released Sept. 21, 2026 and explicitly previews USC hosting Oregon on Sept. 26, 2026 in USC's Big Ten home opener at the Los Angeles Memorial Coliseum.",
+        "document_match_reason": "The USC-issued notes were released Sept. 21, 2026 for USC's Sept. 26 home game against Oregon, explicitly identified as USC's Big Ten home opener. The document labels it Game 5 because USC has already played four games, despite the request identifying Week 4.",
         "recent_game": [
           {
             "fact": "USC improved to 4-0 overall and 1-0 in Big Ten play with a 42-35 road victory over Rutgers.",
@@ -342,19 +330,13 @@
             "importance": "high"
           },
           {
-            "fact": "USC scored four offensive touchdowns, one defensive touchdown and two field goals against Rutgers.",
+            "fact": "USC scored four offensive touchdowns, one defensive touchdown and two field goals against Rutgers while converting 5-of-10 third downs.",
             "page": 1,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "USC converted 5-of-10 third downs against Rutgers, including 2-of-3 in the fourth quarter, and punted only once.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "USC intercepted two Rutgers passes, returned them for 115 total yards and scored 14 points off the two turnovers.",
+            "fact": "USC intercepted two Rutgers passes, returned them for 115 yards and scored 14 points off the two turnovers.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -362,7 +344,7 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Oregon enters the matchup 2-1 after defeating Boise State 34-27 and Portland State 84-0 and losing 39-31 at Oklahoma State.",
+            "fact": "Oregon enters the game 2-1 after defeating Boise State 34-27 and Portland State 84-0 and losing 39-31 at Oklahoma State.",
             "page": 9,
             "category": "opponent_notes",
             "importance": "high"
@@ -398,31 +380,13 @@
             "importance": "high"
           },
           {
-            "fact": "Oregon running back Jordon Davison has 194 rushing yards and four touchdowns on 33 carries, averaging 5.9 yards per attempt.",
+            "fact": "Oregon running back Jordon Davison has 194 rushing yards and four touchdowns on 33 carries, an average of 5.9 yards per attempt.",
             "page": 9,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Oregon is averaging 160.7 rushing yards per game and 4.5 yards per carry but has allowed seven sacks in three games.",
-            "page": 9,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Oregon's defense is allowing 22.0 points and 310.3 yards per game, including 110.7 rushing yards per game at 3.6 yards per carry.",
-            "page": 9,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Oregon has held opponents to nine conversions on 41 third-down attempts, a 22.0% conversion rate.",
-            "page": 9,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Oregon has intercepted five passes while holding opposing quarterbacks to a 53.3% completion rate.",
+            "fact": "Oregon is averaging 160.7 rushing yards per game and 4.5 yards per carry but has allowed seven sacks through three games.",
             "page": 9,
             "category": "opponent_notes",
             "importance": "high"
@@ -442,36 +406,42 @@
             "importance": "high"
           },
           {
-            "fact": "Maiava completed passes to nine Trojans against Rutgers and went 5-of-6 for 35 yards and a touchdown in the fourth quarter.",
+            "fact": "Maiava completed passes to nine Trojans against Rutgers, including a 52-yard touchdown to Corey Simms and a 2-yard touchdown to Riley Wormley.",
             "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Maiava is 87-of-115 passing for 1,173 yards, 12 touchdowns and one interception, with a 75.7% completion rate and 194.0 efficiency rating.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Maiava leads the nation in passing yards with 1,173, passing touchdowns with 12 and points responsible for with 80.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Maiava started all 13 games for USC in 2025 and entered 2026 with 31 career starts.",
+            "page": 18,
             "category": "quarterback",
             "importance": "medium"
-          },
-          {
-            "fact": "Through four games, Maiava has completed 87-of-115 passes for 1,173 yards, 12 touchdowns and one interception, with a 75.7% completion rate and 194.0 efficiency rating.",
-            "page": 2,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Maiava leads the nation in passing yards, passing touchdowns and points responsible for through four games.",
-            "page": 2,
-            "category": "quarterback",
-            "importance": "high"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Wide receiver Kayden Dixon-Wyatt leads USC through four games with 18 receptions and 258 receiving yards and has two touchdown catches.",
+            "fact": "Kayden Dixon-Wyatt led USC against Rutgers with five receptions for 77 yards and leads the team this season with 18 catches for 258 yards and two touchdowns.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Corey Simms caught all four of his targets for a career-high 72 yards and his first collegiate touchdown against Rutgers, including a 52-yard score on third-and-14.",
+            "fact": "Corey Simms caught all four of his targets against Rutgers for a career-high 72 yards and his first collegiate touchdown, a 52-yard score on third-and-14.",
             "page": 4,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
             "fact": "Freshman tight end Mark Bowman caught three passes for 32 yards against Rutgers.",
@@ -480,7 +450,13 @@
             "importance": "medium"
           },
           {
-            "fact": "Running back King Miller rushed for 102 yards and a touchdown on 16 carries against Rutgers, his second consecutive 100-yard game.",
+            "fact": "Riley Wormley produced 54 yards from scrimmage and a career-high two touchdowns on four touches against Rutgers, including 52 rushing yards on three carries.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "King Miller rushed for 102 yards and a touchdown on 16 carries against Rutgers, his second consecutive 100-yard rushing game.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
@@ -492,79 +468,72 @@
             "importance": "high"
           },
           {
-            "fact": "Redshirt freshman running back Riley Wormley produced 54 yards from scrimmage and two touchdowns on four touches against Rutgers, including 52 rushing yards on three carries.",
-            "page": 5,
+            "fact": "USC's offensive line allowed one sack against Rutgers while helping the offense average 5.9 yards per carry; Trojan running backs gained 180 yards and two touchdowns on 27 carries without a negative rushing attempt.",
+            "page": 6,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Five true freshmen started USC's season opener: wide receivers Kayden Dixon-Wyatt, Trent Mosley and Tron Baker, tight end Mark Bowman and defensive end Luke Wafle.",
-            "page": 18,
+            "fact": "Offensive lineman Tobias Raymond has started at every offensive-line position except right guard.",
+            "page": 6,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Safety Prophet Brown returned an interception 99 yards for a touchdown against Rutgers, providing the decisive points in USC's seven-point victory.",
+            "fact": "Safety Prophet Brown intercepted a pass at USC's 1-yard line and returned it 99 yards for the decisive touchdown against Rutgers.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Safety Christian Pierce recorded a game-high 11 tackles, one interception and two pass breakups against Rutgers; USC scored two plays after his interception.",
+            "fact": "Safety Christian Pierce recorded a game-high 11 tackles, one interception and two pass breakups against Rutgers; USC scored two plays after his 16-yard interception return.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Linebacker Deven Bryant recorded eight tackles against Rutgers and leads USC with 20 tackles through four games.",
+            "fact": "Linebacker Deven Bryant leads USC with 20 tackles and has increased his tackle total in every game, finishing with eight against Rutgers.",
             "page": 7,
             "category": "defensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Defensive end Kameryn Crawford made six tackles and shared USC's lone sack against Rutgers with linebacker Desman Stephens II.",
+            "fact": "Defensive end Kameryn Crawford made six tackles and shared USC's only sack against Rutgers with linebacker Desman Stephens II.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Defensive end Luke Wafle recorded four tackles against Rutgers and was involved against the run.",
-            "page": 6,
+            "fact": "Oregon defensive back Koi Perich leads the Ducks with 16 tackles, followed by former USC defensive lineman Bear Alexander with 15.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon defensive back Jett Washington has two interceptions, and linebacker Devon Jackson has returned an interception 96 yards for a touchdown.",
+            "page": 9,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
-        "coaching_changes": [
-          {
-            "fact": "USC hired Gary Patterson to lead its defense; an opposing coach's quoted assessment identifies Patterson with the 4-2-5 defense.",
-            "page": 6,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Luke Huard is USC's offensive coordinator and quarterbacks coach.",
-            "page": 2,
-            "category": "coaching_changes",
-            "importance": "medium"
-          }
-        ],
+        "coaching_changes": [],
         "injury_availability": [
           {
-            "fact": "Safety Prophet Brown missed the entire 2025 season after suffering a season-ending injury in fall camp and has returned to play in 2026.",
+            "fact": "Prophet Brown missed the entire 2025 season because of a season-ending injury suffered during fall camp and has returned to play in 2026.",
             "page": 6,
             "category": "injury_availability",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Kicker Caden Chittenden missed the entire 2025 season with a season-ending injury suffered during fall camp and handled USC's place-kicking duties against Rutgers.",
+            "fact": "Kicker Caden Chittenden missed the entire 2025 season because of a season-ending fall-camp injury and handled USC's place-kicking duties for the first time against Rutgers.",
             "page": 7,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Tanook Hines returned from injury against Fresno State and has played in USC's subsequent games, including making three catches for 33 yards against Rutgers.",
+            "fact": "Wide receiver Tanook Hines returned from injury against Fresno State and has played in USC's subsequent games, including catching three passes for 33 yards against Rutgers.",
             "page": 17,
             "category": "injury_availability",
             "importance": "medium"
@@ -572,13 +541,19 @@
         ],
         "offensive_context": [
           {
-            "fact": "USC is averaging 43.0 points, 500.3 total yards, 324.8 passing yards and 175.5 rushing yards per game through four games.",
+            "fact": "USC has scored 172 points through four games, an average of 43.0 per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "USC is averaging 500.3 total yards per game, including 324.8 passing yards and 175.5 rushing yards.",
             "page": 9,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "USC has converted 30-of-46 third downs, a 65% rate, through four games.",
+            "fact": "USC has converted 30-of-46 third downs, a 65% success rate.",
             "page": 9,
             "category": "offensive_context",
             "importance": "high"
@@ -590,51 +565,45 @@
             "importance": "high"
           },
           {
-            "fact": "USC has led at halftime in every game and has outscored its opponents 106-24 in the first half.",
+            "fact": "USC has led at halftime in every game and has outscored opponents 106-24 in the first half.",
             "page": 1,
             "category": "offensive_context",
             "importance": "high"
-          },
-          {
-            "fact": "Against Rutgers, USC's offensive line helped the Trojans average 5.9 yards per carry and allowed one sack; USC running backs gained 180 yards and two touchdowns on 27 carries without a negative rushing attempt.",
-            "page": 6,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Offensive lineman Tobias Raymond has started at every offensive-line position except right guard.",
-            "page": 6,
-            "category": "offensive_context",
-            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "USC is allowing 22.8 points, 317.5 total yards, 203.8 passing yards and 113.8 rushing yards per game through four games.",
+            "fact": "USC is allowing 317.5 total yards per game, including 113.8 rushing yards and 203.8 passing yards.",
             "page": 9,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "USC has recorded eight sacks and three interceptions through four games.",
+            "fact": "USC has recorded eight sacks through four games while allowing opponents to convert 16-of-42 third downs, a 38% rate.",
             "page": 9,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "USC has allowed only 24 first-half points through four games, an average of six per game.",
-            "page": 7,
+            "fact": "Oregon's defense is allowing 310.3 yards and 22.0 points per game, including 110.7 rushing yards per game and 3.6 yards per carry.",
+            "page": 9,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Opponents have converted 16-of-42 third downs against USC, a 38% rate.",
+            "fact": "Oregon has limited opponents to nine conversions in 41 third-down attempts, a 22.0% conversion rate.",
             "page": 9,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "USC has allowed touchdowns on nine of 13 opponent red-zone possessions.",
+            "fact": "Oregon has intercepted five passes and held opposing quarterbacks to a 53.3% completion rate.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon has recorded four sacks through three games.",
             "page": 9,
             "category": "defensive_context",
             "importance": "medium"
@@ -642,19 +611,19 @@
         ],
         "special_teams": [
           {
-            "fact": "Caden Chittenden converted field goals of 35 and 32 yards and all four PATs against Rutgers in his first game handling USC's place-kicking duties.",
+            "fact": "Caden Chittenden made field goals of 35 and 32 yards and all four PAT attempts against Rutgers in his first game as USC's place-kicker.",
             "page": 7,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Chittenden is 2-for-2 on field goals and 22-for-22 on PATs this season.",
+            "fact": "Chittenden is 2-for-2 on field goals and 22-for-22 on PAT attempts this season.",
             "page": 7,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Lachlan Carrigan's only punt against Rutgers traveled 56 yards and was downed at the Rutgers 5-yard line; USC has punted exactly once in each game.",
+            "fact": "USC punter Lachlan Carrigan's only punt against Rutgers traveled 56 yards and was downed at the Rutgers 5-yard line; USC has punted exactly once in each game.",
             "page": 7,
             "category": "special_teams",
             "importance": "medium"
@@ -666,7 +635,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Oregon kicker Gage Hurych is 3-for-3 on field goals with a long of 44 yards and 14-for-14 on PATs.",
+            "fact": "Oregon kicker Gage Hurych is 3-for-3 on field goals with a long of 44 yards and 14-for-14 on PAT attempts.",
             "page": 9,
             "category": "special_teams",
             "importance": "medium"
@@ -677,10 +646,10 @@
             "fact": "USC leads the all-time series with Oregon 38-24-2, excluding one vacated USC victory.",
             "page": 7,
             "category": "series_context",
-            "importance": "low"
+            "importance": "medium"
           },
           {
-            "fact": "Oregon defeated USC 42-27 in Eugene on Nov. 22, 2025.",
+            "fact": "Oregon defeated USC 42-27 at Autzen Stadium on Nov. 22, 2025.",
             "page": 5,
             "category": "series_context",
             "importance": "high"
@@ -695,24 +664,24 @@
             "fact": "Oregon returned a USC punt 85 yards for a touchdown in the 2025 meeting.",
             "page": 5,
             "category": "series_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "other_relevant": [
           {
-            "fact": "USC is ranked No. 12 in both the AP and coaches polls; Oregon is No. 20 in the AP poll and No. 16 in the coaches poll.",
+            "fact": "The Sept. 26 game is USC's Big Ten home opener at the Los Angeles Memorial Coliseum.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "USC is ranked No. 12 in both the AP and Coaches polls; Oregon is No. 20 in the AP poll and No. 16 in the Coaches poll.",
             "page": 7,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "The Oregon game is USC's 2026 Big Ten home opener.",
-            "page": 13,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Oregon defensive tackle Bear Alexander previously played for USC in 2024, appearing in three games and recording five tackles.",
+            "fact": "Oregon defensive lineman Bear Alexander played for USC in 2024, appearing in three games and recording five tackles.",
             "page": 7,
             "category": "other_relevant",
             "importance": "low"
@@ -727,11 +696,11 @@
         "off_team": "Oregon",
         "def_team": "USC",
         "off_rank": 9,
-        "def_rank": 95,
+        "def_rank": 94,
         "stat": "rush EPA",
-        "rank_gap": 86,
+        "rank_gap": 85,
         "direction": "offense_advantage",
-        "matchup_score": 186
+        "matchup_score": 185
       },
       {
         "dimension": "USC rushing offense vs Oregon rush defense",
@@ -748,8 +717,8 @@
         "dimension": "Oregon passing offense vs USC pass defense",
         "off_team": "Oregon",
         "def_team": "USC",
-        "off_rank": 30,
-        "def_rank": 45,
+        "off_rank": 31,
+        "def_rank": 46,
         "stat": "pass EPA",
         "rank_gap": 15,
         "direction": "mixed",
@@ -758,26 +727,26 @@
     ],
     "used_sources": [
       {
-        "fact_id": 13,
-        "fact": "Running back Jordon Davison leads Oregon with 194 rushing yards and four touchdowns on 33 carries, scoring in each of the first three games.",
-        "page": 15,
-        "category": "offensive_personnel",
+        "fact_id": 33,
+        "fact": "Oregon has thrown 12 touchdown passes and no interceptions through its first three games.",
+        "page": 12,
+        "category": "offensive_context",
         "importance": "high",
         "source_file": "Oregon.pdf",
         "source_team": "Oregon Ducks"
       },
       {
-        "fact_id": 47,
-        "fact": "USC never trailed against Rutgers and produced 461 total yards at 7.3 yards per play, including 5.9 yards per rush and 8.7 yards per pass attempt.",
-        "page": 1,
-        "category": "recent_game",
+        "fact_id": 54,
+        "fact": "Oregon running back Jordon Davison has 194 rushing yards and four touchdowns on 33 carries, an average of 5.9 yards per attempt.",
+        "page": 9,
+        "category": "opponent_notes",
         "importance": "high",
         "source_file": "USC.pdf",
         "source_team": "USC Trojans"
       },
       {
-        "fact_id": 65,
-        "fact": "Through four games, Maiava has completed 87-of-115 passes for 1,173 yards, 12 touchdowns and one interception, with a 75.7% completion rate and 194.0 efficiency rating.",
+        "fact_id": 59,
+        "fact": "Through four games, Maiava is 87-of-115 passing for 1,173 yards, 12 touchdowns and one interception, with a 75.7% completion rate and 194.0 efficiency rating.",
         "page": 2,
         "category": "quarterback",
         "importance": "high",
@@ -785,8 +754,8 @@
         "source_team": "USC Trojans"
       },
       {
-        "fact_id": 85,
-        "fact": "USC has converted 30-of-46 third downs, a 65% rate, through four games.",
+        "fact_id": 81,
+        "fact": "USC has converted 30-of-46 third downs, a 65% success rate.",
         "page": 9,
         "category": "offensive_context",
         "importance": "high",
@@ -794,10 +763,19 @@
         "source_team": "USC Trojans"
       },
       {
-        "fact_id": 102,
-        "fact": "In the 2025 meeting, Jayden Maiava passed for 311 yards and three touchdowns but threw two interceptions, while USC averaged 1.9 yards per rushing attempt.",
-        "page": 5,
-        "category": "series_context",
+        "fact_id": 87,
+        "fact": "Oregon has limited opponents to nine conversions in 41 third-down attempts, a 22.0% conversion rate.",
+        "page": 9,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 88,
+        "fact": "Oregon has intercepted five passes and held opposing quarterbacks to a 53.3% completion rate.",
+        "page": 9,
+        "category": "defensive_context",
         "importance": "high",
         "source_file": "USC.pdf",
         "source_team": "USC Trojans"
@@ -808,12 +786,12 @@
       "model_side": "USC",
       "opponent_full": "Oregon Ducks",
       "opponent": "Oregon",
-      "model_prediction": 1.5,
-      "market_line": 3.0,
-      "best_available_line": 2.5,
-      "best_available_price": "100",
-      "cover_probability": 0.50992485,
-      "edge": 0.0099248499999999,
+      "model_prediction": 2.0,
+      "market_line": 3.5,
+      "best_available_line": 3.5,
+      "best_available_price": "-114",
+      "cover_probability": 0.54479878,
+      "edge": 0.0120884996261683,
       "bet_status": "PASS"
     }
   }

@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Hawaii Rainbow Warriors | -2.5 (-110) | BetMGM | 45.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wyoming Cowboys | +2.5 (-104) | FanDuel | 54.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Wyoming Cowboys | +2.5 (-102) | FanDuel | 54.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Hawaii Rainbow Warriors visit the Wyoming Cowboys at War Memorial Stadium. We make **Wyoming 0**, compared with a market line of +2.5.
 
-The best number we found is Wyoming +2.5 at -104. We give Wyoming a 54.2% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Wyoming is a bet.
+The best number we found is Wyoming +2.5 at -102. We give Wyoming a 54.2% chance to cover, which creates an 3.7% edge for us. That clears our 3% threshold, so Wyoming is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,33 +32,33 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#125</td>
+<td>#126</td>
 <td class="btb-better">#48</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#97</td>
-<td>#122</td>
+<td>#121</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#35</td>
+<td class="btb-better">#36</td>
 <td>#64</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#57</td>
-<td>#86</td>
+<td>#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#137</td>
-<td class="btb-better">#72</td>
+<td class="btb-better">#73</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#42</td>
-<td>#50</td>
+<td class="btb-better">#40</td>
+<td>#49</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

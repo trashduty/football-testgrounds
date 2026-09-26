@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ball State Cardinals | +3.5 (-113) | BetRivers | 58.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Kent State Golden Flashes | -2.5 (-120) | FanDuel | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ball State Cardinals | +2.5 (+100) | FanDuel | 54.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kent State Golden Flashes | -2.5 (-122) | FanDuel | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Ball State Cardinals visit the Kent State Golden Flashes at Dix Stadium. We make **Ball State -0.5**, compared with a market line of +3.
 
-The best number we found is Ball State +3.5 at -113. We give Ball State a 58.6% chance to cover, which creates an 5.5% edge for us. That clears our 3% threshold, so Ball State is a bet.
+The best number we found is Ball State +2.5 at +100. We give Ball State a 54.7% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Ball State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,17 +37,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#121</td>
-<td>#125</td>
+<td class="btb-better">#120</td>
+<td>#126</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#102</td>
-<td class="btb-better">#67</td>
+<td class="btb-better">#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#105</td>
+<td class="btb-better">#104</td>
 <td>#110</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

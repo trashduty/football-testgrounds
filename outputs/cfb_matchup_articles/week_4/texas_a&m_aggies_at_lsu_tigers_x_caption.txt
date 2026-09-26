@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Texas A&M-LSU.
 
-We make Texas A&M +10. The market is +9.5.
+We make Texas A&M +9. The market is +8.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

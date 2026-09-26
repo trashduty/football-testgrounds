@@ -6,18 +6,20 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Illinois Fighting Illini | +27.5 (-113) | BetRivers | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ohio State Buckeyes | -27.5 (-105) | DraftKings | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Illinois Fighting Illini | +27.5 (-113) | BetRivers | 54.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Ohio State Buckeyes | -26.5 (-110) | DraftKings | 46.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Illinois Fighting Illini visit the Ohio State Buckeyes at Ohio Stadium. We make **Illinois +26**, compared with a market line of +27.5.
+The Illinois Fighting Illini visit the Ohio State Buckeyes at Ohio Stadium. We make **Illinois +25**, compared with a market line of +26.5.
 
-The best number we found is Illinois +27.5 at -113. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Illinois +27.5 at -113. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our model is a little less aggressive on Ohio State than the market, but we understand why the price is so large. We see a top-tier Ohio State passing offense facing an Illinois pass defense that has struggled by pass EPA, while Illinois' rushing offense runs into one of the strongest rush defenses in our numbers. We also project a major Ohio State advantage in preventing scoring opportunities, which makes it difficult to build a strong underdog case around sustained Illinois drives.
+Our disagreement with the market is modest, and we are not dismissing Ohio State’s ability to create separation. We see substantial offensive continuity: Ohio State returned eight starters on that side of the ball and 85.8 percent of its offensive-line snaps from 2025. The 671-yard opener reinforces the upside of that group, but we are not treating one result against Ball State as proof that every opponent should be priced the same way.
 
-Where we retain some restraint is Ohio State's defensive turnover. We see only three returning defensive starters from 2025 after eight departed, so we are not simply carrying last season's dominant results forward without adjustment. At the same time, Ohio State returns eight offensive starters and entered 2026 with substantial offensive-line continuity. For us, the modest disagreement with the market is not enough because the matchup advantages still point heavily toward Ohio State, particularly when Illinois has the ball.
+The matchup profile also makes it difficult for us to support Illinois aggressively. Our numbers show a major advantage for Ohio State’s passing offense against the Illinois pass defense, while Illinois faces difficult paths both running the ball and creating scoring opportunities against Ohio State. Those are meaningful concerns when taking this many points because Illinois may struggle to sustain enough offense to stay within range.
+
+The counterweight in our view is turnover on the Ohio State defense. Only three defensive starters returned, with eight lost from the 2025 unit. We saw Ohio State hold Ball State to 165 yards in the opener, but that single performance does not fully resolve the uncertainty surrounding a reworked group. That helps explain why our model lands a little closer than the market, but the disagreement is not large enough for us at the available price.
 
 ### What The Numbers Say
 
@@ -35,12 +37,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#16</td>
-<td class="btb-better">#5</td>
+<td class="btb-better">#4</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#86</td>
-<td class="btb-better">#67</td>
+<td class="btb-better">#65</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -49,7 +51,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#69</td>
+<td>#68</td>
 <td class="btb-better">#3</td>
 </tr>
 <tr>
@@ -59,7 +61,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#45</td>
+<td>#44</td>
 <td class="btb-better">#1</td>
 </tr>
 </tbody>
@@ -69,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Ohio State's passing offense against the Illinois pass defense. Julian Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns in 2025, and Jeremiah Smith opened 2026 with eight catches for 151 yards and two touchdowns in the first half against Ball State. We do not treat one opener as proof of what happens here, but that established efficiency and receiving talent directly attack the weakest part of Illinois' statistical profile. If Illinois cannot limit explosive and efficient passing production, our slightly more conservative view of the margin will face immediate pressure.
+For us, the matchup to watch is Ohio State’s passing game against the Illinois secondary. Julian Sayin completed 77.0 percent of his passes for 3,610 yards and 32 touchdowns in 2025, and our efficiency numbers again rate this passing offense among the nation’s best. Illinois’ pass-defense profile is the clearest reason our lean toward the underdog does not become a wager.
+
+We also saw Jeremiah Smith catch eight passes for 151 yards and two touchdowns in the first half of the opener. We are not extrapolating that stat line directly, but it illustrates the explosive receiving threat Illinois must contain. If Ohio State consistently generates efficient early-down throws, the market’s expectation of a wide margin becomes much easier to justify.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **14 games** this week.
+Our model found edges of at least 3% on **15 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
