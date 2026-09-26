@@ -60,7 +60,7 @@ def load_kickoffs(week):
 
 
 def saturday_slot(now):
-    if now.hour not in range(9, 20) or (now.hour == 19 and now.minute >= 30):
+    if now.hour not in range(9, 23) or (now.hour >= 19 and now.minute >= 30):
         return None
     minute = 7 if now.minute < 30 else 37
     if now.minute < minute or now.minute >= minute + 20:
