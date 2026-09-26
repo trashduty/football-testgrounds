@@ -244,7 +244,7 @@ def main():
     if row is None:
         print(kind)
         return
-    print(f"{date} {hour}:00 ET | {kind} | {row['game']} | edge={row['edge']}")
+    print(f"{date} {slot if saturday else f'{hour}:00'} ET | {kind} | {row['game']} | edge={row['edge']}")
     if not args.publish:
         print('DRY RUN: no X API call and no ledger update')
         return
