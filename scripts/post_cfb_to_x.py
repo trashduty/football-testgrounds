@@ -20,7 +20,6 @@ ROOT = Path('outputs/cfb_matchup_articles')
 LEDGER = Path('outputs/cfb_x_posted.json')
 BET_HOUR = 12
 HOURS = tuple(range(9, 17))
-SATURDAY_BET_SLOTS = {'9:07', '9:37', '10:07', '10:37', '11:07'}
 SATURDAY_CSV = Path('trash-schedule/CFB_Odds/Data/spreads_odds.csv')
 
 
@@ -73,14 +72,18 @@ def select_saturday(manifest, ledger, season, week, now, slot, kickoffs):
     date = now.date().isoformat()
     if any(p['date'] == date and str(p['hour']) == slot for p in ledger['posts']):
         return None, 'This Saturday slot is already posted', None
-    want_bet = slot in SATURDAY_BET_SLOTS
-    kind = 'Bet' if want_bet else 'No Bet'
+    bets_today = sum(p['date'] == date and p['kind'] == 'Bet' for p in ledger['posts'])
+    # If an earlier run failed, use later slots to make up the five bet posts.
     # Keep a ten-minute margin before kickoff, including workflow delays.
-    candidates = [(r, kickoffs[r['game']]) for r in manifest['articles']
-                  if eligible(r, want_bet) and r.get('game') in kickoffs
-                  and kickoffs[r['game']] > now + timedelta(minutes=10)]
+    for want_bet in ((True, False) if bets_today < 5 else (False,)):
+        candidates = [(r, kickoffs[r['game']]) for r in manifest['articles']
+                      if eligible(r, want_bet) and r.get('game') in kickoffs
+                      and kickoffs[r['game']] > now + timedelta(minutes=10)]
+        if candidates:
+            break
     if not candidates:
         return None, 'No eligible pre-kickoff matchup', None
+    kind = 'Bet' if want_bet else 'No Bet'
     week_id = f'{season}-week-{week}'
     used = {p['game'] for p in ledger['posts'] if p['season_week'] == week_id}
     fresh = [(r, kickoff) for r, kickoff in candidates if r['game'] not in used]
