@@ -171,13 +171,12 @@ def build_post_text(row, kind, bet_count, kickoff=None, slot=None):
     model = (f"Our model makes {row['bet_short']} {format_line(row['model_prediction'])}; "
              f"market: {format_line(row['market_line'])}.")
     count = f"There are {bet_count} {'game' if bet_count == 1 else 'games'} this week that clear our 3% edge threshold."
-    link = 'Full list: https://btb-analytics.com'
     timing = (f"Kickoff {kickoff:%-I:%M%p} ET · {slot}"
               if kickoff is not None and slot else None)
-    parts = (title, model, verdict, timing, count, link) if timing else (title, model, verdict, count, link)
+    parts = (title, model, verdict, timing, count) if timing else (title, model, verdict, count)
     body = '\n\n'.join(p for p in parts if p)
     if len(body) > 280:
-        parts = (title, model, verdict, count, link)
+        parts = (title, model, verdict, count)
         body = '\n\n'.join(p for p in parts if p)
     if len(body) > 280:
         raise ValueError(f'X post exceeds 280 characters ({len(body)})')
