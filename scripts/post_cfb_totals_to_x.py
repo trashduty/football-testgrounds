@@ -218,7 +218,10 @@ def text_for(row, selection, kind, slot):
         verdict = f"NO BET: {selection['side']} price unavailable to verify a 3% edge."
     else:
         verdict = "NO BET: Does not meet our 3% edge threshold."
-    body = "\n\n".join((title, model, verdict, f"Kickoff {row['kickoff']:%-I:%M %p} ET"))
+    # A readable timestamp distinguishes intentional repeated no-bet posts.
+    posted_at = datetime.now(ET)
+    timing = f"Kickoff {row['kickoff']:%-I:%M %p} ET · Updated {posted_at:%-I:%M:%S %p} ET"
+    body = "\n\n".join((title, model, verdict, timing))
     if len(body) > 280:
         body = "\n\n".join((title, model, verdict))
     if len(body) > 280:
