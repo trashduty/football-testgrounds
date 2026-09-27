@@ -9,7 +9,12 @@ on:
   workflow_dispatch:
     inputs:
       publish:
-        description: 'Publish in the current totals slot (false previews)'
+        description: 'Publish now (false previews the current Eastern slot)'
+        type: boolean
+        required: true
+        default: false
+      test_now:
+        description: 'Post one no-bet total immediately, even outside schedule (requires publish)'
         type: boolean
         required: true
         default: false
@@ -49,7 +54,11 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
           if [[ '${{ github.event_name }}' == 'schedule' || '${{ inputs.publish }}' == 'true' ]]; then
-            python scripts/post_cfb_totals_to_x.py --publish
+            if [[ '${{ inputs.test_now }}' == 'true' ]]; then
+              python scripts/post_cfb_totals_to_x.py --publish --test-now
+            else
+              python scripts/post_cfb_totals_to_x.py --publish
+            fi
           else
             python scripts/post_cfb_totals_to_x.py
           fi
