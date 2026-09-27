@@ -115,7 +115,7 @@ def slot_now(now):
     return None
 
 
-def select(games, ledger, week, now, slot):
+def select(games, ledger, week, now, slot, force_no_bet=False):
     date = now.date().isoformat()
     if any(p["date"] == date and p["slot"] == slot for p in ledger["posts"]):
         return None, None, "This totals slot is already posted"
@@ -123,7 +123,7 @@ def select(games, ledger, week, now, slot):
     eligible = [(r, quote(r)) for r in games if r["kickoff"] > now + timedelta(minutes=10)]
     bets = [(r, q) for r, q in eligible if q["edge"] is not None and q["edge"] >= 0.03]
     no_bets = [(r, q) for r, q in eligible if q["edge"] is None or q["edge"] < 0.03]
-    pool = (bets if bets and not bet_posted else no_bets)
+    pool = no_bets if force_no_bet else (bets if bets and not bet_posted else no_bets)
     if not pool:
         return None, None, "No eligible pre-kickoff totals matchup"
     used = {p["game"] for p in ledger["posts"] if p["week"] == week}
@@ -267,14 +267,7 @@ def main():
         return
     week, games = source_rows()
     ledger = load_ledger()
-    selection_ledger = ledger
-    if args.test_now:
-        # A manual test always selects a no-bet and leaves scheduled slots free.
-        selection_ledger = {"posts": ledger["posts"] + [
-            {"date": now.date().isoformat(), "slot": slot, "week": week,
-             "game": "", "kind": "BET", "post_id": ""}
-        ]}
-    row, selection, kind = select(games, selection_ledger, week, now, slot)
+    row, selection, kind = select(games, ledger, week, now, slot, force_no_bet=args.test_now)
     if row is None:
         print(kind)
         return
