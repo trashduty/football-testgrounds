@@ -256,15 +256,25 @@ def publish(row, selection, kind, slot):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--publish", action="store_true", help="Post; omit to preview selection")
+    parser.add_argument("--test-now", action="store_true", help="Post one no-bet total immediately outside the schedule")
     args = parser.parse_args()
+    if args.test_now and not args.publish:
+        parser.error("--test-now requires --publish")
     now = datetime.now(ET)
-    slot = slot_now(now)
+    slot = f"test-{now:%Y%m%dT%H%M%S%f}" if args.test_now else slot_now(now)
     if not slot:
         print("Outside the totals posting schedule; skipping")
         return
     week, games = source_rows()
     ledger = load_ledger()
-    row, selection, kind = select(games, ledger, week, now, slot)
+    selection_ledger = ledger
+    if args.test_now:
+        # A manual test always selects a no-bet and leaves scheduled slots free.
+        selection_ledger = {"posts": ledger["posts"] + [
+            {"date": now.date().isoformat(), "slot": slot, "week": week,
+             "game": "", "kind": "BET", "post_id": ""}
+        ]}
+    row, selection, kind = select(games, selection_ledger, week, now, slot)
     if row is None:
         print(kind)
         return
