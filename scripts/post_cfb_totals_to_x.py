@@ -67,6 +67,14 @@ def source_rows():
     return week, games
 
 
+def unpriced_under(row):
+    """Preview Under at an assumed -110, without treating it as a book quote."""
+    probability = number(row.get("under_probability"))
+    return {"side": "Under", "edge": None, "line": number(row["market_line"]),
+            "price": None, "probability": probability, "book": None,
+            "estimated_edge": probability - 110 / 210 if probability is not None else None}
+
+
 def quote(row):
     """Pick the strongest valid side; never treat an Over price as an Under price."""
     options = []
@@ -89,13 +97,14 @@ def quote(row):
                 and number(row["model_prediction"]) < number(row["market_line"])
                 and not any(q["side"] == "Under" for q in options)):
             # A legacy Over-only CSV cannot establish an Under price.
-            return {"side": "Under", "edge": None, "line": number(row["market_line"]),
-                    "price": None, "probability": number(row.get("under_probability")), "book": None}
+            return unpriced_under(row)
         return best
     # Older CSVs lack a priced Under quote. Show the model direction as a
     # no-bet preview without inventing a price or edge.
     side = "Under" if number(row["model_prediction"]) < number(row["market_line"]) else "Over"
-    probability = number(row.get("under_probability" if side == "Under" else "over_probability"))
+    if side == "Under":
+        return unpriced_under(row)
+    probability = number(row.get("over_probability"))
     return {"side": side, "edge": None, "line": number(row["market_line"]),
             "price": None, "probability": probability, "book": None}
 
@@ -188,12 +197,16 @@ def graphic(row, selection, kind):
     best = f"{selection['side']} {selection['line']:g}"
     if selection["price"] is not None:
         best += f" {selection['price']:+g}"
+    estimated = selection.get("estimated_edge")
+    edge_label = "EST. EDGE (-110)" if estimated is not None else "EDGE"
+    edge_value = (f"{selection['edge']:.1%}" if selection["edge"] is not None
+                  else f"{estimated:.1%}" if estimated is not None else "UNVERIFIED")
     values = (best,
               f"{selection['probability']:.1%}" if selection["probability"] is not None else "N/A",
-              f"{selection['edge']:.1%}" if selection["edge"] is not None else "UNVERIFIED",
+              edge_value,
               kind)
     first_label = "BEST NUMBER" if selection["price"] is not None else "MODEL SIDE"
-    for i, (heading, value) in enumerate(zip((first_label, "MODEL COVER PROB.", "EDGE", "OUR CALL"), values)):
+    for i, (heading, value) in enumerate(zip((first_label, "MODEL COVER PROB.", edge_label, "OUR CALL"), values)):
         x = 45 + i * 285
         draw.rounded_rectangle((x, 435, x + 260, 555), radius=14, fill="#171717", outline="#2A2A2A", width=2)
         draw.text((x + 17, 451), heading, font=font(14, True), fill=MUTED)
@@ -214,6 +227,9 @@ def text_for(row, selection, kind, slot):
     model = f"Our model total: {number(row['model_prediction']):g}; market total: {number(row['market_line']):g}."
     if kind == "BET":
         verdict = f"BET: {selection['side']} {selection['line']:g} ({selection['price']:+g}) | {selection['edge']:.1%} edge."
+    elif selection.get("estimated_edge") is not None:
+        verdict = (f"NO BET: Est. Under edge {selection['estimated_edge']:.1%} at assumed -110; "
+                   "actual Under price unavailable.")
     elif selection["edge"] is None:
         verdict = f"NO BET: {selection['side']} price unavailable to verify a 3% edge."
     else:
