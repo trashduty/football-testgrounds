@@ -19,7 +19,7 @@ ET = ZoneInfo('America/New_York')
 ROOT = Path('outputs/cfb_matchup_articles')
 LEDGER = Path('outputs/cfb_x_posted.json')
 BET_HOUR = 12
-HOURS = tuple(range(9, 17))
+HOURS = tuple(range(9, 18))
 SATURDAY_CSV = Path('trash-schedule/CFB_Odds/Data/spreads_odds.csv')
 
 
@@ -60,7 +60,7 @@ def load_kickoffs(week):
 
 
 def saturday_slot(now):
-    if now.hour not in range(9, 23) or (now.hour >= 19 and now.minute >= 30):
+    if now.hour not in range(9, 24) or (now.hour >= 19 and now.minute >= 30):
         return None
     minute = 7 if now.minute < 30 else 37
     if now.minute < minute or now.minute >= minute + 20:
