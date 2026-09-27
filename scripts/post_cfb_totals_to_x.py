@@ -90,13 +90,14 @@ def quote(row):
                 and not any(q["side"] == "Under" for q in options)):
             # A legacy Over-only CSV cannot establish an Under price.
             return {"side": "Under", "edge": None, "line": number(row["market_line"]),
-                    "price": None, "probability": None, "book": None}
+                    "price": None, "probability": number(row.get("under_probability")), "book": None}
         return best
     # Older CSVs lack a priced Under quote. Show the model direction as a
     # no-bet preview without inventing a price or edge.
     side = "Under" if number(row["model_prediction"]) < number(row["market_line"]) else "Over"
+    probability = number(row.get("under_probability" if side == "Under" else "over_probability"))
     return {"side": side, "edge": None, "line": number(row["market_line"]),
-            "price": None, "probability": None, "book": None}
+            "price": None, "probability": probability, "book": None}
 
 
 def load_ledger():
@@ -189,10 +190,10 @@ def graphic(row, selection, kind):
         best += f" {selection['price']:+g}"
     values = (best,
               f"{selection['probability']:.1%}" if selection["probability"] is not None else "N/A",
-              f"{selection['edge']:.1%}" if selection["edge"] is not None else "N/A",
+              f"{selection['edge']:.1%}" if selection["edge"] is not None else "UNVERIFIED",
               kind)
     first_label = "BEST NUMBER" if selection["price"] is not None else "MODEL SIDE"
-    for i, (heading, value) in enumerate(zip((first_label, "COVER PROB.", "EDGE", "OUR CALL"), values)):
+    for i, (heading, value) in enumerate(zip((first_label, "MODEL COVER PROB.", "EDGE", "OUR CALL"), values)):
         x = 45 + i * 285
         draw.rounded_rectangle((x, 435, x + 260, 555), radius=14, fill="#171717", outline="#2A2A2A", width=2)
         draw.text((x + 17, 451), heading, font=font(14, True), fill=MUTED)
@@ -217,9 +218,9 @@ def text_for(row, selection, kind, slot):
         verdict = f"NO BET: {selection['side']} price unavailable to verify a 3% edge."
     else:
         verdict = "NO BET: Does not meet our 3% edge threshold."
-    body = "\n\n".join((title, model, verdict, f"Kickoff {row['kickoff']:%-I:%M %p} ET · {slot}"))
+    body = "\n\n".join((title, model, verdict, f"Kickoff {row['kickoff']:%-I:%M %p} ET"))
     if len(body) > 280:
-        body = "\n\n".join((title, model, verdict, slot))
+        body = "\n\n".join((title, model, verdict))
     if len(body) > 280:
         raise ValueError(f"Post exceeds 280 characters: {len(body)}")
     return body
