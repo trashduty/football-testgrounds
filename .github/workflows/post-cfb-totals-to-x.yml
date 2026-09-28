@@ -1,11 +1,7 @@
 name: Post CFB totals graphic to X
 
 on:
-  schedule:
-    - cron: '37 9,11,13,15,17 * * 1-5'
-      timezone: America/New_York
-    - cron: '22 9,11,14,17,20 * * 6'
-      timezone: America/New_York
+
   workflow_dispatch:
     inputs:
       publish:
