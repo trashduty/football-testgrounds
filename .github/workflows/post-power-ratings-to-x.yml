@@ -59,9 +59,8 @@ jobs:
             echo "value=$INPUT_SPORT" >> "$GITHUB_OUTPUT"
           fi
       - name: Install posting dependencies
-        run: python -m pip install requests requests-oauthlib playwright
-      - name: Install browser for NFL plot export
-        if: steps.sport.outputs.value == 'nfl'
+        run: python -m pip install requests requests-oauthlib playwright pillow
+      - name: Install browser for plot export
         run: python -m playwright install --with-deps chromium
       - name: Select plot and optionally publish
         env:
