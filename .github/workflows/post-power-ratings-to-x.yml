@@ -1,0 +1,95 @@
+name: Post power ratings plot to X
+
+on:
+  schedule:
+    # 10:30 AM Eastern Monday across daylight/standard time, CFB season.
+    - cron: '30 14,15 * 1,8-12 1'
+    # 2:30 PM Eastern Tuesday across daylight/standard time, NFL season.
+    - cron: '30 18,19 * 1,2,9-12 2'
+  workflow_dispatch:
+    inputs:
+      sport:
+        description: 'Plot to preview or post'
+        type: choice
+        required: true
+        options:
+          - cfb
+          - nfl
+      publish:
+        description: 'Post to X (false previews)'
+        type: boolean
+        required: true
+        default: false
+      test_now:
+        description: 'Post outside schedule; counts as this ratings week (requires publish)'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cfb-x-posting
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Resolve sport
+        id: sport
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_SPORT: ${{ inputs.sport }}
+        run: |
+          if [[ "$EVENT_NAME" == "schedule" ]]; then
+            case "$(TZ=America/New_York date +%u)" in
+              1) echo "value=cfb" >> "$GITHUB_OUTPUT" ;;
+              2) echo "value=nfl" >> "$GITHUB_OUTPUT" ;;
+              *) echo "Not a posting day"; exit 1 ;;
+            esac
+          else
+            echo "value=$INPUT_SPORT" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Install posting dependencies
+        run: python -m pip install requests requests-oauthlib playwright
+      - name: Install browser for NFL plot export
+        if: steps.sport.outputs.value == 'nfl'
+        run: python -m playwright install --with-deps chromium
+      - name: Select plot and optionally publish
+        env:
+          SPORT: ${{ steps.sport.outputs.value }}
+          EVENT_NAME: ${{ github.event_name }}
+          PUBLISH: ${{ inputs.publish }}
+          TEST_NOW: ${{ inputs.test_now }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          args=(--sport "$SPORT")
+          if [[ "$EVENT_NAME" == "schedule" || "$PUBLISH" == "true" ]]; then
+            args+=(--publish)
+          fi
+          if [[ "$TEST_NOW" == "true" ]]; then
+            args+=(--test-now)
+          fi
+          python scripts/post_power_ratings_to_x.py "${args[@]}"
+      - name: Persist posting record
+        if: success()
+        run: |
+          if [[ -n "$(git status --porcelain -- outputs/power_ratings_x_posted.json)" ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add outputs/power_ratings_x_posted.json
+            git commit -m 'Record power ratings X post'
+            git pull --rebase origin main
+            git push
+          fi
