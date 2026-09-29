@@ -31,8 +31,9 @@ def current_metadata(sport, now, test_now):
     return season, folder, meta
 
 
-def nfl_plot(season, destination):
-    # Render the same Plotly chart used by the public NFL metrics page.
+def render_site_plot(sport, season, destination):
+    # Capture the Plotly chart visitors actually see, including team logos.
+    from PIL import Image
     from playwright.sync_api import sync_playwright
 
     class QuietHandler(SimpleHTTPRequestHandler):
@@ -46,7 +47,11 @@ def nfl_plot(season, destination):
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch(headless=True)
             page = browser.new_page(viewport={"width": 1450, "height": 1100}, device_scale_factor=1)
-            page.goto(f"http://127.0.0.1:{server.server_port}/docs/nfl/index.html", wait_until="domcontentloaded")
+            page.goto(
+                f"http://127.0.0.1:{server.server_port}/docs/"
+                + ("index.html" if sport == "cfb" else "nfl/index.html"),
+                wait_until="domcontentloaded",
+            )
             page.select_option("#season", str(season))
             page.select_option("#metric", "power")
             page.wait_for_function(
@@ -59,11 +64,27 @@ def nfl_plot(season, destination):
                 arg=season,
                 timeout=45000,
             )
+            page.wait_for_function(
+                """() => document.querySelectorAll('#chart .images image').length >= 20""",
+                timeout=45000,
+            )
+            # SVG image tags can exist before their external logo files load.
+            page.wait_for_timeout(2000)
             page.locator("#chart").screenshot(path=str(destination), animations="disabled", timeout=45000)
             browser.close()
     finally:
         server.shutdown()
         server.server_close()
+    with Image.open(destination) as graphic:
+        graphic = graphic.convert("RGB")
+        # A points-only plot is nearly grayscale. Require substantial logo color
+        # so a failed external image load cannot become a public X post.
+        colorful = sum(
+            1 for red, green, blue in graphic.resize((400, 300)).getdata()
+            if max(red, green, blue) - min(red, green, blue) > 45
+        )
+    if colorful < 150:
+        raise RuntimeError(f"{sport.upper()} plot has too few rendered logo pixels ({colorful})")
 
 
 def x_response(response, operation):
@@ -120,12 +141,9 @@ def main():
         print(f"Already posted {identifier}; skipping")
         return
 
-    if args.sport == "cfb":
-        image = folder / "btb_scatter.png"
-    else:
-        image = Path("output/nfl") / str(season) / "btb_scatter_x.png"
-        image.parent.mkdir(parents=True, exist_ok=True)
-        nfl_plot(season, image)
+    image = Path("output") / args.sport / str(season) / "btb_scatter_x.png"
+    image.parent.mkdir(parents=True, exist_ok=True)
+    render_site_plot(args.sport, season, image)
     if not image.is_file() or not image.stat().st_size:
         raise RuntimeError(f"Missing or empty power-rating plot: {image}")
 
