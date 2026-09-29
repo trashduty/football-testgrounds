@@ -90,6 +90,13 @@ jobs:
             args+=(--repost)
           fi
           python scripts/post_power_ratings_to_x.py "${args[@]}"
+      - name: Save rendered plot for review
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.sport.outputs.value }}-power-ratings-plot
+          path: output/${{ steps.sport.outputs.value }}/*/btb_scatter_x.png
+          if-no-files-found: ignore
       - name: Persist posting record
         if: success()
         run: |
