@@ -123,9 +123,12 @@ def main():
     parser.add_argument("--sport", choices=("cfb", "nfl"), required=True)
     parser.add_argument("--publish", action="store_true")
     parser.add_argument("--test-now", action="store_true", help="Manual post outside the normal day/time")
+    parser.add_argument("--repost", action="store_true", help="Publish a corrected image for an already posted week")
     args = parser.parse_args()
     if args.test_now and not args.publish:
         parser.error("--test-now requires --publish")
+    if args.repost and not (args.test_now and args.publish):
+        parser.error("--repost requires --publish --test-now")
 
     now = datetime.now(ET)
     expected = (0, 10) if args.sport == "cfb" else (1, 14)
@@ -137,7 +140,7 @@ def main():
     entering_week = int(meta["thru_week"]) + 1
     identifier = f"{args.sport}-{season}-entering-{entering_week}"
     ledger = json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else {"posts": []}
-    if any(entry["id"] == identifier for entry in ledger["posts"]):
+    if args.publish and not args.repost and any(entry["id"] == identifier for entry in ledger["posts"]):
         print(f"Already posted {identifier}; skipping")
         return
 
@@ -148,6 +151,8 @@ def main():
         raise RuntimeError(f"Missing or empty power-rating plot: {image}")
 
     body = f"BTB's {season} {args.sport.upper()} Power Ratings — Entering Week {entering_week}"
+    if args.repost:
+        body += " | Updated chart"
     print(f"{identifier}: {image} ({image.stat().st_size} bytes)\n{body}")
     if not args.publish:
         print("DRY RUN: no X post or ledger update")
