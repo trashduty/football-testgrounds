@@ -25,6 +25,11 @@ on:
         type: boolean
         required: true
         default: false
+      repost:
+        description: 'Post corrected plot even if this ratings week was already posted (requires publish and test_now)'
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: write
@@ -68,6 +73,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           PUBLISH: ${{ inputs.publish }}
           TEST_NOW: ${{ inputs.test_now }}
+          REPOST: ${{ inputs.repost }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
@@ -79,6 +85,9 @@ jobs:
           fi
           if [[ "$TEST_NOW" == "true" ]]; then
             args+=(--test-now)
+          fi
+          if [[ "$REPOST" == "true" ]]; then
+            args+=(--repost)
           fi
           python scripts/post_power_ratings_to_x.py "${args[@]}"
       - name: Persist posting record
