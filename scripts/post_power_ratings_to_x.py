@@ -65,7 +65,7 @@ def render_site_plot(sport, season, destination):
                 timeout=45000,
             )
             page.wait_for_function(
-                """() => document.querySelectorAll('#chart .images image').length >= 20""",
+                """() => document.querySelectorAll('#chart .imagelayer image').length >= 20""",
                 timeout=45000,
             )
             # SVG image tags can exist before their external logo files load.
