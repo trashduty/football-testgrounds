@@ -15,9 +15,9 @@ The Florida Gators visit the Missouri Tigers at Memorial Stadium. We make **Miss
 
 The best number we found is Missouri +5.5 at -110. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers give Missouri the clearer advantage in preventing scoring opportunities and limiting efficient passing. The market, however, is asking Missouri to create slightly more separation than we expect, and Florida’s rushing offense is the main reason for our restraint. Jadan Baugh ran for 162 yards at Auburn, while Florida produced six consecutive scoring drives, including five of at least 65 yards. We are not treating one game as proof, but it supports the longer-run rushing strength in our numbers.
+The market is asking Missouri to create slightly more separation than our model expects, and Florida’s rushing offense is the clearest reason for that difference. Jadan Baugh produced 458 yards and eight rushing touchdowns through three games, while Florida’s six consecutive scoring drives at Auburn showed it could sustain offense on the road. We are not treating one performance as proof, but the underlying rushing efficiency gives Florida a credible way to shorten the game and avoid obvious passing situations.
 
-The question for us is how much confidence to place in Missouri’s rebuilt defense. Missouri lost 10 defensive starters from last season, although the new group allowed only 3.7 yards per play in its opener. Florida also surrendered just two sacks through three games despite replacing three offensive-line starters. We see credible strengths on both sides, but the market and our model are already closely aligned. That leaves us without enough value to move beyond a pass.
+The counter is Missouri’s ability to prevent scoring opportunities and limit efficient passing, two areas that challenge Florida’s offense beyond the ground game. We also note that Missouri entered the season with only two returning defensive starters after losing 10, which adds some uncertainty to how sustainable that early defensive profile will be. Our numbers still favor Missouri, but the football case for Florida staying competitive is strong enough to narrow the expected margin—not strong enough to create value at the available price.
 
 ### What The Numbers Say
 
@@ -69,11 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Florida’s rushing offense against Missouri’s front. Baugh had 458 yards and eight rushing touchdowns through three games, averaging 8.48 yards per carry. Missouri’s 2025 defense allowed only 103.8 rushing yards per game, but most of that unit has turned over. If the rebuilt front can keep Florida from consistently creating favorable situations on the ground, Missouri’s stronger pass-defense profile becomes more relevant. If not, Florida has the clearest path to keeping the margin tight.
+For us, Florida’s rushing offense against Missouri’s run defense is the matchup that can shape the spread. Our numbers rate the ground game as Florida’s clearest offensive advantage, while Missouri has been less convincing against the run than in overall scoring-opportunity prevention. If Florida keeps Baugh productive and stays on schedule, Missouri may have fewer chances to lean on its stronger pass defense; if Missouri controls early downs, the matchup shifts toward the home side’s defensive strengths.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

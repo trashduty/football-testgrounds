@@ -15,9 +15,11 @@ The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. 
 
 The best number we found is North Texas +1.5 at -110. We give North Texas a 59.1% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so North Texas is a bet.
 
-For us, the case for North Texas is less about its recent blowout and more about a passing profile that appears sustainable. Tayven Jackson has completed 74.2% of his passes, while North Texas has produced 55 passing plays of at least 10 yards. Tulsa, meanwhile, has allowed 257.3 passing yards per game. That combination helps explain why our numbers are more favorable to North Texas than the market is.
+Our disagreement with the market starts with North Texas’ passing efficiency. Our numbers rate this as one of the country’s strongest passing offenses, while Tulsa’s pass defense grades much lower. Tayven Jackson is completing 74.2% of his throws and averaging 296.8 passing yards per game, and North Texas has already produced 55 passing plays of at least 10 yards. We are not treating the recent rout of HCU as proof; the broader efficiency and explosiveness are what matter to us.
 
-Tulsa’s defensive front is the main concern for us. It has recorded 13 sacks and allows only 3.1 yards per carry, so North Texas may not control this matchup on the ground. Still, its offensive line has surrendered only three sacks through four games, and the offense has converted 54.9% of its third downs. Tulsa also has a credible path through a rushing attack averaging 181.5 yards per game against a North Texas defense allowing 164.8. We respect that counter, but we think North Texas has the more reliable way to create and sustain scoring opportunities.
+Tulsa’s overall defensive results have been solid, but the split is important: it has allowed only 109.8 rushing yards per game compared with 257.3 through the air. That points North Texas toward the part of the defense our model views as more vulnerable rather than forcing the offense into Tulsa’s strength.
+
+Our biggest concern is on the other side. Tulsa averages 181.5 rushing yards per game, while North Texas has allowed 164.8, and our numbers also favor Tulsa’s ability to create scoring opportunities in this matchup. North Texas is also winless in two road games. Even so, we think the market is placing too much weight on Tulsa’s home-field and defensive profile relative to the passing-game advantage North Texas brings, which is enough for us to back the road team.
 
 ### What The Numbers Say
 
@@ -69,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching North Texas’ pass protection against Tulsa’s pressure. Tulsa’s front has consistently generated sacks, but North Texas has protected Jackson well enough to let an efficient, explosive passing game develop. If that protection holds, we see a favorable matchup against a defense that has conceded considerably more production through the air than on the ground.
+We are watching North Texas’ pass protection against Tulsa’s pressure. Tulsa has recorded 13 sacks through four games, while the North Texas offensive line has surrendered only three. If North Texas protects Jackson, he has a deep distribution of options: nine players have already caught at least five passes.
+
+For us, that confrontation determines whether Tulsa can disrupt the matchup our numbers favor. Consistent pressure would shorten possessions and protect the secondary; clean pockets would give North Texas the best route to validating our view.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

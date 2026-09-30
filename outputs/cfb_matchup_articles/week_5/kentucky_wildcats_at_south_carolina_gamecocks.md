@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Kentucky Wildcats | +2.5 (+100) | theScore Bet | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Carolina Gamecocks | -2.5 (-118) | BetMGM | 57.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| South Carolina Gamecocks | -2.5 (-120) | FanDuel | 57.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Kentucky Wildcats visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **South Carolina -6.5**, compared with a market line of -3.
 
-The best number we found is South Carolina -2.5 at -118. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Carolina -2.5 at -120. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

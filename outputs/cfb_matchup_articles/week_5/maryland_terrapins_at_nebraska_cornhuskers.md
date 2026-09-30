@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Maryland Terrapins | +14.5 (-108) | DraftKings | 52.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Nebraska Cornhuskers | -14.5 (+100) | theScore Bet | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Nebraska Cornhuskers | -15.5 (+100) | theScore Bet | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,7 +15,7 @@ The Maryland Terrapins visit the Nebraska Cornhuskers at Memorial Stadium (Linco
 
 The best number we found is Maryland +14.5 at -108. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our view starts with how closely the market matches our broader expectation. Maryland has produced encouraging early results, but we do not see a meaningful pricing disagreement to exploit here. The Terrapins held UConn to 67 rushing yards and recorded five sacks, yet our efficiency numbers still identify Nebraska’s ground game against Maryland’s run defense as the most significant mismatch.
+We understand why Maryland’s start may attract attention. We saw the offense produce 475 yards at UConn, while Malik Washington completed 34 of 41 passes for 347 yards and two touchdowns. Maryland also avoided a turnover in each of its first two games. That is encouraging context, but we are not treating two clean performances as proof that the offense will sustain the same efficiency here.
 
 ### What The Numbers Say
 
@@ -67,11 +67,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Nebraska’s rushing offense against Maryland’s defensive front. Maryland’s performance against UConn was impressive, but one result does not outweigh the larger efficiency profile. If Nebraska consistently creates manageable downs on the ground, Maryland will need its passing game to answer against a more challenging defensive matchup than the early production might suggest. That tension supports the market’s current position and leaves us without enough value to get involved.
+For us, Nebraska’s rushing offense against Maryland’s run defense is the matchup that matters most. Maryland allowed only 38.5 rushing yards per game through its first two contests, but our rush EPA numbers still identify a meaningful advantage for Nebraska. The question is whether those early defensive results reflect a lasting strength or whether Nebraska can expose what our longer-run efficiency view considers the softer part of Maryland’s profile. With our overall expectation already closely aligned with the market, we do not see enough separation to move beyond a pass.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

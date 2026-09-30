@@ -6,18 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Navy Midshipmen | +3.5 (-115) | BetRivers | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Air Force Falcons | -3.5 (+105) | theScore Bet | 52.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Navy Midshipmen | +3.5 (-115) | BetRivers | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Air Force Falcons | -3.5 (+105) | theScore Bet | 53.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Navy Midshipmen visit the Air Force Falcons at Falcon Stadium. We make **Air Force -5.5**, compared with a market line of -3.
+The Navy Midshipmen visit the Air Force Falcons at Falcon Stadium. We make **Air Force -6**, compared with a market line of -3.5.
 
-The best number we found is Air Force -3.5 at +105. We give Air Force a 52.5% chance to cover, which creates an 3.7% edge for us. That clears our 3% threshold, so Air Force is a bet.
+The best number we found is Air Force -3.5 at +105. We give Air Force a 53.5% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Air Force is a bet.
 
-Our view is less about reacting to Navy’s loss at Florida Atlantic and more about the shape of its defense. Navy allowed only 40.5 rushing yards per game through two games, but our efficiency data identify pass defense as the vulnerability. That matters because Air Force’s passing offense grades well in our numbers, while its ability to create scoring opportunities aligns with another area where Navy has struggled. Air Force does not have to make its case by attacking Navy’s strongest early-season defensive result.
+Our case for Air Force starts with how its offense matches up against Navy’s defense. We recognize that Navy ranked second nationally in rushing defense through two games, but the more interesting part is that Air Force’s clearest advantage is through the air. Our efficiency numbers show a substantial gap between Air Force’s passing offense and Navy’s pass defense, and we also see Air Force holding an advantage in creating scoring opportunities against a defense that has struggled to prevent them. That is where our expectation separates from the market.
 
-There is also some context behind that defensive profile. Navy entered the season near the bottom nationally in returning career snaps and used four first-time defensive starters in the opener. We are not treating inexperience as proof, but it helps explain why our longer-run view is less forgiving than the market. The concern for us is Navy’s rushing offense, which averaged 376.0 yards and 6.90 yards per attempt through two games. Our matchup numbers also flag Air Force’s run defense, giving Navy a credible path to limit separation. Even so, the broader efficiency profile supports our position on Air Force.
+The meaningful concern for us is Navy’s rushing attack. Navy averaged 376 rushing yards and 6.90 yards per carry through its first two games, while our numbers identify Air Force’s run defense as a major vulnerability. Braxton Woodson drove much of that production, averaging 148 rushing yards per game and 8.46 yards per carry, although his availability is unclear after he left the Florida Atlantic game with a lower-body injury. We are not dismissing Navy’s ability to control stretches of the game on the ground, but we think Air Force has the more reliable path to turning productive drives into points.
 
 ### What The Numbers Say
 
@@ -69,11 +69,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, Air Force’s passing offense against Navy’s pass defense is the matchup that best explains our disagreement with the market. Navy’s early run-defense numbers have been excellent, so the question is whether Air Force can exploit the channel our data says is available rather than leaning on the ground game. Navy also failed to force a turnover in either of its first two games. That does not guarantee the trend continues, but Air Force’s passing and scoring-opportunity efficiency gives us a clear reason to expect more offensive success than the market appears to be pricing.
+For us, the matchup to watch is Navy’s quarterback run game against Air Force’s rush defense. Our position does not require Air Force to shut that attack down, but it does require the defense to keep Navy’s rushing efficiency from dictating the entire game. Woodson’s status adds uncertainty, yet Navy still showed another option when Jackson Gutierrez replaced him against Florida Atlantic and produced 75 rushing yards, 100 passing yards and three total touchdowns.
+
+We will be watching whether Air Force can create enough negative or low-value rushing plays to get Navy away from its preferred rhythm. If it can, Air Force’s advantages against Navy’s pass defense and scoring-opportunity prevention become much more significant.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

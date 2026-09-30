@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | +20.0 (-113) | BetRivers | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| North Dakota State | -18.5 (-105) | theScore Bet | 52.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wyoming Cowboys | +18.5 (-110) | DraftKings | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Dakota State | -18.5 (-105) | BetMGM | 52.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

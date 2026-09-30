@@ -2,30 +2,30 @@
   "game": "Arkansas Razorbacks@Texas A&M Aggies",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T01:28:24.333302+00:00",
+  "generated_at_utc": "2026-09-30T14:32:51.162224+00:00",
   "model_prediction": 14.0,
   "market_line": 14.0,
   "best_line": 13.5,
   "best_price": "-105",
-  "best_book": "FanDuel",
+  "best_book": "Fanatics",
   "cover_probability": 0.51041423,
   "edge": -0.0017808919512195,
   "bet_short": "Arkansas",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "What stands out to us is Texas A&M's ability to create scoring opportunities against an Arkansas defense that has struggled to prevent them. Texas A&M has converted 14 of 17 red-zone trips into scores, including 12 touchdowns, and Marcel Reed adds stress as both a passer and runner. The same offensive line has started each of the first three games, giving that unit continuity around him.",
-    "matchup_to_watch": "For us, the matchup to watch is Texas A&M's offense once it crosses into scoring range. Arkansas has been vulnerable at preventing those opportunities, while Texas A&M has generally finished them with touchdowns. Reed's mobility is an added complication after he led the team with 80 rushing yards against Kentucky. That advantage supports the market's respect for Texas A&M, but our broader numbers indicate it is already accounted for, leaving us without enough value at the available price.",
+    "narrative": "We see the strongest case for Texas A&M in its ability to sustain possessions against an Arkansas defense our numbers rate poorly at preventing scoring opportunities. Texas A&M has converted 19 of 43 third downs and scored touchdowns on 12 of 17 red-zone possessions. That combination supports the possibility of control and separation without requiring a steady stream of explosive plays.\n\nWe are not treating the Kentucky loss as proof that the offense is broken. Texas A&M gained 423 yards in that game, but two turnovers undermined the production. The broader concern is that Texas A&M has generated only nine plays of at least 20 yards through three games, which makes the margin more dependent on consistently finishing longer drives.\n\nWe also see a Texas A&M defense that has allowed only seven third-down conversions on 31 attempts and produced six takeaways. Those results can create extra possessions, but we are cautious about building too much into an early turnover sample. For us, the supporting football case is largely consistent with the market's expectation, leaving too little disagreement to justify a play.",
+    "matchup_to_watch": "We are watching Marcel Reed against Arkansas once Texas A&M moves into scoring range. Reed showed both sides of the equation against Kentucky: he ran for a team-high 80 yards, including a 40-yard gain, but also threw two interceptions. His mobility gives Texas A&M another way to attack Arkansas, while his ball security could determine whether promising drives become touchdowns or missed chances.\n\nOur numbers expect Texas A&M to reach scoring territory regularly. The question for us is whether Reed and the offense convert those opportunities efficiently enough to create the margin the market is asking for.",
     "guide_status": [
       "No guide found for Arkansas Razorbacks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas.pdf",
       "Found guide for Texas A&M Aggies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf",
-      "Guide for Texas A&M Aggies was found but may not match the current opponent. The guide is Texas A&M's Game 4 notes for the Sept. 26, 2026 road game against LSU. Arkansas is listed as the following game on Oct. 3, so this is not the Week 5 Texas A&M-Arkansas guide."
+      "Guide for Texas A&M Aggies was found but may not match the current opponent. The document is Texas A&M's Game 04 notes for the Sept. 26, 2026 road game against LSU. Arkansas is listed as the following opponent on Oct. 3, so this is not the guide prepared for the Texas A&M-Arkansas matchup."
     ],
     "guide_extractions": [
       {
         "source_team": "Texas A&M Aggies",
         "opponent": "Arkansas Razorbacks",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is Texas A&M's Game 4 notes for the Sept. 26, 2026 road game against LSU. Arkansas is listed as the following game on Oct. 3, so this is not the Week 5 Texas A&M-Arkansas guide.",
+        "document_match_reason": "The document is Texas A&M's Game 04 notes for the Sept. 26, 2026 road game against LSU. Arkansas is listed as the following opponent on Oct. 3, so this is not the guide prepared for the Texas A&M-Arkansas matchup.",
         "recent_game": [
           {
             "fact": "Texas A&M lost 31-21 at home to Kentucky on Sept. 19, falling to 2-1 overall and 0-1 in the SEC.",
@@ -40,25 +40,38 @@
             "importance": "high"
           },
           {
-            "fact": "Kentucky gained 408 yards against Texas A&M, with 156 rushing yards and 252 passing yards, and did not commit a turnover.",
-            "page": 19,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Marcel Reed completed 26 of 49 passes for 236 yards against Kentucky and also rushed for a team-high 80 yards, including a 40-yard run.",
+            "fact": "Marcel Reed completed 26 of 49 passes for 236 yards, one touchdown and two interceptions against Kentucky; he also rushed for a team-high 80 yards, including a 40-yard run.",
             "page": 22,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Mario Craver set career highs with 11 receptions for 119 yards against Kentucky, becoming Texas A&M's first player with at least 10 catches in a game since 2023.",
+            "fact": "Mario Craver caught a career-high 11 passes for 119 yards against Kentucky, Texas A&M's first 100-yard receiving performance of 2026.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
+          },
+          {
+            "fact": "Kentucky gained 408 total yards against Texas A&M, with 156 rushing and 252 passing, and did not commit a turnover.",
+            "page": 19,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M recorded two sacks and three tackles for loss against Kentucky.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "medium"
           }
         ],
-        "opponent_notes": [],
+        "opponent_notes": [
+          {
+            "fact": "Texas A&M is scheduled to host Arkansas at Kyle Field on Oct. 3, 2026, with kickoff listed for 6 p.m. CT on ESPN or ESPN2.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
         "quarterback": [
           {
             "fact": "Marcel Reed is Texas A&M's starting quarterback and has made 21 consecutive starts dating to Nov. 2, 2024.",
@@ -70,22 +83,22 @@
             "fact": "Reed has a 17-7 career record as a starter, including 9-5 in SEC games.",
             "page": 6,
             "category": "quarterback",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Through three games in 2026, Reed has completed 62 of 104 passes for 632 yards, six touchdowns and three interceptions while adding 117 rushing yards and one touchdown.",
+            "fact": "Through three games in 2026, Reed has completed 62 of 104 passes for 632 yards, six touchdowns and three interceptions while rushing for 117 yards and one touchdown.",
             "page": 20,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Reed has 7,241 career yards of total offense, consisting of 6,039 passing yards and 1,202 rushing yards.",
+            "fact": "Reed has accumulated 7,241 career yards of total offense, consisting of 6,039 passing yards and 1,202 rushing yards.",
             "page": 6,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Sophomore Brady Hart is listed as the second quarterback on Texas A&M's depth chart.",
+            "fact": "Brady Hart is listed as Reed's backup on the depth chart, followed by freshman Helaman Casuga.",
             "page": 12,
             "category": "quarterback",
             "importance": "medium"
@@ -93,37 +106,37 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Texas A&M used the same starting offensive line in each of its first three games: Tyree Adams at left tackle, Blake Ivy at left guard, Mark Nabou Jr. at center, Trovon Baugh at right guard and Wilkin Formby at right tackle.",
+            "fact": "Texas A&M started the same offensive line in each of its first three games: Tyree Adams at left tackle, Blake Ivy at left guard, Mark Nabou Jr. at center, Trovon Baugh at right guard and Wilkin Formby at right tackle.",
             "page": 24,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Rueben Owens II leads Texas A&M with 186 rushing yards on 45 carries through three games.",
+            "fact": "Rueben Owens II leads Texas A&M with 186 rushing yards on 45 carries and has started all three games.",
             "page": 20,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Freshman Carsyn Baker leads the Aggies with two rushing touchdowns on 10 carries.",
-            "page": 20,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Mario Craver leads Texas A&M with 19 receptions and 194 receiving yards through three games, while Isaiah Horton has 12 catches for 170 yards and a team-high three receiving touchdowns.",
+            "fact": "Mario Craver leads Texas A&M with 19 receptions and 194 receiving yards and has scored two touchdowns through three games.",
             "page": 20,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Freshman wide receiver Aaron Gregory made his first collegiate start against Kentucky.",
-            "page": 24,
+            "fact": "Isaiah Horton has 12 catches for 170 yards and a team-high three receiving touchdowns through three games.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman Carsyn Baker has scored a team-high two rushing touchdowns on 10 carries.",
+            "page": 20,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "The depth chart lists Micah Riley, Richie Anderson III, Houston Thomas and Kiotti Armstrong as co-options at tight end.",
+            "fact": "The running back depth chart lists Rueben Owens II or Jamarion Morrow, with Carsyn Baker or KJ Edwards also in the rotation.",
             "page": 12,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -137,45 +150,45 @@
             "importance": "high"
           },
           {
-            "fact": "Defensive end T.J. Searcy leads Texas A&M with 2.5 tackles for loss and has one sack through three games.",
+            "fact": "Safety Marcus Ratcliffe has 15 tackles and leads Texas A&M with seven solo tackles.",
             "page": 21,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Marco Jones and Julio Humphrey each returned an interception for a touchdown against Arizona State; Jones scored on a 55-yard return and Humphrey on a 45-yard return.",
+            "fact": "Defensive end T.J. Searcy leads Texas A&M with 2.5 tackles for loss and has one sack through three games.",
             "page": 21,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "According to Pro Football Focus figures cited by Texas A&M, cornerback Dezz Ricks allowed one reception for one yard on five targets over his first 62 coverage snaps of 2026.",
+            "fact": "Cornerback Dezz Ricks allowed one reception for one yard on five targets over his first 62 coverage snaps, according to Pro Football Focus data cited by Texas A&M.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M used the same starting secondary in each of its first three games: Jordan Shaw at nickel, Marcus Ratcliffe and Dalton Brooks at safety, and Dezz Ricks and Julio Humphrey at cornerback.",
-            "page": 24,
+            "fact": "Marco Jones and Julio Humphrey each returned an interception for a touchdown against Arizona State.",
+            "page": 6,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Holmon Wiggins became Texas A&M's offensive coordinator and play caller in 2026; this is his first season as a primary offensive coordinator and play caller.",
+            "fact": "Holmon Wiggins is Texas A&M's new offensive coordinator and play caller for 2026; this is his first season as a primary offensive coordinator and play caller.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Lyle Hemphill became Texas A&M's defensive coordinator and play caller in 2026 after previously coordinating defenses at James Madison, Duke, Wake Forest and Stony Brook.",
+            "fact": "Lyle Hemphill is Texas A&M's new defensive coordinator and defensive play caller for 2026.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M added first-year assistants Travis Williams as associate head coach for defense and linebackers, Elijah Robinson as co-defensive coordinator and defensive line coach, Derek Shay as tight ends coach, and Paul Williams as nickels coach.",
+            "fact": "Texas A&M added first-year assistants Travis Williams as associate head coach for defense and linebackers, Elijah Robinson as co-defensive coordinator and defensive line coach, Derek Shay as tight ends coach and Paul Williams as nickels coach.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "medium"
@@ -184,7 +197,7 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Through three games, Texas A&M is averaging 39.7 points, 394.3 total yards, 171.7 rushing yards and 222.7 passing yards per game.",
+            "fact": "Through three games, Texas A&M averages 394.3 total yards and 39.7 points per game, with 171.7 rushing yards and 222.7 passing yards per game.",
             "page": 17,
             "category": "offensive_context",
             "importance": "high"
@@ -196,25 +209,25 @@
             "importance": "high"
           },
           {
-            "fact": "The Aggies rank first in the SEC and seventh nationally in time of possession at 34:28 per game.",
+            "fact": "The Aggies have scored touchdowns on 12 of 17 red-zone possessions and points on 14 of 17.",
+            "page": 17,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M ranks first in the SEC and seventh nationally in time of possession at 34:28 per game through three games.",
             "page": 5,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Texas A&M has scored on 14 of 17 red-zone trips, including 12 touchdowns.",
-            "page": 18,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "The Aggies have scored 31 points off turnovers through three games after scoring 24 points off turnovers in all 13 games of 2025.",
-            "page": 1,
+            "fact": "Texas A&M has produced only nine plays of at least 20 yards through three games: five passes, two rushes and two interception returns.",
+            "page": 23,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Texas A&M has outscored opponents 55-3 in the fourth quarter through three games.",
+            "fact": "The Aggies have committed 11 penalties through three games, the fewest in the SEC, and had only two penalties for 10 yards against Kentucky.",
             "page": 5,
             "category": "offensive_context",
             "importance": "medium"
@@ -222,40 +235,46 @@
         ],
         "defensive_context": [
           {
-            "fact": "Texas A&M is allowing 17.0 points and 281.3 total yards per game through three games.",
-            "page": 17,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "The Aggies have allowed seven conversions on 31 third-down attempts, a 23% rate that ranks second in the SEC and seventh nationally.",
-            "page": 6,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Texas A&M has six takeaways through three games\u2014two interceptions and four fumble recoveries\u2014after totaling 10 takeaways in 13 games in 2025.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Opponents have scored on nine of 32 possessions, excluding end-of-half or end-of-game kneel-down drives.",
-            "page": 6,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Texas A&M has four sacks through three games after recording 43 sacks in 13 games during 2025.",
+            "fact": "Texas A&M has allowed 281.3 yards and 17.0 points per game through three games.",
             "page": 5,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Aggies have allowed 102.7 rushing yards per game and 3.5 yards per carry through three games.",
-            "page": 17,
+            "fact": "The Aggies rank second in the SEC and seventh nationally in third-down defense, allowing seven conversions on 31 attempts, a 23% rate.",
+            "page": 6,
             "category": "defensive_context",
             "importance": "high"
+          },
+          {
+            "fact": "Texas A&M has six takeaways through three games\u2014two interceptions and four fumble recoveries\u2014after recording 10 takeaways in 13 games in 2025.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M has scored 31 points off turnovers through three games after scoring 24 points off turnovers in all of 2025.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Aggies have recorded four sacks through three games after totaling 43 sacks in 2025.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas A&M has allowed 38 first downs through three games, third-fewest in the SEC and 11th-fewest nationally.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents have scored on nine of 32 non-kneel-down possessions against Texas A&M through three games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
           }
         ],
         "special_teams": [
@@ -266,25 +285,25 @@
             "importance": "high"
           },
           {
-            "fact": "Transfer kicker David Olano has made all three of his field-goal attempts and all 15 extra-point attempts for Texas A&M.",
+            "fact": "Transfer kicker David Olano has made all three of his field-goal attempts and all 15 extra-point attempts in his first three games at Texas A&M.",
             "page": 6,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Punter Tyler White is averaging 48.4 yards on eight punts, with four punts of at least 50 yards and four placed inside the 20.",
+            "fact": "Punter Tyler White averages 48.4 yards on eight punts, with four punts of at least 50 yards and four placed inside the 20.",
             "page": 21,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M's punt coverage allowed a combined five return yards on four returns against Arizona State and Kentucky.",
+            "fact": "Texas A&M's punt coverage unit allowed five total return yards over the Arizona State and Kentucky games combined.",
             "page": 6,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Mario Craver and Terry Bussey are listed as co-options at punt returner, while Bussey and Ashton Bethel-Roman are listed as co-options at kickoff returner.",
+            "fact": "Mario Craver, Terry Bussey and Isaiah Horton are listed as punt-return options, while Bussey or Ashton Bethel-Roman are listed at kickoff returner.",
             "page": 12,
             "category": "special_teams",
             "importance": "medium"
@@ -293,20 +312,26 @@
         "series_context": [],
         "other_relevant": [
           {
-            "fact": "Texas A&M's home game against Arkansas is scheduled for Oct. 3, 2026 at Kyle Field, with a 6 p.m. Central kickoff on ESPN or ESPN2.",
+            "fact": "Texas A&M returned 65% of its 2025 roster and had 14 transfer-portal departures as of the Jan. 31 portal closing date.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Forty-three players made their Texas A&M debuts and 25 made their collegiate debuts during the first three games of 2026.",
             "page": 1,
             "category": "other_relevant",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Texas A&M is 2-1 overall and 0-1 in SEC play through three games.",
-            "page": 17,
+            "fact": "Texas A&M has outscored opponents 55-3 in the fourth quarter through three games.",
+            "page": 5,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Texas A&M has committed 11 penalties through three games, the fewest in the SEC, and had only three total penalties across its games against Arizona State and Kentucky.",
-            "page": 5,
+            "fact": "Texas A&M is 7-2 in night home games under Mike Elko and has won four consecutive night games at Kyle Field.",
+            "page": 4,
             "category": "other_relevant",
             "importance": "medium"
           }
@@ -351,8 +376,17 @@
     ],
     "used_sources": [
       {
-        "fact_id": 4,
-        "fact": "Marcel Reed completed 26 of 49 passes for 236 yards against Kentucky and also rushed for a team-high 80 yards, including a 40-yard run.",
+        "fact_id": 2,
+        "fact": "Against Kentucky, Texas A&M produced 423 total yards, including 187 rushing and 236 passing, but committed two turnovers.",
+        "page": 18,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Marcel Reed completed 26 of 49 passes for 236 yards, one touchdown and two interceptions against Kentucky; he also rushed for a team-high 80 yards, including a 40-yard run.",
         "page": 22,
         "category": "recent_game",
         "importance": "high",
@@ -360,19 +394,46 @@
         "source_team": "Texas A&M Aggies"
       },
       {
-        "fact_id": 11,
-        "fact": "Texas A&M used the same starting offensive line in each of its first three games: Tyree Adams at left tackle, Blake Ivy at left guard, Mark Nabou Jr. at center, Trovon Baugh at right guard and Wilkin Formby at right tackle.",
-        "page": 24,
-        "category": "offensive_personnel",
+        "fact_id": 27,
+        "fact": "Texas A&M has converted 19 of 43 third downs, a 44% rate, and six of 10 fourth downs.",
+        "page": 17,
+        "category": "offensive_context",
         "importance": "high",
         "source_file": "Texas A&M.pdf",
         "source_team": "Texas A&M Aggies"
       },
       {
         "fact_id": 28,
-        "fact": "Texas A&M has scored on 14 of 17 red-zone trips, including 12 touchdowns.",
-        "page": 18,
+        "fact": "The Aggies have scored touchdowns on 12 of 17 red-zone possessions and points on 14 of 17.",
+        "page": 17,
         "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Texas A&M has produced only nine plays of at least 20 yards through three games: five passes, two rushes and two interception returns.",
+        "page": 23,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 33,
+        "fact": "The Aggies rank second in the SEC and seventh nationally in third-down defense, allowing seven conversions on 31 attempts, a 23% rate.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Texas A&M has six takeaways through three games\u2014two interceptions and four fumble recoveries\u2014after recording 10 takeaways in 13 games in 2025.",
+        "page": 1,
+        "category": "defensive_context",
         "importance": "high",
         "source_file": "Texas A&M.pdf",
         "source_team": "Texas A&M Aggies"

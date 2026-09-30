@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Pittsburgh Panthers | +3.5 (-114) | FanDuel | 55.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Virginia Tech Hokies | -3.5 (-102) | DraftKings | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Tech Hokies | -3.5 (-102) | BetMGM | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,11 +15,11 @@ The Pittsburgh Panthers visit the Virginia Tech Hokies at Lane Stadium. We make 
 
 The best number we found is Pittsburgh +3.5 at -114. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-The market is asking us to give considerable weight to Virginia Tech’s home field and unbeaten start. Our numbers are less willing to do that because Pittsburgh has consistently extended drives and protected its passing game, converting half of its third downs while allowing only four sacks on 149 pass attempts. That supports the larger matchup signal in our model: Pittsburgh is well positioned to create scoring opportunities against a Virginia Tech defense that has struggled to prevent them.
+Our model’s lean toward Pittsburgh starts with scoring opportunities. We see an offense that has consistently moved into scoring range facing a Virginia Tech defense that has struggled to prevent those possessions. That matters more to us than simply comparing records because it gives Pittsburgh a plausible path to sustain drives and keep this game within one possession.
 
-Virginia Tech’s 43.3-point scoring average is the clearest challenge to that view, but our pass-efficiency matchup favors Pittsburgh’s defense. Pittsburgh is allowing 8.5 points per game, and opponents have converted only 15 of 54 third downs. We are not treating those early results as proof, but they help explain why our model is more skeptical of Virginia Tech’s offense than the market appears to be.
+The other important piece is Pittsburgh’s pass defense. Virginia Tech is averaging 43.3 points per game, but our numbers are skeptical that its passing efficiency translates cleanly against a defense allowing 8.5 points per game. We rate Pittsburgh’s pass defense as a significant matchup advantage, and opponents have converted only 15 of 54 third downs against it. That ability to end drives helps explain why our expectation is more favorable to Pittsburgh than the market’s.
 
-We see a legitimate football case for Pittsburgh, but the disagreement is modest. With the available price requiring more conviction than our edge provides, we are comfortable passing rather than forcing a position.
+We still see enough uncertainty to stay off the game. This is Pittsburgh’s first road test after four home games, and Virginia Tech’s scoring production deserves respect. For us, the football matchup supports the disagreement, but the available value is not large enough to overcome the venue and the limited margin for error, so we pass.
 
 ### What The Numbers Say
 
@@ -71,13 +71,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Pittsburgh’s passing game against Virginia Tech’s ability to get off the field. Mason Heintschel has completed 88 of 130 passes for 1,191 yards, 13 touchdowns and one interception, and all five listed starting offensive linemen have started each of the first four games.
-
-That continuity matters because Pittsburgh does not need a series of explosive plays to expose the underlying concern in Virginia Tech’s scoring-opportunity defense. If Pittsburgh protects Heintschel and continues sustaining drives, it can keep this game closer than the market expects. The question is whether that advantage is strong enough on the road to create separation rather than merely keep Pittsburgh competitive.
+We are watching Pittsburgh’s passing game against Virginia Tech’s scoring-opportunity defense. Mason Heintschel enters with 13 touchdown passes and one interception, while Pittsburgh as a team has completed 68.5% of its passes and allowed only four sacks in 149 attempts. If that protection and ball security carry over on the road, we think Pittsburgh can create enough high-value possessions to challenge the market’s view of the game.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -2,7 +2,7 @@
   "game": "West Virginia Mountaineers@Iowa State Cyclones",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T01:50:59.010588+00:00",
+  "generated_at_utc": "2026-09-30T15:03:24.812593+00:00",
   "model_prediction": -10.0,
   "market_line": -3.5,
   "best_line": -3.5,
@@ -13,60 +13,379 @@
   "bet_short": "Iowa State",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "For us, the strongest explanation for the model-market gap is Iowa State\u2019s ability to control how West Virginia has to play. West Virginia grades near the bottom nationally in rush EPA, while Iowa State has held four consecutive opponents below 100 rushing yards. Opponents also reached the red zone only three times through Iowa State\u2019s first three games. That combination supports our view that West Virginia may struggle to create enough quality scoring chances.",
-    "matchup_to_watch": "We are watching West Virginia\u2019s rushing offense against Iowa State\u2019s four-man defensive front. If Iowa State continues to limit early-down rushing efficiency, West Virginia could face more obvious passing situations against a defense that allowed opponents to convert only 27.9 percent of third downs through three games. That is the matchup most likely to determine whether Iowa State can create the separation our numbers anticipate.",
+    "narrative": "The market is pricing a relatively competitive game, but our view starts with how West Virginia has generated its offense. West Virginia has run the ball 229 times against only 65 pass attempts and is averaging 294.8 rushing yards per game. The more interesting part is that our efficiency numbers are far less impressed by that production, especially against an Iowa State defense allowing 16.0 points and 272.5 total yards per game. For us, the issue is whether West Virginia can stay on schedule when its preferred approach meets the strongest area of Iowa State\u2019s defense.",
+    "matchup_to_watch": "We are watching West Virginia\u2019s rushing offense against Iowa State\u2019s front. Cam Cook has three 100-yard rushing games, while Michael Hawkins Jr. has reached 100 rushing yards three times, so Iowa State has to account for multiple ball carriers. The concern is that Utah recently ran for 205 yards against Iowa State, but we are not treating one game as proof that the broader defensive profile has changed. If Iowa State limits efficient early-down runs, West Virginia may be pushed away from the identity it has leaned on through four games.",
     "guide_status": [
-      "No guide found for West Virginia Mountaineers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/West Virginia.pdf",
+      "Found guide for West Virginia Mountaineers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/West Virginia.pdf",
+      "Loaded guide for West Virginia Mountaineers: West Virginia.pdf",
       "Found guide for Iowa State Cyclones: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa State.pdf",
-      "Guide for Iowa State Cyclones was found but may not match the current opponent. The guide is labeled for Iowa State's 2026 Game 4 against Utah on Sept. 26, while West Virginia is listed as the following game on Oct. 3. Current Iowa State information is extracted, but Utah-specific material is excluded."
+      "Loaded guide for Iowa State Cyclones: Iowa State.pdf"
     ],
     "guide_extractions": [
       {
-        "source_team": "Iowa State Cyclones",
-        "opponent": "West Virginia Mountaineers",
-        "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is labeled for Iowa State's 2026 Game 4 against Utah on Sept. 26, while West Virginia is listed as the following game on Oct. 3. Current Iowa State information is extracted, but Utah-specific material is excluded.",
+        "source_team": "West Virginia Mountaineers",
+        "opponent": "Iowa State Cyclones",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The guide identifies West Virginia's next game as an Oct. 3, 2026 road matchup against Iowa State at Jack Trice Stadium and includes statistical comparisons and series history for the teams.",
         "recent_game": [
           {
-            "fact": "Iowa State defeated Bowling Green 55-7 in its most recent game, producing 507 total yards and 365 rushing yards.",
-            "page": 12,
+            "fact": "West Virginia lost its Big 12 opener to Oklahoma State 41-24 on Sept. 26, falling to 3-1 overall and 0-1 in conference play.",
+            "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Iowa State averaged 7.9 yards per carry against Bowling Green, and five of its seven touchdowns covered at least 30 yards.",
-            "page": 12,
+            "fact": "West Virginia rushed 66 times for 335 yards against Oklahoma State but completed 10 of 22 passes for 132 yards with one interception.",
+            "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Iowa State held Bowling Green to 186 total yards and 90 rushing yards.",
-            "page": 12,
+            "fact": "Cam Cook rushed 29 times for 193 yards against Oklahoma State, including a 75-yard run.",
+            "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Aiden Flora recorded 296 all-purpose yards against Bowling Green and scored on runs of 61 and 42 yards and a 66-yard punt return.",
-            "page": 12,
+            "fact": "Quarterback Michael Hawkins Jr. rushed 28 times for 103 yards and three touchdowns against Oklahoma State.",
+            "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Arnold Barnes III rushed for 63 yards and two touchdowns against Bowling Green.",
-            "page": 12,
+            "fact": "Oklahoma State gained 609 yards against West Virginia, including 389 passing yards and 220 rushing yards, and outscored WVU 13-0 in the fourth quarter.",
+            "page": 3,
             "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Carson Willich led Iowa State with six tackles, including one tackle for loss, as the defense recorded six tackles for loss against Bowling Green.",
-            "page": 12,
-            "category": "recent_game",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "opponent_notes": [
           {
-            "fact": "Iowa State is scheduled to host West Virginia for Homecoming on Oct. 3, 2026, at 11 a.m. Central on FOX.",
+            "fact": "Iowa State enters the matchup 2-2 overall and 0-1 in the Big 12 under first-year head coach Jimmy Rogers.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State is averaging 30.8 points and 345.2 total yards per game, with 180.5 rushing yards and 164.8 passing yards per game.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State is allowing 16.0 points and 272.5 total yards per game, including 113.8 rushing yards and 158.8 passing yards.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State has scored on all 12 of its red-zone opportunities, ranking No. 1 nationally in red-zone offense.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State's offense has converted 15 of 47 third downs, a 31.9% rate, while its defense has allowed conversions on 15 of 53 third downs, a 28.3% rate.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Michael Hawkins Jr. has started all four games for West Virginia in 2026 and is listed with Scotty Fox Jr. as an 'or' option on the Iowa State depth chart.",
+            "page": 15,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hawkins has produced at least 100 rushing yards in three games this season and has scored three rushing touchdowns in each of the past two games.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hawkins is the first West Virginia quarterback to score a rushing touchdown in four consecutive games since Skyler Howard in 2015.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "West Virginia has used the same starting offensive line in each of its first four games: true freshman Kevin Brown at left tackle, Nick Krahe at left guard, Wes King at center, Amare Grayson at right guard and Carsten Casady at right tackle.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Wes King has 37 career starts, while guards Nick Krahe and Amare Grayson have 16 and 26 career starts, respectively, and right tackle Carsten Casady has 18.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "True freshman left tackle Kevin Brown has started all four games of the 2026 season.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Cook is the starting running back and has recorded three 100-yard rushing games through four contests, including 193 yards in the most recent game.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia's listed starting receivers are John Neider, DJ Epps and Jaden Bray, with Josh Sapp listed first at tight end.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "West Virginia's current defensive depth chart lists Zeke Durham-Campbell at EDGE, Corey McIntyre Jr. at defensive tackle, Nate Gabriel at nose guard and Harper Holloman at bandit.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The current depth chart lists Ben Cutter at middle linebacker, Ashton Woods or Cam Torbor at weakside linebacker, and Geimere Latimer II at nickel/safety.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kamari Wilson intercepted Oklahoma State quarterback Drew Mestemaker and finished with seven tackles in West Virginia's most recent game.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Geimere Latimer II has forced three fumbles through four games, including two against Oklahoma State.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Rich Rodriguez is in his second season since returning as West Virginia's head coach and has a 3-1 record in 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Zac Alley serves as West Virginia's assistant head coach, defensive coordinator and linebackers coach, while Pat Kirkland is the special teams coordinator and a defensive assistant.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "This will be the first head-coaching meeting between Rich Rodriguez and Iowa State coach Jimmy Rogers.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "West Virginia is averaging 294.8 rushing yards per game, ranking No. 4 nationally and No. 1 in the Big 12.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia has rushed for at least 200 yards in four consecutive games for the first time since 2017 and has exceeded 300 rushing yards twice this season.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia has run 229 times and attempted 65 passes through four games, gaining 1,179 rushing yards and 663 passing yards.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Mountaineers are averaging 460.5 total yards and 36.3 points per game while gaining 6.3 yards per play.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia has converted 33 of 62 third downs, a 53.2% rate that ranks No. 12 nationally.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia averages 17.0 yards per completion, ranking No. 2 nationally, but averages only 165.8 passing yards per game.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "West Virginia is allowing 426.5 total yards per game, including 282.3 passing yards and 144.3 rushing yards.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia's pass defense ranks No. 133 nationally, while Iowa State averages 164.8 passing yards per game and ranks No. 119.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia has recorded 10 sacks for 75 yards through four games, compared with six sacks allowed by its offense.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Mountaineers have recovered three fumbles and generated five total takeaways through four games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "West Virginia opponents have converted 17 of 52 third downs, a 32.7% rate.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "West Virginia has allowed opponents to score on five of seven red-zone trips, a 71.4% rate that ranks No. 18 nationally.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Iowa State averages 34.2 yards per kickoff return, ranking No. 9 nationally, while West Virginia allows 16.0 yards per kickoff return.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jack Cassidy is 4-for-4 on field goals this season and made a 27-yard field goal plus all three PAT attempts against Oklahoma State.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Bryan Hansen has averaged 42.71 yards on 17 punts, with four punts inside the 20 and four traveling at least 50 yards.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "The West Virginia-Iowa State series is tied 6-6, including a 3-3 record in Ames.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa State has won five of the past six meetings and the past three games played in Ames; the Cyclones won the most recent meeting 28-16 in 2024.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The game is scheduled for noon ET on Oct. 3, 2026, at Jack Trice Stadium in Ames.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Iowa State game is West Virginia's 2026 Big 12 road opener; the Mountaineers are 8-6 in Big 12 road openers.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "West Virginia.pdf"
+      },
+      {
+        "source_team": "Iowa State Cyclones",
+        "opponent": "West Virginia Mountaineers",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The document is labeled \"2026 Cyclone Football Game 5 // vs. West Virginia\" and lists Iowa State hosting West Virginia on Oct. 3, 2026.",
+        "recent_game": [
+          {
+            "fact": "Iowa State lost 31-17 to No. 15 Utah in its Big 12 opener, falling to 2-2 overall and 0-1 in conference play.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State trailed Utah 17-0 and 24-3 at halftime before cutting the deficit to 24-17 with 10:48 remaining.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaylen Raynor completed 21 of 40 passes for 205 yards, one touchdown and two interceptions against Utah and also scored a rushing touchdown.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State produced 316 total yards and 23 first downs against Utah, including 111 rushing yards.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Utah gained 411 total yards, including 205 rushing yards, ending Iowa State's five-game streak of holding opponents below 100 rushing yards.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiden Flora had 107 yards from scrimmage against Utah, with 54 rushing yards and career highs of five receptions and 53 receiving yards.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Dominic Overby caught a 22-yard fourth-quarter touchdown against Utah, while Omari Hayes led Iowa State with season highs of five receptions and 55 receiving yards.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sullivan Schlimgen made a career-high 12 tackles against Utah, and Carson Willich recorded his first career sack.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Iowa State hosts West Virginia on Oct. 3, 2026, at 11 a.m. Central for Iowa State's Homecoming game.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia enters the matchup 3-1 overall and 0-1 in the Big 12 under head coach Rich Rodriguez.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State enters the matchup 2-2 overall and 0-1 in the Big 12.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
@@ -74,25 +393,31 @@
         ],
         "quarterback": [
           {
-            "fact": "Starting quarterback Jaylen Raynor transferred from Arkansas State after three seasons and had made 39 career starts with 22 wins entering the Utah game.",
+            "fact": "Senior transfer Jaylen Raynor is listed as Iowa State's starting quarterback after spending three seasons at Arkansas State.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Raynor has made 40 career starts, has 22 wins as a starter and leads active FBS quarterbacks with eight career fourth-quarter game-winning drives.",
             "page": 14,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Through three games in 2026, Raynor had four passing touchdowns, two rushing touchdowns and one interception.",
+            "fact": "Raynor has five passing touchdowns and three rushing touchdowns through four games in 2026.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Raynor completed 11 of 17 passes for 133 yards and rushed for 30 yards against Bowling Green.",
-            "page": 12,
+            "fact": "Raynor has thrown a touchdown pass in six consecutive games, the longest such streak of his career, and has 11 touchdown passes and three rushing touchdowns during that span.",
+            "page": 14,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Raynor had thrown a touchdown pass in five consecutive games, tied for the longest streak of his career.",
+            "fact": "Raynor has 9,326 career passing yards, 10,653 yards of total offense, 57 passing touchdowns and 75 touchdowns responsible for.",
             "page": 14,
             "category": "quarterback",
             "importance": "medium"
@@ -106,78 +431,114 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Iowa State entered 2026 with no returning offensive or defensive starters and 83 newcomers on its 126-player roster.",
+            "fact": "Iowa State returned no offensive starters from 2025 and has 83 newcomers among 126 players on its 2026 roster.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The listed starting offensive line was left tackle Jake Taylor, left guard Caden Maas, center Braden Smith, right guard Austin Barrett and right tackle Maasai King.",
+            "fact": "The current offensive depth chart lists Aiden Flora at running back, Dominic Overby, Omari Hayes and Cody Jackson or Jamal Polite Jr. at wide receiver, and Tyler Fortenberry or Vince Benetti at the Y position.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Aiden Flora was listed as the starting running back, with Cameron Pettaway as the backup.",
-            "page": 10,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Flora led the Big 12 through three games with 328 rushing yards, 109.3 rushing yards per game and 8.6 yards per carry.",
+            "fact": "Flora has 382 rushing yards through four games, averaging 95.5 yards per game and 7.5 yards per carry, with three rushing touchdowns.",
             "page": 19,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The listed starting receivers were Dominic Overby, Omari Hayes and either Cody Jackson or Jamal Polite Jr.",
+            "fact": "Flora has recorded at least 100 all-purpose yards in consecutive games, including 296 against Bowling Green and 107 against Utah.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dominic Overby is averaging 20.3 yards per reception in 2026 and has three catches of at least 20 yards.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa State's listed starting offensive line is left tackle Jake Taylor, left guard Caden Maas, center Braden Smith, right guard Austin Barrett and right tackle Maasai King.",
             "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Taylor, Maas, Smith and King have started all four games in 2026; Barrett has started the last three at right guard after Trevor Bindel started the opener.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State brought in 10 transfer offensive linemen, tied for the largest transfer group among its position units.",
+            "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Iowa State's listed starting defensive front was Isaac Terrell and Caden Crawford or Malaki Ta'ase at end, with Bryson Lamb and Max Baloun or Zaimir Hawk at tackle.",
+            "fact": "Iowa State returned no defensive starters from 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The current defensive front lists Isaac Terrell, Bryson Lamb, Max Baloun or Zaimir Hawk, and Caden Crawford or Malaki Ta'ase as the primary starters.",
             "page": 10,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The listed starting linebackers were Carson Willich, Sullivan Schlimgen and Willie Breland III.",
+            "fact": "The listed starting linebackers are Carson Willich, Sullivan Schlimgen and Willie Breland III.",
             "page": 10,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Schlimgen led Iowa State through three games with 7.7 tackles per game and recovered a fumble against Bowling Green.",
-            "page": 1,
+            "fact": "Schlimgen leads Iowa State with 8.8 tackles per game, second in the Big 12.",
+            "page": 19,
             "category": "defensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Beau Goodwin intercepted a pass against Bowling Green, while Jack Janikowski forced a fumble recovered by Schlimgen.",
-            "page": 13,
+            "fact": "Willich has a career-high five tackles for loss and has recorded at least one tackle for loss in every game this season.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Terrell opened the season with three sacks against Southeast Missouri but has not added another sack through four games.",
+            "page": 14,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Jimmy Rogers became Iowa State's head coach on Dec. 5, 2025, after coaching Washington State in 2025 and South Dakota State in 2023-24.",
+            "fact": "Jimmy Rogers became Iowa State's head coach on Dec. 5, 2025, replacing Matt Campbell after Campbell accepted the Penn State job.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Rogers previously coached South Dakota State in 2023-24 and Washington State in 2025; he is 35-11 overall as a head coach and 24-2 at home.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Tyler Roehl is Iowa State's first-year offensive coordinator, and Jesse Bobbit is its first-year defensive coordinator.",
+            "fact": "Tyler Roehl is Iowa State's first-year offensive coordinator, Jesse Bobbit is its first-year defensive coordinator and Jake Thornton is its first-year offensive line coach.",
             "page": 5,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Rogers was 2-1 at Iowa State and 24-1 in home games during his head-coaching career entering the Utah game.",
-            "page": 3,
+            "fact": "Fifteen players followed Rogers from Washington State to Iowa State.",
+            "page": 5,
             "category": "coaching_changes",
             "importance": "medium"
           }
@@ -185,31 +546,37 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Iowa State had rushed for at least 100 yards in 20 consecutive games, the longest active streak among Power Four teams.",
+            "fact": "Iowa State has rushed for at least 100 yards in 21 consecutive games, the longest active streak among Power-4 teams.",
             "page": 13,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Through three games, Iowa State averaged 203.7 rushing yards and 151.3 passing yards per game.",
+            "fact": "Through four games, Iowa State averages 180.5 rushing yards, 164.8 passing yards and 345.3 total yards per game.",
             "page": 19,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Iowa State had scored on all 11 of its red-zone possessions through three games, including seven touchdowns.",
-            "page": 12,
+            "fact": "Iowa State ranks last in the Big 12 in total offense and passing offense and 15th in third-down conversion rate at 31.9 percent.",
+            "page": 19,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Cyclones had allowed two sacks through three games.",
+            "fact": "The Cyclones have allowed three sacks through four games, third-fewest in the Big 12.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State is scoring 30.8 points per game and is 12-for-12 on red-zone scoring opportunities.",
             "page": 19,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Iowa State had 611 rushing yards through three games, its third-highest three-game total since 2002.",
+            "fact": "Iowa State has outscored opponents 23-0 in the third quarter and 47-16 in the second half.",
             "page": 13,
             "category": "offensive_context",
             "importance": "medium"
@@ -217,87 +584,118 @@
         ],
         "defensive_context": [
           {
-            "fact": "Iowa State changed from a three-man defensive front to a four-man front under Rogers and Bobbit.",
+            "fact": "Iowa State changed from a three-man defensive front to a four-man front under Rogers and defensive coordinator Jesse Bobbit.",
             "page": 15,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Through three games, Iowa State allowed 226.3 total yards and 11.0 points per game.",
+            "fact": "Iowa State allows 272.5 total yards per game, ranking 26th nationally and fifth in the Big 12.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Cyclones allow 16.0 points and 158.8 passing yards per game; the passing figure ranks 16th nationally and third in the Big 12.",
             "page": 19,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Iowa State allowed 83.3 rushing yards per game and had held four consecutive opponents below 100 rushing yards.",
-            "page": 13,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Opponents converted 27.9 percent of third downs through three games and had reached Iowa State's red zone only three times.",
+            "fact": "Opponents have converted 28.3 percent of third downs against Iowa State, fourth-best in the Big 12.",
             "page": 15,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Iowa State had allowed four rushing plays of at least 10 yards and four passing plays of at least 20 yards through three games.",
+            "fact": "Iowa State has allowed eight rushing plays of at least 10 yards and seven passing plays of at least 20 yards through four games.",
             "page": 15,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "The Cyclones had a plus-three turnover margin through three games.",
-            "page": 13,
+            "fact": "Iowa State has allowed an average of 4.0 second-half points per game in 2026.",
+            "page": 15,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "special_teams": [
           {
-            "fact": "Against Bowling Green, Aiden Flora returned a punt 66 yards for a touchdown and Cameron Pettaway returned a kickoff 100 yards for a touchdown.",
+            "fact": "Aiden Flora leads the Big 12 with a 17.9-yard punt-return average and has one punt-return touchdown this season.",
+            "page": 19,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Cameron Pettaway has a kickoff-return touchdown and is listed as Iowa State's primary kick returner.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Bowling Green, Flora returned a punt 66 yards for a touchdown and Pettaway produced a 100-yard kickoff-return touchdown.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kyle Konrardy is 6-for-7 on field goals in 2026 and made a 47-yard field goal against Utah.",
             "page": 12,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "The Bowling Green game was the first in Iowa State history in which the Cyclones scored both a punt-return touchdown and a kickoff-return touchdown.",
-            "page": 12,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Kyle Konrardy had made 17 consecutive field goals from 45 yards or closer and owned a school-record six career field goals of at least 50 yards.",
+            "fact": "Konrardy has made 17 consecutive field goals from 45 yards or closer and owns an Iowa State record with six career field goals of at least 50 yards.",
             "page": 15,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Konrardy made field goals from 39 and 40 yards and missed from 54 yards against Bowling Green.",
-            "page": 12,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "The depth chart listed Flora as the primary punt returner, Pettaway as the primary kickoff returner and Jonah DuPont as the starting punter.",
-            "page": 10,
+            "fact": "Konrardy has produced touchbacks on 20 of 24 kickoffs this season.",
+            "page": 15,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
-        "series_context": [],
-        "other_relevant": [
+        "series_context": [
           {
-            "fact": "Iowa State was 2-1 overall and 2-0 at home entering its Sept. 26 game against Utah.",
-            "page": 1,
-            "category": "other_relevant",
+            "fact": "The Iowa State-West Virginia series is tied 6-6, including 3-3 in Ames.",
+            "page": 14,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State has won five of the last six meetings and carries a two-game series winning streak.",
+            "page": 14,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State has won the last three home meetings against West Virginia by an average of 23 points.",
+            "page": 14,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Cyclones have had a 100-yard rusher or receiver in each of their last three home meetings with West Virginia.",
+            "page": 14,
+            "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "The West Virginia game is the final contest of Iowa State's three-game homestand.",
-            "page": 1,
-            "category": "other_relevant",
+            "fact": "The most recent meeting was Iowa State's 28-16 road win in 2024.",
+            "page": 14,
+            "category": "series_context",
             "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Iowa State's 126-player roster includes 83 newcomers, while 78 players from the 2025 roster left the program following the coaching change.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "high"
           }
         ],
         "source_file": "Iowa State.pdf"
@@ -340,26 +738,89 @@
     ],
     "used_sources": [
       {
+        "fact_id": 8,
+        "fact": "Iowa State is allowing 16.0 points and 272.5 total yards per game, including 113.8 rushing yards and 158.8 passing yards.",
+        "page": 2,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
         "fact_id": 12,
-        "fact": "Iowa State entered 2026 with no returning offensive or defensive starters and 83 newcomers on its 126-player roster.",
-        "page": 5,
+        "fact": "Hawkins has produced at least 100 rushing yards in three games this season and has scored three rushing touchdowns in each of the past two games.",
+        "page": 13,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 17,
+        "fact": "Cam Cook is the starting running back and has recorded three 100-yard rushing games through four contests, including 193 yards in the most recent game.",
+        "page": 13,
         "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 26,
+        "fact": "West Virginia is averaging 294.8 rushing yards per game, ranking No. 4 nationally and No. 1 in the Big 12.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 28,
+        "fact": "West Virginia has run 229 times and attempted 65 passes through four games, gaining 1,179 rushing yards and 663 passing yards.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 32,
+        "fact": "West Virginia is allowing 426.5 total yards per game, including 282.3 passing yards and 144.3 rushing yards.",
+        "page": 2,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 33,
+        "fact": "West Virginia's pass defense ranks No. 133 nationally, while Iowa State averages 164.8 passing yards per game and ranks No. 119.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 45,
+        "fact": "Iowa State lost 31-17 to No. 15 Utah in its Big 12 opener, falling to 2-2 overall and 0-1 in conference play.",
+        "page": 12,
+        "category": "recent_game",
         "importance": "high",
         "source_file": "Iowa State.pdf",
         "source_team": "Iowa State Cyclones"
       },
       {
-        "fact_id": 15,
-        "fact": "Flora led the Big 12 through three games with 328 rushing yards, 109.3 rushing yards per game and 8.6 yards per carry.",
-        "page": 19,
-        "category": "offensive_personnel",
+        "fact_id": 49,
+        "fact": "Utah gained 411 total yards, including 205 rushing yards, ending Iowa State's five-game streak of holding opponents below 100 rushing yards.",
+        "page": 12,
+        "category": "recent_game",
         "importance": "high",
         "source_file": "Iowa State.pdf",
         "source_team": "Iowa State Cyclones"
       },
       {
-        "fact_id": 25,
-        "fact": "Through three games, Iowa State averaged 203.7 rushing yards and 151.3 passing yards per game.",
+        "fact_id": 82,
+        "fact": "Iowa State ranks last in the Big 12 in total offense and passing offense and 15th in third-down conversion rate at 31.9 percent.",
         "page": 19,
         "category": "offensive_context",
         "importance": "high",
@@ -367,29 +828,11 @@
         "source_team": "Iowa State Cyclones"
       },
       {
-        "fact_id": 29,
-        "fact": "Iowa State changed from a three-man defensive front to a four-man front under Rogers and Bobbit.",
-        "page": 15,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Iowa State.pdf",
-        "source_team": "Iowa State Cyclones"
-      },
-      {
-        "fact_id": 31,
-        "fact": "Iowa State allowed 83.3 rushing yards per game and had held four consecutive opponents below 100 rushing yards.",
-        "page": 13,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Iowa State.pdf",
-        "source_team": "Iowa State Cyclones"
-      },
-      {
-        "fact_id": 32,
-        "fact": "Opponents converted 27.9 percent of third downs through three games and had reached Iowa State's red zone only three times.",
-        "page": 15,
-        "category": "defensive_context",
-        "importance": "high",
+        "fact_id": 84,
+        "fact": "Iowa State is scoring 30.8 points per game and is 12-for-12 on red-zone scoring opportunities.",
+        "page": 19,
+        "category": "offensive_context",
+        "importance": "medium",
         "source_file": "Iowa State.pdf",
         "source_team": "Iowa State Cyclones"
       }

@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas Razorbacks | +13.5 (-105) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas A&M Aggies | -14.0 (-105) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas Razorbacks | +13.5 (-105) | Fanatics | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | -14.5 (+100) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,7 +15,11 @@ The Arkansas Razorbacks visit the Texas A&M Aggies at Kyle Field. We make **Arka
 
 The best number we found is Arkansas +13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
-What stands out to us is Texas A&M's ability to create scoring opportunities against an Arkansas defense that has struggled to prevent them. Texas A&M has converted 14 of 17 red-zone trips into scores, including 12 touchdowns, and Marcel Reed adds stress as both a passer and runner. The same offensive line has started each of the first three games, giving that unit continuity around him.
+We see the strongest case for Texas A&M in its ability to sustain possessions against an Arkansas defense our numbers rate poorly at preventing scoring opportunities. Texas A&M has converted 19 of 43 third downs and scored touchdowns on 12 of 17 red-zone possessions. That combination supports the possibility of control and separation without requiring a steady stream of explosive plays.
+
+We are not treating the Kentucky loss as proof that the offense is broken. Texas A&M gained 423 yards in that game, but two turnovers undermined the production. The broader concern is that Texas A&M has generated only nine plays of at least 20 yards through three games, which makes the margin more dependent on consistently finishing longer drives.
+
+We also see a Texas A&M defense that has allowed only seven third-down conversions on 31 attempts and produced six takeaways. Those results can create extra possessions, but we are cautious about building too much into an early turnover sample. For us, the supporting football case is largely consistent with the market's expectation, leaving too little disagreement to justify a play.
 
 ### What The Numbers Say
 
@@ -67,11 +71,13 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the matchup to watch is Texas A&M's offense once it crosses into scoring range. Arkansas has been vulnerable at preventing those opportunities, while Texas A&M has generally finished them with touchdowns. Reed's mobility is an added complication after he led the team with 80 rushing yards against Kentucky. That advantage supports the market's respect for Texas A&M, but our broader numbers indicate it is already accounted for, leaving us without enough value at the available price.
+We are watching Marcel Reed against Arkansas once Texas A&M moves into scoring range. Reed showed both sides of the equation against Kentucky: he ran for a team-high 80 yards, including a 40-yard gain, but also threw two interceptions. His mobility gives Texas A&M another way to attack Arkansas, while his ball security could determine whether promising drives become touchdowns or missed chances.
+
+Our numbers expect Texas A&M to reach scoring territory regularly. The question for us is whether Reed and the offense convert those opportunities efficiently enough to create the margin the market is asking for.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

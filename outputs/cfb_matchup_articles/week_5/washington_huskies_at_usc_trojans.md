@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | +9.5 (-105) | BetMGM | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| USC Trojans | -9.5 (-112) | BetMGM | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | +9.5 (-105) | DraftKings | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| USC Trojans | -9.5 (-110) | BetMGM | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,11 +15,9 @@ The Washington Huskies visit the USC Trojans at Los Angeles Memorial Coliseum. W
 
 The best number we found is Washington +9.5 at -105. We give Washington a 55.3% chance to cover, which creates an 4.1% edge for us. That clears our 3% threshold, so Washington is a bet.
 
-We understand why the market is giving USC substantial respect. Through four games, USC averaged 43.0 points and 500.3 yards while gaining 7.2 yards per play. Jayden Maiava completed 75.7% of his passes with 12 touchdowns and one interception over that stretch, so Washington faces an offense capable of creating separation quickly.
+We understand why USC is priced as a sizable favorite. We saw the offense produce 461 yards at 7.3 yards per play against Rutgers, and Jayden Maiava has opened the season with 12 touchdown passes against one interception. USC has also converted 65% of its third downs through four games. That efficiency is the clearest concern for our Washington position because it gives USC multiple ways to sustain drives and create separation.
 
-Where we differ is in how consistently USC can control this game on the ground. Washington ranks sixth in rush EPA defense, while USC's rushing offense ranks 89th. That does not neutralize Maiava, but it could make USC more dependent on its passing game and reduce the number of comfortable, low-variance drives available to the favorite.
-
-We also see a path for Washington to sustain enough offense to remain competitive. Its rushing attack meets a USC run defense ranked 96th in rush EPA, and USC allowed 43 fourth-quarter points across its first four games. We are not treating that late-game split as proof of a recurring problem, but it reinforces our view that Washington has credible ways to stay within the margin.
+Our disagreement comes from how that offense matches up with Washington’s run defense. Our numbers rate Washington among the nation’s strongest teams in rush EPA, while USC’s rushing efficiency has been much less convincing over the longer run than its latest box score suggests. We also see potential for Washington to find enough on the ground against USC to shorten the game and stay competitive. USC has allowed 43 fourth-quarter points through four games, which does not establish a trend by itself, but it reinforces why we are reluctant to price the Trojans as likely to maintain a wide margin for four quarters.
 
 ### What The Numbers Say
 
@@ -71,11 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, the defining matchup is USC's rushing offense against Washington's rush defense. King Miller ran for 102 yards against Rutgers, and USC's running backs combined for 180 yards without a negative rushing attempt in that game. Washington presents a much different efficiency test. If we see Washington consistently force USC away from easy rushing success, the game becomes more dependent on Maiava producing through the air, which is the structure that best supports our position.
+For us, the matchup to watch is USC’s rushing offense against Washington’s front. If Washington can limit efficient early-down runs, USC becomes more dependent on Maiava repeatedly converting through the air rather than controlling the game on schedule. Maiava’s start demands respect, but forcing USC into that narrower path is the most important football reason we see Washington staying inside the available number.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

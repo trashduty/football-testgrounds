@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Alabama Crimson Tide | -6.0 (-108) | BetMGM | 48.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Alabama Crimson Tide | -6.5 (-105) | theScore Bet | 48.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Mississippi State Bulldogs | +5.5 (-102) | FanDuel | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

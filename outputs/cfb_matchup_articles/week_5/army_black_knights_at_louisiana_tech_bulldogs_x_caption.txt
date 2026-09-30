@@ -1,9 +1,9 @@
 Our model is 3 points away from the market on Army-Louisiana Tech.
 
-We make Louisiana Tech -1. The market is +2.
+We make Louisiana Tech -0.5. The market is +2.5.
 
-Best number: Louisiana Tech +2.5 -110. We give it a 56.2% chance to cover with a 3.8% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓

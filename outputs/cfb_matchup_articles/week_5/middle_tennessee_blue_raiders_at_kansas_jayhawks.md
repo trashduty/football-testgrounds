@@ -15,9 +15,9 @@ The Middle Tennessee Blue Raiders visit the Kansas Jayhawks at Memorial Stadium.
 
 The best number we found is Middle Tennessee +18.5 at -105. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not treating Kansas’ 51-6 opener as proof that the same level of separation carries forward. The Jayhawks produced 613 yards and allowed only 146, but that result is still one game. For us, the more relevant uncertainty is how quickly a reshaped roster settles in: Kansas entered the season with eight returning starters and added 32 transfers.
+We are not treating Kansas’ 51-6 opener as proof that it will consistently create that kind of separation. We saw an impressive performance: Kansas gained 613 yards, held Long Island to 146 and got 246 passing yards plus 49 rushing yards from new starting quarterback Isaiah Marshall. The more important question for us is how much to carry forward against a stronger opponent.
 
-Our numbers show a plausible path for Middle Tennessee through the passing game and its ability to create scoring opportunities, particularly against areas where Kansas grades less favorably over the longer run. Kansas still showed meaningful upside in the opener, with Isaiah Marshall completing 14 of 19 passes for 246 yards and an offensive line that allowed no sacks. That combination leaves credible cases on both sides, and our overall expectation is essentially aligned with what the market is already asking us to pay. We do not see enough separation to justify a wager.
+Our numbers show Middle Tennessee’s clearest path through its passing game and its ability to create scoring opportunities against a Kansas defense that grades less favorably in those areas. That case is balanced by Kansas’ defensive pressure—the Jayhawks recorded 11 tackles for loss in the opener—and by the uncertainty surrounding an offense that lost nine starters from 2025. For us, the positives and concerns largely offset each other, leaving our view closely aligned with the market and without enough value to justify a wager.
 
 ### What The Numbers Say
 
@@ -69,11 +69,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Middle Tennessee’s passing offense against Kansas’ pass defense. The question is whether Middle Tennessee can exploit the softer grades in our numbers before Kansas’ pressure disrupts the plan. Leroy Harris III recorded four tackles for loss in the opener, while returning cornerbacks Jalen Todd and Austin Alexander combined for 22 starts last season. If Kansas can generate pressure without compromising that experienced coverage, Middle Tennessee’s clearest route to staying competitive becomes much narrower.
+We are watching Middle Tennessee’s passing offense against the Kansas pass defense. Our numbers suggest this is where Middle Tennessee has the best chance to sustain drives, but Kansas brings meaningful experience on the back end: Jalen Todd and Austin Alexander combined for 22 starts last season, while Taylor Davis started 10 games. If Kansas pairs that secondary experience with the disruption it showed in the opener, Middle Tennessee’s most plausible route to staying competitive becomes much narrower.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

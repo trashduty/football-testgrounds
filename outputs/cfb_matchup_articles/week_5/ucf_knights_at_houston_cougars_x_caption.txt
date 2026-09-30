@@ -1,9 +1,9 @@
-Our model is 1.5 points away from the market on UCF-Houston.
+Our model is 1 point away from the market on UCF-Houston.
 
-We make UCF +11. The market is +12.5.
+We make UCF +11. The market is +12.
 
-Best number: UCF +12.5 -106. We give it a 55.0% chance to cover with a 3.5% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓

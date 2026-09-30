@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Liberty Flames | -7.5 (+100) | FanDuel | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Delaware Blue Hens | +7.5 (-122) | FanDuel | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Liberty Flames | -7.5 (+100) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | +7.5 (-112) | BetMGM | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Liberty Flames visit the Delaware Blue Hens at Delaware Stadium. We make **Liberty -8.5**, compared with a market line of -7.
+The Liberty Flames visit the Delaware Blue Hens at Delaware Stadium. We make **Liberty -9**, compared with a market line of -7.5.
 
-The best number we found is Liberty -7.5 at +100. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Liberty -7.5 at +100. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

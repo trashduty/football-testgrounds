@@ -2,69 +2,51 @@
   "game": "Washington Huskies@USC Trojans",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T01:50:04.105661+00:00",
+  "generated_at_utc": "2026-09-30T15:01:10.252605+00:00",
   "model_prediction": 8.0,
   "market_line": 9.5,
   "best_line": 9.5,
   "best_price": "-105",
-  "best_book": "BetMGM",
+  "best_book": "DraftKings",
   "cover_probability": 0.55280225,
   "edge": 0.0406071280487805,
   "bet_short": "Washington",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "We understand why the market is giving USC substantial respect. Through four games, USC averaged 43.0 points and 500.3 yards while gaining 7.2 yards per play. Jayden Maiava completed 75.7% of his passes with 12 touchdowns and one interception over that stretch, so Washington faces an offense capable of creating separation quickly.\n\nWhere we differ is in how consistently USC can control this game on the ground. Washington ranks sixth in rush EPA defense, while USC's rushing offense ranks 89th. That does not neutralize Maiava, but it could make USC more dependent on its passing game and reduce the number of comfortable, low-variance drives available to the favorite.\n\nWe also see a path for Washington to sustain enough offense to remain competitive. Its rushing attack meets a USC run defense ranked 96th in rush EPA, and USC allowed 43 fourth-quarter points across its first four games. We are not treating that late-game split as proof of a recurring problem, but it reinforces our view that Washington has credible ways to stay within the margin.",
-    "matchup_to_watch": "For us, the defining matchup is USC's rushing offense against Washington's rush defense. King Miller ran for 102 yards against Rutgers, and USC's running backs combined for 180 yards without a negative rushing attempt in that game. Washington presents a much different efficiency test. If we see Washington consistently force USC away from easy rushing success, the game becomes more dependent on Maiava producing through the air, which is the structure that best supports our position.",
+    "narrative": "We understand why USC is priced as a sizable favorite. We saw the offense produce 461 yards at 7.3 yards per play against Rutgers, and Jayden Maiava has opened the season with 12 touchdown passes against one interception. USC has also converted 65% of its third downs through four games. That efficiency is the clearest concern for our Washington position because it gives USC multiple ways to sustain drives and create separation.\n\nOur disagreement comes from how that offense matches up with Washington\u2019s run defense. Our numbers rate Washington among the nation\u2019s strongest teams in rush EPA, while USC\u2019s rushing efficiency has been much less convincing over the longer run than its latest box score suggests. We also see potential for Washington to find enough on the ground against USC to shorten the game and stay competitive. USC has allowed 43 fourth-quarter points through four games, which does not establish a trend by itself, but it reinforces why we are reluctant to price the Trojans as likely to maintain a wide margin for four quarters.",
+    "matchup_to_watch": "For us, the matchup to watch is USC\u2019s rushing offense against Washington\u2019s front. If Washington can limit efficient early-down runs, USC becomes more dependent on Maiava repeatedly converting through the air rather than controlling the game on schedule. Maiava\u2019s start demands respect, but forcing USC into that narrower path is the most important football reason we see Washington staying inside the available number.",
     "guide_status": [
       "No guide found for Washington Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
       "Found guide for USC Trojans: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
-      "Guide for USC Trojans was found but may not match the current opponent. This is USC's Sept. 21, 2026 Game 5 guide for the Sept. 26 home game against Oregon. The schedule identifies Washington as USC's following opponent on Oct. 3, so the guide is not intended for the USC-Washington matchup."
+      "Guide for USC Trojans was found but may not match the current opponent. The guide was released on Sept. 21, 2026 for USC's Game 5 matchup against Oregon on Sept. 26. Washington is listed as USC's following opponent on Oct. 3, so this is not the guide for the USC-Washington matchup."
     ],
     "guide_extractions": [
       {
         "source_team": "USC Trojans",
         "opponent": "Washington Huskies",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "This is USC's Sept. 21, 2026 Game 5 guide for the Sept. 26 home game against Oregon. The schedule identifies Washington as USC's following opponent on Oct. 3, so the guide is not intended for the USC-Washington matchup.",
+        "document_match_reason": "The guide was released on Sept. 21, 2026 for USC's Game 5 matchup against Oregon on Sept. 26. Washington is listed as USC's following opponent on Oct. 3, so this is not the guide for the USC-Washington matchup.",
         "recent_game": [
           {
-            "fact": "USC improved to 4-0 overall and 1-0 in Big Ten play with a 42-35 road win over Rutgers.",
+            "fact": "USC improved to 4-0 overall and 1-0 in Big Ten play with a 42-35 road victory over Rutgers on Sept. 19.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "USC never trailed against Rutgers and produced 461 total yards at 7.3 yards per play.",
+            "fact": "USC never trailed against Rutgers and produced 461 total yards at 7.3 yards per play, including 5.9 yards per rush and 8.7 yards per pass attempt.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "USC averaged 5.9 yards per rush and 8.7 yards per pass attempt against Rutgers.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "USC scored four offensive touchdowns, one defensive touchdown and two field goals against Rutgers.",
+            "fact": "USC scored four offensive touchdowns, one defensive touchdown and two field goals against Rutgers while converting 5 of 10 third downs.",
             "page": 1,
             "category": "recent_game",
             "importance": "medium"
           },
           {
-            "fact": "USC converted 5 of 10 third downs against Rutgers, including 2 of 3 in the fourth quarter.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "USC recorded six plays of at least 20 yards against Rutgers, evenly divided between runs and passes.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "USC intercepted two Rutgers passes and accumulated 115 interception-return yards.",
+            "fact": "USC forced two Rutgers turnovers, scored 14 points off them and generated 115 interception-return yards.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -73,22 +55,10 @@
         "opponent_notes": [],
         "quarterback": [
           {
-            "fact": "Quarterback Jayden Maiava completed 20 of 32 passes for 277 yards, two touchdowns and no interceptions against Rutgers.",
+            "fact": "Starting quarterback Jayden Maiava completed 20 of 32 passes for 277 yards, two touchdowns and no interceptions against Rutgers.",
             "page": 2,
             "category": "quarterback",
             "importance": "high"
-          },
-          {
-            "fact": "Maiava completed passes to nine different USC players against Rutgers.",
-            "page": 2,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Maiava completed 5 of 6 passes for 35 yards and a touchdown in the fourth quarter against Rutgers.",
-            "page": 2,
-            "category": "quarterback",
-            "importance": "medium"
           },
           {
             "fact": "Through four games, Maiava had completed 87 of 115 passes for 1,173 yards, 12 touchdowns and one interception, with a 75.7% completion rate and 194.0 efficiency rating.",
@@ -97,10 +67,16 @@
             "importance": "high"
           },
           {
-            "fact": "Maiava led the nation through four games in passing yards, passing touchdowns and points responsible for.",
+            "fact": "Maiava completed passes to nine different USC players against Rutgers and went 5 of 6 for 35 yards and a touchdown in the fourth quarter.",
             "page": 2,
             "category": "quarterback",
-            "importance": "high"
+            "importance": "medium"
+          },
+          {
+            "fact": "Maiava started all 13 games for USC in 2025, completing 265 of 403 passes for 3,711 yards, 24 touchdowns and 10 interceptions while adding six rushing touchdowns.",
+            "page": 18,
+            "category": "quarterback",
+            "importance": "medium"
           }
         ],
         "offensive_personnel": [
@@ -111,7 +87,7 @@
             "importance": "high"
           },
           {
-            "fact": "Miller led USC through four games with 338 rushing yards and three touchdowns on 64 carries.",
+            "fact": "Miller led USC through four games with 338 rushing yards and three touchdowns on 64 carries, averaging 5.3 yards per attempt.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
@@ -123,49 +99,31 @@
             "importance": "medium"
           },
           {
-            "fact": "Freshman wide receiver Kayden Dixon-Wyatt led USC against Rutgers with five receptions for 77 yards and caught a two-point conversion.",
+            "fact": "Wide receiver Kayden Dixon-Wyatt led USC against Rutgers with five receptions for 77 yards; through four games he led the team with 18 catches for 258 yards and two touchdowns.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Dixon-Wyatt led USC through four games with 18 receptions and 258 receiving yards, including two touchdown catches.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Sophomore wide receiver Corey Simms caught all four of his targets for a career-high 72 yards and his first collegiate touchdown against Rutgers.",
+            "fact": "Wide receiver Corey Simms caught all four of his targets against Rutgers for a career-high 72 yards, including a 52-yard touchdown on third-and-14.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Freshman tight end Mark Bowman caught three passes for 32 yards against Rutgers.",
+            "fact": "Freshman tight end Mark Bowman caught three passes for 32 yards against Rutgers after recording six catches for 83 yards and two touchdowns against Louisiana.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Five true freshmen started USC's season opener: wide receivers Kayden Dixon-Wyatt, Trent Mosley and Tron Baker, tight end Mark Bowman and defensive end Luke Wafle.",
-            "page": 18,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "USC's offensive line allowed one sack and helped the offense average 5.9 yards per carry against Rutgers.",
+            "fact": "USC's offensive line allowed one sack against Rutgers while helping the offense average 5.9 yards per carry; Trojan running backs gained 180 yards and two touchdowns on 27 carries without a negative rush.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "USC running backs combined for 180 yards and two touchdowns on 27 carries against Rutgers without recording a negative rushing attempt.",
-            "page": 6,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Offensive lineman Tobias Raymond has started at every offensive-line position except right guard.",
+            "fact": "Offensive lineman Tobias Raymond had started at every offensive-line position except right guard.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -173,31 +131,31 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "Safety Prophet Brown returned an interception 99 yards for a touchdown against Rutgers.",
+            "fact": "Safety Prophet Brown intercepted a pass at USC's 1-yard line and returned it 99 yards for a touchdown against Rutgers.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Safety Christian Pierce recorded a game-high 11 tackles, an interception and two pass breakups against Rutgers.",
+            "fact": "Safety Christian Pierce recorded a game-high 11 tackles, an interception and two pass breakups against Rutgers; USC scored a touchdown two plays after his interception.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Linebacker Deven Bryant recorded eight tackles against Rutgers and led USC through four games with 20 tackles.",
+            "fact": "Linebacker Deven Bryant led USC with 20 tackles through four games after recording eight against Rutgers.",
             "page": 7,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Linebacker Desman Stephens II recorded seven tackles, a pass breakup and half a sack against Rutgers.",
-            "page": 7,
+            "fact": "Bryant previously attended Washington before joining USC.",
+            "page": 13,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Defensive end Kameryn Crawford had six tackles and shared USC's only sack against Rutgers with Desman Stephens II.",
+            "fact": "Defensive end Kameryn Crawford made six tackles and shared USC's only sack against Rutgers with linebacker Desman Stephens II.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -206,39 +164,33 @@
         "coaching_changes": [],
         "injury_availability": [
           {
-            "fact": "Safety Prophet Brown was back on the field in 2026 after missing the entire 2025 season because of a season-ending injury suffered during fall camp.",
+            "fact": "Safety Prophet Brown missed the entire 2025 season because of a season-ending injury suffered during fall camp and had returned to play in 2026.",
             "page": 6,
             "category": "injury_availability",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Kicker Caden Chittenden returned in 2026 after missing the entire 2025 season because of a season-ending fall-camp injury.",
+            "fact": "Kicker Caden Chittenden missed the entire 2025 season with a season-ending fall-camp injury and handled USC's place-kicking duties against Rutgers.",
             "page": 7,
             "category": "injury_availability",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Wide receiver Tanook Hines returned from injury against Fresno State and subsequently caught three passes for 33 yards against Rutgers.",
+            "fact": "Wide receiver Tanook Hines returned from injury against Fresno State and caught an eight-yard touchdown on his first reception of the 2026 season.",
             "page": 17,
             "category": "injury_availability",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "offensive_context": [
           {
-            "fact": "USC averaged 43.0 points, 500.3 total yards, 324.8 passing yards and 175.5 rushing yards through four games.",
+            "fact": "Through four games, USC averaged 43.0 points, 500.3 total yards, 324.8 passing yards and 175.5 rushing yards per game.",
             "page": 9,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "USC averaged 7.2 yards per offensive play through four games.",
-            "page": 9,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "USC converted 30 of 46 third downs, a 65% rate, through four games.",
+            "fact": "USC converted 30 of 46 third downs through four games, a 65% conversion rate.",
             "page": 9,
             "category": "offensive_context",
             "importance": "high"
@@ -253,36 +205,24 @@
             "fact": "USC led at halftime in each of its first four games and outscored opponents 106-24 in the first half.",
             "page": 1,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "USC allowed 317.5 total yards per game through four games, including 113.8 rushing yards and 203.8 passing yards per game.",
+            "fact": "Through four games, USC allowed 317.5 total yards per game, including 113.8 rushing yards and 203.8 passing yards.",
             "page": 9,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "USC allowed 5.7 yards per play and 22.8 points per game through four games.",
+            "fact": "USC's defense recorded eight sacks and held opponents to 16 conversions on 42 third-down attempts through four games.",
             "page": 9,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "USC recorded eight sacks and three interceptions through four games.",
-            "page": 9,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Opponents converted 16 of 42 third downs, a 38% rate, through four games.",
-            "page": 9,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "USC allowed only 24 first-half points through four games but allowed 43 fourth-quarter points.",
+            "fact": "USC allowed only 24 first-half points through four games but allowed 43 points in the fourth quarter.",
             "page": 10,
             "category": "defensive_context",
             "importance": "high"
@@ -302,33 +242,20 @@
             "importance": "high"
           },
           {
-            "fact": "Punter Lachlan Carrigan's only punt against Rutgers traveled 56 yards and was downed at the Rutgers 5-yard line.",
+            "fact": "Punter Lachlan Carrigan's only punt against Rutgers traveled 56 yards and was downed at the Rutgers 5-yard line; USC had punted exactly once in each of its first four games.",
             "page": 7,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "USC punted exactly once in each of its first four games and averaged 49.0 yards per punt.",
-            "page": 9,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "USC averaged 22.0 yards per punt return through four games.",
-            "page": 9,
+            "fact": "Freshman returner Trent Mosley had an 86-yard punt-return touchdown against Louisiana.",
+            "page": 16,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
         "series_context": [],
-        "other_relevant": [
-          {
-            "fact": "USC's Oct. 3 home game against Washington is scheduled for 4:30 p.m. PT and is designated as Homecoming/Reunion Weekend.",
-            "page": 13,
-            "category": "other_relevant",
-            "importance": "medium"
-          }
-        ],
+        "other_relevant": [],
         "source_file": "USC.pdf"
       }
     ],
@@ -369,7 +296,16 @@
     ],
     "used_sources": [
       {
-        "fact_id": 11,
+        "fact_id": 2,
+        "fact": "USC never trailed against Rutgers and produced 461 total yards at 7.3 yards per play, including 5.9 yards per rush and 8.7 yards per pass attempt.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 6,
         "fact": "Through four games, Maiava had completed 87 of 115 passes for 1,173 yards, 12 touchdowns and one interception, with a 75.7% completion rate and 194.0 efficiency rating.",
         "page": 2,
         "category": "quarterback",
@@ -378,26 +314,8 @@
         "source_team": "USC Trojans"
       },
       {
-        "fact_id": 13,
-        "fact": "Running back King Miller rushed 16 times for 102 yards and a touchdown against Rutgers, his second consecutive 100-yard game.",
-        "page": 5,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "USC.pdf",
-        "source_team": "USC Trojans"
-      },
-      {
-        "fact_id": 22,
-        "fact": "USC running backs combined for 180 yards and two touchdowns on 27 carries against Rutgers without recording a negative rushing attempt.",
-        "page": 6,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "USC.pdf",
-        "source_team": "USC Trojans"
-      },
-      {
-        "fact_id": 32,
-        "fact": "USC averaged 43.0 points, 500.3 total yards, 324.8 passing yards and 175.5 rushing yards through four games.",
+        "fact_id": 26,
+        "fact": "USC converted 30 of 46 third downs through four games, a 65% conversion rate.",
         "page": 9,
         "category": "offensive_context",
         "importance": "high",
@@ -405,17 +323,8 @@
         "source_team": "USC Trojans"
       },
       {
-        "fact_id": 33,
-        "fact": "USC averaged 7.2 yards per offensive play through four games.",
-        "page": 9,
-        "category": "offensive_context",
-        "importance": "high",
-        "source_file": "USC.pdf",
-        "source_team": "USC Trojans"
-      },
-      {
-        "fact_id": 41,
-        "fact": "USC allowed only 24 first-half points through four games but allowed 43 fourth-quarter points.",
+        "fact_id": 31,
+        "fact": "USC allowed only 24 first-half points through four games but allowed 43 points in the fourth quarter.",
         "page": 10,
         "category": "defensive_context",
         "importance": "high",

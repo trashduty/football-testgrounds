@@ -15,9 +15,11 @@ The Michigan Wolverines visit the Minnesota Golden Gophers at Huntington Bank St
 
 The best number we found is Michigan -5.5 at -108. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are more favorable to Michigan largely because Minnesota’s offense runs into the strongest part of this matchup. Minnesota has averaged 35.0 points and 377.8 yards per game, but only 119.0 yards have come on the ground. Michigan, meanwhile, is allowing 86.8 rushing yards per game. Our efficiency ratings point in the same direction: Minnesota could struggle to stay balanced, placing more of the game on Drake Lindsey against a Michigan defense better equipped to handle the pass than the market appears to be pricing.
+Our view starts with Michigan’s defense, particularly against the run. Our efficiency numbers show a clear advantage over Minnesota’s rushing offense, and the early results support that concern: Michigan has allowed 86.8 rushing yards per game and 2.65 yards per carry. If Minnesota cannot stay efficient on the ground, Drake Lindsey will have to carry more of the offense against a pass defense that also grades favorably in our matchup numbers.
 
-We also see a path for Michigan’s ground game to create separation. Jordan Marshall, Bryce Underwood and Savion Hiter have each topped 130 rushing yards through four games, giving Michigan multiple ways to attack a Minnesota run defense our model rates as vulnerable. The hesitation for us is volatility. Minnesota leads the Big Ten in tackles for loss per game, produced seven sacks at Washington and owns a positive turnover margin, while Michigan is underwater in that category. Those disruption factors are enough to make our disagreement with the market interesting, but not enough to justify a play at the current price.
+The other side is less decisive, but we see room for Michigan’s rushing rotation to create an advantage. Jordan Marshall, Bryce Underwood and Savion Hiter have each scored twice on the ground, and Underwood’s mobility gives Minnesota another element to account for. The concern for us is disruption. Minnesota recorded seven sacks at Washington, while Michigan has six giveaways through four games. Those are credible ways for Minnesota to shorten the game and prevent Michigan from creating separation.
+
+That is where our expectation differs from the market: we trust Michigan’s defensive matchup more than the current price appears to. Still, Minnesota’s pressure, turnover profile and home-field paths introduce enough variance that the available number does not give us sufficient value. We see the disagreement, but for us this remains a pass.
 
 ### What The Numbers Say
 
@@ -69,13 +71,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Minnesota’s offensive line against Michigan’s front. Minnesota has allowed only one sack per game, while Michigan averages three, so something has to give when Lindsey drops back. Minnesota also played its most recent game without starting center Ashton Beers, with Greg Johnson moving to center and Jaden Ball entering at left guard.
-
-If Michigan can control early downs and turn this into an obvious-passing-down game, we think its defensive advantage becomes more meaningful. Lindsey’s three-touchdown performance at Washington shows Minnesota can still move the ball through the air, but one productive outing does not remove the broader matchup concern.
+We are watching Minnesota’s rushing offense against Michigan’s front. TJ Thomas has averaged 7.4 yards per carry, but Michigan has allowed only 2.65 yards per rushing attempt. If Michigan wins early downs, it can force Lindsey into more predictable passing situations and bring a defense averaging three sacks per game against a Minnesota offensive line that has allowed one per game. That matchup is the clearest football reason our numbers lean more strongly toward Michigan than the market does.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

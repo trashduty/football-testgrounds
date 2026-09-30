@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Hurricanes | -16.5 (-112) | BetMGM | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Miami Hurricanes | -16.5 (-110) | BetMGM | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Clemson Tigers | +16.5 (-104) | FanDuel | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -15,7 +15,7 @@ The Miami Hurricanes visit the Clemson Tigers at Memorial Stadium (Clemson, SC).
 
 The best number we found is Clemson +16.5 at -104. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the disagreement centers on Clemson’s ability to create separation against a Miami defense that grades well against the run, the pass and scoring-opportunity creation. Miami allowed only 13 points and 406 total yards across its first two games, and its 2025 defense led the ACC in total, scoring and rushing defense. We are not treating those early results as proof, but they support the resistance already showing up in our longer-run numbers.
+For us, the disagreement starts with Clemson’s offense being asked to create a substantial margin against a defense our numbers rate highly. Clemson produced season highs in total offense, passing and rushing against North Carolina, but true freshman Tait Reynolds was making his first career start. We view that performance as encouraging context, not enough evidence to dismiss Clemson’s weaker longer-run efficiency in the run game, passing game and scoring-opportunity creation.
 
 ### What The Numbers Say
 
@@ -67,13 +67,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Clemson’s rushing offense against Miami’s defensive front. Clemson had topped 150 rushing yards in consecutive games, and Gideon Davidson produced 105 yards against North Carolina, but our efficiency numbers still identify the ground game as a potential constraint. Miami returns interior starters Ahmad Moten Sr. and Justin Scott from last season, giving us a concrete reason to take that matchup seriously.
-
-If Clemson cannot stay efficient on the ground, more falls on true freshman Tait Reynolds, who made his first career start against North Carolina. We saw encouraging production in that win, but asking a young quarterback to consistently finish drives against this defense is the central concern. That is enough to create a modest difference from the market, but not enough value for us to move beyond the prescribed pass.
+We are focused on Clemson’s offense against Miami’s defensive front. Miami led the ACC in rushing, scoring and total defense in 2025, returned defensive tackles Ahmad Moten Sr. and Justin Scott, and added Damon Wilson II after his nine-sack season at Missouri. Clemson may still control the game, but our concern is whether its offense can consistently finish drives and create the separation the market is demanding. Our projected margin differs only modestly from that price, so the football case is not strong enough for us to act.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

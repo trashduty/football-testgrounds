@@ -15,9 +15,11 @@ The Auburn Tigers visit the Tennessee Volunteers at Neyland Stadium. We make **A
 
 The best number we found is Auburn +7.5 at -120. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers give Auburn more credit than the market largely because we see an offense capable of creating scoring opportunities, even if its passing efficiency has been inconsistent. For us, the case for Auburn staying competitive depends on converting enough productive possessions rather than consistently winning through the air.
+Our modest disagreement with the market begins with Auburn’s ability to create scoring opportunities. Our matchup numbers rate that part of Auburn’s offense more favorably than Tennessee’s ability to prevent those chances, which gives us a path to the underdog staying competitive even if Tennessee is the stronger team overall.
 
-We also understand why the market is leaning more heavily toward Tennessee. We have Tennessee creating scoring chances at an elite rate, and the Volunteers converted all 11 red-zone opportunities through three games, scoring 10 touchdowns. We also note that Faizon Brandon accounted for nine touchdowns without an interception across his first 64 attempts. Those early results are not proof that the same efficiency will continue, but they support the primary concern in backing Auburn. We see a modest disagreement with the market, but not enough value at the current cost to move beyond a pass.
+The concern is what happens on the other side. Tennessee has been highly effective at generating and finishing scoring opportunities, converting all 11 red-zone trips through its first three games and scoring 10 touchdowns. We view that as supporting evidence rather than a guarantee, especially because the available guide predates Tennessee’s game against Texas.
+
+For us, the case for Auburn is offset by two meaningful matchup problems: Tennessee can finish drives, and Auburn may struggle to move the ball efficiently through the air. That leaves our model slightly more favorable to Auburn than the market without creating enough value at the current price, so we remain on the pass.
 
 ### What The Numbers Say
 
@@ -69,13 +71,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Auburn’s passing offense against Tennessee’s pass defense. Our matchup data identifies that as Tennessee’s clearest advantage, and the early defensive results support it: we have Tennessee allowing only 151 passing yards per game, with just two completions of at least 20 yards through three games.
-
-We also have Tennessee producing 13 sacks and 24 tackles for loss over that stretch. If Auburn cannot generate efficient throws or limit negative plays, we think Tennessee can force the game into the exact script that makes it difficult for the underdog to stay within range.
+We are watching Auburn’s passing offense against Tennessee’s pass defense. Tennessee allowed only 151 passing yards per game through its first three contests, conceded just two completions of at least 20 yards and recorded 13 sacks. If Auburn cannot avoid pressure and produce enough chunk gains, its advantage in creating scoring opportunities may not translate into points. That tension is the clearest reason we see an argument for Auburn without finding a wager.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

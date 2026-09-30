@@ -15,7 +15,7 @@ The West Virginia Mountaineers visit the Iowa State Cyclones at Jack Trice Stadi
 
 The best number we found is Iowa State -3.5 at +105. We give Iowa State a 59.1% chance to cover, which creates an 10.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
-For us, the strongest explanation for the model-market gap is Iowa State’s ability to control how West Virginia has to play. West Virginia grades near the bottom nationally in rush EPA, while Iowa State has held four consecutive opponents below 100 rushing yards. Opponents also reached the red zone only three times through Iowa State’s first three games. That combination supports our view that West Virginia may struggle to create enough quality scoring chances.
+The market is pricing a relatively competitive game, but our view starts with how West Virginia has generated its offense. West Virginia has run the ball 229 times against only 65 pass attempts and is averaging 294.8 rushing yards per game. The more interesting part is that our efficiency numbers are far less impressed by that production, especially against an Iowa State defense allowing 16.0 points and 272.5 total yards per game. For us, the issue is whether West Virginia can stay on schedule when its preferred approach meets the strongest area of Iowa State’s defense.
 
 ### What The Numbers Say
 
@@ -67,11 +67,11 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching West Virginia’s rushing offense against Iowa State’s four-man defensive front. If Iowa State continues to limit early-down rushing efficiency, West Virginia could face more obvious passing situations against a defense that allowed opponents to convert only 27.9 percent of third downs through three games. That is the matchup most likely to determine whether Iowa State can create the separation our numbers anticipate.
+We are watching West Virginia’s rushing offense against Iowa State’s front. Cam Cook has three 100-yard rushing games, while Michael Hawkins Jr. has reached 100 rushing yards three times, so Iowa State has to account for multiple ball carriers. The concern is that Utah recently ran for 205 yards against Iowa State, but we are not treating one game as proof that the broader defensive profile has changed. If Iowa State limits efficient early-down runs, West Virginia may be pushed away from the identity it has leaned on through four games.
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

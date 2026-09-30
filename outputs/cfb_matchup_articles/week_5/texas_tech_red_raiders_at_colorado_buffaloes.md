@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -12.5 (-110) | theScore Bet | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado Buffaloes | +13.5 (-109) | BetRivers | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -12.5 (-110) | Fanatics | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado Buffaloes | +12.5 (-108) | DraftKings | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **19 games** this week.
+Our model found edges of at least 3% on **17 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
