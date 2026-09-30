@@ -1,0 +1,27 @@
+{
+  "game": "Akron Zips@Central Michigan Chippewas",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:27:25.170295+00:00",
+  "model_prediction": -8.5,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-109",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52980271,
+  "edge": 0.0082716095215311,
+  "bet_short": "Central Michigan",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Akron Zips. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Akron.pdf",
+      "No guide found for Central Michigan Chippewas. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Central Michigan.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

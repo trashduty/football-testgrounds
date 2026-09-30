@@ -1,0 +1,27 @@
+{
+  "game": "Wyoming Cowboys@North Dakota State",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:51:01.970725+00:00",
+  "model_prediction": -20.5,
+  "market_line": -18.5,
+  "best_line": -18.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.52867157,
+  "edge": 0.0164764480487804,
+  "bet_short": "North Dakota State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Wyoming Cowboys. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wyoming.pdf",
+      "No guide found for North Dakota State. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Dakota State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

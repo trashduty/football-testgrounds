@@ -1,0 +1,330 @@
+{
+  "game": "California Golden Bears@UNLV Rebels",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:31:15.756798+00:00",
+  "model_prediction": -5.0,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-109",
+  "best_book": "Caesars",
+  "cover_probability": 0.54439007,
+  "edge": 0.0228589695215311,
+  "bet_short": "UNLV",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our disagreement with the market starts with UNLV\u2019s rushing offense against California\u2019s run defense. Our efficiency numbers show a substantial advantage for UNLV in that phase, and that matters because UNLV also grades better at creating scoring opportunities than California does at preventing them. For us, the case is less about which team looked better most recently and more about whether California can consistently keep UNLV from turning productive rushing possessions into points.\n\nCalifornia\u2019s passing game is the clearest challenge to that view. California averaged 321.7 passing yards through three games, and Jaron-Keawe Sagapolutele threw for a career-high 413 yards against Wagner. The 626-yard performance in that game showed the offense\u2019s ceiling, but we are not treating one dominant result as proof that the same production carries into this matchup. Our numbers remain skeptical of how consistently California creates scoring opportunities.\n\nThe concern for us is California\u2019s pass defense, which ranked 10th nationally in passing-defense efficiency and produced five interceptions through three games. That gives California a credible way to disrupt UNLV and keeps our disagreement with the market from becoming a play. We lean toward UNLV\u2019s ability to control the more favorable matchup, but the available value is not enough for us to bet it.",
+    "matchup_to_watch": "We are watching UNLV\u2019s rushing offense against California\u2019s run defense. It is the clearest football explanation for why our model is more favorable toward UNLV than the market: our numbers show UNLV running efficiently into the weakest area of California\u2019s profile.\n\nIf UNLV repeatedly creates productive rushing plays, it should have enough opportunities to justify our broader expectation. If California can erase that advantage and make the game depend more heavily on passing efficiency and turnovers, the matchup moves toward the part of its profile that concerns us most.",
+    "guide_status": [
+      "Found guide for California Golden Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
+      "Guide for California Golden Bears was found but may not match the current opponent. The document is explicitly California's game notes for Clemson on September 25, 2026. UNLV appears only as California's next scheduled opponent on October 3, 2026, so this is not the guide intended for the California-UNLV matchup.",
+      "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "California Golden Bears",
+        "opponent": "UNLV Rebels",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is explicitly California's game notes for Clemson on September 25, 2026. UNLV appears only as California's next scheduled opponent on October 3, 2026, so this is not the guide intended for the California-UNLV matchup.",
+        "recent_game": [
+          {
+            "fact": "California defeated Wagner 49-7 on September 19, its largest victory margin since a 49-7 win at Oregon State on October 20, 2018.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "California generated 626 total yards against Wagner, its most in a game since totaling 679 yards at North Texas on September 2, 2023.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "California scored 29 first-quarter points against Wagner and did not punt.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "California is scheduled to play at UNLV on October 3, 2026, at 12:30 p.m. Pacific.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Jaron-Keawe Sagapolutele completed 27 of 33 passes for a career-high 413 yards and three touchdowns against Wagner.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Sagapolutele had completed 72 of 108 passes for 866 yards, seven touchdowns and two interceptions.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Sagapolutele set California's record for consecutive pass attempts without an interception at 210, surpassing Jared Goff's previous mark of 185.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup quarterback Jackson Brousseau completed 8 of 10 passes for 79 yards against Wagner and led his first scoring drive for California.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Adam Mohammed had 147 yards from scrimmage on 11 touches and scored three touchdowns in the first quarter against Wagner.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Mohammed led California through three games with 285 rushing yards on 60 attempts and had added 14 receptions for 138 yards.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Chase Hendricks had nine receptions for 98 yards against Wagner and led California through three games with 20 catches for 195 yards and two touchdowns.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Kyion Grayes recorded three catches for 98 yards against Wagner, including an 80-yard touchdown that was his first collegiate touchdown reception.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end Dorian Thomas, a transfer from New Mexico, made his first California reception against Wagner.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "low"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive back Kingston Lopa recorded five interceptions in California's first three games, including three at Syracuse and one in each game.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lopa returned an interception 24 yards for the go-ahead touchdown at Syracuse.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "California used a substantially changed defensive starting lineup against Wagner, with Emmanuel Okoye, AJ Tuitele, Cam Sidney, Jayden Wayne and Isaiah Crosby starting after not starting the first two games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Tosh Lupoi was named California's head coach on December 4, 2025, and is in his first season as the program's head coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jordan Somerville is California's first-year offensive coordinator and works from the booth on game day.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michael Hutchings is California's first-year defensive coordinator, and Da'Von Brown is the first-year defensive backs coach and co-defensive coordinator.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Zach Tinker is California's first-year special teams coordinator.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "California ranked fourth in the ACC and 14th nationally in passing offense at 321.7 yards per game through three games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California had scored on 91.7 percent of its red-zone possessions, ranking fourth in the ACC and tied for 43rd nationally.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "California used the same starters at left tackle, left guard, center and right guard in each of its first three games: Frederick Williams III, Tyson Ruffins, Bastian Swinney and Sioape Vatikani.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Redshirt freshman Michael Klisiewicz made his first collegiate start at right tackle against Wagner after Jimothy Lewis Jr. started the first two games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California allowed no sacks and only one quarterback hurry against Wagner.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "California ranked first in the ACC and 10th nationally in passing-defense efficiency at 95.31 through three games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California had five interceptions through three games, ranking second in the ACC and tied for fifth nationally.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California had allowed opponents to score on 66.7 percent of their red-zone possessions, ranking second in the ACC and tied for 15th nationally.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Linebacker Aaron Hampton recorded the first blocked field goal of his career against Wagner.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "California was 2-1 through three games, with a 24-45 loss to UCLA, a 21-18 win at Syracuse and a 49-7 win over Wagner.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "California.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "UNLV rushing offense vs California rush defense",
+        "off_team": "UNLV",
+        "def_team": "California",
+        "off_rank": 44,
+        "def_rank": 133,
+        "stat": "rush EPA",
+        "rank_gap": 89,
+        "direction": "mixed",
+        "matchup_score": 89
+      },
+      {
+        "dimension": "California scoring-opportunity creation vs UNLV scoring-opportunity prevention",
+        "off_team": "California",
+        "def_team": "UNLV",
+        "off_rank": 127,
+        "def_rank": 68,
+        "stat": "Eckel rate",
+        "rank_gap": 59,
+        "direction": "mixed",
+        "matchup_score": 59
+      },
+      {
+        "dimension": "UNLV scoring-opportunity creation vs California scoring-opportunity prevention",
+        "off_team": "UNLV",
+        "def_team": "California",
+        "off_rank": 47,
+        "def_rank": 60,
+        "stat": "Eckel rate",
+        "rank_gap": 13,
+        "direction": "mixed",
+        "matchup_score": 13
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "California generated 626 total yards against Wagner, its most in a game since totaling 679 yards at North Texas on September 2, 2023.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 4,
+        "fact": "Starting quarterback Jaron-Keawe Sagapolutele completed 27 of 33 passes for a career-high 413 yards and three touchdowns against Wagner.",
+        "page": 2,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 20,
+        "fact": "California ranked fourth in the ACC and 14th nationally in passing offense at 321.7 yards per game through three games.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 25,
+        "fact": "California ranked first in the ACC and 10th nationally in passing-defense efficiency at 95.31 through three games.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 26,
+        "fact": "California had five interceptions through three games, ranking second in the ACC and tied for fifth nationally.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "UNLV Rebels",
+      "model_side": "UNLV",
+      "opponent_full": "California Golden Bears",
+      "opponent": "California",
+      "model_prediction": -5.0,
+      "market_line": -2.5,
+      "best_available_line": -2.5,
+      "best_available_price": "-109",
+      "cover_probability": 0.54439007,
+      "edge": 0.0228589695215311,
+      "bet_status": "PASS"
+    }
+  }
+}

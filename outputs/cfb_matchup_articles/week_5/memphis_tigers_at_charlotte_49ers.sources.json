@@ -1,0 +1,27 @@
+{
+  "game": "Memphis Tigers@Charlotte 49ers",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:34:08.467472+00:00",
+  "model_prediction": 19.5,
+  "market_line": 20.5,
+  "best_line": 20.5,
+  "best_price": "-110",
+  "best_book": "Fanatics",
+  "cover_probability": 0.5253246,
+  "edge": 0.0015150761904761,
+  "bet_short": "Charlotte",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Memphis Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Memphis.pdf",
+      "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Toledo Rockets@Ball State Cardinals",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:48:58.777767+00:00",
+  "model_prediction": 17.0,
+  "market_line": 19.5,
+  "best_line": 19.5,
+  "best_price": "-108",
+  "best_book": "FanDuel",
+  "cover_probability": 0.5553565,
+  "edge": 0.0361257307692307,
+  "bet_short": "Ball State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Toledo Rockets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Toledo.pdf",
+      "No guide found for Ball State Cardinals. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ball State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

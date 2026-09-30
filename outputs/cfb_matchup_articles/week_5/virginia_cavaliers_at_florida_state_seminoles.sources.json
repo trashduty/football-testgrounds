@@ -1,0 +1,27 @@
+{
+  "game": "Virginia Cavaliers@Florida State Seminoles",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:49:02.886148+00:00",
+  "model_prediction": 1.5,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "100",
+  "best_book": "Fanatics",
+  "cover_probability": 0.51239297,
+  "edge": 0.0123929699999999,
+  "bet_short": "Florida State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Virginia Cavaliers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia.pdf",
+      "No guide found for Florida State Seminoles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Fresno State Bulldogs@Washington State Cougars",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:33:05.463361+00:00",
+  "model_prediction": -6.0,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.57311899,
+  "edge": 0.0609238680487804,
+  "bet_short": "Washington State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Fresno State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Fresno State.pdf",
+      "No guide found for Washington State Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

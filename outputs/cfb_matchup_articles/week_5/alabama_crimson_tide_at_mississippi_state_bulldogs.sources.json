@@ -1,0 +1,27 @@
+{
+  "game": "Alabama Crimson Tide@Mississippi State Bulldogs",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:27:25.604049+00:00",
+  "model_prediction": 6.5,
+  "market_line": 6.0,
+  "best_line": 5.5,
+  "best_price": "-102",
+  "best_book": "FanDuel",
+  "cover_probability": 0.49642952,
+  "edge": -0.0085209750495049,
+  "bet_short": "Mississippi State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Alabama Crimson Tide. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Alabama.pdf",
+      "No guide found for Mississippi State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Mississippi State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

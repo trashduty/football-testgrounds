@@ -1,0 +1,27 @@
+{
+  "game": "Marshall Thundering Herd@James Madison Dukes",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:33:08.659081+00:00",
+  "model_prediction": -21.5,
+  "market_line": -18.5,
+  "best_line": -18.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53897798,
+  "edge": 0.0267828580487804,
+  "bet_short": "James Madison",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Marshall Thundering Herd. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Marshall.pdf",
+      "No guide found for James Madison Dukes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/James Madison.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Boston College Eagles@SMU Mustangs",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:30:25.761534+00:00",
+  "model_prediction": -22.5,
+  "market_line": -21.0,
+  "best_line": -20.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.52515348,
+  "edge": 0.0013439561904761,
+  "bet_short": "SMU",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf",
+      "No guide found for SMU Mustangs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/SMU.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

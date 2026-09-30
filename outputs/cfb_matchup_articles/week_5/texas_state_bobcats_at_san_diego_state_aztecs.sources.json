@@ -1,0 +1,27 @@
+{
+  "game": "Texas State Bobcats@San Diego State Aztecs",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:48:57.664700+00:00",
+  "model_prediction": 0.5,
+  "market_line": 4.5,
+  "best_line": 4.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.58467577,
+  "edge": 0.0608662461904762,
+  "bet_short": "San Diego State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Texas State Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas State.pdf",
+      "No guide found for San Diego State Aztecs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Diego State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

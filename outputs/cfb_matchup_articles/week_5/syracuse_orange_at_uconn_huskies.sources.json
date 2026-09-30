@@ -1,0 +1,424 @@
+{
+  "game": "Syracuse Orange@UConn Huskies",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:48:00.245216+00:00",
+  "model_prediction": 3.5,
+  "market_line": 6.5,
+  "best_line": 6.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.56417532,
+  "edge": 0.06417532,
+  "bet_short": "Connecticut",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Syracuse opened with a 66-3 win while producing 513 yards, an emphatic result that deserves attention. We are not treating one game against New Hampshire as proof that Syracuse should command this much respect on the road, however. Our view is driven more by the underlying matchup than by the opening-week margin.\n\nWhat stands out to us is Connecticut's ability to challenge a Syracuse defense that our numbers rate poorly against both the pass and the run. The passing matchup provides the clearest advantage, while Connecticut's rushing efficiency gives the offense another viable path to sustain drives. For us, that balanced profile makes it harder to justify a price that assumes meaningful Syracuse separation.\n\nThe primary concern is Steve Angeli, who threw for a career-high 416 yards against Connecticut in 2025. We respect that upside, but our numbers view Connecticut's pass defense more favorably than Syracuse's broader passing profile. That difference is central to why we are willing to back Connecticut rather than extrapolate Syracuse's opener.",
+    "matchup_to_watch": "We will be watching Connecticut's passing offense against Syracuse's pass defense. Syracuse generated five sacks and nine tackles for loss against New Hampshire, with four of those sacks coming from transfers, so Connecticut's protection will be tested by a group that showed immediate disruption.\n\nIf Connecticut keeps that pressure from controlling the game, our numbers suggest it can consistently attack the secondary. We see that matchup as Connecticut's best route to maintaining offensive pace and preventing Syracuse from creating the separation the market expects.",
+    "guide_status": [
+      "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
+      "Guide for Syracuse Orange was found but may not match the current opponent. This is Syracuse's Week 2 game guide for the Sept. 12, 2026 home game against California. It lists the UConn road game on Oct. 3 later in the schedule but is not the guide for that matchup.",
+      "No guide found for UConn Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Connecticut.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Syracuse Orange",
+        "opponent": "UConn Huskies",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "This is Syracuse's Week 2 game guide for the Sept. 12, 2026 home game against California. It lists the UConn road game on Oct. 3 later in the schedule but is not the guide for that matchup.",
+        "recent_game": [
+          {
+            "fact": "Syracuse opened the 2026 season with a 66-3 win over New Hampshire, producing 513 yards of offense and allowing 159 yards.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse scored 41 first-half points against New Hampshire, its most in a half during Fran Brown's tenure.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Syracuse defense recorded five sacks and nine tackles for loss against New Hampshire.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse gained 238 rushing yards against New Hampshire, the most in a game during Fran Brown's tenure.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Steve Angeli returned from his 2025 season-ending injury and passed for 263 yards against New Hampshire, extending his streak of games with at least 230 passing yards to six.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Angeli has passed for 1,580 yards in five appearances for Syracuse and has never thrown for fewer than 245 yards in an Orange uniform.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Angeli passed for a career-high 416 yards on 34-of-54 passing against UConn in 2025.",
+            "page": 19,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Amari Odom and Malachi Nelson are listed behind Angeli on the projected depth chart.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "True freshman running back Shavane Anderson Jr. rushed 10 times for 102 yards and three touchdowns in his collegiate debut against New Hampshire.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Tylik Hill made his first career start and rushed 16 times for 91 yards and his first collegiate touchdown against New Hampshire.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer running backs Ahmad Miller and Ju'Juan Johnson did not play against New Hampshire and were expected to make their Syracuse debuts in the following game.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miller transferred from Jackson State after leading the SWAC with 1,054 rushing yards and nine touchdowns in 2025.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Umari Hatcher returned after missing the 2025 season due to injury and set career highs with eight catches, 147 yards and two touchdowns against New Hampshire.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end David Clement caught two passes for a career-high 35 yards against New Hampshire, including his first collegiate touchdown on a 27-yard reception.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The projected starting offensive line is Trevion Mack at left tackle, Oluwafunto Akinshilo at left guard, Joe Cruz at center, Byron Washington at right guard and Kam Pringle at right tackle.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse's offensive line received an 87.0 pass-blocking grade from PFF against New Hampshire, second best among ACC teams through Saturday's games.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Joe Cruz has appeared in 38 games with 17 starts and has allowed one sack in 657 pass-blocking opportunities, according to PFF.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Akinshilo, a 2026 transfer, made his first career start at guard against New Hampshire.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Four of Syracuse's five sacks against New Hampshire were recorded by transfers.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer edge defender Keyshawn Johnson recorded 2.5 sacks, four tackles and a forced fumble in his Syracuse debut.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer defensive lineman Tunmise Adeleye tied his career high with six tackles and recorded a sack in his Syracuse debut.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive lineman Jartavius Flounoy recorded four tackles, a half-tackle for loss and a forced fumble in his Syracuse debut.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive lineman Rashard Perry recorded his first career interception against New Hampshire.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Chris Peal allowed 14 receiving yards when targeted and led Syracuse with four solo tackles against New Hampshire, according to PFF.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Syracuse returned seven defensive starters entering 2026: Gary Bryant III, Antoine Deslauriers, Demetres Samuel Jr., Chris Peal, Davien Kerr, Cornell Perry and BJ Long.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Vince Kehres is in his first season as Syracuse's defensive coordinator.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeff Nixon is Syracuse's offensive coordinator and calls plays from the booth.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "First-year Syracuse assistants include defensive backs coach Perry Eliano, special teams coordinator Alex Bayer, co-defensive coordinator/defensive line coach John Scott Jr., offensive line coach Juan Castillo, edge coach Jeremy Hawkins and nickels coach Marcus Walker.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Steve Angeli returned against New Hampshire after a season-ending injury suffered in the fourth game of the 2025 season.",
+            "page": 18,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Umari Hatcher returned in the 2026 opener after missing the entire 2025 season due to injury.",
+            "page": 18,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman wide receiver Calvin Russell III is expected to return to the field in October.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive lineman Rashard Perry returned in 2026 after a season-ending injury limited him to five games in 2025.",
+            "page": 20,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Syracuse completed passes to 10 players and had five players score rushing or receiving touchdowns against New Hampshire.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse converted 66.7 percent of its third downs and finished with 32 first downs against New Hampshire.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Over the last 18 games in which Jeff Nixon's Week 1 starting quarterback produced at least 250 team passing yards, Syracuse is 14-4 and has averaged 471.4 total yards and 36.8 points per game.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Syracuse held New Hampshire to three points, 60 rushing yards, 99 passing yards and 159 total yards.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Syracuse forced three turnovers without committing a turnover against New Hampshire.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Twenty-four Syracuse players recorded a tackle against New Hampshire, and nine players contributed at least a half-tackle for loss.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Davien Kerr blocked a punt against New Hampshire that went out of the end zone for a safety and also totaled 50 yards on two punt returns.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Demetres Samuel Jr. returned four punts for 83 yards, including a 38-yard return, against New Hampshire.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Tripp Woody made a 34-yard field goal against New Hampshire and is 13-of-15 on career field-goal attempts.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman Jimmy Gregg is Syracuse's projected starting punter and punted twice in his collegiate debut against New Hampshire.",
+            "page": 20,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Syracuse defeated UConn 31-24 in 2024 and 27-20 in overtime in 2025 under head coach Fran Brown.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Fran Brown is 2-0 against UConn as Syracuse's head coach.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Syracuse produced 470 passing yards against UConn in 2024, the highest single-game total of the Fran Brown era through the date of this guide.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The guide lists Syracuse's game at UConn for Oct. 3, 2026 at noon on CBS Sports Network.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Five Syracuse players made their first FBS starts against New Hampshire; Tylik Hill, Jimmy Gregg and Nissi Ogbebor made their first career starts.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Syracuse.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Connecticut passing offense vs Syracuse pass defense",
+        "off_team": "Connecticut",
+        "def_team": "Syracuse",
+        "off_rank": 15,
+        "def_rank": 111,
+        "stat": "pass EPA",
+        "rank_gap": 96,
+        "direction": "offense_advantage",
+        "matchup_score": 196
+      },
+      {
+        "dimension": "Syracuse passing offense vs Connecticut pass defense",
+        "off_team": "Syracuse",
+        "def_team": "Connecticut",
+        "off_rank": 138,
+        "def_rank": 47,
+        "stat": "pass EPA",
+        "rank_gap": 91,
+        "direction": "mixed",
+        "matchup_score": 91
+      },
+      {
+        "dimension": "Connecticut rushing offense vs Syracuse rush defense",
+        "off_team": "Connecticut",
+        "def_team": "Syracuse",
+        "off_rank": 40,
+        "def_rank": 125,
+        "stat": "rush EPA",
+        "rank_gap": 85,
+        "direction": "mixed",
+        "matchup_score": 85
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Syracuse opened the 2026 season with a 66-3 win over New Hampshire, producing 513 yards of offense and allowing 159 yards.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 3,
+        "fact": "The Syracuse defense recorded five sacks and nine tackles for loss against New Hampshire.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Angeli passed for a career-high 416 yards on 34-of-54 passing against UConn in 2025.",
+        "page": 19,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      },
+      {
+        "fact_id": 19,
+        "fact": "Four of Syracuse's five sacks against New Hampshire were recorded by transfers.",
+        "page": 7,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Syracuse.pdf",
+        "source_team": "Syracuse Orange"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "UConn Huskies",
+      "model_side": "Connecticut",
+      "opponent_full": "Syracuse Orange",
+      "opponent": "Syracuse",
+      "model_prediction": 3.5,
+      "market_line": 6.5,
+      "best_available_line": 6.5,
+      "best_available_price": "100",
+      "cover_probability": 0.56417532,
+      "edge": 0.06417532,
+      "bet_status": "BET"
+    }
+  }
+}

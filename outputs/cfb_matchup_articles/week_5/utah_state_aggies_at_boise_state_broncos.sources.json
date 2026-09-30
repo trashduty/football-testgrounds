@@ -1,0 +1,27 @@
+{
+  "game": "Utah State Aggies@Boise State Broncos",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:49:01.734636+00:00",
+  "model_prediction": -24.0,
+  "market_line": -20.5,
+  "best_line": -20.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.56202596,
+  "edge": 0.0427951907692307,
+  "bet_short": "Boise State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Utah State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah State.pdf",
+      "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

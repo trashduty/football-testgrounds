@@ -1,0 +1,27 @@
+{
+  "game": "Georgia Southern Eagles@Coastal Carolina Chanticleers",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:33:06.061253+00:00",
+  "model_prediction": -3.5,
+  "market_line": -2.5,
+  "best_line": -2.0,
+  "best_price": "-108",
+  "best_book": "BetRivers",
+  "cover_probability": 0.51874675,
+  "edge": -0.0004840192307692393,
+  "bet_short": "Georgia Southern",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Georgia Southern Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Southern.pdf",
+      "No guide found for Coastal Carolina Chanticleers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Coastal Carolina.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "game": "Navy Midshipmen@Air Force Falcons",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:40:26.369330+00:00",
+  "model_prediction": -5.5,
+  "market_line": -3.0,
+  "best_line": -3.5,
+  "best_price": "105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.52512033,
+  "edge": 0.0373154519512195,
+  "bet_short": "Air Force",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our view is less about reacting to Navy\u2019s loss at Florida Atlantic and more about the shape of its defense. Navy allowed only 40.5 rushing yards per game through two games, but our efficiency data identify pass defense as the vulnerability. That matters because Air Force\u2019s passing offense grades well in our numbers, while its ability to create scoring opportunities aligns with another area where Navy has struggled. Air Force does not have to make its case by attacking Navy\u2019s strongest early-season defensive result.\n\nThere is also some context behind that defensive profile. Navy entered the season near the bottom nationally in returning career snaps and used four first-time defensive starters in the opener. We are not treating inexperience as proof, but it helps explain why our longer-run view is less forgiving than the market. The concern for us is Navy\u2019s rushing offense, which averaged 376.0 yards and 6.90 yards per attempt through two games. Our matchup numbers also flag Air Force\u2019s run defense, giving Navy a credible path to limit separation. Even so, the broader efficiency profile supports our position on Air Force.",
+    "matchup_to_watch": "For us, Air Force\u2019s passing offense against Navy\u2019s pass defense is the matchup that best explains our disagreement with the market. Navy\u2019s early run-defense numbers have been excellent, so the question is whether Air Force can exploit the channel our data says is available rather than leaning on the ground game. Navy also failed to force a turnover in either of its first two games. That does not guarantee the trend continues, but Air Force\u2019s passing and scoring-opportunity efficiency gives us a clear reason to expect more offensive success than the market appears to be pricing.",
+    "guide_status": [
+      "Found guide for Navy Midshipmen: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Navy.pdf",
+      "Guide for Navy Midshipmen was found but may not match the current opponent. The guide is for Navy's Sept. 25, 2026 game at UAB, identified as Game 3 and 'This week's opponent: UAB.' Air Force is listed as Navy's following game on Oct. 3.",
+      "No guide found for Air Force Falcons. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Air Force.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Navy Midshipmen",
+        "opponent": "Air Force Falcons",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Navy's Sept. 25, 2026 game at UAB, identified as Game 3 and 'This week's opponent: UAB.' Air Force is listed as Navy's following game on Oct. 3.",
+        "recent_game": [
+          {
+            "fact": "Navy lost 38-30 at Florida Atlantic on Sept. 12, falling to 1-1 overall and 0-1 in the American Conference.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy trailed Florida Atlantic 38-7 before scoring 23 consecutive points over the final 16 minutes.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy did not force a turnover in either of its first two games, its first such start to a season since 1987.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Navy is scheduled to play at Air Force on Oct. 3 at 12:00 p.m. ET.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Through the statistics shown in the guide, Air Force ranked third nationally in rushing offense at 319.0 yards per game.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Braxton Woodson rushed for 96 yards and one touchdown on 12 carries against Florida Atlantic before leaving with a lower-body injury on the first drive of the third quarter.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson Gutierrez replaced the injured Woodson against Florida Atlantic and rushed seven times for 75 yards and a touchdown while completing 6 of 12 passes for 100 yards and two touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Woodson averaged 148.0 rushing yards per game through two games, fourth nationally and first among quarterbacks, with 8.46 yards per carry and four rushing touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Gutierrez is being used at both quarterback and running back; through two games he had scored three rushing touchdowns and thrown two touchdown passes.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Six players on Navy's depth chart arrived as quarterbacks and now play another position or split time between quarterback and another position: Luke Hutchison, Charles Robinson, Tre Jones III, Landon Walker, Evan Blouir and Jackson Gutierrez.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy had seven first-time starters against Towson, including offensive players Tre Jones III, Isaiah Bryant and Christian Cromer.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Charles Robinson, Michael Barrow and Vic Listorti made their first career starts against Florida Atlantic.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cam Nichols, listed as a center, started at guard in each of Navy's first two games so the team could put its preferred five offensive linemen on the field.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sophomore offensive tackle Malcolm Johnson started Navy's first two games after making seven starts as a freshman in 2025.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Luke Hutchison had one reception for 27 yards against Florida Atlantic after recording no touch against Towson.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "low"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive end Aiden Lyczek had eight tackles, three tackles for loss and two sacks through two games after missing most of 2025 with a lower-body injury.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker MarcAnthony Parker led Navy with 18 tackles through two games and also had two tackles for loss and one sack.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Phillip Hamilton did not play in the opener by coaches' decision, then recorded four tackles and a half tackle for loss against Florida Atlantic.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy's first-time defensive starters against Towson were Aiden Lyczek, Xavyer Arrington, Aaron Rose and Trent Gillis.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Braxton Woodson left the Florida Atlantic game with a lower-body injury on the first drive of the third quarter; the guide does not state his availability for a later game.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Ira Oniha was banged up entering the Florida Atlantic game and played only Navy's first defensive series.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiden Lyczek returned for the final three games of 2025 after missing most of that season with a lower-body injury and started the first two games of 2026.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Vic Listorti appeared in five games in 2025 while battling a hamstring injury, then rushed for 116 yards on 15 carries over Navy's first two games of 2026.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Navy ranked second nationally in rushing offense at 376.0 yards per game through two games.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy averaged 6.90 yards per rushing attempt through two games, sixth nationally.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy scored touchdowns on all five of its red-zone possessions through two games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy rushed for 506 yards on 73 carries in its 42-15 season-opening win over Towson.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Navy ranked second nationally in rushing defense through two games, allowing 40.5 rushing yards per game.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy had not forced a turnover through its first two games of 2026.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Punter Jacob Carlson averaged 45.0 yards on four punts against Florida Atlantic, with a long of 52 yards.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Long snapper Rayne Fry entered 2026 as Navy's fourth-year starter after being named the 2025 American Conference Deep Snapper of the Year.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Navy defeated Air Force 34-31 in 2025 and 34-7 in 2024.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy has won the Commander-In-Chief's Trophy in each of the last two seasons and is 32-15 against Army and Air Force over its last 47 games against the service academies.",
+            "page": 10,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jackson Gutierrez caught the fourth-down pass that sealed Navy's 2025 win over Air Force.",
+            "page": 5,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The Air Force game will be the third game in a three-game Navy road stretch following trips to Florida Atlantic and UAB.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy ranked 134th among 138 FBS teams in returning career snaps entering the 2026 season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Navy.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Navy rushing offense vs Air Force rush defense",
+        "off_team": "Navy",
+        "def_team": "Air Force",
+        "off_rank": 10,
+        "def_rank": 136,
+        "stat": "rush EPA",
+        "rank_gap": 126,
+        "direction": "offense_advantage",
+        "matchup_score": 226
+      },
+      {
+        "dimension": "Air Force passing offense vs Navy pass defense",
+        "off_team": "Air Force",
+        "def_team": "Navy",
+        "off_rank": 30,
+        "def_rank": 136,
+        "stat": "pass EPA",
+        "rank_gap": 106,
+        "direction": "offense_advantage",
+        "matchup_score": 206
+      },
+      {
+        "dimension": "Air Force scoring-opportunity creation vs Navy scoring-opportunity prevention",
+        "off_team": "Air Force",
+        "def_team": "Navy",
+        "off_rank": 28,
+        "def_rank": 129,
+        "stat": "Eckel rate",
+        "rank_gap": 101,
+        "direction": "offense_advantage",
+        "matchup_score": 201
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 17,
+        "fact": "Navy's first-time defensive starters against Towson were Aiden Lyczek, Xavyer Arrington, Aaron Rose and Trent Gillis.",
+        "page": 3,
+        "category": "defensive_personnel",
+        "importance": "medium",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 22,
+        "fact": "Navy ranked second nationally in rushing offense at 376.0 yards per game through two games.",
+        "page": 4,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 23,
+        "fact": "Navy averaged 6.90 yards per rushing attempt through two games, sixth nationally.",
+        "page": 4,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Navy ranked second nationally in rushing defense through two games, allowing 40.5 rushing yards per game.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Navy had not forced a turnover through its first two games of 2026.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 31,
+        "fact": "Navy ranked 134th among 138 FBS teams in returning career snaps entering the 2026 season.",
+        "page": 1,
+        "category": "other_relevant",
+        "importance": "medium",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Air Force Falcons",
+      "model_side": "Air Force",
+      "opponent_full": "Navy Midshipmen",
+      "opponent": "Navy",
+      "model_prediction": -5.5,
+      "market_line": -3.0,
+      "best_available_line": -3.5,
+      "best_available_price": "105",
+      "cover_probability": 0.52512033,
+      "edge": 0.0373154519512195,
+      "bet_status": "BET"
+    }
+  }
+}

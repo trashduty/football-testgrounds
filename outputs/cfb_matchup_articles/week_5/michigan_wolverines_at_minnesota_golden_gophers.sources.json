@@ -1,0 +1,837 @@
+{
+  "game": "Michigan Wolverines@Minnesota Golden Gophers",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:38:20.131078+00:00",
+  "model_prediction": -7.5,
+  "market_line": -5.5,
+  "best_line": -5.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.52906677,
+  "edge": 0.0098360007692307,
+  "bet_short": "Michigan",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers are more favorable to Michigan largely because Minnesota\u2019s offense runs into the strongest part of this matchup. Minnesota has averaged 35.0 points and 377.8 yards per game, but only 119.0 yards have come on the ground. Michigan, meanwhile, is allowing 86.8 rushing yards per game. Our efficiency ratings point in the same direction: Minnesota could struggle to stay balanced, placing more of the game on Drake Lindsey against a Michigan defense better equipped to handle the pass than the market appears to be pricing.\n\nWe also see a path for Michigan\u2019s ground game to create separation. Jordan Marshall, Bryce Underwood and Savion Hiter have each topped 130 rushing yards through four games, giving Michigan multiple ways to attack a Minnesota run defense our model rates as vulnerable. The hesitation for us is volatility. Minnesota leads the Big Ten in tackles for loss per game, produced seven sacks at Washington and owns a positive turnover margin, while Michigan is underwater in that category. Those disruption factors are enough to make our disagreement with the market interesting, but not enough to justify a play at the current price.",
+    "matchup_to_watch": "We are watching Minnesota\u2019s offensive line against Michigan\u2019s front. Minnesota has allowed only one sack per game, while Michigan averages three, so something has to give when Lindsey drops back. Minnesota also played its most recent game without starting center Ashton Beers, with Greg Johnson moving to center and Jaden Ball entering at left guard.\n\nIf Michigan can control early downs and turn this into an obvious-passing-down game, we think its defensive advantage becomes more meaningful. Lindsey\u2019s three-touchdown performance at Washington shows Minnesota can still move the ball through the air, but one productive outing does not remove the broader matchup concern.",
+    "guide_status": [
+      "Found guide for Michigan Wolverines: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan.pdf",
+      "Guide for Michigan Wolverines was found but may not match the current opponent. The provided pages contain Michigan season statistics through Sept. 20, 2026, but do not identify Minnesota or explicitly indicate that the document was prepared for the upcoming Michigan-Minnesota matchup. No information about a different upcoming opponent is included.",
+      "Found guide for Minnesota Golden Gophers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Minnesota.pdf",
+      "Loaded guide for Minnesota Golden Gophers: Minnesota.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Michigan Wolverines",
+        "opponent": "Minnesota Golden Gophers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The provided pages contain Michigan season statistics through Sept. 20, 2026, but do not identify Minnesota or explicitly indicate that the document was prepared for the upcoming Michigan-Minnesota matchup. No information about a different upcoming opponent is included.",
+        "recent_game": [
+          {
+            "fact": "Michigan defeated UTEP 52-17 on Sept. 19, 2026, improving to 3-0.",
+            "page": 44,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against UTEP, Michigan produced 431 total yards: 185 rushing yards and 246 passing yards.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan completed 21 of 28 passes for 246 yards and three touchdowns against UTEP.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan rushed 42 times for 185 yards and three touchdowns against UTEP.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan's defense held UTEP to 150 total yards, including 57 rushing yards and 93 passing yards.",
+            "page": 43,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan recorded 11 tackles for loss, four sacks and one interception against UTEP.",
+            "page": 42,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Bryce Underwood has completed 40 of 64 passes for 504 yards, three touchdowns and one interception through three games.",
+            "page": 39,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Underwood is also Michigan's leading rusher with 156 yards and two touchdowns on 33 carries.",
+            "page": 39,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Tommy Carr has completed both of his pass attempts for 23 yards and one touchdown and has rushed twice for 18 yards.",
+            "page": 39,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "JJ Buchanan leads Michigan with 266 receiving yards and two touchdowns on 15 catches, averaging 17.7 yards per reception.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Andrew Marsh has 15 receptions for 133 yards and one touchdown and is also Michigan's punt returner.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jordan Marshall has rushed 34 times for 135 yards and two touchdowns and has three receptions for 33 yards.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Savion Hiter has 83 rushing yards and two touchdowns on 24 carries plus four catches for 40 yards.",
+            "page": 39,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Troy Bowles leads Michigan with 25 tackles and has three tackles for loss, one fumble recovery and one forced fumble.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "John Henry Daley has four tackles for loss and a team-high 2.5 sacks through three games.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dominic Nichols has four tackles for loss, two sacks and three quarterback hurries.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Nate Marshall has 2.5 tackles for loss and two sacks, with his sacks accounting for 17 lost yards.",
+            "page": 41,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jyaire Hill and Jonah Lea'ea have Michigan's two interceptions; Lea'ea returned his interception nine yards for a touchdown.",
+            "page": 39,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kyle Whittingham is Michigan's head coach and is 3-0 at Michigan with a 180-88 career record.",
+            "page": 30,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Michigan is averaging 323.3 total yards and 27.3 points per game through three games.",
+            "page": 37,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan averages 147.7 rushing yards at 4.1 yards per carry and 175.7 passing yards per game.",
+            "page": 37,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has converted 16 of 36 third downs (44 percent) and all four of its fourth-down attempts.",
+            "page": 37,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has scored on seven of eight red-zone possessions, including six touchdowns.",
+            "page": 38,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has fumbled six times and lost four fumbles through three games.",
+            "page": 37,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan's offensive production increased from 276 total yards against Western Michigan and 263 against Oklahoma to 431 against UTEP.",
+            "page": 42,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Michigan is allowing 13.0 points and 220.0 total yards per game through three games.",
+            "page": 37,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has allowed 96.3 rushing yards per game and no rushing touchdowns through three games.",
+            "page": 37,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has recorded 25 tackles for loss and 10 sacks through three games.",
+            "page": 41,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have converted 13 of 43 third downs (30 percent) and one of four fourth downs against Michigan.",
+            "page": 37,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has allowed opponents to score on five of six red-zone possessions, but only one of those possessions resulted in a touchdown.",
+            "page": 38,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has held each of its first three opponents without a rushing touchdown.",
+            "page": 43,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Punter Cam Brown is averaging 43.5 yards on 14 punts, with eight placed inside the 20 and no touchbacks.",
+            "page": 40,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Trey Butkowski is 2-for-2 on field goals, making attempts from 40 and 49 yards, and is 10-for-10 on extra points.",
+            "page": 40,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jacob Baggett has produced touchbacks on 11 of 14 kickoffs.",
+            "page": 40,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bryson Kuzdzal has returned three kickoffs for 65 yards, an average of 21.7 yards.",
+            "page": 39,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [],
+        "source_file": "Michigan.pdf"
+      },
+      {
+        "source_team": "Minnesota Golden Gophers",
+        "opponent": "Michigan Wolverines",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The game notes are explicitly titled for Minnesota vs. Michigan and identify the Week 5 matchup for Oct. 3, 2026, at Huntington Bank Stadium.",
+        "recent_game": [
+          {
+            "fact": "Minnesota defeated Washington 27-24 on the road to improve to 3-1 overall and 1-0 in Big Ten play.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Drake Lindsey completed 21 of 29 passes for 204 yards, three touchdowns and one interception at Washington; he was 15-of-16 for 125 yards and three touchdowns in the first half.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota recorded seven sacks against Washington and held the Huskies to 1-of-10 on third down.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "TJ Thomas led Minnesota with 78 rushing yards on 11 carries at Washington.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Maverick Baranowski intercepted Washington quarterback Demond Williams Jr. to set up Minnesota's first touchdown.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Drzewiecki made a career-long 51-yard field goal in the fourth quarter at Washington.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Michigan enters the matchup 3-1 overall and 0-1 in the Big Ten after a last-second 20-19 loss to Iowa.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan quarterback Bryce Underwood is 57-of-92 passing for 780 yards, five touchdowns and two interceptions, with a 146.8 efficiency rating.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan's rushing leaders are Jordan Marshall with 194 yards on 45 carries, Bryce Underwood with 192 yards on 47 carries and Savion Hiter with 136 yards on 38 carries; each has two rushing touchdowns.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Andrew Marsh and JJ Buchanan account for 42 of Michigan's 59 receptions. Marsh has 22 catches for 239 yards and one touchdown, while Buchanan has 20 catches for 396 yards and four touchdowns.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan is allowing 236.3 total yards and 86.8 rushing yards per game, ranking seventh and 18th nationally, respectively.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan averages 3.0 sacks per game while allowing 1.25 sacks per game.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Michigan has a minus-three turnover margin through four games, with three takeaways and six giveaways.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Troy Bowles leads Michigan with 31 tackles, Dominic Nichols has a team-high 5.0 tackles for loss and John Henry Daley leads the Wolverines with 3.0 sacks.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Minnesota quarterback Drake Lindsey is 88-of-132 for 951 yards, seven touchdowns and two interceptions through four games, with a 141.7 passer rating.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lindsey has thrown three touchdown passes in consecutive games, becoming the first Minnesota quarterback to post at least three touchdown passes in back-to-back games since 2023.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lindsey ranks fourth in the Big Ten with 22.0 completions per game and eighth in the conference in both passing yards and passing touchdowns.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Lindsey's career touchdown-to-interception ratio is a Minnesota-record 3.25, based on 26 touchdowns and eight interceptions.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Darius Taylor returned at Washington after missing the Akron game because of an injury suffered against Mississippi State.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Taylor has played in three of four games and leads Minnesota with 39 rushing attempts and three rushing touchdowns; he has 107 rushing yards.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "TJ Thomas leads Minnesota with 251 rushing yards and a 7.4-yard average on 34 carries; he also has 11 receptions for 64 yards.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Javon Tracy leads Minnesota with 24 receptions and 281 receiving yards through four games.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Noah Jennings, a transfer who previously played at Cincinnati and Charleston Southern, leads Minnesota with 33 targets and is second with 19 receptions for 275 yards.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota's receiver room added eight newcomers for 2026 around returning receivers Javon Tracy and Jalen Smith.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota used Ashton Beers at center, Greg Johnson at left guard, Nathan Roy at left tackle, Tony Nelson at right guard and first-year starter Daniel Shipp at right tackle in each of its first three games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ashton Beers did not play at Washington, so Greg Johnson moved to center and Jaden Ball entered the starting lineup at left guard.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota's offensive line has allowed 1.0 sack per game through four games, and it allowed no sacks in the season opener.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Maverick Baranowski leads Minnesota with 28 tackles and has 3.0 tackles for loss, one sack and one interception.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "At Washington, Baranowski recorded seven tackles, two tackles for loss, one sack and his first career interception.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Joey Gerlach has 16 tackles, 1.5 tackles for loss, one sack, one fumble recovery and three forced fumbles through four games.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Gerlach has forced a fumble in three consecutive games, becoming the first Minnesota player since at least 2005 to do so.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Anthony Smith has 20.5 career sacks and 33.5 career tackles for loss; through four games in 2026 he has seven tackles, 2.5 tackles for loss, one sack and two pass breakups.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "John Nestor has 13 tackles, 2.0 tackles for loss, two pass breakups and one interception in four games, including an interception at Washington.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Karter Menz leads Minnesota with three sacks through four games.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Daniel Da Prato is Minnesota's new special teams coordinator for the 2026 season.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Michigan is coached by Kyle Whittingham, who is in his first season with the Wolverines and has a 3-1 record at the school.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Darius Taylor was limited by injury against Mississippi State, missed the Akron game and returned at Washington.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Starting center Ashton Beers did not play in Minnesota's most recent game at Washington.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Joey Gerlach missed the final four games of 2025 with a torn ACL but was ready for the 2026 opener and has played in all four games, starting two.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "A.J. Turner, who was limited to three games in 2025 by an injury suffered at California, returned against Mississippi State and has 44 rushing yards on 10 attempts in 2026.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "low"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Minnesota averages 35.0 points and 377.8 total yards per game, including 258.8 passing yards and 119.0 rushing yards.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota has converted 41.1 percent of its third downs and has scored on 94.4 percent of its red-zone trips, with touchdowns on 66.7 percent.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota has committed three turnovers through four games: one lost fumble and two interceptions.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota averages 34:03 in time of possession, the best mark in the Big Ten and eighth nationally.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Minnesota allows 19.0 points and 272.3 total yards per game, including 97.8 rushing yards and 174.5 passing yards.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota ranks first in the Big Ten with 8.3 tackles for loss per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "After recording four sacks over its first three games, Minnesota produced seven sacks at Washington and now has 11 sacks through four games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota's defense has limited opponents to a 28.3 percent third-down conversion rate.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota has five takeaways and three giveaways for a plus-two turnover margin.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Javon Tracy has 278 punt-return yards and two punt-return touchdowns on 13 returns, averaging 21.4 yards per return.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota ranks eighth nationally with a 21.71-yard punt-return average, while Michigan ranks 117th at 3.60 yards per punt return.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "True freshman Quayd Hendryx has returned five kickoffs for 134 yards, averaging 26.8 yards per return.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Drzewiecki is 6-for-6 on field goals, including four makes from at least 40 yards.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Tom Weston averages 40.5 yards per punt and has placed nine of 17 punts inside the opponent's 20-yard line.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Michigan kicker Trey Butkowski is 4-for-4 on field goals with a long of 49 yards, and three of his makes are from at least 40 yards.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota kicker Beckham Sunderland played for Michigan in 2025, appearing in all 13 games as its primary kickoff specialist and recording 44 touchbacks on 71 kickoffs.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "This will be the 107th meeting between Minnesota and Michigan and the 100th game played for the Little Brown Jug.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan leads the overall series 78-25-3 and has won the last five meetings.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan has won 18 consecutive games against Minnesota in Minneapolis; Minnesota's last home win in the series was a 16-0 victory over No. 1 Michigan in 1977.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan won the most recent meeting 27-24 in Ann Arbor in 2024 after Minnesota scored three fourth-quarter touchdowns to cut a 24-3 deficit to three points.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota's most recent win over Michigan was a 30-14 road victory in 2014.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Minnesota is 3-1 overall and 1-0 in the Big Ten entering its first home conference game of the season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota has won five consecutive Big Ten home games and 10 of its last 11 games overall at Huntington Bank Stadium.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota has a net starting-field-position advantage of 15.8 yards in non-garbage regulation drives against FBS opponents, with its offense starting 62.9 yards from the end zone and opponents starting 78.7 yards away.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Minnesota.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Minnesota rushing offense vs Michigan rush defense",
+        "off_team": "Minnesota",
+        "def_team": "Michigan",
+        "off_rank": 98,
+        "def_rank": 21,
+        "stat": "rush EPA",
+        "rank_gap": 77,
+        "direction": "defense_advantage",
+        "matchup_score": 177
+      },
+      {
+        "dimension": "Minnesota passing offense vs Michigan pass defense",
+        "off_team": "Minnesota",
+        "def_team": "Michigan",
+        "off_rank": 76,
+        "def_rank": 34,
+        "stat": "pass EPA",
+        "rank_gap": 42,
+        "direction": "defense_advantage",
+        "matchup_score": 142
+      },
+      {
+        "dimension": "Michigan rushing offense vs Minnesota rush defense",
+        "off_team": "Michigan",
+        "def_team": "Minnesota",
+        "off_rank": 53,
+        "def_rank": 99,
+        "stat": "rush EPA",
+        "rank_gap": 46,
+        "direction": "mixed",
+        "matchup_score": 46
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 37,
+        "fact": "Drake Lindsey completed 21 of 29 passes for 204 yards, three touchdowns and one interception at Washington; he was 15-of-16 for 125 yards and three touchdowns in the first half.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 38,
+        "fact": "Minnesota recorded seven sacks against Washington and held the Huskies to 1-of-10 on third down.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 44,
+        "fact": "Michigan's rushing leaders are Jordan Marshall with 194 yards on 45 carries, Bryce Underwood with 192 yards on 47 carries and Savion Hiter with 136 yards on 38 carries; each has two rushing touchdowns.",
+        "page": 2,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 46,
+        "fact": "Michigan is allowing 236.3 total yards and 86.8 rushing yards per game, ranking seventh and 18th nationally, respectively.",
+        "page": 3,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 47,
+        "fact": "Michigan averages 3.0 sacks per game while allowing 1.25 sacks per game.",
+        "page": 3,
+        "category": "opponent_notes",
+        "importance": "medium",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 48,
+        "fact": "Michigan has a minus-three turnover margin through four games, with three takeaways and six giveaways.",
+        "page": 3,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 61,
+        "fact": "Ashton Beers did not play at Washington, so Greg Johnson moved to center and Jaden Ball entered the starting lineup at left guard.",
+        "page": 9,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 62,
+        "fact": "Minnesota's offensive line has allowed 1.0 sack per game through four games, and it allowed no sacks in the season opener.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "medium",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 73,
+        "fact": "Starting center Ashton Beers did not play in Minnesota's most recent game at Washington.",
+        "page": 9,
+        "category": "injury_availability",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 76,
+        "fact": "Minnesota averages 35.0 points and 377.8 total yards per game, including 258.8 passing yards and 119.0 rushing yards.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 81,
+        "fact": "Minnesota ranks first in the Big Ten with 8.3 tackles for loss per game.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      },
+      {
+        "fact_id": 84,
+        "fact": "Minnesota has five takeaways and three giveaways for a plus-two turnover margin.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Michigan Wolverines",
+      "model_side": "Michigan",
+      "opponent_full": "Minnesota Golden Gophers",
+      "opponent": "Minnesota",
+      "model_prediction": -7.5,
+      "market_line": -5.5,
+      "best_available_line": -5.5,
+      "best_available_price": "-108",
+      "cover_probability": 0.52906677,
+      "edge": 0.0098360007692307,
+      "bet_status": "PASS"
+    }
+  }
+}

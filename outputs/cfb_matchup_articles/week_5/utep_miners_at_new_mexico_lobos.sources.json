@@ -1,0 +1,27 @@
+{
+  "game": "UTEP Miners@New Mexico Lobos",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:49:00.536897+00:00",
+  "model_prediction": 21.0,
+  "market_line": 22.5,
+  "best_line": 23.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.55341794,
+  "edge": 0.0296084161904761,
+  "bet_short": "UTEP",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UTEP Miners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UTEP.pdf",
+      "No guide found for New Mexico Lobos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "game": "Auburn Tigers@Tennessee Volunteers",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:30:23.991828+00:00",
+  "model_prediction": 6.0,
+  "market_line": 7.0,
+  "best_line": 7.5,
+  "best_price": "-120",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.55882026,
+  "edge": 0.0133657145454545,
+  "bet_short": "Auburn",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers give Auburn more credit than the market largely because we see an offense capable of creating scoring opportunities, even if its passing efficiency has been inconsistent. For us, the case for Auburn staying competitive depends on converting enough productive possessions rather than consistently winning through the air.\n\nWe also understand why the market is leaning more heavily toward Tennessee. We have Tennessee creating scoring chances at an elite rate, and the Volunteers converted all 11 red-zone opportunities through three games, scoring 10 touchdowns. We also note that Faizon Brandon accounted for nine touchdowns without an interception across his first 64 attempts. Those early results are not proof that the same efficiency will continue, but they support the primary concern in backing Auburn. We see a modest disagreement with the market, but not enough value at the current cost to move beyond a pass.",
+    "matchup_to_watch": "We are watching Auburn\u2019s passing offense against Tennessee\u2019s pass defense. Our matchup data identifies that as Tennessee\u2019s clearest advantage, and the early defensive results support it: we have Tennessee allowing only 151 passing yards per game, with just two completions of at least 20 yards through three games.\n\nWe also have Tennessee producing 13 sacks and 24 tackles for loss over that stretch. If Auburn cannot generate efficient throws or limit negative plays, we think Tennessee can force the game into the exact script that makes it difficult for the underdog to stay within range.",
+    "guide_status": [
+      "No guide found for Auburn Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Auburn.pdf",
+      "Found guide for Tennessee Volunteers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf",
+      "Guide for Tennessee Volunteers was found but may not match the current opponent. The guide is Tennessee's Week 4 game notes for its Sept. 26, 2026 matchup against Texas. Auburn is listed as Tennessee's next opponent on Oct. 3, so the document was not issued for the upcoming Auburn matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Tennessee Volunteers",
+        "opponent": "Auburn Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Tennessee's Week 4 game notes for its Sept. 26, 2026 matchup against Texas. Auburn is listed as Tennessee's next opponent on Oct. 3, so the document was not issued for the upcoming Auburn matchup.",
+        "recent_game": [
+          {
+            "fact": "Tennessee improved to 3-0 with a 42-9 win over Kennesaw State on Sept. 19, rushing for 268 yards and holding Kennesaw State to three field goals and no touchdowns.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Daune Morris recorded his first career 100-yard game against Kennesaw State, gaining 116 yards on 14 carries with a 42-yard touchdown.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Faizon Brandon completed 18 of 26 passes for 178 yards and one touchdown against Kennesaw State and added 47 rushing yards and one touchdown on 11 carries.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee held Kennesaw State to 102 rushing yards; linebacker Arion Carter had eight tackles, one sack and two tackles for loss, while Edwin Spillman had five tackles and a forced fumble.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Auburn head coach Alex Golesh previously worked under Josh Heupel as offensive coordinator and tight ends coach at UCF in 2020 and at Tennessee in 2021-22.",
+            "page": 11,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "True freshman Faizon Brandon earned Tennessee's starting quarterback job in preseason camp and was officially named the starter on Aug. 24.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Brandon had accounted for nine touchdowns\u2014six passing and three rushing\u2014and had not thrown an interception in 64 attempts.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brandon had thrown at least one touchdown pass in each of Tennessee's first three games and had twice produced both a passing and rushing touchdown in the same game.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brandon became the youngest quarterback to start a game in Tennessee history when he started the Sept. 5 opener against Furman at 18 years, three months and four days old.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back DeSean Bishop had 286 rushing yards, a 95.3-yard average and four rushing touchdowns through three games.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Bishop had scored a rushing touchdown in seven consecutive games dating to Nov. 15, 2025.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mike Matthews led Tennessee through three games with 10 receptions and 189 receiving yards and was tied for the team lead with two receiving touchdowns.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Braylon Staley caught touchdown passes in consecutive games against Georgia Tech and Kennesaw State.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee's starting offensive line in each of the two most recent games was David Sanders Jr. at left tackle, Wendell Moe Jr. at left guard, Sam Pendleton at center, Sham Umarov at right guard and Jesse Perry at right tackle.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had eight offensive linemen with FBS starting experience, combining for 103 career starts.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Penn State transfer linebacker Amare Campbell led Tennessee through three games with 17 tackles, including 11 solo tackles.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Penn State transfer defensive tackle Xavier Gilliam led Tennessee with 3.0 sacks and 5.5 tackles for loss through three games.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Penn State transfer safety Dejuan Lane had a team-high three passes defended, including a 41-yard interception return for a touchdown at Georgia Tech.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Kayin Lee transferred to Tennessee after starting 25 games over three seasons at Auburn; the guide states that he did not allow a touchdown in 2025.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had eight defenders make their first Volunteers starts during the first three games of 2026.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jim Knowles was named Tennessee's defensive coordinator on Dec. 11, 2025, after serving as Penn State's defensive coordinator in 2025.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee also added co-defensive coordinator and secondary coach Anthony Poindexter, LEOs coach Andrew Jackson and cornerbacks coach Derek Jones for 2026.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "All five Tennessee offensive assistants returned for 2026, including offensive coordinator and quarterbacks coach Joey Halzle.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Tight end Ethan Davis is out for the remainder of the 2026 season with a knee injury sustained at Georgia Tech in Week 2.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Jadais Richard is out for the year after suffering an injury during the summer.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Arion Carter returned against Georgia Tech after serving a one-game NCAA suspension and had eight tackles in each of his first two games back.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through three games, Tennessee averaged 47.7 points, 510.3 total yards and 298.7 rushing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee exceeded 400 yards of total offense in each of its first three games and in 16 of its previous 17 regular-season games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee converted all 11 of its red-zone opportunities through three games, scoring touchdowns on 10.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee scored a touchdown on its opening offensive possession in each of its first three games, with all three drives lasting less than three and a half minutes.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee outscored its first three opponents 44-0 in the second quarter and 86-10 across the second and third quarters combined.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee had rushed for at least 250 yards in all three games and was 36-2 under Josh Heupel when reaching 200 rushing yards, including 30 consecutive wins in such games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through three games under Jim Knowles, Tennessee had 13 sacks and 24 tackles for loss.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee's defense allowed two offensive touchdowns on 33 opponent drives through three games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had not allowed a first-half touchdown through three games, and its starting defense had surrendered one touchdown.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee allowed 151.0 passing yards per game through three games and had surrendered only two pass plays of at least 20 yards and none of at least 30 yards.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The longest play from scrimmage allowed by Tennessee through three games was a 34-yard run, while the longest completed pass allowed was 26 yards.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Louisville transfer kicker Cooper Ranvier made all three of his field-goal attempts, including a long of 43 yards, and all 17 extra-point attempts through three games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee blocked a punt with Justin Baker at Georgia Tech on Sept. 12.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Tennessee was 3-0 entering its Sept. 26 game against Texas, with wins over Furman, Georgia Tech and Kennesaw State.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee's schedule lists Auburn as its Oct. 3 SEC opponent following the Sept. 26 Texas game.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Tennessee.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Auburn passing offense vs Tennessee pass defense",
+        "off_team": "Auburn",
+        "def_team": "Tennessee",
+        "off_rank": 96,
+        "def_rank": 25,
+        "stat": "pass EPA",
+        "rank_gap": 71,
+        "direction": "defense_advantage",
+        "matchup_score": 171
+      },
+      {
+        "dimension": "Auburn scoring-opportunity creation vs Tennessee scoring-opportunity prevention",
+        "off_team": "Auburn",
+        "def_team": "Tennessee",
+        "off_rank": 30,
+        "def_rank": 88,
+        "stat": "Eckel rate",
+        "rank_gap": 58,
+        "direction": "offense_advantage",
+        "matchup_score": 158
+      },
+      {
+        "dimension": "Tennessee scoring-opportunity creation vs Auburn scoring-opportunity prevention",
+        "off_team": "Tennessee",
+        "def_team": "Auburn",
+        "off_rank": 5,
+        "def_rank": 53,
+        "stat": "Eckel rate",
+        "rank_gap": 48,
+        "direction": "mixed",
+        "matchup_score": 48
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 6,
+        "fact": "Through three games, Brandon had accounted for nine touchdowns\u2014six passing and three rushing\u2014and had not thrown an interception in 64 attempts.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Tennessee converted all 11 of its red-zone opportunities through three games, scoring touchdowns on 10.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Through three games under Jim Knowles, Tennessee had 13 sacks and 24 tackles for loss.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 35,
+        "fact": "Tennessee allowed 151.0 passing yards per game through three games and had surrendered only two pass plays of at least 20 yards and none of at least 30 yards.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Auburn Tigers",
+      "model_side": "Auburn",
+      "opponent_full": "Tennessee Volunteers",
+      "opponent": "Tennessee",
+      "model_prediction": 6.0,
+      "market_line": 7.0,
+      "best_available_line": 7.5,
+      "best_available_price": "-120",
+      "cover_probability": 0.55882026,
+      "edge": 0.0133657145454545,
+      "bet_status": "PASS"
+    }
+  }
+}

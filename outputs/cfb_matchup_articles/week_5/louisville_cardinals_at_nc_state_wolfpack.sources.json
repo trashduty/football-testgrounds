@@ -1,0 +1,27 @@
+{
+  "game": "Louisville Cardinals@NC State Wolfpack",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:33:08.149914+00:00",
+  "model_prediction": 3.5,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-105",
+  "best_book": "Fanatics",
+  "cover_probability": 0.51805494,
+  "edge": 0.0058598180487804,
+  "bet_short": "NC State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Louisville Cardinals. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisville.pdf",
+      "No guide found for NC State Wolfpack. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/NC State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

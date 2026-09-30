@@ -1,0 +1,506 @@
+{
+  "game": "Pittsburgh Panthers@Virginia Tech Hokies",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:45:02.898585+00:00",
+  "model_prediction": 1.5,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55221421,
+  "edge": 0.0195039296261683,
+  "bet_short": "Pittsburgh",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "The market is asking us to give considerable weight to Virginia Tech\u2019s home field and unbeaten start. Our numbers are less willing to do that because Pittsburgh has consistently extended drives and protected its passing game, converting half of its third downs while allowing only four sacks on 149 pass attempts. That supports the larger matchup signal in our model: Pittsburgh is well positioned to create scoring opportunities against a Virginia Tech defense that has struggled to prevent them.\n\nVirginia Tech\u2019s 43.3-point scoring average is the clearest challenge to that view, but our pass-efficiency matchup favors Pittsburgh\u2019s defense. Pittsburgh is allowing 8.5 points per game, and opponents have converted only 15 of 54 third downs. We are not treating those early results as proof, but they help explain why our model is more skeptical of Virginia Tech\u2019s offense than the market appears to be.\n\nWe see a legitimate football case for Pittsburgh, but the disagreement is modest. With the available price requiring more conviction than our edge provides, we are comfortable passing rather than forcing a position.",
+    "matchup_to_watch": "For us, the matchup to watch is Pittsburgh\u2019s passing game against Virginia Tech\u2019s ability to get off the field. Mason Heintschel has completed 88 of 130 passes for 1,191 yards, 13 touchdowns and one interception, and all five listed starting offensive linemen have started each of the first four games.\n\nThat continuity matters because Pittsburgh does not need a series of explosive plays to expose the underlying concern in Virginia Tech\u2019s scoring-opportunity defense. If Pittsburgh protects Heintschel and continues sustaining drives, it can keep this game closer than the market expects. The question is whether that advantage is strong enough on the road to create separation rather than merely keep Pittsburgh competitive.",
+    "guide_status": [
+      "Found guide for Pittsburgh Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf",
+      "Loaded guide for Pittsburgh Panthers: Pittsburgh.pdf",
+      "No guide found for Virginia Tech Hokies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Pittsburgh Panthers",
+        "opponent": "Virginia Tech Hokies",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The guide is explicitly titled for Pitt at Virginia Tech on October 2, 2026, and contains game storylines, depth charts, statistics and opponent-specific notes for that matchup.",
+        "recent_game": [
+          {
+            "fact": "Pitt defeated Bucknell 59-0 on September 26, improving to 4-0.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Bucknell, Pitt set school records with 766 total yards, 574 passing yards and eight touchdown passes; the eight touchdown passes tied the ACC team record.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt scored touchdowns on all five first-half possessions against Bucknell and finished 9-of-14 on third down, 2-of-2 on fourth down and 7-of-7 in the red zone.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt's offensive line allowed no sacks on 53 pass attempts against Bucknell.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt held Bucknell to 136 total yards and 31 rushing yards, prevented the Bison from reaching the red zone and allowed only two third-down conversions in 13 attempts.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Pitt and Virginia Tech enter the game 4-0 overall and 1-0 in the ACC.",
+            "page": 8,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Virginia Tech averages 43.3 points per game, the second-highest scoring average in the ACC.",
+            "page": 8,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "The matchup pairs Virginia Tech's 43.3-point scoring average with a Pitt defense allowing an ACC-low 8.5 points per game.",
+            "page": 14,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "The game is scheduled for October 2 at 7 p.m. at Lane Stadium in Blacksburg, Virginia.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Sophomore Mason Heintschel is Pitt's listed starting quarterback and has completed 88-of-130 passes for 1,191 yards, 13 touchdowns and one interception in 2026.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Heintschel ranks second in the ACC in touchdown passes, third in passing yards per game at 297.8 and fourth in passing efficiency at 176.11.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Heintschel completed 29-of-37 passes for 403 yards and six touchdowns without an interception against Bucknell and added 33 rushing yards.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Heintschel became the first ACC quarterback to throw at least six touchdown passes in multiple games in one season; he also threw seven touchdowns against Miami (Ohio).",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Friday will be Heintschel's first appearance against Virginia Tech; in 2025 road games he passed for 321 yards and two touchdowns at Florida State and 304 yards and three touchdowns at Stanford.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup quarterback Holden Geriner, a January 2026 transfer from Texas State, is 11-of-14 for 141 yards and one touchdown this season.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "True freshman Damon Ferguson Jr. leads Pitt with 239 rushing yards on 45 carries and 312 all-purpose yards.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ferguson rushed for 102 yards and a touchdown on 10 carries against Syracuse and has averaged 5.6 yards per carry over Pitt's past three games.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cataurus Hicks leads Pitt with 252 receiving yards on 12 catches and averages 21.0 yards per reception.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Censere Lee leads Pitt with four touchdown receptions and caught a career-high three touchdowns against Bucknell.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Seventeen Panthers have caught a pass this season, and 11 different players have a touchdown reception.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman receiver Demetrice McCray caught three passes for 73 yards and two touchdowns against Bucknell, becoming Pitt's first freshman with multiple touchdown receptions in a game since 2013.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt's listed starting offensive line is left tackle Netinho Olivieri, left guard Kendall Stanley, center Ryan Carretta, right guard BJ Williams and right tackle Ryan Baer.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "All five listed starting offensive linemen have started each of Pitt's first four games; Carretta is in his first season as Pitt's starting center, and Olivieri transferred from Penn in January 2026.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Free safety Josh Guerrier leads Pitt with 21 tackles, followed by linebacker Alex Sanford Jr. and strong safety Cruce Brookins with 18 each and linebacker Jeremiah Marcelin with 17.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sanford recorded 11 tackles, 2.5 tackles for loss and three quarterback hurries against Syracuse.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Raion Strader and linebacker Braylan Lovelace intercepted passes on consecutive fourth-quarter Syracuse possessions.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sanford leads Pitt with 3.5 tackles for loss, while Isaiah Neal, Nick James and DeMarco Ward have 2.5 each.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt's probable defensive front lists Isaiah Neal or Zach Crothers and Jimmy Scott or Jaeden Moore at end, with Sean FitzSimmons and Nick James at defensive tackle.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "James Franklin is in his first season as Virginia Tech's head coach and enters the Pitt game 4-0 at the school.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt offensive coordinator and quarterbacks coach Kade Bell calls from the field, while defensive coordinator Cory Sanders coaches from the booth.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running back Ja'Kyrian Turner, Pitt's 2025 rushing leader, has appeared in only one game in 2026; the guide does not state a reason for his limited appearances.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end Zach Crothers suffered a season-ending injury after four games in 2025 but is listed on the 2026 two-deep and has four tackles, three pass breakups and a half-tackle for loss this season.",
+            "page": 21,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Jeremiah Marcelin missed the entire 2025 season because of a preseason injury but is Pitt's listed starting Mike linebacker and has 17 tackles in 2026.",
+            "page": 21,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Pitt averages 39.3 points, 523.8 total yards, 347.3 passing yards and 176.5 rushing yards per game.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt has rushed for 437 yards over its past two games, including a season-high 245 yards and three rushing touchdowns against Syracuse.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Pitt has converted 50.0% of its third downs and 66.7% of its fourth downs while allowing four sacks in 149 pass attempts.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt has committed two turnovers through four games and has a plus-one turnover margin.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt is 3-0 against Virginia Tech under Pat Narduzzi when rushing for at least 200 yards, doing so in 2018, 2021 and 2022.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Pitt leads the ACC in scoring defense at 8.5 points per game and ranks second in total defense at 244.5 yards per game.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt ranks second in the ACC in rushing defense, allowing 53.3 yards per game and 2.0 yards per carry.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt has held each of its first four opponents to 14 points or fewer and has not allowed a point in either the first or third quarter.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have converted 15-of-54 third downs and 1-of-5 fourth downs against Pitt.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt has nine sacks from 10 different contributors and 27 tackles for loss through four games.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt has recorded at least two sacks in all nine meetings with Virginia Tech under Pat Narduzzi, totaling 29 sacks.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Antonio Chadha is 5-for-5 on field goals and 18-for-18 on extra points in 2026.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Chadha's 58-yard field goal against Miami (Ohio) tied Pitt's school record and is the longest field goal by an ACC player this season.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Gabe Russo averages 42.4 yards on 15 punts, with five punts of at least 50 yards and six placed inside the opponent's 20-yard line.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cam Sapp is listed as Pitt's primary kickoff and punt returner, with Tyreek Robinson backing him up on kickoffs and Cataurus Hicks backing him up on punts.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Virginia Tech leads the overall series 12-11, while Pitt leads ACC meetings 6-5.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt has won three of the past four meetings and 10 of the past 15.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech won the most recent meeting 38-21 at Lane Stadium on September 30, 2023.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt's most recent victory at Lane Stadium was a 28-7 win in 2021, when the Panthers rushed for 208 yards, committed no turnovers and held Virginia Tech to 224 total yards.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In Pitt's two Lane Stadium victories under Pat Narduzzi, the defense combined for 10 sacks and four interceptions while allowing an average of 10.0 points.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Pitt has won four consecutive road games, all during the 2025 season, and scored at least 30 points in each.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt is 25-19 in ACC road games under Pat Narduzzi and went 4-0 in ACC road games in 2025.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt's 2026 captains are quarterback Mason Heintschel, offensive tackle Ryan Baer, linebacker Braylan Lovelace and safety Cruce Brookins.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Pittsburgh.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Pittsburgh scoring-opportunity creation vs Virginia Tech scoring-opportunity prevention",
+        "off_team": "Pittsburgh",
+        "def_team": "Virginia Tech",
+        "off_rank": 26,
+        "def_rank": 131,
+        "stat": "Eckel rate",
+        "rank_gap": 105,
+        "direction": "offense_advantage",
+        "matchup_score": 205
+      },
+      {
+        "dimension": "Virginia Tech passing offense vs Pittsburgh pass defense",
+        "off_team": "Virginia Tech",
+        "def_team": "Pittsburgh",
+        "off_rank": 87,
+        "def_rank": 11,
+        "stat": "pass EPA",
+        "rank_gap": 76,
+        "direction": "defense_advantage",
+        "matchup_score": 176
+      },
+      {
+        "dimension": "Virginia Tech scoring-opportunity creation vs Pittsburgh scoring-opportunity prevention",
+        "off_team": "Virginia Tech",
+        "def_team": "Pittsburgh",
+        "off_rank": 103,
+        "def_rank": 42,
+        "stat": "Eckel rate",
+        "rank_gap": 61,
+        "direction": "mixed",
+        "matchup_score": 61
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 6,
+        "fact": "Pitt and Virginia Tech enter the game 4-0 overall and 1-0 in the ACC.",
+        "page": 8,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Virginia Tech averages 43.3 points per game, the second-highest scoring average in the ACC.",
+        "page": 8,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Sophomore Mason Heintschel is Pitt's listed starting quarterback and has completed 88-of-130 passes for 1,191 yards, 13 touchdowns and one interception in 2026.",
+        "page": 10,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 23,
+        "fact": "All five listed starting offensive linemen have started each of Pitt's first four games; Carretta is in his first season as Pitt's starting center, and Olivieri transferred from Penn in January 2026.",
+        "page": 20,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 36,
+        "fact": "Through four games, Pitt has converted 50.0% of its third downs and 66.7% of its fourth downs while allowing four sacks in 149 pass attempts.",
+        "page": 11,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 39,
+        "fact": "Pitt leads the ACC in scoring defense at 8.5 points per game and ranks second in total defense at 244.5 yards per game.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 42,
+        "fact": "Opponents have converted 15-of-54 third downs and 1-of-5 fourth downs against Pitt.",
+        "page": 14,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Pittsburgh Panthers",
+      "model_side": "Pittsburgh",
+      "opponent_full": "Virginia Tech Hokies",
+      "opponent": "Virginia Tech",
+      "model_prediction": 1.5,
+      "market_line": 3.5,
+      "best_available_line": 3.5,
+      "best_available_price": "-114",
+      "cover_probability": 0.55221421,
+      "edge": 0.0195039296261683,
+      "bet_status": "PASS"
+    }
+  }
+}

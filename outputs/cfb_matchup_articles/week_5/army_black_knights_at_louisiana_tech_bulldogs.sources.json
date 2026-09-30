@@ -1,0 +1,387 @@
+{
+  "game": "Army Black Knights@Louisiana Tech Bulldogs",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:29:26.178139+00:00",
+  "model_prediction": -1.0,
+  "market_line": 2.0,
+  "best_line": 2.5,
+  "best_price": "-110",
+  "best_book": "Fanatics",
+  "cover_probability": 0.56154278,
+  "edge": 0.0377332561904761,
+  "bet_short": "Louisiana Tech",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We understand why Army commands respect here. Through two games, the offense averaged 394 rushing yards and 497.5 total yards, while avoiding an interception. That production highlights the biggest concern for our Louisiana Tech position: Army owns a clear efficiency advantage against a vulnerable Louisiana Tech run defense and can control the game if it consistently stays ahead of schedule.\n\nOur view, however, is not based on dismissing Army\u2019s offense. We see a more competitive overall matchup than the market does, with Louisiana Tech\u2019s rushing attack holding an efficiency advantage against Army\u2019s run defense. That gives Louisiana Tech a path to sustain possessions and limit how often Army can dictate terms. For us, the case is less about stopping Army outright and more about Louisiana Tech doing enough offensively to keep a tight game within reach.",
+    "matchup_to_watch": "We are watching Army\u2019s rushing offense against Louisiana Tech\u2019s run defense. Army produced 25 runs of at least 10 yards through three weeks, and its ground production was distributed among Zach Mundell, Godspower Nwawuihe and Cale Hellums, each of whom had at least 140 rushing yards through the first two games. That variety makes the challenge more complicated than containing one runner.\n\nLouisiana Tech also cannot sell out without consequence. Hellums completed 9 of 10 passes with two touchdowns against South Florida, so Army has shown it can capitalize through the air when opportunities appear. If Louisiana Tech limits explosive runs without creating easy passing chances, our expectation of a close game becomes much more plausible.",
+    "guide_status": [
+      "Found guide for Army Black Knights: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Army.pdf",
+      "Guide for Army Black Knights was found but may not match the current opponent. This is Army's Week 4 game guide for its Sept. 25 road game against Temple. The schedule lists the Louisiana Tech game for Oct. 3, and the matchup notes, statistics and media schedule are centered on Temple.",
+      "No guide found for Louisiana Tech Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana Tech.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Army Black Knights",
+        "opponent": "Louisiana Tech Bulldogs",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "This is Army's Week 4 game guide for its Sept. 25 road game against Temple. The schedule lists the Louisiana Tech game for Oct. 3, and the matchup notes, statistics and media schedule are centered on Temple.",
+        "recent_game": [
+          {
+            "fact": "Army lost 28-24 to South Florida on Sept. 12, leaving the Black Knights 1-1 overall and 0-1 in the American Conference.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against South Florida, quarterback Cale Hellums completed 9 of 10 passes for 91 yards and two touchdowns; his .900 completion percentage was a career high.",
+            "page": 17,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Godspower Nwawuihe led Army against South Florida with 20 carries and 98 rushing yards and scored on a 10-yard fourth-quarter run.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Slotback Zach Mundell caught three passes against South Florida, including a 24-yard touchdown from Cale Hellums, and completed a 37-yard pass to Godspower Nwawuihe.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Senior Cale Hellums is listed first on Army's Sept. 20 depth chart at quarterback, followed by sophomore Bryson Luter and sophomore Ethan Washington.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hellums returned as Army's starting quarterback in 2026 after making 10 starts and playing in all 13 games in 2025.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hellums rushed for 1,223 yards and 18 touchdowns in 2025; the touchdown total was second in Army single-season history.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games in 2026, Hellums had 150 passing yards, 142 rushing yards and a team-high four total touchdowns.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hellums rushed seven times for 87 yards and two touchdowns and completed 4 of 9 passes for 59 yards in the season-opening win over Bryant.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Army's Sept. 20 offensive line listed Henry Appleton at left tackle, Kyle Kloska at left guard, Brady Small at center, Paolo Gennarelli at right guard and Teddy Williams at right tackle.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Godspower Nwawuihe is listed first at running back, with Jake Rendina and Carson Smith behind him.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Nwawuihe had 147 rushing yards through Army's first two games, while Zach Mundell had 150 and Cale Hellums had 142.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Senior slotback Zach Mundell played his second game since 2023 in the opener against Bryant and rushed four times for 105 yards and two touchdowns.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army's listed first-team skill personnel included Nwawuihe at running back, Samari Howard at slotback, Brady Mott at H-back, Parker Poloskey at tight end and Brady Anderson at wide receiver.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Army's Sept. 20 defensive front listed Dillon Stowers at defensive tackle, Kody Harris-Miller at nose tackle and Jack Bousum at defensive end.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The listed first-team linebackers were Noah Nixon at outside linebacker and Jaquavious Moss and Elijah Walton at inside linebacker.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army's listed first-team secondary consisted of nickel Zane Tallman, cornerbacks Jaydan Mayes and Jaxon Hammond, strong safety Caleb Williams and free safety Stephen Nnadozie.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Elijah Walton and Jaquavious Moss shared the team lead with 12 tackles apiece through two games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dillon Stowers led Army with one sack through two games, while Zane Tallman had the team's only forced fumble.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "John Holt is in his first season as Army's co-offensive line coach alongside third-year co-offensive line coach Cheston Blackshear.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jamere Hogue is in his first season as defensive line coach, and Munir Prince is in his first season as cornerbacks coach.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cody Worley is Army's offensive coordinator and quarterbacks coach, while Daryl Dixon is defensive coordinator and Scot Sloan is co-defensive coordinator and safeties coach.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through two games, Army averaged 394.0 rushing yards, 103.5 passing yards, 497.5 total yards and 41.5 points per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army led the FBS in rushing offense at 394.0 yards per game through three weeks and ranked 20th nationally in total offense at 497.5 yards per game.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army had 25 rushing plays of at least 10 yards through three weeks, tied for sixth most in the FBS.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army had not thrown an interception through two games and averaged 34:22 in time of possession.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In the opener against Bryant, Army produced 648 total yards, including 569 rushing yards, averaged 10.0 yards per carry and recorded 31 first downs in a 59-3 win.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Zach Mundell, Godspower Nwawuihe and Cale Hellums each had at least 140 rushing yards and two rushing touchdowns through Army's first two games.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Army allowed 267.0 total yards per game through two games, including 98.5 rushing yards and 168.5 passing yards per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army allowed 15.5 points per game through its first two contests.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army had not recorded an interception or a fumble recovery through two games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Army's Sept. 20 depth chart listed James Wagenseller as the first-team punter and Dawson Jones as the first-team kicker and kickoff specialist.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Samari Howard and Jaydan Mayes were listed as co-options at kick returner, while Lloyd Benson III was listed first at punt returner.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army averaged 47.6 yards per punt through two games, and Wagenseller was named to the Ray Guy Award's Ray's 8 for Week 2.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Lloyd Benson III averaged 18.7 yards per punt return through two games.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Army defeated Louisiana Tech in the 2024 Radiance Technologies Independence Bowl.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Army entered the Temple week 1-1 after opening with a 59-3 win over Bryant and a 28-24 loss to South Florida.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army's schedule lists a road game at Louisiana Tech on Oct. 3 at 7:30 p.m. Eastern.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Army.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Army rushing offense vs Louisiana Tech rush defense",
+        "off_team": "Army",
+        "def_team": "Louisiana Tech",
+        "off_rank": 28,
+        "def_rank": 107,
+        "stat": "rush EPA",
+        "rank_gap": 79,
+        "direction": "offense_advantage",
+        "matchup_score": 179
+      },
+      {
+        "dimension": "Army passing offense vs Louisiana Tech pass defense",
+        "off_team": "Army",
+        "def_team": "Louisiana Tech",
+        "off_rank": 8,
+        "def_rank": 86,
+        "stat": "pass EPA",
+        "rank_gap": 78,
+        "direction": "offense_advantage",
+        "matchup_score": 178
+      },
+      {
+        "dimension": "Louisiana Tech rushing offense vs Army rush defense",
+        "off_team": "Louisiana Tech",
+        "def_team": "Army",
+        "off_rank": 46,
+        "def_rank": 77,
+        "stat": "rush EPA",
+        "rank_gap": 31,
+        "direction": "mixed",
+        "matchup_score": 31
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Against South Florida, quarterback Cale Hellums completed 9 of 10 passes for 91 yards and two touchdowns; his .900 completion percentage was a career high.",
+        "page": 17,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 12,
+        "fact": "Nwawuihe had 147 rushing yards through Army's first two games, while Zach Mundell had 150 and Cale Hellums had 142.",
+        "page": 8,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 23,
+        "fact": "Through two games, Army averaged 394.0 rushing yards, 103.5 passing yards, 497.5 total yards and 41.5 points per game.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 25,
+        "fact": "Army had 25 rushing plays of at least 10 yards through three weeks, tied for sixth most in the FBS.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Army had not thrown an interception through two games and averaged 34:22 in time of possession.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Zach Mundell, Godspower Nwawuihe and Cale Hellums each had at least 140 rushing yards and two rushing touchdowns through Army's first two games.",
+        "page": 16,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Louisiana Tech Bulldogs",
+      "model_side": "Louisiana Tech",
+      "opponent_full": "Army Black Knights",
+      "opponent": "Army",
+      "model_prediction": -1.0,
+      "market_line": 2.0,
+      "best_available_line": 2.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.56154278,
+      "edge": 0.0377332561904761,
+      "bet_status": "BET"
+    }
+  }
+}

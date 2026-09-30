@@ -1,0 +1,27 @@
+{
+  "game": "BYU Cougars@TCU Horned Frogs",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:30:24.571565+00:00",
+  "model_prediction": 5.5,
+  "market_line": 6.5,
+  "best_line": 6.5,
+  "best_price": "-105",
+  "best_book": "Fanatics",
+  "cover_probability": 0.52996228,
+  "edge": 0.0177671580487804,
+  "bet_short": "TCU",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for BYU Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/BYU.pdf",
+      "No guide found for TCU Horned Frogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/TCU.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

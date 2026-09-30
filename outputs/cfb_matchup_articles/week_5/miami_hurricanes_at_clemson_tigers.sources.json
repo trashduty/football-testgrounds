@@ -1,0 +1,605 @@
+{
+  "game": "Miami Hurricanes@Clemson Tigers",
+  "season": 2026,
+  "week": 5,
+  "generated_at_utc": "2026-09-30T01:35:41.278928+00:00",
+  "model_prediction": 15.5,
+  "market_line": 16.5,
+  "best_line": 16.5,
+  "best_price": "-104",
+  "best_book": "FanDuel",
+  "cover_probability": 0.534251,
+  "edge": 0.0244470784313726,
+  "bet_short": "Clemson",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the disagreement centers on Clemson\u2019s ability to create separation against a Miami defense that grades well against the run, the pass and scoring-opportunity creation. Miami allowed only 13 points and 406 total yards across its first two games, and its 2025 defense led the ACC in total, scoring and rushing defense. We are not treating those early results as proof, but they support the resistance already showing up in our longer-run numbers.",
+    "matchup_to_watch": "We are watching Clemson\u2019s rushing offense against Miami\u2019s defensive front. Clemson had topped 150 rushing yards in consecutive games, and Gideon Davidson produced 105 yards against North Carolina, but our efficiency numbers still identify the ground game as a potential constraint. Miami returns interior starters Ahmad Moten Sr. and Justin Scott from last season, giving us a concrete reason to take that matchup seriously.\n\nIf Clemson cannot stay efficient on the ground, more falls on true freshman Tait Reynolds, who made his first career start against North Carolina. We saw encouraging production in that win, but asking a young quarterback to consistently finish drives against this defense is the central concern. That is enough to create a modest difference from the market, but not enough value for us to move beyond the prescribed pass.",
+    "guide_status": [
+      "Found guide for Miami Hurricanes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami.pdf",
+      "Guide for Miami Hurricanes was found but may not match the current opponent. The guide is labeled \"Game 3: Wake Forest\" and is intended for Miami's Sept. 18, 2026 road game at Wake Forest. Clemson is listed as Miami's Oct. 3 road opponent, but the document is not the Clemson game guide.",
+      "Found guide for Clemson Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Clemson.pdf",
+      "Guide for Clemson Tigers was found but may not match the current opponent. The guide is for Clemson's Sept. 25, 2026 road game against Cal, not the Oct. 3 home game against Miami. The schedule identifies Miami as Clemson's following opponent."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Miami Hurricanes",
+        "opponent": "Clemson Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is labeled \"Game 3: Wake Forest\" and is intended for Miami's Sept. 18, 2026 road game at Wake Forest. Clemson is listed as Miami's Oct. 3 road opponent, but the document is not the Clemson game guide.",
+        "recent_game": [
+          {
+            "fact": "Miami improved to 2-0 with a 77-7 home win over Florida A&M on Sept. 10, 2026.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami set a program record with 856 total yards and an ACC record with 42 first downs against Florida A&M; its 77 points tied the program record.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami rushed for 430 yards, passed for 426 yards and averaged 11.7 yards per play against Florida A&M.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami held Florida A&M to four first downs, 107 total yards and 2.3 yards per play.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami scored on 11 of its first 12 possessions against Florida A&M.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Miami is scheduled to play at Clemson on Oct. 3, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Through Sept. 13, Clemson was 1-1 overall and had not played an ACC game.",
+            "page": 12,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Transfer quarterback Darian Mensah started Miami's first two games after joining the program from Duke in January 2026.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Mensah completed 14 of 15 passes for 252 yards, three touchdowns and no interceptions against Florida A&M.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games, Mensah had completed 41 of 45 passes for 653 yards, eight touchdowns and no interceptions.",
+            "page": 18,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Mensah threw for 401 yards and five touchdowns on 27-of-30 passing in his Miami debut at Stanford.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Luke Nickel completed all eight of his passes for 144 yards and three touchdowns against Florida A&M.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Miami used the same offensive line in each of its first two games: Samson Okunlola at left tackle, SJ Alofaituli at left guard, Ryan Rodriguez at center, Max Buchanan at right guard and Matthew McCoy at right tackle.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Four of Miami's five 2025 offensive-line starters departed for the NFL, including drafted tackles Francis Mauigoa and Markel Bell and guard Anez Cooper.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Malachi Toney had four catches for 96 yards and one touchdown against Florida A&M after setting a Miami single-game record with 234 receiving yards and three touchdowns at Stanford.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman running back Javian Mallory rushed 10 times for 142 yards and two touchdowns against Florida A&M, including a 52-yard touchdown.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Mark Fletcher Jr. rushed for 105 yards against Florida A&M and moved to sixth in Miami career rushing yards with 2,458.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami added wide receiver Cooper Barkate after he caught 72 passes for 1,106 yards and seven touchdowns for Duke in 2025 while playing with Mensah.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Miami returns its two interior defensive-line starters from the 2025 national championship game, Ahmad Moten Sr. and Justin Scott.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami replaced first-round edge draft picks Rueben Bain Jr. and Akheem Mesidor with a group that includes returning contributors Marquise Lightfoot, Armondo Blount and Herbert Scroggins III.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer edge Damon Wilson II joined Miami after starting all 13 games for Missouri and recording nine sacks in 2025.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Mohamed Toure started all 16 games in 2025 and led Miami with 84 tackles.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive back Bryce Fitzgerald led Miami and the ACC with six interceptions in 2025.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami changed three defensive starters between its first two games: Kamal Bonner replaced Chase Smith at linebacker, JJ Dunnigan replaced Bryce Fitzgerald at safety, and Damari Brown replaced Xavier Lucas at cornerback against Florida A&M.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Corey Hetherman is Miami's defensive coordinator and linebackers coach; he joined Miami in January 2025 after serving as Minnesota's defensive coordinator in 2024.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Shannon Dawson is Miami's offensive coordinator and quarterbacks coach, while Alex Mirabal coaches the offensive line and coordinates the offensive run game.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Defensive tackle Ahmad Moten Sr. missed spring football while recovering from an injury sustained in 2025; he started Miami's first two games of 2026.",
+            "page": 20,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through two games, Miami averaged 61.0 points, 702.5 total yards, 427.0 passing yards and 275.5 rushing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami converted 64 percent of its third downs through two games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami returned 97.9 percent of its 2025 rushing production and its top six rushers from that season.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami had scored at least 20 points in 20 consecutive games against conference opponents; Clemson had an active streak of 19 such games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Miami allowed 13 total points and 406 total yards across its first two games of 2026.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In 2025, Miami ranked first in the ACC in total defense, scoring defense and rushing defense, allowing 14.8 points per game.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami averaged 3.13 sacks per game, gained 25 turnovers and allowed a big play on 9.65 percent of defensive snaps in 2025.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Jake Weinberg handled Miami's primary place-kicking duties in the opener and made a 46-yard field goal against Stanford.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Miami defeated Clemson 28-20 in double overtime in the teams' 2023 meeting.",
+            "page": 10,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami's most recent trip to Clemson listed in the guide was a 40-10 loss in 2022.",
+            "page": 10,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Miami was ranked No. 5 in both the Associated Press and coaches polls on Sept. 13 with a 2-0 record.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Miami.pdf"
+      },
+      {
+        "source_team": "Clemson Tigers",
+        "opponent": "Miami Hurricanes",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Clemson's Sept. 25, 2026 road game against Cal, not the Oct. 3 home game against Miami. The schedule identifies Miami as Clemson's following opponent.",
+        "recent_game": [
+          {
+            "fact": "Clemson improved to 2-1 overall and 1-0 in ACC play with a 28-20 home win over North Carolina on Sept. 19.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson trailed North Carolina by two points with 8:11 remaining when a two-hour, 28-minute weather delay began; after play resumed, Clemson held North Carolina to a field goal and outscored the Tar Heels 13-0 over the final 5:01.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson produced season highs of 401 total yards, 215 passing yards and 186 rushing yards against North Carolina.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson overcame a 14-3 first-quarter deficit and a 17-15 deficit entering the fourth quarter against North Carolina.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Miami was 3-0 overall and 2-0 in ACC play through Sept. 20, with 155 points scored and 33 allowed.",
+            "page": 6,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami was ranked No. 6 in the Sept. 20 AP poll and No. 5 in the Sept. 20 coaches poll.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson is scheduled to host Miami on Oct. 3, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "True freshman quarterback Tait Reynolds made his first career start against North Carolina and completed 20 of 29 passes for 215 yards, one touchdown and one interception while rushing 11 times for 26 yards.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Reynolds threw his first career touchdown pass on a 27-yard completion to tight end Christian Bentancur.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Reynolds became the fourth Clemson true freshman quarterback since permanent freshman eligibility began in 1972 to win his starting debut.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Gideon Davidson rushed 16 times for a career-high 105 yards against North Carolina, including a career-long 45-yard run and his first career touchdown on an eight-yard fourth-quarter run.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Tyler Brown scored on a 34-yard run in the final minute against North Carolina, the second rushing touchdown of his career.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver T.J. Moore extended his reception streak to 30 consecutive games against North Carolina.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end Christian Bentancur caught his first touchdown of the season against North Carolina, giving him four career touchdown receptions.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive end Will Heldt recorded two sacks against North Carolina, giving him two sacks in consecutive games.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Sammy Brown recorded his first sack of the season and the 11th of his career against North Carolina.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Elliot Washington II sealed the North Carolina win with his first interception of the season and his first interception as a Clemson player.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Fletcher Cothran forced a third-quarter fumble against North Carolina that defensive tackle Vic Burley recovered deep in North Carolina territory.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Clemson's 2026 coordinators are Chad Morris on offense, Tom Allen on defense and Rich Bisaccia on special teams.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Matt Luke serves as assistant head coach, co-offensive coordinator and offensive line coach; Kyle Richardson is co-offensive coordinator and tight ends coach, and Tajh Boyd coaches quarterbacks.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Clemson entered its Sept. 25 game with 60 points scored through three games, including 22 and 28 points in consecutive wins after scoring 10 in a season-opening loss at LSU.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson had rushed for at least 150 yards in each of its previous two games entering the Cal game.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Clemson entered the Cal game seeking consecutive performances with at least 200 passing yards and 175 rushing yards after reaching both marks against North Carolina.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Clemson had allowed 78 points through three games, including seven against Georgia Southern and 20 against North Carolina after allowing 51 at LSU.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson entered the Cal game with four consecutive games without winning the turnover margin, including three ties and one negative margin dating to 2025.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Nolan Hauser made all three field-goal attempts and his only extra-point attempt against North Carolina.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Hauser was 9-for-9 on field goals through three games, leading the nation in made field goals and field-goal percentage entering the Cal game.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Hauser had made 12 consecutive attempts from at least 40 yards dating to 2025, including a 49-yard field goal against North Carolina.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Clemson is 6-4 in its last 10 meetings with Miami and lost the most recent meeting.",
+            "page": 10,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson is 4-1 against Miami in meetings played since 2011.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Clemson defeated Miami 42-17 in 2020 and 40-10 in 2022 under current Miami head coach Mario Cristobal in the latter meeting.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [],
+        "source_file": "Clemson.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Clemson rushing offense vs Miami rush defense",
+        "off_team": "Clemson",
+        "def_team": "Miami",
+        "off_rank": 127,
+        "def_rank": 23,
+        "stat": "rush EPA",
+        "rank_gap": 104,
+        "direction": "defense_advantage",
+        "matchup_score": 204
+      },
+      {
+        "dimension": "Clemson passing offense vs Miami pass defense",
+        "off_team": "Clemson",
+        "def_team": "Miami",
+        "off_rank": 94,
+        "def_rank": 21,
+        "stat": "pass EPA",
+        "rank_gap": 73,
+        "direction": "defense_advantage",
+        "matchup_score": 173
+      },
+      {
+        "dimension": "Clemson scoring-opportunity creation vs Miami scoring-opportunity prevention",
+        "off_team": "Clemson",
+        "def_team": "Miami",
+        "off_rank": 76,
+        "def_rank": 3,
+        "stat": "Eckel rate",
+        "rank_gap": 73,
+        "direction": "defense_advantage",
+        "matchup_score": 173
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 17,
+        "fact": "Miami returns its two interior defensive-line starters from the 2025 national championship game, Ahmad Moten Sr. and Justin Scott.",
+        "page": 9,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Miami allowed 13 total points and 406 total yards across its first two games of 2026.",
+        "page": 17,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 31,
+        "fact": "In 2025, Miami ranked first in the ACC in total defense, scoring defense and rushing defense, allowing 14.8 points per game.",
+        "page": 9,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 39,
+        "fact": "True freshman quarterback Tait Reynolds made his first career start against North Carolina and completed 20 of 29 passes for 215 yards, one touchdown and one interception while rushing 11 times for 26 yards.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      },
+      {
+        "fact_id": 42,
+        "fact": "Running back Gideon Davidson rushed 16 times for a career-high 105 yards against North Carolina, including a career-long 45-yard run and his first career touchdown on an eight-yard fourth-quarter run.",
+        "page": 5,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      },
+      {
+        "fact_id": 53,
+        "fact": "Clemson had rushed for at least 150 yards in each of its previous two games entering the Cal game.",
+        "page": 2,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Clemson Tigers",
+      "model_side": "Clemson",
+      "opponent_full": "Miami Hurricanes",
+      "opponent": "Miami",
+      "model_prediction": 15.5,
+      "market_line": 16.5,
+      "best_available_line": 16.5,
+      "best_available_price": "-104",
+      "cover_probability": 0.534251,
+      "edge": 0.0244470784313726,
+      "bet_status": "PASS"
+    }
+  }
+}
