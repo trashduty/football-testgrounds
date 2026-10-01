@@ -527,6 +527,14 @@
       "game": "Cincinnati Bearcats@Arizona Wildcats",
       "kind": "No Bet",
       "post_id": "2105680042328039520"
+    },
+    {
+      "date": "2026-10-01",
+      "hour": 12,
+      "season_week": "2026-week-5",
+      "game": "Eastern Michigan Eagles@UMass Minutemen",
+      "kind": "Bet",
+      "post_id": "2105695300589330474"
     }
   ]
 }
