@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Ohio State Buckeyes | -14.5 (-105) | Caesars | 37.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa Hawkeyes | +14.5 (-105) | theScore Bet | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Iowa Hawkeyes | +14.5 (-110) | BetMGM | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Ohio State Buckeyes visit the Iowa Hawkeyes at Kinnick Stadium. We make **Iowa +9**, compared with a market line of +14.5.
 
-The best number we found is Iowa +14.5 at -105. We give Iowa a 62.5% chance to cover, which creates an 11.3% edge for us. That clears our 3% threshold, so Iowa is a bet.
+The best number we found is Iowa +14.5 at -110. We give Iowa a 62.5% chance to cover, which creates an 10.1% edge for us. That clears our 3% threshold, so Iowa is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

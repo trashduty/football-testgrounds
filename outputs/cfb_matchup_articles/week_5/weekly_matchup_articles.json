@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-01T13:15:06.168963+00:00",
+  "generated_at_utc": "2026-10-01T13:56:16.639560+00:00",
   "season": 2026,
   "week": 5,
   "articles": [
@@ -849,10 +849,10 @@
       "model_prediction": -27.0,
       "market_line": -23.5,
       "best_line": -23.5,
-      "best_price": "-112",
-      "best_book": "BetMGM",
+      "best_price": "-113",
+      "best_book": "Caesars",
       "cover_probability": 0.55378543,
-      "edge": 0.0254835432075472,
+      "edge": 0.0232689980751173,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -1465,12 +1465,12 @@
       "opp_name": "Tulsa Golden Hurricane",
       "opp_short": "Tulsa",
       "model_prediction": -5.5,
-      "market_line": -1.0,
+      "market_line": -1.5,
       "best_line": 1.5,
-      "best_price": "-118",
+      "best_price": "-124",
       "best_book": "FanDuel",
       "cover_probability": 0.61576584,
-      "edge": 0.0744814363302752,
+      "edge": 0.0621944114285714,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -1494,7 +1494,7 @@
         "x_caption": "north_texas_mean_green_at_tulsa_golden_hurricane_x_caption.txt",
         "seo_file": "north_texas_mean_green_at_tulsa_golden_hurricane_seo.txt",
         "seo_title": "North Texas vs Tulsa Prediction, Model Spread & Analysis",
-        "seo_description": "Our model makes North Texas -5.5 vs a market line of -1. See the best available spread, 61.6% cover probability, matchup stats, and our full North Texas-Tulsa analysis."
+        "seo_description": "Our model makes North Texas -5.5 vs a market line of -1.5. See the best available spread, 61.6% cover probability, matchup stats, and our full North Texas-Tulsa analysis."
       },
       "html_path": "north_texas_mean_green_at_tulsa_golden_hurricane.html",
       "source_audit_path": "north_texas_mean_green_at_tulsa_golden_hurricane.sources.json"
@@ -1622,10 +1622,10 @@
       "model_prediction": 9.0,
       "market_line": 14.5,
       "best_line": 14.5,
-      "best_price": "-105",
-      "best_book": "theScore Bet",
+      "best_price": "-110",
+      "best_book": "BetMGM",
       "cover_probability": 0.62497466,
-      "edge": 0.1127795380487804,
+      "edge": 0.1011651361904761,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -2136,13 +2136,13 @@
       "bet_short": "Texas Tech",
       "opp_name": "Colorado Buffaloes",
       "opp_short": "Colorado",
-      "model_prediction": -14.0,
-      "market_line": -11.5,
+      "model_prediction": -14.5,
+      "market_line": -12.5,
       "best_line": -11.5,
       "best_price": "-110",
       "best_book": "Fanatics",
-      "cover_probability": 0.52288423,
-      "edge": -0.000925293809523886,
+      "cover_probability": 0.53165759,
+      "edge": 0.0078480661904761,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,
@@ -2164,7 +2164,7 @@
         "x_caption": "texas_tech_red_raiders_at_colorado_buffaloes_x_caption.txt",
         "seo_file": "texas_tech_red_raiders_at_colorado_buffaloes_seo.txt",
         "seo_title": "Texas Tech vs Colorado Prediction, Model Spread & Analysis",
-        "seo_description": "Our model makes Texas Tech -14 vs a market line of -11.5. See the best available spread, 52.3% cover probability, matchup stats, and our full Texas Tech-Colorado analysis."
+        "seo_description": "Our model makes Texas Tech -14.5 vs a market line of -12.5. See the best available spread, 53.2% cover probability, matchup stats, and our full Texas Tech-Colorado analysis."
       },
       "html_path": "texas_tech_red_raiders_at_colorado_buffaloes.html",
       "source_audit_path": "texas_tech_red_raiders_at_colorado_buffaloes.sources.json"
@@ -2609,7 +2609,8 @@
         "narrative": "",
         "matchup_to_watch": "",
         "guide_status": [
-          "No guide found for Washington Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+          "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+          "Guide processing failed for Washington Huskies: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
           "Found guide for USC Trojans: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
           "Guide processing failed for USC Trojans: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
         ],
@@ -2650,11 +2651,11 @@
       "opp_short": "West Virginia",
       "model_prediction": -9.5,
       "market_line": -3.0,
-      "best_line": -2.5,
-      "best_price": "-113",
-      "best_book": "BetRivers",
-      "cover_probability": 0.61992218,
-      "edge": 0.0894057480751173,
+      "best_line": -3.5,
+      "best_price": "100",
+      "best_book": "theScore Bet",
+      "cover_probability": 0.5827754,
+      "edge": 0.0827754,
       "has_bet": true,
       "guide_enrichment": {
         "enabled": false,
@@ -2678,7 +2679,7 @@
         "x_caption": "west_virginia_mountaineers_at_iowa_state_cyclones_x_caption.txt",
         "seo_file": "west_virginia_mountaineers_at_iowa_state_cyclones_seo.txt",
         "seo_title": "West Virginia vs Iowa State Prediction, Model Spread & Analysis",
-        "seo_description": "Our model makes Iowa State -9.5 vs a market line of -3. See the best available spread, 62.0% cover probability, matchup stats, and our full West Virginia-Iowa State analysis."
+        "seo_description": "Our model makes Iowa State -9.5 vs a market line of -3. See the best available spread, 58.3% cover probability, matchup stats, and our full West Virginia-Iowa State analysis."
       },
       "html_path": "west_virginia_mountaineers_at_iowa_state_cyclones.html",
       "source_audit_path": "west_virginia_mountaineers_at_iowa_state_cyclones.sources.json"
@@ -2704,10 +2705,10 @@
       "model_prediction": 2.0,
       "market_line": 2.5,
       "best_line": 2.5,
-      "best_price": "-105",
+      "best_price": "-110",
       "best_book": "Fanatics",
       "cover_probability": 0.50383027,
-      "edge": -0.0083648519512194,
+      "edge": -0.0199792538095238,
       "has_bet": false,
       "guide_enrichment": {
         "enabled": false,

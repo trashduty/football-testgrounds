@@ -2,7 +2,7 @@
   "game": "Washington Huskies@USC Trojans",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-10-01T13:19:54.722499+00:00",
+  "generated_at_utc": "2026-10-01T14:01:19.825421+00:00",
   "model_prediction": 8.0,
   "market_line": 9.5,
   "best_line": 9.5,
@@ -16,7 +16,8 @@
     "narrative": "",
     "matchup_to_watch": "",
     "guide_status": [
-      "No guide found for Washington Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Guide processing failed for Washington Huskies: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "Found guide for USC Trojans: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
       "Guide processing failed for USC Trojans: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
     ],

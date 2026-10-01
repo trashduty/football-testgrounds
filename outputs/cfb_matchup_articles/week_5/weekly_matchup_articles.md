@@ -1238,14 +1238,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Indiana Hoosiers | -23.5 (-112) | BetMGM | 55.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Rutgers Scarlet Knights | +23.5 (-105) | BetMGM | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Indiana Hoosiers | -23.5 (-113) | Caesars | 55.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Rutgers Scarlet Knights | +23.5 (-105) | DraftKings | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Indiana Hoosiers visit the Rutgers Scarlet Knights at SHI Stadium. We make **Indiana -27**, compared with a market line of -23.5.
 
-The best number we found is Indiana -23.5 at -112. We see a 2.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Indiana -23.5 at -113. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2162,14 +2162,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Texas Mean Green | +1.5 (-118) | FanDuel | 61.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Tulsa Golden Hurricane | +1.5 (-115) | DraftKings | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Texas Mean Green | +1.5 (-124) | FanDuel | 61.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Tulsa Golden Hurricane | +1.5 (-110) | Fanatics | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. We make **North Texas -5.5**, compared with a market line of -1.
+The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. We make **North Texas -5.5**, compared with a market line of -1.5.
 
-The best number we found is North Texas +1.5 at -118. We give North Texas a 61.6% chance to cover, which creates an 7.4% edge for us. That clears our 3% threshold, so North Texas is a bet.
+The best number we found is North Texas +1.5 at -124. We give North Texas a 61.6% chance to cover, which creates an 6.2% edge for us. That clears our 3% threshold, so North Texas is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2394,13 +2394,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Ohio State Buckeyes | -14.5 (-105) | Caesars | 37.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa Hawkeyes | +14.5 (-105) | theScore Bet | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Iowa Hawkeyes | +14.5 (-110) | BetMGM | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Ohio State Buckeyes visit the Iowa Hawkeyes at Kinnick Stadium. We make **Iowa +9**, compared with a market line of +14.5.
 
-The best number we found is Iowa +14.5 at -105. We give Iowa a 62.5% chance to cover, which creates an 11.3% edge for us. That clears our 3% threshold, so Iowa is a bet.
+The best number we found is Iowa +14.5 at -110. We give Iowa a 62.5% chance to cover, which creates an 10.1% edge for us. That clears our 3% threshold, so Iowa is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3163,14 +3163,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -11.5 (-110) | Fanatics | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado Buffaloes | +12.5 (-109) | Caesars | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -11.5 (-110) | Fanatics | 53.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado Buffaloes | +12.5 (-109) | Caesars | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Tech Red Raiders visit the Colorado Buffaloes at Folsom Field. We make **Texas Tech -14**, compared with a market line of -11.5.
+The Texas Tech Red Raiders visit the Colorado Buffaloes at Folsom Field. We make **Texas Tech -14.5**, compared with a market line of -12.5.
 
-The best number we found is Texas Tech -11.5 at -110. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas Tech -11.5 at -110. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3934,13 +3934,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | West Virginia Mountaineers | +3.5 (-105) | Caesars | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa State Cyclones | -2.5 (-113) | BetRivers | 62.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Iowa State Cyclones | -3.5 (+100) | theScore Bet | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The West Virginia Mountaineers visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -9.5**, compared with a market line of -3.
 
-The best number we found is Iowa State -2.5 at -113. We give Iowa State a 62.0% chance to cover, which creates an 8.9% edge for us. That clears our 3% threshold, so Iowa State is a bet.
+The best number we found is Iowa State -3.5 at +100. We give Iowa State a 58.3% chance to cover, which creates an 8.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4010,14 +4010,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Kentucky Hilltoppers | +2.5 (-105) | Fanatics | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Kentucky Hilltoppers | +2.5 (-110) | Fanatics | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | New Mexico State Aggies | -2.5 (-106) | FanDuel | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Western Kentucky Hilltoppers visit the New Mexico State Aggies at Aggie Memorial Stadium. We make **Western Kentucky +2**, compared with a market line of +2.5.
 
-The best number we found is Western Kentucky +2.5 at -105. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Western Kentucky +2.5 at -110. We see a -2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

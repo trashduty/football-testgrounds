@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Texas Mean Green | +1.5 (-118) | FanDuel | 61.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Tulsa Golden Hurricane | +1.5 (-115) | DraftKings | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Texas Mean Green | +1.5 (-124) | FanDuel | 61.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Tulsa Golden Hurricane | +1.5 (-110) | Fanatics | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. We make **North Texas -5.5**, compared with a market line of -1.
+The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. We make **North Texas -5.5**, compared with a market line of -1.5.
 
-The best number we found is North Texas +1.5 at -118. We give North Texas a 61.6% chance to cover, which creates an 7.4% edge for us. That clears our 3% threshold, so North Texas is a bet.
+The best number we found is North Texas +1.5 at -124. We give North Texas a 61.6% chance to cover, which creates an 6.2% edge for us. That clears our 3% threshold, so North Texas is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

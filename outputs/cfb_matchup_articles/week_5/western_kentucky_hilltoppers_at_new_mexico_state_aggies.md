@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Kentucky Hilltoppers | +2.5 (-105) | Fanatics | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Kentucky Hilltoppers | +2.5 (-110) | Fanatics | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | New Mexico State Aggies | -2.5 (-106) | FanDuel | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Western Kentucky Hilltoppers visit the New Mexico State Aggies at Aggie Memorial Stadium. We make **Western Kentucky +2**, compared with a market line of +2.5.
 
-The best number we found is Western Kentucky +2.5 at -105. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Western Kentucky +2.5 at -110. We see a -2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
