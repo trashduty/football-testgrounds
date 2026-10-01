@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon State Beavers | -6.5 (-108) | BetMGM | 37.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon State Beavers | -6.5 (-110) | BetMGM | 37.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Colorado State Rams | +6.5 (-105) | FanDuel | 62.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take

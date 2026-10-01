@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UTEP Miners | +23.5 (-110) | BetRivers | 55.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| UTEP Miners | +22.5 (-108) | BetMGM | 53.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 | New Mexico Lobos | -22.5 (-110) | BetMGM | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The UTEP Miners visit the New Mexico Lobos at University Stadium (NM). We make **UTEP +21**, compared with a market line of +22.5.
 
-The best number we found is UTEP +23.5 at -110. We see a 3.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UTEP +22.5 at -108. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

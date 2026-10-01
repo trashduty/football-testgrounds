@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on Arkansas State-Louisiana.
 
-We make Arkansas State +6.5. The market is +6.5.
+We make Arkansas State +7. The market is +7.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

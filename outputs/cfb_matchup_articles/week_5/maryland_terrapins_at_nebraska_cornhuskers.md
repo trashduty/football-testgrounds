@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Maryland Terrapins | +14.5 (-108) | DraftKings | 52.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Nebraska Cornhuskers | -15.5 (+100) | theScore Bet | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Nebraska Cornhuskers | -14.5 (-105) | theScore Bet | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,7 +15,7 @@ The Maryland Terrapins visit the Nebraska Cornhuskers at Memorial Stadium (Linco
 
 The best number we found is Maryland +14.5 at -108. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not treating Maryland’s fast start as proof that its early production will carry over unchanged. Malik Washington completed 34 of 41 passes for 347 yards against UConn, while Na’eem Abdul-Rahim Gladding and Chris Durr Jr. combined for 236 receiving yards. That performance is meaningful context, but our longer-run efficiency numbers remain skeptical of Maryland’s passing offense against a more capable Nebraska pass defense.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -64,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-For us, the matchup to watch is Nebraska’s rushing offense against Maryland’s front. Maryland allowed only 38.5 rushing yards per game and recorded 10 sacks through its first two games, but Nebraska’s rushing efficiency presents a substantially different test. The question is whether Maryland’s early defensive production reflects a sustainable strength or an opponent-dependent start. Our numbers favor Nebraska in that area, which limits the case for taking Maryland, while the overall price remains too close to our expectation to create enough value. We pass.
 
 ## Best Bets Of The Week
 

@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Michigan Broncos | -13.5 (-110) | BetMGM | 38.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Michigan Broncos | -13.5 (-112) | BetMGM | 38.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Buffalo Bulls | +13.5 (+100) | theScore Bet | 61.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take

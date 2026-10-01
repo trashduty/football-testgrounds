@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Stanford Cardinal | +12.5 (-102) | FanDuel | 52.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Wake Forest Demon Deacons | -13.5 (-108) | BetMGM | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Stanford Cardinal | +12.5 (-102) | FanDuel | 53.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wake Forest Demon Deacons | -13.5 (-108) | DraftKings | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Stanford Cardinal visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Stanford +12.5**, compared with a market line of +13.5.
+The Stanford Cardinal visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Stanford +12**, compared with a market line of +13.
 
-The best number we found is Stanford +12.5 at -102. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Stanford +12.5 at -102. We see a 2.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

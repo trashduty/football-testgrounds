@@ -15,9 +15,7 @@ The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. 
 
 The best number we found is North Texas +1.5 at -118. We give North Texas a 61.6% chance to cover, which creates an 7.4% edge for us. That clears our 3% threshold, so North Texas is a bet.
 
-For us, the case starts with North Texas’ passing game. Our numbers see a clear efficiency advantage against a Tulsa defense allowing 257.3 passing yards per game. Tayven Jackson is completing 74.2% of his passes, while North Texas has generated 55 passing plays of at least 10 yards and allowed only three sacks. That combination gives North Texas multiple ways to create and sustain drives rather than relying on isolated big plays.
-
-Tulsa’s best counter is its ability to run the ball and create scoring opportunities. It averages 181.5 rushing yards per game, while North Texas has allowed 164.8, so we do not view this as a one-sided matchup. The difference for us is drive sustainability: Tulsa has converted only 27.3% of its third downs, compared with a 54.9% rate for the North Texas offense. We think the passing-game advantage and ability to stay on the field support our position despite the defensive concern.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,12 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We keep coming back to North Texas’ passing offense against Tulsa’s pass defense. Tulsa has been much stronger against the run than the pass, and North Texas has nine players with at least five receptions. That distribution makes it more difficult to solve the matchup by taking away one target.
-
-If Tulsa can limit explosive completions without sacrificing its run defense, it can keep the game within its preferred structure. Our view is that North Texas has enough efficiency, protection and receiving depth to make that difficult.
 
 ## Best Bets Of The Week
 

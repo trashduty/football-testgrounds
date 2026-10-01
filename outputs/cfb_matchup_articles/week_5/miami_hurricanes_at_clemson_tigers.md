@@ -15,11 +15,7 @@ The Miami Hurricanes visit the Clemson Tigers at Memorial Stadium (Clemson, SC).
 
 The best number we found is Clemson +16.5 at -104. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our view is driven less by Miami’s explosive start than by questions about Clemson’s ability to create consistent separation. True freshman Tait Reynolds completed 20 of 29 passes for 215 yards with one touchdown and one interception in his first start, while Clemson’s 401 total yards against North Carolina marked a season high. That was progress, but our longer-run efficiency profile still shows significant concerns in Clemson’s rushing, passing and scoring-opportunity creation against the strongest part of Miami’s profile.
-
-Miami did not allow an offensive touchdown in either of its first two games and held those opponents to 3.6 yards per play. We are not treating that small sample as proof, particularly after Miami lost edge defenders Rueben Bain Jr. and Akheem Mesidor to the NFL. Still, defensive tackles Ahmad Moten Sr. and Justin Scott returned, and Missouri transfer Damon Wilson II arrived after recording nine sacks last season. The personnel context gives us more reason to respect the early defensive efficiency.
-
-Miami also has enough offensive upside to make a wide margin uncomfortable. Darian Mensah completed 41 of 45 passes for 653 yards, eight touchdowns and no interceptions across his first two starts. We do not expect that pace to continue unchanged against Clemson, but the ability to answer scores matters in this type of spread. The market is asking Clemson to produce more separation than our numbers expect, yet the difference is not large enough for us to force a position.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -68,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching Clemson’s rushing offense against Miami’s defensive front. Clemson ran for 186 yards against North Carolina, with Gideon Davidson contributing a career-high 105, but our efficiency numbers still identify this as the clearest defensive advantage for Miami. If Clemson cannot stay ahead of schedule on the ground, Reynolds will face more obvious passing situations against a defense that has been strong at preventing both efficient passes and scoring opportunities. For us, that is the matchup most likely to determine whether Clemson can build and maintain the margin the market expects.
 
 ## Best Bets Of The Week
 

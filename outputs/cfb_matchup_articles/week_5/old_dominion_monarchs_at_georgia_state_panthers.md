@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Old Dominion Monarchs | +2.5 (-108) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia State Panthers | -2.5 (+100) | theScore Bet | 51.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Georgia State Panthers | -2.5 (-105) | theScore Bet | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Old Dominion Monarchs visit the Georgia State Panthers at Center Parc Stadium. We make **Georgia State -3.5**, compared with a market line of -2.5.
 
-The best number we found is Georgia State -2.5 at +100. We see a 1.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia State -2.5 at -105. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

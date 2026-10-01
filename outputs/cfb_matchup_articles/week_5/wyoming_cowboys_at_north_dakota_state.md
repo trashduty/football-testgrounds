@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | +19.5 (-110) | BetRivers | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| North Dakota State | -18.5 (-105) | theScore Bet | 52.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wyoming Cowboys | +18.5 (-115) | FanDuel | 48.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Dakota State | -17.5 (-105) | theScore Bet | 53.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Wyoming Cowboys visit the North Dakota State at Fargodome. We make **North Dakota State -20.5**, compared with a market line of -18.5.
+The Wyoming Cowboys visit the North Dakota State at Fargodome. We make **North Dakota State -20**, compared with a market line of -17.5.
 
-The best number we found is North Dakota State -18.5 at -105. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is North Dakota State -17.5 at -105. We see a 2.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

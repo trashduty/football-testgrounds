@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas State Red Wolves | +6.5 (+100) | DraftKings | 51.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Louisiana Ragin Cajuns | -6.5 (-115) | Fanatics | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas State Red Wolves | +6.5 (+100) | DraftKings | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisiana Ragin Cajuns | -6.5 (-118) | FanDuel | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Arkansas State Red Wolves visit the Louisiana Ragin Cajuns at Cajun Field. We make **Arkansas State +6.5**, compared with a market line of +6.5.
+The Arkansas State Red Wolves visit the Louisiana Ragin Cajuns at Cajun Field. We make **Arkansas State +7**, compared with a market line of +7.
 
-The best number we found is Arkansas State +6.5 at +100. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arkansas State +6.5 at +100. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

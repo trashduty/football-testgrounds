@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| West Virginia Mountaineers | +2.5 (+100) | FanDuel | 37.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa State Cyclones | -2.5 (-120) | theScore Bet | 62.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| West Virginia Mountaineers | +3.5 (-105) | Caesars | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa State Cyclones | -2.5 (-113) | BetRivers | 62.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The West Virginia Mountaineers visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -9.5**, compared with a market line of -3.
 
-The best number we found is Iowa State -2.5 at -120. We give Iowa State a 62.0% chance to cover, which creates an 7.4% edge for us. That clears our 3% threshold, so Iowa State is a bet.
+The best number we found is Iowa State -2.5 at -113. We give Iowa State a 62.0% chance to cover, which creates an 8.9% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Arkansas Razorbacks | +13.5 (+100) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Texas A&M Aggies | -14.0 (-105) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | -13.5 (-115) | Fanatics | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -15,9 +15,7 @@ The Arkansas Razorbacks visit the Texas A&M Aggies at Kyle Field. We make **Arka
 
 The best number we found is Arkansas +13.5 at +100. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not reacting to Texas A&M’s loss to Kentucky as proof of a larger problem. The more useful takeaway is that Texas A&M still generated 423 yards, with 187 on the ground and 236 through the air. That balance matters because our matchup data points to Arkansas having difficulty preventing scoring opportunities without an obvious strength against either phase of the offense.
-
-The concern with taking Arkansas is that Texas A&M has shown it can sustain drives and finish them, converting 19 of 43 third downs and scoring touchdowns on 12 of 17 red-zone possessions through three games. Its defense also allowed only seven conversions on 31 third downs over that span. Our overall expectation sits too close to the market, and the available price gives us less cushion than we would need. For us, that makes this a pass rather than a position on Arkansas.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are focused on Texas A&M’s ability to turn sustained possessions into touchdowns against Arkansas. Marcel Reed’s mobility adds another problem: he ran for 80 yards against Kentucky, including a 40-yard gain. If Arkansas cannot limit scoring opportunities or force field-goal attempts, Texas A&M has a credible path to creating separation. That is the main football reason we do not see enough value in taking the points at the available price.
 
 ## Best Bets Of The Week
 

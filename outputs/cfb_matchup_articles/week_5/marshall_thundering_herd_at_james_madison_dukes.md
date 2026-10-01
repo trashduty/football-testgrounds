@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Marshall Thundering Herd | +19.5 (-110) | FanDuel | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| James Madison Dukes | -18.5 (-110) | BetRivers | 54.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Marshall Thundering Herd | +19.5 (-110) | FanDuel | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| James Madison Dukes | -19.5 (-105) | DraftKings | 54.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Marshall Thundering Herd visit the James Madison Dukes at Bridgeforth Stadium. We make **James Madison -22**, compared with a market line of -19.
+The Marshall Thundering Herd visit the James Madison Dukes at Bridgeforth Stadium. We make **James Madison -22.5**, compared with a market line of -19.5.
 
-The best number we found is James Madison -18.5 at -110. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is James Madison -19.5 at -105. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

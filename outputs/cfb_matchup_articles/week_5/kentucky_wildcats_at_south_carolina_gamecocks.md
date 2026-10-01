@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kentucky Wildcats | +2.5 (+100) | DraftKings | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Carolina Gamecocks | -2.5 (-117) | Caesars | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kentucky Wildcats | +2.5 (-102) | FanDuel | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -3.5 (+105) | theScore Bet | 53.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Kentucky Wildcats visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **South Carolina -6.5**, compared with a market line of -2.5.
+The Kentucky Wildcats visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **South Carolina -6.5**, compared with a market line of -3.
 
-The best number we found is South Carolina -2.5 at -117. We give South Carolina a 57.0% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so South Carolina is a bet.
+The best number we found is South Carolina -3.5 at +105. We give South Carolina a 53.2% chance to cover, which creates an 4.4% edge for us. That clears our 3% threshold, so South Carolina is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

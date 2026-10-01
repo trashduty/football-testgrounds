@@ -15,9 +15,7 @@ The Ohio State Buckeyes visit the Iowa Hawkeyes at Kinnick Stadium. We make **Io
 
 The best number we found is Iowa +14.5 at -105. We give Iowa a 62.5% chance to cover, which creates an 11.3% edge for us. That clears our 3% threshold, so Iowa is a bet.
 
-For us, this is less about calling Iowa the better team and more about questioning how much separation Ohio State should create against a defense with this early profile. We understand why the market is high on Ohio State after an opening stretch in which it has averaged 45.0 points and 522.0 yards per game. But Iowa has allowed only 8.0 points and 239.8 yards per game while holding opponents to a .268 third-down conversion rate. We think that resistance gives Iowa a credible way to keep the game inside our expected range.
-
-Our main concern is clear: Iowa ranks 69th in pass EPA and now faces an Ohio State defense ranked eighth in that category. We are not relying on Iowa to consistently win through the air, especially with Ohio State allowing just 12.3 points and 274.3 yards per game. The more interesting part is Iowa's broader offensive balance, with 215.5 rushing yards and 213.5 passing yards per game. Our position rests on Iowa producing enough offense while its defense prevents Ohio State's efficiency from turning into sustained separation.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,12 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching Ohio State's passing offense against Iowa's pass defense. Ohio State ranks third in pass EPA, and Julian Sayin has thrown for 1,206 yards through four games. Jeremiah Smith has accounted for 617 receiving yards and seven touchdowns, making this the clearest threat to our Iowa position.
-
-Iowa has allowed only 152.0 passing yards per game, and we think its ability to create third-down stops will be central. If Iowa can make Ohio State sustain drives rather than letting its passing game dictate the matchup, the Hawkeyes have a realistic path to limiting the final margin.
 
 ## Best Bets Of The Week
 

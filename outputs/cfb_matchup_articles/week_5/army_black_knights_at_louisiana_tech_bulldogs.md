@@ -15,7 +15,7 @@ The Army Black Knights visit the Louisiana Tech Bulldogs at Joe Aillet Stadium. 
 
 The best number we found is Louisiana Tech +2.5 at -110. We see a 2.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not dismissing Army’s offense to make the case for Louisiana Tech. Our efficiency numbers give Army an advantage against Louisiana Tech’s defense both on the ground and through the air. That concern has real context: Army averaged 394 rushing yards through two games, and Cale Hellums returned after starting 10 games in 2025, when he rushed for 1,223 yards and 18 touchdowns. Army also lists five seniors across its first-team offensive line, giving the unit considerable experience up front.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -64,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-For us, the matchup to watch is Army’s multidimensional offense against Louisiana Tech’s defense. Hellums completed 9 of 10 passes with two touchdowns against South Florida, while Army did not throw an interception in its first two games. We need to see whether Louisiana Tech can contain the rushing attack without giving Hellums efficient opportunities through the air. That matchup is the main reason our broader preference for Louisiana Tech does not create enough value for us at the current price.
 
 ## Best Bets Of The Week
 
