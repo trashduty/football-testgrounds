@@ -15,9 +15,7 @@ The Navy Midshipmen visit the Air Force Falcons at Falcon Stadium. We make **Air
 
 The best number we found is Air Force -3.5 at +105. We give Air Force a 53.5% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Air Force is a bet.
 
-Our case for Air Force starts with how its offense matches up against Navy’s defense. We recognize that Navy ranked second nationally in rushing defense through two games, but the more interesting part is that Air Force’s clearest advantage is through the air. Our efficiency numbers show a substantial gap between Air Force’s passing offense and Navy’s pass defense, and we also see Air Force holding an advantage in creating scoring opportunities against a defense that has struggled to prevent them. That is where our expectation separates from the market.
-
-The meaningful concern for us is Navy’s rushing attack. Navy averaged 376 rushing yards and 6.90 yards per carry through its first two games, while our numbers identify Air Force’s run defense as a major vulnerability. Braxton Woodson drove much of that production, averaging 148 rushing yards per game and 8.46 yards per carry, although his availability is unclear after he left the Florida Atlantic game with a lower-body injury. We are not dismissing Navy’s ability to control stretches of the game on the ground, but we think Air Force has the more reliable path to turning productive drives into points.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,12 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-For us, the matchup to watch is Navy’s quarterback run game against Air Force’s rush defense. Our position does not require Air Force to shut that attack down, but it does require the defense to keep Navy’s rushing efficiency from dictating the entire game. Woodson’s status adds uncertainty, yet Navy still showed another option when Jackson Gutierrez replaced him against Florida Atlantic and produced 75 rushing yards, 100 passing yards and three total touchdowns.
-
-We will be watching whether Air Force can create enough negative or low-value rushing plays to get Navy away from its preferred rhythm. If it can, Air Force’s advantages against Navy’s pass defense and scoring-opportunity prevention become much more significant.
 
 ## Best Bets Of The Week
 

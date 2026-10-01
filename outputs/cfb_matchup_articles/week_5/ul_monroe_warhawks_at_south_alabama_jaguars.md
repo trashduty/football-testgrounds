@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UL Monroe Warhawks | +13.5 (-105) | Fanatics | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Alabama Jaguars | -14.5 (-104) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UL Monroe Warhawks | +13.5 (-102) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Alabama Jaguars | -14.5 (+100) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The UL Monroe Warhawks visit the South Alabama Jaguars at Hancock Whitney Stadium. We make **Louisiana Monroe +14**, compared with a market line of +14.
 
-The best number we found is Louisiana Monroe +13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Louisiana Monroe +13.5 at -102. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

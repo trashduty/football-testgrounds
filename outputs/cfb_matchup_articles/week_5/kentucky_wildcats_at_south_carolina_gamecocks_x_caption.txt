@@ -1,9 +1,9 @@
-Our model is 3.5 points away from the market on Kentucky-South Carolina.
+Our model is 4 points away from the market on Kentucky-South Carolina.
 
-We make South Carolina -6.5. The market is -3.
+We make South Carolina -6.5. The market is -2.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: South Carolina -2.5 -117. We give it a 57.0% chance to cover with a 3.1% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

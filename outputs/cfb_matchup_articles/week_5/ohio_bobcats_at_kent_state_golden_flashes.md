@@ -7,11 +7,11 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Ohio Bobcats | -3.5 (+100) | Fanatics | 51.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Kent State Golden Flashes | +2.5 (+105) | theScore Bet | 44.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kent State Golden Flashes | +3.5 (-110) | BetRivers | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Ohio Bobcats visit the Kent State Golden Flashes at Dix Stadium. We make **Ohio -5.5**, compared with a market line of -3.
+The Ohio Bobcats visit the Kent State Golden Flashes at Dix Stadium. We make **Ohio -5.5**, compared with a market line of -3.5.
 
 The best number we found is Ohio -3.5 at +100. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 

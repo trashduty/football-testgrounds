@@ -6,18 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | +9.5 (-105) | DraftKings | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| USC Trojans | -9.5 (-110) | BetMGM | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | +9.5 (-102) | DraftKings | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| USC Trojans | -9.5 (-115) | BetRivers | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Washington Huskies visit the USC Trojans at Los Angeles Memorial Coliseum. We make **Washington +8**, compared with a market line of +9.5.
 
-The best number we found is Washington +9.5 at -105. We give Washington a 55.3% chance to cover, which creates an 4.1% edge for us. That clears our 3% threshold, so Washington is a bet.
+The best number we found is Washington +9.5 at -102. We give Washington a 55.3% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Washington is a bet.
 
-We understand why USC is priced as a sizable favorite. We saw the offense produce 461 yards at 7.3 yards per play against Rutgers, and Jayden Maiava has opened the season with 12 touchdown passes against one interception. USC has also converted 65% of its third downs through four games. That efficiency is the clearest concern for our Washington position because it gives USC multiple ways to sustain drives and create separation.
-
-Our disagreement comes from how that offense matches up with Washington’s run defense. Our numbers rate Washington among the nation’s strongest teams in rush EPA, while USC’s rushing efficiency has been much less convincing over the longer run than its latest box score suggests. We also see potential for Washington to find enough on the ground against USC to shorten the game and stay competitive. USC has allowed 43 fourth-quarter points through four games, which does not establish a trend by itself, but it reinforces why we are reluctant to price the Trojans as likely to maintain a wide margin for four quarters.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-For us, the matchup to watch is USC’s rushing offense against Washington’s front. If Washington can limit efficient early-down runs, USC becomes more dependent on Maiava repeatedly converting through the air rather than controlling the game on schedule. Maiava’s start demands respect, but forcing USC into that narrower path is the most important football reason we see Washington staying inside the available number.
 
 ## Best Bets Of The Week
 

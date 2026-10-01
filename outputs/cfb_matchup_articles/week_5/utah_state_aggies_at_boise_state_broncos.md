@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Utah State Aggies | +20.5 (-110) | BetMGM | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boise State Broncos | -20.5 (-108) | BetMGM | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Utah State Aggies | +20.5 (-110) | Caesars | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boise State Broncos | -20.5 (-108) | FanDuel | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 

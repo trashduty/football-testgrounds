@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Old Dominion Monarchs | +2.5 (-110) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Old Dominion Monarchs | +2.5 (-108) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Georgia State Panthers | -2.5 (+100) | theScore Bet | 51.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take

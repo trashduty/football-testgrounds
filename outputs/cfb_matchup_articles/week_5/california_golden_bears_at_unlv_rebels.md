@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| California Golden Bears | +2.5 (-102) | BetMGM | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| California Golden Bears | +2.5 (-105) | BetMGM | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | UNLV Rebels | -2.5 (-109) | Caesars | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -15,9 +15,7 @@ The California Golden Bears visit the UNLV Rebels at Allegiant Stadium. We make 
 
 The best number we found is UNLV -2.5 at -109. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for UNLV is less about overall team quality and more about how the game can be played. Our matchup numbers point to UNLV’s rushing offense against California’s run defense as the clearest source of separation. A productive ground game would help UNLV sustain drives while reducing its exposure to a California pass defense that ranked 10th nationally in efficiency and had intercepted five passes through three games.
-
-California’s passing production is the main challenge to that view. The offense averaged 321.7 passing yards through three games, and Jaron-Keawe Sagapolutele had thrown for 866 yards with seven touchdowns and two interceptions. Still, our numbers are more skeptical of California’s ability to create scoring opportunities consistently against UNLV. We see a meaningful matchup argument for the home side, but the advantage is not large enough at the current price. That is why this remains a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching UNLV’s rushing offense against California’s run defense. If UNLV stays efficient on the ground, it can keep the offense in favorable situations and follow the path our model favors. If California forces obvious passing downs, the matchup changes: Kingston Lopa had five interceptions through three games and recorded at least one takeaway in each game. That turnover threat is one reason our disagreement with the market does not automatically become a wager.
 
 ## Best Bets Of The Week
 

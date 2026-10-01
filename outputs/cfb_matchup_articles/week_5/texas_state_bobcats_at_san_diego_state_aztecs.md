@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas State Bobcats | -4.5 (-105) | DraftKings | 42.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| San Diego State Aztecs | +4.5 (-110) | theScore Bet | 58.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Texas State Bobcats | -6.5 (-104) | FanDuel | 40.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| San Diego State Aztecs | +5.5 (-105) | theScore Bet | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Texas State Bobcats visit the San Diego State Aztecs at Snapdragon Stadium. We make **San Diego State +0.5**, compared with a market line of +4.5.
+The Texas State Bobcats visit the San Diego State Aztecs at Snapdragon Stadium. We make **San Diego State +1.5**, compared with a market line of +6.
 
-The best number we found is San Diego State +4.5 at -110. We give San Diego State a 58.5% chance to cover, which creates an 6.1% edge for us. That clears our 3% threshold, so San Diego State is a bet.
+The best number we found is San Diego State +5.5 at -105. We give San Diego State a 58.3% chance to cover, which creates an 7.0% edge for us. That clears our 3% threshold, so San Diego State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

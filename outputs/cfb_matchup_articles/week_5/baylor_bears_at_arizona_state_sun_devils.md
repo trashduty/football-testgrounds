@@ -6,18 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baylor Bears | +3.5 (+100) | theScore Bet | 55.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Baylor Bears | +4.5 (-110) | BetRivers | 56.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | Arizona State Sun Devils | -4.5 (-105) | FanDuel | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Baylor Bears visit the Arizona State Sun Devils at Mountain America Stadium. We make **Baylor +1.5**, compared with a market line of +4.
 
-The best number we found is Baylor +3.5 at +100. We give Baylor a 55.2% chance to cover, which creates an 5.2% edge for us. That clears our 3% threshold, so Baylor is a bet.
+The best number we found is Baylor +4.5 at -110. We give Baylor a 56.9% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Baylor is a bet.
 
-For us, the case starts with questioning Arizona State’s offensive baseline. Excluding the Morgan State game, Arizona State has averaged 22.0 points and 298.5 yards. That fits our efficiency data, which shows problems in the rushing game and in creating scoring opportunities. Against a Baylor defense that grades much better against the run, we see a real possibility that Arizona State struggles to generate enough productive possessions to create separation.
-
-We also see Baylor’s defensive disruption as meaningful context rather than simply a reaction to one game. Baylor has held four consecutive opponents below 20 points and ranks among the national leaders in sacks and tackles for loss. The concern is on the other side: Baylor’s passing efficiency has lagged, while Arizona State has allowed only 161.3 passing yards per game. This is also Baylor’s first true road game of the season. Even with those concerns, our view is that Baylor’s defensive matchup gives it enough resistance to stay inside the available number.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We will be watching Arizona State’s rushing offense against Baylor’s front. Kyson Brown has produced 227 yards on 43 carries, but our broader efficiency numbers favor Baylor in this matchup, and Baylor has allowed only 97.0 rushing yards per game. If Baylor limits the ground game, more of the burden shifts to Cutter Boley, who has averaged 174.5 passing yards against FBS opponents with three touchdowns and two interceptions. That is the path we see to Baylor preventing Arizona State from pulling away.
 
 ## Best Bets Of The Week
 

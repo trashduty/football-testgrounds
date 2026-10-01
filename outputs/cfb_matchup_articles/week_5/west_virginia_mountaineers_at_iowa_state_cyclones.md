@@ -6,16 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| West Virginia Mountaineers | +3.5 (-115) | DraftKings | 40.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa State Cyclones | -3.5 (+105) | theScore Bet | 59.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| West Virginia Mountaineers | +2.5 (+100) | FanDuel | 37.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa State Cyclones | -2.5 (-120) | theScore Bet | 62.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The West Virginia Mountaineers visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -10**, compared with a market line of -3.5.
+The West Virginia Mountaineers visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -9.5**, compared with a market line of -3.
 
-The best number we found is Iowa State -3.5 at +105. We give Iowa State a 59.1% chance to cover, which creates an 10.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
+The best number we found is Iowa State -2.5 at -120. We give Iowa State a 62.0% chance to cover, which creates an 7.4% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
-The market is pricing a relatively competitive game, but our view starts with how West Virginia has generated its offense. West Virginia has run the ball 229 times against only 65 pass attempts and is averaging 294.8 rushing yards per game. The more interesting part is that our efficiency numbers are far less impressed by that production, especially against an Iowa State defense allowing 16.0 points and 272.5 total yards per game. For us, the issue is whether West Virginia can stay on schedule when its preferred approach meets the strongest area of Iowa State’s defense.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -64,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching West Virginia’s rushing offense against Iowa State’s front. Cam Cook has three 100-yard rushing games, while Michael Hawkins Jr. has reached 100 rushing yards three times, so Iowa State has to account for multiple ball carriers. The concern is that Utah recently ran for 205 yards against Iowa State, but we are not treating one game as proof that the broader defensive profile has changed. If Iowa State limits efficient early-down runs, West Virginia may be pushed away from the identity it has leaned on through four games.
 
 ## Best Bets Of The Week
 

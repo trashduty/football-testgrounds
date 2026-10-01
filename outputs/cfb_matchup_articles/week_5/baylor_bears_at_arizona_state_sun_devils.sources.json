@@ -2,45 +2,46 @@
   "game": "Baylor Bears@Arizona State Sun Devils",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T14:36:51.386317+00:00",
+  "generated_at_utc": "2026-10-01T02:28:56.354715+00:00",
   "model_prediction": 1.5,
   "market_line": 4.0,
-  "best_line": 3.5,
-  "best_price": "100",
-  "best_book": "theScore Bet",
-  "cover_probability": 0.55221421,
-  "edge": 0.05221421,
+  "best_line": 4.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.56867783,
+  "edge": 0.0448683061904762,
   "bet_short": "Baylor",
   "guide_enrichment": {
-    "enabled": true,
-    "narrative": "For us, the case starts with questioning Arizona State\u2019s offensive baseline. Excluding the Morgan State game, Arizona State has averaged 22.0 points and 298.5 yards. That fits our efficiency data, which shows problems in the rushing game and in creating scoring opportunities. Against a Baylor defense that grades much better against the run, we see a real possibility that Arizona State struggles to generate enough productive possessions to create separation.\n\nWe also see Baylor\u2019s defensive disruption as meaningful context rather than simply a reaction to one game. Baylor has held four consecutive opponents below 20 points and ranks among the national leaders in sacks and tackles for loss. The concern is on the other side: Baylor\u2019s passing efficiency has lagged, while Arizona State has allowed only 161.3 passing yards per game. This is also Baylor\u2019s first true road game of the season. Even with those concerns, our view is that Baylor\u2019s defensive matchup gives it enough resistance to stay inside the available number.",
-    "matchup_to_watch": "We will be watching Arizona State\u2019s rushing offense against Baylor\u2019s front. Kyson Brown has produced 227 yards on 43 carries, but our broader efficiency numbers favor Baylor in this matchup, and Baylor has allowed only 97.0 rushing yards per game. If Baylor limits the ground game, more of the burden shifts to Cutter Boley, who has averaged 174.5 passing yards against FBS opponents with three touchdowns and two interceptions. That is the path we see to Baylor preventing Arizona State from pulling away.",
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
     "guide_status": [
       "Found guide for Baylor Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Baylor.pdf",
       "Loaded guide for Baylor Bears: Baylor.pdf",
-      "No guide found for Arizona State Sun Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona State.pdf"
+      "No guide found for Arizona State Sun Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona State.pdf",
+      "Narrative generation failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
     ],
     "guide_extractions": [
       {
         "source_team": "Baylor Bears",
         "opponent": "Arizona State Sun Devils",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is Baylor's 2026 Game 5 notes for its Oct. 3 road game at Arizona State in Tempe.",
+        "document_match_reason": "The document is Baylor's 2026 Game 5 notes for its Oct. 3 road game against Arizona State in Tempe.",
         "recent_game": [
           {
-            "fact": "Baylor defeated Colorado 23-13 in its Big 12 opener, improving to 3-1 overall and extending its winning streak to three games.",
+            "fact": "Baylor defeated Colorado 23-13 on Sept. 26 to improve to 3-1 overall and 1-0 in Big 12 play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor held Colorado to 363 total yards, forced eight punts in 15 drives, recovered a fumble and made two fourth-down stops.",
             "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Baylor held Colorado to 363 total yards, forced eight punts on 15 drives, recovered a fumble and made two fourth-down stops.",
-            "page": 3,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Baylor recorded five sacks and 13 tackles for loss against Colorado, its most tackles for loss in a game since 2019.",
+            "fact": "Baylor recorded five sacks and 13 tackles for loss against Colorado; the 13 TFLs were its most in a game since 2019.",
             "page": 3,
             "category": "recent_game",
             "importance": "high"
@@ -52,7 +53,7 @@
             "importance": "medium"
           },
           {
-            "fact": "DJ Lagway threw two touchdown passes in Baylor's win over Colorado.",
+            "fact": "Baylor has won three consecutive games entering the Arizona State matchup.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
@@ -60,31 +61,31 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Arizona State is 2-1 after wins over Morgan State and Kansas and a 48-20 loss at No. 9 Texas A&M.",
+            "fact": "Arizona State enters the matchup 2-1 after wins over Morgan State and Kansas and a 48-20 loss at No. 9 Texas A&M.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Arizona State most recently defeated Kansas 24-17 in London after taking a 24-7 lead into the fourth quarter.",
+            "fact": "Arizona State most recently defeated Kansas 24-17 in London after building a 24-7 lead entering the fourth quarter.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Arizona State averages 38.0 points and 426.0 total yards per game, including 260.3 passing yards and 165.7 rushing yards.",
+            "fact": "Arizona State quarterback Cutter Boley, a sophomore transfer from Kentucky, has nine touchdown passes, two interceptions and averages 245.3 passing yards per game.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Excluding its 70-7 win over Morgan State, Arizona State averages 22.0 points and 298.5 total yards per game, including 174.5 passing and 124.0 rushing.",
+            "fact": "Against FBS opponents, Boley is 32-of-57 for three touchdowns and two interceptions and averages 174.5 passing yards per game.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Arizona State allows 24.0 points and 285.7 total yards per game, including 161.3 passing yards and 124.3 rushing yards.",
+            "fact": "Arizona State receiver Reed Harris has 19 catches for 374 yards and five touchdowns, while Omarion Miller has 20 catches for 149 yards.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "high"
@@ -96,19 +97,13 @@
             "importance": "medium"
           },
           {
-            "fact": "Arizona State receiver Reed Harris has 19 receptions for 374 yards and five touchdowns, while Omarion Miller has 20 catches for 149 yards.",
-            "page": 2,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
             "fact": "Arizona State defenders Owen Long and Martell Hughes have 25 and 21 tackles, respectively; Long has an interception and Hughes has 3.5 tackles for loss.",
             "page": 2,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Former Baylor outside linebacker Emar'rion Winston transferred to Arizona State and now plays defensive line; he started all 12 games for Baylor in 2025 and recorded 25 tackles, 5.5 tackles for loss and three sacks.",
+            "fact": "Former Baylor outside linebacker Emar'rion Winston joined Arizona State in 2026 and is playing defensive line; he started all 12 games for Baylor in 2025 and recorded 25 tackles, 5.5 tackles for loss and three sacks.",
             "page": 3,
             "category": "opponent_notes",
             "importance": "medium"
@@ -116,131 +111,137 @@
         ],
         "quarterback": [
           {
-            "fact": "Baylor's DJ Lagway transferred from Florida after making 19 starts over two seasons and throwing for 4,179 yards and 28 touchdowns.",
-            "page": 6,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Lagway passed for 333 yards and two touchdowns against Auburn before missing the next two games with a lower-leg injury.",
-            "page": 5,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Nate Bennett started in place of Lagway against Prairie View A&M and completed 24 of 36 passes for 314 yards and three touchdowns while adding a rushing touchdown.",
-            "page": 5,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Bennett again relieved Lagway against Louisiana Tech and completed 21 of 24 passes for 253 yards, accounting for three passing touchdowns and one rushing touchdown.",
-            "page": 3,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Lagway returned for the Colorado game and threw two touchdown passes.",
+            "fact": "Florida transfer DJ Lagway is Baylor's starting quarterback after making 19 starts over two seasons for the Gators.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Arizona State quarterback Cutter Boley, a sophomore transfer from Kentucky, has nine touchdown passes and two interceptions while averaging 245.3 passing yards per game.",
-            "page": 2,
+            "fact": "Lagway threw two touchdown passes in Baylor's most recent win over Colorado.",
+            "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Against FBS opponents, Boley is 32-for-57 for an average of 174.5 passing yards per game with three touchdowns and two interceptions.",
-            "page": 2,
+            "fact": "Lagway threw for 333 yards and two touchdowns against Auburn before a lower-leg injury caused him to miss time.",
+            "page": 5,
             "category": "quarterback",
             "importance": "high"
+          },
+          {
+            "fact": "Nate Bennett started against Prairie View A&M in place of the injured Lagway and completed 24 of 36 passes for 314 yards and three touchdowns while adding a rushing touchdown.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bennett also played against Louisiana Tech and completed 21 of 24 passes for 253 yards, accounting for three passing touchdowns and one rushing touchdown.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Baylor added 16 offensive players through the transfer portal for 2026, including quarterback DJ Lagway, tight end Tony Livingston and wide receiver DeBraun Hampton from Florida.",
+            "fact": "Baylor added 16 offensive transfers for 2026, including quarterback DJ Lagway, wide receivers Gavin Freeman and DeBraun Hampton, tight end Tony Livingston and several offensive linemen.",
             "page": 10,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Baylor had seven first-time Baylor offensive starters against Auburn: DJ Lagway, Dawson Pendergrass, Louis Brown IV, Gavin Freeman, Nate Kibble, Asher Hale and Logan Moore.",
+            "fact": "Baylor had first-time team starters DJ Lagway, Dawson Pendergrass, Louis Brown IV, Gavin Freeman, Nate Kibble, Asher Hale and Logan Moore on offense against Auburn.",
             "page": 8,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Gavin Freeman, a transfer who previously played at Oklahoma State and Oklahoma, has 35 receptions for 364 yards through four games.",
+            "fact": "Gavin Freeman has 35 catches for 364 yards through four games, averaging 8.75 receptions and 91 receiving yards per game.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Freeman leads the nation with 8.75 receptions per game and averages 91.0 receiving yards per game.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Jayden McGowan has four receiving touchdowns and averages 24.13 yards per catch; he also handled seven punt returns for 130 yards against Colorado.",
+            "fact": "Jayden McGowan has four receiving touchdowns and averages 24.13 yards per catch through four games.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Baylor replaced its five leading pass catchers from the 2025 team, including NFL departures Josh Cameron and Michael Trigg.",
+            "fact": "Baylor replaced its five leading pass catchers from the 2025 offense, including NFL departures Josh Cameron and tight end Michael Trigg.",
             "page": 16,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Starting tight end Matthew Klopfenstein is a Scottsdale native and Horizon High School graduate.",
+            "fact": "Starting tight end Matthew Klopfenstein is a Scottsdale native and attended Horizon High School in Arizona.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "low"
           },
           {
-            "fact": "Running back Dawson Pendergrass returned to full speed in 2026 after a season-ending preseason injury in 2025.",
+            "fact": "Baylor returned running back Dawson Pendergrass after he missed the 2025 season with a preseason season-ending injury.",
             "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor entered 2026 with a running-back rotation led by Pendergrass, Caden Knighten and Michael Turner, with freshman Ryelan Morris also receiving carries.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor had to replace four offensive-line starters for 2026; returning right tackle Kaden Sieracki started all 12 games in 2025, played 948 snaps and did not allow a sack.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor's opening offensive line included first-time Baylor starters Nate Kibble at left guard, Asher Hale at right guard and Logan Moore at right tackle.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Harrison Cluff made his first Baylor start against Prairie View A&M, and tackle Cooper Lovelace made his first Baylor start against Louisiana Tech.",
+            "page": 8,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Baylor added 21 defensive players through the transfer portal, with major additions concentrated on the defensive line, at edge rusher and at safety.",
+            "fact": "Baylor added 21 defensive transfers for 2026, with major investments on the defensive line, at edge rusher and at safety.",
             "page": 10,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Baylor's portal additions on the defensive front include interior linemen Hosea Wheeler, Kameren Washington, Jamaal Whyce Jr. and Traevon Mitchell, plus edge rushers Ryan Davis and Garrick Ponder.",
+            "fact": "Baylor's portal additions included interior defensive linemen Hosea Wheeler, Kameren Washington, Jamaal Whyce Jr. and Traevon Mitchell, plus edge rushers Ryan Davis and Garrick Ponder.",
             "page": 10,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ryan Davis recorded 6.5 sacks and eight tackles for loss over two seasons at Kansas State, while Garrick Ponder had 11.5 tackles for loss and 4.5 sacks for Southern Miss in 2025.",
+            "fact": "Baylor added Kansas State defenders Ryan Davis, Daniel Cobbs and Colby McCalister, all of whom previously played in coordinator Joe Klanderman's system.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Oklahoma transfer Devon Jordan has emerged in Baylor's cornerback rotation opposite returning starter LeVar Thornton and has two interceptions through four games.",
             "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Bo Onu leads Baylor with three sacks through four games.",
+            "page": 8,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Cornerback Devon Jordan, an Oklahoma transfer, has two interceptions through Baylor's first four games.",
-            "page": 4,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Travion Barnes returned in 2026 after a season-ending injury in Baylor's fourth game of 2025; he previously recorded 129 tackles and 10.5 tackles for loss at FIU in 2024.",
-            "page": 14,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Traevon Mitchell made his first NCAA start on the defensive line against Colorado.",
+            "fact": "Traevon Mitchell made his first collegiate start at defensive tackle in Baylor's win over Colorado.",
             "page": 8,
             "category": "defensive_personnel",
             "importance": "medium"
@@ -248,14 +249,14 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Joe Klanderman replaced Matthew Powledge as Baylor's defensive coordinator and safeties coach after serving as Kansas State's defensive coordinator from 2020 through 2025.",
-            "page": 19,
+            "fact": "Dave Aranda stopped calling Baylor's defense after the 2025 season and hired former Kansas State coordinator Joe Klanderman as defensive coordinator and safeties coach.",
+            "page": 10,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Dave Aranda stepped back from calling Baylor's defense and coaching inside linebackers, turning defensive play-calling duties over to Klanderman.",
-            "page": 8,
+            "fact": "Klanderman coordinated Kansas State's defense from 2020-25, and his units ranked in the top 30 nationally in defensive efficiency in each of his final five seasons.",
+            "page": 10,
             "category": "coaching_changes",
             "importance": "high"
           },
@@ -266,13 +267,13 @@
             "importance": "medium"
           },
           {
-            "fact": "Austin Woods is in his first full season as Baylor's offensive line coach after serving as interim offensive line coach for the final five games of 2025.",
+            "fact": "Austin Woods is in his first full season as Baylor's offensive-line coach after serving as interim offensive-line coach for the final five games of 2025.",
             "page": 19,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Baylor hired Jacori Greer as defensive line coach and Jeremy Modkins as cornerbacks coach for 2026.",
+            "fact": "Baylor hired Jacori Greer as defensive-line coach and Jeremy Modkins as cornerbacks coach for 2026.",
             "page": 19,
             "category": "coaching_changes",
             "importance": "medium"
@@ -280,7 +281,13 @@
         ],
         "injury_availability": [
           {
-            "fact": "Safety Jacob Redding suffered a season-ending injury before the 2026 season.",
+            "fact": "DJ Lagway suffered a lower-leg injury in the season opener against Auburn but returned and threw two touchdowns in Baylor's Week 4 win over Colorado.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Jacob Redding and wide receiver Ashton Jones have season-ending injuries for 2026.",
             "page": 14,
             "category": "injury_availability",
             "importance": "high"
@@ -292,48 +299,42 @@
             "importance": "high"
           },
           {
-            "fact": "Wide receiver Ashton Jones suffered a season-ending injury during spring practice.",
+            "fact": "Running back Dawson Pendergrass returned to full speed for 2026 after missing the entire 2025 season.",
             "page": 14,
             "category": "injury_availability",
             "importance": "medium"
-          },
-          {
-            "fact": "DJ Lagway suffered a lower-leg injury in the season opener, missed starts against Prairie View A&M and Louisiana Tech, and returned against Colorado.",
-            "page": 5,
-            "category": "injury_availability",
-            "importance": "high"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Baylor averages 29.8 points and 435.8 total yards per game, including 285.0 passing yards and 150.8 rushing yards.",
+            "fact": "Baylor averages 29.8 points and 435.8 total yards per game, including 285 passing yards and 150.8 rushing yards.",
             "page": 7,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Baylor ranks 25th nationally in passing offense at 285.0 yards per game and 11th in first downs with 103.",
+            "fact": "Baylor ranks 25th nationally in passing offense at 285 yards per game and 11th in first downs with 103.",
             "page": 4,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Baylor has passed for at least 200 yards and gained at least 300 total yards in each of its first four games.",
+            "fact": "Baylor has produced at least 300 total yards and 200 passing yards in each of its first four games.",
             "page": 3,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Baylor has allowed 1.5 sacks per game but ranks 129th nationally with 7.25 tackles for loss allowed per game.",
+            "fact": "Baylor has allowed 1.5 sacks per game but 7.25 tackles for loss per game through four contests.",
             "page": 9,
             "category": "offensive_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Baylor is 3-0 this season when it has more rushing yards than its opponent and 0-1 when it has fewer.",
-            "page": 3,
+            "fact": "Arizona State allows 285.7 total yards per game, including 161.3 passing yards and 124.3 rushing yards.",
+            "page": 2,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "defensive_context": [
@@ -344,34 +345,34 @@
             "importance": "high"
           },
           {
-            "fact": "Baylor allows 13.0 points and 306.0 total yards per game, including 97.0 rushing yards and 209.0 passing yards.",
+            "fact": "Baylor allows 13 points and 306 total yards per game, including 97 rushing yards and 209 passing yards.",
             "page": 7,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Baylor ranks fourth nationally with 3.75 sacks per game and fifth with 9.0 tackles for loss per game.",
+            "fact": "Baylor ranks fourth nationally with 3.75 sacks per game and fifth with nine tackles for loss per game.",
             "page": 4,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Baylor ranks 10th nationally in fourth-down defense at 14.3 percent and 12th in red-zone defense at 69.2 percent.",
+            "fact": "Baylor ranks 10th nationally in fourth-down defense, 12th in red-zone defense, 13th in passing-efficiency defense and 16th in scoring defense.",
             "page": 4,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Baylor has generated seven takeaways through four games, including four interceptions and three fumble recoveries.",
-            "page": 4,
+            "fact": "Arizona State averages 38 points and 426 total yards per game, including 260.3 passing yards and 165.7 rushing yards.",
+            "page": 2,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Baylor held Prairie View A&M to 110 total yards and 36 rushing yards, then recorded 13 tackles for loss against Colorado two games later.",
-            "page": 5,
+            "fact": "Excluding its 70-7 win over Morgan State, Arizona State averages 22 points and 298.5 total yards per game against FBS opponents.",
+            "page": 2,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "special_teams": [
@@ -382,25 +383,25 @@
             "importance": "high"
           },
           {
-            "fact": "Jayden McGowan returned seven punts for 130 yards against Colorado, including a 36-yard return.",
+            "fact": "Jayden McGowan returned seven punts for 130 yards against Colorado, including a long return of 36 yards.",
             "page": 3,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Rhett Armstrong made three field goals against Colorado, including a 54-yarder that tied the McLane Stadium record, plus kicks from 37 and 27 yards.",
+            "fact": "Rhett Armstrong made three field goals against Colorado, including a 54-yarder, and also converted attempts from 37 and 27 yards.",
             "page": 3,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Baylor ranks 10th nationally in net punting at 44.79 yards and has blocked one punt and one kick.",
+            "fact": "Baylor ranks 10th nationally in net punting at 44.79 yards and has blocked one punt and one kick this season.",
             "page": 4,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Armstrong became Baylor's primary kicker after Connor Hawkins transferred to Ohio State.",
+            "fact": "Armstrong became Baylor's placekicker after Connor Hawkins transferred to Ohio State following the 2025 season.",
             "page": 12,
             "category": "special_teams",
             "importance": "medium"
@@ -408,46 +409,40 @@
         ],
         "series_context": [
           {
-            "fact": "Arizona State has won both previous meetings with Baylor: 34-13 in Tempe in 1990 and 27-24 in Waco in 2025.",
+            "fact": "Arizona State leads the series 2-0, winning 34-13 in Tempe in 1990 and 27-24 in Waco in 2025.",
             "page": 2,
             "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "In the 2025 meeting, Arizona State kicked a 43-yard field goal as time expired after Baylor had tied the game with 1:52 remaining.",
+            "fact": "In the 2025 meeting, Arizona State made a 43-yard field goal as time expired to defeat Baylor 27-24.",
             "page": 2,
             "category": "series_context",
             "importance": "high"
           },
           {
-            "fact": "Baylor quarterback Sawyer Robertson threw for 250 yards and three touchdowns in the 2025 loss to Arizona State, while Bryson Washington rushed 17 times for 111 yards.",
+            "fact": "Baylor tied the 2025 meeting with 1:52 remaining before Arizona State drove 49 yards in 11 plays for the winning field goal.",
             "page": 2,
             "category": "series_context",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "other_relevant": [
           {
-            "fact": "The Arizona State game is Baylor's first true road game of the 2026 season.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Baylor enters the matchup 3-1 overall and 1-0 in the Big 12, while Arizona State is 2-1.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Baylor has lost its last three true road games; its most recent road win was 45-27 at Oklahoma State on Sept. 27, 2025.",
+            "fact": "The Arizona State game is Baylor's first true road game of the 2026 season; Baylor entered the week with a three-game road losing streak.",
             "page": 3,
             "category": "other_relevant",
             "importance": "medium"
           },
           {
-            "fact": "Baylor added a program-record 39 transfer-portal players for 2026 and entered the season with 58 returning players.",
+            "fact": "Baylor added a program-record 39 transfer-portal players for 2026 and has 58 returning players.",
             "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "A Baylor win would produce the program's first 2-0 conference start and first 4-1 overall start since 2021.",
+            "page": 4,
             "category": "other_relevant",
             "importance": "medium"
           }
@@ -490,80 +485,7 @@
         "matchup_score": 53
       }
     ],
-    "used_sources": [
-      {
-        "fact_id": 9,
-        "fact": "Excluding its 70-7 win over Morgan State, Arizona State averages 22.0 points and 298.5 total yards per game, including 174.5 passing and 124.0 rushing.",
-        "page": 2,
-        "category": "opponent_notes",
-        "importance": "high",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      },
-      {
-        "fact_id": 10,
-        "fact": "Arizona State allows 24.0 points and 285.7 total yards per game, including 161.3 passing yards and 124.3 rushing yards.",
-        "page": 2,
-        "category": "opponent_notes",
-        "importance": "high",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      },
-      {
-        "fact_id": 11,
-        "fact": "Arizona State running back Kyson Brown has 43 carries for 227 yards and one touchdown.",
-        "page": 2,
-        "category": "opponent_notes",
-        "importance": "medium",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      },
-      {
-        "fact_id": 21,
-        "fact": "Against FBS opponents, Boley is 32-for-57 for an average of 174.5 passing yards per game with three touchdowns and two interceptions.",
-        "page": 2,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      },
-      {
-        "fact_id": 50,
-        "fact": "Baylor has held four consecutive opponents below 20 points, its longest such streak since 2005.",
-        "page": 3,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      },
-      {
-        "fact_id": 51,
-        "fact": "Baylor allows 13.0 points and 306.0 total yards per game, including 97.0 rushing yards and 209.0 passing yards.",
-        "page": 7,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      },
-      {
-        "fact_id": 52,
-        "fact": "Baylor ranks fourth nationally with 3.75 sacks per game and fifth with 9.0 tackles for loss per game.",
-        "page": 4,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      },
-      {
-        "fact_id": 64,
-        "fact": "The Arizona State game is Baylor's first true road game of the 2026 season.",
-        "page": 1,
-        "category": "other_relevant",
-        "importance": "high",
-        "source_file": "Baylor.pdf",
-        "source_team": "Baylor Bears"
-      }
-    ],
+    "used_sources": [],
     "model_context": {
       "model_side_full": "Baylor Bears",
       "model_side": "Baylor",
@@ -571,10 +493,10 @@
       "opponent": "Arizona State",
       "model_prediction": 1.5,
       "market_line": 4.0,
-      "best_available_line": 3.5,
-      "best_available_price": "100",
-      "cover_probability": 0.55221421,
-      "edge": 0.05221421,
+      "best_available_line": 4.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.56867783,
+      "edge": 0.0448683061904762,
       "bet_status": "BET"
     }
   }

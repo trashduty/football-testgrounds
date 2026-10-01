@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Akron Zips | +6.5 (-105) | Fanatics | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Central Michigan Chippewas | -6.5 (-109) | BetRivers | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Central Michigan Chippewas | -6.5 (-110) | BetMGM | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Akron Zips visit the Central Michigan Chippewas at Kelly/Shorts Stadium. We make **Central Michigan -8.5**, compared with a market line of -6.5.
 
-The best number we found is Central Michigan -6.5 at -109. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Central Michigan -6.5 at -110. We see a 0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -160,20 +160,18 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas Razorbacks | +13.5 (-105) | Fanatics | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas A&M Aggies | -14.5 (+100) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas Razorbacks | +13.5 (+100) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Texas A&M Aggies | -14.0 (-105) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Arkansas Razorbacks visit the Texas A&M Aggies at Kyle Field. We make **Arkansas +14**, compared with a market line of +14.
 
-The best number we found is Arkansas +13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arkansas +13.5 at +100. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We see the strongest case for Texas A&M in its ability to sustain possessions against an Arkansas defense our numbers rate poorly at preventing scoring opportunities. Texas A&M has converted 19 of 43 third downs and scored touchdowns on 12 of 17 red-zone possessions. That combination supports the possibility of control and separation without requiring a steady stream of explosive plays.
+We are not reacting to Texas A&M’s loss to Kentucky as proof of a larger problem. The more useful takeaway is that Texas A&M still generated 423 yards, with 187 on the ground and 236 through the air. That balance matters because our matchup data points to Arkansas having difficulty preventing scoring opportunities without an obvious strength against either phase of the offense.
 
-We are not treating the Kentucky loss as proof that the offense is broken. Texas A&M gained 423 yards in that game, but two turnovers undermined the production. The broader concern is that Texas A&M has generated only nine plays of at least 20 yards through three games, which makes the margin more dependent on consistently finishing longer drives.
-
-We also see a Texas A&M defense that has allowed only seven third-down conversions on 31 attempts and produced six takeaways. Those results can create extra possessions, but we are cautious about building too much into an early turnover sample. For us, the supporting football case is largely consistent with the market's expectation, leaving too little disagreement to justify a play.
+The concern with taking Arkansas is that Texas A&M has shown it can sustain drives and finish them, converting 19 of 43 third downs and scoring touchdowns on 12 of 17 red-zone possessions through three games. Its defense also allowed only seven conversions on 31 third downs over that span. Our overall expectation sits too close to the market, and the available price gives us less cushion than we would need. For us, that makes this a pass rather than a position on Arkansas.
 
 ### What The Numbers Say
 
@@ -225,9 +223,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Marcel Reed against Arkansas once Texas A&M moves into scoring range. Reed showed both sides of the equation against Kentucky: he ran for a team-high 80 yards, including a 40-yard gain, but also threw two interceptions. His mobility gives Texas A&M another way to attack Arkansas, while his ball security could determine whether promising drives become touchdowns or missed chances.
-
-Our numbers expect Texas A&M to reach scoring territory regularly. The question for us is whether Reed and the offense convert those opportunities efficiently enough to create the margin the market is asking for.
+We are focused on Texas A&M’s ability to turn sustained possessions into touchdowns against Arkansas. Marcel Reed’s mobility adds another problem: he ran for 80 yards against Kentucky, including a 40-yard gain. If Arkansas cannot limit scoring opportunities or force field-goal attempts, Texas A&M has a credible path to creating separation. That is the main football reason we do not see enough value in taking the points at the available price.
 
 ## Best Bets Of The Week
 
@@ -247,14 +243,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas State Red Wolves | +6.5 (-105) | DraftKings | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Louisiana Ragin Cajuns | -6.5 (-110) | BetMGM | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas State Red Wolves | +6.5 (+100) | DraftKings | 51.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Louisiana Ragin Cajuns | -6.5 (-115) | Fanatics | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Arkansas State Red Wolves visit the Louisiana Ragin Cajuns at Cajun Field. We make **Arkansas State +6.5**, compared with a market line of +6.5.
 
-The best number we found is Arkansas State +6.5 at -105. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arkansas State +6.5 at +100. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -324,8 +320,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Army Black Knights | -2.5 (-108) | BetMGM | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Louisiana Tech Bulldogs | +2.5 (-110) | BetMGM | 55.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Army Black Knights | -2.5 (-105) | DraftKings | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisiana Tech Bulldogs | +2.5 (-110) | Fanatics | 55.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -333,9 +329,7 @@ The Army Black Knights visit the Louisiana Tech Bulldogs at Joe Aillet Stadium. 
 
 The best number we found is Louisiana Tech +2.5 at -110. We see a 2.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our disagreement with the market starts with the broader team ratings, not a reaction to Army’s most recent result. We rate Louisiana Tech more favorably in the overall matchup, and our efficiency numbers suggest it can find some success on the ground against Army’s defense. That gives Louisiana Tech a credible path to controlling enough of the game to justify our model’s position.
-
-The concern is Army’s offense. Through two games, Army averaged 394 rushing yards and 41.5 points, while Cale Hellums had not thrown an interception. The passing component also deserves attention: Hellums completed 9 of 10 attempts with two touchdowns against South Florida. For us, those offensive advantages create enough resistance to Louisiana Tech’s case that the model disagreement does not offer sufficient value at the current price. We are staying with the pass.
+We are not dismissing Army’s offense to make the case for Louisiana Tech. Our efficiency numbers give Army an advantage against Louisiana Tech’s defense both on the ground and through the air. That concern has real context: Army averaged 394 rushing yards through two games, and Cale Hellums returned after starting 10 games in 2025, when he rushed for 1,223 yards and 18 touchdowns. Army also lists five seniors across its first-team offensive line, giving the unit considerable experience up front.
 
 ### What The Numbers Say
 
@@ -387,7 +381,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Army’s rushing offense against Louisiana Tech’s run defense. Hellums rushed for 1,223 yards and 18 touchdowns in 2025, and Godspower Nwawuihe carried 20 times for 98 yards against South Florida. Louisiana Tech’s ability to limit that combination without giving up efficient passing opportunities will go a long way toward determining whether our more favorable overall view of the home team holds up.
+For us, the matchup to watch is Army’s multidimensional offense against Louisiana Tech’s defense. Hellums completed 9 of 10 passes with two touchdowns against South Florida, while Army did not throw an interception in its first two games. We need to see whether Louisiana Tech can contain the rushing attack without giving Hellums efficient opportunities through the air. That matchup is the main reason our broader preference for Louisiana Tech does not create enough value for us at the current price.
 
 ## Best Bets Of The Week
 
@@ -407,20 +401,20 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Auburn Tigers | +7.5 (-120) | theScore Bet | 55.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Auburn Tigers | +7.5 (-117) | BetRivers | 55.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 | Tennessee Volunteers | -7.5 (+100) | FanDuel | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Auburn Tigers visit the Tennessee Volunteers at Neyland Stadium. We make **Auburn +6**, compared with a market line of +7.
 
-The best number we found is Auburn +7.5 at -120. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Auburn +7.5 at -117. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our modest disagreement with the market begins with Auburn’s ability to create scoring opportunities. Our matchup numbers rate that part of Auburn’s offense more favorably than Tennessee’s ability to prevent those chances, which gives us a path to the underdog staying competitive even if Tennessee is the stronger team overall.
+Our numbers are somewhat more favorable to Auburn than the market, but our case is not that Tennessee has been unimpressive. Tennessee reached 400 total yards in each of its first three games and scored touchdowns on 10 of 11 red-zone possessions. We also see an offense that rates among the best at creating scoring opportunities, so Auburn may have difficulty keeping Tennessee from generating enough quality possessions.
 
-The concern is what happens on the other side. Tennessee has been highly effective at generating and finishing scoring opportunities, converting all 11 red-zone trips through its first three games and scoring 10 touchdowns. We view that as supporting evidence rather than a guarantee, especially because the available guide predates Tennessee’s game against Texas.
+The more interesting part is Auburn’s ability to create scoring opportunities against a Tennessee defense whose strongest work has come against the pass. That gives Auburn a path to stay competitive without needing to win consistently through the air. Still, Tennessee recorded 13 sacks through three games and allowed only two pass plays of at least 20 yards, which directly challenges Auburn’s weaker offensive dimension.
 
-For us, the case for Auburn is offset by two meaningful matchup problems: Tennessee can finish drives, and Auburn may struggle to move the ball efficiently through the air. That leaves our model slightly more favorable to Auburn than the market without creating enough value at the current price, so we remain on the pass.
+That tension explains our disagreement with the market and our decision to pass. Our model sees a plausible route for Auburn to remain within range, but the matchup does not provide enough separation to justify paying the available premium.
 
 ### What The Numbers Say
 
@@ -472,7 +466,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Auburn’s passing offense against Tennessee’s pass defense. Tennessee allowed only 151 passing yards per game through its first three contests, conceded just two completions of at least 20 yards and recorded 13 sacks. If Auburn cannot avoid pressure and produce enough chunk gains, its advantage in creating scoring opportunities may not translate into points. That tension is the clearest reason we see an argument for Auburn without finding a wager.
+We are watching Auburn’s passing offense against Tennessee’s pass defense. Tennessee allowed 151 passing yards per game through three games, while limiting opponents to two completions of at least 20 yards and none of 30 or more. If Auburn cannot produce efficient passes when Tennessee forces obvious passing situations, its ability to create scoring opportunities may not translate into enough points. For us, that is the matchup most likely to decide whether Auburn can validate our model’s more favorable view.
 
 ## Best Bets Of The Week
 
@@ -493,7 +487,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | BYU Cougars | -6.5 (-109) | BetRivers | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| TCU Horned Frogs | +6.5 (-105) | Fanatics | 53.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| TCU Horned Frogs | +6.5 (-105) | theScore Bet | 53.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -569,18 +563,16 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baylor Bears | +3.5 (+100) | theScore Bet | 55.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Baylor Bears | +4.5 (-110) | BetRivers | 56.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | Arizona State Sun Devils | -4.5 (-105) | FanDuel | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Baylor Bears visit the Arizona State Sun Devils at Mountain America Stadium. We make **Baylor +1.5**, compared with a market line of +4.
 
-The best number we found is Baylor +3.5 at +100. We give Baylor a 55.2% chance to cover, which creates an 5.2% edge for us. That clears our 3% threshold, so Baylor is a bet.
+The best number we found is Baylor +4.5 at -110. We give Baylor a 56.9% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Baylor is a bet.
 
-For us, the case starts with questioning Arizona State’s offensive baseline. Excluding the Morgan State game, Arizona State has averaged 22.0 points and 298.5 yards. That fits our efficiency data, which shows problems in the rushing game and in creating scoring opportunities. Against a Baylor defense that grades much better against the run, we see a real possibility that Arizona State struggles to generate enough productive possessions to create separation.
-
-We also see Baylor’s defensive disruption as meaningful context rather than simply a reaction to one game. Baylor has held four consecutive opponents below 20 points and ranks among the national leaders in sacks and tackles for loss. The concern is on the other side: Baylor’s passing efficiency has lagged, while Arizona State has allowed only 161.3 passing yards per game. This is also Baylor’s first true road game of the season. Even with those concerns, our view is that Baylor’s defensive matchup gives it enough resistance to stay inside the available number.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -630,10 +622,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We will be watching Arizona State’s rushing offense against Baylor’s front. Kyson Brown has produced 227 yards on 43 carries, but our broader efficiency numbers favor Baylor in this matchup, and Baylor has allowed only 97.0 rushing yards per game. If Baylor limits the ground game, more of the burden shifts to Cutter Boley, who has averaged 174.5 passing yards against FBS opponents with three touchdowns and two interceptions. That is the path we see to Baylor preventing Arizona State from pulling away.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -652,14 +640,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Boston College Eagles | +20.5 (-105) | FanDuel | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| SMU Mustangs | -20.5 (-115) | FanDuel | 52.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boston College Eagles | +20.5 (-105) | BetMGM | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| SMU Mustangs | -20.5 (-110) | FanDuel | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Boston College Eagles visit the SMU Mustangs at Gerald J. Ford Stadium. We make **SMU -22.5**, compared with a market line of -21.
+The Boston College Eagles visit the SMU Mustangs at Gerald J. Ford Stadium. We make **SMU -22**, compared with a market line of -20.5.
 
-The best number we found is SMU -20.5 at -115. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is SMU -20.5 at -110. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -806,7 +794,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| California Golden Bears | +2.5 (-102) | BetMGM | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| California Golden Bears | +2.5 (-105) | BetMGM | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | UNLV Rebels | -2.5 (-109) | Caesars | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -815,9 +803,7 @@ The California Golden Bears visit the UNLV Rebels at Allegiant Stadium. We make 
 
 The best number we found is UNLV -2.5 at -109. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the case for UNLV is less about overall team quality and more about how the game can be played. Our matchup numbers point to UNLV’s rushing offense against California’s run defense as the clearest source of separation. A productive ground game would help UNLV sustain drives while reducing its exposure to a California pass defense that ranked 10th nationally in efficiency and had intercepted five passes through three games.
-
-California’s passing production is the main challenge to that view. The offense averaged 321.7 passing yards through three games, and Jaron-Keawe Sagapolutele had thrown for 866 yards with seven touchdowns and two interceptions. Still, our numbers are more skeptical of California’s ability to create scoring opportunities consistently against UNLV. We see a meaningful matchup argument for the home side, but the advantage is not large enough at the current price. That is why this remains a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -867,10 +853,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching UNLV’s rushing offense against California’s run defense. If UNLV stays efficient on the ground, it can keep the offense in favorable situations and follow the path our model favors. If California forces obvious passing downs, the matchup changes: Kingston Lopa had five interceptions through three games and recorded at least one takeaway in each game. That turnover threat is one reason our disagreement with the market does not automatically become a wager.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -889,14 +871,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Cincinnati Bearcats | +6.5 (+110) | theScore Bet | 49.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Arizona Wildcats | -7.5 (+108) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Cincinnati Bearcats | +6.5 (-105) | BetMGM | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona Wildcats | -6.5 (-109) | Caesars | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Cincinnati Bearcats visit the Arizona Wildcats at Arizona Stadium. We make **Cincinnati +7.5**, compared with a market line of +7.
+The Cincinnati Bearcats visit the Arizona Wildcats at Arizona Stadium. We make **Cincinnati +7.5**, compared with a market line of +6.5.
 
-The best number we found is Cincinnati +6.5 at +110. We see a 1.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Cincinnati +6.5 at -105. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1044,17 +1026,15 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Florida Gators | -5.5 (-105) | DraftKings | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Missouri Tigers | +5.5 (-110) | BetRivers | 52.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Missouri Tigers | +5.5 (-105) | theScore Bet | 52.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Florida Gators visit the Missouri Tigers at Memorial Stadium. We make **Missouri +5**, compared with a market line of +5.5.
 
-The best number we found is Missouri +5.5 at -110. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Missouri +5.5 at -105. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-The market is asking Missouri to create slightly more separation than our model expects, and Florida’s rushing offense is the clearest reason for that difference. Jadan Baugh produced 458 yards and eight rushing touchdowns through three games, while Florida’s six consecutive scoring drives at Auburn showed it could sustain offense on the road. We are not treating one performance as proof, but the underlying rushing efficiency gives Florida a credible way to shorten the game and avoid obvious passing situations.
-
-The counter is Missouri’s ability to prevent scoring opportunities and limit efficient passing, two areas that challenge Florida’s offense beyond the ground game. We also note that Missouri entered the season with only two returning defensive starters after losing 10, which adds some uncertainty to how sustainable that early defensive profile will be. Our numbers still favor Missouri, but the football case for Florida staying competitive is strong enough to narrow the expected margin—not strong enough to create value at the available price.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -1104,10 +1084,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-For us, Florida’s rushing offense against Missouri’s run defense is the matchup that can shape the spread. Our numbers rate the ground game as Florida’s clearest offensive advantage, while Missouri has been less convincing against the run than in overall scoring-opportunity prevention. If Florida keeps Baugh productive and stays on schedule, Missouri may have fewer chances to lean on its stronger pass defense; if Missouri controls early downs, the matchup shifts toward the home side’s defensive strengths.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -1126,14 +1102,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Fresno State Bulldogs | +2.5 (-110) | BetMGM | 42.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington State Cougars | -2.5 (-105) | FanDuel | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Fresno State Bulldogs | +1.5 (+100) | theScore Bet | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | -1.5 (-110) | Fanatics | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Fresno State Bulldogs visit the Washington State Cougars at Gesa Field. We make **Washington State -6**, compared with a market line of -2.5.
+The Fresno State Bulldogs visit the Washington State Cougars at Gesa Field. We make **Washington State -5.5**, compared with a market line of -1.5.
 
-The best number we found is Washington State -2.5 at -105. We give Washington State a 57.3% chance to cover, which creates an 6.1% edge for us. That clears our 3% threshold, so Washington State is a bet.
+The best number we found is Washington State -1.5 at -110. We give Washington State a 58.0% chance to cover, which creates an 5.6% edge for us. That clears our 3% threshold, so Washington State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1203,14 +1179,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Southern Eagles | -2.5 (-108) | BetMGM | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Coastal Carolina Chanticleers | +2.5 (-110) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Southern Eagles | -2.5 (-110) | BetMGM | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Coastal Carolina Chanticleers | +2.5 (-109) | BetRivers | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Georgia Southern Eagles visit the Coastal Carolina Chanticleers at Brooks Stadium (SC). We make **Georgia Southern -3.5**, compared with a market line of -2.5.
 
-The best number we found is Georgia Southern -2.5 at -108. We see a -0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia Southern -2.5 at -110. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1280,14 +1256,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Indiana Hoosiers | -24.5 (-104) | FanDuel | 54.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Rutgers Scarlet Knights | +24.5 (-115) | DraftKings | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Indiana Hoosiers | -23.5 (-110) | BetMGM | 55.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Rutgers Scarlet Knights | +23.5 (+100) | theScore Bet | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Indiana Hoosiers visit the Rutgers Scarlet Knights at SHI Stadium. We make **Indiana -27.5**, compared with a market line of -24.5.
+The Indiana Hoosiers visit the Rutgers Scarlet Knights at SHI Stadium. We make **Indiana -27**, compared with a market line of -23.5.
 
-The best number we found is Indiana -24.5 at -104. We give Indiana a 54.4% chance to cover, which creates an 3.4% edge for us. That clears our 3% threshold, so Indiana is a bet.
+The best number we found is Indiana -23.5 at -110. We see a 3.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1357,14 +1333,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kentucky Wildcats | +2.5 (+100) | theScore Bet | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Carolina Gamecocks | -2.5 (-120) | FanDuel | 57.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Kentucky Wildcats | +2.5 (+100) | DraftKings | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -2.5 (-117) | Caesars | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Kentucky Wildcats visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **South Carolina -6.5**, compared with a market line of -3.
+The Kentucky Wildcats visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **South Carolina -6.5**, compared with a market line of -2.5.
 
-The best number we found is South Carolina -2.5 at -120. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Carolina -2.5 at -117. We give South Carolina a 57.0% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so South Carolina is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1434,14 +1410,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Liberty Flames | -7.5 (+100) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Delaware Blue Hens | +7.5 (-112) | BetMGM | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Liberty Flames | -7.5 (-105) | BetMGM | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | +7.5 (-112) | BetMGM | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Liberty Flames visit the Delaware Blue Hens at Delaware Stadium. We make **Liberty -9**, compared with a market line of -7.5.
+The Liberty Flames visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware +8.5**, compared with a market line of +7.
 
-The best number we found is Liberty -7.5 at +100. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Delaware +7.5 at -112. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1453,40 +1429,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Liberty</th>
 <th>Delaware</th>
+<th>Liberty</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#38</td>
 <td>#66</td>
+<td class="btb-better">#38</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#32</td>
 <td>#125</td>
+<td class="btb-better">#32</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#85</td>
 <td>#116</td>
+<td class="btb-better">#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#104</td>
 <td class="btb-better">#82</td>
+<td>#104</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#42</td>
 <td class="btb-better">#39</td>
+<td>#42</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#83</td>
 <td>#115</td>
+<td class="btb-better">#83</td>
 </tr>
 </tbody>
 </table>
@@ -1512,7 +1488,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Louisville Cardinals | -3.5 (-108) | Caesars | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| NC State Wolfpack | +3.5 (-105) | Fanatics | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| NC State Wolfpack | +3.5 (-105) | FanDuel | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -1588,14 +1564,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Marshall Thundering Herd | +18.5 (-110) | BetMGM | 46.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| James Madison Dukes | -18.5 (-105) | DraftKings | 53.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Marshall Thundering Herd | +19.5 (-110) | FanDuel | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| James Madison Dukes | -18.5 (-110) | BetRivers | 54.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Marshall Thundering Herd visit the James Madison Dukes at Bridgeforth Stadium. We make **James Madison -21.5**, compared with a market line of -18.5.
+The Marshall Thundering Herd visit the James Madison Dukes at Bridgeforth Stadium. We make **James Madison -22**, compared with a market line of -19.
 
-The best number we found is James Madison -18.5 at -105. We see a 2.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is James Madison -18.5 at -110. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1674,7 +1650,7 @@ The Maryland Terrapins visit the Nebraska Cornhuskers at Memorial Stadium (Linco
 
 The best number we found is Maryland +14.5 at -108. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We understand why Maryland’s start may attract attention. We saw the offense produce 475 yards at UConn, while Malik Washington completed 34 of 41 passes for 347 yards and two touchdowns. Maryland also avoided a turnover in each of its first two games. That is encouraging context, but we are not treating two clean performances as proof that the offense will sustain the same efficiency here.
+We are not treating Maryland’s fast start as proof that its early production will carry over unchanged. Malik Washington completed 34 of 41 passes for 347 yards against UConn, while Na’eem Abdul-Rahim Gladding and Chris Durr Jr. combined for 236 receiving yards. That performance is meaningful context, but our longer-run efficiency numbers remain skeptical of Maryland’s passing offense against a more capable Nebraska pass defense.
 
 ### What The Numbers Say
 
@@ -1726,7 +1702,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, Nebraska’s rushing offense against Maryland’s run defense is the matchup that matters most. Maryland allowed only 38.5 rushing yards per game through its first two contests, but our rush EPA numbers still identify a meaningful advantage for Nebraska. The question is whether those early defensive results reflect a lasting strength or whether Nebraska can expose what our longer-run efficiency view considers the softer part of Maryland’s profile. With our overall expectation already closely aligned with the market, we do not see enough separation to move beyond a pass.
+For us, the matchup to watch is Nebraska’s rushing offense against Maryland’s front. Maryland allowed only 38.5 rushing yards per game and recorded 10 sacks through its first two games, but Nebraska’s rushing efficiency presents a substantially different test. The question is whether Maryland’s early defensive production reflects a sustainable strength or an opponent-dependent start. Our numbers favor Nebraska in that area, which limits the case for taking Maryland, while the overall price remains too close to our expectation to create enough value. We pass.
 
 ## Best Bets Of The Week
 
@@ -1746,14 +1722,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Memphis Tigers | -20.5 (-105) | theScore Bet | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Charlotte 49ers | +20.5 (-110) | Fanatics | 52.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Memphis Tigers | -20.5 (-108) | BetMGM | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +20.5 (-105) | theScore Bet | 52.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Memphis Tigers visit the Charlotte 49ers at Jerry Richardson Stadium. We make **Charlotte +19.5**, compared with a market line of +20.5.
 
-The best number we found is Charlotte +20.5 at -110. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Charlotte +20.5 at -105. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1823,8 +1799,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Hurricanes | -16.5 (-110) | BetMGM | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Clemson Tigers | +16.5 (-104) | FanDuel | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Miami Hurricanes | -16.5 (-112) | DraftKings | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Clemson Tigers | +16.5 (-104) | Caesars | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -1832,7 +1808,11 @@ The Miami Hurricanes visit the Clemson Tigers at Memorial Stadium (Clemson, SC).
 
 The best number we found is Clemson +16.5 at -104. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-For us, the disagreement starts with Clemson’s offense being asked to create a substantial margin against a defense our numbers rate highly. Clemson produced season highs in total offense, passing and rushing against North Carolina, but true freshman Tait Reynolds was making his first career start. We view that performance as encouraging context, not enough evidence to dismiss Clemson’s weaker longer-run efficiency in the run game, passing game and scoring-opportunity creation.
+Our view is driven less by Miami’s explosive start than by questions about Clemson’s ability to create consistent separation. True freshman Tait Reynolds completed 20 of 29 passes for 215 yards with one touchdown and one interception in his first start, while Clemson’s 401 total yards against North Carolina marked a season high. That was progress, but our longer-run efficiency profile still shows significant concerns in Clemson’s rushing, passing and scoring-opportunity creation against the strongest part of Miami’s profile.
+
+Miami did not allow an offensive touchdown in either of its first two games and held those opponents to 3.6 yards per play. We are not treating that small sample as proof, particularly after Miami lost edge defenders Rueben Bain Jr. and Akheem Mesidor to the NFL. Still, defensive tackles Ahmad Moten Sr. and Justin Scott returned, and Missouri transfer Damon Wilson II arrived after recording nine sacks last season. The personnel context gives us more reason to respect the early defensive efficiency.
+
+Miami also has enough offensive upside to make a wide margin uncomfortable. Darian Mensah completed 41 of 45 passes for 653 yards, eight touchdowns and no interceptions across his first two starts. We do not expect that pace to continue unchanged against Clemson, but the ability to answer scores matters in this type of spread. The market is asking Clemson to produce more separation than our numbers expect, yet the difference is not large enough for us to force a position.
 
 ### What The Numbers Say
 
@@ -1884,7 +1864,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Clemson’s offense against Miami’s defensive front. Miami led the ACC in rushing, scoring and total defense in 2025, returned defensive tackles Ahmad Moten Sr. and Justin Scott, and added Damon Wilson II after his nine-sack season at Missouri. Clemson may still control the game, but our concern is whether its offense can consistently finish drives and create the separation the market is demanding. Our projected margin differs only modestly from that price, so the football case is not strong enough for us to act.
+We are watching Clemson’s rushing offense against Miami’s defensive front. Clemson ran for 186 yards against North Carolina, with Gideon Davidson contributing a career-high 105, but our efficiency numbers still identify this as the clearest defensive advantage for Miami. If Clemson cannot stay ahead of schedule on the ground, Reynolds will face more obvious passing situations against a defense that has been strong at preventing both efficient passes and scoring opportunities. For us, that is the matchup most likely to determine whether Clemson can build and maintain the margin the market expects.
 
 ## Best Bets Of The Week
 
@@ -1905,7 +1885,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Michigan State Spartans | +10.0 (-102) | Caesars | 51.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Wisconsin Badgers | -10.5 (-105) | Fanatics | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wisconsin Badgers | -10.5 (+100) | theScore Bet | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -1981,20 +1961,16 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Michigan Wolverines | -5.5 (-108) | BetMGM | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Minnesota Golden Gophers | +5.5 (-110) | Caesars | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | -5.5 (-110) | BetMGM | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | +5.5 (-108) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Michigan Wolverines visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Michigan -7.5**, compared with a market line of -5.5.
 
-The best number we found is Michigan -5.5 at -108. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan -5.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our view starts with Michigan’s defense, particularly against the run. Our efficiency numbers show a clear advantage over Minnesota’s rushing offense, and the early results support that concern: Michigan has allowed 86.8 rushing yards per game and 2.65 yards per carry. If Minnesota cannot stay efficient on the ground, Drake Lindsey will have to carry more of the offense against a pass defense that also grades favorably in our matchup numbers.
-
-The other side is less decisive, but we see room for Michigan’s rushing rotation to create an advantage. Jordan Marshall, Bryce Underwood and Savion Hiter have each scored twice on the ground, and Underwood’s mobility gives Minnesota another element to account for. The concern for us is disruption. Minnesota recorded seven sacks at Washington, while Michigan has six giveaways through four games. Those are credible ways for Minnesota to shorten the game and prevent Michigan from creating separation.
-
-That is where our expectation differs from the market: we trust Michigan’s defensive matchup more than the current price appears to. Still, Minnesota’s pressure, turnover profile and home-field paths introduce enough variance that the available number does not give us sufficient value. We see the disagreement, but for us this remains a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -2044,10 +2020,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching Minnesota’s rushing offense against Michigan’s front. TJ Thomas has averaged 7.4 yards per carry, but Michigan has allowed only 2.65 yards per rushing attempt. If Michigan wins early downs, it can force Lindsey into more predictable passing situations and bring a defense averaging three sacks per game against a Minnesota offensive line that has allowed one per game. That matchup is the clearest football reason our numbers lean more strongly toward Michigan than the market does.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -2066,18 +2038,16 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Middle Tennessee Blue Raiders | +18.5 (-105) | theScore Bet | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kansas Jayhawks | -18.5 (-108) | BetMGM | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Middle Tennessee Blue Raiders | +18.5 (-108) | DraftKings | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas Jayhawks | -18.5 (+100) | theScore Bet | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Middle Tennessee Blue Raiders visit the Kansas Jayhawks at Memorial Stadium. We make **Middle Tennessee +18.5**, compared with a market line of +18.5.
 
-The best number we found is Middle Tennessee +18.5 at -105. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Middle Tennessee +18.5 at -108. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not treating Kansas’ 51-6 opener as proof that it will consistently create that kind of separation. We saw an impressive performance: Kansas gained 613 yards, held Long Island to 146 and got 246 passing yards plus 49 rushing yards from new starting quarterback Isaiah Marshall. The more important question for us is how much to carry forward against a stronger opponent.
-
-Our numbers show Middle Tennessee’s clearest path through its passing game and its ability to create scoring opportunities against a Kansas defense that grades less favorably in those areas. That case is balanced by Kansas’ defensive pressure—the Jayhawks recorded 11 tackles for loss in the opener—and by the uncertainty surrounding an offense that lost nine starters from 2025. For us, the positives and concerns largely offset each other, leaving our view closely aligned with the market and without enough value to justify a wager.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -2127,10 +2097,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching Middle Tennessee’s passing offense against the Kansas pass defense. Our numbers suggest this is where Middle Tennessee has the best chance to sustain drives, but Kansas brings meaningful experience on the back end: Jalen Todd and Austin Alexander combined for 22 starts last season, while Taylor Davis started 10 games. If Kansas pairs that secondary experience with the disruption it showed in the opener, Middle Tennessee’s most plausible route to staying competitive becomes much narrower.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -2158,9 +2124,7 @@ The Navy Midshipmen visit the Air Force Falcons at Falcon Stadium. We make **Air
 
 The best number we found is Air Force -3.5 at +105. We give Air Force a 53.5% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Air Force is a bet.
 
-Our case for Air Force starts with how its offense matches up against Navy’s defense. We recognize that Navy ranked second nationally in rushing defense through two games, but the more interesting part is that Air Force’s clearest advantage is through the air. Our efficiency numbers show a substantial gap between Air Force’s passing offense and Navy’s pass defense, and we also see Air Force holding an advantage in creating scoring opportunities against a defense that has struggled to prevent them. That is where our expectation separates from the market.
-
-The meaningful concern for us is Navy’s rushing attack. Navy averaged 376 rushing yards and 6.90 yards per carry through its first two games, while our numbers identify Air Force’s run defense as a major vulnerability. Braxton Woodson drove much of that production, averaging 148 rushing yards per game and 8.46 yards per carry, although his availability is unclear after he left the Florida Atlantic game with a lower-body injury. We are not dismissing Navy’s ability to control stretches of the game on the ground, but we think Air Force has the more reliable path to turning productive drives into points.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -2210,12 +2174,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-For us, the matchup to watch is Navy’s quarterback run game against Air Force’s rush defense. Our position does not require Air Force to shut that attack down, but it does require the defense to keep Navy’s rushing efficiency from dictating the entire game. Woodson’s status adds uncertainty, yet Navy still showed another option when Jackson Gutierrez replaced him against Florida Atlantic and produced 75 rushing yards, 100 passing yards and three total touchdowns.
-
-We will be watching whether Air Force can create enough negative or low-value rushing plays to get Navy away from its preferred rhythm. If it can, Air Force’s advantages against Navy’s pass defense and scoring-opportunity prevention become much more significant.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -2234,20 +2192,18 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Texas Mean Green | +1.5 (-110) | FanDuel | 59.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Tulsa Golden Hurricane | -1.5 (+100) | DraftKings | 40.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Texas Mean Green | +1.5 (-118) | FanDuel | 61.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Tulsa Golden Hurricane | +1.5 (-115) | DraftKings | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. We make **North Texas -4**, compared with a market line of +1.
+The North Texas Mean Green visit the Tulsa Golden Hurricane at Chapman Stadium. We make **North Texas -5.5**, compared with a market line of -1.
 
-The best number we found is North Texas +1.5 at -110. We give North Texas a 59.1% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so North Texas is a bet.
+The best number we found is North Texas +1.5 at -118. We give North Texas a 61.6% chance to cover, which creates an 7.4% edge for us. That clears our 3% threshold, so North Texas is a bet.
 
-Our disagreement with the market starts with North Texas’ passing efficiency. Our numbers rate this as one of the country’s strongest passing offenses, while Tulsa’s pass defense grades much lower. Tayven Jackson is completing 74.2% of his throws and averaging 296.8 passing yards per game, and North Texas has already produced 55 passing plays of at least 10 yards. We are not treating the recent rout of HCU as proof; the broader efficiency and explosiveness are what matter to us.
+For us, the case starts with North Texas’ passing game. Our numbers see a clear efficiency advantage against a Tulsa defense allowing 257.3 passing yards per game. Tayven Jackson is completing 74.2% of his passes, while North Texas has generated 55 passing plays of at least 10 yards and allowed only three sacks. That combination gives North Texas multiple ways to create and sustain drives rather than relying on isolated big plays.
 
-Tulsa’s overall defensive results have been solid, but the split is important: it has allowed only 109.8 rushing yards per game compared with 257.3 through the air. That points North Texas toward the part of the defense our model views as more vulnerable rather than forcing the offense into Tulsa’s strength.
-
-Our biggest concern is on the other side. Tulsa averages 181.5 rushing yards per game, while North Texas has allowed 164.8, and our numbers also favor Tulsa’s ability to create scoring opportunities in this matchup. North Texas is also winless in two road games. Even so, we think the market is placing too much weight on Tulsa’s home-field and defensive profile relative to the passing-game advantage North Texas brings, which is enough for us to back the road team.
+Tulsa’s best counter is its ability to run the ball and create scoring opportunities. It averages 181.5 rushing yards per game, while North Texas has allowed 164.8, so we do not view this as a one-sided matchup. The difference for us is drive sustainability: Tulsa has converted only 27.3% of its third downs, compared with a 54.9% rate for the North Texas offense. We think the passing-game advantage and ability to stay on the field support our position despite the defensive concern.
 
 ### What The Numbers Say
 
@@ -2299,9 +2255,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching North Texas’ pass protection against Tulsa’s pressure. Tulsa has recorded 13 sacks through four games, while the North Texas offensive line has surrendered only three. If North Texas protects Jackson, he has a deep distribution of options: nine players have already caught at least five passes.
+We keep coming back to North Texas’ passing offense against Tulsa’s pass defense. Tulsa has been much stronger against the run than the pass, and North Texas has nine players with at least five receptions. That distribution makes it more difficult to solve the matchup by taking away one target.
 
-For us, that confrontation determines whether Tulsa can disrupt the matchup our numbers favor. Consistent pressure would shorten possessions and protect the secondary; clean pockets would give North Texas the best route to validating our view.
+If Tulsa can limit explosive completions without sacrificing its run defense, it can keep the game within its preferred structure. Our view is that North Texas has enough efficiency, protection and receiving depth to make that difficult.
 
 ## Best Bets Of The Week
 
@@ -2321,14 +2277,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Notre Dame Fighting Irish | -21.5 (-102) | FanDuel | 47.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| North Carolina Tar Heels | +20.5 (+100) | theScore Bet | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Notre Dame Fighting Irish | -21.5 (+100) | theScore Bet | 47.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Carolina Tar Heels | +21.5 (-115) | BetRivers | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Notre Dame Fighting Irish visit the North Carolina Tar Heels at Kenan Stadium. We make **North Carolina +21**, compared with a market line of +21.
 
-The best number we found is North Carolina +20.5 at +100. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is North Carolina +21.5 at -115. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2399,11 +2355,11 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Ohio Bobcats | -3.5 (+100) | Fanatics | 51.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Kent State Golden Flashes | +2.5 (+105) | theScore Bet | 44.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kent State Golden Flashes | +3.5 (-110) | BetRivers | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Ohio Bobcats visit the Kent State Golden Flashes at Dix Stadium. We make **Ohio -5.5**, compared with a market line of -3.
+The Ohio Bobcats visit the Kent State Golden Flashes at Dix Stadium. We make **Ohio -5.5**, compared with a market line of -3.5.
 
 The best number we found is Ohio -3.5 at +100. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -2476,15 +2432,17 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Ohio State Buckeyes | -14.5 (-105) | Caesars | 37.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa Hawkeyes | +14.5 (-110) | theScore Bet | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Iowa Hawkeyes | +14.5 (-105) | theScore Bet | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Ohio State Buckeyes visit the Iowa Hawkeyes at Kinnick Stadium. We make **Iowa +9**, compared with a market line of +14.5.
 
-The best number we found is Iowa +14.5 at -110. We give Iowa a 62.5% chance to cover, which creates an 10.1% edge for us. That clears our 3% threshold, so Iowa is a bet.
+The best number we found is Iowa +14.5 at -105. We give Iowa a 62.5% chance to cover, which creates an 11.3% edge for us. That clears our 3% threshold, so Iowa is a bet.
 
-Our view starts with Iowa’s ability to limit both efficiency and scoring. Iowa has allowed 8.0 points per game, 4.1 yards per play and no rushing touchdowns through four games. Those results do not guarantee the same success against Ohio State, but they help explain why our numbers are reluctant to price a routine blowout.
+For us, this is less about calling Iowa the better team and more about questioning how much separation Ohio State should create against a defense with this early profile. We understand why the market is high on Ohio State after an opening stretch in which it has averaged 45.0 points and 522.0 yards per game. But Iowa has allowed only 8.0 points and 239.8 yards per game while holding opponents to a .268 third-down conversion rate. We think that resistance gives Iowa a credible way to keep the game inside our expected range.
+
+Our main concern is clear: Iowa ranks 69th in pass EPA and now faces an Ohio State defense ranked eighth in that category. We are not relying on Iowa to consistently win through the air, especially with Ohio State allowing just 12.3 points and 274.3 yards per game. The more interesting part is Iowa's broader offensive balance, with 215.5 rushing yards and 213.5 passing yards per game. Our position rests on Iowa producing enough offense while its defense prevents Ohio State's efficiency from turning into sustained separation.
 
 ### What The Numbers Say
 
@@ -2536,7 +2494,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Ohio State’s passing offense against Iowa’s pass defense. Ohio State is averaging 365.3 passing yards per game, while Jeremiah Smith already has 617 receiving yards and seven touchdowns. Iowa counters by allowing 152.0 passing yards per game and holding opponents to a 26.8 percent conversion rate on third down. If Iowa can force Ohio State to string together longer drives rather than produce quick scores, we think the margin becomes much harder to extend.
+We are watching Ohio State's passing offense against Iowa's pass defense. Ohio State ranks third in pass EPA, and Julian Sayin has thrown for 1,206 yards through four games. Jeremiah Smith has accounted for 617 receiving yards and seven touchdowns, making this the clearest threat to our Iowa position.
+
+Iowa has allowed only 152.0 passing yards per game, and we think its ability to create third-down stops will be central. If Iowa can make Ohio State sustain drives rather than letting its passing game dictate the matchup, the Hawkeyes have a realistic path to limiting the final margin.
 
 ## Best Bets Of The Week
 
@@ -2556,7 +2516,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Old Dominion Monarchs | +2.5 (-110) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Old Dominion Monarchs | +2.5 (-108) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Georgia State Panthers | -2.5 (+100) | theScore Bet | 51.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -2633,14 +2593,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon State Beavers | -6.5 (-110) | Fanatics | 37.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado State Rams | +6.5 (-104) | FanDuel | 62.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Oregon State Beavers | -6.5 (-108) | BetMGM | 37.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado State Rams | +6.5 (-105) | FanDuel | 62.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Oregon State Beavers visit the Colorado State Rams at Canvas Stadium. We make **Colorado State -0**, compared with a market line of +6.5.
 
-The best number we found is Colorado State +6.5 at -104. We give Colorado State a 62.3% chance to cover, which creates an 11.3% edge for us. That clears our 3% threshold, so Colorado State is a bet.
+The best number we found is Colorado State +6.5 at -105. We give Colorado State a 62.3% chance to cover, which creates an 11.0% edge for us. That clears our 3% threshold, so Colorado State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2719,11 +2679,7 @@ The Pittsburgh Panthers visit the Virginia Tech Hokies at Lane Stadium. We make 
 
 The best number we found is Pittsburgh +3.5 at -114. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our model’s lean toward Pittsburgh starts with scoring opportunities. We see an offense that has consistently moved into scoring range facing a Virginia Tech defense that has struggled to prevent those possessions. That matters more to us than simply comparing records because it gives Pittsburgh a plausible path to sustain drives and keep this game within one possession.
-
-The other important piece is Pittsburgh’s pass defense. Virginia Tech is averaging 43.3 points per game, but our numbers are skeptical that its passing efficiency translates cleanly against a defense allowing 8.5 points per game. We rate Pittsburgh’s pass defense as a significant matchup advantage, and opponents have converted only 15 of 54 third downs against it. That ability to end drives helps explain why our expectation is more favorable to Pittsburgh than the market’s.
-
-We still see enough uncertainty to stay off the game. This is Pittsburgh’s first road test after four home games, and Virginia Tech’s scoring production deserves respect. For us, the football matchup supports the disagreement, but the available value is not large enough to overcome the venue and the limited margin for error, so we pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -2773,10 +2729,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching Pittsburgh’s passing game against Virginia Tech’s scoring-opportunity defense. Mason Heintschel enters with 13 touchdown passes and one interception, while Pittsburgh as a team has completed 68.5% of its passes and allowed only four sacks in 149 attempts. If that protection and ball security carry over on the road, we think Pittsburgh can create enough high-value possessions to challenge the market’s view of the game.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -2795,7 +2747,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Purdue Boilermakers | +9.5 (-105) | theScore Bet | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Purdue Boilermakers | +9.5 (-105) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Illinois Fighting Illini | -10.5 (-102) | FanDuel | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -2804,11 +2756,7 @@ The Purdue Boilermakers visit the Illinois Fighting Illini at Memorial Stadium (
 
 The best number we found is Purdue +9.5 at -105. We see a 0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers see Illinois with advantages against both levels of Purdue’s defense, especially through the air. Purdue did record three sacks and eight tackles for loss in its opener, but Illinois presents a much stronger passing profile than the opponent Purdue just faced. That ability to attack Purdue in multiple ways is the main reason we are reluctant to treat the underdog’s opening performance as proof of a larger change.
-
-We did see encouraging signs from Purdue’s offense. Ryan Browne, the returning starter, completed 23 of 29 passes for 317 yards and three touchdowns as Purdue produced 523 total yards against Indiana State. Still, 16 players made their first Purdue starts and 38 appeared in their first game for the program, so our view of this group should not swing too far on one result.
-
-For us, the case for Purdue is that Browne and the passing game can keep the margin competitive. The concern is whether Purdue’s defense can get enough stops against an Illinois offense holding the more favorable matchups. With our expectation already closely aligned with the market, we do not see enough separation to justify a wager.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -2857,10 +2805,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching Illinois’ passing offense against Purdue’s pass defense. That is the clearest area in which Illinois can create separation, and it will test whether Purdue’s opening-game pressure carries over against a more efficient passing attack. If Purdue cannot disrupt the pocket or limit productive early-down throws, the burden shifts heavily to Browne and the offense to keep pace.
 
 ## Best Bets Of The Week
 
@@ -2957,20 +2901,16 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Stanford Cardinal | +12.5 (-105) | FanDuel | 53.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Wake Forest Demon Deacons | -12.5 (-105) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Stanford Cardinal | +12.5 (-102) | FanDuel | 52.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wake Forest Demon Deacons | -13.5 (-108) | BetMGM | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Stanford Cardinal visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Stanford +12**, compared with a market line of +13.
+The Stanford Cardinal visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Stanford +12.5**, compared with a market line of +13.5.
 
-The best number we found is Stanford +12.5 at -105. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Stanford +12.5 at -102. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are slightly more favorable to Stanford than the market, but the matchup does not provide much support for a stronger position. Stanford’s rushing offense faces a clear disadvantage against Wake Forest’s run defense, and its broader difficulty creating scoring opportunities raises the risk of falling behind schedule.
-
-We also understand why the market is comfortable pricing Wake Forest aggressively. Through two games, Gio Lopez had 575 passing yards, four touchdowns and no interceptions, while Carlos Hernandez averaged 23 yards per reception. We treat that early production as context rather than proof, but it gives Wake Forest a credible way to create separation if Stanford cannot sustain drives.
-
-The counterpoint is a Wake Forest defense that allowed opponents to convert 13 of 27 third downs and score on all 10 red-zone opportunities over that opening sample. That helps explain our modest disagreement with the market, but Stanford’s offensive limitations keep us from seeing enough value at the available price. For us, this remains a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -3020,12 +2960,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We see Stanford’s passing offense against Wake Forest’s pass defense as the matchup that could keep this competitive. Stanford is unlikely to want the game decided by its rushing offense, while Wake Forest allowed 242.5 passing yards per game through its first two contests and gave up 329 passing yards to Purdue.
-
-That does not automatically make Stanford’s passing game trustworthy; our longer-run numbers remain skeptical of that unit. The question is whether Stanford can convert Wake Forest’s early defensive leakage into sustained scoring drives. If not, Wake Forest has a much clearer path to controlling the margin.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -3044,20 +2978,18 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Syracuse Orange | -6.5 (-110) | BetMGM | 43.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UConn Huskies | +6.5 (+100) | theScore Bet | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Syracuse Orange | -6.5 (-109) | BetRivers | 43.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UConn Huskies | +6.5 (-105) | BetMGM | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Syracuse Orange visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +3.5**, compared with a market line of +6.5.
 
-The best number we found is Connecticut +6.5 at +100. We give Connecticut a 56.4% chance to cover, which creates an 6.4% edge for us. That clears our 3% threshold, so Connecticut is a bet.
+The best number we found is Connecticut +6.5 at -105. We give Connecticut a 56.4% chance to cover, which creates an 5.2% edge for us. That clears our 3% threshold, so Connecticut is a bet.
 
-For us, the case is less about deciding which team is better and more about whether Connecticut can remain competitive through its offense. Our efficiency numbers show a clear advantage for Connecticut’s passing game against Syracuse’s pass defense, with another favorable path on the ground. That gives Connecticut multiple ways to move the ball rather than making the cover dependent on one narrow matchup.
+We are not ignoring Syracuse’s 66-3 opener, which included five sacks, three takeaways and no turnovers. We also do not treat one dominant result against New Hampshire as proof that the underlying matchup has changed. Our numbers still identify Syracuse’s pass defense as vulnerable, while Connecticut’s passing offense is one of the stronger units in our ratings. We also see Connecticut holding an advantage when it runs the ball, giving the home offense more than one credible path to stay competitive.
 
-We are not ignoring Syracuse’s 66-3 season-opening win. Syracuse held New Hampshire to 159 total yards, recorded five sacks and nine tackles for loss, and finished plus-three in turnovers. Those are encouraging results, but one dominant performance does not automatically erase the longer-run defensive weaknesses reflected in our numbers.
-
-Our main concern is Steve Angeli, who threw for 416 yards against Connecticut in 2025 and returned from injury with 263 passing yards in this season’s opener. We know Syracuse has a quarterback capable of stressing this secondary. Still, our view is that the market is placing too much separation between these teams relative to Connecticut’s offensive matchup, which is why we are comfortable backing the home side at the available number.
+Our main concern is Syracuse quarterback Steve Angeli. We saw him return from his season-ending injury to throw for 263 yards in the opener, and he produced a career-high 416 yards against Connecticut last season. Even so, our broader numbers view Syracuse’s passing offense much less favorably than Connecticut’s pass defense. For us, the case is less about dismissing Syracuse’s opening performance and more about the market pricing too much separation despite matchup advantages that should allow Connecticut to answer offensively. That is why we are backing Connecticut with the points.
 
 ### What The Numbers Say
 
@@ -3109,9 +3041,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Connecticut’s passing offense against Syracuse’s pass defense. This is the strongest source of disagreement between our model and the market, but Syracuse’s early pressure production deserves attention: four of its five sacks against New Hampshire came from transfers under first-year defensive coordinator Vince Kehres.
-
-The question for us is whether that opening performance signals a meaningful defensive improvement or whether Connecticut can expose the vulnerabilities still present in our efficiency profile. If Connecticut can keep its passing game on schedule, we think it has the clearest path to staying inside the number.
+We are focused on Connecticut’s passing offense against Syracuse’s pass defense. Syracuse generated pressure and takeaways in the opener, but our longer-run ratings still show a substantial advantage for Connecticut through the air. If Connecticut can avoid allowing Syracuse’s pass rush to dictate the game, we think the home offense can create enough efficient possessions to keep the margin within our expected range.
 
 ## Best Bets Of The Week
 
@@ -3131,18 +3061,16 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Temple Owls | +6.5 (+100) | theScore Bet | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Florida Bulls | -6.5 (-110) | BetMGM | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Temple Owls | +6.5 (-108) | BetMGM | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Florida Bulls | -6.5 (-108) | BetRivers | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Temple Owls visit the South Florida Bulls at Raymond James Stadium. We make **South Florida -9**, compared with a market line of -6.5.
 
-The best number we found is South Florida -6.5 at -110. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Florida -6.5 at -108. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our disagreement with the market starts with South Florida’s offensive balance. Our numbers rate the passing and rushing attacks among the nation’s most efficient, and Temple has struggled to prevent scoring opportunities. That combination gives South Florida multiple ways to sustain drives and create separation rather than relying on one specific matchup.
-
-The concern for us is Temple’s ability to respond on the ground. Temple rushed for 697 yards through three games, clearing 186 yards each time, and converted every red-zone opportunity over that span. That production could shorten the game and keep the margin competitive. We still lean more strongly toward South Florida than the market does, but the available price does not create enough value for us to get involved.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -3192,12 +3120,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching South Florida’s passing offense against Temple’s pass defense. Temple allowed 297.3 passing yards per game through three games, while opponents converted 51.3 percent of their third downs. Against a South Florida passing attack ranked fourth in pass EPA, those extended drives could turn into the scoring opportunities our model expects.
-
-The question is whether Temple can get off the field often enough to control the margin. If it cannot, South Florida’s offensive versatility supports our model’s stronger view of the home team.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -3216,14 +3138,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas State Bobcats | -4.5 (-105) | DraftKings | 42.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| San Diego State Aztecs | +4.5 (-110) | theScore Bet | 58.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Texas State Bobcats | -6.5 (-104) | FanDuel | 40.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| San Diego State Aztecs | +5.5 (-105) | theScore Bet | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Texas State Bobcats visit the San Diego State Aztecs at Snapdragon Stadium. We make **San Diego State +0.5**, compared with a market line of +4.5.
+The Texas State Bobcats visit the San Diego State Aztecs at Snapdragon Stadium. We make **San Diego State +1.5**, compared with a market line of +6.
 
-The best number we found is San Diego State +4.5 at -110. We give San Diego State a 58.5% chance to cover, which creates an 6.1% edge for us. That clears our 3% threshold, so San Diego State is a bet.
+The best number we found is San Diego State +5.5 at -105. We give San Diego State a 58.3% chance to cover, which creates an 7.0% edge for us. That clears our 3% threshold, so San Diego State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3293,14 +3215,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -12.5 (-110) | Fanatics | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado Buffaloes | +12.5 (-108) | DraftKings | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -11.5 (-112) | FanDuel | 53.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado Buffaloes | +12.5 (-109) | Caesars | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Tech Red Raiders visit the Colorado Buffaloes at Folsom Field. We make **Texas Tech -15**, compared with a market line of -13.
+The Texas Tech Red Raiders visit the Colorado Buffaloes at Folsom Field. We make **Texas Tech -14.5**, compared with a market line of -12.5.
 
-The best number we found is Texas Tech -12.5 at -110. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas Tech -11.5 at -112. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3448,7 +3370,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UCF Knights | +12.5 (-110) | Fanatics | 55.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Houston Cougars | -11.5 (-105) | theScore Bet | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Houston Cougars | -11.5 (-109) | Caesars | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -3524,14 +3446,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UL Monroe Warhawks | +13.5 (-105) | Fanatics | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Alabama Jaguars | -14.5 (-104) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UL Monroe Warhawks | +13.5 (-102) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Alabama Jaguars | -14.5 (+100) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The UL Monroe Warhawks visit the South Alabama Jaguars at Hancock Whitney Stadium. We make **Louisiana Monroe +14**, compared with a market line of +14.
 
-The best number we found is Louisiana Monroe +13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Louisiana Monroe +13.5 at -102. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3679,13 +3601,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UTSA Roadrunners | -11.5 (-108) | BetMGM | 44.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Rice Owls | +12.5 (-109) | BetRivers | 57.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Rice Owls | +11.5 (-105) | theScore Bet | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The UTSA Roadrunners visit the Rice Owls at Rice Stadium. We make **Rice +9.5**, compared with a market line of +11.5.
 
-The best number we found is Rice +12.5 at -109. We give Rice a 57.6% chance to cover, which creates an 5.4% edge for us. That clears our 3% threshold, so Rice is a bet.
+The best number we found is Rice +11.5 at -105. We give Rice a 56.2% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Rice is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3755,8 +3677,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Utah State Aggies | +20.5 (-110) | BetMGM | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boise State Broncos | -20.5 (-108) | BetMGM | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Utah State Aggies | +20.5 (-110) | Caesars | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boise State Broncos | -20.5 (-108) | FanDuel | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -3832,14 +3754,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Vanderbilt Commodores | +24.5 (-112) | DraftKings | 56.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Georgia Bulldogs | -24.5 (+100) | theScore Bet | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Vanderbilt Commodores | +25.5 (-110) | theScore Bet | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Georgia Bulldogs | -25.5 (+100) | Caesars | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Vanderbilt Commodores visit the Georgia Bulldogs at Sanford Stadium. We make **Vanderbilt +21.5**, compared with a market line of +24.5.
+The Vanderbilt Commodores visit the Georgia Bulldogs at Sanford Stadium. We make **Vanderbilt +22**, compared with a market line of +25.
 
-The best number we found is Vanderbilt +24.5 at -112. We give Vanderbilt a 56.3% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
+The best number we found is Vanderbilt +25.5 at -110. We give Vanderbilt a 57.0% chance to cover, which creates an 4.6% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3909,14 +3831,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Cavaliers | -2.5 (-112) | BetRivers | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Florida State Seminoles | +2.5 (-105) | BetMGM | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Cavaliers | -2.5 (-110) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida State Seminoles | +2.5 (+100) | Fanatics | 51.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Virginia Cavaliers visit the Florida State Seminoles at Doak Campbell Stadium. We make **Florida State +1.5**, compared with a market line of +2.5.
 
-The best number we found is Florida State +2.5 at -105. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida State +2.5 at +100. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3986,18 +3908,16 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | +9.5 (-105) | DraftKings | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| USC Trojans | -9.5 (-110) | BetMGM | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | +9.5 (-102) | DraftKings | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| USC Trojans | -9.5 (-115) | BetRivers | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Washington Huskies visit the USC Trojans at Los Angeles Memorial Coliseum. We make **Washington +8**, compared with a market line of +9.5.
 
-The best number we found is Washington +9.5 at -105. We give Washington a 55.3% chance to cover, which creates an 4.1% edge for us. That clears our 3% threshold, so Washington is a bet.
+The best number we found is Washington +9.5 at -102. We give Washington a 55.3% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Washington is a bet.
 
-We understand why USC is priced as a sizable favorite. We saw the offense produce 461 yards at 7.3 yards per play against Rutgers, and Jayden Maiava has opened the season with 12 touchdown passes against one interception. USC has also converted 65% of its third downs through four games. That efficiency is the clearest concern for our Washington position because it gives USC multiple ways to sustain drives and create separation.
-
-Our disagreement comes from how that offense matches up with Washington’s run defense. Our numbers rate Washington among the nation’s strongest teams in rush EPA, while USC’s rushing efficiency has been much less convincing over the longer run than its latest box score suggests. We also see potential for Washington to find enough on the ground against USC to shorten the game and stay competitive. USC has allowed 43 fourth-quarter points through four games, which does not establish a trend by itself, but it reinforces why we are reluctant to price the Trojans as likely to maintain a wide margin for four quarters.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -4047,10 +3967,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-For us, the matchup to watch is USC’s rushing offense against Washington’s front. If Washington can limit efficient early-down runs, USC becomes more dependent on Maiava repeatedly converting through the air rather than controlling the game on schedule. Maiava’s start demands respect, but forcing USC into that narrower path is the most important football reason we see Washington staying inside the available number.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -4069,16 +3985,16 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| West Virginia Mountaineers | +3.5 (-115) | DraftKings | 40.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa State Cyclones | -3.5 (+105) | theScore Bet | 59.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| West Virginia Mountaineers | +2.5 (+100) | FanDuel | 37.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa State Cyclones | -2.5 (-120) | theScore Bet | 62.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The West Virginia Mountaineers visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -10**, compared with a market line of -3.5.
+The West Virginia Mountaineers visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -9.5**, compared with a market line of -3.
 
-The best number we found is Iowa State -3.5 at +105. We give Iowa State a 59.1% chance to cover, which creates an 10.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
+The best number we found is Iowa State -2.5 at -120. We give Iowa State a 62.0% chance to cover, which creates an 7.4% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
-The market is pricing a relatively competitive game, but our view starts with how West Virginia has generated its offense. West Virginia has run the ball 229 times against only 65 pass attempts and is averaging 294.8 rushing yards per game. The more interesting part is that our efficiency numbers are far less impressed by that production, especially against an Iowa State defense allowing 16.0 points and 272.5 total yards per game. For us, the issue is whether West Virginia can stay on schedule when its preferred approach meets the strongest area of Iowa State’s defense.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -4128,10 +4044,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching West Virginia’s rushing offense against Iowa State’s front. Cam Cook has three 100-yard rushing games, while Michael Hawkins Jr. has reached 100 rushing yards three times, so Iowa State has to account for multiple ball carriers. The concern is that Utah recently ran for 205 yards against Iowa State, but we are not treating one game as proof that the broader defensive profile has changed. If Iowa State limits efficient early-down runs, West Virginia may be pushed away from the identity it has leaned on through four games.
-
 ## Best Bets Of The Week
 
 Our model found edges of at least 3% on **17 games** this week.
@@ -4150,14 +4062,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Kentucky Hilltoppers | +2.5 (-105) | Fanatics | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| New Mexico State Aggies | -2.5 (-108) | Caesars | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Kentucky Hilltoppers | +2.5 (-110) | Fanatics | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| New Mexico State Aggies | -2.5 (-106) | FanDuel | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Western Kentucky Hilltoppers visit the New Mexico State Aggies at Aggie Memorial Stadium. We make **Western Kentucky +2**, compared with a market line of +2.5.
 
-The best number we found is Western Kentucky +2.5 at -105. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Western Kentucky +2.5 at -110. We see a -2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4227,7 +4139,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Michigan Broncos | -13.5 (-110) | Fanatics | 38.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Michigan Broncos | -13.5 (-110) | BetMGM | 38.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Buffalo Bulls | +13.5 (+100) | theScore Bet | 61.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -4304,8 +4216,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | +18.5 (-110) | DraftKings | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| North Dakota State | -18.5 (-105) | BetMGM | 52.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wyoming Cowboys | +19.5 (-110) | BetRivers | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Dakota State | -18.5 (-105) | theScore Bet | 52.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 

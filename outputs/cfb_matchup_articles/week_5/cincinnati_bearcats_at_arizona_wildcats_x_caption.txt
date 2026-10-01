@@ -1,6 +1,6 @@
-Our model is 0.5 points away from the market on Cincinnati-Arizona.
+Our model is 1 point away from the market on Cincinnati-Arizona.
 
-We make Cincinnati +7.5. The market is +7.
+We make Cincinnati +7.5. The market is +6.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

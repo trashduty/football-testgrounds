@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Akron Zips | +6.5 (-105) | Fanatics | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Central Michigan Chippewas | -6.5 (-109) | BetRivers | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Central Michigan Chippewas | -6.5 (-110) | BetMGM | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Akron Zips visit the Central Michigan Chippewas at Kelly/Shorts Stadium. We make **Central Michigan -8.5**, compared with a market line of -6.5.
 
-The best number we found is Central Michigan -6.5 at -109. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Central Michigan -6.5 at -110. We see a 0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

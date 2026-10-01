@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Fresno State Bulldogs | +2.5 (-110) | BetMGM | 42.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington State Cougars | -2.5 (-105) | FanDuel | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Fresno State Bulldogs | +1.5 (+100) | theScore Bet | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | -1.5 (-110) | Fanatics | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Fresno State Bulldogs visit the Washington State Cougars at Gesa Field. We make **Washington State -6**, compared with a market line of -2.5.
+The Fresno State Bulldogs visit the Washington State Cougars at Gesa Field. We make **Washington State -5.5**, compared with a market line of -1.5.
 
-The best number we found is Washington State -2.5 at -105. We give Washington State a 57.3% chance to cover, which creates an 6.1% edge for us. That clears our 3% threshold, so Washington State is a bet.
+The best number we found is Washington State -1.5 at -110. We give Washington State a 58.0% chance to cover, which creates an 5.6% edge for us. That clears our 3% threshold, so Washington State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

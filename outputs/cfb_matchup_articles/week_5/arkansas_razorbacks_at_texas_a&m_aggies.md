@@ -6,20 +6,18 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas Razorbacks | +13.5 (-105) | Fanatics | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas A&M Aggies | -14.5 (+100) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas Razorbacks | +13.5 (+100) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Texas A&M Aggies | -14.0 (-105) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Arkansas Razorbacks visit the Texas A&M Aggies at Kyle Field. We make **Arkansas +14**, compared with a market line of +14.
 
-The best number we found is Arkansas +13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arkansas +13.5 at +100. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We see the strongest case for Texas A&M in its ability to sustain possessions against an Arkansas defense our numbers rate poorly at preventing scoring opportunities. Texas A&M has converted 19 of 43 third downs and scored touchdowns on 12 of 17 red-zone possessions. That combination supports the possibility of control and separation without requiring a steady stream of explosive plays.
+We are not reacting to Texas A&M’s loss to Kentucky as proof of a larger problem. The more useful takeaway is that Texas A&M still generated 423 yards, with 187 on the ground and 236 through the air. That balance matters because our matchup data points to Arkansas having difficulty preventing scoring opportunities without an obvious strength against either phase of the offense.
 
-We are not treating the Kentucky loss as proof that the offense is broken. Texas A&M gained 423 yards in that game, but two turnovers undermined the production. The broader concern is that Texas A&M has generated only nine plays of at least 20 yards through three games, which makes the margin more dependent on consistently finishing longer drives.
-
-We also see a Texas A&M defense that has allowed only seven third-down conversions on 31 attempts and produced six takeaways. Those results can create extra possessions, but we are cautious about building too much into an early turnover sample. For us, the supporting football case is largely consistent with the market's expectation, leaving too little disagreement to justify a play.
+The concern with taking Arkansas is that Texas A&M has shown it can sustain drives and finish them, converting 19 of 43 third downs and scoring touchdowns on 12 of 17 red-zone possessions through three games. Its defense also allowed only seven conversions on 31 third downs over that span. Our overall expectation sits too close to the market, and the available price gives us less cushion than we would need. For us, that makes this a pass rather than a position on Arkansas.
 
 ### What The Numbers Say
 
@@ -71,9 +69,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are watching Marcel Reed against Arkansas once Texas A&M moves into scoring range. Reed showed both sides of the equation against Kentucky: he ran for a team-high 80 yards, including a 40-yard gain, but also threw two interceptions. His mobility gives Texas A&M another way to attack Arkansas, while his ball security could determine whether promising drives become touchdowns or missed chances.
-
-Our numbers expect Texas A&M to reach scoring territory regularly. The question for us is whether Reed and the offense convert those opportunities efficiently enough to create the margin the market is asking for.
+We are focused on Texas A&M’s ability to turn sustained possessions into touchdowns against Arkansas. Marcel Reed’s mobility adds another problem: he ran for 80 yards against Kentucky, including a 40-yard gain. If Arkansas cannot limit scoring opportunities or force field-goal attempts, Texas A&M has a credible path to creating separation. That is the main football reason we do not see enough value in taking the points at the available price.
 
 ## Best Bets Of The Week
 

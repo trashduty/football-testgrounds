@@ -2,70 +2,58 @@
   "game": "North Texas Mean Green@Tulsa Golden Hurricane",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T14:51:13.995320+00:00",
-  "model_prediction": -4.0,
-  "market_line": 1.0,
+  "generated_at_utc": "2026-10-01T02:35:52.200212+00:00",
+  "model_prediction": -5.5,
+  "market_line": -1.0,
   "best_line": 1.5,
-  "best_price": "-110",
+  "best_price": "-118",
   "best_book": "FanDuel",
-  "cover_probability": 0.59093965,
-  "edge": 0.0671301261904762,
+  "cover_probability": 0.61576584,
+  "edge": 0.0744814363302752,
   "bet_short": "North Texas",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our disagreement with the market starts with North Texas\u2019 passing efficiency. Our numbers rate this as one of the country\u2019s strongest passing offenses, while Tulsa\u2019s pass defense grades much lower. Tayven Jackson is completing 74.2% of his throws and averaging 296.8 passing yards per game, and North Texas has already produced 55 passing plays of at least 10 yards. We are not treating the recent rout of HCU as proof; the broader efficiency and explosiveness are what matter to us.\n\nTulsa\u2019s overall defensive results have been solid, but the split is important: it has allowed only 109.8 rushing yards per game compared with 257.3 through the air. That points North Texas toward the part of the defense our model views as more vulnerable rather than forcing the offense into Tulsa\u2019s strength.\n\nOur biggest concern is on the other side. Tulsa averages 181.5 rushing yards per game, while North Texas has allowed 164.8, and our numbers also favor Tulsa\u2019s ability to create scoring opportunities in this matchup. North Texas is also winless in two road games. Even so, we think the market is placing too much weight on Tulsa\u2019s home-field and defensive profile relative to the passing-game advantage North Texas brings, which is enough for us to back the road team.",
-    "matchup_to_watch": "We are watching North Texas\u2019 pass protection against Tulsa\u2019s pressure. Tulsa has recorded 13 sacks through four games, while the North Texas offensive line has surrendered only three. If North Texas protects Jackson, he has a deep distribution of options: nine players have already caught at least five passes.\n\nFor us, that confrontation determines whether Tulsa can disrupt the matchup our numbers favor. Consistent pressure would shorten possessions and protect the secondary; clean pockets would give North Texas the best route to validating our view.",
+    "narrative": "For us, the case starts with North Texas\u2019 passing game. Our numbers see a clear efficiency advantage against a Tulsa defense allowing 257.3 passing yards per game. Tayven Jackson is completing 74.2% of his passes, while North Texas has generated 55 passing plays of at least 10 yards and allowed only three sacks. That combination gives North Texas multiple ways to create and sustain drives rather than relying on isolated big plays.\n\nTulsa\u2019s best counter is its ability to run the ball and create scoring opportunities. It averages 181.5 rushing yards per game, while North Texas has allowed 164.8, so we do not view this as a one-sided matchup. The difference for us is drive sustainability: Tulsa has converted only 27.3% of its third downs, compared with a 54.9% rate for the North Texas offense. We think the passing-game advantage and ability to stay on the field support our position despite the defensive concern.",
+    "matchup_to_watch": "We keep coming back to North Texas\u2019 passing offense against Tulsa\u2019s pass defense. Tulsa has been much stronger against the run than the pass, and North Texas has nine players with at least five receptions. That distribution makes it more difficult to solve the matchup by taking away one target.\n\nIf Tulsa can limit explosive completions without sacrificing its run defense, it can keep the game within its preferred structure. Our view is that North Texas has enough efficiency, protection and receiving depth to make that difficult.",
     "guide_status": [
       "Found guide for North Texas Mean Green: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf",
       "Loaded guide for North Texas Mean Green: North Texas.pdf",
       "Found guide for Tulsa Golden Hurricane: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulsa.pdf",
-      "Loaded guide for Tulsa Golden Hurricane: Tulsa.pdf"
+      "Guide processing failed for Tulsa Golden Hurricane: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
     ],
     "guide_extractions": [
       {
         "source_team": "North Texas Mean Green",
         "opponent": "Tulsa Golden Hurricane",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The document is North Texas' Game 5 notes for its Oct. 1, 2026 road game against Tulsa and repeatedly identifies Tulsa as the upcoming opponent.",
+        "document_match_reason": "The document is North Texas' Game 5 notes for its Oct. 1, 2026 road game against Tulsa and explicitly lists the matchup as UNT at Tulsa.",
         "recent_game": [
           {
-            "fact": "North Texas defeated HCU 63-14 on Sept. 26, improving to 2-2 after scoring the final 49 points of the game.",
+            "fact": "North Texas defeated Houston Christian 63-14 on Sept. 26 and scored the final 49 points of the game.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "North Texas recorded 648 total yards and 33 first downs against HCU.",
+            "fact": "North Texas produced 648 total yards and 33 first downs against Houston Christian.",
             "page": 20,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jahiem White rushed for 133 yards and four touchdowns against HCU.",
+            "fact": "Jahiem White rushed for 133 yards and four touchdowns against Houston Christian.",
             "page": 13,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Tayven Jackson passed for 270 yards against HCU.",
-            "page": 17,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Max Reese had career highs of three catches and 70 receiving yards against HCU.",
-            "page": 7,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Davion Rhodes recorded two sacks and forced a fumble in the win over HCU.",
+            "fact": "Davion Rhodes recorded two sacks and a forced fumble against Houston Christian.",
             "page": 6,
             "category": "recent_game",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Keshawn Davila recorded his first FBS interception against HCU, while Jaden Allen returned an interception 34 yards for a touchdown.",
+            "fact": "Jaden Allen returned an interception 34 yards for a touchdown against Houston Christian, and Keshawn Davila recorded his first FBS interception.",
             "page": 5,
             "category": "recent_game",
             "importance": "medium"
@@ -79,37 +67,31 @@
             "importance": "high"
           },
           {
-            "fact": "The game is the American Conference opener for both North Texas and Tulsa.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa averages 354.8 total yards and 23.8 points per game, including 181.5 rushing yards and 173.3 passing yards per game.",
+            "fact": "Tulsa averages 181.5 rushing yards per game and 173.3 passing yards per game.",
             "page": 5,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Tulsa allows 367.0 total yards and 15.3 points per game; its rush defense allows 109.8 yards per game while its pass defense allows 257.3.",
+            "fact": "Tulsa allows 109.8 rushing yards per game, ranked 37th in FBS, but allows 257.3 passing yards per game, ranked 124th.",
             "page": 5,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Tulsa has held opponents to a 27.3% third-down conversion rate and an 18.2% fourth-down conversion rate.",
+            "fact": "Tulsa allows 15.3 points per game and has held opponents to a 64.3% red-zone scoring rate.",
             "page": 5,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Tulsa has converted 27.3% of its third downs but 75.0% of its fourth downs.",
+            "fact": "Tulsa converts 27.3% of its third downs, ranked 133rd in FBS, and averages 27:51 in possession time.",
             "page": 5,
             "category": "opponent_notes",
             "importance": "medium"
           },
           {
-            "fact": "Tulsa has a 64.3% red-zone defensive rate, compared with a 66.7% red-zone offensive rate.",
+            "fact": "Tulsa averages 27.7 yards per kickoff return, ranked 17th in FBS.",
             "page": 5,
             "category": "opponent_notes",
             "importance": "medium"
@@ -117,13 +99,7 @@
         ],
         "quarterback": [
           {
-            "fact": "UCF transfer Tayven Jackson is North Texas' listed starting quarterback and has started all four games in 2026.",
-            "page": 11,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Jackson is 95-of-128 for 1,187 yards, six touchdowns and two interceptions in 2026.",
+            "fact": "UCF transfer Tayven Jackson is North Texas' starting quarterback and has completed 95 of 128 passes for 1,187 yards, six touchdowns and two interceptions in 2026.",
             "page": 13,
             "category": "quarterback",
             "importance": "high"
@@ -135,13 +111,13 @@
             "importance": "high"
           },
           {
-            "fact": "Jackson passed for 492 yards and three touchdowns at Texas State; the yardage was the highest single-game total by an FBS quarterback at the time of the notes.",
+            "fact": "Jackson passed for 492 yards and three touchdowns against Texas State; the notes identify the yardage total as the most by an FBS quarterback in a game this season.",
             "page": 2,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Jackson has played in 31 career games with 20 starts across North Texas, UCF, Indiana and Tennessee.",
+            "fact": "Jackson has appeared in 31 career games with 20 starts across North Texas, UCF, Indiana and Tennessee.",
             "page": 2,
             "category": "quarterback",
             "importance": "medium"
@@ -149,28 +125,22 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "West Virginia transfer Jahiem White has 52 carries for 363 yards and seven rushing touchdowns plus 19 receptions for 143 yards and two receiving touchdowns in 2026.",
+            "fact": "West Virginia transfer Jahiem White has 52 carries for 363 yards and seven touchdowns plus 19 receptions for 143 yards and two touchdowns this season.",
             "page": 2,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "White's nine total touchdowns are the second-most in FBS, and his 506 scrimmage yards lead the American.",
+            "fact": "White's 506 scrimmage yards lead the American, and his nine total touchdowns are the second-most in FBS according to the notes.",
             "page": 1,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Justin Stevenson has 19 receptions for 281 yards, while Corri Milliner has 17 catches for 276 yards and a touchdown.",
+            "fact": "Justin Stevenson has 19 receptions for 281 yards, while Corri Milliner has 17 receptions for 276 yards and a touchdown.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
-          },
-          {
-            "fact": "Milliner has recorded at least 65 receiving yards in each of North Texas' first four games.",
-            "page": 3,
-            "category": "offensive_personnel",
-            "importance": "medium"
           },
           {
             "fact": "Oklahoma transfer Josiah Martin has 11 receptions for 161 yards.",
@@ -179,51 +149,45 @@
             "importance": "medium"
           },
           {
-            "fact": "Tight ends Max Reese and Brec Long have combined for 15 receptions and 170 yards; both rank among the American's top six tight ends in receptions and receiving yards.",
+            "fact": "Tight ends Max Reese and Brec Long have combined for 15 receptions and 170 yards; Reese had a career-high 70 receiving yards against Houston Christian.",
             "page": 7,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "North Texas lists Johnny Williams IV at left tackle, Chandler Strong at center, Keon Johnson at right guard and Neto Umeozulu at right tackle, with Dylan Shaw or Willie Goodacre at left guard.",
+            "fact": "The listed starting offensive line is left tackle Johnny Williams IV, left guard Dylan Shaw or Willie Goodacre, center Chandler Strong, right guard Keon Johnson and right tackle Neto Umeozulu.",
             "page": 8,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Center Chandler Strong has 36 career starts, the most among North Texas offensive linemen.",
+            "fact": "Center Chandler Strong has 36 career starts, while Umeozulu, Johnson and Williams have each appeared in at least 20 career games.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Shaw and Goodacre have split time at left guard, and neither had allowed a sack through four games.",
+            "fact": "Dylan Shaw and Willie Goodacre have split time at left guard, and neither had allowed a sack entering the Tulsa game.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "medium"
-          },
-          {
-            "fact": "The North Texas offensive line had allowed three sacks through four games.",
-            "page": 3,
-            "category": "offensive_personnel",
-            "importance": "high"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Zakye Barker, Aaron Alexander and Cedric Roberts are transfer additions to the linebacker room with at least 20 career college appearances each.",
-            "page": 4,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Barker leads active North Texas players with 160 career tackles and has 27 tackles, 2.5 tackles for loss and two sacks in 2026.",
+            "fact": "SMU transfer Zakye Barker starts at middle linebacker and leads North Texas with 27 tackles, 2.5 tackles for loss and two sacks this season.",
             "page": 14,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Safety CJ Coombes leads North Texas with 34 tackles and ranks second among American safeties in tackles.",
+            "fact": "Arkansas State transfer Aaron Alexander starts at weak-side linebacker and has 18 tackles through four games after recording 91 tackles in 2025.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety CJ Coombes leads North Texas with 34 tackles and ranks second among American Conference safeties in tackles.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "high"
@@ -235,39 +199,33 @@
             "importance": "medium"
           },
           {
-            "fact": "The transfer-heavy defensive line includes Davion Rhodes, David Onuoha, Justin Benton, Curlee Thomas IV, Wesley Hudson and Udoka Ezeani.",
+            "fact": "Defensive end Davion Rhodes has 105 career tackles, 21 tackles for loss and six sacks across 36 career starts.",
             "page": 6,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Onuoha has 13 tackles, 2.5 tackles for loss and 1.5 sacks through four games.",
-            "page": 6,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Tulsa-week depth chart lists Rhodes, Benton, Nolan Clark and Onuoha as the primary defensive-front starters, with Alexander and Barker at linebacker.",
-            "page": 8,
             "category": "defensive_personnel",
             "importance": "high"
+          },
+          {
+            "fact": "UMass transfer David Onuoha has 13 tackles, 2.5 tackles for loss and 1.5 sacks through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "North Texas' listed secondary starters are nickel Cameren Jenkins or Anthony Benford II, safeties CJ Coombes and Brandon Jones, and cornerbacks Keshawn Davila or BJ Allen Jr. and Peyton Taylor.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Neal Brown is in his first season as North Texas head coach after serving as a special assistant at Texas in 2025.",
-            "page": 1,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Brown calls North Texas' offensive plays and previously served as an offensive coordinator at Troy, Texas Tech and Kentucky.",
+            "fact": "Neal Brown is in his first season as North Texas head coach after serving as a special assistant at Texas in 2025; he will also call the Mean Green's offensive plays.",
             "page": 3,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Matt Powledge was hired as defensive coordinator after holding the same position at Baylor from 2023-25.",
+            "fact": "Matt Powledge was hired as defensive coordinator after holding the same position at Baylor from 2023 through 2025.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "high"
@@ -281,16 +239,16 @@
         ],
         "injury_availability": [
           {
-            "fact": "Cornerback Caden Jenkins was lost for the entire 2026 season because of an injury sustained in training camp.",
+            "fact": "Cornerback Caden Jenkins was lost for the entire 2026 season because of an injury suffered in training camp.",
             "page": 6,
             "category": "injury_availability",
             "importance": "high"
           },
           {
-            "fact": "Jahiem White missed the remainder of the 2025 season at West Virginia after a knee injury but has started all four games for North Texas in 2026.",
-            "page": 11,
+            "fact": "Jahiem White missed most of the 2025 season at West Virginia with a knee injury but has started all four games for North Texas in 2026.",
+            "page": 2,
             "category": "injury_availability",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "offensive_context": [
@@ -301,84 +259,78 @@
             "importance": "high"
           },
           {
-            "fact": "North Texas has converted 54.9% of its third downs, the eighth-best rate in FBS and best in the American.",
+            "fact": "North Texas converts 54.9% of its third downs, ranked eighth in FBS and first in the American.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "North Texas averages 33:16 in time of possession, ranking 16th in FBS.",
+            "fact": "North Texas averages 33:16 in possession time, ranked 16th in FBS.",
             "page": 3,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "North Texas has 77 plays of at least 10 yards, tied for fourth in FBS, including 55 such passing plays.",
+            "fact": "North Texas has produced 77 plays of at least 10 yards, tied for fourth in FBS; 55 have been passing plays.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Nine North Texas players have at least five receptions, making UNT one of seven FBS teams with that distribution.",
+            "fact": "The North Texas offensive line has allowed three sacks through four games.",
             "page": 3,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "North Texas rushed for 248 yards against HCU after rushing for 183 yards against UNLV.",
-            "page": 5,
+            "fact": "North Texas is one of seven FBS teams with nine players who have at least five receptions this season.",
+            "page": 3,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "North Texas has gained seven turnovers, recovered four fumbles and scored one defensive touchdown through four games.",
+            "fact": "North Texas has gained seven turnovers, including four fumble recoveries, through four games.",
             "page": 4,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "North Texas allows 377.3 total yards and 30.3 points per game, including 164.8 rushing yards and 212.5 passing yards per game.",
-            "page": 5,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "North Texas has held opponents to a 71.4% red-zone scoring rate.",
+            "fact": "North Texas has allowed opponents to score on 71.4% of red-zone possessions, ranked 18th in FBS.",
             "page": 4,
             "category": "defensive_context",
             "importance": "medium"
+          },
+          {
+            "fact": "North Texas allows 164.8 rushing yards and 212.5 passing yards per game.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "high"
           },
           {
             "fact": "North Texas is 2-0 when winning the turnover margin and 0-2 when committing more turnovers in 2026.",
             "page": 4,
             "category": "defensive_context",
-            "importance": "high"
+            "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "App State transfers Dominic De Freitas, Ian Ratliff and Jacob Poff are North Texas' listed starters at kicker, punter and long snapper.",
-            "page": 6,
+            "fact": "App State transfer Dominic De Freitas has made six of nine field-goal attempts and all 20 extra-point attempts this season.",
+            "page": 5,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "De Freitas is 6-of-9 on field goals and 20-of-20 on extra points in 2026, with a long field goal of 47 yards.",
-            "page": 5,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Ratliff has averaged 40.1 yards on seven punts, with two downed inside the 20.",
+            "fact": "Punter Ian Ratliff averages 40.1 yards on seven punts, with two downed inside the opponent's 20-yard line.",
             "page": 6,
             "category": "special_teams",
-            "importance": "medium"
+            "importance": "low"
           },
           {
-            "fact": "Tulsa averages 27.7 yards per kickoff return, compared with North Texas' 14.3-yard average.",
-            "page": 5,
+            "fact": "De Freitas, Ratliff and long snapper Jacob Poff all transferred from App State and are listed as North Texas' starters at their positions.",
+            "page": 6,
             "category": "special_teams",
             "importance": "medium"
           }
@@ -394,19 +346,19 @@
             "fact": "North Texas defeated Tulsa 35-28 on the road in 2023 and 52-20 at home in 2024.",
             "page": 2,
             "category": "series_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "In the 2024 meeting, North Texas scored 45 consecutive points across the second and third quarters; Baron Tipton and Dalton Carnes are the only current UNT players who appeared in that game.",
+            "fact": "Baron Tipton and Dalton Carnes are the only current North Texas players who appeared in the 2024 game against Tulsa.",
             "page": 2,
             "category": "series_context",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "other_relevant": [
           {
             "fact": "North Texas added 70 new players for 2026, including 52 transfers.",
-            "page": 4,
+            "page": 1,
             "category": "other_relevant",
             "importance": "medium"
           },
@@ -417,362 +369,13 @@
             "importance": "medium"
           },
           {
-            "fact": "North Texas enters the Tulsa game with an 0-2 road record in 2026.",
-            "page": 4,
+            "fact": "North Texas enters its first American Conference game of the season with a 2-2 overall record and an 0-2 road record.",
+            "page": 1,
             "category": "other_relevant",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "source_file": "North Texas.pdf"
-      },
-      {
-        "source_team": "Tulsa Golden Hurricane",
-        "opponent": "North Texas Mean Green",
-        "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide identifies Game 5 as Tulsa vs. North Texas on Oct. 1, 2026, at H.A. Chapman Stadium and includes matchup-specific storylines, statistics and series information.",
-        "recent_game": [
-          {
-            "fact": "Tulsa lost 34-6 at Arkansas on Sept. 26, falling to 3-1.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Against Arkansas, quarterback Dexter Williams II completed 20 of 32 passes for 176 yards.",
-            "page": 17,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa rushed for fewer than 100 yards at Arkansas; Damari Alston led the team with 27 rushing yards on six carries.",
-            "page": 20,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Oran Singleton Jr. led Tulsa with six receptions at Arkansas, while Donnell Gee Jr. had a team-high 49 receiving yards.",
-            "page": 20,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Tulsa's offense scored on one of 11 drives and had five three-and-outs at Arkansas.",
-            "page": 21,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa lost two fumbles at Arkansas, and the Razorbacks scored 11 points off those turnovers.",
-            "page": 20,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa's defense recorded three sacks and one interception while holding Arkansas to 132 rushing yards on 43 attempts.",
-            "page": 3,
-            "category": "recent_game",
-            "importance": "high"
-          }
-        ],
-        "opponent_notes": [
-          {
-            "fact": "North Texas enters the matchup 2-2 overall and 0-2 on the road, with road losses at Indiana and Texas State.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "North Texas defeated Houston Christian 63-14 in its most recent game on Sept. 26.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "North Texas averages 516.0 total yards and 39.5 points per game, with 342.0 passing yards and 174.0 rushing yards per game.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "North Texas quarterback Jackson averages 296.8 passing yards per game; White averages 90.8 rushing yards and Stevenson averages 70.3 receiving yards.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "North Texas has scored 107 total points in its two victories and 51 total points in its two losses.",
-            "page": 5,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "North Texas is allowing 30.3 points and 377.2 total yards per game.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "medium"
-          }
-        ],
-        "quarterback": [
-          {
-            "fact": "Dexter Williams II started Tulsa's last two games after Baylor Hayes started the first two.",
-            "page": 19,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Williams threw three touchdown passes against East Texas A&M before completing 20 of 32 passes for 176 yards at Arkansas.",
-            "page": 17,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa's Sept. 27 depth chart lists Baylor Hayes first at quarterback, followed by Dexter Williams II and Andrew Alford.",
-            "page": 13,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Hayes started the wins over Oklahoma State and Sam Houston and has averaged 176.5 passing yards per game this season.",
-            "page": 1,
-            "category": "quarterback",
-            "importance": "medium"
-          }
-        ],
-        "offensive_personnel": [
-          {
-            "fact": "Tulsa's current first-listed offensive line is Cam East at left tackle, Hunter Erb at left guard, Malachi Preciado at center, Ian Mayes at right guard and Brody Duffel or Davis Dotson at right tackle.",
-            "page": 13,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "East, Preciado and Mayes have started all four games; Erb started three games, and JaQuan Adams started at right tackle against Arkansas after Duffel started the first three games there.",
-            "page": 19,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Damari Alston is first on the running back depth chart, followed by Trequan Jones and DJ McKinney, with Sevion Morrison and Seth Davis also listed as options.",
-            "page": 13,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Oran Singleton Jr. has started all four games and leads Tulsa with 50.5 receiving yards per game.",
-            "page": 1,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Javon Ross has caught at least two passes in each game this season, totaling 12 receptions for 104 yards, and enters the North Texas game with a reception in 23 consecutive appearances.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          }
-        ],
-        "defensive_personnel": [
-          {
-            "fact": "Tulsa has used the same starting defensive front and linebacker group in all four games: Arias Nash, Jaylen George, Thomas Davis and Tai Newhouse up front, with Chris Thompson Jr. and Dax Collins at linebacker.",
-            "page": 19,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Dax Collins has 31 tackles and 2.5 sacks through four games, including 11 tackles and a career-high 1.5 sacks at Arkansas.",
-            "page": 3,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Thomas Davis leads Tulsa with four sacks, followed by Kyran Duhon with three and Dax Collins with 2.5.",
-            "page": 3,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Dedaunte Scott intercepted Arkansas quarterback KJ Jackson, extending Tulsa's streak to at least one takeaway in every game.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Micah Tease moved from wide receiver to cornerback during 2026 preseason camp after making two offensive starts for Tulsa in 2025.",
-            "page": 6,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          }
-        ],
-        "coaching_changes": [
-          {
-            "fact": "Kevin Barbay was named Tulsa's offensive coordinator in January 2026 after serving as a Kentucky offensive analyst in 2025.",
-            "page": 7,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Dominique Davenport was promoted from special teams analyst to running backs coach in January 2026.",
-            "page": 7,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "BJ Johnson joined Tulsa as wide receivers coach in December 2025 after three seasons at Georgia Southern.",
-            "page": 7,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Cam Haney joined Tulsa as cornerbacks coach in January 2026, and Dominique Franks was promoted to pass game coordinator and nickels coach.",
-            "page": 7,
-            "category": "coaching_changes",
-            "importance": "medium"
-          }
-        ],
-        "injury_availability": [
-          {
-            "fact": "Linebacker Chris Thompson Jr. returned in 2026 after missing the entire 2025 season because of injury and has started all four games.",
-            "page": 4,
-            "category": "injury_availability",
-            "importance": "high"
-          },
-          {
-            "fact": "Thompson leads Tulsa with 35 tackles and has recorded at least eight tackles in every game.",
-            "page": 4,
-            "category": "injury_availability",
-            "importance": "high"
-          }
-        ],
-        "offensive_context": [
-          {
-            "fact": "Tulsa averages 354.8 total yards per game, including 181.5 rushing yards and 173.3 passing yards.",
-            "page": 1,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa is 3-0 when gaining at least 300 total yards and 0-1 when held below 300 yards.",
-            "page": 4,
-            "category": "offensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Tulsa is 3-0 when rushing for at least 100 yards and 0-1 when held below 100 rushing yards.",
-            "page": 4,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa has produced 14 scoring drives and 12 touchdown drives on 46 possessions this season.",
-            "page": 21,
-            "category": "offensive_context",
-            "importance": "medium"
-          }
-        ],
-        "defensive_context": [
-          {
-            "fact": "Tulsa is allowing 15.3 points and 367.0 total yards per game.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa has 13 sacks for 98 yards through four games and leads the American Conference with 3.25 sacks per game.",
-            "page": 3,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa allows 109.8 rushing yards per game and 3.1 yards per carry.",
-            "page": 3,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Opponents have scored on nine of 14 red-zone trips against Tulsa, with only four touchdowns and five empty possessions.",
-            "page": 3,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa has seven takeaways\u2014four interceptions and three fumble recoveries\u2014and owns a plus-three turnover margin.",
-            "page": 5,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Opponents have converted two of 11 fourth-down attempts against Tulsa.",
-            "page": 3,
-            "category": "defensive_context",
-            "importance": "medium"
-          }
-        ],
-        "special_teams": [
-          {
-            "fact": "Trequan Jones returned a kickoff 98 yards for a touchdown against East Texas A&M.",
-            "page": 5,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Jones has handled all five Tulsa kickoff returns and has 165 return yards, an average of 33.0 yards per return.",
-            "page": 5,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa's depth chart lists Jones as the primary kickoff returner and DJ McKinney as the primary punt returner.",
-            "page": 13,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Max Tulen punted seven times at Arkansas and has a season-long punt of 54 yards.",
-            "page": 18,
-            "category": "special_teams",
-            "importance": "medium"
-          }
-        ],
-        "series_context": [
-          {
-            "fact": "North Texas has won the last three meetings, including a 52-20 victory in Denton in 2024.",
-            "page": 1,
-            "category": "series_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Tulsa's most recent series victory was a 41-24 home win on Oct. 1, 2011.",
-            "page": 1,
-            "category": "series_context",
-            "importance": "medium"
-          }
-        ],
-        "other_relevant": [
-          {
-            "fact": "Tulsa and North Texas open American Conference play on Thursday, Oct. 1, at H.A. Chapman Stadium.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Both teams enter the matchup on a short week after playing Saturday night games on Sept. 26.",
-            "page": 5,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa is 2-0 at home and has outscored Oklahoma State and East Texas A&M by a combined 66-10.",
-            "page": 3,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Tulsa's defense has allowed one touchdown in eight home quarters and the team has not trailed in either home game.",
-            "page": 4,
-            "category": "other_relevant",
-            "importance": "medium"
-          }
-        ],
-        "source_file": "Tulsa.pdf"
       }
     ],
     "matchup_angles": [
@@ -812,8 +415,8 @@
     ],
     "used_sources": [
       {
-        "fact_id": 11,
-        "fact": "Tulsa allows 367.0 total yards and 15.3 points per game; its rush defense allows 109.8 yards per game while its pass defense allows 257.3.",
+        "fact_id": 7,
+        "fact": "Tulsa averages 181.5 rushing yards per game and 173.3 passing yards per game.",
         "page": 5,
         "category": "opponent_notes",
         "importance": "high",
@@ -821,7 +424,25 @@
         "source_team": "North Texas Mean Green"
       },
       {
-        "fact_id": 17,
+        "fact_id": 8,
+        "fact": "Tulsa allows 109.8 rushing yards per game, ranked 37th in FBS, but allows 257.3 passing yards per game, ranked 124th.",
+        "page": 5,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "North Texas.pdf",
+        "source_team": "North Texas Mean Green"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Tulsa converts 27.3% of its third downs, ranked 133rd in FBS, and averages 27:51 in possession time.",
+        "page": 5,
+        "category": "opponent_notes",
+        "importance": "medium",
+        "source_file": "North Texas.pdf",
+        "source_team": "North Texas Mean Green"
+      },
+      {
+        "fact_id": 13,
         "fact": "Jackson ranks ninth in FBS in completion percentage at 74.2%, 12th in passing yards per game at 296.8 and 13th in total offense at 310.5 yards per game.",
         "page": 2,
         "category": "quarterback",
@@ -830,17 +451,8 @@
         "source_team": "North Texas Mean Green"
       },
       {
-        "fact_id": 29,
-        "fact": "The North Texas offensive line had allowed three sacks through four games.",
-        "page": 3,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "North Texas.pdf",
-        "source_team": "North Texas Mean Green"
-      },
-      {
-        "fact_id": 46,
-        "fact": "North Texas has 77 plays of at least 10 yards, tied for fourth in FBS, including 55 such passing plays.",
+        "fact_id": 37,
+        "fact": "North Texas converts 54.9% of its third downs, ranked eighth in FBS and first in the American.",
         "page": 3,
         "category": "offensive_context",
         "importance": "high",
@@ -848,8 +460,26 @@
         "source_team": "North Texas Mean Green"
       },
       {
-        "fact_id": 47,
-        "fact": "Nine North Texas players have at least five receptions, making UNT one of seven FBS teams with that distribution.",
+        "fact_id": 39,
+        "fact": "North Texas has produced 77 plays of at least 10 yards, tied for fourth in FBS; 55 have been passing plays.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "North Texas.pdf",
+        "source_team": "North Texas Mean Green"
+      },
+      {
+        "fact_id": 40,
+        "fact": "The North Texas offensive line has allowed three sacks through four games.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "North Texas.pdf",
+        "source_team": "North Texas Mean Green"
+      },
+      {
+        "fact_id": 41,
+        "fact": "North Texas is one of seven FBS teams with nine players who have at least five receptions this season.",
         "page": 3,
         "category": "offensive_context",
         "importance": "medium",
@@ -857,40 +487,13 @@
         "source_team": "North Texas Mean Green"
       },
       {
-        "fact_id": 50,
-        "fact": "North Texas allows 377.3 total yards and 30.3 points per game, including 164.8 rushing yards and 212.5 passing yards per game.",
+        "fact_id": 44,
+        "fact": "North Texas allows 164.8 rushing yards and 212.5 passing yards per game.",
         "page": 5,
         "category": "defensive_context",
         "importance": "high",
         "source_file": "North Texas.pdf",
         "source_team": "North Texas Mean Green"
-      },
-      {
-        "fact_id": 62,
-        "fact": "North Texas enters the Tulsa game with an 0-2 road record in 2026.",
-        "page": 4,
-        "category": "other_relevant",
-        "importance": "medium",
-        "source_file": "North Texas.pdf",
-        "source_team": "North Texas Mean Green"
-      },
-      {
-        "fact_id": 96,
-        "fact": "Tulsa averages 354.8 total yards per game, including 181.5 rushing yards and 173.3 passing yards.",
-        "page": 1,
-        "category": "offensive_context",
-        "importance": "high",
-        "source_file": "Tulsa.pdf",
-        "source_team": "Tulsa Golden Hurricane"
-      },
-      {
-        "fact_id": 101,
-        "fact": "Tulsa has 13 sacks for 98 yards through four games and leads the American Conference with 3.25 sacks per game.",
-        "page": 3,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Tulsa.pdf",
-        "source_team": "Tulsa Golden Hurricane"
       }
     ],
     "model_context": {
@@ -898,12 +501,12 @@
       "model_side": "North Texas",
       "opponent_full": "Tulsa Golden Hurricane",
       "opponent": "Tulsa",
-      "model_prediction": -4.0,
-      "market_line": 1.0,
+      "model_prediction": -5.5,
+      "market_line": -1.0,
       "best_available_line": 1.5,
-      "best_available_price": "-110",
-      "cover_probability": 0.59093965,
-      "edge": 0.0671301261904762,
+      "best_available_price": "-118",
+      "cover_probability": 0.61576584,
+      "edge": 0.0744814363302752,
       "bet_status": "BET"
     }
   }

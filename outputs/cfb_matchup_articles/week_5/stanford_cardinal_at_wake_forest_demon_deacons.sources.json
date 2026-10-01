@@ -2,30 +2,31 @@
   "game": "Stanford Cardinal@Wake Forest Demon Deacons",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T14:57:25.101645+00:00",
-  "model_prediction": 12.0,
-  "market_line": 13.0,
+  "generated_at_utc": "2026-10-01T02:39:24.010843+00:00",
+  "model_prediction": 12.5,
+  "market_line": 13.5,
   "best_line": 12.5,
-  "best_price": "-105",
+  "best_price": "-102",
   "best_book": "FanDuel",
-  "cover_probability": 0.53209773,
-  "edge": 0.0199026080487805,
+  "cover_probability": 0.52329455,
+  "edge": 0.018344054950495,
   "bet_short": "Stanford",
   "guide_enrichment": {
-    "enabled": true,
-    "narrative": "Our numbers are slightly more favorable to Stanford than the market, but the matchup does not provide much support for a stronger position. Stanford\u2019s rushing offense faces a clear disadvantage against Wake Forest\u2019s run defense, and its broader difficulty creating scoring opportunities raises the risk of falling behind schedule.\n\nWe also understand why the market is comfortable pricing Wake Forest aggressively. Through two games, Gio Lopez had 575 passing yards, four touchdowns and no interceptions, while Carlos Hernandez averaged 23 yards per reception. We treat that early production as context rather than proof, but it gives Wake Forest a credible way to create separation if Stanford cannot sustain drives.\n\nThe counterpoint is a Wake Forest defense that allowed opponents to convert 13 of 27 third downs and score on all 10 red-zone opportunities over that opening sample. That helps explain our modest disagreement with the market, but Stanford\u2019s offensive limitations keep us from seeing enough value at the available price. For us, this remains a pass.",
-    "matchup_to_watch": "We see Stanford\u2019s passing offense against Wake Forest\u2019s pass defense as the matchup that could keep this competitive. Stanford is unlikely to want the game decided by its rushing offense, while Wake Forest allowed 242.5 passing yards per game through its first two contests and gave up 329 passing yards to Purdue.\n\nThat does not automatically make Stanford\u2019s passing game trustworthy; our longer-run numbers remain skeptical of that unit. The question is whether Stanford can convert Wake Forest\u2019s early defensive leakage into sustained scoring drives. If not, Wake Forest has a much clearer path to controlling the margin.",
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
     "guide_status": [
       "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf",
       "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
-      "Guide for Wake Forest Demon Deacons was found but may not match the current opponent. The guide is for Wake Forest's Sept. 18, 2026 Week 3 game against Miami. Stanford is listed later on the schedule for Oct. 3, 2026, following the Miami and Louisville games."
+      "Guide for Wake Forest Demon Deacons was found but may not match the current opponent. The guide is explicitly for Wake Forest's Sept. 18, 2026 Game 3 against Miami. Stanford is listed later on the schedule for Oct. 3, 2026, so this is not the Stanford matchup guide.",
+      "Narrative generation failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
     ],
     "guide_extractions": [
       {
         "source_team": "Wake Forest Demon Deacons",
         "opponent": "Stanford Cardinal",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is for Wake Forest's Sept. 18, 2026 Week 3 game against Miami. Stanford is listed later on the schedule for Oct. 3, 2026, following the Miami and Louisville games.",
+        "document_match_reason": "The guide is explicitly for Wake Forest's Sept. 18, 2026 Game 3 against Miami. Stanford is listed later on the schedule for Oct. 3, 2026, so this is not the Stanford matchup guide.",
         "recent_game": [
           {
             "fact": "Wake Forest defeated Purdue 38-36 in double overtime on Sept. 12, 2026, improving to 2-0.",
@@ -34,14 +35,14 @@
             "importance": "high"
           },
           {
-            "fact": "On fourth-and-15 in the second overtime against Purdue, Gio Lopez completed a 15-yard pass to Carlos Hernandez; Lopez then scored the tying touchdown and the winning two-point conversion.",
+            "fact": "On fourth-and-15 in the second overtime, Gio Lopez completed a 15-yard pass to Carlos Hernandez to extend the game, then rushed for the tying touchdown and winning two-point conversion.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Lopez finished the Purdue game 16-of-27 passing for 225 yards and one touchdown and led Wake Forest with 59 rushing yards and two rushing touchdowns.",
-            "page": 4,
+            "fact": "Against Purdue, Lopez completed 16 of 27 passes for 225 yards and one touchdown and led Wake Forest with 59 rushing yards and two rushing touchdowns.",
+            "page": 21,
             "category": "recent_game",
             "importance": "high"
           },
@@ -52,149 +53,154 @@
             "importance": "medium"
           },
           {
-            "fact": "Purdue quarterback Ryan Browne passed for 329 yards, and running back Fame Ijeboi rushed 27 times for 114 yards and three touchdowns against Wake Forest.",
-            "page": 6,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
             "fact": "Wake Forest committed no turnovers against Purdue.",
             "page": 6,
             "category": "recent_game",
             "importance": "medium"
-          }
-        ],
-        "opponent_notes": [
-          {
-            "fact": "Gio Lopez faced Stanford while starting for North Carolina in 2025 and completed 18 of 25 passes for 203 yards and two touchdowns in a victory.",
-            "page": 21,
-            "category": "opponent_notes",
-            "importance": "high"
           },
           {
-            "fact": "Jake Dickert's 2022 Washington State team scored 52 points, rushed for 306 yards and forced four turnovers against Stanford.",
-            "page": 16,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Dickert's 2023 Washington State team held Stanford to 10 points, 217 total yards and 142 passing yards.",
-            "page": 16,
-            "category": "opponent_notes",
+            "fact": "Purdue quarterback Ryan Browne passed for 329 yards, while running back Fame Ijeboi rushed 27 times for 114 yards and three touchdowns against Wake Forest.",
+            "page": 6,
+            "category": "recent_game",
             "importance": "medium"
           }
         ],
+        "opponent_notes": [],
         "quarterback": [
           {
-            "fact": "Gio Lopez is Wake Forest's starting quarterback on the guide's unofficial projected depth chart.",
-            "page": 19,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Through two games in 2026, Lopez completed 37 of 59 passes for 575 yards, four touchdowns and no interceptions and rushed 20 times for 98 yards and two touchdowns.",
-            "page": 21,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Lopez transferred to Wake Forest from North Carolina in January 2026 and previously played at South Alabama under current Wake Forest offensive coordinator Rob Ezell.",
+            "fact": "Gio Lopez is Wake Forest's starting quarterback and a team captain after transferring from North Carolina.",
             "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Redshirt freshman Steele Pizzella is listed as the backup quarterback on the unofficial projected depth chart.",
-            "page": 19,
+            "fact": "Through two 2026 games, Lopez completed 37 of 59 passes for 575 yards, four touchdowns and no interceptions while rushing 20 times for 98 yards and two touchdowns.",
+            "page": 21,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lopez previously played under current Wake Forest offensive coordinator Rob Ezell at South Alabama.",
+            "page": 1,
             "category": "quarterback",
             "importance": "medium"
+          },
+          {
+            "fact": "While starting for North Carolina against Stanford in 2025, Lopez completed 18 of 25 passes for 203 yards and two touchdowns and had seven rushing attempts for minus-six yards.",
+            "page": 21,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Redshirt freshman Steele Pizzella is listed as the backup quarterback on Wake Forest's unofficial projected depth chart.",
+            "page": 19,
+            "category": "quarterback",
+            "importance": "low"
           }
         ],
         "offensive_personnel": [
           {
             "fact": "Wake Forest's unofficial projected offensive line lists Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
             "page": 19,
-            "category": "offensive_personnel",
+            "category": "offensive_line",
             "importance": "high"
           },
           {
-            "fact": "Starting center Will Way joined Wake Forest from Weber State in January 2026 and was voted a team captain.",
+            "fact": "Center Will Way transferred from Weber State in January 2026 and was selected as a team captain.",
             "page": 1,
-            "category": "offensive_personnel",
-            "importance": "high"
+            "category": "offensive_line",
+            "importance": "medium"
           },
           {
-            "fact": "The unofficial projected depth chart lists Carlos Hernandez, Antonio Meeks and Kam Shanks as the first-listed wide receivers.",
+            "fact": "Wake Forest's unofficial projected depth chart lists Ty Clark III as the starting running back, with KD Daniels, Deuce Lawrence and Jamar Searcy behind him.",
             "page": 19,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Ty Clark III is the first-listed running back, followed by Florida transfer KD Daniels, freshman Deuce Lawrence and redshirt freshman Jamar Searcy.",
-            "page": 19,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Clark recorded his first career 100-yard rushing game with 105 yards against Akron and added a rushing touchdown against Purdue.",
+            "fact": "Ty Clark III has 141 rushing yards and one touchdown on 19 carries through two games, including a career-high 105 yards against Akron.",
             "page": 22,
             "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The projected starting receivers are Carlos Hernandez, Antonio Meeks and Kam Shanks.",
+            "page": 19,
+            "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Hernandez had 253 receiving yards through two games, averaging 126.5 yards per game and 23.0 yards per reception.",
+            "fact": "Carlos Hernandez has 253 receiving yards through two games and entered the Miami week averaging 126.5 receiving yards per game.",
             "page": 3,
             "category": "offensive_personnel",
             "importance": "high"
+          },
+          {
+            "fact": "Wake Forest's unofficial depth chart lists Will Loerzel, Landon Morris, Kamrean Johnson and Dominick Barry as options at tight end.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "low"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Wake Forest's unofficial projected defensive front lists Langston Hardy and Gabe Kirschke at end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
-            "page": 19,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "The unofficial projected linebacker and Star starters are Frank Cusano, Aiden Hall and Braylon Johnson.",
+            "fact": "Wake Forest's unofficial projected defensive front lists Langston Hardy and Gabe Kirschke at defensive end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
             "page": 19,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "The unofficial projected secondary starters are cornerbacks Deuce Blades II and Ashaad Williams, free safety Rushaun Tongue and strong safety Davaughn Patterson.",
+            "fact": "The projected linebacker and star starters are Frank Cusano at weak-side linebacker, Aiden Hall at middle linebacker and Braylon Johnson at star.",
             "page": 19,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Aiden Hall became a starter in 2025 and finished that season with 73 tackles, eight tackles for loss and three passes defensed.",
+            "fact": "The projected secondary starters are Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aiden Hall recorded 73 tackles, eight tackles for loss and three passes defended as a 2025 starter.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Through two games, Vincent Firenze averaged 10 tackles and 5.5 solo tackles per game, while Braylon Johnson averaged eight tackles and 5.5 solo tackles.",
+            "fact": "Vincent Firenze led Wake Forest through two games with 20 tackles, including 11 solo stops.",
             "page": 3,
             "category": "defensive_personnel",
             "importance": "medium"
+          },
+          {
+            "fact": "Joshua Patterson joined Wake Forest after playing four games with two starts for Iowa State in 2025.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "low"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Jake Dickert is in his second season as Wake Forest's head coach after being hired on Dec. 18, 2024.",
+            "fact": "Jake Dickert is in his second season as Wake Forest head coach after being hired on Dec. 18, 2024.",
             "page": 1,
-            "category": "coaching_changes",
-            "importance": "high"
-          },
-          {
-            "fact": "Rob Ezell is Wake Forest's offensive coordinator, Dan Enos is co-offensive coordinator and quarterbacks coach, Scottie Hazelton is defensive coordinator, and Freddie Banks is co-defensive coordinator and safeties coach.",
-            "page": 10,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach in 2026 after coaching East Carolina's wide receivers from 2023 through 2025.",
+            "fact": "Rob Ezell is Wake Forest's offensive coordinator, and Dan Enos is co-offensive coordinator and quarterbacks coach.",
+            "page": 10,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Scottie Hazelton is the defensive coordinator, and Freddie Banks is co-defensive coordinator and safeties coach.",
+            "page": 12,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach for the 2026 season after coaching East Carolina's receivers from 2023 through 2025.",
             "page": 12,
             "category": "coaching_changes",
             "importance": "medium"
@@ -203,95 +209,100 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Through two games, Wake Forest averaged 38.0 points, 485.0 total yards, 290.5 passing yards and 194.5 rushing yards per game.",
+            "fact": "Through two games, Wake Forest averaged 485.0 total yards, 290.5 passing yards, 194.5 rushing yards and 38.0 points per game.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest converted 12 of 26 third downs, all three fourth-down attempts and nine of 10 red-zone opportunities through two games.",
+            "fact": "Wake Forest converted 12 of 26 third downs and all three fourth-down attempts through its first two games.",
             "page": 2,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest allowed one sack per game through its first two contests.",
-            "page": 3,
+            "fact": "Wake Forest scored on nine of 10 red-zone possessions through two games.",
+            "page": 2,
             "category": "offensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest generated 559 total yards against Akron, including 356 passing yards.",
-            "page": 6,
+            "fact": "Wake Forest allowed one sack per game through its first two games.",
+            "page": 3,
             "category": "offensive_context",
             "importance": "medium"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Through two games, Wake Forest allowed 26.0 points and 380.0 total yards per game, including 242.5 passing yards and 137.5 rushing yards per game.",
+            "fact": "Through two games, Wake Forest allowed 380.0 total yards, 242.5 passing yards, 137.5 rushing yards and 26.0 points per game.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest recorded five sacks and 15 tackles for loss through two games.",
+            "fact": "Wake Forest recorded five sacks and 15 tackles for loss through its first two games.",
             "page": 2,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Opponents converted 13 of 27 third downs and scored on all 10 red-zone opportunities against Wake Forest through two games.",
+            "fact": "Opponents converted 13 of 27 third downs against Wake Forest through two games.",
             "page": 2,
             "category": "defensive_context",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Wake Forest had one takeaway, a fumble recovery by Rushaun Tongue against Akron, and no interceptions through two games.",
-            "page": 5,
+            "fact": "Wake Forest had recovered one fumble but had not intercepted a pass through two games.",
+            "page": 2,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Connor Calvert made six of seven field-goal attempts through two games and averaged three made field goals per game.",
+            "fact": "Connor Calvert is the projected placekicker and made six of seven field-goal attempts through two games.",
             "page": 3,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "The unofficial projected depth chart lists freshman Ethan Hyams as the first punter, Koredell Bartley as the first kickoff returner and Carlos Hernandez as the first punt returner.",
+            "fact": "Freshman Ethan Hyams is listed as the projected punter, with Jack Ploszay behind him.",
+            "page": 19,
+            "category": "special_teams",
+            "importance": "low"
+          },
+          {
+            "fact": "Koredell Bartley is the projected kickoff returner, while Carlos Hernandez is the projected punt returner.",
             "page": 19,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Wake Forest averaged 22.0 yards per punt return, 20.3 yards per kickoff return and 40.8 net yards per punt through two games.",
-            "page": 3,
+            "fact": "Wake Forest averaged 22.0 yards per punt return, 20.3 yards per kickoff return and 40.8 net punting yards through two games.",
+            "page": 2,
             "category": "special_teams",
-            "importance": "low"
-          }
-        ],
-        "series_context": [
-          {
-            "fact": "Wake Forest is listed with a 2-1 all-time record against Stanford.",
-            "page": 3,
-            "category": "series_context",
             "importance": "medium"
           }
         ],
+        "series_context": [],
         "other_relevant": [
           {
-            "fact": "Wake Forest is scheduled to host Stanford at Allegacy Financial Stadium on Oct. 3, 2026.",
+            "fact": "Wake Forest's schedule lists Stanford visiting Allegacy Financial Stadium on Oct. 3, 2026.",
             "page": 1,
-            "category": "other_relevant",
+            "category": "schedule",
             "importance": "high"
           },
           {
-            "fact": "Wake Forest started the 2026 season 2-0 with wins over Akron and Purdue.",
+            "fact": "Wake Forest started the 2026 season 2-0 after victories over Akron and Purdue.",
             "page": 1,
-            "category": "other_relevant",
+            "category": "team_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Wake Forest was plus-one in turnover margin through two games, with one takeaway and no giveaways.",
+            "page": 2,
+            "category": "team_context",
             "importance": "medium"
           }
         ],
@@ -333,64 +344,18 @@
         "matchup_score": 51
       }
     ],
-    "used_sources": [
-      {
-        "fact_id": 5,
-        "fact": "Purdue quarterback Ryan Browne passed for 329 yards, and running back Fame Ijeboi rushed 27 times for 114 yards and three touchdowns against Wake Forest.",
-        "page": 6,
-        "category": "recent_game",
-        "importance": "medium",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      },
-      {
-        "fact_id": 8,
-        "fact": "Through two games in 2026, Lopez completed 37 of 59 passes for 575 yards, four touchdowns and no interceptions and rushed 20 times for 98 yards and two touchdowns.",
-        "page": 21,
-        "category": "quarterback",
-        "importance": "high",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      },
-      {
-        "fact_id": 16,
-        "fact": "Hernandez had 253 receiving yards through two games, averaging 126.5 yards per game and 23.0 yards per reception.",
-        "page": 3,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      },
-      {
-        "fact_id": 29,
-        "fact": "Through two games, Wake Forest allowed 26.0 points and 380.0 total yards per game, including 242.5 passing yards and 137.5 rushing yards per game.",
-        "page": 3,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      },
-      {
-        "fact_id": 31,
-        "fact": "Opponents converted 13 of 27 third downs and scored on all 10 red-zone opportunities against Wake Forest through two games.",
-        "page": 2,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Wake Forest.pdf",
-        "source_team": "Wake Forest Demon Deacons"
-      }
-    ],
+    "used_sources": [],
     "model_context": {
       "model_side_full": "Stanford Cardinal",
       "model_side": "Stanford",
       "opponent_full": "Wake Forest Demon Deacons",
       "opponent": "Wake Forest",
-      "model_prediction": 12.0,
-      "market_line": 13.0,
+      "model_prediction": 12.5,
+      "market_line": 13.5,
       "best_available_line": 12.5,
-      "best_available_price": "-105",
-      "cover_probability": 0.53209773,
-      "edge": 0.0199026080487805,
+      "best_available_price": "-102",
+      "cover_probability": 0.52329455,
+      "edge": 0.018344054950495,
       "bet_status": "PASS"
     }
   }

@@ -2,46 +2,46 @@
   "game": "Ohio State Buckeyes@Iowa Hawkeyes",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T14:53:23.036795+00:00",
+  "generated_at_utc": "2026-10-01T02:37:21.262270+00:00",
   "model_prediction": 9.0,
   "market_line": 14.5,
   "best_line": 14.5,
-  "best_price": "-110",
+  "best_price": "-105",
   "best_book": "theScore Bet",
   "cover_probability": 0.62497466,
-  "edge": 0.1011651361904761,
+  "edge": 0.1127795380487804,
   "bet_short": "Iowa",
   "guide_enrichment": {
     "enabled": true,
-    "narrative": "Our view starts with Iowa\u2019s ability to limit both efficiency and scoring. Iowa has allowed 8.0 points per game, 4.1 yards per play and no rushing touchdowns through four games. Those results do not guarantee the same success against Ohio State, but they help explain why our numbers are reluctant to price a routine blowout.",
-    "matchup_to_watch": "We are focused on Ohio State\u2019s passing offense against Iowa\u2019s pass defense. Ohio State is averaging 365.3 passing yards per game, while Jeremiah Smith already has 617 receiving yards and seven touchdowns. Iowa counters by allowing 152.0 passing yards per game and holding opponents to a 26.8 percent conversion rate on third down. If Iowa can force Ohio State to string together longer drives rather than produce quick scores, we think the margin becomes much harder to extend.",
+    "narrative": "For us, this is less about calling Iowa the better team and more about questioning how much separation Ohio State should create against a defense with this early profile. We understand why the market is high on Ohio State after an opening stretch in which it has averaged 45.0 points and 522.0 yards per game. But Iowa has allowed only 8.0 points and 239.8 yards per game while holding opponents to a .268 third-down conversion rate. We think that resistance gives Iowa a credible way to keep the game inside our expected range.\n\nOur main concern is clear: Iowa ranks 69th in pass EPA and now faces an Ohio State defense ranked eighth in that category. We are not relying on Iowa to consistently win through the air, especially with Ohio State allowing just 12.3 points and 274.3 yards per game. The more interesting part is Iowa's broader offensive balance, with 215.5 rushing yards and 213.5 passing yards per game. Our position rests on Iowa producing enough offense while its defense prevents Ohio State's efficiency from turning into sustained separation.",
+    "matchup_to_watch": "We are watching Ohio State's passing offense against Iowa's pass defense. Ohio State ranks third in pass EPA, and Julian Sayin has thrown for 1,206 yards through four games. Jeremiah Smith has accounted for 617 receiving yards and seven touchdowns, making this the clearest threat to our Iowa position.\n\nIowa has allowed only 152.0 passing yards per game, and we think its ability to create third-down stops will be central. If Iowa can make Ohio State sustain drives rather than letting its passing game dictate the matchup, the Hawkeyes have a realistic path to limiting the final margin.",
     "guide_status": [
       "Found guide for Ohio State Buckeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio State.pdf",
       "Loaded guide for Ohio State Buckeyes: Ohio State.pdf",
       "Found guide for Iowa Hawkeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa.pdf",
-      "Loaded guide for Iowa Hawkeyes: Iowa.pdf"
+      "Guide processing failed for Iowa Hawkeyes: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
     ],
     "guide_extractions": [
       {
         "source_team": "Ohio State Buckeyes",
         "opponent": "Iowa Hawkeyes",
         "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide is labeled \"Ohio State vs. Iowa\" and identifies Game 5 as No. 5/6 Ohio State at No. 14/14 Iowa on Oct. 3, 2026, at Kinnick Stadium.",
+        "document_match_reason": "The guide is labeled \"Ohio State vs. Iowa\" and identifies Game 5 as Ohio State at Iowa on Oct. 3, 2026, at Kinnick Stadium.",
         "recent_game": [
           {
-            "fact": "Ohio State improved to 3-1 with a 42-19 home win over Illinois on Sept. 26.",
+            "fact": "Ohio State defeated Illinois 42-19 on Sept. 26 to improve to 3-1.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jeremiah Smith had eight receptions for 150 yards and three touchdowns in the first half against Illinois.",
+            "fact": "Jeremiah Smith recorded eight catches for 150 yards and three touchdowns in the first half against Illinois.",
             "page": 5,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Safety Jaylen McClain recorded career highs of eight tackles and four pass breakups against Illinois.",
+            "fact": "Safety Jaylen McClain set career highs with eight tackles and four pass breakups against Illinois.",
             "page": 18,
             "category": "recent_game",
             "importance": "medium"
@@ -55,31 +55,31 @@
         ],
         "opponent_notes": [
           {
-            "fact": "Iowa enters the matchup 4-0 and ranked No. 14 in both listed polls; Ohio State is 3-1 and ranked No. 5/6.",
+            "fact": "Iowa enters the matchup 4-0 and ranked No. 14 in both listed polls; Ohio State is 3-1.",
             "page": 1,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa ranks first nationally in scoring defense at 8.0 points allowed per game and 10th in total defense at 239.8 yards allowed per game.",
+            "fact": "Iowa leads FBS in scoring defense at 8.0 points allowed per game and allows 239.8 total yards per game.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa allows 87.8 rushing yards per game, ranking 19th nationally, and 152.0 passing yards per game, ranking 12th.",
+            "fact": "Iowa allows 152.0 passing yards and 87.8 rushing yards per game.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa's defense allows opponents to convert 26.8 percent of third downs, ranking 12th nationally.",
+            "fact": "Iowa has limited opponents to a .268 third-down conversion rate, 12th nationally.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Iowa averages 215.5 rushing yards per game and 213.5 passing yards per game, compared with Ohio State's 156.8 rushing yards and 365.3 passing yards per game.",
+            "fact": "Iowa averages 429.0 total yards per game, including 215.5 rushing yards and 213.5 passing yards.",
             "page": 4,
             "category": "opponent_notes",
             "importance": "high"
@@ -93,7 +93,7 @@
         ],
         "quarterback": [
           {
-            "fact": "Julian Sayin is 15-3 as Ohio State's starting quarterback and has led the Buckeyes to 12 consecutive regular-season wins as a starter.",
+            "fact": "Julian Sayin is 15-3 as Ohio State's starting quarterback.",
             "page": 5,
             "category": "quarterback",
             "importance": "high"
@@ -111,57 +111,69 @@
             "importance": "medium"
           },
           {
-            "fact": "Sayin's career completion percentage is 75.1 percent, and he has 4,900 passing yards, 43 touchdown passes and eight 300-yard passing games.",
+            "fact": "Sayin's career completion percentage is 75.1 percent, and he has 43 career touchdown passes and eight 300-yard passing games.",
             "page": 6,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "offensive_personnel": [
           {
-            "fact": "Ohio State returned eight offensive starters: quarterback Julian Sayin, running back Bo Jackson, receivers Jeremiah Smith and Brandon Inniss, tackle Phillip Daniels, center Carson Hinzman, and guards Luke Montgomery and Austin Siereveld.",
-            "page": 2,
+            "fact": "Wide receiver Jeremiah Smith has 33 receptions for 617 yards and seven touchdowns through four games, leading the nation in receiving yards and tying for the touchdown lead.",
+            "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ohio State lost three offensive starters from 2025: guard Tegra Tshabola and tight ends Max Klare and Will Kacmarek.",
-            "page": 2,
+            "fact": "Smith is Ohio State's career receiving-yards leader with 3,175 yards and has 196 receptions and 34 receiving touchdowns.",
+            "page": 5,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Ohio State's offensive line returned 85.8 percent of its 2025 snaps among players who logged at least 100 snaps, the highest continuity rate in the Power Four.",
+            "fact": "Running back Bo Jackson has rushed for 283 yards at 5.70 yards per carry through the early 2026 season.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "After the Illinois game, Ohio State's starting offensive line had combined for 154 games played and 101 starts.",
+            "fact": "Ja'Kobi Jackson, a transfer from Florida, has averaged 6.6 yards per carry and scored five rushing touchdowns in four games.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ohio State returned four offensive-line starters: tackle Phillip Daniels, center Carson Hinzman and guards Luke Montgomery and Austin Siereveld.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ohio State entered the season with 85.8 percent offensive-line snap continuity, the highest rate among Power Four teams.",
             "page": 6,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ian Moore has started all four games this season at tackle, while Phillip Daniels started 13 games at tackle in 2025.",
-            "page": 19,
+            "fact": "The starting offensive line had combined for 154 games played and 101 starts after the Illinois game.",
+            "page": 6,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Transfer receiver Devin McCuin arrived from UTSA after recording 65 receptions for 726 yards and eight touchdowns in 2025.",
+            "fact": "Ian Moore has started all four 2026 games at tackle after making his first career start in 2025.",
             "page": 19,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Florida transfer Ja'Kobi Jackson has averaged 6.6 yards per carry and rushed for five touchdowns through four games.",
-            "page": 19,
+            "fact": "Ohio State lost both 2025 starting tight ends, Max Klare and Will Kacmarek; current tight-end options include Nate Roberts, Bennett Christian and Ohio transfer Mason Williams.",
+            "page": 2,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "The current tight end group includes Nate Roberts, Bennett Christian and Ohio transfer Mason Williams; Williams has 51 career receptions for 600 yards and six touchdowns.",
+            "fact": "Wide receiver Devin McCuin transferred from UTSA after recording 65 receptions for 726 yards and eight touchdowns in 2025.",
             "page": 19,
             "category": "offensive_personnel",
             "importance": "medium"
@@ -169,16 +181,28 @@
         ],
         "defensive_personnel": [
           {
-            "fact": "Ohio State returned three defensive starters from 2025: cornerback Jermaine Mathews Jr., defensive end Kenyatta Jackson Jr. and safety Jaylen McClain.",
+            "fact": "Ohio State returned only three defensive starters: cornerback Jermaine Mathews Jr., defensive end Kenyatta Jackson Jr. and safety Jaylen McClain.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Ohio State lost eight defensive starters: tackles Tywone Malone Jr. and Kayden McDonald, end Caden Curry, linebackers Arvell Reese and Sonny Styles, safeties Caleb Downs and Lorenzo Styles, and cornerback Devin Igbinosun.",
+            "fact": "Ohio State lost eight defensive starters from 2025, including both starting defensive tackles, two linebackers and three members of the secondary.",
             "page": 2,
             "category": "defensive_personnel",
             "importance": "high"
+          },
+          {
+            "fact": "The defensive front added transfers James Smith and Qua Russaw from Alabama, John Walker from UCF and Beau Atkinson from North Carolina.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Christian Alliegro transferred from Wisconsin with 141 career tackles and eight sacks.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "medium"
           },
           {
             "fact": "Safety Earl Little Jr., a Florida State transfer, leads Ohio State with 23 tackles this season.",
@@ -193,18 +217,6 @@
             "importance": "high"
           },
           {
-            "fact": "The defensive front added Alabama transfers James Smith and Qua Russaw, UCF transfer John Walker and returning North Carolina transfer Beau Atkinson.",
-            "page": 18,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Wisconsin transfer Christian Alliegro has 141 career tackles and eight sacks across 39 games and 15 starts.",
-            "page": 18,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
             "fact": "Cornerback Devin Sanchez recorded a career-high eight tackles and one tackle for loss at Texas.",
             "page": 18,
             "category": "defensive_personnel",
@@ -213,13 +225,13 @@
         ],
         "coaching_changes": [
           {
-            "fact": "Ohio State lists Arthur Smith as offensive coordinator, Matt Patricia as defensive coordinator and Robby Discher as special teams coordinator for 2026.",
+            "fact": "Arthur Smith is Ohio State's offensive coordinator, Matt Patricia is defensive coordinator and Robby Discher is special teams coordinator.",
             "page": 2,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Tyler Bowen is the run game coordinator and offensive line coach, while Billy Fessler is the pass game coordinator and quarterbacks coach.",
+            "fact": "Tyler Bowen serves as run game coordinator and offensive line coach, while Billy Fessler is pass game coordinator and quarterbacks coach.",
             "page": 2,
             "category": "coaching_changes",
             "importance": "medium"
@@ -228,40 +240,22 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Ohio State averages 45.0 points and 522.0 total yards per game, ranking sixth and eighth nationally, respectively.",
+            "fact": "Ohio State averages 45.0 points and 522.0 total yards per game through four games.",
             "page": 4,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ohio State ranks second nationally in passing offense at 365.3 yards per game and 76th in rushing offense at 156.8 yards per game.",
+            "fact": "Ohio State ranks second nationally in passing offense at 365.3 yards per game but averages 156.8 rushing yards per game.",
             "page": 4,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ohio State has exceeded 500 total yards in each of its three wins this season and has passed for at least 300 yards in all three wins.",
+            "fact": "Ohio State has exceeded 500 total yards in three games and 300 passing yards in three games this season.",
             "page": 5,
             "category": "offensive_context",
             "importance": "high"
-          },
-          {
-            "fact": "Jeremiah Smith has 33 receptions for a national-leading 617 yards and seven touchdowns through four games.",
-            "page": 5,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Smith is Ohio State's career receiving-yardage leader with 3,175 yards and needs 10 receptions and two touchdown catches to break the program's career records in those categories.",
-            "page": 5,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Bo Jackson has rushed for 283 yards through four games and is averaging 5.70 yards per carry.",
-            "page": 6,
-            "category": "offensive_context",
-            "importance": "medium"
           },
           {
             "fact": "Ohio State has converted 44.4 percent of its third downs and scored on 90.5 percent of its red-zone opportunities.",
@@ -272,34 +266,28 @@
         ],
         "defensive_context": [
           {
-            "fact": "Ohio State allows 12.3 points and 274.3 total yards per game, ranking 11th and 27th nationally, respectively.",
+            "fact": "Ohio State allows 12.3 points and 274.3 total yards per game.",
             "page": 4,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "The Buckeyes allow 160.3 passing yards and 114.0 rushing yards per game.",
+            "fact": "Ohio State allows 160.3 passing yards and 114.0 rushing yards per game.",
             "page": 4,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Ohio State has held two of four opponents below 300 total yards and three of four opponents to 20 points or fewer.",
-            "page": 5,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State has seven sacks, 22 tackles for loss and three interceptions through four games.",
+            "fact": "Ohio State has seven sacks, three interceptions and 22 tackles for loss through four games.",
             "page": 4,
             "category": "defensive_context",
             "importance": "medium"
           },
           {
-            "fact": "Since the start of the 2024 season, Ohio State has allowed 150.9 passing yards per game and has held opponents under 200 passing yards 15 times since the start of 2025.",
+            "fact": "Ohio State has held two of its four opponents to 300 or fewer total yards and three opponents to 20 or fewer points.",
             "page": 5,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "special_teams": [
@@ -324,7 +312,7 @@
             "importance": "medium"
           },
           {
-            "fact": "Ohio State has won both meetings with Iowa during Ryan Day's tenure, 54-10 in 2022 and 35-7 in 2024.",
+            "fact": "Ohio State has won both meetings with Iowa under Ryan Day, 54-10 in 2022 and 35-7 in 2024.",
             "page": 1,
             "category": "series_context",
             "importance": "medium"
@@ -332,392 +320,25 @@
         ],
         "other_relevant": [
           {
-            "fact": "The game is scheduled for Oct. 3 at 3:30 p.m. ET at Kinnick Stadium in Iowa City.",
+            "fact": "The game is scheduled for Oct. 3, 2026, at 3:30 p.m. ET at Kinnick Stadium in Iowa City.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Ohio State is 0-1 on the road in 2026 after a 24-23 loss at Texas.",
+            "fact": "Ohio State is 0-1 on the road and 0-1 against ranked opponents this season; Iowa is the Buckeyes' second ranked road opponent.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
           },
           {
-            "fact": "Under Ryan Day, Ohio State is 28-4 in road games since the start of 2019 and 27-3 in road Big Ten games.",
+            "fact": "Under Ryan Day since 2019, Ohio State is 28-4 in away games and 27-3 in road Big Ten games.",
             "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ohio State is 0-1 against ranked opponents in 2026, while Iowa will be its second ranked opponent of the season.",
-            "page": 5,
             "category": "other_relevant",
             "importance": "medium"
           }
         ],
         "source_file": "Ohio State.pdf"
-      },
-      {
-        "source_team": "Iowa Hawkeyes",
-        "opponent": "Ohio State Buckeyes",
-        "document_matches_upcoming_game": true,
-        "document_match_reason": "The guide identifies Game 5 as No. 14 Iowa versus No. 5/6 Ohio State on Oct. 3, 2026, at Kinnick Stadium and includes Ohio State-specific series and statistical comparisons.",
-        "recent_game": [
-          {
-            "fact": "Iowa improved to 4-0 with a 20-19 road victory over No. 18 Michigan in Week 4.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa drove 91 yards in 11 plays after taking possession at its own 9-yard line with 1:46 remaining, and Hank Brown threw a 16-yard touchdown to Reece Vander Zee as time expired.",
-            "page": 6,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Brown completed 21-of-35 passes for 227 yards and two touchdowns against Michigan, including 13-of-19 for 142 yards and two touchdowns in the fourth quarter.",
-            "page": 7,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Vander Zee caught five passes for 55 yards and two touchdowns against Michigan, with all five receptions producing first downs.",
-            "page": 6,
-            "category": "recent_game",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa's defense intercepted Michigan once and had Zach Lutmer, Cam Buffington and Landyn Van Kekerix record double-digit tackles.",
-            "page": 9,
-            "category": "recent_game",
-            "importance": "medium"
-          }
-        ],
-        "opponent_notes": [
-          {
-            "fact": "The matchup features No. 14 Iowa at 4-0 and No. 5/6 Ohio State at 3-1; both teams are 1-0 in Big Ten play.",
-            "page": 1,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State enters averaging 45.0 points and 522.0 total yards per game, including 365.3 passing yards per game.",
-            "page": 5,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State is allowing 12.3 points and 274.3 total yards per game, including 114.0 rushing yards and 160.3 passing yards per game.",
-            "page": 5,
-            "category": "opponent_notes",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State has thrown four interceptions and made three, while posting a plus-2 turnover margin.",
-            "page": 5,
-            "category": "opponent_notes",
-            "importance": "medium"
-          },
-          {
-            "fact": "Ohio State's offense has converted 44.4 percent of its third downs and 90.5 percent of its red-zone opportunities.",
-            "page": 5,
-            "category": "opponent_notes",
-            "importance": "medium"
-          }
-        ],
-        "quarterback": [
-          {
-            "fact": "Fourth-year quarterback Hank Brown was officially named Iowa's starter following the Week 3 victory over Northern Iowa.",
-            "page": 7,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Brown is 66-of-97 for 700 yards, five touchdowns and no interceptions through four games, completing 68.0 percent of his passes.",
-            "page": 18,
-            "category": "quarterback",
-            "importance": "high"
-          },
-          {
-            "fact": "Brown completed 12-of-12 passes for 153 yards and two touchdowns against Northern Iowa, tying Iowa's single-game completion-percentage record.",
-            "page": 7,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Brown guided Iowa to seven consecutive scoring drives spanning the end of the Iowa State game and the first half against Northern Iowa.",
-            "page": 7,
-            "category": "quarterback",
-            "importance": "medium"
-          }
-        ],
-        "offensive_personnel": [
-          {
-            "fact": "Iowa has four different 100-yard rushers in 2026: Kamari Moulton, Xavier Williams, Braeden Jackson and Nathan McNeil.",
-            "page": 7,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Tony Diaz, a transfer from UTRGV, leads Iowa with 20 receptions for 247 yards and one touchdown on 37 targets.",
-            "page": 2,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Reece Vander Zee has 11 receptions for 143 yards and two touchdowns, both scored in the Week 4 win at Michigan.",
-            "page": 2,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa's offensive line has three new starters: center Cael Winter, left guard Leighton Jones and right tackle Jack Dotzler each made his first career start in Week 1.",
-            "page": 2,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Returning offensive-line starters Kade Pieper and Trevor Lauck allowed zero sacks during the 2025 season, with Pieper allowing five pressures and Lauck six.",
-            "page": 8,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Addison Ostrenga has seven receptions for 70 yards and one touchdown after missing all but two games in 2025 because of an Achilles injury.",
-            "page": 2,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          }
-        ],
-        "defensive_personnel": [
-          {
-            "fact": "Linebacker Cam Buffington leads Iowa with 38 tackles, including 22 solo tackles and three tackles for loss, through four games.",
-            "page": 9,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Zach Lutmer moved from CASH to free safety in 2026 and has 20 tackles and a team-high four pass breakups.",
-            "page": 9,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Defensive back Deshaun Lee has two of Iowa's four interceptions this season.",
-            "page": 9,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Transfer defensive linemen Bryce Hawthorne and Kahmari Brown have combined for 17 tackles and one sack through four games.",
-            "page": 3,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa opened the season with eight new defensive starters.",
-            "page": 8,
-            "category": "defensive_personnel",
-            "importance": "high"
-          }
-        ],
-        "coaching_changes": [
-          {
-            "fact": "Iowa has three new assistant coaches in 2026: special-teams coordinator Chris Polizzi, running-backs coach Jay Norvell and quarterbacks coach Billy VandeMerkt.",
-            "page": 5,
-            "category": "coaching_changes",
-            "importance": "medium"
-          },
-          {
-            "fact": "VandeMerkt and Polizzi were Iowa analysts in 2025 before moving into their current roles.",
-            "page": 5,
-            "category": "coaching_changes",
-            "importance": "low"
-          },
-          {
-            "fact": "Tim Lester remains Iowa's offensive coordinator and calls the offense from the booth, while Phil Parker remains defensive coordinator and coaches from the field.",
-            "page": 4,
-            "category": "coaching_changes",
-            "importance": "medium"
-          }
-        ],
-        "injury_availability": [
-          {
-            "fact": "Running back Kamari Moulton missed the Week 3 game against Northern Iowa because of injury; he has played three games and has 284 rushing yards on 39 carries.",
-            "page": 8,
-            "category": "injury_availability",
-            "importance": "high"
-          },
-          {
-            "fact": "Tight end DJ Vonnahme missed the Week 3 game because of injury but played at Michigan in Week 4.",
-            "page": 6,
-            "category": "injury_availability",
-            "importance": "medium"
-          },
-          {
-            "fact": "Safety Tyler Brown missed the first two games because of injury, returned to start in Week 3 and made nine tackles at Michigan.",
-            "page": 3,
-            "category": "injury_availability",
-            "importance": "high"
-          },
-          {
-            "fact": "Running back L.J. Phillips missed the Week 3 game because of injury.",
-            "page": 7,
-            "category": "injury_availability",
-            "importance": "medium"
-          }
-        ],
-        "offensive_context": [
-          {
-            "fact": "Iowa is averaging 32.8 points and 429.0 total yards per game, including 215.5 rushing yards and 213.5 passing yards.",
-            "page": 16,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa has produced at least 500 total yards twice in 2026, its first season with multiple 500-yard games since 2006.",
-            "page": 7,
-            "category": "offensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Hawkeyes rushed for 298 yards against Northern Illinois and 422 yards against Northern Iowa.",
-            "page": 7,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa's offensive line has allowed three sacks through four games.",
-            "page": 8,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa is averaging 6.6 yards per play, has converted 39 percent of its third downs and has scored on 85 percent of its red-zone opportunities.",
-            "page": 16,
-            "category": "offensive_context",
-            "importance": "medium"
-          }
-        ],
-        "defensive_context": [
-          {
-            "fact": "Iowa leads the nation in scoring defense at 8.0 points per game and ranks 10th in total defense at 239.8 yards allowed per game.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "The Hawkeyes have allowed three touchdowns in four games and have not allowed a rushing touchdown.",
-            "page": 17,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa is allowing 87.8 rushing yards and 152.0 passing yards per game, with opponents averaging 4.1 yards per play.",
-            "page": 16,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Iowa has posted two shutouts, defeating Northern Illinois 40-0 and Northern Iowa 55-0.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "The defense has forced a punt on the opponent's opening possession in 10 consecutive games dating to 2025.",
-            "page": 1,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa has forced five turnovers, committed one turnover and owns a plus-4 turnover margin.",
-            "page": 9,
-            "category": "defensive_context",
-            "importance": "high"
-          }
-        ],
-        "special_teams": [
-          {
-            "fact": "Braeden Jackson returned a kickoff 99 yards for a touchdown at Michigan, Iowa's first kickoff return of 2026.",
-            "page": 10,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Evan James is averaging 18.6 yards on eight punt returns and returned a punt 77 yards for a touchdown against Northern Illinois.",
-            "page": 10,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Kicker Caden Buhr is 5-for-7 on field goals, including 5-for-5 from inside 50 yards and 0-for-2 from 50 yards or longer.",
-            "page": 10,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Punter Boston Everitt is averaging 43.5 yards on 19 punts, with 12 placed inside the 20-yard line.",
-            "page": 10,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa replaced its 2025 kicker, return specialist and punter; long snapper Ike Speltz is the only returning specialist who played in 2025.",
-            "page": 10,
-            "category": "special_teams",
-            "importance": "medium"
-          }
-        ],
-        "series_context": [
-          {
-            "fact": "Ohio State leads the all-time series 49-15-3 and has won 15 of the last 17 meetings.",
-            "page": 4,
-            "category": "series_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "This is Ohio State's first trip to Kinnick Stadium since Iowa's 55-24 victory over the No. 3 Buckeyes in 2017.",
-            "page": 1,
-            "category": "series_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Ohio State won the most recent meeting 35-7 in Columbus on Oct. 4, 2024.",
-            "page": 1,
-            "category": "series_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "This is the first Iowa-Ohio State meeting since 2006 in which both teams are ranked in the AP top 15.",
-            "page": 1,
-            "category": "series_context",
-            "importance": "medium"
-          }
-        ],
-        "other_relevant": [
-          {
-            "fact": "Iowa is 4-0 for the first time since 2021.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Iowa is 2-0 in games decided by three points or fewer in 2026, beating Iowa State 16-13 and Michigan 20-19.",
-            "page": 6,
-            "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "The Hawkeyes have an 87-46 advantage in first downs through four games.",
-            "page": 5,
-            "category": "other_relevant",
-            "importance": "low"
-          }
-        ],
-        "source_file": "Iowa.pdf"
       }
     ],
     "matchup_angles": [
@@ -757,8 +378,8 @@
     ],
     "used_sources": [
       {
-        "fact_id": 8,
-        "fact": "Iowa's defense allows opponents to convert 26.8 percent of third downs, ranking 12th nationally.",
+        "fact_id": 6,
+        "fact": "Iowa leads FBS in scoring defense at 8.0 points allowed per game and allows 239.8 total yards per game.",
         "page": 4,
         "category": "opponent_notes",
         "importance": "high",
@@ -766,8 +387,53 @@
         "source_team": "Ohio State Buckeyes"
       },
       {
-        "fact_id": 33,
-        "fact": "Ohio State ranks second nationally in passing offense at 365.3 yards per game and 76th in rushing offense at 156.8 yards per game.",
+        "fact_id": 7,
+        "fact": "Iowa allows 152.0 passing yards and 87.8 rushing yards per game.",
+        "page": 4,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Iowa has limited opponents to a .268 third-down conversion rate, 12th nationally.",
+        "page": 4,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 9,
+        "fact": "Iowa averages 429.0 total yards per game, including 215.5 rushing yards and 213.5 passing yards.",
+        "page": 4,
+        "category": "opponent_notes",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 12,
+        "fact": "Sayin has passed for 1,206 yards through four games in 2026.",
+        "page": 6,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 15,
+        "fact": "Wide receiver Jeremiah Smith has 33 receptions for 617 yards and seven touchdowns through four games, leading the nation in receiving yards and tying for the touchdown lead.",
+        "page": 5,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Ohio State.pdf",
+        "source_team": "Ohio State Buckeyes"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Ohio State averages 45.0 points and 522.0 total yards per game through four games.",
         "page": 4,
         "category": "offensive_context",
         "importance": "high",
@@ -775,40 +441,13 @@
         "source_team": "Ohio State Buckeyes"
       },
       {
-        "fact_id": 35,
-        "fact": "Jeremiah Smith has 33 receptions for a national-leading 617 yards and seven touchdowns through four games.",
-        "page": 5,
-        "category": "offensive_context",
+        "fact_id": 38,
+        "fact": "Ohio State allows 12.3 points and 274.3 total yards per game.",
+        "page": 4,
+        "category": "defensive_context",
         "importance": "high",
         "source_file": "Ohio State.pdf",
         "source_team": "Ohio State Buckeyes"
-      },
-      {
-        "fact_id": 89,
-        "fact": "Iowa leads the nation in scoring defense at 8.0 points per game and ranks 10th in total defense at 239.8 yards allowed per game.",
-        "page": 1,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Iowa.pdf",
-        "source_team": "Iowa Hawkeyes"
-      },
-      {
-        "fact_id": 90,
-        "fact": "The Hawkeyes have allowed three touchdowns in four games and have not allowed a rushing touchdown.",
-        "page": 17,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Iowa.pdf",
-        "source_team": "Iowa Hawkeyes"
-      },
-      {
-        "fact_id": 91,
-        "fact": "Iowa is allowing 87.8 rushing yards and 152.0 passing yards per game, with opponents averaging 4.1 yards per play.",
-        "page": 16,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Iowa.pdf",
-        "source_team": "Iowa Hawkeyes"
       }
     ],
     "model_context": {
@@ -819,9 +458,9 @@
       "model_prediction": 9.0,
       "market_line": 14.5,
       "best_available_line": 14.5,
-      "best_available_price": "-110",
+      "best_available_price": "-105",
       "cover_probability": 0.62497466,
-      "edge": 0.1011651361904761,
+      "edge": 0.1127795380487804,
       "bet_status": "BET"
     }
   }

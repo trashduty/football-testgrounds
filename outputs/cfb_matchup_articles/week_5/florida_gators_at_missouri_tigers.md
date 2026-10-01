@@ -7,17 +7,15 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Florida Gators | -5.5 (-105) | DraftKings | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Missouri Tigers | +5.5 (-110) | BetRivers | 52.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Missouri Tigers | +5.5 (-105) | theScore Bet | 52.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Florida Gators visit the Missouri Tigers at Memorial Stadium. We make **Missouri +5**, compared with a market line of +5.5.
 
-The best number we found is Missouri +5.5 at -110. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Missouri +5.5 at -105. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
-The market is asking Missouri to create slightly more separation than our model expects, and Florida’s rushing offense is the clearest reason for that difference. Jadan Baugh produced 458 yards and eight rushing touchdowns through three games, while Florida’s six consecutive scoring drives at Auburn showed it could sustain offense on the road. We are not treating one performance as proof, but the underlying rushing efficiency gives Florida a credible way to shorten the game and avoid obvious passing situations.
-
-The counter is Missouri’s ability to prevent scoring opportunities and limit efficient passing, two areas that challenge Florida’s offense beyond the ground game. We also note that Missouri entered the season with only two returning defensive starters after losing 10, which adds some uncertainty to how sustainable that early defensive profile will be. Our numbers still favor Missouri, but the football case for Florida staying competitive is strong enough to narrow the expected margin—not strong enough to create value at the available price.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-For us, Florida’s rushing offense against Missouri’s run defense is the matchup that can shape the spread. Our numbers rate the ground game as Florida’s clearest offensive advantage, while Missouri has been less convincing against the run than in overall scoring-opportunity prevention. If Florida keeps Baugh productive and stays on schedule, Missouri may have fewer chances to lean on its stronger pass defense; if Missouri controls early downs, the matchup shifts toward the home side’s defensive strengths.
 
 ## Best Bets Of The Week
 

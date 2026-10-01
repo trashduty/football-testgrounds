@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Southern Eagles | -2.5 (-108) | BetMGM | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Coastal Carolina Chanticleers | +2.5 (-110) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Southern Eagles | -2.5 (-110) | BetMGM | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Coastal Carolina Chanticleers | +2.5 (-109) | BetRivers | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Georgia Southern Eagles visit the Coastal Carolina Chanticleers at Brooks Stadium (SC). We make **Georgia Southern -3.5**, compared with a market line of -2.5.
 
-The best number we found is Georgia Southern -2.5 at -108. We see a -0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia Southern -2.5 at -110. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Louisville Cardinals | -3.5 (-108) | Caesars | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| NC State Wolfpack | +3.5 (-105) | Fanatics | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| NC State Wolfpack | +3.5 (-105) | FanDuel | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 

@@ -1,6 +1,6 @@
 Our model is 3 points away from the market on Marshall-James Madison.
 
-We make James Madison -21.5. The market is -18.5.
+We make James Madison -22. The market is -19.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

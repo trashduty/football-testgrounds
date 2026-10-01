@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Vanderbilt Commodores | +24.5 (-112) | DraftKings | 56.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Georgia Bulldogs | -24.5 (+100) | theScore Bet | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Vanderbilt Commodores | +25.5 (-110) | theScore Bet | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Georgia Bulldogs | -25.5 (+100) | Caesars | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Vanderbilt Commodores visit the Georgia Bulldogs at Sanford Stadium. We make **Vanderbilt +21.5**, compared with a market line of +24.5.
+The Vanderbilt Commodores visit the Georgia Bulldogs at Sanford Stadium. We make **Vanderbilt +22**, compared with a market line of +25.
 
-The best number we found is Vanderbilt +24.5 at -112. We give Vanderbilt a 56.3% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
+The best number we found is Vanderbilt +25.5 at -110. We give Vanderbilt a 57.0% chance to cover, which creates an 4.6% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

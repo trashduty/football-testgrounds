@@ -2,109 +2,141 @@
   "game": "Florida Gators@Missouri Tigers",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T14:40:18.972561+00:00",
+  "generated_at_utc": "2026-10-01T02:30:51.434584+00:00",
   "model_prediction": 5.0,
   "market_line": 5.5,
   "best_line": 5.5,
-  "best_price": "-110",
-  "best_book": "BetRivers",
+  "best_price": "-105",
+  "best_book": "theScore Bet",
   "cover_probability": 0.52227278,
-  "edge": -0.0015367438095238,
+  "edge": 0.0100776580487804,
   "bet_short": "Missouri",
   "guide_enrichment": {
-    "enabled": true,
-    "narrative": "The market is asking Missouri to create slightly more separation than our model expects, and Florida\u2019s rushing offense is the clearest reason for that difference. Jadan Baugh produced 458 yards and eight rushing touchdowns through three games, while Florida\u2019s six consecutive scoring drives at Auburn showed it could sustain offense on the road. We are not treating one performance as proof, but the underlying rushing efficiency gives Florida a credible way to shorten the game and avoid obvious passing situations.\n\nThe counter is Missouri\u2019s ability to prevent scoring opportunities and limit efficient passing, two areas that challenge Florida\u2019s offense beyond the ground game. We also note that Missouri entered the season with only two returning defensive starters after losing 10, which adds some uncertainty to how sustainable that early defensive profile will be. Our numbers still favor Missouri, but the football case for Florida staying competitive is strong enough to narrow the expected margin\u2014not strong enough to create value at the available price.",
-    "matchup_to_watch": "For us, Florida\u2019s rushing offense against Missouri\u2019s run defense is the matchup that can shape the spread. Our numbers rate the ground game as Florida\u2019s clearest offensive advantage, while Missouri has been less convincing against the run than in overall scoring-opportunity prevention. If Florida keeps Baugh productive and stays on schedule, Missouri may have fewer chances to lean on its stronger pass defense; if Missouri controls early downs, the matchup shifts toward the home side\u2019s defensive strengths.",
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
     "guide_status": [
       "Found guide for Florida Gators: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida.pdf",
-      "Guide for Florida Gators was found but may not match the current opponent. The guide is Florida's Week 4 game notes for the September 26, 2026 home game against No. 4 Ole Miss. Florida's schedule lists the road game at No. 19 Missouri on October 3 as Week 5, but the guide's matchup information, opponent statistics and series notes are for Ole Miss.",
+      "Loaded guide for Florida Gators: Florida.pdf",
       "Found guide for Missouri Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
-      "Guide for Missouri Tigers was found but may not match the current opponent. The guide is Missouri's Game 2 notes for the September 11, 2026 road game against Kansas, as stated on page 1, and its depth chart is explicitly labeled for Kansas on page 11. Florida appears only on the season schedule as Missouri's October 3 home SEC opponent."
+      "Guide for Missouri Tigers was found but may not match the current opponent. The guide is for Missouri's Sept. 11, 2026 road game against Kansas (Game 2), not the Oct. 3 home game against Florida listed later on Missouri's schedule.",
+      "Narrative generation failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
     ],
     "guide_extractions": [
       {
         "source_team": "Florida Gators",
         "opponent": "Missouri Tigers",
-        "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is Florida's Week 4 game notes for the September 26, 2026 home game against No. 4 Ole Miss. Florida's schedule lists the road game at No. 19 Missouri on October 3 as Week 5, but the guide's matchup information, opponent statistics and series notes are for Ole Miss.",
+        "document_matches_upcoming_game": true,
+        "document_match_reason": "The guide identifies Game 5 as No. 8 Florida at No. 25 Missouri on October 3, 2026, in Columbia and includes Week 5 matchup statistics and series notes.",
         "recent_game": [
           {
-            "fact": "Florida improved to 3-0 and 1-0 in SEC play with a 44-39 road win at Auburn on September 19.",
+            "fact": "Florida defeated No. 4 Ole Miss 52-28 in Week 4 to improve to 4-0 overall and 2-0 in SEC play.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Florida produced six consecutive scoring drives from the first quarter through the third quarter at Auburn, with five consecutive drives covering at least 65 yards.",
+            "fact": "Florida rushed for 302 yards against Ole Miss, its most in a game since September 9, 2023 and its most against an SEC opponent since November 11, 2022.",
             "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Jadan Baugh rushed for 162 yards at Auburn, his fourth consecutive 100-yard rushing game.",
+            "fact": "Florida scored touchdowns on five consecutive second-half possessions against Ole Miss, excluding the end-of-game clock runout.",
             "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Aaron Philo completed 15 of 22 passes for 204 yards, one touchdown and one interception in his first road game as a Gator.",
-            "page": 4,
+            "fact": "Jadan Baugh carried 29 times for 142 yards and three touchdowns against Ole Miss.",
+            "page": 3,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Florida recorded seven sacks at Auburn after totaling four sacks over its first two games.",
+            "fact": "Jadan Baugh and Duke Clark both surpassed 100 rushing yards against Ole Miss, with Baugh gaining 142 and Clark 126.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida's defense intercepted Ole Miss quarterback Trinidad Chambliss and forced and recovered a fumble against him.",
             "page": 7,
             "category": "recent_game",
             "importance": "high"
-          },
+          }
+        ],
+        "opponent_notes": [
           {
-            "fact": "Florida held Auburn to minus-3 total yards, no first downs and an 0-for-4 passing line with one interception in the first quarter.",
-            "page": 7,
-            "category": "recent_game",
+            "fact": "Missouri enters the matchup ranked No. 25 with a 3-1 overall record and an 0-1 SEC record.",
+            "page": 1,
+            "category": "opponent_notes",
             "importance": "high"
           },
           {
-            "fact": "Jayden Woods had six tackles, 3.5 tackles for loss and 2.5 sacks at Auburn.",
-            "page": 6,
-            "category": "recent_game",
-            "importance": "medium"
+            "fact": "Missouri averages 418.8 total yards and 35.8 points per game, including 263.0 passing yards and 155.8 rushing yards per game.",
+            "page": 17,
+            "category": "opponent_notes",
+            "importance": "high"
           },
           {
-            "fact": "Cormani McClain intercepted Auburn's second pass attempt on its opening drive.",
-            "page": 8,
-            "category": "recent_game",
+            "fact": "Missouri quarterback Austin Simmons has passed for 947 yards with 11 touchdowns and no interceptions.",
+            "page": 17,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri running back Jamal Roberts has 89 carries for 395 yards and three touchdowns.",
+            "page": 17,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri's leading receivers are Cayden Lee with 27 catches for 412 yards and four touchdowns and Donovan Olugbode with 20 catches for 313 yards and five touchdowns.",
+            "page": 17,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri allows 318.5 total yards and 19.3 points per game, including 100.3 rushing yards and 218.3 passing yards per game.",
+            "page": 17,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri has recorded 12 sacks through four games, led by Daeden Hopkins with 6.0 sacks and 6.5 tackles for loss.",
+            "page": 17,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri has allowed four sacks through four games, an average of 1.0 per game.",
+            "page": 17,
+            "category": "opponent_notes",
             "importance": "medium"
           }
         ],
-        "opponent_notes": [],
         "quarterback": [
           {
-            "fact": "Aaron Philo completed 47 of 64 passes for 721 yards, six touchdowns and two interceptions through Florida's first three games.",
+            "fact": "Florida quarterback Aaron Philo is 5-0 as a collegiate starter and has completed at least 68 percent of his passes with at least one touchdown pass in every game this season.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Philo completed at least 68 percent of his passes, threw for at least 200 yards and recorded a passing touchdown in each of his first three games of 2026.",
+            "fact": "Philo has completed 63 of 87 passes for 917 yards, seven touchdowns and two interceptions while adding three rushing touchdowns.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Philo also scored two rushing touchdowns through three games.",
+            "fact": "Philo is completing 72.4 percent of his passes and averages 10.54 yards per attempt and 14.56 yards per completion.",
             "page": 4,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Florida entered 2026 with only two combined career collegiate starts among its five quarterbacks.",
-            "page": 4,
-            "category": "quarterback",
-            "importance": "medium"
-          },
-          {
-            "fact": "Florida lost 92.2 percent of its 2025 passing yardage following DJ Lagway's departure.",
+            "fact": "Florida entered 2026 having lost 92.2 percent of its 2025 passing production following DJ Lagway's departure.",
             "page": 5,
             "category": "quarterback",
             "importance": "medium"
@@ -112,119 +144,101 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Florida's starting offensive line in each of its first three games was LT Bryce Lovett, LG Knijeah Harris, C Harrison Moore, RG TJ Shanahan Jr. and RT Emeka Ugorji.",
+            "fact": "Florida's starting offensive line in each of the first four games was left tackle Bryce Lovett, left guard Knijeah Harris, center Harrison Moore, right guard TJ Shanahan Jr. and right tackle Emeka Ugorji.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Florida is replacing three of five offensive-line starters after center Jake Slaughter and tackle Austin Barber were selected in the second and third rounds of the NFL Draft.",
+            "fact": "Florida replaced three of five offensive-line starters after center Jake Slaughter and tackle Austin Barber departed for the NFL Draft.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Knijeah Harris entered Week 4 with 28 consecutive starts for Florida, the longest active streak on the roster.",
+            "fact": "Florida's offensive line has allowed two sacks, four quarterback hurries and 14 tackles for loss through four games.",
             "page": 4,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Center Harrison Moore played a team-high 184 offensive-line snaps through three games and allowed one hurry and one pressure.",
-            "page": 4,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Jadan Baugh had 54 carries for 458 yards and eight rushing touchdowns through three games.",
-            "page": 17,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Florida returned 77.8 percent of its 2025 rushing yardage, including leading rusher Baugh, but lost 53.4 percent of its receiving yardage.",
-            "page": 5,
+            "fact": "Against Ole Miss, Florida's offensive line allowed no sacks, one tackle for loss and one quarterback hurry.",
+            "page": 4,
             "category": "offensive_personnel",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Vernell Brown III led Florida through three games with 14 receptions for 246 yards and two receiving touchdowns; Dallas Wilson was second with 12 catches for 225 yards and two touchdowns.",
+            "fact": "Jadan Baugh has 83 carries for 600 yards and 11 touchdowns, averaging 7.2 yards per carry and 150.0 rushing yards per game.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Vernell Brown III leads Florida with 17 receptions for 271 yards and two receiving touchdowns, while Dallas Wilson has 14 catches for 236 yards and two touchdowns.",
             "page": 5,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Florida added transfer wide receivers Eric Singleton Jr., Bailey Stockton, Micah Mays Jr., Jaylen Lloyd and Ace Ciongoli for 2026.",
+            "fact": "Florida added transfer receivers Eric Singleton Jr., Bailey Stockton, Micah Mays Jr., Jaylen Lloyd and Ace Ciongoli for 2026.",
             "page": 5,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Florida added transfer tight ends Luke Harpring, Lacota Dippre and Evan Chieca; returning tight end Amir Jackson made his first three career starts in Weeks 1-3.",
-            "page": 4,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Linebacker Myles Graham led Florida with 20 tackles through three games.",
+            "fact": "Linebacker Myles Graham leads Florida with 28 tackles and has missed one tackle across 214 snaps this season.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Jayden Woods totaled 15 tackles, four tackles for loss and three sacks through three games.",
+            "fact": "Edge defender Jayden Woods has 19 tackles, 6.0 tackles for loss and 4.0 sacks through four games.",
             "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Florida returned its top three sack producers from 2025: Jayden Woods, Kamran James and Brendan Bett.",
-            "page": 7,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Transfer defensive lineman Emmanuel Oyebadejo recorded 2.5 sacks, three quarterback hurries and two pass breakups over his first 61 snaps for Florida.",
-            "page": 7,
+            "fact": "Woods has 5.5 tackles for loss, 3.5 sacks, one forced fumble and one quarterback hurry through Florida's first two SEC games.",
+            "page": 6,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Florida started safeties Bryce Thornton and Baylor transfer DJ Coleman together in each of its first three games.",
+            "fact": "Transfer safety DJ Coleman has started all four games and has two interceptions, including the fourth-quarter interception that sealed the win over Ole Miss.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida returned 2025 starting cornerbacks Dijon Johnson and Cormani McClain; each has recorded an interception this season.",
             "page": 8,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Florida returned 2025 starting cornerbacks Dijon Johnson and Cormani McClain for their senior seasons.",
-            "page": 8,
-            "category": "defensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Sophomore cornerback Ja'Vari Flowers allowed five catches for 56 yards on 10 targets through three games and led Florida with three pass breakups.",
-            "page": 8,
+            "fact": "Transfer defensive lineman Emmanuel Oyebadejo has 2.5 sacks, three quarterback hurries and two pass breakups in three games.",
+            "page": 7,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Jon Sumrall was named Florida's head coach on November 30, 2025 and began his first Florida season 3-0.",
-            "page": 10,
+            "fact": "Jon Sumrall is in his first season as Florida's head coach and has started 4-0 overall and 2-0 in SEC play.",
+            "page": 1,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Buster Faulkner is in his first season as Florida's offensive coordinator after serving as Georgia Tech's offensive coordinator from 2023-25; Florida lists him as coaching from the booth.",
-            "page": 3,
+            "fact": "Buster Faulkner is in his first season as Florida's offensive coordinator after serving as Georgia Tech's offensive coordinator from 2023 through 2025.",
+            "page": 12,
             "category": "coaching_changes",
             "importance": "high"
           },
           {
-            "fact": "Brad White is in his first season as Florida's defensive coordinator after serving as Kentucky's defensive coordinator and outside linebackers coach from 2019-25.",
+            "fact": "Brad White is in his first season as Florida's defensive coordinator after seven seasons as Kentucky's defensive coordinator from 2019 through 2025.",
             "page": 13,
             "category": "coaching_changes",
             "importance": "high"
@@ -232,107 +246,77 @@
         ],
         "injury_availability": [
           {
-            "fact": "Defensive lineman Emmanuel Oyebadejo was a game-time decision against Auburn but played and recorded three tackles, 2.5 sacks, one pass breakup and one quarterback hurry.",
+            "fact": "Florida states that linebacker LJ McCray is back healthy after appearing in only one game during the 2025 season; he returned in Week 1 after 364 days away from game action.",
             "page": 7,
             "category": "injury_availability",
-            "importance": "high"
+            "importance": "medium"
           },
           {
-            "fact": "Linebacker LJ McCray returned in Week 1 after 364 days away from game action; the guide states he was healthy entering Week 4.",
-            "page": 7,
-            "category": "injury_availability",
-            "importance": "high"
-          },
-          {
-            "fact": "Defensive lineman Kamran James missed most of fall camp but played in the opener and recorded two tackles for loss, one sack, one forced fumble and one quarterback hurry.",
-            "page": 7,
+            "fact": "Dallas Wilson, who missed the final four games of 2025 due to injury, has played in 2026 and enters Week 5 with 14 receptions for 236 yards and two touchdowns.",
+            "page": 5,
             "category": "injury_availability",
             "importance": "medium"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Florida averaged 544.3 total yards and 54.0 points per game through three games.",
+            "fact": "Florida averages 532.8 total yards and 53.5 points per game, including 260.0 rushing yards and 272.8 passing yards per game.",
             "page": 17,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida averaged 246.0 rushing yards and 298.3 passing yards per game through three games.",
-            "page": 17,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Florida scored at least 44 points in each of its first three games and surpassed 50 points twice.",
-            "page": 1,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Florida recorded at least 12 explosive plays in each of its first three games, totaling 41, and produced six touchdown drives lasting three plays or fewer.",
+            "fact": "Florida has scored on 33 of 42 drives this season when end-of-game clock runouts are excluded.",
             "page": 3,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida rushed for at least 200 yards in four consecutive games and at least 100 yards in nine consecutive games dating to 2025.",
-            "page": 4,
+            "fact": "Florida has produced at least 12 explosive plays in each of its first four games, totaling 53 explosive plays and seven touchdown drives of three plays or fewer.",
+            "page": 3,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Florida allowed two sacks, three quarterback hurries and 13 tackles for loss through three games.",
+            "fact": "Florida has rushed for at least 200 yards in five consecutive games dating to the end of the 2025 season.",
             "page": 4,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida scored on every red-zone possession through its first three games.",
+            "fact": "Florida has scored at least 44 points in each of its first four games and has exceeded 50 points three times.",
             "page": 1,
             "category": "offensive_context",
-            "importance": "medium"
+            "importance": "high"
           }
         ],
         "defensive_context": [
           {
-            "fact": "Florida allowed 326.3 total yards and 21.0 points per game through three games.",
+            "fact": "Florida allows 351.3 total yards and 22.8 points per game, including 103.0 rushing yards and 248.3 passing yards per game.",
             "page": 17,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida allowed 94.7 rushing yards and 231.7 passing yards per game through three games.",
-            "page": 17,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Florida recorded 11 sacks and 23 tackles for loss through three games.",
-            "page": 17,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Florida forced a takeaway in each of its first three games and in 25 of 28 games dating to the start of 2025.",
+            "fact": "Florida has 12 sacks through four games, including seven sacks at Auburn.",
             "page": 7,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Florida had six takeaways, including three interceptions, through three games.",
-            "page": 17,
+            "fact": "Florida ranks second in SEC play with eight sacks and 13 tackles for loss through its first two conference games.",
+            "page": 7,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Florida recorded an interception in 11 of its previous 13 games, totaling 13 interceptions in that span.",
-            "page": 8,
+            "fact": "Florida has recorded a takeaway in each of its first four games and has eight takeaways this season.",
+            "page": 7,
             "category": "defensive_context",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Florida forced four fumbles through three games, including two during goal-line stands.",
+            "fact": "Opponents have failed to score a touchdown on any of their first three possessions against Florida this season.",
             "page": 7,
             "category": "defensive_context",
             "importance": "medium"
@@ -340,40 +324,77 @@
         ],
         "special_teams": [
           {
-            "fact": "Florida replaced its starting punter, kicker and long snapper with transfers Patrick Durkin, Alec Clark and Carter Milliron.",
-            "page": 9,
-            "category": "special_teams",
-            "importance": "high"
-          },
-          {
-            "fact": "Patrick Durkin made a career-long 53-yard field goal in his Florida debut and had 23 touchbacks through three games.",
+            "fact": "Florida replaced all three primary specialists with transfers Patrick Durkin at kicker, Alec Clark at punter and Carter Milliron at long snapper.",
             "page": 9,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "Vernell Brown III returned consecutive punts for touchdowns of 64 and 70 yards against Campbell and set a Florida single-game record with 173 punt-return yards.",
+            "fact": "Florida leads the FBS in net punting at 49.0 yards despite attempting only five punts through four games.",
             "page": 9,
             "category": "special_teams",
             "importance": "high"
           },
           {
-            "fact": "Florida averaged 31.5 yards per punt return and 44.0 net yards per punt through three games.",
+            "fact": "Vernell Brown III averages 34.6 yards per punt return and has returned two punts for touchdowns.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "London Montgomery returned three kickoffs for 128 yards against Ole Miss, including a 74-yard return.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Patrick Durkin is 33-for-38 on career field goals, including 11-for-13 from at least 40 yards and 5-for-7 from at least 50 yards.",
             "page": 9,
             "category": "special_teams",
             "importance": "medium"
           }
         ],
-        "series_context": [],
-        "other_relevant": [
+        "series_context": [
           {
-            "fact": "Florida was 3-0 overall and 1-0 in SEC play through Week 3, its first 3-0 start since 2019.",
+            "fact": "Missouri leads the all-time series 7-6 and leads 4-2 in games played in Columbia.",
             "page": 1,
-            "category": "other_relevant",
+            "category": "series_context",
             "importance": "medium"
           },
           {
-            "fact": "Florida's Week 5 game at No. 19 Missouri was scheduled for October 3, 2026, with kickoff time listed as TBA.",
+            "fact": "Missouri won the most recent meeting 33-31 in Columbia on November 18, 2023.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The last three Florida-Missouri games were decided by a combined 10 points: Missouri 33-31 in 2023, Florida 24-17 in 2022 and Missouri 24-23 in overtime in 2021.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "This is only the second meeting in which Florida and Missouri are both ranked and the first such meeting since 2013.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida's most recent win at Missouri was a 23-6 victory on November 16, 2019.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "low"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The matchup is scheduled for October 3, 2026 at 3:30 p.m. ET at Faurot Field in Columbia, Missouri.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida enters ranked No. 8 with a 4-0 record, including a 1-0 road record and a 2-0 SEC record.",
             "page": 1,
             "category": "other_relevant",
             "importance": "high"
@@ -385,62 +406,55 @@
         "source_team": "Missouri Tigers",
         "opponent": "Florida Gators",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is Missouri's Game 2 notes for the September 11, 2026 road game against Kansas, as stated on page 1, and its depth chart is explicitly labeled for Kansas on page 11. Florida appears only on the season schedule as Missouri's October 3 home SEC opponent.",
+        "document_match_reason": "The guide is for Missouri's Sept. 11, 2026 road game against Kansas (Game 2), not the Oct. 3 home game against Florida listed later on Missouri's schedule.",
         "recent_game": [
           {
-            "fact": "Missouri opened the 2026 season with a 54-14 victory over Arkansas-Pine Bluff on September 3.",
-            "page": 4,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri produced 562 total yards against Arkansas-Pine Bluff, including 357 passing and 205 rushing, while allowing 198 total yards.",
-            "page": 3,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri led Arkansas-Pine Bluff 40-0 at halftime and held a 376-6 yardage advantage through the first two quarters.",
-            "page": 4,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri converted 6 of 10 third downs, both fourth-down attempts and all five red-zone possessions against Arkansas-Pine Bluff.",
+            "fact": "Missouri opened the 2026 season with a 54-14 win over Arkansas-Pine Bluff on Sept. 3.",
             "page": 18,
             "category": "recent_game",
-            "importance": "medium"
-          }
-        ],
-        "opponent_notes": [
+            "importance": "high"
+          },
           {
-            "fact": "Missouri's schedule lists Florida as a home SEC opponent on October 3, 2026; Florida was receiving votes in both major polls when these notes were issued.",
-            "page": 1,
-            "category": "opponent_notes",
+            "fact": "Missouri produced 562 total yards, including 357 passing and 205 rushing, and converted 6 of 10 third downs against Arkansas-Pine Bluff.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri led Arkansas-Pine Bluff 40-0 at halftime after outgaining the Golden Lions 376-6 in the first half.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri's defense held Arkansas-Pine Bluff to 198 total yards, 13 first downs and a 3-of-13 third-down conversion rate.",
+            "page": 18,
+            "category": "recent_game",
             "importance": "high"
           }
         ],
+        "opponent_notes": [],
         "quarterback": [
           {
-            "fact": "Ole Miss transfer Austin Simmons started the opener and completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions.",
+            "fact": "Ole Miss transfer Austin Simmons started Missouri's opener and completed 17 of 19 passes for 252 yards, four touchdowns and no interceptions.",
             "page": 4,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Simmons' 89.5 completion percentage and 270.4 passer rating were Missouri records for a quarterback making his Tigers debut.",
+            "fact": "Simmons' 89.5% completion rate and 270.4 passer rating were the highest by a quarterback in a Missouri debut.",
             "page": 4,
             "category": "quarterback",
             "importance": "medium"
           },
           {
-            "fact": "Simmons is the seventh quarterback to start for Missouri during Eli Drinkwitz's tenure and the third transfer quarterback.",
-            "page": 4,
+            "fact": "Missouri's depth chart lists Austin Simmons as the starting quarterback and sophomore Matt Zollers as the backup.",
+            "page": 11,
             "category": "quarterback",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Sophomore Matt Zollers was listed as Simmons' backup and completed 8 of 12 passes for 87 yards while adding a five-yard rushing touchdown in the opener.",
+            "fact": "Zollers completed 8 of 12 passes for 87 yards and scored his first collegiate rushing touchdown in the opener.",
             "page": 3,
             "category": "quarterback",
             "importance": "medium"
@@ -448,32 +462,14 @@
         ],
         "offensive_personnel": [
           {
-            "fact": "Missouri's listed first-team offensive line was LT Cayden Green, LG Tristan Wilson, C Dominick Giudice, RG Curtis Peagler and RT Luke Work.",
+            "fact": "Missouri's listed starting offensive line is LT Cayden Green, LG Tristan Wilson, C Dominick Giudice, RG Curtis Peagler and RT Luke Work.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Green, Giudice and Peagler returned from the 2025 starting offensive line, while center Connor Tollison and tackle Keagen Trost were among the departed starters.",
+            "fact": "Missouri returned five offensive starters from 2025 but lost six, including quarterback Beau Pribula, center Connor Tollison and offensive tackle Keagen Trost.",
             "page": 14,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Cayden Green recorded no participation in the season opener despite being listed as the first-team left tackle on the subsequent depth chart.",
-            "page": 9,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Running back Jamal Roberts started the opener and led Missouri with 13 carries for 47 yards and one touchdown.",
-            "page": 3,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Returning 1,649-yard rusher Ahmad Hardy recorded no participation in the season opener.",
-            "page": 9,
             "category": "offensive_personnel",
             "importance": "high"
           },
@@ -484,53 +480,65 @@
             "importance": "high"
           },
           {
-            "fact": "Sophomore receiver Donovan Olugbode set career highs with seven receptions, 107 yards and two touchdowns in the opener.",
+            "fact": "Sophomore receiver Donovan Olugbode recorded his first career 100-yard receiving game and caught two touchdown passes in the opener.",
             "page": 4,
             "category": "offensive_personnel",
             "importance": "high"
+          },
+          {
+            "fact": "Jamal Roberts is listed as Missouri's starting running back and rushed 13 times for 47 yards and one touchdown in the opener.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Brett Norfleet returned after leading Missouri with five receiving touchdowns in 2025.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Missouri entered 2026 with two returning defensive starters and 10 lost defensive starters.",
+            "fact": "Missouri returned only two defensive starters from 2025 and lost 10, including defensive linemen Chris McClellan and Zion Young, linebackers Josiah Trotter and Tristan Newson, and cornerbacks Toriano Pride Jr. and Drey Norwood.",
             "page": 15,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Linebacker Nicholas Rodriguez and safety Santana Banner ranked second and third on Missouri in tackles in 2025 and returned for 2026.",
+            "fact": "Transfer linebacker Robert Woodyard Jr. and transfer cornerback Chris Graves Jr. are listed as starters on Missouri's depth chart.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Woodyard started 11 games for Auburn in 2025 and recorded 67 tackles, including 50 in conference play.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Defensive tackles Marquis Gracial and Sterling Webb returned after combining for 6.0 tackles for loss in 2025; Webb also had 2.5 sacks and six quarterback hurries.",
+            "fact": "Graves appeared in 41 games over three seasons at Ole Miss and started nine games in 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Returning defensive tackles Marquis Gracial and Sterling Webb combined for 6.0 tackles for loss in 2025; Webb also recorded 2.5 sacks and six quarterback hurries.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Edge defender Darris Smith returned after recording 4.0 sacks as a pass-rush specialist in 2025 and was listed as a first-team JACK for 2026.",
+            "fact": "Darris Smith, listed as the starting JACK defender, recorded 4.0 sacks as a pass-rush specialist in 2025.",
             "page": 5,
             "category": "defensive_personnel",
             "importance": "medium"
-          },
-          {
-            "fact": "Auburn transfer Robert Woodyard Jr. started at middle linebacker after making 11 starts and recording 67 tackles for Auburn in 2025.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Ole Miss transfer Chris Graves Jr. started at cornerback after appearing in 41 games with nine starts for the Rebels over the previous three seasons.",
-            "page": 5,
-            "category": "defensive_personnel",
-            "importance": "high"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Chip Lindsey joined Missouri as offensive coordinator in December 2025 and is in his first season in the role.",
+            "fact": "Chip Lindsey joined Missouri as offensive coordinator in December 2025 after previous offensive coordinator roles at Michigan, North Carolina, Auburn, Arizona State, UCF and Southern Miss.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "high"
@@ -542,19 +550,19 @@
             "importance": "high"
           },
           {
-            "fact": "John Papuchis became Missouri's special teams coordinator and defensive assistant in January 2026 after six seasons coordinating Florida State's special teams.",
+            "fact": "John Papuchis was named Missouri's special-teams coordinator and defensive assistant in January 2026 after six seasons at Florida State.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Derek Nicholson added co-defensive coordinator duties before the 2026 season while continuing to coach linebackers.",
+            "fact": "Derek Nicholson added co-defensive coordinator to his linebackers coaching responsibilities before the 2026 season.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
           },
           {
-            "fact": "Alex Atkins joined Missouri in January 2026 as tight ends coach, and Chop Harbin joined as defensive line coach.",
+            "fact": "Alex Atkins joined Missouri as tight ends coach in January 2026, and Chop Harbin joined as defensive line coach.",
             "page": 17,
             "category": "coaching_changes",
             "importance": "medium"
@@ -563,25 +571,19 @@
         "injury_availability": [],
         "offensive_context": [
           {
-            "fact": "Missouri averaged 228.3 rushing yards per game in 2025, ranking eighth nationally and first in the SEC.",
+            "fact": "Missouri averaged 228.3 rushing yards per game in 2025, which ranked eighth nationally and first in the SEC.",
             "page": 5,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Missouri had a program-record 12 individual 100-yard rushing performances and scored 31 rushing touchdowns in 2025.",
-            "page": 5,
-            "category": "offensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "In the 2026 opener, Missouri averaged 7.2 yards per play, converted 60 percent of its third downs and scored touchdowns on four of five red-zone possessions.",
+            "fact": "Missouri opened 2026 with 357 passing yards, 205 rushing yards, 7.2 yards per play and touchdowns on 80% of its red-zone possessions.",
             "page": 10,
             "category": "offensive_context",
             "importance": "high"
           },
           {
-            "fact": "Three Missouri receivers caught touchdown passes from Austin Simmons in the opener: Shaun Terry II, Cayden Lee and Donovan Olugbode.",
+            "fact": "Three different Missouri receivers caught touchdown passes from Austin Simmons in the opener: Shaun Terry II, Cayden Lee and Donovan Olugbode.",
             "page": 4,
             "category": "offensive_context",
             "importance": "medium"
@@ -590,62 +592,50 @@
         "defensive_context": [
           {
             "fact": "Missouri's 2025 defense allowed 277.3 yards and 18.9 points per game, including 103.8 rushing yards and 173.5 passing yards per game.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In the 2026 opener, Missouri allowed 198 total yards, 89 rushing yards, 109 passing yards and 3.7 yards per play.",
             "page": 10,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Against Arkansas-Pine Bluff, Missouri allowed 198 total yards, 89 rushing yards and 109 passing yards.",
-            "page": 3,
-            "category": "defensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Missouri forced five three-and-outs in the season opener and held Arkansas-Pine Bluff to 3-of-13 on third down.",
+            "fact": "Missouri forced five three-and-outs against Arkansas-Pine Bluff.",
             "page": 7,
-            "category": "defensive_context",
-            "importance": "medium"
-          },
-          {
-            "fact": "Missouri did not force a turnover in the opener but allowed only 3.7 yards per play.",
-            "page": 10,
             "category": "defensive_context",
             "importance": "medium"
           }
         ],
         "special_teams": [
           {
-            "fact": "Blake Craig remained Missouri's placekicker and made a 32-yard field goal plus all seven extra-point attempts in the opener.",
-            "page": 18,
-            "category": "special_teams",
-            "importance": "medium"
-          },
-          {
-            "fact": "Brunno Reus was listed as Missouri's first-team punter, kickoff specialist and holder after punter Connor Weselman departed.",
+            "fact": "Missouri's depth chart lists Brunno Reus as the primary punter, kickoff specialist and holder, with Blake Craig as the placekicker and Brett Le Blanc as the long snapper.",
             "page": 11,
             "category": "special_teams",
             "importance": "medium"
           },
           {
-            "fact": "DaMarion Fowlkes was listed as Missouri's primary punt and kickoff returner and had a 23-yard punt return in the opener.",
-            "page": 8,
+            "fact": "Craig made a 32-yard field goal and all seven extra-point attempts in the season opener.",
+            "page": 18,
             "category": "special_teams",
             "importance": "medium"
+          },
+          {
+            "fact": "DaMarion Fowlkes is listed as Missouri's primary punt and kickoff returner and had a 23-yard punt return in the opener.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "low"
           }
         ],
         "series_context": [],
         "other_relevant": [
           {
-            "fact": "Missouri began the season ranked No. 25 in both the AP and Coaches polls.",
+            "fact": "Missouri entered the second week of the season ranked No. 23 in both the AP and Coaches polls after beginning 2026 ranked No. 25.",
             "page": 4,
             "category": "other_relevant",
-            "importance": "medium"
-          },
-          {
-            "fact": "Missouri was 30-10 from the start of the 2023 season through its 2026 opener.",
-            "page": 3,
-            "category": "other_relevant",
-            "importance": "medium"
+            "importance": "low"
           }
         ],
         "source_file": "Missouri.pdf"
@@ -686,35 +676,7 @@
         "matchup_score": 45
       }
     ],
-    "used_sources": [
-      {
-        "fact_id": 2,
-        "fact": "Florida produced six consecutive scoring drives from the first quarter through the third quarter at Auburn, with five consecutive drives covering at least 65 yards.",
-        "page": 3,
-        "category": "recent_game",
-        "importance": "high",
-        "source_file": "Florida.pdf",
-        "source_team": "Florida Gators"
-      },
-      {
-        "fact_id": 18,
-        "fact": "Jadan Baugh had 54 carries for 458 yards and eight rushing touchdowns through three games.",
-        "page": 17,
-        "category": "offensive_personnel",
-        "importance": "high",
-        "source_file": "Florida.pdf",
-        "source_team": "Florida Gators"
-      },
-      {
-        "fact_id": 71,
-        "fact": "Missouri entered 2026 with two returning defensive starters and 10 lost defensive starters.",
-        "page": 15,
-        "category": "defensive_personnel",
-        "importance": "high",
-        "source_file": "Missouri.pdf",
-        "source_team": "Missouri Tigers"
-      }
-    ],
+    "used_sources": [],
     "model_context": {
       "model_side_full": "Missouri Tigers",
       "model_side": "Missouri",
@@ -723,9 +685,9 @@
       "model_prediction": 5.0,
       "market_line": 5.5,
       "best_available_line": 5.5,
-      "best_available_price": "-110",
+      "best_available_price": "-105",
       "cover_probability": 0.52227278,
-      "edge": -0.0015367438095238,
+      "edge": 0.0100776580487804,
       "bet_status": "PASS"
     }
   }

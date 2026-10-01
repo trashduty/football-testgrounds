@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Michigan State Spartans | +10.0 (-102) | Caesars | 51.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Wisconsin Badgers | -10.5 (-105) | Fanatics | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wisconsin Badgers | -10.5 (+100) | theScore Bet | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 

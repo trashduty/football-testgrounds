@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UCF Knights | +12.5 (-110) | Fanatics | 55.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Houston Cougars | -11.5 (-105) | theScore Bet | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Houston Cougars | -11.5 (-109) | Caesars | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 

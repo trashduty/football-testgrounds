@@ -6,18 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Temple Owls | +6.5 (+100) | theScore Bet | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Florida Bulls | -6.5 (-110) | BetMGM | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Temple Owls | +6.5 (-108) | BetMGM | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Florida Bulls | -6.5 (-108) | BetRivers | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Temple Owls visit the South Florida Bulls at Raymond James Stadium. We make **South Florida -9**, compared with a market line of -6.5.
 
-The best number we found is South Florida -6.5 at -110. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Florida -6.5 at -108. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our disagreement with the market starts with South Florida’s offensive balance. Our numbers rate the passing and rushing attacks among the nation’s most efficient, and Temple has struggled to prevent scoring opportunities. That combination gives South Florida multiple ways to sustain drives and create separation rather than relying on one specific matchup.
-
-The concern for us is Temple’s ability to respond on the ground. Temple rushed for 697 yards through three games, clearing 186 yards each time, and converted every red-zone opportunity over that span. That production could shorten the game and keep the margin competitive. We still lean more strongly toward South Florida than the market does, but the available price does not create enough value for us to get involved.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -66,12 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching South Florida’s passing offense against Temple’s pass defense. Temple allowed 297.3 passing yards per game through three games, while opponents converted 51.3 percent of their third downs. Against a South Florida passing attack ranked fourth in pass EPA, those extended drives could turn into the scoring opportunities our model expects.
-
-The question is whether Temple can get off the field often enough to control the margin. If it cannot, South Florida’s offensive versatility supports our model’s stronger view of the home team.
 
 ## Best Bets Of The Week
 

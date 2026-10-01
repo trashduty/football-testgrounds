@@ -7,15 +7,17 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Ohio State Buckeyes | -14.5 (-105) | Caesars | 37.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa Hawkeyes | +14.5 (-110) | theScore Bet | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Iowa Hawkeyes | +14.5 (-105) | theScore Bet | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Ohio State Buckeyes visit the Iowa Hawkeyes at Kinnick Stadium. We make **Iowa +9**, compared with a market line of +14.5.
 
-The best number we found is Iowa +14.5 at -110. We give Iowa a 62.5% chance to cover, which creates an 10.1% edge for us. That clears our 3% threshold, so Iowa is a bet.
+The best number we found is Iowa +14.5 at -105. We give Iowa a 62.5% chance to cover, which creates an 11.3% edge for us. That clears our 3% threshold, so Iowa is a bet.
 
-Our view starts with Iowa’s ability to limit both efficiency and scoring. Iowa has allowed 8.0 points per game, 4.1 yards per play and no rushing touchdowns through four games. Those results do not guarantee the same success against Ohio State, but they help explain why our numbers are reluctant to price a routine blowout.
+For us, this is less about calling Iowa the better team and more about questioning how much separation Ohio State should create against a defense with this early profile. We understand why the market is high on Ohio State after an opening stretch in which it has averaged 45.0 points and 522.0 yards per game. But Iowa has allowed only 8.0 points and 239.8 yards per game while holding opponents to a .268 third-down conversion rate. We think that resistance gives Iowa a credible way to keep the game inside our expected range.
+
+Our main concern is clear: Iowa ranks 69th in pass EPA and now faces an Ohio State defense ranked eighth in that category. We are not relying on Iowa to consistently win through the air, especially with Ohio State allowing just 12.3 points and 274.3 yards per game. The more interesting part is Iowa's broader offensive balance, with 215.5 rushing yards and 213.5 passing yards per game. Our position rests on Iowa producing enough offense while its defense prevents Ohio State's efficiency from turning into sustained separation.
 
 ### What The Numbers Say
 
@@ -67,7 +69,9 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-We are focused on Ohio State’s passing offense against Iowa’s pass defense. Ohio State is averaging 365.3 passing yards per game, while Jeremiah Smith already has 617 receiving yards and seven touchdowns. Iowa counters by allowing 152.0 passing yards per game and holding opponents to a 26.8 percent conversion rate on third down. If Iowa can force Ohio State to string together longer drives rather than produce quick scores, we think the margin becomes much harder to extend.
+We are watching Ohio State's passing offense against Iowa's pass defense. Ohio State ranks third in pass EPA, and Julian Sayin has thrown for 1,206 yards through four games. Jeremiah Smith has accounted for 617 receiving yards and seven touchdowns, making this the clearest threat to our Iowa position.
+
+Iowa has allowed only 152.0 passing yards per game, and we think its ability to create third-down stops will be central. If Iowa can make Ohio State sustain drives rather than letting its passing game dictate the matchup, the Hawkeyes have a realistic path to limiting the final margin.
 
 ## Best Bets Of The Week
 

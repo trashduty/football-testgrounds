@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Cavaliers | -2.5 (-112) | BetRivers | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Florida State Seminoles | +2.5 (-105) | BetMGM | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Cavaliers | -2.5 (-110) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida State Seminoles | +2.5 (+100) | Fanatics | 51.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Virginia Cavaliers visit the Florida State Seminoles at Doak Campbell Stadium. We make **Florida State +1.5**, compared with a market line of +2.5.
 
-The best number we found is Florida State +2.5 at -105. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida State +2.5 at +100. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

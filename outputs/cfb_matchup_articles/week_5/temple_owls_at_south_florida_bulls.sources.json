@@ -2,63 +2,52 @@
   "game": "Temple Owls@South Florida Bulls",
   "season": 2026,
   "week": 5,
-  "generated_at_utc": "2026-09-30T14:59:55.973447+00:00",
+  "generated_at_utc": "2026-10-01T02:41:20.387678+00:00",
   "model_prediction": -9.0,
   "market_line": -6.5,
   "best_line": -6.5,
-  "best_price": "-110",
-  "best_book": "BetMGM",
+  "best_price": "-108",
+  "best_book": "BetRivers",
   "cover_probability": 0.52805983,
-  "edge": 0.0042503061904761,
+  "edge": 0.0088290607692307,
   "bet_short": "South Florida",
   "guide_enrichment": {
-    "enabled": true,
-    "narrative": "Our disagreement with the market starts with South Florida\u2019s offensive balance. Our numbers rate the passing and rushing attacks among the nation\u2019s most efficient, and Temple has struggled to prevent scoring opportunities. That combination gives South Florida multiple ways to sustain drives and create separation rather than relying on one specific matchup.\n\nThe concern for us is Temple\u2019s ability to respond on the ground. Temple rushed for 697 yards through three games, clearing 186 yards each time, and converted every red-zone opportunity over that span. That production could shorten the game and keep the margin competitive. We still lean more strongly toward South Florida than the market does, but the available price does not create enough value for us to get involved.",
-    "matchup_to_watch": "We are watching South Florida\u2019s passing offense against Temple\u2019s pass defense. Temple allowed 297.3 passing yards per game through three games, while opponents converted 51.3 percent of their third downs. Against a South Florida passing attack ranked fourth in pass EPA, those extended drives could turn into the scoring opportunities our model expects.\n\nThe question is whether Temple can get off the field often enough to control the margin. If it cannot, South Florida\u2019s offensive versatility supports our model\u2019s stronger view of the home team.",
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
     "guide_status": [
       "Found guide for Temple Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf",
-      "Guide for Temple Owls was found but may not match the current opponent. The guide is Temple's Week 4 game notes for its September 25, 2026 home game against Army. Temple's road game at South Florida is listed for October 3, 2026, but these notes were not prepared for that matchup.",
-      "No guide found for South Florida Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Florida.pdf"
+      "Guide for Temple Owls was found but may not match the current opponent. The guide is Temple's Week 4 game notes for the September 25, 2026 home game against Army. Temple's schedule lists the South Florida game for October 3, 2026, so this is not the guide intended for the upcoming matchup with the Bulls.",
+      "No guide found for South Florida Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Florida.pdf",
+      "Narrative generation failed: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
     ],
     "guide_extractions": [
       {
         "source_team": "Temple Owls",
         "opponent": "South Florida Bulls",
         "document_matches_upcoming_game": false,
-        "document_match_reason": "The guide is Temple's Week 4 game notes for its September 25, 2026 home game against Army. Temple's road game at South Florida is listed for October 3, 2026, but these notes were not prepared for that matchup.",
+        "document_match_reason": "The guide is Temple's Week 4 game notes for the September 25, 2026 home game against Army. Temple's schedule lists the South Florida game for October 3, 2026, so this is not the guide intended for the upcoming matchup with the Bulls.",
         "recent_game": [
           {
-            "fact": "Temple lost 49-48 in overtime at Toledo, falling to 1-2.",
+            "fact": "Temple lost 49-48 in overtime at Toledo after an attempted game-winning two-point conversion fell incomplete.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Temple led Toledo 24-14 at halftime and 42-28 with 6:40 remaining, but Toledo scored twice in the final 1:05 and tied the game with 54 seconds left.",
+            "fact": "Temple led Toledo 24-14 at halftime and 42-28 with 6:40 remaining, but Toledo scored twice in the final 1:05 to force overtime.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Ajani Sheppard threw touchdown passes to Joey Schlaffer, Sam Brown and Colin Chase against Toledo; the 69-yard score to Chase gave Temple a 35-28 fourth-quarter lead.",
+            "fact": "Temple rushed for 158 yards in the first half against Toledo and 270 yards for the game.",
             "page": 1,
             "category": "recent_game",
             "importance": "high"
           },
           {
-            "fact": "Sheppard scored on a 22-yard run in overtime, but Temple's ensuing two-point pass attempt failed.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "In his first game action for Temple, Sam Brown rushed for a career-high 109 yards and scored three combined touchdowns against Toledo.",
-            "page": 1,
-            "category": "recent_game",
-            "importance": "high"
-          },
-          {
-            "fact": "Kevin Hornbeak forced a fumble on Toledo's first offensive play and Saboor Karriem recovered it.",
+            "fact": "Kevin Hornbeak forced a fumble on Toledo's first offensive play, and Saboor Karriem recovered it.",
             "page": 1,
             "category": "recent_game",
             "importance": "medium"
@@ -67,25 +56,37 @@
         "opponent_notes": [],
         "quarterback": [
           {
-            "fact": "Temple's quarterback room is led by transfers Jaxon Smolik, formerly of Penn State, and Ajani Sheppard, formerly of Washington State and Rutgers.",
-            "page": 10,
+            "fact": "Ajani Sheppard threw the first touchdown pass of his career against Toledo, a two-yard fourth-down completion to Joey Schlaffer.",
+            "page": 1,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "The participation streak table lists Smolik with starts in each of Temple's first three games and Sheppard with appearances in all three games but no starts.",
+            "fact": "Sheppard also threw a 69-yard touchdown pass to Colin Chase and scored on a 22-yard run in overtime against Toledo.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaxon Smolik started each of Temple's first three games at quarterback, while Sheppard appeared in all three.",
             "page": 12,
             "category": "quarterback",
             "importance": "high"
           },
           {
-            "fact": "Sheppard's two-yard fourth-down touchdown pass to Joey Schlaffer against Toledo was the first touchdown pass of Sheppard's career.",
-            "page": 1,
+            "fact": "Temple's quarterback room is led by transfers Smolik from Penn State and Sheppard from Washington State, with Camren Boykin, Brady Palmer and Lamar Best behind them.",
+            "page": 10,
             "category": "quarterback",
             "importance": "medium"
           }
         ],
         "offensive_personnel": [
+          {
+            "fact": "Rutgers transfer Sam Brown made his Temple debut against Toledo and rushed for a career-high 109 yards while scoring three combined touchdowns.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
           {
             "fact": "Temple returned four 2025 offensive-line starters: left tackle Giakoby Hills, left guard Eric King, center Grayson Mains and right guard Jackson Pruitt.",
             "page": 10,
@@ -93,68 +94,62 @@
             "importance": "high"
           },
           {
-            "fact": "Rutgers transfer Zach Aamland entered the starting lineup because of injuries in Week 1 and is described as one of Temple's starting tackles.",
+            "fact": "Rutgers transfer Zach Aamland entered the lineup because of injuries in the season opener and is listed as one of Temple's starting tackles.",
             "page": 11,
             "category": "offensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "The current-streak table lists John Stone with three starts, Zach Aamland and freshman John Watkins with two starts apiece, and Kevin Terry with one appearance through three games.",
-            "page": 12,
+            "fact": "Peter Clarke entered 2026 after recording 30 receptions and six touchdown catches in 2025.",
+            "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Sam Brown transferred to Temple for his fifth season after spending four seasons at Rutgers.",
-            "page": 5,
-            "category": "offensive_personnel",
-            "importance": "high"
-          },
-          {
-            "fact": "Penn State transfer Joey Schlaffer joined Temple's tight end room and caught a touchdown against Toledo.",
+            "fact": "Joey Schlaffer joined Temple's tight-end room after transferring from Penn State, while Patrick Keller moved from quarterback to tight end.",
             "page": 10,
-            "category": "offensive_personnel",
-            "importance": "medium"
-          },
-          {
-            "fact": "Peter Clarke recorded 30 receptions and six touchdown catches in 2025.",
-            "page": 5,
             "category": "offensive_personnel",
             "importance": "medium"
           }
         ],
         "defensive_personnel": [
           {
-            "fact": "Linebacker Curly Ordonez led Temple in tackles in each of the first three games of 2026 after leading the team in tackles in 2025.",
+            "fact": "Linebacker Curly Ordonez led Temple in tackles in each of the first three games of 2026 and recorded double-digit tackles in two of them.",
             "page": 1,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Safety Saboor Karriem, a transfer from Illinois, started each of Temple's first three games and recovered a fumble against Toledo.",
+            "fact": "Temple added five safeties during the January portal window: Saboor Karriem, Kolin Dinkins, Jaeden Gould, Orel Gray and Josiah Jackson.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "high"
           },
           {
-            "fact": "Defensive lineman Kevin Hornbeak, outside linebacker Jaylon Joseph, linebacker Eric Stuart and safety Saboor Karriem each started Temple's first three games.",
+            "fact": "Karriem started each of Temple's first three games at safety, while Eric Stuart, Curly Ordonez, Jaylon Joseph and Kevin Hornbeak also started all three games at their defensive positions.",
             "page": 12,
             "category": "defensive_personnel",
             "importance": "medium"
           },
           {
-            "fact": "Temple added five safeties during the January transfer window: Saboor Karriem, Kolin Dinkins, Jaeden Gould, Orel Gray and Josiah Jackson.",
-            "page": 12,
+            "fact": "Willy Love moved from safety to linebacker for the 2026 season, and Bryson Goodwin moved from wide receiver to the secondary.",
+            "page": 11,
             "category": "defensive_personnel",
             "importance": "medium"
           }
         ],
         "coaching_changes": [
           {
-            "fact": "Temple retained offensive coordinator Tyler Walker, defensive coordinator Brian L. Smith and special teams coordinator Brian Ginn from 2025 for their second seasons under K.C. Keeler.",
+            "fact": "Temple retained all three coordinators from 2025: offensive coordinator Tyler Walker, defensive coordinator Brian L. Smith and special-teams coordinator Brian Ginn.",
             "page": 4,
             "category": "coaching_changes",
             "importance": "medium"
+          },
+          {
+            "fact": "Henry Baker was promoted to assistant head coach while continuing to coach Temple's cornerbacks.",
+            "page": 11,
+            "category": "coaching_changes",
+            "importance": "low"
           }
         ],
         "injury_availability": [
@@ -165,22 +160,22 @@
             "importance": "high"
           },
           {
-            "fact": "Right-tackle candidate Luke Watson worked with the first team during spring and summer before an injury gave Kevin Terry an opportunity on the right side.",
+            "fact": "Luke Watson worked with the first-team offensive line during the spring and summer before an injury opened an opportunity for Kevin Terry at right tackle.",
             "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Sam Brown played his first game for Temple against Toledo after not appearing in the first two games.",
+            "page": 1,
             "category": "injury_availability",
             "importance": "medium"
           }
         ],
         "offensive_context": [
           {
-            "fact": "Temple rushed for 697 yards through three games and had at least 186 rushing yards in each game.",
+            "fact": "Temple rushed for 697 yards through its first three games and gained at least 186 rushing yards in each game.",
             "page": 5,
-            "category": "offensive_context",
-            "importance": "high"
-          },
-          {
-            "fact": "Temple rushed for 270 yards against Toledo, its third consecutive game with at least 176 rushing yards.",
-            "page": 1,
             "category": "offensive_context",
             "importance": "high"
           },
@@ -191,7 +186,7 @@
             "importance": "high"
           },
           {
-            "fact": "Temple had scored on 100 percent of its red-zone opportunities and converted 41.0 percent of third downs through three games.",
+            "fact": "Temple converted 41.0 percent of its third downs and scored on every red-zone possession through three games.",
             "page": 3,
             "category": "offensive_context",
             "importance": "medium"
@@ -205,20 +200,20 @@
             "importance": "high"
           },
           {
-            "fact": "Temple allowed 117.3 rushing yards and 297.3 passing yards per game through three games.",
+            "fact": "Temple allowed 117.3 rushing yards and 297.3 passing yards per game through three contests.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Opponents converted 51.3 percent of third downs against Temple through three games.",
+            "fact": "Opponents converted 51.3 percent of their third downs against Temple through three games.",
             "page": 3,
             "category": "defensive_context",
             "importance": "high"
           },
           {
-            "fact": "Temple had a plus-0.33 turnover margin per game through three games.",
-            "page": 3,
+            "fact": "Defensive coordinator Brian L. Smith uses a multiple, NFL-style defense designed to present offenses with different looks.",
+            "page": 5,
             "category": "defensive_context",
             "importance": "medium"
           }
@@ -228,11 +223,11 @@
             "fact": "Carl Hardin made field goals of 41 and 48 yards against Toledo.",
             "page": 1,
             "category": "special_teams",
-            "importance": "medium"
+            "importance": "high"
           },
           {
-            "fact": "Temple averaged 44.22 net yards per punt and 21.50 yards per punt return through three games.",
-            "page": 3,
+            "fact": "Hardin returned as Temple's starting kicker after making 11 of 14 field goals and all 40 extra-point attempts in 2025.",
+            "page": 5,
             "category": "special_teams",
             "importance": "medium"
           },
@@ -240,30 +235,17 @@
             "fact": "Punter Dante Atton averaged 47.0 yards per punt in Temple's season-opening win over Rhode Island.",
             "page": 5,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
           },
           {
             "fact": "UNLV transfer Sam Wolfenden took over Temple's long-snapping duties in 2026.",
             "page": 12,
             "category": "special_teams",
-            "importance": "low"
+            "importance": "medium"
           }
         ],
         "series_context": [],
-        "other_relevant": [
-          {
-            "fact": "Temple is scheduled to play at South Florida on October 3, 2026, with the kickoff time and television assignment listed as TBD.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          },
-          {
-            "fact": "Temple entered Week 4 with a 1-2 overall record and had not yet played an American Conference game.",
-            "page": 1,
-            "category": "other_relevant",
-            "importance": "high"
-          }
-        ],
+        "other_relevant": [],
         "source_file": "Temple.pdf"
       }
     ],
@@ -302,44 +284,7 @@
         "matchup_score": 212
       }
     ],
-    "used_sources": [
-      {
-        "fact_id": 23,
-        "fact": "Temple rushed for 697 yards through three games and had at least 186 rushing yards in each game.",
-        "page": 5,
-        "category": "offensive_context",
-        "importance": "high",
-        "source_file": "Temple.pdf",
-        "source_team": "Temple Owls"
-      },
-      {
-        "fact_id": 26,
-        "fact": "Temple had scored on 100 percent of its red-zone opportunities and converted 41.0 percent of third downs through three games.",
-        "page": 3,
-        "category": "offensive_context",
-        "importance": "medium",
-        "source_file": "Temple.pdf",
-        "source_team": "Temple Owls"
-      },
-      {
-        "fact_id": 28,
-        "fact": "Temple allowed 117.3 rushing yards and 297.3 passing yards per game through three games.",
-        "page": 3,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Temple.pdf",
-        "source_team": "Temple Owls"
-      },
-      {
-        "fact_id": 29,
-        "fact": "Opponents converted 51.3 percent of third downs against Temple through three games.",
-        "page": 3,
-        "category": "defensive_context",
-        "importance": "high",
-        "source_file": "Temple.pdf",
-        "source_team": "Temple Owls"
-      }
-    ],
+    "used_sources": [],
     "model_context": {
       "model_side_full": "South Florida Bulls",
       "model_side": "South Florida",
@@ -348,9 +293,9 @@
       "model_prediction": -9.0,
       "market_line": -6.5,
       "best_available_line": -6.5,
-      "best_available_price": "-110",
+      "best_available_price": "-108",
       "cover_probability": 0.52805983,
-      "edge": 0.0042503061904761,
+      "edge": 0.0088290607692307,
       "bet_status": "PASS"
     }
   }

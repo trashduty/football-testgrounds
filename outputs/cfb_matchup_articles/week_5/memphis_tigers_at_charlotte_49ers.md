@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Memphis Tigers | -20.5 (-105) | theScore Bet | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Charlotte 49ers | +20.5 (-110) | Fanatics | 52.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Memphis Tigers | -20.5 (-108) | BetMGM | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +20.5 (-105) | theScore Bet | 52.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Memphis Tigers visit the Charlotte 49ers at Jerry Richardson Stadium. We make **Charlotte +19.5**, compared with a market line of +20.5.
 
-The best number we found is Charlotte +20.5 at -110. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Charlotte +20.5 at -105. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

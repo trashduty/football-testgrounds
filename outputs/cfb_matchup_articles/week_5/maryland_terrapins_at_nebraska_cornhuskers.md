@@ -15,7 +15,7 @@ The Maryland Terrapins visit the Nebraska Cornhuskers at Memorial Stadium (Linco
 
 The best number we found is Maryland +14.5 at -108. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We understand why Maryland’s start may attract attention. We saw the offense produce 475 yards at UConn, while Malik Washington completed 34 of 41 passes for 347 yards and two touchdowns. Maryland also avoided a turnover in each of its first two games. That is encouraging context, but we are not treating two clean performances as proof that the offense will sustain the same efficiency here.
+We are not treating Maryland’s fast start as proof that its early production will carry over unchanged. Malik Washington completed 34 of 41 passes for 347 yards against UConn, while Na’eem Abdul-Rahim Gladding and Chris Durr Jr. combined for 236 receiving yards. That performance is meaningful context, but our longer-run efficiency numbers remain skeptical of Maryland’s passing offense against a more capable Nebraska pass defense.
 
 ### What The Numbers Say
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ### The Matchup To Watch
 
-For us, Nebraska’s rushing offense against Maryland’s run defense is the matchup that matters most. Maryland allowed only 38.5 rushing yards per game through its first two contests, but our rush EPA numbers still identify a meaningful advantage for Nebraska. The question is whether those early defensive results reflect a lasting strength or whether Nebraska can expose what our longer-run efficiency view considers the softer part of Maryland’s profile. With our overall expectation already closely aligned with the market, we do not see enough separation to move beyond a pass.
+For us, the matchup to watch is Nebraska’s rushing offense against Maryland’s front. Maryland allowed only 38.5 rushing yards per game and recorded 10 sacks through its first two games, but Nebraska’s rushing efficiency presents a substantially different test. The question is whether Maryland’s early defensive production reflects a sustainable strength or an opponent-dependent start. Our numbers favor Nebraska in that area, which limits the case for taking Maryland, while the overall price remains too close to our expectation to create enough value. We pass.
 
 ## Best Bets Of The Week
 

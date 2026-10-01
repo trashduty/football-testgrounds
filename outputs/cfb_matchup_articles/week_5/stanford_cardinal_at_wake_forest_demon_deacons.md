@@ -6,20 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Stanford Cardinal | +12.5 (-105) | FanDuel | 53.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Wake Forest Demon Deacons | -12.5 (-105) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Stanford Cardinal | +12.5 (-102) | FanDuel | 52.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wake Forest Demon Deacons | -13.5 (-108) | BetMGM | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Stanford Cardinal visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Stanford +12**, compared with a market line of +13.
+The Stanford Cardinal visit the Wake Forest Demon Deacons at Allegacy Federal Credit Union Stadium. We make **Stanford +12.5**, compared with a market line of +13.5.
 
-The best number we found is Stanford +12.5 at -105. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Stanford +12.5 at -102. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers are slightly more favorable to Stanford than the market, but the matchup does not provide much support for a stronger position. Stanford’s rushing offense faces a clear disadvantage against Wake Forest’s run defense, and its broader difficulty creating scoring opportunities raises the risk of falling behind schedule.
-
-We also understand why the market is comfortable pricing Wake Forest aggressively. Through two games, Gio Lopez had 575 passing yards, four touchdowns and no interceptions, while Carlos Hernandez averaged 23 yards per reception. We treat that early production as context rather than proof, but it gives Wake Forest a credible way to create separation if Stanford cannot sustain drives.
-
-The counterpoint is a Wake Forest defense that allowed opponents to convert 13 of 27 third downs and score on all 10 red-zone opportunities over that opening sample. That helps explain our modest disagreement with the market, but Stanford’s offensive limitations keep us from seeing enough value at the available price. For us, this remains a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -68,12 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We see Stanford’s passing offense against Wake Forest’s pass defense as the matchup that could keep this competitive. Stanford is unlikely to want the game decided by its rushing offense, while Wake Forest allowed 242.5 passing yards per game through its first two contests and gave up 329 passing yards to Purdue.
-
-That does not automatically make Stanford’s passing game trustworthy; our longer-run numbers remain skeptical of that unit. The question is whether Stanford can convert Wake Forest’s early defensive leakage into sustained scoring drives. If not, Wake Forest has a much clearer path to controlling the margin.
 
 ## Best Bets Of The Week
 

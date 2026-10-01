@@ -6,20 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Michigan Wolverines | -5.5 (-108) | BetMGM | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Minnesota Golden Gophers | +5.5 (-110) | Caesars | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | -5.5 (-110) | BetMGM | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | +5.5 (-108) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Michigan Wolverines visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Michigan -7.5**, compared with a market line of -5.5.
 
-The best number we found is Michigan -5.5 at -108. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan -5.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our view starts with Michigan’s defense, particularly against the run. Our efficiency numbers show a clear advantage over Minnesota’s rushing offense, and the early results support that concern: Michigan has allowed 86.8 rushing yards per game and 2.65 yards per carry. If Minnesota cannot stay efficient on the ground, Drake Lindsey will have to carry more of the offense against a pass defense that also grades favorably in our matchup numbers.
-
-The other side is less decisive, but we see room for Michigan’s rushing rotation to create an advantage. Jordan Marshall, Bryce Underwood and Savion Hiter have each scored twice on the ground, and Underwood’s mobility gives Minnesota another element to account for. The concern for us is disruption. Minnesota recorded seven sacks at Washington, while Michigan has six giveaways through four games. Those are credible ways for Minnesota to shorten the game and prevent Michigan from creating separation.
-
-That is where our expectation differs from the market: we trust Michigan’s defensive matchup more than the current price appears to. Still, Minnesota’s pressure, turnover profile and home-field paths introduce enough variance that the available number does not give us sufficient value. We see the disagreement, but for us this remains a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -68,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching Minnesota’s rushing offense against Michigan’s front. TJ Thomas has averaged 7.4 yards per carry, but Michigan has allowed only 2.65 yards per rushing attempt. If Michigan wins early downs, it can force Lindsey into more predictable passing situations and bring a defense averaging three sacks per game against a Minnesota offensive line that has allowed one per game. That matchup is the clearest football reason our numbers lean more strongly toward Michigan than the market does.
 
 ## Best Bets Of The Week
 

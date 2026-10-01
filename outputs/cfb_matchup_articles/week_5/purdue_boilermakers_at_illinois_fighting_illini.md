@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Purdue Boilermakers | +9.5 (-105) | theScore Bet | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Purdue Boilermakers | +9.5 (-105) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Illinois Fighting Illini | -10.5 (-102) | FanDuel | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -15,11 +15,7 @@ The Purdue Boilermakers visit the Illinois Fighting Illini at Memorial Stadium (
 
 The best number we found is Purdue +9.5 at -105. We see a 0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
-Our numbers see Illinois with advantages against both levels of Purdue’s defense, especially through the air. Purdue did record three sacks and eight tackles for loss in its opener, but Illinois presents a much stronger passing profile than the opponent Purdue just faced. That ability to attack Purdue in multiple ways is the main reason we are reluctant to treat the underdog’s opening performance as proof of a larger change.
-
-We did see encouraging signs from Purdue’s offense. Ryan Browne, the returning starter, completed 23 of 29 passes for 317 yards and three touchdowns as Purdue produced 523 total yards against Indiana State. Still, 16 players made their first Purdue starts and 38 appeared in their first game for the program, so our view of this group should not swing too far on one result.
-
-For us, the case for Purdue is that Browne and the passing game can keep the margin competitive. The concern is whether Purdue’s defense can get enough stops against an Illinois offense holding the more favorable matchups. With our expectation already closely aligned with the market, we do not see enough separation to justify a wager.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -68,10 +64,6 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-### The Matchup To Watch
-
-We are watching Illinois’ passing offense against Purdue’s pass defense. That is the clearest area in which Illinois can create separation, and it will test whether Purdue’s opening-game pressure carries over against a more efficient passing attack. If Purdue cannot disrupt the pocket or limit productive early-down throws, the burden shifts heavily to Browne and the offense to keep pace.
 
 ## Best Bets Of The Week
 
