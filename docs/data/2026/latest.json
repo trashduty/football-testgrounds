@@ -47,7 +47,7 @@
     "games": 4,
     "prior_weight": 0.3536,
     "power_pts": 13.8375,
-    "off_pts": 7.3892,
+    "off_pts": 7.3893,
     "def_pts": 6.4482,
     "power_rank": 2,
     "off_rank": 2,
@@ -347,7 +347,7 @@
     "def_pass_epa_rank": 3,
     "def_rush_epa_rank": 84,
     "def_eckel_rate_rank": 3,
-    "power_change": -3.2418,
+    "power_change": -3.2419,
     "rank_change": -2
   },
   {
@@ -503,7 +503,7 @@
     "def_pass_epa_rank": 16,
     "def_rush_epa_rank": 20,
     "def_eckel_rate_rank": 30,
-    "power_change": -1.4052,
+    "power_change": -1.4053,
     "rank_change": 1
   },
   {
@@ -516,7 +516,7 @@
     "prior_weight": 0.4941,
     "power_pts": 7.5795,
     "off_pts": 3.2642,
-    "def_pts": 4.3153,
+    "def_pts": 4.3152,
     "power_rank": 14,
     "off_rank": 24,
     "def_rank": 13,
@@ -594,7 +594,7 @@
     "prior_weight": 0.3536,
     "power_pts": 6.9475,
     "off_pts": -0.1157,
-    "def_pts": 7.0632,
+    "def_pts": 7.0631,
     "power_rank": 16,
     "off_rank": 69,
     "def_rank": 1,
@@ -1723,7 +1723,7 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
     "games": 4,
     "prior_weight": 0.3536,
-    "power_pts": 2.3966,
+    "power_pts": 2.3967,
     "off_pts": 0.7033,
     "def_pts": 1.6933,
     "power_rank": 45,
@@ -1907,7 +1907,7 @@
     "def_pass_epa_rank": 75,
     "def_rush_epa_rank": 23,
     "def_eckel_rate_rank": 64,
-    "power_change": 0.2137,
+    "power_change": 0.2136,
     "rank_change": 2
   },
   {
@@ -1920,7 +1920,7 @@
     "prior_weight": 0.3536,
     "power_pts": 1.8811,
     "off_pts": -2.3041,
-    "def_pts": 4.1853,
+    "def_pts": 4.1852,
     "power_rank": 50,
     "off_rank": 98,
     "def_rank": 15,
@@ -2076,7 +2076,7 @@
     "prior_weight": 0.3536,
     "power_pts": 1.7464,
     "off_pts": 2.1321,
-    "def_pts": -0.3856,
+    "def_pts": -0.3857,
     "power_rank": 54,
     "off_rank": 42,
     "def_rank": 72,
@@ -2817,7 +2817,7 @@
     "prior_weight": 0.3536,
     "power_pts": -0.2269,
     "off_pts": -1.3591,
-    "def_pts": 1.1323,
+    "def_pts": 1.1322,
     "power_rank": 73,
     "off_rank": 85,
     "def_rank": 49,
@@ -2960,7 +2960,7 @@
     "def_pass_epa_rank": 112,
     "def_rush_epa_rank": 101,
     "def_eckel_rate_rank": 134,
-    "power_change": -0.6005,
+    "power_change": -0.6004,
     "rank_change": -4
   },
   {
@@ -3166,7 +3166,7 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
     "games": 4,
     "prior_weight": 0.3536,
-    "power_pts": -1.5765,
+    "power_pts": -1.5764,
     "off_pts": 0.9499,
     "def_pts": -2.5264,
     "power_rank": 82,
@@ -3311,7 +3311,7 @@
     "def_pass_epa_rank": 70,
     "def_rush_epa_rank": 57,
     "def_eckel_rate_rank": 52,
-    "power_change": 2.9924,
+    "power_change": 2.9923,
     "rank_change": 23
   },
   {
@@ -3467,7 +3467,7 @@
     "def_pass_epa_rank": 133,
     "def_rush_epa_rank": 135,
     "def_eckel_rate_rank": 138,
-    "power_change": -0.5146,
+    "power_change": -0.5145,
     "rank_change": -5
   },
   {
@@ -3701,7 +3701,7 @@
     "def_pass_epa_rank": 61,
     "def_rush_epa_rank": 51,
     "def_eckel_rate_rank": 90,
-    "power_change": -0.5379,
+    "power_change": -0.538,
     "rank_change": -4
   },
   {
@@ -3818,7 +3818,7 @@
     "def_pass_epa_rank": 137,
     "def_rush_epa_rank": 115,
     "def_eckel_rate_rank": 131,
-    "power_change": 0.6603,
+    "power_change": 0.6604,
     "rank_change": 3
   },
   {
@@ -3986,7 +3986,7 @@
     "games": 4,
     "prior_weight": 0.3536,
     "power_pts": -4.2576,
-    "off_pts": 0.3213,
+    "off_pts": 0.3214,
     "def_pts": -4.579,
     "power_rank": 103,
     "off_rank": 61,
@@ -4531,7 +4531,7 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
     "games": 4,
     "prior_weight": 0.3536,
-    "power_pts": -5.7968,
+    "power_pts": -5.7969,
     "off_pts": -2.4217,
     "def_pts": -3.3752,
     "power_rank": 117,
@@ -4689,7 +4689,7 @@
     "prior_weight": 0.3536,
     "power_pts": -6.118,
     "off_pts": -2.3514,
-    "def_pts": -3.7666,
+    "def_pts": -3.7667,
     "power_rank": 121,
     "off_rank": 99,
     "def_rank": 125,
@@ -4832,7 +4832,7 @@
     "def_pass_epa_rank": 69,
     "def_rush_epa_rank": 133,
     "def_eckel_rate_rank": 125,
-    "power_change": 0.602,
+    "power_change": 0.6021,
     "rank_change": -5
   },
   {
@@ -4949,7 +4949,7 @@
     "def_pass_epa_rank": 102,
     "def_rush_epa_rank": 99,
     "def_eckel_rate_rank": 53,
-    "power_change": -0.2994,
+    "power_change": -0.2993,
     "rank_change": -7
   },
   {
@@ -4999,7 +4999,7 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
     "games": 4,
     "prior_weight": 0.3536,
-    "power_pts": -7.8054,
+    "power_pts": -7.8053,
     "off_pts": -3.8482,
     "def_pts": -3.9571,
     "power_rank": 129,
@@ -5118,7 +5118,7 @@
     "prior_weight": 0.3536,
     "power_pts": -9.3555,
     "off_pts": -5.4393,
-    "def_pts": -3.9162,
+    "def_pts": -3.9163,
     "power_rank": 132,
     "off_rank": 133,
     "def_rank": 126,
@@ -5183,7 +5183,7 @@
     "def_pass_epa_rank": 135,
     "def_rush_epa_rank": 108,
     "def_eckel_rate_rank": 119,
-    "power_change": 0.1215,
+    "power_change": 0.1216,
     "rank_change": -1
   },
   {
