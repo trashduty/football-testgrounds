@@ -607,6 +607,14 @@
       "game": "Oregon State Beavers@Colorado State Rams",
       "kind": "Bet",
       "post_id": "2106057751445303530"
+    },
+    {
+      "date": "2026-10-02",
+      "hour": 13,
+      "season_week": "2026-week-5",
+      "game": "Memphis Tigers@Charlotte 49ers",
+      "kind": "No Bet",
+      "post_id": "2106072007079035187"
     }
   ]
 }
