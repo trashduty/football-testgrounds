@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Vanderbilt Commodores | +25.5 (-110) | theScore Bet | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Georgia Bulldogs | -25.5 (-105) | DraftKings | 42.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Vanderbilt Commodores | +24.5 (-104) | FanDuel | 55.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Georgia Bulldogs | -24.5 (-114) | BetRivers | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Vanderbilt Commodores visit the Georgia Bulldogs at Sanford Stadium. We make **Vanderbilt +22**, compared with a market line of +25.
 
-The best number we found is Vanderbilt +25.5 at -110. We give Vanderbilt a 57.0% chance to cover, which creates an 4.6% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
+The best number we found is Vanderbilt +24.5 at -104. We give Vanderbilt a 55.4% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Vanderbilt is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#27</td>
-<td class="btb-better">#5</td>
+<td class="btb-better">#4</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#97</td>
+<td>#96</td>
 <td class="btb-better">#2</td>
 </tr>
 </tbody>

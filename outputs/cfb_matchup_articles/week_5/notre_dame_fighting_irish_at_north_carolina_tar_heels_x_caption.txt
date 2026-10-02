@@ -1,6 +1,6 @@
-Our model is 0 points away from the market on Notre Dame-North Carolina.
+Our model is 0.5 points away from the market on Notre Dame-North Carolina.
 
-We make North Carolina +21. The market is +21.
+We make North Carolina +21.5. The market is +22.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

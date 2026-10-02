@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baylor Bears | +3.5 (+100) | theScore Bet | 55.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Arizona State Sun Devils | -4.5 (-105) | FanDuel | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Baylor Bears | +3.5 (-104) | Caesars | 56.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Arizona State Sun Devils | -3.5 (-110) | theScore Bet | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Baylor Bears visit the Arizona State Sun Devils at Mountain America Stadium. We make **Baylor +1.5**, compared with a market line of +4.
+The Baylor Bears visit the Arizona State Sun Devils at Mountain America Stadium. We make **Baylor +1**, compared with a market line of +3.5.
 
-The best number we found is Baylor +3.5 at +100. We give Baylor a 55.2% chance to cover, which creates an 5.2% edge for us. That clears our 3% threshold, so Baylor is a bet.
+The best number we found is Baylor +3.5 at -104. We give Baylor a 56.1% chance to cover, which creates an 5.1% edge for us. That clears our 3% threshold, so Baylor is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#63</td>
+<td class="btb-better">#64</td>
 <td>#114</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#65</td>
-<td>#76</td>
+<td>#75</td>
 </tr>
 </tbody>
 </table>

@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Bowling Green Falcons | +13.5 (-110) | DraftKings | 55.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Bowling Green Falcons | +13.5 (-110) | BetMGM | 55.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 | Miami (OH) RedHawks | -13.5 (-105) | FanDuel | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#93</td>
+<td>#94</td>
 <td class="btb-better">#64</td>
 </tr>
 <tr>

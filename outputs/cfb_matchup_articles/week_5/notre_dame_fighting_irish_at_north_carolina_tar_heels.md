@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Notre Dame Fighting Irish | -21.5 (+100) | theScore Bet | 47.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| North Carolina Tar Heels | +21.5 (-115) | BetRivers | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Notre Dame Fighting Irish | -22.5 (+100) | theScore Bet | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Carolina Tar Heels | +22.5 (-110) | Caesars | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Notre Dame Fighting Irish visit the North Carolina Tar Heels at Kenan Stadium. We make **North Carolina +21**, compared with a market line of +21.
+The Notre Dame Fighting Irish visit the North Carolina Tar Heels at Kenan Stadium. We make **North Carolina +21.5**, compared with a market line of +22.
 
-The best number we found is North Carolina +21.5 at -115. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is North Carolina +22.5 at -110. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

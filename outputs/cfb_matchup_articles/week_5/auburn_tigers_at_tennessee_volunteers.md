@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Auburn Tigers | +6.5 (+100) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Tennessee Volunteers | -7.5 (+100) | theScore Bet | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tennessee Volunteers | -6.5 (-115) | theScore Bet | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -42,13 +42,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#68</td>
+<td>#69</td>
 <td class="btb-better">#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#26</td>
-<td>#58</td>
+<td>#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#53</td>
-<td>#88</td>
+<td>#87</td>
 </tr>
 </tbody>
 </table>

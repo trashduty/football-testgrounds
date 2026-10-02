@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| California Golden Bears | +2.5 (-105) | theScore Bet | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UNLV Rebels | -2.5 (-109) | Caesars | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| California Golden Bears | +2.5 (-102) | BetMGM | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UNLV Rebels | -2.5 (-110) | BetRivers | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The California Golden Bears visit the UNLV Rebels at Allegiant Stadium. We make **UNLV -5**, compared with a market line of -2.5.
 
-The best number we found is UNLV -2.5 at -109. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UNLV -2.5 at -110. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

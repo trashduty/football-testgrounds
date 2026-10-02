@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UTEP Miners | +22.5 (-108) | BetMGM | 53.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| New Mexico Lobos | -22.5 (-110) | BetMGM | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UTEP Miners | +22.5 (-108) | DraftKings | 53.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| New Mexico Lobos | -21.5 (-113) | BetRivers | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -32,12 +32,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#117</td>
+<td>#116</td>
 <td class="btb-better">#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#126</td>
+<td>#125</td>
 <td class="btb-better">#19</td>
 </tr>
 <tr>
@@ -47,17 +47,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#89</td>
+<td>#90</td>
 <td class="btb-better">#9</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#98</td>
-<td class="btb-better">#11</td>
+<td>#99</td>
+<td class="btb-better">#12</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#114</td>
+<td>#113</td>
 <td class="btb-better">#15</td>
 </tr>
 </tbody>

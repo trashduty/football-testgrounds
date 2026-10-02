@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Cavaliers | -2.5 (-110) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Cavaliers | -2.5 (-105) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Florida State Seminoles | +2.5 (-102) | BetMGM | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take

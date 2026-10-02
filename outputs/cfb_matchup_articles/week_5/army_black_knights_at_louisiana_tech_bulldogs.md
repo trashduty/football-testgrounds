@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Army Black Knights | -2.5 (-105) | DraftKings | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Louisiana Tech Bulldogs | +2.5 (-110) | Fanatics | 55.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Army Black Knights | -1.5 (-110) | Fanatics | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisiana Tech Bulldogs | +2.5 (-114) | FanDuel | 56.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Army Black Knights visit the Louisiana Tech Bulldogs at Joe Aillet Stadium. We make **Louisiana Tech -0.5**, compared with a market line of +2.5.
+The Army Black Knights visit the Louisiana Tech Bulldogs at Joe Aillet Stadium. We make **Louisiana Tech -1**, compared with a market line of +2.
 
-The best number we found is Louisiana Tech +2.5 at -110. We see a 2.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Louisiana Tech +2.5 at -114. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,13 +42,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#86</td>
-<td>#103</td>
+<td class="btb-better">#85</td>
+<td>#104</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#107</td>
-<td class="btb-better">#77</td>
+<td class="btb-better">#76</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#55</td>
-<td>#91</td>
+<td>#90</td>
 </tr>
 </tbody>
 </table>

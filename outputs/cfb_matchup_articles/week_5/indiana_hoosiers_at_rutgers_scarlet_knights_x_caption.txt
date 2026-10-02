@@ -1,9 +1,9 @@
-Our model is 3.5 points away from the market on Indiana-Rutgers.
+Our model is 3 points away from the market on Indiana-Rutgers.
 
-We make Indiana -27. The market is -23.5.
+We make Indiana -27.5. The market is -24.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: Indiana -24.5 -105. We give it a 54.4% chance to cover with a 3.2% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

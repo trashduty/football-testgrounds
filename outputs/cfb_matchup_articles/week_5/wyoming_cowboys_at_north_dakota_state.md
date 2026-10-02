@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | +18.5 (-115) | FanDuel | 48.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| North Dakota State | -17.5 (-105) | theScore Bet | 53.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wyoming Cowboys | +17.5 (-108) | DraftKings | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Dakota State | -17.5 (-105) | Fanatics | 53.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#17</td>
-<td>#119</td>
+<td>#118</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>

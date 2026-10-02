@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Southern Eagles | -2.5 (-110) | BetMGM | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Coastal Carolina Chanticleers | +2.5 (-108) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Southern Eagles | -2.5 (-105) | theScore Bet | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Coastal Carolina Chanticleers | +1.5 (-105) | DraftKings | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia Southern Eagles visit the Coastal Carolina Chanticleers at Brooks Stadium (SC). We make **Georgia Southern -3.5**, compared with a market line of -2.5.
+The Georgia Southern Eagles visit the Coastal Carolina Chanticleers at Brooks Stadium (SC). We make **Georgia Southern -3**, compared with a market line of -2.
 
-The best number we found is Georgia Southern -2.5 at -110. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia Southern -2.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#106</td>
+<td class="btb-better">#107</td>
 <td>#133</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#130</td>
-<td class="btb-better">#103</td>
+<td class="btb-better">#102</td>
 </tr>
 </tbody>
 </table>

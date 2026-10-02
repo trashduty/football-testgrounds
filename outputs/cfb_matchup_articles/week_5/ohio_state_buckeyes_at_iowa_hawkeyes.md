@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ohio State Buckeyes | -14.5 (-105) | Caesars | 37.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa Hawkeyes | +14.5 (-110) | BetMGM | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Ohio State Buckeyes | -14.5 (-104) | FanDuel | 37.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa Hawkeyes | +14.5 (-110) | BetRivers | 62.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 

@@ -1,6 +1,6 @@
 Our model is 1 point away from the market on Georgia Southern-Coastal Carolina.
 
-We make Georgia Southern -3.5. The market is -2.5.
+We make Georgia Southern -3. The market is -2.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

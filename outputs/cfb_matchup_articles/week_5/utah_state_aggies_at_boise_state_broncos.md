@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Utah State Aggies | +20.5 (-110) | Caesars | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boise State Broncos | -19.5 (-114) | BetRivers | 58.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Utah State Aggies | +18.5 (-105) | DraftKings | 43.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boise State Broncos | -18.5 (-107) | Caesars | 56.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Utah State Aggies visit the Boise State Broncos at Albertsons Stadium. We make **Boise State -24**, compared with a market line of -20.5.
+The Utah State Aggies visit the Boise State Broncos at Albertsons Stadium. We make **Boise State -22.5**, compared with a market line of -18.5.
 
-The best number we found is Boise State -19.5 at -114. We give Boise State a 58.1% chance to cover, which creates an 4.9% edge for us. That clears our 3% threshold, so Boise State is a bet.
+The best number we found is Boise State -18.5 at -107. We give Boise State a 56.9% chance to cover, which creates an 5.3% edge for us. That clears our 3% threshold, so Boise State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#59</td>
+<td class="btb-better">#58</td>
 <td>#84</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#32</td>
-<td>#90</td>
+<td>#89</td>
 </tr>
 </tbody>
 </table>

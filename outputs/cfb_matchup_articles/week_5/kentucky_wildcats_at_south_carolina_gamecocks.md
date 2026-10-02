@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kentucky Wildcats | +2.5 (-102) | FanDuel | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Carolina Gamecocks | -3.5 (+105) | theScore Bet | 53.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kentucky Wildcats | +2.5 (+105) | theScore Bet | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -2.5 (-122) | FanDuel | 57.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Kentucky Wildcats visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **South Carolina -6.5**, compared with a market line of -3.
 
-The best number we found is South Carolina -3.5 at +105. We give South Carolina a 53.2% chance to cover, which creates an 4.4% edge for us. That clears our 3% threshold, so South Carolina is a bet.
+The best number we found is South Carolina -2.5 at -122. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#49</td>
+<td class="btb-better">#50</td>
 <td>#83</td>
 </tr>
 <tr>
@@ -48,17 +48,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#20</td>
-<td>#91</td>
+<td>#92</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#96</td>
-<td>#107</td>
+<td>#108</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#46</td>
-<td>#72</td>
+<td>#71</td>
 </tr>
 </tbody>
 </table>

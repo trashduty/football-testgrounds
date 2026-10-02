@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| West Virginia Mountaineers | +3.5 (-105) | Caesars | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| West Virginia Mountaineers | +2.5 (+100) | FanDuel | 37.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Iowa State Cyclones | -3.5 (+100) | theScore Bet | 58.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#31</td>
-<td>#122</td>
+<td>#121</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#51</td>
-<td>#108</td>
+<td>#107</td>
 </tr>
 </tbody>
 </table>

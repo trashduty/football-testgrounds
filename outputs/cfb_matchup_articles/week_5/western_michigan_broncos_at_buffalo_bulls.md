@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Michigan Broncos | -13.5 (-112) | BetMGM | 38.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Buffalo Bulls | +13.5 (+100) | theScore Bet | 61.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Western Michigan Broncos | -13.5 (-115) | Fanatics | 38.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Buffalo Bulls | +13.5 (+105) | theScore Bet | 61.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Western Michigan Broncos visit the Buffalo Bulls at UB Stadium. We make **Buffalo +8**, compared with a market line of +13.5.
+The Western Michigan Broncos visit the Buffalo Bulls at UB Stadium. We make **Buffalo +8**, compared with a market line of +14.
 
-The best number we found is Buffalo +13.5 at +100. We give Buffalo a 61.5% chance to cover, which creates an 11.5% edge for us. That clears our 3% threshold, so Buffalo is a bet.
+The best number we found is Buffalo +13.5 at +105. We give Buffalo a 61.5% chance to cover, which creates an 12.7% edge for us. That clears our 3% threshold, so Buffalo is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#122</td>
-<td>#123</td>
+<td class="btb-better">#121</td>
+<td>#122</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -48,12 +48,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#34</td>
-<td>#69</td>
+<td>#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#125</td>
-<td class="btb-better">#8</td>
+<td class="btb-better">#9</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

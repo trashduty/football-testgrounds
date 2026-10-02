@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Hurricanes | -16.5 (-112) | DraftKings | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Miami Hurricanes | -15.5 (-110) | FanDuel | 48.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Clemson Tigers | +16.5 (-104) | Caesars | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#127</td>
+<td>#126</td>
 <td class="btb-better">#29</td>
 </tr>
 <tr>
@@ -47,13 +47,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#70</td>
+<td>#69</td>
 <td class="btb-better">#23</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#76</td>
-<td class="btb-better">#3</td>
+<td class="btb-better">#4</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

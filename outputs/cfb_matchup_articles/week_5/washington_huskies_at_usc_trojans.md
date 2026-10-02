@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | +9.5 (-102) | DraftKings | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| USC Trojans | -9.5 (-115) | BetRivers | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | +9.5 (-108) | BetRivers | 56.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| USC Trojans | -8.5 (-108) | BetMGM | 45.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Washington Huskies visit the USC Trojans at Los Angeles Memorial Coliseum. We make **Washington +8**, compared with a market line of +9.5.
+The Washington Huskies visit the USC Trojans at Los Angeles Memorial Coliseum. We make **Washington +7.5**, compared with a market line of +9.
 
-The best number we found is Washington +9.5 at -102. We give Washington a 55.3% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Washington is a bet.
+The best number we found is Washington +9.5 at -108. We give Washington a 56.1% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Washington is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#54</td>
+<td class="btb-better">#55</td>
 <td>#89</td>
 </tr>
 <tr>

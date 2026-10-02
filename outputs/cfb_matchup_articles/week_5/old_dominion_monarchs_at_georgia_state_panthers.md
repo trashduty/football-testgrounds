@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#92</td>
+<td>#93</td>
 <td class="btb-better">#18</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#120</td>
+<td>#119</td>
 <td class="btb-better">#18</td>
 </tr>
 </tbody>

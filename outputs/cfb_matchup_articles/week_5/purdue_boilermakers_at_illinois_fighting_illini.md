@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Purdue Boilermakers | +9.5 (-105) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Purdue Boilermakers | +9.5 (-105) | theScore Bet | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Illinois Fighting Illini | -10.5 (-102) | FanDuel | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -38,17 +38,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#118</td>
-<td class="btb-better">#62</td>
+<td class="btb-better">#63</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#130</td>
+<td>#131</td>
 <td class="btb-better">#113</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#138</td>
-<td class="btb-better">#57</td>
+<td class="btb-better">#56</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>

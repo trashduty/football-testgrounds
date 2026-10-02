@@ -1,6 +1,6 @@
 Our model is 1 point away from the market on San Jose State-Hawai'i.
 
-We make Hawai'i -4. The market is -3.
+We make Hawai'i -4.5. The market is -3.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

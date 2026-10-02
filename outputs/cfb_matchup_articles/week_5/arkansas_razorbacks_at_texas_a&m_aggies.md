@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Arkansas Razorbacks | +13.5 (+100) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Texas A&M Aggies | -13.5 (-115) | Fanatics | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | -14.0 (-105) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#69</td>
-<td class="btb-better">#58</td>
+<td class="btb-better">#59</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -48,7 +48,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#118</td>
-<td class="btb-better">#68</td>
+<td class="btb-better">#67</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>

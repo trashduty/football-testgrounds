@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UTSA Roadrunners | -11.5 (-108) | BetMGM | 44.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Rice Owls | +11.5 (-105) | theScore Bet | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| UTSA Roadrunners | -11.5 (-110) | FanDuel | 44.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Rice Owls | +12.5 (-110) | Fanatics | 57.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The UTSA Roadrunners visit the Rice Owls at Rice Stadium. We make **Rice +9.5**, compared with a market line of +11.5.
+The UTSA Roadrunners visit the Rice Owls at Rice Stadium. We make **Rice +9.5**, compared with a market line of +12.
 
-The best number we found is Rice +11.5 at -105. We give Rice a 56.2% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Rice is a bet.
+The best number we found is Rice +12.5 at -110. We give Rice a 57.6% chance to cover, which creates an 5.2% edge for us. That clears our 3% threshold, so Rice is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,7 +38,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#96</td>
-<td class="btb-better">#56</td>
+<td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Toledo Rockets | -19.5 (-108) | BetMGM | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ball State Cardinals | +19.5 (-108) | FanDuel | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Toledo Rockets | -20.5 (-110) | BetMGM | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ball State Cardinals | +20.5 (-105) | theScore Bet | 55.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Toledo Rockets visit the Ball State Cardinals at Scheumann Stadium. We make **Ball State +17**, compared with a market line of +19.5.
+The Toledo Rockets visit the Ball State Cardinals at Scheumann Stadium. We make **Ball State +18**, compared with a market line of +20.5.
 
-The best number we found is Ball State +19.5 at -108. We give Ball State a 55.5% chance to cover, which creates an 3.6% edge for us. That clears our 3% threshold, so Ball State is a bet.
+The best number we found is Ball State +20.5 at -105. We give Ball State a 55.2% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Ball State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,11 +38,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#109</td>
-<td class="btb-better">#66</td>
+<td class="btb-better">#67</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#102</td>
+<td>#103</td>
 <td class="btb-better">#9</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#79</td>
+<td>#77</td>
 <td class="btb-better">#19</td>
 </tr>
 </tbody>

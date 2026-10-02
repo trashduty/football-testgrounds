@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida Gators | -5.5 (-105) | DraftKings | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Gators | -5.5 (-105) | theScore Bet | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Missouri Tigers | +4.5 (-102) | FanDuel | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -43,12 +43,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#23</td>
-<td>#94</td>
+<td>#95</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#65</td>
-<td>#78</td>
+<td class="btb-better">#64</td>
+<td>#77</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#21</td>
-<td>#106</td>
+<td>#105</td>
 </tr>
 </tbody>
 </table>

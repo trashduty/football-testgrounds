@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Navy Midshipmen | +3.5 (-115) | Fanatics | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Air Force Falcons | -3.5 (+105) | theScore Bet | 53.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Navy Midshipmen | +3.5 (-110) | theScore Bet | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Air Force Falcons | -3.5 (+100) | Fanatics | 53.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Navy Midshipmen visit the Air Force Falcons at Falcon Stadium. We make **Air Force -6**, compared with a market line of -3.5.
 
-The best number we found is Air Force -3.5 at +105. We give Air Force a 53.5% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so Air Force is a bet.
+The best number we found is Air Force -3.5 at +100. We give Air Force a 53.5% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Air Force is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#65</td>
+<td class="btb-better">#66</td>
 <td>#136</td>
 </tr>
 <tr>

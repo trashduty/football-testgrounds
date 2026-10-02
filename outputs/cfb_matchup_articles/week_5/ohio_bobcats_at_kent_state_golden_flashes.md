@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ohio Bobcats | -3.5 (+100) | Fanatics | 51.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Kent State Golden Flashes | +3.5 (-118) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio Bobcats | -3.5 (-105) | Fanatics | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kent State Golden Flashes | +3.5 (-110) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Ohio Bobcats visit the Kent State Golden Flashes at Dix Stadium. We make **Ohio -5.5**, compared with a market line of -3.5.
 
-The best number we found is Ohio -3.5 at +100. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ohio -3.5 at -105. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,17 +37,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#6</td>
-<td>#128</td>
+<td class="btb-better">#5</td>
+<td>#127</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#110</td>
-<td class="btb-better">#87</td>
+<td class="btb-better">#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#64</td>
+<td class="btb-better">#63</td>
 <td>#114</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#47</td>
-<td>#94</td>
+<td>#92</td>
 </tr>
 </tbody>
 </table>

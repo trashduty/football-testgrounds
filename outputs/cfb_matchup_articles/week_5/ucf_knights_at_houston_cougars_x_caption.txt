@@ -1,6 +1,6 @@
 Our model is 1 point away from the market on UCF-Houston.
 
-We make UCF +11. The market is +12.
+We make UCF +10.5. The market is +11.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -1,6 +1,6 @@
 Our model is 3 points away from the market on Army-Louisiana Tech.
 
-We make Louisiana Tech -0.5. The market is +2.5.
+We make Louisiana Tech -1. The market is +2.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

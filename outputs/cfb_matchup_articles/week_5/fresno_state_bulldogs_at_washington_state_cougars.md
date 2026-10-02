@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Fresno State Bulldogs | +1.5 (+100) | theScore Bet | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington State Cougars | -1.5 (-110) | Fanatics | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Fresno State Bulldogs | +1.5 (-103) | Caesars | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | -1.5 (-110) | theScore Bet | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#65</td>
+<td class="btb-better">#66</td>
 <td>#132</td>
 </tr>
 <tr>
@@ -47,13 +47,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#60</td>
+<td>#59</td>
 <td class="btb-better">#50</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#105</td>
-<td>#108</td>
+<td class="btb-better">#106</td>
+<td>#109</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

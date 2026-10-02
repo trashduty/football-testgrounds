@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Indiana Hoosiers | -23.5 (-113) | Caesars | 55.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Rutgers Scarlet Knights | +23.5 (-105) | DraftKings | 44.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Indiana Hoosiers | -24.5 (-105) | FanDuel | 54.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Rutgers Scarlet Knights | +24.5 (-105) | theScore Bet | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Indiana Hoosiers visit the Rutgers Scarlet Knights at SHI Stadium. We make **Indiana -27**, compared with a market line of -23.5.
+The Indiana Hoosiers visit the Rutgers Scarlet Knights at SHI Stadium. We make **Indiana -27.5**, compared with a market line of -24.5.
 
-The best number we found is Indiana -23.5 at -113. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Indiana -24.5 at -105. We give Indiana a 54.4% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Indiana is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

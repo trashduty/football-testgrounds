@@ -1,6 +1,6 @@
 Our model is 2 points away from the market on Texas Tech-Colorado.
 
-We make Texas Tech -14.5. The market is -12.5.
+We make Texas Tech -15. The market is -13.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

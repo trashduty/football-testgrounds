@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Syracuse Orange | -6.5 (-110) | FanDuel | 44.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UConn Huskies | +6.5 (-102) | DraftKings | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Syracuse Orange | -7.0 (-105) | BetMGM | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UConn Huskies | +6.5 (+100) | theScore Bet | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Syracuse Orange visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +4**, compared with a market line of +7.
 
-The best number we found is Connecticut +6.5 at -102. We give Connecticut a 55.6% chance to cover, which creates an 5.1% edge for us. That clears our 3% threshold, so Connecticut is a bet.
+The best number we found is Connecticut +6.5 at +100. We give Connecticut a 55.6% chance to cover, which creates an 5.6% edge for us. That clears our 3% threshold, so Connecticut is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#116</td>
-<td class="btb-better">#73</td>
+<td>#115</td>
+<td class="btb-better">#72</td>
 </tr>
 </tbody>
 </table>
