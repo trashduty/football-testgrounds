@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Miami Hurricanes | -15.5 (-110) | FanDuel | 48.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Clemson Tigers | +16.5 (-104) | Caesars | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Miami Hurricanes | -15.0 (-110) | BetMGM | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Clemson Tigers | +15.5 (-109) | Caesars | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Miami Hurricanes visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Clemson +15.5**, compared with a market line of +16.5.
+The Miami Hurricanes visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Clemson +15**, compared with a market line of +15.5.
 
-The best number we found is Clemson +16.5 at -104. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Clemson +15.5 at -109. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,22 +37,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#126</td>
+<td>#125</td>
 <td class="btb-better">#29</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#14</td>
-<td>#21</td>
+<td class="btb-better">#13</td>
+<td>#20</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#69</td>
+<td>#71</td>
 <td class="btb-better">#23</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#76</td>
+<td>#77</td>
 <td class="btb-better">#4</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Bowling Green-Miami (OH).
+Our model is 1.5 points away from the market on Bowling Green-Miami (OH).
 
-We make Bowling Green +11.5. The market is +13.5.
+We make Bowling Green +11. The market is +12.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

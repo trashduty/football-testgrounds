@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon State Beavers | -6.5 (-110) | BetMGM | 37.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado State Rams | +6.5 (-105) | FanDuel | 62.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Oregon State Beavers | -6.5 (-112) | BetRivers | 37.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado State Rams | +6.5 (-102) | BetMGM | 62.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Oregon State Beavers visit the Colorado State Rams at Canvas Stadium. We make **Colorado State -0**, compared with a market line of +6.5.
 
-The best number we found is Colorado State +6.5 at -105. We give Colorado State a 62.3% chance to cover, which creates an 11.0% edge for us. That clears our 3% threshold, so Colorado State is a bet.
+The best number we found is Colorado State +6.5 at -102. We give Colorado State a 62.3% chance to cover, which creates an 11.8% edge for us. That clears our 3% threshold, so Colorado State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,12 +43,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#138</td>
-<td class="btb-better">#36</td>
+<td class="btb-better">#35</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#132</td>
-<td class="btb-better">#60</td>
+<td class="btb-better">#61</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

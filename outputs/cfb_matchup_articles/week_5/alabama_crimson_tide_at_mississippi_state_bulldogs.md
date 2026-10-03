@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Alabama Crimson Tide | -5.5 (-108) | BetMGM | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Mississippi State Bulldogs | +5.5 (+100) | theScore Bet | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Alabama Crimson Tide | -5.5 (-105) | FanDuel | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Mississippi State Bulldogs | +5.5 (-107) | Caesars | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Alabama Crimson Tide visit the Mississippi State Bulldogs at Davis Wade Stadium. We make **Mississippi State +6**, compared with a market line of +5.5.
 
-The best number we found is Mississippi State +5.5 at +100. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Mississippi State +5.5 at -107. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#67</td>
+<td>#65</td>
 <td class="btb-better">#61</td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#98</td>
+<td>#99</td>
 <td class="btb-better">#15</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#116</td>
+<td>#115</td>
 <td class="btb-better">#10</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

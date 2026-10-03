@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Eastern Michigan Eagles | +5.5 (-110) | BetMGM | 63.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| UMass Minutemen | -5.5 (-108) | BetMGM | 36.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Eastern Michigan Eagles | +5.5 (-108) | BetMGM | 63.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| UMass Minutemen | -5.5 (-108) | FanDuel | 36.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Eastern Michigan Eagles visit the UMass Minutemen at Warren McGuirk Alumni Stadium. We make **Eastern Michigan -1**, compared with a market line of +5.5.
 
-The best number we found is Eastern Michigan +5.5 at -110. We give Eastern Michigan a 63.9% chance to cover, which creates an 11.5% edge for us. That clears our 3% threshold, so Eastern Michigan is a bet.
+The best number we found is Eastern Michigan +5.5 at -108. We give Eastern Michigan a 63.9% chance to cover, which creates an 12.0% edge for us. That clears our 3% threshold, so Eastern Michigan is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,12 +32,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#83</td>
+<td class="btb-better">#84</td>
 <td>#101</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#70</td>
+<td class="btb-better">#71</td>
 <td>#87</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

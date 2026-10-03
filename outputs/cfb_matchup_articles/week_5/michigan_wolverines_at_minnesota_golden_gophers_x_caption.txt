@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Michigan-Minnesota.
+Our model is 1.5 points away from the market on Michigan-Minnesota.
 
-We make Michigan -7.5. The market is -5.5.
+We make Michigan -8. The market is -6.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

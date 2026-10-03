@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -12.5 (-110) | BetRivers | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado Buffaloes | +13.5 (-115) | DraftKings | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -13.5 (-105) | theScore Bet | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado Buffaloes | +13.5 (-108) | BetMGM | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Tech Red Raiders visit the Colorado Buffaloes at Folsom Field. We make **Texas Tech -15**, compared with a market line of -13.
+The Texas Tech Red Raiders visit the Colorado Buffaloes at Folsom Field. We make **Texas Tech -15**, compared with a market line of -13.5.
 
-The best number we found is Texas Tech -12.5 at -110. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas Tech -13.5 at -105. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -48,11 +48,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#3</td>
-<td>#62</td>
+<td>#63</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#11</td>
+<td class="btb-better">#13</td>
 <td>#130</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

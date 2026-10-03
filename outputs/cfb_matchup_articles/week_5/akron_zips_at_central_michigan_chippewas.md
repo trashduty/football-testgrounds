@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Akron Zips | +6.5 (-105) | Fanatics | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Central Michigan Chippewas | -6.5 (-109) | BetRivers | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Akron Zips | +6.5 (-102) | BetMGM | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Central Michigan Chippewas | -6.5 (-115) | BetMGM | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Akron Zips visit the Central Michigan Chippewas at Kelly/Shorts Stadium. We make **Central Michigan -8.5**, compared with a market line of -6.5.
 
-The best number we found is Central Michigan -6.5 at -109. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Central Michigan -6.5 at -115. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,22 +42,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#22</td>
+<td class="btb-better">#21</td>
 <td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#38</td>
-<td class="btb-better">#10</td>
+<td class="btb-better">#11</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#122</td>
-<td class="btb-better">#97</td>
+<td class="btb-better">#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#49</td>
+<td class="btb-better">#47</td>
 <td>#112</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | +9.5 (-108) | BetRivers | 56.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| USC Trojans | -8.5 (-108) | BetMGM | 45.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | +9.5 (-108) | BetRivers | 55.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| USC Trojans | -9.5 (-105) | theScore Bet | 45.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Washington Huskies visit the USC Trojans at Los Angeles Memorial Coliseum. We make **Washington +7.5**, compared with a market line of +9.
+The Washington Huskies visit the USC Trojans at Los Angeles Memorial Coliseum. We make **Washington +8**, compared with a market line of +9.5.
 
-The best number we found is Washington +9.5 at -108. We give Washington a 56.1% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Washington is a bet.
+The best number we found is Washington +9.5 at -108. We give Washington a 55.3% chance to cover, which creates an 3.4% edge for us. That clears our 3% threshold, so Washington is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,22 +33,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#59</td>
-<td class="btb-better">#13</td>
+<td class="btb-better">#14</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#55</td>
+<td class="btb-better">#56</td>
 <td>#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#35</td>
+<td class="btb-better">#34</td>
 <td>#81</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#6</td>
-<td>#96</td>
+<td>#97</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#30</td>
-<td>#39</td>
+<td>#38</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Indiana Hoosiers | -24.5 (-105) | FanDuel | 54.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Rutgers Scarlet Knights | +24.5 (-105) | theScore Bet | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Indiana Hoosiers | -24.5 (-105) | DraftKings | 54.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Rutgers Scarlet Knights | +24.5 (-110) | theScore Bet | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#31</td>
+<td class="btb-better">#33</td>
 <td>#64</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#7</td>
-<td>#124</td>
+<td>#123</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

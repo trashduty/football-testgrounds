@@ -2,8 +2,8 @@ Our model is 2.5 points away from the market on California-UNLV.
 
 We make UNLV -5. The market is -2.5.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: UNLV -2.5 -105. We give it a 54.4% chance to cover with a 3.2% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Syracuse Orange | -7.0 (-105) | BetMGM | 41.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UConn Huskies | +6.5 (+100) | theScore Bet | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Syracuse Orange | -6.5 (-115) | BetMGM | 43.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UConn Huskies | +6.5 (-104) | FanDuel | 56.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Syracuse Orange visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +4**, compared with a market line of +7.
+The Syracuse Orange visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +3.5**, compared with a market line of +6.5.
 
-The best number we found is Connecticut +6.5 at +100. We give Connecticut a 55.6% chance to cover, which creates an 5.6% edge for us. That clears our 3% threshold, so Connecticut is a bet.
+The best number we found is Connecticut +6.5 at -104. We give Connecticut a 56.4% chance to cover, which creates an 5.4% edge for us. That clears our 3% threshold, so Connecticut is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,17 +47,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#101</td>
+<td class="btb-better">#102</td>
 <td>#125</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#31</td>
 <td>#137</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#115</td>
+<td>#114</td>
 <td class="btb-better">#72</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -1,6 +1,6 @@
 Our model is 1 point away from the market on Auburn-Tennessee.
 
-We make Auburn +6. The market is +7.
+We make Auburn +5.5. The market is +6.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

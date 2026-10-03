@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Cincinnati Bearcats | +6.5 (-105) | BetMGM | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Arizona Wildcats | -6.5 (-109) | Caesars | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Cincinnati Bearcats | +6.5 (-105) | FanDuel | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona Wildcats | -6.5 (-110) | theScore Bet | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Cincinnati Bearcats visit the Arizona Wildcats at Arizona Stadium. We make **Cincinnati +7.5**, compared with a market line of +6.5.
+The Cincinnati Bearcats visit the Arizona Wildcats at Arizona Stadium. We make **Cincinnati +7.5**, compared with a market line of +7.
 
 The best number we found is Cincinnati +6.5 at -105. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -48,17 +48,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#127</td>
-<td class="btb-better">#75</td>
+<td class="btb-better">#76</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#13</td>
-<td>#35</td>
+<td class="btb-better">#15</td>
+<td>#36</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#78</td>
-<td class="btb-better">#56</td>
+<td>#79</td>
+<td class="btb-better">#54</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

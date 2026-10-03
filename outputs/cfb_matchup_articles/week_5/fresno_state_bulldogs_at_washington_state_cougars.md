@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Fresno State Bulldogs | +1.5 (-103) | Caesars | 41.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington State Cougars | -1.5 (-110) | theScore Bet | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Fresno State Bulldogs | +2.5 (-105) | theScore Bet | 42.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | -1.5 (-114) | FanDuel | 59.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Fresno State Bulldogs visit the Washington State Cougars at Gesa Field. We make **Washington State -5.5**, compared with a market line of -1.5.
+The Fresno State Bulldogs visit the Washington State Cougars at Gesa Field. We make **Washington State -6**, compared with a market line of -2.
 
-The best number we found is Washington State -1.5 at -110. We give Washington State a 58.0% chance to cover, which creates an 5.6% edge for us. That clears our 3% threshold, so Washington State is a bet.
+The best number we found is Washington State -1.5 at -114. We give Washington State a 59.0% chance to cover, which creates an 5.7% edge for us. That clears our 3% threshold, so Washington State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,12 +42,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#16</td>
-<td>#26</td>
+<td class="btb-better">#15</td>
+<td>#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#59</td>
+<td>#60</td>
 <td class="btb-better">#50</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

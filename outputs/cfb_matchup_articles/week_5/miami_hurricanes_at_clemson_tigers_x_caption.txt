@@ -1,6 +1,6 @@
-Our model is 1 point away from the market on Miami-Clemson.
+Our model is 0.5 points away from the market on Miami-Clemson.
 
-We make Clemson +15.5. The market is +16.5.
+We make Clemson +15. The market is +15.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

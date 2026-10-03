@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Michigan Wolverines | -5.5 (-110) | BetMGM | 52.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Minnesota Golden Gophers | +5.5 (-108) | BetMGM | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | -6.5 (-104) | Caesars | 52.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Minnesota Golden Gophers | +6.5 (-114) | BetRivers | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Michigan Wolverines visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Michigan -7.5**, compared with a market line of -5.5.
+The Michigan Wolverines visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Michigan -8**, compared with a market line of -6.5.
 
-The best number we found is Michigan -5.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan -6.5 at -104. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,33 +32,33 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#73</td>
-<td>#76</td>
+<td class="btb-better">#74</td>
+<td>#77</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#54</td>
+<td class="btb-better">#55</td>
 <td>#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#34</td>
-<td>#98</td>
+<td class="btb-better">#33</td>
+<td>#99</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#21</td>
-<td>#99</td>
+<td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#38</td>
+<td class="btb-better">#40</td>
 <td>#62</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#29</td>
-<td>#41</td>
+<td>#40</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **17 games** this week.
+Our model found edges of at least 3% on **20 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
