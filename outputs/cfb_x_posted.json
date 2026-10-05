@@ -679,6 +679,14 @@
       "game": "Utah State Aggies@Boise State Broncos",
       "kind": "Bet",
       "post_id": "2106499541587697795"
+    },
+    {
+      "date": "2026-10-05",
+      "hour": 9,
+      "season_week": "2026-week-6",
+      "game": "Air Force Falcons@Northern Illinois Huskies",
+      "kind": "No Bet",
+      "post_id": "2107101153519341570"
     }
   ]
 }
