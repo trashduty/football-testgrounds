@@ -1,0 +1,28 @@
+{
+  "game": "Tennessee Volunteers@Arkansas Razorbacks",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:22:52.193821+00:00",
+  "model_prediction": 14.0,
+  "market_line": 13.5,
+  "best_line": 13.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.51041423,
+  "edge": -0.0088165392307693,
+  "bet_short": "Arkansas",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Tennessee Volunteers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf",
+      "Guide processing failed for Tennessee Volunteers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for Arkansas Razorbacks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

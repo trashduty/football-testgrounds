@@ -1,0 +1,27 @@
+{
+  "game": "Ball State Cardinals@Northwestern Wildcats",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:18:41.364947+00:00",
+  "model_prediction": 36.0,
+  "market_line": 35.5,
+  "best_line": 36.5,
+  "best_price": "-112",
+  "best_book": "DraftKings",
+  "cover_probability": 0.51017058,
+  "edge": -0.0181313067924527,
+  "bet_short": "Ball State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Ball State Cardinals. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ball State.pdf",
+      "No guide found for Northwestern Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Northwestern.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

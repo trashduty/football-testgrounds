@@ -1,0 +1,27 @@
+{
+  "game": "South Florida Bulls@UTSA Roadrunners",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:22:32.388772+00:00",
+  "model_prediction": 5.0,
+  "market_line": 7.0,
+  "best_line": 6.5,
+  "best_price": "110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.53855211,
+  "edge": 0.0623616338095238,
+  "bet_short": "South Florida",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for South Florida Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Florida.pdf",
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

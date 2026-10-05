@@ -1,0 +1,27 @@
+{
+  "game": "Duke Blue Devils@Georgia Tech Yellow Jackets",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:19:07.526280+00:00",
+  "model_prediction": 8.0,
+  "market_line": 7.0,
+  "best_line": 6.5,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.4868199,
+  "edge": -0.0131800999999999,
+  "bet_short": "Georgia Tech",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Duke Blue Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Duke.pdf",
+      "No guide found for Georgia Tech Yellow Jackets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Tech.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

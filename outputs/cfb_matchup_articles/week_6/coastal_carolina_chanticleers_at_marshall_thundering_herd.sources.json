@@ -1,0 +1,27 @@
+{
+  "game": "Coastal Carolina Chanticleers@Marshall Thundering Herd",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:19:06.710792+00:00",
+  "model_prediction": 2.5,
+  "market_line": 3.0,
+  "best_line": 2.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.49526408,
+  "edge": -0.00473592,
+  "bet_short": "Coastal Carolina",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Coastal Carolina Chanticleers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Coastal Carolina.pdf",
+      "No guide found for Marshall Thundering Herd. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Marshall.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

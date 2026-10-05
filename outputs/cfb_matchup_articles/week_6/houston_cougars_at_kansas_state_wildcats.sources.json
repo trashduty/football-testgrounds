@@ -1,0 +1,27 @@
+{
+  "game": "Houston Cougars@Kansas State Wildcats",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:19:21.313134+00:00",
+  "model_prediction": -4.5,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.53585582,
+  "edge": 0.0120462961904761,
+  "bet_short": "Kansas State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Houston Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Houston.pdf",
+      "No guide found for Kansas State Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Georgia Bulldogs@Alabama Crimson Tide",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:19:19.631086+00:00",
+  "model_prediction": -3.5,
+  "market_line": -1.5,
+  "best_line": 0.5,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.56626867,
+  "edge": 0.0357522380751174,
+  "bet_short": "Alabama",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Georgia Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia.pdf",
+      "No guide found for Alabama Crimson Tide. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Alabama.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "Arizona Wildcats@West Virginia Mountaineers",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:18:40.661755+00:00",
+  "model_prediction": -5.0,
+  "market_line": -3.0,
+  "best_line": -3.5,
+  "best_price": "105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.50589878,
+  "edge": 0.0180939019512195,
+  "bet_short": "Arizona",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Arizona Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona.pdf",
+      "Found guide for West Virginia Mountaineers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/West Virginia.pdf",
+      "Guide processing failed for West Virginia Mountaineers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

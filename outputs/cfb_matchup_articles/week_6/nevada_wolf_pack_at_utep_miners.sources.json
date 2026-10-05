@@ -1,0 +1,27 @@
+{
+  "game": "Nevada Wolf Pack@UTEP Miners",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:21:22.501070+00:00",
+  "model_prediction": -10.5,
+  "market_line": -9.0,
+  "best_line": -7.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.52510742,
+  "edge": 0.0012978961904761,
+  "bet_short": "Nevada",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Nevada Wolf Pack. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nevada.pdf",
+      "No guide found for UTEP Miners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UTEP.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

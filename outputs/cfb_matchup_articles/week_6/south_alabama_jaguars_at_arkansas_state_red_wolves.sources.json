@@ -1,0 +1,27 @@
+{
+  "game": "South Alabama Jaguars@Arkansas State Red Wolves",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:22:15.308122+00:00",
+  "model_prediction": -2.5,
+  "market_line": -1.5,
+  "best_line": -1.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.51674859,
+  "edge": 0.0167485899999999,
+  "bet_short": "Arkansas State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for South Alabama Jaguars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Alabama.pdf",
+      "No guide found for Arkansas State Red Wolves. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

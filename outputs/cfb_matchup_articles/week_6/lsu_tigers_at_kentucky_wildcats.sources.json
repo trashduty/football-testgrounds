@@ -1,0 +1,28 @@
+{
+  "game": "LSU Tigers@Kentucky Wildcats",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:20:44.822793+00:00",
+  "model_prediction": 10.5,
+  "market_line": 10.0,
+  "best_line": 9.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.50928025,
+  "edge": -0.0029148719512195,
+  "bet_short": "Kentucky",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for LSU Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf",
+      "Guide processing failed for LSU Tigers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for Kentucky Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kentucky.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

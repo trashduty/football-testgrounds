@@ -1,0 +1,28 @@
+{
+  "game": "Wake Forest Demon Deacons@NC State Wolfpack",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:24:50.079521+00:00",
+  "model_prediction": 3.0,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52848194,
+  "edge": 0.0046724161904762,
+  "bet_short": "NC State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
+      "Guide processing failed for Wake Forest Demon Deacons: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for NC State Wolfpack. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/NC State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

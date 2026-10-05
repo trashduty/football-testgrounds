@@ -1,0 +1,28 @@
+{
+  "game": "USC Trojans@Penn State Nittany Lions",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:24:29.701790+00:00",
+  "model_prediction": -2.0,
+  "market_line": -1.5,
+  "best_line": -1.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.50818082,
+  "edge": -0.0040143019512195,
+  "bet_short": "Penn State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for USC Trojans: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
+      "Guide processing failed for USC Trojans: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for Penn State Nittany Lions. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Penn State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

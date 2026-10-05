@@ -1,0 +1,27 @@
+{
+  "game": "Stanford Cardinal@Notre Dame Fighting Irish",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:22:33.830832+00:00",
+  "model_prediction": -40.0,
+  "market_line": -37.5,
+  "best_line": -37.5,
+  "best_price": "-108",
+  "best_book": "FanDuel",
+  "cover_probability": 0.5358794,
+  "edge": 0.0166486307692307,
+  "bet_short": "Notre Dame",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf",
+      "No guide found for Notre Dame Fighting Irish. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Notre Dame.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "South Carolina Gamecocks@Florida Gators",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:22:31.648356+00:00",
+  "model_prediction": 12.5,
+  "market_line": 14.0,
+  "best_line": 14.5,
+  "best_price": "-115",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.55949352,
+  "edge": 0.0246097990697674,
+  "bet_short": "South Carolina",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for South Carolina Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Carolina.pdf",
+      "Found guide for Florida Gators: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida.pdf",
+      "Guide processing failed for Florida Gators: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

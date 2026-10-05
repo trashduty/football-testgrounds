@@ -1,0 +1,27 @@
+{
+  "game": "Jacksonville State Gamecocks@Kennesaw State Owls",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:19:59.497146+00:00",
+  "model_prediction": -0.5,
+  "market_line": 3.0,
+  "best_line": 2.5,
+  "best_price": "101",
+  "best_book": "Caesars",
+  "cover_probability": 0.55173934,
+  "edge": 0.0542269021890547,
+  "bet_short": "Kennesaw State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf",
+      "No guide found for Kennesaw State Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kennesaw State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Southern Mississippi Golden Eagles@Troy Trojans",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:22:33.126448+00:00",
+  "model_prediction": 10.5,
+  "market_line": 10.5,
+  "best_line": 11.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.53761204,
+  "edge": 0.0138025161904761,
+  "bet_short": "Southern Mississippi",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Southern Mississippi Golden Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Southern Mississippi.pdf",
+      "No guide found for Troy Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Troy.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

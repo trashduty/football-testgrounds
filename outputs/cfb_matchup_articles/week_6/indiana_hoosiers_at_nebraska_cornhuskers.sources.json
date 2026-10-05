@@ -1,0 +1,27 @@
+{
+  "game": "Indiana Hoosiers@Nebraska Cornhuskers",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:19:22.787326+00:00",
+  "model_prediction": 8.5,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.5156522,
+  "edge": -0.0081573238095238,
+  "bet_short": "Nebraska",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Indiana Hoosiers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Indiana.pdf",
+      "No guide found for Nebraska Cornhuskers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nebraska.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "Buffalo Bulls@Toledo Rockets",
+  "season": 2026,
+  "week": 6,
+  "generated_at_utc": "2026-10-05T13:18:57.032132+00:00",
+  "model_prediction": 19.0,
+  "market_line": 19.5,
+  "best_line": 19.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.51972962,
+  "edge": 0.0075344980487804,
+  "bet_short": "Buffalo",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Buffalo Bulls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Buffalo.pdf",
+      "Guide processing failed for Buffalo Bulls: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for Toledo Rockets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Toledo.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
