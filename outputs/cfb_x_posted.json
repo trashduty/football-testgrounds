@@ -767,6 +767,14 @@
       "game": "Boise State Broncos@Fresno State Bulldogs",
       "kind": "Bet",
       "post_id": "2107507837077238206"
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 13,
+      "season_week": "2026-week-6",
+      "game": "Florida State Seminoles@Louisville Cardinals",
+      "kind": "No Bet",
+      "post_id": "2107521210137358540"
     }
   ]
 }
