@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Eastern Michigan Eagles | -6.5 (-112) | BetMGM | 53.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Akron Zips | +6.5 (+100) | Fanatics | 46.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Eastern Michigan Eagles | -7.0 (-105) | BetMGM | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Akron Zips | +6.5 (+100) | FanDuel | 46.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Eastern Michigan Eagles visit the Akron Zips at InfoCision Stadium. We make **Eastern Michigan -9.5**, compared with a market line of -6.5.
+The Eastern Michigan Eagles visit the Akron Zips at InfoCision Stadium. We make **Eastern Michigan -9.5**, compared with a market line of -7.
 
-The best number we found is Eastern Michigan -6.5 at -112. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Eastern Michigan -7.0 at -105. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#75</td>
-<td>#92</td>
+<td>#91</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#110</td>
-<td class="btb-better">#100</td>
+<td>#109</td>
+<td class="btb-better">#99</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

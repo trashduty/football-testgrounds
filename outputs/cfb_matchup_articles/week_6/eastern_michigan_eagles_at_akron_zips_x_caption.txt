@@ -1,6 +1,6 @@
-Our model is 3 points away from the market on Eastern Michigan-Akron.
+Our model is 2.5 points away from the market on Eastern Michigan-Akron.
 
-We make Eastern Michigan -9.5. The market is -6.5.
+We make Eastern Michigan -9.5. The market is -7.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Georgia Bulldogs | +1.5 (-108) | BetMGM | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Alabama Crimson Tide | +0.5 (-113) | BetRivers | 56.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Alabama Crimson Tide | -1.5 (-105) | theScore Bet | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Georgia Bulldogs visit the Alabama Crimson Tide at Bryant-Denny Stadium. We make **Alabama -3.5**, compared with a market line of -1.5.
 
-The best number we found is Alabama +0.5 at -113. We give Alabama a 56.6% chance to cover, which creates an 3.6% edge for us. That clears our 3% threshold, so Alabama is a bet.
+The best number we found is Alabama -1.5 at -105. We see a 2.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

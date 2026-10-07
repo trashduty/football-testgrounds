@@ -1,6 +1,6 @@
-Our model is 0.5 points away from the market on Ball State-Northwestern.
+Our model is 0 points away from the market on Ball State-Northwestern.
 
-We make Ball State +36. The market is +35.5.
+We make Ball State +37. The market is +37.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

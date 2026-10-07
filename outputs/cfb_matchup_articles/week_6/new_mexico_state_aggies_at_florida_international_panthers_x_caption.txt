@@ -1,6 +1,6 @@
-Our model is 1 point away from the market on New Mexico State-Florida InternationaL.
+Our model is 1.5 points away from the market on New Mexico State-Florida InternationaL.
 
-We make New Mexico State +4.5. The market is +5.5.
+We make New Mexico State +5. The market is +6.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

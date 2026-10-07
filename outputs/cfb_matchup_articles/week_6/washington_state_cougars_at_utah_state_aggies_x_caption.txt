@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on Washington State-Utah State.
+Our model is 1 point away from the market on Washington State-Utah State.
 
-We make Utah State -5. The market is -3.5.
+We make Utah State -6.5. The market is -5.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| San Diego State Aztecs | +13.5 (+107) | BetRivers | 59.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Oregon State Beavers | -14.0 (-105) | Fanatics | 38.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| San Diego State Aztecs | +14.5 (-105) | FanDuel | 62.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Oregon State Beavers | -14.5 (-108) | BetMGM | 38.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The San Diego State Aztecs visit the Oregon State Beavers at Reser Stadium. We make **San Diego State +9**, compared with a market line of +14.
+The San Diego State Aztecs visit the Oregon State Beavers at Reser Stadium. We make **San Diego State +9**, compared with a market line of +14.5.
 
-The best number we found is San Diego State +13.5 at +107. We give San Diego State a 59.8% chance to cover, which creates an 11.5% edge for us. That clears our 3% threshold, so San Diego State is a bet.
+The best number we found is San Diego State +14.5 at -105. We give San Diego State a 62.0% chance to cover, which creates an 10.8% edge for us. That clears our 3% threshold, so San Diego State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#45</td>
+<td>#44</td>
 <td class="btb-better">#20</td>
 </tr>
 <tr>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#84</td>
+<td class="btb-better">#85</td>
 <td>#112</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#16</td>
-<td>#94</td>
+<td>#93</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Florida Bulls | +6.5 (+110) | FanDuel | 53.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| UTSA Roadrunners | -7.5 (+102) | Caesars | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Florida Bulls | +7.5 (-120) | BetMGM | 57.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| UTSA Roadrunners | -7.5 (+100) | FanDuel | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The South Florida Bulls visit the UTSA Roadrunners at Alamodome. We make **South Florida +5**, compared with a market line of +7.
 
-The best number we found is South Florida +6.5 at +110. We give South Florida a 53.9% chance to cover, which creates an 6.2% edge for us. That clears our 3% threshold, so South Florida is a bet.
+The best number we found is South Florida +7.5 at -120. We give South Florida a 57.6% chance to cover, which creates an 3.0% edge for us. That clears our 3% threshold, so South Florida is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,12 +43,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#73</td>
-<td>#106</td>
+<td>#105</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#32</td>
-<td>#100</td>
+<td>#99</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

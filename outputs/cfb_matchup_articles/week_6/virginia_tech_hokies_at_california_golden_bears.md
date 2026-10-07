@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Tech Hokies | -8.5 (-110) | Fanatics | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| California Golden Bears | +9.5 (-110) | FanDuel | 57.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Virginia Tech Hokies | -9.5 (-112) | BetRivers | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| California Golden Bears | +9.5 (-105) | FanDuel | 57.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Virginia Tech Hokies visit the California Golden Bears at California Memorial Stadium. We make **California +6.5**, compared with a market line of +9.5.
 
-The best number we found is California +9.5 at -110. We give California a 57.9% chance to cover, which creates an 5.5% edge for us. That clears our 3% threshold, so California is a bet.
+The best number we found is California +9.5 at -105. We give California a 57.9% chance to cover, which creates an 6.6% edge for us. That clears our 3% threshold, so California is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#91</td>
+<td>#90</td>
 <td class="btb-better">#73</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **13 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on Maryland-Ohio State.
 
-We make Maryland +35. The market is +35.
+We make Maryland +34.5. The market is +34.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

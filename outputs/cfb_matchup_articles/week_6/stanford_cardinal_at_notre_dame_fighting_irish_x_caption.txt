@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on Stanford-Notre Dame.
+Our model is 2 points away from the market on Stanford-Notre Dame.
 
-We make Notre Dame -40. The market is -37.5.
+We make Notre Dame -40.5. The market is -38.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

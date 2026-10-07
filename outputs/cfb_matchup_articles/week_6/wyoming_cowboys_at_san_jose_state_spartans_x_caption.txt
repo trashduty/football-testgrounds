@@ -1,9 +1,9 @@
-Our model is 1 point away from the market on Wyoming-San Jose State.
+Our model is 0.5 points away from the market on Wyoming-San Jose State.
 
-We make Wyoming +5.5. The market is +6.5.
+We make Wyoming +5.5. The market is +6.
 
-Best number: Wyoming +6.5 +100. We give it a 53.2% chance to cover with a 3.2% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓
