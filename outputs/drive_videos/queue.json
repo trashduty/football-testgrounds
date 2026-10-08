@@ -1,0 +1,43 @@
+{
+  "videos": [
+    {
+      "drive_file_id": "1HwRUPMV5QkuKU3bLtnLTeNwm8KlqwWZQ",
+      "filename": "-500 Betting Trend - Seth.mp4",
+      "drive_modified_time": "2025-01-13T04:38:17.000Z",
+      "caption": "Betting into higher probability alternative lines doesn't reduce the house edge. Without a true advantage, repeated bets just lead to losing the hold over time.",
+      "review_note": "The commentary offers a clear explanation of how betting odds and hold affect long-term outcomes. Attribution to specific speakers is unclear, so the caption focuses on the main analytical takeaway.",
+      "suggested_commentary_start_seconds": 38.5,
+      "commentary_start_seconds": null,
+      "approved": false,
+      "evergreen": true,
+      "posted_at": null,
+      "x_post_id": null
+    },
+    {
+      "drive_file_id": "1Q045LAvwLDh7DLA0tIaH6QzwxT1tiIzw",
+      "filename": "Amateur Gambler Taxes (Betbash slde - Seth).mp4",
+      "drive_modified_time": "2025-01-13T03:24:02.000Z",
+      "caption": "Understanding your state's tax rules on sports betting losses is crucial, especially for amateur bettors who often can't deduct losses. Stay informed to avoid unexpected tax issues.",
+      "review_note": "The transcript contains a clear take on tax implications for amateur sports bettors. No ambiguity detected needing further review.",
+      "suggested_commentary_start_seconds": 19,
+      "commentary_start_seconds": null,
+      "approved": false,
+      "evergreen": true,
+      "posted_at": null,
+      "x_post_id": null
+    },
+    {
+      "drive_file_id": "1jLZ8_Pv7wzu8CLrwcgnRiGvKMILTF6vP",
+      "filename": "BTB Bankroll and Intent.mp4",
+      "drive_modified_time": "2025-01-13T03:56:39.000Z",
+      "caption": "Building a professional sports betting syndicate requires significant capital, patience, and transparency. Success means managing large bankrolls, maximizing bet sizes on edges, and sharing verified results openly.",
+      "review_note": "The transcript is lengthy and covers multiple topics; the selected takeaway focuses on the main theme of capital requirements and transparency in building a betting syndicate.",
+      "suggested_commentary_start_seconds": 55,
+      "commentary_start_seconds": null,
+      "approved": false,
+      "evergreen": true,
+      "posted_at": null,
+      "x_post_id": null
+    }
+  ]
+}
