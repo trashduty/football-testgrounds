@@ -903,6 +903,14 @@
       "game": "Miami (OH) RedHawks@UMass Minutemen",
       "kind": "Bet",
       "post_id": "2108232858007425136"
+    },
+    {
+      "date": "2026-10-08",
+      "hour": 13,
+      "season_week": "2026-week-6",
+      "game": "Nevada Wolf Pack@UTEP Miners",
+      "kind": "No Bet",
+      "post_id": "2108246354224886102"
     }
   ]
 }
