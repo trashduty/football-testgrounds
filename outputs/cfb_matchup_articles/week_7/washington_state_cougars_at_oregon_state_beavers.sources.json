@@ -1,0 +1,767 @@
+{
+  "game": "Washington State Cougars@Oregon State Beavers",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:09:57.791272+00:00",
+  "model_prediction": 13.5,
+  "market_line": 17.5,
+  "best_line": 18.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.60231011,
+  "edge": 0.0785005861904761,
+  "bet_short": "Washington State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We understand why the market is willing to price Oregon State aggressively. Braden Atkinson has surpassed 300 passing yards in all four games, while Jesse Legree has opened the season with four consecutive 100-yard receiving performances. We are not dismissing that explosiveness, but our numbers distinguish between piling up passing yards and consistently creating scoring opportunities. That is where Washington State\u2019s defense matches up better than the headline production suggests. Oregon State has converted every red-zone trip, but our view is that getting into scoring position often enough remains the more important question.\n\nThe concern for us is Washington State\u2019s offense. It has converted only 28.9 percent of its third downs, and its inefficient passing game now faces an Oregon State defense averaging 3.5 sacks per game. That creates real risk of stalled possessions and poor field position. Still, Caden Pinnick offers an important counter with his mobility: through four games, he had 201 rushing yards and 13 runs of at least 10 yards.\n\nFor us, the case is less about Washington State matching Oregon State\u2019s passing production and more about whether Oregon State can turn its yardage advantage into enough separation. Our model is skeptical because Washington State\u2019s defensive profile is stronger in the areas that limit scoring opportunities, while Oregon State\u2019s rushing efficiency has not provided the same consistent support as its passing game.",
+    "matchup_to_watch": "We are watching Washington State\u2019s pass protection against Oregon State\u2019s pressure. Washington State allowed six sacks against Arizona, and Oregon State recorded eight against UTEP. If Oregon State repeatedly creates negative plays, Washington State\u2019s offensive limitations become much harder to overcome.\n\nPinnick\u2019s ability to escape pressure matters here. We do not need Washington State to win the passing matchup outright, but we do need it to avoid giving Oregon State extra possessions and short fields. If Pinnick can turn some pressure into positive runs, Washington State has a better path to sustaining enough offense for our position.",
+    "guide_status": [
+      "Found guide for Washington State Cougars: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington State.pdf",
+      "Guide for Washington State Cougars was found but may not match the current opponent. The guide is for Washington State's October 3, 2026 game against Fresno State, as stated in the game header and lead note. Oregon State is listed later on the schedule for an October 17 road game, two games after the Fresno State matchup.",
+      "Found guide for Oregon State Beavers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon State.pdf",
+      "Guide for Oregon State Beavers was found but may not match the current opponent. The document is Oregon State's Game 5 notes for the Oct. 3, 2026 road game against Colorado State, not the Week 7 game against Washington State on Oct. 17. Current Oregon State information and the limited Washington State schedule notes remain relevant."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Washington State Cougars",
+        "opponent": "Oregon State Beavers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Washington State's October 3, 2026 game against Fresno State, as stated in the game header and lead note. Oregon State is listed later on the schedule for an October 17 road game, two games after the Fresno State matchup.",
+        "recent_game": [
+          {
+            "fact": "Washington State lost 34-24 to Arizona on September 26, falling to 1-3.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State produced 335 total yards against Arizona, with 241 passing yards and 94 rushing yards, while allowing 447 total yards.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State led Arizona 14-0 in the first quarter and 17-14 at halftime but was outscored 20-7 after halftime.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington State converted 5 of 15 third downs, allowed six sacks and committed two turnovers against Arizona.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Washington State is scheduled to play at Oregon State on October 17, 2026 at 3 p.m. Pacific in a Pac-12 game.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State was 2-2 overall and 0-0 in Pac-12 play when this guide was issued.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Redshirt sophomore transfer Caden Pinnick was named Washington State's starting quarterback on August 24.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Pinnick completed 24 of 41 passes for 241 yards, one touchdown and one interception against Arizona while rushing 13 times for 35 yards and a touchdown.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Pinnick had 201 rushing yards and three rushing touchdowns and owned 13 runs of at least 10 yards.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Pinnick transferred from UC Davis after throwing for 3,206 yards, 32 touchdowns and 10 interceptions and rushing for 437 yards and three touchdowns in 2025.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Washington State returned four 2025 starters, all on offense: wide receiver Tony Freeman, right tackle Jonny Lester, left tackle Ashton Tripp and running back Kirby Vorhees.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The offensive line against Arizona started Ashton Tripp at left tackle, Jonny Lester at left guard, Noah Dunham at center, Nick Bakken at right guard and Jaylin Caldwell at right tackle.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tripp started all 13 games at left tackle in 2025 and allowed one sack in 490 pass-blocking snaps.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dunham moved from left guard to center before 2026 fall camp and has started at center.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Lester started at right tackle in the opener, played right tackle, right guard and left guard at Kansas State, and started the next two games at left guard.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Caldwell played the final 33 snaps at right tackle against Kansas State and started the next two games there.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Against Arizona, Tank Hawkins Jr. caught six passes for 37 yards, Daniel Blood had five catches for 57 yards, Branden Ganashamoorthy had four catches for 67 yards and a touchdown, and Darrius Clemons had four catches for 57 yards.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State's roster included 50 new players, including 29 transfers from four-year schools.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Washington State's defensive starters against Arizona were Linus Zunk, Kaden Beatty, Jirah Leaupepetele and Matyus McLain on the line; Keith Brown and DJ Warner at linebacker; Jaylen Thomas at nickel; Khamari Terrell and Jamarey Smith at cornerback; and Jackquintin Bal and Jeremiah Bernard at safety.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackquintin Bal made a career-high nine tackles and returned his first career interception 25 yards for a touchdown against Arizona.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linus Zunk recorded five tackles and two sacks against Arizona.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Matyus McLain made a career-high eight tackles and shared a sack against Arizona.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Keith Brown made a career-high eight tackles, DJ Warner made a career-high seven tackles and Jamarey Smith made a career-high seven tackles against Arizona.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jaylen Thomas had two interceptions, including a 50-yard touchdown return, against Kansas State and was named Pac-12 Defensive Player of the Week.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kirby Moore was named Washington State head coach on December 12, 2025 and is in his first season leading the Cougars.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Matt Miller is the first-year offensive coordinator and quarterbacks coach, and Trent Bray is the first-year defensive coordinator and linebackers coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jack Abercrombie is the first-year offensive line coach, Derek Sage is the first-year wide receivers coach and special-teams coordinator, and Justin Green is the first-year assistant head coach and running backs coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miller works from the booth, while Moore is listed on the field.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Cornerback Jalil Tucker, an Oregon State transfer, had missed the previous three games with an injury after starting the season opener.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Khamari Terrell missed the Kansas State game with an injury but returned to start against Duquesne and made four tackles with one pass breakup against Arizona.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Trey Leckner had not played in the first four games of 2026.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Right guard Nick Bakken missed most of 2025 with an injury but started each of Washington State's first four games in 2026.",
+            "page": 10,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Right tackle Jaylin Caldwell missed the remainder of the 2025 season after two starts because of injury and had started Washington State's two most recent games in 2026.",
+            "page": 10,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Washington State averaged 313.8 total yards, 152.8 rushing yards, 161.0 passing yards and 22.3 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State had converted 28.9 percent of its third downs and scored on 70.0 percent of its red-zone opportunities through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State rushed for 100 yards against Washington, 101 against Kansas State, 316 against Duquesne and 94 against Arizona.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State allowed three sacks against Washington, four against Kansas State, none against Duquesne and six against Arizona.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Running backs Maxwell Woods and Kirby Vorhees rushed for 116 and 109 yards, respectively, against Duquesne, Washington State's first game with two 100-yard rushers since 2005.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Washington State allowed 380.3 total yards, 173.3 rushing yards, 207.0 passing yards and 24.8 points per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State's defense had four sacks and 16 tackles for loss through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents converted 41.1 percent of third downs but were 0-for-4 on fourth downs through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State had three interceptions through four games, with two returned for touchdowns.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona gained 297 passing yards and 150 rushing yards and converted 7 of 15 third downs against Washington State.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Punter Max Dean averaged 45.2 yards per punt through four games, ranking second in the Pac-12 and 14th nationally.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State returned two punts for touchdowns against Duquesne, with Jaylen Thomas scoring on a 47-yard return and Tank Hawkins Jr. scoring on a 65-yard return.",
+            "page": 14,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Damarjhe Lewis blocked a 43-yard Arizona field-goal attempt.",
+            "page": 14,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jack Stevens made a 33-yard field goal against Arizona, while a 39-yard attempt was blocked.",
+            "page": 14,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Wide receiver Darrius Clemons transferred to Washington State after playing for Oregon State in 2024-25; he did not play in 2025.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Jalil Tucker transferred to Washington State from Oregon State after recording 25 tackles and one interception in 11 games for the Beavers in 2025.",
+            "page": 12,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tony Freeman recorded 253 all-purpose yards against Oregon State in 2025.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Washington State.pdf"
+      },
+      {
+        "source_team": "Oregon State Beavers",
+        "opponent": "Washington State Cougars",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Oregon State's Game 5 notes for the Oct. 3, 2026 road game against Colorado State, not the Week 7 game against Washington State on Oct. 17. Current Oregon State information and the limited Washington State schedule notes remain relevant.",
+        "recent_game": [
+          {
+            "fact": "Oregon State defeated UTEP 33-7 on Sept. 26 to improve to 2-2.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Quarterback Braden Atkinson passed for 301 yards and three touchdowns against UTEP.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "AJ Newberry rushed 11 times for a career-high 111 yards and one touchdown against UTEP, including a career-long 35-yard run.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jesse Legree caught six passes for 109 yards against UTEP, his fourth consecutive 100-yard receiving game.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State held UTEP to seven points, six total yards in the first quarter and no first-quarter first downs.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State recorded eight sacks against UTEP, its most in a game since recording nine against California in 2019.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Oregon State is scheduled to host Washington State at Reser Stadium on Oct. 17, 2026, with a 3 p.m. PT kickoff.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State finished 7-6 overall and 1-1 in Pac-12 play in 2025, then defeated Utah State 34-21 in the Famous Idaho Potato Bowl.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington State enters 2026 under new head coach Kirby Moore after 2025 head coach Jimmy Rogers left for Iowa State.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State is scheduled to play at Utah State on Oct. 9, the week before visiting Oregon State.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Braden Atkinson started each of Oregon State's first four games and had 1,421 passing yards and 11 touchdown passes through those games.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Atkinson surpassed 300 passing yards in each of Oregon State's first four games: 376 at Houston, 413 against Texas Tech, 331 against Montana and 301 at UTEP.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Atkinson accounted for six touchdowns against Montana, throwing five touchdown passes and rushing for one.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Freshman receiver Jesse Legree had 585 receiving yards and six touchdowns through four games, averaging 25.43 yards per reception.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Legree opened the season with four consecutive 100-yard receiving games: 136 at Houston, 240 against Texas Tech, 100 against Montana and 109 at UTEP.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "AJ Newberry produced 156 rushing yards on 18 carries over the Montana and UTEP games, an average of 8.67 yards per carry, after gaining 25 yards on 12 attempts over the first two games.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Eric Olsen caught five passes for 79 yards against UTEP and had 15 receptions for 171 yards through four games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon State used Jacob Anderson at left tackle, Nathan Elu at left guard, Van Wells at center, Tyler Voltin at right guard and Will Larkins at right tackle as its starting offensive line against UTEP.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jacob Anderson and Will Larkins made their first career starts against UTEP.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Edge defender Takari Hickle had 21 tackles, 5.5 tackles for loss and 3.5 sacks through four games.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Hickle recorded at least one tackle for loss in eight consecutive games and had 8.5 tackles for loss and four sacks over that span.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Gyriece Goodman started each of the first four games and set a career high with a team-leading nine tackles plus a 10-yard sack against UTEP.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Logan Knapp made his first career start and Isaiah Houi made his first start as a Beaver against UTEP.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "JaMarcus Shephard is in his first season as Oregon State's head coach after being hired on Nov. 28, 2025.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mitch Dahlen is Oregon State's first-year offensive coordinator and quarterbacks coach and works from the booth.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mike MacIntyre is Oregon State's first-year defensive coordinator and safeties coach and works from the booth.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Kirk Barron is Oregon State's first-year offensive line coach.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ricky Brumfield is Oregon State's first-year special teams coordinator and cornerbacks coach.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Oregon State averaged 364.5 passing yards per game, 93.8 rushing yards per game and 458.3 total yards per game.",
+            "page": 17,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State had scored on every red-zone trip through four games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State allowed no sacks in consecutive games against Montana and UTEP, its first two-game stretch without allowing a sack since 2023.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State produced 20 pass plays and four rushing plays of at least 20 yards over its first four games.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Oregon State allowed 361.3 total yards, 218.5 passing yards and 142.8 rushing yards per game.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State averaged 3.5 sacks per game through four games.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State's opponents converted 39.3 percent of third downs through four games.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon State had six takeaways through four games: three interceptions and three fumble recoveries.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Caleb Ojeda made two field goals against UTEP, including his first career field goal away from Reser Stadium and his first career multi-field-goal game.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon State had not allowed a blocked kick or blocked punt through four games.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Oregon State and Washington State played three times across the 2024 and 2025 seasons as the Pac-12's two football members, with Oregon State going 2-1.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon State's most recent victory over a ranked team was a 41-38 win over No. 25 Washington State on Nov. 23, 2024.",
+            "page": 18,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jaheim Patterson recorded two interceptions against Washington State on Nov. 1, 2025, the most recent game in which an Oregon State player had multiple interceptions.",
+            "page": 18,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Oregon State returned nine starters from 2025, including four on offense and five on defense.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fifty players on Oregon State's 2026 roster previously played at another junior college or NCAA program, including 36 NCAA transfers and 14 junior-college transfers.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Oregon State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Washington State passing offense vs Oregon State pass defense",
+        "off_team": "Washington State",
+        "def_team": "Oregon State",
+        "off_rank": 130,
+        "def_rank": 17,
+        "stat": "pass EPA",
+        "rank_gap": 113,
+        "direction": "defense_advantage",
+        "matchup_score": 213
+      },
+      {
+        "dimension": "Oregon State scoring-opportunity creation vs Washington State scoring-opportunity prevention",
+        "off_team": "Oregon State",
+        "def_team": "Washington State",
+        "off_rank": 108,
+        "def_rank": 21,
+        "stat": "Eckel rate",
+        "rank_gap": 87,
+        "direction": "defense_advantage",
+        "matchup_score": 187
+      },
+      {
+        "dimension": "Oregon State rushing offense vs Washington State rush defense",
+        "off_team": "Oregon State",
+        "def_team": "Washington State",
+        "off_rank": 95,
+        "def_rank": 45,
+        "stat": "rush EPA",
+        "rank_gap": 50,
+        "direction": "mixed",
+        "matchup_score": 50
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Washington State converted 5 of 15 third downs, allowed six sacks and committed two turnovers against Arizona.",
+        "page": 14,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Pinnick had 201 rushing yards and three rushing touchdowns and owned 13 runs of at least 10 yards.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 33,
+        "fact": "Washington State had converted 28.9 percent of its third downs and scored on 70.0 percent of its red-zone opportunities through four games.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 54,
+        "fact": "Oregon State recorded eight sacks against UTEP, its most in a game since recording nine against California in 2019.",
+        "page": 6,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Oregon State.pdf",
+        "source_team": "Oregon State Beavers"
+      },
+      {
+        "fact_id": 56,
+        "fact": "Atkinson surpassed 300 passing yards in each of Oregon State's first four games: 376 at Houston, 413 against Texas Tech, 331 against Montana and 301 at UTEP.",
+        "page": 7,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Oregon State.pdf",
+        "source_team": "Oregon State Beavers"
+      },
+      {
+        "fact_id": 59,
+        "fact": "Legree opened the season with four consecutive 100-yard receiving games: 136 at Houston, 240 against Texas Tech, 100 against Montana and 109 at UTEP.",
+        "page": 6,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Oregon State.pdf",
+        "source_team": "Oregon State Beavers"
+      },
+      {
+        "fact_id": 74,
+        "fact": "Oregon State had scored on every red-zone trip through four games.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Oregon State.pdf",
+        "source_team": "Oregon State Beavers"
+      },
+      {
+        "fact_id": 78,
+        "fact": "Oregon State averaged 3.5 sacks per game through four games.",
+        "page": 17,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Oregon State.pdf",
+        "source_team": "Oregon State Beavers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Washington State Cougars",
+      "model_side": "Washington State",
+      "opponent_full": "Oregon State Beavers",
+      "opponent": "Oregon State",
+      "model_prediction": 13.5,
+      "market_line": 17.5,
+      "best_available_line": 18.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.60231011,
+      "edge": 0.0785005861904761,
+      "bet_status": "BET"
+    }
+  }
+}

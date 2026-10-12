@@ -1,0 +1,632 @@
+{
+  "game": "Wake Forest Demon Deacons@California Golden Bears",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:06:32.868905+00:00",
+  "model_prediction": 9.0,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-105",
+  "best_book": "BetMGM",
+  "cover_probability": 0.53545615,
+  "edge": 0.0232610280487804,
+  "bet_short": "California",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our view starts with the ground game. Our matchup data gives Wake Forest a meaningful rushing advantage against California\u2019s defense, while California faces the opposite problem against a strong Wake Forest run defense. Gio Lopez added 98 rushing yards and two touchdowns through his first two games, and Ty Clark III produced 141 yards on 19 carries. That gives Wake Forest a plausible way to sustain offense and make it harder for California to create separation.\n\nCalifornia\u2019s clearest counter is through the air and in scoring territory. Jaron-Keawe Sagapolutele left the UNLV game with an injury, and the guide does not provide a later status, but Jackson Brousseau completed 19 of 32 passes for 200 yards and two touchdowns in relief. California also posted a .938 red-zone scoring rate through five games, while Wake Forest allowed points on each of its first 10 opponent red-zone possessions.\n\nFor us, the disagreement with the market is modest because the matchup pulls in both directions. Wake Forest\u2019s rushing path challenges the expected margin, but California has a passing and red-zone route to separation. Our numbers do not create enough distance from the market to justify the available price.",
+    "matchup_to_watch": "We are watching Wake Forest\u2019s rushing offense against California\u2019s rush defense. Lopez and Clark give Wake Forest multiple sources of production on the ground, and success there would reduce the need to challenge a California pass defense that ranked second in the ACC in efficiency through five games.\n\nIf California can force Wake Forest away from that strength and into obvious passing situations, we think the matchup becomes much more favorable for the home defense. If it cannot, Wake Forest has the clearest football-based route to staying competitive.",
+    "guide_status": [
+      "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
+      "Guide for Wake Forest Demon Deacons was found but may not match the current opponent. The guide is for Wake Forest's Sept. 18, 2026 Week 3 home game against Miami, not the Oct. 17 road game at California. California appears only as a later opponent on the season schedule.",
+      "Found guide for California Golden Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
+      "Guide for California Golden Bears was found but may not match the current opponent. The guide is explicitly labeled for California's October 10, 2026 game against Virginia Tech, while the schedule lists Wake Forest as the following opponent on October 17, 2026."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Wake Forest Demon Deacons",
+        "opponent": "California Golden Bears",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Wake Forest's Sept. 18, 2026 Week 3 home game against Miami, not the Oct. 17 road game at California. California appears only as a later opponent on the season schedule.",
+        "recent_game": [
+          {
+            "fact": "Wake Forest defeated Purdue 38-36 in double overtime on Sept. 12, 2026, improving to 2-0.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "On fourth-and-15 in the second overtime, Gio Lopez completed a 15-yard pass to Carlos Hernandez; Lopez then scored the tying touchdown and the game-winning two-point conversion.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Wake Forest committed no turnovers against Purdue.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Purdue quarterback Ryan Browne passed for 329 yards, and running back Fame Ijeboi rushed 27 times for 114 yards and three touchdowns against Wake Forest.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "California was listed with a 1-1 record when this Week 3 guide was published.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Gio Lopez started Wake Forest's first two games and completed 37 of 59 passes for 575 yards, four touchdowns and no interceptions while rushing for 98 yards and two touchdowns.",
+            "page": 21,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Purdue, Lopez completed 16 of 27 passes for 225 yards and one touchdown and led Wake Forest with 59 rushing yards and two rushing touchdowns.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lopez transferred to Wake Forest from North Carolina after the 2025 season; he previously played at South Alabama under current Wake Forest offensive coordinator Rob Ezell.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "While playing for North Carolina against California in 2025, Lopez completed 19 of 35 passes for 167 yards with no touchdowns or interceptions and rushed five times for 11 yards.",
+            "page": 21,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Wake Forest's unofficial projected offensive line listed Tolu Olajide at left tackle, Clinton Richard at left guard, Will Way at center, Ryan Berger at right guard and Aidan Martin at right tackle.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Will Way joined Wake Forest from Weber State in January 2026 and was selected as one of the team's six captains.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Carlos Hernandez had six receptions for 88 yards against Purdue and had 253 receiving yards through Wake Forest's first two games.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Clark III was listed as the projected starting running back and had 141 yards on 19 carries with one touchdown through two games.",
+            "page": 22,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Wake Forest's unofficial projected defensive front listed Langston Hardy and Gabe Kirschke at end, Dallas Afalava at defensive tackle and Zach Lohavichan at nose guard.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The unofficial projected defense listed Frank Cusano and Aiden Hall at linebacker, Braylon Johnson at the Star position, Deuce Blades II and Ashaad Williams at cornerback, Rushaun Tongue at free safety and Davaughn Patterson at strong safety.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Vincent Firenze led Wake Forest with 20 tackles through two games, while Braylon Johnson had 16 tackles.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Aiden Hall, defensive lineman Langston Hardy and defensive back Davaughn Patterson were three of Wake Forest's six 2026 captains.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Dyrell Roberts joined Wake Forest as wide receivers coach for the 2026 season after coaching East Carolina's receivers from 2023 through 2025.",
+            "page": 12,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through two games, Wake Forest averaged 485.0 total yards, 290.5 passing yards, 194.5 rushing yards and 38.0 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Wake Forest converted 12 of 26 third downs and all three fourth-down attempts through its first two games.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wake Forest had not committed a turnover through its first two games.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Demon Deacons allowed two sacks over their first two games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through two games, Wake Forest allowed 380.0 total yards, 242.5 passing yards, 137.5 rushing yards and 26.0 points per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Wake Forest opponents converted 13 of 27 third downs through two games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wake Forest recorded five sacks and 15 tackles for loss through two games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wake Forest had recovered one fumble but had not intercepted a pass through two games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents scored on all 10 red-zone possessions against Wake Forest through two games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Connor Calvert averaged three made field goals per game and had an .857 field-goal percentage through two games.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wake Forest averaged 22.0 yards per punt return, 20.3 yards per kickoff return and 40.8 net yards per punt through two games.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "The unofficial projected depth chart listed Koredell Bartley as the primary kickoff returner and Carlos Hernandez as the primary punt returner.",
+            "page": 19,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "The 2026 game is scheduled to be the second all-time meeting between Wake Forest and California; Wake Forest entered it with an 0-1 series record after the first meeting in 2024.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Wake Forest is scheduled to play California on Oct. 17, 2026 at California Memorial Stadium in Berkeley.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Wake Forest.pdf"
+      },
+      {
+        "source_team": "California Golden Bears",
+        "opponent": "Wake Forest Demon Deacons",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly labeled for California's October 10, 2026 game against Virginia Tech, while the schedule lists Wake Forest as the following opponent on October 17, 2026.",
+        "recent_game": [
+          {
+            "fact": "California lost 39-31 at UNLV on October 3, falling to 2-3 overall.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaron-Keawe Sagapolutele and Jackson Brousseau combined for 395 passing yards and three touchdowns at UNLV.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman tight end Taimane Purcell set career highs at UNLV with three receptions and 102 receiving yards, including a 91-yard touchdown that was the second-longest pass play in California history.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Inside linebacker AJ Tuitele led California with seven tackles and recorded two sacks for 17 yards at UNLV.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive back Aiden Manutai intercepted a trick-play pass in the end zone and made a season-high five tackles at UNLV.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "California is scheduled to host Wake Forest on October 17, 2026 at 7:30 p.m. Pacific on ESPN or ESPN2.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Jaron-Keawe Sagapolutele completed 19 of 27 passes for 195 yards, one touchdown and one interception at UNLV before leaving with an injury near the end of the first half.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Jackson Brousseau led an offense that scored three second-half touchdowns at UNLV, completing 19 of 32 passes for 200 yards and two touchdowns.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Sagapolutele had completed 107 of 164 passes for 1,180 yards, eight touchdowns and five interceptions.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sagapolutele ranked fourth in the ACC with 21.4 completions per game, and his 164 attempts ranked third in the conference despite missing the second half at UNLV.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Redshirt sophomore running back Carson Perry-Smith scored on his first career reception, a 53-yard touchdown from Jackson Brousseau at UNLV.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer wide receiver Chase Hendricks led California with eight receptions at UNLV and had a team-high 32 catches for 267 yards and two touchdowns through five games.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer wide receiver Ian Strong had six catches for 49 yards and his first California touchdown at UNLV; he had 23 catches for a team-high 299 yards through five games.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Ashten Emory rushed 12 times for 48 yards and a touchdown at UNLV.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman tight end Taimane Purcell had six receptions for 125 yards and one touchdown through five games.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The offensive line started Frederick Williams III at left tackle, Tyson Ruffins at left guard, Bastian Swinney at center and Sioape Vatikani at right guard in each of the first five games.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Michael Klisiewicz replaced Jimothy Lewis Jr. as the starting right tackle beginning with the Wagner game and started the next three contests.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Transfer defensive back Kingston Lopa had five interceptions through five games, including three at Syracuse and one returned 24 yards for a touchdown.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lopa played only one snap at UNLV but remained the national leader with five interceptions.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "AJ Tuitele led California through five games with three sacks and six quarterback hurries and had 25 tackles, the most among the team's linebackers.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman inside linebacker JD McKinley recorded his first career sack at UNLV, a 14-yard loss.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Isaiah Crosby recorded his first career interception and a career-high 11 tackles against Clemson, then made four tackles and broke up a pass at UNLV.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ashun Shepphard made his first start of the season on the defensive line at UNLV, replacing Derek Wilkins in the listed starting group.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Tosh Lupoi is in his first season as California's head coach in 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jordan Somerville is in his first season as offensive coordinator and is California's only full-time coach stationed in the booth on game days.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Michael Hutchings is in his first season as defensive coordinator, and Zach Tinker is in his first season as special teams coordinator.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Starting quarterback Jaron-Keawe Sagapolutele was sidelined by an injury near the end of the first half at UNLV; the guide does not state his status for a later game.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive back Kingston Lopa, who started at UNLV, played only one snap in the game; the guide does not provide a reason or future availability status.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "California ranked second in the ACC and tied for 21st nationally in red-zone offense with a .938 scoring rate through five games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California threw for 395 yards and three touchdowns at UNLV, with two quarterbacks each recording at least 195 passing yards.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California generated touchdown passes of 91 yards and 53 yards at UNLV.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "California ranked first in the ACC and sixth nationally with seven interceptions through five games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California ranked first in the ACC and 16th nationally with nine takeaways through five games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California ranked first in the ACC and fifth nationally with two defensive touchdowns: Kingston Lopa's interception return against Syracuse and Kamar Mothudi's fumble return against Clemson.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "California ranked second in the ACC and tied for 10th nationally in pass-defense efficiency at 102.89.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California ranked fifth in the ACC and tied for 35th nationally in red-zone defense with a .765 opponent scoring rate.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Freshman Niles Davis recovered a loose kickoff at the UNLV 16-yard line.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Davis had handled nine kickoff returns for 181 yards through five games, including five returns at UNLV.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Inside linebacker Aaron Hampton blocked a punt at UNLV after blocking a field goal against Wagner.",
+            "page": 20,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "California was 2-3 overall and 1-1 in ACC play before its October 10 game against Virginia Tech.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "California.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "California rushing offense vs Wake Forest rush defense",
+        "off_team": "California",
+        "def_team": "Wake Forest",
+        "off_rank": 134,
+        "def_rank": 13,
+        "stat": "rush EPA",
+        "rank_gap": 121,
+        "direction": "defense_advantage",
+        "matchup_score": 221
+      },
+      {
+        "dimension": "Wake Forest rushing offense vs California rush defense",
+        "off_team": "Wake Forest",
+        "def_team": "California",
+        "off_rank": 21,
+        "def_rank": 133,
+        "stat": "rush EPA",
+        "rank_gap": 112,
+        "direction": "offense_advantage",
+        "matchup_score": 212
+      },
+      {
+        "dimension": "Wake Forest scoring-opportunity creation vs California scoring-opportunity prevention",
+        "off_team": "Wake Forest",
+        "def_team": "California",
+        "off_rank": 9,
+        "def_rank": 49,
+        "stat": "Eckel rate",
+        "rank_gap": 40,
+        "direction": "mixed",
+        "matchup_score": 40
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 5,
+        "fact": "Gio Lopez started Wake Forest's first two games and completed 37 of 59 passes for 575 yards, four touchdowns and no interceptions while rushing for 98 yards and two touchdowns.",
+        "page": 21,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Wake Forest.pdf",
+        "source_team": "Wake Forest Demon Deacons"
+      },
+      {
+        "fact_id": 12,
+        "fact": "Ty Clark III was listed as the projected starting running back and had 141 yards on 19 carries with one touchdown through two games.",
+        "page": 22,
+        "category": "offensive_personnel",
+        "importance": "medium",
+        "source_file": "Wake Forest.pdf",
+        "source_team": "Wake Forest Demon Deacons"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Opponents scored on all 10 red-zone possessions against Wake Forest through two games.",
+        "page": 2,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Wake Forest.pdf",
+        "source_team": "Wake Forest Demon Deacons"
+      },
+      {
+        "fact_id": 36,
+        "fact": "Starting quarterback Jaron-Keawe Sagapolutele completed 19 of 27 passes for 195 yards, one touchdown and one interception at UNLV before leaving with an injury near the end of the first half.",
+        "page": 2,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 37,
+        "fact": "Backup quarterback Jackson Brousseau led an offense that scored three second-half touchdowns at UNLV, completing 19 of 32 passes for 200 yards and two touchdowns.",
+        "page": 2,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 58,
+        "fact": "California ranked second in the ACC and tied for 21st nationally in red-zone offense with a .938 scoring rate through five games.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 64,
+        "fact": "California ranked second in the ACC and tied for 10th nationally in pass-defense efficiency at 102.89.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "California Golden Bears",
+      "model_side": "California",
+      "opponent_full": "Wake Forest Demon Deacons",
+      "opponent": "Wake Forest",
+      "model_prediction": 9.0,
+      "market_line": 9.5,
+      "best_available_line": 9.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.53545615,
+      "edge": 0.0232610280487804,
+      "bet_status": "PASS"
+    }
+  }
+}

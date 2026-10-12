@@ -1,0 +1,741 @@
+{
+  "game": "Alabama Crimson Tide@Tennessee Volunteers",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:34:55.472341+00:00",
+  "model_prediction": 7.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-106",
+  "best_book": "FanDuel",
+  "cover_probability": 0.5416223,
+  "edge": 0.0270591932038835,
+  "bet_short": "Tennessee",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We are not treating Alabama\u2019s early offensive production as proof that it will create separation here. Tennessee\u2019s defense gives our model a reason to keep the game competitive: it recorded 19 sacks and 34 tackles for loss through four games while allowing only 163.5 passing yards per game. That disruption and pass-defense strength matter against Keelon Russell, who completed 71.2 percent of his passes through his first five starts.\n\nThe counterweight is the line of scrimmage. Our efficiency numbers identify Alabama\u2019s rushing offense as a significant advantage, and Alabama averaged 186.4 rushing yards with 17 rushing touchdowns through five games. Tennessee also has protection concerns around true freshman Faizon Brandon after allowing 13 sacks through four games, including 10 against Texas. For us, the case for Tennessee is primarily about its defense limiting Alabama\u2019s passing game, but the conflicting trench matchups leave too little value to move us off the pass.",
+    "matchup_to_watch": "We are watching Alabama\u2019s rushing offense against Tennessee\u2019s run defense. If Alabama can stay efficient on the ground, it can avoid the obvious passing situations in which Tennessee\u2019s pressure has been most threatening. If Tennessee controls early downs and makes Russell operate against its stronger pass defense, we see a clearer path to a competitive game. That matchup is central to why our numbers lean slightly toward Tennessee without producing a wager.",
+    "guide_status": [
+      "Found guide for Alabama Crimson Tide: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Alabama.pdf",
+      "Guide for Alabama Crimson Tide was found but may not match the current opponent. The guide is Alabama's Game 6 notes for its Oct. 10, 2026 home game against Georgia. Tennessee is listed as Alabama's following opponent on Oct. 17 in Knoxville, so this is not the guide intended for the upcoming Alabama-Tennessee matchup.",
+      "Found guide for Tennessee Volunteers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf",
+      "Guide for Tennessee Volunteers was found but may not match the current opponent. The document is Tennessee's Week 5 game notes for its Oct. 3, 2026 home game against Auburn. Alabama appears on Tennessee's schedule for Oct. 17 in Week 7, so this guide was not prepared for the upcoming Alabama matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Alabama Crimson Tide",
+        "opponent": "Tennessee Volunteers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Alabama's Game 6 notes for its Oct. 10, 2026 home game against Georgia. Tennessee is listed as Alabama's following opponent on Oct. 17 in Knoxville, so this is not the guide intended for the upcoming Alabama-Tennessee matchup.",
+        "recent_game": [
+          {
+            "fact": "Alabama improved to 5-0 overall and 3-0 in the SEC with a 56-23 road win over then-No. 16 Mississippi State on Oct. 3.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama produced 483 total yards against Mississippi State, its fourth game with at least 400 yards through five games.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Keelon Russell accounted for 301 total yards against Mississippi State, passing for 285 yards and rushing for 16.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama forced four turnovers and recorded a season-high five sacks against Mississippi State.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Trae'shawn Brown scored two rushing touchdowns and Rico Scott caught two touchdown passes in the win at Mississippi State.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dijon Lee Jr. returned an interception 30 yards for a touchdown against Mississippi State.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Alabama is scheduled to play Tennessee in Knoxville on Oct. 17, 2026, one week after the Georgia game covered by this guide.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time of the guide, Tennessee was 4-1 overall and 1-1 in the SEC.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee was ranked No. 15 in the AP poll and No. 14 in the coaches poll entering Alabama's Georgia game.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Keelon Russell was named Alabama's starting quarterback on Aug. 22 after 2025 starter Ty Simpson was selected 13th overall in the 2026 NFL Draft.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through his first five starts, Russell averaged 319.6 total yards per game with a 71.2 percent completion rate and a 185.7 passing-efficiency rating.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Russell accounted for 13 touchdowns, including 10 passing and three rushing, without a turnover over Alabama's three most recent games entering the Georgia game.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Russell led the SEC with 10.71 yards per pass attempt and 15.04 yards per completion through five games.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Wide receiver Ryan Coleman-Williams was Alabama's only returning offensive starter from 2025.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Coleman-Williams had 117 career receptions for 1,930 yards and 16 touchdowns through five games of the 2026 season.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Lotzeir Brooks recorded his first career 100-yard receiving game with eight catches for 101 yards against Florida State and later had 96 receiving yards at Mississippi State.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Trae'shawn Brown led Alabama with five rushing touchdowns through five games, while Daniel Hill and Keelon Russell had four each.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Alabama returned no starters on the defensive line from 2025; newcomers Kedrick Bingley-Jones, Terrance Green, Devan Thompkins and Desmond Umeozulu were identified as contributors in the new group.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama's secondary returned three starters and five experienced players, including Bray Hubbard, Keon Sabb, Zabien Brown, Dijon Lee Jr. and Red Morgan.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Virginia Tech transfer Caleb Woodson recorded 12 tackles in each of his first two SEC games and had two sacks against Kentucky.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "USC transfer Devan Thompkins had six tackles, two tackles for loss, two sacks and a forced fumble against Kentucky.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Metz wore the defensive communication green dot and totaled 21 tackles, one interception and one fumble recovery across his first two SEC starts.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Alabama's coordinators are Ryan Grubb on offense and Kane Wommack on defense; Grubb coaches from the box and Wommack coaches from the field.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Adrian Klemm is Alabama's offensive line coach, and Bryan Ellis coaches the quarterbacks.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Alabama scored at least 45 points in each of its first five games and averaged 49.6 points per game.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama scored on all 26 of its red-zone possessions through five games, producing 22 touchdowns and four field goals.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama rushed for 932 yards, averaged 186.4 rushing yards per game and scored 17 rushing touchdowns through five games; through the same point in 2025, it had 634 yards, averaged 126.8 per game and scored six rushing touchdowns.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama recorded 31 plays of at least 20 yards through five games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alabama won the time-of-possession battle in each of its first five games and averaged 33:29 of possession per game.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Alabama forced 13 turnovers through five games, including eight interceptions and five fumble recoveries, and had a plus-1.40 turnover margin.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama converted its 13 takeaways into 66 points through five games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama returned four interceptions for touchdowns through five games, leading the country in defensive touchdowns at the time of the guide.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama held four of its first five opponents below 100 rushing yards and allowed 78.6 rushing yards per game.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama held opponents to a 27.5 percent third-down conversion rate through five games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alabama averaged 3.20 sacks per game through five games, with 11 defenders recording at least half a sack.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alabama allowed 6.4 second-half points per game and outscored its first five opponents 108-32 after halftime.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Conor Talty handled field goals and extra points, while Lorcan Quinn handled kickoffs; Alex Rozier snapped on field goals and Ethan Stangle snapped on punts.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Talty made all eight field-goal attempts and all 29 extra-point attempts through five games, including four field goals from beyond 40 yards.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Alex Asparuhov had three punts of at least 50 yards, five inside the 20 and a net average of 43.67 yards through five games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Alabama defeated Tennessee 37-20 in Tuscaloosa on Oct. 18, 2025.",
+            "page": 16,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In Alabama's most recent trip to Tennessee, the Crimson Tide lost 24-17 on Oct. 19, 2024.",
+            "page": 16,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Zabien Brown returned an interception 99 yards for a touchdown against Tennessee in the 2025 meeting.",
+            "page": 10,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Alabama entered the Georgia game ranked No. 6 in the AP poll and No. 7 in the coaches poll.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alabama's permanent 2026 team captains are Zabien Brown, Ryan Coleman-Williams and Bray Hubbard.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Alabama.pdf"
+      },
+      {
+        "source_team": "Tennessee Volunteers",
+        "opponent": "Alabama Crimson Tide",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Tennessee's Week 5 game notes for its Oct. 3, 2026 home game against Auburn. Alabama appears on Tennessee's schedule for Oct. 17 in Week 7, so this guide was not prepared for the upcoming Alabama matchup.",
+        "recent_game": [
+          {
+            "fact": "Tennessee lost 20-17 to No. 1 Texas on Sept. 26, falling to 3-1 overall and 0-1 in SEC play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Texas, Faizon Brandon completed 17 of 29 passes for 145 yards and a 30-yard touchdown to Mike Matthews with 1:22 remaining, but Brandon was sacked 10 times.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee rushed for 70 yards against Texas while holding the Longhorns to 61 rushing yards.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee recorded six sacks and 10 tackles for loss against Texas; Tyree Weathersby had 2.5 sacks and Xavier Gilliam had two tackles for loss.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Arion Carter led Tennessee with 11 tackles against Texas, and Kayin Lee intercepted Arch Manning.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Tennessee's schedule lists a home game against No. 7 Alabama on Oct. 17, 2026, with the kickoff assigned to a flex window.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "True freshman Faizon Brandon earned Tennessee's starting quarterback job in preseason camp and was officially named the starter on Aug. 24.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Brandon had accounted for 10 touchdowns\u2014seven passing and three rushing\u2014and had not thrown an interception in 93 attempts.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brandon had thrown at least one touchdown pass in each of Tennessee's first four games and ranked second among SEC quarterbacks with three rushing touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brandon became the youngest quarterback to start a game in Tennessee history when he started the Sept. 5 opener at 18 years, three months and four days old.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back DeSean Bishop had 320 rushing yards, an average of 80.0 per game, and four rushing touchdowns through four games.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Bishop rushed for 147 yards and two touchdowns on 20 carries at Georgia Tech; 89 of those yards came after contact.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mike Matthews led Tennessee through four games with 14 receptions, 261 receiving yards and three receiving touchdowns.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee returned both Mike Matthews and Braylon Staley after each recorded at least 800 receiving yards in 2025.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had 13 first-time Volunteers starters through four games, including five on offense and eight on defense.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Penn State transfer Xavier Gilliam had 7.5 tackles for loss, four sacks and three quarterback hurries through four games.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Mariyon Dye and Xavier Gilliam shared the team lead with four sacks apiece, while Tyree Weathersby had 3.5 sacks.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ten Tennessee defenders had recorded at least one sack through four games, including four players with multiple sacks.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arion Carter led Tennessee with 27 tackles through his first three appearances and averaged 9.0 tackles per game.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Penn State transfer linebacker Amare Campbell had 22 tackles and three tackles for loss through four games, while transfer safety Dejuan Lane had a team-high three passes defended.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dejuan Lane returned an interception 41 yards for a touchdown at Georgia Tech.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jim Knowles was named Tennessee's defensive coordinator on Dec. 11, 2025, after serving as Penn State's defensive coordinator in 2025.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "New defensive assistants for 2026 include co-defensive coordinator and secondary coach Anthony Poindexter, LEOs coach Andrew Jackson and cornerbacks coach Derek Jones.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "All five Tennessee offensive assistants returned for 2026: coordinator and quarterbacks coach Joey Halzle, pass-game coordinator and receivers coach Kelsey Pope, tight ends coach Alec Abeln, offensive line coach Glen Elarbee and running backs coach De'Rail Sims.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Tight end Ethan Davis is out for the remainder of the 2026 season with a knee injury sustained at Georgia Tech in Week 2.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer cornerback Jadais Richard is out for the season after suffering an injury during the summer.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Arion Carter returned at Georgia Tech after serving a one-game NCAA suspension and was described in the notes as fully healthy following offseason foot surgery.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Tennessee averaged 241.5 rushing yards, 196.5 passing yards, 438.0 total yards and 40.0 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had allowed 13 sacks through four games, an average of 3.25 per game, including 10 against Texas.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee scored on its opening offensive possession in each of its first four games, producing three touchdowns and one field goal.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Volunteers outscored their first four opponents 44-3 in the second quarter and 86-10 across the second and third quarters combined.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee had two players averaging more than 65 rushing yards per game: DeSean Bishop at 80.0 and Daune Morris at 66.8.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Tennessee was tied for the national lead with 19 sacks through four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee led the SEC and ranked fifth nationally with 34 tackles for loss through four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Volunteers allowed 282.3 total yards and 15.5 points per game through four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee allowed 163.5 passing yards per game through four games, second best in the SEC.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents scored five offensive touchdowns on 45 possessions against Tennessee through four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee's defense allowed only one first-half touchdown over its first four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Qua Moss returned a punt 57 yards for a touchdown against Texas, Tennessee's first punt-return touchdown since 2023.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Louisville transfer Cooper Ranvier made all four of his field-goal attempts, with a long of 43 yards, and all 17 extra-point attempts through four games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jackson Ross executed an onside kick against Texas that Arion Carter recovered, giving Tennessee a final possession.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "DeSean Bishop rushed for 123 yards at Alabama on Oct. 18, 2025, in Tennessee's 37-20 loss.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Braylon Staley caught 10 passes at Alabama on Oct. 18, 2025.",
+            "page": 16,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee defeated ranked Alabama teams under Josh Heupel in 2022 and 2024.",
+            "page": 15,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Tennessee entered Week 5 ranked No. 17 in both the Associated Press and coaches polls.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "low"
+          },
+          {
+            "fact": "Tennessee added 20 transfers in January 2026, and all 20 participated in spring practice.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Tennessee.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Alabama rushing offense vs Tennessee rush defense",
+        "off_team": "Alabama",
+        "def_team": "Tennessee",
+        "off_rank": 12,
+        "def_rank": 77,
+        "stat": "rush EPA",
+        "rank_gap": 65,
+        "direction": "offense_advantage",
+        "matchup_score": 165
+      },
+      {
+        "dimension": "Tennessee passing offense vs Alabama pass defense",
+        "off_team": "Tennessee",
+        "def_team": "Alabama",
+        "off_rank": 84,
+        "def_rank": 24,
+        "stat": "pass EPA",
+        "rank_gap": 60,
+        "direction": "defense_advantage",
+        "matchup_score": 160
+      },
+      {
+        "dimension": "Alabama passing offense vs Tennessee pass defense",
+        "off_team": "Alabama",
+        "def_team": "Tennessee",
+        "off_rank": 53,
+        "def_rank": 7,
+        "stat": "pass EPA",
+        "rank_gap": 46,
+        "direction": "mixed",
+        "matchup_score": 46
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 8,
+        "fact": "Through his first five starts, Russell averaged 319.6 total yards per game with a 71.2 percent completion rate and a 185.7 passing-efficiency rating.",
+        "page": 7,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Alabama rushed for 932 yards, averaged 186.4 rushing yards per game and scored 17 rushing touchdowns through five games; through the same point in 2025, it had 634 yards, averaged 126.8 per game and scored six rushing touchdowns.",
+        "page": 6,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 44,
+        "fact": "True freshman Faizon Brandon earned Tennessee's starting quarterback job in preseason camp and was officially named the starter on Aug. 24.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 66,
+        "fact": "Tennessee had allowed 13 sacks through four games, an average of 3.25 per game, including 10 against Texas.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 70,
+        "fact": "Tennessee was tied for the national lead with 19 sacks through four games.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 71,
+        "fact": "Tennessee led the SEC and ranked fifth nationally with 34 tackles for loss through four games.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 73,
+        "fact": "Tennessee allowed 163.5 passing yards per game through four games, second best in the SEC.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Tennessee Volunteers",
+      "model_side": "Tennessee",
+      "opponent_full": "Alabama Crimson Tide",
+      "opponent": "Alabama",
+      "model_prediction": 7.0,
+      "market_line": 7.5,
+      "best_available_line": 7.5,
+      "best_available_price": "-106",
+      "cover_probability": 0.5416223,
+      "edge": 0.0270591932038835,
+      "bet_status": "PASS"
+    }
+  }
+}

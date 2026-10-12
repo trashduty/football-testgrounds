@@ -1,0 +1,393 @@
+{
+  "game": "Tulsa Golden Hurricane@Rice Owls",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:02:57.992828+00:00",
+  "model_prediction": 2.0,
+  "market_line": 4.0,
+  "best_line": 4.0,
+  "best_price": "-104",
+  "best_book": "BetRivers",
+  "cover_probability": 0.54567161,
+  "edge": 0.0358676884313725,
+  "bet_short": "Rice",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case for Rice is less about identifying the better team and more about questioning how consistently Tulsa can create separation. Tulsa\u2019s underlying profile is strong at reaching scoring territory, but that has not always translated into touchdowns: it scored on 12 of its first 46 offensive drives. We are not treating the six-point performance at Arkansas as predictive, though one score across 11 drives with five three-and-outs illustrates the volatility in this offense.",
+    "matchup_to_watch": "We are watching Tulsa\u2019s ability to turn favorable field position into touchdowns against a Rice defense that has struggled to prevent scoring opportunities. Tulsa has enough rushing efficiency to move the ball, but sustained drives and finishing them are different questions. If Tulsa consistently converts those chances, it can challenge our Rice position; if those possessions again end without touchdowns, the game is more likely to remain within the tighter range our model expects.",
+    "guide_status": [
+      "Found guide for Tulsa Golden Hurricane: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulsa.pdf",
+      "Guide for Tulsa Golden Hurricane was found but may not match the current opponent. The guide is Tulsa's game notes for the Oct. 1, 2026 home game against North Texas. Rice is listed as a later road opponent on Oct. 17, after games against North Texas and Navy. No Rice-specific matchup analysis is provided.",
+      "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Tulsa Golden Hurricane",
+        "opponent": "Rice Owls",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Tulsa's game notes for the Oct. 1, 2026 home game against North Texas. Rice is listed as a later road opponent on Oct. 17, after games against North Texas and Navy. No Rice-specific matchup analysis is provided.",
+        "recent_game": [
+          {
+            "fact": "Tulsa entered the North Texas game 3-1 after a 34-6 loss at Arkansas on Sept. 26, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "At Arkansas, Tulsa's offense scored on one of 11 drives, produced five three-and-outs and lost two fumbles that led to 11 Arkansas points.",
+            "page": 20,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Dexter Williams II completed 20 of 32 passes for 176 yards at Arkansas.",
+            "page": 17,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa held Arkansas to 132 rushing yards on 43 attempts while recording three sacks and one interception.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Dax Collins led Tulsa at Arkansas with 11 tackles, 1.5 sacks, 1.5 tackles for loss and one pass breakup.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oran Singleton Jr. had a team-high six receptions at Arkansas, while Donnell Gee Jr. led Tulsa with 49 receiving yards.",
+            "page": 20,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Baylor Hayes started Tulsa's first two games, while Dexter Williams II started the two most recent games against East Texas A&M and Arkansas.",
+            "page": 19,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "The Sept. 27 depth chart listed Baylor Hayes first at quarterback, followed by Dexter Williams II and Andrew Alford.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Williams threw three touchdown passes against East Texas A&M before completing 20 of 32 passes for 176 yards at Arkansas.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Hayes was averaging 176.5 passing yards per game through Tulsa's first four games.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Tulsa's Sept. 27 first-team offensive line was Cam East at left tackle, Hunter Erb at left guard, Malachi Preciado at center, Ian Mayes at right guard and Brody Duffel or Davis Dotson at right tackle.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam East, Malachi Preciado and Ian Mayes started each of Tulsa's first four games; Hunter Erb started three, and Brody Duffel started the first three.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "JaQuan Adams started at left guard against East Texas A&M and at right tackle in the most recent game at Arkansas.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Damari Alston started at running back in each of the first four games and led Tulsa with 27 rushing yards at Arkansas.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oran Singleton Jr. and Jimmy Calloway started all four games at wide receiver through Sept. 26.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Javon Ross had 12 receptions for 104 yards through four games and had caught a pass in 23 consecutive appearances.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tulsa rebuilt its running back room with transfers Trequan Jones from Old Dominion, Damari Alston from Auburn, Seth Davis from Mississippi State and DJ McKinney from New Mexico.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Tulsa used the same starting defensive front and linebacker group in each of its first four games: Arias Nash, Jaylen George, Thomas Davis and Tai Newhouse on the line, with Chris Thompson Jr. and Dax Collins at linebacker.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Thomas Davis led Tulsa with four sacks through four games, followed by Kyran Duhon with three and Dax Collins with 2.5.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Chris Thompson Jr. led Tulsa with 35 tackles through four games, and Dax Collins ranked second with 31.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Micah Tease moved from wide receiver to cornerback during Tulsa's 2026 preseason camp after making two offensive starts in 2025.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dedaunte Scott intercepted Arkansas quarterback KJ Jackson, extending Tulsa's streak to at least one takeaway in every game through four contests.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kevin Barbay was hired as Tulsa's offensive coordinator in January 2026 after serving as a Kentucky offensive analyst in 2025.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Dominique Davenport was promoted from special teams analyst to running backs coach in January 2026.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "BJ Johnson joined Tulsa as wide receivers coach in December 2025.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cam Haney joined Tulsa as cornerbacks coach in January 2026, while Dominique Franks was promoted to pass game coordinator and nickels coach.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Linebacker Chris Thompson Jr. returned in 2026 after missing the entire 2025 season because of injury and started each of Tulsa's first four games.",
+            "page": 4,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Thompson recorded at least eight tackles in each of his first four games back, totaling 35 tackles.",
+            "page": 4,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Tulsa averaged 354.8 total yards per game through four games, including 181.5 rushing yards and 173.3 passing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa averaged 23.8 points per game through four games but scored only six points in its most recent game at Arkansas.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa scored touchdowns on 12 of its first 46 offensive drives, a rate of 26.1 percent.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tulsa's first four starting lineups used multiple tight-end combinations, with Jewlyen Roberts making three starts and Chris Gacayan II making two.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Tulsa allowed 15.3 points per game through four games, including 27 total points during its season-opening three-game winning streak and 34 at Arkansas.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa recorded 13 sacks for 98 yards through four games, an average of 3.25 sacks per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa allowed 109.8 rushing yards per game and 3.1 yards per carry through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents scored on nine of 14 red-zone possessions against Tulsa, with only four resulting in touchdowns.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa generated seven takeaways through four games\u2014four interceptions and three fumble recoveries\u2014and held a plus-three turnover margin.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted two of 11 fourth-down attempts against Tulsa through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tulsa limited opponents to 4.9 yards per play while facing more than 75 offensive snaps per game on average.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Trequan Jones returned a kickoff 98 yards for a touchdown against East Texas A&M and was named American Conference Special Teams Player of the Week.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jones handled Tulsa's first five kickoff returns and totaled 165 yards, an average of 33.0 yards per return.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "The Sept. 27 depth chart listed Marlon Hauck at kicker, Max Tulen at punter, Aidan Fedigan at long snapper, Trequan Jones as the primary kickoff returner and DJ McKinney as the primary punt returner.",
+            "page": 13,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Max Tulen punted seven times at Arkansas; his season long through four games was 54 yards.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Tulsa's schedule lists the Rice game for Oct. 17, 2026, on the road, following games against North Texas and Navy.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa was scheduled to play both October Saturday games on the road, at Navy on Oct. 10 and at Rice on Oct. 17.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Tulsa.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Tulsa scoring-opportunity creation vs Rice scoring-opportunity prevention",
+        "off_team": "Tulsa",
+        "def_team": "Rice",
+        "off_rank": 6,
+        "def_rank": 134,
+        "stat": "Eckel rate",
+        "rank_gap": 128,
+        "direction": "offense_advantage",
+        "matchup_score": 228
+      },
+      {
+        "dimension": "Rice rushing offense vs Tulsa rush defense",
+        "off_team": "Rice",
+        "def_team": "Tulsa",
+        "off_rank": 121,
+        "def_rank": 19,
+        "stat": "rush EPA",
+        "rank_gap": 102,
+        "direction": "defense_advantage",
+        "matchup_score": 202
+      },
+      {
+        "dimension": "Tulsa rushing offense vs Rice rush defense",
+        "off_team": "Tulsa",
+        "def_team": "Rice",
+        "off_rank": 40,
+        "def_rank": 132,
+        "stat": "rush EPA",
+        "rank_gap": 92,
+        "direction": "mixed",
+        "matchup_score": 92
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "At Arkansas, Tulsa's offense scored on one of 11 drives, produced five three-and-outs and lost two fumbles that led to 11 Arkansas points.",
+        "page": 20,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Tulsa.pdf",
+        "source_team": "Tulsa Golden Hurricane"
+      },
+      {
+        "fact_id": 31,
+        "fact": "Tulsa scored touchdowns on 12 of its first 46 offensive drives, a rate of 26.1 percent.",
+        "page": 21,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Tulsa.pdf",
+        "source_team": "Tulsa Golden Hurricane"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Rice Owls",
+      "model_side": "Rice",
+      "opponent_full": "Tulsa Golden Hurricane",
+      "opponent": "Tulsa",
+      "model_prediction": 2.0,
+      "market_line": 4.0,
+      "best_available_line": 4.0,
+      "best_available_price": "-104",
+      "cover_probability": 0.54567161,
+      "edge": 0.0358676884313725,
+      "bet_status": "BET"
+    }
+  }
+}

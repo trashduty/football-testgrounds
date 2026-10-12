@@ -1,0 +1,371 @@
+{
+  "game": "Florida Atlantic Owls@Army Black Knights",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:43:05.556786+00:00",
+  "model_prediction": -4.0,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-112",
+  "best_book": "BetMGM",
+  "cover_probability": 0.52730679,
+  "edge": -0.0009950967924527987,
+  "bet_short": "Army",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our model\u2019s preference for Army starts with the ground game. Our efficiency numbers grade Army\u2019s rushing offense as a major advantage against Florida Atlantic\u2019s run defense. The early production supports that view: Army averaged 394 rushing yards through two games, all five first-listed offensive linemen were seniors, and the offense allowed only 0.5 sacks and 3.0 tackles for loss per game. For us, that combination points to a credible path for Army to control the game rather than relying on one recent result.\n\nThere is also enough of a passing constraint to keep Florida Atlantic from selling out completely against the run. Cale Hellums completed 9 of 10 passes for 91 yards and two touchdowns against South Florida. We are not treating that performance as a new baseline, but it matters when paired with Army\u2019s rushing efficiency because it gives the offense another way to punish an overly aggressive defense.\n\nThe concern is on the other side. Our numbers rate Florida Atlantic well in both passing efficiency and creating scoring opportunities, while Army grades poorly at preventing those opportunities. That gives Florida Atlantic a realistic route to stay within the margin even if Army moves the ball consistently. We still make Army the stronger side, but the current price does not provide enough value for us to turn that disagreement into a wager.",
+    "matchup_to_watch": "We are watching Army\u2019s rushing offense against Florida Atlantic\u2019s run defense. Army had 25 rushing plays of at least 10 yards through three weeks, so this is not only an offense built around steady gains; it has also generated chunk plays. If Army continues creating those gains, it can dictate possession and limit Florida Atlantic\u2019s chances to attack the weaker areas of Army\u2019s defense.\n\nThat matchup explains our lean, but it also explains the pass. We need Army\u2019s rushing advantage to translate into enough separation, not merely sustained drives. Florida Atlantic\u2019s offensive profile leaves less room for error than the run-defense mismatch alone might suggest.",
+    "guide_status": [
+      "No guide found for Florida Atlantic Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida Atlantic.pdf",
+      "Found guide for Army Black Knights: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Army.pdf",
+      "Guide for Army Black Knights was found but may not match the current opponent. The document is Army's Week 4 game notes for the Sept. 25, 2026 road game against Temple, as shown by the matchup material, media schedule and depth chart dated Sept. 20. Florida Atlantic appears only on Army's future schedule for Oct. 17 and in the conference standings, so this is not the guide for the Week 7 Army-Florida Atlantic matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Army Black Knights",
+        "opponent": "Florida Atlantic Owls",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Army's Week 4 game notes for the Sept. 25, 2026 road game against Temple, as shown by the matchup material, media schedule and depth chart dated Sept. 20. Florida Atlantic appears only on Army's future schedule for Oct. 17 and in the conference standings, so this is not the guide for the Week 7 Army-Florida Atlantic matchup.",
+        "recent_game": [
+          {
+            "fact": "Army lost 28-24 to South Florida on Sept. 12, leaving the Black Knights 1-1 overall and 0-1 in the American Conference.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against South Florida, Godspower Nwawuihe led Army with 20 carries and 98 rushing yards and scored a 10-yard fourth-quarter touchdown.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against South Florida, Zach Mundell caught three passes, including a 24-yard touchdown, and completed a 37-yard pass to Godspower Nwawuihe.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Senior Cale Hellums was listed as Army's starting quarterback on the unofficial depth chart dated Sept. 20, with Bryson Luter second and Ethan Washington third.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hellums returned as Army's starting quarterback in 2026 after making 10 starts and playing in every game in 2025.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hellums rushed for 1,223 yards and 18 touchdowns in 2025; the 18 rushing touchdowns were the second-most in an Army season.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Against South Florida, Hellums completed 9 of 10 passes for 91 yards and two touchdowns, setting a career high with a .900 completion percentage.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games in 2026, Hellums had 142 rushing yards, 150 passing yards and a team-high four total touchdowns.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Army had not thrown an interception through its first two games of 2026.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Army's Sept. 20 offensive line listed Henry Appleton at left tackle, Kyle Kloska at left guard, Brady Small at center, Paolo Gennarelli at right guard and Teddy Williams at right tackle.",
+            "page": 6,
+            "category": "offensive_line",
+            "importance": "high"
+          },
+          {
+            "fact": "All five offensive linemen listed first on Army's Sept. 20 depth chart were seniors.",
+            "page": 6,
+            "category": "offensive_line",
+            "importance": "high"
+          },
+          {
+            "fact": "Army's first-listed skill personnel included running back Godspower Nwawuihe, slotback Samari Howard, H-back Brady Mott, tight end Parker Poloskey and wide receiver Brady Anderson.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Nwawuihe had emerged as Army's feature back after his performance in the 2025 Fenway Bowl.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Senior slotback Zach Mundell returned in 2026 after playing only one game since 2023 before the season opener; he rushed for 105 yards and two touchdowns on four carries against Bryant.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games, Mundell led Army with 150 rushing yards, followed by Nwawuihe with 147 and Hellums with 142.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Army's Sept. 20 defensive front listed Dillon Stowers at defensive tackle, Kody Harris-Miller at nose tackle and Jack Bousum at defensive end.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Army's first-listed linebackers were Noah Nixon at outside linebacker and Jaquavious Moss and Elijah Walton at inside linebacker.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Army's first-listed secondary consisted of nickel Zane Tallman, cornerbacks Jaydan Mayes and Jaxon Hammond, strong safety Caleb Williams and free safety Stephen Nnadozie.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Elijah Walton and Jaquavious Moss shared Army's team lead with 12 tackles apiece through two games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dillon Stowers led Army with one sack through two games, while Zane Tallman had the team's only forced fumble.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jeff Monken was in his 13th season as Army's head coach in 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cody Worley remained Army's offensive coordinator and quarterbacks coach, while Daryl Dixon remained defensive coordinator and Scot Sloan served as co-defensive coordinator and safeties coach.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Army added first-year assistants John Holt as co-offensive line coach, Jamere Hogue as defensive line coach and Munir Prince as cornerbacks coach for 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through two games, Army averaged 394.0 rushing yards, 103.5 passing yards, 497.5 total yards and 41.5 points per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army led the FBS in rushing offense at 394.0 yards per game through the first three weeks of 2026.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army had 25 rushing plays of at least 10 yards through three weeks, tied for sixth nationally.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army averaged 34:22 in time of possession through two games, ranking 10th nationally.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army allowed 0.5 sacks and 3.0 tackles for loss per game through two contests.",
+            "page": 8,
+            "category": "offensive_line",
+            "importance": "high"
+          },
+          {
+            "fact": "In its opener against Bryant, Army produced 648 total yards and 569 rushing yards, both the fourth-highest single-game totals in program history.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through two games, Army allowed 15.5 points, 267.0 total yards, 168.5 passing yards and 98.5 rushing yards per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Army's 267.0 yards allowed per game ranked 25th nationally through two games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army had not recorded an interception or fumble recovery through two games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Army's Sept. 20 depth chart listed James Wagenseller as the starting punter, Dawson Jones as the kicker and kickoff specialist, Owen Walter as the long snapper, Samari Howard or Jaydan Mayes as kickoff returner and Lloyd Benson III as punt returner.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Army averaged 47.6 yards per punt through two games, ranking third nationally.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Lloyd Benson III averaged 18.7 yards per punt return through two games, ranking 16th nationally.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Army's 2026 schedule listed Florida Atlantic as a home game on Oct. 17 at noon.",
+            "page": 1,
+            "category": "schedule",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time of this guide, Army was 1-1 overall and Florida Atlantic was 2-1 overall and 1-0 in the American Conference.",
+            "page": 7,
+            "category": "conference_context",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Army.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Army rushing offense vs Florida Atlantic rush defense",
+        "off_team": "Army",
+        "def_team": "Florida Atlantic",
+        "off_rank": 17,
+        "def_rank": 134,
+        "stat": "rush EPA",
+        "rank_gap": 117,
+        "direction": "offense_advantage",
+        "matchup_score": 217
+      },
+      {
+        "dimension": "Florida Atlantic scoring-opportunity creation vs Army scoring-opportunity prevention",
+        "off_team": "Florida Atlantic",
+        "def_team": "Army",
+        "off_rank": 19,
+        "def_rank": 125,
+        "stat": "Eckel rate",
+        "rank_gap": 106,
+        "direction": "offense_advantage",
+        "matchup_score": 206
+      },
+      {
+        "dimension": "Florida Atlantic passing offense vs Army pass defense",
+        "off_team": "Florida Atlantic",
+        "def_team": "Army",
+        "off_rank": 29,
+        "def_rank": 113,
+        "stat": "pass EPA",
+        "rank_gap": 84,
+        "direction": "offense_advantage",
+        "matchup_score": 184
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 7,
+        "fact": "Against South Florida, Hellums completed 9 of 10 passes for 91 yards and two touchdowns, setting a career high with a .900 completion percentage.",
+        "page": 17,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 11,
+        "fact": "All five offensive linemen listed first on Army's Sept. 20 depth chart were seniors.",
+        "page": 6,
+        "category": "offensive_line",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Through two games, Army averaged 394.0 rushing yards, 103.5 passing yards, 497.5 total yards and 41.5 points per game.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Army had 25 rushing plays of at least 10 yards through three weeks, tied for sixth nationally.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Army allowed 0.5 sacks and 3.0 tackles for loss per game through two contests.",
+        "page": 8,
+        "category": "offensive_line",
+        "importance": "high",
+        "source_file": "Army.pdf",
+        "source_team": "Army Black Knights"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Army Black Knights",
+      "model_side": "Army",
+      "opponent_full": "Florida Atlantic Owls",
+      "opponent": "Florida Atlantic",
+      "model_prediction": -4.0,
+      "market_line": -2.5,
+      "best_available_line": -2.5,
+      "best_available_price": "-112",
+      "cover_probability": 0.52730679,
+      "edge": -0.0009950967924527987,
+      "bet_status": "PASS"
+    }
+  }
+}

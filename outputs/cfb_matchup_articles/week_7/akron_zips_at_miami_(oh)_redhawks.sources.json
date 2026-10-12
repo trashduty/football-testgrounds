@@ -1,0 +1,27 @@
+{
+  "game": "Akron Zips@Miami (OH) RedHawks",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:33:10.463247+00:00",
+  "model_prediction": 10.0,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-105",
+  "best_book": "BetMGM",
+  "cover_probability": 0.507609,
+  "edge": -0.0045861219512195,
+  "bet_short": "Akron",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Akron Zips. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Akron.pdf",
+      "No guide found for Miami (OH) RedHawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami (OH).pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

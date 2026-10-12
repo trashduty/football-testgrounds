@@ -1,0 +1,27 @@
+{
+  "game": "Nevada Wolf Pack@North Dakota State",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:55:38.967193+00:00",
+  "model_prediction": -20.0,
+  "market_line": -15.5,
+  "best_line": -15.5,
+  "best_price": "-108",
+  "best_book": "Caesars",
+  "cover_probability": 0.57731158,
+  "edge": 0.0580808107692307,
+  "bet_short": "North Dakota State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Nevada Wolf Pack. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nevada.pdf",
+      "No guide found for North Dakota State. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Dakota State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

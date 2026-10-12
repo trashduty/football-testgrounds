@@ -1,0 +1,27 @@
+{
+  "game": "Oklahoma State Cowboys@Houston Cougars",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:57:29.148669+00:00",
+  "model_prediction": -8.0,
+  "market_line": -4.5,
+  "best_line": -4.5,
+  "best_price": "-105",
+  "best_book": "Caesars",
+  "cover_probability": 0.54166482,
+  "edge": 0.0294696980487805,
+  "bet_short": "Houston",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Oklahoma State Cowboys. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oklahoma State.pdf",
+      "No guide found for Houston Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Houston.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

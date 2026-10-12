@@ -1,0 +1,351 @@
+{
+  "game": "Toledo Rockets@Eastern Michigan Eagles",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:02:08.405825+00:00",
+  "model_prediction": -7.0,
+  "market_line": -5.5,
+  "best_line": -4.5,
+  "best_price": "-114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52447475,
+  "edge": -0.0082355303738317,
+  "bet_short": "Toledo",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case for Toledo starts with scoring-opportunity creation. Our numbers show Toledo consistently reaching threatening areas, while Eastern Michigan has struggled to prevent those opportunities. That matters more to our view than Eastern Michigan\u2019s 29-3 win over Lindenwood, even though the 396-191 yardage advantage was encouraging. We are treating that performance as context, not proof of a broader change.\n\nThe other side of the matchup also favors Toledo in our numbers. Eastern Michigan averaged 19.0 points and 292.4 total yards through five games, and our metrics suggest it could have difficulty creating scoring chances against Toledo\u2019s defense. Eastern Michigan\u2019s improved pressure is a legitimate counterpoint\u2014it recorded nine sacks through five games\u2014but that is not enough to erase the larger matchup concerns.\n\nThat explains why our expectation is more favorable to Toledo than the market\u2019s. The available price, however, does not create enough value for us to act. We can prefer Toledo in the football matchup and still pass on the wager.",
+    "matchup_to_watch": "We are watching Eastern Michigan\u2019s passing game against Toledo\u2019s pass defense. Noah Kim threw for 257 yards with two touchdowns and no interceptions against Lindenwood, while Benson Prosper caught 10 passes for 109 yards and a touchdown. That was productive, but the question is whether Eastern Michigan can replicate it against a pass defense our numbers rate much more favorably.\n\nFor us, this matchup will shape Eastern Michigan\u2019s ability to keep pace. If Toledo limits efficient passing plays and forces longer drives, the scoring-opportunity gap behind our model\u2019s position becomes more meaningful.",
+    "guide_status": [
+      "No guide found for Toledo Rockets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Toledo.pdf",
+      "Found guide for Eastern Michigan Eagles: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Eastern Michigan.pdf",
+      "Guide for Eastern Michigan Eagles was found but may not match the current opponent. The guide is for Eastern Michigan's Oct. 3, 2026 road game against Massachusetts. Toledo is listed as EMU's subsequent Week 7 home opponent on Oct. 17."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Eastern Michigan Eagles",
+        "opponent": "Toledo Rockets",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Eastern Michigan's Oct. 3, 2026 road game against Massachusetts. Toledo is listed as EMU's subsequent Week 7 home opponent on Oct. 17.",
+        "recent_game": [
+          {
+            "fact": "Eastern Michigan defeated Lindenwood 29-3 on Sept. 26, improving to 2-3.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "EMU outgained Lindenwood 396-191, a 205-yard advantage.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "The EMU defense held Lindenwood to 191 yards on 52 plays, recorded 8.0 tackles for loss and produced 4.0 sacks.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "EMU had eight possessions against Lindenwood, scored three touchdowns, attempted four field goals and punted once.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Toledo was 3-1 through games of Sept. 26 and had not yet played a MAC game.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Toledo defeated San Diego State 41-16 on Sept. 26.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Noah Kim had completed 106 of 173 passes for 970 yards, six touchdowns and three interceptions through five games.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Kim completed 23 of 38 passes for 257 yards, two touchdowns and no interceptions against Lindenwood.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Kim started every game in 2025 and returned as EMU's season-opening starter in 2026.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Wide receiver Benson Prosper caught 10 passes for 109 yards and his first EMU touchdown against Lindenwood.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Amareon Blue led EMU through five games with 243 rushing yards and two touchdowns on 49 carries.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Prosper led EMU with 21 receptions and 220 receiving yards through five games, while Harold Mack Jr. had 20 catches for 215 yards and two touchdowns.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Offensive lineman Richardo Wournman made his first career start against Lindenwood.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dennis Strey Jr. and first-year player Samuel Adjin made their first career starts at right guard and right tackle, respectively, against Michigan State on Sept. 12.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Zach Mowchan led EMU with 43 tackles through five games, tying his previous single-season career high.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Elgin McDuffey recorded six tackles in each of the three games preceding this guide and registered his first sack against Lindenwood.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "McDuffey made his first career start at linebacker against Wisconsin, and Davion Williams made his first career start on defense against Lindenwood.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jason Marshall had 30 tackles, one interception and two pass breakups through five games.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Tate Omli and Kasey Teegardin were named co-defensive coordinators for 2026; Omli coaches safeties and Teegardin coaches defensive ends.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mike Piatkowski returned as offensive coordinator and quarterbacks coach for 2026.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "EMU added five assistant coaches for 2026: cornerbacks coach Antreal Allen, wide receivers coach Erik Campbell, running backs coach Donnell Kirkwood Jr., defensive tackles coach Zac Sias and special teams coordinator Grant Kurzner.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through five games, EMU averaged 19.0 points, 95.6 rushing yards, 196.8 passing yards and 292.4 total yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "EMU scored a touchdown on its first offensive possession against both Wisconsin and Lindenwood after being held scoreless in the first quarter of its first three games.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "EMU had nine sacks through five games, seven more than it recorded over the same span in 2025.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "EMU allowed 139.4 rushing yards, 233.8 passing yards and 373.2 total yards per game through five games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Eagles allowed only 10 first-quarter points through five games and shut out the opponent in the first quarter in each of their first three home games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Rudy Kessinger made three of four field-goal attempts against Lindenwood, including career-long conversions from 51 and 42 yards.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Nick Devereaux averaged 19.0 yards per kickoff return through five games.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Eastern Michigan was scheduled to host Toledo on Oct. 17, 2026, in Week 7.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "EMU was 2-3 overall and 1-0 in MAC play through Sept. 26.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "EMU averaged 4.0 penalties and 33.8 penalty yards per game, leading the MAC in both categories.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "The 2026 EMU roster included 54 newcomers: 30 first-year players and 24 transfers.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Eastern Michigan.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Toledo scoring-opportunity creation vs Eastern Michigan scoring-opportunity prevention",
+        "off_team": "Toledo",
+        "def_team": "Eastern Michigan",
+        "off_rank": 30,
+        "def_rank": 113,
+        "stat": "Eckel rate",
+        "rank_gap": 83,
+        "direction": "offense_advantage",
+        "matchup_score": 183
+      },
+      {
+        "dimension": "Eastern Michigan scoring-opportunity creation vs Toledo scoring-opportunity prevention",
+        "off_team": "Eastern Michigan",
+        "def_team": "Toledo",
+        "off_rank": 107,
+        "def_rank": 41,
+        "stat": "Eckel rate",
+        "rank_gap": 66,
+        "direction": "mixed",
+        "matchup_score": 66
+      },
+      {
+        "dimension": "Eastern Michigan passing offense vs Toledo pass defense",
+        "off_team": "Eastern Michigan",
+        "def_team": "Toledo",
+        "off_rank": 67,
+        "def_rank": 13,
+        "stat": "pass EPA",
+        "rank_gap": 54,
+        "direction": "mixed",
+        "matchup_score": 54
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Eastern Michigan defeated Lindenwood 29-3 on Sept. 26, improving to 2-3.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 2,
+        "fact": "EMU outgained Lindenwood 396-191, a 205-yard advantage.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 6,
+        "fact": "Kim completed 23 of 38 passes for 257 yards, two touchdowns and no interceptions against Lindenwood.",
+        "page": 4,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Wide receiver Benson Prosper caught 10 passes for 109 yards and his first EMU touchdown against Lindenwood.",
+        "page": 4,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 20,
+        "fact": "Through five games, EMU averaged 19.0 points, 95.6 rushing yards, 196.8 passing yards and 292.4 total yards per game.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 22,
+        "fact": "EMU had nine sacks through five games, seven more than it recorded over the same span in 2025.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Toledo Rockets",
+      "model_side": "Toledo",
+      "opponent_full": "Eastern Michigan Eagles",
+      "opponent": "Eastern Michigan",
+      "model_prediction": -7.0,
+      "market_line": -5.5,
+      "best_available_line": -4.5,
+      "best_available_price": "-114",
+      "cover_probability": 0.52447475,
+      "edge": -0.0082355303738317,
+      "bet_status": "PASS"
+    }
+  }
+}

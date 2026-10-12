@@ -1,0 +1,395 @@
+{
+  "game": "Pittsburgh Panthers@Boston College Eagles",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:58:28.838588+00:00",
+  "model_prediction": -7.5,
+  "market_line": -6.0,
+  "best_line": -6.5,
+  "best_price": "-102",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50985739,
+  "edge": 0.004906894950495,
+  "bet_short": "Pittsburgh",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers are slightly more favorable to Pittsburgh because the matchup points in the same direction on both sides of the ball. Boston College\u2019s rushing offense faces a Pittsburgh defense that has been especially strong against the run. Pittsburgh allowed just 53.3 rushing yards per game and 2.0 yards per carry through four games, which could leave Boston College relying more heavily on a passing offense our numbers also grade poorly.\n\nThe more interesting part is Pittsburgh\u2019s ability to turn drives into scoring opportunities against a Boston College defense that has struggled to prevent them. Mason Heintschel completed 88 of 130 passes for 1,191 yards, 13 touchdowns and one interception through four games, while Pittsburgh allowed only four sacks on 149 pass attempts and committed two turnovers. That combination of quarterback efficiency, protection and ball security helps explain why our expectation is more favorable to Pittsburgh than the market\u2019s.\n\nThat does not automatically create enough value at the available price. Our disagreement with the market is modest, and the current number already accounts for much of Pittsburgh\u2019s matchup advantage. For us, the football case supports the favorite, but not strongly enough to move this beyond a pass.",
+    "matchup_to_watch": "We are watching Boston College\u2019s rushing offense against Pittsburgh\u2019s defensive front. If Pittsburgh\u2019s run defense performs near the level shown in our longer-run numbers, Boston College may have difficulty staying balanced and consistently creating favorable scoring chances. That is the matchup doing the most work in our view, because it could determine whether Pittsburgh gets enough possessions and field position to create separation.",
+    "guide_status": [
+      "Found guide for Pittsburgh Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf",
+      "Guide for Pittsburgh Panthers was found but may not match the current opponent. The guide is Pitt's game notes for the Oct. 2, 2026 road game against Virginia Tech. Boston College appears on Pitt's schedule for Oct. 17, 2026, but that matchup is not the subject of this guide.",
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Pittsburgh Panthers",
+        "opponent": "Boston College Eagles",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Pitt's game notes for the Oct. 2, 2026 road game against Virginia Tech. Boston College appears on Pitt's schedule for Oct. 17, 2026, but that matchup is not the subject of this guide.",
+        "recent_game": [
+          {
+            "fact": "Pitt defeated Bucknell 59-0 on Sept. 26 to improve to 4-0 overall and 1-0 in ACC play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Bucknell, Pitt set school records with 766 total yards, 574 passing yards and eight touchdown passes; the eight touchdown passes also tied the ACC team record.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt completed 40 of 53 passes for eight touchdowns without an interception against Bucknell, and 13 Panthers caught at least one pass.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt's offensive line did not allow a sack on 53 pass attempts against Bucknell.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt held Bucknell to 136 total yards, 31 rushing yards and no red-zone possessions in the shutout.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Sophomore Mason Heintschel is listed as Pitt's starting quarterback.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Heintschel completed 88 of 130 passes for 1,191 yards, 13 touchdowns and one interception.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Heintschel completed 29 of 37 passes for 403 yards and six touchdowns without an interception against Bucknell.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Heintschel had 1,301 total-offense yards through four games, including 110 rushing yards and one rushing touchdown.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup quarterback Holden Geriner completed 8 of 11 passes for 114 yards and his first collegiate touchdown against Bucknell.",
+            "page": 11,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Pitt's listed starting offensive line is left tackle Netinho Olivieri, left guard Kendall Stanley, center Ryan Carretta, right guard BJ Williams and right tackle Ryan Baer.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "All five listed starting offensive linemen started each of Pitt's first four games.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ryan Carretta is in his first season as Pitt's starting center after making seven starts at left guard in 2025.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Left tackle Netinho Olivieri transferred from Penn in January 2026 and entered the season with 32 career starts at left tackle.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "True freshman Damon Ferguson Jr. led Pitt through four games with 239 rushing yards on 45 carries and 312 all-purpose yards.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cataurus Hicks led Pitt through four games with 252 receiving yards on 12 catches, averaging 21.0 yards per reception.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Censere Lee had 13 catches for 160 yards and a team-high four touchdown receptions through four games, including three touchdowns against Bucknell.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman Demetrice McCray caught three passes for 73 yards and two touchdowns against Bucknell, becoming Pitt's first freshman with multiple touchdown receptions in a game since 2013.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Pitt's listed defensive front includes Isaiah Neal or Zach Crothers at one end, Sean FitzSimmons and Nick James at tackle, and Jimmy Scott or Jaeden Moore at the other end.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The listed starting linebackers are Braylan Lovelace, Jeremiah Marcelin and Alex Sanford Jr.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Free safety Josh Guerrier led Pitt with 21 tackles through four games; Alex Sanford Jr. and strong safety Cruce Brookins had 18 each, and Jeremiah Marcelin had 17.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Syracuse, Sanford matched his career high with 11 tackles and set a career high with 2.5 tackles for loss, while Marcelin recorded a career-high 10 tackles.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Raion Strader, an Auburn transfer who joined Pitt in January 2026, had 12 tackles, one interception and one pass breakup through four games.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Alex Sanford Jr., a Purdue transfer who joined Pitt in January 2026, had 18 tackles, 3.5 tackles for loss and one sack through four games.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Defensive end Zach Crothers is listed in the 2026 two-deep and had four tackles, three pass breakups and a half-tackle for loss after a season-ending injury limited him to four games in 2025.",
+            "page": 21,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Jeremiah Marcelin is listed as Pitt's starting Mike linebacker and had 17 tackles through four games after missing the entire 2025 season because of a preseason injury.",
+            "page": 21,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Receiver Censere Lee played only four games in 2025 while rehabilitating an injury from the previous season but had 13 catches and four touchdowns through four games in 2026.",
+            "page": 20,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Pitt averaged 39.3 points, 523.8 total yards, 347.3 passing yards and 176.5 rushing yards per game.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt had completed 102 of 149 passes for 1,389 yards, 15 touchdowns and one interception through four games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt converted 50.0% of its third downs and 66.7% of its fourth downs through four games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt allowed four sacks in 149 pass attempts and committed two turnovers through its first four games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt rushed for 437 yards over its two most recent games, including a season-high 245 yards against Syracuse and 192 against Bucknell.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Seventeen Panthers caught a pass and 11 different players recorded a touchdown reception through four games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Pitt allowed 8.5 points and 244.5 total yards per game through four games, leading the ACC in scoring defense and ranking second in total defense.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt held each of its first four opponents to 14 points or fewer and did not allow a point in the first or third quarter.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt allowed 53.3 rushing yards per game and 2.0 yards per carry through four games, ranking second in the ACC in both categories.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 15 of 54 third downs and one of five fourth downs against Pitt through four games.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt recorded nine sacks and 27 tackles for loss through four games, with 19 players contributing at least one tackle for loss.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt held UCF to 206 total yards and 20 rushing yards, then limited Bucknell to 136 total yards and 31 rushing yards.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Placekicker Antonio Chadha made all five field-goal attempts and all 18 extra-point attempts through four games.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Chadha's 58-yard field goal against Miami (Ohio) tied Pitt's program record and was the longest field goal by an ACC player at the time of the guide.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Gabe Russo averaged 42.4 yards on 15 punts, with five punts of at least 50 yards and six placed inside the opponent's 20-yard line.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt limited opponents to 17 yards on three punt returns through four games.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Pitt listed quarterback Mason Heintschel, offensive tackle Ryan Baer, linebacker Braylan Lovelace and safety Cruce Brookins as its 2026 team captains.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Pittsburgh.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Boston College rushing offense vs Pittsburgh rush defense",
+        "off_team": "Boston College",
+        "def_team": "Pittsburgh",
+        "off_rank": 87,
+        "def_rank": 8,
+        "stat": "rush EPA",
+        "rank_gap": 79,
+        "direction": "defense_advantage",
+        "matchup_score": 179
+      },
+      {
+        "dimension": "Pittsburgh scoring-opportunity creation vs Boston College scoring-opportunity prevention",
+        "off_team": "Pittsburgh",
+        "def_team": "Boston College",
+        "off_rank": 32,
+        "def_rank": 105,
+        "stat": "Eckel rate",
+        "rank_gap": 73,
+        "direction": "offense_advantage",
+        "matchup_score": 173
+      },
+      {
+        "dimension": "Boston College passing offense vs Pittsburgh pass defense",
+        "off_team": "Boston College",
+        "def_team": "Pittsburgh",
+        "off_rank": 108,
+        "def_rank": 39,
+        "stat": "pass EPA",
+        "rank_gap": 69,
+        "direction": "mixed",
+        "matchup_score": 69
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Heintschel completed 88 of 130 passes for 1,191 yards, 13 touchdowns and one interception.",
+        "page": 10,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 31,
+        "fact": "Pitt allowed four sacks in 149 pass attempts and committed two turnovers through its first four games.",
+        "page": 11,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 36,
+        "fact": "Pitt allowed 53.3 rushing yards per game and 2.0 yards per carry through four games, ranking second in the ACC in both categories.",
+        "page": 15,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Pittsburgh Panthers",
+      "model_side": "Pittsburgh",
+      "opponent_full": "Boston College Eagles",
+      "opponent": "Boston College",
+      "model_prediction": -7.5,
+      "market_line": -6.0,
+      "best_available_line": -6.5,
+      "best_available_price": "-102",
+      "cover_probability": 0.50985739,
+      "edge": 0.004906894950495,
+      "bet_status": "PASS"
+    }
+  }
+}

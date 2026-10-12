@@ -1,0 +1,788 @@
+{
+  "game": "Florida Gators@Texas Longhorns",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:44:55.977519+00:00",
+  "model_prediction": 11.0,
+  "market_line": 10.0,
+  "best_line": 10.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52079084,
+  "edge": -0.0140928809302325,
+  "bet_short": "Florida",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We view Florida\u2019s win over Ole Miss as useful context, not proof that the same performance carries over. Florida rushed for 302 yards while allowing no sacks, and Aaron Philo has completed 63 of 87 passes with seven touchdowns against two interceptions through four games. That balance gives Florida a credible way to sustain drives and remain competitive rather than relying entirely on turnovers or explosive plays.\n\nThe concern for us is Texas\u2019 passing game against a Florida defense that has allowed 248.3 passing yards per game. Arch Manning has seven touchdown passes through three games, while Cam Coleman already has four receiving scores. Our matchup numbers identify this as the clearest area where Texas can create separation, even though Florida\u2019s pass rush recorded eight sacks across its first two SEC games.\n\nThat tension explains why our view stays close to the market. Florida\u2019s offensive efficiency makes the underdog interesting, but the potential Texas advantage through the air keeps us from finding enough value at the available price. For us, this remains a pass.",
+    "matchup_to_watch": "We are watching Florida\u2019s pass rush against Texas\u2019 protection. Jayden Woods has four sacks through four games, but Texas returned four offensive-line starters from 2025. If Florida can disrupt Manning without compromising its coverage, the game becomes more manageable for the underdog; if Texas consistently provides clean pockets, the matchup our numbers flag becomes much harder for Florida to overcome.",
+    "guide_status": [
+      "Found guide for Florida Gators: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida.pdf",
+      "Guide for Florida Gators was found but may not match the current opponent. The guide is Florida's Week 5 game notes for the October 3, 2026 matchup at No. 25 Missouri. Texas is listed later on the schedule as Florida's Week 7 opponent on October 17.",
+      "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
+      "Guide for Texas Longhorns was found but may not match the current opponent. The guide is for Texas' 2026 Week 4 road game against Tennessee on Sept. 26, not the Week 7 matchup against Florida. No Tennessee-specific matchup information was extracted; only current Texas information was retained."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Florida Gators",
+        "opponent": "Texas Longhorns",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Florida's Week 5 game notes for the October 3, 2026 matchup at No. 25 Missouri. Texas is listed later on the schedule as Florida's Week 7 opponent on October 17.",
+        "recent_game": [
+          {
+            "fact": "Florida defeated No. 4 Ole Miss 52-28 in Week 4, improving to 4-0 overall and 2-0 in SEC play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida rushed for 302 yards against Ole Miss, its highest total since September 9, 2023 and its highest against an SEC opponent since November 11, 2022.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jadan Baugh carried 29 times for 142 yards and three touchdowns against Ole Miss.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida scored touchdowns on five consecutive second-half possessions against Ole Miss before an end-of-game clock runout.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida's offensive line allowed no sacks, one tackle for loss and one quarterback hurry against Ole Miss.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida's defense intercepted Ole Miss quarterback Trinidad Chambliss and forced a fumble that Florida recovered.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Florida is scheduled to play at No. 1 Texas on October 17, 2026, after home games against Missouri and South Carolina.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Aaron Philo was 5-0 as a collegiate starter after Florida's Week 4 win over Ole Miss.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Philo completed 63 of 87 passes for 917 yards, seven touchdowns and two interceptions while adding three rushing touchdowns.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Philo completed at least 68 percent of his passes and threw at least one touchdown in each of Florida's first four games.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through Week 4, Philo led the SEC with 14.56 yards per completion and ranked second in the conference in yards per attempt and completion percentage.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida entered 2026 having lost 92.2 percent of its 2025 passing yardage following DJ Lagway's departure.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Florida's starting offensive line in each of the first four games was left tackle Bryce Lovett, left guard Knijeah Harris, center Harrison Moore, right guard TJ Shanahan Jr. and right tackle Emeka Ugorji.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida replaced three of five offensive-line starters after center Jake Slaughter and tackle Austin Barber departed through the NFL Draft.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Knijeah Harris had started 29 consecutive games for Florida, the longest active starting streak on the roster.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Through four games, Florida had allowed two sacks, four quarterback hurries and 14 tackles for loss.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jadan Baugh had 83 carries for 600 yards and 11 touchdowns through four games, averaging 7.2 yards per carry and 150 rushing yards per game.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Vernell Brown III led Florida through four games with 17 receptions and 271 receiving yards, while Dallas Wilson was second with 14 receptions for 236 yards.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida added transfer wide receivers Eric Singleton Jr. from Auburn, Bailey Stockton from Georgia Tech, Micah Mays Jr. from Wake Forest, Jaylen Lloyd from Oklahoma State and Ace Ciongoli from Indiana for 2026.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Harpring led Florida's tight ends through four games with seven receptions for 97 yards, while Amir Jackson had four receptions for 90 yards and one touchdown.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Myles Graham led Florida with 28 tackles through four games and had led the team in tackles in three games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Edge defender Jayden Woods had 19 tackles, six tackles for loss and four sacks through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida returned its top three sack producers from 2025: Jayden Woods, Kamran James and Brendan Bett.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Senior transfer safety DJ Coleman started each of Florida's first four games and recorded two interceptions, including the game-sealing fourth-quarter interception against Ole Miss.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida returned 2025 starting cornerbacks Dijon Johnson and Cormani McClain for their senior seasons.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer defensive lineman Emmanuel Oyebadejo recorded 2.5 sacks, three quarterback hurries and two pass breakups across his first three games for Florida.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jon Sumrall was named Florida's head coach on November 30, 2025 and was in his first season with the Gators in 2026.",
+            "page": 10,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Buster Faulkner was in his first season as Florida's offensive coordinator after serving as Georgia Tech's offensive coordinator from 2023 through 2025.",
+            "page": 12,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Brad White was in his first season as Florida's defensive coordinator after spending the previous eight seasons at Kentucky, including seven as defensive coordinator.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida listed Faulkner as coordinating the offense from the booth.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "LJ McCray returned in Week 1 after 364 days away from game action and recorded two tackles and a pass breakup at the four-yard line against Florida Atlantic.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "McCray was described as healthy after appearing in only one game during the 2025 season.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Kamran James missed most of fall camp but played in the opener, recording two tackles for loss, one sack, one forced fumble and one quarterback hurry.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Florida averaged 53.5 points and 532.8 total yards per game through four games, ranking second and fifth in the FBS, respectively.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida averaged 260 rushing yards per game through Week 4 and had rushed for at least 200 yards in five consecutive games dating to 2025.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida scored on 33 of 42 drives through four games, excluding end-of-game clock runouts.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida produced at least 12 explosive plays in each of its first four games, totaling 53, and had seven touchdown drives lasting three plays or fewer.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida had scored 42 points off turnovers through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida completed 73.1 percent of its passes through four games, ranking seventh in the FBS.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Florida recorded seven sacks at Auburn in Week 3, its first seven-sack performance against a conference opponent since September 18, 1999.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through its first two SEC games, Florida ranked second in the conference with eight sacks and 13 tackles for loss.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida forced at least one takeaway in each of its first four games and in 26 of 29 games dating to the start of 2025.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Florida forced six fumbles through four games, leading the SEC and tying for fifth in the FBS.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "No opponent scored a touchdown on any of its first three drives against Florida through the first four games.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida allowed 103 rushing yards per game and 248.3 passing yards per game through Week 4.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Florida replaced all three primary specialists for 2026 with transfers Patrick Durkin at kicker, Alec Clark at punter and Carter Milliron at long snapper.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Durkin made a career-long 53-yard field goal on his first attempt for Florida and was 33-of-38 on career field goals through Week 4.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Clark averaged an FBS-leading 49.0 net yards per punt through four games, although Florida had punted only five times.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Vernell Brown III averaged 34.6 yards per punt return and returned consecutive punts for touchdowns against Campbell.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "London Montgomery returned three kickoffs for 128 yards against Ole Miss, including a 74-yard return.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Florida was 4-0 for the first time since 2019 and ranked No. 8 in both the AP and Coaches polls entering Week 5.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida returned four offensive starters and five defensive starters from its 2025 team.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Florida.pdf"
+      },
+      {
+        "source_team": "Texas Longhorns",
+        "opponent": "Florida Gators",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Texas' 2026 Week 4 road game against Tennessee on Sept. 26, not the Week 7 matchup against Florida. No Tennessee-specific matchup information was extracted; only current Texas information was retained.",
+        "recent_game": [
+          {
+            "fact": "Texas defeated UTSA 30-6 on Sept. 19 to improve to 3-0.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against UTSA, Texas produced 400 total yards, including a season-high 228 rushing yards, and committed no turnovers.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Arch Manning completed 17 of 33 passes for 164 yards and two touchdowns against UTSA and led Texas with 50 rushing yards on nine attempts.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Four Texas running backs gained at least 39 yards against UTSA: Hollywood Smothers had 54 yards on 10 carries, Raleek Brown had 45 on 10 carries, Derrek Cooper had 44 on 11 carries and Michael Terry III had 39 on seven carries.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cam Coleman caught four passes for 59 yards and two touchdowns against UTSA.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Colin Simmons recorded a five-yard sack while playing in the first half against UTSA.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Senior quarterback Arch Manning is 15-3 as a Texas starter and has appeared in 28 games with 18 starts.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games in 2026, Manning had completed 60 of 97 passes for 664 yards and seven touchdowns.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Manning completed 23 of 37 passes for 195 yards and one touchdown in Texas' 24-23 win over Ohio State, directing three consecutive touchdown drives to erase a 23-3 deficit.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Manning completed 20 of 27 passes for 305 yards and four touchdowns in the 2026 opener against Texas State.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Manning threw 26 touchdowns and rushed for 399 yards and a team-high 10 touchdowns in 13 starts during 2025.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running backs Raleek Brown and Hollywood Smothers transferred to Texas in spring 2026.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown rushed for 1,141 yards on 186 carries and caught 34 passes for 239 yards at Arizona State in 2025.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Smothers rushed for 939 yards and six touchdowns and caught 37 passes for 189 yards at NC State in 2025.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Cam Coleman transferred from Auburn to Texas in spring 2026 after recording 56 receptions for 708 yards and five touchdowns in 2025.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Coleman had four receiving touchdowns through Texas' first three games of 2026.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ryan Wingo returned after leading Texas in 2025 with 54 receptions, 834 receiving yards and seven receiving touchdowns.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wingo opened 2026 with seven receptions for 121 yards and one touchdown against Texas State.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end Emaree Winston made his first career start against UTSA after catching a career-high three passes for 39 yards against Ohio State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fifth-year tight end Michael Masunas transferred from Michigan State in spring 2026 after posting 19 catches for 232 yards and three touchdowns in 2025.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas returned 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson for 2026.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas added offensive linemen Laurence Seymore III, Melvin Siani and Dylan Sikorski through the transfer portal.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The listed Texas offensive linemen entered the season with a combined 241 games played and 124 starts.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Left tackle Trevor Goosby allowed no sacks and one pressure on 46 pass-blocking snaps against Ohio State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Edge rusher Colin Simmons led Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons' 12 sacks led the SEC in 2025, and his 61 quarterback pressures set a Texas single-season record.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons recorded a sack against both Ohio State and UTSA and had registered a sack in seven of his previous eight games.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Rasheem Biles had two interceptions through Texas' first three games of 2026.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Graceson Littleton had one interception, one fumble recovery and three passes defended through three games.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through three games, Texas averaged 510.3 total yards, 298.7 rushing yards, 211.7 passing yards and 47.7 points per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas rushed for 156 yards against Texas State, 141 against Ohio State and 228 against UTSA.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas had scored on every red-zone possession through its first three games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas converted 48.6 percent of its third downs through three games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through three games, Texas allowed 289.0 total yards and 14.0 points per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas allowed 151.0 passing yards and 138.0 rushing yards per game through its first three contests.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas had not allowed a successful fourth-down conversion through three games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas had recorded an interception in five consecutive games dating to the 2025 season.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Gianni Spetic had a 100 percent field-goal rate and averaged 1.67 made field goals per game through three games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ryan Niblett served as Texas' primary return specialist in 2025 and continued handling kickoff and punt returns in 2026.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Texas was 3-0 and ranked No. 1 in both the AP and Coaches polls when this guide was issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas entered the guide's featured game on a six-game winning streak.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "low"
+          },
+          {
+            "fact": "Texas added 22 players through the transfer portal before the 2026 season.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Texas.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Texas passing offense vs Florida pass defense",
+        "off_team": "Texas",
+        "def_team": "Florida",
+        "off_rank": 27,
+        "def_rank": 123,
+        "stat": "pass EPA",
+        "rank_gap": 96,
+        "direction": "offense_advantage",
+        "matchup_score": 196
+      },
+      {
+        "dimension": "Texas scoring-opportunity creation vs Florida scoring-opportunity prevention",
+        "off_team": "Texas",
+        "def_team": "Florida",
+        "off_rank": 52,
+        "def_rank": 130,
+        "stat": "Eckel rate",
+        "rank_gap": 78,
+        "direction": "mixed",
+        "matchup_score": 78
+      },
+      {
+        "dimension": "Florida passing offense vs Texas pass defense",
+        "off_team": "Florida",
+        "def_team": "Texas",
+        "off_rank": 47,
+        "def_rank": 73,
+        "stat": "pass EPA",
+        "rank_gap": 26,
+        "direction": "mixed",
+        "matchup_score": 26
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Florida defeated No. 4 Ole Miss 52-28 in Week 4, improving to 4-0 overall and 2-0 in SEC play.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Florida.pdf",
+        "source_team": "Florida Gators"
+      },
+      {
+        "fact_id": 2,
+        "fact": "Florida rushed for 302 yards against Ole Miss, its highest total since September 9, 2023 and its highest against an SEC opponent since November 11, 2022.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Florida.pdf",
+        "source_team": "Florida Gators"
+      },
+      {
+        "fact_id": 5,
+        "fact": "Florida's offensive line allowed no sacks, one tackle for loss and one quarterback hurry against Ole Miss.",
+        "page": 4,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Florida.pdf",
+        "source_team": "Florida Gators"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Through four games, Philo completed 63 of 87 passes for 917 yards, seven touchdowns and two interceptions while adding three rushing touchdowns.",
+        "page": 4,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Florida.pdf",
+        "source_team": "Florida Gators"
+      },
+      {
+        "fact_id": 21,
+        "fact": "Edge defender Jayden Woods had 19 tackles, six tackles for loss and four sacks through four games.",
+        "page": 6,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Florida.pdf",
+        "source_team": "Florida Gators"
+      },
+      {
+        "fact_id": 40,
+        "fact": "Through its first two SEC games, Florida ranked second in the conference with eight sacks and 13 tackles for loss.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Florida.pdf",
+        "source_team": "Florida Gators"
+      },
+      {
+        "fact_id": 44,
+        "fact": "Florida allowed 103 rushing yards per game and 248.3 passing yards per game through Week 4.",
+        "page": 17,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Florida.pdf",
+        "source_team": "Florida Gators"
+      },
+      {
+        "fact_id": 59,
+        "fact": "Through three games in 2026, Manning had completed 60 of 97 passes for 664 yards and seven touchdowns.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 67,
+        "fact": "Coleman had four receiving touchdowns through Texas' first three games of 2026.",
+        "page": 10,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 72,
+        "fact": "Texas returned 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson for 2026.",
+        "page": 13,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Florida Gators",
+      "model_side": "Florida",
+      "opponent_full": "Texas Longhorns",
+      "opponent": "Texas",
+      "model_prediction": 11.0,
+      "market_line": 10.0,
+      "best_available_line": 10.5,
+      "best_available_price": "-115",
+      "cover_probability": 0.52079084,
+      "edge": -0.0140928809302325,
+      "bet_status": "PASS"
+    }
+  }
+}

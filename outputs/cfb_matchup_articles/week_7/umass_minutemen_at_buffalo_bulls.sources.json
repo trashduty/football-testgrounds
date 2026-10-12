@@ -1,0 +1,444 @@
+{
+  "game": "UMass Minutemen@Buffalo Bulls",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:03:52.320995+00:00",
+  "model_prediction": -7.0,
+  "market_line": -3.5,
+  "best_line": -3.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.55479237,
+  "edge": 0.0309828461904762,
+  "bet_short": "Buffalo",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our view starts with Buffalo\u2019s defense against the UMass running game. Our numbers rate Buffalo\u2019s run defense as the strongest unit in this matchup, while UMass has struggled to generate efficient rushing offense. That matters because limiting the run can keep UMass from controlling the game and place more responsibility on a passing attack that our numbers also rate below average.\n\nBuffalo\u2019s own rushing profile is the less convincing part of the case. The Bulls produced 302 rushing yards against Robert Morris, including a career-high 146 from Messiah Burch, but we are not treating one performance as proof that the broader efficiency issues are fixed. Buffalo does at least have another way to create points: Chance Morrow accounted for all six of the team\u2019s receiving touchdowns through four games.\n\nThe meaningful concern for us is Buffalo\u2019s tendency to create unnecessary volatility. The Bulls committed nine turnovers through four games, losing six of nine fumbles, and they were outscored 45-6 in first quarters. Those issues make separation less comfortable, but the underlying matchup\u2014particularly Buffalo\u2019s ability to restrict the UMass running game\u2014is enough to support our position.",
+    "matchup_to_watch": "We are watching UMass\u2019s rushing offense against Buffalo\u2019s run defense. If Buffalo wins that matchup on early downs, UMass may have difficulty sustaining drives without leaning more heavily on its passing game. For us, that is the clearest football reason the gap between our expectation and the market is meaningful.",
+    "guide_status": [
+      "No guide found for UMass Minutemen. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UMass.pdf",
+      "Found guide for Buffalo Bulls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Buffalo.pdf",
+      "Guide for Buffalo Bulls was found but may not match the current opponent. The guide is for Buffalo's Oct. 3, 2026 game against Western Michigan, identified as Game 5, and includes a depth chart specifically for Western Michigan. UMass is listed as a future Oct. 17 opponent, but the document does not preview that matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Buffalo Bulls",
+        "opponent": "UMass Minutemen",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Buffalo's Oct. 3, 2026 game against Western Michigan, identified as Game 5, and includes a depth chart specifically for Western Michigan. UMass is listed as a future Oct. 17 opponent, but the document does not preview that matchup.",
+        "recent_game": [
+          {
+            "fact": "Buffalo defeated Robert Morris 31-28 on Sept. 26 to improve to 2-2.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo produced season highs of 302 rushing yards and 442 total yards against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Messiah Burch rushed 26 times for a career-high 146 yards against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jason Wright passed for 140 yards and one touchdown and rushed for 95 yards and one touchdown against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Nino Hill rushed 21 times for 64 yards and scored the first two touchdowns of his career against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo committed three turnovers against Robert Morris, and two were converted into Robert Morris touchdowns.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Bradley Ilunga-Bisselele led Buffalo with eight tackles against Robert Morris, while Zach Bergmann recorded four tackles and two pass breakups.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Sophomore Jason Wright started Buffalo's games against Penn State and Robert Morris after Elijah Holmes started the first two games.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Wright had completed 38 of 80 passes for 385 yards, three touchdowns and three interceptions through four games.",
+            "page": 22,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Wright had rushed for 95 yards and one touchdown through his first three appearances.",
+            "page": 22,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wright entered after Holmes was forced to sit out the second half at FIU and completed 13 of 27 passes for 185 yards and two touchdowns.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Wright is the youngest quarterback to start for Buffalo since redshirt freshman Matt Myers started five games in 2019.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Chance Morrow had 25 receptions for 307 yards and six touchdowns through four games; he accounted for all six of Buffalo's receiving touchdowns.",
+            "page": 22,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Morrow's six touchdown receptions were tied for fourth nationally.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "New tight ends Clint Walker and Trevor Wilson combined for 16 receptions and 134 yards through four games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo entered the season with 54 new players, including 23 transfers and 31 freshmen, and had 22 newcomers on its opening-week depth chart.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Quarterback Elijah Holmes and tight end Clint Walker were among six newcomers who started Buffalo's season opener.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo opened the season with five offensive linemen making their first career starts for the Bulls.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Gabriel Arena was the most experienced returning Buffalo offensive lineman, having appeared in 15 games over the previous two seasons.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo used Gabriel Arena at left tackle, Val Kondratenko at left guard, Nino Francavilla at center, Thomas Barr at right guard and Joe Crocker at right tackle on the guide's current depth chart.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Buffalo returned experienced defensive backs Kobi Blackwell, Keontez Bradley, Oliver Bridges, Miles Greer and John Keough for 2026.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miles Greer ranked third on Buffalo with 74 tackles in 2025.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo returned only two linebackers who played in 2025, Mathew Hilty and Jordan Owens, and both had primarily played special teams.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo added transfer linebackers Zach Bergmann from Missouri Southern State, Stevie Bracey from Virginia and Joey Cheshire from Cornell.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "SaVeon Brown led Buffalo with 26 tackles through four games and had two tackles for loss, one sack and the team's only interception.",
+            "page": 24,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "John Keough had 24 tackles, Ronnell Davis had 22 and Miles Greer had 20 through four games.",
+            "page": 24,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Buffalo entered 2026 with new coordinators for offense, defense and special teams.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Tony Tokarz joined Buffalo as offensive coordinator and quarterbacks coach after six seasons at Florida State, including four as quarterbacks coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Brian Dougherty was elevated from safeties and nickels coach to defensive coordinator.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Garrett McLaughlin became Buffalo's special-teams coordinator after two seasons as Columbia's special-teams coordinator and defensive-line coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "The guide states that Elijah Holmes was forced to sit out the second half of the FIU game; it does not provide a reason or a current availability update.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Messiah Burch was described as returning to his 2024 form after an injury-plagued 2025 season.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Buffalo averaged 21.3 points, 314.3 total yards, 155.5 rushing yards and 158.8 passing yards per game.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo had been outscored 45-6 in first quarters and had not scored a first-quarter touchdown through four games.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo converted 35 percent of its third downs through four games.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo scored on 11 of 13 red-zone possessions, including nine touchdowns, through four games.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo had lost six of its nine fumbles and committed nine total turnovers through four games.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo was 2-0 when running at least 70 offensive plays and 0-2 when running fewer than 70.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Buffalo allowed 33.3 points and 426.3 total yards per game.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo allowed 170.8 rushing yards and 255.5 passing yards per game through four games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo's defense had four sacks and one interception through four games.",
+            "page": 21,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents averaged 6.4 yards per play and 14.8 yards per completion against Buffalo through four games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo held Robert Morris to 316 total yards and did not allow a red-zone possession in its most recent game.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Oliver Hautanen made five of seven field-goal attempts and all eight extra-point attempts through four games, with a long field goal of 52 yards.",
+            "page": 23,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Hautanen made a 48-yard field goal in the fourth quarter against Robert Morris after missing from 35 and 40 yards.",
+            "page": 13,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ethan Stumpf averaged 46.2 yards on 27 punts, with eight punts of at least 50 yards and seven placed inside the 20.",
+            "page": 23,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Phillip Folmar averaged 20.0 yards on six kickoff returns through four games.",
+            "page": 22,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Buffalo was 2-0 at home and 0-2 on the road through four games; the scheduled UMass game is at Broadview Stadium.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Nine of Buffalo's previous 14 games had been decided by one score, with Buffalo going 5-4 in those games.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Buffalo.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Buffalo rushing offense vs UMass rush defense",
+        "off_team": "Buffalo",
+        "def_team": "UMass",
+        "off_rank": 130,
+        "def_rank": 62,
+        "stat": "rush EPA",
+        "rank_gap": 68,
+        "direction": "mixed",
+        "matchup_score": 68
+      },
+      {
+        "dimension": "UMass rushing offense vs Buffalo rush defense",
+        "off_team": "UMass",
+        "def_team": "Buffalo",
+        "off_rank": 109,
+        "def_rank": 41,
+        "stat": "rush EPA",
+        "rank_gap": 68,
+        "direction": "mixed",
+        "matchup_score": 68
+      },
+      {
+        "dimension": "UMass passing offense vs Buffalo pass defense",
+        "off_team": "UMass",
+        "def_team": "Buffalo",
+        "off_rank": 83,
+        "def_rank": 61,
+        "stat": "pass EPA",
+        "rank_gap": 22,
+        "direction": "mixed",
+        "matchup_score": 22
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Buffalo produced season highs of 302 rushing yards and 442 total yards against Robert Morris.",
+        "page": 13,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Messiah Burch rushed 26 times for a career-high 146 yards against Robert Morris.",
+        "page": 13,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      },
+      {
+        "fact_id": 13,
+        "fact": "Chance Morrow had 25 receptions for 307 yards and six touchdowns through four games; he accounted for all six of Buffalo's receiving touchdowns.",
+        "page": 22,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Buffalo had been outscored 45-6 in first quarters and had not scored a first-quarter touchdown through four games.",
+        "page": 2,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      },
+      {
+        "fact_id": 37,
+        "fact": "Buffalo had lost six of its nine fumbles and committed nine total turnovers through four games.",
+        "page": 20,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Buffalo Bulls",
+      "model_side": "Buffalo",
+      "opponent_full": "UMass Minutemen",
+      "opponent": "UMass",
+      "model_prediction": -7.0,
+      "market_line": -3.5,
+      "best_available_line": -3.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.55479237,
+      "edge": 0.0309828461904762,
+      "bet_status": "BET"
+    }
+  }
+}

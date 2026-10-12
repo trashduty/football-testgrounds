@@ -1,0 +1,317 @@
+{
+  "game": "Navy Midshipmen@UTSA Roadrunners",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:54:33.049318+00:00",
+  "model_prediction": -9.0,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52805983,
+  "edge": -0.0024566019248826,
+  "bet_short": "UT San Antonio",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our model\u2019s preference for UT San Antonio starts with its ability to create scoring opportunities. Our numbers see a meaningful advantage when its offense reaches Navy territory, and they also favor UT San Antonio\u2019s rushing efficiency against Navy\u2019s broader defensive profile. That combination gives us a path to separation that the market is pricing less aggressively.\n\nWe also see legitimate reasons not to force the position. Navy allowed only 40.5 rushing yards per game through its first two contests, a sharp contrast with the vulnerability suggested by our broader efficiency numbers. On the other side, Navy averaged 376 rushing yards per game, while Braxton Woodson averaged 148 himself before leaving the Florida Atlantic game with a lower-body injury. The guide did not clarify his subsequent availability, adding uncertainty to a central part of Navy\u2019s offense.\n\nFor us, the disagreement is meaningful enough to prefer UT San Antonio, but not strong enough to justify a wager at the available price. The market may be giving substantial weight to Navy\u2019s early rushing production and run-defense results, while our view places more emphasis on UT San Antonio\u2019s ability to generate quality possessions. We lean toward our model\u2019s interpretation, but the margin is too thin to move beyond a pass.",
+    "matchup_to_watch": "We are watching UT San Antonio\u2019s rushing offense against Navy\u2019s front. Navy\u2019s early raw production was excellent, but our efficiency numbers are less convinced by that defense and see UT San Antonio as capable of consistently reaching scoring range. Navy also failed to force a turnover in either of its first two games, so its ability to end those possessions without points could be especially important.\n\nThat is the matchup most likely to explain whether our model\u2019s disagreement with the market is justified. If Navy\u2019s early run-defense results hold up, the market\u2019s more restrained view of UT San Antonio makes sense. If the broader efficiency profile proves more representative, UT San Antonio has the clearest route to creating separation.",
+    "guide_status": [
+      "Found guide for Navy Midshipmen: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Navy.pdf",
+      "Guide for Navy Midshipmen was found but may not match the current opponent. The guide is for Navy's Sept. 25, 2026 game at UAB, while the schedule lists Navy's game at UTSA for Oct. 17, 2026. No UTSA-specific matchup section is included.",
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Navy Midshipmen",
+        "opponent": "UTSA Roadrunners",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Navy's Sept. 25, 2026 game at UAB, while the schedule lists Navy's game at UTSA for Oct. 17, 2026. No UTSA-specific matchup section is included.",
+        "recent_game": [
+          {
+            "fact": "Navy lost 38-30 at Florida Atlantic on Sept. 12, falling to 1-1 overall and 0-1 in the American Conference.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy trailed Florida Atlantic 38-7 before scoring 23 consecutive points over the final 16 minutes.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Braxton Woodson rushed for 96 yards and one touchdown on 12 carries against Florida Atlantic before leaving on the first drive of the third quarter with a lower-body injury.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games, Woodson averaged 148 rushing yards per game and 8.46 yards per carry with four rushing touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson Gutierrez replaced the injured Woodson against Florida Atlantic and rushed seven times for 75 yards and a touchdown while completing 6 of 12 passes for 100 yards and two touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Gutierrez is being used at both quarterback and running back in 2026; he ran eight times for 31 yards and two touchdowns against Towson.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Cam Nichols, a 20-game career starter at center, started the first two games of 2026 at guard so Navy could put what the staff considered its best five offensive linemen on the field.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sophomore offensive tackle Malcolm Johnson started Navy's first two games of 2026 after making seven starts as a freshman in 2025.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Vic Listorti rushed for 81 yards and his first career touchdown on 11 carries against Towson, then gained 35 yards on four carries and lost a fumble against Florida Atlantic.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy had seven first-time starters against Towson, including offensive players Tre Jones III, Isaiah Bryant and Christian Cromer; Charles Robinson, Michael Barrow and Vic Listorti made their first career starts against Florida Atlantic.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Six players on Navy's depth chart arrived as quarterbacks and now play another position or split time between quarterback and another position.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker MarcAnthony Parker had 18 tackles, two tackles for loss and one sack through Navy's first two games.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end Aiden Lyczek recorded eight tackles, three tackles for loss and two sacks through the first two games of 2026.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Phillip Hamilton did not play against Towson by coaches' decision, then recorded four tackles and a half tackle for loss against Florida Atlantic.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aiden Lyczek, Xavyer Arrington, Aaron Rose and Trent Gillis made their first career defensive starts in the 2026 opener against Towson.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Braxton Woodson left the Florida Atlantic game with a lower-body injury on the first drive of the third quarter; the guide does not state his subsequent availability.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Starting cornerback Ira Oniha was banged up entering the Florida Atlantic game and played only Navy's first defensive series.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiden Lyczek returned for the final three games of 2025 after missing most of that season with a lower-body injury and started the first two games of 2026.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Vic Listorti appeared in only five games in 2025 because of a hamstring injury but played in each of Navy's first two games of 2026.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Navy averaged 376.0 rushing yards per game through two games, ranking second nationally, and averaged 6.9 yards per carry.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy rushed for 506 yards on 73 carries in its 42-15 season-opening win over Towson.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy scored touchdowns on all five of its red-zone opportunities through the first two games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Navy allowed 40.5 rushing yards per game through its first two contests, ranking second nationally in rushing defense.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy did not force a turnover in either of its first two games, its first turnover-free opening two-game stretch on defense since 1987.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Punter Jacob Carlson averaged 45.0 yards on four punts against Florida Atlantic, with a long of 52 yards.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Rayne Fry is in his fourth season as Navy's starting long snapper after earning 2025 American Conference Deep Snapper of the Year honors.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Navy was 1-1 overall and 0-1 in the American Conference when this guide was issued; UTSA was listed at 2-1 overall and had not yet played a conference game.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy ranked 134th among 138 FBS teams in career snaps played entering the 2026 season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Navy.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "UT San Antonio scoring-opportunity creation vs Navy scoring-opportunity prevention",
+        "off_team": "UT San Antonio",
+        "def_team": "Navy",
+        "off_rank": 7,
+        "def_rank": 104,
+        "stat": "Eckel rate",
+        "rank_gap": 97,
+        "direction": "offense_advantage",
+        "matchup_score": 197
+      },
+      {
+        "dimension": "UT San Antonio rushing offense vs Navy rush defense",
+        "off_team": "UT San Antonio",
+        "def_team": "Navy",
+        "off_rank": 20,
+        "def_rank": 78,
+        "stat": "rush EPA",
+        "rank_gap": 58,
+        "direction": "offense_advantage",
+        "matchup_score": 158
+      },
+      {
+        "dimension": "Navy scoring-opportunity creation vs UT San Antonio scoring-opportunity prevention",
+        "off_team": "Navy",
+        "def_team": "UT San Antonio",
+        "off_rank": 104,
+        "def_rank": 46,
+        "stat": "Eckel rate",
+        "rank_gap": 58,
+        "direction": "mixed",
+        "matchup_score": 58
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Through two games, Woodson averaged 148 rushing yards per game and 8.46 yards per carry with four rushing touchdowns.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 16,
+        "fact": "Braxton Woodson left the Florida Atlantic game with a lower-body injury on the first drive of the third quarter; the guide does not state his subsequent availability.",
+        "page": 5,
+        "category": "injury_availability",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 20,
+        "fact": "Navy averaged 376.0 rushing yards per game through two games, ranking second nationally, and averaged 6.9 yards per carry.",
+        "page": 4,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 23,
+        "fact": "Navy allowed 40.5 rushing yards per game through its first two contests, ranking second nationally in rushing defense.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Navy did not force a turnover in either of its first two games, its first turnover-free opening two-game stretch on defense since 1987.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "UTSA Roadrunners",
+      "model_side": "UT San Antonio",
+      "opponent_full": "Navy Midshipmen",
+      "opponent": "Navy",
+      "model_prediction": -9.0,
+      "market_line": -6.5,
+      "best_available_line": -6.5,
+      "best_available_price": "-113",
+      "cover_probability": 0.52805983,
+      "edge": -0.0024566019248826,
+      "bet_status": "PASS"
+    }
+  }
+}

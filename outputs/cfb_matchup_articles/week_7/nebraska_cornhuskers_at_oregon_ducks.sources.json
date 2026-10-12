@@ -1,0 +1,394 @@
+{
+  "game": "Nebraska Cornhuskers@Oregon Ducks",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:55:38.491627+00:00",
+  "model_prediction": 7.0,
+  "market_line": 7.0,
+  "best_line": 6.5,
+  "best_price": "110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50409995,
+  "edge": 0.0279094738095238,
+  "bet_short": "Nebraska",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We are not reacting too heavily to Oregon\u2019s 84-0 win over Portland State, but we also should not dismiss how efficiently its offense has started. Dante Moore had nine touchdown passes without an interception through three games, while Oregon turned 13 of its first 14 red-zone possessions into touchdowns. That production makes Nebraska\u2019s lower-rated rush defense a legitimate concern if Oregon can stay balanced and consistently play ahead of the chains.\n\nThe counter for us is Nebraska\u2019s rushing offense, which our numbers rate as the strongest unit in this matchup. A productive ground game could limit Oregon\u2019s possessions and keep Nebraska from having to chase the game through the air. Still, our overall expectation is essentially in line with the market, and the available number offers slightly less cushion than the broader line. We do not see enough separation to justify a position at the current price.",
+    "matchup_to_watch": "We are focused on Nebraska\u2019s rushing offense against Oregon\u2019s rush defense. Oregon held opponents below 100 rushing yards in both wins but surrendered at least 200 in its loss, so the early results have varied sharply. Our numbers give Nebraska a meaningful advantage on the ground, and its ability to sustain that advantage will shape whether this stays within one score. The question is whether that matchup edge is strong enough to offset Oregon\u2019s offensive efficiency; for us, the current price does not leave enough room to assume it will.",
+    "guide_status": [
+      "No guide found for Nebraska Cornhuskers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nebraska.pdf",
+      "Found guide for Oregon Ducks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon.pdf",
+      "Guide for Oregon Ducks was found but may not match the current opponent. The guide is explicitly for Oregon's Game 4 at USC on September 26, 2026. Nebraska is listed as a later home opponent on October 17, so this is not the Week 7 Oregon-Nebraska game guide."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Oregon Ducks",
+        "opponent": "Nebraska Cornhuskers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly for Oregon's Game 4 at USC on September 26, 2026. Nebraska is listed as a later home opponent on October 17, so this is not the Week 7 Oregon-Nebraska game guide.",
+        "recent_game": [
+          {
+            "fact": "Oregon defeated Portland State 84-0 in its most recent game, improving to 2-1.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon set modern-era program records against Portland State with 84 points and a margin of victory of 84 points.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon gained 740 total yards against Portland State, including 451 passing and 289 rushing, and scored touchdowns on 12 of 13 offensive drives.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon's defense held Portland State to 103 total yards and two rushing yards while recording a shutout.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Ten Oregon players scored touchdowns against Portland State, and six recorded the first touchdown of their careers.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Oregon is scheduled to host Nebraska on October 17, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Nebraska was 3-0 at the time this guide was published.",
+            "page": 9,
+            "category": "opponent_notes",
+            "importance": "low"
+          },
+          {
+            "fact": "Oregon quarterback Dylan Raiola transferred from Nebraska after starting all 22 games he played there during his first two college seasons.",
+            "page": 16,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Dante Moore completed 19 of 23 passes for 280 yards and four touchdowns against Portland State while playing only the first half.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Dante Moore had completed 61 of 89 passes for 849 yards, nine touchdowns and no interceptions.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Moore started all 15 games in 2025 and completed 71.8 percent of his passes for 3,565 yards, 30 touchdowns and 10 interceptions.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup quarterback Dylan Raiola completed all 11 of his passes for 124 yards and three touchdowns in his Oregon debut against Portland State.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Raiola had completed 467 of 671 career passes for 4,943 yards, 34 touchdowns and 17 interceptions through his Oregon debut.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Jordon Davison led Oregon through three games with 194 rushing yards and four touchdowns on 33 carries.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Dierre Hill Jr. had 121 rushing yards and one touchdown on 27 carries plus eight receptions for 64 yards through three games.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Evan Stewart led Oregon through three games with 15 receptions for 222 yards and two touchdowns after missing the entire 2025 season due to injury.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Dakorien Moore had 11 receptions for 192 yards and a team-high three receiving touchdowns through three games, scoring in every game.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman wide receiver Messiah Hampton had nine receptions for 102 yards and two touchdowns through three games, including six catches for 71 yards and two scores against Portland State.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end Andrew Olesh started the previous two games in Jamari Johnson's absence, and freshman tight end Kendre Harrison made his first career start against Portland State.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "True freshman offensive lineman Immanuel Iheanacho appeared in each of Oregon's first three games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "low"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Freshman defensive back Jett Washington generated three turnovers against Portland State with two interceptions and one forced fumble.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman defensive back Davon Benjamin recorded his first career interception against Portland State.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Against Boise State, edge defenders Teitum Tuioti and Matayo Uiagalelei and defensive lineman Bear Alexander combined for 22 tackles, 4.5 tackles for loss and three sacks.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer defensive back Koi Perich recorded a team-high 11 tackles in his Oregon debut against Boise State.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Drew Mehringer became Oregon's primary offensive coordinator and play caller in 2026 after serving as a co-coordinator in 2025; he coaches from the booth.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Chris Hampton became Oregon's primary defensive coordinator in 2026 after serving as a co-coordinator in 2025.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mehringer replaced Will Stein, who became Kentucky's head coach, while Hampton replaced Tosh Lupoi, who became California's head coach.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon promoted Kam Araghi to edge coach and Koa Ka'ai to quarterbacks coach for 2026.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Wide receiver Jeremiah McClellan missed the Portland State game because of an injury sustained during pregame warm-ups.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Jamari Johnson missed Oregon's second and third games due to injury.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Evan Stewart returned in 2026 after missing the entire 2025 season due to injury and played in each of Oregon's first three games.",
+            "page": 15,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through three games, Oregon averaged 49.7 points, 340.0 passing yards and 506.0 total yards per game.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon scored on all 14 of its red-zone possessions through three games and scored touchdowns on 13 of them.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon had thrown 12 touchdown passes and no interceptions through three games.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon produced 21 plays of at least 20 yards through its first three games.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Twelve different Oregon offensive players scored touchdowns during the first three games: eight receivers and four rushers.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Oregon recorded its third shutout under head coach Dan Lanning by holding Portland State scoreless.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon allowed fewer than 300 total yards in both of its wins and more than 400 total yards in its loss through three games.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon held opponents below 100 rushing yards in both of its wins but allowed at least 200 rushing yards in its loss through three games.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Gage Hurych made two field goals against Boise State in his first game as Oregon's primary place kicker.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Oregon was 2-1 through three games, with wins over Boise State and Portland State and a road loss to Oklahoma State.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon's 39-31 loss at Oklahoma State snapped a 12-game road winning streak.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Oregon.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Oregon rushing offense vs Nebraska rush defense",
+        "off_team": "Oregon",
+        "def_team": "Nebraska",
+        "off_rank": 65,
+        "def_rank": 98,
+        "stat": "rush EPA",
+        "rank_gap": 33,
+        "direction": "mixed",
+        "matchup_score": 33
+      },
+      {
+        "dimension": "Nebraska rushing offense vs Oregon rush defense",
+        "off_team": "Nebraska",
+        "def_team": "Oregon",
+        "off_rank": 6,
+        "def_rank": 30,
+        "stat": "rush EPA",
+        "rank_gap": 24,
+        "direction": "mixed",
+        "matchup_score": 24
+      },
+      {
+        "dimension": "Nebraska scoring-opportunity creation vs Oregon scoring-opportunity prevention",
+        "off_team": "Nebraska",
+        "def_team": "Oregon",
+        "off_rank": 33,
+        "def_rank": 15,
+        "stat": "Eckel rate",
+        "rank_gap": 18,
+        "direction": "mixed",
+        "matchup_score": 18
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Oregon defeated Portland State 84-0 in its most recent game, improving to 2-1.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Through three games, Dante Moore had completed 61 of 89 passes for 849 yards, nine touchdowns and no interceptions.",
+        "page": 14,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Oregon scored on all 14 of its red-zone possessions through three games and scored touchdowns on 13 of them.",
+        "page": 12,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      },
+      {
+        "fact_id": 36,
+        "fact": "Oregon held opponents below 100 rushing yards in both of its wins but allowed at least 200 rushing yards in its loss through three games.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Nebraska Cornhuskers",
+      "model_side": "Nebraska",
+      "opponent_full": "Oregon Ducks",
+      "opponent": "Oregon",
+      "model_prediction": 7.0,
+      "market_line": 7.0,
+      "best_available_line": 6.5,
+      "best_available_price": "110",
+      "cover_probability": 0.50409995,
+      "edge": 0.0279094738095238,
+      "bet_status": "PASS"
+    }
+  }
+}

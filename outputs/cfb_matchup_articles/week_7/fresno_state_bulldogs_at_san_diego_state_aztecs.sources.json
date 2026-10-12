@@ -1,0 +1,402 @@
+{
+  "game": "Fresno State Bulldogs@San Diego State Aztecs",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:46:44.760112+00:00",
+  "model_prediction": 5.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.57556814,
+  "edge": 0.0563373707692307,
+  "bet_short": "San Diego State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We understand why the market is leaning heavily on Fresno State\u2019s recent form. Fresno State has averaged 430 yards and 34.8 points during its four-game winning streak while committing only three turnovers and forcing 11. That is meaningful context, but our view is that the path to creating consistent scoring opportunities becomes more difficult against a San Diego State defense that rates substantially better in prevention than Fresno State does in creation.\n\nThe concern for us is the other side of the ball. Fresno State\u2019s last four opponents combined for only four red-zone possessions, and its pass defense produced seven interceptions over that span. San Diego State\u2019s passing profile is poorly positioned to attack that strength, so we are not building the case around a productive night from its offense.\n\nFor us, the wager is instead about the market asking Fresno State to create more separation than our overall matchup profile supports. San Diego State\u2019s defense gives it a credible way to keep the game compressed, even if its offense has trouble sustaining drives. That defensive resistance is the main reason our expectation differs from the market.",
+    "matchup_to_watch": "We will be watching Fresno State\u2019s offense against San Diego State\u2019s scoring-opportunity prevention. Jayden Mandal has gone 122 consecutive attempts without an interception, and Fresno State has protected him well enough to allow only two sacks during its winning streak. If Fresno State maintains that efficiency and repeatedly creates short-field scoring chances, San Diego State will struggle to stay within range.\n\nOur numbers, however, point to a more demanding matchup than Fresno State\u2019s recent production might suggest. We think San Diego State\u2019s ability to limit quality possessions\u2014not its ability to trade scores\u2014is the most important part of the case.",
+    "guide_status": [
+      "Found guide for Fresno State Bulldogs: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Fresno State.pdf",
+      "Guide for Fresno State Bulldogs was found but may not match the current opponent. The guide is Fresno State's Game 6 notes for the October 10, 2026 home game against Boise State. Fresno State's game at San Diego State is listed as the following contest on October 17, 2026.",
+      "No guide found for San Diego State Aztecs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Diego State.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Fresno State Bulldogs",
+        "opponent": "San Diego State Aztecs",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Fresno State's Game 6 notes for the October 10, 2026 home game against Boise State. Fresno State's game at San Diego State is listed as the following contest on October 17, 2026.",
+        "recent_game": [
+          {
+            "fact": "Fresno State improved to 4-1 overall and 1-0 in Pac-12 play with a 26-6 road win over Washington State on October 3.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State held Washington State to 182 total yards, 30 rushing yards, nine first downs and no touchdowns; the Cougars averaged 2.7 yards per play and converted 3 of 13 third downs.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State possessed the ball for a season-high 35:59 at Washington State.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fresno State recorded five sacks at Washington State.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Jayden Mandal is listed as Fresno State's starting quarterback, with Khristian Martin as the backup.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Mandal has completed 91 of 137 passes for 1,034 yards, six touchdowns and one interception through five games.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "During Fresno State's four-game winning streak, Mandal completed 84 of 122 passes for 957 yards and six touchdowns without an interception.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Mandal has attempted 122 consecutive passes without an interception and has added 128 rushing yards and one touchdown during the four-game winning streak.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Fresno State's listed starting skill personnel are running back Rayshon Luke, receivers Josiah Freeman, Jahlil McClain and Ezekiel Avit, and tight end Jake Appleget.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Luke leads Fresno State with 286 rushing yards on 42 carries, while Bryson Donelson has 206 yards and four touchdowns on 48 carries.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freeman has 25 receptions for 322 yards and two receiving touchdowns, and Avit has 13 catches for 234 yards and two touchdowns.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Luke and Donelson have combined for 492 rushing yards and five touchdowns on 90 carries, accounting for 64 percent of Fresno State's rushing production.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker K'vion Thunderbird leads Fresno State with 39 tackles, 14 more than any other Bulldog.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive lineman Dylan Hampsten leads Fresno State with 5.5 tackles for loss and 2.5 sacks and has recorded a tackle for loss in every game.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simeon Harris has three interceptions, Ethan Tierney has two, and Kiontre Harris and Justin Johnson have one each.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Justin Johnson recorded his first career interception at Washington State and returned it 15 yards.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Fresno State is in its second season under head coach Matt Entz and retained its entire defensive staff for 2026.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Josh Davis is the offensive coordinator and quarterbacks coach, Nick Benedetto is the defensive coordinator and safeties coach, and Brian Ferentz coaches the offensive line.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "The notes state that right guard Jonah Leaupepetele missed the Sacramento State game with an injury; he is listed as the starting right guard on the current two-deep.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Fresno State has averaged 430.0 total yards, 34.8 points and 6.4 yards per play during its four-game winning streak.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "During the winning streak, Fresno State has averaged 182.5 rushing yards and 247.5 passing yards per game.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State has committed three turnovers while forcing 11 and has not thrown an interception in four consecutive games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State has won the time-of-possession battle in each of its four victories, averaging approximately 33:26 of possession during the winning streak.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fresno State has outscored opponents 81-26 after halftime and holds a 38-5 third-quarter scoring advantage through five games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Since allowing 552 yards and 39 points in the opener at USC, Fresno State has limited its last four opponents to 310.5 yards and 10.8 points per game.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State's last four opponents completed 65 of 120 passes for 665 yards, two touchdowns and seven interceptions.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State has 14 sacks through five games, including 13 over its last four contests.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State has forced at least one turnover in every game and has 11 takeaways through five games.",
+            "page": 11,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have reached Fresno State's red zone only 10 times through five games, with the last four opponents combining for four red-zone possessions.",
+            "page": 11,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Outside of Rice's 344 rushing yards, Fresno State's other four opponents averaged 93.3 rushing yards per game.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Manaki Watanabe has made 11 of 13 field-goal attempts in four appearances and leads the nation with 2.75 made field goals per game.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Watanabe is 3-for-3 on field goals of at least 50 yards and made four field goals while scoring 14 points at Washington State.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Nick Verdugo has averaged 42.6 yards on 17 punts and placed 10 inside the opponent's 20 without a touchback.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fresno State has placed 12 of 21 punts inside the opponent's 20 without a touchback and has allowed 5.7 yards per punt return and 14.0 yards per kickoff return.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Fresno State is scheduled to play at San Diego State on October 17, 2026, at 7:30 p.m. PT.",
+            "page": 18,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "San Diego State was 2-3 overall and 1-0 in Pac-12 play when these notes were issued.",
+            "page": 15,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fresno State's current listed offensive line is left tackle Brayden Walton, left guard Marquise Thorpe-Taylor, center Oscar Weigel, right guard Jonah Leaupepetele and right tackle Rolan Fullwood.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Fresno State has allowed seven sacks through five games, including only two over its four-game winning streak.",
+            "page": 14,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Oscar Weigel, Jonah Leaupepetele and Marquise Thorpe-Taylor made their first Fresno State starts on the offensive line in the season opener; Gino Quinones made his first Bulldog start against Sacramento State, and Ben Baker made his first start at center against Rice.",
+            "page": 12,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Fresno State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "San Diego State passing offense vs Fresno State pass defense",
+        "off_team": "San Diego State",
+        "def_team": "Fresno State",
+        "off_rank": 138,
+        "def_rank": 12,
+        "stat": "pass EPA",
+        "rank_gap": 126,
+        "direction": "defense_advantage",
+        "matchup_score": 226
+      },
+      {
+        "dimension": "San Diego State scoring-opportunity creation vs Fresno State scoring-opportunity prevention",
+        "off_team": "San Diego State",
+        "def_team": "Fresno State",
+        "off_rank": 92,
+        "def_rank": 3,
+        "stat": "Eckel rate",
+        "rank_gap": 89,
+        "direction": "defense_advantage",
+        "matchup_score": 189
+      },
+      {
+        "dimension": "Fresno State scoring-opportunity creation vs San Diego State scoring-opportunity prevention",
+        "off_team": "Fresno State",
+        "def_team": "San Diego State",
+        "off_rank": 89,
+        "def_rank": 31,
+        "stat": "Eckel rate",
+        "rank_gap": 58,
+        "direction": "defense_advantage",
+        "matchup_score": 158
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 7,
+        "fact": "During Fresno State's four-game winning streak, Mandal completed 84 of 122 passes for 957 yards and six touchdowns without an interception.",
+        "page": 14,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Fresno State.pdf",
+        "source_team": "Fresno State Bulldogs"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Mandal has attempted 122 consecutive passes without an interception and has added 128 rushing yards and one touchdown during the four-game winning streak.",
+        "page": 14,
+        "category": "quarterback",
+        "importance": "medium",
+        "source_file": "Fresno State.pdf",
+        "source_team": "Fresno State Bulldogs"
+      },
+      {
+        "fact_id": 20,
+        "fact": "Fresno State has averaged 430.0 total yards, 34.8 points and 6.4 yards per play during its four-game winning streak.",
+        "page": 14,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Fresno State.pdf",
+        "source_team": "Fresno State Bulldogs"
+      },
+      {
+        "fact_id": 22,
+        "fact": "Fresno State has committed three turnovers while forcing 11 and has not thrown an interception in four consecutive games.",
+        "page": 11,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Fresno State.pdf",
+        "source_team": "Fresno State Bulldogs"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Fresno State's last four opponents completed 65 of 120 passes for 665 yards, two touchdowns and seven interceptions.",
+        "page": 15,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Fresno State.pdf",
+        "source_team": "Fresno State Bulldogs"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Opponents have reached Fresno State's red zone only 10 times through five games, with the last four opponents combining for four red-zone possessions.",
+        "page": 11,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Fresno State.pdf",
+        "source_team": "Fresno State Bulldogs"
+      },
+      {
+        "fact_id": 38,
+        "fact": "Fresno State has allowed seven sacks through five games, including only two over its four-game winning streak.",
+        "page": 14,
+        "category": "other_relevant",
+        "importance": "high",
+        "source_file": "Fresno State.pdf",
+        "source_team": "Fresno State Bulldogs"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "San Diego State Aztecs",
+      "model_side": "San Diego State",
+      "opponent_full": "Fresno State Bulldogs",
+      "opponent": "Fresno State",
+      "model_prediction": 5.0,
+      "market_line": 7.5,
+      "best_available_line": 7.5,
+      "best_available_price": "-108",
+      "cover_probability": 0.57556814,
+      "edge": 0.0563373707692307,
+      "bet_status": "BET"
+    }
+  }
+}

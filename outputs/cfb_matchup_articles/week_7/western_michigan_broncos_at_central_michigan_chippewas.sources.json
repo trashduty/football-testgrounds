@@ -1,0 +1,411 @@
+{
+  "game": "Western Michigan Broncos@Central Michigan Chippewas",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:10:57.684742+00:00",
+  "model_prediction": 4.5,
+  "market_line": 7.0,
+  "best_line": 6.5,
+  "best_price": "105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.55143316,
+  "edge": 0.0636282819512195,
+  "bet_short": "Central Michigan",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case is less about Central Michigan controlling this matchup and more about whether Western Michigan can create the separation the market expects. Western Michigan averaged 297.8 yards through four games, while Broc Lowry threw for 527 yards and rushed for 116. That gives the offense multiple ways to move the ball, but not a profile we automatically trust to pull away. The 223-yard performance against Boise State, including a 2-of-11 mark on third down and three failed fourth-down attempts, is context rather than proof, but it shows how quickly drives can stall.\n\nThe meaningful concern is Western Michigan's ability to generate scoring opportunities against a Central Michigan defense that our numbers rate poorly in that area. Western Michigan also scored on 11 of its first 12 red-zone trips, with nine touchdowns. On the other side, Central Michigan's offense faces the stronger unit in this matchup, particularly against the pass. Still, Western Michigan allowed opponents to convert 46.3 percent of their third downs, giving Central Michigan a credible path to sustain enough possessions. We do not need Central Michigan to own the matchup; our view is that the market is pricing too much confidence in Western Michigan turning its advantages into a comfortable margin.",
+    "matchup_to_watch": "We are watching Central Michigan's offense against Western Michigan's scoring-opportunity prevention. Our matchup numbers clearly favor Western Michigan here, so Central Michigan cannot afford repeated empty possessions. The useful counterpoint is that Western Michigan has had trouble ending drives on third down, and opponents scored on nine of 12 red-zone trips. If Central Michigan can extend drives and convert its limited scoring chances, that would directly support our position.",
+    "guide_status": [
+      "Found guide for Western Michigan Broncos: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Michigan.pdf",
+      "Guide for Western Michigan Broncos was found but may not match the current opponent. The guide is Western Michigan's Week 5 notes for the Oct. 3, 2026 game at Buffalo, not the Week 7 game at Central Michigan. It lists the Central Michigan game for Oct. 17 but provides no current scouting report on the Chippewas.",
+      "No guide found for Central Michigan Chippewas. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Central Michigan.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Western Michigan Broncos",
+        "opponent": "Central Michigan Chippewas",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Western Michigan's Week 5 notes for the Oct. 3, 2026 game at Buffalo, not the Week 7 game at Central Michigan. It lists the Central Michigan game for Oct. 17 but provides no current scouting report on the Chippewas.",
+        "recent_game": [
+          {
+            "fact": "Western Michigan lost 32-7 to Boise State on Sept. 26, falling to 2-2.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Boise State, Western Michigan produced 223 total yards: 113 rushing and 110 passing.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan converted 2 of 11 third downs and 0 of 3 fourth downs against Boise State.",
+            "page": 28,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Boise State gained 377 yards against Western Michigan, including 173 rushing and 204 passing, and scored three passing touchdowns.",
+            "page": 17,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan recorded no sacks or takeaways against Boise State.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Joshua Franklin made a career-high 10 tackles and linebacker Brenden Anes made a career-high eight tackles against Boise State.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running backs Jalen Buckley and Lolo Mataele combined for six receptions against Boise State, while Cole Cabana scored his first collegiate touchdown.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Broc Lowry completed 58 of 89 passes for 527 yards, four touchdowns and one interception through four games.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lowry also rushed 42 times for 116 yards and one touchdown through four games.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Trey Petty appeared in two games, completing 4 of 6 passes for 54 yards and one touchdown while rushing six times for 71 yards.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Western Michigan started the same offensive line in each of its first four games: Chad Schuster at left tackle, Hunter Whitenack at left guard, Spencer Beckeman at center, Gavin Dabo at right guard and Ben Roebuck at right tackle.",
+            "page": 27,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jalen Buckley led Western Michigan through four games with 225 rushing yards and four touchdowns on 47 carries.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lolo Mataele rushed 24 times for 125 yards and one touchdown, averaging 5.2 yards per carry through four games.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aveion Chenault led Western Michigan with 216 receiving yards and one touchdown on 13 catches despite appearing in three of the first four games.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylin Brooks had 12 receptions for 97 yards and a team-high two receiving touchdowns through four games.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan's 2026 roster includes 29 college or junior-college transfers.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "low"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Junior-college transfer Justyce Betts led Western Michigan with 26 tackles through four games.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebackers Dillon Moore, Domanick Moon and Brenden Anes had 25, 23 and 20 tackles, respectively, through four games.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dillon Moore recorded Western Michigan's only interception through four games.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Returning cornerbacks Joshua Franklin and Jarvarius Sims combined for 24 starts in 2025; Franklin had 10 pass breakups and Sims had four.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan returned only four defensive players who started at least seven games in 2025: Joshua Franklin, Joey Pope, Jarvarius Sims and Micah Davis, all defensive backs.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Western Michigan added Duane Vaughn as outside linebackers coach and co-defensive coordinator for 2026.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan added Lorenzo Jackson as defensive line coach and Casey McHugh as safeties coach for 2026.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Walt Bell is Western Michigan's offensive coordinator and quarterbacks coach, while Greer Martini is defensive coordinator and linebackers coach.",
+            "page": 10,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Western Michigan averaged 24.0 points and 297.8 total yards per game, including 152.5 rushing and 145.3 passing yards.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan had seven rushing touchdowns and five passing touchdowns through four games.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Broncos converted 21 of 52 third downs, a 40 percent rate, but only 2 of 7 fourth downs through four games.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan scored on 11 of 12 red-zone trips, including nine touchdowns.",
+            "page": 30,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan's offense allowed six sacks through four games.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Western Michigan allowed 20.0 points and 353.5 total yards per game through four games, including 161.5 rushing and 192.0 passing yards per game.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Broncos recorded three sacks and forced five turnovers through four games, recovering four fumbles and making one interception.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 25 of 54 third downs against Western Michigan, a 46.3 percent rate.",
+            "page": 28,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan allowed opponents to score on 9 of 12 red-zone trips, including eight touchdowns.",
+            "page": 30,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Dieter Kelly made 4 of 5 field-goal attempts through four games, including a 52-yarder, and converted all 12 extra points.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Ryan Millmore averaged 43.8 yards on 18 punts, with eight placed inside the 20 and six traveling at least 50 yards.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kordell Gouldsby averaged 14.0 yards on six punt returns and had a season-long return of 76 yards.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Western Michigan's Oct. 17 game at Central Michigan is the Battle for the Victory Cannon and will be played in Mount Pleasant on a Saturday for the first time since 2018.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Western Michigan entered October at 2-2, with wins over Monmouth and Rice and losses to Michigan and Boise State.",
+            "page": 12,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan returned six offensive players and four defensive players who started at least seven games in 2025.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Western Michigan.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Central Michigan scoring-opportunity creation vs Western Michigan scoring-opportunity prevention",
+        "off_team": "Central Michigan",
+        "def_team": "Western Michigan",
+        "off_rank": 135,
+        "def_rank": 13,
+        "stat": "Eckel rate",
+        "rank_gap": 122,
+        "direction": "defense_advantage",
+        "matchup_score": 222
+      },
+      {
+        "dimension": "Western Michigan scoring-opportunity creation vs Central Michigan scoring-opportunity prevention",
+        "off_team": "Western Michigan",
+        "def_team": "Central Michigan",
+        "off_rank": 8,
+        "def_rank": 85,
+        "stat": "Eckel rate",
+        "rank_gap": 77,
+        "direction": "offense_advantage",
+        "matchup_score": 177
+      },
+      {
+        "dimension": "Central Michigan passing offense vs Western Michigan pass defense",
+        "off_team": "Central Michigan",
+        "def_team": "Western Michigan",
+        "off_rank": 98,
+        "def_rank": 28,
+        "stat": "pass EPA",
+        "rank_gap": 70,
+        "direction": "defense_advantage",
+        "matchup_score": 170
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Against Boise State, Western Michigan produced 223 total yards: 113 rushing and 110 passing.",
+        "page": 16,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Western Michigan converted 2 of 11 third downs and 0 of 3 fourth downs against Boise State.",
+        "page": 28,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Starting quarterback Broc Lowry completed 58 of 89 passes for 527 yards, four touchdowns and one interception through four games.",
+        "page": 20,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 9,
+        "fact": "Lowry also rushed 42 times for 116 yards and one touchdown through four games.",
+        "page": 20,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 25,
+        "fact": "Through four games, Western Michigan averaged 24.0 points and 297.8 total yards per game, including 152.5 rushing and 145.3 passing yards.",
+        "page": 13,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Western Michigan scored on 11 of 12 red-zone trips, including nine touchdowns.",
+        "page": 30,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Opponents converted 25 of 54 third downs against Western Michigan, a 46.3 percent rate.",
+        "page": 28,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 33,
+        "fact": "Western Michigan allowed opponents to score on 9 of 12 red-zone trips, including eight touchdowns.",
+        "page": 30,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Central Michigan Chippewas",
+      "model_side": "Central Michigan",
+      "opponent_full": "Western Michigan Broncos",
+      "opponent": "Western Michigan",
+      "model_prediction": 4.5,
+      "market_line": 7.0,
+      "best_available_line": 6.5,
+      "best_available_price": "105",
+      "cover_probability": 0.55143316,
+      "edge": 0.0636282819512195,
+      "bet_status": "BET"
+    }
+  }
+}

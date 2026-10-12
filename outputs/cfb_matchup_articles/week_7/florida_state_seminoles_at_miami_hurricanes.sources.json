@@ -1,0 +1,312 @@
+{
+  "game": "Florida State Seminoles@Miami Hurricanes",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:45:54.624002+00:00",
+  "model_prediction": 18.5,
+  "market_line": 21.0,
+  "best_line": 20.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.54317424,
+  "edge": 0.04317424,
+  "bet_short": "Florida State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Miami\u2019s early production explains why the market is comfortable pricing a wide gap. Darian Mensah threw 14 touchdown passes without an interception through four games, while Miami allowed only 9.0 points per game over that stretch. We are not dismissing that dominance. Our concern is that the price asks Miami to convert it into another substantial margin, and our longer-run numbers do not separate these teams quite that aggressively.\n\nFor us, the case for Florida State is less about finding a clear matchup advantage and more about how much of Miami\u2019s performance is already reflected in the market. Miami replaced four starting offensive linemen from 2025, although the new starting five remained intact through the first four games. There is also some backfield uncertainty: Mark Fletcher Jr. and CharMar Brown missed the Central Michigan game, and the guide provided no timetable for either return. The meaningful concern is Florida State\u2019s defense against an offense capable of attacking both through the air and on the ground, but we think the market has stretched that concern far enough to support our position.",
+    "matchup_to_watch": "We are watching Miami\u2019s rushing offense against Florida State\u2019s rush defense. Our matchup numbers identify this as Miami\u2019s clearest advantage, and Miami\u2019s early defensive dominance could give its offense repeated chances to lean on that edge. If Miami runs efficiently without needing Mensah to carry the offense, sustained separation becomes much more plausible. Florida State\u2019s ability to limit that rushing efficiency is therefore central to our case.",
+    "guide_status": [
+      "No guide found for Florida State Seminoles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida State.pdf",
+      "Found guide for Miami Hurricanes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami.pdf",
+      "Guide for Miami Hurricanes was found but may not match the current opponent. The document is Miami's Game 5 notes for its Oct. 3, 2026 road game at Clemson. Florida State is listed as Miami's next scheduled game on Oct. 17, but the guide contains no Florida State matchup preview or scouting notes."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Miami Hurricanes",
+        "opponent": "Florida State Seminoles",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Miami's Game 5 notes for its Oct. 3, 2026 road game at Clemson. Florida State is listed as Miami's next scheduled game on Oct. 17, but the guide contains no Florida State matchup preview or scouting notes.",
+        "recent_game": [
+          {
+            "fact": "Miami improved to 4-0 with a 52-3 home win over Central Michigan on Sept. 26, 2026.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami outgained Central Michigan 572-158, including 201-21 rushing, and averaged 8.4 yards per play while allowing 3.1.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Central Michigan, Miami scored on six consecutive possessions after its opening drive and finished 7-for-7 on red-zone scoring opportunities.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami forced three turnovers against Central Michigan; defensive end Marquise Lightfoot recorded 2.5 tackles for loss, two sacks and a forced fumble, and defensive back Brody Jennings made his first career interception.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Miami's schedule lists a home game against Florida State on Oct. 17, 2026, with the kickoff time and television assignment to be announced.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Transfer quarterback Darian Mensah started each of Miami's first four games after joining the program from Duke in January 2026.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Mensah completed 23 of 27 passes for 338 yards and three touchdowns against Central Michigan before leaving in the third quarter with Miami holding a large lead.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Mensah had thrown 14 touchdown passes without an interception and completed 94 of 106 attempts for 1,211 yards.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Mensah had thrown at least one touchdown pass in 22 consecutive games and had an FBS-leading 24 multi-touchdown games since the start of 2024.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Freshman running back Javian Mallory made his first collegiate start against Central Michigan while Mark Fletcher Jr. and CharMar Brown were out; Mallory scored on a 4-yard run.",
+            "page": 22,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Chris Wheatley-Humphrey produced his first 100-yard game for Miami against Central Michigan, rushing for 104 yards and one touchdown on 11 carries.",
+            "page": 22,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Malachi Toney had six catches for 120 yards and one touchdown against Central Michigan, his third 100-yard receiving game of the season.",
+            "page": 22,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami's offensive line started Samson Okunlola at left tackle, SJ Alofaituli at left guard, Ryan Rodriguez at center, Max Buchanan at right guard and Matthew McCoy at right tackle in each of the first four games.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Four of Miami's five starting offensive linemen from 2025 departed for the NFL; Francis Mauigoa, Markel Bell and Anez Cooper were drafted.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Miami returned national-championship-game interior defensive line starters Ahmad Moten Sr. and Justin Scott after edge defenders Rueben Bain Jr. and Akheem Mesidor were selected in the first round of the 2026 NFL Draft.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami added edge defender Damon Wilson II from Missouri after he started all 13 games and recorded nine sacks in 2025.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Mohamed Toure started all 16 games for Miami in 2025 and led the defense with 84 tackles.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Miami's 2026 coordinators are Shannon Dawson on offense and Corey Hetherman on defense, with Jason Taylor serving as co-defensive coordinator and defensive line coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running backs Mark Fletcher Jr. and CharMar Brown and wide receiver Joshua Moore were out for the Sept. 26 game against Central Michigan; the guide gives no timetable for their returns.",
+            "page": 22,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Miami averaged 51.8 points, 588.8 total yards, 361.3 passing yards and 227.5 rushing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami had 10 players with at least 100 scrimmage yards through four games, the most in the FBS.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami recorded 83 plays of at least 10 yards, 29 plays of at least 20 yards and 16 plays of at least 30 yards through four games.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Miami allowed 224.5 total yards and 9.0 points per game.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami led the FBS in rushing defense at 39.5 yards allowed per game and had not allowed a rushing touchdown through four games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami held each of its first four opponents to 80 or fewer rushing yards.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [],
+        "series_context": [
+          {
+            "fact": "Miami leads the all-time series against Florida State 37-33.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami won the two most recent listed meetings with Florida State: 36-14 at home in 2024 and 28-22 at Florida State in 2025.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [],
+        "source_file": "Miami.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Miami rushing offense vs Florida State rush defense",
+        "off_team": "Miami",
+        "def_team": "Florida State",
+        "off_rank": 30,
+        "def_rank": 122,
+        "stat": "rush EPA",
+        "rank_gap": 92,
+        "direction": "offense_advantage",
+        "matchup_score": 192
+      },
+      {
+        "dimension": "Miami passing offense vs Florida State pass defense",
+        "off_team": "Miami",
+        "def_team": "Florida State",
+        "off_rank": 1,
+        "def_rank": 70,
+        "stat": "pass EPA",
+        "rank_gap": 69,
+        "direction": "mixed",
+        "matchup_score": 69
+      },
+      {
+        "dimension": "Miami scoring-opportunity creation vs Florida State scoring-opportunity prevention",
+        "off_team": "Miami",
+        "def_team": "Florida State",
+        "off_rank": 14,
+        "def_rank": 50,
+        "stat": "Eckel rate",
+        "rank_gap": 36,
+        "direction": "mixed",
+        "matchup_score": 36
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Mensah had thrown 14 touchdown passes without an interception and completed 94 of 106 attempts for 1,211 yards.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 12,
+        "fact": "Miami's offensive line started Samson Okunlola at left tackle, SJ Alofaituli at left guard, Ryan Rodriguez at center, Max Buchanan at right guard and Matthew McCoy at right tackle in each of the first four games.",
+        "page": 18,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 13,
+        "fact": "Four of Miami's five starting offensive linemen from 2025 departed for the NFL; Francis Mauigoa, Markel Bell and Anez Cooper were drafted.",
+        "page": 11,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 18,
+        "fact": "Running backs Mark Fletcher Jr. and CharMar Brown and wide receiver Joshua Moore were out for the Sept. 26 game against Central Michigan; the guide gives no timetable for their returns.",
+        "page": 22,
+        "category": "injury_availability",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 22,
+        "fact": "Through four games, Miami allowed 224.5 total yards and 9.0 points per game.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Florida State Seminoles",
+      "model_side": "Florida State",
+      "opponent_full": "Miami Hurricanes",
+      "opponent": "Miami",
+      "model_prediction": 18.5,
+      "market_line": 21.0,
+      "best_available_line": 20.5,
+      "best_available_price": "100",
+      "cover_probability": 0.54317424,
+      "edge": 0.04317424,
+      "bet_status": "BET"
+    }
+  }
+}

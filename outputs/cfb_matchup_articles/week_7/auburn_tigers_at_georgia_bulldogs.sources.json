@@ -1,0 +1,813 @@
+{
+  "game": "Auburn Tigers@Georgia Bulldogs",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:38:27.202532+00:00",
+  "model_prediction": -20.0,
+  "market_line": -19.5,
+  "best_line": -19.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.49660603,
+  "edge": -0.0155890919512195,
+  "bet_short": "Georgia",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, Georgia\u2019s clearest advantage is its ability to keep Auburn from turning drives into points. Our matchup numbers rate Georgia among the strongest teams at preventing scoring opportunities, and the defense has allowed just 13.4 points and 57.4 rushing yards per game without surrendering a run longer than 19 yards. Byrum Brown\u2019s mobility gives Auburn another way to move the ball\u2014he rushed for 237 yards through four games\u2014but the passing matchup is much less favorable against Georgia\u2019s defense.\n\nThe counterweight is Auburn\u2019s ability to disrupt possessions and limit scoring opportunities. Auburn produced 29 tackles for loss and 11 sacks through four games while intercepting a pass in every game. That matters against a large favorite because negative plays and empty possessions can prevent separation. Georgia still has an efficient answer in Gunner Stockton, who entered with 13 touchdown passes against one interception, and an offense that had scored touchdowns on 24 of 28 red-zone trips. We see reasons for Georgia to control the game, but our slight difference with the market is not meaningful enough at the available price, so we remain comfortable passing.",
+    "matchup_to_watch": "We are watching Georgia\u2019s offensive line against Auburn\u2019s pressure players. Georgia used the same starting five in each of its first five games and allowed only five sacks, while Auburn linebackers Xavier Atkins and Elijah Melendez combined for 13 tackles for loss and five sacks through four games.\n\nIf Georgia keeps Stockton clean, its efficiency can turn sustained drives into separation. If Auburn creates early-down losses and forces longer passing situations, it has a credible path to shorten possessions and keep the margin near the market\u2019s expectation. That trench battle is the most important reason we do not see enough separation between our view and the current price.",
+    "guide_status": [
+      "Found guide for Auburn Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Auburn.pdf",
+      "Guide for Auburn Tigers was found but may not match the current opponent. The guide is explicitly for Auburn's Game 5 matchup at Tennessee on October 3, 2026. Georgia is listed only as Auburn's next game after a bye, scheduled for October 17 in Athens.",
+      "Found guide for Georgia Bulldogs: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia.pdf",
+      "Guide for Georgia Bulldogs was found but may not match the current opponent. The guide is intended for Georgia's Oct. 10, 2026 road game against Alabama, not the Oct. 17 home game against Auburn. The schedule confirms Auburn is Georgia's following opponent."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Auburn Tigers",
+        "opponent": "Georgia Bulldogs",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly for Auburn's Game 5 matchup at Tennessee on October 3, 2026. Georgia is listed only as Auburn's next game after a bye, scheduled for October 17 in Athens.",
+        "recent_game": [
+          {
+            "fact": "Auburn defeated Vanderbilt 21-15 on September 26, improving to 3-1 overall and 1-1 in SEC play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn gained 279 yards against Vanderbilt, including 139 rushing and 140 passing.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Auburn held Vanderbilt to 311 total yards, recorded eight tackles for loss and four sacks, and intercepted one pass.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn ran out the final 6:26 against Vanderbilt with an 11-play, 46-yard drive.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Auburn is scheduled to play Georgia on October 17, 2026, at Sanford Stadium in Athens after an open week.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time of this guide, Georgia was ranked No. 2 in both polls and was 4-0 overall and 2-0 in SEC play.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Byrum Brown had completed 82 of 126 passes for 896 yards, six touchdowns and five interceptions through four games while rushing for 237 yards and three touchdowns.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown accounted for one passing touchdown and one rushing touchdown against Vanderbilt.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown had 103 career touchdowns responsible for: 67 passing, 34 rushing and two receiving.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brown had started 36 career games, the most among active SEC quarterbacks listed in the guide.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brown and center Cole Best had started 18 games together from 2024-26.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Auburn's starting offensive line against Vanderbilt was Jacob Strand at left tackle, Wilson Zierer at left guard, Cole Best at center, Kenneth McManus IV at right guard and Stanton Ramil at right tackle.",
+            "page": 25,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The listed offensive-line depth chart had Jo Simmons or Jacob Strand at left tackle, Strand or Wilson Zierer at left guard, Cole Best at center, Cole Skinner or Kenneth McManus IV at right guard and Stanton Ramil at right tackle.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "USF transfers Chas Nimrod and Keshaun Singleton each had 22 receptions through four games; Singleton had 268 yards and one touchdown, while Nimrod had 240 yards and two touchdowns.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeremiah Cobb led the listed running-back depth chart, followed by Omar Mabson II, Bryson Washington and Nykhai Davenport.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cobb had rushed 41 times for 228 yards and two touchdowns through four games, while Mabson had 151 yards and one touchdown on 23 carries.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Xavier Atkins had 26 tackles, seven tackles for loss and three sacks through four games.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Atkins recorded a season-high three tackles for loss against Vanderbilt and had multiple tackles for loss in three of Auburn's first four games.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Elijah Melendez led Auburn with 34 tackles through four games and also had six tackles for loss and two sacks.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Eric Winters had 22 tackles and two tackles for loss through four games, while safety Kaleb Harris had 25 tackles.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Andre Jordan Jr. had two interceptions through four games, including one returned for a touchdown.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Alex Golesh was in his first season as Auburn's head coach and had a 3-1 record through four games.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Joel Gordon served as offensive coordinator and quarterbacks coach, while DJ Durkin served as defensive coordinator and linebackers coach and Tim Banks served as co-defensive coordinator and safeties coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Gordon and Brown had worked together for the previous four seasons, and Golesh, Gordon and Brown were together for a fourth consecutive year in 2026.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tyler Hudanick was Auburn's run game coordinator and offensive line coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Auburn averaged 413.5 total yards, 235.0 passing yards, 178.5 rushing yards and 30.0 points per game.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn converted 30 of 60 third downs through four games, a 50 percent rate.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn rushed for 491 yards at 5.22 yards per carry in second halves through four games, compared with 223 yards at 3.72 per carry in first halves.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn had 44 explosive plays as defined by the guide through four games: 22 passes of at least 15 yards and 22 runs of at least 12 yards.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Auburn allowed 20.8 points, 365.8 total yards, 238.8 passing yards and 127.0 rushing yards per game through four games.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn had 29 tackles for loss and 11 sacks through four games.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn intercepted a pass in each of its first four games and had five interceptions overall.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In 28 games under defensive coordinator DJ Durkin, Auburn had allowed 21.0 points and 111.2 rushing yards per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Against Vanderbilt, Auburn stopped a fake punt, blocked a punt for a touchdown and blocked a field-goal attempt.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Omar Mabson II blocked Vanderbilt's punt and Cade Carlson returned it 10 yards for a touchdown.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Alex McPherson was 4-for-6 on field goals and 14-for-14 on extra points through four games, with a long field goal of 55 yards.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "McPherson was 44-for-51 on career field goals and 101-for-101 on career extra points.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Georgia leads the Auburn-Georgia series 66-56-8.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Auburn-Georgia series is tied 18-18 in games played in Athens.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Auburn's most recent road win over Georgia was in 2005.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The Georgia game is part of a four-game Auburn stretch against teams ranked in the top 20 at the time of this guide: Tennessee, Georgia, LSU and Ole Miss.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "The 2026 season is the first in Auburn history in which the Tigers play road games at Tennessee, Georgia and Alabama in the same season.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Auburn.pdf"
+      },
+      {
+        "source_team": "Georgia Bulldogs",
+        "opponent": "Auburn Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is intended for Georgia's Oct. 10, 2026 road game against Alabama, not the Oct. 17 home game against Auburn. The schedule confirms Auburn is Georgia's following opponent.",
+        "recent_game": [
+          {
+            "fact": "Georgia improved to 5-0 with a 38-14 home win over Vanderbilt on Oct. 3, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Gunner Stockton completed 25 of 32 passes for 295 yards and three touchdowns against Vanderbilt.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia held Vanderbilt scoreless in the second half after allowing 14 first-half points.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Dwight Phillips Jr. recorded career highs of five receptions and 75 receiving yards and scored a touchdown against Vanderbilt.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Joseph Jonah-Ajonye and Rasean Dinkins made their first starts of the season against Vanderbilt.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Georgia is scheduled to host Auburn on Oct. 17, 2026, with kickoff listed in the afternoon window.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Fifth-year quarterback Gunner Stockton is 17-3 as a starter, including 6-2 against ranked opponents.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games in 2026, Stockton has completed 77 of 102 passes for 1,049 yards, 13 touchdowns and one interception, producing a 202.0 efficiency rating.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Stockton has started 20 consecutive games.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "In Georgia's 20-10 win at Auburn in 2025, Stockton completed 24 of 37 passes for 217 yards with no touchdowns or interceptions.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Junior Ryan Puglisi has been the first quarterback off the bench in 2026, followed by sophomores Ryan Montgomery and Hezekiah Millender.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Nate Frazier and Chauncey Bowens have combined for 11 rushing touchdowns on 61 attempts through five games.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Bowens has served as Georgia's feature back in the past two games and leads the team with six rushing touchdowns on 35 carries.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia lost six of its top seven pass catchers from 2025 to the NFL or graduation.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sophomore receiver Talyn Taylor has 12 catches for 176 yards and three touchdowns, while freshman Craig Dandridge Jr. leads Georgia with 177 receiving yards on nine catches.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia's tight ends have combined for 22 catches, 285 yards and six touchdowns in 2026.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman Zykie Helton became the third true freshman offensive lineman to start a season opener during Kirby Smart's tenure and has started all five games at right guard.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Georgia's regular defensive starters include Elijah Griffin, Jordan Hall and Gabe Harris Jr. up front; Quintavius Johnson, Chris Cole and Raylen Wilson at linebacker; and KJ Bolden, Ellis Robinson IV, Demello Jones, Kyron Jones and Khalil Barnes in the secondary.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Raylen Wilson leads Georgia with 24 tackles and has three sacks in 2026.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Chris Cole has 22 tackles, 1.5 sacks and four career fumble recoveries; he returned a fumble 85 yards for a touchdown against Oklahoma.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia added four transfers to its secondary: Khalil Barnes from Clemson, Gentry Williams from Oklahoma, Ja'Marley Riddle from East Carolina and Braylon Conley from USC.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Demello Jones has started all five games in 2026 after making no starts in his first two seasons.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Phil Rauscher is in his first season as Georgia's offensive line coach.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Larry Knight is in his first season coaching Georgia's outside linebackers.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "low"
+          },
+          {
+            "fact": "Andrew Thacker is in his first season coaching Georgia's nickels and stars.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mike Bobo remains offensive coordinator and quarterbacks coach, while Glenn Schumann remains defensive coordinator and inside linebackers coach.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running back Nate Frazier missed the Oklahoma game because of an injury and played only a few second-half snaps against Vanderbilt.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Receiver Isiah Canion left the Arkansas game during the first series because of an injury and missed the next two games.",
+            "page": 3,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Receiver Thomas Blackshear sustained an upper-body injury after catching three passes for 33 yards in the first half against Vanderbilt and missed the remainder of the game.",
+            "page": 3,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn transfer Amaris Williams is out with a knee injury.",
+            "page": 3,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman defensive back and returner Tyriq Green has missed the past three games because of an injury.",
+            "page": 4,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Outside linebacker Chase Linton made his 2026 debut against Vanderbilt after an injury had sidelined him.",
+            "page": 4,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Georgia is averaging 51.4 points, 478.8 total yards, 213.0 rushing yards and 265.8 passing yards per game through five games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia's offensive line has used the same starting five in every game: Earnest Greene III at left tackle, Dontrell Glover at left guard, Drew Bobo at center, Zykie Helton at right guard and Juan Gaston Jr. at right tackle.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia has allowed five sacks for 34 yards through five games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia has scored 16 passing touchdowns to 13 different players.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia has produced 52 explosive plays under its stated thresholds of a 12-yard run or 16-yard completion: 22 rushing and 30 passing.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia has scored touchdowns on 24 of 28 red-zone trips and has scored on 25 of those possessions.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Georgia is allowing 13.4 points per game through five games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia is allowing 57.4 rushing yards per game, and no opponent has recorded a run longer than 19 yards.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia has recorded 13 sacks for 102 yards through five games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents are averaging 187.2 passing yards per game, and Georgia has intercepted four passes.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia has a plus-six turnover margin and has scored 59 points off 10 takeaways, while opponents have scored 19 points off four Georgia turnovers.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Peyton Woodring is 4-for-4 on field goals and 33-for-33 on extra points in 2026.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Woodring has made an SEC-record 206 consecutive extra points and owns a career field-goal percentage of 88.73 percent on 63 of 71 attempts.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "First-year starting punter Drew Miller is averaging 48.1 yards on 14 punts, with seven punts of at least 50 yards.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sacovie White-Helton is averaging 11.3 yards on nine punt returns.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jordan Hall blocked a 58-yard field-goal attempt against Vanderbilt, and London Humphreys blocked a punt at Arkansas.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Georgia defeated Auburn 20-10 on the road in 2025.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In the 2025 game at Auburn, Georgia converted a fourth-and-3 at the Auburn 40 during a go-ahead touchdown drive that lasted 8:45.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia's last three results against Auburn were wins of 27-20 in 2023, 31-13 in 2024 and 20-10 in 2025.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Georgia entered the Alabama game 5-0 overall and 3-0 in SEC play and had not trailed at any point in the season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia has outscored its opponents 70-7 in the first quarter and 154-26 in the first half.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Auburn game will be played at Sanford Stadium, where Georgia is 60-5 under Kirby Smart.",
+            "page": 12,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Georgia.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Georgia scoring-opportunity creation vs Auburn scoring-opportunity prevention",
+        "off_team": "Georgia",
+        "def_team": "Auburn",
+        "off_rank": 75,
+        "def_rank": 33,
+        "stat": "Eckel rate",
+        "rank_gap": 42,
+        "direction": "defense_advantage",
+        "matchup_score": 142
+      },
+      {
+        "dimension": "Auburn passing offense vs Georgia pass defense",
+        "off_team": "Auburn",
+        "def_team": "Georgia",
+        "off_rank": 100,
+        "def_rank": 36,
+        "stat": "pass EPA",
+        "rank_gap": 64,
+        "direction": "mixed",
+        "matchup_score": 64
+      },
+      {
+        "dimension": "Auburn scoring-opportunity creation vs Georgia scoring-opportunity prevention",
+        "off_team": "Auburn",
+        "def_team": "Georgia",
+        "off_rank": 45,
+        "def_rank": 4,
+        "stat": "Eckel rate",
+        "rank_gap": 41,
+        "direction": "mixed",
+        "matchup_score": 41
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 5,
+        "fact": "Starting quarterback Byrum Brown had completed 82 of 126 passes for 896 yards, six touchdowns and five interceptions through four games while rushing for 237 yards and three touchdowns.",
+        "page": 17,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 15,
+        "fact": "Linebacker Xavier Atkins had 26 tackles, seven tackles for loss and three sacks through four games.",
+        "page": 19,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 17,
+        "fact": "Linebacker Elijah Melendez led Auburn with 34 tackles through four games and also had six tackles for loss and two sacks.",
+        "page": 19,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Auburn had 29 tackles for loss and 11 sacks through four games.",
+        "page": 19,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Auburn intercepted a pass in each of its first four games and had five interceptions overall.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 44,
+        "fact": "Through five games in 2026, Stockton has completed 77 of 102 passes for 1,049 yards, 13 touchdowns and one interception, producing a 202.0 efficiency rating.",
+        "page": 2,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Georgia.pdf",
+        "source_team": "Georgia Bulldogs"
+      },
+      {
+        "fact_id": 70,
+        "fact": "Georgia's offensive line has used the same starting five in every game: Earnest Greene III at left tackle, Dontrell Glover at left guard, Drew Bobo at center, Zykie Helton at right guard and Juan Gaston Jr. at right tackle.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Georgia.pdf",
+        "source_team": "Georgia Bulldogs"
+      },
+      {
+        "fact_id": 71,
+        "fact": "Georgia has allowed five sacks for 34 yards through five games.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Georgia.pdf",
+        "source_team": "Georgia Bulldogs"
+      },
+      {
+        "fact_id": 74,
+        "fact": "Georgia has scored touchdowns on 24 of 28 red-zone trips and has scored on 25 of those possessions.",
+        "page": 6,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Georgia.pdf",
+        "source_team": "Georgia Bulldogs"
+      },
+      {
+        "fact_id": 75,
+        "fact": "Georgia is allowing 13.4 points per game through five games.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Georgia.pdf",
+        "source_team": "Georgia Bulldogs"
+      },
+      {
+        "fact_id": 76,
+        "fact": "Georgia is allowing 57.4 rushing yards per game, and no opponent has recorded a run longer than 19 yards.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Georgia.pdf",
+        "source_team": "Georgia Bulldogs"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Georgia Bulldogs",
+      "model_side": "Georgia",
+      "opponent_full": "Auburn Tigers",
+      "opponent": "Auburn",
+      "model_prediction": -20.0,
+      "market_line": -19.5,
+      "best_available_line": -19.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.49660603,
+      "edge": -0.0155890919512195,
+      "bet_status": "PASS"
+    }
+  }
+}

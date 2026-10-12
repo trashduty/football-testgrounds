@@ -1,0 +1,27 @@
+{
+  "game": "Northwestern Wildcats@Michigan State Spartans",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:55:40.588017+00:00",
+  "model_prediction": -10.0,
+  "market_line": -7.5,
+  "best_line": -7.5,
+  "best_price": "-105",
+  "best_book": "Fanatics",
+  "cover_probability": 0.52481715,
+  "edge": 0.0126220280487804,
+  "bet_short": "Northwestern",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Northwestern Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Northwestern.pdf",
+      "No guide found for Michigan State Spartans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

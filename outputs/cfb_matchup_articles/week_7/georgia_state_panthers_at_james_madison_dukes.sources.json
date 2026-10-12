@@ -1,0 +1,412 @@
+{
+  "game": "Georgia State Panthers@James Madison Dukes",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:47:30.871719+00:00",
+  "model_prediction": -17.0,
+  "market_line": -12.5,
+  "best_line": -12.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.56058278,
+  "edge": 0.0483876580487804,
+  "bet_short": "James Madison",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case for James Madison starts with the expected imbalance in scoring opportunities. Our numbers rate James Madison among the nation\u2019s best at creating those chances, while Georgia State has struggled to prevent them. On the other side, we see Georgia State facing a defense that has been difficult to move the ball against consistently. Through four games, James Madison allowed 12.3 points and 293.3 total yards per game, and opponents converted only 35.3% of their third downs.\n\nWe also see enough offensive balance to support separation rather than merely control. James Madison averaged 199.3 rushing yards and 44.8 points through four games, while scoring on 91.7% of its red-zone possessions. Those early results do not guarantee the same efficiency here, but they align with our longer-run matchup numbers, particularly against a Georgia State defense our model views as vulnerable to the run.\n\nOur main concern is the limited sample behind a heavily rebuilt roster. James Madison entered the season with 61 newcomers and only five returning starters, so we should not treat four games as definitive. Still, the performance to date supports the areas our model already favors, which is why we think the market is leaving James Madison with room to create separation.",
+    "matchup_to_watch": "We are watching James Madison\u2019s rushing offense against Georgia State\u2019s run defense. Our metrics place those units far apart, and James Madison has already shown it can distribute the workload: George Pettaway had 291 rushing yards and four touchdowns through four games, while Nick Herman added 214 yards and two scores.\n\nThat matters because productive early-down rushing can keep James Madison ahead of schedule and create repeated scoring opportunities. For us, this matchup is the clearest path to sustained drives and the margin our position requires.",
+    "guide_status": [
+      "No guide found for Georgia State Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia State.pdf",
+      "Found guide for James Madison Dukes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/James Madison.pdf",
+      "Guide for James Madison Dukes was found but may not match the current opponent. The guide is for James Madison's Oct. 3, 2026 home game against Marshall, not the Oct. 17 game against Georgia State. The schedule identifies Georgia State as a later opponent."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "James Madison Dukes",
+        "opponent": "Georgia State Panthers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for James Madison's Oct. 3, 2026 home game against Marshall, not the Oct. 17 game against Georgia State. The schedule identifies Georgia State as a later opponent.",
+        "recent_game": [
+          {
+            "fact": "James Madison improved to 4-0 with a 46-20 win at Old Dominion on Sept. 26, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU tied its FBS program record with nine sacks and held Old Dominion to minus-14 rushing yards.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Camden Coleman completed 24 of 42 passes for 243 yards and four touchdowns against Old Dominion, with each touchdown going to a different receiver.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "George Pettaway rushed 16 times for 110 yards against Old Dominion, his third career 100-yard rushing game.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Nakian Jackson led JMU with nine tackles for the second consecutive game and added 2.0 tackles for loss and 1.5 sacks at Old Dominion.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Georgia State was 3-1 overall and had not yet played a Sun Belt game through Sept. 26, 2026.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia State defeated Northern Illinois 35-14 on Sept. 26, 2026.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Camden Coleman had started three of JMU's first four games and completed 59 of 95 passes for 716 yards, seven touchdowns and one interception; he also had 49 rushing yards and one rushing touchdown.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Coleman was named Sun Belt Offensive Player of the Week after throwing four touchdown passes at Old Dominion.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "JC Evans started the opener against Liberty and completed 7 of 9 passes for 61 yards and a touchdown while rushing nine times for 69 yards.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arrington Maiden completed 7 of 8 passes for 111 yards and two touchdowns in his JMU debut against Wagner.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "JMU returned only one offensive starter from 2025: center Zach Greenberg.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, George Pettaway had 60 carries for 291 yards and four touchdowns, while Nick Herman had 29 carries for 214 yards and two touchdowns.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Corey Scott led JMU with 16 receptions and had 185 receiving yards and two touchdowns through four games.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Braeden Wisloski had 13 receptions for 165 yards through four games, including five catches for 90 yards at San Diego State.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end Cole Keller had nine receptions for 128 yards and three touchdowns through four starts.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Offensive linemen Tyler Brown, Deacon Rawls, Evan Bushong and DJ Fox each started JMU's first four games; Zach Greenberg had three starts and Noel Portnjagin made his first collegiate start at Old Dominion.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "JMU returned two defensive starters from 2025: edge Amar Thomas and linebacker Gannon Weathersby.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer linebacker Nakian Jackson led JMU with 34 tackles through four starts and had 2.5 tackles for loss and 1.5 sacks.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer linebacker JT Hooten had 19 tackles, 4.5 tackles for loss, 2.5 sacks and an interception through four starts.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Ken Willis had 22 tackles, 4.0 tackles for loss, four pass breakups, one sack, one forced fumble and one fumble recovery through four starts.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kevin Roberts and Kei'Trone Simpson each recorded 1.5 sacks in the win at Old Dominion.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Seth Gathers made his first four collegiate starts and totaled 17 tackles and one pass breakup.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Billy Napier was hired as JMU's head coach on Dec. 6, 2025 and was 4-0 in his first season through four games.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU's first-year coordinators are offensive coordinator Cam Aiken, defensive coordinator Robert Bala and special teams coordinator Rob Wenger.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiken and Bala coach from the booth, while Wenger works on the field.",
+            "page": 8,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, JMU averaged 44.8 points, 425.3 total yards, 226.0 passing yards and 199.3 rushing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU had not trailed through its first four games and averaged more than 55 minutes per game playing with the lead.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "JMU had scored on 91.7% of its red-zone possessions through four games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "JMU entered 2026 with 61 newcomers and only five returning starters overall.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, JMU allowed 12.3 points and 293.3 total yards per game, including 88.8 rushing yards per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU had 13 sacks, three interceptions and three fumble recoveries through four games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Following its nine-sack game at Old Dominion, JMU averaged 3.25 sacks and 7.3 tackles for loss per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 35.3% of third downs against JMU through four games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Morgan Suarez was 9-for-9 on field goals and 20-for-20 on extra points through four games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Suarez made all four field-goal attempts at Old Dominion, becoming JMU's first kicker with four field goals in a game since Nov. 13, 2021.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Michael Scott had two punt-return touchdowns and 519 all-purpose yards through four games; he also averaged 50.0 yards per kickoff return and 21.9 yards per punt return.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Patrick Rea averaged 42.7 yards on 15 punts through four games, with five punts inside the 20 and two punts of at least 50 yards.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylen Woodman had 14 touchbacks on 25 kickoffs through three games.",
+            "page": 14,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "James Madison is 5-0 all-time against Georgia State, including 4-0 in Sun Belt play.",
+            "page": 9,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "JMU was 26-7 in Sun Belt games since joining the conference in 2022, including 13-3 at home and 19-6 against East Division opponents.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "JMU had won nine consecutive Sun Belt regular-season games and nine consecutive home games entering its Oct. 3 game against Marshall.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "James Madison.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Georgia State scoring-opportunity creation vs James Madison scoring-opportunity prevention",
+        "off_team": "Georgia State",
+        "def_team": "James Madison",
+        "off_rank": 113,
+        "def_rank": 14,
+        "stat": "Eckel rate",
+        "rank_gap": 99,
+        "direction": "defense_advantage",
+        "matchup_score": 199
+      },
+      {
+        "dimension": "James Madison scoring-opportunity creation vs Georgia State scoring-opportunity prevention",
+        "off_team": "James Madison",
+        "def_team": "Georgia State",
+        "off_rank": 10,
+        "def_rank": 80,
+        "stat": "Eckel rate",
+        "rank_gap": 70,
+        "direction": "offense_advantage",
+        "matchup_score": 170
+      },
+      {
+        "dimension": "James Madison rushing offense vs Georgia State rush defense",
+        "off_team": "James Madison",
+        "def_team": "Georgia State",
+        "off_rank": 16,
+        "def_rank": 83,
+        "stat": "rush EPA",
+        "rank_gap": 67,
+        "direction": "offense_advantage",
+        "matchup_score": 167
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 11,
+        "fact": "Through four games, George Pettaway had 60 carries for 291 yards and four touchdowns, while Nick Herman had 29 carries for 214 yards and two touchdowns.",
+        "page": 12,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 25,
+        "fact": "Through four games, JMU averaged 44.8 points, 425.3 total yards, 226.0 passing yards and 199.3 rushing yards per game.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 27,
+        "fact": "JMU had scored on 91.7% of its red-zone possessions through four games.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 28,
+        "fact": "JMU entered 2026 with 61 newcomers and only five returning starters overall.",
+        "page": 5,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Through four games, JMU allowed 12.3 points and 293.3 total yards per game, including 88.8 rushing yards per game.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Opponents converted 35.3% of third downs against JMU through four games.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "James Madison Dukes",
+      "model_side": "James Madison",
+      "opponent_full": "Georgia State Panthers",
+      "opponent": "Georgia State",
+      "model_prediction": -17.0,
+      "market_line": -12.5,
+      "best_available_line": -12.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.56058278,
+      "edge": 0.0483876580487804,
+      "bet_status": "BET"
+    }
+  }
+}

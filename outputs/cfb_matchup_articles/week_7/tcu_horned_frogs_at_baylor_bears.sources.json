@@ -1,0 +1,780 @@
+{
+  "game": "TCU Horned Frogs@Baylor Bears",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:01:14.778858+00:00",
+  "model_prediction": 4.0,
+  "market_line": 5.5,
+  "best_line": 5.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.53943756,
+  "edge": 0.0272424380487804,
+  "bet_short": "TCU",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We are not reacting to TCU\u2019s loss at UCF or Baylor\u2019s win over Colorado as if either result settles this matchup. Our numbers give TCU more credit because its defense allowed only 264.8 yards per game through four games and held opponents to a 24.5 percent conversion rate on third down. That matters against a Baylor passing offense whose raw yardage was productive but whose efficiency profile has been less convincing.\n\nThe concern for us is how TCU sustains offense. Its rushing efficiency runs directly into the stronger part of Baylor\u2019s defense, potentially putting more of the game on Jaden Craig. Craig produced three 300-yard passing games in his first four starts, but his two interceptions at UCF show the downside when volume does not become points.\n\nThat leaves us with a real but modest disagreement with the market. We can make a football case for TCU staying competitive, especially if its defense controls third down, but the difficult rushing matchup and reliance on Craig create enough volatility that the available price does not justify a wager.",
+    "matchup_to_watch": "For us, the matchup to watch is TCU\u2019s pass protection against Baylor\u2019s pressure. Baylor averaged 3.75 sacks and 9.0 tackles for loss through four games, while TCU had already allowed nine sacks. Craig has spread the ball around\u2014completing passes to at least six receivers in every game\u2014but he needs enough time for that distribution to matter.\n\nIf Baylor consistently forces long-yardage situations, TCU\u2019s ability to create scoring opportunities may not translate into finished drives. If TCU protects Craig, we think its passing game has enough variety to explain why our view is more favorable to the road team than the market\u2019s.",
+    "guide_status": [
+      "Found guide for TCU Horned Frogs: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/TCU.pdf",
+      "Guide for TCU Horned Frogs was found but may not match the current opponent. The guide is explicitly TCU's Game 5 notes for the Oct. 3, 2026 home game against No. 10 BYU. Baylor is listed as TCU's next game on Oct. 17, but the document was not prepared for that matchup.",
+      "Found guide for Baylor Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Baylor.pdf",
+      "Guide for Baylor Bears was found but may not match the current opponent. The document is Baylor's 2026 Game 5 notes for its Oct. 3 road game at Arizona State. It identifies TCU as Baylor's next opponent after an idle week, with the Bears scheduled to host the Horned Frogs on Oct. 17, but it is not the Baylor-TCU game guide."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "TCU Horned Frogs",
+        "opponent": "Baylor Bears",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly TCU's Game 5 notes for the Oct. 3, 2026 home game against No. 10 BYU. Baylor is listed as TCU's next game on Oct. 17, but the document was not prepared for that matchup.",
+        "recent_game": [
+          {
+            "fact": "TCU lost 21-13 at UCF on Sept. 26 in its Big 12 opener, dropping to 2-2 overall and 0-1 in conference play.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Quarterback Jaden Craig completed 25 of 40 passes for 310 yards with no touchdowns and two interceptions in the loss at UCF.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Baylor was 3-1 overall and 1-0 in Big 12 play when these notes were issued on Oct. 3, 2026.",
+            "page": 16,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Harvard transfer Jaden Craig is TCU's new starting quarterback after the program lost Josh Hoover, who had made 31 starts.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Craig had completed 90 of 132 passes for 1,213 yards, seven touchdowns and three interceptions.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Craig had three 300-yard passing games through four starts, tied for the Big 12 lead, and averaged 303.3 passing yards per game.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Craig transferred after setting Harvard career records with 6,074 passing yards and 52 touchdown passes.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Adam Schobel is listed as Craig's backup and had attempted one pass through four games.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "TCU's listed starting offensive line is Ben Taylor-Whitfield at left tackle, Cade Bennett at left guard, Jaheim Buchanon or Cooper Powers at center, Noah McKinney at right guard, and Kilian Registe or Witten Van Hoy at right tackle.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Left tackle Ben Taylor-Whitfield had started 26 consecutive games and all four games in 2026.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Jaheim Buchanon, a transfer who started all 25 games he played at FIU, had started each of TCU's first four games.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Jeremy Payne led TCU with 355 rushing yards and two touchdowns on 73 carries through four games.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Ed Small had 24 receptions for 371 yards and one touchdown through four games.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Kari Ashley had 19 receptions for 266 yards and three touchdowns through four games.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "South Alabama transfer Jeremy Scott had started all four games and recorded 13 receptions for 183 yards and one touchdown.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "TCU entered 2026 needing to replace 146 combined starts at offensive skill positions.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "TCU's listed defensive front includes Paul Oyewale, Markis Deal, Ansel Din-Mbuh and John Schobel as the primary starters.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ansel Din-Mbuh had 16 tackles, two sacks and 2.5 tackles for loss through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Jamel Johnson, TCU's leading returning tackler after 96 tackles and five interceptions in 2025, had 22 tackles in three 2026 games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Hudson Hooper made his first career start against Grambling State on Sept. 12 and had 19 tackles through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Gil Jackson Jr. had started all four games and recorded four pass breakups.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "TCU returned 97 combined defensive starts for 2026 but lost linebackers Kaleb Elarms-Orr and Namdi Obiazor to the NFL after they combined for 62 career starts.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Gordon Sammis is in his first season as TCU's offensive coordinator and offensive play caller after coordinating UConn's offense in 2024 and 2025.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Brad Robbins is in his first season as TCU's quarterbacks coach, and Antonio Wilcox is in his first season as running backs coach.",
+            "page": 11,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive coordinator Andy Avalos is in his third season at TCU.",
+            "page": 11,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, TCU averaged 442.0 total yards, including 303.3 passing yards and 138.8 rushing yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU averaged 29.3 points per game and converted 43.4 percent of its third downs through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "TCU had allowed nine sacks through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Under new coordinator Gordon Sammis, TCU increased its use of tight ends; Ashley had a 119-yard, two-touchdown performance against Grambling State.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Craig completed passes to at least six receivers in each of TCU's first four games.",
+            "page": 18,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "TCU allowed 12.5 points per game through four games, ranking second in the Big 12 and 14th nationally.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU allowed 264.8 total yards per game through four games, including 86.0 rushing yards and 178.8 passing yards.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 24.5 percent of their third downs against TCU through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU had recorded nine sacks through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "TCU held opponents below 400 yards per game in both 2024 and 2025 and improved to 264.8 yards allowed per game through four games in 2026.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Punter John Hoyet Chance averaged 44.1 yards on 11 punts through four games, with six placed inside the 20 and a long of 56 yards.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "The placekicker depth chart lists Kyle Lemmermann or Nate McCashland.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman Ace Theus had 99 yards on nine punt returns and 80 yards on four kickoff returns through four games.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "TCU leads the all-time series with Baylor 60-54-7 and had won nine of the previous 11 meetings entering the scheduled Oct. 17 game in Waco.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU defeated Baylor 42-36 in 2025 after losing 37-34 at Baylor in 2024.",
+            "page": 9,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sonny Dykes had a 2-1 record against Baylor as TCU's head coach entering 2026.",
+            "page": 9,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The TCU-Baylor game is scheduled for Oct. 17, 2026 at McLane Stadium in Waco, following TCU's open week.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU was 2-2 overall and 0-1 in the Big 12 when these notes were issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "TCU.pdf"
+      },
+      {
+        "source_team": "Baylor Bears",
+        "opponent": "TCU Horned Frogs",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Baylor's 2026 Game 5 notes for its Oct. 3 road game at Arizona State. It identifies TCU as Baylor's next opponent after an idle week, with the Bears scheduled to host the Horned Frogs on Oct. 17, but it is not the Baylor-TCU game guide.",
+        "recent_game": [
+          {
+            "fact": "Baylor defeated Colorado 23-13 on Sept. 26 to improve to 3-1 overall and 1-0 in Big 12 play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor held Colorado to 363 total yards, forced punts on eight of 15 drives, recovered a fumble and made two fourth-down stops.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor recorded five sacks and 13 tackles for loss against Colorado; the 13 tackles for loss were its most since a 2019 win at Kansas State.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Travion Barnes recorded a Baylor career-high nine tackles and two tackles for loss against Colorado.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "DJ Lagway threw two touchdown passes in Baylor's win over Colorado.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "At the time of these notes, TCU was 2-2 and coming off a 21-13 loss at UCF on Sept. 26.",
+            "page": 9,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Junior quarterback DJ Lagway transferred from Florida after making 19 starts in two seasons and throwing for 4,179 yards and 28 touchdowns.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lagway suffered a lower-leg injury in the season opener against Auburn but played through it and finished 27-of-54 for 333 yards and two touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Nate Bennett made his first career start against Prairie View A&M while filling in for Lagway and completed 24 of 36 passes for 314 yards and three touchdowns, with an additional rushing touchdown.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Bennett again relieved Lagway against Louisiana Tech and completed 21 of 24 passes for 253 yards and three touchdowns while adding a rushing touchdown.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Baylor added 16 offensive players through the transfer portal for 2026, including quarterback DJ Lagway and offensive linemen Logan Moore, Nate Kibble, Asher Hale and Cole Rhett.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor had seven first-time Bears starters on offense against Auburn: DJ Lagway, Dawson Pendergrass, Louis Brown IV, Gavin Freeman, Nate Kibble, Asher Hale and Logan Moore.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Harrison Cluff made his first Baylor start against Prairie View A&M, and right tackle Cooper Lovelace made his first Baylor start against Louisiana Tech.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor entered 2026 needing to replace four offensive-line starters. Returning tackle Kaden Sieracki had started all 12 games in 2025, played 948 snaps and did not allow a sack.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Gavin Freeman, a transfer from Oklahoma State and Oklahoma, had 35 catches for 364 yards through Baylor's first four games and led the nation with 8.75 receptions per game.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor replaced its five leading pass catchers from the 2025 offense, including NFL departures Josh Cameron and tight end Michael Trigg.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Dawson Pendergrass returned in 2026 after missing the 2025 season with a preseason season-ending injury.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Baylor added 21 defensive players through the transfer portal for 2026, with major additions on the defensive line, at edge rusher and at safety.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive coordinator Joe Klanderman brought Kansas State defenders Ryan Davis, Daniel Cobbs and Colby McCalister with him to Baylor.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor added JACK pass rushers Ryan Davis from Kansas State and Garrick Ponder from Southern Miss after finishing 2025 with 12 sacks and 48 tackles for loss.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor's first-time defensive starters against Auburn were nose tackle Hosea Wheeler, JACK Ryan Davis, linebacker Travion Barnes, STAR Daniel Cobbs, safeties Devin Turner and Colby McCalister, and cornerback Devon Jordan.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive tackle Traevon Mitchell made his first NCAA start in Baylor's win over Colorado.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor entered 2026 replacing linebacker Keaton Thomas, who transferred to Ole Miss after consecutive 100-tackle seasons.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Dave Aranda stopped serving as Baylor's defensive play caller and inside-linebackers coach after two seasons and hired Joe Klanderman from Kansas State as defensive coordinator and safeties coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jake Spavital returned for his third season as Baylor's offensive coordinator and quarterbacks coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor hired Jacori Greer as defensive-line coach and Jeremy Modkins as cornerbacks coach, while Austin Woods entered his first full season leading the offensive line after serving as interim coach for the final five games of 2025.",
+            "page": 19,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Safety Jacob Redding suffered a season-ending injury before the 2026 season.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Starting defensive tackle Devonte Tezino suffered a season-ending injury on the first drive against Prairie View A&M.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Ashton Jones suffered a season-ending injury during spring practice.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dawson Pendergrass was described as back to full speed after missing the entire 2025 season with an injury.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Baylor averaged 29.8 points, 435.8 total yards, 285.0 passing yards and 150.8 rushing yards per game.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked 25th nationally and fourth in the Big 12 in passing offense at 285.0 yards per game through four games.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor had gained at least 300 total yards and passed for at least 200 yards in each of its first four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor allowed 1.5 sacks per game through its first four games but allowed 7.25 tackles for loss per game, which ranked 129th nationally.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Baylor held each of its first four opponents below 20 points, its longest such streak since 2005.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Baylor allowed 13.0 points and 306.0 total yards per game, including 97.0 rushing yards and 209.0 passing yards.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked fourth nationally with 3.75 sacks per game and fifth with 9.0 tackles for loss per game through four games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked 10th nationally in fourth-down defense at .143 and 12th in red-zone defense at .692 through four games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor had seven takeaways through four games, including four interceptions and three recovered fumbles.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Against Colorado, punter Palmer Williams averaged 50.4 yards on seven punts, with four punts of at least 50 yards and four downed inside the 20.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jayden McGowan returned seven punts for 130 yards against Colorado, including a 36-yard return.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Rhett Armstrong made three field goals against Colorado, including a McLane Stadium record-tying 54-yarder.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked 10th nationally in net punting at 44.79 yards through four games.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Armstrong replaced Connor Hawkins as Baylor's kicker after Hawkins transferred to Ohio State.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "TCU leads the Baylor series 60-54-7.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "TCU defeated Baylor 42-36 in Fort Worth in 2025; Baylor's late rally fell short, and three interceptions helped secure the result for TCU.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Baylor is scheduled to host TCU at McLane Stadium on Oct. 17 after an idle week.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor entered its Arizona State game on a three-game winning streak, its longest since the six-game streak that ended the 2024 regular season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor added a program-record 39 transfer-portal players for 2026 and returned 58 players.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Baylor.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "TCU rushing offense vs Baylor rush defense",
+        "off_team": "TCU",
+        "def_team": "Baylor",
+        "off_rank": 115,
+        "def_rank": 36,
+        "stat": "rush EPA",
+        "rank_gap": 79,
+        "direction": "mixed",
+        "matchup_score": 79
+      },
+      {
+        "dimension": "Baylor passing offense vs TCU pass defense",
+        "off_team": "Baylor",
+        "def_team": "TCU",
+        "off_rank": 99,
+        "def_rank": 54,
+        "stat": "pass EPA",
+        "rank_gap": 45,
+        "direction": "mixed",
+        "matchup_score": 45
+      },
+      {
+        "dimension": "TCU scoring-opportunity creation vs Baylor scoring-opportunity prevention",
+        "off_team": "TCU",
+        "def_team": "Baylor",
+        "off_rank": 20,
+        "def_rank": 48,
+        "stat": "Eckel rate",
+        "rank_gap": 28,
+        "direction": "mixed",
+        "matchup_score": 28
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "TCU lost 21-13 at UCF on Sept. 26 in its Big 12 opener, dropping to 2-2 overall and 0-1 in conference play.",
+        "page": 7,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "TCU.pdf",
+        "source_team": "TCU Horned Frogs"
+      },
+      {
+        "fact_id": 2,
+        "fact": "Quarterback Jaden Craig completed 25 of 40 passes for 310 yards with no touchdowns and two interceptions in the loss at UCF.",
+        "page": 14,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "TCU.pdf",
+        "source_team": "TCU Horned Frogs"
+      },
+      {
+        "fact_id": 5,
+        "fact": "Craig had three 300-yard passing games through four starts, tied for the Big 12 lead, and averaged 303.3 passing yards per game.",
+        "page": 14,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "TCU.pdf",
+        "source_team": "TCU Horned Frogs"
+      },
+      {
+        "fact_id": 27,
+        "fact": "TCU had allowed nine sacks through four games.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "TCU.pdf",
+        "source_team": "TCU Horned Frogs"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Craig completed passes to at least six receivers in each of TCU's first four games.",
+        "page": 18,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "TCU.pdf",
+        "source_team": "TCU Horned Frogs"
+      },
+      {
+        "fact_id": 31,
+        "fact": "TCU allowed 264.8 total yards per game through four games, including 86.0 rushing yards and 178.8 passing yards.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "TCU.pdf",
+        "source_team": "TCU Horned Frogs"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Opponents converted 24.5 percent of their third downs against TCU through four games.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "TCU.pdf",
+        "source_team": "TCU Horned Frogs"
+      },
+      {
+        "fact_id": 40,
+        "fact": "Baylor defeated Colorado 23-13 on Sept. 26 to improve to 3-1 overall and 1-0 in Big 12 play.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Baylor.pdf",
+        "source_team": "Baylor Bears"
+      },
+      {
+        "fact_id": 69,
+        "fact": "Through four games, Baylor averaged 29.8 points, 435.8 total yards, 285.0 passing yards and 150.8 rushing yards per game.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Baylor.pdf",
+        "source_team": "Baylor Bears"
+      },
+      {
+        "fact_id": 75,
+        "fact": "Baylor ranked fourth nationally with 3.75 sacks per game and fifth with 9.0 tackles for loss per game through four games.",
+        "page": 4,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Baylor.pdf",
+        "source_team": "Baylor Bears"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "TCU Horned Frogs",
+      "model_side": "TCU",
+      "opponent_full": "Baylor Bears",
+      "opponent": "Baylor",
+      "model_prediction": 4.0,
+      "market_line": 5.5,
+      "best_available_line": 5.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.53943756,
+      "edge": 0.0272424380487804,
+      "bet_status": "PASS"
+    }
+  }
+}

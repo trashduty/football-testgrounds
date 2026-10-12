@@ -1,0 +1,369 @@
+{
+  "game": "Notre Dame Fighting Irish@BYU Cougars",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:56:38.018739+00:00",
+  "model_prediction": 9.0,
+  "market_line": 10.0,
+  "best_line": 9.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.53545615,
+  "edge": 0.03545615,
+  "bet_short": "BYU",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case for BYU starts with an offense that has more than one way to sustain drives. BYU averaged 262.7 rushing yards through three games and topped 300 yards twice, while allowing only two sacks over that span. We are not treating that early production as proof against a much stronger opponent, but the combination of rushing efficiency and protection gives BYU a plausible path to avoid the kind of negative plays that create separation.\n\nThe meaningful concern is Notre Dame's defense. Our metrics rate its pass defense first in pass EPA and place it among the best units at preventing scoring opportunities. That matters because our longer-run numbers are less impressed with BYU's passing offense than its early results might suggest, even though Bear Bachmeier opened the season with 642 passing yards, six touchdowns and one interception through three games.\n\nNotre Dame's fourth-ranked passing offense also presents a real challenge for BYU's pass defense. Still, BYU intercepted five passes in its first three games, and we see enough resistance on both sides of the ball to question whether Notre Dame should be priced to create this much separation. Our wager is less about declaring BYU the better team and more about taking the points at a number our model considers too high.",
+    "matchup_to_watch": "We are watching BYU's passing game against Notre Dame's pass defense. Notre Dame owns the clearest matchup advantage in our numbers, so BYU cannot depend on routine dropback success. The more interesting part is whether BYU's rushing attack can keep Bachmeier out of predictable passing situations and preserve manageable downs.\n\nIf BYU can do that, its early pass protection gives the offense a chance to stay functional even without consistently winning through the air. If Notre Dame forces obvious passing downs, its defensive advantage becomes much more likely to control the game.",
+    "guide_status": [
+      "No guide found for Notre Dame Fighting Irish. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Notre Dame.pdf",
+      "Found guide for BYU Cougars: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/BYU.pdf",
+      "Guide for BYU Cougars was found but may not match the current opponent. The guide is for BYU's October 3, 2026 road game against TCU, identified as Game 4. Notre Dame appears only as a later scheduled opponent on October 17, so this is not the guide for the BYU-Notre Dame matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "BYU Cougars",
+        "opponent": "Notre Dame Fighting Irish",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for BYU's October 3, 2026 road game against TCU, identified as Game 4. Notre Dame appears only as a later scheduled opponent on October 17, so this is not the guide for the BYU-Notre Dame matchup.",
+        "recent_game": [
+          {
+            "fact": "BYU defeated Colorado State 41-23 in Fort Collins to improve to 3-0.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU rushed for 332 yards against Colorado State, including 176 yards and three touchdowns from LJ Martin and 131 yards and one rushing touchdown from wide receiver Legend Glasker.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU held Colorado State to 302 total yards after Colorado State entered averaging 469.0 yards per game.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Sophomore Bear Bachmeier had started all 17 of his career games, including BYU's first three games of 2026.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Bachmeier had completed 44 of 62 passes for 642 yards, six touchdowns and one interception while rushing for 64 yards and two touchdowns.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Bachmeier led the Big 12 with a 186.7 passing-efficiency rating and 10.35 yards per pass attempt through three games.",
+            "page": 11,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Treyson Bourguet, a Western Michigan transfer with eight previous career starts, was listed as Bachmeier's primary backup.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back LJ Martin had 328 rushing yards and three touchdowns on 42 carries through three games, averaging 7.8 yards per carry.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman wide receiver Legend Glasker had 270 receiving yards and two receiving touchdowns on 11 catches, plus 42 rushing yards and two rushing touchdowns, through three games.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "USC transfer Walker Lyons started each of BYU's first three games at tight end and caught multiple passes in every game.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon transfer Roger Saleapaga II started BYU's first two games at tight end, while Keayen Nead started at Colorado State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU's offensive line starters against Colorado State were Paki Finau at left tackle, Sonny Makasini at left guard, Bruce Mitchell at center, Trevin Ostler at right guard and Andrew Gentry at right tackle.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Paki Finau, a Washington transfer, started the first three games at left tackle; Andrew Gentry, a Michigan transfer, started the first three games at right tackle.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Bruce Mitchell moved from defensive line to offensive line in 2024 and entered 2026 after earning first-team All-Big 12 honors in 2025.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Cal transfer Cade Uluave started the first three games at linebacker and recorded 14 tackles, two tackles for loss and one interception.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive tackle Keanu Tanuvasa started all three games and recorded four tackles, 1.5 tackles for loss and a half-sack.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cannon DeVries started two of the first three games at nickel and had a team-high 14 tackles through three games, including three tackles for loss at Colorado State.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerbacks Therrian Alexander III and Evan Johnson and safety Faletau Satuala started each of BYU's first three games.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU had five interceptions through three games, with one each by Therrian Alexander III, Hunter Clegg, Evan Johnson, Matthias Leach and Cade Uluave.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Linebacker Siale Esera was explicitly listed as out for BYU's game at Colorado State.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Raider Damuni was injured against Utah Tech and had appeared in only one of BYU's first three games.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "BYU averaged 481.7 total yards and 44.0 points per game through three games.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU averaged 262.7 rushing yards per game through three games and exceeded 300 rushing yards against both Utah Tech and Colorado State.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU converted 61.3 percent of its third-down attempts through three games.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU had allowed two sacks and averaged one tackle for loss allowed per game through its first three contests.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU scored at least five rushing touchdowns in two of its first three games, doing so against Utah Tech and Colorado State.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "BYU allowed 15.7 points and 271.0 total yards per game through three games.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU allowed 76.0 rushing yards and 195.0 passing yards per game through three games.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU generated six takeaways through three games and had won 17 consecutive games when forcing at least one turnover.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 43.6 percent of third downs against BYU through three games.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU recorded four sacks through its first three games.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Cannon DeVries returned a kickoff 100 yards for a touchdown against Utah Tech and averaged 16.7 yards on six punt returns through three games.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Fuller Shurtz became BYU's starting punter after Sam Vander Haar's departure and averaged 48.1 yards on seven punts, with four traveling at least 50 yards.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kicker Matthias Dunn was 2-for-3 on field goals and 15-for-15 on extra points through three games.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman Brody Laga was BYU's primary kickoff specialist and recorded touchbacks on 22 of 23 kickoffs.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "BYU is scheduled to host Notre Dame on October 17, 2026, Notre Dame's first game in Provo since BYU's 20-17 win in 2004; Notre Dame won the four subsequent meetings.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "BYU was 3-0 overall and ranked No. 10 in the AP poll and No. 9 in the Coaches Poll when this guide was issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU returned six offensive starters and seven defensive starters for the 2026 season.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "BYU.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "BYU scoring-opportunity creation vs Notre Dame scoring-opportunity prevention",
+        "off_team": "BYU",
+        "def_team": "Notre Dame",
+        "off_rank": 103,
+        "def_rank": 11,
+        "stat": "Eckel rate",
+        "rank_gap": 92,
+        "direction": "defense_advantage",
+        "matchup_score": 192
+      },
+      {
+        "dimension": "BYU passing offense vs Notre Dame pass defense",
+        "off_team": "BYU",
+        "def_team": "Notre Dame",
+        "off_rank": 70,
+        "def_rank": 1,
+        "stat": "pass EPA",
+        "rank_gap": 69,
+        "direction": "mixed",
+        "matchup_score": 69
+      },
+      {
+        "dimension": "Notre Dame passing offense vs BYU pass defense",
+        "off_team": "Notre Dame",
+        "def_team": "BYU",
+        "off_rank": 4,
+        "def_rank": 34,
+        "stat": "pass EPA",
+        "rank_gap": 30,
+        "direction": "mixed",
+        "matchup_score": 30
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 5,
+        "fact": "Through three games, Bachmeier had completed 44 of 62 passes for 642 yards, six touchdowns and one interception while rushing for 64 yards and two touchdowns.",
+        "page": 13,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "BYU.pdf",
+        "source_team": "BYU Cougars"
+      },
+      {
+        "fact_id": 19,
+        "fact": "BYU had five interceptions through three games, with one each by Therrian Alexander III, Hunter Clegg, Evan Johnson, Matthias Leach and Cade Uluave.",
+        "page": 11,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "BYU.pdf",
+        "source_team": "BYU Cougars"
+      },
+      {
+        "fact_id": 23,
+        "fact": "BYU averaged 262.7 rushing yards per game through three games and exceeded 300 rushing yards against both Utah Tech and Colorado State.",
+        "page": 10,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "BYU.pdf",
+        "source_team": "BYU Cougars"
+      },
+      {
+        "fact_id": 25,
+        "fact": "BYU had allowed two sacks and averaged one tackle for loss allowed per game through its first three contests.",
+        "page": 10,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "BYU.pdf",
+        "source_team": "BYU Cougars"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "BYU Cougars",
+      "model_side": "BYU",
+      "opponent_full": "Notre Dame Fighting Irish",
+      "opponent": "Notre Dame",
+      "model_prediction": 9.0,
+      "market_line": 10.0,
+      "best_available_line": 9.5,
+      "best_available_price": "100",
+      "cover_probability": 0.53545615,
+      "edge": 0.03545615,
+      "bet_status": "BET"
+    }
+  }
+}

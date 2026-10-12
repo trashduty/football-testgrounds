@@ -1,0 +1,682 @@
+{
+  "game": "Washington Huskies@Purdue Boilermakers",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:08:18.283750+00:00",
+  "model_prediction": -0.5,
+  "market_line": 3.0,
+  "best_line": 3.5,
+  "best_price": "-114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.58595619,
+  "edge": 0.0532459096261682,
+  "bet_short": "Washington",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our view starts with Purdue\u2019s offense against Washington\u2019s defense. Our longer-run numbers show a major Washington advantage in rush efficiency, and they also favor Washington in preventing scoring opportunities. The early results fit that profile without proving it: Washington allowed 289.3 yards and 16.8 points per game through four games, while opponents converted only 29 percent of their third downs. For us, that makes it difficult to price Purdue as the clearly stronger side.\n\nThe more interesting part is that Washington also owns the better scoring-opportunity matchup on the other side. Demond Williams Jr. had thrown for 1,129 yards and rushed for 165 through four games, giving Washington multiple ways to move the ball. The concern is protection: Minnesota held Washington to 40 rushing yards and recorded seven sacks, while Purdue produced three sacks and eight tackles for loss in its opener. We are not ignoring that volatility, but our case is less about Washington controlling every snap and more about the matchup giving Washington enough paths to outperform the market\u2019s expectation.",
+    "matchup_to_watch": "We will be watching Purdue\u2019s ground game against Washington\u2019s rush defense. Purdue ran for 177 yards in its opener, but our broader efficiency numbers still rate its rushing attack poorly and Washington\u2019s run defense highly. That disagreement matters because if Washington controls this phase, Purdue may have to place more of the offensive burden on starting quarterback Ryan Browne and the passing game.",
+    "guide_status": [
+      "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Guide for Washington Huskies was found but may not match the current opponent. The guide is for Washington's Oct. 3, 2026 road game against USC, as stated throughout the page headers and opening game description. Washington's schedule lists the Purdue game for Oct. 16, 2026, after games against USC and Iowa.",
+      "Found guide for Purdue Boilermakers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Purdue.pdf",
+      "Guide for Purdue Boilermakers was found but may not match the current opponent. The document is Purdue's 2026 Game 2 notes for the Sept. 12 matchup against Wake Forest. Washington is listed later on Purdue's schedule for Oct. 16, so this is not the Week 7 Purdue-Washington game guide."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Washington Huskies",
+        "opponent": "Purdue Boilermakers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Washington's Oct. 3, 2026 road game against USC, as stated throughout the page headers and opening game description. Washington's schedule lists the Purdue game for Oct. 16, 2026, after games against USC and Iowa.",
+        "recent_game": [
+          {
+            "fact": "Washington fell to Minnesota 27-24 on Sept. 26, dropping to 3-1 overall and 0-1 in Big Ten play.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington produced 279 total yards against Minnesota, including 40 rushing yards on 27 attempts and 239 passing yards.",
+            "page": 19,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota recorded seven sacks for 34 yards and nine tackles for loss against Washington.",
+            "page": 20,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington's defense allowed Minnesota 329 total yards: 125 rushing and 204 passing. Minnesota scored three passing touchdowns and no rushing touchdowns.",
+            "page": 20,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dezmen Roebuck led Washington against Minnesota with seven receptions for 87 yards and one touchdown.",
+            "page": 21,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Washington defensive coordinator Ryan Walters previously served as Purdue's head coach.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Demond Williams Jr. completed 18 of 28 passes for 239 yards, two touchdowns and two interceptions against Minnesota; he was sacked seven times.",
+            "page": 21,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Williams had completed 95 of 137 passes for 1,129 yards, seven touchdowns and three interceptions while rushing for 165 yards and two touchdowns.",
+            "page": 15,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Williams had 1,058 career rushing yards, making him the third Washington quarterback to surpass 1,000 behind Jake Locker and Marques Tuiasosopo.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup quarterback Elijah Brown transferred to Washington in January 2026 after two seasons at Stanford.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "First-year running back Brian Bonner Jr. started each of Washington's three most recent games and had 126 rushing yards on 22 carries through three appearances.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dezmen Roebuck had a team-high 30 receptions for 308 yards through four games.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington's top four receivers by yardage through four games were Roebuck with 308 yards, Chris Lawson with 212, tight end Baron Naone with 205 and Rashid Williams with 184.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Rashid Williams started all four 2026 games after missing the final 11 games of 2025 because of injury; he had 11 catches for 184 yards and a team-high three receiving touchdowns.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Washington started four first-year players in the opener\u2014left tackle Kodi Greene, edge Ramzak Fruean, defensive tackle Derek Colman-Brusa and defensive back Jeron Jones\u2014and all four plus first-year running back Brian Bonner Jr. started against Minnesota.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Alex McLaughlin led Washington with 25 tackles, four tackles for loss, two sacks and two interceptions through four games.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Jacob Manu had 24 tackles, three tackles for loss and two sacks through four games.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "First-year defenders Derek Colman-Brusa and Ramzak Fruean started each of Washington's first four games.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jedd Fisch calls Washington's offensive plays.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington promoted JP Losman from a 2025 quality-control role to quarterbacks coach for 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington added longtime NFL player and coach Matt Cavanaugh as senior offensive assistant for 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington's defensive staff remained unchanged from 2025 and continued to be led by defensive coordinator Ryan Walters.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Starting cornerback Emmanuel Karnley missed the Eastern Washington and Minnesota games with an injury after starting the first two games.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Offensive lineman Landen Hatchett had not played in 2026 after missing the final four games of 2025 with an injury, although he was listed as an option at center on the USC-week depth chart.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive lineman Elinneus Davis returned to start against Minnesota after missing the Utah State and Eastern Washington games.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Edge Logan George missed the Eastern Washington game with an injury but returned to play against Minnesota.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Rahim Wright Jr. returned to game action against Eastern Washington after missing the 2025 season because of injury.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "low"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Washington averaged 395.8 total yards, 288.5 passing yards and 107.3 rushing yards per game.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington had converted 17 of 50 third downs, a 34 percent rate, through four games.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington had allowed 10 sacks through four games, including seven against Minnesota.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington had scored on 19 of 22 red-zone possessions but converted only 13 of those possessions into touchdowns.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Washington allowed 289.3 total yards and 16.8 points per game through four games.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington's defense had six interceptions, eight total takeaways and nine sacks through four games.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents had converted 15 of 52 third downs, a 29 percent rate, against Washington.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington had generated 24 points from eight takeaways while allowing seven points from three giveaways.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Tyler Robles had made seven of nine field-goal attempts and all 13 extra points through four games, with a long field goal of 48 yards.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Hunter Green averaged 46.3 yards on 18 punts, with six punts of at least 50 yards and six placed inside the 20.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Rahshawn Clark handled both punt and kickoff returns and averaged 5.8 yards per punt return and 19.4 yards per kickoff return.",
+            "page": 15,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Washington was scheduled to play at Purdue on Oct. 16, 2026, following games at USC and against Iowa.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington's offensive line started Kodi Greene at left tackle, John Mills at left guard, Kolt Dieterich at center, Geirean Hatchett at right guard and Drew Azzopardi at right tackle in each of the three games preceding USC.",
+            "page": 18,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "First-year left tackle Kodi Greene started each of Washington's first four games, while center Kolt Dieterich was a 2026 transfer who started all 12 games for Sam Houston State in 2025.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Washington.pdf"
+      },
+      {
+        "source_team": "Purdue Boilermakers",
+        "opponent": "Washington Huskies",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Purdue's 2026 Game 2 notes for the Sept. 12 matchup against Wake Forest. Washington is listed later on Purdue's schedule for Oct. 16, so this is not the Week 7 Purdue-Washington game guide.",
+        "recent_game": [
+          {
+            "fact": "Purdue opened the 2026 season with a 44-19 home victory over Indiana State on Sept. 4.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue produced 523 yards of total offense against Indiana State, its first 500-yard game since Oct. 12, 2024, at Illinois.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Sixteen players made their first Purdue starts and 38 players made their Purdue debuts in the Indiana State victory.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Purdue committed no turnovers, gained one takeaway and possessed the ball for 37:22 against Indiana State.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions against Indiana State.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Browne's performance against Indiana State was his fourth career 300-yard passing game.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Browne started all 12 games in 2025 and entered the second game of 2026 with 15 career starts for Purdue.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Evans Chuba and Bennett Meredith competed for the backup quarterback role during the spring and summer; Meredith previously started at Northwestern in 2023 but had not played in the following two seasons.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "True freshman Brock Brownfield became the first true freshman offensive lineman to start a Purdue season opener since freshmen became eligible in 1972.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Joey Tanona was the only returning offensive lineman who started all 12 games in 2025; Ethan Trent made six starts and Jude McCoskey played in 11 games that season.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue added five transfer offensive linemen, including Boaz Stanley, Nuku Mafi and Micah Banuelos. Entering 2026, Stanley had 21 career starts, Mafi had 12 and Banuelos had five.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer running back Fame Ijeboi rushed 11 times for 87 yards and one touchdown and caught two passes for 30 yards in his Purdue debut.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "FAU transfer Asaad Waseem caught six passes for 107 yards and one touchdown in his Purdue debut.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer Xavier Townsend caught seven passes for 47 yards and returned three punts for 24 yards in his Purdue debut.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The running back room replaced Devin Mockobee, who graduated after leading Purdue in rushing four times and finishing with 2,987 career rushing yards.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "FIU transfer Mister Clark recorded five solo tackles, two tackles for loss, one sack and one pass breakup against Indiana State.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer defensive back Don Saunders returned an interception 35 yards for a touchdown against Indiana State, Purdue's first pick-six since 2022.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Charles Correa returned after starting all 12 games in 2025 and recording 96 tackles, 7.5 tackles for loss and three sacks.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue added transfer defensive linemen Rodney Lora, Curt Neal and Wisdom Simms, who brought a combined 81 games of college experience, including 60 at the Power Four level.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer linebackers Jojo Hayden and Anthony Speca made their Purdue debuts against Indiana State; Hayden recorded four tackles and one tackle for loss, while Speca made two tackles.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kevin Kane returned to Purdue as defensive coordinator and linebackers coach after spending 2025 as a defensive analyst at Minnesota; he previously coordinated Purdue's defense in 2023 and 2024.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Zach Crabtree joined Purdue as offensive line coach after coaching at Fresno State in 2025 and previously working with offensive coordinator Josh Henson at USC.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornell Ford moved from wide receivers coach to running backs coach for 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bilal Marshall was promoted from offensive analyst to wide receivers coach during the offseason.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Tight end Kylan Fox suffered an injury at the start of training camp and was expected to miss the entire 2026 season.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receivers De'Nylon Morrissette and Chauncey Magwood returned after missing the 2025 season because of injuries.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end George Burhenn returned against Indiana State after 349 days without game action and caught two passes for 43 yards.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Purdue passed for 346 yards and rushed for 177 yards in the season-opening win over Indiana State.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Five different Purdue players scored touchdowns against Indiana State, and all five recorded their first points for Purdue.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Browne completed 79.3 percent of his passes and averaged 10.9 yards per attempt in the opener.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Purdue held Indiana State to 12 first downs and 284 total yards.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense recorded three sacks and eight tackles for loss against Indiana State.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdue allowed 66 rushing yards against Indiana State.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "True freshman kicker Jacobo Echeverria Lozano made all three field-goal attempts and all five extra-point attempts against Indiana State.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Echeverria Lozano's three field goals against Indiana State were the most in a game by a Purdue freshman since at least 1995.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo transfer Dylan Drennan had one punt for 54 yards with a 49-yard net in his Purdue debut.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Purdue entered its second game of 2026 with a 1-0 record under second-year head coach Barry Odom.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Purdue added 32 transfers and 22 freshmen for the 2026 season; 19 of the transfers came from Power Four programs.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Purdue.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Purdue rushing offense vs Washington rush defense",
+        "off_team": "Purdue",
+        "def_team": "Washington",
+        "off_rank": 111,
+        "def_rank": 12,
+        "stat": "rush EPA",
+        "rank_gap": 99,
+        "direction": "defense_advantage",
+        "matchup_score": 199
+      },
+      {
+        "dimension": "Purdue scoring-opportunity creation vs Washington scoring-opportunity prevention",
+        "off_team": "Purdue",
+        "def_team": "Washington",
+        "off_rank": 94,
+        "def_rank": 30,
+        "stat": "Eckel rate",
+        "rank_gap": 64,
+        "direction": "defense_advantage",
+        "matchup_score": 164
+      },
+      {
+        "dimension": "Washington scoring-opportunity creation vs Purdue scoring-opportunity prevention",
+        "off_team": "Washington",
+        "def_team": "Purdue",
+        "off_rank": 54,
+        "def_rank": 136,
+        "stat": "Eckel rate",
+        "rank_gap": 82,
+        "direction": "mixed",
+        "matchup_score": 82
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Washington produced 279 total yards against Minnesota, including 40 rushing yards on 27 attempts and 239 passing yards.",
+        "page": 19,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Washington.pdf",
+        "source_team": "Washington Huskies"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Minnesota recorded seven sacks for 34 yards and nine tackles for loss against Washington.",
+        "page": 20,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Washington.pdf",
+        "source_team": "Washington Huskies"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Williams had completed 95 of 137 passes for 1,129 yards, seven touchdowns and three interceptions while rushing for 165 yards and two touchdowns.",
+        "page": 15,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Washington.pdf",
+        "source_team": "Washington Huskies"
+      },
+      {
+        "fact_id": 31,
+        "fact": "Washington allowed 289.3 total yards and 16.8 points per game through four games.",
+        "page": 14,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Washington.pdf",
+        "source_team": "Washington Huskies"
+      },
+      {
+        "fact_id": 33,
+        "fact": "Opponents had converted 15 of 52 third downs, a 29 percent rate, against Washington.",
+        "page": 14,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Washington.pdf",
+        "source_team": "Washington Huskies"
+      },
+      {
+        "fact_id": 45,
+        "fact": "Starting quarterback Ryan Browne completed 23 of 29 passes for 317 yards, three touchdowns and no interceptions against Indiana State.",
+        "page": 12,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      },
+      {
+        "fact_id": 68,
+        "fact": "Purdue passed for 346 yards and rushed for 177 yards in the season-opening win over Indiana State.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      },
+      {
+        "fact_id": 72,
+        "fact": "The defense recorded three sacks and eight tackles for loss against Indiana State.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Purdue.pdf",
+        "source_team": "Purdue Boilermakers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Washington Huskies",
+      "model_side": "Washington",
+      "opponent_full": "Purdue Boilermakers",
+      "opponent": "Purdue",
+      "model_prediction": -0.5,
+      "market_line": 3.0,
+      "best_available_line": 3.5,
+      "best_available_price": "-114",
+      "cover_probability": 0.58595619,
+      "edge": 0.0532459096261682,
+      "bet_status": "BET"
+    }
+  }
+}

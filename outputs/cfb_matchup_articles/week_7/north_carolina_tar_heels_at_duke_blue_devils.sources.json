@@ -1,0 +1,27 @@
+{
+  "game": "North Carolina Tar Heels@Duke Blue Devils",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:55:39.723979+00:00",
+  "model_prediction": -4.5,
+  "market_line": -3.5,
+  "best_line": -3.5,
+  "best_price": "-102",
+  "best_book": "FanDuel",
+  "cover_probability": 0.49730427,
+  "edge": -0.0076462250495049,
+  "bet_short": "Duke",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for North Carolina Tar Heels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Carolina.pdf",
+      "No guide found for Duke Blue Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Duke.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

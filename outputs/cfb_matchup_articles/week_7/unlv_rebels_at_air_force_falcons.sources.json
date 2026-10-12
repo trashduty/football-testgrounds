@@ -1,0 +1,27 @@
+{
+  "game": "UNLV Rebels@Air Force Falcons",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:03:52.673055+00:00",
+  "model_prediction": -2.5,
+  "market_line": -1.5,
+  "best_line": 1.0,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.55758768,
+  "edge": 0.0337781561904761,
+  "bet_short": "Air Force",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf",
+      "No guide found for Air Force Falcons. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Air Force.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

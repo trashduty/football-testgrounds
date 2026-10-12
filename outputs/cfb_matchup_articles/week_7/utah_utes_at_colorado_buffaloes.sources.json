@@ -1,0 +1,375 @@
+{
+  "game": "Utah Utes@Colorado Buffaloes",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:04:42.379922+00:00",
+  "model_prediction": -17.0,
+  "market_line": -15.5,
+  "best_line": -15.5,
+  "best_price": "-108",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51638479,
+  "edge": -0.0028459792307692,
+  "bet_short": "Utah",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers lean further toward Utah because the strongest matchup advantages appear on both sides of the ball. Utah\u2019s passing efficiency is positioned well against a Colorado pass defense that has struggled badly by our metrics. Devon Dampier completed 53 of 74 passes for 690 yards, seven touchdowns and one interception through three games, while also contributing as a runner. We also find the offensive-line performance notable: despite replacing all five starters, Utah used the same five linemen in each of its first three games and allowed only two sacks.\n\nThe other side of the matchup matters just as much. Colorado has struggled to create scoring opportunities, while Utah has been effective at preventing them and limiting opposing passing efficiency. Utah allowed 24 total points through three games, and its pass-efficiency defense ranked second nationally over that span. That early production is context rather than proof, but it supports what our broader matchup numbers are showing. The issue for us is price: the market already accounts for most of those advantages, leaving too little separation to justify getting involved.",
+    "matchup_to_watch": "We are watching Utah\u2019s passing game against Colorado\u2019s pass defense. Dampier\u2019s efficiency and mobility give Utah multiple ways to stress this matchup, and Braden Pegan\u2019s eight-catch, 122-yard, two-touchdown performance against Utah State showed the production available on the outside. If Colorado cannot disrupt Dampier behind a line that has protected him well, the matchup our numbers identify as Utah\u2019s clearest offensive advantage becomes difficult to offset.",
+    "guide_status": [
+      "Found guide for Utah Utes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah.pdf",
+      "Guide for Utah Utes was found but may not match the current opponent. The guide is explicitly Utah's Game 4 notes for the Sept. 26, 2026 road game against Iowa State, not the Week 7 game at Colorado scheduled for Oct. 17. Current Utah information and clearly relevant prior Colorado matchup notes are extracted, but Iowa State-specific material is excluded.",
+      "No guide found for Colorado Buffaloes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Colorado.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Utah Utes",
+        "opponent": "Colorado Buffaloes",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly Utah's Game 4 notes for the Sept. 26, 2026 road game against Iowa State, not the Week 7 game at Colorado scheduled for Oct. 17. Current Utah information and clearly relevant prior Colorado matchup notes are extracted, but Iowa State-specific material is excluded.",
+        "recent_game": [
+          {
+            "fact": "Utah defeated Utah State 33-0 on Sept. 19 to improve to 3-0.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Devon Dampier completed 22 of 32 passes for 253 yards, two touchdowns and no interceptions against Utah State.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Braden Pegan caught eight passes for 122 yards and two touchdowns against Utah State, tying career highs in receptions and receiving touchdowns.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Daniel Bray rushed three times for 82 yards against Utah State, including a 63-yard touchdown that was Utah's longest play through three games.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Backup quarterback Byrd Ficklin made his first collegiate start against Colorado in 2025 and rushed for 151 yards, then a Utah single-game record for a quarterback.",
+            "page": 11,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Wayshawn Parker rushed 10 times for a season-high 145 yards against Colorado in 2025, his first 100-yard game as a Ute.",
+            "page": 12,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Daniel Bray made his first collegiate start against Colorado in 2025.",
+            "page": 12,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Devon Dampier is Utah's starting quarterback; through three games he had completed 53 of 74 passes for 690 yards, seven touchdowns and one interception while rushing for 114 yards and two touchdowns.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Dampier ranked second in the Big 12 with a 178.5 passing-efficiency rating and had thrown multiple touchdown passes in nine consecutive games.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Dampier was 13-2 as Utah's starter and had 28 career starts at the time of the guide.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup Byrd Ficklin had completed 9 of 17 passes for 166 yards and two touchdowns and rushed 15 times for 117 yards and one touchdown through three games.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah used Ficklin at quarterback, receiver and out of the backfield against Arkansas; he recorded 40 passing yards, 24 rushing yards and 11 receiving yards.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Utah lost all five starting offensive linemen from 2025, including four players who entered the NFL, but started the same five linemen in each of its first three 2026 games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah's first-three-game offensive line consisted of Zereoue Williams at left tackle, Solatoa Moea'i at left guard, Alex Harrison at center, Roger Alderman at right guard and Montana State transfer Cedric Jefferson at right tackle.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The offensive line allowed two sacks through three games, tied for second-fewest in the Big 12 and 11th-fewest nationally.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah added Utah State transfer Braden Pegan, who led the Utes through three games with 235 receiving yards and three receiving touchdowns.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Noah Bennee returned to Utah after two seasons at Weber State and had five catches for 148 yards and two touchdowns through three games.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Wayshawn Parker had 154 rushing yards, three rushing touchdowns and three receiving touchdowns through three games.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [],
+        "coaching_changes": [
+          {
+            "fact": "Morgan Scalley is in his first full season as Utah's head coach after serving as the program's defensive coordinator from 2016-25.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Kevin McGiven became Utah's offensive coordinator for 2026 and calls the offense from the booth.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Colton Swan is Utah's defensive coordinator and linebackers coach, while Sharrieff Shah serves as special-teams coordinator and cornerbacks coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jordan Gross is Utah's offensive line coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Tight end Hunter Andrews returned in 2026 after a season-ending injury limited him to four games in 2025.",
+            "page": 15,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Utah averaged 518.0 total yards and 47.3 points through three games, ranking 11th and ninth nationally, respectively.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah had scored at least 30 points in nine consecutive games dating to 2025, the longest active FBS streak stated in the guide.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Utah averaged 232.7 rushing yards through three games and had produced 22 runs of at least 10 yards.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah converted 60.5 percent of its third downs through three games, ranking sixth nationally.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Utah had a 100-yard receiver in two of its first three games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Utah allowed 24 total points through three games, an average of 8.0 per game that ranked sixth nationally and first in the Big 12.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah allowed 75.0 rushing yards per game through three games, ranking 15th nationally and second in the Big 12 after allowing 181.2 per game in 2025.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah's total defense allowed 239.3 yards per game through three games, ranking 14th nationally.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah's pass-efficiency defense rating of 81.04 ranked second nationally through three games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Utah's defense used a 4-2 base alignment.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Utah ranked second nationally in net punting at 48.4 yards and fourth nationally in punt-return defense at minus-0.5 yards through three games.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Utah's 2026 roster returned 12 starters: four on offense, five on defense and three specialists.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Quarterback Devon Dampier, offensive lineman Alex Harrison, running back Wayshawn Parker, linebackers Johnathan Hall and Trey Reynolds, and safety Nate Ritchie were voted team captains.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Utah.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Utah passing offense vs Colorado pass defense",
+        "off_team": "Utah",
+        "def_team": "Colorado",
+        "off_rank": 11,
+        "def_rank": 132,
+        "stat": "pass EPA",
+        "rank_gap": 121,
+        "direction": "offense_advantage",
+        "matchup_score": 221
+      },
+      {
+        "dimension": "Colorado scoring-opportunity creation vs Utah scoring-opportunity prevention",
+        "off_team": "Colorado",
+        "def_team": "Utah",
+        "off_rank": 133,
+        "def_rank": 26,
+        "stat": "Eckel rate",
+        "rank_gap": 107,
+        "direction": "defense_advantage",
+        "matchup_score": 207
+      },
+      {
+        "dimension": "Colorado passing offense vs Utah pass defense",
+        "off_team": "Colorado",
+        "def_team": "Utah",
+        "off_rank": 104,
+        "def_rank": 11,
+        "stat": "pass EPA",
+        "rank_gap": 93,
+        "direction": "defense_advantage",
+        "matchup_score": 193
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 3,
+        "fact": "Braden Pegan caught eight passes for 122 yards and two touchdowns against Utah State, tying career highs in receptions and receiving touchdowns.",
+        "page": 14,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Utah.pdf",
+        "source_team": "Utah Utes"
+      },
+      {
+        "fact_id": 5,
+        "fact": "Devon Dampier is Utah's starting quarterback; through three games he had completed 53 of 74 passes for 690 yards, seven touchdowns and one interception while rushing for 114 yards and two touchdowns.",
+        "page": 10,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Utah.pdf",
+        "source_team": "Utah Utes"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Utah lost all five starting offensive linemen from 2025, including four players who entered the NFL, but started the same five linemen in each of its first three 2026 games.",
+        "page": 9,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Utah.pdf",
+        "source_team": "Utah Utes"
+      },
+      {
+        "fact_id": 12,
+        "fact": "The offensive line allowed two sacks through three games, tied for second-fewest in the Big 12 and 11th-fewest nationally.",
+        "page": 9,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Utah.pdf",
+        "source_team": "Utah Utes"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Utah allowed 24 total points through three games, an average of 8.0 per game that ranked sixth nationally and first in the Big 12.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Utah.pdf",
+        "source_team": "Utah Utes"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Utah's pass-efficiency defense rating of 81.04 ranked second nationally through three games.",
+        "page": 2,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Utah.pdf",
+        "source_team": "Utah Utes"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Utah Utes",
+      "model_side": "Utah",
+      "opponent_full": "Colorado Buffaloes",
+      "opponent": "Colorado",
+      "model_prediction": -17.0,
+      "market_line": -15.5,
+      "best_available_line": -15.5,
+      "best_available_price": "-108",
+      "cover_probability": 0.51638479,
+      "edge": -0.0028459792307692,
+      "bet_status": "PASS"
+    }
+  }
+}

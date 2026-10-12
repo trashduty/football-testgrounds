@@ -1,0 +1,352 @@
+{
+  "game": "Cincinnati Bearcats@West Virginia Mountaineers",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:40:08.599885+00:00",
+  "model_prediction": -3.0,
+  "market_line": -2.0,
+  "best_line": -1.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51914395,
+  "edge": -0.0046655738095238,
+  "bet_short": "West Virginia",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers lean toward West Virginia because we see more passing upside than its run-heavy profile might suggest. West Virginia logged 229 rushes against only 65 pass attempts through four games, but it also averaged 17 yards per completion and converted 53.2% of its third downs. Against a Cincinnati pass defense our metrics rate as vulnerable, that gives West Virginia another route to sustaining drives and creating explosive plays.\n\nThe concern for us is the other side of the matchup. Cincinnati has been effective at creating scoring opportunities, while West Virginia allowed 282.3 passing yards per game through four contests. Oklahoma State then threw for 389 yards with five completions gaining at least 27 yards. We are not treating one game as proof, but it reinforces a broader weakness Cincinnati can attack. That defensive vulnerability keeps our modest disagreement with the market from becoming enough value for a wager.",
+    "matchup_to_watch": "We are watching West Virginia\u2019s passing game against Cincinnati\u2019s pass defense. The offense has been built around the ground game, but our matchup numbers suggest West Virginia may not need to remain quite so run-dependent here. The question is whether it can turn favorable passing situations into enough explosive gains to offset the opportunities its own defense is likely to allow.",
+    "guide_status": [
+      "No guide found for Cincinnati Bearcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Cincinnati.pdf",
+      "Found guide for West Virginia Mountaineers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/West Virginia.pdf",
+      "Guide for West Virginia Mountaineers was found but may not match the current opponent. The guide is for West Virginia's Oct. 3, 2026 road game against Iowa State. Cincinnati is listed later on the schedule for Oct. 17, after the Oct. 10 Arizona game. Current West Virginia information is retained, but Iowa State-specific material is excluded."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "West Virginia Mountaineers",
+        "opponent": "Cincinnati Bearcats",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for West Virginia's Oct. 3, 2026 road game against Iowa State. Cincinnati is listed later on the schedule for Oct. 17, after the Oct. 10 Arizona game. Current West Virginia information is retained, but Iowa State-specific material is excluded.",
+        "recent_game": [
+          {
+            "fact": "West Virginia lost 41-24 to Oklahoma State on Sept. 26, falling to 3-1 overall and 0-1 in the Big 12.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia rushed 66 times for 335 yards against Oklahoma State but completed 10 of 22 passes for 132 yards with one interception.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Cook rushed 29 times for 193 yards against Oklahoma State, including a 75-yard run.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Quarterback Michael Hawkins Jr. rushed 28 times for 103 yards and three touchdowns against Oklahoma State while passing for 132 yards.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia allowed Oklahoma State quarterback Drew Mestemaker to pass for 389 yards and three touchdowns, including completions of 52, 48, 48, 28 and 27 yards.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oklahoma State outscored West Virginia 13-0 in the fourth quarter.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Michael Hawkins Jr. started each of West Virginia's first four games of 2026.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hawkins and Cam Cook each exceeded 100 rushing yards in three of West Virginia's first four games.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hawkins scored three rushing touchdowns in consecutive games against Virginia and Oklahoma State.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hawkins scored at least two rushing touchdowns in three consecutive games and a rushing touchdown in each of West Virginia's first four games.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "The current depth chart lists Hawkins or Scotty Fox Jr. at quarterback, followed by Jyron Hughley or Max Brown.",
+            "page": 15,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "West Virginia used the same offensive starting group in each of its first four games: receivers Jaden Bray, John Neider and DJ Epps; tight end Josh Sapp; linemen Kevin Brown, Nick Krahe, Wes King, Amare Grayson and Carsten Casady; running back Cam Cook; and quarterback Michael Hawkins Jr.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman left tackle Kevin Brown started each of West Virginia's first four games.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The starting offensive line through four games consisted of Kevin Brown at left tackle, Nick Krahe at left guard, Wes King at center, Amare Grayson at right guard and Carsten Casady at right tackle.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Cook had 551 rushing yards and three 100-yard games through four games, based on listed performances of 142 yards against Coastal Carolina, 93 against UT Martin, 123 against Virginia and 193 against Oklahoma State.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "DJ Epps recorded West Virginia's only 100-yard receiving game through four contests, catching two passes for 112 yards and a touchdown against UT Martin.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "West Virginia's current defensive depth chart lists Zeke Durham-Campbell and Harper Holloman on the edges, Corey McIntyre Jr. at defensive tackle, Nate Gabriel at nose guard, Ben Cutter and Ashton Woods at linebacker, and Geimere Latimer II at nickel/safety.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The current secondary depth chart lists Chams Diagne and Nick Taylor at cornerback, Andrew Powdrell at free safety and Kamari Wilson at bandit safety.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kamari Wilson intercepted a pass against Oklahoma State, West Virginia's only takeaway in the game.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Geimere Latimer II recorded two tackles for loss and forced a fumble against Oklahoma State.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, West Virginia had run 229 times and attempted 65 passes, gaining 1,179 rushing yards and 663 passing yards.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia averaged 294.8 rushing yards, 165.8 passing yards, 460.5 total yards and 36.3 points per game through four games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia rushed for at least 200 yards in each of its first four games, its first four-game streak at that level since 2017.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Mountaineers converted 53.2% of their third downs through four games.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia averaged 17.0 yards per completion through four games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "West Virginia allowed 426.5 total yards per game through four games, including 282.3 passing yards and 144.3 rushing yards per game.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense recorded 10 sacks for 75 yards and allowed opponents to convert 17 of 52 third downs through four games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "West Virginia recovered three fumbles and generated five total takeaways through four games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents scored on 10 of 14 red-zone opportunities against West Virginia through four games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Jack Cassidy made his only field-goal attempt and all three PAT attempts against Oklahoma State.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cassidy made all four of his field-goal attempts through four games.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bryan Hansen punted 17 times for a 42.71-yard average, with four punts inside the 20 and four punts of at least 50 yards.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "West Virginia allowed 16.0 yards per kickoff return through four games.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "West Virginia was 3-1 overall and 0-1 in Big 12 play when this guide was issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "West Virginia.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Cincinnati scoring-opportunity creation vs West Virginia scoring-opportunity prevention",
+        "off_team": "Cincinnati",
+        "def_team": "West Virginia",
+        "off_rank": 23,
+        "def_rank": 109,
+        "stat": "Eckel rate",
+        "rank_gap": 86,
+        "direction": "offense_advantage",
+        "matchup_score": 186
+      },
+      {
+        "dimension": "West Virginia passing offense vs Cincinnati pass defense",
+        "off_team": "West Virginia",
+        "def_team": "Cincinnati",
+        "off_rank": 35,
+        "def_rank": 112,
+        "stat": "pass EPA",
+        "rank_gap": 77,
+        "direction": "offense_advantage",
+        "matchup_score": 177
+      },
+      {
+        "dimension": "Cincinnati passing offense vs West Virginia pass defense",
+        "off_team": "Cincinnati",
+        "def_team": "West Virginia",
+        "off_rank": 48,
+        "def_rank": 134,
+        "stat": "pass EPA",
+        "rank_gap": 86,
+        "direction": "mixed",
+        "matchup_score": 86
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 5,
+        "fact": "West Virginia allowed Oklahoma State quarterback Drew Mestemaker to pass for 389 yards and three touchdowns, including completions of 52, 48, 48, 28 and 27 yards.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 21,
+        "fact": "Through four games, West Virginia had run 229 times and attempted 65 passes, gaining 1,179 rushing yards and 663 passing yards.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 24,
+        "fact": "The Mountaineers converted 53.2% of their third downs through four games.",
+        "page": 9,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 25,
+        "fact": "West Virginia averaged 17.0 yards per completion through four games.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      },
+      {
+        "fact_id": 26,
+        "fact": "West Virginia allowed 426.5 total yards per game through four games, including 282.3 passing yards and 144.3 rushing yards per game.",
+        "page": 2,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "West Virginia.pdf",
+        "source_team": "West Virginia Mountaineers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "West Virginia Mountaineers",
+      "model_side": "West Virginia",
+      "opponent_full": "Cincinnati Bearcats",
+      "opponent": "Cincinnati",
+      "model_prediction": -3.0,
+      "market_line": -2.0,
+      "best_available_line": -1.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.51914395,
+      "edge": -0.0046655738095238,
+      "bet_status": "PASS"
+    }
+  }
+}

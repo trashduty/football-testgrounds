@@ -1,0 +1,457 @@
+{
+  "game": "Arizona State Sun Devils@Texas Tech Red Raiders",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:35:55.645474+00:00",
+  "model_prediction": -15.5,
+  "market_line": -14.5,
+  "best_line": -14.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.49898328,
+  "edge": -0.00101672,
+  "bet_short": "Texas Tech",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers lean slightly more toward Texas Tech than the market, largely because Arizona State may have trouble sustaining drives. We rate Texas Tech among the nation\u2019s best at preventing scoring opportunities and defending the run, while Arizona State has struggled in both areas. The Sun Devils converted only 29.6 percent of their third downs through four games, and their rushing average had fallen from 193.62 yards per game in 2025 to 149.0. We are not reacting to one recent result; the broader efficiency profile creates the concern.\n\nThe other side of the matchup also favors Texas Tech. Our numbers show a significant advantage for its offense in creating scoring opportunities against Arizona State\u2019s defense. The Sun Devils entered the season with four new starters in the secondary and allowed 15 plays of at least 20 yards through four games. That gives Texas Tech a plausible route to separation, but the market is already accounting for most of it.\n\nFor us, that last point determines the decision. We see football reasons to favor Texas Tech more than the market does, but the disagreement is too narrow to create enough value at the available price. The matchup supports our lean, not a wager.",
+    "matchup_to_watch": "We are watching Arizona State\u2019s passing game against Texas Tech\u2019s scoring-opportunity prevention. If the Sun Devils cannot run efficiently, Cutter Boley will carry more of the burden after throwing for 1,040 yards with 10 touchdowns and three interceptions through four games. Reed Harris gives him a legitimate playmaker after producing 499 receiving yards and five touchdowns over that span.\n\nThe useful question is whether Arizona State can turn completions into drive-changing gains before Texas Tech ends possessions. The Sun Devils averaged 8.1 yards after the catch per reception through four games, so there is some volatility here. If Texas Tech contains that element, our projected game script becomes much easier to reach.",
+    "guide_status": [
+      "Found guide for Arizona State Sun Devils: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona State.pdf",
+      "Guide for Arizona State Sun Devils was found but may not match the current opponent. The guide is explicitly for Arizona State's Game 5 matchup against Hawai\u2018i on Oct. 10, 2026. Texas Tech is listed as Arizona State's following opponent on Oct. 17 in Lubbock, so this is not the Texas Tech matchup guide.",
+      "No guide found for Texas Tech Red Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas Tech.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Arizona State Sun Devils",
+        "opponent": "Texas Tech Red Raiders",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly for Arizona State's Game 5 matchup against Hawai\u2018i on Oct. 10, 2026. Texas Tech is listed as Arizona State's following opponent on Oct. 17 in Lubbock, so this is not the Texas Tech matchup guide.",
+        "recent_game": [
+          {
+            "fact": "Arizona State fell to 2-2 overall and 1-1 in the Big 12 after a 55-19 home loss to Baylor on Oct. 3.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State gained 409 total yards against Baylor, including 310 passing yards, but allowed 564 total yards, 320 passing yards and 244 rushing yards.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Cutter Boley completed 25 of 43 passes for 304 yards, one touchdown and one interception against Baylor.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Reed Harris caught seven passes for 125 yards against Baylor, while Omarion Miller had five catches for 85 yards and a touchdown.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Owen Long recorded a season-high 14 tackles against Baylor; Martell Hughes had eight tackles and two tackles for loss, and C.J. Fite had four tackles, 1.5 tackles for loss and one sack.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Texas Tech was ranked No. 11 and stood 5-0 overall and 2-0 in the Big 12 through Oct. 3; the Red Raiders had a bye on Oct. 10 before hosting Arizona State on Oct. 17.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State's Oct. 17 game against Texas Tech is scheduled for Lubbock, Texas.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Kentucky transfer Cutter Boley was named Arizona State's starting quarterback before the 2026 opener.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Boley completed 78 of 127 passes for 1,040 yards, 10 touchdowns and three interceptions while adding 45 rushing yards and one rushing touchdown.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Boley threw at least one touchdown pass in each of Arizona State's first four games.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State averaged 272.8 passing yards per game through Oct. 3, ranking fifth in the Big 12.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Arizona State's 2026 roster includes 30 collegiate transfers and 18 incoming freshmen, with the 48 newcomers comprising 44.9 percent of the 107-player roster.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Reed Harris led Arizona State through four games with 26 receptions for 499 yards and five touchdowns, including three 100-yard receiving games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Harris ranked first in the Big 12 in receiving yards and receiving yards per game through Oct. 3, and his 11 receptions of at least 20 yards also led the conference.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado transfer Omarion Miller entered the season after leading Colorado in 2025 with 45 receptions, 808 receiving yards and eight touchdowns.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wade Helton was the only returning Arizona State offensive player who started at least six games in 2025; he played 422 snaps at center that season.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State's offensive line entered 2026 with 33 combined career starts, including 14 from Luke Baklenko.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Guard Maki Stewart had allowed one pressure through four games, tied for the second-fewest in the Big 12.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State's interior offensive linemen had allowed nine quarterback pressures through four games, the second-lowest total in the Big 12.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive lineman C.J. Fite had started 31 consecutive games and recorded 83 tackles, 14.5 tackles for loss and five sacks in 42 career games.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Owen Long led Arizona State with 39 tackles through four games, 10 more than any teammate, and averaged 9.75 tackles per game.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Martell Hughes ranked second on the team with 29 tackles and led Arizona State with 5.5 tackles for loss through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan State transfer Jalen Thompson had 15 quarterback pressures through four games, tied for fifth in the Big 12, with a 20.2 percent pass-rush win rate.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State had four new starters in the secondary after losing cornerbacks Keith Abney and Javan Robinson, who had started 26 consecutive games together before the 2025 Sun Bowl.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerbacks Rodney Bimage and Ashton Stamps had allowed completion rates of 44.4 percent and 47.4 percent when targeted, respectively.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Marcus Arroyo serves as offensive coordinator and quarterbacks coach from the coaching box, while Brian Ward serves as defensive coordinator from the box.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Hines Ward serves as associate head coach and wide receivers coach, and Saga Tuitele coaches the offensive line.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Arizona State averaged 421.8 total yards and 33.3 points per game through four games, including 272.8 passing yards and 149.0 rushing yards per game.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State converted 29.6 percent of its third downs through Oct. 3, ranking last in the Big 12, and converted 6 of 12 fourth-down attempts.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Sun Devils scored on 10 of 11 red-zone possessions through four games, a 90.9 percent rate.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State receivers averaged 8.1 yards after the catch per reception through four games, third-best nationally, and totaled 681 yards after the catch.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State averaged 149.0 rushing yards per game through four games after averaging 193.62 rushing yards per game in 2025.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Sun Devils were 18-7 under Kenny Dillingham when winning time of possession and 6-12 when they did not.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Arizona State allowed 355.3 total yards and 31.8 points per game through four games, including 201.0 passing yards and 154.3 rushing yards per game.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents completed 70 of 125 passes against Arizona State through four games, a 56.0 percent completion rate.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State allowed 15 plays of at least 20 yards through four games, including 11 passing plays.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents converted 23 of 62 combined third- and fourth-down attempts against Arizona State through four games, including 2 of 7 fourth downs.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State allowed 165.8 first-half yards per game through four games and 88.3 first-half passing yards per game.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor's 564 yards on Oct. 3 ended Arizona State's regular-season streak of holding every opponent below 450 total yards since the start of 2024.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State had generated seven sacks through four games, an average of 1.75 per game.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Carson Smith made field goals from 46, 32, 36 and 40 yards against Baylor and was 7-for-7 on field-goal attempts for the season.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State blocked a Texas Tech punt in its 26-22 win on Oct. 18, 2025, with Roman Pitre credited with the block.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas Tech also blocked an Arizona State punt in the Oct. 18, 2025 meeting, with Oliver Miles II credited with the block.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Arizona State's most recent win over a ranked opponent was a 26-22 home victory over No. 7 Texas Tech on Oct. 18, 2025.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State held Texas Tech to 22 points in the 2025 meeting despite the Red Raiders entering that game averaging 47.5 points.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State also faced Texas Tech in 2024, allowing 30 points when the Red Raiders entered averaging 44.7 points.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Arizona State had won six consecutive games against AP-ranked Big 12 opponents entering the Texas Tech week.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State was 0-1 against AP-ranked opponents in 2026 and 6-7 against ranked opponents under Kenny Dillingham.",
+            "page": 12,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Arizona State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Arizona State scoring-opportunity creation vs Texas Tech scoring-opportunity prevention",
+        "off_team": "Arizona State",
+        "def_team": "Texas Tech",
+        "off_rank": 120,
+        "def_rank": 1,
+        "stat": "Eckel rate",
+        "rank_gap": 119,
+        "direction": "defense_advantage",
+        "matchup_score": 219
+      },
+      {
+        "dimension": "Arizona State rushing offense vs Texas Tech rush defense",
+        "off_team": "Arizona State",
+        "def_team": "Texas Tech",
+        "off_rank": 114,
+        "def_rank": 4,
+        "stat": "rush EPA",
+        "rank_gap": 110,
+        "direction": "defense_advantage",
+        "matchup_score": 210
+      },
+      {
+        "dimension": "Texas Tech scoring-opportunity creation vs Arizona State scoring-opportunity prevention",
+        "off_team": "Texas Tech",
+        "def_team": "Arizona State",
+        "off_rank": 22,
+        "def_rank": 93,
+        "stat": "Eckel rate",
+        "rank_gap": 71,
+        "direction": "offense_advantage",
+        "matchup_score": 171
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Boley completed 78 of 127 passes for 1,040 yards, 10 touchdowns and three interceptions while adding 45 rushing yards and one rushing touchdown.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 11,
+        "fact": "Reed Harris led Arizona State through four games with 26 receptions for 499 yards and five touchdowns, including three 100-yard receiving games.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 22,
+        "fact": "Arizona State had four new starters in the secondary after losing cornerbacks Keith Abney and Javan Robinson, who had started 26 consecutive games together before the 2025 Sun Bowl.",
+        "page": 5,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Arizona State converted 29.6 percent of its third downs through Oct. 3, ranking last in the Big 12, and converted 6 of 12 fourth-down attempts.",
+        "page": 10,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Arizona State receivers averaged 8.1 yards after the catch per reception through four games, third-best nationally, and totaled 681 yards after the catch.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Arizona State averaged 149.0 rushing yards per game through four games after averaging 193.62 rushing yards per game in 2025.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Arizona State allowed 15 plays of at least 20 yards through four games, including 11 passing plays.",
+        "page": 4,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Texas Tech Red Raiders",
+      "model_side": "Texas Tech",
+      "opponent_full": "Arizona State Sun Devils",
+      "opponent": "Arizona State",
+      "model_prediction": -15.5,
+      "market_line": -14.5,
+      "best_available_line": -14.5,
+      "best_available_price": "100",
+      "cover_probability": 0.49898328,
+      "edge": -0.00101672,
+      "bet_status": "PASS"
+    }
+  }
+}

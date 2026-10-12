@@ -1,0 +1,656 @@
+{
+  "game": "Missouri Tigers@Ole Miss Rebels",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:53:48.075024+00:00",
+  "model_prediction": -7.0,
+  "market_line": -6.0,
+  "best_line": -6.5,
+  "best_price": "-102",
+  "best_book": "FanDuel",
+  "cover_probability": 0.49347663,
+  "edge": -0.0114738650495049,
+  "bet_short": "Ole Miss",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our lean toward Ole Miss starts with the passing game. Through three games, Trinidad Chambliss had thrown for 924 yards and seven touchdowns, while Ole Miss was averaging an SEC-best 330.7 passing yards and operating at one of the fastest tempos in the country. That profile matters against a Missouri defense that returned only two listed starters and lost 10 from last season\u2019s group. We see more potential for Ole Miss to create separation through sustained passing volume than the market appears to be pricing.\n\nThe counterargument is Missouri\u2019s rushing game. Missouri averaged 228.3 rushing yards per game last season, while Ole Miss allowed 159.0 per game through its first three contests. Our matchup numbers also identify the ground game as Missouri\u2019s clearest offensive opening, even though they are less favorable toward its passing efficiency. At the same time, we rate Ole Miss more favorably at preventing scoring opportunities than its raw yardage totals suggest.\n\nFor us, those competing signals explain the pass. Our overall numbers prefer Ole Miss, but Missouri has a credible way to shorten the game and limit margin through the run. The market is close enough to our expectation that the available price does not leave enough room for that matchup risk.",
+    "matchup_to_watch": "We are watching Missouri\u2019s rushing offense against the Ole Miss front. Missouri\u2019s longer-run production on the ground is the clearest challenge to our Ole Miss lean, especially given what Ole Miss allowed early in the season. If Missouri consistently stays ahead of the chains, creating the separation our model anticipates becomes more difficult.\n\nIf Ole Miss limits those early-down gains and pushes Missouri toward its less efficient passing profile, the matchup shifts back toward the home side. That is the football tension most likely to determine whether Ole Miss can turn an advantage into margin.",
+    "guide_status": [
+      "Found guide for Missouri Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
+      "Guide for Missouri Tigers was found but may not match the current opponent. This is Missouri's game-notes guide for its Sept. 11, 2026 road game against Kansas, identified as Game 2. Missouri's game at Ole Miss is listed for Oct. 17, 2026, so the guide is not intended for the Week 7 matchup.",
+      "Found guide for Ole Miss Rebels: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf",
+      "Guide for Ole Miss Rebels was found but may not match the current opponent. The document is Ole Miss' 2026 Game 4 notes for the Sept. 26 road game at Florida, not the Week 7 matchup against Missouri scheduled for Oct. 17. It contains Florida-specific scouting and series material and only reflects Ole Miss results through the Sept. 19 LSU game."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Missouri Tigers",
+        "opponent": "Ole Miss Rebels",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "This is Missouri's game-notes guide for its Sept. 11, 2026 road game against Kansas, identified as Game 2. Missouri's game at Ole Miss is listed for Oct. 17, 2026, so the guide is not intended for the Week 7 matchup.",
+        "recent_game": [
+          {
+            "fact": "Missouri opened the 2026 season with a 54-14 win over Arkansas-Pine Bluff on Sept. 3.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri produced 562 total yards against Arkansas-Pine Bluff, including 357 passing and 205 rushing, while converting 6-of-10 third downs and both fourth-down attempts.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri led Arkansas-Pine Bluff 40-0 at halftime after outgaining the Golden Lions 376-6 in the first half.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Missouri's defense held Arkansas-Pine Bluff to 198 total yards, 13 first downs and a 3-of-13 third-down conversion rate.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri forced five three-and-outs against Arkansas-Pine Bluff.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Missouri is scheduled to play at Ole Miss on Oct. 17, 2026; the guide lists Ole Miss at No. 9 in the AP poll and No. 10 in the Coaches Poll.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri quarterback Austin Simmons, wide receiver Cayden Lee and cornerback Chris Graves Jr. transferred from Ole Miss.",
+            "page": 12,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Ole Miss transfer Austin Simmons is listed as Missouri's starting quarterback, with sophomore Matt Zollers as the backup.",
+            "page": 11,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "In his Missouri debut, Simmons completed 17-of-19 passes for 252 yards, four touchdowns and no interceptions against Arkansas-Pine Bluff.",
+            "page": 18,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons' 89.5% completion rate and 270.4 passer rating were the highest by a quarterback in a Missouri debut.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Simmons was Ole Miss' opening-game starter in 2025 and later completed 4-of-5 passes for 64 yards in the CFP First Round against Tulane.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Matt Zollers completed 8-of-12 passes for 87 yards and scored his first collegiate rushing touchdown in the 2026 opener.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Missouri's listed offensive line is left tackle Cayden Green, left guard Tristan Wilson, center Dominick Giudice, right guard Curtis Peagler and right tackle Luke Work.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri returned five offensive starters from 2025: Green, Giudice, running back Ahmad Hardy, tight end Brett Norfleet and Peagler.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Missouri lost 2025 starting quarterback Beau Pribula, center Connor Tollison, tackle Keagen Trost and starting receivers Kevin Coleman Jr., Marquis Johnson and Joshua Manning.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss transfer Cayden Lee is listed as Missouri's starting H receiver; he started all 15 games for Ole Miss in 2025 and 12 games in 2024.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lee recorded five catches for 89 yards, including a 47-yard touchdown, in his Missouri debut.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Donovan Olugbode established career highs of seven receptions, 107 yards and two touchdowns in the season opener.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Jamal Roberts is listed as the starter and rushed 13 times for 47 yards and a touchdown in the opener.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Roberts surpassed 1,000 career rushing yards in the opener after setting 2025 career highs with 124 carries, 753 yards and six rushing touchdowns.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Left tackle Cayden Green allowed two sacks, two quarterback hits and three hurries over 750 snaps in 2025, according to PFF.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Missouri returned two listed defensive starters from 2025 and lost 10, including defensive linemen Chris McClellan and Zion Young, linebacker Josiah Trotter and cornerback Toriano Pride Jr.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss transfer Chris Graves Jr. is listed as a starting Missouri cornerback after appearing in 41 games over three seasons for the Rebels and starting nine games in 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn transfer Robert Woodyard Jr. is listed as Missouri's starting middle linebacker after making 11 starts and recording 67 tackles in 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Nicholas Rodriguez and Santana Banner, Missouri's second- and third-leading tacklers in 2025, are listed as starters at weakside linebacker and rover, respectively.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive tackles Marquis Gracial and Sterling Webb combined for 6.0 tackles for loss in 2025; Webb also recorded 2.5 sacks and six quarterback hurries.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Darris Smith, listed as the starting JACK, recorded 4.0 sacks as a pass-rush specialist in 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Chip Lindsey joined Missouri as offensive coordinator in December 2025 and is in his first season in the role.",
+            "page": 17,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Garrett Riley joined Missouri in January 2026 as quarterbacks coach after serving as Clemson's offensive coordinator and quarterbacks coach.",
+            "page": 17,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "John Papuchis was named Missouri's special-teams coordinator and defensive assistant in January 2026.",
+            "page": 17,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Derek Nicholson added co-defensive coordinator duties before the 2026 season while continuing to coach linebackers.",
+            "page": 17,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alex Atkins joined Missouri as tight ends coach in January 2026, and Chop Harbin joined as defensive line coach for 2026.",
+            "page": 17,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Missouri averaged 228.3 rushing yards per game in 2025, ranking eighth nationally and first in the SEC.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri scored 31 rushing touchdowns in 2025 and added three rushing touchdowns in the 2026 opener.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "In the 2026 opener, Missouri averaged 7.2 yards per play, converted 60% of its third downs and scored on all five red-zone possessions, with four touchdowns.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Three different Missouri receivers caught touchdown passes from Simmons in the opener: Shaun Terry II, Cayden Lee and Donovan Olugbode.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Missouri's 2025 defense allowed 277.3 yards and 18.9 points per game, including 103.8 rushing yards and 173.5 passing yards per game.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Missouri allowed 3.7 yards per play, 89 rushing yards and 109 passing yards in its 2026 opener.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arkansas-Pine Bluff converted 23% of its third downs against Missouri.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Missouri did not record a takeaway in the season opener.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Blake Craig is listed as Missouri's placekicker and made a 32-yard field goal plus seven extra points in the season opener.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Florida State transfer Brunno Reus is listed as Missouri's punter, holder and kickoff specialist; his longest punt in the opener was 52 yards.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "DaMarion Fowlkes is listed as Missouri's primary punt and kickoff returner and had a 23-yard punt return in the opener.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Missouri entered the Kansas game 1-0 and ranked No. 23 in both the AP and Coaches polls.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "low"
+          },
+          {
+            "fact": "Missouri is 30-10 since the start of the 2023 season.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Missouri.pdf"
+      },
+      {
+        "source_team": "Ole Miss Rebels",
+        "opponent": "Missouri Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Ole Miss' 2026 Game 4 notes for the Sept. 26 road game at Florida, not the Week 7 matchup against Missouri scheduled for Oct. 17. It contains Florida-specific scouting and series material and only reflects Ole Miss results through the Sept. 19 LSU game.",
+        "recent_game": [
+          {
+            "fact": "Ole Miss defeated No. 7 LSU 32-24 on Sept. 19 to improve to 3-0 overall and 1-0 in the SEC.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against LSU, quarterback Trinidad Chambliss completed 33 passes for 363 yards and two touchdowns and also rushed for a touchdown.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Traylon Ray recorded career highs of seven receptions and 115 yards against LSU, including a 21-yard touchdown reception.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive tackle Will Echoles had five tackles, 2.5 tackles for loss, 0.5 sack and seven quarterback pressures against LSU.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Jaylon Braxton made the game-sealing interception against LSU.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Through three games, starting quarterback Trinidad Chambliss had completed 77 of 110 passes for 924 yards, seven touchdowns and two interceptions while adding 64 rushing yards and two rushing touchdowns.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Chambliss had thrown a touchdown pass in 16 consecutive games, tied for the third-longest streak in Ole Miss history.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "The depth chart listed Deuce Knight or Walker Howard as the primary backup options behind Chambliss, followed by AJ Maddox.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Ole Miss started Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center, Patrick Kutas at right guard and Connor Howes at right tackle against LSU; Davis, Townsend, Sanders and Kutas each played all 77 offensive snaps.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The depth chart listed Tommy Kinsler IV or Connor Howes at right tackle, with Davis, Townsend, Sanders and Kutas holding the other four first-team offensive-line positions.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Kewan Lacy had 191 yards and four touchdowns on 39 carries through three games; he scored on nine carries for 43 yards against LSU.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lacy had scored a rushing touchdown in 12 consecutive games, the longest active streak in the FBS.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Deuce Alexander led Ole Miss with 20 receptions, 295 yards and three receiving touchdowns.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Caleb Odom made five catches for a career-high 88 yards against LSU and had eight receptions for 154 yards through three games.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Six players had made their first career starts during the first three games, including wide receiver Deuce Alexander and offensive linemen Connor Howes and Tommy Kinsler IV.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Nickelback Sharif Denson made his season debut against LSU and led Ole Miss with nine tackles, including one tackle for loss.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer linebackers Luke Ferrelli and Keaton Thomas had started each of Ole Miss' first three games.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Tah'j Butler led Ole Miss with 20 tackles, followed by Luke Ferrelli with 19 and Keaton Thomas with 18.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfer edge defender Blake Purchase had started all three games and recorded five tackles, including one sack, against LSU.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Suntarine Perkins entered the Florida week with 19 career sacks and 33.5 career tackles for loss.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Pete Golding was named Ole Miss head coach on Nov. 30, 2025 after three seasons as the Rebels' defensive coordinator; 2026 was his first full season as head coach.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "John David Baker was listed as offensive coordinator and worked from the coaches' booth, while Bryan Brown was listed as defensive coordinator and also worked from the booth.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "John Garrison served as offensive line coach and run-game coordinator, and Joe Judge served as head coach of offense and quarterbacks coach.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through three games, Ole Miss averaged 444.7 total yards and 38.0 points per game, including an SEC-leading 330.7 passing yards per game and 114.0 rushing yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss averaged 23.1 seconds per play through three games, the second-fastest pace in the SEC and eighth-fastest in the FBS.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Ole Miss had scored on 100 percent of its red-zone opportunities and allowed one sack per game.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through three games, Ole Miss allowed 373.7 total yards and 23.7 points per game, including 159.0 rushing yards and 214.7 passing yards per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss averaged 7.3 tackles for loss and 2.0 sacks per game through its first three contests.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ole Miss had two interceptions and had recovered no opponent fumbles through three games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Lucas Carneiro was 5-for-7 on field goals with a long of 57 yards and 13-for-13 on extra points through three games.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Carneiro had made six field goals of at least 50 yards during his Ole Miss career and was 12-for-16 from beyond 50 yards across his collegiate career.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Oscar Bird averaged 44.4 yards on seven punts through three games and owned a 45.9-yard career average.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "The document's schedule listed the Missouri game for Oct. 17, 2026, after Ole Miss' games at Florida and Vanderbilt.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Ole Miss.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Missouri rushing offense vs Ole Miss rush defense",
+        "off_team": "Missouri",
+        "def_team": "Ole Miss",
+        "off_rank": 47,
+        "def_rank": 96,
+        "stat": "rush EPA",
+        "rank_gap": 49,
+        "direction": "mixed",
+        "matchup_score": 49
+      },
+      {
+        "dimension": "Missouri passing offense vs Ole Miss pass defense",
+        "off_team": "Missouri",
+        "def_team": "Ole Miss",
+        "off_rank": 91,
+        "def_rank": 56,
+        "stat": "pass EPA",
+        "rank_gap": 35,
+        "direction": "mixed",
+        "matchup_score": 35
+      },
+      {
+        "dimension": "Missouri scoring-opportunity creation vs Ole Miss scoring-opportunity prevention",
+        "off_team": "Missouri",
+        "def_team": "Ole Miss",
+        "off_rank": 43,
+        "def_rank": 18,
+        "stat": "Eckel rate",
+        "rank_gap": 25,
+        "direction": "mixed",
+        "matchup_score": 25
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 20,
+        "fact": "Missouri returned two listed defensive starters from 2025 and lost 10, including defensive linemen Chris McClellan and Zion Young, linebacker Josiah Trotter and cornerback Toriano Pride Jr.",
+        "page": 15,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Missouri.pdf",
+        "source_team": "Missouri Tigers"
+      },
+      {
+        "fact_id": 31,
+        "fact": "Missouri averaged 228.3 rushing yards per game in 2025, ranking eighth nationally and first in the SEC.",
+        "page": 5,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Missouri.pdf",
+        "source_team": "Missouri Tigers"
+      },
+      {
+        "fact_id": 49,
+        "fact": "Through three games, starting quarterback Trinidad Chambliss had completed 77 of 110 passes for 924 yards, seven touchdowns and two interceptions while adding 64 rushing yards and two rushing touchdowns.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 67,
+        "fact": "Through three games, Ole Miss averaged 444.7 total yards and 38.0 points per game, including an SEC-leading 330.7 passing yards per game and 114.0 rushing yards per game.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 68,
+        "fact": "Ole Miss averaged 23.1 seconds per play through three games, the second-fastest pace in the SEC and eighth-fastest in the FBS.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 70,
+        "fact": "Through three games, Ole Miss allowed 373.7 total yards and 23.7 points per game, including 159.0 rushing yards and 214.7 passing yards per game.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Ole Miss Rebels",
+      "model_side": "Ole Miss",
+      "opponent_full": "Missouri Tigers",
+      "opponent": "Missouri",
+      "model_prediction": -7.0,
+      "market_line": -6.0,
+      "best_available_line": -6.5,
+      "best_available_price": "-102",
+      "cover_probability": 0.49347663,
+      "edge": -0.0114738650495049,
+      "bet_status": "PASS"
+    }
+  }
+}

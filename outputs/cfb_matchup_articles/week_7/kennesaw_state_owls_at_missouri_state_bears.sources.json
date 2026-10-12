@@ -1,0 +1,421 @@
+{
+  "game": "Kennesaw State Owls@Missouri State Bears",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:50:18.839607+00:00",
+  "model_prediction": -3.0,
+  "market_line": -3.0,
+  "best_line": -3.5,
+  "best_price": "105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.47155707,
+  "edge": -0.0162478080487804,
+  "bet_short": "Kennesaw State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We see the clearest path for Kennesaw State on the ground. Its rushing offense owns a substantial efficiency advantage over Missouri State\u2019s run defense, and the recent production supports that possibility without proving it: Kennesaw State ran 38 times for 197 yards against Arkansas State, with Boogie Woods III producing 101 rushing yards and two touchdowns. Rickie Collins also gives the offense another dimension after totaling 185 rushing yards and three scores through four games.\n\nThe concern for us is that the matchup is not one-sided. Missouri State\u2019s passing offense faces a Kennesaw State pass defense that our numbers rate poorly, creating a potential counter if Kennesaw State cannot control the game on the ground. Kennesaw State did hold opponents to a 31.9 percent third-down conversion rate through four games, but Zion Booker\u2019s season-ending injury removes a piece from an offense that may need to answer through the air. The available price asks Kennesaw State to create more separation than our overall expectation supports, so we do not see enough value to get involved.",
+    "matchup_to_watch": "We are watching Kennesaw State\u2019s rushing offense against Missouri State\u2019s run defense. This is the strongest matchup advantage in our numbers, and it is not dependent on one runner: through four games, Kennesaw State had four players with at least 100 rushing yards and a touchdown. If Collins and the rebuilt backfield consistently keep the offense ahead of schedule, Kennesaw State can control the shape of the game. If Missouri State limits that advantage, the case for Kennesaw State creating margin becomes much weaker.",
+    "guide_status": [
+      "Found guide for Kennesaw State Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kennesaw State.pdf",
+      "Guide for Kennesaw State Owls was found but may not match the current opponent. The document is Kennesaw State's 2026 Game Five notes for its Oct. 7 matchup against Jax State, not the Week 7 matchup against Missouri State. Current Kennesaw State information is retained, but Jax State-specific material is excluded.",
+      "No guide found for Missouri State Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri State.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Kennesaw State Owls",
+        "opponent": "Missouri State Bears",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Kennesaw State's 2026 Game Five notes for its Oct. 7 matchup against Jax State, not the Week 7 matchup against Missouri State. Current Kennesaw State information is retained, but Jax State-specific material is excluded.",
+        "recent_game": [
+          {
+            "fact": "Kennesaw State lost 17-14 at Arkansas State on Sept. 26, 2026, falling to 1-3.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State rushed 38 times for 197 yards and two touchdowns against Arkansas State.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Boogie Woods III recorded career highs of 101 rushing yards and two touchdowns against Arkansas State and finished with 121 yards from scrimmage, including 20 receiving yards.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Rickie Collins completed 17 of 24 passes for 129 yards with no interceptions and rushed nine times for 52 yards against Arkansas State.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State's offensive line allowed four quarterback pressures and four hurries against Arkansas State.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baron Hopson returned from injury against Arkansas State and recorded eight tackles and 1.5 tackles for loss.",
+            "page": 15,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Luke Evans made a career-high nine tackles and recorded one tackle for loss against Arkansas State.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Syracuse transfer Rickie Collins won Kennesaw State's quarterback competition and started the 2026 opener.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Collins completed 79 of 116 passes for 749 yards, two touchdowns and one interception while rushing 40 times for 185 yards and three touchdowns.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Collins completed at least 60 percent of his passes on at least 20 attempts in each of Kennesaw State's first four games.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Collins had a 68.1 percent completion rate through four games, ranking third in Conference USA.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Collins completed 85.7 percent of his first-quarter passes through four games, third among FBS quarterbacks with at least 20 first-quarter attempts.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State's other quarterbacks include Mississippi Gulf Coast transfer Landon Varnes and redshirt freshman Skyler Williams.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Kennesaw State returned only two offensive starters from 2025 and was credited with 42 percent returning offensive production.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The 2026 running back group was rebuilt around West Georgia transfer Latrelle Murrell, Benedict transfer Triston Morgan and Mississippi Gulf Coast transfer Boogie Woods III.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Murrell and Woods ranked second and third among Conference USA running backs in Pro Football Focus run grade at 83.4 and 79.4, respectively.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brayden Munroe had 12 receptions for 140 yards through four games, including five catches for 34 yards against Arkansas State.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "With Gerard Bullock Jr. unavailable for the previous two games, Jamari Harrold and Reed Jesiolowski took larger roles at tight end; Harrold had five catches for 40 yards and a touchdown through four games.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State returned both 2025 starting offensive tackles, Nikola Milovac and JaDarious Lee, who each started all 14 games in 2025.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The offensive line entered 2026 with more than 240 combined career games and 145 starts, although only 91 games and 58 starts came at Kennesaw State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State's first four offensive-line starters in every 2026 game were JaDarious Lee, Mateo Guevara, Precious Ekeh and Nikola Milovac; Mike Wallace Jr. started three games and Darius Neals started one.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Kennesaw State returned five defensive starters and 55 percent of its defensive production from 2025.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wingate transfer Kai Russell had 17 tackles, two tackles for loss, one sack, three passes defended and one forced fumble through four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Josh Anglin, a transfer who previously played at North Alabama and Tulsa, had 21 tackles, 1.5 tackles for loss and one sack through four games.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Memphis transfer Cam Miller led Kennesaw State's defensive backs with 21 tackles through four games and recorded the team's lone interception.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Miller's 82.6 Pro Football Focus coverage grade through four games led Conference USA among players with at least 100 snaps.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Evans and Perry Fisher made their first Kennesaw State starts against Tennessee on Sept. 19; both had 17 tackles through four games.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Wide receiver Zion Booker suffered an injury against Arkansas State on Sept. 26 and was announced out for the remainder of the 2026 season.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Gerard Bullock Jr. missed the Tennessee and Arkansas State games with an injury.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Baron Hopson missed the Tennessee game with an injury before returning against Arkansas State on Sept. 26.",
+            "page": 15,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive back Tyler Hallum returned against West Georgia after missing the entire 2025 season with an injury; it was his first game in 642 days.",
+            "page": 17,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Kennesaw State averaged 21.8 points, 167.0 rushing yards, 201.0 passing yards and 368.0 total yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State ranked first in Conference USA in red-zone offense at 92.3 percent and second in sacks allowed at one per game through four games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Owls averaged 21.3 first downs per game through four games, second in Conference USA.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State rushed for 297 yards in the opener, averaged 87 rushing yards against Georgia State and Tennessee, and rebounded with 197 rushing yards against Arkansas State.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State allowed four sacks through four games, including three against Tennessee.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State was the only Conference USA team with four players who had each rushed for at least 100 yards and a touchdown through four games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Kennesaw State allowed 22.5 points, 166.5 rushing yards, 196.5 passing yards and 363.0 total yards per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Excluding the 42 points allowed to Tennessee, Kennesaw State allowed 16.0 points per game in its other first three contests.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State forced six fumbles and recovered four through four games.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Owls generated five takeaways through four games: four fumble recoveries and one interception.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 15 of 47 third downs against Kennesaw State through four games, a 31.9 percent rate that ranked fourth in Conference USA.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State opened 2026 with a 47-0 shutout of West Georgia and held the Wolves to seven first downs and no conversions on 12 third-down attempts.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Running back Triston Morgan blocked a punt and returned a kickoff 47 yards against West Georgia, earning Conference USA Special Teams Player of the Week.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [],
+        "source_file": "Kennesaw State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Kennesaw State rushing offense vs Missouri State rush defense",
+        "off_team": "Kennesaw State",
+        "def_team": "Missouri State",
+        "off_rank": 45,
+        "def_rank": 119,
+        "stat": "rush EPA",
+        "rank_gap": 74,
+        "direction": "mixed",
+        "matchup_score": 74
+      },
+      {
+        "dimension": "Kennesaw State passing offense vs Missouri State pass defense",
+        "off_team": "Kennesaw State",
+        "def_team": "Missouri State",
+        "off_rank": 58,
+        "def_rank": 94,
+        "stat": "pass EPA",
+        "rank_gap": 36,
+        "direction": "mixed",
+        "matchup_score": 36
+      },
+      {
+        "dimension": "Missouri State passing offense vs Kennesaw State pass defense",
+        "off_team": "Missouri State",
+        "def_team": "Kennesaw State",
+        "off_rank": 71,
+        "def_rank": 103,
+        "stat": "pass EPA",
+        "rank_gap": 32,
+        "direction": "mixed",
+        "matchup_score": 32
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Kennesaw State rushed 38 times for 197 yards and two touchdowns against Arkansas State.",
+        "page": 10,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Boogie Woods III recorded career highs of 101 rushing yards and two touchdowns against Arkansas State and finished with 121 yards from scrimmage, including 20 receiving yards.",
+        "page": 10,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 9,
+        "fact": "Through four games, Collins completed 79 of 116 passes for 749 yards, two touchdowns and one interception while rushing 40 times for 185 yards and three touchdowns.",
+        "page": 9,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Wide receiver Zion Booker suffered an injury against Arkansas State on Sept. 26 and was announced out for the remainder of the 2026 season.",
+        "page": 11,
+        "category": "injury_availability",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 37,
+        "fact": "Kennesaw State was the only Conference USA team with four players who had each rushed for at least 100 yards and a touchdown through four games.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 42,
+        "fact": "Opponents converted 15 of 47 third downs against Kennesaw State through four games, a 31.9 percent rate that ranked fourth in Conference USA.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Kennesaw State Owls",
+      "model_side": "Kennesaw State",
+      "opponent_full": "Missouri State Bears",
+      "opponent": "Missouri State",
+      "model_prediction": -3.0,
+      "market_line": -3.0,
+      "best_available_line": -3.5,
+      "best_available_price": "105",
+      "cover_probability": 0.47155707,
+      "edge": -0.0162478080487804,
+      "bet_status": "PASS"
+    }
+  }
+}

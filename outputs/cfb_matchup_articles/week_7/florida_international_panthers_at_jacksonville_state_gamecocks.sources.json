@@ -1,0 +1,27 @@
+{
+  "game": "Florida International Panthers@Jacksonville State Gamecocks",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:44:56.368086+00:00",
+  "model_prediction": -5.5,
+  "market_line": -3.0,
+  "best_line": -2.5,
+  "best_price": "-115",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.56333356,
+  "edge": 0.0284498390697675,
+  "bet_short": "Jacksonville Stat",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Florida International Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida InternationaL.pdf",
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

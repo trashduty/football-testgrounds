@@ -1,0 +1,27 @@
+{
+  "game": "New Mexico Lobos@Hawaii Rainbow Warriors",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:55:39.318115+00:00",
+  "model_prediction": 11.5,
+  "market_line": 14.0,
+  "best_line": 14.5,
+  "best_price": "-115",
+  "best_book": "BetRivers",
+  "cover_probability": 0.57593355,
+  "edge": 0.0410498290697675,
+  "bet_short": "Hawai'i",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for New Mexico Lobos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico.pdf",
+      "No guide found for Hawaii Rainbow Warriors. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Hawai'i.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Troy Trojans@Louisiana Ragin Cajuns",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T14:02:08.783129+00:00",
+  "model_prediction": 3.5,
+  "market_line": 4.5,
+  "best_line": 4.5,
+  "best_price": "-108",
+  "best_book": "Caesars",
+  "cover_probability": 0.53679526,
+  "edge": 0.0175644907692307,
+  "bet_short": "Troy",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Troy Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Troy.pdf",
+      "No guide found for Louisiana Ragin Cajuns. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

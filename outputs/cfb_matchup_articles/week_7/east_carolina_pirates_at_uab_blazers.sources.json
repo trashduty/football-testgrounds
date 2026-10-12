@@ -1,0 +1,428 @@
+{
+  "game": "East Carolina Pirates@UAB Blazers",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:42:00.955224+00:00",
+  "model_prediction": 2.0,
+  "market_line": 4.5,
+  "best_line": 4.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.56020617,
+  "edge": 0.0363966461904761,
+  "bet_short": "UAB",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case for UAB is less about trusting its offense to control the game and more about expecting its defense to keep the margin compressed. UAB allowed 116 passing yards per game through three games and did not surrender a passing touchdown in either of its previous two contests. It also held Louisiana scoreless over its final six possessions. We are not treating that short stretch as proof, but it supports our view that UAB can remain competitive without needing a big offensive performance.\n\nThe concern is clear: our matchup numbers give East Carolina meaningful advantages against both parts of UAB's offense, especially the passing game. UAB has sustained drives reasonably well, converting 22 of 46 third downs, but only three of its first eight red-zone possessions ended in touchdowns. That matters because settling for field goals places more pressure on the defense. Still, Jonah Delange made all seven of his field-goal attempts through three games, giving UAB a reliable way to turn those drives into points. We think the market is placing more weight on UAB's offensive limitations than our overall numbers warrant.",
+    "matchup_to_watch": "We are watching UAB's passing offense against East Carolina's pass defense. This is the clearest threat to our position: our efficiency rankings place UAB near the bottom nationally through the air and East Carolina inside the top 10 in pass defense. If UAB is consistently pushed behind schedule, the offense may struggle to produce enough scoring opportunities.\n\nThe useful counterweight is UAB's ability to stay on the field on third down. We do not need UAB to win this matchup outright, but we do need enough manageable conversions to protect its defense and avoid letting East Carolina create separation.",
+    "guide_status": [
+      "No guide found for East Carolina Pirates. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/East Carolina.pdf",
+      "Found guide for UAB Blazers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UAB.pdf",
+      "Guide for UAB Blazers was found but may not match the current opponent. The guide is labeled \"Game Four vs. Navy\" and is intended for UAB's Sept. 25, 2026 game against Navy. The schedule lists East Carolina as a later home game on Oct. 15, 2026."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "UAB Blazers",
+        "opponent": "East Carolina Pirates",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is labeled \"Game Four vs. Navy\" and is intended for UAB's Sept. 25, 2026 game against Navy. The schedule lists East Carolina as a later home game on Oct. 15, 2026.",
+        "recent_game": [
+          {
+            "fact": "UAB lost 21-14 at Louisiana on Sept. 19, falling to 1-2.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB held Louisiana scoreless over its final six possessions and throughout the second half, allowing 108 second-half yards and one conversion on six third downs.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Mims had four receptions for 57 yards and three punt returns for 52 yards at Louisiana, including a 42-yard return.",
+            "page": 21,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Chris Burge recovered a fumble and returned it 13 yards for a touchdown at Louisiana.",
+            "page": 20,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "West Virginia transfer punter Oliver Straw made his UAB debut at Louisiana and punted five times for 185 yards with a long of 52.",
+            "page": 21,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Ryder Burton is listed as UAB's starting quarterback, with Nathan Rogers, Adrian Posse and Cameron Jennings behind him on the depth chart.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Burton started each of UAB's first three games of 2026.",
+            "page": 15,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Burton had thrown for 478 yards through three games, raising his UAB career total to 1,186 passing yards; he had accounted for nine passing and three rushing touchdowns in his UAB career.",
+            "page": 19,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Nathan Rogers scored on an 11-yard run at Louisiana following Ty Mims' 42-yard punt return.",
+            "page": 21,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "The listed first-team offensive line was left tackle Keyon Cox, left guard Donovan Lawrence, center Adam Lepkowski, right guard Calib Perez and right tackle Barrett Maddox or Kyrik Mason.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Donovan Lawrence, Adam Lepkowski, Calib Perez and Barrett Maddox started all three of UAB's first games; Keyon Cox started the last two after Payton Kirkland started the opener at left tackle.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Rod Robinson II led UAB with 225 rushing yards on 48 attempts through three games, averaging 4.7 yards per carry and 75.0 yards per game.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The running-back depth chart listed Rod Robinson II, Bam McReynolds and Ja'Vin Simpkins as co-first-team options.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "EJ Reid led UAB with 12 receptions and had 119 receiving yards; after entering the starting lineup against ULM, he produced nine catches for 93 yards and one touchdown over two games.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Mims led UAB with 120 receiving yards on nine catches through three games.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB entered 2026 with two returning offensive starters, nine lost offensive starters and 62 total newcomers.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Muaaz Byard led UAB with 30 tackles through three games, including 23 over the previous two games.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Ike Esonwune had 26 tackles, UAB's only interception, one pass breakup and two quarterback hurries through three games.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Jo'Tavion Pierce started the previous two games and had 20 tackles, 1.5 tackles for loss, one pass breakup and one forced fumble.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive lineman Tylin Jackson led UAB with 3.5 tackles for loss and two sacks through three games.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB entered 2026 with one returning defensive starter and 10 lost defensive starters.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Alex Mortensen was named UAB's head coach on Dec. 5, 2025 after serving three seasons as offensive coordinator and coaching the final six games of 2025 as interim head coach.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mortensen retained the offensive coordinator title in his first full season as head coach.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Todd Grantham was in his first season as UAB's defensive coordinator in 2026.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Danny Mitchell moved into his first season as quarterbacks coach, while Lionel Stokes, Nigel Madison and Ryan McNamara were first-year UAB assistants coaching cornerbacks, inside linebackers and safeties, respectively.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "UAB averaged 178.0 rushing yards per game and 4.1 yards per carry through three games, exceeding 190 rushing yards twice.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB converted 22 of 46 third downs through three games, a 47.8 percent rate.",
+            "page": 18,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB averaged 32:31 in possession time and had run 205 offensive plays compared with 178 by its opponents.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB scored on seven of eight red-zone possessions, but only three resulted in touchdowns, a 37.5 percent red-zone touchdown rate.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB allowed 22 tackles for loss and seven sacks through its first three games.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ten UAB players caught at least one pass through three games, and four players had at least 99 receiving yards.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents outscored UAB 28-3 in the first quarter and 59-30 in the first half through three games.",
+            "page": 18,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "UAB allowed 116.0 passing yards per game through three games and surrendered only 166 combined passing yards over its previous two games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB did not allow a passing touchdown against either ULM or Louisiana.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB allowed 308.0 total yards per game through three games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB's tackles for loss increased from two in the opener to five against ULM and seven at Louisiana; the defense recorded four sacks over the latter two games after none in the opener.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB's opponents converted 12 of 33 third downs through three games, a 36.4 percent rate.",
+            "page": 18,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB outscored opponents 33-24 in the second half and 27-14 in the fourth quarter through three games.",
+            "page": 18,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Jonah Delange made all seven field-goal attempts and all six PATs through three games, accounting for a team-high 27 points.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Delange was 38-for-45 on career field goals and 66-for-66 on career PATs.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ty Mims averaged 15.2 yards on six punt returns through three games, totaling 91 return yards.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "UAB recorded touchbacks on nine of its first 16 kickoffs, with opponents returning five kicks.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "The depth chart listed Badger Hargett or Oliver Straw at punter, Jonah Delange at place kicker, Owen Simpson on kickoffs and Ty Mims as the primary punt returner.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "UAB's 2026 roster included 106 players, with 62 newcomers and 59 freshmen or sophomores.",
+            "page": 14,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "UAB had six total returning starters entering 2026: two on offense, one on defense and three on special teams.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "UAB.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "UAB passing offense vs East Carolina pass defense",
+        "off_team": "UAB",
+        "def_team": "East Carolina",
+        "off_rank": 129,
+        "def_rank": 8,
+        "stat": "pass EPA",
+        "rank_gap": 121,
+        "direction": "defense_advantage",
+        "matchup_score": 221
+      },
+      {
+        "dimension": "UAB rushing offense vs East Carolina rush defense",
+        "off_team": "UAB",
+        "def_team": "East Carolina",
+        "off_rank": 81,
+        "def_rank": 28,
+        "stat": "rush EPA",
+        "rank_gap": 53,
+        "direction": "defense_advantage",
+        "matchup_score": 153
+      },
+      {
+        "dimension": "East Carolina rushing offense vs UAB rush defense",
+        "off_team": "East Carolina",
+        "def_team": "UAB",
+        "off_rank": 59,
+        "def_rank": 99,
+        "stat": "rush EPA",
+        "rank_gap": 40,
+        "direction": "mixed",
+        "matchup_score": 40
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "UAB held Louisiana scoreless over its final six possessions and throughout the second half, allowing 108 second-half yards and one conversion on six third downs.",
+        "page": 18,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 27,
+        "fact": "UAB converted 22 of 46 third downs through three games, a 47.8 percent rate.",
+        "page": 18,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 29,
+        "fact": "UAB scored on seven of eight red-zone possessions, but only three resulted in touchdowns, a 37.5 percent red-zone touchdown rate.",
+        "page": 19,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 33,
+        "fact": "UAB allowed 116.0 passing yards per game through three games and surrendered only 166 combined passing yards over its previous two games.",
+        "page": 20,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 34,
+        "fact": "UAB did not allow a passing touchdown against either ULM or Louisiana.",
+        "page": 20,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      },
+      {
+        "fact_id": 39,
+        "fact": "Kicker Jonah Delange made all seven field-goal attempts and all six PATs through three games, accounting for a team-high 27 points.",
+        "page": 21,
+        "category": "special_teams",
+        "importance": "high",
+        "source_file": "UAB.pdf",
+        "source_team": "UAB Blazers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "UAB Blazers",
+      "model_side": "UAB",
+      "opponent_full": "East Carolina Pirates",
+      "opponent": "East Carolina",
+      "model_prediction": 2.0,
+      "market_line": 4.5,
+      "best_available_line": 4.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.56020617,
+      "edge": 0.0363966461904761,
+      "bet_status": "BET"
+    }
+  }
+}

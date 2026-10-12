@@ -1,0 +1,385 @@
+{
+  "game": "Georgia Tech Yellow Jackets@Virginia Tech Hokies",
+  "season": 2026,
+  "week": 7,
+  "generated_at_utc": "2026-10-12T13:48:23.481839+00:00",
+  "model_prediction": 9.5,
+  "market_line": 10.0,
+  "best_line": 9.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52674771,
+  "edge": 0.0145525880487804,
+  "bet_short": "Georgia Tech",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "What stands out to us is the gap between Virginia Tech\u2019s surface-level defensive results and the underlying matchup. We see Georgia Tech creating scoring opportunities efficiently and holding an advantage through the air, while our numbers are less convinced by Virginia Tech\u2019s ability to prevent those opportunities. That differs from a r\u00e9sum\u00e9 that shows Virginia Tech allowing 274.4 yards and 19.8 points per game through five games.\n\nWe also see clear reasons not to push that disagreement too far. Virginia Tech recorded 51 tackles for loss and 18 sacks through five games, giving its defense a way to disrupt drives before Georgia Tech can exploit the favorable areas our model identifies. On the other side, Ethan Grunkemeyer completed 74.0 percent of his passes through five games, and Virginia Tech\u2019s rushing attack has a favorable efficiency matchup against Georgia Tech\u2019s run defense. For us, those counterweights leave the current price short of what we would need to move beyond a pass.",
+    "matchup_to_watch": "We are watching Georgia Tech\u2019s passing offense against Virginia Tech\u2019s pressure. The Yellow Jackets\u2019 passing efficiency is central to our model\u2019s disagreement with the market, but Virginia Tech\u2019s pass rush can change that equation: Aycen Stevens produced 5.5 sacks through five games and recorded at least one solo sack in each. If Georgia Tech keeps its passing game on schedule, our view becomes easier to justify; if Virginia Tech consistently creates negative plays, the apparent advantage can disappear quickly.",
+    "guide_status": [
+      "No guide found for Georgia Tech Yellow Jackets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Tech.pdf",
+      "Found guide for Virginia Tech Hokies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf",
+      "Guide for Virginia Tech Hokies was found but may not match the current opponent. The guide is for Virginia Tech's Week 6 game at California on October 10, 2026. Georgia Tech is listed as Virginia Tech's following opponent on October 17, 2026."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Virginia Tech Hokies",
+        "opponent": "Georgia Tech Yellow Jackets",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Virginia Tech's Week 6 game at California on October 10, 2026. Georgia Tech is listed as Virginia Tech's following opponent on October 17, 2026.",
+        "recent_game": [
+          {
+            "fact": "Virginia Tech lost 35-33 to Pitt on October 2, falling to 4-1 overall and 1-1 in the ACC.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Pitt, quarterback Ethan Grunkemeyer completed 30 of 41 passes for 434 yards and three touchdowns.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Que'Sean Brown caught seven passes for 147 yards and a touchdown against Pitt, including receptions of 51 and 38 yards.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "At the time of publication, Georgia Tech was 1-3 overall and 0-1 in the ACC and was scheduled to play Duke on October 10 before visiting Virginia Tech on October 17.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia Tech's most recent result listed in the guide was a 34-27 loss at Stanford on September 26.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Ethan Grunkemeyer started Virginia Tech's first five games and completed 131 of 177 passes for 1,446 yards, 11 touchdowns and two interceptions.",
+            "page": 27,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Grunkemeyer's 74.0 percent completion rate through five games ranked sixth nationally.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Grunkemeyer had three 300-yard passing games through Virginia Tech's first five games, including a career-high 434 yards against Pitt.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Bryce Baker appeared in two games and completed 11 of 14 passes for 127 yards and one touchdown without an interception.",
+            "page": 29,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Jeffrey Overton Jr. led Virginia Tech through five games with 455 rushing yards and four touchdowns on 77 carries, an average of 5.9 yards per carry.",
+            "page": 26,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Overton also had 15 receptions for 150 yards and one touchdown through five games.",
+            "page": 26,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end Luke Reynolds had 37 receptions for 373 yards and four touchdowns through five games, averaging 7.4 catches per game.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Reynolds recorded consecutive 100-yard receiving games against Old Dominion and Maryland.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Que'Sean Brown, a transfer from Duke, started the first five games and had 33 receptions for 371 yards and two touchdowns.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Marcellous Hawkins Jr. started four of the first five games and rushed 58 times for 238 yards and four touchdowns.",
+            "page": 31,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Center Kyle Altuner started all 12 games in 2025, played 793 snaps and allowed two sacks.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive end Aycen Stevens recorded 6.5 tackles for loss and 5.5 sacks through five games, with at least one solo sack in each game.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Kaleb Spencer had 23 tackles, 6.5 tackles for loss, three sacks and one forced fumble through five games.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Noah Chambers started the first five games and recorded 22 tackles, four tackles for loss and a half-sack.",
+            "page": 26,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive lineman Kemari Copeland started the first five games and recorded 13 tackles, three tackles for loss and two quarterback hurries.",
+            "page": 25,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "James Franklin was in his first season as Virginia Tech's head coach and had a 4-1 record with the Hokies.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Howle was Virginia Tech's offensive coordinator and tight ends coach in his first season at the school.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Brent Pry served as defensive coordinator and linebackers coach in his fifth season at Virginia Tech.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Matt Moore was the offensive line coach, and Norval McKenzie was assistant head coach, run game coordinator and running backs coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through five games, Virginia Tech averaged 469.8 total yards, 314.6 passing yards, 155.2 rushing yards and 41.2 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Virginia Tech allowed 1.8 sacks per game and converted 43.4 percent of its third downs through five games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech scored on 90.9 percent of its red-zone possessions through five games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Virginia Tech recorded 51 tackles for loss through five games, leading the country at 10.2 per game.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Virginia Tech recorded 18 sacks through five games, with four players producing at least three sacks.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Virginia Tech allowed 274.4 total yards, 87.4 rushing yards, 187.0 passing yards and 19.8 points per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 27.9 percent of their third downs against Virginia Tech through five games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech had a minus-one turnover differential through five games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Que'Sean Brown returned eight punts for 204 yards through five games, averaging 25.5 yards per return with a long of 79 yards.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeffrey Overton Jr. returned three kickoffs for 108 yards, including a 62-yard return against Pitt.",
+            "page": 26,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kicker John Love made seven of eight field-goal attempts and 23 of 24 extra-point attempts through five games.",
+            "page": 27,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech averaged 27.8 yards per kickoff return and 20.36 yards per punt return through five games.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Virginia Tech held a 12-9 all-time record against Georgia Tech through the 2025 meeting.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "low"
+          },
+          {
+            "fact": "Georgia Tech won the most recent meeting in 2025; Virginia Tech was 4-6 in the previous 10 games of the series.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "low"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Virginia Tech was scheduled to host Georgia Tech on October 17, 2026, one week after the California game covered by this guide.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Virginia Tech.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Georgia Tech scoring-opportunity creation vs Virginia Tech scoring-opportunity prevention",
+        "off_team": "Georgia Tech",
+        "def_team": "Virginia Tech",
+        "off_rank": 15,
+        "def_rank": 135,
+        "stat": "Eckel rate",
+        "rank_gap": 120,
+        "direction": "offense_advantage",
+        "matchup_score": 220
+      },
+      {
+        "dimension": "Georgia Tech passing offense vs Virginia Tech pass defense",
+        "off_team": "Georgia Tech",
+        "def_team": "Virginia Tech",
+        "off_rank": 21,
+        "def_rank": 89,
+        "stat": "pass EPA",
+        "rank_gap": 68,
+        "direction": "offense_advantage",
+        "matchup_score": 168
+      },
+      {
+        "dimension": "Virginia Tech rushing offense vs Georgia Tech rush defense",
+        "off_team": "Virginia Tech",
+        "def_team": "Georgia Tech",
+        "off_rank": 55,
+        "def_rank": 121,
+        "stat": "rush EPA",
+        "rank_gap": 66,
+        "direction": "mixed",
+        "matchup_score": 66
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 5,
+        "fact": "Grunkemeyer's 74.0 percent completion rate through five games ranked sixth nationally.",
+        "page": 13,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 15,
+        "fact": "Defensive end Aycen Stevens recorded 6.5 tackles for loss and 5.5 sacks through five games, with at least one solo sack in each game.",
+        "page": 13,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Virginia Tech recorded 51 tackles for loss through five games, leading the country at 10.2 per game.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Virginia Tech recorded 18 sacks through five games, with four players producing at least three sacks.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Through five games, Virginia Tech allowed 274.4 total yards, 87.4 rushing yards, 187.0 passing yards and 19.8 points per game.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Georgia Tech Yellow Jackets",
+      "model_side": "Georgia Tech",
+      "opponent_full": "Virginia Tech Hokies",
+      "opponent": "Virginia Tech",
+      "model_prediction": 9.5,
+      "market_line": 10.0,
+      "best_available_line": 9.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.52674771,
+      "edge": 0.0145525880487804,
+      "bet_status": "PASS"
+    }
+  }
+}
