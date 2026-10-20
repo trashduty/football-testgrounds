@@ -77,6 +77,58 @@
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
+    },
+    {
+      "drive_file_id": "1b9yCjE6vHSr4YwXcmXUon5Sc_zDx0MAt",
+      "filename": "Billy SC clip SVP.mp4",
+      "drive_modified_time": "2025-01-13T02:58:15.000Z",
+      "caption": "Hitting around 57% on a large volume of football bets over a season is considered an impressive performance.",
+      "review_note": "The excerpt reflects a general view on betting accuracy but does not specify BTB Analytics' stance.",
+      "suggested_commentary_start_seconds": 7.7,
+      "commentary_start_seconds": null,
+      "approved": false,
+      "evergreen": true,
+      "posted_at": null,
+      "x_post_id": null
+    },
+    {
+      "drive_file_id": "1xB3wlaSGdMvGVC36upA8RXryCaO7fM_a",
+      "filename": "Buying The Hook.mp4",
+      "drive_modified_time": "2025-01-14T05:43:22.000Z",
+      "caption": "Beware of exaggerated sports betting claims that defy statistical reality. Protect your money by recognizing when odds and guarantees are misleading.",
+      "review_note": "Unclear speaker boundaries; caption based on later commentary warning about fraudulent betting claims and statistical improbabilities.",
+      "suggested_commentary_start_seconds": 35,
+      "commentary_start_seconds": null,
+      "approved": false,
+      "evergreen": true,
+      "posted_at": null,
+      "x_post_id": null
+    },
+    {
+      "drive_file_id": "18QbE4YKW0334EvmcwDyDkybXyg_cra39",
+      "filename": "Calling Out Handicappers (Lopsided handles-Seth).mp4",
+      "drive_modified_time": "2025-01-13T03:17:43.000Z",
+      "caption": "Betting markets often reveal lopsided action despite claims that sportsbooks aim for balanced handle on both sides.",
+      "review_note": "The transcript is a critique of common claims about betting handle balance; the takeaway is about perceived inconsistencies in sportsbook behavior.",
+      "suggested_commentary_start_seconds": 6.8,
+      "commentary_start_seconds": null,
+      "approved": false,
+      "evergreen": true,
+      "posted_at": null,
+      "x_post_id": null
+    },
+    {
+      "drive_file_id": "1LPIimwSllg1shJSGoQeiwdtd0e6oY9Re",
+      "filename": "Can't beat Vegas with models bc Vegas has models fallacy.mp4",
+      "drive_modified_time": "2025-01-14T05:09:01.000Z",
+      "caption": "Sportsbooks use models mainly to set opening lines quickly, relying on market dynamics to profit, not to out-predict every bettor. Overcoming the built-in margin requires significant edge beyond just a good model.",
+      "review_note": "The commentary focuses on sportsbook business models and market behavior; attribution of claims is to the source, not BTB Analytics.",
+      "suggested_commentary_start_seconds": 10,
+      "commentary_start_seconds": null,
+      "approved": false,
+      "evergreen": true,
+      "posted_at": null,
+      "x_post_id": null
     }
   ]
 }

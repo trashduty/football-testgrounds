@@ -10,5 +10,11 @@
     "filename": "BTB Success Hater.mp4",
     "drive_modified_time": "2025-01-14T05:30:53.000Z",
     "error": "Drive returned an empty file"
+  },
+  "1i_Lw2N-k68OGsE5kDY5K8qgPs1-ZrXRf": {
+    "drive_file_id": "1i_Lw2N-k68OGsE5kDY5K8qgPs1-ZrXRf",
+    "filename": "Cash Out 3.mp4",
+    "drive_modified_time": "2025-01-14T05:27:20.000Z",
+    "error": "Draft failed caption length/format validation; review and retry"
   }
 }
