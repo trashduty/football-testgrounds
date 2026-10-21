@@ -5,6 +5,7 @@ import base64
 import hashlib
 import json
 import os
+import re
 import secrets
 import subprocess
 import tempfile
@@ -135,16 +136,41 @@ def store_tokens(state, tokens):
     checkpoint()
 
 
+def parse_callback(value, redirect):
+    """Normalize copied link wrappers without disclosing the secret callback."""
+    value = value.strip().lstrip('\ufeff').strip()
+    match = re.fullmatch(r'\[[^\]]*\]\(([^\s]+)\)', value)
+    if match:
+        value = match.group(1)
+    value = value.strip('`<>\"\'').strip()
+    if not value:
+        raise ValueError('OAUTH_2_AUTHORIZATION_RESPONSE is empty. Save the full browser address AFTER approving X access.')
+    try:
+        response = urllib.parse.urlsplit(value)
+        expected = urllib.parse.urlsplit(redirect)
+    except ValueError:
+        raise ValueError('The authorization-response secret is not a valid URL. Copy the entire browser address after approving X access.') from None
+    if (response.scheme, response.netloc, response.path) != (expected.scheme, expected.netloc, expected.path):
+        raise ValueError('OAUTH_2_AUTHORIZATION_RESPONSE must start with ' + redirect +
+                         '? and contain code= and state=. Use the browser address AFTER approving X access, '
+                         'not the initial x.com authorization link, a token, or the callback address alone. '
+                         'Do not paste the secret into chat or logs.')
+    params = urllib.parse.parse_qs(response.query)
+    if params.get('error'):
+        raise ValueError('X authorization was declined or returned an error. Start a fresh authorization and approve it.')
+    if not params.get('code') or not params.get('state'):
+        raise ValueError('Callback URL is missing code= or state=. Copy the ENTIRE address after approving access, including the query string.')
+    if len(params['code']) != 1 or len(params['state']) != 1:
+        raise ValueError('Callback URL contains duplicate authorization parameters. Start a fresh authorization.')
+    return params
+
+
 def finish_auth():
     state = read_state()
     pending = state.get('pending_auth')
     if not pending or time.time() - pending['created'] > 3600:
         raise ValueError('Missing or old authorization session; run start_auth again')
-    response = urllib.parse.urlsplit(os.environ.get('OAUTH_2_AUTHORIZATION_RESPONSE', '').strip())
-    expected = urllib.parse.urlsplit(pending['redirect'])
-    if (response.scheme, response.netloc, response.path) != (expected.scheme, expected.netloc, expected.path):
-        raise ValueError('Authorization response must be the complete callback URL')
-    params = urllib.parse.parse_qs(response.query)
+    params = parse_callback(os.environ.get('OAUTH_2_AUTHORIZATION_RESPONSE', ''), pending['redirect'])
     received_state = params.get('state', [''])[0]
     if not secrets.compare_digest(received_state, pending['state']):
         raise ValueError('Authorization state mismatch; run start_auth again')
