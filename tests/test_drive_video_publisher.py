@@ -13,6 +13,34 @@ spec.loader.exec_module(p)
 
 
 class PublisherTests(unittest.TestCase):
+    def test_token_errors_are_specific_without_disclosing_values(self):
+        message = p.token_error_detail(json.dumps({'error': 'invalid_grant',
+            'error_description': 'Authorization code private-code expired. client_secret private-secret'}))
+        self.assertIn('invalid_grant', message)
+        self.assertIn('expiry', message)
+        self.assertNotIn('private-code', message)
+        self.assertNotIn('private-secret', message)
+        self.assertNotIn('unknown-private-error', p.token_error_detail('{"error":"unknown-private-error"}'))
+
+    def test_local_connection_exchanges_before_returning_and_saves_only_encrypted_state(self):
+        class Server:
+            def __init__(self, *args): pass
+            def __enter__(self): return self
+            def __exit__(self, *args): pass
+            def handle_request(self): self.callback = p.REDIRECT + '?code=local-private-code&state=state'
+        with tempfile.TemporaryDirectory() as tmp, patch.dict(os.environ, {
+                'GITHUB_ACTIONS': 'false', 'OAUTH_2_CLIENT_ID': 'client',
+                'OAUTH_2_CLIENT_SECRET': 'local-secret'}), patch.object(p, 'ROOT', Path(tmp)), \
+                patch.object(p, 'STATE', Path(tmp) / 'x_oauth.enc'), patch.object(p, 'HTTPServer', Server), \
+                patch.object(p.webbrowser, 'open'), patch.object(p, 'finish_auth') as finish, \
+                patch('builtins.print'):
+            p.connect_local()
+            finish.assert_called_once()
+            self.assertEqual(os.environ['PERSIST_TO_GIT'], 'false')
+            self.assertIn('code=local-private-code', os.environ['OAUTH_2_AUTHORIZATION_RESPONSE'])
+            self.assertNotIn(b'local-secret', p.STATE.read_bytes())
+            self.assertIn('pending_auth', p.read_state())
+
     def test_authorization_link_round_trip(self):
         import urllib.parse
         verifier = 'v' * 64
