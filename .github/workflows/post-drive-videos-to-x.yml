@@ -48,14 +48,19 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - name: Connect, preview, or post
         env:
-          OAUTH_2_CLIENT_ID: ${{ secrets.OAUTH_2_CLIENT_ID }}
+          OAUTH_2_CLIENT_ID: ${{ vars.OAUTH_2_CLIENT_ID }}
           OAUTH_2_CLIENT_SECRET: ${{ secrets.OAUTH_2_CLIENT_SECRET }}
           OAUTH_2_AUTHORIZATION_RESPONSE: ${{ secrets.OAUTH_2_AUTHORIZATION_RESPONSE }}
           OAUTH_2_REDIRECT_URI: ${{ vars.OAUTH_2_REDIRECT_URI || 'http://127.0.0.1:8765/callback' }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           PERSIST_TO_GIT: 'true'
           VIDEO_ACTION: ${{ github.event_name == 'schedule' && 'publish' || inputs.action }}
-        run: python scripts/post_drive_video_to_x.py --action "$VIDEO_ACTION"
+        run: |
+          if [[ -z "$OAUTH_2_CLIENT_ID" ]]; then
+            echo "::error::Add repository Actions VARIABLE OAUTH_2_CLIENT_ID (the public OAuth 2.0 Client ID). Keep OAUTH_2_CLIENT_SECRET as a secret."
+            exit 1
+          fi
+          python scripts/post_drive_video_to_x.py --action "$VIDEO_ACTION"
       - name: Preserve state after failures
         if: always()
         env:
