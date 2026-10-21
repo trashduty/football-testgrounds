@@ -74,6 +74,18 @@ class PublisherTests(unittest.TestCase):
                 self.assertIn(b'\r\n\r\n0\r\n', call.call_args_list[1].kwargs['raw'])
                 self.assertIn(b'\r\n\r\n1\r\n', call.call_args_list[2].kwargs['raw'])
 
+    def test_callback_formats_and_errors_do_not_leak_secrets(self):
+        url = p.REDIRECT + '?state=private-state&code=private-code'
+        for value in (url, '  ' + url + '\n', '[' + url + '](' + url + ')', '<' + url + '>', '`' + url + '`'):
+            self.assertEqual(p.parse_callback(value, p.REDIRECT)['code'], ['private-code'])
+        for value in ('', p.REDIRECT, 'private-code', 'https://x.com/i/oauth2/authorize?state=private-state',
+                      'http://other.invalid/?code=private-code&state=private-state',
+                      p.REDIRECT + '?code=private-code', url + '&code=another-secret'):
+            with self.assertRaises(ValueError) as error:
+                p.parse_callback(value, p.REDIRECT)
+            self.assertNotIn('private-code', str(error.exception))
+            self.assertNotIn('private-state', str(error.exception))
+
     def test_uncertain_post_blocks_retry_and_is_not_repeated(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
