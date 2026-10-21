@@ -1,0 +1,63 @@
+name: Post Drive Videos to X
+
+on:
+  schedule:
+    # Cover both EST and EDT; Python admits only 11 AM / 6 PM New York time.
+    - cron: '0 15,16,22,23 * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Connect X, preview, or publish one approved video'
+        type: choice
+        default: preview
+        options:
+          - preview
+          - start_auth
+          - finish_auth
+          - publish_now
+          - publish
+
+permissions:
+  contents: write
+
+concurrency:
+  group: drive-video-queue
+  cancel-in-progress: false
+
+jobs:
+  video:
+    if: github.event_name == 'workflow_dispatch' || vars.DRIVE_VIDEO_POSTING_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install cryptography google-api-python-client google-auth
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Configure state commits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Connect, preview, or post
+        env:
+          OAUTH_2_CLIENT_ID: ${{ secrets.OAUTH_2_CLIENT_ID }}
+          OAUTH_2_CLIENT_SECRET: ${{ secrets.OAUTH_2_CLIENT_SECRET }}
+          OAUTH_2_AUTHORIZATION_RESPONSE: ${{ secrets.OAUTH_2_AUTHORIZATION_RESPONSE }}
+          OAUTH_2_REDIRECT_URI: ${{ vars.OAUTH_2_REDIRECT_URI || 'http://127.0.0.1:8765/callback' }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          PERSIST_TO_GIT: 'true'
+          VIDEO_ACTION: ${{ github.event_name == 'schedule' && 'publish' || inputs.action }}
+        run: python scripts/post_drive_video_to_x.py --action "$VIDEO_ACTION"
+      - name: Preserve state after failures
+        if: always()
+        env:
+          PERSIST_TO_GIT: 'true'
+        run: python -c 'import sys; sys.path.insert(0, "scripts"); from post_drive_video_to_x import checkpoint; checkpoint()'
