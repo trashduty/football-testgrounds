@@ -4,9 +4,11 @@
       "drive_file_id": "1HwRUPMV5QkuKU3bLtnLTeNwm8KlqwWZQ",
       "date": "2026-10-20",
       "slot": "manual-43adc12d8190c4df",
-      "status": "pending",
+      "status": "posted",
       "attempted_at": "2026-10-20T22:33:07.038560-04:00",
-      "media_id": "2112734098200625152"
+      "media_id": "2112734098200625152",
+      "x_post_id": "2112734175484846559",
+      "posted_at": "2026-10-20T22:34:14.960865-04:00"
     }
   ]
 }
