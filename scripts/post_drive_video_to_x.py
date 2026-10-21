@@ -3,6 +3,7 @@
 import argparse
 import base64
 import hashlib
+import getpass
 import json
 import os
 import re
@@ -13,6 +14,8 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import webbrowser
+from http.server import BaseHTTPRequestHandler, HTTPServer
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -29,9 +32,33 @@ ET = ZoneInfo('America/New_York')
 
 
 class ApiError(RuntimeError):
-    def __init__(self, status):
+    def __init__(self, status, detail=None):
         self.status = status
-        super().__init__(f'X API HTTP {status}; inspect app permissions, credits, and video eligibility')
+        super().__init__(f'X API HTTP {status}; ' + (detail or 'inspect app permissions, credits, and video eligibility'))
+
+
+def token_error_detail(body):
+    try:
+        data = json.loads(body)
+    except (ValueError, TypeError):
+        return 'OAuth token exchange failed (response details withheld)'
+    categories = {'invalid_request', 'invalid_grant', 'invalid_client', 'unauthorized_client',
+                  'unsupported_grant_type', 'invalid_scope', 'server_error', 'temporarily_unavailable'}
+    category = data.get('error')
+    if not isinstance(category, str) or category not in categories:
+        category = 'unrecognized_error'
+    description = str(data.get('error_description', '')).lower()
+    hints = []
+    for words, hint in [
+        (('expired',), 'X reported expiry'),
+        (('authorization code', 'authorization_code'), 'X rejected the one-time authorization code'),
+        (('code_verifier', 'code verifier', 'pkce'), 'X reported a PKCE/verifier issue'),
+        (('redirect_uri', 'redirect uri'), 'X reported a callback URI issue'),
+        (('client_secret', 'client secret'), 'X reported a client secret issue'),
+        (('client_id', 'client id'), 'X reported a client ID issue')]:
+        if any(word in description for word in words):
+            hints.append(hint)
+    return 'OAuth token exchange: ' + category + ('. ' + '; '.join(hints) if hints else '') + '. No response values were logged.'
 
 
 def request(method, path, token=None, payload=None, raw=None, content_type=None, basic=None):
@@ -50,7 +77,9 @@ def request(method, path, token=None, payload=None, raw=None, content_type=None,
             body = response.read()
             return json.loads(body) if body else {}
     except urllib.error.HTTPError as error:
-        # Do not log token exchange responses or authorization codes.
+        if path == '/2/oauth2/token':
+            raise ApiError(error.code, token_error_detail(error.read(16384))) from None
+        # Do not log response bodies or authorization codes.
         raise ApiError(error.code) from None
 
 
@@ -210,7 +239,52 @@ def finish_auth():
     state.update(user_id=me['id'], username=me['username'])
     save_state(state)
     checkpoint()
-    summary(f'Connected X account: @{me["username"]}. No video posted. Delete the authorization-response secret.')
+    summary(f'Connected X account: @{me["username"]}. No video posted.')
+    if os.getenv('GITHUB_ACTIONS') == 'true':
+        summary('Delete the temporary OAUTH_2_AUTHORIZATION_RESPONSE secret.')
+
+
+def connect_local():
+    """Exchange the callback immediately on this computer, bypassing Actions queues."""
+    if os.getenv('GITHUB_ACTIONS') == 'true':
+        raise ValueError('connect_local must run on your computer, not a GitHub runner')
+    os.environ['PERSIST_TO_GIT'] = 'false'
+    os.environ['OAUTH_2_CLIENT_ID'] = (os.getenv('OAUTH_2_CLIENT_ID') or input('X OAuth 2.0 Client ID: ')).strip()
+    os.environ['OAUTH_2_CLIENT_SECRET'] = os.getenv('OAUTH_2_CLIENT_SECRET') or getpass.getpass('X OAuth 2.0 Client Secret (hidden): ')
+    verifier, state = secrets.token_urlsafe(48), secrets.token_urlsafe(32)
+
+    class CallbackHandler(BaseHTTPRequestHandler):
+        def log_message(self, *args):
+            pass  # The request URL contains a private, one-time authorization code.
+
+        def do_GET(self):
+            if urllib.parse.urlsplit(self.path).path != '/callback':
+                self.send_error(404)
+                return
+            self.server.callback = REDIRECT + ('?' + urllib.parse.urlsplit(self.path).query if '?' in self.path else '')
+            self.send_response(200)
+            self.send_header('Content-Type', 'text/plain; charset=utf-8')
+            self.send_header('Cache-Control', 'no-store')
+            self.send_header('Referrer-Policy', 'no-referrer')
+            self.end_headers()
+            self.wfile.write(b'Callback received. Return to your terminal for the connection result. You may close this tab.')
+
+    with HTTPServer(('127.0.0.1', 8765), CallbackHandler) as server:
+        server.timeout, server.callback = 1, None
+        save_state({'pending_auth': {'verifier': verifier, 'state': state, 'created': time.time(), 'redirect': REDIRECT}})
+        url = authorization_url(os.environ['OAUTH_2_CLIENT_ID'], REDIRECT, state, verifier)
+        print('Opening X authorization. Approve access in your browser. No video will be posted.', flush=True)
+        print('If the browser does not open, open this link locally: ' + url, flush=True)
+        webbrowser.open(url)
+        deadline = time.monotonic() + 600
+        while server.callback is None and time.monotonic() < deadline:
+            server.handle_request()
+        if server.callback is None:
+            raise ValueError('No callback received within 10 minutes; run connect_local again')
+        os.environ['OAUTH_2_AUTHORIZATION_RESPONSE'] = server.callback
+        finish_auth()  # Exchange immediately; no dependency installation or runner queue.
+    print('Upload this ENCRYPTED file to the same path in your GitHub repository: ' + str(STATE.resolve()), flush=True)
+    print('Keep OAUTH_2_CLIENT_SECRET in GitHub identical to the secret entered here. Do not upload any plaintext credentials.', flush=True)
 
 
 def access_token():
@@ -344,9 +418,11 @@ def post(test_now=False, publish=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--action', choices=['start_auth', 'finish_auth', 'preview', 'publish', 'publish_now'], default='preview')
+    parser.add_argument('--action', choices=['start_auth', 'finish_auth', 'connect_local', 'preview', 'publish', 'publish_now'], default='preview')
     args = parser.parse_args()
-    if args.action == 'start_auth':
+    if args.action == 'connect_local':
+        connect_local()
+    elif args.action == 'start_auth':
         start_auth()
     elif args.action == 'finish_auth':
         finish_auth()
