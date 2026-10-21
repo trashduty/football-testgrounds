@@ -138,7 +138,7 @@
       "review_note": "The transcript contains multiple perspectives on cash out strategy related to bankroll management and bet size, but the speaker attribution is unclear. The commentary focuses on educational points rather than a definitive stance.",
       "suggested_commentary_start_seconds": 22,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -151,7 +151,7 @@
       "review_note": "The transcript discusses bankroll size and cash out decisions but speaker boundaries and exact claims are unclear. The caption reflects the main analytical takeaway neutrally.",
       "suggested_commentary_start_seconds": 23,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -164,7 +164,7 @@
       "review_note": "The takeaway is clear but attribution of speakers is uncertain; summary captures main point about sportsbook vig and bettor challenges.",
       "suggested_commentary_start_seconds": 14,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -177,7 +177,7 @@
       "review_note": "The video explains a betting strategy called the double dip, focusing on managing futures bets. No claim about BTB's endorsement was made explicitly.",
       "suggested_commentary_start_seconds": 4,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -190,7 +190,7 @@
       "review_note": "The commentary clearly discusses expected value betting and market discrepancies but attributes should not be assigned to BTB. The subject is odds marketplaces and the importance of volume and sample size in realizing edges.",
       "suggested_commentary_start_seconds": 24,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -199,11 +199,11 @@
       "drive_file_id": "1xx98J5UPZDHNm99m2Kc8xztWIsIq4tI8",
       "filename": "Fade The Public.mp4",
       "drive_modified_time": "2025-01-13T04:34:43.000Z",
-      "caption": "Line movements are driven by professional money, not the public. Betting against the public often means taking a built-in disadvantage due to vig. Markets reflect true odds where the house holds an edge.",
+      "caption": "Line movements are driven by professional money. Betting against the public often means taking a built-in disadvantage due to vig. Markets reflect true odds where the house holds an edge.",
       "review_note": "Clear commentary on how public betting influences lines and edges. No uncertainty in attribution or takeaway.",
       "suggested_commentary_start_seconds": 10,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -216,7 +216,7 @@
       "review_note": "The commentary provides a step-by-step method to evaluate cash out offers using implied probabilities and payout amounts. It suggests sportsbooks often offer less than fair value but does not identify specific speakers clearly.",
       "suggested_commentary_start_seconds": 9,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -242,7 +242,7 @@
       "review_note": "Caption summarizes the main advice from the content about starting with public data and focusing on variables tied to success. The speaker attribution is unclear, so neutral wording is used.",
       "suggested_commentary_start_seconds": 120,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -255,7 +255,7 @@
       "review_note": "The commentary clearly explains sportsbook market-making without ambiguous claims, so the takeaway is clear and evergreen.",
       "suggested_commentary_start_seconds": 195,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -268,7 +268,7 @@
       "review_note": "The commentary clearly explains implied probability and its importance for bettors; the takeaway is about using implied probability to evaluate odds and identify value.",
       "suggested_commentary_start_seconds": 3.6,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -281,7 +281,7 @@
       "review_note": "The commentary discusses factors influencing sportsbook limits, focusing on closing line value and timing. The takeaway is clear from the later part of the transcript.",
       "suggested_commentary_start_seconds": 24,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -294,7 +294,7 @@
       "review_note": "The commentary's authorship and the full context around the explanation of market efficiency in odds setting need verification for precise attribution.",
       "suggested_commentary_start_seconds": 0,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -307,7 +307,7 @@
       "review_note": "The commentary focuses on how betting markets open with limited bet sizes and gradually increase to allow more informed wagers, improving line accuracy over time.",
       "suggested_commentary_start_seconds": 40,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -320,7 +320,7 @@
       "review_note": "Clear speaker boundaries and main takeaway identified from the detailed market explanation.",
       "suggested_commentary_start_seconds": 25,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
@@ -346,7 +346,7 @@
       "review_note": "The commentary synthesizes insights on live betting markets and edges but does not directly identify a single speaker or clarify all transitions clearly.",
       "suggested_commentary_start_seconds": 30.7,
       "commentary_start_seconds": null,
-      "approved": false,
+      "approved": true,
       "evergreen": true,
       "posted_at": null,
       "x_post_id": null
