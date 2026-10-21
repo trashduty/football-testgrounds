@@ -86,6 +86,18 @@ class PublisherTests(unittest.TestCase):
             self.assertNotIn('private-code', str(error.exception))
             self.assertNotIn('private-state', str(error.exception))
 
+    def test_callback_error_category_is_safe_and_specific(self):
+        for category in ('access_denied', 'invalid_scope', 'invalid_request', 'unauthorized_client',
+                         'unsupported_response_type', 'server_error', 'temporarily_unavailable'):
+            with self.assertRaises(ValueError) as error:
+                p.parse_callback(p.REDIRECT + '?error=' + category + '&error_description=private-token&state=private-state', p.REDIRECT)
+            self.assertIn(category, str(error.exception))
+            self.assertNotIn('private-token', str(error.exception))
+            self.assertNotIn('private-state', str(error.exception))
+        with self.assertRaises(ValueError) as error:
+            p.parse_callback(p.REDIRECT + '?error=private-token', p.REDIRECT)
+        self.assertNotIn('private-token', str(error.exception))
+
     def test_uncertain_post_blocks_retry_and_is_not_repeated(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
