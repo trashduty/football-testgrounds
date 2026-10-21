@@ -4,7 +4,7 @@ The caption workflow creates drafts. The separate **Post Drive Videos to X** wor
 
 ## One-time account connection
 
-1. Keep the existing secrets `OAUTH_2_CLIENT_ID`, `OAUTH_2_CLIENT_SECRET`, and `GOOGLE_SERVICE_ACCOUNT_JSON`.
+1. Store the public OAuth 2.0 Client ID as a repository Actions **variable** named `OAUTH_2_CLIENT_ID`. If it was previously a secret, copy the ID from the X developer console into the variable and delete the old Client ID secret. GitHub masks secrets in summaries, which can break the authorization link. Keep `OAUTH_2_CLIENT_SECRET` and `GOOGLE_SERVICE_ACCOUNT_JSON` as **secrets**. The Client ID must be the OAuth 2.0 Client ID from the same X app, not the OAuth 1.0 Consumer/API Key.
 2. In the X developer app's OAuth 2.0 user authentication settings, add this exact callback URI: `http://127.0.0.1:8765/callback`. Use the confidential **Web App, Automated App or Bot** client type. The website URL can remain `https://www.btb-analytics.com`.
 3. In GitHub Actions, open **Post Drive Videos to X**, click **Run workflow**, choose `start_auth`, and run on `main`.
 4. Wait for that run to succeed. In its Summary, open the authorization link while signed into the intended X account and approve the requested permissions.
