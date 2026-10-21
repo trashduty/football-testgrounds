@@ -14,6 +14,22 @@ The caption workflow creates drafts. The separate **Post Drive Videos to X** wor
 
 The client ID and secret identify the app; this authorization grants permission to the posting account. The workflow requests `tweet.read tweet.write users.read media.write offline.access`.
 
+## Immediate local connection (recommended if Actions token exchange fails)
+
+A successful browser approval followed by HTTP 400 at the token endpoint may involve an expired or reused authorization code, mismatched credentials, or another token parameter. The workflow now reports safe OAuth error categories, and skips video dependency installation during authentication.
+
+To avoid the runner queue between approval and exchange, run the connection on your own computer:
+
+1. Add `http://127.0.0.1:8765/callback` to the SAME confidential Web App's callback URLs.
+2. Download `scripts/post_drive_video_to_x.py` from this repository. Install Python's `cryptography` package before connecting.
+3. From a local terminal run `python post_drive_video_to_x.py --action connect_local` (on Windows, `py` can replace `python`).
+4. Enter the OAuth 2.0 Client ID and Client Secret when prompted. The secret is hidden. Use the same secret stored as `OAUTH_2_CLIENT_SECRET` in GitHub. A browser opens; approve access. A temporary listener on 127.0.0.1 receives the callback and exchanges it immediately.
+5. Wait for the terminal to confirm the connected X username. Upload ONLY the generated encrypted file `outputs/drive_videos/x_oauth.enc` to that exact path on `main`, replacing the earlier pending-authorization file.
+6. You do NOT need `finish_auth` or the `OAUTH_2_AUTHORIZATION_RESPONSE` secret with this method. Delete that temporary secret if it remains.
+7. Run `preview`, then `publish_now` from GitHub Actions as described below.
+
+No live post is created by local authorization. No Google credentials are needed locally. Keep plaintext credentials and callback URLs out of GitHub source and chat. The terminal prints the absolute path of the encrypted file to upload. If the port is occupied or authorization fails, close the program using that port or correct the reported issue and run `connect_local` again.
+
 ## First post and schedule
 
 1. In `outputs/drive_videos/queue.json`, review a caption and set only that video's `approved` to the JSON boolean `true`.
