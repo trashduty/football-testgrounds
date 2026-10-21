@@ -13,6 +13,24 @@ spec.loader.exec_module(p)
 
 
 class PublisherTests(unittest.TestCase):
+    def test_authorization_link_round_trip(self):
+        import urllib.parse
+        verifier = 'v' * 64
+        url = p.authorization_url(' public-client-id ', p.REDIRECT, 'random-state', verifier)
+        self.assertIn('%20', url)
+        self.assertNotIn('+', url)
+        params = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)
+        self.assertEqual(params['client_id'], ['public-client-id'])
+        self.assertEqual(params['redirect_uri'], [p.REDIRECT])
+        self.assertEqual(params['state'], ['random-state'])
+        self.assertEqual(params['code_challenge_method'], ['S256'])
+        self.assertEqual(len(params['code_challenge'][0]), 43)
+        self.assertEqual(set(params['scope'][0].split()), p.SCOPES)
+        self.assertNotIn(verifier, url)
+        for client in ('', '***', 'not an id'):
+            with self.assertRaises(ValueError):
+                p.authorization_url(client, p.REDIRECT, 'state', verifier)
+
     def setUp(self):
         self.now = datetime(2026, 10, 21, 11, 15, tzinfo=p.ET)
         self.row = {'drive_file_id': 'a', 'filename': 'a.mp4', 'caption': 'A reviewed takeaway.',
