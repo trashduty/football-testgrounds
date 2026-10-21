@@ -157,7 +157,21 @@ def parse_callback(value, redirect):
                          'Do not paste the secret into chat or logs.')
     params = urllib.parse.parse_qs(response.query)
     if params.get('error'):
-        raise ValueError('X authorization was declined or returned an error. Start a fresh authorization and approve it.')
+        # Only emit standard, allowlisted categories. Never print arbitrary query
+        # values or error_description, which could contain sensitive information.
+        reasons = {
+            'access_denied': 'X did not grant consent. Confirm the intended account and approve a fresh request.',
+            'invalid_scope': 'X rejected the requested permissions. Check OAuth scopes and app configuration.',
+            'invalid_request': 'X rejected an authorization parameter. Check the client ID, callback registration, and latest authorization link.',
+            'unauthorized_client': 'X did not allow this app to use this authorization flow. Check OAuth 2.0 user authentication and client type.',
+            'unsupported_response_type': 'X rejected the requested authorization flow.',
+            'server_error': 'X reported a server error. Retry authorization with a fresh link.',
+            'temporarily_unavailable': 'X reported temporary unavailability. Retry authorization later.',
+        }
+        category = params['error'][0]
+        if category not in reasons:
+            raise ValueError('X authorization error: unrecognized category (details withheld). Inspect only the error= value locally; do not share the full callback URL.')
+        raise ValueError(f'X authorization error: {category}. {reasons[category]} No authorization code was exchanged.')
     if not params.get('code') or not params.get('state'):
         raise ValueError('Callback URL is missing code= or state=. Copy the ENTIRE address after approving access, including the query string.')
     if len(params['code']) != 1 or len(params['state']) != 1:
