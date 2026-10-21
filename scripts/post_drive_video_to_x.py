@@ -103,6 +103,18 @@ def summary(text):
             target.write(text + '\n\n')
 
 
+def authorization_url(client_id, redirect, state, verifier):
+    client_id = client_id.strip()
+    if not client_id or '*' in client_id or any(c.isspace() for c in client_id):
+        raise ValueError('OAUTH_2_CLIENT_ID must be the unmasked OAuth 2.0 Client ID from X, without whitespace')
+    challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b'=').decode()
+    return 'https://x.com/i/oauth2/authorize?' + urllib.parse.urlencode({
+        'response_type': 'code', 'client_id': client_id,
+        'redirect_uri': redirect, 'scope': ' '.join(sorted(SCOPES)),
+        'state': state, 'code_challenge': challenge, 'code_challenge_method': 'S256'},
+        quote_via=urllib.parse.quote)
+
+
 def start_auth():
     previous = read_state() if STATE.exists() else {}
     verifier, state = secrets.token_urlsafe(48), secrets.token_urlsafe(32)
@@ -110,12 +122,11 @@ def start_auth():
                                 'redirect': os.getenv('OAUTH_2_REDIRECT_URI') or REDIRECT}
     save_state(previous)
     checkpoint()
-    challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b'=').decode()
-    url = 'https://x.com/i/oauth2/authorize?' + urllib.parse.urlencode({
-        'response_type': 'code', 'client_id': os.environ['OAUTH_2_CLIENT_ID'],
-        'redirect_uri': previous['pending_auth']['redirect'], 'scope': ' '.join(sorted(SCOPES)),
-        'state': state, 'code_challenge': challenge, 'code_challenge_method': 'S256'})
-    summary('Open this link while signed into the X account to post from:\n\n' + url)
+    url = authorization_url(os.environ['OAUTH_2_CLIENT_ID'], previous['pending_auth']['redirect'], state, verifier)
+    summary('Open this link while signed into the X account to post from:\n\n[Authorize BTB on X](' + url + ')')
+    summary('Callback to register in the same X app: `' + previous['pending_auth']['redirect'] + '`\n\n'
+            'Request checked: response_type=code, PKCE=S256, state present. Requested permissions: '
+            '`' + ' '.join(sorted(SCOPES)) + '`.')
     summary('After approving, the loopback callback may show a connection error. Copy the entire address '
             'from the address bar into repository secret OAUTH_2_AUTHORIZATION_RESPONSE, then run finish_auth promptly.')
 
