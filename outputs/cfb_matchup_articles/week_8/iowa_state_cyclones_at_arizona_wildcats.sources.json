@@ -1,0 +1,389 @@
+{
+  "game": "Iowa State Cyclones@Arizona Wildcats",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:29:14.268132+00:00",
+  "model_prediction": 9.5,
+  "market_line": 10.5,
+  "best_line": 10.5,
+  "best_price": "-112",
+  "best_book": "DraftKings",
+  "cover_probability": 0.54700188,
+  "edge": 0.018699993207547227,
+  "bet_short": "Iowa State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our case for Iowa State staying competitive starts with a ground game that can reduce possessions and keep the offense out of obvious passing situations. Through four games, Iowa State averaged 180.5 rushing yards compared with 164.8 passing yards, while Aiden Flora produced 382 rushing yards at 7.5 yards per carry. We see that as a more credible foundation than asking the passing game to consistently attack Arizona\u2019s biggest defensive strength.\n\nThe concern for us is drive sustainability. Iowa State converted only 31.9 percent of its third downs through four games, even though it scored on all 12 red-zone possessions. Our matchup numbers also indicate difficulty creating scoring opportunities against this Arizona defense. That combination leaves limited room for inefficient early downs or empty possessions.\n\nWe also see enough from Iowa State\u2019s defense to understand why our expectation is slightly more favorable than the market\u2019s. The unit allowed 272.5 yards and 16.0 points per game through four contests, with opponents converting just 28.3 percent of third downs. Still, Utah gained 411 yards, including 205 on the ground, in the most recent game. We are not treating either sample as definitive. The broader matchup supports Iowa State being competitive, but the disagreement is modest and the current price does not give us enough value to move beyond a pass.",
+    "matchup_to_watch": "For us, the matchup to watch is Iowa State\u2019s passing offense against Arizona\u2019s pass defense. Our efficiency numbers identify that as Arizona\u2019s clearest advantage, making Iowa State\u2019s ability to stay ahead of the chains especially important. If the ground game cannot keep the offense in manageable situations, Jaylen Raynor will face a difficult assignment against the stronger part of Arizona\u2019s defense.\n\nRaynor completed 21 of 40 passes with one touchdown and two interceptions against Utah. We are not using one performance as a forecast, but it illustrates the risk: Iowa State\u2019s path becomes much narrower if Arizona can force the game onto Raynor\u2019s arm rather than allowing Flora and the rushing attack to control the offensive structure.",
+    "guide_status": [
+      "Found guide for Iowa State Cyclones: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa State.pdf",
+      "Guide for Iowa State Cyclones was found but may not match the current opponent. The document is Iowa State's 2026 Game 5 guide for its Oct. 3 home game against West Virginia, as stated on the cover and page headers. The schedule lists the Arizona road game for Oct. 24, so this is not the guide intended for the upcoming Iowa State-Arizona matchup.",
+      "No guide found for Arizona Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Iowa State Cyclones",
+        "opponent": "Arizona Wildcats",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Iowa State's 2026 Game 5 guide for its Oct. 3 home game against West Virginia, as stated on the cover and page headers. The schedule lists the Arizona road game for Oct. 24, so this is not the guide intended for the upcoming Iowa State-Arizona matchup.",
+        "recent_game": [
+          {
+            "fact": "Iowa State entered this guide 2-2 after losing its Big 12 opener 31-17 to No. 15 Utah.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Utah, Iowa State trailed 24-3 at halftime before cutting the deficit to 24-17 with 10:48 remaining.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa State produced 316 total yards against Utah, including 205 passing and 111 rushing, and recorded 23 first downs.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Utah gained 411 total yards and 205 rushing yards, ending Iowa State's five-game streak of holding opponents below 100 rushing yards.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiden Flora had 107 yards from scrimmage against Utah, with 54 rushing yards and career highs of five receptions and 53 receiving yards.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Senior transfer Jaylen Raynor is Iowa State's starting quarterback after spending three seasons at Arkansas State.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Raynor completed 21 of 40 passes for 205 yards, one touchdown and two interceptions against Utah; he also scored a rushing touchdown.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Raynor had made 40 career starts and owned 22 wins as a starter through the publication of this guide.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Raynor had thrown a touchdown pass in six consecutive games and had 11 passing touchdowns plus three rushing touchdowns over that span.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Quarterbacks coach Keith Heckendorf previously coached Raynor at Arkansas State and joined Iowa State's staff in January 2026.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Iowa State's listed first-team offensive line was Jake Taylor at left tackle, Caden Maas at left guard, Braden Smith at center, Austin Barrett at right guard and Maasai King at right tackle.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Taylor, Maas, Smith and King started each of Iowa State's first four games; Barrett started the last three after Trevor Bindel started the opener.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiden Flora was listed as the starting running back, with Cameron Pettaway second on the depth chart.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa State entered 2026 with no returning starters on offense or defense and added 83 newcomers to its 126-player roster.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Iowa State started the same front seven in each of its first four games: Isaac Terrell, Max Baloun, Bryson Lamb and Caden Crawford on the line, with Carson Willich, Sullivan Schlimgen and Willie Breland III at linebacker.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Sullivan Schlimgen led Iowa State with 8.8 tackles per game and made a career-high 12 tackles against Utah.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Carson Willich recorded his first career sack against Utah and had at least one tackle for loss in each of Iowa State's first four games.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive end Isaac Terrell opened the season with three sacks against Southeast Missouri but had not recorded another sack through four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jimmy Rogers became Iowa State's head coach on Dec. 5, 2025 after coaching Washington State in 2025 and South Dakota State in 2023-24.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Tyler Roehl is Iowa State's first-year offensive coordinator, and Jesse Bobbit is its first-year defensive coordinator.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jake Thornton is Iowa State's first-year offensive line coach, while Jalon Bibbs is the first-year defensive line coach.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Fifteen players followed Rogers from Washington State to Iowa State.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Iowa State had rushed for at least 100 yards in 21 consecutive games, the longest active streak among Power Four teams at the time of publication.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Iowa State averaged 180.5 rushing yards and 164.8 passing yards per game.",
+            "page": 19,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State had converted 31.9 percent of its third downs but had scored on all 12 red-zone possessions, including eight touchdowns.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Aiden Flora had 382 rushing yards through four games, averaged 7.5 yards per carry and had posted at least 100 all-purpose yards in consecutive games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Dominic Overby averaged 20.3 yards per reception through four games and had three catches of at least 20 yards.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Iowa State shifted from the previous three-man front to a four-man defensive front under Rogers and defensive coordinator Jesse Bobbit.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Iowa State allowed 272.5 total yards, 158.8 passing yards and 16.0 points per game.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 28.3 percent of third downs against Iowa State through four games.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa State allowed an average of 4.0 second-half points through its first four games.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Through four games, Iowa State had allowed eight rushing plays of at least 10 yards and seven passing plays of at least 20 yards.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Aiden Flora was the primary punt returner and Cameron Pettaway was the primary kickoff returner on the listed depth chart.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Flora averaged 17.9 yards per punt return through four games, while Pettaway had returned a kickoff 100 yards for a touchdown against Bowling Green.",
+            "page": 19,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Kyle Konrardy made a 47-yard field goal against Utah and was 5-for-5 from inside 50 yards during the 2026 season through four games.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Konrardy had made 17 consecutive field goals from 45 yards or closer and owned a school-record six career field goals of at least 50 yards.",
+            "page": 15,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Iowa State's schedule lists the Arizona game for Oct. 24 in Tucson, following an Oct. 17 bye.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Iowa State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Iowa State passing offense vs Arizona pass defense",
+        "off_team": "Iowa State",
+        "def_team": "Arizona",
+        "off_rank": 85,
+        "def_rank": 16,
+        "stat": "pass EPA",
+        "rank_gap": 69,
+        "direction": "defense_advantage",
+        "matchup_score": 169
+      },
+      {
+        "dimension": "Arizona passing offense vs Iowa State pass defense",
+        "off_team": "Arizona",
+        "def_team": "Iowa State",
+        "off_rank": 19,
+        "def_rank": 73,
+        "stat": "pass EPA",
+        "rank_gap": 54,
+        "direction": "mixed",
+        "matchup_score": 54
+      },
+      {
+        "dimension": "Iowa State scoring-opportunity creation vs Arizona scoring-opportunity prevention",
+        "off_team": "Iowa State",
+        "def_team": "Arizona",
+        "off_rank": 112,
+        "def_rank": 64,
+        "stat": "Eckel rate",
+        "rank_gap": 48,
+        "direction": "mixed",
+        "matchup_score": 48
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Utah gained 411 total yards and 205 rushing yards, ending Iowa State's five-game streak of holding opponents below 100 rushing yards.",
+        "page": 12,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Raynor completed 21 of 40 passes for 205 yards, one touchdown and two interceptions against Utah; he also scored a rushing touchdown.",
+        "page": 12,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Through four games, Iowa State averaged 180.5 rushing yards and 164.8 passing yards per game.",
+        "page": 19,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 25,
+        "fact": "Iowa State had converted 31.9 percent of its third downs but had scored on all 12 red-zone possessions, including eight touchdowns.",
+        "page": 13,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Aiden Flora had 382 rushing yards through four games, averaged 7.5 yards per carry and had posted at least 100 all-purpose yards in consecutive games.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Through four games, Iowa State allowed 272.5 total yards, 158.8 passing yards and 16.0 points per game.",
+        "page": 19,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Opponents converted 28.3 percent of third downs against Iowa State through four games.",
+        "page": 19,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Iowa State.pdf",
+        "source_team": "Iowa State Cyclones"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Iowa State Cyclones",
+      "model_side": "Iowa State",
+      "opponent_full": "Arizona Wildcats",
+      "opponent": "Arizona",
+      "model_prediction": 9.5,
+      "market_line": 10.5,
+      "best_available_line": 10.5,
+      "best_available_price": "-112",
+      "cover_probability": 0.54700188,
+      "edge": 0.018699993207547227,
+      "bet_status": "PASS"
+    }
+  }
+}

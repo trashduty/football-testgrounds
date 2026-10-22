@@ -1,0 +1,27 @@
+{
+  "game": "Duke Blue Devils@Virginia Cavaliers",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:21:43.750399+00:00",
+  "model_prediction": 1.5,
+  "market_line": 1.5,
+  "best_line": 1.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.49752939,
+  "edge": -0.014665731951219507,
+  "bet_short": "Duke",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Duke Blue Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Duke.pdf",
+      "No guide found for Virginia Cavaliers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

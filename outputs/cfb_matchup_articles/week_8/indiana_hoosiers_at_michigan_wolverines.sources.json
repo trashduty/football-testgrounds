@@ -1,0 +1,450 @@
+{
+  "game": "Indiana Hoosiers@Michigan Wolverines",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:26:33.917030+00:00",
+  "model_prediction": 6.5,
+  "market_line": 7.0,
+  "best_line": 7.5,
+  "best_price": "-120",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.55023541,
+  "edge": 0.004780864545454566,
+  "bet_short": "Michigan",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers are slightly more cautious than the market about Michigan creating separation because Indiana can challenge the ways Michigan is most likely to move the ball. Through six games, Indiana allowed just 75 rushing yards and 11.8 points per game, while Tobi Osunsanmi and Stephen Daley had five sacks apiece. That aligns with our efficiency data, which sees difficult matchups for Michigan both on the ground and through the air.",
+    "matchup_to_watch": "For us, the matchup to watch is Michigan\u2019s rushing offense against Indiana\u2019s run defense. Indiana had held opponents below 100 rushing yards 25 times since the beginning of 2024, and our numbers rate that unit as a clear strength. If Michigan cannot run efficiently, it may have to lean more heavily on a passing offense that our data also views cautiously.\n\nThat is why we can understand a case for taking the points with Indiana. We still favor Michigan overall, but the disagreement is not meaningful enough at the current price, so we pass.",
+    "guide_status": [
+      "Found guide for Indiana Hoosiers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Indiana.pdf",
+      "Guide for Indiana Hoosiers was found but may not match the current opponent. The guide is Indiana's Game Seven notes for the Oct. 17, 2026 home game against Ohio State. Michigan is listed only as Indiana's following game, scheduled for Oct. 24 in Ann Arbor, so this is not the Michigan matchup guide.",
+      "No guide found for Michigan Wolverines. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Indiana Hoosiers",
+        "opponent": "Michigan Wolverines",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Indiana's Game Seven notes for the Oct. 17, 2026 home game against Ohio State. Michigan is listed only as Indiana's following game, scheduled for Oct. 24 in Ann Arbor, so this is not the Michigan matchup guide.",
+        "recent_game": [
+          {
+            "fact": "Indiana improved to 6-0 with a 20-17 road victory over Nebraska on Oct. 10, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana trailed Nebraska 17-6 before Josh Hoover threw two fourth-quarter touchdown passes to Nick Marsh, covering 75 and 44 yards.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Nick Marsh caught six passes for 187 yards and two touchdowns at Nebraska.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Stephen Daley recorded 2.0 sacks at Nebraska, his second consecutive game with 2.0 sacks and third straight game with at least one sack.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Tobi Osunsanmi recorded a sack at Nebraska, extending his streaks to five consecutive games with a sack and six with a tackle for loss.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jamari Sharpe made eight tackles and intercepted Anthony Colandrea in the third quarter at Nebraska.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebackers Isaiah Jones and Rolijah Hardy combined for 17 tackles at Nebraska, with Jones making nine and Hardy eight.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Through six games, Josh Hoover had completed 88 of 129 passes for 1,364 yards and 17 touchdowns.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hoover was one of two FBS quarterbacks with at least 15 touchdown passes and no interceptions through six games.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hoover transferred from TCU for his final collegiate season after starting 37 games and throwing for 9,629 yards and 71 touchdowns there.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Hoover has 16 career 300-yard passing games and 11 games with at least four touchdown passes, including three such games in 2026.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup Grant Wilson had completed 4 of 5 passes for 74 yards and two touchdowns in 2026.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Turbo Richard led Indiana with 597 rushing yards and five touchdowns on 71 carries through six games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Lee Beebe Jr. had 551 rushing yards and four touchdowns on 98 carries through six games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Richard and Beebe each produced consecutive 100-yard games, including 204 yards for Richard and 122 for Beebe at Rutgers.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Charlie Becker had 30 receptions for 529 yards and eight touchdowns, while Nick Marsh had 29 receptions for 528 yards and six touchdowns through six games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Marsh transferred from Michigan State and had caught a pass in all 29 games of his college career, with multiple receptions in 28 straight games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman tight end Trevor Gibbs made his first two career receptions for 21 yards at Nebraska after making his first start against Northwestern.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "low"
+          },
+          {
+            "fact": "Indiana's starting offensive-line configuration through six games included Carter Smith at left tackle, Drew Evans at left guard, Bray Lynch at center, Joe Brunner at right guard and Adedamola Ajani at right tackle.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Carter Smith had made 47 consecutive starts at left tackle since the start of the 2023 season.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Bray Lynch moved from right guard, where he started throughout 2024 and 2025, to center for all six games in 2026.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wisconsin transfer Joe Brunner started Indiana's first six games at right guard after making 24 consecutive starts at left guard for Wisconsin.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Isaiah Jones led Indiana with 46 tackles through six games and wore the defense's communication green dot.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Rolijah Hardy had 41 tackles, 3.0 tackles for loss and one interception through six games.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tobi Osunsanmi and Stephen Daley shared the team lead with 5.0 sacks each through six games.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Preston Zachman had 34 tackles through six games and recorded at least six tackles in four consecutive games entering the Ohio State week.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Jamari Sharpe had started 21 of Indiana's previous 22 games, missing only the 2026 Howard game because of injury.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Transfers Osunsanmi and Chiddi Obiazor joined Indiana's defensive line from Kansas State, while Josh Burnham arrived from Notre Dame.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Tino Sunseri returned as quarterbacks coach and co-offensive coordinator in 2026 after serving in the same roles at Indiana in 2024 and working as UCLA's offensive coordinator in 2025.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sunseri replaced Chandler Whitmer, who left Indiana to become the Tampa Bay Buccaneers' quarterbacks coach.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tyson Brown became Indiana's director of athletic performance in 2026 after strength and conditioning roles at Mississippi State, UConn and Washington State.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running back Khobie Martin was injured against North Texas and missed Weeks 2 through 6.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback A.J. Harris was injured during the North Texas game and missed Weeks 2 through 5.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive lineman Kellan Wyatt returned from his 2025 injury against Howard in Week 2.",
+            "page": 13,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Tyler Morris returned in the 2026 opener after missing all of 2025 because of injury and caught three passes for 35 yards.",
+            "page": 10,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Quarterback Tyler Cherry returned to the roster after missing the 2025 season because of injury and appeared against Howard.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "low"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through six games, Indiana averaged 462.7 total yards, 221.3 rushing yards, 227.3 passing yards and 40.2 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana had a 100-yard rusher in four of its first six games.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Indiana rushed for 329 yards and produced 593 total yards at Rutgers, its first 300-yard rushing game of 2026.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana had recorded multiple rushing touchdowns in 28 of 35 games under Curt Cignetti and running backs coach John Miller, including four games in 2026.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Indiana's offensive line had an 88.1 PFF run-blocking grade through six games, listed as the best in the Big Ten and fifth among Power 5 teams.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through six games, Indiana allowed 263.5 total yards, 75.0 rushing yards, 188.5 passing yards and 11.8 points per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana had either won or tied the turnover battle in 30 consecutive games dating to 2024.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana had held opponents below 100 rushing yards 25 times since the beginning of 2024.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana's 22-game winning streak consisted entirely of games in which it allowed 24 points or fewer.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bryant Haines' defense produced at least eight tackles for loss in 21 of 35 games from the start of 2024 through the Nebraska game.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Indiana blocked a punt at Rutgers, its 10th blocked kick under special-teams coordinator Grant Cain since 2024.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kicker Nico Radicic was 36 of 39 on career field-goal attempts and 175 of 176 on extra points.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Radicic scored eight points at Nebraska and entered the following week fourth on Indiana's career scoring list with 283 points.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Indiana was 6-0 overall and 3-0 in Big Ten play after the Nebraska game.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana carried a 22-game winning streak into its Oct. 17 game against Ohio State.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Indiana listed its road game at Michigan for noon on Oct. 24, 2026, at Michigan Stadium.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Indiana added 18 Division I transfers for 2026, including six offensive players, eight defensive players and three specialists.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Indiana.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Michigan passing offense vs Indiana pass defense",
+        "off_team": "Michigan",
+        "def_team": "Indiana",
+        "off_rank": 106,
+        "def_rank": 38,
+        "stat": "pass EPA",
+        "rank_gap": 68,
+        "direction": "mixed",
+        "matchup_score": 68
+      },
+      {
+        "dimension": "Michigan rushing offense vs Indiana rush defense",
+        "off_team": "Michigan",
+        "def_team": "Indiana",
+        "off_rank": 48,
+        "def_rank": 6,
+        "stat": "rush EPA",
+        "rank_gap": 42,
+        "direction": "mixed",
+        "matchup_score": 42
+      },
+      {
+        "dimension": "Michigan scoring-opportunity creation vs Indiana scoring-opportunity prevention",
+        "off_team": "Michigan",
+        "def_team": "Indiana",
+        "off_rank": 44,
+        "def_rank": 8,
+        "stat": "Eckel rate",
+        "rank_gap": 36,
+        "direction": "mixed",
+        "matchup_score": 36
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 25,
+        "fact": "Tobi Osunsanmi and Stephen Daley shared the team lead with 5.0 sacks each through six games.",
+        "page": 3,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Indiana.pdf",
+        "source_team": "Indiana Hoosiers"
+      },
+      {
+        "fact_id": 42,
+        "fact": "Through six games, Indiana allowed 263.5 total yards, 75.0 rushing yards, 188.5 passing yards and 11.8 points per game.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Indiana.pdf",
+        "source_team": "Indiana Hoosiers"
+      },
+      {
+        "fact_id": 44,
+        "fact": "Indiana had held opponents below 100 rushing yards 25 times since the beginning of 2024.",
+        "page": 4,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Indiana.pdf",
+        "source_team": "Indiana Hoosiers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Michigan Wolverines",
+      "model_side": "Michigan",
+      "opponent_full": "Indiana Hoosiers",
+      "opponent": "Indiana",
+      "model_prediction": 6.5,
+      "market_line": 7.0,
+      "best_available_line": 7.5,
+      "best_available_price": "-120",
+      "cover_probability": 0.55023541,
+      "edge": 0.004780864545454566,
+      "bet_status": "PASS"
+    }
+  }
+}

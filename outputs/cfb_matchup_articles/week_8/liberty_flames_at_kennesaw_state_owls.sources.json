@@ -1,0 +1,823 @@
+{
+  "game": "Liberty Flames@Kennesaw State Owls",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:34:32.102786+00:00",
+  "model_prediction": 8.5,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.53777286,
+  "edge": 0.025577738048780496,
+  "bet_short": "Kennesaw State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers are slightly more forgiving of Kennesaw State than the market, and we can see a path to a competitive game through its rushing attack. Kennesaw State ran for 197 yards against Arkansas State, with Boogie Woods III reaching 101 yards and Rickie Collins adding 52. We also note that its defense allowed opponents to convert only 31.9 percent of their third downs through four games, which could help prevent Liberty from completely controlling the game.\n\nWe are not treating that improved rushing performance as proof of a breakthrough. Liberty averaged 208.2 rushing yards through five games and called runs on 57.1 percent of its plays, while our efficiency profile also points to an advantage through the air. Liberty had not thrown an interception through five games, so we do not want to assume Kennesaw State can lean on takeaways to offset those offensive advantages.\n\nFor us, that creates a modest disagreement rather than a strong position. Kennesaw State has enough mobility and rushing production to stay within range, but Liberty has multiple credible ways to create separation. The available price does not give us enough room to overlook that balance, so we remain on the pass.",
+    "matchup_to_watch": "We are watching Kennesaw State's ability to create scoring opportunities against Liberty's defense. Kennesaw State converted 92.3 percent of its red-zone trips through four games, but it also scored fewer than 20 points in each of the three games following its opener. Liberty entered its next game having held three straight opponents below 20 points and had allowed only a 28.3 percent third-down conversion rate. The question for us is less about whether Kennesaw State can finish drives and more about whether it can generate enough of them.",
+    "guide_status": [
+      "Found guide for Liberty Flames: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Liberty.pdf",
+      "Guide for Liberty Flames was found but may not match the current opponent. The guide is for Liberty's Oct. 8, 2026 home game against Sam Houston. Liberty's game at Kennesaw State is listed as a later contest on Oct. 22, 2026.",
+      "Found guide for Kennesaw State Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kennesaw State.pdf",
+      "Guide for Kennesaw State Owls was found but may not match the current opponent. The guide is explicitly labeled for Kennesaw State's 2026 Game Five against Jax State on Oct. 7, not the Week 8 matchup against Liberty. Liberty-specific opponent information was therefore not extracted."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Liberty Flames",
+        "opponent": "Kennesaw State Owls",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Liberty's Oct. 8, 2026 home game against Sam Houston. Liberty's game at Kennesaw State is listed as a later contest on Oct. 22, 2026.",
+        "recent_game": [
+          {
+            "fact": "Liberty defeated Delaware 30-14 on Oct. 2, improving to 4-1 overall and 1-0 in Conference USA.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty scored the first 30 points against Delaware and led 30-0 through three quarters.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty produced 439 total yards on a season-high 72 offensive plays against Delaware.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty rushed 47 times for a season-high 282 yards, averaging 6.3 yards per carry against Delaware.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty forced two turnovers at Delaware, recording one interception and one fumble recovery.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Delaware converted 2 of 13 third-down attempts against Liberty.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Kam Davis had 17 carries for 147 yards and a career-high two rushing touchdowns at Delaware.",
+            "page": 24,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Liberty is scheduled to play at Kennesaw State on Oct. 22, 2026 at 7 p.m. ET.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Deshawn Purdie has started each of Liberty's first five games of 2026.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdie completed 13 of 20 passes for 157 yards and no interceptions at Delaware.",
+            "page": 24,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Purdie's game log showed 60 completions on 100 attempts for 936 yards, seven touchdowns and no interceptions.",
+            "page": 24,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Purdie transferred to Liberty after playing at Wake Forest and Charlotte.",
+            "page": 24,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jaylen Henderson and Ethan Vasko are the experienced reserve quarterbacks behind Purdie on Liberty's depth chart.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Liberty used the same five starting offensive linemen in each of its first five games: left tackle D.J. Geth, left guard Joep Engbers, center Aaron Fenimore, right guard Alex Birchmeier and right tackle Christian Williams.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, center Aaron Fenimore had played 330 offensive snaps, left guard Joep Engbers 324, right tackle Christian Williams 285, left tackle D.J. Geth 284 and right guard Alex Birchmeier 230.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kam Davis, Peyton Jones, Terron Kellman and Kanye Udoh are all first-year Liberty running backs.",
+            "page": 24,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Davis recorded consecutive 100-yard rushing games, gaining 166 yards at Coastal Carolina and 147 yards at Delaware.",
+            "page": 24,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Makai Jackson recorded a reception of at least 50 yards in each of Liberty's four games preceding the Sam Houston game.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson was also listed as Liberty's primary punt returner.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Liberty's Delaware starting defensive front consisted of Lorenzo Payne, Mike Jarvis, Nathan Pirolli and JACK Brenton Williams.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Derrell Farrar started each of Liberty's first five games at middle linebacker, while Jeremiah Vessel and D-Icey Hopkins started all five games in the secondary.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, D-Icey Hopkins led Liberty defenders with 261 snaps, followed by Derrell Farrar with 247 and Jeremiah Vessel with 245.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Newland Isaac was elevated from co-offensive coordinator in 2025 to offensive coordinator and running backs coach in 2026.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Shawn Quinn joined Liberty as defensive coordinator and outside linebackers coach in January 2026.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Bill Durkin serves as Liberty's offensive line coach, and Malcolm Dixon serves as quarterbacks coach.",
+            "page": 23,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Liberty averaged 416.8 total yards and a Conference USA-leading 208.2 rushing yards per game through five games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "During its four-game winning streak, Liberty rushed for 950 yards and eight touchdowns.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty recorded at least 400 total yards in each of its three games immediately preceding the Sam Houston game.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Liberty's play distribution was 198 runs and 149 passes, making 57.1 percent of its plays runs.",
+            "page": 28,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty had not thrown an interception through its first five games of 2026.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty averaged 33:55 in time of possession through five games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Liberty committed at least nine penalties in four of its first five games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Liberty held three consecutive opponents below 20 points entering the Sam Houston game and allowed 17.8 points per game through five contests.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty had a Conference USA-high eight takeaways through five games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty ranked 18th nationally in third-down defense through five games, allowing conversions on 17 of 60 attempts for a 28.3 percent rate.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty had intercepted five passes through five games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Liberty allowed 173.4 passing yards per game through five games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Chase Reeves was 9-for-9 on field-goal attempts through the Delaware game, including three made field goals at Delaware.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty listed Sam Crossan as its primary punter and Chase Reeves as the backup punter.",
+            "page": 13,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Liberty averaged 3.0 yards per punt return through five games, totaling 15 yards on five returns.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Liberty began 2024 Conference USA play 3-0 before losing to Kennesaw State.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "One of Jamey Chadwell's two October losses at Liberty entering this guide came in a 2024 road game at Kennesaw State.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Liberty entered the Sam Houston week at 4-1 on a four-game winning streak, already matching its four-win total from the 2025 season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Liberty was 4-0 in 2026 and 28-4 under Jamey Chadwell when outrushing its opponent.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Liberty.pdf"
+      },
+      {
+        "source_team": "Kennesaw State Owls",
+        "opponent": "Liberty Flames",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly labeled for Kennesaw State's 2026 Game Five against Jax State on Oct. 7, not the Week 8 matchup against Liberty. Liberty-specific opponent information was therefore not extracted.",
+        "recent_game": [
+          {
+            "fact": "Kennesaw State lost 17-14 at Arkansas State on Sept. 26, 2026, falling to 1-3.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State rushed 38 times for 197 yards and two touchdowns against Arkansas State after averaging 87.0 rushing yards in its previous two games.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Boogie Woods III recorded career highs of 101 rushing yards and two touchdowns against Arkansas State and finished with 121 yards from scrimmage, including 20 receiving yards.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Rickie Collins completed 17 of 24 passes for 129 yards with no touchdowns or interceptions and rushed nine times for 52 yards against Arkansas State.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State's offensive line allowed four quarterback hurries and four pressures against Arkansas State.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Baron Hopson returned from injury against Arkansas State and recorded eight tackles and 1.5 tackles for loss.",
+            "page": 15,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Syracuse transfer Rickie Collins won Kennesaw State's quarterback competition and started the 2026 opener.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Collins completed 79 of 116 passes for 749 yards, two touchdowns and one interception while rushing 40 times for 185 yards and three touchdowns.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Collins completed at least 60 percent of his passes with at least 20 attempts in each of Kennesaw State's first four games.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Collins had a 68.1 percent completion rate through four games and completed 85.7 percent of his first-quarter passes.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Collins had faced 52 pressures and taken six sacks through four games.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup Landon Varnes transferred from Mississippi Gulf Coast after leading the NJCAA in 2025 with 3,296 passing yards, 31 touchdowns and a 177.6 passing-efficiency rating while throwing four interceptions.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Kennesaw State returned two offensive starters and lost nine from its 2025 team.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The rebuilt running back group features West Georgia transfer Latrelle Murrell, Benedict College transfer Triston Morgan and Mississippi Gulf Coast transfer Boogie Woods III.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Woods had 39 carries for 169 yards and three touchdowns.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State was the only Conference USA team with four players who had each rushed for at least 100 yards and a touchdown through the opening four games.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Northern Colorado transfer Brayden Munroe had 12 receptions for 140 yards through four games, including five catches for 34 yards against Arkansas State.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Javon Rogers had seven receptions for 149 yards through three games, an average of 21.29 yards per reception.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jamari Harrold made his first career start at tight end against Tennessee and had five receptions for 40 yards and one touchdown through four games.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Reed Jesiolowski had three receptions for 15 yards while taking on a larger role during Gerard Bullock Jr.'s absence.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State returned both 2025 starting offensive tackles, Nikola Milovac and JaDarious Lee, who each started all 14 games in 2025.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The offensive line entered 2026 with more than 240 combined career games and 145 starts, though only 91 games and 58 starts came at Kennesaw State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "JaDarious Lee, Mateo Guevara, Precious Ekeh and Nikola Milovac started each of the first four games on the offensive line; Mike Wallace Jr. started three and Darius Neals started one.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Kennesaw State returned five defensive starters and lost seven from its 2025 team.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer edge defender Kai Russell had 17 tackles, two tackles for loss, one sack, three passes defended and one forced fumble through four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baron Hopson had 20 tackles and 1.5 tackles for loss in three appearances through the Arkansas State game.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tywon Christopher led Kennesaw State with 22 tackles through four games.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tulsa and North Alabama transfer Josh Anglin had 21 tackles, 1.5 tackles for loss and one sack through four games.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Memphis transfer safety Cam Miller had 21 tackles and one interception through four games after making his first NCAA start against Tennessee.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami (Ohio) transfer Luke Evans made his first Kennesaw State start against Tennessee and followed with a career-high nine tackles and one tackle for loss against Arkansas State.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Maryland and UAB transfer Perry Fisher recorded eight tackles in his first Kennesaw State start against Tennessee and seven tackles against Arkansas State.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive linemen Marcus Patterson, Jaiden Grimes and Jackson Cooper started each of the first four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jerry Mack was in his second season as Kennesaw State's head coach in 2026 after being hired Dec. 1, 2024.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Marc Mattioli remained Kennesaw State's defensive coordinator and safeties coach for a second season in 2026.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mitch Militello served as offensive coordinator and quarterbacks coach.",
+            "page": 8,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Wide receiver Zion Booker suffered an injury against Arkansas State on Sept. 26 and was announced out for the remainder of the 2026 season.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Gerard Bullock Jr. missed the Tennessee and Arkansas State games with an injury.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Baron Hopson missed the Tennessee game with an injury but returned against Arkansas State on Sept. 26.",
+            "page": 15,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive back Tyler Hallum returned against West Georgia after missing the entire 2025 season with an injury; it was his first game in 642 days.",
+            "page": 17,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Kennesaw State used a spread base offense and averaged 21.8 points, 167.0 rushing yards, 201.0 passing yards and 368.0 total yards per game through four games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The offense ranked first in Conference USA in red-zone conversion rate at 92.3 percent and second in sacks allowed, completion percentage, fewest turnovers lost and rushing offense through four games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State scored fewer than 20 points in each of its three games following the 47-0 opener.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State averaged 21.3 first downs per game through four games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Owls averaged 4.9 yards per rushing attempt through four games, up from 4.1 in 2025 and 3.0 in 2024.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State allowed four sacks through four games, an average of one per game.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Kennesaw State used a 4-2-5 base defense and allowed 22.5 points, 166.5 rushing yards, 196.5 passing yards and 363.0 total yards per game through four games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Excluding the 42 points allowed to Tennessee, Kennesaw State allowed 16.0 points per game in its other three contests.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State forced six fumbles and recovered four through four games.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense generated five takeaways through four games: four fumble recoveries and one interception.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 15 of 47 third downs against Kennesaw State through four games, a 31.9 percent rate.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kennesaw State's defense was on the field for 55.28 percent of total possession time through four games.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Running back Triston Morgan returned a kickoff 47 yards and blocked a punt against West Georgia, earning Conference USA Special Teams Player of the Week.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Kennesaw State was 1-3 overall and had not yet played a Conference USA game entering its Oct. 7 game against Jax State.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kennesaw State returned 49 percent of its overall 2025 production, including 42 percent on offense and 55 percent on defense.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Kennesaw State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Kennesaw State scoring-opportunity creation vs Liberty scoring-opportunity prevention",
+        "off_team": "Kennesaw State",
+        "def_team": "Liberty",
+        "off_rank": 82,
+        "def_rank": 21,
+        "stat": "Eckel rate",
+        "rank_gap": 61,
+        "direction": "defense_advantage",
+        "matchup_score": 161
+      },
+      {
+        "dimension": "Liberty passing offense vs Kennesaw State pass defense",
+        "off_team": "Liberty",
+        "def_team": "Kennesaw State",
+        "off_rank": 59,
+        "def_rank": 120,
+        "stat": "pass EPA",
+        "rank_gap": 61,
+        "direction": "mixed",
+        "matchup_score": 61
+      },
+      {
+        "dimension": "Liberty rushing offense vs Kennesaw State rush defense",
+        "off_team": "Liberty",
+        "def_team": "Kennesaw State",
+        "off_rank": 26,
+        "def_rank": 66,
+        "stat": "rush EPA",
+        "rank_gap": 40,
+        "direction": "mixed",
+        "matchup_score": 40
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 25,
+        "fact": "Liberty averaged 416.8 total yards and a Conference USA-leading 208.2 rushing yards per game through five games.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Liberty.pdf",
+        "source_team": "Liberty Flames"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Through five games, Liberty's play distribution was 198 runs and 149 passes, making 57.1 percent of its plays runs.",
+        "page": 28,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Liberty.pdf",
+        "source_team": "Liberty Flames"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Liberty had not thrown an interception through its first five games of 2026.",
+        "page": 6,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Liberty.pdf",
+        "source_team": "Liberty Flames"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Liberty held three consecutive opponents below 20 points entering the Sam Houston game and allowed 17.8 points per game through five contests.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Liberty.pdf",
+        "source_team": "Liberty Flames"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Liberty ranked 18th nationally in third-down defense through five games, allowing conversions on 17 of 60 attempts for a 28.3 percent rate.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Liberty.pdf",
+        "source_team": "Liberty Flames"
+      },
+      {
+        "fact_id": 43,
+        "fact": "Kennesaw State rushed 38 times for 197 yards and two touchdowns against Arkansas State after averaging 87.0 rushing yards in its previous two games.",
+        "page": 8,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 44,
+        "fact": "Boogie Woods III recorded career highs of 101 rushing yards and two touchdowns against Arkansas State and finished with 121 yards from scrimmage, including 20 receiving yards.",
+        "page": 10,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 45,
+        "fact": "Rickie Collins completed 17 of 24 passes for 129 yards with no touchdowns or interceptions and rushed nine times for 52 yards against Arkansas State.",
+        "page": 9,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 82,
+        "fact": "The offense ranked first in Conference USA in red-zone conversion rate at 92.3 percent and second in sacks allowed, completion percentage, fewest turnovers lost and rushing offense through four games.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 83,
+        "fact": "Kennesaw State scored fewer than 20 points in each of its three games following the 47-0 opener.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      },
+      {
+        "fact_id": 91,
+        "fact": "Opponents converted 15 of 47 third downs against Kennesaw State through four games, a 31.9 percent rate.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Kennesaw State.pdf",
+        "source_team": "Kennesaw State Owls"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Kennesaw State Owls",
+      "model_side": "Kennesaw State",
+      "opponent_full": "Liberty Flames",
+      "opponent": "Liberty",
+      "model_prediction": 8.5,
+      "market_line": 9.5,
+      "best_available_line": 9.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.53777286,
+      "edge": 0.025577738048780496,
+      "bet_status": "PASS"
+    }
+  }
+}

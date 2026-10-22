@@ -1,0 +1,27 @@
+{
+  "game": "NC State Wolfpack@Stanford Cardinal",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:34:33.599509+00:00",
+  "model_prediction": 7.0,
+  "market_line": 6.5,
+  "best_line": 6.5,
+  "best_price": "-104",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50409995,
+  "edge": -0.005703971568627453,
+  "bet_short": "Stanford",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for NC State Wolfpack. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/NC State.pdf",
+      "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

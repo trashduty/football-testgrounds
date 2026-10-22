@@ -1,0 +1,456 @@
+{
+  "game": "Tennessee Volunteers@South Carolina Gamecocks",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:44:55.036594+00:00",
+  "model_prediction": 1.5,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "-106",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51239297,
+  "edge": -0.0021701367961165507,
+  "bet_short": "Tennessee",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case for Tennessee begins with a defense that can disrupt South Carolina\u2019s passing game. Our numbers rate Tennessee\u2019s pass defense as a clear strength, and the early results support that view: Tennessee allowed only five offensive touchdowns across its first 45 defensive drives and limited opponents to 163.5 passing yards per game. That matters against a South Carolina offense that has been ordinary in pass efficiency and has struggled to create scoring opportunities consistently.\n\nThe concern is Tennessee\u2019s offense. We see a favorable efficiency matchup against South Carolina\u2019s pass defense, but Tennessee surrendered 10 sacks against Texas and had allowed 3.25 per game through four contests. Faizon Brandon had accounted for 10 touchdowns without throwing an interception in 93 attempts, so we are not questioning his early production as much as the protection around him. Our model sees enough defensive strength and offensive upside to be slightly more favorable toward Tennessee than the market, but the disagreement is too small to create sufficient value at the available price.",
+    "matchup_to_watch": "We are watching Tennessee\u2019s pass rush against South Carolina\u2019s passing offense. Tennessee recorded 19 sacks through four games, with 10 different defenders producing at least one, while Mariyon Dye and Xavier Gilliam had four each. If that pressure keeps South Carolina from sustaining drives, Tennessee can keep this game within the range our numbers expect. The question is whether the defense can create enough disruption to offset Tennessee\u2019s own pass-protection concerns.",
+    "guide_status": [
+      "Found guide for Tennessee Volunteers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf",
+      "Guide for Tennessee Volunteers was found but may not match the current opponent. This is Tennessee's Week 5 game guide for the Oct. 3, 2026 home game against Auburn. The schedule lists the South Carolina road game for Oct. 24, but the guide's opponent-specific notes, comparisons and series history concern Auburn.",
+      "No guide found for South Carolina Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Carolina.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Tennessee Volunteers",
+        "opponent": "South Carolina Gamecocks",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "This is Tennessee's Week 5 game guide for the Oct. 3, 2026 home game against Auburn. The schedule lists the South Carolina road game for Oct. 24, but the guide's opponent-specific notes, comparisons and series history concern Auburn.",
+        "recent_game": [
+          {
+            "fact": "Tennessee lost 20-17 at home to No. 1 Texas on Sept. 26, falling to 3-1 overall and 0-1 in SEC play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Texas, Tennessee was held to 70 rushing yards while allowing only 61 rushing yards.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee recorded six sacks and 10 tackles for loss against Texas, including 2.5 sacks by Tyree Weathersby.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Faizon Brandon completed 17 of 29 passes for 145 yards and a 30-yard touchdown to Mike Matthews against Texas, but Tennessee allowed 10 sacks.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Arion Carter led Tennessee with 11 tackles against Texas, cornerback Kayin Lee intercepted Arch Manning and defensive tackle Xavier Gilliam recorded two tackles for loss.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "True freshman Faizon Brandon won Tennessee's starting quarterback job in preseason camp and was officially named the starter on Aug. 24.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Brandon had accounted for 10 touchdowns, with seven passing and three rushing, the most among FBS freshmen.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brandon had not thrown an interception in 93 attempts through four games and had thrown at least one touchdown pass in every game.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brandon became the youngest quarterback to start a game in Tennessee history when he started the opener against Furman at 18 years, three months and four days old.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Colorado transfer Ryan Staub was identified as Tennessee's No. 3 quarterback entering the season.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Four of Tennessee's five primary 2025 offensive-line starters returned in 2026: tackle David Sanders Jr., guard Wendell Moe Jr., center Sam Pendleton and Jesse Perry.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had eight offensive linemen with FBS starting experience, combining for 108 starts.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The experienced offensive linemen included Wendell Moe Jr. with 42 FBS starts, Sam Pendleton with 23, Jesse Perry with 16, Sham Umarov with 14 and David Sanders Jr. with 10.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Center Nic Moore and tight end DaSaahn Brame made their first collegiate starts in the season opener.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Radarious Jackson made his first career start against Kennesaw State in Week 3.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "low"
+          },
+          {
+            "fact": "Mike Matthews led Tennessee through four games with 14 receptions, 261 receiving yards and three receiving touchdowns.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back DeSean Bishop had 320 rushing yards, an 80.0-yard average and four rushing touchdowns through four games.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee added offensive transfers including West Virginia guard Donovan Haslam, LSU tackle Ory Williams, Tulane running back Javin Gordon, Idaho State receiver and return specialist Ian Duarte, and tight ends Drake Martinez and Trent Thomas.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Penn State transfer defensive tackle Xavier Gilliam had 7.5 tackles for loss, four sacks and three quarterback hurries through four games.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Penn State transfer linebacker Amare Campbell was second on Tennessee with 22 tackles, including three tackles for loss, through four games.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Penn State transfer safety Dejuan Lane led Tennessee with three passes defended, consisting of two breakups and one interception.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arion Carter led Tennessee with 27 tackles through his first three appearances and averaged 9.0 tackles per game, tied for second in the SEC.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Mariyon Dye and Xavier Gilliam each had four sacks through four games, while Tyree Weathersby had 3.5; 10 Tennessee players had recorded at least one sack.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Seven defenders made their first Tennessee starts in the opener: Amare Campbell, Xavier Gilliam, Dejuan Lane, Kayin Lee, TJ Metcalf, Qua Moss and Nathan Robinson.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dejuan Lane returned an interception 41 yards for a touchdown at Georgia Tech in Week 2.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jim Knowles was named Tennessee's defensive coordinator on Dec. 11, 2025, after serving as Penn State's defensive coordinator in 2025.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "New defensive assistants Anthony Poindexter and Andrew Jackson came from Penn State, while Derek Jones joined as cornerbacks coach after holding the same role at Virginia Tech.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive line coach Rodney Garner and linebackers coach William Inge were retained, while all five offensive assistant coaches returned for 2026.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Tight end Ethan Davis is out for the remainder of the 2026 season after suffering a knee injury at Georgia Tech in Week 2.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer cornerback Jadais Richard is out for the season after sustaining an injury during the summer.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Arion Carter returned against Georgia Tech after a one-game NCAA suspension and was described as fully healthy following offseason foot surgery.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Tennessee averaged 241.5 rushing yards, 196.5 passing yards, 438.0 total yards and 40.0 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had scored on its opening offensive possession in all four games, with three touchdowns and one field goal.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had outscored opponents 44-3 in the second quarter and 86-10 across the second and third quarters through four games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee had allowed 3.25 sacks per game through four contests, ranking 14th in the SEC, and surrendered 10 sacks against Texas.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee had rushed for at least 200 yards in 38 games under Josh Heupel and was 36-2 in those games, with 30 consecutive wins when reaching that mark.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee had not thrown an interception through four games and had scored on every red-zone possession.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Tennessee was tied for the national lead with 19 sacks through four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee led the SEC and ranked fifth nationally with 34 tackles for loss through four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents had scored five offensive touchdowns on 45 drives against Tennessee, an 11.1 percent touchdown rate.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee allowed 163.5 passing yards per game, second in the SEC, and 282.3 total yards per game through four games.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee allowed 15.5 points per game through four games, third in the SEC.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense had allowed only one first-half touchdown through four games, while the starting unit had surrendered three touchdowns overall.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Qua Moss returned a punt 57 yards for a touchdown against Texas, Tennessee's first punt-return touchdown since Oct. 14, 2023.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Louisville transfer kicker Cooper Ranvier was 4-for-4 on field goals, with a long of 43 yards, and 17-for-17 on extra points through four games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson Ross' onside kick against Texas was recovered by Arion Carter, giving Tennessee a final possession in the 20-17 loss.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Tennessee was 3-1 overall and ranked No. 17 in both the AP and Coaches polls after four games.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tennessee's 2026 roster included 20 January transfers, 27 freshmen and 54 total newcomers.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Tennessee.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "South Carolina passing offense vs Tennessee pass defense",
+        "off_team": "South Carolina",
+        "def_team": "Tennessee",
+        "off_rank": 64,
+        "def_rank": 6,
+        "stat": "pass EPA",
+        "rank_gap": 58,
+        "direction": "mixed",
+        "matchup_score": 58
+      },
+      {
+        "dimension": "Tennessee passing offense vs South Carolina pass defense",
+        "off_team": "Tennessee",
+        "def_team": "South Carolina",
+        "off_rank": 81,
+        "def_rank": 118,
+        "stat": "pass EPA",
+        "rank_gap": 37,
+        "direction": "mixed",
+        "matchup_score": 37
+      },
+      {
+        "dimension": "South Carolina scoring-opportunity creation vs Tennessee scoring-opportunity prevention",
+        "off_team": "South Carolina",
+        "def_team": "Tennessee",
+        "off_rank": 96,
+        "def_rank": 75,
+        "stat": "Eckel rate",
+        "rank_gap": 21,
+        "direction": "mixed",
+        "matchup_score": 21
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Brandon had accounted for 10 touchdowns, with seven passing and three rushing, the most among FBS freshmen.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Brandon had not thrown an interception in 93 attempts through four games and had thrown at least one touchdown pass in every game.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 23,
+        "fact": "Mariyon Dye and Xavier Gilliam each had four sacks through four games, while Tyree Weathersby had 3.5; 10 Tennessee players had recorded at least one sack.",
+        "page": 6,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 35,
+        "fact": "Tennessee had allowed 3.25 sacks per game through four contests, ranking 14th in the SEC, and surrendered 10 sacks against Texas.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 38,
+        "fact": "Tennessee was tied for the national lead with 19 sacks through four games.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 40,
+        "fact": "Opponents had scored five offensive touchdowns on 45 drives against Tennessee, an 11.1 percent touchdown rate.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      },
+      {
+        "fact_id": 41,
+        "fact": "Tennessee allowed 163.5 passing yards per game, second in the SEC, and 282.3 total yards per game through four games.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Tennessee.pdf",
+        "source_team": "Tennessee Volunteers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Tennessee Volunteers",
+      "model_side": "Tennessee",
+      "opponent_full": "South Carolina Gamecocks",
+      "opponent": "South Carolina",
+      "model_prediction": 1.5,
+      "market_line": 2.5,
+      "best_available_line": 2.5,
+      "best_available_price": "-106",
+      "cover_probability": 0.51239297,
+      "edge": -0.0021701367961165507,
+      "bet_status": "PASS"
+    }
+  }
+}

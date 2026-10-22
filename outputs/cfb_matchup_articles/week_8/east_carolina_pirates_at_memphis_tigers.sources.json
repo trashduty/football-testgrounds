@@ -1,0 +1,301 @@
+{
+  "game": "East Carolina Pirates@Memphis Tigers",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:22:41.323091+00:00",
+  "model_prediction": -12.0,
+  "market_line": -10.5,
+  "best_line": -10.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.50282955,
+  "edge": -0.009365571951219565,
+  "bet_short": "Memphis",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "The case for Memphis in our numbers starts with East Carolina\u2019s difficulty creating scoring opportunities against a defense that has been much better at preventing them. That concern fits the broader personnel context: East Carolina entered 2026 with only one returning offensive starter after replacing all five starting offensive linemen. The Pirates did rush for 234 yards on 41 carries against Rice, but we treat that as encouraging context rather than proof that the rebuilt offense will consistently sustain drives against stronger resistance.\n\nThe counterweight is East Carolina\u2019s passing matchup. Our numbers view the Pirates\u2019 passing offense more favorably than Memphis\u2019 pass defense, giving East Carolina a plausible route to staying competitive if it can produce gains through the air. We also see only a modest advantage for the Memphis offense in creating scoring chances against East Carolina. For us, that leaves a small model-market disagreement without enough supporting value at the available price, so we remain on the pass.",
+    "matchup_to_watch": "We are watching East Carolina\u2019s offense against Memphis\u2019 scoring-opportunity defense. The Pirates\u2019 ground production against Rice could help them move the ball, but the more important question is whether those possessions consistently reach scoring range. Our numbers favor Memphis in that part of the matchup, while the Tigers\u2019 vulnerable pass defense gives East Carolina a potential answer. How often the Pirates turn movement between the 20s into genuine scoring threats will do the most to determine whether Memphis can create separation.",
+    "guide_status": [
+      "Found guide for East Carolina Pirates: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/East Carolina.pdf",
+      "Guide for East Carolina Pirates was found but may not match the current opponent. The guide is intended for East Carolina's Oct. 15, 2026 road game against UAB. Its game header identifies UAB as the opponent, while the Memphis game is listed as ECU's following contest on Oct. 22.",
+      "No guide found for Memphis Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Memphis.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "East Carolina Pirates",
+        "opponent": "Memphis Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is intended for East Carolina's Oct. 15, 2026 road game against UAB. Its game header identifies UAB as the opponent, while the Memphis game is listed as ECU's following contest on Oct. 22.",
+        "recent_game": [
+          {
+            "fact": "East Carolina defeated Rice 28-12 in its American Conference opener, improving to 3-2 overall and extending its winning streak to three games.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Rice, ECU rushed 41 times for 234 yards and completed 21 of 34 passes for 142 yards with no interceptions, totaling 376 yards on 75 plays.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "ECU lost 2025 starting quarterback Katin Houser, who was one of 11 offensive starters lost after the season.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Quarterbacks Mitch Griffis and Emory Williams joined ECU as transfers for 2026.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Wide receiver Brock Spalding was ECU's only returning offensive starter entering 2026; the Pirates lost 11 offensive starters and returned eight offensive lettermen.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "ECU lost five 2025 starting offensive linemen: Darius Bell, Kyle Long, Jimarion McCrimmon, Emmanuel Poku and Cooper Trnavsky.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "ECU added transfer offensive linemen Brandon Best, Hayes Creel, Christian Harris and Ethan Kramer for 2026.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Ashton Gray and wide receiver Landon Sides transferred from North Texas to ECU to reunite with offensive coordinator Jordan Davis.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "ECU entered 2026 with three returning defensive starters: linebackers DJ Johnson Jr. and Jordan Miles and defensive lineman Jasiyah Robinson.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "ECU lost 10 defensive starters from its 2025 team while returning 18 defensive lettermen.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebackers Cade Law and Crews Law and defensive back Myles Pollard transferred from Memphis to ECU following defensive coordinator Jordon Hankins.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Ayden Duncanson returned interceptions for touchdowns in consecutive games against Old Dominion and N.C. Central, becoming the first ECU player to accomplish that feat.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jordan Davis is in his first season as ECU's offensive coordinator and quarterbacks coach after officially beginning the role on Dec. 18, 2025.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jordon Hankins is in his first season as ECU's defensive coordinator and linebackers coach after officially beginning the role on Jan. 1, 2026.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Hankins spent the previous five seasons at Memphis, serving as defensive coordinator in 2024 and 2025, linebackers coach from 2021 through 2025 and assistant special teams coordinator from 2021 through 2023.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Roy Tesh was promoted to co-defensive coordinator after the 2025 season and continues to coach ECU's defensive line.",
+            "page": 8,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Defensive lineman J.D. Lampley returned to action against N.C. Central on Sept. 26.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Samuel Dankah was stated to be available for ECU's Oct. 10 game against Rice.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through five games in 2026, ECU averaged 24.8 points, 148.8 rushing yards, 195.2 passing yards and 344.0 total yards per game.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "ECU's offense shifted toward the run against Rice, producing 234 rushing yards compared with 142 passing yards.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through five games in 2026, ECU allowed 22.6 points, 146.8 rushing yards, 172.6 passing yards and 319.4 total yards per game.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "ECU held Rice to 12 points in its most recent game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "ECU returned three specialist starters for 2026: punter Tomas O'Halloran, returner Kyler Pearson and kicker Everett Scott.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "ECU defeated Memphis 31-27 at home on Nov. 15, 2025, giving head coach Blake Harrell a 1-0 record against the Tigers.",
+            "page": 5,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "In the 2025 win over Memphis, ECU produced 454 total yards, including 332 passing and 122 rushing, and did not throw an interception.",
+            "page": 6,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "ECU scored the winning touchdown against Memphis in 2025 on Payton Mangrum's 31-yard reception with 1:08 remaining.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "ECU's game at Memphis is scheduled for Thursday, Oct. 22, 2026 at 7:30 p.m. Eastern.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "The Memphis game will be ECU's second consecutive Thursday road game, following the Oct. 15 game at UAB.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "East Carolina.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "East Carolina scoring-opportunity creation vs Memphis scoring-opportunity prevention",
+        "off_team": "East Carolina",
+        "def_team": "Memphis",
+        "off_rank": 99,
+        "def_rank": 30,
+        "stat": "Eckel rate",
+        "rank_gap": 69,
+        "direction": "defense_advantage",
+        "matchup_score": 169
+      },
+      {
+        "dimension": "East Carolina passing offense vs Memphis pass defense",
+        "off_team": "East Carolina",
+        "def_team": "Memphis",
+        "off_rank": 68,
+        "def_rank": 109,
+        "stat": "pass EPA",
+        "rank_gap": 41,
+        "direction": "mixed",
+        "matchup_score": 41
+      },
+      {
+        "dimension": "Memphis scoring-opportunity creation vs East Carolina scoring-opportunity prevention",
+        "off_team": "Memphis",
+        "def_team": "East Carolina",
+        "off_rank": 59,
+        "def_rank": 85,
+        "stat": "Eckel rate",
+        "rank_gap": 26,
+        "direction": "mixed",
+        "matchup_score": 26
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Against Rice, ECU rushed 41 times for 234 yards and completed 21 of 34 passes for 142 yards with no interceptions, totaling 376 yards on 75 plays.",
+        "page": 6,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "East Carolina.pdf",
+        "source_team": "East Carolina Pirates"
+      },
+      {
+        "fact_id": 5,
+        "fact": "Wide receiver Brock Spalding was ECU's only returning offensive starter entering 2026; the Pirates lost 11 offensive starters and returned eight offensive lettermen.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "East Carolina.pdf",
+        "source_team": "East Carolina Pirates"
+      },
+      {
+        "fact_id": 6,
+        "fact": "ECU lost five 2025 starting offensive linemen: Darius Bell, Kyle Long, Jimarion McCrimmon, Emmanuel Poku and Cooper Trnavsky.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "East Carolina.pdf",
+        "source_team": "East Carolina Pirates"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Memphis Tigers",
+      "model_side": "Memphis",
+      "opponent_full": "East Carolina Pirates",
+      "opponent": "East Carolina",
+      "model_prediction": -12.0,
+      "market_line": -10.5,
+      "best_available_line": -10.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.50282955,
+      "edge": -0.009365571951219565,
+      "bet_status": "PASS"
+    }
+  }
+}

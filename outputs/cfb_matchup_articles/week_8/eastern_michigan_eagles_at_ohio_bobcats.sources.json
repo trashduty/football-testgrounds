@@ -1,0 +1,359 @@
+{
+  "game": "Eastern Michigan Eagles@Ohio Bobcats",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:23:43.470864+00:00",
+  "model_prediction": 13.0,
+  "market_line": 12.0,
+  "best_line": 12.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.50370183,
+  "edge": -0.02010769380952382,
+  "bet_short": "Eastern Michigan",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our model sees a narrow case for Eastern Michigan staying competitive, built more around offensive stability than a clear matchup advantage. Noah Kim had completed 106 of 173 passes for 970 yards with six touchdowns and three interceptions through five games, while Benson Prosper and Harold Mack Jr. had emerged as his leading targets. Eastern Michigan also ranked first in the MAC in fewest penalties and penalty yards per game, which matters for an underdog trying to avoid giving away possessions.\n\nThe Lindenwood game offered some encouraging context: Eastern Michigan scored three touchdowns, attempted four field goals and did not have a three-and-out across eight possessions. We are not treating one result as proof of an offensive breakthrough, especially because the broader efficiency profile still raises concerns about creating scoring opportunities consistently.\n\nThe bigger issue is the ground-game matchup on both sides. Ohio owns a substantial rushing-efficiency advantage against Eastern Michigan's defense, while Eastern Michigan's rushing offense faces a strong Ohio run defense. That combination gives Ohio a credible path to control the game, and our expectation remains too close to the market to justify paying the current price on Eastern Michigan.",
+    "matchup_to_watch": "For us, the matchup to watch is Ohio's rushing offense against Eastern Michigan's run defense. Eastern Michigan had improved its pressure production to nine sacks through five games, but disrupting the passing game is different from consistently limiting an efficient rushing attack. If Ohio remains productive on the ground, Eastern Michigan may have to rely heavily on Kim and the passing game to keep pace. That concern is a major reason the small model disagreement does not become a wager.",
+    "guide_status": [
+      "Found guide for Eastern Michigan Eagles: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Eastern Michigan.pdf",
+      "Guide for Eastern Michigan Eagles was found but may not match the current opponent. The guide is for Eastern Michigan's Oct. 3, 2026 game at Massachusetts, identified as Game #6. It lists the road game at Ohio for Oct. 24, so it is not the guide for the upcoming Eastern Michigan-Ohio matchup.",
+      "No guide found for Ohio Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Eastern Michigan Eagles",
+        "opponent": "Ohio Bobcats",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Eastern Michigan's Oct. 3, 2026 game at Massachusetts, identified as Game #6. It lists the road game at Ohio for Oct. 24, so it is not the guide for the upcoming Eastern Michigan-Ohio matchup.",
+        "recent_game": [
+          {
+            "fact": "Eastern Michigan improved to 2-3 with a 29-3 home win over Lindenwood on Sept. 26, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Eastern Michigan outgained Lindenwood 396-191, a 205-yard advantage.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense held Lindenwood to 191 yards on 52 plays, 3.7 yards per play, while recording season highs of eight tackles for loss and four sacks.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Eastern Michigan had eight offensive possessions against Lindenwood, scored three touchdowns, attempted four field goals and punted once; it did not have a three-and-out.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Benson Prosper caught 10 passes for 109 yards and a touchdown against Lindenwood.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Noah Kim completed 23 of 38 passes for 257 yards, two touchdowns and no interceptions against Lindenwood.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Kim had completed 106 of 173 passes for 970 yards, six touchdowns and three interceptions.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Kim started every game in 2025 and returned as the season-opening starter in 2026.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kim was selected as one of Eastern Michigan's five captains for 2026.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Amareon Blue led Eastern Michigan through five games with 243 rushing yards and two touchdowns on 49 carries, averaging 5.0 yards per carry.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Braydon Bennett had 153 rushing yards and one touchdown on 34 carries through five games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Benson Prosper led the team with 21 receptions for 220 yards and one touchdown, while Harold Mack Jr. had 20 receptions for 215 yards and two touchdowns.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Richardo Wournman made his first career start on the offensive line against Lindenwood.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dennis Strey Jr. and first-year player Samuel Adjin made their first career starts at right guard and right tackle, respectively, against Michigan State on Sept. 12.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dalin Wilkins made his first career start at wide receiver against Wisconsin on Sept. 19.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Zach Mowchan led Eastern Michigan with 43 tackles through five games, including 16 solo tackles, 2.5 tackles for loss and three pass breakups.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jason Marshall had 30 tackles, one interception and two pass breakups through five games.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bryce Llewellyn had 24 tackles, two tackles for loss and three pass breakups through five games.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Elgin McDuffey recorded six tackles in each of three consecutive games against Michigan State, Wisconsin and Lindenwood, and registered his first sack against Lindenwood.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Davion Williams made his first career defensive start against Lindenwood, while McDuffey made his first start at linebacker against Wisconsin.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Tate Omli and Kasey Teegardin were named co-defensive coordinators for 2026; Omli also coaches safeties and Teegardin coaches defensive ends.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mike Piatkowski returned as Eastern Michigan's offensive coordinator and quarterbacks coach for 2026.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Eastern Michigan added five assistant coaches for 2026: cornerbacks coach Antreal Allen, wide receivers coach Erik Campbell, running backs coach Donnell Kirkwood Jr., defensive tackles coach Zac Sias and special teams coordinator Grant Kurzner.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through five games, Eastern Michigan averaged 19.0 points, 95.6 rushing yards, 196.8 passing yards and 292.4 total yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Eastern Michigan averaged 30:17 in time of possession through five games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Eagles scored a touchdown on their opening offensive possession in consecutive games against Wisconsin and Lindenwood after being held scoreless in the first quarter of their first three games.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through five games, Eastern Michigan allowed 27.2 points, 139.4 rushing yards, 233.8 passing yards and 373.2 total yards per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Eastern Michigan recorded nine sacks through five games, seven more than it had through the same point in 2025.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Eagles allowed 10 first-quarter points across their first five games and shut out the opponent in the first quarter in all three home games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Rudy Kessinger made three of four field-goal attempts against Lindenwood, including career-long makes from 51 and 42 yards.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kessinger scored 11 points against Lindenwood and increased his Eastern Michigan career total to 22 made field goals.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Nick Devereaux averaged 19.0 yards per kickoff return through five games.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Eastern Michigan was 2-3 overall and 1-0 in MAC play when the guide was issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Eastern Michigan averaged 4.0 penalties and 33.8 penalty yards per game, ranking first in the MAC in both categories.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "The 2026 roster included 54 newcomers: 30 first-year players and 24 transfers.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Eastern Michigan.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Ohio rushing offense vs Eastern Michigan rush defense",
+        "off_team": "Ohio",
+        "def_team": "Eastern Michigan",
+        "off_rank": 7,
+        "def_rank": 75,
+        "stat": "rush EPA",
+        "rank_gap": 68,
+        "direction": "offense_advantage",
+        "matchup_score": 168
+      },
+      {
+        "dimension": "Eastern Michigan rushing offense vs Ohio rush defense",
+        "off_team": "Eastern Michigan",
+        "def_team": "Ohio",
+        "off_rank": 88,
+        "def_rank": 30,
+        "stat": "rush EPA",
+        "rank_gap": 58,
+        "direction": "defense_advantage",
+        "matchup_score": 158
+      },
+      {
+        "dimension": "Eastern Michigan scoring-opportunity creation vs Ohio scoring-opportunity prevention",
+        "off_team": "Eastern Michigan",
+        "def_team": "Ohio",
+        "off_rank": 104,
+        "def_rank": 66,
+        "stat": "Eckel rate",
+        "rank_gap": 38,
+        "direction": "mixed",
+        "matchup_score": 38
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Eastern Michigan had eight offensive possessions against Lindenwood, scored three touchdowns, attempted four field goals and punted once; it did not have a three-and-out.",
+        "page": 4,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Through five games, Kim had completed 106 of 173 passes for 970 yards, six touchdowns and three interceptions.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 12,
+        "fact": "Benson Prosper led the team with 21 receptions for 220 yards and one touchdown, while Harold Mack Jr. had 20 receptions for 215 yards and two touchdowns.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Eastern Michigan recorded nine sacks through five games, seven more than it had through the same point in 2025.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Eastern Michigan averaged 4.0 penalties and 33.8 penalty yards per game, ranking first in the MAC in both categories.",
+        "page": 1,
+        "category": "other_relevant",
+        "importance": "medium",
+        "source_file": "Eastern Michigan.pdf",
+        "source_team": "Eastern Michigan Eagles"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Eastern Michigan Eagles",
+      "model_side": "Eastern Michigan",
+      "opponent_full": "Ohio Bobcats",
+      "opponent": "Ohio",
+      "model_prediction": 13.0,
+      "market_line": 12.0,
+      "best_available_line": 12.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.50370183,
+      "edge": -0.02010769380952382,
+      "bet_status": "PASS"
+    }
+  }
+}

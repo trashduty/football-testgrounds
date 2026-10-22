@@ -1,0 +1,710 @@
+{
+  "game": "Baylor Bears@Kansas Jayhawks",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:17:15.819952+00:00",
+  "model_prediction": 2.0,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "100",
+  "best_book": "Fanatics",
+  "cover_probability": 0.50383027,
+  "edge": 0.0038302700000000245,
+  "bet_short": "Kansas",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our slight lean toward Kansas comes from the overall team profile rather than a clean matchup advantage. The biggest challenge is Baylor\u2019s ability to create scoring opportunities against a Kansas defense that our numbers have struggled to trust in those situations. Baylor averaged 435.8 yards and 29.8 points through four games, giving it enough offensive production to test that weakness even though our passing metrics remain less convinced by the Bears.\n\nThe other side is where the market\u2019s position becomes harder for us to support. Kansas lost nine offensive starters from last season and entered 2026 with Isaiah Marshall as its new starting quarterback. Meanwhile, Baylor held each of its first four opponents below 20 points and generated consistent backfield disruption. Those early results do not establish Baylor as an elite defense, but they matter against a rebuilt Kansas offense that has not yet provided much evidence against comparable competition.\n\nFor us, that creates competing signals rather than a strong case. Our broader numbers keep Kansas slightly ahead, while the most relevant matchup indicators give Baylor credible paths to stay close. The available price does not provide enough value to resolve that tension, so we remain on the pass.",
+    "matchup_to_watch": "We are watching Kansas\u2019 pass protection against Baylor\u2019s pressure. Kansas allowed no sacks and only one tackle for loss in its opener, while Marshall completed 14 of 19 passes for 246 yards and two touchdowns. Baylor, however, averaged 3.75 sacks and nine tackles for loss through four games. If Kansas can keep Marshall clean against that front, its offense has a better chance to justify our narrow lean; if Baylor consistently disrupts the pocket, the Bears\u2019 defensive matchup advantage becomes much more important.",
+    "guide_status": [
+      "Found guide for Baylor Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Baylor.pdf",
+      "Guide for Baylor Bears was found but may not match the current opponent. The document is Baylor's 2026 Game 5 notes for its Oct. 3 road game against Arizona State, not the Week 8 game at Kansas scheduled for Oct. 24.",
+      "Found guide for Kansas Jayhawks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas.pdf",
+      "Guide for Kansas Jayhawks was found but may not match the current opponent. The document is Kansas' Game 2 notes for the Sept. 11, 2026 matchup against Missouri, not the Week 8 game against Baylor. Baylor is listed only as a future opponent scheduled to visit Kansas on Oct. 24, 2026."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Baylor Bears",
+        "opponent": "Kansas Jayhawks",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Baylor's 2026 Game 5 notes for its Oct. 3 road game against Arizona State, not the Week 8 game at Kansas scheduled for Oct. 24.",
+        "recent_game": [
+          {
+            "fact": "Baylor defeated Colorado 23-13 on Sept. 26 to improve to 3-1 overall and 1-0 in Big 12 play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor limited Colorado to 363 total yards, forced eight punts on 15 drives, recovered a fumble and made two fourth-down stops.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor recorded five sacks and 13 tackles for loss against Colorado; the 13 tackles for loss were its most since a 2019 win at Kansas State.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Travion Barnes recorded a Baylor career-high nine tackles and two tackles for loss against Colorado.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Junior DJ Lagway transferred from Florida after making 19 starts and producing 4,179 passing yards and 28 passing touchdowns over two seasons.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lagway suffered a lower-leg injury in the season opener against Auburn but played through it and finished with 333 passing yards and two touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Nate Bennett made his first career start in place of Lagway against Prairie View A&M, completing 24 of 36 passes for 314 yards and three touchdowns while adding a rushing touchdown.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Bennett also played in relief of Lagway against Louisiana Tech and completed 21 of 24 passes for 253 yards and three touchdowns while accounting for a fourth touchdown on the ground.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lagway returned to action against Colorado and threw two touchdown passes.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Baylor added 16 offensive players through the transfer portal for 2026, including Lagway, tight end Tony Livingston and wide receivers Gavin Freeman and Jayden McGowan.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor had seven first-time Bears starters on offense in the opener: Lagway, running back Dawson Pendergrass, wide receiver Louis Brown IV, wide receiver Gavin Freeman, left guard Nate Kibble, right guard Asher Hale and right tackle Logan Moore.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Harrison Cluff made his first Baylor start against Prairie View A&M, and right tackle Cooper Lovelace made his first Baylor start against Louisiana Tech.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freeman had 35 receptions for 364 yards through four games, averaging 8.75 catches and 91 receiving yards per game.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Pendergrass returned to full speed in 2026 after missing the 2025 season with a preseason season-ending injury.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Baylor added 21 defensive players through the transfer portal for 2026, with major additions along the defensive line, at edge rusher and at safety.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive tackle Traevon Mitchell made his first NCAA start in Baylor's win over Colorado.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The opening-game defense included seven first-time Baylor starters: nose tackle Hosea Wheeler, JACK Ryan Davis, linebacker Travion Barnes, STAR Daniel Cobbs, strong safety Devin Turner, free safety Colby McCalister and cornerback Devon Jordan.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor's linebacker group is led by Travion Barnes and Kyland Reed after 2025 leading tackler Keaton Thomas transferred to Ole Miss.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas State transfers Ryan Davis, Daniel Cobbs and Colby McCalister joined Baylor with prior experience in defensive coordinator Joe Klanderman's scheme.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Joe Klanderman replaced Matthew Powledge as Baylor's defensive coordinator and safeties coach for 2026 after seven seasons at Kansas State, including coordinating its defense from 2020 through 2025.",
+            "page": 10,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Head coach Dave Aranda stepped back from calling the defense after handling the defensive play-calling and inside linebackers for the previous two seasons.",
+            "page": 8,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jacori Greer replaced Inoke Breckterfield as defensive line coach, and Jeremy Modkins replaced Paul Gonzales as cornerbacks coach.",
+            "page": 19,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Austin Woods is in his first full season leading Baylor's offensive line after serving as interim offensive line coach for the final five games of 2025.",
+            "page": 19,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jake Spavital is in his third season as Baylor's offensive coordinator and quarterbacks coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Safety Jacob Redding and wide receiver Ashton Jones suffered season-ending injuries before or during the early portion of the 2026 season.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Starting defensive tackle Devonte Tezino suffered a season-ending injury on the first drive against Prairie View A&M.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Dawson Pendergrass returned to full speed after missing the entire 2025 season with an injury.",
+            "page": 14,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Baylor averaged 435.8 total yards, 285 passing yards, 150.8 rushing yards and 29.8 points per game.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked 11th nationally with 103 first downs and 25th with 285 passing yards per game through four games.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor allowed 1.5 sacks per game through its first four games but allowed 7.25 tackles for loss per game.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor had gained at least 300 total yards and passed for at least 200 yards in each of its first four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Baylor held each of its first four opponents under 20 points, its longest such streak since 2005.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Baylor allowed 13 points, 306 total yards and 97 rushing yards per game.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked fourth nationally with 3.75 sacks per game and fifth with nine tackles for loss per game through four games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked 10th nationally in fourth-down defense at 14.3 percent and 12th in red-zone defense at 69.2 percent through four games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor had seven takeaways through four games, including four interceptions and three recovered fumbles.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Against Colorado, punter Palmer Williams averaged 50.4 yards on seven punts, with four punts traveling at least 50 yards and four downed inside the 20.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jayden McGowan returned seven punts for 130 yards against Colorado, including a long return of 36 yards.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Rhett Armstrong tied his career high with three field goals against Colorado, making kicks from 54, 37 and 27 yards.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor ranked 10th nationally in net punting at 44.79 yards through four games.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Baylor was 3-1 overall and 1-0 in Big 12 play through Sept. 26, with three consecutive victories.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor added a program-record 39 transfer-portal players for the 2026 season: 16 on offense, 21 on defense and two on special teams.",
+            "page": 10,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Baylor.pdf"
+      },
+      {
+        "source_team": "Kansas Jayhawks",
+        "opponent": "Baylor Bears",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Kansas' Game 2 notes for the Sept. 11, 2026 matchup against Missouri, not the Week 8 game against Baylor. Baylor is listed only as a future opponent scheduled to visit Kansas on Oct. 24, 2026.",
+        "recent_game": [
+          {
+            "fact": "Kansas opened the 2026 season with a 51-6 home win over Long Island on Sept. 4.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas produced 613 total yards on 76 plays against Long Island, including 277 rushing yards and 336 passing yards.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas held Long Island to 146 total yards, 35 rushing yards on 33 attempts and no touchdowns.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas recorded 11 tackles for loss against Long Island, led by Leroy Harris III's career-high 4.0 tackles for loss.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Kansas is scheduled to host Baylor at David Booth Kansas Memorial Stadium on Oct. 24, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor opened the 2026 season with a 17-16 loss to Auburn on Sept. 5.",
+            "page": 10,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Head coach Lance Leipold named redshirt sophomore Isaiah Marshall the starting quarterback before the 2026 season.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Marshall completed 14 of 19 passes for 246 yards and two touchdowns and rushed seven times for 49 yards against Long Island.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup Cole Ballard entered 2026 with 15 career appearances and one start; he completed 4 of 6 passes for 90 yards in the opener.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Quarterback Chase Jenkins transferred from Rice after starting all 12 regular-season games there in 2025 and totaling 1,025 passing yards, nine passing touchdowns, 531 rushing yards and five rushing touchdowns.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Kansas returned three offensive starters from 2025: tight end Carson Bruhn, left guard Amir Herring and left tackle Calvin Clements.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The Game 2 offensive line listed Calvin Clements at left tackle, Amir Herring at left guard, Kasen Carpenter at center, Tavake Tuikolovatu at right guard and Nick Morrow at right tackle.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas' offensive line allowed no sacks and only one tackle for loss in the season opener.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Yasin Willis, a Syracuse transfer, rushed 11 times for 72 yards and two touchdowns in his Kansas debut.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Dylan Edwards transferred to Kansas after two seasons at Kansas State and one at Colorado; he rushed six times for 32 yards in his Kansas debut.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Jalen Dupree, a Colorado State transfer, rushed nine times for 35 yards and his first Kansas touchdown against Long Island.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo transfer Nik McMillan caught six passes for 130 yards and one touchdown in his Kansas debut.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas lost nine offensive starters from 2025, including quarterback Jalon Daniels, running back Daniel Hishaw Jr., center Bryce Foster and tackle Enrique Cruz Jr.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Kansas returned five defensive starters from 2025: linebacker Trey Lathan, cornerbacks Austin Alexander and Jalen Todd, safety Taylor Davis and defensive tackle Blake Herold.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Trey Lathan returned after leading Kansas with 86 tackles in 2025; he entered 2026 with 198 career tackles and 17.0 tackles for loss.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Leroy Harris III led Kansas with 4.5 sacks in 2025 and recorded 4.0 tackles for loss in the 2026 opener.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Michigan State transfer David Santiago recorded four tackles, 1.5 tackles for loss, a forced fumble and a fumble recovery against Long Island.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Corey Gordon transferred to Kansas after starting all 12 games for Louisville in 2025; he previously played 23 games with six starts at Baylor.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas added 17 defensive transfers for 2026, including Gordon, Santiago, Kevin Oatis, Tre'Von McAlpine, Jaden Harris and Roman Pearson.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Andy Kotelnicki returned to Kansas as associate head coach after spending the previous two seasons at Penn State.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Kotelnicki previously served as Kansas' offensive coordinator in 2021-22 and associate head coach/offensive coordinator in 2023.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas listed D.K. McDonald as defensive coordinator, Matt Lubick as co-offensive coordinator and Jim Zebrowski as passing game coordinator and quarterbacks coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Wide receiver Cam Pickett did not play in Kansas' season opener; the guide did not state a reason or provide a return timetable.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Kansas scored five rushing touchdowns against Long Island, with Willis scoring twice and Micah Johnson, Donald Collier and Jalen Dupree each scoring once.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Kansas generated six plays of more than 20 yards and three plays of more than 40 yards in the opener.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas has allowed 45 sacks since the start of the 2023 season, the second-fewest in the Big 12 over that span.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas averaged 19.7 yards per completion over the 2024 and 2025 seasons, the highest figure in the Big 12 over that period.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Kansas allowed 26.8 points and 387.2 total yards per game in 2025.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas allowed 214.1 passing yards per game in 2025, its lowest season average since 2001.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas averaged 6.3 tackles for loss per game in 2025, ranking fourth in the Big 12.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas recorded 82 sacks from 2023 through 2025.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "low"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kansas added kicker Martin Connington from Michigan State, punter Matthew Gill from Australia and long snapper Rino Monteforte from Cal for 2026.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Connington made a 32-yard field goal and all six extra-point attempts against Long Island.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Game 2 depth chart listed Tate Nagy as the primary punt returner and Dylan Edwards as the primary kickoff returner.",
+            "page": 15,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Kansas lost its most recent listed meeting with Baylor, 45-17 at Baylor on Nov. 30, 2024.",
+            "page": 13,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Under Lance Leipold, Kansas also lost to Baylor 35-23 in 2022 and 45-7 in 2021.",
+            "page": 13,
+            "category": "series_context",
+            "importance": "low"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Kansas entered the 2026 season with 32 transfer additions: 13 on offense, 17 on defense and two on special teams.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kansas named quarterback Cole Ballard, offensive lineman Calvin Clements, defensive tackle Blake Herold, linebacker Trey Lathan and long snapper Rino Monteforte as its 2026 captains.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Kansas.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Baylor scoring-opportunity creation vs Kansas scoring-opportunity prevention",
+        "off_team": "Baylor",
+        "def_team": "Kansas",
+        "off_rank": 42,
+        "def_rank": 124,
+        "stat": "Eckel rate",
+        "rank_gap": 82,
+        "direction": "mixed",
+        "matchup_score": 82
+      },
+      {
+        "dimension": "Kansas passing offense vs Baylor pass defense",
+        "off_team": "Kansas",
+        "def_team": "Baylor",
+        "off_rank": 97,
+        "def_rank": 39,
+        "stat": "pass EPA",
+        "rank_gap": 58,
+        "direction": "mixed",
+        "matchup_score": 58
+      },
+      {
+        "dimension": "Baylor passing offense vs Kansas pass defense",
+        "off_team": "Baylor",
+        "def_team": "Kansas",
+        "off_rank": 100,
+        "def_rank": 92,
+        "stat": "pass EPA",
+        "rank_gap": 8,
+        "direction": "mixed",
+        "matchup_score": 8
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 28,
+        "fact": "Through four games, Baylor averaged 435.8 total yards, 285 passing yards, 150.8 rushing yards and 29.8 points per game.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Baylor.pdf",
+        "source_team": "Baylor Bears"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Baylor held each of its first four opponents under 20 points, its longest such streak since 2005.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Baylor.pdf",
+        "source_team": "Baylor Bears"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Baylor ranked fourth nationally with 3.75 sacks per game and fifth with nine tackles for loss per game through four games.",
+        "page": 4,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Baylor.pdf",
+        "source_team": "Baylor Bears"
+      },
+      {
+        "fact_id": 47,
+        "fact": "Head coach Lance Leipold named redshirt sophomore Isaiah Marshall the starting quarterback before the 2026 season.",
+        "page": 4,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 48,
+        "fact": "Marshall completed 14 of 19 passes for 246 yards and two touchdowns and rushed seven times for 49 yards against Long Island.",
+        "page": 4,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 53,
+        "fact": "Kansas' offensive line allowed no sacks and only one tackle for loss in the season opener.",
+        "page": 5,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      },
+      {
+        "fact_id": 58,
+        "fact": "Kansas lost nine offensive starters from 2025, including quarterback Jalon Daniels, running back Daniel Hishaw Jr., center Bryce Foster and tackle Enrique Cruz Jr.",
+        "page": 5,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Kansas.pdf",
+        "source_team": "Kansas Jayhawks"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Kansas Jayhawks",
+      "model_side": "Kansas",
+      "opponent_full": "Baylor Bears",
+      "opponent": "Baylor",
+      "model_prediction": 2.0,
+      "market_line": 2.5,
+      "best_available_line": 2.5,
+      "best_available_price": "100",
+      "cover_probability": 0.50383027,
+      "edge": 0.0038302700000000245,
+      "bet_status": "PASS"
+    }
+  }
+}

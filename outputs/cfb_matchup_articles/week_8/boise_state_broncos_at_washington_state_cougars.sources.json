@@ -1,0 +1,485 @@
+{
+  "game": "Boise State Broncos@Washington State Cougars",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:18:24.680487+00:00",
+  "model_prediction": 9.5,
+  "market_line": 13.0,
+  "best_line": 13.5,
+  "best_price": "-110",
+  "best_book": "Fanatics",
+  "cover_probability": 0.5891264,
+  "edge": 0.06531687619047621,
+  "bet_short": "Washington State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case is less about declaring Washington State the better team and more about the amount of separation the market expects from Boise State. Washington State has been uneven, but it also led Arizona at halftime before fading in the second half. With 50 new players and only four returning starters, we see a team whose early results contain plenty of volatility rather than a settled baseline.\n\nThe meaningful concern is Boise State\u2019s rushing offense against a Washington State defense that allowed 173.3 rushing yards per game through four contests. That matchup gives Boise State a credible path to controlling the game. Even so, our numbers do not see that advantage as sufficient to justify the market\u2019s full margin, particularly if Washington State can limit the drive-killing plays that have repeatedly put its offense behind schedule.",
+    "matchup_to_watch": "We are watching Washington State\u2019s passing offense against Boise State\u2019s pass defense. Washington State allowed 13 sacks in its first four games, including six against Arizona, and Boise State owns the stronger efficiency profile in this phase. If that disadvantage consistently creates negative plays, Washington State will have difficulty staying within the number.\n\nPinnick\u2019s mobility is the counterweight for us. Through four games, he had 13 runs of at least 10 yards, tied for third-most among quarterbacks nationally. We do not expect that alone to erase the matchup disadvantage, but his ability to create outside the structure gives Washington State another way to extend drives and makes Boise State\u2019s path to separation less straightforward.",
+    "guide_status": [
+      "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf",
+      "Found guide for Washington State Cougars: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington State.pdf",
+      "Guide for Washington State Cougars was found but may not match the current opponent. The guide is for Washington State's October 3, 2026 game against Fresno State, as stated in the headline, game-information box and weekly schedule. Boise State is listed later on the season schedule for October 24."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Washington State Cougars",
+        "opponent": "Boise State Broncos",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Washington State's October 3, 2026 game against Fresno State, as stated in the headline, game-information box and weekly schedule. Boise State is listed later on the season schedule for October 24.",
+        "recent_game": [
+          {
+            "fact": "Washington State lost 34-24 at home to Arizona on September 26, falling to 1-3.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Arizona, Washington State produced 335 total yards, including 241 passing and 94 rushing, while allowing 447 total yards.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State converted 5 of 15 third downs, allowed six sacks and committed two turnovers against Arizona.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State led Arizona 14-0 in the first quarter and 17-14 at halftime before being outscored 20-7 in the second half.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Washington State is scheduled to host Boise State on October 24, 2026 at 3 p.m. Pacific in a Pac-12 conference game.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State head coach Kirby Moore was a Boise State wide receiver from 2009 and 2010-13, catching 115 passes for 1,137 yards and six touchdowns in 45 career games.",
+            "page": 15,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Redshirt sophomore Caden Pinnick was named Washington State's starting quarterback on August 24 after transferring from UC Davis.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "At UC Davis in 2025, Pinnick passed for 3,206 yards and 32 touchdowns with 10 interceptions and rushed for 437 yards and three touchdowns.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pinnick completed 24 of 41 passes for 241 yards, one touchdown and one interception against Arizona, adding 35 rushing yards and an 11-yard touchdown.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Pinnick had 201 rushing yards and three rushing touchdowns, and his 13 runs of at least 10 yards were tied for third-most among quarterbacks nationally.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Owen Eshelman made his collegiate debut during the final snaps against Duquesne.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "low"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Washington State's roster includes 50 new players, including 29 transfers from four-year schools.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State returned four 2025 starters, all on offense: wide receiver Tony Freeman, right tackle Jonny Lester, left tackle Ashton Tripp and running back Kirby Vorhees.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The offensive line against Arizona consisted of Ashton Tripp at left tackle, Jonny Lester at left guard, Noah Dunham at center, Nick Bakken at right guard and Jaylin Caldwell at right tackle.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ashton Tripp started all 13 games at left tackle in 2025 and allowed one sack in 490 pass-blocking snaps.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Noah Dunham moved from left guard to center before 2026 fall camp and started the first four games at center.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jonny Lester started at right tackle in the opener, played right tackle, right guard and left guard at Kansas State, and started the next two games at left guard.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jaylin Caldwell played the final 33 snaps at right tackle against Kansas State and started the next two games there.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Against Arizona, Tank Hawkins Jr. caught six passes for 37 yards, Daniel Blood had five catches for 57 yards, Branden Ganashamoorthy had four catches for 67 yards and a touchdown, and Darrius Clemons had four catches for 57 yards.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kirby Vorhees had 210 rushing yards through four games, while Maxwell Woods had recorded consecutive 100-yard games in his two most recent starts dating to the 2025 bowl game.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Washington State used the same starting defensive front seven in each of its first four games: edges Linus Zunk and Matyus McLain, tackles Kaden Beatty and Jirah Leaupepetele, and linebackers Keith Brown and DJ Warner, with Jaylen Thomas starting at nickel in three of the four games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Jackquintin Bal made nine tackles and returned his first career interception 25 yards for a touchdown against Arizona.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linus Zunk recorded five tackles and two sacks against Arizona.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Matyus McLain made a career-high eight tackles and shared a sack against Arizona.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jaylen Thomas recorded two interceptions against Kansas State, returning one 50 yards for a touchdown, and was named Pac-12 Defensive Player of the Week.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jamarey Smith began the season at nickel and then started the next three games at cornerback, making a career-high seven tackles against Arizona.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kirby Moore was hired as Washington State's head coach on December 12, 2025 and is in his first season.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Moore previously spent three seasons as Missouri's offensive coordinator and quarterbacks coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Matt Miller is Washington State's first-year offensive coordinator and quarterbacks coach, and Trent Bray is the first-year defensive coordinator and linebackers coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Matt Miller calls the offense from the booth, while Trent Bray coaches from the field.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Derek Sage is Washington State's first-year wide receivers coach and special teams coordinator.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Cornerback Khamari Terrell did not play at Kansas State because of injury but returned to start against Duquesne and made four tackles with one pass breakup against Arizona.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Jalil Tucker missed the three games following the season opener because of injury.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Trey Leckner had not played in 2026 through the first four games.",
+            "page": 9,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Washington State averaged 22.3 points, 152.8 rushing yards, 161.0 passing yards and 313.8 total yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State converted 28.9 percent of its third downs and scored on 70 percent of its red-zone opportunities through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State allowed 13 sacks through four games, including six against Arizona.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State rushed for 100 yards against Washington, 101 against Kansas State, 316 against Duquesne and 94 against Arizona.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington State's only game with at least 500 total yards through four contests was its 48-7 win over Duquesne, when it gained 512 yards.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Washington State allowed 24.8 points, 173.3 rushing yards, 207.0 passing yards and 380.3 total yards per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State allowed opponents to convert 41.1 percent of third downs but had stopped all four opponent fourth-down attempts through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State had four sacks and 16 tackles for loss through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington State had three interceptions, no fumble recoveries and a minus-four turnover margin through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State allowed between 400 and 499 total yards in each of its three losses and held Duquesne to 185 yards in its win.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State returned interceptions for touchdowns in consecutive road and home games, with Jaylen Thomas scoring against Kansas State and Jackquintin Bal scoring against Arizona.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Washington State returned two punts for touchdowns against Duquesne, matching the school single-game record.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaylen Thomas returned a punt 47 yards for a touchdown and Tank Hawkins Jr. returned another 65 yards for a touchdown against Duquesne.",
+            "page": 14,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Max Dean averaged 45.2 yards per punt through four games, ranking 14th nationally and second in the Pac-12.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Jack Stevens made a 33-yard field goal against Arizona but had a 39-yard attempt blocked.",
+            "page": 14,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive tackle Damarjhe Lewis blocked a 43-yard Arizona field-goal attempt.",
+            "page": 14,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington State allowed 16.2 yards per opponent punt return through four games, ranking 126th nationally.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Washington State defeated Boise State 47-44 in three overtimes in Pullman on September 9, 2017.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Washington State began the season 1-3, with losses to Washington, Kansas State and Arizona and a win over Duquesne.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Washington State had 34 players make their Cougar debuts during the first four weeks of the season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Washington State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Washington State passing offense vs Boise State pass defense",
+        "off_team": "Washington State",
+        "def_team": "Boise State",
+        "off_rank": 121,
+        "def_rank": 21,
+        "stat": "pass EPA",
+        "rank_gap": 100,
+        "direction": "defense_advantage",
+        "matchup_score": 200
+      },
+      {
+        "dimension": "Boise State rushing offense vs Washington State rush defense",
+        "off_team": "Boise State",
+        "def_team": "Washington State",
+        "off_rank": 29,
+        "def_rank": 76,
+        "stat": "rush EPA",
+        "rank_gap": 47,
+        "direction": "offense_advantage",
+        "matchup_score": 147
+      },
+      {
+        "dimension": "Washington State scoring-opportunity creation vs Boise State scoring-opportunity prevention",
+        "off_team": "Washington State",
+        "def_team": "Boise State",
+        "off_rank": 78,
+        "def_rank": 31,
+        "stat": "Eckel rate",
+        "rank_gap": 47,
+        "direction": "defense_advantage",
+        "matchup_score": 147
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Washington State led Arizona 14-0 in the first quarter and 17-14 at halftime before being outscored 20-7 in the second half.",
+        "page": 14,
+        "category": "recent_game",
+        "importance": "medium",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Through four games, Pinnick had 201 rushing yards and three rushing touchdowns, and his 13 runs of at least 10 yards were tied for third-most among quarterbacks nationally.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Washington State's roster includes 50 new players, including 29 transfers from four-year schools.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 11,
+        "fact": "Washington State returned four 2025 starters, all on offense: wide receiver Tony Freeman, right tackle Jonny Lester, left tackle Ashton Tripp and running back Kirby Vorhees.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 35,
+        "fact": "Washington State allowed 13 sacks through four games, including six against Arizona.",
+        "page": 3,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      },
+      {
+        "fact_id": 38,
+        "fact": "Through four games, Washington State allowed 24.8 points, 173.3 rushing yards, 207.0 passing yards and 380.3 total yards per game.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Washington State.pdf",
+        "source_team": "Washington State Cougars"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Washington State Cougars",
+      "model_side": "Washington State",
+      "opponent_full": "Boise State Broncos",
+      "opponent": "Boise State",
+      "model_prediction": 9.5,
+      "market_line": 13.0,
+      "best_available_line": 13.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.5891264,
+      "edge": 0.06531687619047621,
+      "bet_status": "BET"
+    }
+  }
+}

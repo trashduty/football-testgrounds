@@ -1,0 +1,597 @@
+{
+  "game": "West Virginia Mountaineers@TCU Horned Frogs",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:51:55.933702+00:00",
+  "model_prediction": 10.0,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-104",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51802104,
+  "edge": 0.008217118431372628,
+  "bet_short": "West Virginia",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for West Virginia Mountaineers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/West Virginia.pdf",
+      "Guide for West Virginia Mountaineers was found but may not match the current opponent. The guide is for West Virginia's Oct. 3, 2026 road game against Iowa State, not the Week 8 game at TCU scheduled for Oct. 24, 2026. It contains Iowa State game information, comparisons and series history.",
+      "Found guide for TCU Horned Frogs: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/TCU.pdf",
+      "Guide for TCU Horned Frogs was found but may not match the current opponent. The guide is TCU's Game 5 notes for the Oct. 3, 2026 home game against BYU, not the Week 8 game against West Virginia. West Virginia appears only as a future opponent on TCU's schedule.",
+      "Narrative generation failed: Expecting ':' delimiter: line 1 column 728 (char 727)"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "West Virginia Mountaineers",
+        "opponent": "TCU Horned Frogs",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for West Virginia's Oct. 3, 2026 road game against Iowa State, not the Week 8 game at TCU scheduled for Oct. 24, 2026. It contains Iowa State game information, comparisons and series history.",
+        "recent_game": [
+          {
+            "fact": "West Virginia lost 41-24 to Oklahoma State on Sept. 26, falling to 3-1 overall and 0-1 in the Big 12.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia rushed 66 times for 335 yards against Oklahoma State but passed for only 132 yards and was held scoreless in the fourth quarter.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Cook rushed 29 times for 193 yards, including a 75-yard run, against Oklahoma State.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Michael Hawkins Jr. rushed 28 times for 103 yards and three touchdowns while completing 10 of 22 passes for 132 yards with one interception against Oklahoma State.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia allowed Oklahoma State quarterback Drew Mestemaker to pass for 389 yards and three touchdowns, including completions of 52, 48, 48, 28 and 27 yards.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Michael Hawkins Jr. started each of West Virginia's first four games of 2026 and was listed atop the depth chart, with Scotty Fox Jr. listed as an alternate.",
+            "page": 15,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Hawkins had three 100-yard rushing performances and had scored three rushing touchdowns in each of the previous two games.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hawkins became the first West Virginia player since Kerry Marbury in 1972 to score three rushing touchdowns in consecutive games.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "West Virginia used the same starting offensive line in each of its first four games: freshman Kevin Brown at left tackle, Nick Krahe at left guard, Wes King at center, Amare Grayson at right guard and Carsten Casady at right tackle.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman left tackle Kevin Brown started each of West Virginia's first four games.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Cook was the starting running back in each of the first four games and had three 100-yard rushing performances.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaden Bray, John Neider, DJ Epps and tight end Josh Sapp started each of West Virginia's first four games.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "West Virginia's listed defensive starters included Zeke Durham-Campbell at edge, Nate Gabriel at nose guard, Harper Holloman at bandit, Ben Cutter at middle linebacker, Geimere Latimer II at nickel/safety, Chams Diagne at left cornerback and Nick Taylor at right cornerback.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Against Oklahoma State, Da'Mare Williams made his first listed start of the season at edge and Andrew Powdrell made his first listed start of the season at free safety.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kamari Wilson had West Virginia's interception against Oklahoma State and had started all four games at safety.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Geimere Latimer II had forced three fumbles through four games, including two against Oklahoma State.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Rich Rodriguez was in his second season since returning as West Virginia's head coach, with a 3-1 record in 2026 and a 67-35 career record at WVU.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Zac Alley served as assistant head coach, defensive coordinator and linebackers coach, working from the field.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Travis Trickett served as senior offensive assistant from the press box, Rick Trickett coached the offensive line and Rhett Rodriguez coached quarterbacks from the press box.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, West Virginia had run 229 times and passed 65 times, averaging 294.8 rushing yards, 165.8 passing yards and 460.5 total yards per game.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia had rushed for at least 200 yards in four consecutive games for the first time since 2017.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Mountaineers were averaging 5.1 yards per rush, 17.0 yards per completion and 36.3 points per game through four games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "West Virginia had converted 33 of 62 third downs, a 53.2% rate.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Michael Hawkins Jr. and Cam Cook had each exceeded 100 rushing yards in three of West Virginia's first four games.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "West Virginia was allowing 426.5 total yards per game, including 282.3 passing yards and 144.3 rushing yards.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Mountaineers had recorded 10 sacks for 75 yards through four games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "West Virginia had recovered three fumbles and produced five total takeaways through four games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents had converted 17 of 52 third downs against West Virginia, a 32.7% rate.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Jack Cassidy made his only field-goal attempt and all three PAT attempts against Oklahoma State.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cassidy had made all four of his field-goal attempts through four games.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bryan Hansen had punted 17 times for a 42.71-yard average, with four punts inside the 20 and four punts of at least 50 yards.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "DJ Epps was listed as West Virginia's primary kickoff and punt returner, with freshman Matt Sieg as the alternate.",
+            "page": 15,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "At the time of this guide, West Virginia was 3-1 overall and 0-1 in Big 12 play.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "West Virginia.pdf"
+      },
+      {
+        "source_team": "TCU Horned Frogs",
+        "opponent": "West Virginia Mountaineers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is TCU's Game 5 notes for the Oct. 3, 2026 home game against BYU, not the Week 8 game against West Virginia. West Virginia appears only as a future opponent on TCU's schedule.",
+        "recent_game": [
+          {
+            "fact": "TCU lost its Big 12 opener at UCF 21-13 on Sept. 26, falling to 2-2 overall and 0-1 in conference play.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against UCF, Jaden Craig completed 25 of 40 passes for 310 yards with no touchdowns and two interceptions.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "TCU is scheduled to host West Virginia on Oct. 24, 2026, at Amon G. Carter Stadium.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time of this guide, West Virginia was 3-1 overall and 0-1 in Big 12 play.",
+            "page": 16,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Harvard transfer Jaden Craig is TCU's new starting quarterback after Josh Hoover transferred to Indiana.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Craig had completed 90 of 132 passes for 1,213 yards, seven touchdowns and three interceptions.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Craig had three 300-yard passing games through TCU's first four contests, tied for the Big 12 lead.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Craig averaged 303.3 passing yards per game through four games, ranking second in the Big 12 and fifth nationally.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Craig transferred after setting Harvard career records with 6,074 passing yards and 52 touchdown passes.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "TCU's listed starting offensive line was Ben Taylor-Whitfield at left tackle, Cade Bennett at left guard, Jaheim Buchanon or Cooper Powers at center, Noah McKinney at right guard, and Kilian Registe or Witten Van Hoy at right tackle.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ben Taylor-Whitfield had started 26 consecutive games entering the BYU game-notes week.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "FIU transfer Jaheim Buchanon had started all 29 games of his college career, including TCU's first four games of 2026.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Jeremy Payne had 355 rushing yards and two touchdowns on 73 carries through four games.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Ed Small had 24 receptions for 371 yards and one touchdown through four games.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Kari Ashley had 19 receptions for 266 yards and three touchdowns through four games.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "South Alabama transfer Jeremy Scott had started all four games and recorded 13 receptions for 183 yards and one touchdown.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "TCU entered 2026 replacing 146 combined starts at offensive skill positions.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "TCU returned 97 combined defensive starts for 2026, while linebackers Kaleb Elarms-Orr and Namdi Obiazor departed for the NFL.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive tackle Ansel Din-Mbuh had 16 tackles, two sacks and 2.5 tackles for loss through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Jamel Johnson had 22 tackles in three appearances and starts through the first four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Hudson Hooper made his first career start against Grambling State on Sept. 12 and had 19 tackles through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "John Schobel started each of TCU's first four games at defensive end and recorded 10 tackles, one sack and three tackles for loss.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech and North Carolina transfer Michael Short had 17 tackles through four games and was listed with the linebackers.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Gordon Sammis is in his first season as TCU's offensive coordinator and offensive play caller after coordinating UConn's offense in 2024 and 2025.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Andy Avalos is in his third season as TCU's defensive coordinator.",
+            "page": 11,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Quarterbacks coach Brad Robbins, running backs coach Antonio Wilcox and cornerbacks coach Benny Boyd are each in their first season at TCU.",
+            "page": 11,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, TCU averaged 442.0 total yards, 303.3 passing yards, 138.8 rushing yards and 29.3 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU had allowed nine sacks through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU converted 43.4 percent of its third downs through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "TCU's tight ends combined for 124 receiving yards and two touchdowns from Kari Ashley and Ka'Morreun Pimpton against Grambling State; Ashley accounted for 119 yards and both touchdowns.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, TCU allowed 12.5 points per game, second fewest in the Big 12 and 14th nationally.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU allowed 264.8 total yards per game through four games, ranking 21st nationally.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU allowed 86.0 rushing yards and 178.8 passing yards per game through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 24.5 percent of their third downs against TCU through four games, seventh best nationally.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU recorded nine sacks through its first four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "In 2025, TCU allowed only 3.0 percent of opponent rushing attempts to gain at least 15 yards, the fourth-lowest rate in the FBS.",
+            "page": 18,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Louisiana Tech transfer John Hoyet Chance averaged 44.1 yards on 11 punts through four games, with six placed inside the 20 and a long of 56 yards.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman Ace Theus had 99 yards on nine punt returns and 80 yards on four kickoff returns through four games.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ed Small had 70 yards on five punt returns through four games, including a 33-yard return.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "West Virginia leads the all-time series against TCU 8-6.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The home team has not won in the last four TCU-West Virginia meetings.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "TCU won the most recent meeting at West Virginia 23-17 on Oct. 25, 2025.",
+            "page": 9,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sonny Dykes has a 2-1 record against West Virginia as a head coach.",
+            "page": 9,
+            "category": "series_context",
+            "importance": "low"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "TCU returned 10 starters for 2026: four on offense, four on defense and two on special teams, using the guide's definition of players who started at least five TCU games in 2025.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "TCU.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "TCU passing offense vs West Virginia pass defense",
+        "off_team": "TCU",
+        "def_team": "West Virginia",
+        "off_rank": 35,
+        "def_rank": 136,
+        "stat": "pass EPA",
+        "rank_gap": 101,
+        "direction": "offense_advantage",
+        "matchup_score": 201
+      },
+      {
+        "dimension": "West Virginia rushing offense vs TCU rush defense",
+        "off_team": "West Virginia",
+        "def_team": "TCU",
+        "off_rank": 99,
+        "def_rank": 27,
+        "stat": "rush EPA",
+        "rank_gap": 72,
+        "direction": "defense_advantage",
+        "matchup_score": 172
+      },
+      {
+        "dimension": "West Virginia scoring-opportunity creation vs TCU scoring-opportunity prevention",
+        "off_team": "West Virginia",
+        "def_team": "TCU",
+        "off_rank": 84,
+        "def_rank": 12,
+        "stat": "Eckel rate",
+        "rank_gap": 72,
+        "direction": "defense_advantage",
+        "matchup_score": 172
+      }
+    ],
+    "used_sources": [],
+    "model_context": {
+      "model_side_full": "West Virginia Mountaineers",
+      "model_side": "West Virginia",
+      "opponent_full": "TCU Horned Frogs",
+      "opponent": "TCU",
+      "model_prediction": 10.0,
+      "market_line": 9.5,
+      "best_available_line": 9.5,
+      "best_available_price": "-104",
+      "cover_probability": 0.51802104,
+      "edge": 0.008217118431372628,
+      "bet_status": "PASS"
+    }
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "game": "Oregon Ducks@Illinois Fighting Illini",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:38:50.537206+00:00",
+  "model_prediction": -11.0,
+  "market_line": -8.5,
+  "best_line": -8.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51846554,
+  "edge": -0.0053439838095238335,
+  "bet_short": "Oregon",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers are more favorable to Oregon than the market because we see multiple ways for its offense to sustain drives and create separation. The passing matchup stands out, with Illinois grading much worse against the pass than Oregon does throwing it. Dante Moore has nine touchdown passes without an interception through three games, and Oregon has converted 13 of 14 red-zone opportunities into touchdowns. That combination matters when laying points because empty possessions can quickly erase a favorite\u2019s margin.\n\nWe also see an advantage in Oregon\u2019s ability to prevent scoring opportunities. Illinois has not consistently created those chances, while Oregon\u2019s defense grades well at keeping opponents away from the high-value areas of the field. The concern for us is that Oregon allowed more than 400 total yards and 200 rushing yards in its loss at Oklahoma State, so we cannot treat the defensive profile as settled.\n\nThat is why this remains a pass. We understand why our model makes Oregon a larger favorite, but the current price already reflects much of the matchup advantage. Our disagreement with the market is real, just not valuable enough at the available number.",
+    "matchup_to_watch": "We are watching Oregon\u2019s passing offense against Illinois\u2019 pass defense. Our matchup data identifies that as the clearest path to separation, especially because Oregon produced 21 plays of at least 20 yards through its first three games. If Illinois limits those chunk gains and forces Oregon to string together longer drives, the underdog has a better chance to keep the margin compressed. If not, Oregon has the offensive profile to validate our more favorable view.",
+    "guide_status": [
+      "Found guide for Oregon Ducks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon.pdf",
+      "Guide for Oregon Ducks was found but may not match the current opponent. The guide is explicitly for Oregon's Game 4 matchup at USC on September 26, 2026, not the later road game at Illinois listed for October 24, 2026. Current Oregon information is included, but USC-specific notes are excluded.",
+      "No guide found for Illinois Fighting Illini. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Illinois.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Oregon Ducks",
+        "opponent": "Illinois Fighting Illini",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly for Oregon's Game 4 matchup at USC on September 26, 2026, not the later road game at Illinois listed for October 24, 2026. Current Oregon information is included, but USC-specific notes are excluded.",
+        "recent_game": [
+          {
+            "fact": "Oregon defeated Portland State 84-0 in its most recent game, improving to 2-1.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Portland State, Oregon set modern-era program records with 84 points, a margin of victory of 84 points and 12 total touchdowns; the Ducks also set a program record with 43 first downs.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon produced 740 total yards against Portland State, including 451 passing and 289 rushing, and scored touchdowns on 12 of 13 offensive drives.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon's defense held Portland State to 103 total yards and two rushing yards while recording the program's 15th shutout.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Oregon's 2026 schedule lists a road game at Illinois on October 24.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Dante Moore completed 19 of 23 passes for 280 yards and four touchdowns against Portland State while playing only the first half.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games in 2026, Dante Moore had completed 61 of 89 passes for 849 yards, nine touchdowns and no interceptions.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Moore started all 15 games in 2025 and completed 71.8 percent of his passes for 3,565 yards, 30 touchdowns and 10 interceptions.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup quarterback Dylan Raiola completed all 11 of his attempts for 124 yards and three touchdowns in his Oregon debut against Portland State.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Raiola transferred from Nebraska after starting all 22 games he played there during his first two college seasons.",
+            "page": 16,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Jordon Davison led Oregon through three games with 194 rushing yards and four touchdowns on 33 carries, scoring in each game.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Dierre Hill Jr. had 121 rushing yards and one touchdown on 27 carries plus eight receptions for 64 yards through three games.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Evan Stewart returned in 2026 after missing the entire 2025 season because of injury and led Oregon through three games with 15 catches for 222 yards and two touchdowns.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Dakorien Moore had 11 receptions for 192 yards and a team-leading three receiving touchdowns through three games, with a touchdown in every game.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman wide receiver Messiah Hampton had nine receptions for 102 yards and two touchdowns through three games, including six catches for 71 yards and two scores against Portland State.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Andrew Olesh started the two games missed by tight end Jamari Johnson, and freshman tight end Kendre Harrison made his first career start against Portland State.",
+            "page": 16,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman offensive lineman Immanuel Iheanacho played in each of Oregon's first three games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "low"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Freshman defensive back Jett Washington produced three takeaways against Portland State with two interceptions and a forced fumble.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman defensive back Davon Benjamin recorded his first career interception against Portland State.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Washington and Benjamin were among five true freshmen who played in each of Oregon's first three games.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "low"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Chris Hampton and Drew Mehringer entered 2026 in their first seasons as Oregon's primary defensive and offensive coordinators, respectively, after serving as co-coordinators in 2025.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Mehringer took over offensive play-calling duties in 2026 and works from the booth during games.",
+            "page": 13,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Kam Araghi was promoted to Oregon's primary edge coach and Koa Ka'ai was promoted to primary quarterbacks coach for 2026.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Wide receiver Jeremiah McClellan missed the Portland State game after sustaining an injury during pregame warm-ups.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Jamari Johnson missed Oregon's second and third games because of injury.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Evan Stewart returned for the 2026 season after missing all of 2025 because of injury.",
+            "page": 15,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through three games, Oregon averaged 49.7 points, 340.0 passing yards and 506.0 total yards per game.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon scored on all 14 red-zone opportunities through three games and scored touchdowns on 13 of them.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon had not thrown an interception in 110 pass attempts through three games.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon had 21 plays of at least 20 yards through its first three games.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Oregon allowed fewer than 300 total yards and fewer than 100 rushing yards in each of its two wins, but allowed at least 400 total yards and 200 rushing yards in its loss at Oklahoma State.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon forced four takeaways in the shutout win over Portland State.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Gage Hurych opened the season as Oregon's primary place kicker and made two field goals against Boise State.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Oregon was 2-1 through three games, with wins over Boise State and Portland State and a road loss at Oklahoma State.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Oregon was 9-0 in Big Ten road games since joining the conference entering its fourth game of 2026.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Oregon.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Illinois scoring-opportunity creation vs Oregon scoring-opportunity prevention",
+        "off_team": "Illinois",
+        "def_team": "Oregon",
+        "off_rank": 88,
+        "def_rank": 20,
+        "stat": "Eckel rate",
+        "rank_gap": 68,
+        "direction": "defense_advantage",
+        "matchup_score": 168
+      },
+      {
+        "dimension": "Oregon passing offense vs Illinois pass defense",
+        "off_team": "Oregon",
+        "def_team": "Illinois",
+        "off_rank": 49,
+        "def_rank": 103,
+        "stat": "pass EPA",
+        "rank_gap": 54,
+        "direction": "mixed",
+        "matchup_score": 54
+      },
+      {
+        "dimension": "Illinois rushing offense vs Oregon rush defense",
+        "off_team": "Illinois",
+        "def_team": "Oregon",
+        "off_rank": 45,
+        "def_rank": 21,
+        "stat": "rush EPA",
+        "rank_gap": 24,
+        "direction": "mixed",
+        "matchup_score": 24
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 6,
+        "fact": "Through three games in 2026, Dante Moore had completed 61 of 89 passes for 849 yards, nine touchdowns and no interceptions.",
+        "page": 14,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Oregon scored on all 14 red-zone opportunities through three games and scored touchdowns on 13 of them.",
+        "page": 12,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Oregon had 21 plays of at least 20 yards through its first three games.",
+        "page": 12,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Oregon allowed fewer than 300 total yards and fewer than 100 rushing yards in each of its two wins, but allowed at least 400 total yards and 200 rushing yards in its loss at Oklahoma State.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Oregon.pdf",
+        "source_team": "Oregon Ducks"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Oregon Ducks",
+      "model_side": "Oregon",
+      "opponent_full": "Illinois Fighting Illini",
+      "opponent": "Illinois",
+      "model_prediction": -11.0,
+      "market_line": -8.5,
+      "best_available_line": -8.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.51846554,
+      "edge": -0.0053439838095238335,
+      "bet_status": "PASS"
+    }
+  }
+}

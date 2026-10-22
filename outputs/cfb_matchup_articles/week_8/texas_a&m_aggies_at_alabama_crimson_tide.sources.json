@@ -1,0 +1,757 @@
+{
+  "game": "Texas A&M Aggies@Alabama Crimson Tide",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:46:29.905826+00:00",
+  "model_prediction": -15.0,
+  "market_line": -13.5,
+  "best_line": -13.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.51018408,
+  "edge": -0.013625443809523796,
+  "bet_short": "Alabama",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers lean toward Alabama because we see more ways for its defense to create the negative plays that can produce separation. Alabama forced 13 turnovers through five games and converted those takeaways into 66 points. Texas A&M\u2019s two interceptions against Kentucky are only one game of context, but they illustrate the danger of asking its offense to sustain long drives against this defense.\n\nThe more interesting part is that Texas A&M has shown an ability to limit scoring chances. We note that its defense allowed only seven third-down conversions on 31 attempts through three games. Alabama counters with an offense that scored on each of its first 26 red-zone possessions, while Keelon Russell completed 71.2 percent of his passes through five starts and produced 13 touchdowns without a turnover over the three most recent games.\n\nFor us, that tension explains both the lean and the pass. We can make a case for Alabama creating margin through Russell\u2019s efficiency and defensive disruption, but Texas A&M\u2019s ability to get off the field leaves fewer clean paths to separation. The market is already charging for Alabama\u2019s advantages, and our disagreement is not large enough to justify the available price.",
+    "matchup_to_watch": "We are watching Marcel Reed against Alabama\u2019s pass defense. Reed supplied 236 passing yards and a team-high 80 rushing yards against Kentucky, so his mobility gives Texas A&M a way to extend possessions when the initial play breaks down. Alabama, however, pairs an experienced secondary with a run defense that allowed 78.6 yards per game through five contests.\n\nWe think that combination can place more of the game on Reed\u2019s passing. Texas A&M generated only nine plays of at least 20 yards through three games, so the question is whether Reed can create enough explosive offense without exposing Texas A&M to the turnovers that have fueled Alabama\u2019s scoring margins.",
+    "guide_status": [
+      "Found guide for Texas A&M Aggies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf",
+      "Guide for Texas A&M Aggies was found but may not match the current opponent. This is Texas A&M's 2026 Week 4 game-notes packet for the Sept. 26 road game against LSU, not the Week 8 game at Alabama. The schedule lists Texas A&M at Alabama on Oct. 24, but the matchup-specific sections address LSU.",
+      "Found guide for Alabama Crimson Tide: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Alabama.pdf",
+      "Guide for Alabama Crimson Tide was found but may not match the current opponent. The guide is for Alabama's Oct. 10, 2026 home game against Georgia, identified as Game 6. Texas A&M appears on Alabama's schedule as a later home game on Oct. 24."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Texas A&M Aggies",
+        "opponent": "Alabama Crimson Tide",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "This is Texas A&M's 2026 Week 4 game-notes packet for the Sept. 26 road game against LSU, not the Week 8 game at Alabama. The schedule lists Texas A&M at Alabama on Oct. 24, but the matchup-specific sections address LSU.",
+        "recent_game": [
+          {
+            "fact": "Texas A&M lost 31-21 at home to Kentucky on Sept. 19, falling to 2-1 overall and 0-1 in the SEC.",
+            "page": 17,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Kentucky, Texas A&M gained 423 total yards, including 187 rushing and 236 passing, but threw two interceptions.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Marcel Reed completed 26 of 49 passes for 236 yards and one touchdown against Kentucky and added a team-high 80 rushing yards, including a 40-yard run.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Mario Craver caught 11 passes for 119 yards against Kentucky, becoming Texas A&M's first player with at least 10 receptions in a game since 2023.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M allowed Kentucky 408 total yards, including 156 rushing and 252 passing, and Kentucky scored on three of four red-zone trips.",
+            "page": 19,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Texas A&M is scheduled to play at Alabama on Oct. 24, 2026, at Bryant-Denny Stadium.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time this Week 4 guide was issued, Alabama was 3-0 overall, 1-0 in the SEC and ranked No. 8 in both the AP and Coaches polls.",
+            "page": 7,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Marcel Reed is Texas A&M's starting quarterback and had made 21 consecutive starts dating to Nov. 2, 2024.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games in 2026, Reed had completed 62 of 104 passes for 632 yards, six touchdowns and three interceptions while rushing for 117 yards and one touchdown.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Reed entered Week 4 with a 17-7 career record as a starter, including 9-5 in SEC games.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brady Hart was listed as Reed's primary backup, followed by freshman Helaman Casuga.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Texas A&M used the same starting offensive line in each of its first three games: Tyree Adams at left tackle, Blake Ivy at left guard, Mark Nabou Jr. at center, Trovon Baugh at right guard and Wilkin Formby at right tackle.",
+            "page": 24,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Rueben Owens II started each of the first three games at running back and led Texas A&M with 186 rushing yards on 45 carries.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman Carsyn Baker had scored a team-high two rushing touchdowns on 10 carries through three games.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Through three games, Mario Craver led Texas A&M with 19 receptions and 194 receiving yards, while Isaiah Horton had 12 catches for 170 yards and a team-high three receiving touchdowns.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wilkin Formby, the starting right tackle, previously played at Alabama and had started all three games for Texas A&M in 2026.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Isaiah Horton and cornerback Dezz Ricks are former Alabama players on Texas A&M's 2026 roster.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Texas A&M's listed defensive front consisted of T.J. Searcy, DJ Hicks, CJ Mims and Marco Jones, with Anto Saka, Sam M'Pemba and Ryan Henderson among the primary edge reserves.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebackers Ray Coney and Noah Mikhail were tied for the team lead with 18 tackles through three games.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Dezz Ricks had allowed one reception for one yard on five targets over 62 coverage snaps through three games, according to Pro Football Focus data cited by Texas A&M.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Marco Jones and Julio Humphrey each returned an interception for a touchdown against Arizona State.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Holmon Wiggins became Texas A&M's offensive coordinator and play caller in 2026; it is his first season as the primary offensive coordinator and play caller.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Lyle Hemphill became Texas A&M's defensive coordinator and play caller in 2026 after previously serving as a defensive coordinator at James Madison, Duke, Wake Forest and Stony Brook.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M added first-year defensive assistants Travis Williams at linebackers, Elijah Robinson as co-defensive coordinator and defensive line coach, and Paul Williams at nickel.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Derek Shay was in his first season as Texas A&M's tight ends coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through three games, Texas A&M averaged 394.3 total yards, 222.7 passing yards, 171.7 rushing yards and 39.7 points per game.",
+            "page": 17,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M had converted 19 of 43 third downs, a 44% rate, and 12 of 17 red-zone possessions into touchdowns through three games.",
+            "page": 17,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Aggies ranked first in the SEC and seventh nationally in time of possession at 34:28 per game through three games.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas A&M had only nine plays of at least 20 yards through three games: two runs, five passes and two interception returns.",
+            "page": 23,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas A&M had scored 31 points off six takeaways through three games after scoring 24 points off turnovers during the entire 2025 season.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Texas A&M allowed 281.3 total yards and 17.0 points per game through its first three games.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Aggies had allowed seven conversions on 31 third downs, a 23% rate that ranked second in the SEC and seventh nationally.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M had six takeaways through three games, consisting of two interceptions and four fumble recoveries; the defense had 10 takeaways in 13 games in 2025.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Aggies had recorded four sacks through three games after producing 43 sacks in 2025.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents had scored on nine of 32 qualifying possessions through three games, a 28% scoring-drive rate.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas A&M had allowed 102.7 rushing yards per game and 3.5 yards per carry through three games.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Texas A&M was 4-for-4 on field goals and 15-for-15 on extra points through three games.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer kicker David Olano had made all three field-goal attempts and all 15 extra-point attempts to begin his Texas A&M career.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Tyler White averaged 48.4 yards on eight punts, with four punts of at least 50 yards and four placed inside the 20.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M's punt-coverage unit had allowed minus-one net return yard on five returns through three games.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Texas A&M committed 11 penalties for 90 yards through three games; its 3.7 penalties per game were the fewest in the SEC and sixth-fewest nationally.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas A&M had outscored opponents 55-3 in the fourth quarter and 76-34 in the second half through three games.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Texas A&M.pdf"
+      },
+      {
+        "source_team": "Alabama Crimson Tide",
+        "opponent": "Texas A&M Aggies",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Alabama's Oct. 10, 2026 home game against Georgia, identified as Game 6. Texas A&M appears on Alabama's schedule as a later home game on Oct. 24.",
+        "recent_game": [
+          {
+            "fact": "Alabama improved to 5-0 overall and 3-0 in the SEC with a 56-23 road win over then-No. 16 Mississippi State on Oct. 3.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama gained 483 total yards against Mississippi State, its fourth 400-yard offensive performance through five games.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Keelon Russell produced 301 total yards against Mississippi State, passing for 285 yards and rushing for 16.",
+            "page": 18,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama forced four Mississippi State turnovers, recorded a season-high five sacks and held the Bulldogs to 18 rushing yards.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Trae'shawn Brown scored two rushing touchdowns and Rico Scott caught two touchdown passes against Mississippi State; both recorded their first career multi-touchdown game.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Lotzeir Brooks had 96 receiving yards against Mississippi State.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Alabama is scheduled to host Texas A&M on Oct. 24, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas A&M was 3-2 overall and 1-2 in SEC play when this guide was issued.",
+            "page": 3,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Keelon Russell was named Alabama's starting quarterback on Aug. 22 after winning the job in fall camp; he replaced 2025 starter Ty Simpson.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through his first five starts, Russell completed 71.2 percent of his passes and averaged 319.6 total yards per game with a 185.7 passing-efficiency rating.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Russell accounted for 13 touchdowns\u201410 passing and three rushing\u2014with no turnovers over Alabama's three most recent games.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Russell led the SEC with 10.71 yards per pass attempt and 15.04 yards per completion through five games.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Ryan Coleman-Williams was Alabama's lone returning offensive starter from 2025.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Coleman-Williams had 117 career receptions for 1,930 yards and 16 touchdowns through five games of 2026.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Trae'shawn Brown led Alabama with five rushing touchdowns through five games, while Daniel Hill and Keelon Russell had four apiece.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Daniel Hill recorded Alabama's only 100-yard rushing performance through five games, gaining 104 yards on 18 carries at Kentucky.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Lotzeir Brooks recorded his first career 100-yard receiving game with eight catches for 101 yards against Florida State.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Alabama returned no starters on the defensive line from 2025; newcomers Kedrick Bingley-Jones, Terrance Green, Devan Thompkins and Desmond Umeozulu were identified as leading the new group.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama returned experienced defensive backs Bray Hubbard, Keon Sabb, Zabien Brown, Dijon Lee Jr. and Red Morgan from a 2025 secondary that allowed an SEC-low 169.9 passing yards per game.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Luke Metz wore the defensive green dot and totaled 21 tackles, an interception and a fumble recovery in his first two SEC starts.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Virginia Tech transfer Caleb Woodson recorded a career-high 12 tackles in each of his first two SEC games and added two sacks at Kentucky.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "USC transfer Devan Thompkins had six tackles, two tackles for loss, two sacks and a forced fumble in his first SEC game at Kentucky.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Zabien Brown led Alabama with four pass breakups through five games.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Ryan Grubb is Alabama's offensive coordinator and calls the game from the coaches' box.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kane Wommack is Alabama's defensive coordinator and coaches from the field.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Adrian Klemm coaches Alabama's offensive line, while Bryan Ellis coaches the quarterbacks.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Alabama scored at least 45 points in each of its first five games and averaged 49.6 points per game.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama scored on all 26 red-zone possessions through five games, producing 22 touchdowns and four field goals.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama averaged 186.4 rushing yards per game and 4.9 yards per carry through five games, compared with 126.8 yards per game and 3.9 per carry over the first five games of 2025.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Seventeen of Alabama's first 28 offensive touchdowns were rushing touchdowns.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama generated 31 plays of at least 20 yards through five games.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alabama won the time-of-possession battle in each of its first five games and averaged 33:29 of possession per game.",
+            "page": 6,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Alabama forced 13 turnovers\u2014eight interceptions and five fumbles\u2014through five games, leading the SEC and ranking second nationally.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama converted its first 13 takeaways into 66 points.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama recorded four interception-return touchdowns through five games and led the nation in defensive touchdowns.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama allowed 78.6 rushing yards per game through five games and held four opponents below 100 rushing yards.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 27.5 percent of their third downs against Alabama through five games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Alabama averaged 3.20 sacks per game, with 11 defenders recording at least half a sack through five games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alabama allowed 6.4 second-half points per game and outscored its first five opponents 108-32 after halftime.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Conor Talty handled field goals and extra points, while Lorcan Quinn handled kickoffs; Alex Rozier snapped for field goals and Ethan Stangle snapped for punts.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Talty made all eight field-goal attempts, including four from beyond 40 yards, and all 29 extra-point attempts through five games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Alex Asparuhov had three punts longer than 50 yards, five placed inside the 20 and a 43.67-yard net average through five games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Alabama's all-time record against Texas A&M at Saban Field at Bryant-Denny Stadium is 5-1.",
+            "page": 17,
+            "category": "series_context",
+            "importance": "low"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Alabama was ranked No. 6 in the Associated Press poll and No. 7 in the coaches poll with a 5-0 record when the guide was issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Alabama's 2026 permanent captains are cornerback Zabien Brown, wide receiver Ryan Coleman-Williams and safety Bray Hubbard.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Alabama.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Texas A&M passing offense vs Alabama pass defense",
+        "off_team": "Texas A&M",
+        "def_team": "Alabama",
+        "off_rank": 78,
+        "def_rank": 23,
+        "stat": "pass EPA",
+        "rank_gap": 55,
+        "direction": "defense_advantage",
+        "matchup_score": 155
+      },
+      {
+        "dimension": "Alabama scoring-opportunity creation vs Texas A&M scoring-opportunity prevention",
+        "off_team": "Alabama",
+        "def_team": "Texas A&M",
+        "off_rank": 55,
+        "def_rank": 4,
+        "stat": "Eckel rate",
+        "rank_gap": 51,
+        "direction": "mixed",
+        "matchup_score": 51
+      },
+      {
+        "dimension": "Alabama passing offense vs Texas A&M pass defense",
+        "off_team": "Alabama",
+        "def_team": "Texas A&M",
+        "off_rank": 57,
+        "def_rank": 8,
+        "stat": "pass EPA",
+        "rank_gap": 49,
+        "direction": "mixed",
+        "matchup_score": 49
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Against Kentucky, Texas A&M gained 423 total yards, including 187 rushing and 236 passing, but threw two interceptions.",
+        "page": 18,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Marcel Reed completed 26 of 49 passes for 236 yards and one touchdown against Kentucky and added a team-high 80 rushing yards, including a 40-yard run.",
+        "page": 22,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Texas A&M had only nine plays of at least 20 yards through three games: two runs, five passes and two interception returns.",
+        "page": 23,
+        "category": "offensive_context",
+        "importance": "medium",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 30,
+        "fact": "The Aggies had allowed seven conversions on 31 third downs, a 23% rate that ranked second in the SEC and seventh nationally.",
+        "page": 6,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Texas A&M.pdf",
+        "source_team": "Texas A&M Aggies"
+      },
+      {
+        "fact_id": 48,
+        "fact": "Through his first five starts, Russell completed 71.2 percent of his passes and averaged 319.6 total yards per game with a 185.7 passing-efficiency rating.",
+        "page": 7,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 49,
+        "fact": "Russell accounted for 13 touchdowns\u201410 passing and three rushing\u2014with no turnovers over Alabama's three most recent games.",
+        "page": 7,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 57,
+        "fact": "Alabama returned experienced defensive backs Bray Hubbard, Keon Sabb, Zabien Brown, Dijon Lee Jr. and Red Morgan from a 2025 secondary that allowed an SEC-low 169.9 passing yards per game.",
+        "page": 9,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 66,
+        "fact": "Alabama scored on all 26 red-zone possessions through five games, producing 22 touchdowns and four field goals.",
+        "page": 6,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 71,
+        "fact": "Alabama forced 13 turnovers\u2014eight interceptions and five fumbles\u2014through five games, leading the SEC and ranking second nationally.",
+        "page": 9,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 72,
+        "fact": "Alabama converted its first 13 takeaways into 66 points.",
+        "page": 9,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      },
+      {
+        "fact_id": 74,
+        "fact": "Alabama allowed 78.6 rushing yards per game through five games and held four opponents below 100 rushing yards.",
+        "page": 9,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Alabama.pdf",
+        "source_team": "Alabama Crimson Tide"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Alabama Crimson Tide",
+      "model_side": "Alabama",
+      "opponent_full": "Texas A&M Aggies",
+      "opponent": "Texas A&M",
+      "model_prediction": -15.0,
+      "market_line": -13.5,
+      "best_available_line": -13.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.51018408,
+      "edge": -0.013625443809523796,
+      "bet_status": "PASS"
+    }
+  }
+}

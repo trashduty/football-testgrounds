@@ -1,0 +1,407 @@
+{
+  "game": "James Madison Dukes@App State Mountaineers",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:30:08.543309+00:00",
+  "model_prediction": -13.0,
+  "market_line": -11.5,
+  "best_line": -10.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52035139,
+  "edge": -0.0034581338095238667,
+  "bet_short": "James Madison",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our disagreement with the market starts on the ground. We see James Madison holding an advantage in both rushing matchups: its offense has been efficient against a vulnerable App State run defense, while its own run defense presents a significant challenge for an App State rushing attack that has struggled. James Madison averaged 219.3 rushing yards through six games, and George Pettaway led the team with 648 yards and six touchdowns on 95 carries. That gives us a credible path to sustained control rather than one dependent on isolated explosive plays.\n\nThe main concern for us is that App State may have more opportunity through the air. James Madison allowed 245 passing yards per game compared with only 102 on the ground, so the matchup is not restrictive in every area. Still, our numbers favor James Madison's ability to run, prevent App State from doing the same and create scoring opportunities more consistently. That explains why our expectation is stronger than the market's, but the difference is not large enough to provide sufficient value at the available price. We pass.",
+    "matchup_to_watch": "We are watching James Madison's rushing offense against App State's run defense. Pettaway enters after rushing for 151 yards against Georgia Southern, his third consecutive 100-yard game, but we are not treating that recent production as proof of another big performance. The useful takeaway is that it supports the broader efficiency profile our numbers already identify.\n\nIf James Madison consistently gains ground in this matchup, we think it can reduce its exposure to passing-down volatility and keep pressure on App State to match that efficiency. For us, that is the clearest football reason our projection lands on the James Madison side of the market.",
+    "guide_status": [
+      "Found guide for James Madison Dukes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/James Madison.pdf",
+      "Guide for James Madison Dukes was found but may not match the current opponent. The guide is James Madison's game notes for the October 17, 2026 matchup against Georgia State. It lists the October 22 road game at App State as JMU's following game, so it was not prepared specifically for the Week 8 App State matchup.",
+      "No guide found for App State Mountaineers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/App State.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "James Madison Dukes",
+        "opponent": "App State Mountaineers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is James Madison's game notes for the October 17, 2026 matchup against Georgia State. It lists the October 22 road game at App State as JMU's following game, so it was not prepared specifically for the Week 8 App State matchup.",
+        "recent_game": [
+          {
+            "fact": "James Madison improved to 6-0 with a 27-24 road win over Georgia Southern on October 10, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU produced 438 total yards against Georgia Southern, with 229 passing and 209 rushing.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "George Pettaway rushed 21 times for 151 yards against Georgia Southern, his third consecutive 100-yard rushing game.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Cole Keller caught four passes for 108 yards against Georgia Southern, including a 57-yard touchdown.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU forced two takeaways against Georgia Southern, including an interception by Ken Willis.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "App State was 3-2 overall and 0-1 in Sun Belt play in the standings published in the guide.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "App State lost 10-3 to Old Dominion on October 10, 2026.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "App State was scheduled to play at Coastal Carolina on October 16 before hosting JMU on October 22.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Camden Coleman has started five of JMU's first six games and has completed 96 of 154 passes for 1,150 yards, 11 touchdowns and no listed interceptions in 2026.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Coleman completed 16 of 27 passes for 171 yards and one touchdown in the win at Georgia Southern.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "JC Evans returned to action at Georgia Southern for the first time since Week 1 and completed both of his passes for 58 yards and two touchdowns.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Evans has completed 9 of 11 passes for 119 yards and three touchdowns while rushing 16 times for 84 yards in two 2026 appearances.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Center Zach Greenberg was JMU's only returning offensive starter from the 2025 team.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU entered 2026 with 29 transfers among 61 newcomers and only five total returning starters.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Offensive linemen Tyler Brown, Deacon Rawls, Evan Bushong and DJ Fox each started the first six games of 2026; Greenberg started five.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Noel Portnjagin made his first collegiate start at Old Dominion on September 26 and had played in four games through the Georgia Southern game.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "George Pettaway has started all six games and leads JMU with 648 rushing yards and six touchdowns on 95 carries.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Corey Scott, a transfer from West Florida, has 21 receptions for 289 yards and four touchdowns in five starts.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cole Keller, a transfer who previously played at ETSU and Washburn, has 16 receptions for 271 yards and four touchdowns in six starts.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "EDGE Amar Thomas and linebacker Gannon Weathersby were JMU's only returning defensive starters from 2025.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer linebacker Nakian Jackson has started all six games and recorded 43 tackles, 4.5 tackles for loss, 1.5 sacks and one fumble recovery.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer cornerback DJ Kelly has started all six games and recorded three interceptions and four pass breakups.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer cornerback Ken Willis has started all six games and has 27 tackles, five tackles for loss, four pass breakups, one interception, one forced fumble and one fumble recovery.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer safety Jayon Harvey has started all six games and leads the listed JMU defenders with 43 tackles, including 32 solo stops, while forcing two fumbles.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Billy Napier was hired as JMU's head coach on December 6, 2025 and is in his first season with the Dukes.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Cam Aiken is JMU's first-year offensive coordinator, Robert Bala is the first-year defensive coordinator and Rob Wenger is the first-year special teams coordinator.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Josh Linam is JMU's first-year co-defensive coordinator and linebackers coach.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "JC Evans returned against Georgia Southern after not appearing since JMU's Week 1 game against Liberty.",
+            "page": 1,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through six games, JMU averaged 41.8 points, 452.0 total yards, 232.7 passing yards and 219.3 rushing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU ranked 10th nationally in scoring offense at 41.8 points per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU used both Camden Coleman and JC Evans at quarterback in its win over Georgia Southern.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU had a .390 third-down conversion rate and a .938 red-zone scoring rate through the Georgia Southern game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "JMU allowed 15.0 points and 347.0 total yards per game through six games, ranking 16th nationally in scoring defense.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU allowed 102.0 rushing yards per game but 245.0 passing yards per game through six games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The JMU defense had produced 15 sacks, six interceptions and four fumble recoveries through six games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU had a plus-1.00 turnover margin per game through six games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "JMU ranked sixth nationally in kickoff returns at 35.6 yards per return and ninth in punt returns at 19.0 yards per return.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Michael Scott had 770 all-purpose yards through six games and had returned two punts for touchdowns.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Morgan Suarez made 12 of 13 field-goal attempts and all 29 extra-point attempts through six games.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Patrick Rea averaged 43.2 yards on 22 punts, placing eight inside the 20 and producing three punts of at least 50 yards.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "JMU's all-time record against App State is 6-14, with the teams most recently meeting in 2025.",
+            "page": 9,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The guide lists JMU's game at App State for Thursday, October 22, 2026 at 7:00 p.m. ET on ESPNU.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU was 6-0 overall and 3-0 in Sun Belt play after the Georgia Southern game.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "JMU had won 11 consecutive Sun Belt regular-season games and was 21-6 against Sun Belt East Division opponents since joining the conference.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "James Madison.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "App State rushing offense vs James Madison rush defense",
+        "off_team": "App State",
+        "def_team": "James Madison",
+        "off_rank": 123,
+        "def_rank": 14,
+        "stat": "rush EPA",
+        "rank_gap": 109,
+        "direction": "defense_advantage",
+        "matchup_score": 209
+      },
+      {
+        "dimension": "App State scoring-opportunity creation vs James Madison scoring-opportunity prevention",
+        "off_team": "App State",
+        "def_team": "James Madison",
+        "off_rank": 75,
+        "def_rank": 15,
+        "stat": "Eckel rate",
+        "rank_gap": 60,
+        "direction": "defense_advantage",
+        "matchup_score": 160
+      },
+      {
+        "dimension": "James Madison rushing offense vs App State rush defense",
+        "off_team": "James Madison",
+        "def_team": "App State",
+        "off_rank": 21,
+        "def_rank": 79,
+        "stat": "rush EPA",
+        "rank_gap": 58,
+        "direction": "offense_advantage",
+        "matchup_score": 158
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 3,
+        "fact": "George Pettaway rushed 21 times for 151 yards against Georgia Southern, his third consecutive 100-yard rushing game.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 14,
+        "fact": "George Pettaway has started all six games and leads JMU with 648 rushing yards and six touchdowns on 95 carries.",
+        "page": 10,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 26,
+        "fact": "Through six games, JMU averaged 41.8 points, 452.0 total yards, 232.7 passing yards and 219.3 rushing yards per game.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      },
+      {
+        "fact_id": 31,
+        "fact": "JMU allowed 102.0 rushing yards per game but 245.0 passing yards per game through six games.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "James Madison.pdf",
+        "source_team": "James Madison Dukes"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "James Madison Dukes",
+      "model_side": "James Madison",
+      "opponent_full": "App State Mountaineers",
+      "opponent": "App State",
+      "model_prediction": -13.0,
+      "market_line": -11.5,
+      "best_available_line": -10.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.52035139,
+      "edge": -0.0034581338095238667,
+      "bet_status": "PASS"
+    }
+  }
+}

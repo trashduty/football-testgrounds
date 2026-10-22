@@ -1,0 +1,407 @@
+{
+  "game": "Georgia State Panthers@Arkansas State Red Wolves",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:24:38.001048+00:00",
+  "model_prediction": 1.5,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.51239297,
+  "edge": -0.011416553809523888,
+  "bet_short": "Arkansas State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our narrower view of Arkansas State\u2019s advantage starts with Georgia State\u2019s passing game. Our matchup data identifies a major efficiency advantage for Georgia State through the air against an Arkansas State pass defense that has struggled. Cameran Brown has completed 67.9 percent of his passes, while Georgia State\u2019s offensive line has allowed only two sacks on 151 pass attempts. That combination gives the underdog a credible way to keep this game close.\n\nWe are not treating Georgia State\u2019s 42-10 win over Old Dominion as proof of what comes next, but Brown\u2019s six-touchdown, interception-free performance showed the ceiling of this passing attack. The concern is that our underlying numbers are less impressed by Georgia State\u2019s ability to create scoring opportunities consistently, even though it has converted 20 of 22 red-zone possessions. For us, those conflicting signals explain both the modest disagreement with the market and why there is not enough value to back Arkansas State at the available price.",
+    "matchup_to_watch": "We are watching Brown and Georgia State\u2019s pass protection against the Arkansas State secondary. Brown accounts for more than half of Georgia State\u2019s total offense, and Rodshaun Dorsey has produced six touchdown catches on only 18 receptions. If Georgia State protects Brown and generates explosive passing plays, Arkansas State may have difficulty creating the separation the market is asking it to produce.",
+    "guide_status": [
+      "Found guide for Georgia State Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia State.pdf",
+      "Guide for Georgia State Panthers was found but may not match the current opponent. The guide is for Georgia State's Oct. 17, 2026 road game against James Madison, identified as Game 6. It lists the Oct. 24 road game against Arkansas State as the following game.",
+      "No guide found for Arkansas State Red Wolves. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas State.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Georgia State Panthers",
+        "opponent": "Arkansas State Red Wolves",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Georgia State's Oct. 17, 2026 road game against James Madison, identified as Game 6. It lists the Oct. 24 road game against Arkansas State as the following game.",
+        "recent_game": [
+          {
+            "fact": "Georgia State defeated Old Dominion 42-10 in its conference opener on Oct. 3.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Quarterback Cameran Brown passed for a career-high 284 yards and a program-record six touchdowns without an interception against Old Dominion.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman running back Qwantavius Wiggins led Georgia State with 87 rushing yards and averaged 5.8 yards per carry against Old Dominion.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia State held Old Dominion to a program-record-low 146 total yards, including 79 passing and 67 rushing.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia State recorded seven sacks and 11 tackles for loss against Old Dominion.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Xavier Esqillion recorded five tackles, three sacks, three tackles for loss and two forced fumbles against Old Dominion.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Georgia State is scheduled to play Arkansas State in Jonesboro, Arkansas, on Oct. 24, 2026, at 7 p.m. ET.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Cameran Brown is Georgia State's starting quarterback and has completed 89 of 131 passes for 1,157 yards, 12 touchdowns and four interceptions through five games.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown has a 67.9 percent completion rate and has added 112 rushing yards and one rushing touchdown.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown has accounted for 1,269 yards, or 54.2 percent of Georgia State's total offense through five games.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Ayden Pereira, a Merrimack transfer, has 49 passing yards, 44 rushing yards and one rushing touchdown this season.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Transfer running back Lanear McCrary Jr. leads Georgia State with 361 rushing yards and three touchdowns on 69 carries.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman running back Qwantavius Wiggins has 235 rushing yards on 41 carries, averaging 5.7 yards per attempt.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Rodshaun Dorsey leads Georgia State with 276 receiving yards and six touchdown receptions on 18 catches.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Dorsey has caught two touchdown passes in each of Georgia State's last three games.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia State has had 20 players record a reception and eight players catch a touchdown pass this season.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia State returned offensive linemen Donovan Funsch, Tyhler Williams and Deandre Duffus from the 2025 team.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The offensive line has allowed two sacks on 151 pass attempts through five games.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Xavier Esqillion leads Georgia State with 8.5 tackles for loss and seven sacks through five games, along with four quarterback hurries and two forced fumbles.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jabriel Rhodes-Nelson has 6.5 tackles for loss and five sacks through five games.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Esqillion and Rhodes-Nelson have combined for 12 of Georgia State's 19 sacks.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Jaydon Hood, a Michigan transfer, leads Georgia State with 29 tackles, including 19 solo stops and 4.5 tackles for loss.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Deuce Lee and Donovan Faria have recorded Georgia State's two interceptions this season.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Cam Clark and John Haneline joined Georgia State in January 2026 as co-defensive coordinators.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Zach Conowal was elevated from special teams assistant to special teams coordinator for 2026.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Hue Jackson is in his second season as Georgia State's offensive coordinator.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Georgia State is averaging 39.4 points and 468.6 total yards per game through five contests, including 209.6 rushing and 259.0 passing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia State has rushed for 1,048 yards and 11 touchdowns while averaging 5.3 yards per carry through five games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Panthers have converted 34 of 67 third downs, a 50.7 percent rate.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia State has scored on 20 of 22 red-zone possessions, including 16 touchdowns.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Panthers have scored at least 30 points in all five games and have outscored opponents 81-17 in the second quarter.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Georgia State has recorded 36 tackles for loss and 19 sacks through five games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Panthers are allowing 301.0 total yards per game through five games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Georgia State has held opponents to 17 conversions on 65 third-down attempts, a 26.2 percent rate.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have converted two of seven fourth-down attempts against Georgia State.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia State has 16 pass breakups and two interceptions this season.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Samer Layous is 7-for-7 on field goals, including 3-for-3 from 40-49 yards, with a long of 49 yards.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Isaiah Stone returned a kickoff 100 yards for a touchdown against Northern Illinois, matching Georgia State's program record.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Christian Teeter is averaging 39.0 yards on three punts; two traveled at least 50 yards and all three were downed inside the 20.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Georgia State has blocked one punt this season.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [],
+        "source_file": "Georgia State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Georgia State passing offense vs Arkansas State pass defense",
+        "off_team": "Georgia State",
+        "def_team": "Arkansas State",
+        "off_rank": 18,
+        "def_rank": 129,
+        "stat": "pass EPA",
+        "rank_gap": 111,
+        "direction": "offense_advantage",
+        "matchup_score": 211
+      },
+      {
+        "dimension": "Georgia State scoring-opportunity creation vs Arkansas State scoring-opportunity prevention",
+        "off_team": "Georgia State",
+        "def_team": "Arkansas State",
+        "off_rank": 124,
+        "def_rank": 78,
+        "stat": "Eckel rate",
+        "rank_gap": 46,
+        "direction": "mixed",
+        "matchup_score": 46
+      },
+      {
+        "dimension": "Arkansas State scoring-opportunity creation vs Georgia State scoring-opportunity prevention",
+        "off_team": "Arkansas State",
+        "def_team": "Georgia State",
+        "off_rank": 103,
+        "def_rank": 72,
+        "stat": "Eckel rate",
+        "rank_gap": 31,
+        "direction": "mixed",
+        "matchup_score": 31
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Georgia State defeated Old Dominion 42-10 in its conference opener on Oct. 3.",
+        "page": 2,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Georgia State.pdf",
+        "source_team": "Georgia State Panthers"
+      },
+      {
+        "fact_id": 2,
+        "fact": "Quarterback Cameran Brown passed for a career-high 284 yards and a program-record six touchdowns without an interception against Old Dominion.",
+        "page": 2,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Georgia State.pdf",
+        "source_team": "Georgia State Panthers"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Brown has a 67.9 percent completion rate and has added 112 rushing yards and one rushing touchdown.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Georgia State.pdf",
+        "source_team": "Georgia State Panthers"
+      },
+      {
+        "fact_id": 9,
+        "fact": "Brown has accounted for 1,269 yards, or 54.2 percent of Georgia State's total offense through five games.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Georgia State.pdf",
+        "source_team": "Georgia State Panthers"
+      },
+      {
+        "fact_id": 13,
+        "fact": "Wide receiver Rodshaun Dorsey leads Georgia State with 276 receiving yards and six touchdown receptions on 18 catches.",
+        "page": 4,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Georgia State.pdf",
+        "source_team": "Georgia State Panthers"
+      },
+      {
+        "fact_id": 17,
+        "fact": "The offensive line has allowed two sacks on 151 pass attempts through five games.",
+        "page": 4,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Georgia State.pdf",
+        "source_team": "Georgia State Panthers"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Georgia State has scored on 20 of 22 red-zone possessions, including 16 touchdowns.",
+        "page": 2,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Georgia State.pdf",
+        "source_team": "Georgia State Panthers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Arkansas State Red Wolves",
+      "model_side": "Arkansas State",
+      "opponent_full": "Georgia State Panthers",
+      "opponent": "Georgia State",
+      "model_prediction": 1.5,
+      "market_line": 2.5,
+      "best_available_line": 2.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.51239297,
+      "edge": -0.011416553809523888,
+      "bet_status": "PASS"
+    }
+  }
+}

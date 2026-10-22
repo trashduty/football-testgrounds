@@ -1,0 +1,634 @@
+{
+  "game": "North Texas Mean Green@Navy Midshipmen",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:36:03.601570+00:00",
+  "model_prediction": -3.0,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-107",
+  "best_book": "Caesars",
+  "cover_probability": 0.50293421,
+  "edge": -0.01397400256038639,
+  "bet_short": "North Texas",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our slight lean toward North Texas comes primarily from the passing matchup. Our numbers rate North Texas among the most efficient passing offenses in the country, while Navy has struggled badly in that area defensively. Tayven Jackson completed 95 of 128 passes for 1,187 yards through four games, and Justin Stevenson and Corri Milliner had each surpassed 275 receiving yards. We see multiple ways for North Texas to challenge the part of Navy\u2019s defense our numbers trust least.\n\nThe counterweight is Navy\u2019s rushing attack against a North Texas defense that has shown vulnerability on the ground. Navy averaged 376 rushing yards and 6.90 yards per carry through its first two games, while North Texas allowed 337 rushing yards to Texas State. We are not treating either small sample as proof, but that matchup gives Navy a credible path to controlling possessions and keeping the game tight. That is why our disagreement with the market is modest and why the available price does not provide enough value for us.",
+    "matchup_to_watch": "For us, the defining matchup is Jackson and the North Texas passing game against Navy\u2019s pass defense. Navy had not produced a takeaway through its first two games, while Jackson had thrown only two interceptions through four. We would not project future turnover results from those samples alone, but North Texas protecting the ball while generating efficient pass plays would make it harder for Navy to shape the game around its rushing offense and possession time.",
+    "guide_status": [
+      "Found guide for North Texas Mean Green: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf",
+      "Guide for North Texas Mean Green was found but may not match the current opponent. The document is North Texas' Game 5 notes for its Oct. 1, 2026 road game against Tulsa, not the Oct. 24 game at Navy. Current North Texas information is included, but Tulsa-specific material is excluded.",
+      "Found guide for Navy Midshipmen: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Navy.pdf",
+      "Guide for Navy Midshipmen was found but may not match the current opponent. This is Navy's game-note packet for the Sept. 25, 2026 road game against UAB, not the Oct. 24 game against North Texas. The cover identifies UAB as the opponent and lists North Texas later on Navy's schedule."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "North Texas Mean Green",
+        "opponent": "Navy Midshipmen",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is North Texas' Game 5 notes for its Oct. 1, 2026 road game against Tulsa, not the Oct. 24 game at Navy. Current North Texas information is included, but Tulsa-specific material is excluded.",
+        "recent_game": [
+          {
+            "fact": "North Texas defeated HCU 63-14 on Sept. 26, 2026, scored the final 49 points and produced 648 total yards and 33 first downs.",
+            "page": 20,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jahiem White rushed for 133 yards and four touchdowns against HCU.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Tayven Jackson passed for 270 yards against HCU.",
+            "page": 17,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive end Davion Rhodes recorded two sacks and forced a fumble against HCU.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jaden Allen returned an interception 34 yards for a touchdown against HCU, North Texas' first pick-six since 2022.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "North Texas is scheduled to play at Navy on Oct. 24, 2026 at 2:30 p.m. CT.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "UCF transfer Tayven Jackson is North Texas' starting quarterback and had completed 95 of 128 passes for 1,187 yards, six touchdowns and two interceptions through four games.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson passed for 492 yards and three touchdowns against Texas State; the guide identifies the yardage as the most by an FBS quarterback in a game at that point in the season.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson had appeared in 31 career games with 20 starts across North Texas, UCF, Indiana and Tennessee.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "West Virginia transfer Jahiem White had 52 carries for 363 yards and seven touchdowns plus 19 receptions for 143 yards and two touchdowns through four games.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Justin Stevenson had 19 receptions for 281 yards, while Corri Milliner had 17 receptions for 276 yards through four games.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight ends Max Reese and Brec Long had combined for 15 receptions and 170 receiving yards through four games.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "North Texas' listed starting offensive line was Johnny Williams IV at left tackle, Dylan Shaw or Willie Goodacre at left guard, Chandler Strong at center, Keon Johnson at right guard and Neto Umeozulu at right tackle.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Chandler Strong entered the season with 36 career starts, and Williams, Umeozulu and Johnson each had at least 20 career appearances.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Dylan Shaw and Willie Goodacre had split time at left guard, and neither had allowed a sack through four games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "SMU transfer Zakye Barker was North Texas' starting middle linebacker and had 27 tackles, 2.5 tackles for loss and two sacks through four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Arkansas State transfer Aaron Alexander was the starting weakside linebacker and had 18 tackles through four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety CJ Coombes led North Texas with 34 tackles through four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The defensive line added transfers Davion Rhodes, Justin Benton, David Onuoha, Udoka Ezeani, Curlee Thomas IV and Wesley Hudson for 2026.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Rhodes had five tackles, three tackles for loss and two sacks, while Onuoha had 13 tackles, 2.5 tackles for loss and 1.5 sacks through four games.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Neal Brown is in his first season as North Texas head coach and also calls the offensive plays.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Matt Powledge was hired as defensive coordinator after serving in the same role at Baylor from 2023 through 2025.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeff Crosby was hired from App State as North Texas' special teams coordinator.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Cornerback Caden Jenkins was lost for the entire 2026 season because of an injury sustained in training camp.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, North Texas averaged 516.0 total yards, 342.0 passing yards, 174.0 rushing yards and 39.5 points per game.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "North Texas converted 54.9 percent of its third downs and averaged 33:16 in possession time through four games.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "North Texas had 77 plays of at least 10 yards through four games, including 55 passing plays.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "North Texas rushed for 248 yards in the win over HCU after rushing for 183 yards in the win over UNLV.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, North Texas allowed 377.3 total yards, 164.8 rushing yards, 212.5 passing yards and 30.3 points per game.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas State rushed for 337 yards against North Texas on Sept. 19, including 214 yards by Torrance Burgess Jr.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "North Texas had gained seven turnovers, recovered four fumbles and allowed touchdowns or field goals on 71.4 percent of opponent red-zone trips through four games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "North Texas held UNLV without a touchdown in a 44-6 win and won the turnover margin 4-0.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "App State transfers Dominic De Freitas, Ian Ratliff and Jacob Poff were North Texas' starting kicker, punter and long snapper, respectively.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "De Freitas had made six of nine field goals and all 20 extra points through four games.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ratliff averaged 40.1 yards on seven punts, with two downed inside the 20-yard line.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "North Texas added 70 new players for 2026, including 52 transfers.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Despite the roster turnover, 35 North Texas players had appeared in at least 20 career games and 17 had appeared in at least 30.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "North Texas.pdf"
+      },
+      {
+        "source_team": "Navy Midshipmen",
+        "opponent": "North Texas Mean Green",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "This is Navy's game-note packet for the Sept. 25, 2026 road game against UAB, not the Oct. 24 game against North Texas. The cover identifies UAB as the opponent and lists North Texas later on Navy's schedule.",
+        "recent_game": [
+          {
+            "fact": "Navy lost 38-30 at Florida Atlantic on Sept. 12, falling to 1-1 overall and 0-1 in the American Conference.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy trailed Florida Atlantic 38-7 before scoring 23 consecutive points over the final 16 minutes.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jackson Gutierrez replaced injured quarterback Braxton Woodson against Florida Atlantic and rushed seven times for 75 yards and one touchdown while completing 6 of 12 passes for 100 yards and two touchdowns.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy did not force a turnover against Florida Atlantic and had not recorded a takeaway through its first two games.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Braxton Woodson rushed for 96 yards and one touchdown on 12 carries against Florida Atlantic before leaving on the first drive of the third quarter with a lower-body injury.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through two games, Woodson averaged 148 rushing yards per game and 8.46 yards per carry, with four rushing touchdowns.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Woodson rushed for a career-high 200 yards and three touchdowns on 23 carries in the season-opening 42-15 win over Towson.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jackson Gutierrez was being used at both quarterback and running back in 2026.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Gutierrez played both quarterback and running back against Towson, rushing eight times for 31 yards and the first two touchdowns of his career.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Center Cam Nichols started the first two games at guard because Navy believed that alignment put its best five offensive linemen on the field.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sophomore Malcolm Johnson started each of Navy's first two 2026 games at offensive tackle after starting seven games there as a freshman in 2025.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back Vic Listorti, who played only five games in 2025 while dealing with a hamstring injury, opened 2026 with a career-high 81 rushing yards and his first career touchdown against Towson.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Listorti rushed four times for 35 yards and lost a fumble against Florida Atlantic.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Luke Hutchison had one reception for 27 yards against Florida Atlantic after receiving no touches against Towson.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy had six players on its depth chart who arrived as quarterbacks and had moved to other positions or were splitting time between quarterback and another position.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tre Jones III, Isaiah Bryant and Christian Cromer made their first career starts on offense against Towson; Charles Robinson, Michael Barrow and Vic Listorti made their first career starts against Florida Atlantic.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker MarcAnthony Parker had 18 tackles, two tackles for loss and one sack through Navy's first two games.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end Aiden Lyczek recorded eight tackles, three tackles for loss and two sacks through the first two games after missing most of 2025 with a lower-body injury.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Coleman Cauley recorded five tackles against Towson and eight against Florida Atlantic.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Phillip Hamilton did not play against Towson because of a coaches' decision, then recorded four tackles and a half tackle for loss against Florida Atlantic.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aiden Lyczek, Xavyer Arrington, Aaron Rose and Trent Gillis made their first career defensive starts against Towson.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Starting quarterback Braxton Woodson left the Florida Atlantic game with a lower-body injury on the opening drive of the third quarter; the notes do not state his subsequent availability.",
+            "page": 5,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Ira Oniha was banged up entering the Florida Atlantic game and played only Navy's first defensive series.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end Aiden Lyczek returned for the final three games of 2025 after missing most of that season with a lower-body injury and played in both of Navy's first two 2026 games.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through two games, Navy ranked second nationally with 376.0 rushing yards per game and sixth with 6.90 yards per carry.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy rushed for 506 yards on 73 carries in its season-opening win over Towson.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy scored touchdowns on all five of its red-zone possessions through the first two games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy averaged 33 minutes of possession through its first two games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "low"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through two games, Navy ranked second nationally in rushing defense at 40.5 yards allowed per game.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy had not forced a turnover through its first two games, its first such start to a season since 1987.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy held Towson to 39 rushing yards on 20 carries while its defense faced only 39 plays.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Punter Jacob Carlson averaged 45.0 yards on four punts against Florida Atlantic, with a long of 52 yards.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Long snapper Rayne Fry was in his fourth season as Navy's starter after earning 2025 American Conference Deep Snapper of the Year honors.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "North Texas defeated Navy 31-17 in 2025.",
+            "page": 8,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Navy, North Texas and Tulane tied for the 2025 American Conference regular-season title, but North Texas advanced ahead of Navy because it won the head-to-head meeting.",
+            "page": 10,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The schedule in this packet lists Navy's home game against North Texas for Oct. 24, 2026 at 3:30 p.m. Eastern.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Navy ranked 134th among 138 FBS teams in returning career snaps entering the 2026 season.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Navy.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "North Texas passing offense vs Navy pass defense",
+        "off_team": "North Texas",
+        "def_team": "Navy",
+        "off_rank": 3,
+        "def_rank": 121,
+        "stat": "pass EPA",
+        "rank_gap": 118,
+        "direction": "offense_advantage",
+        "matchup_score": 218
+      },
+      {
+        "dimension": "Navy passing offense vs North Texas pass defense",
+        "off_team": "Navy",
+        "def_team": "North Texas",
+        "off_rank": 43,
+        "def_rank": 126,
+        "stat": "pass EPA",
+        "rank_gap": 83,
+        "direction": "mixed",
+        "matchup_score": 83
+      },
+      {
+        "dimension": "North Texas scoring-opportunity creation vs Navy scoring-opportunity prevention",
+        "off_team": "North Texas",
+        "def_team": "Navy",
+        "off_rank": 36,
+        "def_rank": 100,
+        "stat": "Eckel rate",
+        "rank_gap": 64,
+        "direction": "mixed",
+        "matchup_score": 64
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 6,
+        "fact": "UCF transfer Tayven Jackson is North Texas' starting quarterback and had completed 95 of 128 passes for 1,187 yards, six touchdowns and two interceptions through four games.",
+        "page": 13,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "North Texas.pdf",
+        "source_team": "North Texas Mean Green"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Justin Stevenson had 19 receptions for 281 yards, while Corri Milliner had 17 receptions for 276 yards through four games.",
+        "page": 13,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "North Texas.pdf",
+        "source_team": "North Texas Mean Green"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Texas State rushed for 337 yards against North Texas on Sept. 19, including 214 yards by Torrance Burgess Jr.",
+        "page": 19,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "North Texas.pdf",
+        "source_team": "North Texas Mean Green"
+      },
+      {
+        "fact_id": 61,
+        "fact": "Through two games, Navy ranked second nationally with 376.0 rushing yards per game and sixth with 6.90 yards per carry.",
+        "page": 4,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 64,
+        "fact": "Navy averaged 33 minutes of possession through its first two games.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "low",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      },
+      {
+        "fact_id": 66,
+        "fact": "Navy had not forced a turnover through its first two games, its first such start to a season since 1987.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Navy.pdf",
+        "source_team": "Navy Midshipmen"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "North Texas Mean Green",
+      "model_side": "North Texas",
+      "opponent_full": "Navy Midshipmen",
+      "opponent": "Navy",
+      "model_prediction": -3.0,
+      "market_line": -2.5,
+      "best_available_line": -2.5,
+      "best_available_price": "-107",
+      "cover_probability": 0.50293421,
+      "edge": -0.01397400256038639,
+      "bet_status": "PASS"
+    }
+  }
+}

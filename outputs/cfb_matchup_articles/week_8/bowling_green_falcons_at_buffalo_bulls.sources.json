@@ -1,0 +1,658 @@
+{
+  "game": "Bowling Green Falcons@Buffalo Bulls",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:20:44.875835+00:00",
+  "model_prediction": -6.0,
+  "market_line": -3.0,
+  "best_line": -3.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.53503122,
+  "edge": 0.03503122000000003,
+  "bet_short": "Buffalo",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case is less about Buffalo being a complete team and more about Bowling Green's ability to sustain enough offense. Our longer-run numbers remain skeptical of Bowling Green's rushing attack, which averaged 107.3 yards through six games as part of an offense producing 275 total yards per game. The 225-yard rushing performance against Sacramento State showed a higher ceiling, but we are not treating one season-best outing as a new baseline.\n\nBuffalo's clearest path is also on the ground. Its 302 rushing yards against Robert Morris were a season high, while Bowling Green had allowed 204.5 rushing yards per game through six contests. That alignment helps explain why our expectation is more favorable to Buffalo than the market's. The meaningful concern is Bowling Green's disruptive front: it generated 25 tackles for loss and 15 sacks over its three most recent games, and Buffalo entered the season with all five projected offensive-line starters set to make their first career starts for the program. We still think Buffalo can limit that exposure by leaning on the more favorable rushing matchup.",
+    "matchup_to_watch": "We are watching Bowling Green's scoring-opportunity creation against a Buffalo defense that our efficiency numbers rate poorly at preventing those chances. Buffalo had allowed 33.3 points and 426.3 yards per game through four contests, although it then held Robert Morris without a red-zone possession. The question is whether that improvement carries forward or whether Bowling Green can repeatedly turn drives into scoring threats. If Bowling Green's inefficient ground game produces stalled possessions, that would support our view that Buffalo can create separation.",
+    "guide_status": [
+      "Found guide for Bowling Green Falcons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Bowling Green.pdf",
+      "Guide for Bowling Green Falcons was found but may not match the current opponent. The guide is explicitly labeled for Bowling Green's 2026 Game Seven against Ball State on October 17. Buffalo is listed as the following opponent, on the road on October 24.",
+      "Found guide for Buffalo Bulls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Buffalo.pdf",
+      "Guide for Buffalo Bulls was found but may not match the current opponent. The guide is Buffalo's Game 5 notes for the Oct. 3, 2026 home game against Western Michigan, including a depth chart specifically labeled for Western Michigan. Buffalo's game against Bowling Green is listed for Oct. 24, 2026."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Bowling Green Falcons",
+        "opponent": "Buffalo Bulls",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly labeled for Bowling Green's 2026 Game Seven against Ball State on October 17. Buffalo is listed as the following opponent, on the road on October 24.",
+        "recent_game": [
+          {
+            "fact": "Bowling Green defeated Sacramento State 38-10 on October 10, improving to 2-4 overall and 2-0 in MAC play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Bowling Green rushed for a season-high 225 yards and three touchdowns against Sacramento State; seven Falcons recorded multiple carries and each finished with positive rushing yardage.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Austyn Dendy rushed for 88 yards and two touchdowns against Sacramento State, while quarterback Jay Kastantin added a rushing touchdown.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Dorian Pringle forced a fumble against Sacramento State that D'Kyah Banks returned for Bowling Green's first defensive touchdown of the season.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Bowling Green is scheduled to play at Buffalo on October 24, 2026 at 3:30 p.m. Eastern on ESPN+.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo was 3-3 overall and 1-1 in MAC play when this guide was issued.",
+            "page": 6,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Through six games, Jay Kastantin had completed 94 of 143 passes for 986 yards and five touchdowns.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Kastantin threw for 305 yards and two touchdowns in Bowling Green's 24-20 win at Miami (Ohio), producing the Falcons' first 300-yard passing game since 2024 and his first multi-touchdown game for Bowling Green.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Kastantin transferred from Division II Assumption, where he was the 2025 Northeast-10 Conference MVP after throwing for 1,974 yards and 19 touchdowns.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Austyn Dendy led Bowling Green through six games with 77 carries for 286 yards and three touchdowns.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Jeremiah Scoby led Bowling Green through six games with 24 receptions for 252 yards.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brennan Ridley had 20 receptions for 173 yards through six games and had caught at least one pass in every game; he posted nine catches for 95 yards against Miami (Ohio).",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Winn Sharp had 16 receptions for 220 yards through six games, averaging a team-high 13.8 yards per catch among players with multiple receptions.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Center Brody Bolyn was one of Bowling Green's six designated captains.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bowling Green had 55 players who joined during the most recent offseason, representing 51.9 percent of its 106-player roster.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Dorian Pringle led Bowling Green with 57 tackles through six games, averaging 9.5 per game.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Myles Bradley led Bowling Green with seven sacks through six games, an average of 1.17 per game that ranked fifth nationally.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Bradley recorded 4.5 sacks against South Florida, described in the guide as a believed Bowling Green program record.",
+            "page": 7,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive end Eriq George recorded three sacks and a career-high eight tackles against Miami (Ohio); he had 6.5 tackles for loss over the four most recent games, with at least one in each game.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Kal-El Pascal had a team-high 18 career starts at free safety, the most starts by any current Bowling Green player.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Greg Nosal serves as Bowling Green's offensive coordinator and offensive line coach, with Jack McCarthy serving as assistant offensive line coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Spencer McCourt is in his first season as Bowling Green's quarterbacks coach after serving as an assistant tight ends coach at Michigan in 2025.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Greg Froelich is in his first season as Bowling Green's special teams coordinator after working in special teams quality control at Washington in 2025.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jaylon Bowden is in his first season coaching Bowling Green's safeties, and Lorenzo Styles is in his first season as senior analyst for the defensive line.",
+            "page": 15,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Dorian Pringle returned for the 2026 season after an injury caused him to miss most of 2025; he had played all six games and recorded at least seven tackles in each.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through six games, Bowling Green averaged 15.8 points, 107.3 rushing yards, 167.7 passing yards and 275.0 total yards per game.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Bowling Green's 225 rushing yards against Sacramento State represented a season high after six games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Bowling Green averaged 30:15 in time of possession through six games.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "low"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Bowling Green totaled 25 tackles for loss and 15 sacks over its three most recent games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Falcons recorded six sacks against both South Florida and Miami (Ohio) and averaged 3.0 sacks per game through six games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Bowling Green held opponents to a 30.2 percent third-down conversion rate through six games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Through six games, Bowling Green allowed 29.2 points, 204.5 rushing yards, 170.8 passing yards and 375.3 total yards per game.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Through six games, Bowling Green averaged 31.9 net yards per punt, 5.7 yards per punt return and 17.5 yards per kickoff return.",
+            "page": 5,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Bowling Green was 2-4 overall and 2-0 in MAC play after consecutive conference wins over Miami (Ohio) and Sacramento State.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Bowling Green.pdf"
+      },
+      {
+        "source_team": "Buffalo Bulls",
+        "opponent": "Bowling Green Falcons",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Buffalo's Game 5 notes for the Oct. 3, 2026 home game against Western Michigan, including a depth chart specifically labeled for Western Michigan. Buffalo's game against Bowling Green is listed for Oct. 24, 2026.",
+        "recent_game": [
+          {
+            "fact": "Buffalo improved to 2-2 by defeating Robert Morris 31-28 on Sept. 26, 2026.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo produced season highs of 302 rushing yards and 442 total yards against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Messiah Burch rushed 26 times for a career-high 146 yards against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jason Wright passed for 140 yards and one touchdown and rushed for 95 yards and one touchdown against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Nino Hill rushed for 64 yards and scored the first two touchdowns of his career against Robert Morris.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo committed three turnovers against Robert Morris, with two of them leading to Robert Morris touchdowns.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Sophomore Jason Wright is listed as Buffalo's starting quarterback on the guide's current depth chart.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Elijah Holmes started Buffalo's first two games, while Jason Wright started the next two against Penn State and Robert Morris.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three appearances, Wright completed 38 of 80 passes for 385 yards, three touchdowns and three interceptions while adding 95 rushing yards and one rushing touchdown.",
+            "page": 22,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Wright had not attempted a college pass before replacing Holmes at FIU, where he completed 13 of 27 passes for 185 yards and two touchdowns.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Chance Morrow had 25 receptions for 307 yards and six touchdowns through four games; he accounted for all six of Buffalo's receiving touchdowns.",
+            "page": 22,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Morrow's six touchdown receptions were tied for fourth nationally entering the Western Michigan game.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "New tight ends Clint Walker and Trevor Wilson combined for 16 receptions and 134 yards through four games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo's current starting offensive line is listed as Gabriel Arena at left tackle, Val Kondratenko at left guard, Nino Francavilla at center, Thomas Barr at right guard and Joe Crocker at right tackle.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "All five projected offensive-line starters entered the season set to make their first career starts for Buffalo; Arena had the most prior Buffalo experience with 15 appearances over the previous two seasons.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo had 54 new players from the prior season, consisting of 23 transfers and 31 freshmen, and 22 newcomers appeared on the opening-week depth chart.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "SaVeon Brown led Buffalo through four games with 26 tackles and also had two tackles for loss, one sack and the team's only interception.",
+            "page": 24,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "John Keough had 24 tackles, Ronnell Davis had 22 and Miles Greer had 20 through four games.",
+            "page": 24,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo entered 2026 with only two returning linebackers who had played the previous season, primarily on special teams, and added transfer linebackers Zach Bergmann, Stevie Bracey and Joey Cheshire.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The returning secondary included cornerbacks Kobi Blackwell, Keontez Bradley and Oliver Bridges and safeties Miles Greer and John Keough.",
+            "page": 4,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Bradley Ilunga-Bisselele led Buffalo with eight tackles against Robert Morris, while Zach Bergmann recorded four tackles and two pass breakups.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Buffalo entered 2026 with new coordinators for offense, defense and special teams.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Tony Tokarz joined Buffalo as offensive coordinator after six seasons at Florida State, including four as quarterbacks coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Brian Dougherty was promoted from safeties and nickels coach to defensive coordinator.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Garrett McLaughlin joined Buffalo as special teams coordinator after two seasons as Columbia's special teams coordinator and defensive line coach.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Starting quarterback Elijah Holmes was forced to sit out the second half at FIU, leading to Jason Wright's insertion; the guide does not state Holmes' current availability or the reason he sat out.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Buffalo averaged 21.3 points, 314.3 total yards, 155.5 rushing yards and 158.8 passing yards per game.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo rushed for 302 yards against Robert Morris, its second 300-yard rushing performance in the last five seasons.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo had not scored a first-quarter touchdown through four games and had been outscored 45-6 in first quarters.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo converted 10 of 19 third downs against Robert Morris after converting only 5 of 32 combined against FIU and Penn State.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo scored on 11 of 13 red-zone trips through four games, including nine touchdowns.",
+            "page": 26,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo had lost six of its nine fumbles and thrown three interceptions through four games; opponents scored 21 points off Buffalo turnovers.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Buffalo allowed 33.3 points and 426.3 total yards per game, including 170.8 rushing yards and 255.5 passing yards per game.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffalo's defense recorded four sacks, one interception and one fumble recovery through four games.",
+            "page": 24,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents averaged 6.4 yards per play and 14.8 yards per completion against Buffalo through four games.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Buffalo held Robert Morris to 316 total yards and did not allow a Robert Morris red-zone possession, but the defense recorded no sacks or takeaways.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Oliver Hautanen made 5 of 7 field-goal attempts through four games, including a season-long 52-yarder at FIU.",
+            "page": 23,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Ethan Stumpf averaged 46.2 yards on 27 punts, with eight punts of at least 50 yards and seven placed inside the 20.",
+            "page": 23,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Phillip Folmar averaged 20.0 yards on six kickoff returns, while Miles Greer averaged 9.8 yards on five punt returns.",
+            "page": 22,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Buffalo is scheduled to host Bowling Green at Broadview Stadium on Oct. 24, 2026.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time of this guide, Buffalo was 2-2 overall and Bowling Green was 0-4 overall.",
+            "page": 3,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Buffalo.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Bowling Green scoring-opportunity creation vs Buffalo scoring-opportunity prevention",
+        "off_team": "Bowling Green",
+        "def_team": "Buffalo",
+        "off_rank": 48,
+        "def_rank": 131,
+        "stat": "Eckel rate",
+        "rank_gap": 83,
+        "direction": "mixed",
+        "matchup_score": 83
+      },
+      {
+        "dimension": "Buffalo passing offense vs Bowling Green pass defense",
+        "off_team": "Buffalo",
+        "def_team": "Bowling Green",
+        "off_rank": 125,
+        "def_rank": 62,
+        "stat": "pass EPA",
+        "rank_gap": 63,
+        "direction": "mixed",
+        "matchup_score": 63
+      },
+      {
+        "dimension": "Bowling Green rushing offense vs Buffalo rush defense",
+        "off_team": "Bowling Green",
+        "def_team": "Buffalo",
+        "off_rank": 129,
+        "def_rank": 68,
+        "stat": "rush EPA",
+        "rank_gap": 61,
+        "direction": "mixed",
+        "matchup_score": 61
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 24,
+        "fact": "Through six games, Bowling Green averaged 15.8 points, 107.3 rushing yards, 167.7 passing yards and 275.0 total yards per game.",
+        "page": 5,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Bowling Green.pdf",
+        "source_team": "Bowling Green Falcons"
+      },
+      {
+        "fact_id": 25,
+        "fact": "Bowling Green's 225 rushing yards against Sacramento State represented a season high after six games.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Bowling Green.pdf",
+        "source_team": "Bowling Green Falcons"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Bowling Green totaled 25 tackles for loss and 15 sacks over its three most recent games.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Bowling Green.pdf",
+        "source_team": "Bowling Green Falcons"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Through six games, Bowling Green allowed 29.2 points, 204.5 rushing yards, 170.8 passing yards and 375.3 total yards per game.",
+        "page": 5,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Bowling Green.pdf",
+        "source_team": "Bowling Green Falcons"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Buffalo produced season highs of 302 rushing yards and 442 total yards against Robert Morris.",
+        "page": 13,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      },
+      {
+        "fact_id": 47,
+        "fact": "All five projected offensive-line starters entered the season set to make their first career starts for Buffalo; Arena had the most prior Buffalo experience with 15 appearances over the previous two seasons.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      },
+      {
+        "fact_id": 65,
+        "fact": "Through four games, Buffalo allowed 33.3 points and 426.3 total yards per game, including 170.8 rushing yards and 255.5 passing yards per game.",
+        "page": 20,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      },
+      {
+        "fact_id": 68,
+        "fact": "Buffalo held Robert Morris to 316 total yards and did not allow a Robert Morris red-zone possession, but the defense recorded no sacks or takeaways.",
+        "page": 13,
+        "category": "defensive_context",
+        "importance": "medium",
+        "source_file": "Buffalo.pdf",
+        "source_team": "Buffalo Bulls"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Buffalo Bulls",
+      "model_side": "Buffalo",
+      "opponent_full": "Bowling Green Falcons",
+      "opponent": "Bowling Green",
+      "model_prediction": -6.0,
+      "market_line": -3.0,
+      "best_available_line": -3.5,
+      "best_available_price": "100",
+      "cover_probability": 0.53503122,
+      "edge": 0.03503122000000003,
+      "bet_status": "BET"
+    }
+  }
+}

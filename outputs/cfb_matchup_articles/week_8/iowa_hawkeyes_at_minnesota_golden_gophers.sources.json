@@ -1,0 +1,727 @@
+{
+  "game": "Iowa Hawkeyes@Minnesota Golden Gophers",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:28:15.273239+00:00",
+  "model_prediction": -11.5,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.58911143,
+  "edge": 0.06530190619047616,
+  "bet_short": "Iowa",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the disagreement starts with the running game on both sides. Iowa averaged 215.5 rushing yards and 6.5 yards per carry through four games, with four different players producing a 100-yard game. That depth supports what our numbers already see: Iowa has a substantial advantage against Minnesota\u2019s run defense. In the other direction, Iowa held opponents to 2.7 yards per carry and did not allow a rushing touchdown over the same span, making it difficult for Minnesota to stay balanced.",
+    "matchup_to_watch": "We are watching Iowa\u2019s offensive line against Minnesota\u2019s front. Minnesota recorded seven sacks at Washington, so its ability to create negative plays is the clearest challenge to our position. Iowa, however, allowed only three sacks through four games while producing efficiently on the ground. If Iowa avoids obvious passing situations and keeps that front from disrupting drives, we think the matchup favors sustained offensive control.",
+    "guide_status": [
+      "Found guide for Iowa Hawkeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa.pdf",
+      "Guide for Iowa Hawkeyes was found but may not match the current opponent. The guide is for Iowa's Week 5 home game against Ohio State on Oct. 3, 2026, not the Oct. 24 road game at Minnesota listed later on Iowa's schedule.",
+      "Found guide for Minnesota Golden Gophers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Minnesota.pdf",
+      "Guide for Minnesota Golden Gophers was found but may not match the current opponent. The guide is Minnesota's game notes for its Oct. 3, 2026 matchup against Michigan, not the Oct. 24 game against Iowa. It identifies the featured game as Minnesota vs. Michigan and contains Michigan-specific matchup notes. Current Minnesota information and the limited Iowa scheduling context are still extracted."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Iowa Hawkeyes",
+        "opponent": "Minnesota Golden Gophers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Iowa's Week 5 home game against Ohio State on Oct. 3, 2026, not the Oct. 24 road game at Minnesota listed later on Iowa's schedule.",
+        "recent_game": [
+          {
+            "fact": "Iowa improved to 4-0 with a 20-19 road victory over No. 18 Michigan in Week 4.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa drove 91 yards in 11 plays after taking possession at its own 9-yard line with 1:46 remaining, scoring the winning touchdown as time expired.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Reece Vander Zee caught a 16-yard touchdown pass from Hank Brown as time expired and finished the Michigan game with five receptions and two touchdowns.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Iowa's schedule lists the Minnesota game for Oct. 24, 2026, in Minneapolis, with kickoff time to be announced.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota was 3-1 overall and 1-0 in the Big Ten when this guide was issued.",
+            "page": 4,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Hank Brown was officially named Iowa's starting quarterback after the Week 3 victory over Northern Iowa.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Brown had completed 66 of 97 passes for 700 yards, five touchdowns and no interceptions, a 68.0 percent completion rate.",
+            "page": 18,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "In his first career road start at Michigan, Brown completed 21 of 35 passes for 227 yards and two touchdowns.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown completed 13 of 19 passes for 142 yards and two touchdowns in the fourth quarter against Michigan, including 4 of 6 passing on third down.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Tony Diaz, a transfer from UTRGV, led Iowa through four games with 20 receptions for 247 yards and one touchdown on 37 targets.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Reece Vander Zee had 11 receptions for 143 yards and two touchdowns through four games.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa returned two starting offensive linemen, right guard Kade Pieper and left tackle Trevor Lauck, after losing three starters from its 2025 line.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Cael Winter, left guard Leighton Jones and right tackle Jack Dotzler each made his first career start in the 2026 opener.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Kamari Moulton led Iowa with 284 rushing yards on 39 carries through his first three appearances, while Braeden Jackson, Xavier Williams and Nathan McNeil also recorded 100-yard rushing games.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Cam Buffington led Iowa with 38 tackles, including 22 solo tackles and three tackles for loss, through four games.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Buffington recorded 11 tackles at Michigan after posting a career-high 15 against Iowa State.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Zach Lutmer had 20 tackles and four pass breakups through four games, including a career-high 12 tackles at Michigan.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive back Deshaun Lee had two interceptions through four games, including one at Michigan.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa opened the season with eight new defensive starters.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Iowa added three coaches for 2026: special teams coordinator Chris Polizzi, running backs coach Jay Norvell and quarterbacks coach Billy VandeMerkt.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "VandeMerkt was promoted from offensive analyst to quarterbacks coach after the 2025 season.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Norvell joined Iowa as running backs coach after serving as Colorado State's head coach from 2022-25.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running back Kamari Moulton missed the Week 3 game against Northern Iowa because of injury.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Tight end DJ Vonnahme missed the Week 3 game against Northern Iowa because of injury and had appeared in three of Iowa's first four games.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Tyler Brown missed the first two games because of injury, made his first Iowa start in Week 3 and recorded nine tackles at Michigan.",
+            "page": 3,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Addison Ostrenga returned in 2026 after an Achilles injury limited him to two games in 2025; he had seven receptions for 70 yards and one touchdown through four games.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Iowa averaged 429.0 total yards and 32.8 points through four games.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Hawkeyes averaged 215.5 rushing yards per game and 6.5 yards per carry through four games.",
+            "page": 16,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa had four different 100-yard rushers in its first four games: Kamari Moulton, Nathan McNeil, Braeden Jackson and Xavier Williams.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa produced at least 500 total yards twice in its first four games, the program's first season with multiple 500-yard games since 2006.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa's offensive line allowed three sacks through four games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Iowa allowed 8.0 points and 239.8 total yards per game through four games.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense allowed three touchdowns in the first four games and did not allow a rushing touchdown.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa held Northern Illinois and Northern Iowa scoreless, giving the Hawkeyes two shutouts in their first four games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents averaged 87.8 rushing yards per game and 2.7 yards per carry through four games.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa had forced five turnovers and held a plus-four turnover margin through four games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 15 of 56 third downs, a 27 percent conversion rate, through four games.",
+            "page": 16,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Braeden Jackson returned a kickoff 99 yards for a touchdown at Michigan, tying the seventh-longest kickoff return in Iowa history.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punt returner Evan James averaged 18.6 yards on eight returns through four games and had a 77-yard touchdown return against Northern Illinois.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Caden Buhr made 5 of 7 field-goal attempts through four games, including all five attempts from under 50 yards.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Boston Everitt averaged 43.5 yards on 19 punts, with 12 placed inside the 20-yard line.",
+            "page": 19,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Iowa entered 2026 with new primary specialists after kicker Drew Stevens and returner Kaden Wetjen went to the NFL and punter Rhys Dakin transferred to Michigan State.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Iowa defeated Minnesota 41-3 in 2025 to retain the Floyd of Rosedale and entered 2026 with a two-game winning streak in the series.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Zach Lutmer returned an interception for a touchdown against Minnesota in Iowa's 2025 victory.",
+            "page": 9,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Iowa was 4-0 overall and 1-0 in Big Ten play when the guide was issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Iowa was 2-0 in games decided by three points or fewer in 2026, defeating Iowa State 16-13 and Michigan 20-19.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Iowa.pdf"
+      },
+      {
+        "source_team": "Minnesota Golden Gophers",
+        "opponent": "Iowa Hawkeyes",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Minnesota's game notes for its Oct. 3, 2026 matchup against Michigan, not the Oct. 24 game against Iowa. It identifies the featured game as Minnesota vs. Michigan and contains Michigan-specific matchup notes. Current Minnesota information and the limited Iowa scheduling context are still extracted.",
+        "recent_game": [
+          {
+            "fact": "Minnesota improved to 3-1 overall and 1-0 in the Big Ten with a 27-24 road win over Washington on Sept. 26.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Washington, Drake Lindsey completed 21 of 29 passes for 204 yards, three touchdowns and one interception; all three touchdown passes came in the first half.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota sacked Washington quarterback Demond Williams Jr. seven times and held the Huskies to 1-for-10 on third down.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "TJ Thomas led Minnesota against Washington with 78 rushing yards on 11 carries.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Drzewiecki made a career-long 51-yard field goal in the fourth quarter against Washington.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Minnesota is scheduled to host Iowa for Homecoming on Oct. 24, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "The 2026 Minnesota-Iowa game is scheduled to be the 96th consecutive annual meeting in the Floyd of Rosedale rivalry, which has been played every year since 1931.",
+            "page": 5,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Through four games, starting quarterback Drake Lindsey was 88-of-132 for 951 yards, seven touchdowns and two interceptions, with a 141.7 passer rating.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lindsey had thrown three touchdown passes in consecutive games against Akron and Washington.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lindsey's career totals through the Washington game were 3,383 passing yards and 26 touchdown passes, and his career touchdown-to-interception ratio was 26-to-8.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "TJ Thomas led Minnesota through four games with 251 rushing yards on 34 carries, a 7.4-yard average and one touchdown; he also had 11 receptions for 64 yards.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Javon Tracy led Minnesota through four games with 24 receptions for 281 yards and one receiving touchdown.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer receiver Noah Jennings had a team-high 33 targets and ranked second on the team with 19 receptions for 275 yards through four games.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jalen Smith had 12 receptions for 121 yards and a team-high two receiving touchdowns through four games, including touchdown catches against Akron and Washington.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota added eight newcomer wide receivers for the 2026 season around returning wideouts Javon Tracy and Jalen Smith.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The offensive line's first three starting combinations featured Nathan Roy at left tackle, Greg Johnson at left guard, Ashton Beers at center, Tony Nelson at right guard and first-year starter Daniel Shipp at right tackle.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "At Washington, Ashton Beers did not play; Greg Johnson moved from left guard to center and Jaden Ball started at left guard.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Maverick Baranowski led Minnesota through four games with 28 tackles, including 3.0 tackles for loss, one sack and one interception.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Joey Gerlach had 16 tackles, 1.5 tackles for loss, one sack, one fumble recovery and three forced fumbles through four games.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Karter Menz led Minnesota through four games with three sacks.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Anthony Smith had 20.5 career sacks and 33.5 career tackles for loss through the first four games of 2026.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive back John Nestor had 13 tackles, 2.0 tackles for loss, two pass breakups and one interception through four games.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Daniel Da Prato is Minnesota's new special teams coordinator for the 2026 season.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota lists Greg Harbaugh Jr. as offensive coordinator and quarterbacks coach, Danny Collins as defensive coordinator and safeties coach, and Nick Monroe as co-defensive coordinator and cornerbacks coach.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running back Darius Taylor was limited by injury against Mississippi State, missed the Akron game and returned at Washington.",
+            "page": 6,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Joey Gerlach missed the final four games of 2025 with a torn ACL but returned for the 2026 opener and played in each of Minnesota's first four games.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back A.J. Turner, who was limited to three games in 2025 by an injury suffered at California, returned against Mississippi State and had 10 carries for 44 yards and one touchdown through four games.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Minnesota averaged 35.0 points, 377.8 total yards, 258.8 passing yards and 119.0 rushing yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota had allowed four sacks through four games, an average of 1.0 per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota had committed three turnovers through four games: two interceptions and one lost fumble.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota converted 41.1 percent of its third downs and scored on 94.4 percent of its red-zone possessions through four games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Minnesota allowed 19.0 points and 272.3 total yards per game, including 97.8 rushing yards and 174.5 passing yards per game.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Minnesota had 11 sacks through four games, including seven in its most recent game at Washington.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Gophers allowed opponents to convert 28.3 percent of their third downs through four games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Joey Gerlach forced a fumble in three consecutive games against Mississippi State, Akron and Washington.",
+            "page": 11,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Javon Tracy had 278 yards and two touchdowns on 13 punt returns through four games, averaging 21.4 yards per return.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "True freshman Quayd Hendryx averaged 26.8 yards on five kickoff returns through four games.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Luke Drzewiecki was 6-for-6 on field goals through four games, including four makes from at least 40 yards.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Tom Weston averaged 40.5 yards per punt and placed nine of 17 punts inside the opponent's 20-yard line through four games.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota had a blocked field goal by Naiim Parrish through four games.",
+            "page": 1,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Minnesota and Iowa play for the Floyd of Rosedale trophy.",
+            "page": 4,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Minnesota had won 10 of its previous 11 games and 12 of its previous 14 games at Huntington Bank Stadium entering the Oct. 3 Michigan game.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Minnesota finished the 2025 season 7-0 at Huntington Bank Stadium and entered October 2026 with five consecutive Big Ten home wins.",
+            "page": 5,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Minnesota.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Minnesota rushing offense vs Iowa rush defense",
+        "off_team": "Minnesota",
+        "def_team": "Iowa",
+        "off_rank": 118,
+        "def_rank": 25,
+        "stat": "rush EPA",
+        "rank_gap": 93,
+        "direction": "defense_advantage",
+        "matchup_score": 193
+      },
+      {
+        "dimension": "Iowa rushing offense vs Minnesota rush defense",
+        "off_team": "Iowa",
+        "def_team": "Minnesota",
+        "off_rank": 24,
+        "def_rank": 109,
+        "stat": "rush EPA",
+        "rank_gap": 85,
+        "direction": "offense_advantage",
+        "matchup_score": 185
+      },
+      {
+        "dimension": "Iowa passing offense vs Minnesota pass defense",
+        "off_team": "Iowa",
+        "def_team": "Minnesota",
+        "off_rank": 53,
+        "def_rank": 89,
+        "stat": "pass EPA",
+        "rank_gap": 36,
+        "direction": "mixed",
+        "matchup_score": 36
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 26,
+        "fact": "The Hawkeyes averaged 215.5 rushing yards per game and 6.5 yards per carry through four games.",
+        "page": 16,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Iowa.pdf",
+        "source_team": "Iowa Hawkeyes"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Iowa had four different 100-yard rushers in its first four games: Kamari Moulton, Nathan McNeil, Braeden Jackson and Xavier Williams.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Iowa.pdf",
+        "source_team": "Iowa Hawkeyes"
+      },
+      {
+        "fact_id": 29,
+        "fact": "Iowa's offensive line allowed three sacks through four games.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Iowa.pdf",
+        "source_team": "Iowa Hawkeyes"
+      },
+      {
+        "fact_id": 31,
+        "fact": "The defense allowed three touchdowns in the first four games and did not allow a rushing touchdown.",
+        "page": 17,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Iowa.pdf",
+        "source_team": "Iowa Hawkeyes"
+      },
+      {
+        "fact_id": 33,
+        "fact": "Opponents averaged 87.8 rushing yards per game and 2.7 yards per carry through four games.",
+        "page": 16,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Iowa.pdf",
+        "source_team": "Iowa Hawkeyes"
+      },
+      {
+        "fact_id": 45,
+        "fact": "Minnesota sacked Washington quarterback Demond Williams Jr. seven times and held the Huskies to 1-for-10 on third down.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Minnesota.pdf",
+        "source_team": "Minnesota Golden Gophers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Iowa Hawkeyes",
+      "model_side": "Iowa",
+      "opponent_full": "Minnesota Golden Gophers",
+      "opponent": "Minnesota",
+      "model_prediction": -11.5,
+      "market_line": -6.5,
+      "best_available_line": -6.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.58911143,
+      "edge": 0.06530190619047616,
+      "bet_status": "BET"
+    }
+  }
+}

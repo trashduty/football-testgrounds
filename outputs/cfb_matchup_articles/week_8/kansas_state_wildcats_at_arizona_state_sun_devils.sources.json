@@ -1,0 +1,342 @@
+{
+  "game": "Kansas State Wildcats@Arizona State Sun Devils",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:31:04.273687+00:00",
+  "model_prediction": -4.0,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52730679,
+  "edge": -0.005403490373831699,
+  "bet_short": "Kansas State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our disagreement with the market starts with Kansas State\u2019s rushing efficiency against an Arizona State run defense that our numbers view as vulnerable. We are not treating one result as proof, but Baylor\u2019s 244 rushing yards against Arizona State reinforce the broader concern. If Kansas State can stay efficient on the ground, it can control favorable situations and limit the pressure on its passing game.\n\nArizona State has enough passing production to challenge that view. Cutter Boley threw for 1,040 yards with 10 touchdowns and three interceptions through four games, while Reed Harris had 499 receiving yards and five scores. Still, our numbers favor Kansas State\u2019s pass defense in that matchup, and Arizona State\u2019s 29.6 percent third-down conversion rate raises questions about sustaining drives.\n\nFor us, the case for Kansas State is less about Arizona State\u2019s recent loss and more about how these efficiency matchups fit together. We see a plausible path to separation, but the current price does not give us enough value to turn that model disagreement into a wager.",
+    "matchup_to_watch": "We are watching Kansas State\u2019s rushing offense against Arizona State\u2019s front. Our numbers identify that as Kansas State\u2019s cleanest advantage, and Arizona State was allowing 154.3 rushing yards per game through four games. If Kansas State consistently creates manageable downs, our more favorable expectation becomes easier to justify; if Arizona State forces obvious passing situations, the gap between our view and the market becomes less meaningful.",
+    "guide_status": [
+      "No guide found for Kansas State Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas State.pdf",
+      "Found guide for Arizona State Sun Devils: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona State.pdf",
+      "Guide for Arizona State Sun Devils was found but may not match the current opponent. The guide is Arizona State's Game 5 notes for its Oct. 10, 2026 home game against Hawai'i. Kansas State appears on the schedule as Arizona State's Oct. 24 opponent, so this is not the guide for the requested Kansas State matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Arizona State Sun Devils",
+        "opponent": "Kansas State Wildcats",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Arizona State's Game 5 notes for its Oct. 10, 2026 home game against Hawai'i. Kansas State appears on the schedule as Arizona State's Oct. 24 opponent, so this is not the guide for the requested Kansas State matchup.",
+        "recent_game": [
+          {
+            "fact": "Arizona State fell to 2-2 overall and 1-1 in Big 12 play after a 55-19 home loss to Baylor on Oct. 3.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State gained 409 total yards, including 310 passing yards, against Baylor.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor gained 564 total yards against Arizona State, including 244 rushing and 320 passing yards.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Owen Long recorded a season-high 14 tackles against Baylor; Martell Hughes had eight tackles and two tackles for loss, and C.J. Fite had four tackles, 1.5 tackles for loss and one sack.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Kentucky transfer Cutter Boley was named Arizona State's starting quarterback before the 2026 opener.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Boley had completed 78 of 127 passes for 1,040 yards, 10 touchdowns and three interceptions while rushing for 45 yards and one touchdown.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Boley completed 25 of 43 passes for 304 yards, one touchdown and one interception against Baylor.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Boley had thrown at least one touchdown pass in each of Arizona State's first four games.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Arizona State's 2026 roster includes 30 collegiate transfers and 18 incoming freshmen, with the 48 newcomers accounting for 44.9 percent of the 107-player roster.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Reed Harris had 26 receptions for 499 yards and five touchdowns through four games, including three 100-yard receiving games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Harris caught seven passes for 125 yards against Baylor, while Omarion Miller caught five passes for 85 yards and a touchdown.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Harris transferred from Boston College after recording 39 catches for 673 yards and five touchdowns in 2025, while Miller transferred from Colorado after leading that team with 45 receptions, 808 yards and eight touchdowns in 2025.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Arizona State entered 2026 with four new starters in the secondary following the departures of cornerbacks Keith Abney and Javan Robinson.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerbacks Rodney Bimage and Ashton Stamps had allowed completion percentages of 44.4 and 47.4 percent when targeted, respectively, through four games.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Owen Long led Arizona State with 39 tackles through four games, 10 more than any other Sun Devil.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Martell Hughes ranked second on the team with 29 tackles and led Arizona State with 5.5 tackles for loss through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive lineman C.J. Fite had started 31 consecutive games and had 83 career tackles, 14.5 tackles for loss and five sacks.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Marcus Arroyo is Arizona State's offensive coordinator and quarterbacks coach, and Brian Ward is the defensive coordinator.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Saga Tuitele coaches the offensive line, A.J. Cooper coaches linebackers and coordinates the defensive run game, and Bryan Carrington coordinates the defensive passing game.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Arizona State averaged 421.8 total yards, 272.8 passing yards, 149.0 rushing yards and 33.3 points per game.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State had converted 29.6 percent of its third downs and 6 of 12 fourth-down attempts through four games.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Sun Devils had scored on 10 of 11 red-zone possessions through four games, a 90.9 percent rate.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State receivers averaged 8.1 yards after the catch per reception through four games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Arizona State allowed 355.3 total yards, 201.0 passing yards, 154.3 rushing yards and 31.8 points per game.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents had completed 70 of 125 passes, a 56.0 percent rate, against Arizona State through four games.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents had converted 23 of 62 combined third- and fourth-down attempts against Arizona State through four games.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State had allowed 15 plays of at least 20 yards through four games.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Carson Smith made field goals from 46, 32, 36 and 40 yards against Baylor and was 7-for-7 on field-goal attempts for the season.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaren Hamilton returned a kickoff 100 yards for a touchdown against Kansas on Sept. 19.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Arizona State's most recent road win over a ranked opponent was a 24-14 victory at No. 20 Kansas State on Nov. 16, 2024.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "The document's schedule lists Arizona State hosting Kansas State on Oct. 24, 2026.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State was 18-7 under Kenny Dillingham when winning time of possession and 6-12 when it did not.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Arizona State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Kansas State rushing offense vs Arizona State rush defense",
+        "off_team": "Kansas State",
+        "def_team": "Arizona State",
+        "off_rank": 18,
+        "def_rank": 58,
+        "stat": "rush EPA",
+        "rank_gap": 40,
+        "direction": "mixed",
+        "matchup_score": 40
+      },
+      {
+        "dimension": "Arizona State passing offense vs Kansas State pass defense",
+        "off_team": "Arizona State",
+        "def_team": "Kansas State",
+        "off_rank": 76,
+        "def_rank": 36,
+        "stat": "pass EPA",
+        "rank_gap": 40,
+        "direction": "mixed",
+        "matchup_score": 40
+      },
+      {
+        "dimension": "Arizona State scoring-opportunity creation vs Kansas State scoring-opportunity prevention",
+        "off_team": "Arizona State",
+        "def_team": "Kansas State",
+        "off_rank": 118,
+        "def_rank": 93,
+        "stat": "Eckel rate",
+        "rank_gap": 25,
+        "direction": "mixed",
+        "matchup_score": 25
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 3,
+        "fact": "Baylor gained 564 total yards against Arizona State, including 244 rushing and 320 passing yards.",
+        "page": 11,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 6,
+        "fact": "Through four games, Boley had completed 78 of 127 passes for 1,040 yards, 10 touchdowns and three interceptions while rushing for 45 yards and one touchdown.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Wide receiver Reed Harris had 26 receptions for 499 yards and five touchdowns through four games, including three 100-yard receiving games.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 21,
+        "fact": "Arizona State had converted 29.6 percent of its third downs and 6 of 12 fourth-down attempts through four games.",
+        "page": 10,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Through four games, Arizona State allowed 355.3 total yards, 201.0 passing yards, 154.3 rushing yards and 31.8 points per game.",
+        "page": 10,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Kansas State Wildcats",
+      "model_side": "Kansas State",
+      "opponent_full": "Arizona State Sun Devils",
+      "opponent": "Arizona State",
+      "model_prediction": -4.0,
+      "market_line": -2.5,
+      "best_available_line": -2.5,
+      "best_available_price": "-114",
+      "cover_probability": 0.52730679,
+      "edge": -0.005403490373831699,
+      "bet_status": "PASS"
+    }
+  }
+}

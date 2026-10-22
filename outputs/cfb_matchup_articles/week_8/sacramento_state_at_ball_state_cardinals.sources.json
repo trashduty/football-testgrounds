@@ -1,0 +1,469 @@
+{
+  "game": "Sacramento State@Ball State Cardinals",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:42:00.797604+00:00",
+  "model_prediction": 12.0,
+  "market_line": 14.5,
+  "best_line": 15.5,
+  "best_price": "-115",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.58355449,
+  "edge": 0.04867076906976753,
+  "bet_short": "Sacramento State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the disagreement is less about declaring Sacramento State the better team and more about whether Ball State can create enough scoring opportunities to justify being favored by this much. Our numbers pair a struggling Ball State opportunity-creation profile with a Sacramento State defense that has been much better at preventing those chances. At Northwestern, Ball State produced 360 yards and 22 first downs while going three-and-out only twice, yet finished with 14 points. We are not treating one result as proof, but it illustrates the gap between moving the ball and creating scoreboard separation.\n\nWe also see a path for Sacramento State to sustain drives against a Ball State defense that returned only two starters and recently generated just one sack across three games. That does not automatically make Sacramento State's offense efficient, but the market is asking Ball State to control the game on both sides of the ball. Our main concern is Ball State's individual playmaking: TJ Horton averaged 7.2 yards per carry through six games, and Keldric Luster had returned to start the previous two games. Even so, our broader matchup numbers support Sacramento State staying competitive enough for our position.",
+    "matchup_to_watch": "The matchup we are watching is Sacramento State's rushing offense against Ball State's run defense. We do not rate Sacramento State's ground game as a major strength, but Ball State allowed 218.8 rushing yards per game through six contests. Sacramento State does not need to dominate here; for our view, consistent rushing success would help it avoid obvious passing situations, extend possessions and make it harder for Ball State to create the required margin.",
+    "guide_status": [
+      "No guide found for Sacramento State. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Sacramento State.pdf",
+      "Found guide for Ball State Cardinals: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ball State.pdf",
+      "Guide for Ball State Cardinals was found but may not match the current opponent. The guide is explicitly titled \"Game 7: At Bowling Green\" and was prepared for Ball State's Oct. 17, 2026 game at Bowling Green. Sacramento State is Ball State's following opponent on Oct. 24, so the guide contains current Ball State information but is not the guide intended for that matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Ball State Cardinals",
+        "opponent": "Sacramento State",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly titled \"Game 7: At Bowling Green\" and was prepared for Ball State's Oct. 17, 2026 game at Bowling Green. Sacramento State is Ball State's following opponent on Oct. 24, so the guide contains current Ball State information but is not the guide intended for that matchup.",
+        "recent_game": [
+          {
+            "fact": "Ball State lost 45-14 at Northwestern on Oct. 10, its fourth consecutive loss, and entered the Bowling Green week 1-5 overall and 0-2 in the MAC.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Ball State produced 22 first downs and 360 total yards at Northwestern, its best road yardage total of the season, while going three-and-out only twice.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Keldric Luster completed 27 of 41 passes for 209 yards and one touchdown at Northwestern, including a 46-yard completion to Donovan Hamilton.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Ball State passed for 270 total yards at Northwestern; Tyler Mizzell went 4-for-5 for 51 yards, and first-year quarterback Mason Atkins made his collegiate debut with a 10-yard completion.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Northwestern scored on its first four possessions and six of eight possessions overall. Ball State forced punts on two of Northwestern's four second-half possessions.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Kaleb Stewart recorded a career-high eight tackles and a sack at Northwestern.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ball State was penalized a program-record 15 times for 119 yards at Northwestern.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Ball State is scheduled to host Sacramento State at 3:30 p.m. ET on Oct. 24, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time of this guide, Sacramento State was 1-5 overall and 0-3 in conference play with a four-game losing streak; it was scheduled to host Ohio on Oct. 17 before visiting Ball State.",
+            "page": 12,
+            "category": "opponent_notes",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Sacramento State game will be Ball State's homecoming game and the 100th-anniversary celebration of the university's first homecoming football game.",
+            "page": 18,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Ball State identified fourth-year transfer Keldric Luster as its QB1. He had started five of the first six games, while Tyler Mizzell started at Kent State and appeared in all six games.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Luster missed the Kent State game after suffering a left-foot injury at Liberty and also dealt with a groin strain, but returned to start against Toledo and Northwestern.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Luster completed a program-record 84.4 percent of his passes against Stony Brook, going 27-for-32 for 256 yards and three touchdowns.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mizzell completed 16 of 27 passes for 164 yards and a touchdown in his Division I starting debut at Kent State.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Donovan Hamilton led Ball State through six games with 22 receptions for 273 yards and had recorded at least 50 receiving yards in three consecutive games.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jabari Smith set a career high with seven catches for 64 yards at Northwestern, while Jamarion McDougle set a career high with six receptions and caught Ball State's touchdown pass.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "TJ Horton led Ball State with 311 rushing yards on 43 carries through six games, averaging 7.2 yards per carry.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ball State's backfield rotation included TJ Horton, Jalen Bonds and Johnny Thompson Jr.; each had at least 24 carries through six games.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ball State listed Tate Hoover as its starting tight end. Hoover led the team's tight ends with eight receptions through six games.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ball State added 59 players after the 2025 season, including 32 four-year transfers and three junior-college transfers.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Ball State returned only two defensive starters from 2025 and lost 10 of its 12 regular defensive starters.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ben Marsh, Jared Badie, Ameir Glenn and Ka'Shawn Thomas started each of the first six games on the defensive front.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Will Yates, Sterling Smith and Quentavius Scandrett started each of the first six games in the secondary, while Gavin Forsha was the only linebacker to start all six.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sterling Smith led Ball State with 37 tackles through six games. Kaleb Stewart was second with 31, and Quentavius Scandrett had 26.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ball State's secondary added transfers Quentavius Scandrett from Arkansas, Sterling Smith from Purdue, Cedric Franklin II from Arkansas State and Anthony Pinnace from Michigan State.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Second-year head coach Mike Uremovich serves as Ball State's offensive coordinator and offensive play caller.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeff Knowles is Ball State's defensive coordinator and linebackers coach, with Adam Siwicki coordinating the defensive run game and Ray Smith coordinating the defensive pass game.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Craig Harmon is the offensive pass-game coordinator and quarterbacks coach, while Alex Barr coaches the offensive line.",
+            "page": 7,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Quarterback Keldric Luster returned from left-foot and groin injuries to start against Toledo and Northwestern after missing the Kent State game.",
+            "page": 12,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Kamron Chamble sustained a broken left wrist at Kent State, missed the Toledo game and returned at Northwestern.",
+            "page": 15,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Mikeah Webster missed the first three games with a lower-leg injury, returned at Kent State and then fractured a bone in his hand against Toledo.",
+            "page": 15,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback DJ Fields suffered a leg injury at Liberty that the guide said could keep him out for a few weeks; the Bowling Green depth chart marked him as injured the previous week.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "The Bowling Green depth chart marked running back Jalen Bonds, receivers Isaiah Thacker, tight ends Mason Riggins and Sean Ward, defensive tackle Khristian Zachary, sniper Gabe Aramboles, safety Avery Stuart and cornerback DJ Fields as injured the previous week.",
+            "page": 7,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Ball State averaged 308.0 total yards, 117.8 rushing yards, 190.2 passing yards and 18.3 points per game through six games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ball State targeted 13 players at Northwestern, and 12 different players caught passes. Eight players recorded at least two receptions.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ball State started the same offensive line in each of its first six games: Chris Hood at left tackle, Misael Sandoval at left guard, Grant Haworth at center, Cole Mosier or an earlier replacement at right guard, and Tristan Cook at right tackle.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Grant Haworth moved into the starting center role after Cole Mosier's preseason injury. Mosier missed the first three games, then returned to start at right guard beginning in Week 4.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Chris Hood had 26 career starts and Tristan Cook had 18 through six games, making them the most experienced members of Ball State's offensive line.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ball State uses multiple tight ends in varied sets, including as blocking fullbacks and receiving options.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Ball State allowed 467.3 total yards and 39.0 points per game through six games, including 218.8 rushing yards and 248.5 passing yards per game.",
+            "page": 11,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ball State recorded eight sacks over its first three games but only one sack over the next three games, by Kaleb Stewart at Northwestern.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Cardinals went three consecutive games without a takeaway against Kent State, Toledo and Northwestern.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ball State routinely rotated eight to 12 defensive linemen per game.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kamron Chamble recorded two interceptions against Stony Brook, and Cedric Franklin II made Ball State's other interception through six games.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Cole Stumbaugh averaged 43.6 yards per punt through six games, with six punts of at least 50 yards and 11 placed inside the 20-yard line.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Stumbaugh averaged a career-best 51.0 yards on four punts at Northwestern, including punts of 55 and 60 yards.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brody Boehm was 4-for-7 on field goals through six games and made a 54-yard field goal on his first collegiate attempt at Ohio State.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "TJ Horton averaged 21.4 yards per kickoff return and had returns of at least 40 yards in consecutive games against Toledo and Northwestern.",
+            "page": 13,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ball State listed freshman Ace Cooper as its primary punt returner, with Jamarion McDougle and Jabari Smith as alternatives.",
+            "page": 7,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Ball State had played only two of its first seven scheduled games at home but was set to play three of its final five games at Scheumann Stadium, beginning with Sacramento State.",
+            "page": 11,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Ball State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Ball State scoring-opportunity creation vs Sacramento State scoring-opportunity prevention",
+        "off_team": "Ball State",
+        "def_team": "Sacramento State",
+        "off_rank": 123,
+        "def_rank": 29,
+        "stat": "Eckel rate",
+        "rank_gap": 94,
+        "direction": "defense_advantage",
+        "matchup_score": 194
+      },
+      {
+        "dimension": "Sacramento State scoring-opportunity creation vs Ball State scoring-opportunity prevention",
+        "off_team": "Sacramento State",
+        "def_team": "Ball State",
+        "off_rank": 64,
+        "def_rank": 125,
+        "stat": "Eckel rate",
+        "rank_gap": 61,
+        "direction": "mixed",
+        "matchup_score": 61
+      },
+      {
+        "dimension": "Sacramento State rushing offense vs Ball State rush defense",
+        "off_team": "Sacramento State",
+        "def_team": "Ball State",
+        "off_rank": 100,
+        "def_rank": 128,
+        "stat": "rush EPA",
+        "rank_gap": 28,
+        "direction": "mixed",
+        "matchup_score": 28
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Ball State lost 45-14 at Northwestern on Oct. 10, its fourth consecutive loss, and entered the Bowling Green week 1-5 overall and 0-2 in the MAC.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Ball State.pdf",
+        "source_team": "Ball State Cardinals"
+      },
+      {
+        "fact_id": 2,
+        "fact": "Ball State produced 22 first downs and 360 total yards at Northwestern, its best road yardage total of the season, while going three-and-out only twice.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Ball State.pdf",
+        "source_team": "Ball State Cardinals"
+      },
+      {
+        "fact_id": 9,
+        "fact": "Luster missed the Kent State game after suffering a left-foot injury at Liberty and also dealt with a groin strain, but returned to start against Toledo and Northwestern.",
+        "page": 12,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Ball State.pdf",
+        "source_team": "Ball State Cardinals"
+      },
+      {
+        "fact_id": 14,
+        "fact": "TJ Horton led Ball State with 311 rushing yards on 43 carries through six games, averaging 7.2 yards per carry.",
+        "page": 13,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Ball State.pdf",
+        "source_team": "Ball State Cardinals"
+      },
+      {
+        "fact_id": 18,
+        "fact": "Ball State returned only two defensive starters from 2025 and lost 10 of its 12 regular defensive starters.",
+        "page": 14,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Ball State.pdf",
+        "source_team": "Ball State Cardinals"
+      },
+      {
+        "fact_id": 37,
+        "fact": "Ball State allowed 467.3 total yards and 39.0 points per game through six games, including 218.8 rushing yards and 248.5 passing yards per game.",
+        "page": 11,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Ball State.pdf",
+        "source_team": "Ball State Cardinals"
+      },
+      {
+        "fact_id": 38,
+        "fact": "Ball State recorded eight sacks over its first three games but only one sack over the next three games, by Kaleb Stewart at Northwestern.",
+        "page": 14,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Ball State.pdf",
+        "source_team": "Ball State Cardinals"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Sacramento State",
+      "model_side": "Sacramento State",
+      "opponent_full": "Ball State Cardinals",
+      "opponent": "Ball State",
+      "model_prediction": 12.0,
+      "market_line": 14.5,
+      "best_available_line": 15.5,
+      "best_available_price": "-115",
+      "cover_probability": 0.58355449,
+      "edge": 0.04867076906976753,
+      "bet_status": "BET"
+    }
+  }
+}

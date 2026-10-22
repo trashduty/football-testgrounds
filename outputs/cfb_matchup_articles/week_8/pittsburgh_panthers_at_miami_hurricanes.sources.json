@@ -1,0 +1,681 @@
+{
+  "game": "Pittsburgh Panthers@Miami Hurricanes",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:40:50.031163+00:00",
+  "model_prediction": 18.0,
+  "market_line": 20.0,
+  "best_line": 19.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53758959,
+  "edge": 0.025394468048780428,
+  "bet_short": "Pittsburgh",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "What stands out to us is that the market is asking Miami to turn a clear offensive advantage into sustained separation. Our numbers rate Miami\u2019s passing attack as the toughest part of this matchup, and the early production supports that concern: Darian Mensah completed 112 of 133 passes for 1,438 yards, 15 touchdowns and no interceptions through five games. Miami also averaged 8.2 yards per play while converting 51 percent of its third downs.\n\nFor us, Pittsburgh\u2019s case is less about its recent scoring outburst and more about whether its passing game can avoid empty possessions. Mason Heintschel opened the season with 13 touchdown passes against one interception, and Pittsburgh allowed only four sacks across 149 pass attempts. That protection gives Pittsburgh a plausible way to stay competitive, even though our efficiency numbers favor Miami\u2019s pass defense.\n\nThe challenge is that Miami has offered few alternative paths. It allowed 9.8 points and 249.6 total yards per game through five contests while leading the FBS in rushing defense. We can see why our model expects slightly less separation than the market, but the matchup advantages on Miami\u2019s side leave too little room for error. The disagreement is not large enough for us to act at the available price.",
+    "matchup_to_watch": "For us, the matchup to watch is Pittsburgh\u2019s pass protection against Miami\u2019s pressure. Pittsburgh surrendered four sacks on its first 149 pass attempts, while Miami recorded 16 sacks through five games. If Heintschel consistently gets time, Pittsburgh has a better chance to sustain drives and challenge the margin.\n\nThat is not a given. Miami produced six sacks against Clemson, and our numbers already give its pass defense an advantage over Pittsburgh\u2019s passing offense. If that pressure arrives without heavy assistance, Miami can disrupt the clearest route Pittsburgh has to staying within range.",
+    "guide_status": [
+      "Found guide for Pittsburgh Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf",
+      "Guide for Pittsburgh Panthers was found but may not match the current opponent. The guide is Pitt's game notes for the Oct. 2, 2026 road game against Virginia Tech, not the requested Miami matchup. Pitt's schedule lists the Miami game for Oct. 24, 2026.",
+      "Found guide for Miami Hurricanes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami.pdf",
+      "Guide for Miami Hurricanes was found but may not match the current opponent. The guide is labeled \"Game 6: Florida State\" and is intended for Miami's Oct. 17, 2026 matchup with Florida State. Pittsburgh is listed as Miami's following game on Oct. 24."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Pittsburgh Panthers",
+        "opponent": "Miami Hurricanes",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Pitt's game notes for the Oct. 2, 2026 road game against Virginia Tech, not the requested Miami matchup. Pitt's schedule lists the Miami game for Oct. 24, 2026.",
+        "recent_game": [
+          {
+            "fact": "Pitt defeated Bucknell 59-0 on Sept. 26, 2026, improving to 4-0.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Bucknell, Pitt set school records with 766 total yards, 574 passing yards and eight touchdown passes; the eight touchdown passes tied the ACC team record.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt's offensive line allowed no sacks on 53 pass attempts against Bucknell.",
+            "page": 10,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt held Bucknell to 136 total yards and 31 rushing yards in its first shutout since 2020.",
+            "page": 14,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Mason Heintschel had completed 88 of 130 passes for 1,191 yards, 13 touchdowns and one interception through four games.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Heintschel completed 29 of 37 passes for 403 yards and six touchdowns without an interception against Bucknell.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Heintschel became the first ACC quarterback to throw at least six touchdown passes in multiple games during one season.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Heintschel had accounted for 1,301 total-offense yards and 14 touchdowns, including 110 rushing yards and one rushing touchdown.",
+            "page": 10,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Backup Holden Geriner, a January 2026 transfer from Texas State, was 11-of-14 for 141 yards and one touchdown in 2026.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "True freshman Damon Ferguson Jr. led Pitt with 239 rushing yards on 45 carries and 312 all-purpose yards through four games.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ferguson rushed for 102 yards and a touchdown on 10 carries against Syracuse and had scored in each of his first three college appearances.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cataurus Hicks led Pitt with 252 receiving yards on 12 catches, averaging 21.0 yards per reception.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Censere Lee had 13 receptions for 160 yards and a team-high four receiving touchdowns, including three touchdowns against Bucknell.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman receiver Demetrice McCray caught three passes for 73 yards and two touchdowns against Bucknell.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt's probable starting offensive line was Netinho Olivieri at left tackle, Kendall Stanley at left guard, Ryan Carretta at center, BJ Williams at right guard and Ryan Baer at right tackle.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "All five probable starting offensive linemen started each of Pitt's first four games; Carretta was in his first season as Pitt's starting center.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Left tackle Netinho Olivieri transferred from Penn in January 2026 and entered the season with 32 career starts at left tackle.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt had allowed four sacks in 149 pass attempts through four games.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Pitt's probable starting linebackers were Braylan Lovelace, Jeremiah Marcelin and Alex Sanford Jr.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Josh Guerrier led Pitt with 21 tackles through four games, followed by Alex Sanford Jr. and Cruce Brookins with 18 each and Jeremiah Marcelin with 17.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sanford recorded 11 tackles, 2.5 tackles for loss and three quarterback hurries against Syracuse.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Raion Strader and Braylan Lovelace intercepted passes on consecutive fourth-quarter Syracuse possessions.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "DeMarco Ward, Alex Sanford Jr. and Raion Strader joined Pitt as transfers in January 2026 and were listed as probable defensive starters.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kade Bell was Pitt's offensive coordinator and quarterbacks coach, while Cory Sanders was the defensive coordinator.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mike Priefer was Pitt's special teams coordinator.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "low"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Running back Ja'Kyrian Turner had appeared in only one of Pitt's first four games after leading the team with 745 rushing yards and seven rushing touchdowns in 2025; the guide did not state a reason for his limited appearances.",
+            "page": 11,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end Zach Crothers, who sustained a season-ending injury after four games in 2025, had returned in 2026 and recorded four tackles, three pass breakups and a half-tackle for loss.",
+            "page": 21,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Jeremiah Marcelin, who missed all of 2025 because of a preseason injury, had returned in 2026 and recorded 17 tackles, two tackles for loss, one pass breakup and a half-sack.",
+            "page": 21,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Pitt averaged 39.3 points, 523.8 total yards, 347.3 passing yards and 176.5 rushing yards per game.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt had completed 68.5% of its passes for 15 touchdowns and one interception through four games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt converted 50.0% of its third downs and 66.7% of its fourth downs through four games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Seventeen Panthers had caught a pass, and 11 different players had a touchdown reception through four games.",
+            "page": 11,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Pitt allowed 8.5 points and 244.5 total yards per game through four games, leading the ACC in scoring defense and ranking second in total defense.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt held each of its first four opponents to 14 points or fewer and had not allowed a point in the first or third quarter.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Panthers allowed 53.3 rushing yards per game and 2.0 yards per carry through four games.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 27.8% of their third downs and 20.0% of their fourth downs against Pitt through four games.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Pitt recorded 27 tackles for loss and nine sacks through four games.",
+            "page": 15,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Antonio Chadha made all five field-goal attempts and all 18 extra-point attempts through four games.",
+            "page": 17,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Chadha's 58-yard field goal against Miami (Ohio) tied Pitt's program record and was the longest by an ACC player at the time of the guide.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Gabe Russo averaged 42.4 yards on 15 punts, with six placed inside the opponent's 20-yard line.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Pitt was 4-0 overall and 1-0 in ACC play when the guide was issued.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Pitt's 2026 captains were quarterback Mason Heintschel, offensive tackle Ryan Baer, linebacker Braylan Lovelace and safety Cruce Brookins.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Pittsburgh.pdf"
+      },
+      {
+        "source_team": "Miami Hurricanes",
+        "opponent": "Pittsburgh Panthers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is labeled \"Game 6: Florida State\" and is intended for Miami's Oct. 17, 2026 matchup with Florida State. Pittsburgh is listed as Miami's following game on Oct. 24.",
+        "recent_game": [
+          {
+            "fact": "Miami defeated Clemson 41-13 on the road on Oct. 3, improving to 5-0 overall and 3-0 in the ACC.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami outgained Clemson 192-55 on the ground and never trailed.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Mark Fletcher Jr. rushed for 77 yards and two touchdowns against Clemson.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cooper Barkate caught five passes for 98 yards against Clemson, including a 61-yard touchdown on Miami's opening offensive drive.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami recorded nine tackles for loss and six sacks against Clemson; Damon Wilson II had 2.5 sacks.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami forced two turnovers against Clemson, including JJ Dunnigan's first career interception, which he returned for a fourth-quarter touchdown.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Pittsburgh was 5-1 overall and 2-1 in ACC play in the standings included in the guide.",
+            "page": 13,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Darian Mensah transferred to Miami from Duke and has started each of Miami's first five games of 2026.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Mensah completed 112 of 133 passes for 1,438 yards, 15 touchdowns and no interceptions.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Mensah entered the Florida State game with an active streak of 23 consecutive games with at least one touchdown pass.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mensah set Miami and ACC records by completing 35 consecutive passes across the Florida A&M and Wake Forest games, including his first 24 attempts against Wake Forest.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Mensah started 14 games for Duke in 2025 and completed 334 of 500 passes for 3,973 yards, 34 touchdowns and six interceptions.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Miami lost four of its five 2025 starting offensive linemen to the NFL, including first-round right tackle Francis Mauigoa, third-round left tackle Markel Bell and sixth-round right guard Anez Cooper.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami's first five games featured Samson Okunlola at left tackle, Ryan Rodriguez at center, Max Buchanan at right guard and Matthew McCoy at right tackle; SJ Alofaituli started the first four games at left guard before Ben Congdon started there against Clemson.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Cooper Barkate followed Mensah from Duke to Miami after recording 72 catches for 1,106 yards and seven touchdowns for Duke in 2025.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Malachi Toney had 39 receptions for 604 yards and six touchdowns through Miami's first five games.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Mark Fletcher Jr. had 2,620 career rushing yards and 31 career rushing touchdowns after Miami's first five games.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Miami's 2025 starting edge rushers Rueben Bain Jr. and Akheem Mesidor were selected in the first round of the 2026 NFL Draft.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami returned interior defensive line starters Ahmad Moten Sr. and Justin Scott from the 2025 national championship game.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami added edge defender Damon Wilson II from Missouri after he started all 13 games and recorded nine sacks in 2025.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Mohamed Toure started all 16 games for Miami in 2025 and led the defense with 84 tackles.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive back Bryce Fitzgerald recorded six interceptions in 2025, tied for second nationally and first in the ACC.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Corey Hetherman is Miami's defensive coordinator and linebackers coach; he joined Miami in January 2025 after serving as Minnesota's defensive coordinator in 2024.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Shannon Dawson is Miami's offensive coordinator and quarterbacks coach, while Alex Mirabal is assistant head coach, offensive line coach and offensive run game coordinator.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through five games, Miami averaged 49.6 points, 220.4 rushing yards, 334.4 passing yards and 554.8 total yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami averaged 8.2 yards per play and converted 51 percent of its third downs through five games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami scored touchdowns on 19 of 24 red-zone opportunities through five games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami had 98 plays of at least 10 yards, 33 plays of at least 20 yards and 18 plays of at least 30 yards through five games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami had 11 players with at least 100 scrimmage yards through its first five games.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through five games, Miami allowed 9.8 points and 249.6 total yards per game.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami led the FBS in rushing defense through five games, allowing 42.6 rushing yards per game and 213 total rushing yards.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Miami recorded 16 sacks for 86 yards through its first five games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 33 percent of third downs and scored touchdowns on three of eight red-zone opportunities through five games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [],
+        "series_context": [
+          {
+            "fact": "Miami defeated then-No. 24 Pittsburgh 38-7 on the road on Nov. 29, 2025.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Malachi Toney tied Miami's single-game receptions record with 13 catches for 126 yards at Pittsburgh in 2025.",
+            "page": 16,
+            "category": "series_context",
+            "importance": "high"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Miami was ranked No. 3 in both the AP and Coaches polls and was 5-0 entering its Oct. 17 game against Florida State.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Miami had won seven consecutive games against ACC opponents, all by at least 10 points.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Miami.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Pittsburgh passing offense vs Miami pass defense",
+        "off_team": "Pittsburgh",
+        "def_team": "Miami",
+        "off_rank": 75,
+        "def_rank": 27,
+        "stat": "pass EPA",
+        "rank_gap": 48,
+        "direction": "defense_advantage",
+        "matchup_score": 148
+      },
+      {
+        "dimension": "Miami passing offense vs Pittsburgh pass defense",
+        "off_team": "Miami",
+        "def_team": "Pittsburgh",
+        "off_rank": 1,
+        "def_rank": 49,
+        "stat": "pass EPA",
+        "rank_gap": 48,
+        "direction": "mixed",
+        "matchup_score": 48
+      },
+      {
+        "dimension": "Miami scoring-opportunity creation vs Pittsburgh scoring-opportunity prevention",
+        "off_team": "Miami",
+        "def_team": "Pittsburgh",
+        "off_rank": 20,
+        "def_rank": 67,
+        "stat": "Eckel rate",
+        "rank_gap": 47,
+        "direction": "mixed",
+        "matchup_score": 47
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 5,
+        "fact": "Starting quarterback Mason Heintschel had completed 88 of 130 passes for 1,191 yards, 13 touchdowns and one interception through four games.",
+        "page": 10,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 18,
+        "fact": "Pitt had allowed four sacks in 149 pass attempts through four games.",
+        "page": 11,
+        "category": "offensive_personnel",
+        "importance": "medium",
+        "source_file": "Pittsburgh.pdf",
+        "source_team": "Pittsburgh Panthers"
+      },
+      {
+        "fact_id": 47,
+        "fact": "Miami recorded nine tackles for loss and six sacks against Clemson; Damon Wilson II had 2.5 sacks.",
+        "page": 5,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 50,
+        "fact": "Through five games, Mensah completed 112 of 133 passes for 1,438 yards, 15 touchdowns and no interceptions.",
+        "page": 5,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 67,
+        "fact": "Miami averaged 8.2 yards per play and converted 51 percent of its third downs through five games.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 71,
+        "fact": "Through five games, Miami allowed 9.8 points and 249.6 total yards per game.",
+        "page": 7,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 72,
+        "fact": "Miami led the FBS in rushing defense through five games, allowing 42.6 rushing yards per game and 213 total rushing yards.",
+        "page": 8,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      },
+      {
+        "fact_id": 73,
+        "fact": "Miami recorded 16 sacks for 86 yards through its first five games.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Miami.pdf",
+        "source_team": "Miami Hurricanes"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Pittsburgh Panthers",
+      "model_side": "Pittsburgh",
+      "opponent_full": "Miami Hurricanes",
+      "opponent": "Miami",
+      "model_prediction": 18.0,
+      "market_line": 20.0,
+      "best_available_line": 19.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.53758959,
+      "edge": 0.025394468048780428,
+      "bet_status": "PASS"
+    }
+  }
+}

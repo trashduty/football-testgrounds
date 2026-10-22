@@ -1,0 +1,664 @@
+{
+  "game": "LSU Tigers@Auburn Tigers",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:32:33.472203+00:00",
+  "model_prediction": 7.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-110",
+  "best_book": "Caesars",
+  "cover_probability": 0.5416223,
+  "edge": 0.017812776190476165,
+  "bet_short": "Auburn",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our modest lean toward Auburn starts with its ability to keep LSU from controlling the game on the ground. Auburn allowed 3.1 yards per carry through four games, while its defense generated 11 sacks and five interceptions. That matters against an LSU offense that has produced impressive early yardage but has also thrown four interceptions. We see enough potential disruption for Auburn to shorten possessions and prevent LSU from separating cleanly.\n\nThe concern for us is Auburn\u2019s passing offense against LSU\u2019s pass defense. LSU recorded 12 sacks through two games and allowed opponents to convert only four of 27 third downs. Auburn also managed only 279 total yards against Vanderbilt, so we are not assuming it can consistently sustain drives here. Byrum Brown\u2019s mobility provides another path\u2014he had 237 rushing yards through four games\u2014but Auburn still faces the most difficult unit-level matchup in this game.\n\nThat tension explains our view. Auburn\u2019s run defense and Brown\u2019s dual-threat ability give the home side a plausible route to staying close, but LSU\u2019s pressure and coverage can create the negative plays needed for separation. Our disagreement with the market is therefore too narrow to justify a wager at the available price.",
+    "matchup_to_watch": "We are watching Auburn\u2019s passing offense against LSU\u2019s pass defense. Auburn converted half of its third downs through four games, but LSU\u2019s early third-down defense and pass rush have been disruptive, with Princewill Umanmielen producing five sacks and 6.5 tackles for loss through two games. If Auburn can protect Brown and preserve his run-pass flexibility, it can sustain enough offense to remain competitive. If LSU consistently forces obvious passing situations, the matchup shifts sharply toward the favorite.",
+    "guide_status": [
+      "Found guide for LSU Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf",
+      "Guide for LSU Tigers was found but may not match the current opponent. The guide is LSU's Week 3 game notes for the September 19, 2026 road game against Ole Miss, not the Week 8 game against Auburn. Auburn appears only on LSU's future schedule, so no Auburn-specific matchup information is provided.",
+      "Found guide for Auburn Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Auburn.pdf",
+      "Guide for Auburn Tigers was found but may not match the current opponent. The guide is Auburn's game notes for the Oct. 3, 2026 road game against Tennessee, identified as Game 5. Auburn's LSU game is separately listed for Oct. 24, 2026, so this is not the Week 8 Auburn-LSU guide."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "LSU Tigers",
+        "opponent": "Auburn Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is LSU's Week 3 game notes for the September 19, 2026 road game against Ole Miss, not the Week 8 game against Auburn. Auburn appears only on LSU's future schedule, so no Auburn-specific matchup information is provided.",
+        "recent_game": [
+          {
+            "fact": "LSU defeated Louisiana Tech 45-14 on September 12, 2026, improving to 2-0.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU scored 28 unanswered second-half points against Louisiana Tech after leading 10-7 at halftime.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU held Louisiana Tech to 139 total yards, eight first downs and minus-4 rushing yards.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Sam Leavitt passed for a career-high 344 yards and accounted for one passing touchdown and three rushing touchdowns against Louisiana Tech.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Dilin Jones led LSU with 66 rushing yards against Louisiana Tech.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "TJ Dottery recorded a team-high nine tackles, while Princewill Umanmielen had three sacks against Louisiana Tech.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Arizona State transfer Sam Leavitt has started both games for LSU and has completed 41 of 66 passes for 574 yards, two touchdowns and four interceptions.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Leavitt has rushed for 135 yards and five touchdowns through two games and ranks second in the SEC with 354.5 total-offense yards per game.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Leavitt joined LSU after making 20 starts at Arizona State, where the Sun Devils went 16-4 in those starts.",
+            "page": 14,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "LSU used the same offensive-line starters in each of its first two games: left tackle Jordan Seaton, left guard Bo Bordelon, center Braelin Moore, right guard Aliou Bah and right tackle Weston Davis.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Left tackle Jordan Seaton transferred from Colorado after starting 22 games there, all at left tackle.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Right guard Aliou Bah transferred from Maryland with 24 consecutive starts and more than 1,500 collegiate snaps at right guard.",
+            "page": 15,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Braelin Moore started all 13 games for LSU in 2025 and allowed one sack across 623 offensive snaps.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wisconsin transfer Dilin Jones has started both games at running back and leads LSU with 179 rushing yards and two touchdowns.",
+            "page": 21,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Trey'Dez Green has 10 receptions for 162 yards and one touchdown through two games; eight of his receptions produced either a first down or touchdown.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Thirteen transfers were among LSU's 14 first-time starters through the first two games.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "LSU used the same defensive starters in each of its first two games: Princewill Umanmielen, Stephiylan Green, Deuce Geralds, Jordan Ross, Whit Weeks, TJ Dottery, PJ Woodland, Tamarcus Cooley, Ty Benefield, Dashawn Spears and DJ Pickett.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Princewill Umanmielen leads the nation through two games with five sacks and 6.5 tackles for loss.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "TJ Dottery leads LSU with 14 tackles, followed by Whit Weeks with 13.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU returned starting defensive backs DJ Pickett, Tamarcus Cooley and PJ Woodland from a 2025 defense that recorded 17 interceptions and allowed 14 passing touchdowns.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Ty Benefield transferred from Boise State with 33 career starts, 235 tackles, five interceptions and 16 pass breakups.",
+            "page": 14,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Lane Kiffin was named LSU's head coach on November 30, 2025, and is 2-0 in his first season with the Tigers.",
+            "page": 8,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Charlie Weis Jr. is LSU's first-year offensive coordinator and works from the press box.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Eric Wolford is LSU's first-year offensive line coach, while James Cregg serves as run game specialist and offensive line coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Blake Baker remains LSU's defensive coordinator in his fourth year with the program.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through two games, LSU is averaging 48.0 points, 586.0 total yards, 358.0 passing yards and 228.0 rushing yards per game.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU has run 178 offensive plays through two games, an average of 89 per game, and is averaging 6.6 yards per play.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU has converted 19 of 33 third downs and both of its fourth-down attempts through two games.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU has rushed for 456 yards and eight touchdowns through two games after not reaching its eighth rushing touchdown until Week 8 in 2025.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU has outscored its first two opponents 27-3 in the first quarter.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU has lost five turnovers through two games, including four interceptions, and has a minus-1 turnover margin.",
+            "page": 21,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "LSU has allowed 284 total yards through two games, an average of 142.0 per game, including 36 rushing yards and 248 passing yards.",
+            "page": 21,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU has recorded 12 sacks and 22 tackles for loss through two games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents have converted four of 27 third downs and none of two fourth-down attempts against LSU.",
+            "page": 21,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "LSU has forced 13 three-and-outs on 28 opponent possessions, and 22 of those possessions lasted four plays or fewer.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Only 14 of LSU's first 103 defensive snaps were run in LSU territory; six of those followed turnovers that gave the opponent possession on LSU's side of the field.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU has allowed one passing touchdown through two games and 26 passing touchdowns in 28 games under defensive coordinator Blake Baker.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Scott Starzyk is 4-for-5 on field goals and 10-for-10 on extra points through two games.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU is averaging 37.0 net yards per punt and 11.0 yards per punt return through two games.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "LSU is 2-0 and ranked No. 7 in both the AP and Coaches polls in the guide.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "LSU's schedule lists a road game at Auburn during Week 8, but the document contains no substantive Auburn matchup analysis.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "LSU.pdf"
+      },
+      {
+        "source_team": "Auburn Tigers",
+        "opponent": "LSU Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Auburn's game notes for the Oct. 3, 2026 road game against Tennessee, identified as Game 5. Auburn's LSU game is separately listed for Oct. 24, 2026, so this is not the Week 8 Auburn-LSU guide.",
+        "recent_game": [
+          {
+            "fact": "Auburn improved to 3-1 overall and 1-1 in the SEC with a 21-15 win over Vanderbilt on Sept. 26, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Vanderbilt, Auburn produced 279 total yards: 139 rushing and 140 passing.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn's defense held Vanderbilt to 311 total yards, recorded eight tackles for loss and four sacks, and intercepted one pass.",
+            "page": 22,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn ended the Vanderbilt game by possessing the ball for the final 6:26 on an 11-play, 46-yard drive.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Byrum Brown completed 82 of 126 passes for 896 yards, six touchdowns and five interceptions through four games while rushing for 237 yards and three touchdowns.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown accounted for one passing touchdown and one rushing touchdown against Vanderbilt, his second consecutive game with both.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown had 36 career starts through four games of 2026, the most among SEC quarterbacks, and had started 18 games alongside center Cole Best from 2024-26.",
+            "page": 4,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Brown and offensive coordinator/quarterbacks coach Joel Gordon were working together for a fourth consecutive season in 2026.",
+            "page": 5,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Auburn's Vanderbilt starting offensive line was Jacob Strand at left tackle, Wilson Zierer at left guard, Cole Best at center, Kenneth McManus IV at right guard and Stanton Ramil at right tackle.",
+            "page": 25,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The current depth chart listed Jo Simmons or Jacob Strand at left tackle, Strand or Wilson Zierer at left guard, Cole Best at center, Cole Skinner or Kenneth McManus IV at right guard, and Stanton Ramil at right tackle.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "USF transfers Chas Nimrod and Keshaun Singleton each had 22 receptions through four games; Singleton had 268 yards and one touchdown, while Nimrod had 240 yards and two touchdowns.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Jeremiah Cobb led Auburn running backs through four games with 228 rushing yards and two touchdowns on 41 carries; Omar Mabson II had 151 yards and one touchdown on 23 carries.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Auburn added 176 cumulative starts through the transfer portal, including quarterback Byrum Brown and offensive linemen Jo Simmons and Cole Best.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Xavier Atkins had 26 tackles, seven tackles for loss and three sacks through four games.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Elijah Melendez led Auburn with 34 tackles through four games and also had six tackles for loss, two sacks and three pass breakups.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Andre Jordan Jr. had two interceptions through four games, including a 29-yard interception return for a touchdown against Southern Miss.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Auburn used four different defensive starting combinations in its first four games, including changes at defensive end, defensive tackle, buck, linebacker, star and safety.",
+            "page": 25,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Alex Golesh was in his first season as Auburn's head coach and had a 3-1 record through four games.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Joel Gordon served as offensive coordinator and quarterbacks coach, while DJ Durkin served as defensive coordinator and linebackers coach and Tim Banks as co-defensive coordinator and safeties coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Tyler Hudanick served as run game coordinator and offensive line coach, and Jacob Bronowski coordinated special teams.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Auburn averaged 413.5 total yards per game through four games, including 235.0 passing and 178.5 rushing, while scoring 30.0 points per game.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn converted 30 of 60 third downs through four games, a 50.0 percent rate.",
+            "page": 26,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn averaged 3.72 yards per carry in first halves and 5.22 yards per carry in second halves through four games, with 491 of its 714 rushing yards coming after halftime.",
+            "page": 4,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Auburn recorded 44 explosive plays through four games using the guide's definition of passes of at least 15 yards and runs of at least 12 yards, evenly divided between 22 passes and 22 runs.",
+            "page": 5,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Auburn allowed 365.8 total yards and 20.8 points per game through four games.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn allowed 127.0 rushing yards per game and 3.1 yards per carry through four games.",
+            "page": 17,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense had 29 tackles for loss, 11 sacks and five interceptions through four games.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Auburn intercepted a pass in each of its first four games of 2026.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents converted 23 of 67 third downs against Auburn through four games, a 34.3 percent rate.",
+            "page": 26,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Against Vanderbilt, Auburn stopped a fake punt, blocked a punt for a touchdown and blocked a field-goal attempt.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Omar Mabson II blocked Vanderbilt's punt and Cade Carlson returned it 10 yards for a touchdown.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Alex McPherson was 4-for-6 on field goals and 14-for-14 on extra points through four games, with a long field goal of 55 yards.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Connor Gibbs recorded touchbacks on all 20 of his kickoffs through four games.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "The document lists Auburn's game against LSU for Oct. 24, 2026 at Jordan-Hare Stadium, following road games at Tennessee and Georgia.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Auburn.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Auburn passing offense vs LSU pass defense",
+        "off_team": "Auburn",
+        "def_team": "LSU",
+        "off_rank": 103,
+        "def_rank": 3,
+        "stat": "pass EPA",
+        "rank_gap": 100,
+        "direction": "defense_advantage",
+        "matchup_score": 200
+      },
+      {
+        "dimension": "LSU rushing offense vs Auburn rush defense",
+        "off_team": "LSU",
+        "def_team": "Auburn",
+        "off_rank": 92,
+        "def_rank": 47,
+        "stat": "rush EPA",
+        "rank_gap": 45,
+        "direction": "mixed",
+        "matchup_score": 45
+      },
+      {
+        "dimension": "LSU passing offense vs Auburn pass defense",
+        "off_team": "LSU",
+        "def_team": "Auburn",
+        "off_rank": 41,
+        "def_rank": 66,
+        "stat": "pass EPA",
+        "rank_gap": 25,
+        "direction": "mixed",
+        "matchup_score": 25
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 18,
+        "fact": "Princewill Umanmielen leads the nation through two games with five sacks and 6.5 tackles for loss.",
+        "page": 8,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 31,
+        "fact": "LSU has lost five turnovers through two games, including four interceptions, and has a minus-1 turnover margin.",
+        "page": 21,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 33,
+        "fact": "LSU has recorded 12 sacks and 22 tackles for loss through two games.",
+        "page": 9,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Opponents have converted four of 27 third downs and none of two fourth-down attempts against LSU.",
+        "page": 21,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "LSU.pdf",
+        "source_team": "LSU Tigers"
+      },
+      {
+        "fact_id": 43,
+        "fact": "Against Vanderbilt, Auburn produced 279 total yards: 139 rushing and 140 passing.",
+        "page": 22,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 46,
+        "fact": "Starting quarterback Byrum Brown completed 82 of 126 passes for 896 yards, six touchdowns and five interceptions through four games while rushing for 237 yards and three touchdowns.",
+        "page": 17,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 63,
+        "fact": "Auburn converted 30 of 60 third downs through four games, a 50.0 percent rate.",
+        "page": 26,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 67,
+        "fact": "Auburn allowed 127.0 rushing yards per game and 3.1 yards per carry through four games.",
+        "page": 17,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      },
+      {
+        "fact_id": 68,
+        "fact": "The defense had 29 tackles for loss, 11 sacks and five interceptions through four games.",
+        "page": 19,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Auburn.pdf",
+        "source_team": "Auburn Tigers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Auburn Tigers",
+      "model_side": "Auburn",
+      "opponent_full": "LSU Tigers",
+      "opponent": "LSU",
+      "model_prediction": 7.0,
+      "market_line": 7.5,
+      "best_available_line": 7.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.5416223,
+      "edge": 0.017812776190476165,
+      "bet_status": "PASS"
+    }
+  }
+}

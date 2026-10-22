@@ -1,0 +1,691 @@
+{
+  "game": "Ole Miss Rebels@Texas Longhorns",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:37:49.909901+00:00",
+  "model_prediction": 3.5,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51805494,
+  "edge": -0.01465534037383176,
+  "bet_short": "Ole Miss",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers see Ole Miss\u2019 passing game as its clearest path. Trinidad Chambliss completed 77 of 110 passes for 924 yards, seven touchdowns and two interceptions through three games, then threw for 363 yards against LSU. We are not treating one result as proof, but that production supports our favorable efficiency view of the Ole Miss passing offense. Texas had allowed only 151 passing yards per game, though our pass-efficiency numbers are less convinced by that early raw average.\n\nThe concern is that the same matchup logic works in the other direction. Arch Manning had thrown for 664 yards and seven touchdowns while adding 198 rushing yards through three games. Ole Miss, meanwhile, had allowed 214.7 passing yards and 159 rushing yards per game. We think Texas can challenge this defense through the air, with Manning\u2019s mobility adding another problem when coverage holds.\n\nFor us, those competing passing-game advantages largely balance out. Ole Miss has a credible way to stay competitive, but Texas has an equally clear route to offensive success. Our overall expectation therefore sits close to what the market is already pricing, leaving too little separation to justify paying the available price.",
+    "matchup_to_watch": "We are watching Ole Miss\u2019 pass protection against Texas edge Colin Simmons. Ole Miss had allowed only one sack per game while operating at 23.1 seconds per play, so its tempo and protection have helped Chambliss stay productive. Simmons led the SEC with 12 sacks in 2025 and had recorded a sack in seven of his previous eight games entering this matchup.\n\nThe question is whether Ole Miss can keep that structure intact against Texas\u2019 best pressure threat. If we see Chambliss consistently getting the ball out on schedule, the matchup tilts toward the strongest part of the Ole Miss offense. If Simmons creates negative plays without Texas having to manufacture pressure, the passing-game advantage our numbers identify becomes much harder to realize.",
+    "guide_status": [
+      "Found guide for Ole Miss Rebels: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf",
+      "Guide for Ole Miss Rebels was found but may not match the current opponent. The document is Ole Miss' Game 4 notes for the Sept. 26, 2026 road game against Florida. Texas is listed later on the schedule as Ole Miss' Oct. 24 road opponent, so this guide was not prepared for the Week 8 matchup with Texas.",
+      "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
+      "Guide for Texas Longhorns was found but may not match the current opponent. The guide is for Texas' Week 4 game at Tennessee on Sept. 26, 2026, not the Week 8 matchup against Ole Miss. Ole Miss appears only in rankings, so no opponent-specific Ole Miss information was extracted."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Ole Miss Rebels",
+        "opponent": "Texas Longhorns",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Ole Miss' Game 4 notes for the Sept. 26, 2026 road game against Florida. Texas is listed later on the schedule as Ole Miss' Oct. 24 road opponent, so this guide was not prepared for the Week 8 matchup with Texas.",
+        "recent_game": [
+          {
+            "fact": "Ole Miss defeated No. 7 LSU 32-24 on Sept. 19 to improve to 3-0 overall and 1-0 in the SEC.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against LSU, quarterback Trinidad Chambliss completed 33 passes for 363 yards and two touchdowns and also rushed for a touchdown.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Traylon Ray had career highs of seven receptions and 115 receiving yards against LSU, including a 21-yard touchdown catch.",
+            "page": 7,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Deuce Alexander caught seven passes for 60 yards and one touchdown in the LSU win.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Caleb Odom caught five passes for a career-high 88 yards against LSU.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive tackle Will Echoles recorded five tackles, 2.5 tackles for loss and 0.5 sack against LSU while generating seven pressures on 31 pass-rush snaps.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Nickelback Sharif Denson made his season debut against LSU and led Ole Miss with nine tackles, including one tackle for loss.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Jaylon Braxton made the game-sealing interception against LSU.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Trinidad Chambliss is listed as Ole Miss' starting quarterback, with Deuce Knight or Walker Howard listed behind him.",
+            "page": 17,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through three games, Chambliss had completed 77 of 110 passes for 924 yards, seven touchdowns and two interceptions.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Chambliss averaged 308.0 passing yards per game through three games, leading the SEC and ranking sixth in the FBS.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Chambliss had thrown at least one touchdown pass in 16 consecutive games.",
+            "page": 9,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Chambliss had 10,030 career yards of total offense across Ferris State and Ole Miss, including 8,116 passing and 1,914 rushing, with 99 total touchdowns.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Ole Miss' listed starting offensive line was Terez Davis at left tackle, Delano Townsend at left guard, Brycen Sanders at center, Patrick Kutas at right guard, and Tommy Kinsler IV or Connor Howes at right tackle.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Davis, Townsend, Sanders and Kutas each played all 77 offensive snaps against LSU.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Connor Howes started at right tackle against LSU and had started two games in 2026.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Kewan Lacy had 191 yards and four touchdowns on 39 carries through three games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lacy had scored a rushing touchdown in 12 consecutive games, the longest active streak in the FBS.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Deuce Alexander led Ole Miss through three games with 20 receptions for 295 yards and three touchdowns.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss listed Luke Hasz, Caleb Odom and transfer Michael Smith as co-options at tight end.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Six Rebels had made their first career starts during the first three games: Deuce Alexander, Jamarious Brown, Sharif Denson, Connor Howes, Tommy Kinsler IV and Anthony Robinson III.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Ole Miss' listed defensive front featured Kam Franklin at defensive end, Jamarious Brown or Jehiem Oatis at nose tackle, Will Echoles at defensive tackle, and Suntarine Perkins or Oregon transfer Blake Purchase at edge.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfers Keaton Thomas and Luke Ferrelli were listed as the starting linebackers, with transfer Tah'j Butler behind Ferrelli.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Thomas, Ferrelli and Butler led Ole Miss through three games with 18, 19 and 20 tackles, respectively.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Transfer defensive backs Edwin Joseph, Sharif Denson and Joenel Aguero were listed as starters at nickelback, strong safety and free safety, respectively.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Suntarine Perkins entered the fourth game with 19 career sacks and 33.5 career tackles for loss at Ole Miss.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Pete Golding was named Ole Miss head coach on Nov. 30, 2025 after three seasons as the Rebels' defensive coordinator and held a 5-1 record as head coach entering Game 4 of 2026.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "John David Baker serves as offensive coordinator and coaches from the booth, while Bryan Brown serves as defensive coordinator and coaches from the booth.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Joe Judge is Ole Miss' head coach of offense and quarterbacks coach, John Garrison is offensive line and run-game coordinator, and Jake Schoonover coordinates special teams and coaches nickelbacks.",
+            "page": 16,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Ole Miss averaged 444.7 total yards and 38.0 points per game through three games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Rebels averaged 330.7 passing yards per game, leading the SEC and ranking eighth nationally.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss averaged 23.1 seconds per play, the eighth-fastest pace in the FBS.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss had scored on 100 percent of its red-zone opportunities and allowed one sack per game through three games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss had passed for at least 300 yards in two of its first three games and at least 200 yards in all three.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Ole Miss allowed 373.7 total yards and 23.7 points per game through three games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Rebels allowed 159.0 rushing yards and 214.7 passing yards per game through three games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss averaged 7.3 tackles for loss and 2.0 sacks per game through three games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ole Miss had two interceptions through three games.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Lucas Carneiro had made five of seven field-goal attempts and all 13 extra points through three games, with a long field goal of 57 yards.",
+            "page": 4,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Carneiro made a 48-yard field goal in the final seconds to give Ole Miss a 41-38 season-opening win over Louisville.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Oscar Bird averaged 44.4 yards on seven punts through three games.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Ole Miss was 3-0 and ranked No. 4 in the AP poll and No. 6 in the Coaches poll after three games.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss had wins over two AP-ranked opponents in its first three games: No. 24 Louisville and No. 7 LSU.",
+            "page": 7,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Ole Miss had led for 144 minutes and 32 seconds, been tied for 26 minutes and two seconds, and trailed for nine minutes and 26 seconds through its first three games.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Ole Miss.pdf"
+      },
+      {
+        "source_team": "Texas Longhorns",
+        "opponent": "Ole Miss Rebels",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Texas' Week 4 game at Tennessee on Sept. 26, 2026, not the Week 8 matchup against Ole Miss. Ole Miss appears only in rankings, so no opponent-specific Ole Miss information was extracted.",
+        "recent_game": [
+          {
+            "fact": "Texas improved to 3-0 with a 30-6 home victory over UTSA on Sept. 19, 2026.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas produced 400 total yards against UTSA, including a season-high 228 rushing yards, and committed no turnovers.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Four Texas running backs gained at least 39 yards against UTSA: Hollywood Smothers had 54 yards on 10 carries, Raleek Brown had 45 on 10, Derrek Cooper had 44 on 11 and Michael Terry III had 39 on seven.",
+            "page": 9,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cam Coleman led Texas against UTSA with four receptions for 59 yards and two touchdowns.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Senior quarterback Arch Manning was 60-of-97 passing for 664 yards and seven touchdowns through Texas' first three games of 2026.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Manning had 41 rushing attempts for 198 yards and two touchdowns through three games.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Manning completed 17 of 33 passes for 164 yards and two touchdowns against UTSA and led Texas with 50 rushing yards on nine attempts.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Manning was 15-3 as a Texas starter and had appeared in 28 games with 18 starts across four seasons.",
+            "page": 6,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "In 13 starts during 2025, Manning completed 248 of 404 passes for 3,163 yards and 26 touchdowns while adding 399 rushing yards and a team-high 10 rushing touchdowns.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running backs Raleek Brown and Hollywood Smothers transferred to Texas in spring 2026.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown rushed for 1,141 yards on 186 carries with four touchdowns at Arizona State in 2025; Smothers rushed for 939 yards on 160 carries with six touchdowns at NC State.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Cam Coleman transferred from Auburn to Texas in spring 2026 after recording 56 receptions for 708 yards and five touchdowns in 2025.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Returning receiver Ryan Wingo led Texas in 2025 with 54 receptions, 834 receiving yards and seven receiving touchdowns.",
+            "page": 10,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas returned 2025 offensive-line starters Trevor Goosby, Brandon Baker, Cole Hutson and Connor Robertson and added transfers Laurence Seymore III, Melvin Siani and Dylan Sikorski.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "The listed Texas offensive linemen had combined for 241 college games and 124 starts.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas added fifth-year tight end Michael Masunas from Michigan State in spring 2026; he had 19 receptions for 232 yards and three touchdowns in 2025.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sophomore tight end Emaree Winston made his first career start against UTSA after catching a career-high three passes for 39 yards against Ohio State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Junior edge Colin Simmons led Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles; his 12 sacks led the SEC.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons recorded a sack against UTSA and had registered a sack in seven of his previous eight games entering Week 4.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Simmons had 9.5 sacks in 10 career games against AP Top 10 opponents.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Rasheem Biles had two interceptions through Texas' first three games of 2026, while Graceson Littleton had one interception and one fumble recovery.",
+            "page": 10,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Kyle Flood was listed as offensive coordinator and offensive-line coach, AJ Milwee as co-offensive coordinator and quarterbacks coach, and Michael Bimonte as passing-game coordinator and assistant quarterbacks coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Will Muschamp was listed as defensive coordinator, with Johnny Nansen serving as co-defensive coordinator and linebackers coach.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through three games, Texas averaged 510.3 total yards, 298.7 rushing yards, 211.7 passing yards and 47.7 points per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas rushed for 156 yards against Texas State, 141 against Ohio State and 228 against UTSA.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas converted 48.6 percent of its third downs and scored on every red-zone possession through three games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Against Ohio State, Texas ended the game with three consecutive touchdown drives of 12 or more plays while overcoming a 23-3 fourth-quarter deficit.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through three games, Texas allowed 289.0 total yards, 138.0 rushing yards, 151.0 passing yards and 14.0 points per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Texas had recorded an interception in five consecutive games dating to the 2025 season.",
+            "page": 6,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas had not allowed a successful fourth-down conversion through its first three games of 2026.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Gianni Spetic was perfect on field-goal attempts through three games and averaged 1.67 made field goals and 9.7 points per game.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Ryan Niblett served as Texas' primary returner in 2025 and averaged 13.3 yards per kickoff return and 9.8 yards per punt return through three games in 2026.",
+            "page": 10,
+            "category": "special_teams",
+            "importance": "low"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Texas welcomed 22 transfer-portal newcomers before the 2026 season.",
+            "page": 6,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Texas was ranked No. 1 in both the AP and Coaches polls after starting the 2026 season 3-0; Ole Miss was No. 4 in the AP poll and No. 6 in the Coaches poll at that time.",
+            "page": 13,
+            "category": "other_relevant",
+            "importance": "low"
+          }
+        ],
+        "source_file": "Texas.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Ole Miss passing offense vs Texas pass defense",
+        "off_team": "Ole Miss",
+        "def_team": "Texas",
+        "off_rank": 12,
+        "def_rank": 75,
+        "stat": "pass EPA",
+        "rank_gap": 63,
+        "direction": "offense_advantage",
+        "matchup_score": 163
+      },
+      {
+        "dimension": "Texas passing offense vs Ole Miss pass defense",
+        "off_team": "Texas",
+        "def_team": "Ole Miss",
+        "off_rank": 24,
+        "def_rank": 76,
+        "stat": "pass EPA",
+        "rank_gap": 52,
+        "direction": "offense_advantage",
+        "matchup_score": 152
+      },
+      {
+        "dimension": "Texas rushing offense vs Ole Miss rush defense",
+        "off_team": "Texas",
+        "def_team": "Ole Miss",
+        "off_rank": 125,
+        "def_rank": 72,
+        "stat": "rush EPA",
+        "rank_gap": 53,
+        "direction": "mixed",
+        "matchup_score": 53
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Against LSU, quarterback Trinidad Chambliss completed 33 passes for 363 yards and two touchdowns and also rushed for a touchdown.",
+        "page": 4,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Through three games, Chambliss had completed 77 of 110 passes for 924 yards, seven touchdowns and two interceptions.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 32,
+        "fact": "Ole Miss averaged 23.1 seconds per play, the eighth-fastest pace in the FBS.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 33,
+        "fact": "Ole Miss had scored on 100 percent of its red-zone opportunities and allowed one sack per game through three games.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 36,
+        "fact": "The Rebels allowed 159.0 rushing yards and 214.7 passing yards per game through three games.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Ole Miss.pdf",
+        "source_team": "Ole Miss Rebels"
+      },
+      {
+        "fact_id": 49,
+        "fact": "Senior quarterback Arch Manning was 60-of-97 passing for 664 yards and seven touchdowns through Texas' first three games of 2026.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 50,
+        "fact": "Manning had 41 rushing attempts for 198 yards and two touchdowns through three games.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 62,
+        "fact": "Junior edge Colin Simmons led Texas in 2025 with 15.5 tackles for loss, 12 sacks, 15 pressures and three forced fumbles; his 12 sacks led the SEC.",
+        "page": 13,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 63,
+        "fact": "Simmons recorded a sack against UTSA and had registered a sack in seven of his previous eight games entering Week 4.",
+        "page": 13,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      },
+      {
+        "fact_id": 72,
+        "fact": "Through three games, Texas allowed 289.0 total yards, 138.0 rushing yards, 151.0 passing yards and 14.0 points per game.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Texas.pdf",
+        "source_team": "Texas Longhorns"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Ole Miss Rebels",
+      "model_side": "Ole Miss",
+      "opponent_full": "Texas Longhorns",
+      "opponent": "Texas",
+      "model_prediction": 3.5,
+      "market_line": 3.5,
+      "best_available_line": 3.5,
+      "best_available_price": "-114",
+      "cover_probability": 0.51805494,
+      "edge": -0.01465534037383176,
+      "bet_status": "PASS"
+    }
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "game": "Western Michigan Broncos@Toledo Rockets",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:52:56.412879+00:00",
+  "model_prediction": -6.0,
+  "market_line": -3.5,
+  "best_line": -3.5,
+  "best_price": "100",
+  "best_book": "Fanatics",
+  "cover_probability": 0.53503122,
+  "edge": 0.03503122000000003,
+  "bet_short": "Toledo",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our case starts with the largest structural mismatch: Western Michigan\u2019s passing offense against Toledo\u2019s pass defense. Our numbers rate Toledo as one of the stronger units in the country at limiting passing efficiency, while Western Michigan has struggled to generate value through the air. The recent Boise State game illustrates the concern\u2014Western Michigan managed 110 passing yards and converted only 2 of 11 third downs\u2014but we are not treating one result as proof. It supports a longer-run profile that makes sustained drives difficult when Western Michigan has to rely on conventional passing situations.\n\nWe also see a path for Toledo to keep possessions alive. Western Michigan allowed opponents to convert 46.3 percent of their third downs and produced only three sacks and one interception through four games. The concern for us is Western Michigan\u2019s ability to finish opportunities: it scored on 11 of 12 red-zone trips, including nine touchdowns. That keeps the underdog dangerous if it regularly reaches scoring range, but our broader matchup view says Toledo is better positioned to control how often that happens. That is why we are comfortable backing Toledo at the available price.",
+    "matchup_to_watch": "We are watching how Western Michigan quarterback Broc Lowry handles Toledo\u2019s pass defense. Lowry completed 58 of 89 passes for 527 yards, four touchdowns and one interception through four games, while also rushing for 116 yards and a touchdown. His mobility gives Western Michigan another way to extend possessions, but the central question is whether it can produce enough through the air against the strongest unit in this matchup. If Toledo consistently turns those possessions into passing-down situations, we think the game begins to tilt toward our view.",
+    "guide_status": [
+      "Found guide for Western Michigan Broncos: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Michigan.pdf",
+      "Guide for Western Michigan Broncos was found but may not match the current opponent. The document is Western Michigan's Week 5 game notes for the Oct. 3, 2026 road game against Buffalo, not the Week 8 matchup at Toledo on Oct. 24. Current Western Michigan information and the limited Toledo-related schedule notes are retained, while Buffalo-specific scouting information is excluded.",
+      "No guide found for Toledo Rockets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Toledo.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Western Michigan Broncos",
+        "opponent": "Toledo Rockets",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Western Michigan's Week 5 game notes for the Oct. 3, 2026 road game against Buffalo, not the Week 8 matchup at Toledo on Oct. 24. Current Western Michigan information and the limited Toledo-related schedule notes are retained, while Buffalo-specific scouting information is excluded.",
+        "recent_game": [
+          {
+            "fact": "Western Michigan lost 32-7 to Boise State on Sept. 26, falling to 2-2.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Boise State, Western Michigan produced 223 total yards: 113 rushing and 110 passing.",
+            "page": 16,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan converted 2 of 11 third downs and went 0-for-3 on fourth down against Boise State.",
+            "page": 28,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Boise State gained 377 yards against Western Michigan, including 173 rushing and 204 passing, and threw three touchdown passes.",
+            "page": 17,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Joshua Franklin recorded a career-high 10 tackles against Boise State.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Linebacker Brenden Anes made a career-high eight tackles with half a tackle for loss against Boise State.",
+            "page": 6,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running backs Jalen Buckley and Lolo Mataele combined for six receptions against Boise State, while Cole Cabana scored his first collegiate touchdown.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Western Michigan is scheduled to play at Toledo on Oct. 24, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Broc Lowry started each of Western Michigan's first four games and completed 58 of 89 passes for 527 yards, four touchdowns and one interception.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Lowry also rushed 42 times for 116 yards and one touchdown through four games.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Trey Petty, an Illinois transfer, appeared in two of the first four games and completed 4 of 6 passes for 54 yards and one touchdown while rushing six times for 71 yards.",
+            "page": 20,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Western Michigan's listed starting offensive line was Chad Schuster at left tackle, Hunter Whitenack at left guard, Spencer Beckeman at center, Gavin Dabo at right guard and Ben Roebuck at right tackle.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Schuster, Whitenack, Beckeman, Dabo and Roebuck each started Western Michigan's first four games.",
+            "page": 27,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Right tackle Ben Roebuck joined Western Michigan from Michigan.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jalen Buckley led Western Michigan through four games with 225 rushing yards and four touchdowns on 47 carries.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lolo Mataele had 125 rushing yards and one touchdown on 24 carries through four games, averaging 5.2 yards per carry.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aveion Chenault led Western Michigan with 216 receiving yards and one touchdown on 13 receptions in three games.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Junior-college transfer Justyce Betts led Western Michigan with 26 tackles through four games, followed by Dillon Moore with 25 and Domanick Moon with 23.",
+            "page": 15,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tennessee transfer Brenden Anes had 20 tackles through four games after recording five tackles for Tennessee in 2025.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan returned four defensive players who started at least seven games in 2025: cornerbacks Joshua Franklin and Jarvarius Sims and safeties Joey Pope and Micah Davis.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Franklin and Sims combined for 24 starts in 2025; Sims recorded 64 tackles and four pass breakups, while Franklin had 53 tackles, 5.5 tackles for loss, 1.5 sacks and 10 pass breakups.",
+            "page": 3,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Western Michigan added Duane Vaughn as outside linebackers coach and co-defensive coordinator for 2026.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan added Lorenzo Jackson as defensive line coach and Casey McHugh as safeties coach for 2026.",
+            "page": 2,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Walt Bell remained Western Michigan's offensive coordinator and quarterbacks coach, while Greer Martini remained defensive coordinator and linebackers coach.",
+            "page": 10,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Center Jeremy Schleicher had started the first three games of 2025 before suffering a season-ending injury; he had not appeared in Western Michigan's first four games of 2026.",
+            "page": 27,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Wide receiver Aveion Chenault started the first three games of 2026 but did not play against Boise State.",
+            "page": 26,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Micah Davis started the first three games of 2026 but did not play against Boise State.",
+            "page": 26,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Western Michigan averaged 24.0 points, 297.8 total yards, 152.5 rushing yards and 145.3 passing yards per game.",
+            "page": 13,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan scored on 11 of 12 red-zone trips, including nine touchdowns.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Broncos converted 40.4 percent of their third downs overall but were 0-for-11 on first-quarter third downs through four games.",
+            "page": 28,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan's offense had allowed six sacks for 46 lost yards through four games.",
+            "page": 14,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Western Michigan allowed 20.0 points and 353.5 total yards per game through four games, including 161.5 rushing yards and 192.0 passing yards per game.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Broncos had three sacks and one interception through four games.",
+            "page": 14,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan recovered four of its opponents' five fumbles through four games.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents converted 46.3 percent of third downs against Western Michigan through four games.",
+            "page": 28,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Western Michigan allowed opponents to score on nine of 12 red-zone trips, with eight touchdowns.",
+            "page": 30,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Dieter Kelly made 4 of 5 field-goal attempts through four games, including a 52-yarder, and converted all 12 extra points.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Punter Ryan Millmore averaged 43.8 yards on 18 punts, with eight downed inside the 20 and six traveling at least 50 yards.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kordell Gouldsby averaged 14.0 yards on six punt returns and had a long return of 76 yards.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Western Michigan is seeking its first victory at Toledo since 2015.",
+            "page": 3,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Jalen Buckley's career high of 196 rushing yards came at Toledo on Sept. 23, 2023.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Joshua Franklin recorded career highs of two tackles for loss and one sack against Toledo on Sept. 20, 2025.",
+            "page": 11,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Western Michigan returned 13 starters from 2025: six on offense and four on defense, with the remaining returners on special teams.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Western Michigan's 2026 roster included 29 transfers from other colleges or junior colleges.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Western Michigan.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Western Michigan passing offense vs Toledo pass defense",
+        "off_team": "Western Michigan",
+        "def_team": "Toledo",
+        "off_rank": 110,
+        "def_rank": 13,
+        "stat": "pass EPA",
+        "rank_gap": 97,
+        "direction": "defense_advantage",
+        "matchup_score": 197
+      },
+      {
+        "dimension": "Western Michigan scoring-opportunity creation vs Toledo scoring-opportunity prevention",
+        "off_team": "Western Michigan",
+        "def_team": "Toledo",
+        "off_rank": 13,
+        "def_rank": 63,
+        "stat": "Eckel rate",
+        "rank_gap": 50,
+        "direction": "mixed",
+        "matchup_score": 50
+      },
+      {
+        "dimension": "Toledo rushing offense vs Western Michigan rush defense",
+        "off_team": "Toledo",
+        "def_team": "Western Michigan",
+        "off_rank": 73,
+        "def_rank": 52,
+        "stat": "rush EPA",
+        "rank_gap": 21,
+        "direction": "mixed",
+        "matchup_score": 21
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 2,
+        "fact": "Against Boise State, Western Michigan produced 223 total yards: 113 rushing and 110 passing.",
+        "page": 16,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 3,
+        "fact": "Western Michigan converted 2 of 11 third downs and went 0-for-3 on fourth down against Boise State.",
+        "page": 28,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Broc Lowry started each of Western Michigan's first four games and completed 58 of 89 passes for 527 yards, four touchdowns and one interception.",
+        "page": 20,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 9,
+        "fact": "Lowry also rushed 42 times for 116 yards and one touchdown through four games.",
+        "page": 20,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Western Michigan scored on 11 of 12 red-zone trips, including nine touchdowns.",
+        "page": 14,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 32,
+        "fact": "The Broncos had three sacks and one interception through four games.",
+        "page": 14,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      },
+      {
+        "fact_id": 34,
+        "fact": "Opponents converted 46.3 percent of third downs against Western Michigan through four games.",
+        "page": 28,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Western Michigan.pdf",
+        "source_team": "Western Michigan Broncos"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Toledo Rockets",
+      "model_side": "Toledo",
+      "opponent_full": "Western Michigan Broncos",
+      "opponent": "Western Michigan",
+      "model_prediction": -6.0,
+      "market_line": -3.5,
+      "best_available_line": -3.5,
+      "best_available_price": "100",
+      "cover_probability": 0.53503122,
+      "edge": 0.03503122000000003,
+      "bet_status": "BET"
+    }
+  }
+}

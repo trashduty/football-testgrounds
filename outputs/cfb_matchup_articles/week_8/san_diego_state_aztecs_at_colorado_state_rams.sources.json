@@ -1,0 +1,391 @@
+{
+  "game": "San Diego State Aztecs@Colorado State Rams",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:42:58.321257+00:00",
+  "model_prediction": -0.5,
+  "market_line": 1.5,
+  "best_line": 1.5,
+  "best_price": "-112",
+  "best_book": "BetRivers",
+  "cover_probability": 0.5317606,
+  "edge": 0.003458713207547204,
+  "bet_short": "Colorado State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our view of Colorado State is driven more by its offensive ceiling than by the most recent final score. The offense averaged 469 yards through four games and produced 35 explosive plays, showing it can create yardage quickly. But the underlying matchup is less favorable near scoring range: Colorado State has struggled to generate quality scoring opportunities consistently, while San Diego State has been much better at preventing them. That gap makes it difficult for us to treat the Rams\u2019 big-play production as fully sustainable in this spot.",
+    "matchup_to_watch": "For us, the matchup to watch is San Diego State\u2019s rushing offense against Colorado State\u2019s run defense. The Rams allowed 230 rushing yards per game through four games, but San Diego State\u2019s rushing efficiency has also been poor. If San Diego State can exploit that weakness, it can limit possessions and keep pressure on a volatile Colorado State defense. If it cannot, Colorado State\u2019s offensive explosiveness becomes more influential. We see enough for our model to lean toward the home team, but not enough separation from the market to justify a wager.",
+    "guide_status": [
+      "No guide found for San Diego State Aztecs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Diego State.pdf",
+      "Found guide for Colorado State Rams: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Colorado State.pdf",
+      "Guide for Colorado State Rams was found but may not match the current opponent. The guide is explicitly for Colorado State's Game 5 against Oregon State on Oct. 3, 2026. San Diego State is listed as a later home opponent on Oct. 24, 2026, so this is not the guide for the requested matchup."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Colorado State Rams",
+        "opponent": "San Diego State Aztecs",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly for Colorado State's Game 5 against Oregon State on Oct. 3, 2026. San Diego State is listed as a later home opponent on Oct. 24, 2026, so this is not the guide for the requested matchup.",
+        "recent_game": [
+          {
+            "fact": "Colorado State lost 59-45 at UTSA on Sept. 26, falling to 2-2.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State totaled 500 yards of offense and 344 passing yards against UTSA.",
+            "page": 21,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State allowed UTSA to score five consecutive touchdowns and surrendered more than 500 yards for the second consecutive game.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State scored on Mel Brown's 94-yard opening kickoff return and on its first offensive play, a 74-yard touchdown pass from K'saan Farrar to Terrence Smith.",
+            "page": 23,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "San Diego State was 1-3 with a three-game losing streak in the standings published with this Oct. 3 guide.",
+            "page": 9,
+            "category": "opponent_notes",
+            "importance": "low"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Hauss Hejny started Colorado State's first three games and threw 10 touchdown passes in those starts.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Hejny threw five touchdown passes against Wyoming and four against Southern Utah.",
+            "page": 7,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "K'saan Farrar made his first Colorado State start at quarterback against UTSA and finished with more than 300 passing yards and two touchdowns.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Darius Curry also appeared at quarterback against BYU and threw a one-yard touchdown pass to Nader Chirchi.",
+            "page": 23,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Colorado State started the same four offensive linemen in each of its first four games: left guard Braden Hales, center Phillip Ocon, right guard Zach Smith and right tackle John Holthaus.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Toriyan Johnson started at left tackle in the first two games, while Quinton Harris started there against BYU and UTSA.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Four Colorado State offensive linemen made their first collegiate starts in the opener: John Holthaus, Zach Smith, Braden Hales and Toriyan Johnson.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Mel Brown, wide receivers RJ Vick and Terrence Smith, and the Hales-Ocon-Smith-Holthaus offensive-line group started each of the first four games.",
+            "page": 18,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Terrence Smith recorded 102 receiving yards at UTSA, Colorado State's most recent 100-yard receiving performance.",
+            "page": 21,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "RJ Vick had four receiving touchdowns through four games, including three in the opener against Wyoming.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Cornerback CJ Blocker intercepted a pass in each of Colorado State's first three games, giving him three interceptions.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Oumar Diomande recorded 15 tackles against UTSA.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Brandon Kelley, Jack Moran, Oumar Diomande, Jaseim Mitchell, Kenyon Agurs and Tre'Shawn Moore started each of Colorado State's first four games on defense.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Seven defenders made their first Colorado State starts in the season opener, and four of those players were making their first collegiate starts.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Jim Mora was hired Dec. 1, 2025, as Colorado State's head coach and began his first CSU season 2-2.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Offensive coordinator Pryce Tracy and defensive coordinator Tyson Summers call plays on their respective sides of the ball while Mora oversees the full game.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "The 2026 opener against Wyoming was Pryce Tracy's first game as an offensive play caller.",
+            "page": 9,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State added 20 coaches for 2026 and retained four from the 2025 staff: defensive coordinator Tyson Summers, nickelbacks coach Matty Ah You, safeties coach Brayden Herdic and cornerbacks coach Trent Matthews.",
+            "page": 8,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Colorado State averaged 40.3 points, 469 total yards, 297 passing yards and 172 rushing yards per game.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State produced 35 explosive plays through four games, with 11 resulting in touchdowns.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State had eight scrimmage plays of at least 50 yards through four games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State scored touchdowns on its opening offensive drive in each of its first four games.",
+            "page": 23,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "The Rams averaged 45.9 percent on third downs and scored touchdowns on 81.25 percent of their red-zone opportunities through four games.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Colorado State allowed 34.3 points and 454 total yards per game, including 230 rushing yards per game.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Colorado State forced 10 turnovers through four games\u2014seven interceptions and three fumble recoveries\u2014while committing three turnovers for a plus-seven margin.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Rams scored 35 points off turnovers, while opponents scored no points following Colorado State's first three turnovers.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "All 10 of Colorado State's takeaways came in the first three games; the Rams forced no turnovers at UTSA.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents recorded 15 explosive rushing plays and 15 explosive passing plays over Colorado State's first four games.",
+            "page": 19,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Mel Brown returned the opening kickoff 94 yards for a touchdown at UTSA, Colorado State's first opening-kickoff touchdown since 2019.",
+            "page": 13,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kali Nguma made a 51-yard field goal at UTSA.",
+            "page": 21,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Jackson Harper recorded punt returns of 26 yards against Wyoming and 30 yards against Southern Utah.",
+            "page": 20,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "San Diego State leads the series with Colorado State 23-15.",
+            "page": 18,
+            "category": "series_context",
+            "importance": "low"
+          },
+          {
+            "fact": "The 2026 meeting will mark the first time Colorado State and San Diego State have played in consecutive seasons since 2019 and 2020.",
+            "page": 18,
+            "category": "series_context",
+            "importance": "low"
+          },
+          {
+            "fact": "Jim Mora had not previously faced San Diego State as a head coach entering the 2026 season.",
+            "page": 5,
+            "category": "series_context",
+            "importance": "low"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Colorado State's 2026 roster had 75 players who were not on the 2025 roster, including 43 transfer or junior-college newcomers.",
+            "page": 9,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Seventeen players made their first Colorado State start in the opener, and 11 made their first collegiate start.",
+            "page": 12,
+            "category": "other_relevant",
+            "importance": "high"
+          },
+          {
+            "fact": "Mora brought 17 players from UConn to Colorado State.",
+            "page": 13,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Colorado State joined the rebuilt Pac-12 on July 1, 2026, along with San Diego State and other former Mountain West members.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Colorado State.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Colorado State scoring-opportunity creation vs San Diego State scoring-opportunity prevention",
+        "off_team": "Colorado State",
+        "def_team": "San Diego State",
+        "off_rank": 122,
+        "def_rank": 42,
+        "stat": "Eckel rate",
+        "rank_gap": 80,
+        "direction": "mixed",
+        "matchup_score": 80
+      },
+      {
+        "dimension": "San Diego State rushing offense vs Colorado State rush defense",
+        "off_team": "San Diego State",
+        "def_team": "Colorado State",
+        "off_rank": 106,
+        "def_rank": 136,
+        "stat": "rush EPA",
+        "rank_gap": 30,
+        "direction": "mixed",
+        "matchup_score": 30
+      },
+      {
+        "dimension": "San Diego State scoring-opportunity creation vs Colorado State scoring-opportunity prevention",
+        "off_team": "San Diego State",
+        "def_team": "Colorado State",
+        "off_rank": 95,
+        "def_rank": 120,
+        "stat": "Eckel rate",
+        "rank_gap": 25,
+        "direction": "mixed",
+        "matchup_score": 25
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 23,
+        "fact": "Through four games, Colorado State averaged 40.3 points, 469 total yards, 297 passing yards and 172 rushing yards per game.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Colorado State.pdf",
+        "source_team": "Colorado State Rams"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Colorado State produced 35 explosive plays through four games, with 11 resulting in touchdowns.",
+        "page": 20,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Colorado State.pdf",
+        "source_team": "Colorado State Rams"
+      },
+      {
+        "fact_id": 28,
+        "fact": "Through four games, Colorado State allowed 34.3 points and 454 total yards per game, including 230 rushing yards per game.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Colorado State.pdf",
+        "source_team": "Colorado State Rams"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Colorado State Rams",
+      "model_side": "Colorado State",
+      "opponent_full": "San Diego State Aztecs",
+      "opponent": "San Diego State",
+      "model_prediction": -0.5,
+      "market_line": 1.5,
+      "best_available_line": 1.5,
+      "best_available_price": "-112",
+      "cover_probability": 0.5317606,
+      "edge": 0.003458713207547204,
+      "bet_status": "PASS"
+    }
+  }
+}

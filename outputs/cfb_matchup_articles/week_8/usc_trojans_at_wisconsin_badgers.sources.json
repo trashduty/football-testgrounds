@@ -1,0 +1,369 @@
+{
+  "game": "USC Trojans@Wisconsin Badgers",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:47:28.627237+00:00",
+  "model_prediction": -3.5,
+  "market_line": -3.0,
+  "best_line": -3.5,
+  "best_price": "105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.4801296,
+  "edge": -0.007675278048780487,
+  "bet_short": "USC",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers give USC a modest underlying advantage, largely because we trust its ability to create scoring opportunities more than Wisconsin\u2019s. USC averaged 6.9 yards per play and converted 56% of its third downs through five games, with Jayden Maiava completing 70.1% of his passes and producing 16 total touchdowns. That efficiency helps explain why our expectation sits slightly above the broader market view.\n\nWe are not treating the Oregon result as proof of anything, but it highlights both sides of the USC profile. USC erased a 10-point second-half deficit before losing 41-27, showing its ability to generate sustained scoring drives while again leaving questions about finishing games. USC allowed 57 fourth-quarter points through five contests, its highest total in any quarter.\n\nFor us, the hesitation is the price rather than the basic matchup case. USC\u2019s rushing profile does not create the same advantage as its overall scoring-opportunity production, and the available number already accounts for our modest preference. We can see why USC is favored without seeing enough remaining value to make this a wager.",
+    "matchup_to_watch": "We are watching USC\u2019s passing offense against Wisconsin\u2019s scoring-opportunity prevention. Maiava had thrown 14 touchdowns against two interceptions through five games, and USC had allowed only five sacks while averaging 489.4 total yards. If that combination of accuracy and protection continues, USC should have chances to reach scoring range consistently; the question for our view is whether those possessions produce enough separation to justify the market\u2019s demand.",
+    "guide_status": [
+      "Found guide for USC Trojans: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
+      "Guide for USC Trojans was found but may not match the current opponent. The guide was released Sept. 28, 2026 for USC's Oct. 3 home game against Washington. Wisconsin appears only as a later scheduled opponent for USC's Oct. 24 road game following an Oct. 17 bye.",
+      "No guide found for Wisconsin Badgers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wisconsin.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "USC Trojans",
+        "opponent": "Wisconsin Badgers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide was released Sept. 28, 2026 for USC's Oct. 3 home game against Washington. Wisconsin appears only as a later scheduled opponent for USC's Oct. 24 road game following an Oct. 17 bye.",
+        "recent_game": [
+          {
+            "fact": "USC lost 41-27 at home to Oregon on Sept. 26, falling to 4-1 overall and 1-1 in Big Ten play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Oregon, USC quarterback Jayden Maiava completed 23 of 42 passes for 326 yards and two touchdowns and added a 1-yard rushing touchdown.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Maiava led scoring drives of 75, 63 and 75 yards as USC erased a 20-10 third-quarter deficit and tied Oregon 27-27 early in the fourth quarter.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman wide receiver Kayden Dixon-Wyatt had career highs of seven receptions and 114 yards against Oregon, including a 31-yard touchdown.",
+            "page": 4,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Running back King Miller led USC against Oregon with 74 rushing yards on 13 carries, while Waymond Jordan added 41 yards on nine carries.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "USC recorded four tackles for loss against Oregon; defensive tackle Jahkeem Stewart had two, tying his single-game career high.",
+            "page": 5,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "USC is scheduled to play at Wisconsin on Oct. 24, 2026, following a bye on Oct. 17.",
+            "page": 14,
+            "category": "opponent_notes",
+            "importance": "high"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Through five games, Jayden Maiava had completed 110 of 157 passes for 1,499 yards, 14 touchdowns and two interceptions, with a 70.1% completion rate and 174.5 efficiency rating.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Maiava had accounted for 16 touchdowns through five games, with 14 passing and two rushing.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Maiava had two 300-yard passing games through USC's first five contests.",
+            "page": 1,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Kayden Dixon-Wyatt led USC through five games with 25 receptions and 372 receiving yards and had three touchdowns, averaging 14.9 yards per catch.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman tight end Mark Bowman ranked second on USC with 21 receptions and had 204 receiving yards and two touchdowns through five games.",
+            "page": 4,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "King Miller had 412 rushing yards through five games after gaining 74 yards against Oregon.",
+            "page": 5,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "USC had allowed five sacks through its first five games while averaging 489.4 total yards per game.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Deven Bryant and safety Christian Pierce tied for USC's team lead against Oregon with seven tackles each.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive tackle Jahkeem Stewart returned to the Coliseum against Oregon and recorded two tackles for loss.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerbacks Chasen Johnson and Prophet Brown each recorded a pass breakup against Oregon.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Wide receiver Tanook Hines returned from injury against Fresno State and caught an 8-yard touchdown on his first reception of the season.",
+            "page": 18,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Prophet Brown returned in 2026 after missing the entire 2025 season because of a season-ending injury suffered during fall camp.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kicker Caden Chittenden returned in 2026 after missing the entire 2025 season because of a season-ending injury suffered during fall camp.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through five games, USC averaged 39.8 points, 489.4 total yards, 325.0 passing yards and 164.4 rushing yards per game.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "USC converted 56% of its third downs and 67% of its fourth downs through five games.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "USC scored touchdowns on 19 of 28 red-zone possessions through five games, a 68% touchdown rate.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "USC averaged 6.9 yards per offensive play through five games.",
+            "page": 9,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through five games, USC allowed 26.4 points and 354.8 total yards per game, including 236.2 passing yards and 118.6 rushing yards.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "USC's defense had eight sacks and three interceptions through five games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Opponents converted 41% of their third downs against USC through five games.",
+            "page": 9,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "USC had allowed 57 fourth-quarter points through five games, its highest total in any quarter.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Against Oregon, Caden Chittenden made field goals from 38 and 29 yards and all three PAT attempts but missed a 33-yard field goal.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Punter Lachlan Carrigan placed his only punt against Oregon inside the 20 with a 48-yard kick.",
+            "page": 6,
+            "category": "special_teams",
+            "importance": "low"
+          },
+          {
+            "fact": "USC averaged 20.0 yards per punt return through five games and had returned nine punts for 180 yards.",
+            "page": 9,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "USC is 7-1 all-time against Wisconsin and won the most recent meeting 38-21 at the Coliseum in 2024.",
+            "page": 14,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [],
+        "source_file": "USC.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Wisconsin scoring-opportunity creation vs USC scoring-opportunity prevention",
+        "off_team": "Wisconsin",
+        "def_team": "USC",
+        "off_rank": 113,
+        "def_rank": 51,
+        "stat": "Eckel rate",
+        "rank_gap": 62,
+        "direction": "mixed",
+        "matchup_score": 62
+      },
+      {
+        "dimension": "USC scoring-opportunity creation vs Wisconsin scoring-opportunity prevention",
+        "off_team": "USC",
+        "def_team": "Wisconsin",
+        "off_rank": 26,
+        "def_rank": 56,
+        "stat": "Eckel rate",
+        "rank_gap": 30,
+        "direction": "mixed",
+        "matchup_score": 30
+      },
+      {
+        "dimension": "USC rushing offense vs Wisconsin rush defense",
+        "off_team": "USC",
+        "def_team": "Wisconsin",
+        "off_rank": 78,
+        "def_rank": 56,
+        "stat": "rush EPA",
+        "rank_gap": 22,
+        "direction": "mixed",
+        "matchup_score": 22
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 3,
+        "fact": "Maiava led scoring drives of 75, 63 and 75 yards as USC erased a 20-10 third-quarter deficit and tied Oregon 27-27 early in the fourth quarter.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Through five games, Jayden Maiava had completed 110 of 157 passes for 1,499 yards, 14 touchdowns and two interceptions, with a 70.1% completion rate and 174.5 efficiency rating.",
+        "page": 2,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 8,
+        "fact": "Maiava had accounted for 16 touchdowns through five games, with 14 passing and two rushing.",
+        "page": 1,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 13,
+        "fact": "USC had allowed five sacks through its first five games while averaging 489.4 total yards per game.",
+        "page": 9,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 20,
+        "fact": "Through five games, USC averaged 39.8 points, 489.4 total yards, 325.0 passing yards and 164.4 rushing yards per game.",
+        "page": 9,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 21,
+        "fact": "USC converted 56% of its third downs and 67% of its fourth downs through five games.",
+        "page": 9,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 23,
+        "fact": "USC averaged 6.9 yards per offensive play through five games.",
+        "page": 9,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      },
+      {
+        "fact_id": 27,
+        "fact": "USC had allowed 57 fourth-quarter points through five games, its highest total in any quarter.",
+        "page": 10,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "USC.pdf",
+        "source_team": "USC Trojans"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "USC Trojans",
+      "model_side": "USC",
+      "opponent_full": "Wisconsin Badgers",
+      "opponent": "Wisconsin",
+      "model_prediction": -3.5,
+      "market_line": -3.0,
+      "best_available_line": -3.5,
+      "best_available_price": "105",
+      "cover_probability": 0.4801296,
+      "edge": -0.007675278048780487,
+      "bet_status": "PASS"
+    }
+  }
+}

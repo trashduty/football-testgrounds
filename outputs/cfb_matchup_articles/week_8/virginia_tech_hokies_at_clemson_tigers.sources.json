@@ -1,0 +1,606 @@
+{
+  "game": "Virginia Tech Hokies@Clemson Tigers",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:50:06.274826+00:00",
+  "model_prediction": 2.5,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "100",
+  "best_book": "DraftKings",
+  "cover_probability": 0.49244727,
+  "edge": -0.0075527300000000075,
+  "bet_short": "Virginia Tech",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers do not show meaningful separation from the market, and the football matchup explains why. Virginia Tech has produced explosive passing numbers behind Ethan Grunkemeyer, who completed 74.0 percent of his passes and posted three 300-yard games through five contests. The concern for us is whether that production consistently becomes quality scoring opportunities against a Clemson defense that has held consecutive opponents below 150 passing yards.\n\nThe other side presents a similar tension. Clemson has rushed for at least 150 yards in three straight games, with Gideon Davidson recording consecutive 100-yard performances. We are not treating that recent stretch as proof of a favorable matchup, however. Our longer-run numbers are less enthusiastic about Clemson's rushing efficiency, while Virginia Tech allowed only 87.4 rushing yards per game through five contests and led the nation with 51 tackles for loss.\n\nThat leaves us with competing strengths but no compelling reason to move away from the current market expectation. Virginia Tech's passing game gives it a path to outperform, while Clemson's ability to limit scoring opportunities is the clearest counterweight. At the available price, that balance does not create enough value for us.",
+    "matchup_to_watch": "We are watching Grunkemeyer against Clemson's secondary. Clemson's coverage results have improved, and the individual production supports that trend: Elliot Washington II had two interceptions against Cal and three across Clemson's previous two games, while Ashton Hampton recorded eight passes defended through four contests.\n\nVirginia Tech can still test that group with Que\u2019Sean Brown and Luke Reynolds, who combined for 70 receptions through five games. The question is not simply whether Virginia Tech moves the ball, but whether it can turn those completions into sustained scoring chances against the strongest part of Clemson's statistical profile.",
+    "guide_status": [
+      "Found guide for Virginia Tech Hokies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf",
+      "Guide for Virginia Tech Hokies was found but may not match the current opponent. The guide is for Virginia Tech's Oct. 10, 2026 road game against California, identified on page 1 as Game 6. Clemson is listed as a later road opponent on Oct. 24.",
+      "Found guide for Clemson Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Clemson.pdf",
+      "Guide for Clemson Tigers was found but may not match the current opponent. The guide is for Clemson's Oct. 3, 2026 game against Miami (Fla.), while the schedule lists Virginia Tech as Clemson's Oct. 24 opponent. Current Clemson information is retained, but Miami-specific material is excluded."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Virginia Tech Hokies",
+        "opponent": "Clemson Tigers",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Virginia Tech's Oct. 10, 2026 road game against California, identified on page 1 as Game 6. Clemson is listed as a later road opponent on Oct. 24.",
+        "recent_game": [
+          {
+            "fact": "Virginia Tech suffered its first loss of the season, 35-33 against Pitt on Oct. 2, and entered the California game 4-1 overall and 1-1 in the ACC.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Pitt, quarterback Ethan Grunkemeyer completed 30 of 41 passes for a career-high 434 yards and three touchdowns.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Que\u2019Sean Brown caught seven passes for 147 yards and a touchdown against Pitt, including receptions of 38 and 51 yards.",
+            "page": 13,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Virginia Tech is scheduled to play at Clemson on Oct. 24, 2026, with the game time listed as TBD.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "At the time of this guide, Clemson was 3-2 overall and 2-1 in ACC play.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Ethan Grunkemeyer, a junior transfer from Penn State, started each of Virginia Tech's first five games.",
+            "page": 27,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Grunkemeyer completed 131 of 177 passes for 1,446 yards, 11 touchdowns and two interceptions.",
+            "page": 27,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Grunkemeyer's 74.0 percent completion rate ranked sixth nationally, and he had three 300-yard passing games through five contests.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Bryce Baker appeared in two games and completed 11 of 14 passes for 127 yards, one touchdown and no interceptions.",
+            "page": 29,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Jeffrey Overton Jr. led Virginia Tech with 455 rushing yards and four touchdowns on 77 carries through five games, averaging 5.9 yards per carry.",
+            "page": 26,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Tight end Luke Reynolds had 37 receptions for 373 yards and four touchdowns through five games and averaged 7.4 catches per game.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Reynolds, a Penn State transfer, recorded consecutive 100-yard receiving games against Old Dominion and Maryland.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Que\u2019Sean Brown, a Duke transfer, started each of the first five games and had 33 receptions for 371 yards and two touchdowns.",
+            "page": 20,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman wide receiver Davion Brown started three of the first five games and recorded 10 receptions for 137 yards.",
+            "page": 24,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Center Kyle Altuner returned after starting all 12 games in 2025, when he logged 793 snaps and allowed two sacks.",
+            "page": 17,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Defensive end Aycen Stevens recorded 6.5 tackles for loss and 5.5 sacks through five games, including at least one solo sack in five consecutive games.",
+            "page": 13,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Kaleb Spencer had 23 tackles, 6.5 tackles for loss, three sacks and one forced fumble through five games.",
+            "page": 21,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Noah Chambers started each of the first five games and recorded 22 tackles, four tackles for loss and a half-sack.",
+            "page": 26,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Cornerback Jaquez White, a transfer from Troy, started each of Virginia Tech's first five games.",
+            "page": 20,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Safety Sherrod Covil previously played at Clemson from 2022 through 2024 before joining Virginia Tech.",
+            "page": 23,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "James Franklin is in his first season as Virginia Tech's head coach and had a 4-1 record with the Hokies through five games.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Ty Howle is Virginia Tech's first-year offensive coordinator and tight ends coach.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Brent Pry serves as defensive coordinator and linebackers coach in his fifth year at Virginia Tech.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Doug Shearer is Virginia Tech's first-year special teams coordinator.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Matt Moore is in his second season as Virginia Tech's offensive line coach.",
+            "page": 6,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through five games, Virginia Tech averaged 469.8 total yards and 41.2 points per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Virginia Tech averaged 314.6 passing yards per game, which ranked 11th nationally, while averaging 155.2 rushing yards per game.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Hokies converted 43.4 percent of third downs and scored on 90.9 percent of red-zone possessions through five games.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech allowed 1.8 sacks per game through its first five contests.",
+            "page": 3,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Virginia Tech led the nation with 51 tackles for loss through five games, an average of 10.2 per game.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Hokies recorded 18 sacks through five games, with four players accounting for at least three sacks each.",
+            "page": 13,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Virginia Tech allowed 274.4 total yards, 87.4 rushing yards and 19.8 points per game through five games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 27.9 percent of third downs against Virginia Tech through five games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech's takeaway differential was minus-1.0 through five games.",
+            "page": 3,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Que\u2019Sean Brown returned eight punts for 204 yards through five games, averaging 25.5 yards per return, which ranked third nationally.",
+            "page": 13,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Brown had a 79-yard punt return against Old Dominion and a 50-yard punt return against Boston College.",
+            "page": 13,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kicker John Love made seven of eight field-goal attempts and 23 of 24 extra-point attempts through five games.",
+            "page": 27,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech averaged 27.8 yards per kickoff return and 20.36 yards per punt return through five games.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Virginia Tech is 12-24-1 all-time against Clemson in a series that began in 1900.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Virginia Tech has lost seven consecutive games against Clemson and is 3-7 in the last 10 meetings.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The most recent Virginia Tech-Clemson meeting was in 2024.",
+            "page": 2,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [],
+        "source_file": "Virginia Tech.pdf"
+      },
+      {
+        "source_team": "Clemson Tigers",
+        "opponent": "Virginia Tech Hokies",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for Clemson's Oct. 3, 2026 game against Miami (Fla.), while the schedule lists Virginia Tech as Clemson's Oct. 24 opponent. Current Clemson information is retained, but Miami-specific material is excluded.",
+        "recent_game": [
+          {
+            "fact": "Clemson defeated Cal 24-10 on Sept. 25 to improve to 3-1 overall and 2-0 in ACC play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson rushed for a season-high 257 yards against Cal, its first 200-yard rushing game of 2026.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson did not allow Cal's offense to score a touchdown and limited Cal to 145 passing yards.",
+            "page": 8,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "True freshman quarterback Tait Reynolds completed 14 of 22 passes for 106 yards and rushed for 28 yards against Cal.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Reynolds improved to 2-0 in his first two career starts, joining Deshaun Watson and Trevor Lawrence as Clemson true freshman quarterbacks to accomplish that since permanent freshman eligibility began in 1972.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back Gideon Davidson set career highs against Cal with 22 carries, 159 rushing yards and two rushing touchdowns.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Davidson has recorded consecutive 100-yard rushing games and scored a rushing touchdown in each of Clemson's last two games.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Wide receiver Tyler Brown has produced a run of at least 25 yards in consecutive games, gaining 34 yards against North Carolina and 27 yards against Cal.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Running back Jarvis Green posted career highs of seven carries and 31 rushing yards against Cal.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "low"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Clemson's revamped secondary includes Ashton Hampton and transfers Elliot Washington II, Corey Myrick and Jerome Carter III.",
+            "page": 1,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Elliot Washington II recorded two interceptions against Cal and has three interceptions over Clemson's last two games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerback Ashton Hampton tied his career high with three pass breakups against Cal and had eight passes defended through four games.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end London Merritt recorded his first sack as a Clemson player against Cal.",
+            "page": 8,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Clemson's 2026 staff lists Chad Morris as offensive coordinator, Tom Allen as defensive coordinator and Rich Bisaccia as special teams coordinator.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Matt Luke coaches the offensive line and serves as assistant head coach and co-offensive coordinator.",
+            "page": 3,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Clemson has rushed for at least 150 yards in three consecutive games.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Davidson's 75-yard fourth-quarter touchdown against Cal was Clemson's longest run since Phil Mafah's 83-yard touchdown against Appalachian State in September 2024.",
+            "page": 8,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "After allowing 51 points and 644 yards in the opener at LSU, Clemson allowed averages of 12.3 points and 282.0 yards over its next three games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson has held consecutive opponents below 150 passing yards for the first time since 2023.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson held Cal quarterback Jaron-Keawe Sagapolutele to a career-low 119 passing yards.",
+            "page": 8,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Bryant Wesco Jr. returned a punt 65 yards for a touchdown against Cal, Clemson's first punt-return touchdown since Nov. 10, 2018.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Nolan Hauser made a 30-yard field goal against Cal but missed from 48 yards, ending a streak of 12 consecutive makes from at least 40 yards.",
+            "page": 8,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Clemson has won seven consecutive games against Virginia Tech; the Tigers' most recent loss in the series was a 41-23 home loss in 2007.",
+            "page": 12,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Clemson's schedule lists Virginia Tech visiting Memorial Stadium on Oct. 24, 2026 for Clemson's Homecoming game.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Clemson.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Virginia Tech scoring-opportunity creation vs Clemson scoring-opportunity prevention",
+        "off_team": "Virginia Tech",
+        "def_team": "Clemson",
+        "off_rank": 106,
+        "def_rank": 18,
+        "stat": "Eckel rate",
+        "rank_gap": 88,
+        "direction": "defense_advantage",
+        "matchup_score": 188
+      },
+      {
+        "dimension": "Clemson scoring-opportunity creation vs Virginia Tech scoring-opportunity prevention",
+        "off_team": "Clemson",
+        "def_team": "Virginia Tech",
+        "off_rank": 58,
+        "def_rank": 136,
+        "stat": "Eckel rate",
+        "rank_gap": 78,
+        "direction": "mixed",
+        "matchup_score": 78
+      },
+      {
+        "dimension": "Clemson rushing offense vs Virginia Tech rush defense",
+        "off_team": "Clemson",
+        "def_team": "Virginia Tech",
+        "off_rank": 104,
+        "def_rank": 45,
+        "stat": "rush EPA",
+        "rank_gap": 59,
+        "direction": "mixed",
+        "matchup_score": 59
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 6,
+        "fact": "Grunkemeyer's 74.0 percent completion rate ranked sixth nationally, and he had three 300-yard passing games through five contests.",
+        "page": 13,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 9,
+        "fact": "Tight end Luke Reynolds had 37 receptions for 373 yards and four touchdowns through five games and averaged 7.4 catches per game.",
+        "page": 13,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 11,
+        "fact": "Que\u2019Sean Brown, a Duke transfer, started each of the first five games and had 33 receptions for 371 yards and two touchdowns.",
+        "page": 20,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 30,
+        "fact": "Virginia Tech allowed 274.4 total yards, 87.4 rushing yards and 19.8 points per game through five games.",
+        "page": 3,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Virginia Tech.pdf",
+        "source_team": "Virginia Tech Hokies"
+      },
+      {
+        "fact_id": 43,
+        "fact": "Davidson has recorded consecutive 100-yard rushing games and scored a rushing touchdown in each of Clemson's last two games.",
+        "page": 8,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      },
+      {
+        "fact_id": 47,
+        "fact": "Cornerback Elliot Washington II recorded two interceptions against Cal and has three interceptions over Clemson's last two games.",
+        "page": 8,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      },
+      {
+        "fact_id": 48,
+        "fact": "Cornerback Ashton Hampton tied his career high with three pass breakups against Cal and had eight passes defended through four games.",
+        "page": 8,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      },
+      {
+        "fact_id": 52,
+        "fact": "Clemson has rushed for at least 150 yards in three consecutive games.",
+        "page": 8,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      },
+      {
+        "fact_id": 55,
+        "fact": "Clemson has held consecutive opponents below 150 passing yards for the first time since 2023.",
+        "page": 8,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "Clemson.pdf",
+        "source_team": "Clemson Tigers"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Virginia Tech Hokies",
+      "model_side": "Virginia Tech",
+      "opponent_full": "Clemson Tigers",
+      "opponent": "Clemson",
+      "model_prediction": 2.5,
+      "market_line": 2.5,
+      "best_available_line": 2.5,
+      "best_available_price": "100",
+      "cover_probability": 0.49244727,
+      "edge": -0.0075527300000000075,
+      "bet_status": "PASS"
+    }
+  }
+}

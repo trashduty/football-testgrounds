@@ -1,0 +1,381 @@
+{
+  "game": "Vanderbilt Commodores@Kentucky Wildcats",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:48:29.308517+00:00",
+  "model_prediction": 8.0,
+  "market_line": 10.5,
+  "best_line": 11.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.5882876,
+  "edge": 0.0760924780487805,
+  "bet_short": "Vanderbilt",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "For us, the case is less about declaring Vanderbilt the better team and more about questioning Kentucky\u2019s ability to create separation. Our numbers show a major advantage for Vanderbilt in creating scoring opportunities against a Kentucky defense that has struggled to prevent them. We also see the passing matchup favoring Vanderbilt, giving the underdog more than one route to move the ball and stay within range.",
+    "matchup_to_watch": "We are watching Vanderbilt\u2019s passing game against Kentucky\u2019s pass defense. Jared Curtis started Vanderbilt\u2019s two most recent games and produced 746 passing yards and 133 rushing yards through four appearances, while Junior Sherrill had 367 receiving yards over that span. That combination gives Vanderbilt a credible way to challenge the matchup our numbers identify as favorable.\n\nThe concern is finishing drives. Vanderbilt scored one touchdown on 11 offensive possessions and converted only 4 of 17 third downs against Auburn. We are not treating one game as proof, but cleaner conversion of the opportunities Vanderbilt creates would make Kentucky\u2019s task of building margin considerably harder.",
+    "guide_status": [
+      "Found guide for Vanderbilt Commodores: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Vanderbilt.pdf",
+      "Guide for Vanderbilt Commodores was found but may not match the current opponent. The document is Vanderbilt's Game 5 notes for the Oct. 3, 2026 road game against Georgia. Kentucky is listed later on the schedule as Vanderbilt's Oct. 24 road opponent, so this is not the guide for the upcoming Week 8 Vanderbilt-Kentucky matchup.",
+      "No guide found for Kentucky Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kentucky.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Vanderbilt Commodores",
+        "opponent": "Kentucky Wildcats",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The document is Vanderbilt's Game 5 notes for the Oct. 3, 2026 road game against Georgia. Kentucky is listed later on the schedule as Vanderbilt's Oct. 24 road opponent, so this is not the guide for the upcoming Week 8 Vanderbilt-Kentucky matchup.",
+        "recent_game": [
+          {
+            "fact": "Vanderbilt entered the Georgia game 3-1 after a 21-15 road loss to Auburn on Sept. 26.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Auburn, freshman quarterback Jared Curtis completed a season-high 22 passes and shared the team rushing lead with Makhilyn Young at 46 yards.",
+            "page": 19,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Junior Sherrill led Vanderbilt against Auburn with six receptions for 95 yards.",
+            "page": 19,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Vanderbilt scored one touchdown on 11 offensive drives against Auburn and converted 4 of 17 third downs.",
+            "page": 20,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Kicker Brock Taylor made three field goals against Auburn, tying his career high.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Freshman Jared Curtis started Vanderbilt's two most recent games after senior Blaze Berlowitz started the first two games.",
+            "page": 19,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Curtis had completed 63 of 98 passes for 746 yards, four touchdowns and three interceptions while rushing 41 times for 133 yards and two touchdowns.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "In his first career start, Curtis completed 20 of 34 passes for 277 yards and three touchdowns and rushed 12 times for a team-high 64 yards in a 35-31 win over NC State.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Berlowitz had completed 14 of 25 passes for 178 yards with no interceptions and had rushed for 50 yards and one touchdown through three appearances.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Junior Sherrill had 21 receptions for 367 yards and two touchdowns through four games, averaging 91.8 receiving yards per game.",
+            "page": 8,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Sherrill had recorded at least one reception in 41 consecutive games.",
+            "page": 1,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sedrick Alexander had started all four games and rushed 37 times for 165 yards and three touchdowns; he also had a rushing or receiving touchdown in five consecutive regular-season games.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Vanderbilt returned its three leading running backs from 2025: Alexander, Makhilyn Young and Jamezell Lassiter.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "East Carolina transfer tight end Jayvontay Conner had 11 receptions for 126 yards through four games.",
+            "page": 9,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The offensive line starters against Auburn were Clinton Azubuike, Cade McConnell, Lyndon Cooper, Orion Irving and Beau Johnson.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Azubuike made his first career start in the 2026 opener and started each of Vanderbilt's first four games.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Center Lyndon Cooper joined Vanderbilt after making 25 starts over two seasons at Pittsburgh and started each of Vanderbilt's first four games.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "North Dakota State transfer Beau Johnson started the two most recent games at offensive tackle.",
+            "page": 19,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Safety CJ Heard led Vanderbilt through four games with 30 tackles and two forced fumbles; he also had two sacks and two passes defended.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Nick Rinaldi had 22 tackles, 4.5 tackles for loss, 3.5 sacks and four passes defended through four games.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Edge defender Miles Capers had 14 tackles, five tackles for loss, one sack, one forced fumble and one interception through four games.",
+            "page": 12,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Clemson transfer safety Ricardo Jones started each of the first four games and had 19 tackles, one tackle for loss and two passes defended.",
+            "page": 9,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman safety Mason Lewis started Vanderbilt's two most recent games and recorded 18 tackles and two passes defended through four games.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The defensive starters against Auburn included transfers Edwin Kolenge, Ricardo Jones and CJ Heard, along with freshman Mason Lewis.",
+            "page": 19,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Clark Lea was in his sixth season as Vanderbilt's head coach, with Tim Beck in his third season as offensive coordinator and Steve Gregory in his third season as defensive coordinator.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Trenton Kirklin was in his first season as Vanderbilt's quarterbacks coach.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          },
+          {
+            "fact": "Adam Morris was in his first season as defensive run game coordinator and defensive ends coach, while Seth Payne was in his first season coaching the defensive line.",
+            "page": 5,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Defensive lineman Issa Ouattara returned in the 2026 opener after missing all but one game in 2025 because of injury.",
+            "page": 1,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Ouattara played in each of Vanderbilt's first four games, starting three, and recorded 10 tackles and two sacks.",
+            "page": 8,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Vanderbilt scored on 16 of 42 offensive drives and scored touchdowns on 11 of 42 drives.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Vanderbilt converted 18 of 56 third downs through four games, a 32.1 percent rate.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Vanderbilt had five offensive turnovers through four games: two lost fumbles and three interceptions.",
+            "page": 20,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Vanderbilt averaged 3.25 sacks per game through four games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Vanderbilt's opponents scored touchdowns on nine of 44 drives through four games, a 20.5 percent rate.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The defense generated six takeaways through four games: four interceptions and two recovered fumbles.",
+            "page": 20,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Brock Taylor was 5-for-6 on field goals and 12-for-12 on extra points through four games.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Taylor had made 18 of his previous 20 field-goal attempts and was 36-for-41 for his career.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "South Dakota transfer Tyler Ebel averaged 47.4 yards on 14 punts through four games, with six punts of at least 50 yards and six placed inside the 20.",
+            "page": 12,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Vanderbilt returned punts for touchdowns in each of its first two games and scored off blocked kicks in both games.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [
+          {
+            "fact": "Vanderbilt's schedule listed the road game at Kentucky for Oct. 24, 2026, in a night television window.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "high"
+          }
+        ],
+        "source_file": "Vanderbilt.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Vanderbilt scoring-opportunity creation vs Kentucky scoring-opportunity prevention",
+        "off_team": "Vanderbilt",
+        "def_team": "Kentucky",
+        "off_rank": 1,
+        "def_rank": 123,
+        "stat": "Eckel rate",
+        "rank_gap": 122,
+        "direction": "offense_advantage",
+        "matchup_score": 222
+      },
+      {
+        "dimension": "Vanderbilt passing offense vs Kentucky pass defense",
+        "off_team": "Vanderbilt",
+        "def_team": "Kentucky",
+        "off_rank": 34,
+        "def_rank": 94,
+        "stat": "pass EPA",
+        "rank_gap": 60,
+        "direction": "offense_advantage",
+        "matchup_score": 160
+      },
+      {
+        "dimension": "Kentucky rushing offense vs Vanderbilt rush defense",
+        "off_team": "Kentucky",
+        "def_team": "Vanderbilt",
+        "off_rank": 52,
+        "def_rank": 86,
+        "stat": "rush EPA",
+        "rank_gap": 34,
+        "direction": "mixed",
+        "matchup_score": 34
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 4,
+        "fact": "Vanderbilt scored one touchdown on 11 offensive drives against Auburn and converted 4 of 17 third downs.",
+        "page": 20,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Vanderbilt.pdf",
+        "source_team": "Vanderbilt Commodores"
+      },
+      {
+        "fact_id": 6,
+        "fact": "Freshman Jared Curtis started Vanderbilt's two most recent games after senior Blaze Berlowitz started the first two games.",
+        "page": 19,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Vanderbilt.pdf",
+        "source_team": "Vanderbilt Commodores"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Curtis had completed 63 of 98 passes for 746 yards, four touchdowns and three interceptions while rushing 41 times for 133 yards and two touchdowns.",
+        "page": 8,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Vanderbilt.pdf",
+        "source_team": "Vanderbilt Commodores"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Junior Sherrill had 21 receptions for 367 yards and two touchdowns through four games, averaging 91.8 receiving yards per game.",
+        "page": 8,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Vanderbilt.pdf",
+        "source_team": "Vanderbilt Commodores"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Vanderbilt Commodores",
+      "model_side": "Vanderbilt",
+      "opponent_full": "Kentucky Wildcats",
+      "opponent": "Kentucky",
+      "model_prediction": 8.0,
+      "market_line": 10.5,
+      "best_available_line": 11.5,
+      "best_available_price": "-105",
+      "cover_probability": 0.5882876,
+      "edge": 0.0760924780487805,
+      "bet_status": "BET"
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "game": "California Golden Bears@SMU Mustangs",
+  "season": 2026,
+  "week": 8,
+  "generated_at_utc": "2026-10-22T13:21:43.046345+00:00",
+  "model_prediction": -20.5,
+  "market_line": -19.0,
+  "best_line": -18.5,
+  "best_price": "-112",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52122908,
+  "edge": -0.007072806792452813,
+  "bet_short": "SMU",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "Our numbers lean further toward SMU largely because of the down-to-down matchup. California grades poorly in rushing efficiency, while SMU has been substantially better at limiting scoring-opportunity creation. California has converted red-zone trips at a high rate, but for us the larger question is how often it can reach that area without a dependable run game.\n\nCalifornia\u2019s passing performance at UNLV showed the offense has another route: it produced 395 yards and three touchdowns through the air, including three second-half touchdown drives under Jackson Brousseau. Still, Jaron-Keawe Sagapolutele was sidelined before halftime, and the guide did not state his subsequent availability. That uncertainty matters when the passing game may have to carry such a large share of the offense.\n\nSMU also owns the more favorable rushing matchup on the other side, which supports our expectation of separation. The concern is California\u2019s ability to create variance: it had nine takeaways through five games and ranked highly in passing-defense efficiency. We see enough football support for our model\u2019s stronger view of SMU, but not enough value at the available price to move beyond a pass.",
+    "matchup_to_watch": "We are watching California\u2019s scoring-opportunity creation against SMU\u2019s defense. California\u2019s recent passing total looks impressive, but Taimane Purcell\u2019s 91-yard touchdown accounted for a significant piece of it. The useful question is whether California can produce sustained drives rather than depend on isolated explosive plays.\n\nIf SMU contains those explosives and forces California to generate repeated successful plays, the underlying efficiency matchup favors the home side. If California continues finishing drives efficiently and creates short fields through takeaways, staying within the margin becomes more realistic.",
+    "guide_status": [
+      "Found guide for California Golden Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
+      "Guide for California Golden Bears was found but may not match the current opponent. The guide is for California's October 10, 2026 game against Virginia Tech. California's schedule lists the SMU game for October 24, 2026, after games against Virginia Tech and Wake Forest.",
+      "No guide found for SMU Mustangs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/SMU.pdf"
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "California Golden Bears",
+        "opponent": "SMU Mustangs",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is for California's October 10, 2026 game against Virginia Tech. California's schedule lists the SMU game for October 24, 2026, after games against Virginia Tech and Wake Forest.",
+        "recent_game": [
+          {
+            "fact": "California lost 39-31 at UNLV on October 3, falling to 2-3 overall.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaron-Keawe Sagapolutele and Jackson Brousseau combined for 395 passing yards and three touchdowns at UNLV.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman tight end Taimane Purcell caught three passes for 102 yards at UNLV, including a 91-yard touchdown that was the second-longest pass play in California history.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Inside linebacker AJ Tuitele led California with seven tackles and recorded two sacks for 17 yards at UNLV.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Defensive back Aiden Manutai intercepted a trick-play pass in the end zone and made a season-high five tackles at UNLV.",
+            "page": 2,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [],
+        "quarterback": [
+          {
+            "fact": "Starting quarterback Jaron-Keawe Sagapolutele completed 19 of 27 passes for 195 yards and one touchdown at UNLV before being sidelined by an injury near the end of the first half.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Backup quarterback Jackson Brousseau completed 19 of 32 passes for a season-high 200 yards and two touchdowns at UNLV while directing a second-half offense that scored three touchdowns.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through five games, Sagapolutele had completed 107 of 164 passes for 1,180 yards, eight touchdowns and five interceptions.",
+            "page": 8,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Sagapolutele ranked fourth in the ACC with 21.40 completions per game, and his 164 attempts ranked third in the conference despite missing the second half at UNLV.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Sagapolutele set California's record with 210 consecutive pass attempts without an interception earlier in the season.",
+            "page": 2,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Transfer wide receiver Chase Hendricks led California with eight receptions at UNLV and had a team-high 32 catches for 267 yards and two touchdowns through five games.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Rutgers transfer Ian Strong had 23 receptions for a team-high 299 yards through five games and caught his first California touchdown at UNLV.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman tight end Taimane Purcell had six receptions for 125 yards and one touchdown through five games and was named ACC Rookie of the Week after the UNLV game.",
+            "page": 14,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Redshirt sophomore running back Carson Perry-Smith scored on his first career reception, a 53-yard touchdown at UNLV.",
+            "page": 2,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "The offensive line used Frederick Williams III at left tackle, Tyson Ruffins at left guard, Bastian Swinney at center and Sioape Vatikani at right guard in each of the first five games; Michael Klisiewicz started the last three games at right tackle after Jimothy Lewis Jr. started the first two.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Oregon transfer Kingston Lopa led the nation with five interceptions through five games, including three at Syracuse and a pick-six.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Lopa played only one snap at UNLV after starting each of California's first five games.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "AJ Tuitele led California with three sacks and six quarterback hurries and had 25 tackles through five games.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Freshman inside linebacker JD McKinley recorded his first career sack at UNLV and had 14 tackles and two quarterback hurries through five games.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aiden Manutai forced a fumble against Clemson and intercepted a pass at UNLV, producing turnovers in consecutive games.",
+            "page": 2,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [
+          {
+            "fact": "Tosh Lupoi was in his first season as California's head coach in 2026.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Jordan Somerville was in his first season as offensive coordinator and Michael Hutchings was in his first season as defensive coordinator.",
+            "page": 4,
+            "category": "coaching_changes",
+            "importance": "high"
+          },
+          {
+            "fact": "Offensive coordinator Jordan Somerville was the only full-time California coach stationed in the booth on game day; the other full-time coaches worked from the field.",
+            "page": 1,
+            "category": "coaching_changes",
+            "importance": "medium"
+          }
+        ],
+        "injury_availability": [
+          {
+            "fact": "Starting quarterback Jaron-Keawe Sagapolutele was sidelined by an injury near the end of the first half at UNLV; the guide did not state his subsequent availability.",
+            "page": 2,
+            "category": "injury_availability",
+            "importance": "high"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "California ranked second in the ACC and tied for 21st nationally in red-zone offense with a .938 conversion rate.",
+            "page": 1,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California passed for 395 yards and three touchdowns at UNLV, with three touchdown drives in the second half under backup quarterback Jackson Brousseau.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "high"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "California led the ACC and ranked sixth nationally with seven interceptions through five games.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California led the ACC and ranked 16th nationally with nine takeaways.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California ranked second in the ACC and tied for 10th nationally in passing-defense efficiency at 102.89.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "California had scored two defensive touchdowns: Kingston Lopa's interception return against Syracuse and Kamar Mothudi's fumble return against Clemson.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "California ranked fifth in the ACC and tied for 35th nationally in red-zone defense with a .765 opponent conversion rate.",
+            "page": 1,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Freshman Niles Davis recovered a loose kickoff at the UNLV 16-yard line and had 181 yards on nine kickoff returns through five games.",
+            "page": 2,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Aaron Hampton blocked a field goal against Wagner and a punt at UNLV.",
+            "page": 20,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [],
+        "other_relevant": [],
+        "source_file": "California.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "California scoring-opportunity creation vs SMU scoring-opportunity prevention",
+        "off_team": "California",
+        "def_team": "SMU",
+        "off_rank": 98,
+        "def_rank": 32,
+        "stat": "Eckel rate",
+        "rank_gap": 66,
+        "direction": "defense_advantage",
+        "matchup_score": 166
+      },
+      {
+        "dimension": "California rushing offense vs SMU rush defense",
+        "off_team": "California",
+        "def_team": "SMU",
+        "off_rank": 135,
+        "def_rank": 55,
+        "stat": "rush EPA",
+        "rank_gap": 80,
+        "direction": "mixed",
+        "matchup_score": 80
+      },
+      {
+        "dimension": "SMU rushing offense vs California rush defense",
+        "off_team": "SMU",
+        "def_team": "California",
+        "off_rank": 74,
+        "def_rank": 138,
+        "stat": "rush EPA",
+        "rank_gap": 64,
+        "direction": "mixed",
+        "matchup_score": 64
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 3,
+        "fact": "Freshman tight end Taimane Purcell caught three passes for 102 yards at UNLV, including a 91-yard touchdown that was the second-longest pass play in California history.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 24,
+        "fact": "Starting quarterback Jaron-Keawe Sagapolutele was sidelined by an injury near the end of the first half at UNLV; the guide did not state his subsequent availability.",
+        "page": 2,
+        "category": "injury_availability",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 25,
+        "fact": "California ranked second in the ACC and tied for 21st nationally in red-zone offense with a .938 conversion rate.",
+        "page": 1,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 26,
+        "fact": "California passed for 395 yards and three touchdowns at UNLV, with three touchdown drives in the second half under backup quarterback Jackson Brousseau.",
+        "page": 2,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 28,
+        "fact": "California led the ACC and ranked 16th nationally with nine takeaways.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      },
+      {
+        "fact_id": 29,
+        "fact": "California ranked second in the ACC and tied for 10th nationally in passing-defense efficiency at 102.89.",
+        "page": 1,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "California.pdf",
+        "source_team": "California Golden Bears"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "SMU Mustangs",
+      "model_side": "SMU",
+      "opponent_full": "California Golden Bears",
+      "opponent": "California",
+      "model_prediction": -20.5,
+      "market_line": -19.0,
+      "best_available_line": -18.5,
+      "best_available_price": "-112",
+      "cover_probability": 0.52122908,
+      "edge": -0.007072806792452813,
+      "bet_status": "PASS"
+    }
+  }
+}
