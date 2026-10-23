@@ -1799,6 +1799,14 @@
       "game": "Boise State Broncos@Washington State Cougars",
       "kind": "Bet",
       "post_id": "2113668056325234864"
+    },
+    {
+      "date": "2026-10-23",
+      "hour": 13,
+      "season_week": "2026-week-8",
+      "game": "Georgia State Panthers@Arkansas State Red Wolves",
+      "kind": "No Bet",
+      "post_id": "2113681606338879549"
     }
   ]
 }
