@@ -114,9 +114,11 @@
       "drive_file_id": "1LnwGcU5foW6ZrsJwhJskOiNl8TAjaVZk",
       "date": "2026-10-26",
       "slot": "2026-10-26-11",
-      "status": "pending",
+      "status": "posted",
       "attempted_at": "2026-10-26T11:52:06.075025-04:00",
-      "media_id": "2114746950327349248"
+      "media_id": "2114746950327349248",
+      "x_post_id": "2114746979976962101",
+      "posted_at": "2026-10-26T11:52:24.959645-04:00"
     }
   ]
 }
