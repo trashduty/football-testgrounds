@@ -1,4 +1,4 @@
-# BTB TikTok Search Report — 2026-10-19
+# BTB TikTok Search Report — 2026-10-26
 
 > Source: KeywordTool.io TikTok estimated search volume and TikTok keyword suggestions.
 > Search volume is estimated; use it primarily for relative demand and trend comparison.
