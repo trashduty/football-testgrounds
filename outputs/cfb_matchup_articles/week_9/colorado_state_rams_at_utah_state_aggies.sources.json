@@ -1,0 +1,28 @@
+{
+  "game": "Colorado State Rams@Utah State Aggies",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:50:58.666946+00:00",
+  "model_prediction": -12.0,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-108",
+  "best_book": "Caesars",
+  "cover_probability": 0.57951119,
+  "edge": 0.06028042076923068,
+  "bet_short": "Utah State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Colorado State Rams: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Colorado State.pdf",
+      "Guide processing failed for Colorado State Rams: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for Utah State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

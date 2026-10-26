@@ -1,0 +1,27 @@
+{
+  "game": "Delaware Blue Hens@Western Kentucky Hilltoppers",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:50:59.051828+00:00",
+  "model_prediction": -2.0,
+  "market_line": -1.5,
+  "best_line": 1.5,
+  "best_price": "-120",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55728767,
+  "edge": 0.011833124545454599,
+  "bet_short": "Western Kentucky",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Delaware Blue Hens. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Delaware.pdf",
+      "No guide found for Western Kentucky Hilltoppers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Kentucky.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Jacksonville State Gamecocks@New Mexico State Aggies",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:52:08.061490+00:00",
+  "model_prediction": -3.5,
+  "market_line": -3.0,
+  "best_line": -2.5,
+  "best_price": "-120",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.52388858,
+  "edge": -0.021565965454545366,
+  "bet_short": "Jacksonville Stat",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf",
+      "No guide found for New Mexico State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

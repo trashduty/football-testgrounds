@@ -1,0 +1,27 @@
+{
+  "game": "Boston College Eagles@Duke Blue Devils",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:49:19.091062+00:00",
+  "model_prediction": -8.5,
+  "market_line": -7.5,
+  "best_line": -7.5,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.49475761,
+  "edge": -0.005242389999999986,
+  "bet_short": "Duke",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf",
+      "No guide found for Duke Blue Devils. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Duke.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

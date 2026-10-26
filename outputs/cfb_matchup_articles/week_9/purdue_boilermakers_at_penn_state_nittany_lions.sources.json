@@ -1,0 +1,28 @@
+{
+  "game": "Purdue Boilermakers@Penn State Nittany Lions",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:54:50.883031+00:00",
+  "model_prediction": -11.0,
+  "market_line": -7.5,
+  "best_line": -7.5,
+  "best_price": "-109",
+  "best_book": "BetRivers",
+  "cover_probability": 0.53378419,
+  "edge": 0.012253089521531146,
+  "bet_short": "Penn State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Purdue Boilermakers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Purdue.pdf",
+      "Guide processing failed for Purdue Boilermakers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for Penn State Nittany Lions. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Penn State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Northern Illinois Huskies@UNLV Rebels",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:53:41.724011+00:00",
+  "model_prediction": 23.5,
+  "market_line": 24.0,
+  "best_line": 23.5,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.5086415,
+  "edge": 0.008641499999999969,
+  "bet_short": "Northern Illinois",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Northern Illinois Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Northern Illinois.pdf",
+      "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

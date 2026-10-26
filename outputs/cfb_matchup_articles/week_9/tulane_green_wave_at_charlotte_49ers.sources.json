@@ -1,0 +1,27 @@
+{
+  "game": "Tulane Green Wave@Charlotte 49ers",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:55:22.675782+00:00",
+  "model_prediction": -13.0,
+  "market_line": -10.5,
+  "best_line": -10.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52694182,
+  "edge": 0.014746698048780482,
+  "bet_short": "Tulane",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Tulane Green Wave. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulane.pdf",
+      "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "game": "Arizona State Sun Devils@BYU Cougars",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:46:59.634168+00:00",
+  "model_prediction": 15.5,
+  "market_line": 15.5,
+  "best_line": 15.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51290478,
+  "edge": -0.010904743809523887,
+  "bet_short": "Arizona State",
+  "guide_enrichment": {
+    "enabled": true,
+    "narrative": "We are not reacting to Arizona State\u2019s loss to Baylor or BYU\u2019s win over Iowa State as proof of what comes next. The more useful takeaway is that our matchup numbers support the market\u2019s concern about Arizona State sustaining offense. BYU allowed only 80.4 rushing yards per game through five games, while Arizona State converted just 29.6 percent of its third downs through four. If the run game struggles and manageable downs become scarce, Arizona State could have difficulty finishing drives.\n\nWe still see a path for Arizona State to remain competitive through the air. Cutter Boley threw for 1,040 yards with 10 touchdowns and three interceptions over his first four games, and Reed Harris produced 499 receiving yards in that span. Arizona State\u2019s receivers also averaged 8.1 yards after the catch per reception, giving the offense a way to create gains without consistently winning at the line of scrimmage.\n\nThe problem for us is price rather than identifying the stronger side. BYU\u2019s defensive profile and Arizona State\u2019s offensive limitations support the market\u2019s position, while Arizona State\u2019s passing-game potential creates enough resistance to keep us from wanting to pay that price. With our numbers essentially aligned with the market, we do not see sufficient value to move beyond a pass.",
+    "matchup_to_watch": "We are watching Arizona State\u2019s passing game against BYU\u2019s pass defense. The run-game matchup points toward BYU, so Boley\u2019s connection with Harris and Arizona State\u2019s ability to generate yards after the catch become especially important. BYU recorded six interceptions across its first five games, meaning Arizona State must create through the air without giving the home favorite extra possessions. For us, that matchup is the clearest route to Arizona State staying within the market\u2019s expectation.",
+    "guide_status": [
+      "Found guide for Arizona State Sun Devils: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona State.pdf",
+      "Guide for Arizona State Sun Devils was found but may not match the current opponent. The guide is Arizona State's Game 5 notes for its Oct. 10, 2026 matchup with Hawai\u2018i. BYU appears on the schedule as Arizona State's Oct. 31 road opponent in Week 9, but this document was issued before the Hawai\u2018i game and is not a BYU matchup guide.",
+      "Found guide for BYU Cougars: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/BYU.pdf",
+      "Guide for BYU Cougars was found but may not match the current opponent. The guide is explicitly BYU's Game 6 notes for the October 17, 2026 home game against Notre Dame. Arizona State appears only as a later scheduled opponent on October 31."
+    ],
+    "guide_extractions": [
+      {
+        "source_team": "Arizona State Sun Devils",
+        "opponent": "BYU Cougars",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is Arizona State's Game 5 notes for its Oct. 10, 2026 matchup with Hawai\u2018i. BYU appears on the schedule as Arizona State's Oct. 31 road opponent in Week 9, but this document was issued before the Hawai\u2018i game and is not a BYU matchup guide.",
+        "recent_game": [
+          {
+            "fact": "Arizona State fell to 2-2 overall and 1-1 in the Big 12 after a 55-19 home loss to Baylor on Oct. 3.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State gained 409 total yards against Baylor, including 310 passing yards.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Baylor gained 564 total yards against Arizona State, including 244 rushing yards and 320 passing yards.",
+            "page": 11,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Owen Long recorded a season-high 14 tackles against Baylor; Martell Hughes had eight tackles and two tackles for loss, and C.J. Fite had four tackles, 1.5 tackles for loss and one sack.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "medium"
+          },
+          {
+            "fact": "Reed Harris caught seven passes for 125 yards against Baylor, while Omarion Miller had five catches for 85 yards and one touchdown.",
+            "page": 3,
+            "category": "recent_game",
+            "importance": "high"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "Arizona State is scheduled to play at BYU in Provo on Oct. 31, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "Through Oct. 3, BYU was ranked No. 8 and was 4-0 overall and 2-0 in Big 12 play.",
+            "page": 2,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Kentucky transfer Cutter Boley is Arizona State's starting quarterback.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Through four games, Boley had completed 78 of 127 passes for 1,040 yards, 10 touchdowns and three interceptions, with 45 rushing yards and one rushing touchdown.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Boley completed 25 of 43 passes for 304 yards, one touchdown and one interception against Baylor.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Boley threw at least one touchdown pass in each of Arizona State's first four games.",
+            "page": 3,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Reed Harris led Arizona State through four games with 26 receptions, 499 receiving yards and five touchdowns, including three 100-yard games.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State added Harris from Boston College and Omarion Miller from Colorado; Miller had 234 receiving yards through four games.",
+            "page": 7,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State's 2026 offensive line entered the season with 33 combined career starts, including 14 from Oklahoma transfer Luke Baklenko.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Guard Maki Stewart had been credited with allowing one pressure through four games, tied for the second-fewest in the Big 12.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State's interior offensive linemen had allowed nine quarterback pressures through four games, the second-lowest total in the Big 12.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Center Wade Helton was the only returning Arizona State offensive player who had started at least six games in 2025.",
+            "page": 6,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State's 107-player roster included 30 collegiate transfers and 18 incoming freshmen.",
+            "page": 3,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Arizona State had four new starters in the secondary in 2026 after losing cornerbacks Keith Abney and Javan Robinson, who had started 26 consecutive games together before the 2025 Sun Bowl.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Cornerbacks Rodney Bimage and Ashton Stamps had allowed completion rates of 44.4 percent and 47.4 percent when targeted, respectively, through four games.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Owen Long led Arizona State with 39 tackles through four games, 10 more than any other Sun Devil.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Martell Hughes ranked second on the team with 29 tackles and led Arizona State with 5.5 tackles for loss through four games.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State replaced linebackers Jordan Crook and Keyshaun Elliott, who combined for 199 tackles in 2025 and started every regular-season game.",
+            "page": 6,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive lineman C.J. Fite had started 31 consecutive games and had 14.5 tackles for loss and five sacks in 42 career appearances.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Edge defender Jalen Thompson had 15 quarterback pressures through four games, tied for fifth in the Big 12.",
+            "page": 5,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [],
+        "offensive_context": [
+          {
+            "fact": "Through four games, Arizona State averaged 421.8 total yards, 272.8 passing yards, 149.0 rushing yards and 33.3 points per game.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State converted 29.6 percent of its third downs and 50.0 percent of its fourth downs through four games.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "The Sun Devils scored on 10 of their first 11 red-zone possessions, a 90.9 percent rate.",
+            "page": 2,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State receivers averaged 8.1 yards after the catch per reception through four games, third nationally, and totaled 681 yards after the catch.",
+            "page": 7,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Arizona State was 2-1 when rushing for at least 100 yards in 2026 and 0-1 when held below 100 rushing yards.",
+            "page": 12,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "Through four games, Arizona State allowed 355.3 total yards, 201.0 passing yards, 154.3 rushing yards and 31.8 points per game.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents completed 70 of 125 passes against Arizona State through four games, a 56.0 percent completion rate.",
+            "page": 5,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "Opponents converted 23 of 62 combined third- and fourth-down attempts against Arizona State through four games, a 37.1 percent rate.",
+            "page": 2,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State allowed 15 plays of at least 20 yards through four games, including 11 passing plays.",
+            "page": 4,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "Baylor's 564 yards ended Arizona State's regular-season streak of holding every opponent below 450 total yards since the start of 2024.",
+            "page": 7,
+            "category": "defensive_context",
+            "importance": "high"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Kicker Carson Smith made field goals from 46, 32, 36 and 40 yards against Baylor and was 7-for-7 on field-goal attempts through four games.",
+            "page": 3,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "Jaren Hamilton returned a kickoff 100 yards for a touchdown in Arizona State's Sept. 19 victory over Kansas.",
+            "page": 11,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "In the 2024 meeting, Arizona State held BYU to 21 points when BYU entered averaging 31.6 points per game.",
+            "page": 7,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "Arizona State was 11-2 in games decided by seven points or fewer from the start of 2024 through Oct. 3, 2026.",
+            "page": 4,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "Arizona State was 18-7 under Kenny Dillingham when winning time of possession and 6-12 when it did not.",
+            "page": 8,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "Arizona State.pdf"
+      },
+      {
+        "source_team": "BYU Cougars",
+        "opponent": "Arizona State Sun Devils",
+        "document_matches_upcoming_game": false,
+        "document_match_reason": "The guide is explicitly BYU's Game 6 notes for the October 17, 2026 home game against Notre Dame. Arizona State appears only as a later scheduled opponent on October 31.",
+        "recent_game": [
+          {
+            "fact": "BYU defeated Iowa State 24-10 on October 9, improving to 5-0 overall and 3-0 in Big 12 play.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU outgained Iowa State 506-200, but the guide states that penalties and red-zone issues kept the game closer.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Quarterback Bear Bachmeier accounted for 438 total yards and two touchdowns against Iowa State.",
+            "page": 1,
+            "category": "recent_game",
+            "importance": "high"
+          },
+          {
+            "fact": "Against Iowa State, Legend Glasker caught a 75-yard touchdown, Roger Saleapaga II caught a 63-yard pass and Walker Lyons had five receptions for 61 yards.",
+            "page": 12,
+            "category": "recent_game",
+            "importance": "medium"
+          }
+        ],
+        "opponent_notes": [
+          {
+            "fact": "BYU is scheduled to host Arizona State on October 31, 2026.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU and Arizona State did not meet in 2025; their previous meeting was Arizona State's 28-23 home win in 2024, when BYU rallied from a 21-3 halftime deficit but did not complete the comeback.",
+            "page": 1,
+            "category": "opponent_notes",
+            "importance": "medium"
+          }
+        ],
+        "quarterback": [
+          {
+            "fact": "Bear Bachmeier started each of BYU's first five games and completed 77 of 116 passes for 1,033 yards, eight touchdowns and one interception while rushing for 239 yards and four touchdowns.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Bachmeier passed for 329 yards and rushed for 109 yards against Iowa State, recording the third 300-yard passing and 100-yard rushing game by a BYU quarterback.",
+            "page": 13,
+            "category": "quarterback",
+            "importance": "high"
+          },
+          {
+            "fact": "Bachmeier had a 162.2 passing-efficiency rating through five games and averaged 8.91 yards per pass attempt.",
+            "page": 11,
+            "category": "quarterback",
+            "importance": "medium"
+          },
+          {
+            "fact": "Treyson Bourguet, a transfer from Western Michigan, was listed as Bachmeier's primary backup and had appeared in two games without a start in 2026.",
+            "page": 12,
+            "category": "quarterback",
+            "importance": "medium"
+          }
+        ],
+        "offensive_personnel": [
+          {
+            "fact": "Running back LJ Martin had 344 rushing yards and three touchdowns on 44 carries through four appearances, averaging 7.8 yards per carry.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Martin rushed for 176 yards and three touchdowns against Colorado State, his first 100-yard rushing game of 2026.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman receiver Legend Glasker had 19 receptions for 378 yards and three touchdowns plus 83 rushing yards and two rushing touchdowns through five games.",
+            "page": 13,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Glasker averaged 19.89 yards per reception through five games.",
+            "page": 11,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "USC transfer Walker Lyons started each of the first five games at tight end and had 13 receptions for 150 yards.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Oregon transfer Roger Saleapaga II started four of his first four appearances and had six receptions for 108 yards, including a 63-yard catch against Iowa State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "Freshman running back Journee Tonga had 91 rushing yards against Colorado State and scored against Iowa State.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU used three different starting right tackles over its three most recent games: freshman Bott Mulitalo at TCU, redshirt freshman Siosiua Latu-Finau against Iowa State and Andrew Gentry in the first three games.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Paki Finau started all five games at left tackle, Sonny Makasini started all five at left guard and Bruce Mitchell started all five at center.",
+            "page": 12,
+            "category": "offensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "defensive_personnel": [
+          {
+            "fact": "Linebacker Cade Uluave, a transfer from California, led BYU with 26 tackles through five games and also had 2.5 tackles for loss and one interception.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive end Tausili Akana led BYU through five games with six tackles for loss and 3.5 sacks.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Safety Faletau Satuala started all five games and had 23 tackles, two tackles for loss and an interception.",
+            "page": 18,
+            "category": "defensive_personnel",
+            "importance": "high"
+          },
+          {
+            "fact": "Defensive tackle Keanu Tanuvasa started all five games and recorded 10 tackles, 3.5 tackles for loss and two pass breakups.",
+            "page": 17,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU started Jake Clifton at linebacker against Iowa State after Clifton recorded six tackles and a sack at TCU; he added five tackles and two pass breakups against Iowa State.",
+            "page": 16,
+            "category": "defensive_personnel",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU had six interceptions through five games, with one each by Therrian Alexander III, Hunter Clegg, Evan Johnson, Matthias Leach, Faletau Satuala and Cade Uluave.",
+            "page": 11,
+            "category": "defensive_personnel",
+            "importance": "high"
+          }
+        ],
+        "coaching_changes": [],
+        "injury_availability": [
+          {
+            "fact": "Safety Raider Damuni was injured against Utah Tech and had appeared in only one of BYU's first five games.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "high"
+          },
+          {
+            "fact": "Linebacker Siale Esera was listed as out against Colorado State and TCU; the guide does not state his later availability.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "medium"
+          },
+          {
+            "fact": "Primary kickoff specialist Brody Laga was injured at Colorado State; the guide does not provide a return timetable.",
+            "page": 16,
+            "category": "injury_availability",
+            "importance": "medium"
+          }
+        ],
+        "offensive_context": [
+          {
+            "fact": "BYU averaged 433.4 total yards, 223.8 rushing yards, 209.6 passing yards and 34.6 points per game through five games.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU converted 54.4 percent of its third downs through five games, ranking seventh nationally.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU allowed 1.6 tackles for loss per game, the fewest nationally, and 0.6 sacks per game through five games.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU rushed for more than 300 yards against both Utah Tech and Colorado State, including 332 yards against Colorado State.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU had three total turnovers through its first five games and opened the season with turnover-free games against Utah Tech and Arizona.",
+            "page": 10,
+            "category": "offensive_context",
+            "importance": "medium"
+          }
+        ],
+        "defensive_context": [
+          {
+            "fact": "BYU allowed 13.4 points and 254.4 total yards per game through five games, ranking ninth and eighth nationally, respectively.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU allowed 80.4 rushing yards and 174.0 passing yards per game through five games.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU held Iowa State to 200 total yards, its fewest since 2018.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "high"
+          },
+          {
+            "fact": "BYU held TCU to 259 total yards, the Horned Frogs' fewest since their 2022 College Football Playoff game against Georgia.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU had won 18 consecutive games when forcing at least one turnover, dating to 2024.",
+            "page": 10,
+            "category": "defensive_context",
+            "importance": "medium"
+          }
+        ],
+        "special_teams": [
+          {
+            "fact": "Cannon DeVries returned a kickoff 100 yards for a touchdown against Utah Tech and averaged 16.6 yards on seven punt returns through five games.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "high"
+          },
+          {
+            "fact": "First-year starting punter Fuller Shurtz averaged 45.6 yards on 15 punts, with five punts of at least 50 yards.",
+            "page": 18,
+            "category": "special_teams",
+            "importance": "medium"
+          },
+          {
+            "fact": "Kicker Matthias Dunn made three of four field-goal attempts and all 17 extra-point attempts through five games.",
+            "page": 16,
+            "category": "special_teams",
+            "importance": "medium"
+          }
+        ],
+        "series_context": [
+          {
+            "fact": "Arizona State won the most recent BYU-Arizona State meeting 28-23 in Tempe in 2024.",
+            "page": 1,
+            "category": "series_context",
+            "importance": "medium"
+          }
+        ],
+        "other_relevant": [
+          {
+            "fact": "At the time of this guide, BYU was 5-0 overall, 3-0 in Big 12 play and ranked No. 8 in both the AP and Coaches polls.",
+            "page": 1,
+            "category": "other_relevant",
+            "importance": "medium"
+          },
+          {
+            "fact": "BYU returned six offensive starters and seven defensive starters for the 2026 season but replaced both its starting kicker and punter.",
+            "page": 2,
+            "category": "other_relevant",
+            "importance": "medium"
+          }
+        ],
+        "source_file": "BYU.pdf"
+      }
+    ],
+    "matchup_angles": [
+      {
+        "dimension": "Arizona State rushing offense vs BYU rush defense",
+        "off_team": "Arizona State",
+        "def_team": "BYU",
+        "off_rank": 120,
+        "def_rank": 25,
+        "stat": "rush EPA",
+        "rank_gap": 95,
+        "direction": "defense_advantage",
+        "matchup_score": 195
+      },
+      {
+        "dimension": "Arizona State passing offense vs BYU pass defense",
+        "off_team": "Arizona State",
+        "def_team": "BYU",
+        "off_rank": 78,
+        "def_rank": 35,
+        "stat": "pass EPA",
+        "rank_gap": 43,
+        "direction": "defense_advantage",
+        "matchup_score": 143
+      },
+      {
+        "dimension": "Arizona State scoring-opportunity creation vs BYU scoring-opportunity prevention",
+        "off_team": "Arizona State",
+        "def_team": "BYU",
+        "off_rank": 120,
+        "def_rank": 77,
+        "stat": "Eckel rate",
+        "rank_gap": 43,
+        "direction": "mixed",
+        "matchup_score": 43
+      }
+    ],
+    "used_sources": [
+      {
+        "fact_id": 1,
+        "fact": "Arizona State fell to 2-2 overall and 1-1 in the Big 12 after a 55-19 home loss to Baylor on Oct. 3.",
+        "page": 3,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 7,
+        "fact": "Through four games, Boley had completed 78 of 127 passes for 1,040 yards, 10 touchdowns and three interceptions, with 45 rushing yards and one rushing touchdown.",
+        "page": 3,
+        "category": "quarterback",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 10,
+        "fact": "Reed Harris led Arizona State through four games with 26 receptions, 499 receiving yards and five touchdowns, including three 100-yard games.",
+        "page": 3,
+        "category": "offensive_personnel",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 25,
+        "fact": "Arizona State converted 29.6 percent of its third downs and 50.0 percent of its fourth downs through four games.",
+        "page": 10,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 27,
+        "fact": "Arizona State receivers averaged 8.1 yards after the catch per reception through four games, third nationally, and totaled 681 yards after the catch.",
+        "page": 7,
+        "category": "offensive_context",
+        "importance": "high",
+        "source_file": "Arizona State.pdf",
+        "source_team": "Arizona State Sun Devils"
+      },
+      {
+        "fact_id": 38,
+        "fact": "BYU defeated Iowa State 24-10 on October 9, improving to 5-0 overall and 3-0 in Big 12 play.",
+        "page": 1,
+        "category": "recent_game",
+        "importance": "high",
+        "source_file": "BYU.pdf",
+        "source_team": "BYU Cougars"
+      },
+      {
+        "fact_id": 60,
+        "fact": "BYU had six interceptions through five games, with one each by Therrian Alexander III, Hunter Clegg, Evan Johnson, Matthias Leach, Faletau Satuala and Cade Uluave.",
+        "page": 11,
+        "category": "defensive_personnel",
+        "importance": "high",
+        "source_file": "BYU.pdf",
+        "source_team": "BYU Cougars"
+      },
+      {
+        "fact_id": 70,
+        "fact": "BYU allowed 80.4 rushing yards and 174.0 passing yards per game through five games.",
+        "page": 10,
+        "category": "defensive_context",
+        "importance": "high",
+        "source_file": "BYU.pdf",
+        "source_team": "BYU Cougars"
+      }
+    ],
+    "model_context": {
+      "model_side_full": "Arizona State Sun Devils",
+      "model_side": "Arizona State",
+      "opponent_full": "BYU Cougars",
+      "opponent": "BYU",
+      "model_prediction": 15.5,
+      "market_line": 15.5,
+      "best_available_line": 15.5,
+      "best_available_price": "-110",
+      "cover_probability": 0.51290478,
+      "edge": -0.010904743809523887,
+      "bet_status": "PASS"
+    }
+  }
+}

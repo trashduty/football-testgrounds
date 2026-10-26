@@ -1,0 +1,28 @@
+{
+  "game": "Washington Huskies@Nebraska Cornhuskers",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:56:01.401503+00:00",
+  "model_prediction": 7.0,
+  "market_line": 8.5,
+  "best_line": 8.5,
+  "best_price": "-106",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55197946,
+  "edge": 0.03741635320388348,
+  "bet_short": "Washington",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Guide processing failed for Washington Huskies: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for Nebraska Cornhuskers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nebraska.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "Troy Trojans@James Madison Dukes",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:55:22.280452+00:00",
+  "model_prediction": -23.5,
+  "market_line": -21.0,
+  "best_line": -21.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52356888,
+  "edge": 0.011373758048780491,
+  "bet_short": "James Madison",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Troy Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Troy.pdf",
+      "Found guide for James Madison Dukes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/James Madison.pdf",
+      "Guide processing failed for James Madison Dukes: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

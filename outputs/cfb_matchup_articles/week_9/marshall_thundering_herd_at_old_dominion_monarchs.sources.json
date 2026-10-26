@@ -1,0 +1,27 @@
+{
+  "game": "Marshall Thundering Herd@Old Dominion Monarchs",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:52:47.002021+00:00",
+  "model_prediction": 2.5,
+  "market_line": 3.0,
+  "best_line": 2.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.49244727,
+  "edge": -0.0075527300000000075,
+  "bet_short": "Old Dominion",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Marshall Thundering Herd. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Marshall.pdf",
+      "No guide found for Old Dominion Monarchs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Old Dominion.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

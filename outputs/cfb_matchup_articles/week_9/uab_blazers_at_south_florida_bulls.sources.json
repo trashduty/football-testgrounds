@@ -1,0 +1,28 @@
+{
+  "game": "UAB Blazers@South Florida Bulls",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:55:30.929964+00:00",
+  "model_prediction": 8.5,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-104",
+  "best_book": "Caesars",
+  "cover_probability": 0.50591429,
+  "edge": -0.0038896315686274274,
+  "bet_short": "UAB",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for UAB Blazers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UAB.pdf",
+      "Guide processing failed for UAB Blazers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "No guide found for South Florida Bulls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Florida.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

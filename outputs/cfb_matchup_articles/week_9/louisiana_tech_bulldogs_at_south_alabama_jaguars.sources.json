@@ -1,0 +1,27 @@
+{
+  "game": "Louisiana Tech Bulldogs@South Alabama Jaguars",
+  "season": 2026,
+  "week": 9,
+  "generated_at_utc": "2026-10-26T14:52:46.590844+00:00",
+  "model_prediction": 3.5,
+  "market_line": 5.0,
+  "best_line": 5.5,
+  "best_price": "-110",
+  "best_book": "Fanatics",
+  "cover_probability": 0.54798927,
+  "edge": 0.024179746190476137,
+  "bet_short": "South Alabama",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Louisiana Tech Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana Tech.pdf",
+      "No guide found for South Alabama Jaguars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Alabama.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
