@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Bowling Green Falcons | +13.5 (+100) | FanDuel | 51.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Western Michigan Broncos | -14.5 (-105) | theScore Bet | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Bowling Green Falcons | +13.5 (-112) | DraftKings | 53.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Michigan Broncos | -12.5 (-106) | FanDuel | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Bowling Green Falcons visit the Western Michigan Broncos at Waldo Stadium. We make **Bowling Green +13.5**, compared with a market line of +14.
+The Bowling Green Falcons visit the Western Michigan Broncos at Waldo Stadium. We make **Bowling Green +12.5**, compared with a market line of +12.5.
 
-The best number we found is Bowling Green +13.5 at +100. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Bowling Green +13.5 at -112. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,32 +32,32 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#60</td>
+<td class="btb-better">#58</td>
 <td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#131</td>
-<td class="btb-better">#41</td>
+<td class="btb-better">#42</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#65</td>
+<td>#64</td>
 <td class="btb-better">#49</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#106</td>
+<td>#107</td>
 <td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#33</td>
-<td class="btb-better">#21</td>
+<td>#34</td>
+<td class="btb-better">#22</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#81</td>
+<td>#82</td>
 <td class="btb-better">#16</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -2,14 +2,14 @@
   "game": "Temple Owls@East Carolina Pirates",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:55:14.349225+00:00",
+  "generated_at_utc": "2026-10-29T13:15:47.705227+00:00",
   "model_prediction": 6.0,
   "market_line": 6.0,
-  "best_line": 6.5,
-  "best_price": "-110",
-  "best_book": "theScore Bet",
-  "cover_probability": 0.52164819,
-  "edge": -0.00216133380952388,
+  "best_line": 5.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50296211,
+  "edge": -0.009233011951219505,
   "bet_short": "Temple",
   "guide_enrichment": {
     "enabled": false,
@@ -17,9 +17,9 @@
     "matchup_to_watch": "",
     "guide_status": [
       "Found guide for Temple Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf",
-      "Guide processing failed for Temple Owls: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "Guide processing failed for Temple Owls: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
       "Found guide for East Carolina Pirates: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/East Carolina.pdf",
-      "Guide processing failed for East Carolina Pirates: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for East Carolina Pirates: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

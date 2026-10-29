@@ -2,14 +2,14 @@
   "game": "Northwestern Wildcats@Oregon Ducks",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:53:52.320595+00:00",
+  "generated_at_utc": "2026-10-29T13:14:32.580800+00:00",
   "model_prediction": -5.0,
   "market_line": -3.5,
   "best_line": -3.5,
-  "best_price": "-105",
-  "best_book": "DraftKings",
+  "best_price": "-108",
+  "best_book": "BetMGM",
   "cover_probability": 0.51519717,
-  "edge": 0.003002048048780459,
+  "edge": -0.004033599230769291,
   "bet_short": "Oregon",
   "guide_enrichment": {
     "enabled": false,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Northwestern Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Northwestern.pdf",
       "Found guide for Oregon Ducks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon.pdf",
-      "Guide processing failed for Oregon Ducks: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Oregon Ducks: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

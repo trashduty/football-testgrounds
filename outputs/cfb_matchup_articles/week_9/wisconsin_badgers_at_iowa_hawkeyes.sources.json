@@ -2,12 +2,12 @@
   "game": "Wisconsin Badgers@Iowa Hawkeyes",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:56:18.102951+00:00",
+  "generated_at_utc": "2026-10-29T13:16:45.421837+00:00",
   "model_prediction": -6.5,
   "market_line": -3.5,
   "best_line": -3.5,
   "best_price": "100",
-  "best_book": "Fanatics",
+  "best_book": "FanDuel",
   "cover_probability": 0.54492387,
   "edge": 0.04492386999999998,
   "bet_short": "Iowa",
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Wisconsin Badgers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wisconsin.pdf",
       "Found guide for Iowa Hawkeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa.pdf",
-      "Guide processing failed for Iowa Hawkeyes: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Iowa Hawkeyes: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

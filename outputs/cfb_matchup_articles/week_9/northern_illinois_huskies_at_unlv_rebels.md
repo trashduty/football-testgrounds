@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Northern Illinois Huskies | +23.5 (+100) | FanDuel | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UNLV Rebels | -24.5 (-102) | DraftKings | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Northern Illinois Huskies | +24.5 (-110) | theScore Bet | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UNLV Rebels | -24.5 (-104) | FanDuel | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Northern Illinois Huskies visit the UNLV Rebels at Allegiant Stadium. We make **Northern Illinois +23.5**, compared with a market line of +24.
 
-The best number we found is Northern Illinois +23.5 at +100. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Northern Illinois +24.5 at -110. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,27 +38,27 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#91</td>
-<td class="btb-better">#70</td>
+<td class="btb-better">#69</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#7</td>
-<td>#24</td>
+<td>#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#131</td>
-<td class="btb-better">#97</td>
+<td class="btb-better">#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#54</td>
-<td>#77</td>
+<td>#78</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#65</td>
-<td>#87</td>
+<td>#86</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UAB Blazers | +7.5 (-104) | Caesars | 50.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Florida Bulls | -7.5 (-108) | BetRivers | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UAB Blazers | +9.5 (-110) | theScore Bet | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Florida Bulls | -7.5 (-108) | FanDuel | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UAB Blazers visit the South Florida Bulls at Raymond James Stadium. We make **UAB +8.5**, compared with a market line of +7.5.
+The UAB Blazers visit the South Florida Bulls at Raymond James Stadium. We make **UAB +9**, compared with a market line of +8.
 
-The best number we found is UAB +7.5 at -104. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UAB +9.5 at -110. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,12 +32,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#125</td>
-<td class="btb-better">#35</td>
+<td>#124</td>
+<td class="btb-better">#36</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#71</td>
+<td>#70</td>
 <td class="btb-better">#38</td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#105</td>
+<td>#106</td>
 <td class="btb-better">#31</td>
 </tr>
 <tr>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#82</td>
-<td class="btb-better">#34</td>
+<td>#83</td>
+<td class="btb-better">#33</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas Jayhawks | +5.5 (-105) | theScore Bet | 54.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| TCU Horned Frogs | -5.5 (-106) | FanDuel | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas Jayhawks | +5.5 (-105) | FanDuel | 54.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| TCU Horned Frogs | -5.5 (-110) | BetRivers | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Kansas Jayhawks visit the TCU Horned Frogs at Amon G. Carter Stadium. We make **Kansas +4**, compared with a market line of +5.5.
+The Kansas Jayhawks visit the TCU Horned Frogs at Amon G. Carter Stadium. We make **Kansas +4**, compared with a market line of +6.
 
 The best number we found is Kansas +5.5 at -105. We give Kansas a 54.3% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so Kansas is a bet.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#113</td>
-<td class="btb-better">#31</td>
+<td class="btb-better">#32</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#81</td>
+<td>#82</td>
 <td class="btb-better">#58</td>
 </tr>
 <tr>
@@ -52,12 +52,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#35</td>
-<td class="btb-better">#28</td>
+<td>#36</td>
+<td class="btb-better">#30</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#128</td>
+<td>#127</td>
 <td class="btb-better">#10</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

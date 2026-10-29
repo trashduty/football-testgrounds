@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas State Bobcats | +11.5 (-105) | theScore Bet | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boise State Broncos | -11.5 (-108) | DraftKings | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas State Bobcats | +11.5 (-110) | theScore Bet | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boise State Broncos | -10.5 (-113) | BetRivers | 53.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas State Bobcats visit the Boise State Broncos at Albertsons Stadium. We make **Boise State -14**, compared with a market line of -11.5.
+The Texas State Bobcats visit the Boise State Broncos at Albertsons Stadium. We make **Boise State -14**, compared with a market line of -11.
 
-The best number we found is Boise State -11.5 at -108. We see a -0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Boise State -10.5 at -113. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,23 +42,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#23</td>
-<td>#104</td>
+<td class="btb-better">#24</td>
+<td>#105</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#68</td>
+<td>#67</td>
 <td class="btb-better">#24</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#39</td>
-<td>#89</td>
+<td class="btb-better">#40</td>
+<td>#91</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#68</td>
-<td class="btb-better">#55</td>
+<td class="btb-better">#53</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

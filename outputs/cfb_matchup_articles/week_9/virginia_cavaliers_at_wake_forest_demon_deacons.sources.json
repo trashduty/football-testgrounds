@@ -2,14 +2,14 @@
   "game": "Virginia Cavaliers@Wake Forest Demon Deacons",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:55:55.991042+00:00",
-  "model_prediction": 12.5,
-  "market_line": 14.0,
+  "generated_at_utc": "2026-10-29T13:16:24.734488+00:00",
+  "model_prediction": 11.5,
+  "market_line": 12.5,
   "best_line": 13.5,
-  "best_price": "100",
-  "best_book": "FanDuel",
-  "cover_probability": 0.53046566,
-  "edge": 0.03046565999999995,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.55065524,
+  "edge": 0.020138808075117365,
   "bet_short": "Virginia",
   "guide_enrichment": {
     "enabled": false,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Virginia Cavaliers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia.pdf",
       "Found guide for Wake Forest Demon Deacons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wake Forest.pdf",
-      "Guide processing failed for Wake Forest Demon Deacons: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Wake Forest Demon Deacons: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

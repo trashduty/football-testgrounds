@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Mexico Lobos | -14.5 (-102) | FanDuel | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| New Mexico Lobos | -14.5 (-109) | Caesars | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | San Jose State Spartans | +15.5 (-115) | theScore Bet | 55.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#134</td>
+<td>#133</td>
 <td class="btb-better">#112</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#70</td>
+<td>#69</td>
 <td class="btb-better">#1</td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#102</td>
+<td>#104</td>
 <td class="btb-better">#8</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

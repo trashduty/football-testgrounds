@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kent State Golden Flashes | -9.5 (-110) | theScore Bet | 59.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Sacramento State | +10.5 (-112) | BetRivers | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kent State Golden Flashes | -8.5 (-104) | FanDuel | 59.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Sacramento State | +8.5 (-108) | DraftKings | 40.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Kent State Golden Flashes visit the Sacramento State at Hornet Stadium. We make **Kent State -15**, compared with a market line of -10.
+The Kent State Golden Flashes visit the Sacramento State at Hornet Stadium. We make **Kent State -14.5**, compared with a market line of -8.5.
 
-The best number we found is Kent State -9.5 at -110. We give Kent State a 59.1% chance to cover, which creates an 6.7% edge for us. That clears our 3% threshold, so Kent State is a bet.
+The best number we found is Kent State -8.5 at -104. We give Kent State a 59.7% chance to cover, which creates an 8.7% edge for us. That clears our 3% threshold, so Kent State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#103</td>
-<td>#135</td>
+<td>#134</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,23 +42,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#80</td>
+<td class="btb-better">#81</td>
 <td>#124</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#104</td>
-<td>#117</td>
+<td class="btb-better">#105</td>
+<td>#118</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#98</td>
+<td>#100</td>
 <td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#109</td>
-<td class="btb-better">#51</td>
+<td>#107</td>
+<td class="btb-better">#49</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

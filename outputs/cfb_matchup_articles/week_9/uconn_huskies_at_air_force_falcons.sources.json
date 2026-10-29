@@ -2,14 +2,14 @@
   "game": "UConn Huskies@Air Force Falcons",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:55:41.800096+00:00",
-  "model_prediction": -3.5,
-  "market_line": -3.0,
-  "best_line": -3.5,
-  "best_price": "105",
-  "best_book": "theScore Bet",
-  "cover_probability": 0.4801296,
-  "edge": -0.007675278048780487,
+  "generated_at_utc": "2026-10-29T13:16:11.852080+00:00",
+  "model_prediction": -2.5,
+  "market_line": -1.5,
+  "best_line": -1.5,
+  "best_price": "100",
+  "best_book": "DraftKings",
+  "cover_probability": 0.51674859,
+  "edge": 0.016748589999999952,
   "bet_short": "Air Force",
   "guide_enrichment": {
     "enabled": false,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for UConn Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Connecticut.pdf",
       "Found guide for Air Force Falcons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Air Force.pdf",
-      "Guide processing failed for Air Force Falcons: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Air Force Falcons: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas State Wildcats | -2.5 (-108) | BetRivers | 55.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Colorado Buffaloes | +2.5 (+100) | theScore Bet | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas State Wildcats | +2.5 (-105) | theScore Bet | 59.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Colorado Buffaloes | +0.5 (-112) | BetRivers | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Kansas State Wildcats visit the Colorado Buffaloes at Folsom Field. We make **Kansas State -5**, compared with a market line of -2.5.
+The Kansas State Wildcats visit the Colorado Buffaloes at Folsom Field. We make **Kansas State -2.5**, compared with a market line of +1.5.
 
-The best number we found is Kansas State -2.5 at -108. We give Kansas State a 55.4% chance to cover, which creates an 3.4% edge for us. That clears our 3% threshold, so Kansas State is a bet.
+The best number we found is Kansas State +2.5 at -105. We give Kansas State a 59.1% chance to cover, which creates an 7.9% edge for us. That clears our 3% threshold, so Kansas State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#75</td>
-<td>#96</td>
+<td class="btb-better">#73</td>
+<td>#95</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,23 +42,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#31</td>
-<td>#118</td>
+<td class="btb-better">#32</td>
+<td>#117</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#118</td>
+<td>#119</td>
 <td class="btb-better">#38</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#74</td>
-<td>#128</td>
+<td class="btb-better">#75</td>
+<td>#129</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#102</td>
-<td class="btb-better">#98</td>
+<td>#101</td>
+<td class="btb-better">#97</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

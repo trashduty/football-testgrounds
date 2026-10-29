@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Purdue Boilermakers | +7.5 (-107) | Caesars | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Penn State Nittany Lions | -7.5 (-109) | BetRivers | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Purdue Boilermakers | +9.5 (-107) | Caesars | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Penn State Nittany Lions | -8.5 (-110) | FanDuel | 54.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Purdue Boilermakers visit the Penn State Nittany Lions at Beaver Stadium. We make **Penn State -11**, compared with a market line of -7.5.
+The Purdue Boilermakers visit the Penn State Nittany Lions at Beaver Stadium. We make **Penn State -12.5**, compared with a market line of -9.5.
 
-The best number we found is Penn State -7.5 at -109. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Penn State -8.5 at -110. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,12 +33,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#6</td>
-<td>#66</td>
+<td>#65</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#67</td>
-<td>#117</td>
+<td class="btb-better">#66</td>
+<td>#118</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -47,17 +47,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#99</td>
+<td class="btb-better">#101</td>
 <td>#127</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#3</td>
-<td>#111</td>
+<td>#112</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#52</td>
+<td class="btb-better">#50</td>
 <td>#121</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

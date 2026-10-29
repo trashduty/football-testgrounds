@@ -2,14 +2,14 @@
   "game": "Utah Utes@Cincinnati Bearcats",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:55:48.675155+00:00",
+  "generated_at_utc": "2026-10-29T13:16:18.056210+00:00",
   "model_prediction": 7.0,
   "market_line": 6.5,
   "best_line": 6.5,
-  "best_price": "-103",
-  "best_book": "Caesars",
+  "best_price": "100",
+  "best_book": "theScore Bet",
   "cover_probability": 0.50409995,
-  "edge": -0.003289212561576438,
+  "edge": 0.004099949999999963,
   "bet_short": "Cincinnati",
   "guide_enrichment": {
     "enabled": false,
@@ -17,7 +17,7 @@
     "matchup_to_watch": "",
     "guide_status": [
       "Found guide for Utah Utes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah.pdf",
-      "Guide processing failed for Utah Utes: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "Guide processing failed for Utah Utes: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
       "No guide found for Cincinnati Bearcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Cincinnati.pdf"
     ],
     "guide_extractions": [],

@@ -2,14 +2,14 @@
   "game": "Mississippi State Bulldogs@Texas Longhorns",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:53:32.732533+00:00",
+  "generated_at_utc": "2026-10-29T13:14:14.729314+00:00",
   "model_prediction": 19.5,
   "market_line": 20.5,
   "best_line": 20.5,
-  "best_price": "-105",
-  "best_book": "BetMGM",
+  "best_price": "-108",
+  "best_book": "FanDuel",
   "cover_probability": 0.5253246,
-  "edge": 0.013129478048780507,
+  "edge": 0.006093830769230757,
   "bet_short": "Mississippi State",
   "guide_enrichment": {
     "enabled": false,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Mississippi State Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Mississippi State.pdf",
       "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
-      "Guide processing failed for Texas Longhorns: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Texas Longhorns: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

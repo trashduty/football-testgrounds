@@ -1,6 +1,6 @@
-Our model is 0 points away from the market on Arizona State-BYU.
+Our model is 0.5 points away from the market on Arizona State-BYU.
 
-We make Arizona State +15.5. The market is +15.5.
+We make Arizona State +16. The market is +16.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,20 +6,16 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona State Sun Devils | +15.5 (-110) | FanDuel | 51.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| BYU Cougars | -14.5 (-110) | BetRivers | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona State Sun Devils | +16.5 (-110) | BetMGM | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| BYU Cougars | -16.5 (-107) | Caesars | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Arizona State Sun Devils visit the BYU Cougars at LaVell Edwards Stadium. We make **Arizona State +15.5**, compared with a market line of +15.5.
+The Arizona State Sun Devils visit the BYU Cougars at LaVell Edwards Stadium. We make **Arizona State +16**, compared with a market line of +16.5.
 
-The best number we found is Arizona State +15.5 at -110. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona State +16.5 at -110. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
-We are not reacting to Arizona State’s loss to Baylor or BYU’s win over Iowa State as proof of what comes next. The more useful takeaway is that our matchup numbers support the market’s concern about Arizona State sustaining offense. BYU allowed only 80.4 rushing yards per game through five games, while Arizona State converted just 29.6 percent of its third downs through four. If the run game struggles and manageable downs become scarce, Arizona State could have difficulty finishing drives.
-
-We still see a path for Arizona State to remain competitive through the air. Cutter Boley threw for 1,040 yards with 10 touchdowns and three interceptions over his first four games, and Reed Harris produced 499 receiving yards in that span. Arizona State’s receivers also averaged 8.1 yards after the catch per reception, giving the offense a way to create gains without consistently winning at the line of scrimmage.
-
-The problem for us is price rather than identifying the stronger side. BYU’s defensive profile and Arizona State’s offensive limitations support the market’s position, while Arizona State’s passing-game potential creates enough resistance to keep us from wanting to pay that price. With our numbers essentially aligned with the market, we do not see sufficient value to move beyond a pass.
+We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
 ### What The Numbers Say
 
@@ -36,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#78</td>
-<td class="btb-better">#50</td>
+<td>#76</td>
+<td class="btb-better">#49</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -47,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#60</td>
-<td class="btb-better">#35</td>
+<td class="btb-better">#37</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -56,26 +52,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#120</td>
-<td class="btb-better">#87</td>
+<td>#121</td>
+<td class="btb-better">#88</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#113</td>
-<td class="btb-better">#77</td>
+<td>#111</td>
+<td class="btb-better">#78</td>
 </tr>
 </tbody>
 </table>
 
 These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
 
-### The Matchup To Watch
-
-We are watching Arizona State’s passing game against BYU’s pass defense. The run-game matchup points toward BYU, so Boley’s connection with Harris and Arizona State’s ability to generate yards after the catch become especially important. BYU recorded six interceptions across its first five games, meaning Arizona State must create through the air without giving the home favorite extra possessions. For us, that matchup is the clearest route to Arizona State staying within the market’s expectation.
-
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

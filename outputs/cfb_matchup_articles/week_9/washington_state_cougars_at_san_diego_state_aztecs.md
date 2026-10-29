@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington State Cougars | +2.5 (+105) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| San Diego State Aztecs | -3.5 (+110) | FanDuel | 48.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | +2.5 (-104) | Caesars | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| San Diego State Aztecs | -2.5 (-105) | theScore Bet | 52.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Washington State Cougars visit the San Diego State Aztecs at Snapdragon Stadium. We make **San Diego State -3.5**, compared with a market line of -3.
+The Washington State Cougars visit the San Diego State Aztecs at Snapdragon Stadium. We make **San Diego State -3.5**, compared with a market line of -2.5.
 
-The best number we found is San Diego State -3.5 at +110. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is San Diego State -2.5 at -105. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,22 +32,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#126</td>
-<td>#131</td>
+<td class="btb-better">#125</td>
+<td>#130</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#108</td>
+<td>#110</td>
 <td class="btb-better">#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#73</td>
+<td>#72</td>
 <td class="btb-better">#53</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#100</td>
+<td>#102</td>
 <td class="btb-better">#94</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#85</td>
-<td>#93</td>
+<td>#92</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

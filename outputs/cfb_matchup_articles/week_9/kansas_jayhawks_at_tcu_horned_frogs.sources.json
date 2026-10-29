@@ -2,12 +2,12 @@
   "game": "Kansas Jayhawks@TCU Horned Frogs",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:52:36.599289+00:00",
+  "generated_at_utc": "2026-10-29T13:13:35.656739+00:00",
   "model_prediction": 4.0,
-  "market_line": 5.5,
+  "market_line": 6.0,
   "best_line": 5.5,
   "best_price": "-105",
-  "best_book": "theScore Bet",
+  "best_book": "FanDuel",
   "cover_probability": 0.54272466,
   "edge": 0.030529538048780447,
   "bet_short": "Kansas",
@@ -17,9 +17,9 @@
     "matchup_to_watch": "",
     "guide_status": [
       "Found guide for Kansas Jayhawks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas.pdf",
-      "Guide processing failed for Kansas Jayhawks: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "Guide processing failed for Kansas Jayhawks: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
       "Found guide for TCU Horned Frogs: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/TCU.pdf",
-      "Guide processing failed for TCU Horned Frogs: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for TCU Horned Frogs: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

@@ -2,7 +2,7 @@
   "game": "Georgia Tech Yellow Jackets@Pittsburgh Panthers",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:52:00.216610+00:00",
+  "generated_at_utc": "2026-10-29T13:13:06.915687+00:00",
   "model_prediction": -9.5,
   "market_line": -7.5,
   "best_line": -7.5,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Georgia Tech Yellow Jackets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Tech.pdf",
       "Found guide for Pittsburgh Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf",
-      "Guide processing failed for Pittsburgh Panthers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Pittsburgh Panthers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

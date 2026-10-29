@@ -1,6 +1,6 @@
 Our model is 1 point away from the market on App State-Georgia Southern.
 
-We make App State +6. The market is +5.
+We make Georgia Southern -6.5. The market is -5.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

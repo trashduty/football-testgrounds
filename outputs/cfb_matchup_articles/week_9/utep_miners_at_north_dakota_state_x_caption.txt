@@ -1,9 +1,9 @@
-Our model is 3 points away from the market on UTEP-North Dakota State.
+Our model is 3.5 points away from the market on UTEP-North Dakota State.
 
-We make North Dakota State -28.5. The market is -25.5.
+We make North Dakota State -27.5. The market is -24.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: North Dakota State -24.5 +100. We give it a 55.0% chance to cover with a 5.0% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

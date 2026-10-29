@@ -2,15 +2,15 @@
   "game": "Coastal Carolina Chanticleers@Georgia State Panthers",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:50:51.972521+00:00",
-  "model_prediction": 7.5,
-  "market_line": 6.5,
-  "best_line": 6.5,
-  "best_price": "-104",
+  "generated_at_utc": "2026-10-29T13:12:12.548275+00:00",
+  "model_prediction": -7.0,
+  "market_line": -6.0,
+  "best_line": -6.5,
+  "best_price": "-105",
   "best_book": "FanDuel",
-  "cover_probability": 0.49546116,
-  "edge": -0.014342761568627405,
-  "bet_short": "Coastal Carolina",
+  "cover_probability": 0.49347663,
+  "edge": -0.018718491951219496,
+  "bet_short": "Georgia State",
   "guide_enrichment": {
     "enabled": false,
     "narrative": "",
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Coastal Carolina Chanticleers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Coastal Carolina.pdf",
       "Found guide for Georgia State Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia State.pdf",
-      "Guide processing failed for Georgia State Panthers: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Georgia State Panthers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

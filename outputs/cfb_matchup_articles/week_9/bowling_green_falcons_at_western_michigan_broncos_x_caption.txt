@@ -1,6 +1,6 @@
-Our model is 0.5 points away from the market on Bowling Green-Western Michigan.
+Our model is 0 points away from the market on Bowling Green-Western Michigan.
 
-We make Bowling Green +13.5. The market is +14.
+We make Bowling Green +12.5. The market is +12.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon State Beavers | -6.5 (-105) | FanDuel | 36.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Fresno State Bulldogs | +6.5 (-107) | BetRivers | 63.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Oregon State Beavers | -5.5 (-109) | Caesars | 37.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Fresno State Bulldogs | +5.5 (-106) | FanDuel | 62.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Oregon State Beavers visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Fresno State -0.5**, compared with a market line of +6.5.
+The Oregon State Beavers visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Fresno State -1**, compared with a market line of +5.5.
 
-The best number we found is Fresno State +6.5 at -107. We give Fresno State a 63.1% chance to cover, which creates an 11.4% edge for us. That clears our 3% threshold, so Fresno State is a bet.
+The best number we found is Fresno State +5.5 at -106. We give Fresno State a 62.3% chance to cover, which creates an 10.9% edge for us. That clears our 3% threshold, so Fresno State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#74</td>
-<td class="btb-better">#51</td>
+<td>#72</td>
+<td class="btb-better">#50</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,18 +42,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#25</td>
-<td>#29</td>
+<td class="btb-better">#26</td>
+<td>#30</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#28</td>
-<td>#72</td>
+<td>#71</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#103</td>
-<td class="btb-better">#76</td>
+<td>#105</td>
+<td class="btb-better">#77</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

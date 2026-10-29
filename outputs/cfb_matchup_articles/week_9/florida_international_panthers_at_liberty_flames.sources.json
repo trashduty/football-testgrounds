@@ -2,14 +2,14 @@
   "game": "Florida International Panthers@Liberty Flames",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:51:43.611809+00:00",
+  "generated_at_utc": "2026-10-29T13:12:55.042428+00:00",
   "model_prediction": -17.0,
   "market_line": -14.0,
-  "best_line": -14.0,
-  "best_price": "-110",
-  "best_book": "BetMGM",
-  "cover_probability": 0.53462798,
-  "edge": 0.010818456190476167,
+  "best_line": -13.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55445187,
+  "edge": 0.01956814906976745,
   "bet_short": "Liberty",
   "guide_enrichment": {
     "enabled": false,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Florida International Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida InternationaL.pdf",
       "Found guide for Liberty Flames: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Liberty.pdf",
-      "Guide processing failed for Liberty Flames: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Liberty Flames: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

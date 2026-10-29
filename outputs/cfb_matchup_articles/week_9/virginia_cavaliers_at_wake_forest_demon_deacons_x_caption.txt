@@ -1,9 +1,9 @@
-Our model is 1.5 points away from the market on Virginia-Wake Forest.
+Our model is 1 point away from the market on Virginia-Wake Forest.
 
-We make Virginia +12.5. The market is +14.
+We make Virginia +11.5. The market is +12.5.
 
-Best number: Virginia +13.5 +100. We give it a 53.0% chance to cover with a 3.0% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓

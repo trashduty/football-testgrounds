@@ -2,14 +2,14 @@
   "game": "Bowling Green Falcons@Western Michigan Broncos",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:50:03.821438+00:00",
-  "model_prediction": 13.5,
-  "market_line": 14.0,
+  "generated_at_utc": "2026-10-29T13:11:34.522038+00:00",
+  "model_prediction": 12.5,
+  "market_line": 12.5,
   "best_line": 13.5,
-  "best_price": "100",
-  "best_book": "FanDuel",
-  "cover_probability": 0.51017652,
-  "edge": 0.010176520000000022,
+  "best_price": "-112",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53046566,
+  "edge": 0.002163773207547126,
   "bet_short": "Bowling Green",
   "guide_enrichment": {
     "enabled": false,
@@ -17,9 +17,9 @@
     "matchup_to_watch": "",
     "guide_status": [
       "Found guide for Bowling Green Falcons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Bowling Green.pdf",
-      "Guide processing failed for Bowling Green Falcons: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "Guide processing failed for Bowling Green Falcons: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
       "Found guide for Western Michigan Broncos: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Michigan.pdf",
-      "Guide processing failed for Western Michigan Broncos: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Western Michigan Broncos: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

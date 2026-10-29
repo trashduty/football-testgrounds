@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on SMU-Syracuse.
 
-We make Syracuse +9.5. The market is +9.5.
+We make Syracuse +10.5. The market is +10.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

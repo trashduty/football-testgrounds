@@ -2,14 +2,14 @@
   "game": "Florida Atlantic Owls@North Texas Mean Green",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:51:05.648084+00:00",
-  "model_prediction": -16.0,
-  "market_line": -13.5,
-  "best_line": -13.5,
-  "best_price": "-108",
-  "best_book": "BetMGM",
-  "cover_probability": 0.52157105,
-  "edge": 0.0023402807692307626,
+  "generated_at_utc": "2026-10-29T13:12:25.244078+00:00",
+  "model_prediction": -17.0,
+  "market_line": -14.5,
+  "best_line": -14.5,
+  "best_price": "-105",
+  "best_book": "Fanatics",
+  "cover_probability": 0.52160647,
+  "edge": 0.009411348048780521,
   "bet_short": "North Texas",
   "guide_enrichment": {
     "enabled": false,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for Florida Atlantic Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida Atlantic.pdf",
       "Found guide for North Texas Mean Green: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf",
-      "Guide processing failed for North Texas Mean Green: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for North Texas Mean Green: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

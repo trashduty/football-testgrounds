@@ -2,14 +2,14 @@
   "game": "SMU Mustangs@Syracuse Orange",
   "season": 2026,
   "week": 9,
-  "generated_at_utc": "2026-10-26T14:54:58.182776+00:00",
-  "model_prediction": 9.5,
-  "market_line": 9.5,
+  "generated_at_utc": "2026-10-29T13:15:32.572203+00:00",
+  "model_prediction": 10.5,
+  "market_line": 10.5,
   "best_line": 9.5,
-  "best_price": "-105",
-  "best_book": "Fanatics",
-  "cover_probability": 0.52674771,
-  "edge": 0.014552588048780457,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50928025,
+  "edge": 0.00928024999999999,
   "bet_short": "Syracuse",
   "guide_enrichment": {
     "enabled": false,
@@ -18,7 +18,7 @@
     "guide_status": [
       "No guide found for SMU Mustangs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/SMU.pdf",
       "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
-      "Guide processing failed for Syracuse Orange: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+      "Guide processing failed for Syracuse Orange: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
     ],
     "guide_extractions": [],
     "matchup_angles": [],

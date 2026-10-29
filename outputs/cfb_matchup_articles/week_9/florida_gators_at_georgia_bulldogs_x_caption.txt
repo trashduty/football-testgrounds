@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Florida-Georgia.
+Our model is 1 point away from the market on Florida-Georgia.
 
-We make Georgia -12.5. The market is -10.5.
+We make Georgia -13.5. The market is -12.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
