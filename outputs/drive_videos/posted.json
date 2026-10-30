@@ -194,9 +194,11 @@
       "drive_file_id": "15pHy29EtCc5wsn2baMvBRb84x-UHD6em",
       "date": "2026-10-30",
       "slot": "2026-10-30-11",
-      "status": "pending",
+      "status": "posted",
       "attempted_at": "2026-10-30T11:04:29.632768-04:00",
-      "media_id": "2116184563235856386"
+      "media_id": "2116184563235856386",
+      "x_post_id": "2116184632890741010",
+      "posted_at": "2026-10-30T11:05:08.146375-04:00"
     }
   ]
 }
