@@ -7,7 +7,7 @@
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
     "games": 7,
     "prior_weight": 0.0442,
-    "power_pts": 14.7414,
+    "power_pts": 14.7413,
     "off_pts": 6.4668,
     "def_pts": 8.2745,
     "power_rank": 1,
@@ -399,7 +399,7 @@
     "prior_weight": 0.0442,
     "power_pts": 9.6589,
     "off_pts": 2.2238,
-    "def_pts": 7.4352,
+    "def_pts": 7.4351,
     "power_rank": 11,
     "off_rank": 47,
     "def_rank": 6,
@@ -4208,7 +4208,7 @@
     "def_pass_epa_rank": 129,
     "def_rush_epa_rank": 105,
     "def_eckel_rate_rank": 136,
-    "power_change": 0.5234,
+    "power_change": 0.5233,
     "rank_change": 2
   },
   {
