@@ -1,9 +1,7 @@
 name: Post Drive Videos to X
 
 on:
-  schedule:
-    # Cover both EST and EDT; Python admits only 11 AM / 6 PM New York time.
-    - cron: '0 15,16,22,23 * * *'
+
   workflow_dispatch:
     inputs:
       action:
