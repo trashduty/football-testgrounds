@@ -1,0 +1,29 @@
+{
+  "game": "Alabama Crimson Tide@LSU Tigers",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:10:26.493757+00:00",
+  "model_prediction": -7.0,
+  "market_line": -5.5,
+  "best_line": -5.5,
+  "best_price": "-109",
+  "best_book": "Caesars",
+  "cover_probability": 0.50970984,
+  "edge": -0.011821260478468876,
+  "bet_short": "LSU",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Alabama Crimson Tide: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Alabama.pdf",
+      "Guide processing failed for Alabama Crimson Tide: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for LSU Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/LSU.pdf",
+      "Guide processing failed for LSU Tigers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

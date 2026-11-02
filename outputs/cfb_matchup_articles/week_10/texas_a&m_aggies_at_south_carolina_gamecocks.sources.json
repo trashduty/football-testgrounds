@@ -1,0 +1,28 @@
+{
+  "game": "Texas A&M Aggies@South Carolina Gamecocks",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:16:30.753545+00:00",
+  "model_prediction": 6.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.55882026,
+  "edge": 0.03501073619047612,
+  "bet_short": "Texas A&M",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Texas A&M Aggies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf",
+      "Guide processing failed for Texas A&M Aggies: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for South Carolina Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Carolina.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

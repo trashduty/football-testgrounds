@@ -1,0 +1,27 @@
+{
+  "game": "Ohio Bobcats@Akron Zips",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:14:52.263685+00:00",
+  "model_prediction": -15.0,
+  "market_line": -12.5,
+  "best_line": -12.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53184264,
+  "edge": 0.01964751804878051,
+  "bet_short": "Ohio",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Ohio Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio.pdf",
+      "No guide found for Akron Zips. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Akron.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

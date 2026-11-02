@@ -1,0 +1,28 @@
+{
+  "game": "Penn State Nittany Lions@Washington Huskies",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:15:32.271279+00:00",
+  "model_prediction": -3.5,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52388858,
+  "edge": 0.011693458048780525,
+  "bet_short": "Washington",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Penn State Nittany Lions. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Penn State.pdf",
+      "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Guide processing failed for Washington Huskies: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

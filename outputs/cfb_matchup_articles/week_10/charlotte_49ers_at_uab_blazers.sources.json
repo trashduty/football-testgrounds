@@ -1,0 +1,28 @@
+{
+  "game": "Charlotte 49ers@UAB Blazers",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:11:34.607794+00:00",
+  "model_prediction": 12.0,
+  "market_line": 10.5,
+  "best_line": 10.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.50323165,
+  "edge": -0.015999119230769243,
+  "bet_short": "Charlotte",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf",
+      "Found guide for UAB Blazers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UAB.pdf",
+      "Guide processing failed for UAB Blazers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

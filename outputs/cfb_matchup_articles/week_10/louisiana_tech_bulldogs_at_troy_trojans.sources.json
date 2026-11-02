@@ -1,0 +1,27 @@
+{
+  "game": "Louisiana Tech Bulldogs@Troy Trojans",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:14:06.203359+00:00",
+  "model_prediction": 3.0,
+  "market_line": 5.5,
+  "best_line": 5.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.56245099,
+  "edge": 0.03864146619047615,
+  "bet_short": "Troy",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Louisiana Tech Bulldogs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana Tech.pdf",
+      "No guide found for Troy Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Troy.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

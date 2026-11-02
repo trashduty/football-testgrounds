@@ -1,0 +1,27 @@
+{
+  "game": "Western Kentucky Hilltoppers@Middle Tennessee Blue Raiders",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:18:02.156078+00:00",
+  "model_prediction": -2.0,
+  "market_line": -1.5,
+  "best_line": 1.5,
+  "best_price": "-117",
+  "best_book": "BetRivers",
+  "cover_probability": 0.55728767,
+  "edge": 0.01811716308755762,
+  "bet_short": "Middle Tennessee",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Western Kentucky Hilltoppers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Kentucky.pdf",
+      "No guide found for Middle Tennessee Blue Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Middle Tennessee.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

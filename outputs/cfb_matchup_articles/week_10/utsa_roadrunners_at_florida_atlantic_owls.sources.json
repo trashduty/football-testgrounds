@@ -1,0 +1,27 @@
+{
+  "game": "UTSA Roadrunners@Florida Atlantic Owls",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:17:25.622172+00:00",
+  "model_prediction": 7.0,
+  "market_line": 7.0,
+  "best_line": 6.5,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50803142,
+  "edge": 0.008031420000000011,
+  "bet_short": "Florida Atlantic",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf",
+      "No guide found for Florida Atlantic Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida Atlantic.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

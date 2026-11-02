@@ -1,0 +1,29 @@
+{
+  "game": "BYU Cougars@Utah Utes",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:10:54.951660+00:00",
+  "model_prediction": -8.5,
+  "market_line": -5.5,
+  "best_line": -5.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53558074,
+  "edge": 0.023385618048780477,
+  "bet_short": "Utah",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for BYU Cougars: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/BYU.pdf",
+      "Guide processing failed for BYU Cougars: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Utah Utes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah.pdf",
+      "Guide processing failed for Utah Utes: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

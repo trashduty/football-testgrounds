@@ -1,0 +1,28 @@
+{
+  "game": "Kentucky Wildcats@Tennessee Volunteers",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:13:49.489990+00:00",
+  "model_prediction": -8.5,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-110",
+  "best_book": "BetRivers",
+  "cover_probability": 0.51941808,
+  "edge": -0.004391443809523832,
+  "bet_short": "Tennessee",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Kentucky Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kentucky.pdf",
+      "Found guide for Tennessee Volunteers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tennessee.pdf",
+      "Guide processing failed for Tennessee Volunteers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

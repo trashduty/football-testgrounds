@@ -1,0 +1,27 @@
+{
+  "game": "UL Monroe Warhawks@Arkansas State Red Wolves",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:17:24.877039+00:00",
+  "model_prediction": 15.5,
+  "market_line": 14.5,
+  "best_line": 14.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50648359,
+  "edge": -0.0057115319512195395,
+  "bet_short": "Louisiana Monroe",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UL Monroe Warhawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Louisiana Monroe.pdf",
+      "No guide found for Arkansas State Red Wolves. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

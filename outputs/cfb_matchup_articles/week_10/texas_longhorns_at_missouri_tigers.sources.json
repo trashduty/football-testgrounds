@@ -1,0 +1,29 @@
+{
+  "game": "Texas Longhorns@Missouri Tigers",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:16:45.243715+00:00",
+  "model_prediction": -3.5,
+  "market_line": -2.5,
+  "best_line": -2.5,
+  "best_price": "-115",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.52388858,
+  "edge": -0.010995140930232461,
+  "bet_short": "Texas",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
+      "Guide processing failed for Texas Longhorns: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Missouri Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
+      "Guide processing failed for Missouri Tigers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

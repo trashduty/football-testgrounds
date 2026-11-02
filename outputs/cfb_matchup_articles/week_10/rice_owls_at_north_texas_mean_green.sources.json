@@ -1,0 +1,28 @@
+{
+  "game": "Rice Owls@North Texas Mean Green",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:15:38.881225+00:00",
+  "model_prediction": 17.5,
+  "market_line": 16.5,
+  "best_line": 16.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.49898575,
+  "edge": -0.013209371951219517,
+  "bet_short": "Rice",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf",
+      "Found guide for North Texas Mean Green: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf",
+      "Guide processing failed for North Texas Mean Green: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

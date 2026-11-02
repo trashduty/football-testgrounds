@@ -1,0 +1,29 @@
+{
+  "game": "Temple Owls@Navy Midshipmen",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:16:22.210163+00:00",
+  "model_prediction": 7.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-105",
+  "best_book": "FanDuel",
+  "cover_probability": 0.5416223,
+  "edge": 0.029427178048780478,
+  "bet_short": "Temple",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Temple Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf",
+      "Guide processing failed for Temple Owls: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Navy Midshipmen: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Navy.pdf",
+      "Guide processing failed for Navy Midshipmen: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

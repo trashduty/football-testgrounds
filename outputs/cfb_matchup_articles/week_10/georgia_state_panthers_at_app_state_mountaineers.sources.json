@@ -1,0 +1,28 @@
+{
+  "game": "Georgia State Panthers@App State Mountaineers",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:13:09.437291+00:00",
+  "model_prediction": 2.5,
+  "market_line": 3.5,
+  "best_line": 4.5,
+  "best_price": "-115",
+  "best_book": "FanDuel",
+  "cover_probability": 0.55170426,
+  "edge": 0.016820539069767437,
+  "bet_short": "Georgia State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Georgia State Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia State.pdf",
+      "Guide processing failed for Georgia State Panthers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for App State Mountaineers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/App State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

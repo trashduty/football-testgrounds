@@ -1,0 +1,27 @@
+{
+  "game": "New Mexico Lobos@Nevada Wolf Pack",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:14:50.454767+00:00",
+  "model_prediction": 10.5,
+  "market_line": 10.0,
+  "best_line": 10.5,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52094113,
+  "edge": -0.009575301924882651,
+  "bet_short": "Nevada",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for New Mexico Lobos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico.pdf",
+      "No guide found for Nevada Wolf Pack. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nevada.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

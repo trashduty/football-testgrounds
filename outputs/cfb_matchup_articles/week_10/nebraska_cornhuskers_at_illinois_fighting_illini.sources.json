@@ -1,0 +1,27 @@
+{
+  "game": "Nebraska Cornhuskers@Illinois Fighting Illini",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:14:49.892086+00:00",
+  "model_prediction": 5.5,
+  "market_line": 4.5,
+  "best_line": 4.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.50026584,
+  "edge": -0.018964929230769312,
+  "bet_short": "Illinois",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Nebraska Cornhuskers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nebraska.pdf",
+      "No guide found for Illinois Fighting Illini. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Illinois.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

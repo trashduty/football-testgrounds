@@ -1,0 +1,28 @@
+{
+  "game": "Wyoming Cowboys@UNLV Rebels",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:18:13.661270+00:00",
+  "model_prediction": -7.5,
+  "market_line": -7.0,
+  "best_line": -7.5,
+  "best_price": "110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.47474928,
+  "edge": -0.0014411961904761683,
+  "bet_short": "UNLV",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Wyoming Cowboys: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wyoming.pdf",
+      "Guide processing failed for Wyoming Cowboys: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

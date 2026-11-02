@@ -1,0 +1,27 @@
+{
+  "game": "Cincinnati Bearcats@Houston Cougars",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:11:35.280013+00:00",
+  "model_prediction": 11.5,
+  "market_line": 10.5,
+  "best_line": 10.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.5090328,
+  "edge": -0.010197969230769321,
+  "bet_short": "Cincinnati",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Cincinnati Bearcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Cincinnati.pdf",
+      "No guide found for Houston Cougars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Houston.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

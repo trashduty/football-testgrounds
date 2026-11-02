@@ -1,0 +1,27 @@
+{
+  "game": "Rutgers Scarlet Knights@Wisconsin Badgers",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:15:39.566613+00:00",
+  "model_prediction": 17.0,
+  "market_line": 17.0,
+  "best_line": 17.5,
+  "best_price": "-118",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52426547,
+  "edge": -0.017018933669724734,
+  "bet_short": "Rutgers",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Rutgers Scarlet Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rutgers.pdf",
+      "No guide found for Wisconsin Badgers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wisconsin.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "UCLA Bruins@Minnesota Golden Gophers",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:17:24.262433+00:00",
+  "model_prediction": -7.0,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.4998792,
+  "edge": -0.0123159219512195,
+  "bet_short": "UCLA",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UCLA Bruins. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCLA.pdf",
+      "Found guide for Minnesota Golden Gophers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Minnesota.pdf",
+      "Guide processing failed for Minnesota Golden Gophers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

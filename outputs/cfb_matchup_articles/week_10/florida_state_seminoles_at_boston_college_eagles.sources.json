@@ -1,0 +1,28 @@
+{
+  "game": "Florida State Seminoles@Boston College Eagles",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:12:30.769218+00:00",
+  "model_prediction": -8.0,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.510771,
+  "edge": -0.008459769230769298,
+  "bet_short": "Florida State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Florida State Seminoles: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida State.pdf",
+      "Guide processing failed for Florida State Seminoles: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

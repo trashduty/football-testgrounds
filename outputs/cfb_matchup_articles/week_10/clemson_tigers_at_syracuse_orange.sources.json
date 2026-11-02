@@ -1,0 +1,29 @@
+{
+  "game": "Clemson Tigers@Syracuse Orange",
+  "season": 2026,
+  "week": 10,
+  "generated_at_utc": "2026-11-02T13:11:49.445808+00:00",
+  "model_prediction": -1.5,
+  "market_line": -1.5,
+  "best_line": -1.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.50096124,
+  "edge": -0.0182695292307693,
+  "bet_short": "Clemson",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Clemson Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Clemson.pdf",
+      "Guide processing failed for Clemson Tigers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Syracuse Orange: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Syracuse.pdf",
+      "Guide processing failed for Syracuse Orange: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
