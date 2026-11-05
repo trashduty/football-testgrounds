@@ -35,7 +35,7 @@
     "def_pass_epa_rank": 59,
     "def_rush_epa_rank": 17,
     "def_eckel_rate_rank": 80,
-    "power_change": 1.1948,
+    "power_change": 1.1954,
     "rank_change": 2
   },
   {
@@ -74,7 +74,7 @@
     "def_pass_epa_rank": 94,
     "def_rush_epa_rank": 2,
     "def_eckel_rate_rank": 46,
-    "power_change": -1.42,
+    "power_change": -1.4193,
     "rank_change": 0
   },
   {
@@ -113,7 +113,7 @@
     "def_pass_epa_rank": 95,
     "def_rush_epa_rank": 36,
     "def_eckel_rate_rank": 77,
-    "power_change": 0.9225,
+    "power_change": 0.9232,
     "rank_change": 1
   },
   {
@@ -152,7 +152,7 @@
     "def_pass_epa_rank": 13,
     "def_rush_epa_rank": 27,
     "def_eckel_rate_rank": 49,
-    "power_change": -3.3035,
+    "power_change": -3.303,
     "rank_change": -3
   },
   {
@@ -191,7 +191,7 @@
     "def_pass_epa_rank": 11,
     "def_rush_epa_rank": 35,
     "def_eckel_rate_rank": 16,
-    "power_change": 3.0777,
+    "power_change": 3.0778,
     "rank_change": 9
   },
   {
@@ -230,7 +230,7 @@
     "def_pass_epa_rank": 50,
     "def_rush_epa_rank": 8,
     "def_eckel_rate_rank": 22,
-    "power_change": -0.4148,
+    "power_change": -0.4144,
     "rank_change": -1
   },
   {
@@ -269,7 +269,7 @@
     "def_pass_epa_rank": 25,
     "def_rush_epa_rank": 5,
     "def_eckel_rate_rank": 4,
-    "power_change": -0.6764,
+    "power_change": -0.676,
     "rank_change": -1
   },
   {
@@ -308,7 +308,7 @@
     "def_pass_epa_rank": 58,
     "def_rush_epa_rank": 13,
     "def_eckel_rate_rank": 23,
-    "power_change": 0.1801,
+    "power_change": 0.1805,
     "rank_change": 1
   },
   {
@@ -347,7 +347,7 @@
     "def_pass_epa_rank": 4,
     "def_rush_epa_rank": 32,
     "def_eckel_rate_rank": 6,
-    "power_change": -0.194,
+    "power_change": -0.1936,
     "rank_change": 1
   },
   {
@@ -386,7 +386,7 @@
     "def_pass_epa_rank": 17,
     "def_rush_epa_rank": 26,
     "def_eckel_rate_rank": 33,
-    "power_change": -0.9153,
+    "power_change": -0.9149,
     "rank_change": -3
   },
   {
@@ -425,7 +425,7 @@
     "def_pass_epa_rank": 123,
     "def_rush_epa_rank": 70,
     "def_eckel_rate_rank": 117,
-    "power_change": 2.163,
+    "power_change": 2.1633,
     "rank_change": 11
   },
   {
@@ -464,7 +464,7 @@
     "def_pass_epa_rank": 15,
     "def_rush_epa_rank": 71,
     "def_eckel_rate_rank": 44,
-    "power_change": -1.5389,
+    "power_change": -1.5385,
     "rank_change": -4
   },
   {
@@ -503,7 +503,7 @@
     "def_pass_epa_rank": 35,
     "def_rush_epa_rank": 15,
     "def_eckel_rate_rank": 15,
-    "power_change": 0.1853,
+    "power_change": 0.1858,
     "rank_change": 0
   },
   {
@@ -542,7 +542,7 @@
     "def_pass_epa_rank": 56,
     "def_rush_epa_rank": 59,
     "def_eckel_rate_rank": 73,
-    "power_change": 1.8034,
+    "power_change": 1.8037,
     "rank_change": 11
   },
   {
@@ -581,7 +581,7 @@
     "def_pass_epa_rank": 2,
     "def_rush_epa_rank": 7,
     "def_eckel_rate_rank": 13,
-    "power_change": 1.2241,
+    "power_change": 1.2242,
     "rank_change": 3
   },
   {
@@ -620,7 +620,7 @@
     "def_pass_epa_rank": 7,
     "def_rush_epa_rank": 40,
     "def_eckel_rate_rank": 32,
-    "power_change": -1.2992,
+    "power_change": -1.2989,
     "rank_change": -5
   },
   {
@@ -659,7 +659,7 @@
     "def_pass_epa_rank": 8,
     "def_rush_epa_rank": 9,
     "def_eckel_rate_rank": 5,
-    "power_change": 0.5557,
+    "power_change": 0.556,
     "rank_change": 0
   },
   {
@@ -698,7 +698,7 @@
     "def_pass_epa_rank": 24,
     "def_rush_epa_rank": 10,
     "def_eckel_rate_rank": 35,
-    "power_change": -0.9495,
+    "power_change": -0.949,
     "rank_change": -6
   },
   {
@@ -737,7 +737,7 @@
     "def_pass_epa_rank": 1,
     "def_rush_epa_rank": 3,
     "def_eckel_rate_rank": 1,
-    "power_change": 0.0469,
+    "power_change": 0.0471,
     "rank_change": -4
   },
   {
@@ -776,7 +776,7 @@
     "def_pass_epa_rank": 32,
     "def_rush_epa_rank": 37,
     "def_eckel_rate_rank": 27,
-    "power_change": 0.5899,
+    "power_change": 0.5903,
     "rank_change": 0
   },
   {
@@ -815,7 +815,7 @@
     "def_pass_epa_rank": 113,
     "def_rush_epa_rank": 56,
     "def_eckel_rate_rank": 107,
-    "power_change": 0.4087,
+    "power_change": 0.4091,
     "rank_change": 3
   },
   {
@@ -854,7 +854,7 @@
     "def_pass_epa_rank": 38,
     "def_rush_epa_rank": 38,
     "def_eckel_rate_rank": 92,
-    "power_change": -0.5713,
+    "power_change": -0.5709,
     "rank_change": -3
   },
   {
@@ -893,7 +893,7 @@
     "def_pass_epa_rank": 34,
     "def_rush_epa_rank": 65,
     "def_eckel_rate_rank": 72,
-    "power_change": -1.4806,
+    "power_change": -1.4802,
     "rank_change": -7
   },
   {
@@ -932,7 +932,7 @@
     "def_pass_epa_rank": 10,
     "def_rush_epa_rank": 4,
     "def_eckel_rate_rank": 11,
-    "power_change": 4.2552,
+    "power_change": 4.2553,
     "rank_change": 27
   },
   {
@@ -971,7 +971,7 @@
     "def_pass_epa_rank": 12,
     "def_rush_epa_rank": 50,
     "def_eckel_rate_rank": 69,
-    "power_change": 1.5622,
+    "power_change": 1.5623,
     "rank_change": 10
   },
   {
@@ -1010,7 +1010,7 @@
     "def_pass_epa_rank": 108,
     "def_rush_epa_rank": 60,
     "def_eckel_rate_rank": 58,
-    "power_change": -0.9391,
+    "power_change": -0.9387,
     "rank_change": -3
   },
   {
@@ -1049,7 +1049,7 @@
     "def_pass_epa_rank": 101,
     "def_rush_epa_rank": 90,
     "def_eckel_rate_rank": 114,
-    "power_change": 0.4006,
+    "power_change": 0.4009,
     "rank_change": 4
   },
   {
@@ -1127,7 +1127,7 @@
     "def_pass_epa_rank": 54,
     "def_rush_epa_rank": 57,
     "def_eckel_rate_rank": 112,
-    "power_change": -0.4242,
+    "power_change": -0.4239,
     "rank_change": -1
   },
   {
@@ -1166,7 +1166,7 @@
     "def_pass_epa_rank": 6,
     "def_rush_epa_rank": 74,
     "def_eckel_rate_rank": 20,
-    "power_change": 0.6758,
+    "power_change": 0.676,
     "rank_change": 6
   },
   {
@@ -1205,7 +1205,7 @@
     "def_pass_epa_rank": 71,
     "def_rush_epa_rank": 75,
     "def_eckel_rate_rank": 68,
-    "power_change": -0.8141,
+    "power_change": -0.8138,
     "rank_change": -2
   },
   {
@@ -1244,7 +1244,7 @@
     "def_pass_epa_rank": 37,
     "def_rush_epa_rank": 67,
     "def_eckel_rate_rank": 82,
-    "power_change": 1.973,
+    "power_change": 1.9731,
     "rank_change": 16
   },
   {
@@ -1283,7 +1283,7 @@
     "def_pass_epa_rank": 39,
     "def_rush_epa_rank": 21,
     "def_eckel_rate_rank": 26,
-    "power_change": -2.5293,
+    "power_change": -2.5292,
     "rank_change": -12
   },
   {
@@ -1322,7 +1322,7 @@
     "def_pass_epa_rank": 61,
     "def_rush_epa_rank": 114,
     "def_eckel_rate_rank": 101,
-    "power_change": -0.3555,
+    "power_change": -0.3553,
     "rank_change": 0
   },
   {
@@ -1361,7 +1361,7 @@
     "def_pass_epa_rank": 89,
     "def_rush_epa_rank": 1,
     "def_eckel_rate_rank": 2,
-    "power_change": 1.3265,
+    "power_change": 1.3266,
     "rank_change": 12
   },
   {
@@ -1400,7 +1400,7 @@
     "def_pass_epa_rank": 33,
     "def_rush_epa_rank": 11,
     "def_eckel_rate_rank": 56,
-    "power_change": 0.2457,
+    "power_change": 0.2458,
     "rank_change": 3
   },
   {
@@ -1439,7 +1439,7 @@
     "def_pass_epa_rank": 83,
     "def_rush_epa_rank": 82,
     "def_eckel_rate_rank": 97,
-    "power_change": -1.1213,
+    "power_change": -1.1209,
     "rank_change": -5
   },
   {
@@ -1478,7 +1478,7 @@
     "def_pass_epa_rank": 53,
     "def_rush_epa_rank": 61,
     "def_eckel_rate_rank": 8,
-    "power_change": -0.3492,
+    "power_change": -0.349,
     "rank_change": 2
   },
   {
@@ -1517,7 +1517,7 @@
     "def_pass_epa_rank": 26,
     "def_rush_epa_rank": 108,
     "def_eckel_rate_rank": 43,
-    "power_change": 0.163,
+    "power_change": 0.1631,
     "rank_change": 6
   },
   {
@@ -1556,7 +1556,7 @@
     "def_pass_epa_rank": 79,
     "def_rush_epa_rank": 58,
     "def_eckel_rate_rank": 97,
-    "power_change": -0.7941,
+    "power_change": -0.7939,
     "rank_change": -3
   },
   {
@@ -1595,7 +1595,7 @@
     "def_pass_epa_rank": 42,
     "def_rush_epa_rank": 93,
     "def_eckel_rate_rank": 110,
-    "power_change": -0.0685,
+    "power_change": -0.0683,
     "rank_change": 2
   },
   {
@@ -1634,7 +1634,7 @@
     "def_pass_epa_rank": 107,
     "def_rush_epa_rank": 49,
     "def_eckel_rate_rank": 66,
-    "power_change": -1.5472,
+    "power_change": -1.5467,
     "rank_change": -9
   },
   {
@@ -1673,7 +1673,7 @@
     "def_pass_epa_rank": 117,
     "def_rush_epa_rank": 39,
     "def_eckel_rate_rank": 102,
-    "power_change": -0.5486,
+    "power_change": -0.5483,
     "rank_change": -2
   },
   {
@@ -1712,7 +1712,7 @@
     "def_pass_epa_rank": 74,
     "def_rush_epa_rank": 68,
     "def_eckel_rate_rank": 103,
-    "power_change": 1.0694,
+    "power_change": 1.0695,
     "rank_change": 8
   },
   {
@@ -1751,7 +1751,7 @@
     "def_pass_epa_rank": 69,
     "def_rush_epa_rank": 69,
     "def_eckel_rate_rank": 113,
-    "power_change": 1.8111,
+    "power_change": 1.8112,
     "rank_change": 15
   },
   {
@@ -1790,7 +1790,7 @@
     "def_pass_epa_rank": 109,
     "def_rush_epa_rank": 33,
     "def_eckel_rate_rank": 56,
-    "power_change": 2.7939,
+    "power_change": 2.794,
     "rank_change": 21
   },
   {
@@ -1829,7 +1829,7 @@
     "def_pass_epa_rank": 20,
     "def_rush_epa_rank": 16,
     "def_eckel_rate_rank": 24,
-    "power_change": 0.8586,
+    "power_change": 0.8587,
     "rank_change": 3
   },
   {
@@ -1868,7 +1868,7 @@
     "def_pass_epa_rank": 30,
     "def_rush_epa_rank": 84,
     "def_eckel_rate_rank": 78,
-    "power_change": 2.2111,
+    "power_change": 2.211,
     "rank_change": 16
   },
   {
@@ -1907,7 +1907,7 @@
     "def_pass_epa_rank": 18,
     "def_rush_epa_rank": 22,
     "def_eckel_rate_rank": 9,
-    "power_change": -1.635,
+    "power_change": -1.6349,
     "rank_change": -11
   },
   {
@@ -1946,7 +1946,7 @@
     "def_pass_epa_rank": 75,
     "def_rush_epa_rank": 95,
     "def_eckel_rate_rank": 66,
-    "power_change": 5.9094,
+    "power_change": 5.9092,
     "rank_change": 46
   },
   {
@@ -2024,7 +2024,7 @@
     "def_pass_epa_rank": 16,
     "def_rush_epa_rank": 46,
     "def_eckel_rate_rank": 10,
-    "power_change": -4.0949,
+    "power_change": -4.0947,
     "rank_change": -26
   },
   {
@@ -2102,7 +2102,7 @@
     "def_pass_epa_rank": 52,
     "def_rush_epa_rank": 52,
     "def_eckel_rate_rank": 79,
-    "power_change": -1.5801,
+    "power_change": -1.58,
     "rank_change": -10
   },
   {
@@ -2141,7 +2141,7 @@
     "def_pass_epa_rank": 138,
     "def_rush_epa_rank": 45,
     "def_eckel_rate_rank": 115,
-    "power_change": -1.7851,
+    "power_change": -1.7848,
     "rank_change": -13
   },
   {
@@ -2180,7 +2180,7 @@
     "def_pass_epa_rank": 81,
     "def_rush_epa_rank": 6,
     "def_eckel_rate_rank": 51,
-    "power_change": -0.3182,
+    "power_change": -0.3179,
     "rank_change": -3
   },
   {
@@ -2219,7 +2219,7 @@
     "def_pass_epa_rank": 14,
     "def_rush_epa_rank": 14,
     "def_eckel_rate_rank": 12,
-    "power_change": -0.0528,
+    "power_change": -0.0527,
     "rank_change": -1
   },
   {
@@ -2258,7 +2258,7 @@
     "def_pass_epa_rank": 48,
     "def_rush_epa_rank": 100,
     "def_eckel_rate_rank": 105,
-    "power_change": -1.6774,
+    "power_change": -1.6772,
     "rank_change": -12
   },
   {
@@ -2297,7 +2297,7 @@
     "def_pass_epa_rank": 46,
     "def_rush_epa_rank": 12,
     "def_eckel_rate_rank": 7,
-    "power_change": 2.112,
+    "power_change": 2.1119,
     "rank_change": 19
   },
   {
@@ -2375,7 +2375,7 @@
     "def_pass_epa_rank": 60,
     "def_rush_epa_rank": 51,
     "def_eckel_rate_rank": 60,
-    "power_change": -0.2382,
+    "power_change": -0.2381,
     "rank_change": -4
   },
   {
@@ -2414,7 +2414,7 @@
     "def_pass_epa_rank": 104,
     "def_rush_epa_rank": 97,
     "def_eckel_rate_rank": 82,
-    "power_change": 1.5044,
+    "power_change": 1.5046,
     "rank_change": 12
   },
   {
@@ -2453,7 +2453,7 @@
     "def_pass_epa_rank": 49,
     "def_rush_epa_rank": 96,
     "def_eckel_rate_rank": 61,
-    "power_change": -0.1157,
+    "power_change": -0.1156,
     "rank_change": -1
   },
   {
@@ -2492,7 +2492,7 @@
     "def_pass_epa_rank": 105,
     "def_rush_epa_rank": 78,
     "def_eckel_rate_rank": 133,
-    "power_change": -0.4994,
+    "power_change": -0.4991,
     "rank_change": -6
   },
   {
@@ -2531,7 +2531,7 @@
     "def_pass_epa_rank": 82,
     "def_rush_epa_rank": 94,
     "def_eckel_rate_rank": 25,
-    "power_change": -0.4135,
+    "power_change": -0.4134,
     "rank_change": -6
   },
   {
@@ -2570,7 +2570,7 @@
     "def_pass_epa_rank": 97,
     "def_rush_epa_rank": 24,
     "def_eckel_rate_rank": 75,
-    "power_change": -5.5129,
+    "power_change": -5.5125,
     "rank_change": -39
   },
   {
@@ -2648,7 +2648,7 @@
     "def_pass_epa_rank": 93,
     "def_rush_epa_rank": 25,
     "def_eckel_rate_rank": 122,
-    "power_change": 0.0498,
+    "power_change": 0.05,
     "rank_change": -3
   },
   {
@@ -2726,7 +2726,7 @@
     "def_pass_epa_rank": 44,
     "def_rush_epa_rank": 83,
     "def_eckel_rate_rank": 97,
-    "power_change": -0.3716,
+    "power_change": -0.3715,
     "rank_change": -4
   },
   {
@@ -2765,7 +2765,7 @@
     "def_pass_epa_rank": 51,
     "def_rush_epa_rank": 48,
     "def_eckel_rate_rank": 81,
-    "power_change": 0.9502,
+    "power_change": 0.95,
     "rank_change": 10
   },
   {
@@ -2804,7 +2804,7 @@
     "def_pass_epa_rank": 45,
     "def_rush_epa_rank": 42,
     "def_eckel_rate_rank": 40,
-    "power_change": 0.1636,
+    "power_change": 0.1634,
     "rank_change": 3
   },
   {
@@ -2921,7 +2921,7 @@
     "def_pass_epa_rank": 77,
     "def_rush_epa_rank": 77,
     "def_eckel_rate_rank": 93,
-    "power_change": 0.1732,
+    "power_change": 0.1729,
     "rank_change": 2
   },
   {
@@ -2960,7 +2960,7 @@
     "def_pass_epa_rank": 57,
     "def_rush_epa_rank": 19,
     "def_eckel_rate_rank": 38,
-    "power_change": -1.4861,
+    "power_change": -1.4862,
     "rank_change": -13
   },
   {
@@ -2999,7 +2999,7 @@
     "def_pass_epa_rank": 47,
     "def_rush_epa_rank": 63,
     "def_eckel_rate_rank": 36,
-    "power_change": -0.0247,
+    "power_change": -0.0249,
     "rank_change": 2
   },
   {
@@ -3077,7 +3077,7 @@
     "def_pass_epa_rank": 31,
     "def_rush_epa_rank": 66,
     "def_eckel_rate_rank": 36,
-    "power_change": -0.7929,
+    "power_change": -0.793,
     "rank_change": -7
   },
   {
@@ -3116,7 +3116,7 @@
     "def_pass_epa_rank": 3,
     "def_rush_epa_rank": 31,
     "def_eckel_rate_rank": 3,
-    "power_change": -1.1583,
+    "power_change": -1.1585,
     "rank_change": -11
   },
   {
@@ -3155,7 +3155,7 @@
     "def_pass_epa_rank": 19,
     "def_rush_epa_rank": 53,
     "def_eckel_rate_rank": 52,
-    "power_change": 0.5696,
+    "power_change": 0.5694,
     "rank_change": 4
   },
   {
@@ -3194,7 +3194,7 @@
     "def_pass_epa_rank": 21,
     "def_rush_epa_rank": 44,
     "def_eckel_rate_rank": 28,
-    "power_change": -0.2436,
+    "power_change": -0.2438,
     "rank_change": -2
   },
   {
@@ -3233,7 +3233,7 @@
     "def_pass_epa_rank": 122,
     "def_rush_epa_rank": 29,
     "def_eckel_rate_rank": 31,
-    "power_change": 0.12,
+    "power_change": 0.1199,
     "rank_change": 1
   },
   {
@@ -3272,7 +3272,7 @@
     "def_pass_epa_rank": 73,
     "def_rush_epa_rank": 73,
     "def_eckel_rate_rank": 54,
-    "power_change": -1.865,
+    "power_change": -1.8651,
     "rank_change": -16
   },
   {
@@ -3311,7 +3311,7 @@
     "def_pass_epa_rank": 86,
     "def_rush_epa_rank": 87,
     "def_eckel_rate_rank": 107,
-    "power_change": 0.1611,
+    "power_change": 0.161,
     "rank_change": 1
   },
   {
@@ -3350,7 +3350,7 @@
     "def_pass_epa_rank": 72,
     "def_rush_epa_rank": 120,
     "def_eckel_rate_rank": 118,
-    "power_change": 5.4872,
+    "power_change": 5.4869,
     "rank_change": 36
   },
   {
@@ -3389,7 +3389,7 @@
     "def_pass_epa_rank": 91,
     "def_rush_epa_rank": 34,
     "def_eckel_rate_rank": 71,
-    "power_change": 1.6242,
+    "power_change": 1.624,
     "rank_change": 7
   },
   {
@@ -3428,7 +3428,7 @@
     "def_pass_epa_rank": 40,
     "def_rush_epa_rank": 104,
     "def_eckel_rate_rank": 88,
-    "power_change": -3.9081,
+    "power_change": -3.908,
     "rank_change": -34
   },
   {
@@ -3506,8 +3506,8 @@
     "def_pass_epa_rank": 5,
     "def_rush_epa_rank": 99,
     "def_eckel_rate_rank": 30,
-    "power_change": 1.3919,
-    "rank_change": 9
+    "power_change": 1.3917,
+    "rank_change": 8
   },
   {
     "season": 2026,
@@ -3545,7 +3545,7 @@
     "def_pass_epa_rank": 116,
     "def_rush_epa_rank": 111,
     "def_eckel_rate_rank": 94,
-    "power_change": 1.7056,
+    "power_change": 1.7053,
     "rank_change": 12
   },
   {
@@ -3584,7 +3584,7 @@
     "def_pass_epa_rank": 27,
     "def_rush_epa_rank": 105,
     "def_eckel_rate_rank": 104,
-    "power_change": -0.5762,
+    "power_change": -0.5763,
     "rank_change": -5
   },
   {
@@ -3623,7 +3623,7 @@
     "def_pass_epa_rank": 63,
     "def_rush_epa_rank": 128,
     "def_eckel_rate_rank": 88,
-    "power_change": -0.3774,
+    "power_change": -0.3777,
     "rank_change": -3
   },
   {
@@ -3740,8 +3740,8 @@
     "def_pass_epa_rank": 112,
     "def_rush_epa_rank": 106,
     "def_eckel_rate_rank": 123,
-    "power_change": 0.8385,
-    "rank_change": 2
+    "power_change": 0.8384,
+    "rank_change": 3
   },
   {
     "season": 2026,
@@ -3779,7 +3779,7 @@
     "def_pass_epa_rank": 28,
     "def_rush_epa_rank": 54,
     "def_eckel_rate_rank": 14,
-    "power_change": 2.7589,
+    "power_change": 2.7585,
     "rank_change": 20
   },
   {
@@ -3818,7 +3818,7 @@
     "def_pass_epa_rank": 136,
     "def_rush_epa_rank": 81,
     "def_eckel_rate_rank": 131,
-    "power_change": 0.3957,
+    "power_change": 0.3958,
     "rank_change": 6
   },
   {
@@ -3857,7 +3857,7 @@
     "def_pass_epa_rank": 43,
     "def_rush_epa_rank": 55,
     "def_eckel_rate_rank": 39,
-    "power_change": -1.9055,
+    "power_change": -1.9058,
     "rank_change": -10
   },
   {
@@ -3935,7 +3935,7 @@
     "def_pass_epa_rank": 110,
     "def_rush_epa_rank": 72,
     "def_eckel_rate_rank": 88,
-    "power_change": -0.2036,
+    "power_change": -0.2037,
     "rank_change": 0
   },
   {
@@ -3974,7 +3974,7 @@
     "def_pass_epa_rank": 70,
     "def_rush_epa_rank": 20,
     "def_eckel_rate_rank": 42,
-    "power_change": -1.6801,
+    "power_change": -1.6803,
     "rank_change": -11
   },
   {
@@ -4013,7 +4013,7 @@
     "def_pass_epa_rank": 103,
     "def_rush_epa_rank": 103,
     "def_eckel_rate_rank": 109,
-    "power_change": 0.538,
+    "power_change": 0.5379,
     "rank_change": 6
   },
   {
@@ -4052,7 +4052,7 @@
     "def_pass_epa_rank": 90,
     "def_rush_epa_rank": 91,
     "def_eckel_rate_rank": 48,
-    "power_change": 0.6493,
+    "power_change": 0.6491,
     "rank_change": 6
   },
   {
@@ -4091,7 +4091,7 @@
     "def_pass_epa_rank": 120,
     "def_rush_epa_rank": 102,
     "def_eckel_rate_rank": 137,
-    "power_change": 2.8061,
+    "power_change": 2.8059,
     "rank_change": 21
   },
   {
@@ -4130,7 +4130,7 @@
     "def_pass_epa_rank": 62,
     "def_rush_epa_rank": 86,
     "def_eckel_rate_rank": 18,
-    "power_change": -0.894,
+    "power_change": -0.8944,
     "rank_change": -6
   },
   {
@@ -4169,7 +4169,7 @@
     "def_pass_epa_rank": 36,
     "def_rush_epa_rank": 62,
     "def_eckel_rate_rank": 59,
-    "power_change": -0.4588,
+    "power_change": -0.4591,
     "rank_change": -2
   },
   {
@@ -4208,7 +4208,7 @@
     "def_pass_epa_rank": 78,
     "def_rush_epa_rank": 124,
     "def_eckel_rate_rank": 19,
-    "power_change": -0.2788,
+    "power_change": -0.2789,
     "rank_change": -2
   },
   {
@@ -4247,7 +4247,7 @@
     "def_pass_epa_rank": 99,
     "def_rush_epa_rank": 112,
     "def_eckel_rate_rank": 94,
-    "power_change": 5.4336,
+    "power_change": 5.4332,
     "rank_change": 24
   },
   {
@@ -4286,7 +4286,7 @@
     "def_pass_epa_rank": 22,
     "def_rush_epa_rank": 88,
     "def_eckel_rate_rank": 34,
-    "power_change": -1.2005,
+    "power_change": -1.2009,
     "rank_change": -8
   },
   {
@@ -4325,7 +4325,7 @@
     "def_pass_epa_rank": 87,
     "def_rush_epa_rank": 23,
     "def_eckel_rate_rank": 45,
-    "power_change": -0.3844,
+    "power_change": -0.3846,
     "rank_change": -3
   },
   {
@@ -4364,7 +4364,7 @@
     "def_pass_epa_rank": 29,
     "def_rush_epa_rank": 85,
     "def_eckel_rate_rank": 87,
-    "power_change": -2.2662,
+    "power_change": -2.2664,
     "rank_change": -17
   },
   {
@@ -4403,7 +4403,7 @@
     "def_pass_epa_rank": 129,
     "def_rush_epa_rank": 119,
     "def_eckel_rate_rank": 136,
-    "power_change": -0.7468,
+    "power_change": -0.7469,
     "rank_change": -6
   },
   {
@@ -4442,7 +4442,7 @@
     "def_pass_epa_rank": 55,
     "def_rush_epa_rank": 135,
     "def_eckel_rate_rank": 127,
-    "power_change": 0.2193,
+    "power_change": 0.2189,
     "rank_change": 2
   },
   {
@@ -4481,7 +4481,7 @@
     "def_pass_epa_rank": 130,
     "def_rush_epa_rank": 109,
     "def_eckel_rate_rank": 126,
-    "power_change": 0.1287,
+    "power_change": 0.1284,
     "rank_change": -2
   },
   {
@@ -4520,7 +4520,7 @@
     "def_pass_epa_rank": 133,
     "def_rush_epa_rank": 131,
     "def_eckel_rate_rank": 124,
-    "power_change": -0.0604,
+    "power_change": -0.0607,
     "rank_change": -2
   },
   {
@@ -4559,7 +4559,7 @@
     "def_pass_epa_rank": 67,
     "def_rush_epa_rank": 127,
     "def_eckel_rate_rank": 74,
-    "power_change": -4.4657,
+    "power_change": -4.4659,
     "rank_change": -34
   },
   {
@@ -4598,7 +4598,7 @@
     "def_pass_epa_rank": 92,
     "def_rush_epa_rank": 125,
     "def_eckel_rate_rank": 84,
-    "power_change": -0.8368,
+    "power_change": -0.8369,
     "rank_change": -6
   },
   {
@@ -4676,7 +4676,7 @@
     "def_pass_epa_rank": 111,
     "def_rush_epa_rank": 113,
     "def_eckel_rate_rank": 63,
-    "power_change": -0.0608,
+    "power_change": -0.0612,
     "rank_change": 1
   },
   {
@@ -4715,7 +4715,7 @@
     "def_pass_epa_rank": 68,
     "def_rush_epa_rank": 110,
     "def_eckel_rate_rank": 96,
-    "power_change": 0.1809,
+    "power_change": 0.1806,
     "rank_change": 4
   },
   {
@@ -4754,7 +4754,7 @@
     "def_pass_epa_rank": 135,
     "def_rush_epa_rank": 137,
     "def_eckel_rate_rank": 125,
-    "power_change": -0.1144,
+    "power_change": -0.1146,
     "rank_change": 1
   },
   {
@@ -4793,7 +4793,7 @@
     "def_pass_epa_rank": 80,
     "def_rush_epa_rank": 98,
     "def_eckel_rate_rank": 64,
-    "power_change": -1.5927,
+    "power_change": -1.5929,
     "rank_change": -8
   },
   {
@@ -4832,7 +4832,7 @@
     "def_pass_epa_rank": 76,
     "def_rush_epa_rank": 116,
     "def_eckel_rate_rank": 91,
-    "power_change": 0.2054,
+    "power_change": 0.2051,
     "rank_change": 3
   },
   {
@@ -4871,7 +4871,7 @@
     "def_pass_epa_rank": 106,
     "def_rush_epa_rank": 76,
     "def_eckel_rate_rank": 135,
-    "power_change": -0.4429,
+    "power_change": -0.4432,
     "rank_change": -1
   },
   {
@@ -4910,7 +4910,7 @@
     "def_pass_epa_rank": 23,
     "def_rush_epa_rank": 107,
     "def_eckel_rate_rank": 20,
-    "power_change": -1.1737,
+    "power_change": -1.1741,
     "rank_change": -8
   },
   {
@@ -4949,7 +4949,7 @@
     "def_pass_epa_rank": 137,
     "def_rush_epa_rank": 123,
     "def_eckel_rate_rank": 128,
-    "power_change": 1.2281,
+    "power_change": 1.2278,
     "rank_change": 2
   },
   {
@@ -4988,7 +4988,7 @@
     "def_pass_epa_rank": 126,
     "def_rush_epa_rank": 122,
     "def_eckel_rate_rank": 86,
-    "power_change": 1.8512,
+    "power_change": 1.8508,
     "rank_change": 3
   },
   {
@@ -5027,7 +5027,7 @@
     "def_pass_epa_rank": 88,
     "def_rush_epa_rank": 79,
     "def_eckel_rate_rank": 76,
-    "power_change": -1.7536,
+    "power_change": -1.754,
     "rank_change": -9
   },
   {
@@ -5066,7 +5066,7 @@
     "def_pass_epa_rank": 119,
     "def_rush_epa_rank": 130,
     "def_eckel_rate_rank": 129,
-    "power_change": -0.205,
+    "power_change": -0.2052,
     "rank_change": -2
   },
   {
@@ -5105,7 +5105,7 @@
     "def_pass_epa_rank": 96,
     "def_rush_epa_rank": 47,
     "def_eckel_rate_rank": 50,
-    "power_change": 0.2661,
+    "power_change": 0.2655,
     "rank_change": 1
   },
   {
@@ -5144,7 +5144,7 @@
     "def_pass_epa_rank": 131,
     "def_rush_epa_rank": 138,
     "def_eckel_rate_rank": 138,
-    "power_change": -0.2818,
+    "power_change": -0.282,
     "rank_change": -2
   },
   {
@@ -5183,7 +5183,7 @@
     "def_pass_epa_rank": 84,
     "def_rush_epa_rank": 80,
     "def_eckel_rate_rank": 61,
-    "power_change": 2.1958,
+    "power_change": 2.1951,
     "rank_change": 4
   },
   {
@@ -5222,7 +5222,7 @@
     "def_pass_epa_rank": 64,
     "def_rush_epa_rank": 126,
     "def_eckel_rate_rank": 100,
-    "power_change": 0.1429,
+    "power_change": 0.1423,
     "rank_change": 0
   },
   {
@@ -5261,7 +5261,7 @@
     "def_pass_epa_rank": 102,
     "def_rush_epa_rank": 133,
     "def_eckel_rate_rank": 55,
-    "power_change": -4.1188,
+    "power_change": -4.1191,
     "rank_change": -16
   },
   {
@@ -5300,7 +5300,7 @@
     "def_pass_epa_rank": 128,
     "def_rush_epa_rank": 41,
     "def_eckel_rate_rank": 70,
-    "power_change": 0.1929,
+    "power_change": 0.1924,
     "rank_change": 0
   },
   {
@@ -5339,7 +5339,7 @@
     "def_pass_epa_rank": 118,
     "def_rush_epa_rank": 132,
     "def_eckel_rate_rank": 119,
-    "power_change": -0.3698,
+    "power_change": -0.3703,
     "rank_change": -2
   },
   {
@@ -5378,7 +5378,7 @@
     "def_pass_epa_rank": 132,
     "def_rush_epa_rank": 117,
     "def_eckel_rate_rank": 115,
-    "power_change": 1.3029,
+    "power_change": 1.3023,
     "rank_change": 0
   }
 ]
