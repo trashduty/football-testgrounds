@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Tech Bulldogs | -5.5 (-108) | BetMGM | 44.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Troy Trojans | +5.5 (-110) | BetMGM | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Louisiana Tech Bulldogs | -4.5 (-110) | DraftKings | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Troy Trojans | +4.5 (-106) | Caesars | 55.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Louisiana Tech Bulldogs visit the Troy Trojans at Veterans Memorial Stadium (AL). We make **Troy +3**, compared with a market line of +5.5.
+The Louisiana Tech Bulldogs visit the Troy Trojans at Veterans Memorial Stadium (AL). We make **Troy +2.5**, compared with a market line of +4.5.
 
-The best number we found is Troy +5.5 at -110. We give Troy a 56.2% chance to cover, which creates an 3.9% edge for us. That clears our 3% threshold, so Troy is a bet.
+The best number we found is Troy +4.5 at -106. We give Troy a 55.7% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Troy is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,27 +37,27 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#85</td>
+<td>#87</td>
 <td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#16</td>
-<td>#31</td>
+<td>#30</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#84</td>
-<td class="btb-better">#59</td>
+<td>#83</td>
+<td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#115</td>
-<td class="btb-better">#89</td>
+<td>#117</td>
+<td class="btb-better">#93</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#30</td>
+<td>#29</td>
 <td class="btb-better">#14</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **6 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

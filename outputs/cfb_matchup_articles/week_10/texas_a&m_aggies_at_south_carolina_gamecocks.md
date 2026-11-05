@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas A&M Aggies | +7.5 (-110) | theScore Bet | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| South Carolina Gamecocks | -7.5 (+100) | FanDuel | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | +6.5 (+100) | theScore Bet | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| South Carolina Gamecocks | -6.5 (-120) | FanDuel | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas A&M Aggies visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **Texas A&M +6**, compared with a market line of +7.5.
+The Texas A&M Aggies visit the South Carolina Gamecocks at Williams-Brice Stadium. We make **Texas A&M +6**, compared with a market line of +7.
 
-The best number we found is Texas A&M +7.5 at -110. We give Texas A&M a 55.9% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Texas A&M is a bet.
+The best number we found is Texas A&M +6.5 at +100. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,12 +32,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#90</td>
-<td class="btb-better">#56</td>
+<td>#91</td>
+<td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#30</td>
+<td>#29</td>
 <td class="btb-better">#8</td>
 </tr>
 <tr>
@@ -47,13 +47,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#14</td>
+<td class="btb-better">#15</td>
 <td>#18</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#53</td>
-<td class="btb-better">#51</td>
+<td>#54</td>
+<td class="btb-better">#52</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **6 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

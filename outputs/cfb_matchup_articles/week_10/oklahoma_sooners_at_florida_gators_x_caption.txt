@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Oklahoma-Florida.
 
-We make Oklahoma +7. The market is +6.5.
+We make Florida -7. The market is -6.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

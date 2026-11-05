@@ -1,6 +1,6 @@
-Our model is 3 points away from the market on Sam Houston State-Jacksonville Stat.
+Our model is 2.5 points away from the market on Sam Houston State-Jacksonville Stat.
 
-We make Jacksonville Stat -19.5. The market is -16.5.
+We make Jacksonville Stat -19.5. The market is -17.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

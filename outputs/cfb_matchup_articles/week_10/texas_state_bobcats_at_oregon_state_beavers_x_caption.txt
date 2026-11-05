@@ -2,8 +2,8 @@ Our model is 2 points away from the market on Texas State-Oregon State.
 
 We make Texas State +4.5. The market is +6.5.
 
-Best number: Texas State +6.5 -102. We give it a 54.9% chance to cover with a 4.4% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓
