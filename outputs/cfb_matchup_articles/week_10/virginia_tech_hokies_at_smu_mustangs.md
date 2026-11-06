@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Tech Hokies | +6.5 (-110) | Caesars | 46.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| SMU Mustangs | -6.5 (-105) | theScore Bet | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Virginia Tech Hokies | +6.5 (-110) | BetMGM | 45.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| SMU Mustangs | -6.5 (-102) | FanDuel | 54.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Virginia Tech Hokies visit the SMU Mustangs at Gerald J. Ford Stadium. We make **SMU -9.5**, compared with a market line of -6.
+The Virginia Tech Hokies visit the SMU Mustangs at Gerald J. Ford Stadium. We make **SMU -10**, compared with a market line of -6.5.
 
-The best number we found is SMU -6.5 at -105. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is SMU -6.5 at -102. We give SMU a 54.5% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so SMU is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#4</td>
-<td>#40</td>
+<td>#41</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#58</td>
-<td>#122</td>
+<td class="btb-better">#57</td>
+<td>#121</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **6 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on Western Kentucky-Middle Tennessee.
 
-We make Middle Tennessee -0. The market is +1.5.
+We make Middle Tennessee +0.5. The market is +2.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

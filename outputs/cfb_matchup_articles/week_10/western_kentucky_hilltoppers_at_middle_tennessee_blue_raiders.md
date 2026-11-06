@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Western Kentucky Hilltoppers | -1.5 (-106) | FanDuel | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Middle Tennessee Blue Raiders | +1.5 (-110) | BetMGM | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Kentucky Hilltoppers | -1.5 (-110) | Fanatics | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Middle Tennessee Blue Raiders | +1.5 (-105) | Caesars | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Western Kentucky Hilltoppers visit the Middle Tennessee Blue Raiders at Johnny "Red" Floyd Stadium. We make **Middle Tennessee -0**, compared with a market line of +1.5.
+The Western Kentucky Hilltoppers visit the Middle Tennessee Blue Raiders at Johnny "Red" Floyd Stadium. We make **Middle Tennessee +0.5**, compared with a market line of +2.
 
-The best number we found is Middle Tennessee +1.5 at -110. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Middle Tennessee +1.5 at -105. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#64</td>
+<td class="btb-better">#63</td>
 <td>#104</td>
 </tr>
 <tr>
@@ -48,7 +48,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#79</td>
-<td>#101</td>
+<td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#47</td>
-<td>#76</td>
+<td class="btb-better">#45</td>
+<td>#75</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **6 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

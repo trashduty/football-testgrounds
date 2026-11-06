@@ -1,9 +1,9 @@
 Our model is 2 points away from the market on Georgia State-App State.
 
-We make Georgia State +4. The market is +6.
+We make Georgia State +4.5. The market is +6.5.
 
-Best number: Georgia State +6.5 -105. We give it a 55.6% chance to cover with a 4.3% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓

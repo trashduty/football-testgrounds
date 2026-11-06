@@ -1,6 +1,6 @@
 Our model is 1 point away from the market on Wyoming-UNLV.
 
-We make UNLV -7. The market is -6.
+We make UNLV -6.5. The market is -5.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

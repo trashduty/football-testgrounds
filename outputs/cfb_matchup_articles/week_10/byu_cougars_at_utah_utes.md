@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| BYU Cougars | +5.5 (-110) | BetRivers | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Utah Utes | -4.5 (-110) | BetMGM | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| BYU Cougars | +3.5 (+100) | theScore Bet | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah Utes | -4.5 (-104) | FanDuel | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The BYU Cougars visit the Utah Utes at Rice-Eccles Stadium. We make **Utah -8**, compared with a market line of -4.5.
 
-The best number we found is Utah -4.5 at -110. We give Utah a 55.6% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Utah is a bet.
+The best number we found is Utah -4.5 at -104. We give Utah a 55.6% chance to cover, which creates an 4.6% edge for us. That clears our 3% threshold, so Utah is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#22</td>
-<td>#46</td>
+<td>#47</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -43,22 +43,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#9</td>
-<td>#27</td>
+<td>#26</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#104</td>
+<td>#103</td>
 <td class="btb-better">#40</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#10</td>
+<td class="btb-better">#11</td>
 <td>#84</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#53</td>
-<td class="btb-better">#46</td>
+<td>#52</td>
+<td class="btb-better">#44</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **6 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

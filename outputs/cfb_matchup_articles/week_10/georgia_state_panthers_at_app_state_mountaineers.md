@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia State Panthers | +6.5 (-105) | theScore Bet | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| App State Mountaineers | -5.5 (-110) | BetRivers | 45.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia State Panthers | +6.5 (-108) | BetMGM | 54.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| App State Mountaineers | -5.5 (-110) | BetRivers | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia State Panthers visit the App State Mountaineers at Kidd Brewer Stadium. We make **Georgia State +4**, compared with a market line of +6.
+The Georgia State Panthers visit the App State Mountaineers at Kidd Brewer Stadium. We make **Georgia State +4.5**, compared with a market line of +6.5.
 
-The best number we found is Georgia State +6.5 at -105. We give Georgia State a 55.6% chance to cover, which creates an 4.3% edge for us. That clears our 3% threshold, so Georgia State is a bet.
+The best number we found is Georgia State +6.5 at -108. We see a 2.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#18</td>
-<td>#51</td>
+<td>#52</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -53,11 +53,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#113</td>
-<td class="btb-better">#23</td>
+<td class="btb-better">#24</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#43</td>
+<td>#41</td>
 <td class="btb-better">#20</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **6 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
