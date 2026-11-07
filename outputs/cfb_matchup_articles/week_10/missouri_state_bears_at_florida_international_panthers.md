@@ -11,7 +11,7 @@
 
 ## Our Take
 
-The Missouri State Bears visit the Florida International Panthers at Pitbull Stadium. We make **Missouri State +3.5**, compared with a market line of +4.5.
+The Missouri State Bears visit the Florida International Panthers at Pitbull Stadium. We make **Missouri State +3.5**, compared with a market line of +5.
 
 The best number we found is Missouri State +5.5 at -110. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -33,17 +33,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#63</td>
-<td>#96</td>
+<td>#95</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#113</td>
+<td class="btb-better">#114</td>
 <td>#123</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#120</td>
-<td class="btb-better">#25</td>
+<td class="btb-better">#26</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **7 games** this week.
+Our model found edges of at least 3% on **6 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

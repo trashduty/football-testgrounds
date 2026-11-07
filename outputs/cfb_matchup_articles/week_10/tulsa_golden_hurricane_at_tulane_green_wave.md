@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tulsa Golden Hurricane | -2.5 (-110) | FanDuel | 38.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Tulane Green Wave | +2.5 (-105) | BetMGM | 61.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Tulsa Golden Hurricane | -2.5 (-112) | BetMGM | 40.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tulane Green Wave | +2.5 (+100) | theScore Bet | 59.7% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Tulsa Golden Hurricane visit the Tulane Green Wave at Yulman Stadium. We make **Tulane -3.5**, compared with a market line of +2.5.
 
-The best number we found is Tulane +2.5 at -105. We give Tulane a 61.0% chance to cover, which creates an 9.8% edge for us. That clears our 3% threshold, so Tulane is a bet.
+The best number we found is Tulane +2.5 at +100. We give Tulane a 59.7% chance to cover, which creates an 9.7% edge for us. That clears our 3% threshold, so Tulane is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,32 +33,32 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#84</td>
-<td class="btb-better">#81</td>
+<td class="btb-better">#82</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#48</td>
+<td>#50</td>
 <td class="btb-better">#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#42</td>
-<td>#73</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#73</td>
 <td>#74</td>
 </tr>
 <tr>
+<td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td class="btb-better">#71</td>
+<td>#73</td>
+</tr>
+<tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#29</td>
-<td class="btb-better">#8</td>
+<td>#31</td>
+<td class="btb-better">#9</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#69</td>
-<td>#71</td>
+<td class="btb-better">#67</td>
+<td>#69</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **7 games** this week.
+Our model found edges of at least 3% on **6 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

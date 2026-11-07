@@ -1,9 +1,9 @@
-Our model is 2.5 points away from the market on Sam Houston State-Jacksonville Stat.
+Our model is 3 points away from the market on Sam Houston State-Jacksonville Stat.
 
-We make Jacksonville Stat -20. The market is -17.5.
+We make Jacksonville Stat -19.5. The market is -16.5.
 
-Best number: Jacksonville Stat -17.5 -102. We give it a 53.8% chance to cover with a 3.3% edge.
+We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
-We broke down what is driving the difference — including the matchup that concerns us most.
+We broke down why our model differs and what would matter most in the matchup.
 
 Full breakdown ↓

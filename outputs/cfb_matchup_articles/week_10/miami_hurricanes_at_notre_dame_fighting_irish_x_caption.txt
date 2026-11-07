@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on Miami-Notre Dame.
 
-We make Notre Dame -9. The market is -7.5.
+We make Notre Dame -8.5. The market is -7.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Colorado Buffaloes | +4.0 (-110) | Caesars | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Arizona State Sun Devils | -3.5 (-105) | BetMGM | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado Buffaloes | +3.5 (-114) | BetRivers | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona State Sun Devils | -3.5 (+100) | theScore Bet | 51.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Colorado Buffaloes visit the Arizona State Sun Devils at Mountain America Stadium. We make **Arizona State -5**, compared with a market line of -3.5.
 
-The best number we found is Arizona State -3.5 at -105. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona State -3.5 at +100. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,12 +32,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#93</td>
-<td class="btb-better">#80</td>
+<td>#92</td>
+<td class="btb-better">#81</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#106</td>
+<td class="btb-better">#105</td>
 <td>#132</td>
 </tr>
 <tr>
@@ -47,18 +47,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#38</td>
-<td>#44</td>
+<td class="btb-better">#39</td>
+<td>#45</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#114</td>
-<td>#120</td>
+<td class="btb-better">#115</td>
+<td>#122</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#119</td>
-<td class="btb-better">#107</td>
+<td>#117</td>
+<td class="btb-better">#104</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **7 games** this week.
+Our model found edges of at least 3% on **6 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

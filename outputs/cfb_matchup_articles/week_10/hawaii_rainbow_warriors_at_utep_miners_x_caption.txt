@@ -1,6 +1,6 @@
 Our model is 3 points away from the market on Hawai'i-UTEP.
 
-We make Hawai'i -11.5. The market is -8.5.
+We make Hawai'i -10.5. The market is -7.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

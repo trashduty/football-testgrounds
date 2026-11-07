@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on West Virginia-Texas Tech.
 
-We make Texas Tech -18. The market is -16.5.
+We make West Virginia +17.5. The market is +16.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

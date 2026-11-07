@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Iowa State Cyclones | +9.5 (-104) | FanDuel | 57.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Baylor Bears | -9.5 (-110) | theScore Bet | 43.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa State Cyclones | +9.5 (-104) | FanDuel | 56.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Baylor Bears | -9.5 (-112) | BetMGM | 44.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Iowa State Cyclones visit the Baylor Bears at McLane Stadium. We make **Iowa State +7**, compared with a market line of +9.5.
+The Iowa State Cyclones visit the Baylor Bears at McLane Stadium. We make **Iowa State +7.5**, compared with a market line of +10.
 
-The best number we found is Iowa State +9.5 at -104. We give Iowa State a 57.0% chance to cover, which creates an 6.0% edge for us. That clears our 3% threshold, so Iowa State is a bet.
+The best number we found is Iowa State +9.5 at -104. We give Iowa State a 56.1% chance to cover, which creates an 5.2% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,13 +32,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#61</td>
+<td class="btb-better">#60</td>
 <td>#77</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#49</td>
-<td>#59</td>
+<td class="btb-better">#51</td>
+<td>#58</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#81</td>
-<td class="btb-better">#45</td>
+<td>#82</td>
+<td class="btb-better">#47</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#19</td>
-<td>#40</td>
+<td class="btb-better">#18</td>
+<td>#39</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **7 games** this week.
+Our model found edges of at least 3% on **6 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on Fresno State-Utah State.
+Our model is 2 points away from the market on Fresno State-Utah State.
 
-We make Utah State 0. The market is +2.5.
+We make Utah State -0.5. The market is +1.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

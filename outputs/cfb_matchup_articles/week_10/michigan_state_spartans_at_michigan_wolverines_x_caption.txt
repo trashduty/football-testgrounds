@@ -1,6 +1,6 @@
 Our model is 2.5 points away from the market on Michigan State-Michigan.
 
-We make Michigan -16. The market is -13.5.
+We make Michigan -16.5. The market is -14.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
