@@ -1,0 +1,28 @@
+{
+  "game": "Oregon State Beavers@Boise State Broncos",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:16:14.179457+00:00",
+  "model_prediction": -14.5,
+  "market_line": -10.5,
+  "best_line": -10.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.54229095,
+  "edge": 0.04229095000000005,
+  "bet_short": "Boise State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Oregon State Beavers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon State.pdf",
+      "Guide processing failed for Oregon State Beavers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

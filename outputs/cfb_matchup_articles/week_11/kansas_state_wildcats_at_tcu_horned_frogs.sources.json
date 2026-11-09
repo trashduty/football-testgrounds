@@ -1,0 +1,28 @@
+{
+  "game": "Kansas State Wildcats@TCU Horned Frogs",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:14:02.041358+00:00",
+  "model_prediction": 9.0,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-104",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52773891,
+  "edge": 0.017934988431372534,
+  "bet_short": "Kansas State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Kansas State Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas State.pdf",
+      "Found guide for TCU Horned Frogs: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/TCU.pdf",
+      "Guide processing failed for TCU Horned Frogs: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

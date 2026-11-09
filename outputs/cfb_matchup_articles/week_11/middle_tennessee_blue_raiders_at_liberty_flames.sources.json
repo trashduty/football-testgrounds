@@ -1,0 +1,28 @@
+{
+  "game": "Middle Tennessee Blue Raiders@Liberty Flames",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:15:12.270209+00:00",
+  "model_prediction": -24.0,
+  "market_line": -21.5,
+  "best_line": -21.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.53246809,
+  "edge": 0.020272968048780426,
+  "bet_short": "Liberty",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Middle Tennessee Blue Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Middle Tennessee.pdf",
+      "Found guide for Liberty Flames: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Liberty.pdf",
+      "Guide processing failed for Liberty Flames: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

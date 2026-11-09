@@ -1,0 +1,28 @@
+{
+  "game": "Stanford Cardinal@Virginia Tech Hokies",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:16:49.149979+00:00",
+  "model_prediction": -17.5,
+  "market_line": -15.5,
+  "best_line": -15.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.51875556,
+  "edge": 0.006560438048780481,
+  "bet_short": "Virginia Tech",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf",
+      "Found guide for Virginia Tech Hokies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia Tech.pdf",
+      "Guide processing failed for Virginia Tech Hokies: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

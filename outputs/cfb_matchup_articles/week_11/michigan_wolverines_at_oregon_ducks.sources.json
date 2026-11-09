@@ -1,0 +1,28 @@
+{
+  "game": "Michigan Wolverines@Oregon Ducks",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:14:56.126773+00:00",
+  "model_prediction": 11.0,
+  "market_line": 10.5,
+  "best_line": 11.5,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52752453,
+  "edge": -0.002991901924882634,
+  "bet_short": "Michigan",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Michigan Wolverines. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan.pdf",
+      "Found guide for Oregon Ducks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon.pdf",
+      "Guide processing failed for Oregon Ducks: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

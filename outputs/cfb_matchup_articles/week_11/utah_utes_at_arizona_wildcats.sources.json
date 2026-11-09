@@ -1,0 +1,28 @@
+{
+  "game": "Utah Utes@Arizona Wildcats",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:18:05.102858+00:00",
+  "model_prediction": 1.0,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "-110",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52094842,
+  "edge": -0.0028611038095238683,
+  "bet_short": "Arizona",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Utah Utes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah.pdf",
+      "Guide processing failed for Utah Utes: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Arizona Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arizona.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "game": "Buffalo Bulls@Ball State Cardinals",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:10:54.256744+00:00",
+  "model_prediction": 3.0,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.48669817,
+  "edge": -0.013301830000000014,
+  "bet_short": "Ball State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Buffalo Bulls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Buffalo.pdf",
+      "Guide processing failed for Buffalo Bulls: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Ball State Cardinals: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ball State.pdf",
+      "Guide processing failed for Ball State Cardinals: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

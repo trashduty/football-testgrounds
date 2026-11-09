@@ -1,0 +1,28 @@
+{
+  "game": "North Texas Mean Green@UTSA Roadrunners",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:15:48.928065+00:00",
+  "model_prediction": -0.5,
+  "market_line": -1.5,
+  "best_line": 1.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.52677168,
+  "edge": 0.0029621561904761284,
+  "bet_short": "North Texas",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for North Texas Mean Green: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Texas.pdf",
+      "Guide processing failed for North Texas Mean Green: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

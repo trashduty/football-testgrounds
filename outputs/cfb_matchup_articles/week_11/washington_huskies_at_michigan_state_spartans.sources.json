@@ -1,0 +1,28 @@
+{
+  "game": "Washington Huskies@Michigan State Spartans",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:18:18.148457+00:00",
+  "model_prediction": -7.5,
+  "market_line": -4.5,
+  "best_line": -4.5,
+  "best_price": "-106",
+  "best_book": "FanDuel",
+  "cover_probability": 0.54626562,
+  "edge": 0.03170251320388351,
+  "bet_short": "Washington",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Guide processing failed for Washington Huskies: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Michigan State Spartans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Michigan State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "Arkansas State Red Wolves@Coastal Carolina Chanticleers",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:10:04.929585+00:00",
+  "model_prediction": 0.5,
+  "market_line": 1.5,
+  "best_line": 1.5,
+  "best_price": "-110",
+  "best_book": "Fanatics",
+  "cover_probability": 0.51466042,
+  "edge": -0.009149103809523829,
+  "bet_short": "Arkansas State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Arkansas State Red Wolves. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Arkansas State.pdf",
+      "No guide found for Coastal Carolina Chanticleers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Coastal Carolina.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

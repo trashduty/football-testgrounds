@@ -1,0 +1,27 @@
+{
+  "game": "UNLV Rebels@New Mexico Lobos",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:17:44.556868+00:00",
+  "model_prediction": 14.0,
+  "market_line": 14.5,
+  "best_line": 14.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52555954,
+  "edge": 0.0017500161904762113,
+  "bet_short": "UNLV",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UNLV Rebels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UNLV.pdf",
+      "No guide found for New Mexico Lobos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

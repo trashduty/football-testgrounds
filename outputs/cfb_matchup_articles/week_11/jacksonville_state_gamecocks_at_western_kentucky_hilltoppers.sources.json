@@ -1,0 +1,27 @@
+{
+  "game": "Jacksonville State Gamecocks@Western Kentucky Hilltoppers",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:13:15.542102+00:00",
+  "model_prediction": 6.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-115",
+  "best_book": "Caesars",
+  "cover_probability": 0.55882026,
+  "edge": 0.02393653906976745,
+  "bet_short": "Western Kentucky",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf",
+      "No guide found for Western Kentucky Hilltoppers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Kentucky.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

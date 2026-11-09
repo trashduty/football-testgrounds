@@ -1,0 +1,27 @@
+{
+  "game": "Troy Trojans@South Alabama Jaguars",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:17:27.839330+00:00",
+  "model_prediction": 2.0,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "-104",
+  "best_book": "FanDuel",
+  "cover_probability": 0.50383027,
+  "edge": -0.005973651568627392,
+  "bet_short": "Troy",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Troy Trojans. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Troy.pdf",
+      "No guide found for South Alabama Jaguars. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/South Alabama.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "Kent State Golden Flashes@Bowling Green Falcons",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:14:45.612016+00:00",
+  "model_prediction": -6.5,
+  "market_line": -6.0,
+  "best_line": -5.5,
+  "best_price": "-109",
+  "best_book": "BetRivers",
+  "cover_probability": 0.50915094,
+  "edge": -0.012380160478468794,
+  "bet_short": "Bowling Green",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Kent State Golden Flashes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kent State.pdf",
+      "Found guide for Bowling Green Falcons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Bowling Green.pdf",
+      "Guide processing failed for Bowling Green Falcons: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

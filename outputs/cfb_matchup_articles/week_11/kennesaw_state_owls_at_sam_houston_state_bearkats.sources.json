@@ -1,0 +1,28 @@
+{
+  "game": "Kennesaw State Owls@Sam Houston State Bearkats",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:14:11.235716+00:00",
+  "model_prediction": 7.5,
+  "market_line": 8.0,
+  "best_line": 8.5,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.54201014,
+  "edge": 0.011493708075117404,
+  "bet_short": "Sam Houston State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Kennesaw State Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kennesaw State.pdf",
+      "Guide processing failed for Kennesaw State Owls: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Sam Houston State Bearkats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Sam Houston State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

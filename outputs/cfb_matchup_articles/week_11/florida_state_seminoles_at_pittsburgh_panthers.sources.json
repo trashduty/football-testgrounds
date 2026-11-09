@@ -1,0 +1,29 @@
+{
+  "game": "Florida State Seminoles@Pittsburgh Panthers",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:12:48.317687+00:00",
+  "model_prediction": 3.0,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-107",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52662097,
+  "edge": 0.009712757439613529,
+  "bet_short": "Florida State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Florida State Seminoles: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida State.pdf",
+      "Guide processing failed for Florida State Seminoles: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Pittsburgh Panthers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Pittsburgh.pdf",
+      "Guide processing failed for Pittsburgh Panthers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

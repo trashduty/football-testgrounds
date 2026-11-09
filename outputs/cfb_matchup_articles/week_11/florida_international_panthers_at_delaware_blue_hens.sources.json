@@ -1,0 +1,27 @@
+{
+  "game": "Florida International Panthers@Delaware Blue Hens",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:12:17.822300+00:00",
+  "model_prediction": -7.5,
+  "market_line": -5.0,
+  "best_line": -5.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.51833994,
+  "edge": -0.0008908292307692189,
+  "bet_short": "Delaware",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Florida International Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida InternationaL.pdf",
+      "No guide found for Delaware Blue Hens. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Delaware.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

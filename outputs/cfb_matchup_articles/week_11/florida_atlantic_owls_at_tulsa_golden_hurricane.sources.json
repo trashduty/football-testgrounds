@@ -1,0 +1,28 @@
+{
+  "game": "Florida Atlantic Owls@Tulsa Golden Hurricane",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:12:01.746739+00:00",
+  "model_prediction": 6.0,
+  "market_line": 5.5,
+  "best_line": 5.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.50913824,
+  "edge": -0.01009252923076931,
+  "bet_short": "Florida Atlantic",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Florida Atlantic Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida Atlantic.pdf",
+      "Found guide for Tulsa Golden Hurricane: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulsa.pdf",
+      "Guide processing failed for Tulsa Golden Hurricane: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

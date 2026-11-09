@@ -1,0 +1,27 @@
+{
+  "game": "Ohio Bobcats@Miami (OH) RedHawks",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:15:56.725085+00:00",
+  "model_prediction": -1.5,
+  "market_line": -1.5,
+  "best_line": 1.0,
+  "best_price": "-118",
+  "best_book": "BetRivers",
+  "cover_probability": 0.53789337,
+  "edge": -0.003391033669724708,
+  "bet_short": "Ohio",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Ohio Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio.pdf",
+      "No guide found for Miami (OH) RedHawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami (OH).pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

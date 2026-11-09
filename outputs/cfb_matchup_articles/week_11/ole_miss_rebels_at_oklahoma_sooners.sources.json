@@ -1,0 +1,28 @@
+{
+  "game": "Ole Miss Rebels@Oklahoma Sooners",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:16:09.373133+00:00",
+  "model_prediction": -1.5,
+  "market_line": -1.5,
+  "best_line": -1.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.50096124,
+  "edge": -0.0182695292307693,
+  "bet_short": "Ole Miss",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Ole Miss Rebels: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ole Miss.pdf",
+      "Guide processing failed for Ole Miss Rebels: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Oklahoma Sooners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oklahoma.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

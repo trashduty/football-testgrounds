@@ -1,0 +1,28 @@
+{
+  "game": "Boston College Eagles@Notre Dame Fighting Irish",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:10:41.158798+00:00",
+  "model_prediction": -33.0,
+  "market_line": -29.5,
+  "best_line": -29.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.55194166,
+  "edge": 0.028132136190476165,
+  "bet_short": "Notre Dame",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf",
+      "Found guide for Notre Dame Fighting Irish: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Notre Dame.pdf",
+      "Guide processing failed for Notre Dame Fighting Irish: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

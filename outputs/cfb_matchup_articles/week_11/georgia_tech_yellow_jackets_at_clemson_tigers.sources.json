@@ -1,0 +1,28 @@
+{
+  "game": "Georgia Tech Yellow Jackets@Clemson Tigers",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:13:14.522437+00:00",
+  "model_prediction": 13.0,
+  "market_line": 13.5,
+  "best_line": 13.5,
+  "best_price": "-110",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52033029,
+  "edge": -0.003479233809523863,
+  "bet_short": "Georgia Tech",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Georgia Tech Yellow Jackets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Georgia Tech.pdf",
+      "Found guide for Clemson Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Clemson.pdf",
+      "Guide processing failed for Clemson Tigers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "game": "USC Trojans@Indiana Hoosiers",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:17:58.029061+00:00",
+  "model_prediction": -8.0,
+  "market_line": -7.5,
+  "best_line": -7.5,
+  "best_price": "102",
+  "best_book": "FanDuel",
+  "cover_probability": 0.48474619,
+  "edge": -0.010303314950495024,
+  "bet_short": "Indiana",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for USC Trojans: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
+      "Guide processing failed for USC Trojans: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Indiana Hoosiers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Indiana.pdf",
+      "Guide processing failed for Indiana Hoosiers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

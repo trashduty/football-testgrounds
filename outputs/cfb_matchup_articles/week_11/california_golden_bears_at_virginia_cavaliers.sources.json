@@ -1,0 +1,28 @@
+{
+  "game": "California Golden Bears@Virginia Cavaliers",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:11:05.842553+00:00",
+  "model_prediction": 13.0,
+  "market_line": 12.5,
+  "best_line": 12.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.50370183,
+  "edge": -0.02010769380952382,
+  "bet_short": "California",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for California Golden Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
+      "Guide processing failed for California Golden Bears: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Virginia Cavaliers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Virginia.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

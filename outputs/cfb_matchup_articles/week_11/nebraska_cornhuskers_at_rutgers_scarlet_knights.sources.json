@@ -1,0 +1,27 @@
+{
+  "game": "Nebraska Cornhuskers@Rutgers Scarlet Knights",
+  "season": 2026,
+  "week": 11,
+  "generated_at_utc": "2026-11-09T13:15:41.446851+00:00",
+  "model_prediction": -15.5,
+  "market_line": -13.5,
+  "best_line": -13.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.51899879,
+  "edge": -0.004810733809523793,
+  "bet_short": "Nebraska",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Nebraska Cornhuskers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Nebraska.pdf",
+      "No guide found for Rutgers Scarlet Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rutgers.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
