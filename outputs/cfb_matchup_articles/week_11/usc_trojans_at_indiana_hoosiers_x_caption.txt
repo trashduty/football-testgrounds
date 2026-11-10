@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on USC-Indiana.
 
-We make Indiana -8. The market is -7.5.
+We make USC +8. The market is +7.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida Atlantic Owls | +5.5 (-108) | DraftKings | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Atlantic Owls | +5.5 (-110) | BetMGM | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Tulsa Golden Hurricane | -5.5 (-108) | BetMGM | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Florida Atlantic Owls visit the Tulsa Golden Hurricane at Chapman Stadium. We make **Florida Atlantic +6**, compared with a market line of +5.5.
 
-The best number we found is Florida Atlantic +5.5 at -108. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida Atlantic +5.5 at -110. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **10 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

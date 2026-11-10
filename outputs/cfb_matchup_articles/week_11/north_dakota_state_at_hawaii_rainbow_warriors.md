@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Dakota State | -6.5 (-112) | BetMGM | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Hawaii Rainbow Warriors | +6.5 (-104) | FanDuel | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| North Dakota State | -5.5 (-115) | theScore Bet | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Hawaii Rainbow Warriors | +6.5 (-106) | Caesars | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The North Dakota State visit the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. We make **Hawai'i +3.5**, compared with a market line of +6.5.
 
-The best number we found is Hawai'i +6.5 at -104. We give Hawai'i a 57.1% chance to cover, which creates an 6.1% edge for us. That clears our 3% threshold, so Hawai'i is a bet.
+The best number we found is Hawai'i +6.5 at -106. We give Hawai'i a 57.1% chance to cover, which creates an 5.7% edge for us. That clears our 3% threshold, so Hawai'i is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **10 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

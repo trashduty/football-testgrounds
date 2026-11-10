@@ -1,6 +1,6 @@
-Our model is 0.5 points away from the market on Troy-South Alabama.
+Our model is 1 point away from the market on Troy-South Alabama.
 
-We make Troy +2. The market is +2.5.
+We make Troy +2. The market is +3.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

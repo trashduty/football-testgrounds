@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wisconsin Badgers | -7.5 (-109) | BetRivers | 54.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Maryland Terrapins | +8.5 (-110) | BetMGM | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wisconsin Badgers | -7.5 (-110) | theScore Bet | 53.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Maryland Terrapins | +8.5 (-110) | DraftKings | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wisconsin Badgers visit the Maryland Terrapins at SECU Stadium. We make **Wisconsin -11**, compared with a market line of -8.5.
+The Wisconsin Badgers visit the Maryland Terrapins at SECU Stadium. We make **Wisconsin -10.5**, compared with a market line of -8.
 
-The best number we found is Wisconsin -7.5 at -109. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wisconsin -7.5 at -110. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **10 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

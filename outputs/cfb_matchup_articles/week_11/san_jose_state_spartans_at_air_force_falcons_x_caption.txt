@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on San Jose State-Air Force.
 
-We make San Jose State +11.5. The market is +11.5.
+We make San Jose State +12.5. The market is +12.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

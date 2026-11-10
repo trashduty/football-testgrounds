@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on Wyoming-UTEP.
+Our model is 3 points away from the market on Wyoming-UTEP.
 
-We make Wyoming -11. The market is -8.5.
+We make Wyoming -10.5. The market is -7.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

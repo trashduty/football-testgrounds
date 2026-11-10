@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UNLV Rebels | +14.5 (-110) | FanDuel | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| New Mexico Lobos | -14.5 (-105) | BetMGM | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UNLV Rebels | +14.5 (-110) | FanDuel | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| New Mexico Lobos | -14.5 (-105) | Fanatics | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UNLV Rebels visit the New Mexico Lobos at University Stadium (NM). We make **UNLV +14**, compared with a market line of +14.5.
+The UNLV Rebels visit the New Mexico Lobos at University Stadium (NM). We make **UNLV +13.5**, compared with a market line of +14.
 
-The best number we found is UNLV +14.5 at -110. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UNLV +14.5 at -110. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **10 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

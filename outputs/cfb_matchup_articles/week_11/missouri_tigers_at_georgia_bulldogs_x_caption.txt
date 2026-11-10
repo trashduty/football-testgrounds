@@ -1,6 +1,6 @@
 Our model is 1.5 points away from the market on Missouri-Georgia.
 
-We make Georgia -16. The market is -14.5.
+We make Georgia -17. The market is -15.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| App State Mountaineers | -1.5 (-105) | Fanatics | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Marshall Thundering Herd | +2.5 (-110) | FanDuel | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| App State Mountaineers | -1.5 (-110) | BetMGM | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Marshall Thundering Herd | +2.5 (-110) | FanDuel | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The App State Mountaineers visit the Marshall Thundering Herd at Joan C. Edwards Stadium. We make **App State -2**, compared with a market line of -2.
+The App State Mountaineers visit the Marshall Thundering Herd at Joan C. Edwards Stadium. We make **Marshall +1.5**, compared with a market line of +1.5.
 
-The best number we found is App State -1.5 at -105. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Marshall +2.5 at -110. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>App State</th>
 <th>Marshall</th>
+<th>App State</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#44</td>
 <td>#109</td>
+<td class="btb-better">#44</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#127</td>
 <td class="btb-better">#109</td>
+<td>#127</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#62</td>
 <td>#131</td>
+<td class="btb-better">#62</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#63</td>
 <td>#97</td>
+<td class="btb-better">#63</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#19</td>
 <td>#129</td>
+<td class="btb-better">#19</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#28</td>
 <td>#128</td>
+<td class="btb-better">#28</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **10 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

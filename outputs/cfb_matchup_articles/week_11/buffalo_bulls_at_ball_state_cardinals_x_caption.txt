@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Buffalo-Ball State.
 
-We make Ball State +3. The market is +2.5.
+We make Buffalo -3. The market is -2.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

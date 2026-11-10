@@ -1,6 +1,6 @@
-Our model is 2.5 points away from the market on Middle Tennessee-Liberty.
+Our model is 3 points away from the market on Middle Tennessee-Liberty.
 
-We make Liberty -24. The market is -21.5.
+We make Liberty -23.5. The market is -20.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
