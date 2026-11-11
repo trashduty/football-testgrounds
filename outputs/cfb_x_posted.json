@@ -3215,6 +3215,14 @@
       "game": "Utah State Aggies@San Diego State Aztecs",
       "kind": "Bet",
       "post_id": "2120565575030374850"
+    },
+    {
+      "date": "2026-11-11",
+      "hour": 13,
+      "season_week": "2026-week-11",
+      "game": "Jacksonville State Gamecocks@Western Kentucky Hilltoppers",
+      "kind": "No Bet",
+      "post_id": "2120581019103264979"
     }
   ]
 }
