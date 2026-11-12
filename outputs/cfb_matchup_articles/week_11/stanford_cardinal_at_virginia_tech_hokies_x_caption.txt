@@ -1,6 +1,6 @@
 Our model is 2 points away from the market on Stanford-Virginia Tech.
 
-We make Virginia Tech -17.5. The market is -15.5.
+We make Virginia Tech -17. The market is -15.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

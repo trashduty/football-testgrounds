@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Illinois Fighting Illini | +10.5 (-112) | BetRivers | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Illinois Fighting Illini | +10.5 (-115) | theScore Bet | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | UCLA Bruins | -10.5 (+100) | FanDuel | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Illinois Fighting Illini visit the UCLA Bruins at Rose Bowl. We make **Illinois +8**, compared with a market line of +10.
 
-The best number we found is Illinois +10.5 at -112. We give Illinois a 57.1% chance to cover, which creates an 4.3% edge for us. That clears our 3% threshold, so Illinois is a bet.
+The best number we found is Illinois +10.5 at -115. We give Illinois a 57.1% chance to cover, which creates an 3.6% edge for us. That clears our 3% threshold, so Illinois is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#48</td>
+<td>#49</td>
 <td class="btb-better">#30</td>
 </tr>
 <tr>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#54</td>
+<td>#55</td>
 <td class="btb-better">#39</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#112</td>
-<td class="btb-better">#20</td>
+<td>#110</td>
+<td class="btb-better">#19</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

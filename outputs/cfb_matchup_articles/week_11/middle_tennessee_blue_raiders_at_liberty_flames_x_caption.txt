@@ -1,9 +1,9 @@
 Our model is 3 points away from the market on Middle Tennessee-Liberty.
 
-We make Liberty -23.5. The market is -20.5.
+We make Liberty -24. The market is -21.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: Liberty -21.5 +100. We give it a 53.2% chance to cover with a 3.2% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

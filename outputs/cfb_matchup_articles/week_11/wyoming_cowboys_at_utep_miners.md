@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | -7.5 (-108) | Caesars | 53.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| UTEP Miners | +7.5 (-105) | theScore Bet | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wyoming Cowboys | -8.5 (-105) | theScore Bet | 52.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| UTEP Miners | +8.5 (-110) | Fanatics | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wyoming Cowboys visit the UTEP Miners at Sun Bowl. We make **Wyoming -10.5**, compared with a market line of -7.5.
+The Wyoming Cowboys visit the UTEP Miners at Sun Bowl. We make **Wyoming -11**, compared with a market line of -8.5.
 
-The best number we found is Wyoming -7.5 at -108. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wyoming -8.5 at -105. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,33 +32,33 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#118</td>
+<td class="btb-better">#117</td>
 <td>#133</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#43</td>
+<td class="btb-better">#44</td>
 <td>#133</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#55</td>
+<td class="btb-better">#56</td>
 <td>#135</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#120</td>
-<td class="btb-better">#113</td>
+<td>#118</td>
+<td class="btb-better">#112</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#79</td>
+<td class="btb-better">#80</td>
 <td>#134</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#31</td>
-<td>#97</td>
+<td class="btb-better">#30</td>
+<td>#94</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

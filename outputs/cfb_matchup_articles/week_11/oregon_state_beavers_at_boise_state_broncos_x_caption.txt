@@ -1,6 +1,6 @@
 Our model is 3 points away from the market on Oregon State-Boise State.
 
-We make Boise State -16.5. The market is -13.5.
+We make Boise State -17.5. The market is -14.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

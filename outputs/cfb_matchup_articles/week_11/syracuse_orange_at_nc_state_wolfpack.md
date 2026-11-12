@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Syracuse Orange | -2.5 (-115) | BetMGM | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| NC State Wolfpack | +2.5 (+105) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Syracuse Orange | -2.5 (-115) | theScore Bet | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| NC State Wolfpack | +2.5 (+100) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Syracuse Orange visit the NC State Wolfpack at Carter-Finley Stadium. We make **NC State +1**, compared with a market line of +2.5.
 
-The best number we found is NC State +2.5 at +105. We give NC State a 52.1% chance to cover, which creates an 3.3% edge for us. That clears our 3% threshold, so NC State is a bet.
+The best number we found is NC State +2.5 at +100. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,27 +38,27 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#100</td>
-<td class="btb-better">#53</td>
+<td class="btb-better">#57</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#121</td>
-<td class="btb-better">#45</td>
+<td>#120</td>
+<td class="btb-better">#46</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#43</td>
 <td>#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#37</td>
-<td>#91</td>
+<td>#93</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#102</td>
-<td class="btb-better">#99</td>
+<td>#100</td>
+<td class="btb-better">#96</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **10 games** this week.
+Our model found edges of at least 3% on **11 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
