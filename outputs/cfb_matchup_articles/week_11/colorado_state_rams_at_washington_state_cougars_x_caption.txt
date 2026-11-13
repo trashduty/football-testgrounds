@@ -1,6 +1,6 @@
 Our model is 4 points away from the market on Colorado State-Washington State.
 
-We make Washington State -13.5. The market is -9.5.
+We make Washington State -12.5. The market is -8.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

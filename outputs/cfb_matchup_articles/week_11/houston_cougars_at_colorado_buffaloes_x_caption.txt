@@ -1,6 +1,6 @@
 Our model is 2 points away from the market on Houston-Colorado.
 
-We make Houston -11.5. The market is -9.5.
+We make Houston -11. The market is -9.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

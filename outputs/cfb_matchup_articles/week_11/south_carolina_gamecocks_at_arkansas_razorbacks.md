@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Carolina Gamecocks | -7.5 (-105) | theScore Bet | 52.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Arkansas Razorbacks | +7.5 (-109) | BetRivers | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -7.5 (-112) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas Razorbacks | +8.5 (-110) | FanDuel | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The South Carolina Gamecocks visit the Arkansas Razorbacks at Razorback Stadium. We make **South Carolina -10.5**, compared with a market line of -7.
+The South Carolina Gamecocks visit the Arkansas Razorbacks at Razorback Stadium. We make **South Carolina -11**, compared with a market line of -8.
 
-The best number we found is South Carolina -7.5 at -105. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Carolina -7.5 at -112. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,17 +33,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#77</td>
-<td>#101</td>
+<td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#36</td>
+<td class="btb-better">#37</td>
 <td>#117</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#113</td>
-<td class="btb-better">#90</td>
+<td class="btb-better">#88</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#49</td>
-<td>#107</td>
+<td class="btb-better">#47</td>
+<td>#106</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on Arizona State-UCF.
 
-We make UCF -3. The market is -3.
+We make Arizona State +3. The market is +3.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

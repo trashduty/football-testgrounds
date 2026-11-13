@@ -42,12 +42,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#54</td>
+<td class="btb-better">#55</td>
 <td>#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#19</td>
+<td class="btb-better">#18</td>
 <td>#100</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#8</td>
-<td>#68</td>
+<td>#66</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -83,14 +83,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| App State Mountaineers | -1.5 (-110) | BetMGM | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Marshall Thundering Herd | +1.5 (-106) | Caesars | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| App State Mountaineers | -1.5 (-107) | Caesars | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Marshall Thundering Herd | +1.5 (-108) | BetRivers | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The App State Mountaineers visit the Marshall Thundering Herd at Joan C. Edwards Stadium. We make **Marshall +1.5**, compared with a market line of +1.5.
+The App State Mountaineers visit the Marshall Thundering Herd at Joan C. Edwards Stadium. We make **App State -1.5**, compared with a market line of -1.5.
 
-The best number we found is Marshall +1.5 at -106. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is App State -1.5 at -107. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -102,40 +102,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Marshall</th>
 <th>App State</th>
+<th>Marshall</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#109</td>
 <td class="btb-better">#44</td>
+<td>#108</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#110</td>
 <td>#127</td>
+<td class="btb-better">#110</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#132</td>
 <td class="btb-better">#62</td>
+<td>#132</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#97</td>
 <td class="btb-better">#63</td>
+<td>#97</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#129</td>
 <td class="btb-better">#21</td>
+<td>#129</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#127</td>
 <td class="btb-better">#27</td>
+<td>#127</td>
 </tr>
 </tbody>
 </table>
@@ -144,7 +144,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -161,13 +161,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Arizona State Sun Devils | +3.5 (-115) | theScore Bet | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UCF Knights | -3.5 (+110) | FanDuel | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UCF Knights | -3.5 (+100) | FanDuel | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Arizona State Sun Devils visit the UCF Knights at FBC Mortgage Stadium. We make **UCF -3**, compared with a market line of -3.
+The Arizona State Sun Devils visit the UCF Knights at FBC Mortgage Stadium. We make **Arizona State +3**, compared with a market line of +3.
 
-The best number we found is UCF -3.5 at +110. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona State +3.5 at -115. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -179,40 +179,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>UCF</th>
 <th>Arizona State</th>
+<th>UCF</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#97</td>
 <td class="btb-better">#87</td>
+<td>#96</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#107</td>
 <td>#118</td>
+<td class="btb-better">#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#67</td>
 <td>#103</td>
-<td class="btb-better">#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#37</td>
 <td class="btb-better">#33</td>
+<td>#37</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#68</td>
 <td>#104</td>
+<td class="btb-better">#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#58</td>
 <td>#125</td>
+<td class="btb-better">#56</td>
 </tr>
 </tbody>
 </table>
@@ -221,7 +221,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -237,7 +237,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas State Red Wolves | +1.5 (-110) | Fanatics | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas State Red Wolves | +1.5 (-110) | BetMGM | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Coastal Carolina Chanticleers | -1.5 (-105) | FanDuel | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -288,8 +288,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#52</td>
-<td class="btb-better">#48</td>
+<td>#50</td>
+<td class="btb-better">#46</td>
 </tr>
 </tbody>
 </table>
@@ -298,7 +298,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -314,7 +314,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Auburn Tigers | -2.5 (-113) | BetRivers | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Auburn Tigers | -2.5 (-110) | BetRivers | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Mississippi State Bulldogs | +2.5 (+101) | Caesars | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -340,8 +340,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#98</td>
-<td>#102</td>
+<td class="btb-better">#97</td>
+<td>#101</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -366,7 +366,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#129</td>
-<td class="btb-better">#83</td>
+<td class="btb-better">#82</td>
 </tr>
 </tbody>
 </table>
@@ -375,7 +375,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -391,14 +391,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baylor Bears | +7.5 (-114) | BetRivers | 54.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Baylor Bears | +7.5 (-112) | DraftKings | 54.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 | BYU Cougars | -7.5 (+100) | theScore Bet | 45.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Baylor Bears visit the BYU Cougars at LaVell Edwards Stadium. We make **Baylor +6.5**, compared with a market line of +7.5.
 
-The best number we found is Baylor +7.5 at -114. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Baylor +7.5 at -112. We see a 1.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -437,13 +437,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#46</td>
+<td class="btb-better">#47</td>
 <td>#120</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#26</td>
-<td>#45</td>
+<td>#43</td>
 </tr>
 </tbody>
 </table>
@@ -452,7 +452,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -468,14 +468,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Boston College Eagles | +29.5 (-110) | Caesars | 44.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Notre Dame Fighting Irish | -29.5 (-105) | theScore Bet | 55.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Boston College Eagles | +30.0 (-110) | BetRivers | 44.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Notre Dame Fighting Irish | -29.5 (-108) | DraftKings | 55.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Boston College Eagles visit the Notre Dame Fighting Irish at Notre Dame Stadium. We make **Notre Dame -33**, compared with a market line of -29.5.
 
-The best number we found is Notre Dame -29.5 at -105. We give Notre Dame a 55.2% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Notre Dame is a bet.
+The best number we found is Notre Dame -29.5 at -108. We give Notre Dame a 55.2% chance to cover, which creates an 3.3% edge for us. That clears our 3% threshold, so Notre Dame is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -505,7 +505,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#32</td>
-<td>#80</td>
+<td>#79</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -520,7 +520,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#5</td>
-<td>#72</td>
+<td>#70</td>
 </tr>
 </tbody>
 </table>
@@ -529,7 +529,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -572,7 +572,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#64</td>
-<td>#100</td>
+<td>#99</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -581,7 +581,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#95</td>
+<td class="btb-better">#94</td>
 <td>#99</td>
 </tr>
 <tr>
@@ -591,13 +591,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#49</td>
+<td class="btb-better">#50</td>
 <td>#109</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#66</td>
-<td class="btb-better">#56</td>
+<td>#64</td>
+<td class="btb-better">#54</td>
 </tr>
 </tbody>
 </table>
@@ -606,7 +606,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -622,14 +622,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Cincinnati Bearcats | +2.5 (+105) | theScore Bet | 41.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa State Cyclones | -3.5 (+110) | FanDuel | 54.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Cincinnati Bearcats | +2.5 (+105) | FanDuel | 41.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa State Cyclones | -2.5 (-120) | theScore Bet | 57.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Cincinnati Bearcats visit the Iowa State Cyclones at Jack Trice Stadium. We make **Iowa State -7**, compared with a market line of -3.
 
-The best number we found is Iowa State -3.5 at +110. We give Iowa State a 54.0% chance to cover, which creates an 6.4% edge for us. That clears our 3% threshold, so Iowa State is a bet.
+The best number we found is Iowa State -2.5 at -120. We give Iowa State a 57.8% chance to cover, which creates an 3.3% edge for us. That clears our 3% threshold, so Iowa State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -654,7 +654,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#47</td>
-<td class="btb-better">#28</td>
+<td class="btb-better">#27</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -673,8 +673,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#16</td>
-<td>#71</td>
+<td class="btb-better">#15</td>
+<td>#69</td>
 </tr>
 </tbody>
 </table>
@@ -683,7 +683,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -699,14 +699,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Colorado State Rams | +9.5 (-108) | BetMGM | 45.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington State Cougars | -8.5 (-112) | FanDuel | 55.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Colorado State Rams | +9.5 (-110) | Caesars | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | -8.5 (-110) | BetMGM | 54.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Colorado State Rams visit the Washington State Cougars at Gesa Field. We make **Washington State -13.5**, compared with a market line of -9.5.
+The Colorado State Rams visit the Washington State Cougars at Gesa Field. We make **Washington State -12.5**, compared with a market line of -8.5.
 
-The best number we found is Washington State -8.5 at -112. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Washington State -8.5 at -110. We see a 1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -725,17 +725,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#132</td>
+<td>#131</td>
 <td class="btb-better">#29</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#93</td>
-<td class="btb-better">#10</td>
+<td class="btb-better">#11</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#55</td>
+<td class="btb-better">#56</td>
 <td>#138</td>
 </tr>
 <tr>
@@ -746,11 +746,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#92</td>
-<td class="btb-better">#54</td>
+<td class="btb-better">#55</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#74</td>
+<td class="btb-better">#72</td>
 <td>#132</td>
 </tr>
 </tbody>
@@ -760,7 +760,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -802,23 +802,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#23</td>
+<td>#24</td>
 <td class="btb-better">#1</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#23</td>
-<td class="btb-better">#13</td>
+<td class="btb-better">#14</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#65</td>
+<td class="btb-better">#64</td>
 <td>#110</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#21</td>
-<td>#27</td>
+<td class="btb-better">#20</td>
+<td>#26</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -827,7 +827,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#40</td>
+<td>#38</td>
 <td class="btb-better">#3</td>
 </tr>
 </tbody>
@@ -837,7 +837,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -853,14 +853,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| East Carolina Pirates | -11.5 (-110) | theScore Bet | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Charlotte 49ers | +12.5 (-110) | FanDuel | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| East Carolina Pirates | -11.5 (-105) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +12.5 (-112) | DraftKings | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The East Carolina Pirates visit the Charlotte 49ers at Jerry Richardson Stadium. We make **Charlotte +12.5**, compared with a market line of +11.5.
+The East Carolina Pirates visit the Charlotte 49ers at Jerry Richardson Stadium. We make **East Carolina -12.5**, compared with a market line of -11.5.
 
-The best number we found is Charlotte +12.5 at -110. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is East Carolina -11.5 at -105. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -872,40 +872,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Charlotte</th>
 <th>East Carolina</th>
+<th>Charlotte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#118</td>
 <td class="btb-better">#76</td>
+<td>#117</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#136</td>
 <td class="btb-better">#69</td>
+<td>#136</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#124</td>
 <td class="btb-better">#4</td>
+<td>#124</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#131</td>
 <td class="btb-better">#46</td>
+<td>#130</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#46</td>
 <td>#115</td>
-<td class="btb-better">#45</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#112</td>
 <td>#135</td>
-<td class="btb-better">#113</td>
 </tr>
 </tbody>
 </table>
@@ -914,7 +914,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -930,14 +930,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida Atlantic Owls | +5.5 (-105) | FanDuel | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Tulsa Golden Hurricane | -5.5 (-110) | BetRivers | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Atlantic Owls | +5.5 (+100) | FanDuel | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tulsa Golden Hurricane | -5.5 (-108) | Caesars | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Florida Atlantic Owls visit the Tulsa Golden Hurricane at Chapman Stadium. We make **Florida Atlantic +6.5**, compared with a market line of +6.
+The Florida Atlantic Owls visit the Tulsa Golden Hurricane at Chapman Stadium. We make **Florida Atlantic +6**, compared with a market line of +5.5.
 
-The best number we found is Florida Atlantic +5.5 at -105. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida Atlantic +5.5 at +100. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -956,7 +956,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#24</td>
+<td class="btb-better">#25</td>
 <td>#70</td>
 </tr>
 <tr>
@@ -967,7 +967,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#109</td>
-<td class="btb-better">#52</td>
+<td class="btb-better">#53</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -976,13 +976,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#58</td>
+<td>#59</td>
 <td class="btb-better">#7</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#105</td>
-<td class="btb-better">#53</td>
+<td>#104</td>
+<td class="btb-better">#51</td>
 </tr>
 </tbody>
 </table>
@@ -991,7 +991,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1007,14 +1007,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida Gators | +3.5 (-112) | BetMGM | 53.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kentucky Wildcats | -3.5 (-104) | BetRivers | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Gators | +3.5 (-115) | Caesars | 53.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kentucky Wildcats | -3.5 (+100) | DraftKings | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Florida Gators visit the Kentucky Wildcats at Kroger Field. We make **Florida +2.5**, compared with a market line of +3.5.
 
-The best number we found is Florida +3.5 at -112. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida +3.5 at -115. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1044,7 +1044,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#101</td>
-<td class="btb-better">#84</td>
+<td class="btb-better">#83</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -1068,7 +1068,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1084,14 +1084,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida International Panthers | +5.5 (-110) | FanDuel | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Delaware Blue Hens | -4.5 (-108) | BetRivers | 53.3% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Florida International Panthers | +4.5 (-108) | BetMGM | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | -4.5 (-108) | BetRivers | 52.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Florida International Panthers visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware -7.5**, compared with a market line of -5.
+The Florida International Panthers visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware -7**, compared with a market line of -4.5.
 
-The best number we found is Delaware -4.5 at -108. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Delaware -4.5 at -108. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1130,12 +1130,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#38</td>
+<td class="btb-better">#39</td>
 <td>#116</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#79</td>
+<td>#77</td>
 <td class="btb-better">#11</td>
 </tr>
 </tbody>
@@ -1145,7 +1145,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1161,14 +1161,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida State Seminoles | +3.5 (-109) | BetRivers | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Pittsburgh Panthers | -3.5 (-106) | Caesars | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida State Seminoles | +3.5 (-110) | Fanatics | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Pittsburgh Panthers | -3.5 (-105) | BetMGM | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Florida State Seminoles visit the Pittsburgh Panthers at Acrisure Stadium. We make **Florida State +3**, compared with a market line of +3.5.
 
-The best number we found is Florida State +3.5 at -109. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida State +3.5 at -110. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1192,17 +1192,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#28</td>
 <td>#41</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#107</td>
-<td class="btb-better">#87</td>
+<td class="btb-better">#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#120</td>
+<td>#119</td>
 <td class="btb-better">#13</td>
 </tr>
 <tr>
@@ -1212,7 +1212,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#47</td>
+<td>#45</td>
 <td class="btb-better">#20</td>
 </tr>
 </tbody>
@@ -1222,7 +1222,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1238,14 +1238,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Fresno State Bulldogs | +9.5 (-105) | BetMGM | 57.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Texas State Bobcats | -9.5 (-110) | theScore Bet | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Fresno State Bulldogs | +9.5 (+100) | FanDuel | 57.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Texas State Bobcats | -9.5 (-112) | DraftKings | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Fresno State Bulldogs visit the Texas State Bobcats at Bobcat Stadium (TX). We make **Fresno State +6.5**, compared with a market line of +9.5.
 
-The best number we found is Fresno State +9.5 at -105. We give Fresno State a 57.9% chance to cover, which creates an 6.6% edge for us. That clears our 3% threshold, so Fresno State is a bet.
+The best number we found is Fresno State +9.5 at +100. We give Fresno State a 57.9% chance to cover, which creates an 7.9% edge for us. That clears our 3% threshold, so Fresno State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1274,7 +1274,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#47</td>
+<td class="btb-better">#49</td>
 <td>#106</td>
 </tr>
 <tr>
@@ -1299,7 +1299,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1316,13 +1316,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Georgia Southern Eagles | -5.5 (-112) | BetRivers | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia State Panthers | +5.5 (+100) | FanDuel | 52.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Georgia State Panthers | +6.5 (-110) | FanDuel | 53.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Georgia Southern Eagles visit the Georgia State Panthers at Center Parc Stadium. We make **Georgia State +5**, compared with a market line of +6.
 
-The best number we found is Georgia State +5.5 at +100. We see a 2.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia State +6.5 at -110. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1351,13 +1351,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#38</td>
-<td>#76</td>
+<td class="btb-better">#39</td>
+<td>#75</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#90</td>
-<td class="btb-better">#18</td>
+<td class="btb-better">#17</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -1367,7 +1367,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#31</td>
-<td>#80</td>
+<td>#78</td>
 </tr>
 </tbody>
 </table>
@@ -1376,7 +1376,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1392,14 +1392,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Tech Yellow Jackets | +13.5 (-110) | BetMGM | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Clemson Tigers | -13.5 (-105) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Tech Yellow Jackets | +14.5 (-110) | theScore Bet | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Clemson Tigers | -13.5 (-112) | BetRivers | 48.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia Tech Yellow Jackets visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Georgia Tech +13**, compared with a market line of +13.5.
+The Georgia Tech Yellow Jackets visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Georgia Tech +13.5**, compared with a market line of +14.
 
-The best number we found is Georgia Tech +13.5 at -110. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia Tech +14.5 at -110. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1419,7 +1419,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#80</td>
-<td>#128</td>
+<td>#127</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -1453,7 +1453,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1469,14 +1469,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Houston Cougars | -9.5 (-110) | BetMGM | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado Buffaloes | +9.5 (-106) | Caesars | 49.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Houston Cougars | -8.5 (-110) | DraftKings | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado Buffaloes | +9.5 (-110) | FanDuel | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Houston Cougars visit the Colorado Buffaloes at Folsom Field. We make **Houston -11.5**, compared with a market line of -9.5.
+The Houston Cougars visit the Colorado Buffaloes at Folsom Field. We make **Houston -11**, compared with a market line of -9.
 
-The best number we found is Houston -9.5 at -110. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Houston -8.5 at -110. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1505,7 +1505,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#86</td>
+<td class="btb-better">#85</td>
 <td>#119</td>
 </tr>
 <tr>
@@ -1520,8 +1520,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#77</td>
-<td>#119</td>
+<td class="btb-better">#75</td>
+<td>#118</td>
 </tr>
 </tbody>
 </table>
@@ -1530,7 +1530,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1546,14 +1546,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Illinois Fighting Illini | +10.5 (-115) | theScore Bet | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| UCLA Bruins | -10.5 (+100) | FanDuel | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Illinois Fighting Illini | +9.5 (+100) | theScore Bet | 54.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| UCLA Bruins | -9.5 (-112) | BetMGM | 45.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Illinois Fighting Illini visit the UCLA Bruins at Rose Bowl. We make **Illinois +8**, compared with a market line of +10.
 
-The best number we found is Illinois +10.5 at -115. We give Illinois a 57.1% chance to cover, which creates an 3.6% edge for us. That clears our 3% threshold, so Illinois is a bet.
+The best number we found is Illinois +9.5 at +100. We give Illinois a 54.8% chance to cover, which creates an 4.8% edge for us. That clears our 3% threshold, so Illinois is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1578,7 +1578,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#49</td>
-<td class="btb-better">#30</td>
+<td class="btb-better">#29</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -1592,12 +1592,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#55</td>
-<td class="btb-better">#39</td>
+<td>#56</td>
+<td class="btb-better">#40</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#110</td>
+<td>#109</td>
 <td class="btb-better">#19</td>
 </tr>
 </tbody>
@@ -1607,7 +1607,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1624,13 +1624,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Jacksonville State Gamecocks | -7.5 (+100) | FanDuel | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Western Kentucky Hilltoppers | +7.5 (-115) | Caesars | 55.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Western Kentucky Hilltoppers | +7.5 (-110) | BetMGM | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Jacksonville State Gamecocks visit the Western Kentucky Hilltoppers at Houchens Industries-L.T. Smith Stadium. We make **Western Kentucky +6**, compared with a market line of +7.5.
 
-The best number we found is Western Kentucky +7.5 at -115. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Western Kentucky +7.5 at -110. We give Western Kentucky a 55.9% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Western Kentucky is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1649,7 +1649,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#111</td>
+<td>#110</td>
 <td class="btb-better">#73</td>
 </tr>
 <tr>
@@ -1664,7 +1664,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#119</td>
+<td>#118</td>
 <td class="btb-better">#104</td>
 </tr>
 <tr>
@@ -1674,8 +1674,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#117</td>
-<td class="btb-better">#35</td>
+<td>#116</td>
+<td class="btb-better">#34</td>
 </tr>
 </tbody>
 </table>
@@ -1684,7 +1684,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1731,23 +1731,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#27</td>
-<td class="btb-better">#17</td>
+<td>#26</td>
+<td class="btb-better">#18</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#28</td>
-<td>#43</td>
+<td>#45</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#25</td>
+<td class="btb-better">#24</td>
 <td>#74</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#9</td>
-<td>#42</td>
+<td>#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -1761,7 +1761,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1777,14 +1777,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas Jayhawks | +2.5 (+100) | FanDuel | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| West Virginia Mountaineers | -3.0 (-104) | Caesars | 46.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas Jayhawks | +2.5 (+105) | FanDuel | 50.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| West Virginia Mountaineers | -3.0 (-102) | BetMGM | 46.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Kansas Jayhawks visit the West Virginia Mountaineers at Milan Puskar Stadium. We make **Kansas +2**, compared with a market line of +3.
 
-The best number we found is Kansas +2.5 at +100. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Kansas +2.5 at +105. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -1804,7 +1804,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#114</td>
-<td class="btb-better">#22</td>
+<td class="btb-better">#23</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -1823,7 +1823,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#34</td>
+<td class="btb-better">#35</td>
 <td>#107</td>
 </tr>
 <tr>
@@ -1838,7 +1838,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1890,8 +1890,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#85</td>
-<td class="btb-better">#41</td>
+<td>#84</td>
+<td class="btb-better">#42</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -1905,7 +1905,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#106</td>
+<td>#105</td>
 <td class="btb-better">#10</td>
 </tr>
 </tbody>
@@ -1915,7 +1915,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -1931,12 +1931,12 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kennesaw State Owls | -7.5 (-104) | Caesars | 46.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kennesaw State Owls | -7.5 (+100) | theScore Bet | 46.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Sam Houston State Bearkats | +7.5 (-110) | FanDuel | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Kennesaw State Owls visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **Sam Houston State +7**, compared with a market line of +7.5.
+The Kennesaw State Owls visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **Sam Houston State +7**, compared with a market line of +7.
 
 The best number we found is Sam Houston State +7.5 at -110. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -1958,7 +1958,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#124</td>
-<td class="btb-better">#103</td>
+<td class="btb-better">#102</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -1967,12 +1967,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#42</td>
-<td>#72</td>
+<td class="btb-better">#43</td>
+<td>#71</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#132</td>
+<td>#131</td>
 <td class="btb-better">#56</td>
 </tr>
 <tr>
@@ -1982,8 +1982,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#111</td>
-<td class="btb-better">#67</td>
+<td>#110</td>
+<td class="btb-better">#65</td>
 </tr>
 </tbody>
 </table>
@@ -1992,84 +1992,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
-
-Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
-
-<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
-
----
-
-# Louisiana Ragin Cajuns vs UL Monroe Warhawks Prediction For 11/12/2026
-
-<p align="center"><img src="http://a.espncdn.com/i/teamlogos/ncaa/500/309.png" alt="Louisiana Ragin Cajuns" width="224" /> <strong>vs</strong> <img src="http://a.espncdn.com/i/teamlogos/ncaa/500/2433.png" alt="UL Monroe Warhawks" width="224" /></p>
-
-<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
-
-| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
-|---|---|---|---|---|
-| Louisiana Ragin Cajuns | -10.5 (-102) | DraftKings | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UL Monroe Warhawks | +10.5 (-115) | FanDuel | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-
-## Our Take
-
-The Louisiana Ragin Cajuns visit the UL Monroe Warhawks at Malone Stadium. We make **Louisiana -12**, compared with a market line of -10.
-
-The best number we found is Louisiana -10.5 at -102. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
-
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
-
-### What The Numbers Say
-
-Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
-
-<table class="btb-stats-table">
-<thead>
-<tr>
-<th>Stat</th>
-<th>Louisiana</th>
-<th>Louisiana Monroe</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#115</td>
-<td>#126</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#18</td>
-<td>#104</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#51</td>
-<td>#89</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#7</td>
-<td>#129</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#6</td>
-<td>#135</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#15</td>
-<td>#103</td>
-</tr>
-</tbody>
-</table>
-
-These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-## Best Bets Of The Week
-
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2085,14 +2008,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisville Cardinals | -3.5 (-105) | Fanatics | 47.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| North Carolina Tar Heels | +3.5 (-110) | Caesars | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisville Cardinals | -3.5 (-105) | BetRivers | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Carolina Tar Heels | +3.5 (-105) | theScore Bet | 52.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Louisville Cardinals visit the North Carolina Tar Heels at Kenan Stadium. We make **North Carolina +3**, compared with a market line of +3.5.
 
-The best number we found is North Carolina +3.5 at -110. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is North Carolina +3.5 at -105. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2121,8 +2044,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#48</td>
-<td>#93</td>
+<td class="btb-better">#50</td>
+<td>#92</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -2136,7 +2059,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#50</td>
+<td>#48</td>
 <td class="btb-better">#28</td>
 </tr>
 </tbody>
@@ -2146,84 +2069,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
-
-Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
-
-<p align='center'><em>Built from our model. We target a 55-57% win rate and publish every result, wins and losses.</em></p>
-
----
-
-# Memphis Tigers vs South Florida Bulls Prediction For 11/12/2026
-
-<p align="center"><img src="http://a.espncdn.com/i/teamlogos/ncaa/500/235.png" alt="Memphis Tigers" width="224" /> <strong>vs</strong> <img src="http://a.espncdn.com/i/teamlogos/ncaa/500/58.png" alt="South Florida Bulls" width="224" /></p>
-
-<p align='center'><img src='https://raw.githubusercontent.com/trashduty/football-testgrounds/main/BTB%20Analytics%20.png.png' alt='BTB Analytics' width='100' /><br/><em>Brought to you by BTB Analytics</em></p>
-
-| Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
-|---|---|---|---|---|
-| Memphis Tigers | -3.5 (-108) | BetMGM | 45.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Florida Bulls | +3.5 (-106) | Caesars | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-
-## Our Take
-
-The Memphis Tigers visit the South Florida Bulls at Raymond James Stadium. We make **South Florida +2**, compared with a market line of +3.5.
-
-The best number we found is South Florida +3.5 at -106. We see a 2.9% edge there, but that does not clear our 3% threshold, so we are passing.
-
-We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
-
-### What The Numbers Say
-
-Rather than treating any single metric as the answer, we use these numbers to see where the strengths and weaknesses of the matchup actually line up.
-
-<table class="btb-stats-table">
-<thead>
-<tr>
-<th>Stat</th>
-<th>South Florida</th>
-<th>Memphis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#96</td>
-<td class="btb-better">#25</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#25</td>
-<td>#37</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#57</td>
-<td>#64</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#17</td>
-<td>#116</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#44</td>
-<td>#60</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#38</td>
-<td class="btb-better">#34</td>
-</tr>
-</tbody>
-</table>
-
-These ranks are across unique FBS teams over each team's last 10 games. Eckel rate measures the share of drives that score or reach a first down inside the opponent's 40-yard line.
-
-## Best Bets Of The Week
-
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2239,14 +2085,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Michigan Wolverines | +10.5 (-105) | FanDuel | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oregon Ducks | -11.5 (-105) | DraftKings | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | +10.5 (-108) | BetMGM | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon Ducks | -10.5 (-105) | theScore Bet | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Michigan Wolverines visit the Oregon Ducks at Autzen Stadium. We make **Michigan +11.5**, compared with a market line of +11.
+The Michigan Wolverines visit the Oregon Ducks at Autzen Stadium. We make **Michigan +11**, compared with a market line of +10.5.
 
-The best number we found is Michigan +10.5 at -105. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan +10.5 at -108. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2265,7 +2111,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#110</td>
+<td>#109</td>
 <td class="btb-better">#41</td>
 </tr>
 <tr>
@@ -2286,12 +2132,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#103</td>
-<td class="btb-better">#53</td>
+<td class="btb-better">#54</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#99</td>
-<td class="btb-better">#43</td>
+<td class="btb-better">#41</td>
 </tr>
 </tbody>
 </table>
@@ -2300,7 +2146,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2316,7 +2162,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Middle Tennessee Blue Raiders | +21.0 (-108) | BetMGM | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Middle Tennessee Blue Raiders | +22.0 (-113) | BetRivers | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Liberty Flames | -21.5 (+100) | FanDuel | 53.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -2342,33 +2188,33 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#18</td>
+<td class="btb-better">#19</td>
 <td>#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#15</td>
+<td class="btb-better">#16</td>
 <td>#75</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#40</td>
-<td>#83</td>
+<td class="btb-better">#41</td>
+<td>#82</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#24</td>
+<td class="btb-better">#23</td>
 <td>#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#35</td>
+<td>#36</td>
 <td class="btb-better">#15</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#9</td>
-<td>#54</td>
+<td>#52</td>
 </tr>
 </tbody>
 </table>
@@ -2377,7 +2223,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2393,7 +2239,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Minnesota Golden Gophers | +9.5 (-110) | FanDuel | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | +9.5 (-108) | BetMGM | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Penn State Nittany Lions | -9.5 (-108) | Caesars | 53.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
@@ -2430,7 +2276,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#24</td>
-<td>#69</td>
+<td>#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -2439,12 +2285,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#4</td>
-<td>#52</td>
+<td class="btb-better">#5</td>
+<td>#53</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#81</td>
+<td>#80</td>
 <td class="btb-better">#18</td>
 </tr>
 </tbody>
@@ -2454,7 +2300,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2470,14 +2316,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Missouri Tigers | +16.5 (-110) | BetRivers | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia Bulldogs | -15.5 (-107) | Caesars | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Missouri Tigers | +16.5 (-110) | Fanatics | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Bulldogs | -15.5 (-110) | FanDuel | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Missouri Tigers visit the Georgia Bulldogs at Sanford Stadium. We make **Georgia -17**, compared with a market line of -15.5.
+The Missouri Tigers visit the Georgia Bulldogs at Sanford Stadium. We make **Georgia -17**, compared with a market line of -16.
 
-The best number we found is Georgia -15.5 at -107. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia -15.5 at -110. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2507,12 +2353,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#20</td>
-<td>#37</td>
+<td>#38</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#1</td>
-<td>#28</td>
+<td>#27</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -2531,7 +2377,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2547,14 +2393,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Nebraska Cornhuskers | -15.5 (-105) | theScore Bet | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Rutgers Scarlet Knights | +14.5 (-105) | DraftKings | 48.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Nebraska Cornhuskers | -14.5 (-110) | Fanatics | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Rutgers Scarlet Knights | +15.5 (-110) | theScore Bet | 50.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Nebraska Cornhuskers visit the Rutgers Scarlet Knights at SHI Stadium. We make **Nebraska -16.5**, compared with a market line of -15.
 
-The best number we found is Nebraska -15.5 at -105. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Nebraska -14.5 at -110. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2589,17 +2435,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#44</td>
-<td>#135</td>
+<td>#134</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#20</td>
-<td>#48</td>
+<td>#49</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#41</td>
-<td>#78</td>
+<td class="btb-better">#39</td>
+<td>#76</td>
 </tr>
 </tbody>
 </table>
@@ -2608,7 +2454,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2624,8 +2470,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Nevada Wolf Pack | -6.5 (-115) | theScore Bet | 54.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Northern Illinois Huskies | +7.5 (-120) | FanDuel | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Nevada Wolf Pack | -6.5 (-115) | FanDuel | 54.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Northern Illinois Huskies | +6.5 (+100) | theScore Bet | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -2650,8 +2496,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#127</td>
-<td>#130</td>
+<td class="btb-better">#126</td>
+<td>#129</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -2666,7 +2512,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#113</td>
-<td>#134</td>
+<td>#133</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -2685,7 +2531,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2701,14 +2547,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Mexico State Aggies | +1.5 (-105) | FanDuel | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Missouri State Bears | -1.5 (-105) | theScore Bet | 55.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| New Mexico State Aggies | +1.5 (-110) | BetMGM | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Missouri State Bears | -1.5 (+100) | theScore Bet | 55.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The New Mexico State Aggies visit the Missouri State Bears at Plaster Sports Complex. We make **Missouri State -4**, compared with a market line of -1.5.
 
-The best number we found is Missouri State -1.5 at -105. We give Missouri State a 55.0% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Missouri State is a bet.
+The best number we found is Missouri State -1.5 at +100. We give Missouri State a 55.0% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Missouri State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2738,7 +2584,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#111</td>
-<td class="btb-better">#50</td>
+<td class="btb-better">#52</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -2753,7 +2599,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#137</td>
-<td class="btb-better">#70</td>
+<td class="btb-better">#68</td>
 </tr>
 </tbody>
 </table>
@@ -2762,7 +2608,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2778,7 +2624,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Dakota State | -6.0 (-110) | BetRivers | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Dakota State | -6.5 (-112) | BetMGM | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Hawaii Rainbow Warriors | +6.5 (+100) | theScore Bet | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -2829,7 +2675,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#69</td>
+<td>#67</td>
 <td class="btb-better">#4</td>
 </tr>
 </tbody>
@@ -2839,7 +2685,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2855,8 +2701,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Texas Mean Green | -1.5 (-110) | FanDuel | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UTSA Roadrunners | +2.5 (-110) | Fanatics | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Texas Mean Green | -2.5 (-108) | BetMGM | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UTSA Roadrunners | +2.5 (-110) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -2906,8 +2752,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#84</td>
-<td>#85</td>
+<td class="btb-better">#83</td>
+<td>#84</td>
 </tr>
 </tbody>
 </table>
@@ -2916,7 +2762,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -2932,14 +2778,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Northwestern Wildcats | +13.5 (-105) | FanDuel | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ohio State Buckeyes | -13.5 (-113) | BetRivers | 52.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Northwestern Wildcats | +13.5 (+100) | FanDuel | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio State Buckeyes | -14.5 (+100) | theScore Bet | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Northwestern Wildcats visit the Ohio State Buckeyes at Ohio Stadium. We make **Ohio State -15.5**, compared with a market line of -14.
 
-The best number we found is Ohio State -13.5 at -113. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ohio State -14.5 at +100. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -2964,12 +2810,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#61</td>
-<td class="btb-better">#26</td>
+<td class="btb-better">#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#35</td>
-<td>#49</td>
+<td>#51</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -2979,12 +2825,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#30</td>
-<td>#43</td>
+<td>#44</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#25</td>
-<td>#37</td>
+<td>#36</td>
 </tr>
 </tbody>
 </table>
@@ -2993,7 +2839,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3009,14 +2855,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ole Miss Rebels | +1.5 (-110) | theScore Bet | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Oklahoma Sooners | +1.0 (-112) | BetMGM | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ole Miss Rebels | -1.5 (+110) | FanDuel | 46.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma Sooners | +1.0 (-114) | BetRivers | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Ole Miss Rebels visit the Oklahoma Sooners at Memorial Stadium (Norman, OK). We make **Ole Miss -1**, compared with a market line of -1.
+The Ole Miss Rebels visit the Oklahoma Sooners at Memorial Stadium (Norman, OK). We make **Oklahoma -0.5**, compared with a market line of -1.
 
-The best number we found is Ole Miss +1.5 at -110. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Oklahoma +1.0 at -114. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3028,40 +2874,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Ole Miss</th>
 <th>Oklahoma</th>
+<th>Ole Miss</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#34</td>
 <td>#56</td>
+<td class="btb-better">#34</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#34</td>
 <td>#137</td>
+<td class="btb-better">#35</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#70</td>
 <td class="btb-better">#9</td>
+<td>#69</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#101</td>
 <td class="btb-better">#31</td>
+<td>#101</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#50</td>
 <td>#131</td>
+<td class="btb-better">#51</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td class="btb-better">#37</td>
 <td>#102</td>
-<td class="btb-better">#39</td>
 </tr>
 </tbody>
 </table>
@@ -3070,7 +2916,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3117,13 +2963,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#11</td>
+<td class="btb-better">#12</td>
 <td>#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#45</td>
-<td>#53</td>
+<td class="btb-better">#47</td>
+<td>#54</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -3132,13 +2978,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#47</td>
+<td class="btb-better">#48</td>
 <td>#81</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#123</td>
-<td class="btb-better">#122</td>
+<td class="btb-better">#121</td>
 </tr>
 </tbody>
 </table>
@@ -3147,7 +2993,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3199,7 +3045,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#39</td>
+<td class="btb-better">#40</td>
 <td>#133</td>
 </tr>
 <tr>
@@ -3215,7 +3061,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#24</td>
-<td>#112</td>
+<td>#111</td>
 </tr>
 </tbody>
 </table>
@@ -3224,7 +3070,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3240,14 +3086,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| San Jose State Spartans | +12.5 (-110) | BetMGM | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Air Force Falcons | -12.5 (-105) | DraftKings | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| San Jose State Spartans | +12.5 (-108) | BetMGM | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Air Force Falcons | -11.5 (-115) | theScore Bet | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The San Jose State Spartans visit the Air Force Falcons at Falcon Stadium. We make **San Jose State +12.5**, compared with a market line of +12.5.
 
-The best number we found is San Jose State +12.5 at -110. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is San Jose State +12.5 at -108. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3266,18 +3112,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#99</td>
+<td class="btb-better">#98</td>
 <td>#136</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#119</td>
-<td class="btb-better">#12</td>
+<td class="btb-better">#13</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#12</td>
-<td>#82</td>
+<td>#81</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -3301,7 +3147,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3317,14 +3163,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Carolina Gamecocks | -7.5 (-105) | theScore Bet | 52.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Arkansas Razorbacks | +7.5 (-109) | BetRivers | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -7.5 (-112) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas Razorbacks | +8.5 (-110) | FanDuel | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The South Carolina Gamecocks visit the Arkansas Razorbacks at Razorback Stadium. We make **South Carolina -10.5**, compared with a market line of -7.
+The South Carolina Gamecocks visit the Arkansas Razorbacks at Razorback Stadium. We make **South Carolina -11**, compared with a market line of -8.
 
-The best number we found is South Carolina -7.5 at -105. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Carolina -7.5 at -112. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3344,17 +3190,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#77</td>
-<td>#101</td>
+<td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#36</td>
+<td class="btb-better">#37</td>
 <td>#117</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#113</td>
-<td class="btb-better">#90</td>
+<td class="btb-better">#88</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -3368,8 +3214,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#49</td>
-<td>#107</td>
+<td class="btb-better">#47</td>
+<td>#106</td>
 </tr>
 </tbody>
 </table>
@@ -3378,7 +3224,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3394,14 +3240,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Southern Mississippi Golden Eagles | +17.5 (-108) | BetMGM | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Louisiana Tech Bulldogs | -17.5 (-106) | Caesars | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Southern Mississippi Golden Eagles | +17.5 (-112) | BetRivers | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisiana Tech Bulldogs | -17.5 (-105) | Fanatics | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Southern Mississippi Golden Eagles visit the Louisiana Tech Bulldogs at Joe Aillet Stadium. We make **Southern Mississippi +17.5**, compared with a market line of +17.5.
 
-The best number we found is Southern Mississippi +17.5 at -108. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Southern Mississippi +17.5 at -112. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3420,8 +3266,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#121</td>
-<td class="btb-better">#20</td>
+<td>#120</td>
+<td class="btb-better">#21</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -3445,7 +3291,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#108</td>
+<td>#107</td>
 <td class="btb-better">#12</td>
 </tr>
 </tbody>
@@ -3455,7 +3301,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3471,14 +3317,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Stanford Cardinal | +15.5 (-110) | BetRivers | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Virginia Tech Hokies | -15.0 (-108) | BetMGM | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Stanford Cardinal | +15.5 (-108) | BetMGM | 48.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Tech Hokies | -15.5 (-105) | theScore Bet | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Stanford Cardinal visit the Virginia Tech Hokies at Lane Stadium. We make **Virginia Tech -17**, compared with a market line of -15.
+The Stanford Cardinal visit the Virginia Tech Hokies at Lane Stadium. We make **Virginia Tech -17.5**, compared with a market line of -15.5.
 
-The best number we found is Virginia Tech -15.0 at -108. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Virginia Tech -15.5 at -105. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3507,13 +3353,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#73</td>
+<td class="btb-better">#72</td>
 <td>#128</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#67</td>
-<td>#133</td>
+<td>#132</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -3522,8 +3368,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#115</td>
-<td class="btb-better">#59</td>
+<td>#114</td>
+<td class="btb-better">#57</td>
 </tr>
 </tbody>
 </table>
@@ -3532,7 +3378,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3548,12 +3394,12 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Syracuse Orange | -2.5 (-115) | theScore Bet | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Syracuse Orange | -2.5 (-115) | BetRivers | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | NC State Wolfpack | +2.5 (+100) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Syracuse Orange visit the NC State Wolfpack at Carter-Finley Stadium. We make **NC State +1**, compared with a market line of +2.5.
+The Syracuse Orange visit the NC State Wolfpack at Carter-Finley Stadium. We make **NC State +1**, compared with a market line of +3.
 
 The best number we found is NC State +2.5 at +100. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -3585,7 +3431,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#120</td>
-<td class="btb-better">#46</td>
+<td class="btb-better">#48</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -3594,7 +3440,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#37</td>
+<td class="btb-better">#38</td>
 <td>#93</td>
 </tr>
 <tr>
@@ -3609,7 +3455,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3625,7 +3471,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tennessee Volunteers | -2.0 (-109) | BetRivers | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tennessee Volunteers | -2.5 (-110) | Fanatics | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Texas A&M Aggies | +2.5 (-105) | BetMGM | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -3657,16 +3503,16 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#52</td>
-<td class="btb-better">#14</td>
+<td class="btb-better">#15</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#36</td>
+<td>#37</td>
 <td class="btb-better">#7</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#22</td>
+<td class="btb-better">#21</td>
 <td>#70</td>
 </tr>
 <tr>
@@ -3677,7 +3523,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#7</td>
-<td>#44</td>
+<td>#42</td>
 </tr>
 </tbody>
 </table>
@@ -3686,7 +3532,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3702,14 +3548,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Longhorns | +4.5 (-110) | theScore Bet | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| LSU Tigers | -4.5 (-105) | FanDuel | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Longhorns | +3.5 (+100) | FanDuel | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| LSU Tigers | -4.0 (-109) | Caesars | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Texas Longhorns visit the LSU Tigers at Tiger Stadium (LA). We make **Texas +4.5**, compared with a market line of +4.
 
-The best number we found is Texas +4.5 at -110. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Texas +3.5 at +100. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -3743,18 +3589,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#30</td>
+<td>#29</td>
 <td class="btb-better">#8</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#71</td>
-<td class="btb-better">#51</td>
+<td class="btb-better">#52</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#17</td>
-<td>#60</td>
+<td>#58</td>
 </tr>
 </tbody>
 </table>
@@ -3763,7 +3609,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3820,7 +3666,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#28</td>
 <td>#50</td>
 </tr>
 <tr>
@@ -3831,7 +3677,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#23</td>
-<td>#73</td>
+<td>#71</td>
 </tr>
 </tbody>
 </table>
@@ -3840,7 +3686,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3882,7 +3728,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#131</td>
+<td>#130</td>
 <td class="btb-better">#59</td>
 </tr>
 <tr>
@@ -3917,7 +3763,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -3933,8 +3779,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tulane Green Wave | +2.5 (-108) | BetMGM | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Rice Owls | -2.5 (-110) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tulane Green Wave | +2.5 (-108) | Caesars | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Rice Owls | -2.5 (-108) | BetMGM | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -3969,22 +3815,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#75</td>
+<td class="btb-better">#74</td>
 <td>#112</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#105</td>
-<td>#130</td>
+<td>#129</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#36</td>
+<td class="btb-better">#37</td>
 <td>#133</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#120</td>
+<td class="btb-better">#119</td>
 <td>#138</td>
 </tr>
 </tbody>
@@ -3994,7 +3840,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4011,7 +3857,7 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | UAB Blazers | +2.5 (-105) | DraftKings | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Temple Owls | -2.5 (-108) | BetMGM | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Temple Owls | -2.5 (-105) | FanDuel | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -4037,7 +3883,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#123</td>
-<td class="btb-better">#104</td>
+<td class="btb-better">#103</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -4061,7 +3907,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#46</td>
+<td class="btb-better">#44</td>
 <td>#128</td>
 </tr>
 </tbody>
@@ -4071,7 +3917,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4087,14 +3933,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UNLV Rebels | +14.5 (-110) | FanDuel | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| New Mexico Lobos | -14.5 (-105) | Fanatics | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UNLV Rebels | +14.5 (-110) | BetMGM | 52.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| New Mexico Lobos | -14.5 (+100) | theScore Bet | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UNLV Rebels visit the New Mexico Lobos at University Stadium (NM). We make **UNLV +13.5**, compared with a market line of +14.
+The UNLV Rebels visit the New Mexico Lobos at University Stadium (NM). We make **UNLV +14**, compared with a market line of +14.5.
 
-The best number we found is UNLV +14.5 at -110. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UNLV +14.5 at -110. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4114,12 +3960,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#52</td>
-<td>#119</td>
+<td>#118</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#59</td>
-<td class="btb-better">#16</td>
+<td class="btb-better">#17</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -4138,7 +3984,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#75</td>
+<td>#73</td>
 <td class="btb-better">#1</td>
 </tr>
 </tbody>
@@ -4148,7 +3994,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4164,14 +4010,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| USC Trojans | +9.5 (+100) | FanDuel | 52.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Indiana Hoosiers | -9.5 (-110) | theScore Bet | 47.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| USC Trojans | +8.5 (-108) | Caesars | 53.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Indiana Hoosiers | -8.5 (-105) | theScore Bet | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The USC Trojans visit the Indiana Hoosiers at Memorial Stadium (Bloomington, IN). We make **USC +9.5**, compared with a market line of +10.
+The USC Trojans visit the Indiana Hoosiers at Memorial Stadium (Bloomington, IN). We make **USC +8.5**, compared with a market line of +8.5.
 
-The best number we found is USC +9.5 at +100. We see a 2.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is USC +8.5 at -108. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4210,7 +4056,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#57</td>
+<td class="btb-better">#58</td>
 <td>#82</td>
 </tr>
 <tr>
@@ -4225,7 +4071,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4267,7 +4113,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#120</td>
+<td>#119</td>
 <td class="btb-better">#113</td>
 </tr>
 <tr>
@@ -4277,13 +4123,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#92</td>
-<td class="btb-better">#66</td>
+<td>#91</td>
+<td class="btb-better">#65</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#102</td>
-<td class="btb-better">#26</td>
+<td class="btb-better">#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -4292,8 +4138,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#63</td>
-<td>#104</td>
+<td class="btb-better">#61</td>
+<td>#103</td>
 </tr>
 </tbody>
 </table>
@@ -4302,7 +4148,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4319,13 +4165,13 @@ Want this same view for every matchup? Members get our projected line, cover pro
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Utah Utes | -2.5 (-110) | FanDuel | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Arizona Wildcats | +2.5 (+100) | theScore Bet | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Arizona Wildcats | +2.5 (-104) | Caesars | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Utah Utes visit the Arizona Wildcats at Arizona Stadium. We make **Arizona +1**, compared with a market line of +2.5.
 
-The best number we found is Arizona +2.5 at +100. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona +2.5 at -104. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4344,8 +4190,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#19</td>
-<td>#21</td>
+<td class="btb-better">#20</td>
+<td>#22</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -4370,7 +4216,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#89</td>
-<td class="btb-better">#42</td>
+<td class="btb-better">#40</td>
 </tr>
 </tbody>
 </table>
@@ -4379,7 +4225,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4395,14 +4241,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wake Forest Demon Deacons | +1.5 (-115) | DraftKings | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| SMU Mustangs | +1.0 (-109) | BetRivers | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Wake Forest Demon Deacons | +1.5 (-109) | BetRivers | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| SMU Mustangs | -1.5 (-105) | DraftKings | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wake Forest Demon Deacons visit the SMU Mustangs at Gerald J. Ford Stadium. We make **SMU -2**, compared with a market line of -1.
+The Wake Forest Demon Deacons visit the SMU Mustangs at Gerald J. Ford Stadium. We make **SMU -2.5**, compared with a market line of -1.5.
 
-The best number we found is SMU +1.0 at -109. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is SMU -1.5 at -105. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4426,28 +4272,28 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#33</td>
+<td>#34</td>
 <td class="btb-better">#3</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#67</td>
+<td>#66</td>
 <td class="btb-better">#30</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#82</td>
-<td class="btb-better">#20</td>
+<td class="btb-better">#19</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#22</td>
-<td class="btb-better">#3</td>
+<td class="btb-better">#4</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#55</td>
-<td class="btb-better">#36</td>
+<td>#53</td>
+<td class="btb-better">#35</td>
 </tr>
 </tbody>
 </table>
@@ -4456,7 +4302,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4472,14 +4318,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | -3.5 (+100) | FanDuel | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Washington Huskies | -3.5 (-105) | BetMGM | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | Michigan State Spartans | +3.5 (-110) | BetRivers | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Washington Huskies visit the Michigan State Spartans at Spartan Stadium. We make **Washington -7**, compared with a market line of -3.5.
 
-The best number we found is Washington -3.5 at +100. We give Washington a 55.5% chance to cover, which creates an 5.5% edge for us. That clears our 3% threshold, so Washington is a bet.
+The best number we found is Washington -3.5 at -105. We give Washington a 55.5% chance to cover, which creates an 4.3% edge for us. That clears our 3% threshold, so Washington is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4499,7 +4345,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#58</td>
-<td>#116</td>
+<td>#115</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -4508,8 +4354,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#78</td>
-<td>#91</td>
+<td class="btb-better">#77</td>
+<td>#90</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -4523,7 +4369,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#65</td>
+<td class="btb-better">#63</td>
 <td>#93</td>
 </tr>
 </tbody>
@@ -4533,7 +4379,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4549,14 +4395,14 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wisconsin Badgers | -8.5 (-105) | theScore Bet | 52.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Maryland Terrapins | +7.5 (+100) | FanDuel | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wisconsin Badgers | -8.5 (-110) | BetRivers | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Maryland Terrapins | +9.5 (-110) | FanDuel | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wisconsin Badgers visit the Maryland Terrapins at SECU Stadium. We make **Wisconsin -11**, compared with a market line of -8.5.
+The Wisconsin Badgers visit the Maryland Terrapins at SECU Stadium. We make **Wisconsin -11**, compared with a market line of -9.
 
-The best number we found is Wisconsin -8.5 at -105. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wisconsin -8.5 at -110. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -4575,8 +4421,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#105</td>
-<td>#108</td>
+<td class="btb-better">#104</td>
+<td>#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -4586,7 +4432,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#15</td>
-<td>#71</td>
+<td>#70</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -4595,13 +4441,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#56</td>
+<td class="btb-better">#57</td>
 <td>#95</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#51</td>
-<td>#62</td>
+<td class="btb-better">#49</td>
+<td>#60</td>
 </tr>
 </tbody>
 </table>
@@ -4610,7 +4456,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
@@ -4626,8 +4472,8 @@ Want this same view for every matchup? Members get our projected line, cover pro
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | -8.5 (-105) | theScore Bet | 52.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| UTEP Miners | +8.5 (-110) | Fanatics | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wyoming Cowboys | -8.5 (-105) | Caesars | 52.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| UTEP Miners | +7.5 (+100) | FanDuel | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -4652,8 +4498,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#117</td>
-<td>#133</td>
+<td class="btb-better">#116</td>
+<td>#132</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -4662,12 +4508,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#56</td>
+<td class="btb-better">#57</td>
 <td>#135</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#118</td>
+<td>#117</td>
 <td class="btb-better">#112</td>
 </tr>
 <tr>
@@ -4687,7 +4533,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

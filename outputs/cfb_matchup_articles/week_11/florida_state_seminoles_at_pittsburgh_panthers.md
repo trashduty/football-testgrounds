@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida State Seminoles | +3.5 (-109) | BetRivers | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Pittsburgh Panthers | -3.5 (-106) | Caesars | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida State Seminoles | +3.5 (-110) | Fanatics | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Pittsburgh Panthers | -3.5 (-105) | BetMGM | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Florida State Seminoles visit the Pittsburgh Panthers at Acrisure Stadium. We make **Florida State +3**, compared with a market line of +3.5.
 
-The best number we found is Florida State +3.5 at -109. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida State +3.5 at -110. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,17 +37,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#28</td>
 <td>#41</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#107</td>
-<td class="btb-better">#87</td>
+<td class="btb-better">#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#120</td>
+<td>#119</td>
 <td class="btb-better">#13</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#47</td>
+<td>#45</td>
 <td class="btb-better">#20</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

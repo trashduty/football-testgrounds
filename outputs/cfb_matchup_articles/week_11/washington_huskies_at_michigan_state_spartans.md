@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | -3.5 (+100) | FanDuel | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Washington Huskies | -3.5 (-105) | BetMGM | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 | Michigan State Spartans | +3.5 (-110) | BetRivers | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Washington Huskies visit the Michigan State Spartans at Spartan Stadium. We make **Washington -7**, compared with a market line of -3.5.
 
-The best number we found is Washington -3.5 at +100. We give Washington a 55.5% chance to cover, which creates an 5.5% edge for us. That clears our 3% threshold, so Washington is a bet.
+The best number we found is Washington -3.5 at -105. We give Washington a 55.5% chance to cover, which creates an 4.3% edge for us. That clears our 3% threshold, so Washington is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#58</td>
-<td>#116</td>
+<td>#115</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,8 +42,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#78</td>
-<td>#91</td>
+<td class="btb-better">#77</td>
+<td>#90</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#65</td>
+<td class="btb-better">#63</td>
 <td>#93</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

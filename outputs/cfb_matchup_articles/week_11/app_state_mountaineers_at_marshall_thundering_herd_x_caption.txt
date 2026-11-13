@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on App State-Marshall.
 
-We make Marshall +1.5. The market is +1.5.
+We make App State -1.5. The market is -1.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Middle Tennessee Blue Raiders | +21.0 (-108) | BetMGM | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Middle Tennessee Blue Raiders | +22.0 (-113) | BetRivers | 46.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Liberty Flames | -21.5 (+100) | FanDuel | 53.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
@@ -32,33 +32,33 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#18</td>
+<td class="btb-better">#19</td>
 <td>#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#15</td>
+<td class="btb-better">#16</td>
 <td>#75</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#40</td>
-<td>#83</td>
+<td class="btb-better">#41</td>
+<td>#82</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#24</td>
+<td class="btb-better">#23</td>
 <td>#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#35</td>
+<td>#36</td>
 <td class="btb-better">#15</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#9</td>
-<td>#54</td>
+<td>#52</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

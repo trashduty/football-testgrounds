@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tennessee Volunteers | -2.0 (-109) | BetRivers | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tennessee Volunteers | -2.5 (-110) | Fanatics | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Texas A&M Aggies | +2.5 (-105) | BetMGM | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -38,16 +38,16 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#52</td>
-<td class="btb-better">#14</td>
+<td class="btb-better">#15</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#36</td>
+<td>#37</td>
 <td class="btb-better">#7</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#22</td>
+<td class="btb-better">#21</td>
 <td>#70</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#7</td>
-<td>#44</td>
+<td>#42</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **11 games** this week.
+Our model found edges of at least 3% on **12 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
