@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Texas Tech Red Raiders | +3.5 (-112) | BetMGM | 53.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oklahoma State Cowboys | -3.5 (-103) | Caesars | 46.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma State Cowboys | -3.5 (-102) | DraftKings | 46.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#50</td>
+<td>#49</td>
 <td class="btb-better">#10</td>
 </tr>
 <tr>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#32</td>
+<td class="btb-better">#34</td>
 <td>#63</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#23</td>
-<td>#71</td>
+<td>#70</td>
 </tr>
 </tbody>
 </table>

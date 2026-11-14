@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| San Jose State Spartans | +12.5 (-108) | BetMGM | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Air Force Falcons | -11.5 (-115) | theScore Bet | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| San Jose State Spartans | +13.5 (-109) | BetRivers | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Air Force Falcons | -13.5 (-109) | Caesars | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The San Jose State Spartans visit the Air Force Falcons at Falcon Stadium. We make **San Jose State +12.5**, compared with a market line of +12.5.
+The San Jose State Spartans visit the Air Force Falcons at Falcon Stadium. We make **San Jose State +13**, compared with a market line of +13.5.
 
-The best number we found is San Jose State +12.5 at -108. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is San Jose State +13.5 at -109. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#12</td>
-<td>#81</td>
+<td>#82</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>

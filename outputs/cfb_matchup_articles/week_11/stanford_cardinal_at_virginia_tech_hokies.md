@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Stanford Cardinal | +15.5 (-108) | BetMGM | 48.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Virginia Tech Hokies | -15.5 (-105) | theScore Bet | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Stanford Cardinal | +15.5 (-105) | FanDuel | 48.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Tech Hokies | -15.5 (-110) | BetMGM | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Stanford Cardinal visit the Virginia Tech Hokies at Lane Stadium. We make **Virginia Tech -17.5**, compared with a market line of -15.5.
 
-The best number we found is Virginia Tech -15.5 at -105. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Virginia Tech -15.5 at -110. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,17 +32,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#43</td>
+<td class="btb-better">#44</td>
 <td>#84</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#42</td>
-<td>#125</td>
+<td class="btb-better">#40</td>
+<td>#126</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#72</td>
+<td class="btb-better">#73</td>
 <td>#128</td>
 </tr>
 <tr>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#114</td>
-<td class="btb-better">#57</td>
+<td>#113</td>
+<td class="btb-better">#56</td>
 </tr>
 </tbody>
 </table>

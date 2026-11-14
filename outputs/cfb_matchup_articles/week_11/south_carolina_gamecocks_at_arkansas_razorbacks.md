@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Carolina Gamecocks | -7.5 (-112) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Arkansas Razorbacks | +8.5 (-110) | FanDuel | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -7.5 (-108) | BetMGM | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Arkansas Razorbacks | +9.5 (-112) | BetRivers | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The South Carolina Gamecocks visit the Arkansas Razorbacks at Razorback Stadium. We make **South Carolina -11**, compared with a market line of -8.
+The South Carolina Gamecocks visit the Arkansas Razorbacks at Razorback Stadium. We make **South Carolina -11**, compared with a market line of -7.5.
 
-The best number we found is South Carolina -7.5 at -112. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Carolina -7.5 at -108. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,13 +37,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#37</td>
+<td class="btb-better">#35</td>
 <td>#117</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#113</td>
-<td class="btb-better">#88</td>
+<td class="btb-better">#87</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#47</td>
+<td class="btb-better">#46</td>
 <td>#106</td>
 </tr>
 </tbody>

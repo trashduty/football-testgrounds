@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas State Wildcats | +11.5 (-110) | theScore Bet | 55.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| TCU Horned Frogs | -10.5 (-107) | Caesars | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas State Wildcats | +13.5 (-110) | BetMGM | 55.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| TCU Horned Frogs | -12.5 (-110) | FanDuel | 46.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Kansas State Wildcats visit the TCU Horned Frogs at Amon G. Carter Stadium. We make **Kansas State +9.5**, compared with a market line of +10.5.
+The Kansas State Wildcats visit the TCU Horned Frogs at Amon G. Carter Stadium. We make **Kansas State +11.5**, compared with a market line of +13.5.
 
-The best number we found is Kansas State +11.5 at -110. We give Kansas State a 55.8% chance to cover, which creates an 3.4% edge for us. That clears our 3% threshold, so Kansas State is a bet.
+The best number we found is Kansas State +13.5 at -110. We see a 2.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#79</td>
+<td>#80</td>
 <td class="btb-better">#57</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#84</td>
+<td>#85</td>
 <td class="btb-better">#42</td>
 </tr>
 <tr>

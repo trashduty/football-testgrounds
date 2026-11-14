@@ -1,9 +1,9 @@
-Our model is 2.5 points away from the market on Wyoming-UTEP.
+Our model is 3 points away from the market on Wyoming-UTEP.
 
-We make Wyoming -11. The market is -8.5.
+We make Wyoming -10. The market is -7.
 
-We see some disagreement, but the available price does not clear our threshold, so we are passing.
+Best number: Wyoming -7.5 +105. We give it a 52.5% chance to cover with a 3.7% edge.
 
-We broke down why our model differs and what would matter most in the matchup.
+We broke down what is driving the difference — including the matchup that concerns us most.
 
 Full breakdown ↓

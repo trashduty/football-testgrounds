@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| East Carolina Pirates | -11.5 (-105) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Charlotte 49ers | +12.5 (-112) | DraftKings | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| East Carolina Pirates | -10.5 (-110) | theScore Bet | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +12.0 (-112) | BetRivers | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The East Carolina Pirates visit the Charlotte 49ers at Jerry Richardson Stadium. We make **East Carolina -12.5**, compared with a market line of -11.5.
+The East Carolina Pirates visit the Charlotte 49ers at Jerry Richardson Stadium. We make **East Carolina -12.5**, compared with a market line of -11.
 
-The best number we found is East Carolina -11.5 at -105. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is East Carolina -10.5 at -110. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -52,12 +52,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#46</td>
+<td class="btb-better">#48</td>
 <td>#115</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#112</td>
+<td class="btb-better">#111</td>
 <td>#135</td>
 </tr>
 </tbody>

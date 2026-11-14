@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Jacksonville State Gamecocks | -7.5 (+100) | FanDuel | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Western Kentucky Hilltoppers | +7.5 (-110) | BetMGM | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Western Kentucky Hilltoppers | +7.5 (-112) | DraftKings | 55.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Jacksonville State Gamecocks visit the Western Kentucky Hilltoppers at Houchens Industries-L.T. Smith Stadium. We make **Western Kentucky +6**, compared with a market line of +7.5.
 
-The best number we found is Western Kentucky +7.5 at -110. We give Western Kentucky a 55.9% chance to cover, which creates an 3.5% edge for us. That clears our 3% threshold, so Western Kentucky is a bet.
+The best number we found is Western Kentucky +7.5 at -112. We give Western Kentucky a 55.9% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so Western Kentucky is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,22 +42,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#105</td>
+<td>#106</td>
 <td class="btb-better">#13</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#118</td>
+<td>#119</td>
 <td class="btb-better">#104</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#114</td>
-<td class="btb-better">#87</td>
+<td class="btb-better">#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#116</td>
+<td>#115</td>
 <td class="btb-better">#34</td>
 </tr>
 </tbody>

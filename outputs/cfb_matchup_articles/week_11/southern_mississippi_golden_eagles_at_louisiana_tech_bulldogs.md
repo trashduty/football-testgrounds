@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Southern Mississippi Golden Eagles | +17.5 (-112) | BetRivers | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Louisiana Tech Bulldogs | -17.5 (-105) | Fanatics | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Louisiana Tech Bulldogs | -17.5 (-105) | theScore Bet | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -47,13 +47,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#95</td>
+<td>#96</td>
 <td class="btb-better">#38</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#132</td>
-<td class="btb-better">#97</td>
+<td class="btb-better">#99</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

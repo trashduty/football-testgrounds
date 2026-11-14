@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas Jayhawks | +2.5 (+105) | FanDuel | 50.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Kansas Jayhawks | +2.5 (+100) | Caesars | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | West Virginia Mountaineers | -3.0 (-102) | BetMGM | 46.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Kansas Jayhawks visit the West Virginia Mountaineers at Milan Puskar Stadium. We make **Kansas +2**, compared with a market line of +3.
+The Kansas Jayhawks visit the West Virginia Mountaineers at Milan Puskar Stadium. We make **Kansas +2**, compared with a market line of +2.5.
 
-The best number we found is Kansas +2.5 at +105. We see a 1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Kansas +2.5 at +100. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#50</td>
+<td class="btb-better">#49</td>
 <td>#71</td>
 </tr>
 <tr>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#35</td>
-<td>#107</td>
+<td class="btb-better">#37</td>
+<td>#108</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#133</td>
-<td class="btb-better">#131</td>
+<td>#132</td>
+<td class="btb-better">#129</td>
 </tr>
 </tbody>
 </table>

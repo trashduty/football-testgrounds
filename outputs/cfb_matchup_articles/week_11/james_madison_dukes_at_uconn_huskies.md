@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| James Madison Dukes | -4.0 (-105) | Caesars | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UConn Huskies | +3.5 (+100) | FanDuel | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| James Madison Dukes | -4.5 (-109) | BetRivers | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UConn Huskies | +4.5 (-105) | DraftKings | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The James Madison Dukes visit the UConn Huskies at Pratt & Whitney Stadium. We make **James Madison -5.5**, compared with a market line of -4.
+The James Madison Dukes visit the UConn Huskies at Pratt & Whitney Stadium. We make **Connecticut +5.5**, compared with a market line of +4.5.
 
-The best number we found is James Madison -4.0 at -105. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Connecticut +4.5 at -105. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>James Madison</th>
 <th>Connecticut</th>
+<th>James Madison</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#38</td>
 <td>#48</td>
+<td class="btb-better">#37</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#26</td>
 <td class="btb-better">#18</td>
+<td>#26</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#28</td>
 <td>#45</td>
+<td class="btb-better">#28</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#24</td>
 <td>#74</td>
+<td class="btb-better">#24</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#45</td>
 <td class="btb-better">#9</td>
-<td>#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#124</td>
 <td class="btb-better">#32</td>
-<td>#126</td>
 </tr>
 </tbody>
 </table>

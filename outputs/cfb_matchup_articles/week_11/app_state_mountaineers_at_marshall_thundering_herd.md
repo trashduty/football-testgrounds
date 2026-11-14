@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | App State Mountaineers | -1.5 (-107) | Caesars | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Marshall Thundering Herd | +1.5 (-108) | BetRivers | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Marshall Thundering Herd | +1.5 (-108) | DraftKings | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -32,12 +32,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#45</td>
 <td>#108</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#127</td>
+<td>#128</td>
 <td class="btb-better">#110</td>
 </tr>
 <tr>
@@ -47,18 +47,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#63</td>
-<td>#97</td>
+<td class="btb-better">#62</td>
+<td>#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#21</td>
+<td class="btb-better">#22</td>
 <td>#129</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#27</td>
-<td>#127</td>
+<td>#125</td>
 </tr>
 </tbody>
 </table>

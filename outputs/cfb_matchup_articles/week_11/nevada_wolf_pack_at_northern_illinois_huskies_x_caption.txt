@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Nevada-Northern Illinois.
+Our model is 2.5 points away from the market on Nevada-Northern Illinois.
 
-We make Nevada -9. The market is -7.
+We make Nevada -8. The market is -5.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

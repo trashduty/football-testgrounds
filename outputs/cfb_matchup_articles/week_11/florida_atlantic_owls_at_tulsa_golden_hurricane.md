@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida Atlantic Owls | +5.5 (+100) | FanDuel | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Tulsa Golden Hurricane | -5.5 (-108) | Caesars | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Atlantic Owls | +5.5 (+100) | FanDuel | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tulsa Golden Hurricane | -6.5 (-106) | Caesars | 48.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Florida Atlantic Owls visit the Tulsa Golden Hurricane at Chapman Stadium. We make **Florida Atlantic +6**, compared with a market line of +5.5.
+The Florida Atlantic Owls visit the Tulsa Golden Hurricane at Chapman Stadium. We make **Florida Atlantic +6.5**, compared with a market line of +6.5.
 
-The best number we found is Florida Atlantic +5.5 at +100. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida Atlantic +5.5 at +100. We see a 0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -48,17 +48,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#136</td>
-<td class="btb-better">#32</td>
+<td class="btb-better">#33</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#59</td>
+<td>#60</td>
 <td class="btb-better">#7</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#104</td>
-<td class="btb-better">#51</td>
+<td class="btb-better">#50</td>
 </tr>
 </tbody>
 </table>

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Minnesota Golden Gophers | +9.5 (-108) | BetMGM | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Penn State Nittany Lions | -9.5 (-108) | Caesars | 53.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Minnesota Golden Gophers | +11.5 (-108) | BetMGM | 47.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Penn State Nittany Lions | -11.5 (-105) | Caesars | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Minnesota Golden Gophers visit the Penn State Nittany Lions at Beaver Stadium. We make **Penn State -12**, compared with a market line of -9.5.
+The Minnesota Golden Gophers visit the Penn State Nittany Lions at Beaver Stadium. We make **Penn State -13.5**, compared with a market line of -11.5.
 
-The best number we found is Penn State -9.5 at -108. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Penn State -11.5 at -105. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#24</td>
-<td>#68</td>
+<td>#69</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -53,11 +53,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#5</td>
-<td>#53</td>
+<td>#55</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#80</td>
+<td>#78</td>
 <td class="btb-better">#18</td>
 </tr>
 </tbody>

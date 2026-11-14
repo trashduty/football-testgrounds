@@ -1,4 +1,4 @@
-# Ole Miss Rebels vs Oklahoma Sooners Prediction For 11/14/2026
+# Ole Miss Rebels vs Oklahoma Sooners Prediction For 11/15/2026
 
 <p align="center"><img src="http://a.espncdn.com/i/teamlogos/ncaa/500/145.png" alt="Ole Miss Rebels" width="224" /> <strong>vs</strong> <img src="http://a.espncdn.com/i/teamlogos/ncaa/500/201.png" alt="Oklahoma Sooners" width="224" /></p>
 
@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Ole Miss Rebels | -1.5 (+110) | FanDuel | 46.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oklahoma Sooners | +1.0 (-114) | BetRivers | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ole Miss Rebels | +2.5 (-105) | DraftKings | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma Sooners | -2.5 (-110) | Caesars | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Ole Miss Rebels visit the Oklahoma Sooners at Memorial Stadium (Norman, OK). We make **Oklahoma -0.5**, compared with a market line of -1.
+The Ole Miss Rebels visit the Oklahoma Sooners at the home venue. We make **Ole Miss +1.5**, compared with a market line of +2.5.
 
-The best number we found is Oklahoma +1.0 at -114. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ole Miss +2.5 at -105. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Oklahoma</th>
 <th>Ole Miss</th>
+<th>Oklahoma</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#56</td>
 <td class="btb-better">#34</td>
+<td>#56</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
+<td class="btb-better">#33</td>
 <td>#137</td>
-<td class="btb-better">#35</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td>#70</td>
 <td class="btb-better">#9</td>
-<td>#69</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#31</td>
 <td>#101</td>
+<td class="btb-better">#32</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td class="btb-better">#53</td>
 <td>#131</td>
-<td class="btb-better">#51</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#37</td>
 <td>#102</td>
+<td class="btb-better">#37</td>
 </tr>
 </tbody>
 </table>

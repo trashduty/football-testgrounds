@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Nevada Wolf Pack | -6.5 (-115) | FanDuel | 54.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Northern Illinois Huskies | +6.5 (+100) | theScore Bet | 46.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Nevada Wolf Pack | -6.5 (+100) | FanDuel | 52.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Northern Illinois Huskies | +5.5 (-108) | DraftKings | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Nevada Wolf Pack visit the Northern Illinois Huskies at Huskie Stadium. We make **Nevada -9**, compared with a market line of -7.
+The Nevada Wolf Pack visit the Northern Illinois Huskies at Huskie Stadium. We make **Nevada -8**, compared with a market line of -5.5.
 
-The best number we found is Nevada -6.5 at -115. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Nevada -6.5 at +100. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#96</td>
+<td>#95</td>
 <td class="btb-better">#33</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#95</td>
-<td class="btb-better">#87</td>
+<td class="btb-better">#86</td>
 </tr>
 </tbody>
 </table>

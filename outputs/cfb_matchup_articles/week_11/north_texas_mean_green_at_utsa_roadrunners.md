@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | North Texas Mean Green | -2.5 (-108) | BetMGM | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UTSA Roadrunners | +2.5 (-110) | BetMGM | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UTSA Roadrunners | +2.5 (-105) | theScore Bet | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The North Texas Mean Green visit the UTSA Roadrunners at Alamodome. We make **UT San Antonio +1**, compared with a market line of +2.5.
 
-The best number we found is UT San Antonio +2.5 at -110. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UT San Antonio +2.5 at -105. We see a 0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -48,17 +48,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#108</td>
-<td class="btb-better">#34</td>
+<td class="btb-better">#35</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#25</td>
-<td>#28</td>
+<td class="btb-better">#27</td>
+<td>#30</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#83</td>
-<td>#84</td>
+<td class="btb-better">#82</td>
+<td>#83</td>
 </tr>
 </tbody>
 </table>

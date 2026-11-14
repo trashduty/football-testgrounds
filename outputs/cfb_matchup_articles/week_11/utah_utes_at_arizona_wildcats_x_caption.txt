@@ -1,6 +1,6 @@
-Our model is 1.5 points away from the market on Utah-Arizona.
+Our model is 1 point away from the market on Utah-Arizona.
 
-We make Arizona +1. The market is +2.5.
+We make Arizona +0.5. The market is +1.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arkansas State Red Wolves | +1.5 (-110) | BetMGM | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Coastal Carolina Chanticleers | -1.5 (-105) | FanDuel | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arkansas State Red Wolves | +2.0 (-110) | BetMGM | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Coastal Carolina Chanticleers | -1.5 (-107) | Caesars | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Arkansas State Red Wolves visit the Coastal Carolina Chanticleers at Brooks Stadium (SC). We make **Arkansas State +0.5**, compared with a market line of +1.5.
 
-The best number we found is Arkansas State +1.5 at -110. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arkansas State +2.0 at -110. We see a -0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,12 +38,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#72</td>
-<td>#128</td>
+<td>#129</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#127</td>
-<td class="btb-better">#118</td>
+<td class="btb-better">#117</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -53,12 +53,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#128</td>
-<td class="btb-better">#88</td>
+<td class="btb-better">#90</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#50</td>
-<td class="btb-better">#46</td>
+<td>#49</td>
+<td class="btb-better">#45</td>
 </tr>
 </tbody>
 </table>

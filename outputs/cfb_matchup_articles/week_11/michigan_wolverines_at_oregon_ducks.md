@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Michigan Wolverines | +10.5 (-108) | BetMGM | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oregon Ducks | -10.5 (-105) | theScore Bet | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan Wolverines | +10.5 (-109) | Caesars | 51.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oregon Ducks | -10.5 (-105) | Fanatics | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Michigan Wolverines visit the Oregon Ducks at Autzen Stadium. We make **Michigan +11**, compared with a market line of +10.5.
 
-The best number we found is Michigan +10.5 at -108. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan +10.5 at -109. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#109</td>
-<td class="btb-better">#41</td>
+<td class="btb-better">#42</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -52,8 +52,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#103</td>
-<td class="btb-better">#54</td>
+<td>#104</td>
+<td class="btb-better">#56</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

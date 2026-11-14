@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida Gators | +3.5 (-115) | Caesars | 53.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Kentucky Wildcats | -3.5 (+100) | DraftKings | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Gators | +3.5 (-125) | FanDuel | 54.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kentucky Wildcats | -3.5 (+105) | FanDuel | 45.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Florida Gators visit the Kentucky Wildcats at Kroger Field. We make **Florida +2.5**, compared with a market line of +3.5.
+The Florida Gators visit the Kentucky Wildcats at Kroger Field. We make **Florida +2**, compared with a market line of +3.
 
-The best number we found is Florida +3.5 at -115. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Florida +3.5 at -125. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,12 +38,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#73</td>
-<td class="btb-better">#48</td>
+<td class="btb-better">#47</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#101</td>
-<td class="btb-better">#83</td>
+<td class="btb-better">#84</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>

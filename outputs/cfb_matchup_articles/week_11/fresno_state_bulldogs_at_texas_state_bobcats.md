@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Fresno State Bulldogs | +9.5 (+100) | FanDuel | 57.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Texas State Bobcats | -9.5 (-112) | DraftKings | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas State Bobcats | -9.5 (-110) | Fanatics | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
@@ -43,17 +43,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#49</td>
-<td>#106</td>
+<td>#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#12</td>
+<td class="btb-better">#13</td>
 <td>#52</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#83</td>
-<td>#90</td>
+<td class="btb-better">#85</td>
+<td>#92</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

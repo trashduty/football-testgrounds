@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Alabama Crimson Tide | -17.5 (-102) | DraftKings | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Vanderbilt Commodores | +17.5 (-110) | FanDuel | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Alabama Crimson Tide | -14.5 (-105) | theScore Bet | 52.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Vanderbilt Commodores | +14.5 (-110) | FanDuel | 47.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Alabama Crimson Tide visit the Vanderbilt Commodores at FirstBank Stadium. We make **Alabama -18.5**, compared with a market line of -17.5.
+The Alabama Crimson Tide visit the Vanderbilt Commodores at FirstBank Stadium. We make **Alabama -16.5**, compared with a market line of -14.
 
-The best number we found is Alabama -17.5 at -102. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Alabama -14.5 at -105. We see a 1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#55</td>
-<td>#98</td>
+<td>#97</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#89</td>
-<td class="btb-better">#18</td>
+<td>#91</td>
+<td class="btb-better">#19</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#8</td>
-<td>#66</td>
+<td>#65</td>
 </tr>
 </tbody>
 </table>

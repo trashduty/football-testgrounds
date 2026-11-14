@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Utah Utes | -2.5 (-110) | FanDuel | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Arizona Wildcats | +2.5 (-104) | Caesars | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Utah Utes | -1.5 (-102) | DraftKings | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona Wildcats | +1.5 (-109) | BetRivers | 51.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Utah Utes visit the Arizona Wildcats at Arizona Stadium. We make **Arizona +1**, compared with a market line of +2.5.
+The Utah Utes visit the Arizona Wildcats at Arizona Stadium. We make **Arizona +0.5**, compared with a market line of +1.5.
 
-The best number we found is Arizona +2.5 at -104. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona +1.5 at -109. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -48,12 +48,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#36</td>
-<td>#64</td>
+<td>#63</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#72</td>
-<td class="btb-better">#19</td>
+<td class="btb-better">#20</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

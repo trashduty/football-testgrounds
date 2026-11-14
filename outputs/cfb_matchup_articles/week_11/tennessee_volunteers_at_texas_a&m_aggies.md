@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tennessee Volunteers | -2.5 (-110) | Fanatics | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Texas A&M Aggies | +2.5 (-105) | BetMGM | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tennessee Volunteers | +1.5 (-115) | theScore Bet | 54.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | +1.0 (-110) | BetMGM | 48.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Tennessee Volunteers visit the Texas A&M Aggies at Kyle Field. We make **Texas A&M +2**, compared with a market line of +2.5.
+The Tennessee Volunteers visit the Texas A&M Aggies at Kyle Field. We make **Tennessee -1**, compared with a market line of -1.5.
 
-The best number we found is Texas A&M +2.5 at -105. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Tennessee +1.5 at -115. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Texas A&amp;M</th>
 <th>Tennessee</th>
+<th>Texas A&amp;M</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#91</td>
 <td class="btb-better">#88</td>
+<td>#91</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#52</td>
 <td class="btb-better">#15</td>
+<td>#51</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#37</td>
 <td class="btb-better">#7</td>
+<td>#37</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#21</td>
 <td>#70</td>
+<td class="btb-better">#21</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#88</td>
 <td class="btb-better">#69</td>
-<td>#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#7</td>
 <td>#42</td>
+<td class="btb-better">#7</td>
 </tr>
 </tbody>
 </table>

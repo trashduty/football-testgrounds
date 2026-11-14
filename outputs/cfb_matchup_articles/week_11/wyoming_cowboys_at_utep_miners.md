@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wyoming Cowboys | -8.5 (-105) | Caesars | 52.8% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| UTEP Miners | +7.5 (+100) | FanDuel | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wyoming Cowboys | -7.5 (+105) | FanDuel | 52.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| UTEP Miners | +6.5 (+105) | theScore Bet | 44.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wyoming Cowboys visit the UTEP Miners at Sun Bowl. We make **Wyoming -11**, compared with a market line of -8.5.
+The Wyoming Cowboys visit the UTEP Miners at Sun Bowl. We make **Wyoming -10**, compared with a market line of -7.
 
-The best number we found is Wyoming -8.5 at -105. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wyoming -7.5 at +105. We give Wyoming a 52.5% chance to cover, which creates an 3.7% edge for us. That clears our 3% threshold, so Wyoming is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,7 +37,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#43</td>
 <td>#133</td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#117</td>
+<td>#118</td>
 <td class="btb-better">#112</td>
 </tr>
 <tr>

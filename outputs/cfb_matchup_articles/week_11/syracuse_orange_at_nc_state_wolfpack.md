@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Syracuse Orange | -2.5 (-115) | BetRivers | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Syracuse Orange | -2.5 (-117) | BetRivers | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | NC State Wolfpack | +2.5 (+100) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Syracuse Orange visit the NC State Wolfpack at Carter-Finley Stadium. We make **NC State +1**, compared with a market line of +3.
+The Syracuse Orange visit the NC State Wolfpack at Carter-Finley Stadium. We make **NC State +1**, compared with a market line of +2.5.
 
 The best number we found is NC State +2.5 at +100. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -52,8 +52,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#38</td>
-<td>#93</td>
+<td class="btb-better">#41</td>
+<td>#95</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

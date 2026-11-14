@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oregon State Beavers | +14.5 (+100) | FanDuel | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Boise State Broncos | -14.5 (-108) | Caesars | 53.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Oregon State Beavers | +16.5 (-110) | FanDuel | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boise State Broncos | -15.5 (-113) | BetRivers | 53.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Oregon State Beavers visit the Boise State Broncos at Albertsons Stadium. We make **Boise State -17.5**, compared with a market line of -14.5.
+The Oregon State Beavers visit the Boise State Broncos at Albertsons Stadium. We make **Boise State -18.5**, compared with a market line of -16.5.
 
-The best number we found is Boise State -14.5 at -108. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Boise State -15.5 at -113. We see a 0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#7</td>
-<td>#37</td>
+<td>#36</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -48,17 +48,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#110</td>
-<td class="btb-better">#94</td>
+<td class="btb-better">#95</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#48</td>
+<td class="btb-better">#50</td>
 <td>#81</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#123</td>
-<td class="btb-better">#121</td>
+<td>#121</td>
+<td class="btb-better">#119</td>
 </tr>
 </tbody>
 </table>

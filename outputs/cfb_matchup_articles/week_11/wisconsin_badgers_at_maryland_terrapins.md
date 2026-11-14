@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Wisconsin Badgers | -8.5 (-110) | BetRivers | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Maryland Terrapins | +9.5 (-110) | FanDuel | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wisconsin Badgers | -8.5 (-110) | Fanatics | 52.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Maryland Terrapins | +9.5 (-110) | BetRivers | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Wisconsin Badgers visit the Maryland Terrapins at SECU Stadium. We make **Wisconsin -11**, compared with a market line of -9.
+The Wisconsin Badgers visit the Maryland Terrapins at SECU Stadium. We make **Wisconsin -11**, compared with a market line of -8.5.
 
 The best number we found is Wisconsin -8.5 at -110. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#15</td>
-<td>#70</td>
+<td>#71</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#57</td>
-<td>#95</td>
+<td class="btb-better">#58</td>
+<td>#97</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#49</td>
-<td>#60</td>
+<td class="btb-better">#48</td>
+<td>#59</td>
 </tr>
 </tbody>
 </table>

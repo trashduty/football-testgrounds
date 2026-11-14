@@ -6,7 +6,7 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Auburn Tigers | -2.5 (-110) | BetRivers | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Auburn Tigers | -2.5 (-115) | DraftKings | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Mississippi State Bulldogs | +2.5 (+101) | Caesars | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#99</td>
-<td class="btb-better">#29</td>
+<td>#101</td>
+<td class="btb-better">#31</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#129</td>
-<td class="btb-better">#82</td>
+<td>#127</td>
+<td class="btb-better">#80</td>
 </tr>
 </tbody>
 </table>

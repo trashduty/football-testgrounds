@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Dakota State | -6.5 (-112) | BetMGM | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Hawaii Rainbow Warriors | +6.5 (+100) | theScore Bet | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| North Dakota State | -6.5 (-120) | FanDuel | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Hawaii Rainbow Warriors | +6.5 (+100) | FanDuel | 57.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The North Dakota State visit the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. We make **Hawai'i +3.5**, compared with a market line of +6.5.
+The North Dakota State visit the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. We make **Hawai'i +3.5**, compared with a market line of +7.
 
 The best number we found is Hawai'i +6.5 at +100. We give Hawai'i a 57.1% chance to cover, which creates an 7.1% edge for us. That clears our 3% threshold, so Hawai'i is a bet.
 
@@ -48,7 +48,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#73</td>
-<td class="btb-better">#11</td>
+<td class="btb-better">#12</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#67</td>
+<td>#66</td>
 <td class="btb-better">#4</td>
 </tr>
 </tbody>

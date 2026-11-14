@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | -3.5 (-105) | BetMGM | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Michigan State Spartans | +3.5 (-110) | BetRivers | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | -2.5 (-110) | BetMGM | 57.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Michigan State Spartans | +2.5 (+100) | FanDuel | 42.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Washington Huskies visit the Michigan State Spartans at Spartan Stadium. We make **Washington -7**, compared with a market line of -3.5.
+The Washington Huskies visit the Michigan State Spartans at Spartan Stadium. We make **Washington -6**, compared with a market line of -2.5.
 
-The best number we found is Washington -3.5 at -105. We give Washington a 55.5% chance to cover, which creates an 4.3% edge for us. That clears our 3% threshold, so Washington is a bet.
+The best number we found is Washington -2.5 at -110. We give Washington a 57.3% chance to cover, which creates an 4.9% edge for us. That clears our 3% threshold, so Washington is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,8 +42,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#77</td>
-<td>#90</td>
+<td class="btb-better">#78</td>
+<td>#89</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -53,11 +53,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#75</td>
-<td>#84</td>
+<td>#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#63</td>
+<td class="btb-better">#62</td>
 <td>#93</td>
 </tr>
 </tbody>
