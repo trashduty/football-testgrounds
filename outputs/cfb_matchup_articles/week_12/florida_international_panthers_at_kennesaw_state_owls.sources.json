@@ -1,0 +1,28 @@
+{
+  "game": "Florida International Panthers@Kennesaw State Owls",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:23:18.211994+00:00",
+  "model_prediction": -4.5,
+  "market_line": -3.5,
+  "best_line": -3.5,
+  "best_price": "-107",
+  "best_book": "BetRivers",
+  "cover_probability": 0.50526771,
+  "edge": -0.011640502560386401,
+  "bet_short": "Kennesaw State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Florida International Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida InternationaL.pdf",
+      "Found guide for Kennesaw State Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kennesaw State.pdf",
+      "Guide processing failed for Kennesaw State Owls: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

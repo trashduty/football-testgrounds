@@ -1,0 +1,28 @@
+{
+  "game": "Western Kentucky Hilltoppers@Liberty Flames",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:29:27.299441+00:00",
+  "model_prediction": -19.5,
+  "market_line": -16.5,
+  "best_line": -16.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53866748,
+  "edge": 0.019436710769230703,
+  "bet_short": "Liberty",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Western Kentucky Hilltoppers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Kentucky.pdf",
+      "Found guide for Liberty Flames: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Liberty.pdf",
+      "Guide processing failed for Liberty Flames: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

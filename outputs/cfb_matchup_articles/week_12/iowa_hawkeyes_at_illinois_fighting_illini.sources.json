@@ -1,0 +1,28 @@
+{
+  "game": "Iowa Hawkeyes@Illinois Fighting Illini",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:24:03.602577+00:00",
+  "model_prediction": -10.0,
+  "market_line": -6.5,
+  "best_line": -6.5,
+  "best_price": "-112",
+  "best_book": "BetMGM",
+  "cover_probability": 0.55960143,
+  "edge": 0.03129954320754713,
+  "bet_short": "Iowa",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Iowa Hawkeyes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Iowa.pdf",
+      "Guide processing failed for Iowa Hawkeyes: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Illinois Fighting Illini. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Illinois.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

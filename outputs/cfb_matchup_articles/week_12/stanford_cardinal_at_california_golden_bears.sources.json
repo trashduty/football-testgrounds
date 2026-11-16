@@ -1,0 +1,28 @@
+{
+  "game": "Stanford Cardinal@California Golden Bears",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:26:58.505456+00:00",
+  "model_prediction": -0.0,
+  "market_line": 2.5,
+  "best_line": 2.5,
+  "best_price": "-109",
+  "best_book": "Caesars",
+  "cover_probability": 0.53802255,
+  "edge": 0.016491449521531143,
+  "bet_short": "California",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf",
+      "Found guide for California Golden Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/California.pdf",
+      "Guide processing failed for California Golden Bears: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

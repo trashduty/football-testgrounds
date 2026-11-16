@@ -1,0 +1,28 @@
+{
+  "game": "UTEP Miners@Air Force Falcons",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:27:29.939043+00:00",
+  "model_prediction": 22.0,
+  "market_line": 22.5,
+  "best_line": 22.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.52012979,
+  "edge": -0.0036797338095237997,
+  "bet_short": "UTEP",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UTEP Miners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UTEP.pdf",
+      "Found guide for Air Force Falcons: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Air Force.pdf",
+      "Guide processing failed for Air Force Falcons: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

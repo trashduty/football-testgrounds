@@ -1,0 +1,28 @@
+{
+  "game": "Memphis Tigers@Navy Midshipmen",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:24:56.933900+00:00",
+  "model_prediction": -5.5,
+  "market_line": -3.5,
+  "best_line": -3.5,
+  "best_price": "105",
+  "best_book": "BetRivers",
+  "cover_probability": 0.51784266,
+  "edge": 0.030037781951219533,
+  "bet_short": "Memphis",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Memphis Tigers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Memphis.pdf",
+      "Found guide for Navy Midshipmen: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Navy.pdf",
+      "Guide processing failed for Navy Midshipmen: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

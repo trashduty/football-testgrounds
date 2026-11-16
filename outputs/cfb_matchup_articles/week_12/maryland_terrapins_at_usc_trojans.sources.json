@@ -1,0 +1,29 @@
+{
+  "game": "Maryland Terrapins@USC Trojans",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:24:49.254918+00:00",
+  "model_prediction": -18.0,
+  "market_line": -17.0,
+  "best_line": -17.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.49301191,
+  "edge": -0.006988090000000002,
+  "bet_short": "USC",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Maryland Terrapins: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Maryland.pdf",
+      "Guide processing failed for Maryland Terrapins: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for USC Trojans: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/USC.pdf",
+      "Guide processing failed for USC Trojans: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

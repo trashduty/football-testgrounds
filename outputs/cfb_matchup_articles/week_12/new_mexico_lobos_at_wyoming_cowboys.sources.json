@@ -1,0 +1,28 @@
+{
+  "game": "New Mexico Lobos@Wyoming Cowboys",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:25:21.818706+00:00",
+  "model_prediction": 6.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-107",
+  "best_book": "Caesars",
+  "cover_probability": 0.55583311,
+  "edge": 0.03892489743961358,
+  "bet_short": "Wyoming",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for New Mexico Lobos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/New Mexico.pdf",
+      "Found guide for Wyoming Cowboys: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wyoming.pdf",
+      "Guide processing failed for Wyoming Cowboys: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

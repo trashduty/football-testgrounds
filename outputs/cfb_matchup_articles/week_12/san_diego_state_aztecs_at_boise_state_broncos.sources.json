@@ -1,0 +1,27 @@
+{
+  "game": "San Diego State Aztecs@Boise State Broncos",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:26:45.725219+00:00",
+  "model_prediction": -20.0,
+  "market_line": -16.5,
+  "best_line": -17.5,
+  "best_price": "100",
+  "best_book": "FanDuel",
+  "cover_probability": 0.52477388,
+  "edge": 0.024773880000000026,
+  "bet_short": "Boise State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for San Diego State Aztecs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/San Diego State.pdf",
+      "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

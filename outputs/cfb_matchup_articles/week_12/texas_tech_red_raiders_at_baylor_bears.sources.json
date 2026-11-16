@@ -1,0 +1,28 @@
+{
+  "game": "Texas Tech Red Raiders@Baylor Bears",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:27:18.842708+00:00",
+  "model_prediction": -6.0,
+  "market_line": -3.5,
+  "best_line": -3.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.52308302,
+  "edge": 0.010887898048780431,
+  "bet_short": "Texas Tech",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Texas Tech Red Raiders. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas Tech.pdf",
+      "Found guide for Baylor Bears: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Baylor.pdf",
+      "Guide processing failed for Baylor Bears: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

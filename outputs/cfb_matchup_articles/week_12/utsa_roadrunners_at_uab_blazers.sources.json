@@ -1,0 +1,28 @@
+{
+  "game": "UTSA Roadrunners@UAB Blazers",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:27:37.570526+00:00",
+  "model_prediction": 3.0,
+  "market_line": 5.5,
+  "best_line": 5.5,
+  "best_price": "-109",
+  "best_book": "Caesars",
+  "cover_probability": 0.55651553,
+  "edge": 0.034984429521531135,
+  "bet_short": "UAB",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf",
+      "Found guide for UAB Blazers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UAB.pdf",
+      "Guide processing failed for UAB Blazers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "Charlotte 49ers@Tulsa Golden Hurricane",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:21:58.553365+00:00",
+  "model_prediction": 20.5,
+  "market_line": 22.0,
+  "best_line": 22.5,
+  "best_price": "-110",
+  "best_book": "Fanatics",
+  "cover_probability": 0.54643715,
+  "edge": 0.022627626190476202,
+  "bet_short": "Charlotte",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Charlotte 49ers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Charlotte.pdf",
+      "Found guide for Tulsa Golden Hurricane: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulsa.pdf",
+      "Guide processing failed for Tulsa Golden Hurricane: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

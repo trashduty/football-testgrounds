@@ -1,0 +1,28 @@
+{
+  "game": "Rice Owls@Temple Owls",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:26:35.767054+00:00",
+  "model_prediction": 3.5,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.51601421,
+  "edge": -0.007795313809523807,
+  "bet_short": "Rice",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf",
+      "Found guide for Temple Owls: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Temple.pdf",
+      "Guide processing failed for Temple Owls: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

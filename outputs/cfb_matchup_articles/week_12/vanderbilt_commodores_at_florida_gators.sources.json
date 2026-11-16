@@ -1,0 +1,29 @@
+{
+  "game": "Vanderbilt Commodores@Florida Gators",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:28:30.978932+00:00",
+  "model_prediction": 12.5,
+  "market_line": 13.5,
+  "best_line": 13.5,
+  "best_price": "-105",
+  "best_book": "BetMGM",
+  "cover_probability": 0.53046566,
+  "edge": 0.018270538048780427,
+  "bet_short": "Vanderbilt",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Vanderbilt Commodores: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Vanderbilt.pdf",
+      "Guide processing failed for Vanderbilt Commodores: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Florida Gators: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida.pdf",
+      "Guide processing failed for Florida Gators: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

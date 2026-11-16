@@ -1,0 +1,27 @@
+{
+  "game": "Rutgers Scarlet Knights@Penn State Nittany Lions",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:26:36.262605+00:00",
+  "model_prediction": 25.0,
+  "market_line": 24.5,
+  "best_line": 24.5,
+  "best_price": "-103",
+  "best_book": "BetRivers",
+  "cover_probability": 0.50055027,
+  "edge": -0.006838892561576437,
+  "bet_short": "Rutgers",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Rutgers Scarlet Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rutgers.pdf",
+      "No guide found for Penn State Nittany Lions. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Penn State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

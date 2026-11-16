@@ -1,0 +1,29 @@
+{
+  "game": "Indiana Hoosiers@Washington Huskies",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:23:56.613252+00:00",
+  "model_prediction": 8.0,
+  "market_line": 8.0,
+  "best_line": 8.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.5320095,
+  "edge": 0.008199976190476188,
+  "bet_short": "Washington",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Indiana Hoosiers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Indiana.pdf",
+      "Guide processing failed for Indiana Hoosiers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Guide processing failed for Washington Huskies: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

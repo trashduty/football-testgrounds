@@ -1,0 +1,27 @@
+{
+  "game": "Miami (OH) RedHawks@Kent State Golden Flashes",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:24:57.387682+00:00",
+  "model_prediction": 10.0,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.507609,
+  "edge": -0.011621769230769297,
+  "bet_short": "Kent State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Miami (OH) RedHawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami (OH).pdf",
+      "No guide found for Kent State Golden Flashes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kent State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

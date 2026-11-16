@@ -1,0 +1,28 @@
+{
+  "game": "Kentucky Wildcats@Missouri Tigers",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:24:19.266578+00:00",
+  "model_prediction": -7.0,
+  "market_line": -5.5,
+  "best_line": -5.5,
+  "best_price": "-105",
+  "best_book": "DraftKings",
+  "cover_probability": 0.51911273,
+  "edge": 0.006917608048780499,
+  "bet_short": "Missouri",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Kentucky Wildcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kentucky.pdf",
+      "Found guide for Missouri Tigers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri.pdf",
+      "Guide processing failed for Missouri Tigers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

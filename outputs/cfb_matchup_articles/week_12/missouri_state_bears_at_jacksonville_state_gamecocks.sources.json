@@ -1,0 +1,27 @@
+{
+  "game": "Missouri State Bears@Jacksonville State Gamecocks",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:24:58.283823+00:00",
+  "model_prediction": -12.5,
+  "market_line": -10.5,
+  "best_line": -10.5,
+  "best_price": "-110",
+  "best_book": "BetMGM",
+  "cover_probability": 0.51159095,
+  "edge": -0.012218573809523847,
+  "bet_short": "Jacksonville Stat",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Missouri State Bears. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Missouri State.pdf",
+      "No guide found for Jacksonville State Gamecocks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Jacksonville Stat.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "Utah State Aggies@Oregon State Beavers",
+  "season": 2026,
+  "week": 12,
+  "generated_at_utc": "2026-11-16T13:27:42.839491+00:00",
+  "model_prediction": 9.5,
+  "market_line": 9.5,
+  "best_line": 9.5,
+  "best_price": "-108",
+  "best_book": "BetMGM",
+  "cover_probability": 0.52674771,
+  "edge": 0.007516940769230707,
+  "bet_short": "Utah State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Utah State Aggies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Utah State.pdf",
+      "Found guide for Oregon State Beavers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon State.pdf",
+      "Guide processing failed for Oregon State Beavers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
