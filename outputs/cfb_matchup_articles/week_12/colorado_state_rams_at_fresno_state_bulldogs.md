@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Colorado State Rams | +21.5 (-112) | BetMGM | 44.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Fresno State Bulldogs | -21.5 (-105) | BetMGM | 55.5% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Colorado State Rams | +20.5 (-105) | Fanatics | 43.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Fresno State Bulldogs | -20.5 (-105) | DraftKings | 56.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Colorado State Rams visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Fresno State -25.5**, compared with a market line of -21.5.
+The Colorado State Rams visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Fresno State -25**, compared with a market line of -20.5.
 
-The best number we found is Fresno State -21.5 at -105. We give Fresno State a 55.5% chance to cover, which creates an 4.2% edge for us. That clears our 3% threshold, so Fresno State is a bet.
+The best number we found is Fresno State -20.5 at -105. We give Fresno State a 56.2% chance to cover, which creates an 5.0% edge for us. That clears our 3% threshold, so Fresno State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,12 +33,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#23</td>
-<td>#32</td>
+<td>#33</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#132</td>
-<td class="btb-better">#20</td>
+<td class="btb-better">#21</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -52,8 +52,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#83</td>
-<td class="btb-better">#74</td>
+<td>#84</td>
+<td class="btb-better">#75</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

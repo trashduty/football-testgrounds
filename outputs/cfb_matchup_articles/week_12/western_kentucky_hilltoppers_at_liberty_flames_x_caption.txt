@@ -1,6 +1,6 @@
-Our model is 3 points away from the market on Western Kentucky-Liberty.
+Our model is 2.5 points away from the market on Western Kentucky-Liberty.
 
-We make Liberty -19.5. The market is -16.5.
+We make Liberty -19.5. The market is -17.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Maryland Terrapins | +16.5 (-105) | FanDuel | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| USC Trojans | -17.5 (+100) | theScore Bet | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Maryland Terrapins | +17.5 (-109) | Caesars | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| USC Trojans | -17.5 (-105) | Fanatics | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Maryland Terrapins visit the USC Trojans at Los Angeles Memorial Coliseum. We make **USC -18**, compared with a market line of -17.
+The Maryland Terrapins visit the USC Trojans at Los Angeles Memorial Coliseum. We make **Maryland +18**, compared with a market line of +17.5.
 
-The best number we found is USC -17.5 at +100. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Maryland +17.5 at -109. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>USC</th>
 <th>Maryland</th>
+<th>USC</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#18</td>
 <td>#100</td>
+<td class="btb-better">#18</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#83</td>
-<td class="btb-better">#72</td>
+<td class="btb-better">#73</td>
+<td>#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#118</td>
 <td class="btb-better">#52</td>
+<td>#120</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#69</td>
-<td class="btb-better">#62</td>
+<td class="btb-better">#60</td>
+<td>#70</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#100</td>
 <td class="btb-better">#79</td>
-<td>#99</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#99</td>
-<td class="btb-better">#45</td>
+<td class="btb-better">#46</td>
+<td>#100</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

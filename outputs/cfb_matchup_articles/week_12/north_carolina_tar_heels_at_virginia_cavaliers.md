@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Carolina Tar Heels | +1.5 (-115) | Fanatics | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Virginia Cavaliers | +1.5 (-120) | DraftKings | 53.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| North Carolina Tar Heels | +1.5 (-108) | DraftKings | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Cavaliers | -1.5 (-108) | Caesars | 48.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The North Carolina Tar Heels visit the Virginia Cavaliers at Scott Stadium. We make **Virginia -0.5**, compared with a market line of -1.5.
+The North Carolina Tar Heels visit the Virginia Cavaliers at Scott Stadium. We make **North Carolina +0.5**, compared with a market line of +1.5.
 
-The best number we found is Virginia +1.5 at -120. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is North Carolina +1.5 at -108. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Virginia</th>
 <th>North Carolina</th>
+<th>Virginia</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#57</td>
-<td>#60</td>
+<td>#61</td>
+<td class="btb-better">#58</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#50</td>
-<td>#69</td>
-</tr>
-<tr>
-<td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#71</td>
+<td>#70</td>
 <td class="btb-better">#51</td>
 </tr>
 <tr>
+<td class="btb-stat-name">Defensive Pass EPA Rank</td>
+<td class="btb-better">#51</td>
+<td>#72</td>
+</tr>
+<tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#98</td>
 <td class="btb-better">#80</td>
+<td>#98</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#71</td>
 <td>#123</td>
+<td class="btb-better">#72</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#86</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#45</td>
+<td>#85</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

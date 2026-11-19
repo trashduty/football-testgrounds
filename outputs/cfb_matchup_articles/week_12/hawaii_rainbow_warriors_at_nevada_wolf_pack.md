@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Hawaii Rainbow Warriors | +3.5 (-105) | FanDuel | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Nevada Wolf Pack | -4.5 (-105) | theScore Bet | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Hawaii Rainbow Warriors | +5.5 (-110) | theScore Bet | 58.2% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Nevada Wolf Pack | -4.5 (-110) | BetMGM | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Hawaii Rainbow Warriors visit the Nevada Wolf Pack at Mackay Stadium. We make **Hawai'i +1.5**, compared with a market line of +4.
+The Hawaii Rainbow Warriors visit the Nevada Wolf Pack at Mackay Stadium. We make **Hawai'i +2**, compared with a market line of +4.5.
 
-The best number we found is Hawai'i +3.5 at -105. We give Hawai'i a 55.6% chance to cover, which creates an 4.3% edge for us. That clears our 3% threshold, so Hawai'i is a bet.
+The best number we found is Hawai'i +5.5 at -110. We give Hawai'i a 58.2% chance to cover, which creates an 5.8% edge for us. That clears our 3% threshold, so Hawai'i is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,13 +32,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#80</td>
-<td>#123</td>
+<td class="btb-better">#81</td>
+<td>#125</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#123</td>
-<td class="btb-better">#85</td>
+<td class="btb-better">#87</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -47,8 +47,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#58</td>
-<td>#59</td>
+<td class="btb-better">#57</td>
+<td>#58</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#43</td>
+<td class="btb-better">#44</td>
 <td>#63</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Iowa State Cyclones | +2.5 (-105) | BetMGM | 52.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UCF Knights | -1.5 (-113) | BetRivers | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa State Cyclones | +2.5 (-107) | BetRivers | 52.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UCF Knights | -2.5 (-104) | Caesars | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Iowa State Cyclones visit the UCF Knights at FBC Mortgage Stadium. We make **Iowa State +1**, compared with a market line of +2.5.
 
-The best number we found is Iowa State +2.5 at -105. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Iowa State +2.5 at -107. We see a 0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -37,22 +37,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#37</td>
+<td class="btb-better">#39</td>
 <td>#102</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#82</td>
-<td>#96</td>
+<td>#97</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#105</td>
-<td class="btb-better">#39</td>
+<td class="btb-better">#41</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#94</td>
+<td>#96</td>
 <td class="btb-better">#61</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

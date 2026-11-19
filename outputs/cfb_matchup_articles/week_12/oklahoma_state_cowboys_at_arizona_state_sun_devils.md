@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oklahoma State Cowboys | -3.5 (+100) | FanDuel | 48.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Arizona State Sun Devils | +3.5 (-117) | BetRivers | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma State Cowboys | -2.5 (-110) | theScore Bet | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona State Sun Devils | +2.5 (+100) | Fanatics | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Oklahoma State Cowboys visit the Arizona State Sun Devils at Mountain America Stadium. We make **Oklahoma State -3.5**, compared with a market line of -3.
+The Oklahoma State Cowboys visit the Arizona State Sun Devils at Mountain America Stadium. We make **Arizona State +3**, compared with a market line of +2.5.
 
-The best number we found is Oklahoma State -3.5 at +100. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona State +2.5 at +100. We see a -1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Oklahoma State</th>
 <th>Arizona State</th>
+<th>Oklahoma State</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td>#76</td>
 <td class="btb-better">#9</td>
-<td>#75</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#70</td>
-<td>#94</td>
+<td>#96</td>
+<td class="btb-better">#71</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#78</td>
 <td class="btb-better">#57</td>
+<td>#79</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#35</td>
-<td>#37</td>
+<td>#39</td>
+<td class="btb-better">#37</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
+<td>#71</td>
 <td class="btb-better">#35</td>
-<td>#70</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#112</td>
 <td>#113</td>
+<td class="btb-better">#112</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

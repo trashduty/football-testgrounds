@@ -1,6 +1,6 @@
 Our model is 1 point away from the market on Arkansas State-Louisiana Tech.
 
-We make Louisiana Tech -15. The market is -14.
+We make Arkansas State +15. The market is +14.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

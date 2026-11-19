@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington State Cougars | +11.5 (-110) | BetRivers | 58.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Texas State Bobcats | -10.5 (-110) | Caesars | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | +11.5 (-108) | BetMGM | 58.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Texas State Bobcats | -11.5 (-108) | Caesars | 41.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Washington State Cougars visit the Texas State Bobcats at Bobcat Stadium (TX). We make **Washington State +7.5**, compared with a market line of +11.
+The Washington State Cougars visit the Texas State Bobcats at Bobcat Stadium (TX). We make **Washington State +7.5**, compared with a market line of +11.5.
 
-The best number we found is Washington State +11.5 at -110. We give Washington State a 58.9% chance to cover, which creates an 6.6% edge for us. That clears our 3% threshold, so Washington State is a bet.
+The best number we found is Washington State +11.5 at -108. We give Washington State a 58.9% chance to cover, which creates an 7.0% edge for us. That clears our 3% threshold, so Washington State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#127</td>
+<td>#128</td>
 <td class="btb-better">#6</td>
 </tr>
 <tr>
@@ -42,22 +42,22 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#72</td>
-<td>#123</td>
+<td class="btb-better">#73</td>
+<td>#125</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#108</td>
-<td class="btb-better">#41</td>
+<td class="btb-better">#43</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#87</td>
+<td class="btb-better">#88</td>
 <td>#125</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#88</td>
+<td class="btb-better">#87</td>
 <td>#111</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **15 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
