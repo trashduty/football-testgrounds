@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Northwestern Wildcats | -2.5 (-110) | BetMGM | 56.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Minnesota Golden Gophers | +2.5 (-104) | BetRivers | 43.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Northwestern Wildcats | -1.5 (-115) | theScore Bet | 58.0% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Minnesota Golden Gophers | +2.5 (-105) | BetMGM | 43.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Northwestern Wildcats visit the Minnesota Golden Gophers at Huntington Bank Stadium. We make **Northwestern -5.5**, compared with a market line of -2.5.
 
-The best number we found is Northwestern -2.5 at -110. We give Northwestern a 56.3% chance to cover, which creates an 4.0% edge for us. That clears our 3% threshold, so Northwestern is a bet.
+The best number we found is Northwestern -1.5 at -115. We give Northwestern a 58.0% chance to cover, which creates an 4.5% edge for us. That clears our 3% threshold, so Northwestern is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#55</td>
-<td>#104</td>
+<td>#103</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#28</td>
 <td>#87</td>
 </tr>
 <tr>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

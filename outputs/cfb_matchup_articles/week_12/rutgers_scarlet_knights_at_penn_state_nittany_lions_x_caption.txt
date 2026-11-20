@@ -1,6 +1,6 @@
-Our model is 0.5 points away from the market on Rutgers-Penn State.
+Our model is 0 points away from the market on Rutgers-Penn State.
 
-We make Penn State -25. The market is -24.5.
+We make Rutgers +26. The market is +26.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

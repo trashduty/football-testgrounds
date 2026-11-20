@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Houston Cougars | -7.5 (-112) | BetRivers | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| West Virginia Mountaineers | +8.5 (-105) | theScore Bet | 54.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Houston Cougars | -7.5 (-102) | DraftKings | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| West Virginia Mountaineers | +7.5 (-110) | theScore Bet | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Houston Cougars visit the West Virginia Mountaineers at Milan Puskar Stadium. We make **West Virginia +7.5**, compared with a market line of +8.5.
+The Houston Cougars visit the West Virginia Mountaineers at Milan Puskar Stadium. We make **West Virginia +7**, compared with a market line of +7.5.
 
-The best number we found is West Virginia +8.5 at -105. We give West Virginia a 54.3% chance to cover, which creates an 3.1% edge for us. That clears our 3% threshold, so West Virginia is a bet.
+The best number we found is West Virginia +7.5 at -110. We see a 1.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#137</td>
-<td class="btb-better">#112</td>
+<td class="btb-better">#111</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

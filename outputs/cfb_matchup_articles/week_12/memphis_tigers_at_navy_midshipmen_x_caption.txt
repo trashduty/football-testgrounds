@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Memphis-Navy.
+Our model is 2.5 points away from the market on Memphis-Navy.
 
-We make Memphis -5. The market is -3.
+We make Memphis -5. The market is -2.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

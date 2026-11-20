@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UNLV Rebels | -6.5 (-115) | BetRivers | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UNLV Rebels | -6.5 (-115) | BetMGM | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | San Jose State Spartans | +6.5 (+100) | FanDuel | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UNLV Rebels visit the San Jose State Spartans at CEFCU Stadium. We make **San Jose State +7**, compared with a market line of +7.
+The UNLV Rebels visit the San Jose State Spartans at CEFCU Stadium. We make **San Jose State +7**, compared with a market line of +6.5.
 
 The best number we found is San Jose State +6.5 at +100. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

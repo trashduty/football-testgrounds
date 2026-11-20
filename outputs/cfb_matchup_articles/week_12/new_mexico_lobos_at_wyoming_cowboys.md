@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Mexico Lobos | -7.5 (-105) | BetMGM | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wyoming Cowboys | +7.5 (-110) | BetRivers | 55.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| New Mexico Lobos | -7.5 (+100) | theScore Bet | 44.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wyoming Cowboys | +7.5 (-114) | Caesars | 55.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The New Mexico Lobos visit the Wyoming Cowboys at War Memorial Stadium. We make **Wyoming +6**, compared with a market line of +7.5.
 
-The best number we found is Wyoming +7.5 at -110. We give Wyoming a 55.6% chance to cover, which creates an 3.2% edge for us. That clears our 3% threshold, so Wyoming is a bet.
+The best number we found is Wyoming +7.5 at -114. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

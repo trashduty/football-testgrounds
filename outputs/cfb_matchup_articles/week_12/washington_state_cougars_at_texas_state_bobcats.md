@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington State Cougars | +11.5 (-108) | BetMGM | 58.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Texas State Bobcats | -11.5 (-108) | Caesars | 41.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | +13.5 (-108) | BetMGM | 59.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Texas State Bobcats | -13.5 (-105) | theScore Bet | 40.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Washington State Cougars visit the Texas State Bobcats at Bobcat Stadium (TX). We make **Washington State +7.5**, compared with a market line of +11.5.
+The Washington State Cougars visit the Texas State Bobcats at Bobcat Stadium (TX). We make **Washington State +9**, compared with a market line of +13.5.
 
-The best number we found is Washington State +11.5 at -108. We give Washington State a 58.9% chance to cover, which creates an 7.0% edge for us. That clears our 3% threshold, so Washington State is a bet.
+The best number we found is Washington State +13.5 at -108. We give Washington State a 59.3% chance to cover, which creates an 7.3% edge for us. That clears our 3% threshold, so Washington State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **9 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
