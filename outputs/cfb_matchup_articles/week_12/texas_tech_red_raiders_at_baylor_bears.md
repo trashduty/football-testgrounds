@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas Tech Red Raiders | -4.5 (-110) | BetMGM | 52.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Baylor Bears | +4.5 (+100) | theScore Bet | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas Tech Red Raiders | -4.5 (-110) | Caesars | 52.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Baylor Bears | +4.5 (-105) | DraftKings | 47.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas Tech Red Raiders visit the Baylor Bears at McLane Stadium. We make **Texas Tech -7**, compared with a market line of -4.5.
+The Texas Tech Red Raiders visit the Baylor Bears at McLane Stadium. We make **Texas Tech -7**, compared with a market line of -5.
 
 The best number we found is Texas Tech -4.5 at -110. We see a 0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -37,27 +37,27 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#28</td>
-<td>#56</td>
+<td class="btb-better">#27</td>
+<td>#55</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#41</td>
-<td class="btb-better">#13</td>
+<td>#42</td>
+<td class="btb-better">#14</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#19</td>
+<td class="btb-better">#20</td>
 <td>#22</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#43</td>
-<td>#109</td>
+<td>#107</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#75</td>
+<td>#76</td>
 <td class="btb-better">#36</td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **7 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

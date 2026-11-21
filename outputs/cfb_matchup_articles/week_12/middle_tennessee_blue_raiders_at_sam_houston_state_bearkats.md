@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Middle Tennessee Blue Raiders | -5.5 (-110) | theScore Bet | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Sam Houston State Bearkats | +6.5 (-110) | BetMGM | 52.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Middle Tennessee Blue Raiders | -6.5 (-105) | Caesars | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Sam Houston State Bearkats | +6.5 (-110) | BetMGM | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Middle Tennessee Blue Raiders visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **Sam Houston State +6**, compared with a market line of +6.
+The Middle Tennessee Blue Raiders visit the Sam Houston State Bearkats at Elliott T. Bowers Stadium. We make **Sam Houston State +6.5**, compared with a market line of +6.5.
 
-The best number we found is Sam Houston State +6.5 at -110. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Sam Houston State +6.5 at -110. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,11 +38,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#134</td>
-<td class="btb-better">#67</td>
+<td class="btb-better">#65</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#25</td>
+<td class="btb-better">#26</td>
 <td>#62</td>
 </tr>
 <tr>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#99</td>
+<td>#96</td>
 <td class="btb-better">#8</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#99</td>
-<td class="btb-better">#66</td>
+<td>#98</td>
+<td class="btb-better">#64</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **7 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

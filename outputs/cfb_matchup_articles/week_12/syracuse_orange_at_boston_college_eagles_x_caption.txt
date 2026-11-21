@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on Syracuse-Boston College.
 
-We make Boston College +2.5. The market is +2.5.
+We make Boston College +3. The market is +3.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

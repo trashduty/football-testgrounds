@@ -6,12 +6,12 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas A&M Aggies | +7.5 (-115) | Caesars | 54.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Oklahoma Sooners | -7.5 (+102) | DraftKings | 45.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Texas A&M Aggies | +7.5 (-115) | FanDuel | 54.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Oklahoma Sooners | -7.5 (+100) | theScore Bet | 45.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Texas A&M Aggies visit the Oklahoma Sooners at Memorial Stadium (Norman, OK). We make **Texas A&M +6.5**, compared with a market line of +7.5.
+The Texas A&M Aggies visit the Oklahoma Sooners at Memorial Stadium (Norman, OK). We make **Texas A&M +6.5**, compared with a market line of +7.
 
 The best number we found is Texas A&M +7.5 at -115. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
@@ -37,28 +37,28 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#66</td>
+<td class="btb-better">#64</td>
 <td>#131</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#39</td>
-<td class="btb-better">#12</td>
+<td>#40</td>
+<td class="btb-better">#13</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#14</td>
-<td>#53</td>
+<td class="btb-better">#15</td>
+<td>#54</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#60</td>
-<td>#118</td>
+<td class="btb-better">#59</td>
+<td>#117</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#9</td>
-<td>#77</td>
+<td>#78</td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **7 games** this week.
+Our model found edges of at least 3% on **9 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 
