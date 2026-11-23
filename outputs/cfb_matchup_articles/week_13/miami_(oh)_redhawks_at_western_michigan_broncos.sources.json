@@ -1,0 +1,28 @@
+{
+  "game": "Miami (OH) RedHawks@Western Michigan Broncos",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:12:49.136040+00:00",
+  "model_prediction": 7.0,
+  "market_line": 7.5,
+  "best_line": 7.5,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.53594112,
+  "edge": 0.005424688075117423,
+  "bet_short": "Miami (OH)",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Miami (OH) RedHawks. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami (OH).pdf",
+      "Found guide for Western Michigan Broncos: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Western Michigan.pdf",
+      "Guide processing failed for Western Michigan Broncos: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "game": "UCF Knights@Colorado Buffaloes",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:15:58.328360+00:00",
+  "model_prediction": -0.5,
+  "market_line": 2.0,
+  "best_line": 1.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.5317606,
+  "edge": 0.019565478048780505,
+  "bet_short": "UCF",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UCF Knights. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UCF.pdf",
+      "No guide found for Colorado Buffaloes. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Colorado.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

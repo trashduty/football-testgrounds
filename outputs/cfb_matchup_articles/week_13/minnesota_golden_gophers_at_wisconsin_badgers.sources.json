@@ -1,0 +1,28 @@
+{
+  "game": "Minnesota Golden Gophers@Wisconsin Badgers",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:13:08.061177+00:00",
+  "model_prediction": -9.0,
+  "market_line": -7.5,
+  "best_line": -7.5,
+  "best_price": "-105",
+  "best_book": "Fanatics",
+  "cover_probability": 0.50477739,
+  "edge": -0.0074177319512195306,
+  "bet_short": "Wisconsin",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Minnesota Golden Gophers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Minnesota.pdf",
+      "Guide processing failed for Minnesota Golden Gophers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Wisconsin Badgers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wisconsin.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

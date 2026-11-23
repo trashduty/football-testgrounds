@@ -1,0 +1,27 @@
+{
+  "game": "SMU Mustangs@Stanford Cardinal",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:14:35.870017+00:00",
+  "model_prediction": 9.5,
+  "market_line": 8.5,
+  "best_line": 9.5,
+  "best_price": "-110",
+  "best_book": "FanDuel",
+  "cover_probability": 0.5233755,
+  "edge": -0.00043402380952384245,
+  "bet_short": "Stanford",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for SMU Mustangs. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/SMU.pdf",
+      "No guide found for Stanford Cardinal. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Stanford.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

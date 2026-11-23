@@ -1,0 +1,27 @@
+{
+  "game": "Sam Houston State Bearkats@Florida International Panthers",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:14:36.875478+00:00",
+  "model_prediction": 10.5,
+  "market_line": 10.5,
+  "best_line": 11.5,
+  "best_price": "-113",
+  "best_book": "BetRivers",
+  "cover_probability": 0.53761204,
+  "edge": 0.007095608075117332,
+  "bet_short": "Sam Houston State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Sam Houston State Bearkats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Sam Houston State.pdf",
+      "No guide found for Florida International Panthers. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida InternationaL.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

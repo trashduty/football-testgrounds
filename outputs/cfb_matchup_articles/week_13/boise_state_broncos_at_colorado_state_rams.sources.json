@@ -1,0 +1,28 @@
+{
+  "game": "Boise State Broncos@Colorado State Rams",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:10:15.624354+00:00",
+  "model_prediction": 21.0,
+  "market_line": 21.5,
+  "best_line": 21.5,
+  "best_price": "-114",
+  "best_book": "BetRivers",
+  "cover_probability": 0.52459058,
+  "edge": -0.008119700373831695,
+  "bet_short": "Colorado State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Boise State Broncos. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boise State.pdf",
+      "Found guide for Colorado State Rams: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Colorado State.pdf",
+      "Guide processing failed for Colorado State Rams: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "UConn Huskies@Wyoming Cowboys",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:16:06.030895+00:00",
+  "model_prediction": 0.5,
+  "market_line": 3.0,
+  "best_line": 3.5,
+  "best_price": "-114",
+  "best_book": "FanDuel",
+  "cover_probability": 0.57505759,
+  "edge": 0.042347309626168284,
+  "bet_short": "Wyoming",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for UConn Huskies. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Connecticut.pdf",
+      "Found guide for Wyoming Cowboys: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Wyoming.pdf",
+      "Guide processing failed for Wyoming Cowboys: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

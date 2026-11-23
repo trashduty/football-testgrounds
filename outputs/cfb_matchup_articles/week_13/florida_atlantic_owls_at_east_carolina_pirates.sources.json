@@ -1,0 +1,28 @@
+{
+  "game": "Florida Atlantic Owls@East Carolina Pirates",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:11:17.258705+00:00",
+  "model_prediction": -2.0,
+  "market_line": -1.5,
+  "best_line": -1.5,
+  "best_price": "-110",
+  "best_book": "Caesars",
+  "cover_probability": 0.50818082,
+  "edge": -0.01562870380952386,
+  "bet_short": "East Carolina",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Florida Atlantic Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Florida Atlantic.pdf",
+      "Found guide for East Carolina Pirates: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/East Carolina.pdf",
+      "Guide processing failed for East Carolina Pirates: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

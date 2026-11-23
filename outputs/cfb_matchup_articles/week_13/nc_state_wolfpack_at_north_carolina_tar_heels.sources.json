@@ -1,0 +1,27 @@
+{
+  "game": "NC State Wolfpack@North Carolina Tar Heels",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:13:17.986363+00:00",
+  "model_prediction": 5.5,
+  "market_line": 5.5,
+  "best_line": 5.5,
+  "best_price": "-106",
+  "best_book": "Caesars",
+  "cover_probability": 0.51366733,
+  "edge": -0.0008957767961165208,
+  "bet_short": "NC State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for NC State Wolfpack. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/NC State.pdf",
+      "No guide found for North Carolina Tar Heels. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/North Carolina.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

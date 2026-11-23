@@ -1,0 +1,29 @@
+{
+  "game": "Texas Longhorns@Texas A&M Aggies",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:15:39.790187+00:00",
+  "model_prediction": 11.0,
+  "market_line": 11.5,
+  "best_line": 12.5,
+  "best_price": "-115",
+  "best_book": "DraftKings",
+  "cover_probability": 0.54418605,
+  "edge": 0.009302329069767468,
+  "bet_short": "Texas A&M",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Texas Longhorns: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas.pdf",
+      "Guide processing failed for Texas Longhorns: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Texas A&M Aggies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Texas A&M.pdf",
+      "Guide processing failed for Texas A&M Aggies: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

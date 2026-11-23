@@ -1,0 +1,28 @@
+{
+  "game": "Kansas Jayhawks@Oklahoma State Cowboys",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:11:52.670664+00:00",
+  "model_prediction": 6.5,
+  "market_line": 7.0,
+  "best_line": 6.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.51628135,
+  "edge": 0.016281349999999972,
+  "bet_short": "Kansas",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Kansas Jayhawks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Kansas.pdf",
+      "Guide processing failed for Kansas Jayhawks: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Oklahoma State Cowboys. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oklahoma State.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "game": "Boston College Eagles@Miami Hurricanes",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:10:28.243248+00:00",
+  "model_prediction": 25.5,
+  "market_line": 25.5,
+  "best_line": 25.5,
+  "best_price": "100",
+  "best_book": "BetRivers",
+  "cover_probability": 0.50701303,
+  "edge": 0.007013029999999976,
+  "bet_short": "Boston College",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Boston College Eagles. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Boston College.pdf",
+      "Found guide for Miami Hurricanes: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Miami.pdf",
+      "Guide processing failed for Miami Hurricanes: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

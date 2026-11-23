@@ -1,0 +1,28 @@
+{
+  "game": "Tulsa Golden Hurricane@UTSA Roadrunners",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:15:46.940379+00:00",
+  "model_prediction": -3.5,
+  "market_line": -1.5,
+  "best_line": -1.5,
+  "best_price": "-105",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.53385971,
+  "edge": 0.021664588048780464,
+  "bet_short": "UT San Antonio",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Tulsa Golden Hurricane: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Tulsa.pdf",
+      "Guide processing failed for Tulsa Golden Hurricane: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for UTSA Roadrunners. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/UT San Antonio.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

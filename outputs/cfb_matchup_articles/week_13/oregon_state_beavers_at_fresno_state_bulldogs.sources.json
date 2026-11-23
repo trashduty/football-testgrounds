@@ -1,0 +1,29 @@
+{
+  "game": "Oregon State Beavers@Fresno State Bulldogs",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:13:59.949188+00:00",
+  "model_prediction": -6.0,
+  "market_line": -3.0,
+  "best_line": -2.5,
+  "best_price": "-110",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.56139923,
+  "edge": 0.03758970619047619,
+  "bet_short": "Fresno State",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Oregon State Beavers: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon State.pdf",
+      "Guide processing failed for Oregon State Beavers: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Fresno State Bulldogs: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Fresno State.pdf",
+      "Guide processing failed for Fresno State Bulldogs: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

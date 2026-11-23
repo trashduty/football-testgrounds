@@ -1,0 +1,29 @@
+{
+  "game": "Washington Huskies@Oregon Ducks",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:17:01.181218+00:00",
+  "model_prediction": 14.0,
+  "market_line": 13.5,
+  "best_line": 13.5,
+  "best_price": "100",
+  "best_book": "theScore Bet",
+  "cover_probability": 0.50001091,
+  "edge": 1.0909999999975106e-05,
+  "bet_short": "Washington",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Washington Huskies: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Washington.pdf",
+      "Guide processing failed for Washington Huskies: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "Found guide for Oregon Ducks: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Oregon.pdf",
+      "Guide processing failed for Oregon Ducks: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

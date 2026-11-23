@@ -1,0 +1,28 @@
+{
+  "game": "Army Black Knights@Rice Owls",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:09:55.092799+00:00",
+  "model_prediction": 5.5,
+  "market_line": 6.5,
+  "best_line": 6.5,
+  "best_price": "-110",
+  "best_book": "Caesars",
+  "cover_probability": 0.5316022,
+  "edge": 0.007792676190476189,
+  "bet_short": "Rice",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "Found guide for Army Black Knights: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Army.pdf",
+      "Guide processing failed for Army Black Knights: Error code: 429 - You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.",
+      "No guide found for Rice Owls. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Rice.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}

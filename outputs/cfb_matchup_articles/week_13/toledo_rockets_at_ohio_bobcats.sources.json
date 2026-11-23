@@ -1,0 +1,27 @@
+{
+  "game": "Toledo Rockets@Ohio Bobcats",
+  "season": 2026,
+  "week": 13,
+  "generated_at_utc": "2026-11-23T13:15:40.625725+00:00",
+  "model_prediction": 2.5,
+  "market_line": 3.5,
+  "best_line": 3.5,
+  "best_price": "-108",
+  "best_book": "DraftKings",
+  "cover_probability": 0.53580824,
+  "edge": 0.016577470769230773,
+  "bet_short": "Ohio",
+  "guide_enrichment": {
+    "enabled": false,
+    "narrative": "",
+    "matchup_to_watch": "",
+    "guide_status": [
+      "No guide found for Toledo Rockets. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Toledo.pdf",
+      "No guide found for Ohio Bobcats. Expected PDF: /home/runner/work/football-testgrounds/football-testgrounds/football-testgrounds/game_guides/2026/Ohio.pdf"
+    ],
+    "guide_extractions": [],
+    "matchup_angles": [],
+    "used_sources": [],
+    "model_context": {}
+  }
+}
