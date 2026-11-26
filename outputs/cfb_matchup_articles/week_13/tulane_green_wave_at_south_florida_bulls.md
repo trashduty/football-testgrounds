@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tulane Green Wave | +6.5 (-110) | Caesars | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Florida Bulls | -6.5 (-105) | theScore Bet | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tulane Green Wave | +6.5 (-110) | BetMGM | 48.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Florida Bulls | -6.5 (-108) | BetMGM | 52.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Tulane Green Wave visit the South Florida Bulls at Raymond James Stadium. We make **South Florida -8**, compared with a market line of -6.5.
 
-The best number we found is South Florida -6.5 at -105. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is South Florida -6.5 at -108. We see a 0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,13 +32,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#117</td>
-<td class="btb-better">#82</td>
+<td>#116</td>
+<td class="btb-better">#80</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td class="btb-better">#38</td>
-<td>#84</td>
+<td>#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#117</td>
+<td>#118</td>
 <td class="btb-better">#96</td>
 </tr>
 </tbody>

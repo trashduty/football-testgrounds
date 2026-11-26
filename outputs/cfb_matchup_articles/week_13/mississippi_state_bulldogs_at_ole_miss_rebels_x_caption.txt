@@ -1,6 +1,6 @@
-Our model is 0 points away from the market on Mississippi State-Ole Miss.
+Our model is 0.5 points away from the market on Mississippi State-Ole Miss.
 
-We make Mississippi State +19. The market is +19.
+We make Mississippi State +19. The market is +18.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

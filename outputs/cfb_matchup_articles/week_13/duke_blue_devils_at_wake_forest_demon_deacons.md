@@ -7,7 +7,7 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Duke Blue Devils | +14.5 (-110) | BetMGM | 53.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wake Forest Demon Deacons | -14.5 (-105) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wake Forest Demon Deacons | -14.5 (-105) | Fanatics | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 

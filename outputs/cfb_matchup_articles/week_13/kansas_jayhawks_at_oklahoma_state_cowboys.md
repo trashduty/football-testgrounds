@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kansas Jayhawks | +6.5 (+100) | theScore Bet | 51.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Oklahoma State Cowboys | -6.5 (-114) | BetRivers | 48.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Kansas Jayhawks | +6.5 (-107) | Caesars | 52.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma State Cowboys | -5.5 (-110) | theScore Bet | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Kansas Jayhawks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Kansas +6.5**, compared with a market line of +7.
+The Kansas Jayhawks visit the Oklahoma State Cowboys at Boone Pickens Stadium. We make **Kansas +6**, compared with a market line of +6.
 
-The best number we found is Kansas +6.5 at +100. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Kansas +6.5 at -107. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,13 +42,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#51</td>
-<td>#72</td>
+<td class="btb-better">#50</td>
+<td>#71</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#50</td>
-<td class="btb-better">#40</td>
+<td>#49</td>
+<td class="btb-better">#39</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>

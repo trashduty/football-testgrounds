@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Jacksonville State Gamecocks | +2.5 (+100) | FanDuel | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Delaware Blue Hens | -2.5 (-112) | BetRivers | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Jacksonville State Gamecocks | +2.5 (-105) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Delaware Blue Hens | -2.5 (-113) | BetRivers | 51.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Jacksonville State Gamecocks visit the Delaware Blue Hens at Delaware Stadium. We make **Delaware -3.5**, compared with a market line of -2.5.
 
-The best number we found is Delaware -2.5 at -112. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Delaware -2.5 at -113. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#36</td>
-<td>#67</td>
+<td>#65</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#99</td>
-<td class="btb-better">#46</td>
+<td class="btb-better">#44</td>
 </tr>
 </tbody>
 </table>

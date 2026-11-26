@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| South Carolina Gamecocks | -4.5 (-108) | FanDuel | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Clemson Tigers | +5.5 (-115) | DraftKings | 53.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Carolina Gamecocks | -6.5 (-105) | theScore Bet | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Clemson Tigers | +6.5 (-112) | BetRivers | 53.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The South Carolina Gamecocks visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Clemson +4.5**, compared with a market line of +4.5.
+The South Carolina Gamecocks visit the Clemson Tigers at Memorial Stadium (Clemson, SC). We make **Clemson +5.5**, compared with a market line of +6.
 
-The best number we found is Clemson +5.5 at -115. We see a -0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Clemson +6.5 at -112. We see a 0.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,18 +47,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#51</td>
-<td class="btb-better">#36</td>
+<td>#50</td>
+<td class="btb-better">#35</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#21</td>
-<td>#127</td>
+<td>#126</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#15</td>
-<td>#57</td>
+<td>#55</td>
 </tr>
 </tbody>
 </table>

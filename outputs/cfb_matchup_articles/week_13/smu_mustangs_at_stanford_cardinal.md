@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| SMU Mustangs | -8.5 (-108) | BetMGM | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Stanford Cardinal | +9.5 (-110) | FanDuel | 52.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| SMU Mustangs | -7.5 (-102) | DraftKings | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Stanford Cardinal | +8.0 (-114) | BetRivers | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The SMU Mustangs visit the Stanford Cardinal at Stanford Stadium. We make **Stanford +9.5**, compared with a market line of +8.5.
+The SMU Mustangs visit the Stanford Cardinal at Stanford Stadium. We make **SMU -8.5**, compared with a market line of -7.5.
 
-The best number we found is Stanford +9.5 at -110. We see a -0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is SMU -7.5 at -102. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Stanford</th>
 <th>SMU</th>
+<th>Stanford</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#69</td>
 <td class="btb-better">#20</td>
+<td>#67</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#96</td>
 <td>#104</td>
+<td class="btb-better">#96</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#122</td>
 <td class="btb-better">#59</td>
+<td>#123</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#137</td>
 <td class="btb-better">#118</td>
+<td>#137</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#61</td>
 <td class="btb-better">#46</td>
+<td>#61</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#52</td>
-<td class="btb-better">#34</td>
+<td class="btb-better">#33</td>
+<td>#50</td>
 </tr>
 </tbody>
 </table>

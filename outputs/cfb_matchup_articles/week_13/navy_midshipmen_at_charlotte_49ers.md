@@ -6,8 +6,8 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Navy Midshipmen | -16.5 (-106) | FanDuel | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Charlotte 49ers | +16.5 (-105) | DraftKings | 54.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Navy Midshipmen | -16.5 (-110) | Fanatics | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Charlotte 49ers | +16.5 (-105) | BetMGM | 54.3% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#125</td>
+<td>#126</td>
 <td class="btb-better">#112</td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#117</td>
+<td>#116</td>
 <td class="btb-better">#80</td>
 </tr>
 <tr>

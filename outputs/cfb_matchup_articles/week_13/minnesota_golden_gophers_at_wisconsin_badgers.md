@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Minnesota Golden Gophers | +7.5 (-110) | BetMGM | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Wisconsin Badgers | -7.5 (-105) | Fanatics | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Minnesota Golden Gophers | +7.5 (-104) | FanDuel | 48.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Wisconsin Badgers | -8.5 (-105) | DraftKings | 49.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Minnesota Golden Gophers visit the Wisconsin Badgers at Camp Randall Stadium. We make **Wisconsin -9**, compared with a market line of -7.5.
+The Minnesota Golden Gophers visit the Wisconsin Badgers at Camp Randall Stadium. We make **Wisconsin -9.5**, compared with a market line of -8.
 
-The best number we found is Wisconsin -7.5 at -105. We see a -0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Wisconsin -8.5 at -105. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#74</td>
-<td>#101</td>
+<td class="btb-better">#72</td>
+<td>#100</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -43,12 +43,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#21</td>
-<td>#85</td>
+<td>#84</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#49</td>
-<td>#85</td>
+<td class="btb-better">#48</td>
+<td>#84</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#41</td>
-<td>#71</td>
+<td class="btb-better">#39</td>
+<td>#72</td>
 </tr>
 </tbody>
 </table>

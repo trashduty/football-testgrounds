@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Texas State Bobcats | -6.5 (-120) | theScore Bet | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Utah State Aggies | +6.5 (+102) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Texas State Bobcats | -7.0 (-105) | BetMGM | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Utah State Aggies | +6.5 (+100) | FanDuel | 52.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Texas State Bobcats visit the Utah State Aggies at Maverik Stadium. We make **Utah State +6**, compared with a market line of +7.
 
-The best number we found is Utah State +6.5 at +102. We see a 2.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Utah State +6.5 at +100. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,8 +47,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#29</td>
-<td>#45</td>
+<td class="btb-better">#28</td>
+<td>#44</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#118</td>
-<td class="btb-better">#69</td>
+<td>#119</td>
+<td class="btb-better">#70</td>
 </tr>
 </tbody>
 </table>

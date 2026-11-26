@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Sam Houston State Bearkats | +11.5 (-113) | BetRivers | 53.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Florida International Panthers | -10.5 (-104) | FanDuel | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Sam Houston State Bearkats | +11.5 (-110) | BetMGM | 51.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida International Panthers | -11.5 (-106) | Caesars | 47.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Sam Houston State Bearkats visit the Florida International Panthers at Pitbull Stadium. We make **Sam Houston State +10.5**, compared with a market line of +10.5.
+The Sam Houston State Bearkats visit the Florida International Panthers at Pitbull Stadium. We make **Sam Houston State +11.5**, compared with a market line of +11.5.
 
-The best number we found is Sam Houston State +11.5 at -113. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Sam Houston State +11.5 at -110. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#126</td>
-<td class="btb-better">#91</td>
+<td class="btb-better">#90</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -43,12 +43,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#24</td>
-<td>#71</td>
+<td>#70</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#131</td>
-<td class="btb-better">#82</td>
+<td class="btb-better">#81</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#76</td>
+<td>#77</td>
 <td class="btb-better">#16</td>
 </tr>
 </tbody>

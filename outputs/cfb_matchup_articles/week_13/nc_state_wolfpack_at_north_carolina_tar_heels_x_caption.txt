@@ -1,6 +1,6 @@
 Our model is 0 points away from the market on NC State-North Carolina.
 
-We make NC State +5.5. The market is +5.5.
+We make NC State +6. The market is +6.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

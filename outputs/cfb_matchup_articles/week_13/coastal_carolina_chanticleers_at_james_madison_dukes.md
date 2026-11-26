@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Coastal Carolina Chanticleers | +15.5 (-108) | BetMGM | 45.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| James Madison Dukes | -15.5 (-110) | BetMGM | 54.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Coastal Carolina Chanticleers | +16.5 (+100) | FanDuel | 45.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| James Madison Dukes | -17.5 (-102) | DraftKings | 52.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The Coastal Carolina Chanticleers visit the James Madison Dukes at Bridgeforth Stadium. We make **James Madison -19**, compared with a market line of -15.5.
+The Coastal Carolina Chanticleers visit the James Madison Dukes at Bridgeforth Stadium. We make **James Madison -20**, compared with a market line of -17.
 
-The best number we found is James Madison -15.5 at -110. We see a 2.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is James Madison -17.5 at -102. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#39</td>
-<td>#63</td>
+<td>#62</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,12 +42,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#41</td>
+<td class="btb-better">#40</td>
 <td>#111</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#31</td>
+<td class="btb-better">#30</td>
 <td>#58</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#23</td>
-<td>#32</td>
+<td>#31</td>
 </tr>
 </tbody>
 </table>

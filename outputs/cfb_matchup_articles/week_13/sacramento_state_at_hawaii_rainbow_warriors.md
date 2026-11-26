@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Sacramento State | +13.5 (-110) | BetMGM | 44.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Hawaii Rainbow Warriors | -13.5 (-108) | FanDuel | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Sacramento State | +13.5 (+100) | theScore Bet | 44.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Hawaii Rainbow Warriors | -13.5 (-109) | BetRivers | 54.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Sacramento State visit the Hawaii Rainbow Warriors at Clarence T.C. Ching Athletics Complex. We make **Hawai'i -16.5**, compared with a market line of -13.5.
 
-The best number we found is Hawai'i -13.5 at -108. We see a 2.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Hawai'i -13.5 at -109. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,18 +47,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#73</td>
-<td>#78</td>
+<td class="btb-better">#72</td>
+<td>#77</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#119</td>
-<td>#124</td>
+<td class="btb-better">#118</td>
+<td>#123</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#109</td>
-<td class="btb-better">#54</td>
+<td class="btb-better">#52</td>
 </tr>
 </tbody>
 </table>

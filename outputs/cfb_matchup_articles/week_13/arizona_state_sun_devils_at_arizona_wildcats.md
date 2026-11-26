@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Arizona State Sun Devils | +7.5 (-105) | Caesars | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Arizona Wildcats | -7.5 (-105) | FanDuel | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona State Sun Devils | +8.5 (-110) | DraftKings | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Arizona Wildcats | -8.5 (-105) | FanDuel | 50.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Arizona State Sun Devils visit the Arizona Wildcats at Arizona Stadium. We make **Arizona -9.5**, compared with a market line of -7.5.
+The Arizona State Sun Devils visit the Arizona Wildcats at Arizona Stadium. We make **Arizona -10**, compared with a market line of -8.
 
-The best number we found is Arizona -7.5 at -105. We see a -0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Arizona -8.5 at -105. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#23</td>
-<td>#93</td>
+<td>#92</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -43,11 +43,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#32</td>
-<td>#68</td>
+<td>#67</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#90</td>
+<td>#89</td>
 <td class="btb-better">#56</td>
 </tr>
 <tr>

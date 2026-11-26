@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Georgia Tech Yellow Jackets | +36.5 (-110) | theScore Bet | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia Bulldogs | -35.5 (-110) | BetMGM | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Tech Yellow Jackets | +35.5 (-108) | Caesars | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia Bulldogs | -35.5 (-108) | BetMGM | 49.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Georgia Tech Yellow Jackets visit the Georgia Bulldogs at Sanford Stadium. We make **Georgia Tech +36**, compared with a market line of +35.5.
+The Georgia Tech Yellow Jackets visit the Georgia Bulldogs at Sanford Stadium. We make **Georgia -36**, compared with a market line of -35.5.
 
-The best number we found is Georgia Tech +36.5 at -110. We see a -1.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia -35.5 at -108. We see a -2.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Georgia Tech</th>
 <th>Georgia</th>
+<th>Georgia Tech</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#98</td>
 <td class="btb-better">#10</td>
+<td>#97</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#21</td>
 <td class="btb-better">#9</td>
+<td>#21</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#130</td>
 <td class="btb-better">#29</td>
+<td>#130</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#122</td>
 <td class="btb-better">#6</td>
+<td>#122</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#64</td>
 <td class="btb-better">#37</td>
+<td>#64</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#113</td>
 <td class="btb-better">#22</td>
+<td>#114</td>
 </tr>
 </tbody>
 </table>

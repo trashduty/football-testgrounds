@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Michigan State Spartans | -3.5 (+104) | BetRivers | 50.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Rutgers Scarlet Knights | +3.5 (-112) | BetMGM | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Michigan State Spartans | -3.5 (+105) | theScore Bet | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Rutgers Scarlet Knights | +3.5 (-120) | FanDuel | 50.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Michigan State Spartans visit the Rutgers Scarlet Knights at SHI Stadium. We make **Michigan State -4.5**, compared with a market line of -3.5.
+The Michigan State Spartans visit the Rutgers Scarlet Knights at SHI Stadium. We make **Michigan State -4**, compared with a market line of -3.
 
-The best number we found is Michigan State -3.5 at +104. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Michigan State -3.5 at +105. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#99</td>
-<td class="btb-better">#88</td>
+<td>#98</td>
+<td class="btb-better">#87</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -52,13 +52,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#115</td>
-<td class="btb-better">#52</td>
+<td>#114</td>
+<td class="btb-better">#53</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#103</td>
-<td class="btb-better">#58</td>
+<td class="btb-better">#57</td>
 </tr>
 </tbody>
 </table>

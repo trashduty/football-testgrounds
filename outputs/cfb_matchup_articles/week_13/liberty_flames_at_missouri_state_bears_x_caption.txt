@@ -1,6 +1,6 @@
 Our model is 0.5 points away from the market on Liberty-Missouri State.
 
-We make Missouri State +16. The market is +15.5.
+We make Missouri State +17. The market is +17.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

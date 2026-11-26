@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Boise State Broncos | -21.5 (+100) | theScore Bet | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Colorado State Rams | +21.5 (-114) | BetRivers | 52.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boise State Broncos | -21.5 (-105) | BetMGM | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Colorado State Rams | +20.5 (+100) | theScore Bet | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Boise State Broncos visit the Colorado State Rams at Canvas Stadium. We make **Colorado State +21**, compared with a market line of +21.5.
 
-The best number we found is Colorado State +21.5 at -114. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Colorado State +20.5 at +100. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 

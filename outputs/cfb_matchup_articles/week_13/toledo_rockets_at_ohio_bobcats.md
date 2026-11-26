@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Toledo Rockets | -3.5 (-105) | Fanatics | 46.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ohio Bobcats | +3.5 (-108) | DraftKings | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Toledo Rockets | -3.5 (+100) | FanDuel | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio Bobcats | +2.5 (+100) | theScore Bet | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Toledo Rockets visit the Ohio Bobcats at Peden Stadium. We make **Ohio +2.5**, compared with a market line of +3.5.
+The Toledo Rockets visit the Ohio Bobcats at Peden Stadium. We make **Ohio +2**, compared with a market line of +3.
 
-The best number we found is Ohio +3.5 at -108. We see a 1.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ohio +2.5 at +100. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,17 +42,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#53</td>
+<td>#52</td>
 <td class="btb-better">#12</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#32</td>
+<td>#31</td>
 <td class="btb-better">#7</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#116</td>
+<td>#115</td>
 <td class="btb-better">#4</td>
 </tr>
 <tr>

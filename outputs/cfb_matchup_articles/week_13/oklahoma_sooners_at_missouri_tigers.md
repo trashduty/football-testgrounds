@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Oklahoma Sooners | +1.5 (-108) | DraftKings | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Missouri Tigers | -1.5 (-107) | Caesars | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Oklahoma Sooners | +2.5 (-110) | Fanatics | 51.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Missouri Tigers | -2.5 (-105) | DraftKings | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Oklahoma Sooners visit the Missouri Tigers at Memorial Stadium. We make **Oklahoma +1**, compared with a market line of +1.5.
+The Oklahoma Sooners visit the Missouri Tigers at Memorial Stadium. We make **Oklahoma +1.5**, compared with a market line of +2.
 
-The best number we found is Oklahoma +1.5 at -108. We see a -1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Oklahoma +2.5 at -110. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#61</td>
+<td>#60</td>
 <td class="btb-better">#32</td>
 </tr>
 <tr>
@@ -47,18 +47,18 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#54</td>
-<td class="btb-better">#46</td>
+<td>#53</td>
+<td class="btb-better">#45</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#126</td>
+<td>#125</td>
 <td class="btb-better">#20</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#93</td>
-<td class="btb-better">#77</td>
+<td class="btb-better">#78</td>
 </tr>
 </tbody>
 </table>

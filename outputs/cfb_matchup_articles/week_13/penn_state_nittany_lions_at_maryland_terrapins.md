@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Penn State Nittany Lions | -7.5 (+100) | theScore Bet | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Maryland Terrapins | +7.5 (-114) | BetRivers | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Penn State Nittany Lions | -7.5 (-104) | FanDuel | 50.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Maryland Terrapins | +7.5 (-115) | theScore Bet | 49.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Penn State Nittany Lions visit the Maryland Terrapins at SECU Stadium. We make **Penn State -9**, compared with a market line of -7.
 
-The best number we found is Penn State -7.5 at +100. We see a -0.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Penn State -7.5 at -104. We see a -0.5% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,17 +33,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#38</td>
-<td>#92</td>
+<td>#91</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td>#80</td>
+<td>#81</td>
 <td class="btb-better">#73</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#8</td>
-<td>#67</td>
+<td>#66</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -53,12 +53,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#9</td>
-<td>#123</td>
+<td>#122</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#35</td>
-<td>#80</td>
+<td class="btb-better">#34</td>
+<td>#81</td>
 </tr>
 </tbody>
 </table>

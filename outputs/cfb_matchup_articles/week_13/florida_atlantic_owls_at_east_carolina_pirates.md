@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Florida Atlantic Owls | +2.5 (-110) | theScore Bet | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| East Carolina Pirates | -1.5 (-110) | Caesars | 50.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Florida Atlantic Owls | +1.5 (-106) | FanDuel | 48.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| East Carolina Pirates | +0.5 (-114) | BetRivers | 54.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Florida Atlantic Owls visit the East Carolina Pirates at Dowdy-Ficklen Stadium. We make **East Carolina -2**, compared with a market line of -1.5.
 
-The best number we found is East Carolina -1.5 at -110. We see a -1.6% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is East Carolina +0.5 at -114. We see a 0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#95</td>
+<td>#94</td>
 <td class="btb-better">#5</td>
 </tr>
 <tr>
@@ -43,11 +43,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#4</td>
-<td>#70</td>
+<td>#69</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#43</td>
 <td>#109</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#105</td>
-<td class="btb-better">#53</td>
+<td class="btb-better">#51</td>
 </tr>
 </tbody>
 </table>

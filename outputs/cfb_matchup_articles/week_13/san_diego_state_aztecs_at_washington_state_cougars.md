@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| San Diego State Aztecs | +2.5 (-110) | Fanatics | 40.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Washington State Cougars | -1.5 (-108) | FanDuel | 60.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| San Diego State Aztecs | +3.5 (-120) | theScore Bet | 42.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington State Cougars | -3.5 (+102) | FanDuel | 57.4% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The San Diego State Aztecs visit the Washington State Cougars at Gesa Field. We make **Washington State -7**, compared with a market line of -1.5.
+The San Diego State Aztecs visit the Washington State Cougars at Gesa Field. We make **Washington State -8**, compared with a market line of -3.
 
-The best number we found is Washington State -1.5 at -108. We give Washington State a 60.9% chance to cover, which creates an 9.0% edge for us. That clears our 3% threshold, so Washington State is a bet.
+The best number we found is Washington State -3.5 at +102. We give Washington State a 57.4% chance to cover, which creates an 7.9% edge for us. That clears our 3% threshold, so Washington State is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#120</td>
+<td class="btb-better">#119</td>
 <td>#124</td>
 </tr>
 <tr>
@@ -43,12 +43,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#62</td>
-<td>#86</td>
+<td>#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#112</td>
-<td class="btb-better">#76</td>
+<td class="btb-better">#75</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>

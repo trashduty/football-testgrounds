@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| App State Mountaineers | +2.5 (+102) | FanDuel | 48.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| South Alabama Jaguars | -3.5 (+100) | theScore Bet | 47.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| App State Mountaineers | +3.5 (-110) | theScore Bet | 51.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| South Alabama Jaguars | -3.5 (-102) | BetMGM | 48.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The App State Mountaineers visit the South Alabama Jaguars at Hancock Whitney Stadium. We make **App State +3**, compared with a market line of +3.
+The App State Mountaineers visit the South Alabama Jaguars at Hancock Whitney Stadium. We make **App State +3.5**, compared with a market line of +3.5.
 
-The best number we found is App State +2.5 at +102. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is App State +3.5 at -110. We see a -0.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#79</td>
+<td>#77</td>
 <td class="btb-better">#31</td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#67</td>
+<td class="btb-better">#65</td>
 <td>#136</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#29</td>
+<td class="btb-better">#28</td>
 <td>#68</td>
 </tr>
 </tbody>

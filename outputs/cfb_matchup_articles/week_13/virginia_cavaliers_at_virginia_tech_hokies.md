@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Virginia Cavaliers | +3.5 (-120) | FanDuel | 53.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Virginia Cavaliers | +2.5 (+105) | theScore Bet | 49.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 | Virginia Tech Hokies | -3.5 (+100) | FanDuel | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Virginia Cavaliers visit the Virginia Tech Hokies at Lane Stadium. We make **Virginia +2.5**, compared with a market line of +3.
 
-The best number we found is Virginia +3.5 at -120. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Virginia +2.5 at +105. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#54</td>
-<td class="btb-better">#52</td>
+<td>#53</td>
+<td class="btb-better">#51</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>

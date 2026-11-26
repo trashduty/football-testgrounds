@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Washington Huskies | +13.5 (+100) | theScore Bet | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Oregon Ducks | -13.5 (-109) | BetRivers | 49.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Washington Huskies | +13.5 (+100) | theScore Bet | 51.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Oregon Ducks | -14.5 (+100) | FanDuel | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Washington Huskies visit the Oregon Ducks at Autzen Stadium. We make **Washington +14**, compared with a market line of +13.5.
+The Washington Huskies visit the Oregon Ducks at Autzen Stadium. We make **Washington +14**, compared with a market line of +14.
 
-The best number we found is Washington +13.5 at +100. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Washington +13.5 at +100. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#43</td>
+<td>#42</td>
 <td class="btb-better">#24</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#50</td>
+<td class="btb-better">#48</td>
 <td>#60</td>
 </tr>
 </tbody>

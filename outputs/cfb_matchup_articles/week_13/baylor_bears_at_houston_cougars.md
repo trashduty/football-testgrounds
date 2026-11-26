@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Baylor Bears | +6.5 (-108) | BetMGM | 53.0% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Houston Cougars | -5.5 (-110) | BetRivers | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Baylor Bears | +4.5 (-106) | Caesars | 52.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Houston Cougars | -3.5 (-115) | theScore Bet | 48.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Baylor Bears visit the Houston Cougars at TDECU Stadium. We make **Baylor +5.5**, compared with a market line of +6.5.
+The Baylor Bears visit the Houston Cougars at TDECU Stadium. We make **Baylor +4**, compared with a market line of +4.5.
 
-The best number we found is Baylor +6.5 at -108. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Baylor +4.5 at -106. We see a 1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#68</td>
+<td>#66</td>
 <td class="btb-better">#4</td>
 </tr>
 <tr>
@@ -48,11 +48,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td class="btb-better">#25</td>
-<td>#87</td>
+<td>#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#111</td>
+<td>#110</td>
 <td class="btb-better">#2</td>
 </tr>
 <tr>

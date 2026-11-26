@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| North Dakota State | -10.5 (+102) | FanDuel | 42.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| San Jose State Spartans | +9.5 (-105) | DraftKings | 54.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| North Dakota State | -8.5 (-105) | theScore Bet | 44.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| San Jose State Spartans | +8.5 (-110) | FanDuel | 55.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
-The North Dakota State visit the San Jose State Spartans at CEFCU Stadium. We make **San Jose State +8**, compared with a market line of +9.5.
+The North Dakota State visit the San Jose State Spartans at CEFCU Stadium. We make **San Jose State +7**, compared with a market line of +8.
 
-The best number we found is San Jose State +9.5 at -105. We give San Jose State a 54.8% chance to cover, which creates an 3.6% edge for us. That clears our 3% threshold, so San Jose State is a bet.
+The best number we found is San Jose State +8.5 at -110. We see a 2.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#80</td>
-<td class="btb-better">#59</td>
+<td>#78</td>
+<td class="btb-better">#58</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -47,12 +47,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#70</td>
+<td>#69</td>
 <td class="btb-better">#10</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td class="btb-better">#54</td>
+<td class="btb-better">#55</td>
 <td>#96</td>
 </tr>
 <tr>

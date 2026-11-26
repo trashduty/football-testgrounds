@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Louisiana Ragin Cajuns | -4.5 (-115) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Georgia State Panthers | +5.5 (-105) | FanDuel | 53.9% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Louisiana Ragin Cajuns | -4.5 (-110) | theScore Bet | 47.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Georgia State Panthers | +5.5 (-113) | BetRivers | 53.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Louisiana Ragin Cajuns visit the Georgia State Panthers at Center Parc Stadium. We make **Georgia State +4**, compared with a market line of +5.5.
 
-The best number we found is Georgia State +5.5 at -105. We see a 2.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Georgia State +5.5 at -113. We see a 0.9% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#21</td>
-<td>#87</td>
+<td>#86</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -47,7 +47,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#79</td>
+<td>#78</td>
 <td class="btb-better">#13</td>
 </tr>
 <tr>

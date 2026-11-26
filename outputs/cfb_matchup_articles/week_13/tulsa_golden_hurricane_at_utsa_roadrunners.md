@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tulsa Golden Hurricane | +2.5 (-114) | BetRivers | 47.8% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UTSA Roadrunners | -1.5 (-105) | theScore Bet | 53.4% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Tulsa Golden Hurricane | +1.5 (-115) | DraftKings | 46.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UTSA Roadrunners | +0.5 (-113) | BetRivers | 56.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
 The Tulsa Golden Hurricane visit the UTSA Roadrunners at Alamodome. We make **UT San Antonio -3.5**, compared with a market line of -1.5.
 
-The best number we found is UT San Antonio -1.5 at -105. We see a 2.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UT San Antonio +0.5 at -113. We give UT San Antonio a 56.6% chance to cover, which creates an 3.6% edge for us. That clears our 3% threshold, so UT San Antonio is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,8 +32,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#102</td>
-<td class="btb-better">#53</td>
+<td>#101</td>
+<td class="btb-better">#52</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#42</td>
 <td>#86</td>
 </tr>
 </tbody>

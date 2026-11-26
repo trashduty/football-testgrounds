@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Tennessee Volunteers | -10.5 (-105) | theScore Bet | 53.7% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Vanderbilt Commodores | +12.5 (-113) | BetRivers | 49.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Tennessee Volunteers | -13.5 (-108) | BetMGM | 50.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Vanderbilt Commodores | +13.5 (+100) | theScore Bet | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Tennessee Volunteers visit the Vanderbilt Commodores at FirstBank Stadium. We make **Tennessee -13.5**, compared with a market line of -11.5.
+The Tennessee Volunteers visit the Vanderbilt Commodores at FirstBank Stadium. We make **Vanderbilt +14.5**, compared with a market line of +13.5.
 
-The best number we found is Tennessee -10.5 at -105. We see a 2.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Vanderbilt +13.5 at +100. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -25,40 +25,40 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <thead>
 <tr>
 <th>Stat</th>
-<th>Tennessee</th>
 <th>Vanderbilt</th>
+<th>Tennessee</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
+<td class="btb-better">#71</td>
 <td>#110</td>
-<td class="btb-better">#73</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
-<td class="btb-better">#25</td>
 <td>#121</td>
+<td class="btb-better">#25</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#7</td>
 <td>#107</td>
+<td class="btb-better">#7</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
+<td>#66</td>
 <td class="btb-better">#23</td>
-<td>#68</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#91</td>
 <td class="btb-better">#45</td>
+<td>#91</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
+<td>#76</td>
 <td class="btb-better">#10</td>
-<td>#75</td>
 </tr>
 </tbody>
 </table>

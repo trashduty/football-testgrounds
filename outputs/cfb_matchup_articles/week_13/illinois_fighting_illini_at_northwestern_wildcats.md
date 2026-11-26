@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Illinois Fighting Illini | +2.5 (+105) | theScore Bet | 43.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Northwestern Wildcats | -3.0 (-104) | Caesars | 52.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Illinois Fighting Illini | +2.5 (+102) | FanDuel | 45.3% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Northwestern Wildcats | -2.5 (-115) | BetMGM | 54.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Illinois Fighting Illini visit the Northwestern Wildcats at Ryan Field. We make **Northwestern -5.5**, compared with a market line of -3.
+The Illinois Fighting Illini visit the Northwestern Wildcats at Ryan Field. We make **Northwestern -5**, compared with a market line of -2.5.
 
-The best number we found is Northwestern -3.0 at -104. We see a 1.5% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Northwestern -2.5 at -115. We see a 1.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#40</td>
-<td>#72</td>
+<td>#70</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,13 +42,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#48</td>
+<td class="btb-better">#47</td>
 <td>#127</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#69</td>
-<td>#86</td>
+<td class="btb-better">#68</td>
+<td>#85</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td class="btb-better">#56</td>
+<td class="btb-better">#54</td>
 <td>#122</td>
 </tr>
 </tbody>

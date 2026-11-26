@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Buffalo Bulls | -7.5 (-105) | Fanatics | 51.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Akron Zips | +7.5 (-109) | Caesars | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Buffalo Bulls | -7.5 (-102) | Caesars | 52.5% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Akron Zips | +7.5 (-112) | BetMGM | 47.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Buffalo Bulls visit the Akron Zips at InfoCision Stadium. We make **Buffalo -10**, compared with a market line of -7.5.
 
-The best number we found is Buffalo -7.5 at -105. We see a 0.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Buffalo -7.5 at -102. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -42,23 +42,23 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#83</td>
+<td class="btb-better">#82</td>
 <td>#119</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td>#84</td>
-<td class="btb-better">#75</td>
+<td>#83</td>
+<td class="btb-better">#74</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td class="btb-better">#59</td>
-<td>#113</td>
+<td>#112</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#104</td>
-<td>#119</td>
+<td>#120</td>
 </tr>
 </tbody>
 </table>

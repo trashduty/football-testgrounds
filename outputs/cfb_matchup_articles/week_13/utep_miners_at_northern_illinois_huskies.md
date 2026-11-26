@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UTEP Miners | +4.5 (-108) | DraftKings | 56.6% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
-| Northern Illinois Huskies | -4.5 (-108) | BetMGM | 43.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UTEP Miners | +4.5 (-113) | BetRivers | 56.9% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Northern Illinois Huskies | -4.5 (-105) | theScore Bet | 43.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UTEP Miners visit the Northern Illinois Huskies at Huskie Stadium. We make **UTEP +2**, compared with a market line of +4.5.
+The UTEP Miners visit the Northern Illinois Huskies at Huskie Stadium. We make **UTEP +1.5**, compared with a market line of +4.
 
-The best number we found is UTEP +4.5 at -108. We give UTEP a 56.6% chance to cover, which creates an 4.7% edge for us. That clears our 3% threshold, so UTEP is a bet.
+The best number we found is UTEP +4.5 at -113. We give UTEP a 56.9% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so UTEP is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -43,7 +43,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td>#137</td>
-<td class="btb-better">#40</td>
+<td class="btb-better">#39</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
@@ -57,8 +57,8 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#49</td>
-<td class="btb-better">#45</td>
+<td>#47</td>
+<td class="btb-better">#43</td>
 </tr>
 </tbody>
 </table>

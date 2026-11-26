@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Kennesaw State Owls | -2.5 (-120) | FanDuel | 45.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Western Kentucky Hilltoppers | +2.5 (+100) | FanDuel | 53.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Kennesaw State Owls | -3.5 (+100) | Fanatics | 42.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Western Kentucky Hilltoppers | +3.5 (-105) | theScore Bet | 57.8% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
 
 ## Our Take
 
-The Kennesaw State Owls visit the Western Kentucky Hilltoppers at Houchens Industries-L.T. Smith Stadium. We make **Western Kentucky -0**, compared with a market line of +3.
+The Kennesaw State Owls visit the Western Kentucky Hilltoppers at Houchens Industries-L.T. Smith Stadium. We make **Western Kentucky 0**, compared with a market line of +3.5.
 
-The best number we found is Western Kentucky +2.5 at +100. We give Western Kentucky a 53.8% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Western Kentucky is a bet.
+The best number we found is Western Kentucky +3.5 at -105. We give Western Kentucky a 57.8% chance to cover, which creates an 6.5% edge for us. That clears our 3% threshold, so Western Kentucky is a bet.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#113</td>
-<td class="btb-better">#94</td>
+<td class="btb-better">#93</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -47,12 +47,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#42</td>
-<td>#89</td>
+<td class="btb-better">#41</td>
+<td>#88</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#110</td>
+<td>#109</td>
 <td class="btb-better">#103</td>
 </tr>
 <tr>

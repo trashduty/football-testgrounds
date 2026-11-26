@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Marshall Thundering Herd | -4.5 (-110) | BetMGM | 49.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| UL Monroe Warhawks | +4.5 (-105) | DraftKings | 50.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Marshall Thundering Herd | -5.5 (-105) | DraftKings | 48.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UL Monroe Warhawks | +5.5 (-105) | theScore Bet | 51.4% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Marshall Thundering Herd visit the UL Monroe Warhawks at Malone Stadium. We make **Louisiana Monroe +5.5**, compared with a market line of +4.5.
+The Marshall Thundering Herd visit the UL Monroe Warhawks at Malone Stadium. We make **Louisiana Monroe +5.5**, compared with a market line of +5.
 
-The best number we found is Louisiana Monroe +4.5 at -105. We see a -1.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Louisiana Monroe +5.5 at -105. We see a 0.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,12 +33,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td>#122</td>
-<td class="btb-better">#100</td>
+<td class="btb-better">#99</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#99</td>
-<td class="btb-better">#81</td>
+<td class="btb-better">#82</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>

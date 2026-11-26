@@ -1,6 +1,6 @@
-Our model is 2 points away from the market on Tennessee-Vanderbilt.
+Our model is 1 point away from the market on Tennessee-Vanderbilt.
 
-We make Tennessee -13.5. The market is -11.5.
+We make Vanderbilt +14.5. The market is +13.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 

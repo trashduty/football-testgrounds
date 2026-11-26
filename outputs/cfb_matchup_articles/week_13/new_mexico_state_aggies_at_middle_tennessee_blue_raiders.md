@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| New Mexico State Aggies | +2.5 (+100) | BetRivers | 47.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Middle Tennessee Blue Raiders | -2.5 (-116) | FanDuel | 52.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| New Mexico State Aggies | +3.5 (-110) | theScore Bet | 50.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Middle Tennessee Blue Raiders | -3.5 (+100) | FanDuel | 48.9% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The New Mexico State Aggies visit the Middle Tennessee Blue Raiders at Johnny "Red" Floyd Stadium. We make **Middle Tennessee -4**, compared with a market line of -2.5.
+The New Mexico State Aggies visit the Middle Tennessee Blue Raiders at Johnny "Red" Floyd Stadium. We make **Middle Tennessee -4**, compared with a market line of -3.
 
-The best number we found is Middle Tennessee -2.5 at -116. We see a -1.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Middle Tennessee -3.5 at +100. We see a -1.1% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td class="btb-better">#85</td>
+<td class="btb-better">#84</td>
 <td>#136</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#44</td>
+<td class="btb-better">#43</td>
 <td>#61</td>
 </tr>
 <tr>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td>#90</td>
-<td class="btb-better">#81</td>
+<td class="btb-better">#82</td>
 </tr>
 </tbody>
 </table>

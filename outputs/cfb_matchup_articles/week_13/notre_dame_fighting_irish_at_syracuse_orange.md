@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Notre Dame Fighting Irish | -24.5 (-110) | Fanatics | 49.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Syracuse Orange | +24.5 (-105) | BetMGM | 51.0% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Notre Dame Fighting Irish | -25.5 (-105) | Caesars | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Syracuse Orange | +25.5 (-110) | BetMGM | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The Notre Dame Fighting Irish visit the Syracuse Orange at JMA Wireless Dome. We make **Syracuse +24.5**, compared with a market line of +24.5.
+The Notre Dame Fighting Irish visit the Syracuse Orange at JMA Wireless Dome. We make **Syracuse +25.5**, compared with a market line of +25.5.
 
-The best number we found is Syracuse +24.5 at -105. We see a -0.3% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Syracuse +25.5 at -110. We see a -1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#77</td>
+<td>#75</td>
 <td class="btb-better">#6</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#49</td>
+<td>#48</td>
 <td class="btb-better">#19</td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
 <td>#75</td>
-<td class="btb-better">#55</td>
+<td class="btb-better">#56</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>

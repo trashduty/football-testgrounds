@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Nebraska Cornhuskers | +4.5 (-105) | Caesars | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Iowa Hawkeyes | -4.5 (-105) | theScore Bet | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Nebraska Cornhuskers | +4.5 (-108) | Caesars | 46.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Iowa Hawkeyes | -4.5 (-108) | BetMGM | 53.6% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Nebraska Cornhuskers visit the Iowa Hawkeyes at Kinnick Stadium. We make **Iowa -7**, compared with a market line of -4.5.
 
-The best number we found is Iowa -4.5 at -105. We see a 2.4% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Iowa -4.5 at -108. We see a 1.7% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#41</td>
-<td>#50</td>
+<td>#49</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,7 +42,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#84</td>
+<td>#83</td>
 <td class="btb-better">#15</td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
-<td>#30</td>
+<td>#29</td>
 <td class="btb-better">#6</td>
 </tr>
 </tbody>

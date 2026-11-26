@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| UCF Knights | +1.5 (-105) | theScore Bet | 53.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
-| Colorado Buffaloes | -1.5 (-112) | FanDuel | 46.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| UCF Knights | +2.5 (-108) | Caesars | 54.2% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
+| Colorado Buffaloes | -2.5 (-108) | BetMGM | 45.5% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
-The UCF Knights visit the Colorado Buffaloes at Folsom Field. We make **UCF -0.5**, compared with a market line of +2.
+The UCF Knights visit the Colorado Buffaloes at Folsom Field. We make **UCF -0**, compared with a market line of +2.5.
 
-The best number we found is UCF +1.5 at -105. We see a 2.0% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is UCF +2.5 at -108. We see a 2.3% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -32,7 +32,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tbody>
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
-<td>#75</td>
+<td>#73</td>
 <td class="btb-better">#27</td>
 </tr>
 <tr>
@@ -43,12 +43,12 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
 <td class="btb-better">#93</td>
-<td>#124</td>
+<td>#125</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#39</td>
-<td>#41</td>
+<td class="btb-better">#38</td>
+<td>#40</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#66</td>
-<td>#120</td>
+<td>#121</td>
 </tr>
 </tbody>
 </table>

@@ -6,14 +6,14 @@
 
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
-| Boston College Eagles | +25.5 (+100) | BetRivers | 50.7% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Miami Hurricanes | -25.5 (-106) | FanDuel | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Boston College Eagles | +26.5 (-113) | BetRivers | 52.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Miami Hurricanes | -25.5 (-104) | FanDuel | 49.1% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Boston College Eagles visit the Miami Hurricanes at Hard Rock Stadium. We make **Boston College +25.5**, compared with a market line of +25.5.
 
-The best number we found is Boston College +25.5 at +100. We see a 0.7% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Boston College +26.5 at -113. We see a -0.8% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -48,11 +48,11 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#97</td>
-<td class="btb-better">#30</td>
+<td class="btb-better">#29</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
-<td>#112</td>
+<td>#111</td>
 <td class="btb-better">#33</td>
 </tr>
 <tr>

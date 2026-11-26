@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Oregon State Beavers | +2.5 (+104) | FanDuel | 43.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Fresno State Bulldogs | -2.5 (-110) | theScore Bet | 56.1% | <span class="btb-advice-pill btb-advice-bet">Bet</span> |
+| Fresno State Bulldogs | -2.5 (-120) | theScore Bet | 56.1% | <span class="btb-advice-pill btb-advice-lean">Lean – doesn&#x27;t meet our edge criteria to fully bet</span> |
 
 ## Our Take
 
 The Oregon State Beavers visit the Fresno State Bulldogs at Valley Children's Stadium. We make **Fresno State -6**, compared with a market line of -3.
 
-The best number we found is Fresno State -2.5 at -110. We give Fresno State a 56.1% chance to cover, which creates an 3.8% edge for us. That clears our 3% threshold, so Fresno State is a bet.
+The best number we found is Fresno State -2.5 at -120. We see a 1.6% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -38,17 +38,17 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
 <td>#123</td>
-<td class="btb-better">#33</td>
+<td class="btb-better">#34</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td class="btb-better">#47</td>
+<td class="btb-better">#46</td>
 <td>#74</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
-<td class="btb-better">#65</td>
-<td>#74</td>
+<td class="btb-better">#62</td>
+<td>#73</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -58,7 +58,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Defensive Eckel Rate Rank</td>
 <td class="btb-better">#5</td>
-<td>#115</td>
+<td>#116</td>
 </tr>
 </tbody>
 </table>
