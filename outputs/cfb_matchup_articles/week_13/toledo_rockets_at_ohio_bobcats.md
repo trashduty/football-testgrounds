@@ -7,13 +7,13 @@
 | Team name | Best Spread/Odds | Best Book | Cover Probability | BTB Advice |
 |---|---|---|---|---|
 | Toledo Rockets | -3.5 (+100) | FanDuel | 45.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
-| Ohio Bobcats | +2.5 (+100) | theScore Bet | 50.2% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
+| Ohio Bobcats | +3.5 (-120) | FanDuel | 54.6% | <span class="btb-advice-pill btb-advice-no-bet">No Bet</span> |
 
 ## Our Take
 
 The Toledo Rockets visit the Ohio Bobcats at Peden Stadium. We make **Ohio +2**, compared with a market line of +3.
 
-The best number we found is Ohio +2.5 at +100. We see a 0.2% edge there, but that does not clear our 3% threshold, so we are passing.
+The best number we found is Ohio +3.5 at -120. We see a 0.0% edge there, but that does not clear our 3% threshold, so we are passing.
 
 We are not trying to predict this game from one recent result. For us, the question is whether our overall expectation differs enough from the market price to create value.
 
@@ -33,7 +33,7 @@ Rather than treating any single metric as the answer, we use these numbers to se
 <tr>
 <td class="btb-stat-name">Offensive Pass EPA Rank</td>
 <td class="btb-better">#34</td>
-<td>#46</td>
+<td>#47</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Rush EPA Rank</td>
@@ -42,13 +42,13 @@ Rather than treating any single metric as the answer, we use these numbers to se
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Pass EPA Rank</td>
-<td>#52</td>
+<td>#50</td>
 <td class="btb-better">#12</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Defensive Rush EPA Rank</td>
 <td>#31</td>
-<td class="btb-better">#7</td>
+<td class="btb-better">#8</td>
 </tr>
 <tr>
 <td class="btb-stat-name">Offensive Eckel Rate Rank</td>
@@ -67,7 +67,7 @@ These ranks are across unique FBS teams over each team's last 10 games. Eckel ra
 
 ## Best Bets Of The Week
 
-Our model found edges of at least 3% on **8 games** this week.
+Our model found edges of at least 3% on **7 games** this week.
 
 Want this same view for every matchup? Members get our projected line, cover probability, edge, and best available sportsbook price across the full CFB and NFL slate at btb-analytics.com/member-access.
 

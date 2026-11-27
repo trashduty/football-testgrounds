@@ -1,6 +1,6 @@
 Our model is 2 points away from the market on Arizona State-Arizona.
 
-We make Arizona -10. The market is -8.
+We make Arizona -9.5. The market is -7.5.
 
 We see some disagreement, but the available price does not clear our threshold, so we are passing.
 
