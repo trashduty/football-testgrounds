@@ -296,7 +296,7 @@
     "def_rush_epa": -0.0296,
     "def_eckel_rate": 0.4429,
     "def_eckel_rate_oe": 0.0959,
-    "adj_off_rush_epa": -3.7921e-07,
+    "adj_off_rush_epa": -3.9155e-07,
     "adj_def_rush_epa": -0.0918,
     "adj_off_pass_epa": 0.0195,
     "adj_def_pass_epa": -0.1065,
